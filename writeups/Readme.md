@@ -1,3 +1,4 @@
 Writeups
-------------
-A collection of all of my writeups
+---------------------
+
+Just a collection of all of my writeups
