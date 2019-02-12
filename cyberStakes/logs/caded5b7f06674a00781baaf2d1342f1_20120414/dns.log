@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-55-28
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1334377348.03467	Cxfeuc2i8srq6nAvr6	192.168.36.10	1029	4.2.2.3	53	udp	48271	jollyjumperz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.6.156.194	21579.000000	F
+1334377348.510595	Cxfeuc2i8srq6nAvr6	192.168.36.10	1029	4.2.2.3	53	udp	56207	nikjju.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.210.100.242	120.000000	F
+1334377348.87353	Cxfeuc2i8srq6nAvr6	192.168.36.10	1029	4.2.2.3	53	udp	35725	www3.hardauchecker.ddns.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	75.102.21.118	31.000000	F
+1334377348.99929	Cxfeuc2i8srq6nAvr6	192.168.36.10	1029	4.2.2.3	53	udp	4748	www1.simplescannerlx.it.cx	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.23.8.104	3600.000000	F
+1334377357.277634	Cxfeuc2i8srq6nAvr6	192.168.36.10	1029	4.2.2.3	53	udp	61323	www2.simple-sentineled.it.cx	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.142.166	3600.000000	F
+1334377368.867025	CdVwPL2aUeeWyy1sWl	192.168.36.10	1029	4.2.2.3	53	udp	58250	www2.thebest-scaneruj.ddns.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.137.131	31.000000	F
+1334377401.133772	Cw0jUF2Xdt2LzmZJK6	192.168.36.10	1029	75.102.22.72	53	udp	44681	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	65.98.95.70	86400.000000	F
+#close	2014-04-03-09-55-28

@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-11-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1339847540.685216	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1339847557.851009	C2Gf5MEMc5AqIarw7	192.168.49.10	1053	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1339847557.854743	CUc2MJ2i6NIxNfOYXd	192.168.49.10	1055	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1339847557.864337	CriOBL1XZruwRJSHw2	192.168.49.10	1057	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1339847557.866453	CPf6A54FpbXQSB5nzc	192.168.49.10	1059	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1339847557.868304	CGdKat1sifRSB4rjV3	192.168.49.10	1061	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1339847558.454611	Ct8ww53XAZnD8QS499	192.168.49.10	1064	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1339847558.518473	CHSmCqu7SGSDfrCji	192.168.49.10	1068	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1339847558.537546	CwDG3N2YHiCBSwBGK7	192.168.49.10	1071	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1339847569.034849	CdRdjx2YezRaSA3Oe6	192.168.49.10	1078	31.193.12.27	80	bad_HTTP_request	-	F	bro
+1339847570.615147	CTe8JL2xZUFT1OoH9k	192.168.49.10	1082	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1339847570.616013	C7JtpKblwnJ1oAcK8	192.168.49.10	1084	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1339847570.616787	CIONI43asFvEj6itIi	192.168.49.10	1086	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+#close	2014-04-03-10-11-46

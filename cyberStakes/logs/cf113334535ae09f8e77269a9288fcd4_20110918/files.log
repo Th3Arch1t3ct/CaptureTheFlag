@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-11-13-56
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1316358417.736241	FJ4keU3fW6N1h60TCd	64.22.81.98	192.168.86.10	C2ye0Y3jwsUH9ej1F	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	1240	-	0	0	F	-	76aa26994083700529665675b8d5fe82	35d45d241dd71b962fd22a0aad9c8a4ceb419e80	-	-
+1316358419.161513	FJUVOx22ia1zgu97aa	188.229.88.82	192.168.86.10	CAdZAS3V51KAWpv471	HTTP	0	SHA1,MD5	application/x-java-applet	-	0.000000	-	F	2245	2245	0	0	F	-	118ec4f0c5745547416e12c3dff2fcfd	98e93a02e409035f2697e00d336ca66c593fb4ff	-	-
+1316358419.164526	FRvdc71B2zvzaTsi2e	188.229.88.82	192.168.86.10	CfUQ6L2LiVfIR4v8K5	HTTP	0	SHA1,MD5	application/x-java-applet	-	0.000000	-	F	2245	2245	0	0	F	-	118ec4f0c5745547416e12c3dff2fcfd	98e93a02e409035f2697e00d336ca66c593fb4ff	-	-
+1316358419.800705	FSU5WR1YnkKnBW79v8	188.229.88.82	192.168.86.10	CAdZAS3V51KAWpv471	HTTP	0	SHA1,MD5	application/x-java-applet	-	0.116413	-	F	3394	3394	0	0	F	-	805e2d3deddb0132075a9876a3d30323	a6cbaafc684302d05d13883af1287bdb2b7ada51	-	-
+1316358420.334615	FVqlb71z3D9UptiI5a	188.229.88.82	192.168.86.10	Ci83os1uEIDn5Kmhpc	HTTP	0	SHA1,MD5	application/x-dosexec	-	0.791990	-	F	74752	74752	0	0	F	-	72e14e0c107b5773f71df67a0cc6549e	dd9f1ce6bf94a48dce870cf0abd71ea241d0b91b	-	-
+1316358420.336794	FpkcvC4jvmy4zZOFDi	188.229.88.82	192.168.86.10	C5p7J1qul2f2rsfmi	HTTP	0	SHA1,MD5	application/x-dosexec	-	0.791809	-	F	74752	74752	0	0	F	-	72e14e0c107b5773f71df67a0cc6549e	dd9f1ce6bf94a48dce870cf0abd71ea241d0b91b	-	-
+1316358424.70436	FVVuAt41yxOPlDXnSh	188.229.88.82	192.168.86.10	CYzS9g1szI6r8e8end	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	169	169	0	0	F	-	fdab24723366b8b34b464016353093b8	b95bbdb81890eb8fbd595f16bd8bd650194f0d43	-	-
+#close	2014-04-03-11-13-56

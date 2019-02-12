@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-13-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1333737963.149512	C1azqj3Ayypx3KZ845	192.168.84.10	1030	203.86.237.212	80	1	GET	70win.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2617	200	OK	-	-	-	(empty)	-	-	-	-	-	FyJxXV2LOQvzJ51J42	text/html
+1333737964.12874	C3TEoe3EvusyzyUlf5	192.168.84.10	1032	174.132.194.155	80	1	GET	suraaj.in	/smiley.png	http://70win.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	302	302	Found	-	-	-	(empty)	-	-	-	-	-	FQHYfjlvet9QyzzFi	text/html
+1333737964.35835	CQl9nG3YycQQGth9H5	192.168.84.10	1033	188.190.124.75	80	1	GET	gmanandliz.com	/opentraff.php?pagpag=8e03b2a4523a5f6c	http://70win.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	18970	200	OK	-	-	-	(empty)	-	-	-	-	-	FPxkEI1cY40CVhWE66	text/html
+1333737964.23823	CC9hhN3YZKGpbgmmR5	192.168.84.10	1031	203.86.237.212	80	1	GET	70win.com	/img/bh.jpg	http://70win.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	91809	200	OK	-	-	-	(empty)	-	-	-	-	-	FujsGu4QEihqvYK271	image/jpeg
+1333737965.447432	CQl9nG3YycQQGth9H5	192.168.84.10	1033	188.190.124.75	80	2	GET	gmanandliz.com	/w.php?f=e3e6a&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	266752	200	OK	-	-	-	(empty)	-	-	-	-	-	FBbBvs1uiCJj04EiF5	application/x-dosexec
+1333737966.637187	CQl9nG3YycQQGth9H5	192.168.84.10	1033	188.190.124.75	80	3	GET	gmanandliz.com	/data/ap2.php?f=e3e6a	http://gmanandliz.com/opentraff.php?pagpag=8e03b2a4523a5f6c	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	18306	200	OK	-	-	-	(empty)	-	-	-	-	-	Fyi1ANhupp3MfMp2h	application/pdf
+1333737966.907907	Cyx1tj4ulGD1YKeTj8	192.168.84.10	1038	188.190.124.75	80	1	GET	gmanandliz.com	/data/field.swf	http://70win.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1499	200	OK	-	-	-	(empty)	-	-	-	-	-	Fi0U4b3DoCNWDLz5il	application/x-shockwave-flash
+1333737976.486859	C3DzZI2OvE5ufYZRc2	192.168.84.10	1039	188.190.124.75	80	1	GET	gmanandliz.com	/data/Pol.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	15314	200	OK	-	-	-	(empty)	-	-	-	-	-	FS3pnovTCGLU1iTQh	application/zip
+1333737979.751613	Cyx1tj4ulGD1YKeTj8	192.168.84.10	1038	188.190.124.75	80	2	GET	gmanandliz.com	/w.php?f=e3e6a&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	266752	200	OK	-	-	-	(empty)	-	-	-	-	-	FUJNZnGf0B4r9M1Uj	application/x-dosexec
+1333737980.325288	C62UHl4Et2a8mzlYP8	192.168.84.10	1040	188.190.124.75	80	1	GET	gmanandliz.com	/w.php?f=e3e6a&e=0	-	Java/1.6.0_10	0	266752	200	OK	-	-	-	(empty)	-	-	-	-	-	F4rQ29Mb6R7jDgOk6	application/x-dosexec
+#close	2014-04-03-11-13-56

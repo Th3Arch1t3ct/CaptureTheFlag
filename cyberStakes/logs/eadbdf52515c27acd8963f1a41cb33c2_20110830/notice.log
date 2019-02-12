@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-00-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1314735452.965377	CKnBe2CKiRsbvMVbk	192.168.29.10	1031	178.170.147.6	80	FsGhJv1Lx8njDunWt5	application/x-dosexec	http://lifepokerstarson.com/w.php?f=19&e=6	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2011-09-03 02:19:52	https://www.virustotal.com/en/search/?query=5207533a4b690a9899b2e57c6207a6907af0bdcf	192.168.29.10	178.170.147.6	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1314735453.799276	CjqFxjkw0Bo6P9Sse	192.168.29.10	1048	178.170.147.6	80	FdBSPW2dXFpNVYYZJc	application/x-dosexec	http://lifepokerstarson.com/w.php?f=19&e=1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2011-09-03 02:19:52	https://www.virustotal.com/en/search/?query=5207533a4b690a9899b2e57c6207a6907af0bdcf	192.168.29.10	178.170.147.6	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-00-19

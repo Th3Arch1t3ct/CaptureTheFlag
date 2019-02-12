@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-51-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1356723603.80978	CWD0QwAEWbw291y4j	192.168.31.10	1043	37.143.9.123	80	FM0nvi1BbEMeJIbF0e	application/x-dosexec	http://blezdgl.dns-stuff.com/system/combinations/scan_shut-observing.php?of=1f:31:1n:1l:32&fe=33:1f:30:1j:1m:1n:2v:1k:1o:31&e=1f&cu=g&ng=x	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 55%  Last seen: 2013-06-06 17:36:03	https://www.virustotal.com/en/search/?query=5ced6b73d8a82b765c8c12b0073c8d9dc580bed8	192.168.31.10	37.143.9.123	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-51-04

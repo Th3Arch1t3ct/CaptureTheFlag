@@ -1,0 +1,28 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-10-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1368960715.791599	CqNhEtNNg9l0wIIge	192.168.30.10	1030	65.13.54.33	80	1	GET	18542home.is-by.us	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3233	200	OK	-	-	-	(empty)	-	-	-	-	-	FQ02Y1TWZYyD4N8B8	text/html
+1368960717.113903	CqNhEtNNg9l0wIIge	192.168.30.10	1030	65.13.54.33	80	2	GET	18542home.is-by.us	/webcamera.html	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6174	200	OK	-	-	-	(empty)	-	-	-	-	-	FRTmgE1S1Ni6c8PCxf	text/html
+1368960717.336418	CGEUam2wt5stggxeI1	192.168.30.10	1031	65.13.54.33	80	1	GET	18542home.is-by.us	/server.js	http://18542home.is-by.us/webcamera.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	25	200	OK	-	-	-	(empty)	-	-	-	-	-	FD8ivC8P214lTApM4	text/plain
+1368960718.407579	CqNhEtNNg9l0wIIge	192.168.30.10	1030	65.13.54.33	80	3	GET	18542home.is-by.us	/script/protocol.js	http://18542home.is-by.us/webcamera.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	24081	200	OK	-	-	-	(empty)	-	-	-	-	-	FU5nT32EbG97igSdg	text/plain
+1368960719.18108	CGEUam2wt5stggxeI1	192.168.30.10	1031	65.13.54.33	80	2	GET	18542home.is-by.us	/script/main.js	http://18542home.is-by.us/webcamera.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	17940	200	OK	-	-	-	(empty)	-	-	-	-	-	FL1ytc1QB3mxgz7gnc	text/plain
+1368960719.755596	CqNhEtNNg9l0wIIge	192.168.30.10	1030	65.13.54.33	80	4	GET	18542home.is-by.us	/script/login.js	http://18542home.is-by.us/webcamera.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	8717	200	OK	-	-	-	(empty)	-	-	-	-	-	FA3ur11yx6psEpifzg	text/plain
+1368960720.096098	CGEUam2wt5stggxeI1	192.168.30.10	1031	65.13.54.33	80	3	GET	18542home.is-by.us	/script/flush_string.js	http://18542home.is-by.us/webcamera.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	867	200	OK	-	-	-	(empty)	-	-	-	-	-	FBPZKe4qu17TT4lHf1	text/plain
+1368960720.424362	CqNhEtNNg9l0wIIge	192.168.30.10	1030	65.13.54.33	80	5	GET	18542home.is-by.us	/script/Load_WebKit.js	http://18542home.is-by.us/webcamera.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	872	200	OK	-	-	-	(empty)	-	-	-	-	-	F59MVPIJn2MBiSytd	text/plain
+1368960720.769228	CGEUam2wt5stggxeI1	192.168.30.10	1031	65.13.54.33	80	4	GET	18542home.is-by.us	/logo/logo.js	http://18542home.is-by.us/webcamera.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	92	200	OK	-	-	-	(empty)	-	-	-	-	-	FrGvILaGl5wTyXVke	text/plain
+1368960721.094563	CqNhEtNNg9l0wIIge	192.168.30.10	1030	65.13.54.33	80	6	GET	18542home.is-by.us	/css_style/uistyle.js	http://18542home.is-by.us/webcamera.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2174	200	OK	-	-	-	(empty)	-	-	-	-	-	FbhQuG3M6wwljyfYNj	text/plain
+1368960721.313741	CGEUam2wt5stggxeI1	192.168.30.10	1031	65.13.54.33	80	5	GET	18542home.is-by.us	/script/ctrl_multi_edit.js	http://18542home.is-by.us/webcamera.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5619	200	OK	-	-	-	(empty)	-	-	-	-	-	F9cnjB4n5YMxn8Zlbi	text/plain
+1368960721.597899	CGEUam2wt5stggxeI1	192.168.30.10	1031	65.13.54.33	80	6	GET	18542home.is-by.us	/css_style/navigation.css	http://18542home.is-by.us/webcamera.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	17505	200	OK	-	-	-	(empty)	-	-	-	-	-	FsrOnZ2GNiG00zNXjb	text/plain
+1368960721.597411	CqNhEtNNg9l0wIIge	192.168.30.10	1030	65.13.54.33	80	7	GET	18542home.is-by.us	/css_style/mystyle.css	http://18542home.is-by.us/webcamera.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5004	200	OK	-	-	-	(empty)	-	-	-	-	-	FKTgUH1FOd9FKcyuf4	text/plain
+1368960722.26826	CGEUam2wt5stggxeI1	192.168.30.10	1031	65.13.54.33	80	7	GET	18542home.is-by.us	/css_style/uistyle.css	http://18542home.is-by.us/webcamera.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7763	200	OK	-	-	-	(empty)	-	-	-	-	-	FvkMNO1eWMytnQ5FSl	text/plain
+1368960722.287184	CqNhEtNNg9l0wIIge	192.168.30.10	1030	65.13.54.33	80	8	GET	18542home.is-by.us	/res/wait.gif	http://18542home.is-by.us/webcamera.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3097	200	OK	-	-	-	(empty)	-	-	-	-	-	F8fxdL3vRXjSR5MYPj	image/gif
+1368960722.620996	CqNhEtNNg9l0wIIge	192.168.30.10	1030	65.13.54.33	80	9	GET	18542home.is-by.us	/res/bg.png	http://18542home.is-by.us/webcamera.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	851	200	OK	-	-	-	(empty)	-	-	-	-	-	F0lXQQ2awACYiGsbc4	image/png
+1368960722.620701	CGEUam2wt5stggxeI1	192.168.30.10	1031	65.13.54.33	80	8	GET	18542home.is-by.us	/WebClient.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	911192	200	OK	-	-	-	(empty)	-	-	-	-	-	FUKVeI3Ol8clxq265b	application/x-dosexec
+1368960745.363484	CEoFrwkE2CoYICsG1	192.168.30.10	1036	108.162.232.7	80	1	GET	crl.globalsign.net	/root.crl	-	Microsoft-CryptoAPI/5.131.2600.2180	0	469	200	OK	-	-	-	(empty)	-	-	-	-	-	FRAVZG3oSF3Y5WFvJe	binary
+1368960745.408086	CglJgYdmKd9DCNBhe	192.168.30.10	1037	108.162.232.7	80	1	GET	crl.globalsign.com	/gs/gscodesigng2.crl	-	Microsoft-CryptoAPI/5.131.2600.2180	0	2912	200	OK	-	-	-	(empty)	-	-	-	-	-	Fdh9va3VUZYBPdjvk8	binary
+#close	2014-04-03-11-10-54

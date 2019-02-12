@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-13-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1357946441.271039	CSTYQp3jJOQkBkq2S	192.168.83.10	1029	4.2.2.3	53	udp	20367	allowabledbeauty.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.170.52.31,93.170.52.21	300.000000,300.000000	F
+1357946441.686997	CSTYQp3jJOQkBkq2S	192.168.83.10	1029	4.2.2.3	53	udp	41356	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.229.163,74.125.229.174,74.125.229.167,74.125.229.162,74.125.229.164,74.125.229.161,74.125.229.168,74.125.229.166,74.125.229.169,74.125.229.165,74.125.229.160	66628.000000,120.000000,120.000000,120.000000,120.000000,120.000000,120.000000,120.000000,120.000000,120.000000,120.000000,120.000000	F
+1357946441.692762	CSTYQp3jJOQkBkq2S	192.168.83.10	1029	4.2.2.3	53	udp	60301	tedmjz.umesiq.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	urlforward.topdns.com,72.8.167.249,199.59.160.184	3600.000000,3600.000000,3600.000000	F
+1357946442.319611	CSTYQp3jJOQkBkq2S	192.168.83.10	1029	4.2.2.3	53	udp	43147	fbstatic-a.akamaihd.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fbstatic-a.akamaihd.net.edgesuite.net,a1168.dsw4.akamai.net,204.93.63.16,204.93.62.227,204.93.62.242	215.000000,288.000000,3.000000,3.000000,3.000000	F
+#close	2014-04-03-10-13-26

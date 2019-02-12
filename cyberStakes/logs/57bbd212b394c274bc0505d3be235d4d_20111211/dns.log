@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-02-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1323624730.350292	Cmt0Hk4fiB527Pr0th	192.168.41.10	1029	4.2.2.3	53	udp	50573	gofoo.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	97.74.215.236	3580.000000	F
+1323624730.53587	Cmt0Hk4fiB527Pr0th	192.168.41.10	1029	4.2.2.3	53	udp	32399	allegiantcare.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.137.237.67	3600.000000	F
+1323624747.779355	CBrWRu3U7zl2rzQzY8	192.168.41.10	1029	4.2.2.3	53	udp	28558	vampkeys.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.24.246.7,221.13.79.58,58.128.228.1,60.19.30.135	300.000000,300.000000,300.000000,300.000000	F
+1323624759.38068	CwBL6s1YHhDVbhKLij	192.168.41.10	1029	4.2.2.3	53	udp	27278	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.75.27,69.31.75.17	12281.000000,264.000000,18161.000000,9.000000,9.000000	F
+1323624777.393548	C2oyuv1uqwnHhEKmNl	192.168.41.10	1029	4.2.2.3	53	udp	63625	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.159.103,74.125.159.104,74.125.159.105,74.125.159.106,74.125.159.147,74.125.159.99	4903.000000,88.000000,88.000000,88.000000,88.000000,88.000000,88.000000	F
+1323624777.423525	C2oyuv1uqwnHhEKmNl	192.168.41.10	1029	4.2.2.3	53	udp	13963	pighair.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	221.13.79.58,58.128.228.1,60.19.30.135,217.24.246.7	300.000000,300.000000,300.000000,300.000000	F
+#close	2014-04-03-11-02-56

@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-36-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1327212731.512476	CJKNdM06nBUOqt7Rc	192.168.89.10	1030	211.121.198.18	80	1	GET	39rngr.frontscheeky.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1327212732.373451	CPM1Ue25HPaPOtZasd	192.168.89.10	1031	50.18.158.185	80	1	GET	8queen.net	/main.php?id=7ba7cfd9c278b295	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	80003	200	OK	-	-	-	(empty)	-	-	-	-	-	F0fO929afunuKFq33	text/html
+1327212742.869604	CPM1Ue25HPaPOtZasd	192.168.89.10	1031	50.18.158.185	80	2	GET	8queen.net	/w.php?f=23&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	81408	200	OK	-	-	-	(empty)	-	-	-	-	-	FOYwYa2PdsBIUI3eD	application/x-dosexec
+1327212744.560943	CPM1Ue25HPaPOtZasd	192.168.89.10	1031	50.18.158.185	80	3	GET	8queen.net	/content/fdp2.php?f=23	http://8queen.net/main.php?id=7ba7cfd9c278b295	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	90176	200	OK	-	-	-	(empty)	-	-	-	-	-	Fg9G7X3vuZaK6ZL3bi	application/pdf
+1327212750.764482	ChlhQGHDeG7aZ4TLg	192.168.89.10	1037	8.12.218.126	80	1	GET	www.download.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/authrootseq.txt	-	Microsoft-CryptoAPI/5.131.2600.2180	0	18	200	OK	-	-	-	(empty)	-	-	-	-	-	F7m6bM3xJi9DwfbOJf	text/plain
+1327212750.782523	ChlhQGHDeG7aZ4TLg	192.168.89.10	1037	8.12.218.126	80	2	GET	www.download.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/authrootstl.cab	-	Microsoft-CryptoAPI/5.131.2600.2180	0	47186	200	OK	-	-	-	(empty)	-	-	-	-	-	FnAN6K3uirhu7hnDwd	application/vnd.ms-cab-compressed
+1327212760.723473	CetUROQLx9dHpOrt	192.168.89.10	1038	50.18.158.185	80	1	GET	8queen.net	/content/field.swf	http://8queen.net/main.php?id=7ba7cfd9c278b295	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1464	200	OK	-	-	-	(empty)	-	-	-	-	-	FIFTWB1w1ja4KjxwNj	application/x-shockwave-flash
+1327212760.903808	ClVNOh47vIH7bSR971	192.168.89.10	1039	50.18.158.185	80	1	GET	8queen.net	/content/v1.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4408	200	OK	-	-	-	(empty)	-	-	-	-	-	FMTOms2he2uyOu74s7	application/zip
+1327212760.383783	CPM1Ue25HPaPOtZasd	192.168.89.10	1031	50.18.158.185	80	4	GET	8queen.net	/w.php?f=23&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	81408	200	OK	-	-	-	(empty)	-	-	-	-	-	FrkuFV5AwCVBJDhuj	application/x-dosexec
+1327212768.853512	ChqYop3NkGZIZ8wUEc	192.168.89.10	1041	74.125.47.103	80	1	GET	google.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	219	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FdzeGU2vSHZubXBYch	text/html
+1327212768.87079	CaMxNh2uyutPAG7Odd	192.168.89.10	1042	74.125.157.147	80	1	GET	www.google.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	19317	200	OK	-	-	-	(empty)	-	-	-	-	-	FTqItY13BFEdFrUyQf	text/html
+1327212769.193395	CaMxNh2uyutPAG7Odd	192.168.89.10	1042	74.125.157.147	80	2	GET	www.google.com	/intl/en_ALL/images/srpr/logo1w.png	http://www.google.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7330	200	OK	-	-	-	(empty)	-	-	-	-	-	FJlBGA21izHfk1YwE9	image/png
+1327212769.209701	CaMxNh2uyutPAG7Odd	192.168.89.10	1042	74.125.157.147	80	3	GET	www.google.com	/images/srpr/nav_logo80.png	http://www.google.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	35636	200	OK	-	-	-	(empty)	-	-	-	-	-	FXVDJZ6GKoeX7Scz6	image/png
+1327212769.227596	CaMxNh2uyutPAG7Odd	192.168.89.10	1042	74.125.157.147	80	4	GET	www.google.com	/images/mgyhp_sm.png	http://www.google.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	331	200	OK	-	-	-	(empty)	-	-	-	-	-	FxBXfZ1SW3koeoxDS7	image/png
+1327212769.41991	CaMxNh2uyutPAG7Odd	192.168.89.10	1042	74.125.157.147	80	5	GET	www.google.com	/extern_js/f/CgJlbhICdXMrMEU4ACwrMFo4ACwrMA44ACwrMBc4ACwrMDw4ACwrMFE4ACwrMAo4AJoCAmhlLCswmAE4ACwrMBY4ACwrMBk4ACwrMCU4ACwrMDU4ACwrMEE4ACwrME04ACwrME44ACwrMFQ4ACwrMGk4ACwrMJABOAAsKzCSATgALCswrAE4ACwrMNEBOAAsKzAYOAAsKzAmOAAsgAJQkAJh/2EVxIHISdZ8.js	http://www.google.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	145250	200	OK	-	-	-	(empty)	-	-	-	-	-	FD0SFZ1c7JQ1qGZHRd	text/plain
+1327212769.467465	CaMxNh2uyutPAG7Odd	192.168.89.10	1042	74.125.157.147	80	6	GET	www.google.com	/compressiontest/gzip.html	http://www.google.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	941	200	OK	-	-	-	(empty)	-	-	-	-	-	FEUeMF4GNoAtv56BG3	text/html
+1327212769.567857	CaMxNh2uyutPAG7Odd	192.168.89.10	1042	74.125.157.147	80	7	GET	www.google.com	/csi?v=3&s=webhp&action=&e=35507,35775,35900,36000,36045,36070&ei=a6gbT5-oNYmztwff7eGyCw&imc=2&imn=2&imp=2&rt=xjsls.63,prt.63,ol.141,iml.125,xjses.281,xjsee.344,xjs.391	http://www.google.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	204	No Content	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-10-36-57

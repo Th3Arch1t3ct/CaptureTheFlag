@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-50-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1388170580.773887	C55K273kNeUeR2P8e3	192.168.34.10	1035	4.2.2.3	53	udp	13728	sevgibahcesi74.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.73.153.194	14341.000000	F
+1388170581.943648	C55K273kNeUeR2P8e3	192.168.34.10	1035	4.2.2.3	53	udp	25760	www.flatcast.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	flatcast.com,92.51.180.143	10800.000000,10800.000000	F
+1388170584.643718	C55K273kNeUeR2P8e3	192.168.34.10	1035	4.2.2.3	53	udp	37027	download.flatcast.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.51.180.142	86400.000000	F
+1388170590.394702	C55K273kNeUeR2P8e3	192.168.34.10	1035	4.2.2.3	53	udp	25506	crl.globalsign.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	108.162.232.207,108.162.232.201,108.162.232.204,108.162.232.200,108.162.232.202,108.162.232.196,108.162.232.197,108.162.232.198,108.162.232.199,108.162.232.206,108.162.232.205,108.162.232.203	5.000000,5.000000,5.000000,5.000000,5.000000,5.000000,5.000000,5.000000,5.000000,5.000000,5.000000,5.000000	F
+1388170590.577022	C55K273kNeUeR2P8e3	192.168.34.10	1035	4.2.2.3	53	udp	61349	www.download.windowsupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.download.windowsupdate.nsatc.net,main.dl.wu.akadns.net,dom.dl.wu.akadns.net,dl.wu.ms.edgesuite.net,a26.d.akamai.net,23.212.52.58,23.212.52.65	1281.000000,545.000000,252.000000,267.000000,9621.000000,6.000000,6.000000	F
+#close	2014-04-03-09-50-33

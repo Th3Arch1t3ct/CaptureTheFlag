@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-54-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1316456346.368627	CXhPXzXhqy3URLi1h	192.168.90.10	1029	4.2.2.3	53	udp	46480	takbaischool.ac.th	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	124.109.2.77	14373.000000	F
+1316456348.124885	CXhPXzXhqy3URLi1h	192.168.90.10	1029	4.2.2.3	53	udp	1936	guru.sanook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	203.107.165.211	30.000000	F
+1316456349.25306	CXhPXzXhqy3URLi1h	192.168.90.10	1029	4.2.2.3	53	udp	3731	dir.sanook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	203.107.164.217	300.000000	F
+1316456349.257503	CJSlxH1fQ7wWS1NaG8	192.168.90.10	1039	4.2.2.3	53	udp	58258	www.kroobannok.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	61.19.246.35	14400.000000	F
+1316456350.360352	CXhPXzXhqy3URLi1h	192.168.90.10	1029	4.2.2.3	53	udp	19602	rhugplgb.cz.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.146.43.252	0.000000	F
+1316456351.654402	CXhPXzXhqy3URLi1h	192.168.90.10	1029	4.2.2.3	53	udp	26004	campseeker.cu.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.208.34.117	3600.000000	F
+1316456356.173349	CXhPXzXhqy3URLi1h	192.168.90.10	1029	4.2.2.3	53	udp	23188	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	14.000000,237.000000	F
+1316456356.363416	CXhPXzXhqy3URLi1h	192.168.90.10	1029	4.2.2.3	53	udp	17559	adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.150.16.117	21857.000000	F
+1316456356.435474	CXhPXzXhqy3URLi1h	192.168.90.10	1029	4.2.2.3	53	udp	24214	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	1555.000000,600.000000	F
+1316456356.512078	CXhPXzXhqy3URLi1h	192.168.90.10	1029	4.2.2.3	53	udp	64408	joelsiegel.cu.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.208.34.117	3600.000000	F
+1316456398.880121	CJnYXK1O37qY3dujL8	192.168.90.10	1080	8.8.8.8	53	udp	4233	97.36.217.74.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-09-54-56

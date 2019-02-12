@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-56-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1322002583.875983	C7cfFz1gt6wCe54zla	192.168.88.10	1029	4.2.2.3	53	udp	32657	reliefforstress.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.175.66.250	14379.000000	F
+1322002584.055599	C7cfFz1gt6wCe54zla	192.168.88.10	1029	4.2.2.3	53	udp	41104	ausrxvia1epmd.ce.ms	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.223.89.92	35207.000000	F
+1322002587.341113	C7cfFz1gt6wCe54zla	192.168.88.10	1029	4.2.2.3	53	udp	17555	crawlx32d23.chickenkiller.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.62.213.233,112.135.29.22,187.90.59.44,188.167.19.245	2566.000000,2566.000000,2566.000000,2566.000000	F
+#close	2014-04-03-09-56-58

@@ -1,0 +1,33 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-30-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1325217281.59515	CrBK4E4yGyZtLToyg3	192.168.29.10	1030	182.160.45.222	80	1	GET	5c4hpy.expertsconcede.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1325217283.596435	C8BJqo4E6rIqu4sWme	192.168.29.10	1031	95.163.89.228	80	1	GET	abrio.in	/main.php?id=009f6913ce764a0e	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	97568	200	OK	-	-	-	(empty)	-	-	-	-	-	FRlUFf2epAgHGkrbgh	text/html
+1325217294.374269	C8BJqo4E6rIqu4sWme	192.168.29.10	1031	95.163.89.228	80	2	GET	abrio.in	/w.php?f=18&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	107008	200	OK	-	-	-	(empty)	-	-	-	-	-	FAWyYY1C7wZn3JbNx7	application/x-dosexec
+1325217295.929017	C8BJqo4E6rIqu4sWme	192.168.29.10	1031	95.163.89.228	80	3	GET	abrio.in	/content/fdp2.php?f=18	http://abrio.in/main.php?id=009f6913ce764a0e	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	95196	200	OK	-	-	-	(empty)	-	-	-	-	-	FbzCNn2PsEgl0bGwOb	application/pdf
+1325217297.712871	CHRYRZ392JKcfHwmo2	192.168.29.10	1036	95.163.89.228	80	1	GET	abrio.in	/content/field.swf	http://abrio.in/main.php?id=009f6913ce764a0e	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1416	200	OK	-	-	-	(empty)	-	-	-	-	-	F00yN12WbWl8kLz5rk	application/x-shockwave-flash
+1325217300.729444	C1RpAQ3RjQKhwN8shd	192.168.29.10	1037	79.137.226.91	80	1	POST	onlinesecurytytests.ru	/mev/in/	-	Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)	109	335940	200	OK	-	-	-	(empty)	-	-	-	F4eA8S2WfsUWyvmSh7	binary	Frx9163jgQRfFQyex4	binary
+1325217304.561073	C0DmSS1kLI8n8rJRY3	192.168.29.10	1039	79.137.226.91	80	1	POST	onlinesecurytytests.ru	/mev/in/	-	Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)	671	4	200	OK	-	-	-	(empty)	-	-	-	FJkkuq3QmbJmfXCIPf	binary	FLhABw4lzvy73Gfitl	binary
+1325217305.146751	CBxA7v4tfeQ5MXCufg	192.168.29.10	1041	79.137.226.91	80	1	POST	onlinesecurytytests.ru	/mev/in/	-	Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)	144	4	200	OK	-	-	-	(empty)	-	-	-	FCtlCC19grkKc8rk4k	binary	FP9hNZ25TDt6RjvqA5	binary
+1325217306.332573	CcEftw3qtdaApW6So2	192.168.29.10	1043	79.137.226.91	80	1	POST	onlinesecurytytests.ru	/mev/in/	-	Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)	502	4	200	OK	-	-	-	(empty)	-	-	-	F4dKXJ3oYtBD950nt6	binary	FNrPEu1VHjtZfdVgFi	binary
+1325217306.796913	Cw9hHw1jXw4rtK6j2f	192.168.29.10	1044	79.137.226.91	80	1	POST	onlinesecurytytests.ru	/mev/in/	-	Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)	110	4	200	OK	-	-	-	(empty)	-	-	-	FmKJc41llOT5XFrd4g	binary	Fqp2uqhk6o1lcIqzh	binary
+1325217307.304509	ClYTLS1BT102Yb9mY3	192.168.29.10	1045	79.137.226.91	80	1	POST	onlinesecurytytests.ru	/mev/in/	-	Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)	111	4	200	OK	-	-	-	(empty)	-	-	-	Fnforh272WQJD656Q4	binary	FdldRPJJGTyXwupr8	binary
+1325217307.86727	Cu1Jiv46oFesN8yjgg	192.168.29.10	1047	64.209.36.18	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1568	200	OK	-	-	-	(empty)	-	-	-	-	-	FbKENm3jKVUmGLbNhe	text/html
+1325217307.998392	CMVtl82dqtb8ftSiKb	192.168.29.10	1048	74.125.65.103	80	1	GET	google.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	219	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	F5Tc4g2N9gO2KH0jv9	text/html
+1325217308.009749	C1kS0c1T47TX8CTSP	192.168.29.10	1049	74.125.65.103	80	1	GET	www.google.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	15376	200	OK	-	-	-	(empty)	-	-	-	-	-	FdYZXq2EkocfY4KbD	text/html
+1325217307.847926	CZxe5f4uJwJSWMno95	192.168.29.10	1046	79.137.226.91	80	1	POST	onlinesecurytytests.ru	/mev/in/	-	Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)	111	4	200	OK	-	-	-	(empty)	-	-	-	FsXl481NPVrR0WfNP3	binary	FJlZ1R3oP2cO73had	binary
+1325217307.965923	CRuOAw1MIYXDtvwN1f	192.168.29.10	1038	95.163.89.228	80	1	GET	abrio.in	/content/v1.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3654	200	OK	-	-	-	(empty)	-	-	-	-	-	FrWdIn3BOgRUZBhT96	application/zip
+1325217307.84042	C8BJqo4E6rIqu4sWme	192.168.29.10	1031	95.163.89.228	80	4	GET	abrio.in	/content/score.swf	http://abrio.in/content/field.swf	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6804	200	OK	-	-	-	(empty)	-	-	-	-	-	FDAshE2RZYUh6NtHph	application/x-shockwave-flash
+1325217308.521449	Cja7iw33kO5PVzkH9	192.168.29.10	1050	79.137.226.91	80	1	POST	onlinesecurytytests.ru	/mev/in/	-	Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)	671	4	200	OK	-	-	-	(empty)	-	-	-	Fil7Vj1Ajjx6mJuQ1i	binary	Fs739J2FIFCLEVR3U2	binary
+1325217309.173312	CJW4iF379y6bzM3k3b	192.168.29.10	1051	79.137.226.91	80	1	POST	onlinesecurytytests.ru	/mev/in/	-	Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)	144	4	200	OK	-	-	-	(empty)	-	-	-	F7hSMehGrBx1udkoe	binary	FGJnVh3rqTGqnpSjqa	binary
+1325217309.624179	CZZebl1WKbZKZ5Xsxf	192.168.29.10	1052	79.137.226.91	80	1	POST	onlinesecurytytests.ru	/mev/in/	-	Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)	502	4	200	OK	-	-	-	(empty)	-	-	-	FhByVo4pwMFwXqU98h	binary	FRb4c91eZ3M4UUJn1e	binary
+1325217313.002791	CQeEUh2uLNwHO6B4v4	192.168.29.10	1053	79.137.226.91	80	1	POST	onlinesecurytytests.ru	/mev/in/	-	Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)	111	4	200	OK	-	-	-	(empty)	-	-	-	Fi3QssKMzwCWWLbt5	binary	FxUaOp4KbmLE2zk2P2	binary
+1325217306.125593	CkcXtQ3MvunswyyWgd	192.168.29.10	1042	98.231.96.134	80	1	GET	jafrjjpgz.ce.ms	/qkosta1.exe	-	-	0	817664	200	Ok	-	-	-	(empty)	-	-	-	-	-	FTRsmc12C2AOlggdjl	application/x-dosexec
+1325217313.446702	COaTTD47IzpA7cH2h3	192.168.29.10	1054	79.137.226.91	80	1	POST	onlinesecurytytests.ru	/mev/in/	-	Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)	118	24	200	OK	-	-	-	(empty)	-	-	-	FNWVh43J3ShvuGssg8	binary	FkAjClXHud0h7WXd4	binary
+1325217319.121952	CZNsH1287G9yiz8iCc	192.168.29.10	1058	75.134.164.253	80	1	GET	75.134.164.253	/PFUMqNLGkZoFCg.htm	-	Mozilla/5.0 (Windows; U; Win 9x 4.90; rv:1.7) Gecko/20041103 Firefox/0.9.3	3603	0	-	-	-	-	-	(empty)	-	-	-	FD4Bea4g3QyqkVPjD8	binary	-	-
+#close	2014-04-03-10-30-46

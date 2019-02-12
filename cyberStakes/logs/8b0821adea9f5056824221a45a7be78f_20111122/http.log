@@ -1,0 +1,50 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-09-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1321986651.369189	C0Gxou2WyK65fiAfmh	192.168.38.10	1030	95.168.165.225	80	1	GET	besttelecom.info	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	238	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	Fjotmd2s3ISOuZhYji	text/html
+1321986651.506323	CSnTf42kBwTFkyJRfj	192.168.38.10	1031	149.255.33.228	80	1	GET	vipservice8.in	/?site=14	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1321986651.882675	CaCbOE1KEFoIjCCZok	192.168.38.10	1032	109.123.116.51	80	1	GET	googleads4.in	/redir.html	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	349	200	OK	-	-	-	(empty)	-	-	-	-	-	FJNcKN3CvKyEMayMva	text/html
+1321986652.117818	CSrKnW2vm6TeG3bg12	192.168.38.10	1036	109.123.116.51	80	1	GET	googleads4.in	/in.cgi?default	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	176	302	Found	-	-	-	(empty)	-	-	-	-	-	FLN0FD8KBI9c4PKxd	text/html
+1321986652.365546	C4QILa3ZJF9YOJ5Jj5	192.168.38.10	1037	109.236.82.74	80	1	GET	redirportal1.info	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	235	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FXw1on3ukfucUTe0l	text/html
+1321986652.607298	C22Xvt2BuyX0UoPxqh	192.168.38.10	1038	109.236.82.77	80	1	GET	aeroclub2.in	/?site=1	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	152	200	OK	-	-	-	(empty)	-	-	-	-	-	FyUZDc2ONWStJEzbyb	text/html
+1321986654.508727	CQsfuE1DJqWpfqUKnk	192.168.38.10	1043	109.236.82.77	80	1	GET	aeroclub2.in	/?7164223ade9ae5c522a7bfc1f5369d77	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3971	200	OK	-	-	-	(empty)	-	-	-	-	-	FxEPSI1GQJdO6k71Xe	application/jar
+1321986654.731214	CAoyyB1VUqBbJNtG5h	192.168.38.10	1044	109.236.82.77	80	1	GET	aeroclub2.in	/?7164223ade9ae5c522a7bfc1f5369d77	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3971	200	OK	-	-	-	(empty)	-	-	-	-	-	FZwHQx1rFEQYJ7QaSg	application/jar
+1321986655.011517	CgNrSi24hjKOVSD2kh	192.168.38.10	1045	109.236.82.77	80	1	GET	aeroclub2.in	/?7164223ade9ae5c522a7bfc1f5369d77	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3971	200	OK	-	-	-	(empty)	-	-	-	-	-	FhhBxt4aJVe7i31RA5	application/jar
+1321986655.284951	C4MkA62gZfYuJ0Tiyj	192.168.38.10	1046	109.236.82.77	80	1	GET	aeroclub2.in	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FpgNRo4c5NMhm3dsVh	text/html
+1321986655.4925	C2oUAD1YR6bslxXAsk	192.168.38.10	1047	109.236.82.77	80	1	GET	aeroclub2.in	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FqAzQ72HGDuvyMwYsa	text/html
+1321986655.717212	CcTy2y1orLebhvJbQg	192.168.38.10	1048	109.236.82.77	80	1	GET	aeroclub2.in	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FaRjr04xGSsKiBhnj6	text/html
+1321986655.923872	CsOM7k2OpsZ7tiVdo4	192.168.38.10	1049	109.236.82.77	80	1	GET	aeroclub2.in	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Fu2W6h1l5kcDqdsFRe	text/html
+1321986656.546595	CA2byw223QJdrar1b2	192.168.38.10	1050	109.236.82.77	80	1	GET	aeroclub2.in	/?4c6817b1468d2b37e7215ed1245caa4e	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	57344	200	OK	-	-	-	(empty)	-	-	-	-	-	FdHwHucuXEJWeeJw7	application/x-dosexec
+1321986657.527402	COQwKZ2S5UDYWrh9M1	192.168.38.10	1052	205.209.141.137	80	1	GET	www.webreiseinfo.com	/1433.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	450560	200	OK	-	-	-	(empty)	-	-	-	-	-	Fpr8h8VoUHcviOEIh	application/x-dosexec
+1321986659.344483	Cw1M4c34ikxP88Aco5	192.168.38.10	1053	205.209.149.226	80	1	POST	www.winupdate1.info	/setupreport.php	hiddenguest	-	22	2	200	OK	-	-	-	(empty)	-	-	-	FwAvtr159wdeDrgvZh	text/plain	FhCyWP3F2e0VJzSYEk	text/plain
+1321986659.502035	CSjYVp2VW5Ka0uB7gh	192.168.38.10	1054	205.209.149.226	80	1	POST	www.winupdate1.info	/setupreport.php	hiddenguest	-	83	2	200	OK	-	-	-	(empty)	-	-	-	Fb3JX81belVqHxe8d	text/plain	FblkOz29lsdaB8swbi	text/plain
+1321986659.656904	C0HJt72jF9cm9cpEwj	192.168.38.10	1055	205.209.149.226	80	1	POST	www.winupdate1.info	/setupreport.php	hiddenguest	-	14	2	200	OK	-	-	-	(empty)	-	-	-	FxBlrt4vTnJ7EE3Rhh	text/plain	FwDoYsUSCeCHVX6n7	text/plain
+1321986659.813407	CQQZQD1BkeKGtII7uk	192.168.38.10	1056	205.209.149.226	80	1	POST	www.winupdate1.info	/setupreport.php	hiddenguest	-	20	2	200	OK	-	-	-	(empty)	-	-	-	FOcTr346s6QjmseBJ4	text/plain	FmTBPA44mCHzKozWda	text/plain
+1321986659.969455	CEwVLx17l3YmJZ74Ug	192.168.38.10	1057	205.209.149.226	80	1	POST	www.winupdate1.info	/setupreport.php	hiddenguest	-	64	2	200	OK	-	-	-	(empty)	-	-	-	Ffbvho2cDYYk3PxVxj	text/plain	FYRBtqs1Y87u4yNCk	text/plain
+1321986660.127545	CIJIcj2fQqkuTW8ns4	192.168.38.10	1058	205.209.149.226	80	1	POST	www.winupdate1.info	/setupreport.php	hiddenguest	-	42	2	200	OK	-	-	-	(empty)	-	-	-	FKnZBn3ZrGCaHLX6Zc	text/plain	FB5fgx1pzc9fvtmc1c	text/plain
+1321986660.283111	CWe6Lv2JxMt28T67c2	192.168.38.10	1059	205.209.149.226	80	1	POST	www.winupdate1.info	/setupreport.php	hiddenguest	-	267	2	200	OK	-	-	-	(empty)	-	-	-	Fke8AB4OHBjYzydso7	text/plain	FeBEuP1fm40y5Sstjk	text/plain
+1321986660.440185	Ce3wsZ2ZZe1n0Ea6L1	192.168.38.10	1060	205.209.149.226	80	1	POST	www.winupdate1.info	/setupreport.php	hiddenguest	-	17	2	200	OK	-	-	-	(empty)	-	-	-	F5q0Yu3vdAEBLBo7Wi	text/plain	F7NC9u4ccLlxX796Y4	text/plain
+1321986660.642459	CQUqoc3DGryCT6abk5	192.168.38.10	1061	205.209.149.226	80	1	POST	www.winupdate1.info	/setupreport.php	hiddenguest	-	15	2	200	OK	-	-	-	(empty)	-	-	-	F7cL1A4UwjdPGvYzsb	text/plain	FhwIFpSwzqGdi5Phl	text/plain
+1321986661.422586	Ck5CJq227WK3aCan6j	192.168.38.10	1062	205.209.149.226	80	1	POST	www.winupdate1.info	/setupreport.php	hiddenguest	-	22	2	200	OK	-	-	-	(empty)	-	-	-	Fnq0G02ndoi6hrcZNb	text/plain	Fx3GbLGGLSAXIfMtc	text/plain
+1321986661.579135	C92KQP1k6UzsYWZY1l	192.168.38.10	1063	205.209.149.226	80	1	POST	www.winupdate1.info	/setupreport.php	hiddenguest	-	58	2	200	OK	-	-	-	(empty)	-	-	-	FBcBdu2J7I1gDmw075	text/plain	FRze4m4nNfyapNWNI6	text/plain
+1321986664.018181	CtTpPq1w0sgQcW9Snl	192.168.38.10	1064	205.209.149.226	80	1	POST	www.winupdate1.info	/setupreport.php	hiddenguest	-	14	2	200	OK	-	-	-	(empty)	-	-	-	FSx3mf4PntNU9tJpFe	text/plain	FNVrLC1e2RM0mVUDyg	text/plain
+1321986664.174772	CXEPZe1uRK4xAhNo9i	192.168.38.10	1065	205.209.149.226	80	1	POST	www.winupdate1.info	/setupreport.php	hiddenguest	-	20	2	200	OK	-	-	-	(empty)	-	-	-	FDSeUR1SSuW6Pg8m0b	text/plain	FzZR251LNIOXKq2xL7	text/plain
+1321986664.32862	CzJ0YV1QfViLrpmG73	192.168.38.10	1066	205.209.149.226	80	1	POST	www.winupdate1.info	/setupreport.php	hiddenguest	-	42	2	200	OK	-	-	-	(empty)	-	-	-	FiI6LO1aUFvWg0ygZb	text/plain	Fj4fzj41xh96auM8q6	text/plain
+1321986664.487078	CFaA8U289IwFA8I5d1	192.168.38.10	1067	205.209.149.226	80	1	POST	www.winupdate1.info	/setupreport.php	hiddenguest	-	42	2	200	OK	-	-	-	(empty)	-	-	-	FpSI622bVVsLQtGT3e	text/plain	FL1Zc649SkmO20Xaej	text/plain
+1321986664.641224	CvEhmj3uSVa7ytn7l	192.168.38.10	1068	205.209.149.226	80	1	POST	www.winupdate1.info	/setupreport.php	hiddenguest	-	276	2	200	OK	-	-	-	(empty)	-	-	-	Fsp6f418gDbvO2iG4f	text/plain	FL54ED1AKDV4AYPm5h	text/plain
+1321986666.48538	CjCaho3c1eBekQecz3	192.168.38.10	1069	205.209.149.226	80	1	POST	www.winupdate1.info	/setupreport.php	hiddenguest	-	14	2	200	OK	-	-	-	(empty)	-	-	-	FErcF93OIF5vrgBiJ1	text/plain	F4VUp81XByihY0lgj3	text/plain
+1321986671.594466	ChGReH2tp0q7lTil5j	192.168.38.10	1070	205.209.149.226	80	1	POST	www.winupdate1.info	/setupreport.php	hiddenguest	-	17	2	200	OK	-	-	-	(empty)	-	-	-	FzycNa2zWleyvpWcFb	text/plain	FbuI9d4oaR0eFiCLH1	text/plain
+1321986671.750786	CNbz9Q1zCIyRJdkWXk	192.168.38.10	1071	205.209.149.226	80	1	POST	www.winupdate1.info	/setupreport.php	hiddenguest	-	20	2	200	OK	-	-	-	(empty)	-	-	-	FitBD422Xls7ua8YTe	text/plain	FKpApXAcC1MhKBCPh	text/plain
+1321986671.90774	ClgTDr1x5eVGKWxXrl	192.168.38.10	1072	205.209.149.226	80	1	POST	www.winupdate1.info	/setupreport.php	hiddenguest	-	18	2	200	OK	-	-	-	(empty)	-	-	-	Fn37Rk3SYdGXcNJynh	text/plain	FcnMjj3SZ9geiiwMYf	text/plain
+1321986672.063395	CHn2de1H2J68i1iyai	192.168.38.10	1073	205.209.149.226	80	1	POST	www.winupdate1.info	/setupreport.php	hiddenguest	-	14	2	200	OK	-	-	-	(empty)	-	-	-	FrHKuSN6M6gx87zG5	text/plain	FToF81l295j9IRgO8	text/plain
+1321986672.2203	ClhIFV1PbwmSgise93	192.168.38.10	1074	205.209.149.226	80	1	POST	www.winupdate1.info	/setupreport.php	hiddenguest	-	21	2	200	OK	-	-	-	(empty)	-	-	-	FtEQZ74EDnfwMqbnFb	text/plain	FtTj5n2KfoWNKT1Uv2	text/plain
+1321986672.375485	CLg8RT2zfh5IdyMWg1	192.168.38.10	1075	205.209.149.226	80	1	POST	www.winupdate1.info	/setupreport.php	hiddenguest	-	19	2	200	OK	-	-	-	(empty)	-	-	-	FzlDkX1eDpDHqY9Z6i	text/plain	FQpVfK103Tc2FUFZag	text/plain
+1321986672.540762	Cnf2si3fJDqcU3r8h	192.168.38.10	1076	205.209.149.226	80	1	POST	www.winupdate1.info	/setupreport.php	hiddenguest	-	55	2	200	OK	-	-	-	(empty)	-	-	-	F2HYPU1fpyYgJwdV5e	text/plain	FlfdaZ2JiZJ0V6eU6e	text/plain
+1321986672.688348	CP7Qap33R9o5kFFBx3	192.168.38.10	1077	205.209.149.226	80	1	POST	www.winupdate1.info	/setupreport.php	hiddenguest	-	39	2	200	OK	-	-	-	(empty)	-	-	-	Fcir3tECiwDUPcwob	text/plain	FP4HQn1n3dXftHYUxh	text/plain
+1321986672.844246	CLGGuH22ICRRWBYFo3	192.168.38.10	1078	205.209.149.226	80	1	GET	www.winupdate1.info	/machineid.php?checkstr=72658856949702829448083709&cpumac=00100F230000080080002001078BFBFD002018EBCA26&pubuser=1433	hiddenguest	-	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-10-09-54

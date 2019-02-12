@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-55-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1327725334.885245	CMFg8I1nNKWc4PiNnj	192.168.104.10	1030	4.2.2.3	53	udp	31629	7r8ytzw3e3m782.l95.me	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.64.123.45	1781.000000	F
+1327725335.121301	CMFg8I1nNKWc4PiNnj	192.168.104.10	1030	4.2.2.3	53	udp	399	fasttrackonlinesurveys.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.34.154.74	35510.000000	F
+1327725335.252481	CMFg8I1nNKWc4PiNnj	192.168.104.10	1030	4.2.2.3	53	udp	44686	i35.tinypic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.17.74.150	1200.000000	F
+1327725335.447125	CMFg8I1nNKWc4PiNnj	192.168.104.10	1030	4.2.2.3	53	udp	39049	i.d2f3.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	d2f3.com,64.34.154.74	35531.000000,5933.000000	F
+1327725340.66845	CMFg8I1nNKWc4PiNnj	192.168.104.10	1030	4.2.2.3	53	udp	61065	network.stripthere.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	65.39.172.126	35530.000000	F
+#close	2014-04-03-09-55-30

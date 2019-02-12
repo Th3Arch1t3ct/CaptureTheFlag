@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-41-32
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1367522771.796356	Fsu2Mc4XxEZbXxwNz1	68.15.0.244	192.168.35.10	CQvQVwOEBiQSRNLQc	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	812	812	0	0	F	-	3f145af9d1d95e39ee15d4184d4791f3	e205d88535308c92c40959599663689b153b593c	-	-
+1367522771.902035	F0WYNQ2LqhIVp2VVI5	68.15.0.244	192.168.35.10	CQvQVwOEBiQSRNLQc	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	1174	1174	0	0	F	-	71bc1af6047ff6f2d8843bd04b81c6ab	e04774ec7e16937d2b6986cc3c2d965a8618f935	-	-
+1367522773.999591	FdcNLz4U6krawSB0K3	68.15.0.244	192.168.35.10	CQvQVwOEBiQSRNLQc	HTTP	0	SHA1,MD5	application/x-dosexec	-	9.369193	-	F	2723264	2723264	0	0	F	-	5c82be7ad1775b67916ee19c15b99331	7dfa98be78249921dd0eedb9a3dd809e7d215c8d	-	-
+1367522783.621398	F7kbku4b5kWukXX1z7	208.46.17.10	192.168.35.10	Cw2whv1ZROak4GFRZ2	HTTP	0	SHA1,MD5	binary	-	0.000000	-	F	558	558	0	0	F	-	3cc0012f96f8f44164c18d7de05023d9	c8feb560d751fe720c8bdb53f5e78aa92abb9a9e	-	-
+1367522783.843889	FfViSh1MxgCEqHFJ8d	68.15.0.244	192.168.35.10	CQvQVwOEBiQSRNLQc	HTTP	0	SHA1,MD5	application/vnd.ms-cab-compressed	-	17.993431	-	F	2656969	2656969	0	0	F	-	091c24c6334a361804b6055fb2719c15	ede55fbf18b61372d7cbd80ea6ccdf814a5036fb	-	-
+1367522802.146987	FfrGlE1d2H3lWVoTZb	108.162.232.5	192.168.35.10	CgWTQI1e1yyAHc8u14	HTTP	0	SHA1,MD5	binary	-	0.000000	-	F	469	469	0	0	F	-	0231b18f450b2fc7f5d80e7b893e3ae7	161cb2baaafc6b8825894be7df5f89dea9b92d80	-	-
+1367522802.224431	F99Gle1r9XzrB7kUe8	108.162.232.7	192.168.35.10	C0NKkA1vHcukymLDbd	HTTP	0	SHA1,MD5	binary	-	0.000014	-	F	2838	2838	0	0	F	-	1fb9f3eb6bc1e6765de57dc8fccc89e4	f1b244bc32a43218f0f1cae577daf7e4f217f1be	-	-
+#close	2014-04-03-10-41-32

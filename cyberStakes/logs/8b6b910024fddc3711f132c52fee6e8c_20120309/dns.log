@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-54-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1331251850.569628	CuPxtPs9y24qKPU87	192.168.80.10	1029	4.2.2.3	53	udp	44435	streetscams.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	212.124.122.53	28781.000000	F
+1331251850.607088	CuPxtPs9y24qKPU87	192.168.80.10	1029	4.2.2.3	53	udp	7569	uk.homeinspectech.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	176.9.195.94	3581.000000	F
+1331251853.628912	CuPxtPs9y24qKPU87	192.168.80.10	1029	4.2.2.3	53	udp	11671	binh6699.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	49.212.29.60	21600.000000	F
+1331251855.760119	CuPxtPs9y24qKPU87	192.168.80.10	1029	4.2.2.3	53	udp	22935	cheapsale.salesale.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	63.246.152.22	14400.000000	F
+1331251862.387875	CuPxtPs9y24qKPU87	192.168.80.10	1029	4.2.2.3	53	udp	45972	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.20.34,69.31.20.10	1539.000000,84.000000,8051.000000,20.000000,20.000000	F
+#close	2014-04-03-09-54-40

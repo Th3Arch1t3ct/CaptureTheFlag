@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-09-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1319320115.5574	C0hjc81LpyqKxgRKR4	192.168.110.10	1032	195.189.168.82	80	F7sn8j43QwXlCzMdwh	application/pdf	http://google-banking.com/content/2ddfp.php?f=17	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 40%  Last seen: 2011-10-20 09:36:08	https://www.virustotal.com/en/search/?query=223a896b4245f4cefb515aaf0c508b4610a848e9	192.168.110.10	195.189.168.82	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1319320116.664613	CmrSXo1nfqQdBiDOl6	192.168.110.10	1056	195.189.168.82	80	FLyQ1Mitx9LCCH2U6	application/x-shockwave-flash	http://google-banking.com/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-01-20 21:34:20	https://www.virustotal.com/en/search/?query=1e83ab75426369f818eb42464133f9c9a7a92779	192.168.110.10	195.189.168.82	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-09-38

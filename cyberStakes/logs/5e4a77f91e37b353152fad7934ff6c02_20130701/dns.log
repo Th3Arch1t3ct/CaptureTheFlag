@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-19-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1372648887.591905	CvX4bL1klcNlJ44FGl	192.168.64.10	1029	4.2.2.3	53	udp	57748	kickassfaster.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	212.124.126.18	600.000000	F
+1372648887.86557	CvX4bL1klcNlJ44FGl	192.168.64.10	1029	4.2.2.3	53	udp	49557	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.129.95	707.000000,67.000000	F
+1372648888.102875	CvX4bL1klcNlJ44FGl	192.168.64.10	1029	4.2.2.3	53	udp	11669	kastatic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	205.204.88.154,66.90.101.199,66.90.101.200,66.90.101.201,184.170.128.58	29.000000,29.000000,29.000000,29.000000,29.000000	F
+1372648888.533008	CvX4bL1klcNlJ44FGl	192.168.64.10	1029	4.2.2.3	53	udp	50839	download-faster.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.75.243.14	275.000000	F
+#close	2014-04-03-10-19-37

@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-12-52
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1313215386.106328	CnHhnfRJEKLDHFq1f	192.168.47.10	1029	4.2.2.3	53	udp	20367	bestbbqgrills4u.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.65.3.130	7174.000000	F
+1313215387.728872	CnHhnfRJEKLDHFq1f	192.168.47.10	1029	4.2.2.3	53	udp	53900	custompot.cu.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.66.184	3600.000000	F
+1313215403.431537	C9C3FJ2Wthubfj62E4	192.168.47.10	1029	4.2.2.3	53	udp	41869	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	3253.000000,259.000000	F
+1313215403.577558	C9C3FJ2Wthubfj62E4	192.168.47.10	1029	4.2.2.3	53	udp	36234	adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.150.16.117	20066.000000	F
+1313215403.67173	C9C3FJ2Wthubfj62E4	192.168.47.10	1029	4.2.2.3	53	udp	16267	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	1642.000000,79.000000	F
+1313215431.898354	CA4bp42H6ap2JgYoLi	192.168.47.10	1029	4.2.2.3	53	udp	25227	custompot.cu.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.66.184	3556.000000	F
+1313215432.878649	CA4bp42H6ap2JgYoLi	192.168.47.10	1029	4.2.2.3	53	udp	48264	teachersfund.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.71.33.145	3600.000000	F
+1313215433.162164	CWk9sFSIMgsPKhFFb	192.168.47.10	1062	4.2.2.3	53	udp	22921	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.93.104,74.125.93.105,74.125.93.106,74.125.93.147,74.125.93.99,74.125.93.103	598.000000,78.000000,78.000000,78.000000,78.000000,78.000000,78.000000	F
+1313215432.971333	CA4bp42H6ap2JgYoLi	192.168.47.10	1029	4.2.2.3	53	udp	27016	passsufferable.co.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.226.212.109	43200.000000	F
+1313215458.306838	ClY4A74lGVh2IWDHL6	192.168.47.10	1062	4.2.2.3	53	udp	42630	101307db0802.edataupdate.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	F	0	-	-	T
+#close	2014-04-03-10-12-53

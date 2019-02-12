@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-38-23
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1312695041.847547	CrQAlEYIOXvpHQrhf	192.168.43.10	1029	4.2.2.3	53	udp	51084	fatiu.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.208.39.63	38377.000000	F
+1312695041.945841	CrQAlEYIOXvpHQrhf	192.168.43.10	1029	4.2.2.3	53	udp	7823	dypnswa.co.tv	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.60.123.48	43200.000000	F
+1312695042.517657	CrQAlEYIOXvpHQrhf	192.168.43.10	1029	4.2.2.3	53	udp	34953	mzzuixq.co.tv	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.88.208	43200.000000	F
+1312695063.543392	CiRMap4b3DBX4MTfhj	192.168.43.10	1029	4.2.2.3	53	udp	31625	clickbeen.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.229.88.234	600.000000	F
+1312695064.180342	CiRMap4b3DBX4MTfhj	192.168.43.10	1029	4.2.2.3	53	udp	53640	findtake.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.105.154.29	600.000000	F
+1312695074.865466	CLZWTg2h2sHXfi8atk	192.168.43.10	1059	4.2.2.3	53	udp	23176	findthank.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.44.184.101	600.000000	F
+1312695074.855254	CFwtPc1W3l7XnGVe27	192.168.43.10	1029	4.2.2.3	53	udp	42632	findthank.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.44.184.101	600.000000	F
+1312695075.430752	CLZWTg2h2sHXfi8atk	192.168.43.10	1059	4.2.2.3	53	udp	4744	findtwenty.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	141.136.16.13	600.000000	F
+1312695075.437081	CFwtPc1W3l7XnGVe27	192.168.43.10	1029	4.2.2.3	53	udp	43403	findtwenty.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	141.136.16.13	600.000000	F
+#close	2014-04-03-10-38-23

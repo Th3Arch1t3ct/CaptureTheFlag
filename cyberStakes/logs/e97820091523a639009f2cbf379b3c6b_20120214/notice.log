@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-25-43
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1329258695.318459	CKwjMx2BilCZclwNk	192.168.115.10	1091	85.17.77.149	80	FDpc8H12yOEzGzGwKa	application/x-dosexec	http://abcthepower.net/?60ca541961504f71bd42cc50c28aa1f2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 64%  Last seen: 2012-04-18 14:16:03	https://www.virustotal.com/en/search/?query=8a5c2929cd67cc10c4a1315a8b7d13b785384518	192.168.115.10	85.17.77.149	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1329258695.318459	CyYCFH2DGm462K7tS9	192.168.115.10	1094	85.17.77.149	80	FPZiEa2NXmr2RxXju6	application/x-dosexec	http://abcthepower.net/?9faa3a8c8d6c456676197c77d00cca0c	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 64%  Last seen: 2012-04-18 14:16:03	https://www.virustotal.com/en/search/?query=8a5c2929cd67cc10c4a1315a8b7d13b785384518	192.168.115.10	85.17.77.149	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-25-43

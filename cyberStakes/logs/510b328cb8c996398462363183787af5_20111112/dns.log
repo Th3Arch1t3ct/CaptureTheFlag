@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-10-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1321103679.595553	CUJj3G4nXyxljg3f22	192.168.102.10	1029	4.2.2.3	53	udp	52623	rexstats.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.168.163.152	3578.000000	F
+1321103679.840012	CUJj3G4nXyxljg3f22	192.168.102.10	1029	4.2.2.3	53	udp	13708	zxsentex3.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.168.163.154	3600.000000	F
+1321103680.117321	CUJj3G4nXyxljg3f22	192.168.102.10	1029	4.2.2.3	53	udp	30346	cvrv.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.168.163.154	43200.000000	F
+1321103680.171253	CUJj3G4nXyxljg3f22	192.168.102.10	1029	4.2.2.3	53	udp	17034	dalake87.co.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.40.52.46	43200.000000	F
+1321103699.432651	Ck4Ii62SudsxoHQMdd	192.168.102.10	1029	4.2.2.3	53	udp	55178	latex8.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.40.52.9	3600.000000	F
+1321103730.024935	Cevlcx4WNkZSHxTbH2	192.168.102.10	1029	4.2.2.3	53	udp	31371	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.159.99,74.125.159.103,74.125.159.104,74.125.159.105,74.125.159.106,74.125.159.147	19731.000000,64.000000,64.000000,64.000000,64.000000,64.000000,64.000000	F
+1321103730.032986	Cevlcx4WNkZSHxTbH2	192.168.102.10	1029	4.2.2.3	53	udp	4235	dasex4.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.40.52.9	3600.000000	F
+#close	2014-04-03-10-10-10

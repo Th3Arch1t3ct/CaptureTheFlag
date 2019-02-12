@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-25-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1337568184.443282	CfMAsG3Mdj6Xji3fdf	192.168.41.10	1029	4.2.2.3	53	udp	62606	yohaul.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.154.51.254	14373.000000	F
+1337568185.172933	CfMAsG3Mdj6Xji3fdf	192.168.41.10	1029	4.2.2.3	53	udp	39823	js.tongji.linezing.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	img.gslb.tbcache.com,58.218.203.240,58.218.203.250,60.191.143.240,60.191.143.250,115.238.137.240,115.238.137.250,115.239.199.240,115.239.199.250	1209.000000,279.000000,279.000000,279.000000,279.000000,279.000000,279.000000,279.000000,279.000000	F
+1337568185.945519	CfMAsG3Mdj6Xji3fdf	192.168.41.10	1029	4.2.2.3	53	udp	16783	dt.tongji.linezing.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ydt.lzs.vip.cnz.alimama.com,119.42.227.250	1209.000000,32.000000	F
+1337568185.946983	CRL3PLZYlknNDaqT7	192.168.41.10	1032	4.2.2.3	53	udp	57228	www.cheap4shoes.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	107.6.14.51	3600.000000	F
+1337568186.938958	CNnOaG306LxAnvHTbf	192.168.41.10	1032	4.2.2.5	53	udp	57228	www.cheap4shoes.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	107.6.14.51	3600.000000	F
+1337568187.444763	CfMAsG3Mdj6Xji3fdf	192.168.41.10	1029	4.2.2.3	53	udp	17804	ashan.eu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.218.228.19	300.000000	F
+1337568189.071181	CfMAsG3Mdj6Xji3fdf	192.168.41.10	1029	4.2.2.3	53	udp	3725	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.71.139,74.125.71.100,74.125.71.101,74.125.71.102,74.125.71.113,74.125.71.138	4415.000000,128.000000,128.000000,128.000000,128.000000,128.000000,128.000000	F
+1337568191.723025	CfMAsG3Mdj6Xji3fdf	192.168.41.10	1029	4.2.2.3	53	udp	36235	www.quackit.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	quackit.com,199.85.212.15	600.000000,600.000000	F
+1337568197.300847	CfMAsG3Mdj6Xji3fdf	192.168.41.10	1029	4.2.2.3	53	udp	29067	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,77.67.126.8,77.67.126.17	22776.000000,237.000000,11738.000000,4.000000,4.000000	F
+#close	2014-04-03-10-25-40

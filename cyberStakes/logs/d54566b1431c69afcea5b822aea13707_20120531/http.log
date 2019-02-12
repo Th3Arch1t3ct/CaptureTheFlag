@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-17-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1338444966.728336	C55V0319r0NSEfjSm9	192.168.89.10	1029	88.214.194.59	80	1	GET	trbet.ru	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	323	302	Found	-	-	-	(empty)	-	-	-	-	-	F2iyIK13ku28MShya2	text/html
+1338444967.036467	C34B0e3O70qFBlEvx	192.168.89.10	1030	83.69.233.47	80	1	GET	inexcusablyataglance.net.in	/main.php?page=24f1c7a32dd69e9d	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	60634	200	OK	-	-	-	(empty)	-	-	-	-	-	FLEpYuXduB3Foz8ue	text/html
+1338444972.503593	C34B0e3O70qFBlEvx	192.168.89.10	1030	83.69.233.47	80	2	GET	inexcusablyataglance.net.in	/w.php?f=5e91c&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	282624	200	OK	-	-	-	(empty)	-	-	-	-	-	FAqA7t2x2APEnguqcl	application/x-dosexec
+1338444973.935593	C34B0e3O70qFBlEvx	192.168.89.10	1030	83.69.233.47	80	3	GET	inexcusablyataglance.net.in	/data/ap2.php	http://inexcusablyataglance.net.in/main.php?page=24f1c7a32dd69e9d	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	33380	200	OK	-	-	-	(empty)	-	-	-	-	-	FVWTT1w5q7XOxlRRg	application/pdf
+1338444974.256806	CdVV3fjbkdAyEde4g	192.168.89.10	1036	83.69.233.47	80	1	GET	inexcusablyataglance.net.in	/data/field.swf	http://inexcusablyataglance.net.in/main.php?page=24f1c7a32dd69e9d	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1547	200	OK	-	-	-	(empty)	-	-	-	-	-	FGO3vb1b1Ga8l3qREa	application/x-shockwave-flash
+1338444991.192075	CGGnck17O01jPkZQM5	192.168.89.10	1038	204.2.133.59	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1759	200	OK	-	-	-	(empty)	-	-	-	-	-	FAg5dv0lFAOkWa9C	text/html
+1338444991.171371	CdVV3fjbkdAyEde4g	192.168.89.10	1036	83.69.233.47	80	2	GET	inexcusablyataglance.net.in	/data/score.swf	http://inexcusablyataglance.net.in/data/field.swf	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6996	200	OK	-	-	-	(empty)	-	-	-	-	-	FnZNDo3601RUDd1hob	application/x-shockwave-flash
+#close	2014-04-03-10-17-37

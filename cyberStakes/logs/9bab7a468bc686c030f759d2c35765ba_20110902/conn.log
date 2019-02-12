@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-11-13-43
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1314989205.507958	C5RR4AFsBWPYN5Qtc	192.168.42.10	1031	89.111.188.16	80	tcp	-	-	-	-	SHR	-	0	f	0	0	1	40	(empty)
+1314989207.444431	CiEYe32zkSNtsdhGEa	192.168.42.10	1059	217.65.6.215	80	tcp	-	-	-	-	SHR	-	0	f	0	0	1	40	(empty)
+1314989207.567811	Co5TKS2EXAk4tWNkH1	192.168.42.10	1032	217.65.6.221	80	tcp	-	-	-	-	SHR	-	0	f	0	0	1	40	(empty)
+1314989209.019987	CpjpAr4dV19MRvRcRk	192.168.42.10	1066	89.111.188.17	80	tcp	-	-	-	-	SHR	-	0	f	0	0	1	40	(empty)
+1314989210.583795	ChlA9m0RIHWHaJtud	192.168.42.10	1033	217.65.6.221	80	tcp	-	-	-	-	SHR	-	0	f	0	0	1	40	(empty)
+1314989214.999905	CCykah2WdiFnnE8uXd	192.168.42.10	1064	89.111.188.16	80	tcp	-	-	-	-	SHR	-	0	f	0	0	1	40	(empty)
+1314989220.468174	CE2zMK3B2pKjgqh2O5	192.168.42.10	1031	146.145.236.99	80	tcp	http	0.627769	2001	66560	RSTO	-	0	ShADdR	48	3929	51	67228	(empty)
+1314989221.214197	CVIxss18V1pREKGxzg	192.168.42.10	1059	217.65.6.215	80	tcp	-	0.000227	0	0	RSTO	-	0	fR	1	40	1	40	(empty)
+1314989223.748626	Cup9qx3wNkupBfzjR6	192.168.42.10	1031	89.111.188.16	80	tcp	-	0.000213	0	0	RSTO	-	0	fR	1	40	1	40	(empty)
+1314989220.278303	C9wL6f1bZUH3fqNRCh	192.168.42.10	1029	4.2.2.3	53	udp	dns	0.189051	65	97	SF	-	0	Dd	2	121	2	153	(empty)
+1314989220.296089	CKvueOg05vJvWSDO3	192.168.42.10	1030	204.44.62.96	80	tcp	http	5.938570	292	245	RSTO	-	0	ShADadfR	6	540	4	409	(empty)
+1314989234.447832	C9aqec3AJUwltJwSmk	192.168.42.10	1032	217.65.6.221	80	tcp	-	0.000236	0	0	RSTO	-	0	fR	1	40	1	40	(empty)
+1314989235.899895	CfZpQdzObTz3SL8db	192.168.42.10	1066	89.111.188.17	80	tcp	-	0.000248	0	0	RSTO	-	0	fR	1	40	1	40	(empty)
+1314989204.11215	Cc9YOE2fzsO4XsCVH2	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000922	626	0	S0	-	0	D	2	682	0	0	(empty)
+1314989204.112715	CB7gwF4kWDUwowbQRl	192.168.42.10	68	192.168.42.1	67	udp	dhcp	12.438929	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1314989220.575933	CvV4SY23waWykIUN0f	192.168.42.10	1032	146.145.236.99	80	tcp	http	66.315139	969	50401	RSTO	-	0	ShADdaR	32	2257	42	52089	(empty)
+1314989222.546545	CYaESAxbZLhYKhmL2	192.168.42.10	1035	239.255.255.250	1900	udp	-	6.188548	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-11-13-43

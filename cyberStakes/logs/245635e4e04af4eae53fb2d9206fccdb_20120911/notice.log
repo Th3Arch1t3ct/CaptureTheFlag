@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-01-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1347398987.906509	CXNXHw1L73WeJA1Io3	192.168.21.10	1062	68.178.241.39	80	F0eveV3uIEEdxBeaD	application/x-dosexec	http://desarrollosdelpacifico.com/3.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 59%  Last seen: 2012-09-17 09:31:14	https://www.virustotal.com/en/search/?query=cf83514e80a09f4f8ce407e0b59a8245d4b16d40	192.168.21.10	68.178.241.39	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-01-03

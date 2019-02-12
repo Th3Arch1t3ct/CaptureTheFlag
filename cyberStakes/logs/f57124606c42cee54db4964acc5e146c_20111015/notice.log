@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-03-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1318658271.188702	C6yfbh2te9UFxZqXY9	192.168.68.10	1062	188.40.52.46	80	FAkMiX2S9E5HRF8k08	application/pdf	http://dalake50.co.cc/logstats/cpivxsxvbwfqcqc7.pdf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 60%  Last seen: 2011-10-01 11:46:06	https://www.virustotal.com/en/search/?query=ed7f8872f873490e62acb6f1382450016a3612fa	192.168.68.10	188.40.52.46	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1318658283.432174	CPnhvu1zuStmhAwXjc	192.168.68.10	1080	188.40.52.46	80	FVV2cm3UeYARSEA1C7	application/jar	http://dalake50.co.cc/logstats/ildlctfrhoas.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 100%  Last seen: 2011-12-02 09:52:22	https://www.virustotal.com/en/search/?query=a88104455ca83fb99cfdfc0dd89ac9fa2cb6e2af	192.168.68.10	188.40.52.46	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-03-05

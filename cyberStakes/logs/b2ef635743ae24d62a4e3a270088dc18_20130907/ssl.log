@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-07-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1378589772.912751	CGybfG4H92M1Uej0a	192.168.119.10	1041	108.161.188.124	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=cdn.jsdelivr.net,OU=PositiveSSL,OU=Domain Control Validated	CN=PositiveSSL CA 2,O=COMODO CA Limited,L=Salford,ST=Greater Manchester,C=GB	1370322000.000000	1402376399.000000	-	-	-	10197d5ddcb55d0c96364241cb68e442	ok
+1378589775.178881	CjgmJa2AoIzBdTqHHk	192.168.119.10	1052	74.125.224.171	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1377797879.000000	1409333879.000000	-	-	-	982bad56654c13262c1728b5ba6f3060	ok
+1378589776.513208	CjYV7j3M081c5UyLq6	192.168.119.10	1067	74.125.224.168	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1377796666.000000	1409332666.000000	-	-	-	9810d3ea59ecb75fbca459fa4b71e6e6	ok
+1378589776.540054	C5QC2w4dXDZENIUfI9	192.168.119.10	1068	74.125.224.171	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1377797879.000000	1409333879.000000	-	-	-	982bad56654c13262c1728b5ba6f3060	ok
+1378589776.941403	CyzwIL3XwCYyavTJn6	192.168.119.10	1076	74.125.224.111	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1377799481.000000	1409335481.000000	-	-	-	f08cb6d2c0762a75f3555645470856a1	ok
+1378589778.571661	Ct6uyf3waxKSWzCxD4	192.168.119.10	1116	74.125.224.109	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.g.doubleclick.net,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1377799819.000000	1409335819.000000	-	-	-	e46e689bb82de46d00f1c6ea3ca008b5	ok
+#close	2014-04-03-10-07-54

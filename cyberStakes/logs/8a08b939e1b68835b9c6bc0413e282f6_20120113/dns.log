@@ -1,0 +1,54 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-14-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1326454939.583777	CcprPG3aQqEpp6RS9e	192.168.68.10	1029	4.2.2.3	53	udp	50572	angrybr.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.168.165.223	10.000000	F
+1326454939.814697	CcprPG3aQqEpp6RS9e	192.168.68.10	1029	4.2.2.3	53	udp	59788	abccristmas.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.21.155.83	10.000000	F
+1326454939.884936	CcprPG3aQqEpp6RS9e	192.168.68.10	1029	4.2.2.3	53	udp	21132	matrixneo.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.123.116.52	30.000000	F
+1326454945.314903	Cqvw0V2htnV505FrMk	192.168.68.10	1029	4.2.2.5	53	udp	18572	gavotataran.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326454948.344117	Cqvw0V2htnV505FrMk	192.168.68.10	1029	4.2.2.5	53	udp	18572	gavotataran.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326454952.375993	Cqvw0V2htnV505FrMk	192.168.68.10	1029	4.2.2.5	53	udp	18572	gavotataran.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326454962.688221	CxSGLc2imdAZyO1cSa	192.168.68.10	1029	4.2.2.5	53	udp	46223	pubepujiwusiwy.com	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1326454965.703884	CxSGLc2imdAZyO1cSa	192.168.68.10	1029	4.2.2.5	53	udp	46223	pubepujiwusiwy.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326454969.754016	CxSGLc2imdAZyO1cSa	192.168.68.10	1029	4.2.2.5	53	udp	46223	pubepujiwusiwy.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326454975.316642	CxSGLc2imdAZyO1cSa	192.168.68.10	1029	4.2.2.5	53	udp	18572	-	-	-	-	-	2	SERVFAIL	F	F	F	F	0	-	-	T
+1326454965.703884	CxSGLc2imdAZyO1cSa	192.168.68.10	1029	4.2.2.5	53	udp	46223	pubepujiwusiwy.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326454969.754016	CxSGLc2imdAZyO1cSa	192.168.68.10	1029	4.2.2.5	53	udp	46223	pubepujiwusiwy.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326454992.695551	CxSGLc2imdAZyO1cSa	192.168.68.10	1029	4.2.2.5	53	udp	17545	hypulycyfaqaba.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326454995.703912	CxSGLc2imdAZyO1cSa	192.168.68.10	1029	4.2.2.5	53	udp	17545	hypulycyfaqaba.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326454999.735912	CxSGLc2imdAZyO1cSa	192.168.68.10	1029	4.2.2.5	53	udp	17545	hypulycyfaqaba.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326454977.316389	CxSGLc2imdAZyO1cSa	192.168.68.10	1029	4.2.2.5	53	udp	27790	zetofyhecynovu.com	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1326454980.314356	CxSGLc2imdAZyO1cSa	192.168.68.10	1029	4.2.2.5	53	udp	27790	zetofyhecynovu.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326454984.345032	CxSGLc2imdAZyO1cSa	192.168.68.10	1029	4.2.2.5	53	udp	27790	zetofyhecynovu.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326455008.314877	CxSGLc2imdAZyO1cSa	192.168.68.10	1029	4.2.2.5	53	udp	58248	rehudomydefe.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326455011.328959	CxSGLc2imdAZyO1cSa	192.168.68.10	1029	4.2.2.5	53	udp	58248	rehudomydefe.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326454984.345032	CxSGLc2imdAZyO1cSa	192.168.68.10	1029	4.2.2.5	53	udp	27790	zetofyhecynovu.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326454944.322075	CcprPG3aQqEpp6RS9e	192.168.68.10	1029	4.2.2.3	53	udp	18572	gavotataran.com	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1326454946.328445	CcprPG3aQqEpp6RS9e	192.168.68.10	1029	4.2.2.3	53	udp	18572	gavotataran.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326454948.343968	CcprPG3aQqEpp6RS9e	192.168.68.10	1029	4.2.2.3	53	udp	18572	gavotataran.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326454952.375819	CcprPG3aQqEpp6RS9e	192.168.68.10	1029	4.2.2.3	53	udp	18572	gavotataran.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326454961.659173	CcprPG3aQqEpp6RS9e	192.168.68.10	1029	4.2.2.3	53	udp	46223	pubepujiwusiwy.com	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1326454963.688456	CcprPG3aQqEpp6RS9e	192.168.68.10	1029	4.2.2.3	53	udp	46223	pubepujiwusiwy.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326454965.703743	CcprPG3aQqEpp6RS9e	192.168.68.10	1029	4.2.2.3	53	udp	46223	pubepujiwusiwy.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326454969.753834	CcprPG3aQqEpp6RS9e	192.168.68.10	1029	4.2.2.3	53	udp	46223	pubepujiwusiwy.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326454991.377901	CcprPG3aQqEpp6RS9e	192.168.68.10	1029	4.2.2.3	53	udp	17545	hypulycyfaqaba.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326454993.7042	CcprPG3aQqEpp6RS9e	192.168.68.10	1029	4.2.2.3	53	udp	17545	hypulycyfaqaba.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326454995.703773	CcprPG3aQqEpp6RS9e	192.168.68.10	1029	4.2.2.3	53	udp	17545	hypulycyfaqaba.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326454999.73573	CcprPG3aQqEpp6RS9e	192.168.68.10	1029	4.2.2.3	53	udp	17545	hypulycyfaqaba.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326454976.313935	CcprPG3aQqEpp6RS9e	192.168.68.10	1029	4.2.2.3	53	udp	27790	zetofyhecynovu.com	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1326454978.326828	CcprPG3aQqEpp6RS9e	192.168.68.10	1029	4.2.2.3	53	udp	27790	zetofyhecynovu.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326454980.314186	CcprPG3aQqEpp6RS9e	192.168.68.10	1029	4.2.2.3	53	udp	27790	zetofyhecynovu.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326454984.344875	CcprPG3aQqEpp6RS9e	192.168.68.10	1029	4.2.2.3	53	udp	27790	zetofyhecynovu.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326455007.314014	CcprPG3aQqEpp6RS9e	192.168.68.10	1029	4.2.2.3	53	udp	58248	rehudomydefe.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326455009.313346	CcprPG3aQqEpp6RS9e	192.168.68.10	1029	4.2.2.3	53	udp	58248	rehudomydefe.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326455011.32877	CcprPG3aQqEpp6RS9e	192.168.68.10	1029	4.2.2.3	53	udp	58248	rehudomydefe.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326454984.344875	CcprPG3aQqEpp6RS9e	192.168.68.10	1029	4.2.2.3	53	udp	27790	zetofyhecynovu.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326455007.314014	CcprPG3aQqEpp6RS9e	192.168.68.10	1029	4.2.2.3	53	udp	58248	rehudomydefe.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326455009.313346	CcprPG3aQqEpp6RS9e	192.168.68.10	1029	4.2.2.3	53	udp	58248	rehudomydefe.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326455011.32877	CcprPG3aQqEpp6RS9e	192.168.68.10	1029	4.2.2.3	53	udp	58248	rehudomydefe.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326454984.344875	CcprPG3aQqEpp6RS9e	192.168.68.10	1029	4.2.2.3	53	udp	27790	zetofyhecynovu.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+#close	2014-04-03-11-14-36

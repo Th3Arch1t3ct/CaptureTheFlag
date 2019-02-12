@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-14-16
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1316634013.319901	CvKzf4dS4c8GVye92	192.168.4.10	1029	4.2.2.3	53	udp	11917	ciekawe-strony.edu.pl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.4.52.138	14373.000000	F
+1316634013.580918	CvKzf4dS4c8GVye92	192.168.4.10	1029	4.2.2.3	53	udp	654	www.ciekawe-strony.edu.pl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.4.52.138	9481.000000	F
+1316634013.886038	CvKzf4dS4c8GVye92	192.168.4.10	1029	4.2.2.3	53	udp	60808	damiansd.vot.pl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.40.103.151	9508.000000	F
+1316634014.177117	CvKzf4dS4c8GVye92	192.168.4.10	1029	4.2.2.3	53	udp	13193	oligarchyfupdz.co.tv	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.226.213.50	38307.000000	F
+1316634014.841316	CvKzf4dS4c8GVye92	192.168.4.10	1029	4.2.2.3	53	udp	61323	ahtunges.mydad.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.208.34.81	31.000000	F
+1316634019.048333	CvKzf4dS4c8GVye92	192.168.4.10	1029	4.2.2.3	53	udp	7300	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	3271.000000,40.000000	F
+1316634019.155991	CvKzf4dS4c8GVye92	192.168.4.10	1029	4.2.2.3	53	udp	27781	adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.150.16.117	26424.000000	F
+1316634019.257976	CvKzf4dS4c8GVye92	192.168.4.10	1029	4.2.2.3	53	udp	24455	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,64.4.52.169	361.000000,290.000000	F
+1316634039.895896	CS5Mg2xZT0Hk2E9lj	192.168.4.10	1029	4.2.2.3	53	udp	7809	clickblow.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.114.94.195	600.000000	F
+1316634040.669381	CS5Mg2xZT0Hk2E9lj	192.168.4.10	1029	4.2.2.3	53	udp	61058	searchswam.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.105.154.25	600.000000	F
+#close	2014-04-03-10-14-17

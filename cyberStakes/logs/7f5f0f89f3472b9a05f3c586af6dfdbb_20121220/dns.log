@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-57-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1355976593.26433	CqePcs1ayVK2UVv9Dd	192.168.67.10	1028	4.2.2.3	53	udp	61576	skoobe.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.175.219.141	86400.000000	F
+1355976593.581111	CqePcs1ayVK2UVv9Dd	192.168.67.10	1028	4.2.2.3	53	udp	12169	www.skoobe.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.175.219.141	86400.000000	F
+1355976594.697066	CqePcs1ayVK2UVv9Dd	192.168.67.10	1028	4.2.2.3	53	udp	49033	scrot-um.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.221.170.88	300.000000	F
+1355976596.544532	C9WAm01arZy181gtRj	192.168.67.10	1046	4.2.2.3	53	udp	23178	scrot-um.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.221.170.88	298.000000	F
+1355976596.15169	CqePcs1ayVK2UVv9Dd	192.168.67.10	1028	4.2.2.3	53	udp	650	traff-hits4322.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.243.4.31	28800.000000	F
+1355976597.281194	C9WAm01arZy181gtRj	192.168.67.10	1046	4.2.2.3	53	udp	10123	88.170.221.37.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	lh20127.voxility.net	3600.000000	F
+1355976597.401521	CqePcs1ayVK2UVv9Dd	192.168.67.10	1028	4.2.2.3	53	udp	59020	88.170.221.37.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	lh20127.voxility.net	3600.000000	F
+1355976606.513451	CqePcs1ayVK2UVv9Dd	192.168.67.10	1028	4.2.2.3	53	udp	53134	zakzayex.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.248.166.21	2100.000000	F
+1355976597.496821	C9WAm01arZy181gtRj	192.168.67.10	1046	4.2.2.3	53	udp	34702	lh20127.voxility.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-09-57-30

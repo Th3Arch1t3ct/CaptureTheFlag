@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-45-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1329945394.301836	Cwu3X02HDnn8DMcWud	192.168.35.10	1049	82.103.142.217	80	F06jQw2jBkfGNd0W2i	application/x-dosexec	http://www1.firstholderek.de.lv/?gl51tmvubk=i8+ilbHS7tqI4M/Nr6irn6SS2NneopuYn2pqp6CvppTOjN3lsKWboaWdmaeXoZmSoaSxnqalmpHHy9TlsbrDt4rV28mompKoVQ==&t=31	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2012-03-22 02:14:35	https://www.virustotal.com/en/search/?query=9b33b56a45d642981149698807a7a77c72e3b8c9	192.168.35.10	82.103.142.217	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-45-55

@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-14-21
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1323032064.168738	COvnbD3BptV8lbhdC7	192.168.44.10	1029	82.165.56.71	80	1	GET	ac-kellinghusen.de	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1533	200	OK	-	-	-	(empty)	-	-	-	-	-	FaRsp2At0UxrT0Rc8	text/html
+1323032064.294018	COvnbD3BptV8lbhdC7	192.168.44.10	1029	82.165.56.71	80	2	GET	ac-kellinghusen.de	/index.jpg	http://ac-kellinghusen.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	328	200	OK	-	-	-	(empty)	-	-	-	-	-	FizanEBnsFv82WtXl	image/jpeg
+1323032064.407242	Cropom2Ctyt3UP1ep6	192.168.44.10	1030	72.9.154.20	80	1	GET	www.trafficzap.com	/exchange/exit.php?id=100939&q=821&btn=on	http://ac-kellinghusen.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2582	200	OK	-	-	-	(empty)	-	-	-	-	-	FdCB8b3t1Dm8F5cX3	text/html
+1323032064.45237	Cropom2Ctyt3UP1ep6	192.168.44.10	1030	72.9.154.20	80	2	GET	www.trafficzap.com	/exchange/images/trafficzapexchange88x31.gif	http://ac-kellinghusen.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1424	200	OK	-	-	-	(empty)	-	-	-	-	-	FMYT9r303BhCkt59k7	image/gif
+1323032064.540359	CjVmEG2hQ65bzM0hc8	192.168.44.10	1031	72.9.154.20	80	1	GET	www.codezap.com	/exchange/exit2.php?id=100939&rh=&refurl=aHR0cDovL2FjLWtlbGxpbmdodXNlbi5kZS8=	http://ac-kellinghusen.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	63	200	OK	-	-	-	(empty)	-	-	-	-	-	FlR6Pz1T3NWLnESqdk	text/plain
+1323032069.434938	CG2Qrt2wtLhzrgKDD6	192.168.44.10	1038	109.236.82.78	80	1	GET	tempdom15.info	/	http://ac-kellinghusen.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	238	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FwBfm98MNRCQYBlCe	text/html
+1323032069.74272	C8ileJ2FvprRWefCzb	192.168.44.10	1039	109.236.82.79	80	1	GET	softportal7.in	/?site=15	http://ac-kellinghusen.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	154	200	OK	-	-	-	(empty)	-	-	-	-	-	FqkQ3R1TnD5P7PQGh	text/html
+1323032071.33337	Cwv7lJ1IwiS8g2UYMc	192.168.44.10	1040	109.236.82.79	80	1	GET	softportal7.in	/?ab464a21e5586d4bf7c2dc27b00fa472	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3988	200	OK	-	-	-	(empty)	-	-	-	-	-	FLEj2A2YocOKeIWoMg	application/jar
+1323032071.541628	C6na0p1Zyis3gzbd5b	192.168.44.10	1041	109.236.82.79	80	1	GET	softportal7.in	/?ab464a21e5586d4bf7c2dc27b00fa472	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3988	200	OK	-	-	-	(empty)	-	-	-	-	-	FOssAo2kpTJ42JWxW3	application/jar
+1323032071.802378	CpNGlD1MJFFiKdByDc	192.168.44.10	1042	109.236.82.79	80	1	GET	softportal7.in	/?ab464a21e5586d4bf7c2dc27b00fa472	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3988	200	OK	-	-	-	(empty)	-	-	-	-	-	FbDTeg18MYZOsh967f	application/jar
+1323032072.07167	CHDZCn1Pb2Y6WUNLki	192.168.44.10	1043	109.236.82.79	80	1	GET	softportal7.in	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FsqZWv3phcaKiEbU06	text/html
+1323032072.273066	CiO6Ifg1U9i1SOJ8h	192.168.44.10	1044	109.236.82.79	80	1	GET	softportal7.in	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FmcR2b4K0iaGWls4of	text/html
+1323032072.481396	CiRCkAh7M8baqjh3i	192.168.44.10	1045	109.236.82.79	80	1	GET	softportal7.in	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FTdEDz3pHCSZzkRxo7	text/html
+1323032072.691245	CZvQtbW9GW3mTygwg	192.168.44.10	1046	109.236.82.79	80	1	GET	softportal7.in	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FvyOnE1NKQB5X5fVTa	text/html
+1323032073.01267	CxI6urouGkJ5tGbjl	192.168.44.10	1047	109.236.82.79	80	1	GET	softportal7.in	/?c438cb8107df6b68a26213b11f05f3e5	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	57344	200	OK	-	-	-	(empty)	-	-	-	-	-	F0vIeZPboIkYxRWga	application/x-dosexec
+1323032073.967853	CNuE4V2mtLjYJzEYl	192.168.44.10	1051	78.159.108.173	80	1	GET	aboutsexfinder.com	/stat/cmd.php?id=ALAN-1FD4B27F5D_78144B1E&uid=742&os=WinXPsp2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1323032134.618621	CszB1JtIJp73fh1qk	192.168.44.10	1052	78.159.108.173	80	1	GET	aboutsexfinder.com	/stat/cmd.php?id=ALAN-1FD4B27F5D_78144B1E&uid=742&os=WinXPsp2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-11-14-21

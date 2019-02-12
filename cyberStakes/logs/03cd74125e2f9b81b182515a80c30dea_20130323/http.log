@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-10-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1364080245.361027	CPCvgE1utGQTCudDw3	192.168.65.10	1030	64.120.142.43	80	1	GET	businesscataloge.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	144	200	OK	-	-	-	(empty)	-	-	-	-	-	FssC7I3wRXCiAZOEke	text/html
+1364080245.49275	CTMjL81gy4AswW9KEj	192.168.65.10	1031	64.120.137.37	80	1	GET	utiputi.biz	/be.cgi?16	http://businesscataloge.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	248	302	Found	-	-	-	(empty)	-	-	-	-	-	FsL0qL3l93pxmQrB7l	text/html
+1364080245.838372	CO33Is4ExKlE1w9ogk	192.168.65.10	1032	194.44.49.52	80	1	GET	art.tamgu.com.ar	/stat/agencept.php?vialjack=491368	http://businesscataloge.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	30377	200	OK	-	-	-	(empty)	-	-	-	-	-	FNQNQhiCdizXsqyRe	text/plain
+1364080246.652017	CKK6jB4g9ADWssfDU2	192.168.65.10	1033	64.4.52.169	80	1	POST	activex.microsoft.com	/objects/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	FRNhcf4QGRYUCgiDXc	text/plain	F7NXNb3FpAR3LDkTP1	text/plain
+1364080246.927569	CJ4B501S5gMMjbicmi	192.168.65.10	1034	65.55.13.243	80	1	POST	codecs.microsoft.com	/isapi/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	FgOSptlbjAZXIy7W1	text/plain	FHdZFckWQtsIuDkD4	text/plain
+1364080248.201209	CrDuy8CmfOGTialZi	192.168.65.10	1040	194.44.49.52	80	1	GET	art.tamgu.com.ar	/stat/addajapa/jurylamp.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6185	200	OK	-	-	-	(empty)	-	-	-	-	-	FLr3DL2IN7vIs1p1Li	application/jar
+1364080248.206594	CYzgQH3slEFXhfx1Vf	192.168.65.10	1041	194.44.49.52	80	1	GET	art.tamgu.com.ar	/stat/addajapa/apsefair.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	8252	200	OK	-	-	-	(empty)	-	-	-	-	-	F6WyVa1eqQkX0takwb	application/jar
+1364080248.205244	CtF1yhWeaC7GIFlr1	192.168.65.10	1039	194.44.49.52	80	1	GET	art.tamgu.com.ar	/stat/addajapa/ptlyable.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14183	200	OK	-	-	-	(empty)	-	-	-	-	-	FBIzms2G8972UhND5l	application/jar
+1364080248.836878	CAdjLb3CEpaNmzRk0a	192.168.65.10	1042	194.44.49.52	80	1	GET	art.tamgu.com.ar	/stat/java/lang/ReflectiveOperationException.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	434	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FirB9513V6mG3jw42j	text/html
+1364080251.487176	ClaLiP1yDNLJh6bxGa	192.168.65.10	1043	194.44.49.52	80	1	GET	art.tamgu.com.ar	/stat/jectrger.php	http://art.tamgu.com.ar/stat/agencept.php?vialjack=491368	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5564	200	OK	-	-	-	(empty)	-	-	-	-	-	Fa1bPxxkZiSKbQefg	application/pdf
+1364080252.78982	C74EJX1qNgbtSD4bff	192.168.65.10	1044	194.44.49.52	80	1	GET	art.tamgu.com.ar	/stat/jectrger.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5579	200	OK	-	-	-	(empty)	-	-	-	-	-	FjcKK11a0FCuXFtP7k	application/pdf
+1364080255.018	C7xtLX22DtQZZKDslg	192.168.65.10	1047	194.44.49.52	80	1	GET	art.tamgu.com.ar	/stat/java/lang/invoke/MethodHandles.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	426	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Few9iY3bFcZNejGWPe	text/html
+1364080254.922821	CCV6p33EjCLv1YAlBa	192.168.65.10	1045	194.44.49.52	80	1	GET	art.tamgu.com.ar	/stat/senccute.php?	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	114688	200	OK	-	-	-	(empty)	-	-	-	-	-	F9I0ST3ojNML7NxSVe	application/x-dosexec
+1364080254.995698	CWAOTY1ecRZTwl8YFf	192.168.65.10	1046	194.44.49.52	80	1	GET	art.tamgu.com.ar	/stat/tionjett.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	114688	200	OK	-	-	-	(empty)	-	-	-	-	-	FCuvRG17t4RSfH0Bw8	application/x-dosexec
+1364080255.943726	CCV6p33EjCLv1YAlBa	192.168.65.10	1045	194.44.49.52	80	2	GET	art.tamgu.com.ar	/stat/senccute.php?;1	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	114688	200	OK	-	-	-	(empty)	-	-	-	-	-	FWVetf2QdFoxDo3oCg	application/x-dosexec
+1364080252.547398	ClaLiP1yDNLJh6bxGa	192.168.65.10	1043	194.44.49.52	80	2	GET	art.tamgu.com.ar	/stat/jectrger.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-10-10-24

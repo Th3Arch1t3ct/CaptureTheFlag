@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-25-47
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1318576149.540058	CI579q11vUJccNkI0i	192.168.128.10	1030	74.53.86.98	80	1	GET	ladybugecards.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	-	-
+1318576149.894348	CQEOH44cmI2ojByGN8	192.168.128.10	1031	74.53.86.98	80	1	GET	www.ladybugecards.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	14560	200	OK	-	-	-	(empty)	-	-	-	-	-	F42mpr1S7E9J3aorqd	text/html
+1318576150.349212	Cg1cbW1HGjIiJNWHO4	192.168.128.10	1032	74.53.86.98	80	1	GET	www.ladybugecards.com	/templates/modernportal/css/template_css.css	http://www.ladybugecards.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	17219	200	OK	-	-	-	(empty)	-	-	-	-	-	FtT8WLg1cxTJvjWZ3	text/plain
+1318576150.567717	CDXgL01SRZDxQhBWic	192.168.128.10	1033	117.104.161.154	80	1	GET	www.thebrainary.com	/shop/catalog/release.js	http://www.ladybugecards.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	75929	200	OK	-	-	-	(empty)	-	-	-	-	-	FjrseOKGgrnp883U1	text/plain
+1318576151.935994	CxWjDS3V9ppLfdZPg9	192.168.128.10	1038	188.127.228.44	80	1	GET	rssmovie.k85.org	/i/new	http://www.ladybugecards.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2202	200	OK	-	-	-	(empty)	-	-	-	-	-	FXqYBD1SXl5raL3Tb9	text/html
+1318576152.674719	ClRshQ1AYz58rI7cA4	192.168.128.10	1039	188.127.228.44	80	1	GET	rssmovie.k85.org	/x/e3d0f887a71c4974c139f4ecbcfa8840f58ad416ae78bd20aa1da4569461969b?java=42&pdf=9.1.0	http://rssmovie.k85.org/i/new	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4936	200	OK	-	-	-	(empty)	-	-	-	-	-	FBWDsF1C9KRUk0ZN96	text/plain
+1318576153.153678	C0sB6417aIHKOB6Sab	192.168.128.10	1040	188.127.228.44	80	1	GET	rssmovie.k85.org	/e/1/e3d0f887a71c4974c139f4ecbcfa8840f58ad416ae78bd20aa1da4569461969b	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	27136	200	OK	-	-	-	(empty)	-	-	-	-	-	FLq4Uk3HPfBUfmbTnl	application/x-dosexec
+1318576158.091399	Cyb8myCwIP7Rxhhhe	192.168.128.10	1046	74.125.47.99	80	1	GET	www.google.com	/	-	Mozilla/4.0	0	8448	200	OK	-	-	-	(empty)	-	-	-	-	-	Fn9kLn8CFZEjnOKX4	text/html
+1318576181.273132	CXpG6x40N4To6gAkP6	192.168.128.10	1048	188.127.228.44	80	1	OPTIONS	rssmovie.k85.org	/	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1318576181.549277	CdjVDb1DCoylUWZ3N	192.168.128.10	1049	188.127.228.44	80	1	PROPFIND	rssmovie.k85.org	/j	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	0	301	MOVED PERMANENTLY	-	-	-	(empty)	-	-	-	-	-	-	-
+1318576181.882962	C1Ggi7mVDsAOPb0mg	192.168.128.10	1050	188.127.228.44	80	1	PROPFIND	rssmovie.k85.org	/j/	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	219	207	UNKNOWN STATUS CODE	-	-	-	(empty)	-	-	-	-	-	FvypDz18SXeELNriO8	application/xml
+1318576182.239076	Cjyo8f3NXeK0Qhn1jj	192.168.128.10	1051	188.127.228.44	80	1	PROPFIND	rssmovie.k85.org	/j/e3d0f887a71c4974c139f4ecbcfa8840f58ad416ae78bd20aa1da4569461969b	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	109	207	UNKNOWN STATUS CODE	-	-	-	(empty)	-	-	-	-	-	Fcf5GtIxQx7B8OS66	application/xml
+1318576182.579133	Ckeaco4ggGY4lRSCw7	192.168.128.10	1052	188.127.228.44	80	1	GET	rssmovie.k85.org	/j/e3d0f887a71c4974c139f4ecbcfa8840f58ad416ae78bd20aa1da4569461969b	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	264	404	NOT FOUND	-	-	-	(empty)	-	-	-	-	-	FqtLLS3xuKL24aSBkl	text/html
+1318576184.106813	CI9uoh2s7scKxzF8T3	192.168.128.10	1054	24.143.197.32	80	1	GET	crl.adobe.com	/aum.crl	-	Adobe Update Manager 6	0	2819	200	OK	-	-	-	(empty)	-	-	-	-	-	FivSil1T9I4bv0TFr6	binary
+1318576183.93088	CgWrlJ3nxUNVQz7xW9	192.168.128.10	1053	24.143.197.73	80	1	GET	swupmf.adobe.com	/manifest/60/win/reader9rdr-en_US.upd	-	Adobe Update Manager 6	0	192693	200	OK	-	-	-	(empty)	-	-	-	-	-	Fd68mN1JfSJDBmTOae	binary
+1318576184.369404	CgWrlJ3nxUNVQz7xW9	192.168.128.10	1053	24.143.197.73	80	2	GET	swupmf.adobe.com	/manifest/60/win/AdobeUpdater.upd	-	Adobe Update Manager 6	0	3524	200	OK	-	-	-	(empty)	-	-	-	-	-	FdiloY3wg7gK9BslV3	binary
+1318576158.432342	CagTV53BytrhlOInml	192.168.128.10	1047	89.208.141.134	80	1	GET	pgdigital.org	/index.php?cmd=getgrab	-	Mozilla/4.0	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-10-25-48

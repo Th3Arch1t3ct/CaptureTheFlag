@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-11-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1358052029.92889	Cl63jX2b0ffoARkTBf	192.168.20.10	1029	4.2.2.3	53	udp	45968	geekhowto.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.210.116.37	14376.000000	F
+1358052030.289794	Cl63jX2b0ffoARkTBf	192.168.20.10	1029	4.2.2.3	53	udp	3472	gmstat670.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.46.107.23	1800.000000	F
+1358052030.781671	Cl63jX2b0ffoARkTBf	192.168.20.10	1029	4.2.2.3	53	udp	43155	gmstat340.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.46.107.21	1800.000000	F
+1358052032.415377	Cl63jX2b0ffoARkTBf	192.168.20.10	1029	4.2.2.3	53	udp	23955	code.jquery.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wac.1257.edgecastcdn.net,neb1.wac.v2cdn.net,93.184.216.119	570851.000000,1414.000000,2212.000000	F
+1358052041.416692	Cl63jX2b0ffoARkTBf	192.168.20.10	1029	4.2.2.3	53	udp	37781	login.tracking101.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cash4creatives.wip.directresponsetech.com,174.47.188.1	2520.000000,600.000000	F
+1358052041.80537	Cl63jX2b0ffoARkTBf	192.168.20.10	1029	4.2.2.3	53	udp	22677	zmstat480.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.165.211.209	1800.000000	F
+1358052042.112933	Cl63jX2b0ffoARkTBf	192.168.20.10	1029	4.2.2.3	53	udp	48020	ztxstat50.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.135.67.152	1800.000000	F
+1358052068.58409	CYfZDC2UrYtyD66emd	192.168.20.10	1029	4.2.2.3	53	udp	55188	152.67.135.5.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-11-11-06

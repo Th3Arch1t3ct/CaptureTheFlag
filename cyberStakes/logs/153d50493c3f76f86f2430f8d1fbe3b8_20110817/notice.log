@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-06-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1313607617.035467	C5rwoT1jGN9PWtkCdh	192.168.16.10	1051	69.50.202.74	80	Fm2iDm4QpT8bvQAMG6	application/x-dosexec	http://vkhrkx.com/d.php?f=22&e=1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2011-09-02 01:31:39	https://www.virustotal.com/en/search/?query=4b6d5a1b4391e343d325f1fbc745255c6a1467a8	192.168.16.10	69.50.202.74	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-06-39

@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-13-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1376607006.400426	CUnsnn3vnC2SxyL0hf	192.168.77.10	1030	192.210.51.68	80	1	GET	www.115qqq.info	/	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	17270	200	OK	-	-	-	(empty)	-	-	-	-	-	FgPhIg0ve4riLiZW2	text/html
+1376607006.465827	C84sYz4e3HAXzVuG23	192.168.77.10	1032	192.210.51.68	80	1	GET	www.115qqq.info	/template/default/images/style.css	http://www.115qqq.info/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	25067	200	OK	-	-	-	(empty)	-	-	-	-	-	FIYN2c3MgrlKccS2M2	text/plain
+1376607006.491125	C3qmEU1oBaCii9ERm4	192.168.77.10	1034	216.99.152.13	2013	1	GET	216.99.152.13	/812.exe	http://www.115qqq.info/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	58936	200	OK	-	-	-	(empty)	-	-	-	-	-	FgWrrLTmqVYW8p8U4	application/x-dosexec
+1376607006.708953	CUnsnn3vnC2SxyL0hf	192.168.77.10	1030	192.210.51.68	80	2	GET	www.115qqq.info	/cpm.js	http://www.115qqq.info/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	2962	200	OK	-	-	-	(empty)	-	-	-	-	-	FIEhvb2crodKIQgFQl	text/plain
+1376607006.709934	CyPksd2BrD2SFbncMd	192.168.77.10	1035	192.210.51.68	80	1	GET	www.115qqq.info	/js/function.js	http://www.115qqq.info/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	14363	200	OK	-	-	-	(empty)	-	-	-	-	-	Fs1DV1Cm4RTwJgKp6	text/plain
+1376607006.760267	C84sYz4e3HAXzVuG23	192.168.77.10	1032	192.210.51.68	80	2	GET	www.115qqq.info	/js/common.js	http://www.115qqq.info/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	8205	200	OK	-	-	-	(empty)	-	-	-	-	-	FhSEAr3pZ5hCpM2IXf	text/plain
+1376607006.763553	CUnsnn3vnC2SxyL0hf	192.168.77.10	1030	192.210.51.68	80	3	GET	www.115qqq.info	/js/ads/1.js	http://www.115qqq.info/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1376607006.763212	ClNA3BhswNWmhCqxa	192.168.77.10	1041	192.210.51.68	80	1	GET	www.115qqq.info	/js/ads/123.js	http://www.115qqq.info/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	119	200	OK	-	-	-	(empty)	-	-	-	-	-	FWHOb1JioAlXOXSkj	text/html
+1376607006.765527	C9bROZ20l7H5XEdMBe	192.168.77.10	1043	192.210.51.68	80	1	GET	www.115qqq.info	/js/ads/youxiajiao.js	http://www.115qqq.info/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	200	200	OK	-	-	-	(empty)	-	-	-	-	-	FW4aSp4ERHmbYoLy1	text/html
+1376607006.765249	CEMsRT6nbBRC3XNWj	192.168.77.10	1042	192.210.51.68	80	1	GET	www.115qqq.info	/js/max_history.js	http://www.115qqq.info/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	5643	200	OK	-	-	-	(empty)	-	-	-	-	-	F8tomC10DJK7720gxe	text/html
+1376607007.184317	Ctwkr84DouPYYllNR4	192.168.77.10	1044	42.121.103.235	80	1	GET	s17.cnzz.com	/stat.php?id=5152871&web_id=5152871	http://www.115qqq.info/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	6972	200	OK	-	-	-	(empty)	-	-	-	-	-	FPdvhD29tB54ak2rN1	text/plain
+#close	2014-04-03-10-13-07

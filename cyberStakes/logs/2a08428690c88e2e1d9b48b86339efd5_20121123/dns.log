@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-02-01
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1353675942.809129	CAZtp9rKcjMWF6Jpi	192.168.5.10	1029	4.2.2.3	53	udp	3979	cubeaudition.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	221.143.46.184	21600.000000	F
+1353675943.887689	CAZtp9rKcjMWF6Jpi	192.168.5.10	1029	4.2.2.3	53	udp	10635	www.cubeent.co.kr	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cubeent.co.kr,221.143.46.184	21600.000000,21600.000000	F
+1353675951.698474	CAZtp9rKcjMWF6Jpi	192.168.5.10	1029	4.2.2.3	53	udp	19851	hm.baidu.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	hm.e.shifen.com,123.125.115.126	4972.000000,300.000000	F
+1353675952.725698	Cn02ew4laZy9aoM2oh	192.168.5.10	1029	4.2.2.5	53	udp	19851	hm.baidu.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	hm.e.shifen.com,123.125.115.126	1881.000000,300.000000	F
+1353675953.451852	CAZtp9rKcjMWF6Jpi	192.168.5.10	1029	4.2.2.3	53	udp	38537	eiv.baidu.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.n.shifen.com,123.125.115.43	1198.000000,300.000000	F
+1353675954.437888	Cn02ew4laZy9aoM2oh	192.168.5.10	1029	4.2.2.5	53	udp	38537	eiv.baidu.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.n.shifen.com,123.125.115.43	1200.000000,126.000000	F
+1353675962.978237	CAZtp9rKcjMWF6Jpi	192.168.5.10	1029	4.2.2.3	53	udp	57225	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,24.143.201.35,24.143.201.43	18255.000000,170.000000,18804.000000,19.000000,19.000000	F
+#close	2014-04-03-11-02-01

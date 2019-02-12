@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-43-28
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1323865620.708594	CatLaP2aUvcDnjFzxg	192.168.15.10	1037	188.40.61.79	80	F1X4sV1heRkj4PvyE7	application/x-dosexec	http://pikx.org.in/index4.php?src=58&gpr=11&tkr=12141224930306856&tkri=4ad92461ec72c4c79bf14e7821611b3a&e=10&	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2012-01-05 18:46:51	https://www.virustotal.com/en/search/?query=bcf840ff35d9d0881998ae7e08da3405047d792f	192.168.15.10	188.40.61.79	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-43-28

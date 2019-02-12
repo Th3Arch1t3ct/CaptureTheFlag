@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-50-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1330453215.035771	CCpbutVsJ4KJC8cl5	192.168.9.10	1029	4.2.2.3	53	udp	8845	maingamestation.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.18.217.67	14381.000000	F
+1330453216.371125	CCpbutVsJ4KJC8cl5	192.168.9.10	1029	4.2.2.3	53	udp	62088	modernyearssuccess.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.75.255.86	43200.000000	F
+1330453216.819238	CCpbutVsJ4KJC8cl5	192.168.9.10	1029	4.2.2.3	53	udp	40585	connernesrior.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.89.228	3600.000000	F
+1330453234.165087	CCpbutVsJ4KJC8cl5	192.168.9.10	1029	4.2.2.3	53	udp	11401	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,192.204.3.42,192.204.3.10	21128.000000,27.000000,6777.000000,15.000000,15.000000	F
+1330453234.22427	CCpbutVsJ4KJC8cl5	192.168.9.10	1029	4.2.2.3	53	udp	29578	boatorldenoras.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.111.51.124	3600.000000	F
+1330453215.290714	CCpbutVsJ4KJC8cl5	192.168.9.10	1029	4.2.2.3	53	udp	10126	tds83.4mydomain.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1330453215.290714	CCpbutVsJ4KJC8cl5	192.168.9.10	1029	4.2.2.3	53	udp	10126	tds83.4mydomain.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1330453215.290714	CCpbutVsJ4KJC8cl5	192.168.9.10	1029	4.2.2.3	53	udp	10126	tds83.4mydomain.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-09-50-33

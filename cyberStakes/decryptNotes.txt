@@ -1,0 +1,2 @@
+FOR WORD CHALLENGE: for i in $( ls *.zip ); do echo "catting $i" && unzip -o $i && cat drs/* | grep ACI; done
+

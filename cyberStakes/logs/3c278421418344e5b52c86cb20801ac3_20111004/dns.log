@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-36-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1317718775.975767	ChI2Nb4imNNEmqoin7	192.168.82.10	1029	4.2.2.3	53	udp	25229	citcnigeria.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.89.31.148	14374.000000	F
+1317718776.519169	ChI2Nb4imNNEmqoin7	192.168.82.10	1029	4.2.2.3	53	udp	18061	hdgh.ddns.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.66.209	31.000000	F
+1317718782.053732	ChI2Nb4imNNEmqoin7	192.168.82.10	1029	4.2.2.3	53	udp	58510	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	1839.000000,272.000000	F
+1317718782.297087	ChI2Nb4imNNEmqoin7	192.168.82.10	1029	4.2.2.3	53	udp	11663	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,64.4.52.169	136.000000,327.000000	F
+1317718782.306018	CBV7nL1pTDp342LA69	192.168.82.10	1043	4.2.2.3	53	udp	24456	adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.150.16.117	10800.000000	F
+1317718824.301914	Cohtn24mM7MuRi95I5	192.168.82.10	1270	4.2.2.3	53	udp	13107	a-softwareupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.212.192.228	3600.000000	F
+1317718824.302427	Ccriyb28FPqJFB1o1h	192.168.82.10	1270	4.2.2.5	53	udp	13107	a-softwareupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.212.192.228	3600.000000	F
+#close	2014-04-03-10-36-18

@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-19-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1328406997.271682	CSHbM83PyA6EV2DOF6	192.168.69.10	1041	95.142.164.214	80	FVgTTf2lYAeioNbKba	application/x-dosexec	http://adpage76.google-syndication76.in/x.php?f=28&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 39%  Last seen: 2012-02-20 23:14:30	https://www.virustotal.com/en/search/?query=cf2d7ec482753d5cfa0f8a8c98d5996581873291	192.168.69.10	95.142.164.214	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328407005.535717	CNkCs92ZBYObyD7mGc	192.168.69.10	1056	95.142.164.214	80	F4ljQz4RI7botjXQdk	application/x-shockwave-flash	http://adpage76.google-syndication76.in/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 25%  Last seen: 2012-02-01 14:40:28	https://www.virustotal.com/en/search/?query=9cc741c372e8297f518f193a7dabf5ad013d2db6	192.168.69.10	95.142.164.214	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328407006.954464	CSHbM83PyA6EV2DOF6	192.168.69.10	1041	95.142.164.214	80	F24ZBD39K9Xxgl8Vnh	application/x-dosexec	http://adpage76.google-syndication76.in/x.php?f=28&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 39%  Last seen: 2012-02-20 23:14:30	https://www.virustotal.com/en/search/?query=cf2d7ec482753d5cfa0f8a8c98d5996581873291	192.168.69.10	95.142.164.214	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328407011.10424	CVoDKr4CyipcVmjnN1	192.168.69.10	1089	95.142.164.214	80	FU3NMZ2NtEum66q8b6	application/x-dosexec	http://adpage76.google-syndication76.in/x.php?f=28&e=0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 39%  Last seen: 2012-02-20 23:14:30	https://www.virustotal.com/en/search/?query=cf2d7ec482753d5cfa0f8a8c98d5996581873291	192.168.69.10	95.142.164.214	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-19-36

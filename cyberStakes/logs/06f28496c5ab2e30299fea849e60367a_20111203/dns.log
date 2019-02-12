@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-11-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1322941775.544866	CFY6Ph3LUHqsKWBk87	192.168.12.10	1029	4.2.2.3	53	udp	8845	gute-lieferanten.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	212.48.119.72	3577.000000	F
+1322941776.461736	CFY6Ph3LUHqsKWBk87	192.168.12.10	1029	4.2.2.3	53	udp	24207	fonts.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.45.95	2946.000000,42.000000	F
+1322941776.933658	CFY6Ph3LUHqsKWBk87	192.168.12.10	1029	4.2.2.3	53	udp	64393	html5shim.googlecode.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlecode.l.google.com,74.125.159.82	21821.000000,300.000000	F
+1322941776.936516	CFY6Ph3LUHqsKWBk87	192.168.12.10	1029	4.2.2.3	53	udp	10122	themes.googleusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlehosted.l.googleusercontent.com,74.125.65.132	7309.000000,211.000000	F
+1322941776.98957	CFY6Ph3LUHqsKWBk87	192.168.12.10	1029	4.2.2.3	53	udp	132	gpoiwesttersti.ontheweb.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.211.160.73	21600.000000	F
+1322941809.148922	CpNGcP17Rjgagnn9Wb	192.168.12.10	1029	4.2.2.3	53	udp	23430	swupmf.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	swupmf.wip4.adobe.com,swupmf.adobe.com.edgesuite.net,a1137.g.akamai.net,24.143.193.35,24.143.193.16	3074.000000,600.000000,273.000000,20.000000,20.000000	F
+1322941811.297576	CpNGcP17Rjgagnn9Wb	192.168.12.10	1029	4.2.2.3	53	udp	59015	crl.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.wip4.adobe.com,crl.adobe.com.edgesuite.net,a1180.g.akamai.net,24.143.193.42,24.143.193.25	2624.000000,300.000000,4469.000000,20.000000,20.000000	F
+#close	2014-04-03-10-11-22

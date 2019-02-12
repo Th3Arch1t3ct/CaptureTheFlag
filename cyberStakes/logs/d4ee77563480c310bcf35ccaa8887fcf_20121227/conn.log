@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-26-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1356640673.380093	CyiNpd49ZlUbMuXgN5	192.168.81.10	1038	24.143.197.59	80	tcp	-	0.001041	0	0	RSTOS0	-	0	SaR	2	88	1	40	(empty)
+1356640673.385839	CQoEykJHOeg86dXJf	192.168.81.10	1040	195.3.143.42	80	tcp	http	0.428900	276	360	RSTO	-	0	ShADRad	6	524	3	488	(empty)
+1356640673.373302	CfRRUd4cpqBEbDXVCk	192.168.81.10	1037	208.131.138.217	80	tcp	http	0.390695	366	36903	RSTO	-	0	ShADadR	26	1414	28	38031	(empty)
+1356640673.649228	CaIUWW2mGVFZytl8M3	192.168.81.10	1041	178.218.209.2	80	tcp	-	0.154915	0	0	RSTO	-	0	ShR	2	88	1	44	(empty)
+1356640673.831052	CPGKQ715FBOnZHQd7d	192.168.81.10	1042	92.243.66.77	80	tcp	-	0.135019	0	0	RSTO	-	0	ShR	2	88	1	48	(empty)
+1356640670.715406	CoJtqB2gHZYaA7AcJ3	192.168.81.10	1029	4.2.2.3	53	udp	dns	2.933020	183	416	SF	-	0	Dd	5	323	5	556	(empty)
+1356640673.38444	C4YKxy1GOKXicYrkn	192.168.81.10	1039	4.2.2.3	53	udp	dns	0.445783	62	94	SF	-	0	Dd	2	118	2	150	(empty)
+1356640670.993354	C0aem71hZqu0VWslMf	192.168.81.10	1030	195.64.155.34	80	tcp	http	33.273413	286	369	RSTO	-	0	ShADadfR	6	534	4	537	(empty)
+1356640654.817797	C6Baze2EjSdEjtCxaj	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.016532	626	0	S0	-	0	D	2	682	0	0	(empty)
+1356640654.818163	CglNqG3LoYFcRoaS4d	192.168.81.10	68	192.168.81.1	67	udp	dhcp	12.639182	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1356640672.089238	CLLMAX28jDHoHuNiq	192.168.81.10	1031	195.3.143.42	80	tcp	http	62.505391	679	2506	RSTO	-	0	ShADadR	7	967	6	2754	(empty)
+1356640672.778169	CtLC2lBtsTxLD3AP5	192.168.81.10	1032	195.3.143.42	80	tcp	http	61.816081	352	504	RSTO	-	0	ShADadR	5	560	3	632	(empty)
+1356640672.791433	CBPwaz18hdK9uRsZFk	192.168.81.10	1035	239.255.255.250	1900	udp	-	6.132092	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-10-26-25

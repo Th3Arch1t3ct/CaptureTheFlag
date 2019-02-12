@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-00-41
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1320489553.206729	CuAHnIT2QQHe9Vd5i	192.168.31.10	1030	175.107.148.213	80	1	GET	investmentartgallery.com.au	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	230	302	Found	-	-	-	(empty)	-	-	-	-	-	F1SWDE2DdDfkPf27N4	text/html
+1320489553.694488	Cy3eAV3xEPWD9roXnc	192.168.31.10	1031	79.137.226.90	80	1	GET	lensesorganization.ru	/contact/index.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1120	200	OK	-	-	-	(empty)	-	-	-	-	-	Fg06Mh2NNNXGtezve7	text/html
+1320489554.44814	CcGUwI2NSPaeQOjLM3	192.168.31.10	1032	79.137.226.90	80	1	GET	depositconsulting.ru	/allow.php?page=19909cd93a1a78f6	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	96489	200	OK	-	-	-	(empty)	-	-	-	-	-	FQDpZt4YY8sf48z3ng	text/html
+1320489568.927622	CcGUwI2NSPaeQOjLM3	192.168.31.10	1032	79.137.226.90	80	2	GET	depositconsulting.ru	/w.php?f=130&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	840192	200	OK	-	-	-	(empty)	-	-	-	-	-	FHD4dB4KWB7cbMXZV3	application/x-dosexec
+1320489573.557273	CcGUwI2NSPaeQOjLM3	192.168.31.10	1032	79.137.226.90	80	3	GET	depositconsulting.ru	/content/2ddfp.php?f=130	http://depositconsulting.ru/allow.php?page=19909cd93a1a78f6	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	12153	200	OK	-	-	-	(empty)	-	-	-	-	-	FkzE2kLrrf8DD0Dy3	application/pdf
+1320489579.560882	CcGUwI2NSPaeQOjLM3	192.168.31.10	1032	79.137.226.90	80	4	GET	depositconsulting.ru	/content/field.swf	http://depositconsulting.ru/allow.php?page=19909cd93a1a78f6	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1347	200	OK	-	-	-	(empty)	-	-	-	-	-	FKOFWb2re0h431KZbf	application/x-shockwave-flash
+1320489579.836783	CGDWrC47Zcu4lUC9R	192.168.31.10	1042	64.202.163.8	80	1	GET	getmilfs.com	/logo/go.php?id=111	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2	200	OK	-	-	-	(empty)	-	-	-	-	-	FVVIcE2ZQei3crTmb9	text/plain
+1320489580.952891	CK4rIfBvp35HebMr6	192.168.31.10	1043	195.234.65.128	80	1	GET	fetishdreams.com	/images/img.php?id=111	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2	200	OK	-	-	-	(empty)	-	-	-	-	-	FpJVMq2W74TdByZIbd	text/plain
+1320489581.850058	CcGUwI2NSPaeQOjLM3	192.168.31.10	1032	79.137.226.90	80	5	GET	depositconsulting.ru	/w.php?f=130&e=6	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	162855	200	OK	-	-	-	(empty)	-	-	-	-	-	FyDHER14OSj3XeC7xc	application/x-dosexec
+1320489591.130651	CkFPUr1TMM3QdsMdel	192.168.31.10	1044	91.228.132.61	80	1	OPTIONS	91.228.132.61	/	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	166	405	Not Allowed	-	-	-	(empty)	-	-	-	-	-	FDmKhC4Pn7I7ftFQNl	text/html
+#close	2014-04-03-11-00-41

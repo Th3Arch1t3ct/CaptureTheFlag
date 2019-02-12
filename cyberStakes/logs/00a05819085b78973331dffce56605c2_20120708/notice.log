@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-13-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1341765387.182122	CIXD0v2UYgzo7Z3xte	192.168.26.10	1038	95.168.187.211	80	FHZiQHBgE3ICgnCzh	application/x-dosexec	http://houegardenpivo.net.ms/2.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 31%  Last seen: 2012-07-10 07:28:06	https://www.virustotal.com/en/search/?query=a9747c6ba49a1915f156f844bedba34b45955bd8	192.168.26.10	95.168.187.211	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1341765391.162505	CfdbTq3t7ubAxTzjDb	192.168.26.10	1041	95.168.187.211	80	FBftuT3cUEKElAOWy6	application/x-dosexec	http://houegardenpivo.net.ms/3.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 31%  Last seen: 2012-07-10 07:28:06	https://www.virustotal.com/en/search/?query=a9747c6ba49a1915f156f844bedba34b45955bd8	192.168.26.10	95.168.187.211	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-13-59

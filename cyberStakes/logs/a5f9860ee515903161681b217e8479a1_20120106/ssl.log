@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-08-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1325821631.944205	CDmRnG1FwmHC9VHUU5	192.168.111.10	1041	184.28.140.60	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.constantcontact.com,ST=MASSACHUSETTS,OU=Operations,O=Constant Contact\, Inc.,L=Waltham,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1307482354.000000	1339104754.000000	-	-	-	9dd270ca8718f3638cfe710eddffffff	ok
+1325821631.946251	C0dIf34wc0jaTE3Pa	192.168.111.10	1042	184.28.140.60	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.constantcontact.com,ST=MASSACHUSETTS,OU=Operations,O=Constant Contact\, Inc.,L=Waltham,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1307482354.000000	1339104754.000000	-	-	-	9dd270ca8718f3638cfe710eddffffff	ok
+1325821632.57971	CwoZaO12da7vdFjHz2	192.168.111.10	1046	184.28.140.60	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	f35af9a875f15e2c8a5ce05c07e0d903e461103da962c4f593edceadbcd9ea2a	-	-	-	-	-	-	-	-	-
+1325821632.580039	CQp39C1pdXzMd9gKw2	192.168.111.10	1047	184.28.140.60	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	f35af9a875f15e2c8a5ce05c07e0d903e461103da962c4f593edceadbcd9ea2a	-	-	-	-	-	-	-	-	-
+1325821632.668503	CUz5CF12MTk2UIQxo3	192.168.111.10	1048	184.28.140.60	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	f35af9a875f15e2c8a5ce05c07e0d903e461103da962c4f593edceadbcd9ea2a	-	-	-	-	-	-	-	-	-
+1325821632.668855	CcSJYM1asPzBYnrGSa	192.168.111.10	1049	184.28.140.60	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	f35af9a875f15e2c8a5ce05c07e0d903e461103da962c4f593edceadbcd9ea2a	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-08-26

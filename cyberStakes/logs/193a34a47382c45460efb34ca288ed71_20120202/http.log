@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-08-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1328165823.864862	CwdPMUUj1ltMAwk89	192.168.125.10	1030	91.200.176.90	80	1	GET	belissimowe.org.in	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	478	200	OK	-	-	-	(empty)	-	-	-	-	-	FR2Ccr4VbviYUTFBm2	text/html
+1328165824.06862	CwdPMUUj1ltMAwk89	192.168.125.10	1030	91.200.176.90	80	2	GET	belissimowe.org.in	/images/opt.jpeg	http://belissimowe.org.in/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	38270	200	OK	-	-	-	(empty)	-	-	-	-	-	FJFphE1p7fm4DAeE6b	image/jpeg
+1328165824.251299	CHFkBK2n4exkHJ0xh8	192.168.125.10	1031	91.200.176.93	80	1	GET	myoklas.info	/contact.php?code=4124063f8c1f921a	http://belissimowe.org.in/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	79954	200	OK	-	-	-	(empty)	-	-	-	-	-	F4AhxB2SIH4ix7KLu8	text/html
+1328165832.97828	CHFkBK2n4exkHJ0xh8	192.168.125.10	1031	91.200.176.93	80	2	GET	myoklas.info	/q.php?f=22&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	98240	200	OK	-	-	-	(empty)	-	-	-	-	-	F9k2Yli8M5leGCqC8	application/x-dosexec
+1328165833.867725	CHFkBK2n4exkHJ0xh8	192.168.125.10	1031	91.200.176.93	80	3	GET	myoklas.info	/content/adfp2.php?f=22	http://myoklas.info/contact.php?code=4124063f8c1f921a	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13182	200	OK	-	-	-	(empty)	-	-	-	-	-	FZZkV93H35VssNn8h4	application/pdf
+1328165841.169942	CHFkBK2n4exkHJ0xh8	192.168.125.10	1031	91.200.176.93	80	4	GET	myoklas.info	/q.php?f=22&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	98240	200	OK	-	-	-	(empty)	-	-	-	-	-	Fb0NAB2UuSaY8OjIa9	application/x-dosexec
+1328165842.206899	CHFkBK2n4exkHJ0xh8	192.168.125.10	1031	91.200.176.93	80	5	GET	myoklas.info	/content/field.swf	http://belissimowe.org.in/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1562	200	OK	-	-	-	(empty)	-	-	-	-	-	FItieD46vMgwW88km8	application/x-shockwave-flash
+1328165852.248709	CVdogr1lQjzvLIShY1	192.168.125.10	1039	91.200.176.93	80	1	GET	myoklas.info	/content/rino.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4394	200	OK	-	-	-	(empty)	-	-	-	-	-	F1MWfD2TRnA4Vu00K1	application/zip
+1328165853.072071	C4QiFi4sAt72HWGMt2	192.168.125.10	1040	91.200.176.93	80	1	GET	myoklas.info	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	311	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FHBpavDAey1W37HY7	text/html
+1328165853.230388	C4QiFi4sAt72HWGMt2	192.168.125.10	1040	91.200.176.93	80	2	GET	myoklas.info	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	311	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FDCR1k3YKSVqnCU8Ng	text/html
+1328165853.379253	C4QiFi4sAt72HWGMt2	192.168.125.10	1040	91.200.176.93	80	3	GET	myoklas.info	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	311	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Ffba8sheayZJoJ2E	text/html
+1328165853.52862	C4QiFi4sAt72HWGMt2	192.168.125.10	1040	91.200.176.93	80	4	GET	myoklas.info	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	311	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FMmy5Q36xk4Er0GPj5	text/html
+1328165853.804961	C4QiFi4sAt72HWGMt2	192.168.125.10	1040	91.200.176.93	80	5	GET	myoklas.info	/q.php?f=22&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	98240	200	OK	-	-	-	(empty)	-	-	-	-	-	FSiZdV3h9tR4gcHRz5	application/x-dosexec
+#close	2014-04-03-11-08-19

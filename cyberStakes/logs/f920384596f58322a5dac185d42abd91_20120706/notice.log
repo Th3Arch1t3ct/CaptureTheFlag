@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-12-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1341604387.220245	CeJUOU2PM97CYZu3X3	192.168.72.10	1050	37.157.255.175	80	FNT9Uf3xXibv8E0kg	application/x-dosexec	http://kibuhss.tk/2.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2012-07-08 00:26:54	https://www.virustotal.com/en/search/?query=496dfe27982b4ae122fb575f465b12eff7bef748	192.168.72.10	37.157.255.175	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1341604392.165797	CnkX9I2klBwECvF5Uj	192.168.72.10	1057	37.157.255.175	80	FD0dOH1QbrkihfXvLd	application/jar	http://kibuhss.tk/33256.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 32%  Last seen: 2012-07-20 01:01:02	https://www.virustotal.com/en/search/?query=9aad058c753424b6e191afdbced9ccf15190cb54	192.168.72.10	37.157.255.175	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1341604397.259979	CnkX9I2klBwECvF5Uj	192.168.72.10	1057	37.157.255.175	80	FnW9qJ2R22fw3rBg5j	application/jar	http://kibuhss.tk/33256.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 32%  Last seen: 2012-07-20 01:01:02	https://www.virustotal.com/en/search/?query=9aad058c753424b6e191afdbced9ccf15190cb54	192.168.72.10	37.157.255.175	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1341604397.259979	CnkX9I2klBwECvF5Uj	192.168.72.10	1057	37.157.255.175	80	FNyWIM1KbrLZ4cGUAi	application/jar	http://kibuhss.tk/33256.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 32%  Last seen: 2012-07-20 01:01:02	https://www.virustotal.com/en/search/?query=9aad058c753424b6e191afdbced9ccf15190cb54	192.168.72.10	37.157.255.175	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1341604398.237143	CnkX9I2klBwECvF5Uj	192.168.72.10	1057	37.157.255.175	80	FuXXgo1yQqQlVLzoqj	application/jar	http://kibuhss.tk/33256.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 32%  Last seen: 2012-07-20 01:01:02	https://www.virustotal.com/en/search/?query=9aad058c753424b6e191afdbced9ccf15190cb54	192.168.72.10	37.157.255.175	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1341604402.33077	CnkX9I2klBwECvF5Uj	192.168.72.10	1057	37.157.255.175	80	F5Kfok3ymEaviftp4a	application/x-dosexec	http://kibuhss.tk/3.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2012-07-08 00:26:54	https://www.virustotal.com/en/search/?query=496dfe27982b4ae122fb575f465b12eff7bef748	192.168.72.10	37.157.255.175	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-12-02

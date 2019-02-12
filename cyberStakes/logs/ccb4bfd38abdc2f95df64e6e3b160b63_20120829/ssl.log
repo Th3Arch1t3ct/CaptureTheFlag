@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-11-00-40
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1346269034.413976	C2RAQO2Ja4ofF2yH1	192.168.17.10	1031	96.17.50.110	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=s-static.ak.facebook.com,ST=California,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1340068319.000000	1368334740.000000	-	-	-	9e5e608717b1f05d5ef57491557c1e52	ok
+1346269034.431447	CLFZqaWACUlwdB952	192.168.17.10	1032	96.17.50.110	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=s-static.ak.facebook.com,ST=California,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1340068319.000000	1368334740.000000	-	-	-	9e5e608717b1f05d5ef57491557c1e52	ok
+1346269034.70248	C6b3wn24Q3p4DwY96e	192.168.17.10	1034	96.17.50.110	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	6f406697cc68c231cbcb23f73663ee364fd0d1e14b67c83cc8d01bf34e2a89ad	-	-	-	-	-	-	-	-	-
+1346269034.695217	CTFcsj6YC6pPrJRIb	192.168.17.10	1033	96.17.50.110	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	6f406697cc68c231cbcb23f73663ee364fd0d1e14b67c83cc8d01bf34e2a89ad	-	-	-	-	-	-	-	-	-
+1346269034.808076	C6etV71hhuxcGcyZQ3	192.168.17.10	1039	96.17.50.110	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	6f406697cc68c231cbcb23f73663ee364fd0d1e14b67c83cc8d01bf34e2a89ad	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-11-00-40

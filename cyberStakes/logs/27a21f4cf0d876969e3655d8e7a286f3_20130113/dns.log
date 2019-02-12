@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-45-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1358052199.394297	CK2yIoHs5M1GWMVS5	192.168.100.10	1029	4.2.2.3	53	udp	48270	blazingoqueen.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.170.52.21,93.170.52.31	279.000000,279.000000	F
+1358052199.715958	CK2yIoHs5M1GWMVS5	192.168.100.10	1029	4.2.2.3	53	udp	59279	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.229.230,74.125.229.226,74.125.229.238,74.125.229.228,74.125.229.229,74.125.229.227,74.125.229.233,74.125.229.225,74.125.229.231,74.125.229.232,74.125.229.224	47225.000000,187.000000,187.000000,187.000000,187.000000,187.000000,187.000000,187.000000,187.000000,187.000000,187.000000,187.000000	F
+1358052199.745181	CK2yIoHs5M1GWMVS5	192.168.100.10	1029	4.2.2.3	53	udp	652	ieqzjo.totyn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	urlforward.topdns.com,72.8.167.249,199.59.160.184	3600.000000,672.000000,672.000000	F
+1358052200.237481	CK2yIoHs5M1GWMVS5	192.168.100.10	1029	4.2.2.3	53	udp	23949	fbstatic-a.akamaihd.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fbstatic-a.akamaihd.net.edgesuite.net,a1168.dsw4.akamai.net,198.172.136.96,198.172.136.82	37.000000,326.000000,9.000000,9.000000	F
+#close	2014-04-03-10-45-45

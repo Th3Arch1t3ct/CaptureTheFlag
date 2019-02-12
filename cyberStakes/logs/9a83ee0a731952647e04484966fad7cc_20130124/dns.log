@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-51-16
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1359070275.38122	CmMvtG4VMvOVpuERkc	192.168.9.10	1029	4.2.2.3	53	udp	22678	fobus-shop.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.169.145.162	7200.000000	F
+1359070277.986671	CmMvtG4VMvOVpuERkc	192.168.9.10	1029	4.2.2.3	53	udp	48279	unknowncommute.su	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	147.175.16.34	3600.000000	F
+1359070278.415094	CmMvtG4VMvOVpuERkc	192.168.9.10	1029	4.2.2.3	53	udp	49301	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.d.akamai.net,184.51.126.88,184.51.126.107	5316.000000,296.000000,5368.000000,1.000000,1.000000	F
+1359070281.336821	CmMvtG4VMvOVpuERkc	192.168.9.10	1029	4.2.2.3	53	udp	30611	accidentally.reqaahdpashtraysobq.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.229.56.115	600.000000	F
+1359070282.178989	CmMvtG4VMvOVpuERkc	192.168.9.10	1029	4.2.2.3	53	udp	31632	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	578.000000,254.000000	F
+1359070282.337426	CmMvtG4VMvOVpuERkc	192.168.9.10	1029	4.2.2.3	53	udp	39569	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	1359.000000,554.000000	F
+1359070294.106647	CmMvtG4VMvOVpuERkc	192.168.9.10	1029	4.2.2.3	53	udp	4511	boxtralsurvisv.pl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	118.41.184.73,80.152.149.121,115.153.226.65	300.000000,300.000000,300.000000	F
+1359070324.449499	CHDvv03dmOXh9OcHY8	192.168.9.10	1029	4.2.2.3	53	udp	59292	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.125.227.147,74.125.227.146,74.125.227.144,74.125.227.148,74.125.227.145	3.000000,3.000000,3.000000,3.000000,3.000000	F
+1359070325.585271	CPSIjsnQPuwMkLjWd	192.168.9.10	1029	4.2.2.5	53	udp	52122	htimemanagemen.su	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	80.152.149.121,115.153.226.65,118.41.184.73	300.000000,300.000000,300.000000	F
+1359070324.560808	CHDvv03dmOXh9OcHY8	192.168.9.10	1029	4.2.2.3	53	udp	52122	htimemanagemen.su	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	115.153.226.65,118.41.184.73,80.152.149.121	300.000000,300.000000,300.000000	F
+#close	2014-04-03-09-51-17

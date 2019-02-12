@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-09-50-47
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1340928112.279467	Fqhznm3DYQyMxaMNCk	174.120.119.189	192.168.64.10	CNd4f92vBzpT9Oqjpi	HTTP	0	MD5,SHA1	text/html	-	0.000135	-	F	4574	4574	0	0	F	-	584c23daae3293fa130ee3ce2875a049	2964b18eeaef0bf5ab4c8e44ef1659b8b86d4f8b	-	-
+1340928112.378249	F4YoDq1cRNE10jT1g1	174.120.119.189	192.168.64.10	CNd4f92vBzpT9Oqjpi	HTTP	0	MD5,SHA1	image/jpeg	-	0.000000	-	F	1047	1047	0	0	F	-	6df8a6c9fd6c2ec501def263dc10f6c4	734ef9a554e292a7b7427bcb8ee520d2c7b7bc62	-	-
+1340928112.8771	F1cBbFYfTnEv1hPz2	178.162.167.135	192.168.64.10	CCahV02XfNfn3WchKk	HTTP	0	MD5,SHA1	text/html	-	0.169289	-	F	12229	-	0	0	F	-	207e76131cded1450c77d77c128e16a6	eeae69b43f9218f0016f9475b78826257f38b5e9	-	-
+1340928113.59758	FT2b8i1Ds8Z5GXHAtg	178.162.167.135	192.168.64.10	CCahV02XfNfn3WchKk	HTTP	0	MD5,SHA1	application/pdf	61a8e910.pdf	0.509824	-	F	41360	41360	0	0	F	-	4494dbe8933aeb2c065bc8ddd72a55ca	aaf3073dda87934dfb686644170ab1c8f1129853	-	-
+1340928123.650397	FduMDHDwpSpNR3BEe	178.162.167.135	192.168.64.10	CCahV02XfNfn3WchKk	HTTP	0	MD5,SHA1	application/x-dosexec	setup.exe	0.508989	-	F	33792	33792	0	0	F	-	643ef0454f93284b4c4447e7e47ca9de	3449b2a12f82839cac446c612ee3f48a0a8a97c4	-	-
+1340928124.193171	FVn1Kq2EaeWN4Fb4P8	178.162.167.135	192.168.64.10	CWIAMl12154GqC3Hg2	HTTP	0	MD5,SHA1	application/zip	eb8244d3.jar	0.848331	-	F	76321	76321	0	0	F	-	9f0576f02165be7f46ef49cebff71725	d213838a2a51045440a8b9fd715c013713ec89e8	-	-
+1340928127.809505	FwqlAI3Oo2rrCQsam7	178.162.167.135	192.168.64.10	CWIAMl12154GqC3Hg2	HTTP	0	MD5,SHA1	application/zip	3ca032d0.jar	0.847681	-	F	76321	76321	0	0	F	-	9f0576f02165be7f46ef49cebff71725	d213838a2a51045440a8b9fd715c013713ec89e8	-	-
+1340928129.749947	FFjN2zzTuto8iD0pc	178.162.167.135	192.168.64.10	CWIAMl12154GqC3Hg2	HTTP	0	MD5,SHA1	application/zip	ddff7595.jar	0.677888	-	F	76321	76321	0	0	F	-	9f0576f02165be7f46ef49cebff71725	d213838a2a51045440a8b9fd715c013713ec89e8	-	-
+1340928130.733233	FfPiiu23o2yprjKUB9	178.162.167.135	192.168.64.10	CWIAMl12154GqC3Hg2	HTTP	0	MD5,SHA1	application/x-dosexec	setup.exe	0.169182	-	F	33792	33792	0	0	F	-	643ef0454f93284b4c4447e7e47ca9de	3449b2a12f82839cac446c612ee3f48a0a8a97c4	-	-
+#close	2014-04-03-09-50-47

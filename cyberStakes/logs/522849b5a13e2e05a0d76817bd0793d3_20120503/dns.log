@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-40-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1336035651.508971	CThhCo1byOJA5d1FLe	192.168.99.10	1028	4.2.2.3	53	udp	4233	yunusarakon.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.109.181.237	3576.000000	F
+1336035654.317766	CThhCo1byOJA5d1FLe	192.168.99.10	1028	4.2.2.3	53	udp	43145	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.134.95	373.000000,189.000000	F
+1336035659.614678	CThhCo1byOJA5d1FLe	192.168.99.10	1028	4.2.2.3	53	udp	395	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.137.101,74.125.137.102,74.125.137.113,74.125.137.138,74.125.137.139,74.125.137.100	24267.000000,55.000000,55.000000,55.000000,55.000000,55.000000,55.000000	F
+1336035659.616215	CAt9kW29ussyZCyaz5	192.168.99.10	1038	4.2.2.3	53	udp	16523	www.sebestia.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.75.213.211	28800.000000	F
+1336035659.617999	C6zd6E1S5dWedYsUQ3	192.168.99.10	1039	4.2.2.3	53	udp	5517	xxxz.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.46.196.236	14400.000000	F
+#close	2014-04-03-10-40-56

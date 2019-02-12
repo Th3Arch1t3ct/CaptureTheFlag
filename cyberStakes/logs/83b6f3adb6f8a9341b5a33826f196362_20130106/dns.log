@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-00-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1357500021.163526	CvMFui1mOatEpD2dqe	192.168.55.10	1029	4.2.2.3	53	udp	54414	uaqnshparis.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.170.52.21,93.170.52.31	281.000000,281.000000	F
+1357500021.525054	CvMFui1mOatEpD2dqe	192.168.55.10	1029	4.2.2.3	53	udp	27278	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.134.102,74.125.134.139,74.125.134.100,74.125.134.138,74.125.134.101,74.125.134.113	80989.000000,105.000000,105.000000,105.000000,105.000000,105.000000,105.000000	F
+1357500021.528975	CvMFui1mOatEpD2dqe	192.168.55.10	1029	4.2.2.3	53	udp	33677	bhdnlx.lycexo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	urlforward.topdns.com,199.59.160.184,72.8.167.249	3600.000000,3600.000000,3600.000000	F
+1357500025.053924	CvMFui1mOatEpD2dqe	192.168.55.10	1029	4.2.2.3	53	udp	51084	fbstatic-a.akamaihd.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fbstatic-a.akamaihd.net.edgesuite.net,a1168.dsw4.akamai.net,192.204.4.82,192.204.4.65	193.000000,335.000000,8.000000,8.000000	F
+#close	2014-04-03-10-00-18

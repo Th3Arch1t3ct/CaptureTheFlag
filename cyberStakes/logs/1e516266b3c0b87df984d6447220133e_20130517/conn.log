@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-08-01
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1368826105.742366	CYYewt3vjM4YgJmBbf	192.168.121.10	1033	204.15.172.228	80	tcp	http	0.377144	235	550	SF	-	0	ShADafF	5	443	7	838	(empty)
+1368826106.586768	C6CvGJ1IkjJuRyNyLc	192.168.121.10	1034	46.229.151.194	80	tcp	http	0.527926	262	4564	SF	-	0	ShADadfF	22	1150	23	14828	(empty)
+1368826113.563134	Col0iO2R2yxGlHVdih	192.168.121.10	1039	46.229.151.194	80	tcp	-	0.130392	0	0	RSTO	-	0	ShR	5	208	4	192	(empty)
+1368826104.678648	CAN2U1NHYzfe2RGd1	192.168.121.10	1030	66.7.198.92	80	tcp	http	15.517937	286	447	RSTO	-	0	ShADadfR	6	534	4	611	(empty)
+1368826122.380969	C0DuVD3RZvQMLyXRSc	192.168.121.10	1043	187.45.195.183	80	tcp	http	0.586066	326	23619	RSTO	-	0	ShADadR	33	1654	34	46887	(empty)
+1368826105.415909	Cjs1t3iEaCa9bsvc7	192.168.121.10	1032	66.7.198.92	80	tcp	http	22.428167	9025	195344	RSTO	-	0	ShADadfR	120	13833	159	202195	(empty)
+1368826105.015015	CHHEn64qn5aFKVVQmk	192.168.121.10	1031	66.7.198.92	80	tcp	http	22.829270	6154	217460	RSTO	-	0	ShADadfR	278	17282	342	454780	(empty)
+1368826104.671095	Cmhzm94n42VdQnXtzk	192.168.121.10	1029	4.2.2.3	53	udp	dns	17.709066	200	342	SF	-	0	Dd	6	368	6	510	(empty)
+1368826113.563722	Cp6gHIu4HYxdaqJD3	192.168.121.10	1040	46.229.151.194	80	tcp	http	1.166570	535	25057	S3	-	0	ShADadf	17	1223	21	25905	(empty)
+1368826118.512808	Carh8HduxVkopt5v3	192.168.121.10	1042	66.7.198.92	80	tcp	http	20.706724	482	1717	SF	-	0	ShADadfF	7	770	6	1961	(empty)
+1368826116.822001	CP2AWA30lM3t17XQuh	192.168.121.10	1041	200.234.196.243	80	tcp	http	1.271890	274	5646	SF	-	0	ShADdfFa	32	1562	38	17240	(empty)
+1368826107.660036	CsgA7f2ryDR0Yrs8ha	192.168.121.10	1037	239.255.255.250	1900	udp	-	6.202448	399	0	S0	-	0	D	3	483	0	0	(empty)
+1368826089.050715	C1aNmv3Mr5jVKGwUif	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000845	626	0	S0	-	0	D	2	682	0	0	(empty)
+1368826089.051033	C3QeZG1OtxGjZeU251	192.168.121.10	68	192.168.121.1	67	udp	dhcp	12.407227	314	900	SF	-	0	dD	1	342	3	984	(empty)
+#close	2014-04-03-10-08-01

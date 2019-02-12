@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-47-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1361053237.505692	ChXoxW2TXnaN7jde6j	192.168.125.10	1029	4.2.2.3	53	udp	8843	www.emc2studios.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	emc2studios.com,174.136.23.44	86380.000000,86380.000000	F
+1361053237.714049	ChXoxW2TXnaN7jde6j	192.168.125.10	1029	4.2.2.3	53	udp	7049	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.134.95	548.000000,184.000000	F
+1361053237.996562	ChXoxW2TXnaN7jde6j	192.168.125.10	1029	4.2.2.3	53	udp	43400	media.hypersites.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.136.23.42	86400.000000	F
+1361053238.156596	ChXoxW2TXnaN7jde6j	192.168.125.10	1029	4.2.2.3	53	udp	60815	hypercache.h5i.s3.amazonaws.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	s3-directional-w.amazonaws.com,s3-directional-w.a-geo.amazonaws.com,s3-1-w.amazonaws.com,176.32.100.68	7519.000000,356.000000,112.000000,21.000000	F
+#close	2014-04-03-10-47-12

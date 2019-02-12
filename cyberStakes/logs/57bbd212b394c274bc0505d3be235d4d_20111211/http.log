@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-02-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1323624730.39051	CHUPYX20yQYix161q1	192.168.41.10	1030	97.74.215.236	80	1	GET	gofoo.info	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4882	200	OK	-	-	-	(empty)	-	-	-	-	-	Fi4Sa2FwuPd2rp8lj	text/html
+1323624730.850694	CCqDte2NpTqjDD7858	192.168.41.10	1031	79.137.237.67	80	1	GET	allegiantcare.com	/main.php?page=98d3bf6d08596d13	http://gofoo.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	92054	200	OK	-	-	-	(empty)	-	-	-	-	-	FNVTPN3Huwly1B3wz2	text/html
+1323624736.72402	CCqDte2NpTqjDD7858	192.168.41.10	1031	79.137.237.67	80	2	GET	allegiantcare.com	/w.php?f=16&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	197632	200	OK	-	-	-	(empty)	-	-	-	-	-	F284UD2Zo08142UyT7	application/x-dosexec
+1323624741.812175	CCqDte2NpTqjDD7858	192.168.41.10	1031	79.137.237.67	80	3	GET	allegiantcare.com	/content/fdp2.php?f=16	http://allegiantcare.com/main.php?page=98d3bf6d08596d13	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	106948	200	OK	-	-	-	(empty)	-	-	-	-	-	FfGGS23oQ1yvisBgGf	application/pdf
+1323624743.153875	C6j1pq4ljoJzXTNJpi	192.168.41.10	1036	79.137.237.67	80	1	GET	allegiantcare.com	/content/field.swf	http://gofoo.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1397	200	OK	-	-	-	(empty)	-	-	-	-	-	FnnXjyPcQVA2dPArl	application/x-shockwave-flash
+1323624747.95899	CJqCc23Xru3Op01h3	192.168.41.10	1037	217.24.246.7	80	1	POST	vampkeys.ru	/funkysoul.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	73	33898	200	OK	-	-	-	(empty)	-	-	-	FUqroB1Vf06eD6ZyAk	text/plain	F5sz2r4GGnTELhHwV5	binary
+1323624759.385913	C1Pqjw21k1HdWgVHYe	192.168.41.10	1038	69.31.75.27	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1568	200	OK	-	-	-	(empty)	-	-	-	-	-	FhFrXMMPl8kGvjQvh	text/html
+1323624760.178377	CCTQYD3YLUaiPj6y5a	192.168.41.10	1039	79.137.237.67	80	1	GET	allegiantcare.com	/content/v1.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4111	200	OK	-	-	-	(empty)	-	-	-	-	-	FFAMb72xTYv2rEEgAf	application/zip
+1323624761.942856	CrtiUwzJ8Gs295U45	192.168.41.10	1040	79.137.237.67	80	1	GET	allegiantcare.com	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	162	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FWuPsRiLxiA078vJh	text/html
+1323624762.229322	CrtiUwzJ8Gs295U45	192.168.41.10	1040	79.137.237.67	80	2	GET	allegiantcare.com	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	162	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F9XutU1wXbyFuXPRTh	text/html
+1323624762.517891	CrtiUwzJ8Gs295U45	192.168.41.10	1040	79.137.237.67	80	3	GET	allegiantcare.com	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	162	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F9Li3IDE9UIQxU7la	text/html
+1323624762.805403	CrtiUwzJ8Gs295U45	192.168.41.10	1040	79.137.237.67	80	4	GET	allegiantcare.com	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	162	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FI2QtmPGPA6ExTbec	text/html
+1323624763.207494	CrtiUwzJ8Gs295U45	192.168.41.10	1040	79.137.237.67	80	5	GET	allegiantcare.com	/w.php?f=16&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	197632	200	OK	-	-	-	(empty)	-	-	-	-	-	FBek6O19TvI2z6NZu4	application/x-dosexec
+1323624777.397872	C7sJKI23rqYsFjIdpf	192.168.41.10	1041	74.125.159.103	80	1	GET	www.google.com	/webhp	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	18909	200	OK	-	-	-	(empty)	-	-	-	-	-	FcnsOe1Jza90Foj27g	text/html
+1323624777.751388	CMsIzZ35V0T2fhP8Y4	192.168.41.10	1042	221.13.79.58	80	1	POST	pighair.ru	/bitcome91.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	293	64	200	OK	-	-	-	(empty)	-	-	-	FR71Ov2pkClRtexEX1	binary	FLupM04QUBMcCIFcA7	binary
+#close	2014-04-03-11-02-56

@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-09-54-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1383678857.94939	Ch3fM21soyFHF6T7Tf	192.168.18.10	1047	74.125.239.6	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1381332970.000000	1412868970.000000	-	-	-	b653c7d247d3fb59c8dffffffffff93b	ok
+1383678857.949811	C6YFkG3a7JG7MfL4B1	192.168.18.10	1046	74.125.239.6	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1381332970.000000	1412868970.000000	-	-	-	b653c7d247d3fb59c8dffffffffff93b	ok
+1383678858.027356	CrwVlG2js0dCGL8U3f	192.168.18.10	1048	74.125.239.6	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	ff37e19fcb3fd2812dec382c9919d184e9fe0d1c2fd4eba29c46055af208b996	-	-	-	-	-	-	-	-	-
+1383678858.039693	CQEFSq2xjPPJE4jxq	192.168.18.10	1049	74.125.239.6	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	ff37e19fcb3fd2812dec382c9919d184e9fe0d1c2fd4eba29c46055af208b996	-	-	-	-	-	-	-	-	-
+1383678858.807138	CzB2hX2bgJpT5gm9ye	192.168.18.10	1060	74.125.239.146	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=www.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1381334353.000000	1412870353.000000	-	-	-	cfa64f9e9b917777777751c411c6df40	ok
+1383678858.79902	CdCGmcidpWQYHkNVb	192.168.18.10	1059	74.125.239.146	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=www.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1381334353.000000	1412870353.000000	-	-	-	cfa64f9e9b917777777751c411c6df40	ok
+1383678858.846992	ChR1Eo2t1EwjngDKf	192.168.18.10	1061	74.125.239.146	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	49bb191bf18d2f71d0b65fe91d34b6c42eed9d4d5880094c8d9c62099b9872db	-	-	-	-	-	-	-	-	-
+1383678858.879975	CdLJZKsiTSszuxSQk	192.168.18.10	1062	74.125.239.146	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	a829ec6284f153a69105a4f89f4936c38e22e7110cdf5266a111d64ccbaa45a2	-	-	-	-	-	-	-	-	-
+1383678859.032556	CYNzTY3kU9qzo5wZF7	192.168.18.10	1063	74.125.239.146	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	a829ec6284f153a69105a4f89f4936c38e22e7110cdf5266a111d64ccbaa45a2	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-09-54-46

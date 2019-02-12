@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-19-28
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1327171987.580096	CR4ttd42yBepnXKPTl	192.168.103.10	1029	4.2.2.3	53	udp	40336	customercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.124.198.1	3582.000000	F
+1327171987.660172	CR4ttd42yBepnXKPTl	192.168.103.10	1029	4.2.2.3	53	udp	49555	orderriver.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.211.119.42	3582.000000	F
+1327172022.929257	ChOg5i35mEZCKInCFe	192.168.103.10	1029	4.2.2.3	53	udp	50322	potvamp.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	60.19.30.135,210.212.58.161,217.24.246.7,24.249.167.92	300.000000,300.000000,300.000000,300.000000	F
+1327172050.601556	CzuqK82JZHPo9xk0q9	192.168.103.10	1029	4.2.2.3	53	udp	44948	snotarms.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	210.212.58.161,217.24.246.7,24.249.167.92,60.19.30.135	300.000000,300.000000,300.000000,300.000000	F
+#close	2014-04-03-10-19-29

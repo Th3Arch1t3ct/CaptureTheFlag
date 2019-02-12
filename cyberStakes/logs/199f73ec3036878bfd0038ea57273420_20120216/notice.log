@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-49-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1329366971.67405	CqiF513oJKU8wZ2NCj	192.168.55.10	1035	188.190.98.79	80	FhUaQF2UkPtphqhDJj	application/x-dosexec	http://storylootybuz.com/w.php?f=40&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 42%  Last seen: 2012-03-04 20:23:38	https://www.virustotal.com/en/search/?query=6fc728382645826ba2cb0389c8341b9e193787d2	192.168.55.10	188.190.98.79	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1329366983.308228	CKPzzMJBmkWibc9Nb	192.168.55.10	1041	188.190.98.79	80	FddDjv30if5hcqZvz3	application/x-dosexec	http://storylootybuz.com/w.php?f=40&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 42%  Last seen: 2012-03-04 20:23:38	https://www.virustotal.com/en/search/?query=6fc728382645826ba2cb0389c8341b9e193787d2	192.168.55.10	188.190.98.79	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1329366983.375261	CcJqg84qSfxHEuBITd	192.168.55.10	1042	188.190.98.79	80	FhVglgeKGhXzSt005	application/x-shockwave-flash	http://storylootybuz.com/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 25%  Last seen: 2012-02-13 09:48:25	https://www.virustotal.com/en/search/?query=063de13297cc3a20e9854520c9fd79d589c8238f	192.168.55.10	188.190.98.79	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-49-16

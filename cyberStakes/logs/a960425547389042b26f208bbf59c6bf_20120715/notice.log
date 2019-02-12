@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-28-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1342396328.289988	C43HuK3FWX6a5Gm35	192.168.49.10	1043	64.34.154.74	80	FlueUr1QmZhmHRKL18	application/jar	http://f.j742.com/images/335594535/d15ceb1dc02e2cf4da1d2b6c9465ff99.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-10-26 06:31:07	https://www.virustotal.com/en/search/?query=a7317e5fce6c923469941f0dc49cf5f55b1c5407	192.168.49.10	64.34.154.74	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1342396328.289988	CEtmc44aYxUuLzZU2c	192.168.49.10	1044	64.34.154.74	80	FEDd7WSxTaMAnxAA6	application/jar	http://f.j742.com/images/335594535/d15ceb1dc02e2cf4da1d2b6c9465ff99.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-10-26 06:31:07	https://www.virustotal.com/en/search/?query=a7317e5fce6c923469941f0dc49cf5f55b1c5407	192.168.49.10	64.34.154.74	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1342396328.289988	C1IKIU1m1ypJZOdUK1	192.168.49.10	1045	64.34.154.74	80	FlFEv14OHgP5Spr8x4	application/jar	http://f.j742.com/images/335594535/d15ceb1dc02e2cf4da1d2b6c9465ff99.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-10-26 06:31:07	https://www.virustotal.com/en/search/?query=a7317e5fce6c923469941f0dc49cf5f55b1c5407	192.168.49.10	64.34.154.74	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1342396328.289988	CCf2Kh1VS40OJFbBd7	192.168.49.10	1046	64.34.154.74	80	Fh7xaLBRL72AQocFk	application/jar	http://f.j742.com/images/335594535/d15ceb1dc02e2cf4da1d2b6c9465ff99.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-10-26 06:31:07	https://www.virustotal.com/en/search/?query=a7317e5fce6c923469941f0dc49cf5f55b1c5407	192.168.49.10	64.34.154.74	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-28-07

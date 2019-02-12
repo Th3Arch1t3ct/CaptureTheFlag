@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-53-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1355182619.538362	CzHjTrG3oGlxJRyN2	192.168.20.10	1060	95.211.155.46	80	FFCTvm18atI4QsrCzj	application/x-shockwave-flash	http://kartalinza.eu/banner/a35140a8fe6cab3fbc8c28de095a9d4b.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-12-13 15:46:06	https://www.virustotal.com/en/search/?query=f1fa310796f8933f725d21c82ae7b2c7c3caea79	192.168.20.10	95.211.155.46	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-53-04

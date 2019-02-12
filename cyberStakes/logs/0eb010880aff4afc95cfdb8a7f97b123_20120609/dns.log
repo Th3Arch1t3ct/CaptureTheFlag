@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-06-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1339244236.482623	CjdeVk8nsCqJYPwli	192.168.120.10	1029	4.2.2.3	53	udp	25229	bfrental.co.kr	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	111.92.188.31	3574.000000	F
+1339244236.943509	CjdeVk8nsCqJYPwli	192.168.120.10	1029	4.2.2.3	53	udp	40334	www.bcp.or.kr	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	bcp.or.kr,125.141.204.61	3600.000000,3600.000000	F
+1339244238.418164	CjdeVk8nsCqJYPwli	192.168.120.10	1029	4.2.2.3	53	udp	56975	0ql.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	204.45.119.244	3600.000000	F
+1339244237.942964	CQj9zQ1yDJZo4fhQ0e	192.168.120.10	1029	4.2.2.5	53	udp	40334	www.bcp.or.kr	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	bcp.or.kr,125.141.204.61	3600.000000,3600.000000	F
+1339244239.070632	CKcQa63s8RFGckzwu3	192.168.120.10	1038	4.2.2.3	53	udp	48267	0v2.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	204.45.119.244	3600.000000	F
+1339244239.026274	CjdeVk8nsCqJYPwli	192.168.120.10	1029	4.2.2.3	53	udp	40073	count45.51yes.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	61.147.124.247	300.000000	F
+#close	2014-04-03-11-06-05

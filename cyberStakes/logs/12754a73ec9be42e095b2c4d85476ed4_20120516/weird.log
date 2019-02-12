@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-23-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1337158605.400531	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1337158608.376616	Cih1c926iO4BvriO8	192.168.89.10	1195	50.116.194.21	80	above_hole_data_without_any_acks	-	F	bro
+1337158611.377889	C5DuNd4gVn7bFhjAg	192.168.89.10	1274	67.201.62.26	80	unescaped_special_URI_char	-	F	bro
+1337158617.933095	CIqQS42NWhsjScsaag	192.168.89.10	1312	12.111.223.136	80	inflate_failed	-	F	bro
+1337158621.748494	Cpk5nb3VlifU5shfMg	192.168.89.10	1337	72.21.91.36	80	inflate_failed	-	F	bro
+1337158629.516883	CHFA0k2RpVlSqUoorf	192.168.89.10	1438	67.201.62.40	80	unescaped_special_URI_char	-	F	bro
+1337158645.446505	CnBd7m1BdPrN9aEc93	192.168.89.10	1858	98.139.225.42	80	unescaped_special_URI_char	-	F	bro
+1337158646.978917	CHjCMdyc6aNhTUcAg	192.168.89.10	1885	64.208.138.218	80	unescaped_special_URI_char	-	F	bro
+1337158657.318075	Cv52NB20kylB6PBuij	192.168.89.10	2145	12.129.199.110	80	SYN_seq_jump	-	F	bro
+#close	2014-04-03-10-23-52

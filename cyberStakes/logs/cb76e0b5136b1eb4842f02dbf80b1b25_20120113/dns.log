@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-05-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1326436852.563865	CIZyln3xdWZoLjswJf	192.168.26.10	1029	4.2.2.3	53	udp	59018	tripouttravel.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	87.242.73.96	43180.000000	F
+1326436852.890771	CIZyln3xdWZoLjswJf	192.168.26.10	1029	4.2.2.3	53	udp	24714	kportal11.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.165.3.30	30.000000	F
+1326436853.195996	CIZyln3xdWZoLjswJf	192.168.26.10	1029	4.2.2.3	53	udp	43144	nopwinter.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.23.148.66	30.000000	F
+1326436859.487459	CIZyln3xdWZoLjswJf	192.168.26.10	1029	4.2.2.3	53	udp	23432	themakeutlub.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.184.237.71	600.000000	F
+1326436860.128076	CIZyln3xdWZoLjswJf	192.168.26.10	1029	4.2.2.3	53	udp	28815	jaquir.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.17.24.89	284.000000	F
+#close	2014-04-03-11-05-08

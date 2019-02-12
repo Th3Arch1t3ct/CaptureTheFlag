@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-10-51
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1316904179.099592	Cp9dJh4UaDqeRRd8Z3	192.168.55.10	1029	4.2.2.3	53	udp	56716	www.shinesilverjewelry.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	shinesilverjewelry.com,174.120.129.98	14374.000000,14374.000000	F
+1316904179.33725	Cp9dJh4UaDqeRRd8Z3	192.168.55.10	1029	4.2.2.3	53	udp	15244	roybeth.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.147.240.167	14400.000000	F
+1316904179.839386	Cp9dJh4UaDqeRRd8Z3	192.168.55.10	1029	4.2.2.3	53	udp	909	nadobolchetrafa.cx.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	123.252.193.141	8261.000000	F
+1316904181.070211	Cp9dJh4UaDqeRRd8Z3	192.168.55.10	1029	4.2.2.3	53	udp	48271	kedanug.cx.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.16.233.108	43200.000000	F
+1316904181.084748	C0J3HAcsGIBzBQKAj	192.168.55.10	1033	4.2.2.3	53	udp	57736	d6.ca.bc.a1.top.mail.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	core1.node9.top.mail.ru,217.69.134.122	600.000000,72.000000	F
+1316904181.57803	Cp9dJh4UaDqeRRd8Z3	192.168.55.10	1029	4.2.2.3	53	udp	26248	core1.node9.top.mail.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.69.134.122	72.000000	F
+#close	2014-04-03-11-10-53

@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-48-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1318530443.570819	Cq4tLx1p5ssejOq2lf	192.168.53.10	1029	4.2.2.3	53	udp	57997	www.hubertz-stein-zahntechnik.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.239.54.18	3581.000000	F
+1318530443.954103	Cq4tLx1p5ssejOq2lf	192.168.53.10	1029	4.2.2.3	53	udp	56462	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.47.95	1371.000000,151.000000	F
+1318530444.181691	Cq4tLx1p5ssejOq2lf	192.168.53.10	1029	4.2.2.3	53	udp	48014	api.twitter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.59.148.20,199.59.148.87,199.59.149.200,199.59.149.232	12.000000,12.000000,12.000000,12.000000	F
+1318530447.074801	Cq4tLx1p5ssejOq2lf	192.168.53.10	1029	4.2.2.3	53	udp	58504	oabruhiomcp.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.212.91.20	3600.000000	F
+1318530477.46041	C0BZtb2pDoQMaVmgy2	192.168.53.10	1029	4.2.2.3	53	udp	58505	skuj4ugfddsj.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.212.74.209	3600.000000	F
+#close	2014-04-03-10-48-18

@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-11-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1339552327.238419	C0U4WRMiL4LYEIoP4	192.168.46.10	1030	66.7.221.152	80	1	GET	alpha-1wrestling.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1370	200	OK	-	-	-	(empty)	-	-	-	-	-	FHXaW42IL0ohp98YR3	application/xml
+1339552327.511582	C7fbCLKAVnt4PZ2qc	192.168.46.10	1031	31.171.133.163	80	1	GET	ww2.myjobresumeonline.com	/main.php?page=3081100e9fdaf127	http://alpha-1wrestling.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	74025	200	OK	-	-	-	(empty)	-	-	-	-	-	FdFrjzNkOsWTgTBRa	text/html
+1339552331.049589	C7fbCLKAVnt4PZ2qc	192.168.46.10	1031	31.171.133.163	80	2	GET	ww2.myjobresumeonline.com	/w.php?f=97d19&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	30720	200	OK	-	-	-	(empty)	-	-	-	-	-	FPkYAh3tZFaB0va5Vk	application/x-dosexec
+1339552332.144516	Co1md84Yzi9UhIimD7	192.168.46.10	1036	31.171.133.163	80	1	GET	ww2.myjobresumeonline.com	/data/field.swf	http://alpha-1wrestling.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1547	200	OK	-	-	-	(empty)	-	-	-	-	-	F1ixdV33XbUGPZ21He	application/x-shockwave-flash
+1339552331.980773	C7fbCLKAVnt4PZ2qc	192.168.46.10	1031	31.171.133.163	80	3	GET	ww2.myjobresumeonline.com	/data/ap2.php	http://ww2.myjobresumeonline.com/main.php?page=3081100e9fdaf127	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	24218	200	OK	-	-	-	(empty)	-	-	-	-	-	FjjbUf4B0niDqUyS5c	application/pdf
+1339552332.922479	CtMM9l10IPMDaa1Gqj	192.168.46.10	1037	194.50.116.224	80	1	POST	willowcreekcompany.mobi	/vepof83/gw3t3s.php	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	387	16	200	OK	-	-	-	(empty)	-	-	-	F7SHAD4ZEMpGPNov94	binary	F2rXiV14qpx3Gs73gc	text/plain
+1339552338.008593	Co1md84Yzi9UhIimD7	192.168.46.10	1036	31.171.133.163	80	2	GET	ww2.myjobresumeonline.com	/data/score.swf	http://ww2.myjobresumeonline.com/data/field.swf	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6996	200	OK	-	-	-	(empty)	-	-	-	-	-	FgJgGp2loMExOg9NA3	application/x-shockwave-flash
+#close	2014-04-03-11-11-12

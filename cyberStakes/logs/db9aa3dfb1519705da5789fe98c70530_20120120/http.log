@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-13-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1327091650.066336	C0kIGL2OTkjEhwk9r8	192.168.119.10	1030	173.236.253.39	80	1	GET	cirandaderoda.com.br	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	222	302	Found	-	-	-	(empty)	-	-	-	-	-	F0gjbQ11mpslsWoy72	text/html
+1327091650.351715	CI9yPz1h5bltNX0Tdb	192.168.119.10	1031	95.163.67.190	80	1	GET	divstylechange.ru	/vis/index.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1206	200	OK	-	-	-	(empty)	-	-	-	-	-	FZXcnC3O8hw6d2lRDd	text/html
+1327091651.144703	CAd3Cl3te3f9UiApdg	192.168.119.10	1032	95.163.67.190	80	1	GET	withwork.ru	/main.php?page=1aa080c8910868f8	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	94872	200	OK	-	-	-	(empty)	-	-	-	-	-	FOLIfP1FtzW6fW98Zi	text/html
+1327091657.105018	CAd3Cl3te3f9UiApdg	192.168.119.10	1032	95.163.67.190	80	2	GET	withwork.ru	/w.php?f=45&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	232448	200	OK	-	-	-	(empty)	-	-	-	-	-	FE2Evl3ejG3ZXfPRle	application/x-dosexec
+1327091659.376126	Cx6ZAU1lr7KjJgZYxi	192.168.119.10	1037	74.82.198.254	80	1	GET	update2.unmalnilanzker.net	/index.php?b8ce1d=mNjf0tXm1J6a2uCqyc3h0ZLO196om6iRopekrqbKlKyall/W052Vzp6dz8KkstGb1JCfmaSZ	-	Mozilla/3.0	0	64	200	OK	-	-	-	(empty)	-	-	-	-	-	FBT7v85mAMkQjlegh	text/plain
+1327091659.716019	C2sTqk4IifnjYtwgT4	192.168.119.10	1038	76.73.19.180	80	1	GET	report2.unmalnilanzker.net	/?b8ce1d=iOTK4N7k6G973tHf0NXc3ODC2uaRxuKewt7kx3WUi57N1qKmpdWoZF6upNOUpKPNncLTqp/HomLRxqqanpnHk5WmlZbb5bFjVOrX0Z6knp2ch+XwqNzohr6L5MucoIua18XZ0eHmsWNS	-	Mozilla/3.0	0	6	200	OK	-	-	-	(empty)	-	-	-	-	-	F2nkDa2nfeK788u9Mk	binary
+1327091659.11909	CAd3Cl3te3f9UiApdg	192.168.119.10	1032	95.163.67.190	80	3	GET	withwork.ru	/content/fdp2.php?f=45	http://withwork.ru/main.php?page=1aa080c8910868f8	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	90669	200	OK	-	-	-	(empty)	-	-	-	-	-	F2yy2t1eLMhob43488	application/pdf
+1327091660.692265	CiEOieWkgOMH6Akz	192.168.119.10	1039	74.82.198.254	80	1	GET	update2.unmalnilanzker.net	/index.php?b8ce1d=mNjf0tXm1J6a2uCqztXR29vK3O3fxt6a09ea1tLG07GygnGb4dLV4d695dHTt+PVmKLi0bGnopWSrJZrYK6ko4fc182ph+Pjz6KqXqKVmuLZyJ6qm5Vip56ml9KhoaHFn9vQlaaQnpnX1qacx6rHlF+pnpE=	-	Mozilla/3.0	0	3384320	200	OK	-	-	-	(empty)	-	-	-	-	-	FddJmF3KKsbDI1M1mg	binary
+1327091666.663153	CAd3Cl3te3f9UiApdg	192.168.119.10	1032	95.163.67.190	80	4	GET	withwork.ru	/content/field.swf	http://withwork.ru/main.php?page=1aa080c8910868f8	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1464	200	OK	-	-	-	(empty)	-	-	-	-	-	F9cMFq1CSThTmXUgw4	application/x-shockwave-flash
+1327091672.75217	CAd3Cl3te3f9UiApdg	192.168.119.10	1032	95.163.67.190	80	5	GET	withwork.ru	/w.php?f=45&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1327091674.270931	C7nmDVPfaxFM1JXLj	192.168.119.10	1040	95.163.67.190	80	1	GET	withwork.ru	/content/v1.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4408	200	OK	-	-	-	(empty)	-	-	-	-	-	FCcguxZGYLFCQWvzb	application/zip
+1327091675.09158	C7ZCEQ3WYD0jowMfn3	192.168.119.10	1041	74.82.198.254	80	1	GET	update2.unmalnilanzker.net	/index.php?b8ce1d=mNjf0tXm1J6a2uCqztXR29vK3O3fxt6a09ea1tLG07GygnGb4dLV4d695dHTt+PVmKLi0bGnopWSrJZrYK6ko4fc182ph+Pjz6KqXqKVmuLZyJ6qm5Vip56ml9KhoaHFn9vQlaaQnpnX1qacx6rHlF+pnpE=	-	Mozilla/3.0	0	3384320	200	OK	-	-	-	(empty)	-	-	-	-	-	FBusib19qi4r5YAPkc	binary
+#close	2014-04-03-10-13-03

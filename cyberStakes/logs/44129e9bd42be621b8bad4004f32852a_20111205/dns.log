@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-35-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1323084677.652109	CNfsUE3WK8KePCAqbk	192.168.123.10	1028	4.2.2.3	53	udp	6539	crystalservice.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.168.165.224	10.000000	F
+1323084677.928192	CNfsUE3WK8KePCAqbk	192.168.123.10	1028	4.2.2.3	53	udp	19851	winter2.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	149.255.33.229	11.000000	F
+1323084678.00779	CNfsUE3WK8KePCAqbk	192.168.123.10	1028	4.2.2.3	53	udp	49291	googleads5.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.123.116.51	30.000000	F
+1323084678.637831	CNfsUE3WK8KePCAqbk	192.168.123.10	1028	4.2.2.3	53	udp	32904	freeplayingfieldforall.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.190.98.213	43200.000000	F
+1323084679.262156	CNfsUE3WK8KePCAqbk	192.168.123.10	1028	4.2.2.3	53	udp	56201	playsonthenetwork.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.190.99.26	43200.000000	F
+1323084679.433195	CNfsUE3WK8KePCAqbk	192.168.123.10	1028	4.2.2.3	53	udp	56457	collegeboysfeet.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.115.174.102	1800.000000	F
+1323084679.791305	CNfsUE3WK8KePCAqbk	192.168.123.10	1028	4.2.2.3	53	udp	9871	gamessonthenetwork.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.190.99.26	43200.000000	F
+1323084688.327864	CNfsUE3WK8KePCAqbk	192.168.123.10	1028	4.2.2.3	53	udp	33676	collegeboysfeet.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.115.174.102	1791.000000	F
+1323084702.311241	CywFeQudIHGREwFe	192.168.123.10	1028	4.2.2.3	53	udp	5506	yogozansu.osa.pl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.208.142.55	3600.000000	F
+#close	2014-04-03-10-35-02

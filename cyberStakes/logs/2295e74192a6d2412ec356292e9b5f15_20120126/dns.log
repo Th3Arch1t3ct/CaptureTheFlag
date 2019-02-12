@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-08-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1327580577.524679	Cpayvz4lslNyFVpjod	192.168.125.10	1029	4.2.2.3	53	udp	16269	zpkww.pl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.157.100.49	3578.000000	F
+1327580578.135882	Cpayvz4lslNyFVpjod	192.168.125.10	1029	4.2.2.3	53	udp	13452	bigdeal777.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.63.141.211	9918.000000	F
+1327580578.601184	Cpayvz4lslNyFVpjod	192.168.125.10	1029	4.2.2.3	53	udp	8079	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.75.161,69.31.75.203	1072.000000,237.000000,20658.000000,19.000000,19.000000	F
+1327580578.642386	Cpayvz4lslNyFVpjod	192.168.125.10	1029	4.2.2.3	53	udp	13966	dfjovawox.dumb1.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.7.62.154	31.000000	F
+1327580586.26492	Cpayvz4lslNyFVpjod	192.168.125.10	1029	4.2.2.3	53	udp	57737	germangmayner.1dumb.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.7.62.154	31.000000	F
+#close	2014-04-03-11-08-10

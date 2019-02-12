@@ -1,0 +1,29 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-12-57
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1322753006.975006	C0MaePTZABBh37D5k	192.168.55.10	1030	188.40.108.194	80	1	GET	boxerdeicenturioni.it	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2622	200	OK	-	-	-	(empty)	-	-	-	-	-	Fgg8dy36HGXp3rOzg	text/html
+1322753007.152902	C4NmV943N32fkBiQ79	192.168.55.10	1031	74.125.65.95	80	1	GET	ajax.googleapis.com	/ajax/libs/jquery/1.6.2/jquery.min.js	http://boxerdeicenturioni.it/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	91556	200	OK	-	-	-	(empty)	-	-	-	-	-	FXR7Rx9os9FGFQfn6	text/html
+1322753008.519375	CJnbRO1hzjFlTOUa62	192.168.55.10	1032	199.59.149.200	80	1	GET	api.twitter.com	/1/trends/daily.json?callback=jQuery16202818153390192352_1322767287703&_=1322767288875	http://boxerdeicenturioni.it/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	44009	200	OK	-	-	-	(empty)	-	-	-	-	-	FIFeA130FcJgpz76Ec	text/plain
+1322753009.740107	CJnbRO1hzjFlTOUa62	192.168.55.10	1032	199.59.149.200	80	2	GET	api.twitter.com	/1/trends/daily.json?callback=jQuery16202818153390192352_1322767287704&date=2011-11-29&_=1322767290234	http://boxerdeicenturioni.it/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	42793	200	OK	-	-	-	(empty)	-	-	-	-	-	FnrhHJUWRJ4uGGip4	text/plain
+1322753010.367118	CEVOIE2KV2KuycUpog	192.168.55.10	1037	89.132.68.63	80	1	GET	etcsomsxls.com	/index.php?tp=001e4bb7b4d7333d	http://boxerdeicenturioni.it/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	114010	200	OK	-	-	-	(empty)	-	-	-	-	-	F8A4fS3swhMtT0Qmn2	text/html
+1322753024.495195	CzdoKm3eRmMjsIqXn5	192.168.55.10	1038	89.132.68.63	80	1	GET	etcsomsxls.com	/w.php?f=26&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	86016	200	OK	-	-	-	(empty)	-	-	-	-	-	FNYqBX178Uz5hxljzi	application/x-dosexec
+1322753026.673581	CG5S611S2VP4dejjz6	192.168.55.10	1039	89.132.68.63	80	1	GET	etcsomsxls.com	/content/2ddfp.php?f=26	http://etcsomsxls.com/index.php?tp=001e4bb7b4d7333d	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	102923	200	OK	-	-	-	(empty)	-	-	-	-	-	FemjTg4HbeH2fQZUHc	application/pdf
+1322753029.960888	Cc6F6h1YVDs8IwY6Ah	192.168.55.10	1040	89.132.68.63	80	1	GET	etcsomsxls.com	/content/field.swf	http://boxerdeicenturioni.it/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	529	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FWaoy1huw2xhd4Ded	text/html
+1322753031.587054	Cb2IrdxNXctSVWEdb	192.168.55.10	1041	82.74.58.113	80	1	GET	etcsomsxls.com	/content/v1.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3780	200	OK	-	-	-	(empty)	-	-	-	-	-	FsMWaT3M75P8DCynW8	application/zip
+1322753035.678408	CeSYqz4hwerOPoRiG9	192.168.55.10	1044	82.74.58.113	80	1	GET	etcsomsxls.com	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	169	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Ft0fMhWP4iSppyau7	text/html
+1322753031.886629	CshNuy27N9mHj20nEk	192.168.55.10	1043	69.59.25.13	80	1	POST	tqweytgbf32g.com	/search?fr=altavista&itag=ody&q=AP7Ch4O-O6ijKS1M,d5fa8ff57ad763fe&kgs=1&kls=0	-	-	444	573440	200	OK	-	-	-	(empty)	-	-	-	FM1slo2wrVOUR7khi	text/plain	FTUz202swzOJDyzm19	binary
+1322753036.123583	CNFjre2fvdKz4WQsZ1	192.168.55.10	1045	82.74.58.113	80	1	GET	etcsomsxls.com	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	169	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FnL1Iu2M4NKrkKLJPi	text/html
+1322753039.543203	CtvQayRAwSicEfo0d	192.168.55.10	1046	82.74.58.113	80	1	GET	etcsomsxls.com	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	169	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F85Fj63hpIUqJVS4X7	text/html
+1322753039.989057	CQVjMT2bchhyfVesGj	192.168.55.10	1047	82.74.58.113	80	1	GET	etcsomsxls.com	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	169	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F2AIt94EnQPsIvSrz2	text/html
+1322753040.584421	CMNXrk4RTYkyqjSMF8	192.168.55.10	1048	82.74.58.113	80	1	GET	etcsomsxls.com	/w.php?f=26&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1322753045.409733	CshNuy27N9mHj20nEk	192.168.55.10	1043	69.59.25.13	80	2	POST	tqweytgbf32g.com	/search?fr=altavista&itag=ody&q=AP7Ch4O-O6ijKS1M,d5fa8ff57ad763fe,4TBFGT5PIc&kgs=1&kls=0&p=1000	-	-	29	0	200	OK	-	-	-	(empty)	-	-	-	FFln7N2Z7Gf0N1tL45	text/plain	-	-
+1322753056.714425	C1zTb5v1JQxlHtEbc	192.168.55.10	1030	108.59.5.167	80	1	POST	ibhfhtdc.com	/	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; SV1; .NET CLR 1.1.4322)	230	243502	200	OK	-	-	-	(empty)	-	-	-	FQMXlr2h1cuPpjBNOd	binary	FIQnTj2WQivlqxmEH2	binary
+1322753057.937066	CFGK5I3SMgnhtKdZff	192.168.55.10	1033	74.125.45.103	80	1	GET	google.com	/	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; SV1; .NET CLR 1.1.4322)	0	219	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FuJVlE2cuBBB3dpyVa	text/html
+1322753060.777451	CshNuy27N9mHj20nEk	192.168.55.10	1043	69.59.25.13	80	3	POST	tqweytgbf32g.com	/search?fr=altavista&itag=ody&q=AP7Ch4O-O6ijKS1M,d5fa8ff57ad763fe,4TBFGT5PIc&kgs=1&kls=0&p=1000	-	-	170	0	200	OK	-	-	-	(empty)	-	-	-	F3ZFeE2ZMpTjfqeIHd	text/plain	-	-
+1322753076.05541	CshNuy27N9mHj20nEk	192.168.55.10	1043	69.59.25.13	80	4	POST	tqweytgbf32g.com	/search?fr=altavista&itag=ody&q=AP7Ch4O-O6ijKS1M,d5fa8ff57ad763fe,4TBFGT5PIc&kgs=1&kls=0&p=1000	-	-	3	0	200	OK	-	-	-	(empty)	-	-	-	FcBgAc2hdlFOn5KSs3	text/plain	-	-
+#close	2014-04-03-10-12-57

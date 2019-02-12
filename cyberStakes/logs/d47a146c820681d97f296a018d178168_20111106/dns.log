@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-01-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1320598634.073227	CuXlgG1UE1Olebgd25	192.168.29.10	1029	4.2.2.3	53	udp	60561	moviestvwatch.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.170.162.45	43182.000000	F
+1320598634.571642	CuXlgG1UE1Olebgd25	192.168.29.10	1029	4.2.2.3	53	udp	2707	www.graboid.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	graboid.com,98.129.132.148	30379.000000,30379.000000	F
+1320598634.577055	CuXlgG1UE1Olebgd25	192.168.29.10	1029	4.2.2.3	53	udp	42900	www.moviestvwatch.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	moviestvwatch.com,31.170.162.45	43200.000000,43182.000000	F
+1320598634.913464	CuXlgG1UE1Olebgd25	192.168.29.10	1029	4.2.2.3	53	udp	21142	downloads.mytvandmovies.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.129.132.152	31149.000000	F
+1320598635.181938	CuXlgG1UE1Olebgd25	192.168.29.10	1029	4.2.2.3	53	udp	6806	cds.mytvandmovies.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	hwcdn.net,69.16.175.10	31149.000000,2926.000000	F
+1320598636.538658	CuXlgG1UE1Olebgd25	192.168.29.10	1029	4.2.2.3	53	udp	60823	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.229.45,74.125.229.46,74.125.229.47,74.125.229.32,74.125.229.33,74.125.229.34,74.125.229.35,74.125.229.36,74.125.229.37,74.125.229.38,74.125.229.39,74.125.229.40,74.125.229.41,74.125.229.42,74.125.229.43,74.125.229.44	7115.000000,246.000000,246.000000,246.000000,246.000000,246.000000,246.000000,246.000000,246.000000,246.000000,246.000000,246.000000,246.000000,246.000000,246.000000,246.000000,246.000000	F
+1320598636.778631	CuXlgG1UE1Olebgd25	192.168.29.10	1029	4.2.2.3	53	udp	19608	analytics.hosting24.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.170.160.65	1490.000000	F
+#close	2014-04-03-10-01-32

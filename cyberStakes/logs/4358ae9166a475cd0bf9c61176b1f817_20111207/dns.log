@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-54-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1323221804.838018	C2fSQs2NBaT2Z0RG3l	192.168.64.10	1029	4.2.2.3	53	udp	60561	cherifer.ph	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	80.86.85.111	3577.000000	F
+1323221810.565233	C2fSQs2NBaT2Z0RG3l	192.168.64.10	1029	4.2.2.3	53	udp	14483	lilupophilupop.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.28.114.102	40528.000000	F
+1323221810.961141	C2fSQs2NBaT2Z0RG3l	192.168.64.10	1029	4.2.2.3	53	udp	34196	inful07commi.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.28.114.102	21600.000000	F
+1323221811.11304	C2fSQs2NBaT2Z0RG3l	192.168.64.10	1029	4.2.2.3	53	udp	39060	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.132.73,69.31.132.27	11866.000000,137.000000,10561.000000,18.000000,18.000000	F
+1323221811.414653	C2fSQs2NBaT2Z0RG3l	192.168.64.10	1029	4.2.2.3	53	udp	17814	www4.firstdefenseqkf.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.238.105	466.000000	F
+1323221811.63321	C2fSQs2NBaT2Z0RG3l	192.168.64.10	1029	4.2.2.3	53	udp	31638	www2.best-defensekkn.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.110	20672.000000	F
+1323221853.976529	C9oDuG19sz5PaPAL64	192.168.64.10	1029	4.2.2.3	53	udp	4502	www1.firsttaguard.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.142.217	21600.000000	F
+#close	2014-04-03-10-54-25

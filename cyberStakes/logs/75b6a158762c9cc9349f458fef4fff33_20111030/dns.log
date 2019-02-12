@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-51-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1319936525.479099	CQMlkB3QFLCbwbof99	192.168.39.10	1029	4.2.2.3	53	udp	16269	ccconn.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.220.192.148	14378.000000	F
+1319936525.691621	CQMlkB3QFLCbwbof99	192.168.39.10	1029	4.2.2.3	53	udp	21644	www.ccconn.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ccconn.org,74.220.192.148	14400.000000,14378.000000	F
+1319936526.643645	CQMlkB3QFLCbwbof99	192.168.39.10	1029	4.2.2.3	53	udp	26767	lite.piclens.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.211.172.40	5936.000000	F
+1319936527.095318	CQMlkB3QFLCbwbof99	192.168.39.10	1029	4.2.2.3	53	udp	24462	i.creativecommons.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	a10.creativecommons.org,149.20.54.15	34553.000000,13946.000000	F
+1319936527.107629	CQMlkB3QFLCbwbof99	192.168.39.10	1029	4.2.2.3	53	udp	21385	rebotstat.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.31.74.239	3600.000000	F
+1319936527.653523	CQMlkB3QFLCbwbof99	192.168.39.10	1029	4.2.2.3	53	udp	29064	m-e.crossfitharlem.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.211.160.73	3600.000000	F
+1319936559.553766	CN7jwv11CafnzAKtU7	192.168.39.10	1029	4.2.2.3	53	udp	48520	swupmf.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	swupmf.wip4.adobe.com,swupmf.adobe.com.edgesuite.net,a1137.g.akamai.net,209.107.220.19,209.107.220.67	1025.000000,600.000000,11479.000000,20.000000,20.000000	F
+1319936573.654139	CZU9614GCN90pH2rii	192.168.39.10	1029	4.2.2.3	53	udp	39562	crl.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.wip4.adobe.com,crl.adobe.com.edgesuite.net,a1180.g.akamai.net,209.107.220.19,209.107.220.65	9978.000000,300.000000,20778.000000,20.000000,20.000000	F
+#close	2014-04-03-10-51-02

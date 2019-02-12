@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-39-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1343579199.527127	CnNJgYxLN9Xz8RQG7	192.168.55.10	1043	77.247.75.142	80	Fqk5wk13I9IW6HUqpc	application/x-dosexec	http://castaway.dk/2.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 34%  Last seen: 2012-08-01 09:57:57	https://www.virustotal.com/en/search/?query=f5fa4170b82fb31af43a6d5323fb7ece5ec5619e	192.168.55.10	77.247.75.142	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1343579203.977303	C0Ca5T3FJoMuTRkhe8	192.168.55.10	1047	77.247.75.142	80	FgrJ931eUoDVW6yqR1	application/x-dosexec	http://castaway.dk/3.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 34%  Last seen: 2012-08-01 09:57:57	https://www.virustotal.com/en/search/?query=f5fa4170b82fb31af43a6d5323fb7ece5ec5619e	192.168.55.10	77.247.75.142	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1343579227.765948	C9FTQs4IqqdZlpCFka	192.168.55.10	1087	195.210.47.239	80	F37KUXuMsKiRg8CYi	application/x-dosexec	http://establishedforcourse.cu.cc/f/notepad.exe?ts=6250805c&affid=5630	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 34%  Last seen: 2012-08-02 05:42:06	https://www.virustotal.com/en/search/?query=9beb02bbb9df86454d71e038c9faefd2d8f77183	192.168.55.10	195.210.47.239	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-39-20

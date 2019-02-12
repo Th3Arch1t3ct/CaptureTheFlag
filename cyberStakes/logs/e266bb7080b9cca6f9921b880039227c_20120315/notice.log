@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-09-51
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1331769828.082375	CeATGDN2q98SsgCu9	192.168.28.10	1039	208.94.241.16	80	FoThLg4IDkudpJIWW	application/x-shockwave-flash	http://devilside-w.uni.me/dvs140312a/c4dbe3f7fe78938232bcea9d53c4f93e/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 25%  Last seen: 2012-04-06 11:59:05	https://www.virustotal.com/en/search/?query=3721a27fb0ccc97d9a5308a6d691dd916acfc45f	192.168.28.10	208.94.241.16	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1331769829.075029	CESrNx21MIBe7nuflk	192.168.28.10	1040	208.94.241.16	80	FqlAcvzA6XLWnW3e1	application/x-dosexec	http://208.94.241.16/dvs140312a/c4dbe3f7fe78938232bcea9d53c4f93e/d1.php?f=1255744609&	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2012-03-17 19:45:13	https://www.virustotal.com/en/search/?query=f4f43d84b19efdbb5b2f9f20ebdeda319a331630	192.168.28.10	208.94.241.16	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1331769841.141294	CjtJRX3pA0GKcuT2mg	192.168.28.10	1051	208.94.241.16	80	FxZlLK1fZwwI86Ys77	application/x-dosexec	http://208.94.241.16/dvs140312a/c4dbe3f7fe78938232bcea9d53c4f93e/d2.php?f=1255744609&	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2012-03-17 19:45:13	https://www.virustotal.com/en/search/?query=f4f43d84b19efdbb5b2f9f20ebdeda319a331630	192.168.28.10	208.94.241.16	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-09-51

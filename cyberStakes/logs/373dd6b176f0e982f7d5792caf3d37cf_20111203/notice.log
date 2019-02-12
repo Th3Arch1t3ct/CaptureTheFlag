@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-10-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1322925205.90347	Cmmh3HcJQ51xYdRe5	192.168.56.10	1031	188.190.99.26	80	FhYToh4V8uHQkIKChj	application/x-dosexec	http://myshop-ideal.com/u.php?f=38&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2011-12-15 08:41:44	https://www.virustotal.com/en/search/?query=92d540e370898e0e9d92fac2cdf0bc72b442b960	192.168.56.10	188.190.99.26	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1322925210.705171	Cu5agtl8sxPu8E6hi	192.168.56.10	1036	188.190.99.26	80	FH58e9LYOAO7toUue	application/x-shockwave-flash	http://myshop-ideal.com/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2011-11-30 09:25:06	https://www.virustotal.com/en/search/?query=00d78d08342fced6aada3e8d562df7928557c6c0	192.168.56.10	188.190.99.26	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-10-22

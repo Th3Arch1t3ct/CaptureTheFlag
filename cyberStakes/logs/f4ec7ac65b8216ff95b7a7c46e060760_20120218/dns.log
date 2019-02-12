@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-55-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1329594369.918702	C6o6M3c3771Ct7HB	192.168.104.10	1029	4.2.2.3	53	udp	19343	integrajournal.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.208.114.39	43181.000000	F
+1329594370.54069	C6o6M3c3771Ct7HB	192.168.104.10	1029	4.2.2.3	53	udp	12429	www.daysofyorr.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	daysofyorr.com,174.136.19.133	14400.000000,14400.000000	F
+1329594370.819446	C6o6M3c3771Ct7HB	192.168.104.10	1029	4.2.2.3	53	udp	59533	adver3.zadverising.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.192.87.25	600.000000	F
+1329594374.8541	C6o6M3c3771Ct7HB	192.168.104.10	1029	4.2.2.3	53	udp	60042	twitter-badges.s3.amazonaws.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	s3-directional-w.amazonaws.com,s3-directional-w.geo.amazonaws.com,s3-1-w.amazonaws.com,207.171.163.206	2713.000000,7451.000000,4357.000000,51.000000	F
+1329594374.870301	CxtW1v3xB6spyOrr5g	192.168.104.10	1041	4.2.2.3	53	udp	54155	platform.linkedin.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wildcard.linkedin.com.edgekey.net,e5168.g.akamaiedge.net,184.24.158.239	182.000000,2935.000000,20.000000	F
+1329594375.091446	C6o6M3c3771Ct7HB	192.168.104.10	1029	4.2.2.3	53	udp	12680	twittercounter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.20.95.202	3600.000000	F
+1329594375.241319	C6o6M3c3771Ct7HB	192.168.104.10	1029	4.2.2.3	53	udp	62600	static02.linkedin.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.linkedin.com,cdn.linkedin.com.edgesuite.net,a1111.g.akamai.net,24.143.201.75,24.143.201.73	8200.000000,42.000000,7141.000000,13.000000,13.000000	F
+1329594375.340988	C6o6M3c3771Ct7HB	192.168.104.10	1029	4.2.2.3	53	udp	56969	button.twittercounter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.20.78.173	3600.000000	F
+1329594375.522278	C6o6M3c3771Ct7HB	192.168.104.10	1029	4.2.2.3	53	udp	42375	www.cvtech.com.au	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	202.124.241.200	3600.000000	F
+1329594376.408819	C6o6M3c3771Ct7HB	192.168.104.10	1029	4.2.2.3	53	udp	49796	platinumhd.tv	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	223.27.3.163	14400.000000	F
+1329594403.48665	Cd3YKr0DrLhnn4Khe	192.168.104.10	1029	4.2.2.3	53	udp	38021	swupmf.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	swupmf.wip4.adobe.com,swupmf.adobe.com.edgesuite.net,a1137.g.akamai.net,24.143.201.160,24.143.201.26	9085.000000,600.000000,1875.000000,20.000000,20.000000	F
+1329594403.563789	Cd3YKr0DrLhnn4Khe	192.168.104.10	1029	4.2.2.3	53	udp	40322	crl.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.wip4.adobe.com,crl.adobe.com.edgesuite.net,a1180.g.akamai.net,24.143.201.67,24.143.201.80	10800.000000,300.000000,15593.000000,20.000000,20.000000	F
+1329594406.508415	Cd3YKr0DrLhnn4Khe	192.168.104.10	1029	4.2.2.3	53	udp	24707	globalwebz.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.137.237.77	600.000000	F
+#close	2014-04-03-10-55-48

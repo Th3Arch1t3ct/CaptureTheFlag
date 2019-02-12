@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-42-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1383073761.374232	C3yyoF4EotIaYMJUt4	192.168.13.10	1032	4.2.2.3	53	udp	52127	newmoovies.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.46.255.51	1800.000000	F
+1383073761.992263	C3yyoF4EotIaYMJUt4	192.168.13.10	1032	4.2.2.3	53	udp	7583	code.jquery.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	code.jquery.netdna-cdn.com,108.161.187.43,108.161.188.209	232.000000,287.000000,287.000000	F
+1383073762.320013	CmM6Fj2Tb9PhM0k05k	192.168.13.10	1038	4.2.2.3	53	udp	55966	www.xxxbase.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.39.50.189	7200.000000	F
+1383073762.289488	C3yyoF4EotIaYMJUt4	192.168.13.10	1032	4.2.2.3	53	udp	60574	cruelstar.co	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.46.255.51	1800.000000	F
+1383073762.49853	CmM6Fj2Tb9PhM0k05k	192.168.13.10	1038	4.2.2.3	53	udp	64669	tubestat40.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.165.248.137	43200.000000	F
+1383073763.068896	CmM6Fj2Tb9PhM0k05k	192.168.13.10	1038	4.2.2.3	53	udp	41628	csfeo2.plantabicrycontntmnt.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	142.4.194.0	3600.000000	F
+1383073777.669445	C3O01T3Nijlaz0oIC2	192.168.13.10	1038	4.2.2.3	53	udp	25244	0.194.4.142.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-42-50

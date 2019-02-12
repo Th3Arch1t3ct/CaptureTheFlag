@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-59-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1349659464.505086	CypUVl3AynTA6J8msl	192.168.46.10	1029	4.2.2.3	53	udp	2443	splitkransky.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	72.11.144.170	1774.000000	F
+1349659465.056494	CypUVl3AynTA6J8msl	192.168.46.10	1029	4.2.2.3	53	udp	37512	jtcdtrjgw.freewww.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.83.177.244	31.000000	F
+1349659465.7402	CypUVl3AynTA6J8msl	192.168.46.10	1029	4.2.2.3	53	udp	50824	vtbmtiraln.ddns.me.uk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.83.177.244	31.000000	F
+1349659508.346435	C00qSK2PSTLJAxKqBi	192.168.46.10	1029	4.2.2.3	53	udp	50057	vtbmtiraln.ddns.me.uk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.83.177.244	31.000000	F
+1349659512.025722	C00qSK2PSTLJAxKqBi	192.168.46.10	1029	4.2.2.3	53	udp	6286	244.177.83.78.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	heyherey6-ru2.tophost.bg	3600.000000	F
+1349659512.522334	C00qSK2PSTLJAxKqBi	192.168.46.10	1029	4.2.2.3	53	udp	23438	heyherey6-ru2.tophost.bg	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-09-59-06

@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-10-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1329342779.709597	CaWJ6h2yQZ9FhsioVd	192.168.33.10	1029	4.2.2.3	53	udp	46483	didactica.cl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	190.96.78.150	14375.000000	F
+1329342780.125808	CaWJ6h2yQZ9FhsioVd	192.168.33.10	1029	4.2.2.3	53	udp	63376	storylootybuz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.190.98.79	3600.000000	F
+1329342781.192084	CaWJ6h2yQZ9FhsioVd	192.168.33.10	1029	4.2.2.3	53	udp	19094	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.47.139,74.125.47.100,74.125.47.101,74.125.47.102,74.125.47.113,74.125.47.138	27430.000000,114.000000,114.000000,114.000000,114.000000,114.000000,114.000000	F
+1329342810.068007	CCodFJ3ydwcWrFsWq8	192.168.33.10	1029	4.2.2.3	53	udp	28567	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.65.106,74.125.65.147,74.125.65.99,74.125.65.103,74.125.65.104,74.125.65.105	27356.000000,15.000000,15.000000,15.000000,15.000000,15.000000,15.000000	F
+1329342811.915759	CCodFJ3ydwcWrFsWq8	192.168.33.10	1029	4.2.2.3	53	udp	34455	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.74.88,69.31.74.123	26693.000000,208.000000,12422.000000,10.000000,10.000000	F
+1329342814.278348	CCodFJ3ydwcWrFsWq8	192.168.33.10	1029	4.2.2.3	53	udp	27028	www.didactica.cl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	didactica.cl,190.96.78.150	14400.000000,14340.000000	F
+#close	2014-04-03-11-11-00

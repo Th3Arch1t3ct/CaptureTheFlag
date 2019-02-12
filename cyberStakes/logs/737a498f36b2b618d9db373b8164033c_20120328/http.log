@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-49-16
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1332905291.792759	C9kO2H2uA53uR7OZxa	192.168.15.10	1032	94.75.244.114	80	1	GET	turkeyski.in	/in.cgi?6	http://bem-me-quer.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	242	302	Found	-	-	-	(empty)	-	-	-	-	-	FwgPTw2gjM5CgYXhCl	text/html
+1332905290.117836	CkkaiH1IdxG0saDE1	192.168.15.10	1030	187.45.240.36	80	1	GET	bem-me-quer.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	34954	200	OK	-	-	-	(empty)	-	-	-	-	-	FT0ztv4s6RM4qXpOk	text/html
+1332905292.117881	CytWeM2adzke2CP0q	192.168.15.10	1033	187.45.240.36	80	1	GET	bem-me-quer.com	/wp-content/themes/Bem-me-quer/css/ie6style.css	http://bem-me-quer.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	497	200	OK	-	-	-	(empty)	-	-	-	-	-	FpFaQa4HNMxADKMra7	text/plain
+1332905291.774846	CEoEel4KnqyBkMX1Ra	192.168.15.10	1031	187.45.240.36	80	1	GET	bem-me-quer.com	/wp-content/themes/Bem-me-quer/style.css	http://bem-me-quer.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	29492	200	OK	-	-	-	(empty)	-	-	-	-	-	FzbxQ52AT4xP8uYrJ2	text/plain
+1332905292.380099	CEoEel4KnqyBkMX1Ra	192.168.15.10	1031	187.45.240.36	80	2	GET	bem-me-quer.com	/wp-content/themes/Bem-me-quer/images/bg.png	http://bem-me-quer.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3034	200	OK	-	-	-	(empty)	-	-	-	-	-	F0yJFgJsag7WQNb6d	image/png
+1332905292.295572	CytWeM2adzke2CP0q	192.168.15.10	1033	187.45.240.36	80	2	GET	bem-me-quer.com	/wp-content/themes/Bem-me-quer/js/DD_belatedPNG_0.0.8a-min.js	http://bem-me-quer.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	8397	200	OK	-	-	-	(empty)	-	-	-	-	-	FEQWaT3malp4bZeZh6	text/plain
+1332905292.23122	CL1Vah46p6IVAW8uml	192.168.15.10	1034	188.190.125.35	80	1	GET	destaewer.in	/opentraff.php?pagpag=58320623d3a4073b	http://bem-me-quer.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	21059	200	OK	-	-	-	(empty)	-	-	-	-	-	FMBErz2xr0GPJ4VKB2	text/html
+1332905293.249749	CL1Vah46p6IVAW8uml	192.168.15.10	1034	188.190.125.35	80	2	GET	destaewer.in	/w.php?f=a2982&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	251904	200	OK	-	-	-	(empty)	-	-	-	-	-	FV770V2Os7ubUPoltc	application/x-dosexec
+1332905294.879	CeHm4Y10ORRIgojkbb	192.168.15.10	1039	188.190.125.35	80	1	GET	destaewer.in	/data/field.swf	http://bem-me-quer.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1559	200	OK	-	-	-	(empty)	-	-	-	-	-	FeiKi04ehqcjtlkGcb	application/x-shockwave-flash
+1332905294.454038	CL1Vah46p6IVAW8uml	192.168.15.10	1034	188.190.125.35	80	3	GET	destaewer.in	/data/ap2.php?f=a2982	http://destaewer.in/opentraff.php?pagpag=58320623d3a4073b	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	67871	200	OK	-	-	-	(empty)	-	-	-	-	-	Foyir41qzTq5o1rmme	application/pdf
+1332905308.394235	CjzcR44kwCvhreL6L4	192.168.15.10	1042	204.245.190.91	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1568	200	OK	-	-	-	(empty)	-	-	-	-	-	F9NhKs3UHNOxLBJGNb	text/html
+1332905308.335332	CeHm4Y10ORRIgojkbb	192.168.15.10	1039	188.190.125.35	80	2	GET	destaewer.in	/data/score.swf	http://destaewer.in/data/field.swf	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6972	200	OK	-	-	-	(empty)	-	-	-	-	-	FqvhKB3XT5dOC04Q4d	application/x-shockwave-flash
+1332905308.61317	Cr3Ze220tI0H4oA2Gl	192.168.15.10	1040	95.143.198.47	80	1	POST	95.143.198.47	/uda	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	715	3	200	OK	-	-	-	(empty)	-	-	-	FHT7GK1hhUFqV80eDf,FCQwCG1fZ3SMkRvSJ6,FV6MaS3JlkBsQBLmBd,F3TmvG1LGIGIXnqoMf	text/plain,text/plain,text/plain,text/plain	F18P3T3QktShSCEEdf	text/plain
+1332905309.001259	Cr3Ze220tI0H4oA2Gl	192.168.15.10	1040	95.143.198.47	80	2	POST	95.143.198.47	/ucommd	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	65	0	200	OK	-	-	-	(empty)	-	-	-	Fj3SqH32B2HW9GOYe7	text/plain	-	-
+1332905308.612915	COJenjcuyNaiFsBG6	192.168.15.10	1041	95.143.198.47	80	1	POST	95.143.198.47	/ping	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	65	25881	200	OK	-	-	-	(empty)	-	-	-	FSOUUz4h88uVNiGcwj	text/plain	FUoczjZQeMQBIou5	binary
+1332905314.796545	CkAMEZ3wjUYpACUdi6	192.168.15.10	1043	188.190.125.35	80	1	GET	destaewer.in	/data/Pol.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13834	200	OK	-	-	-	(empty)	-	-	-	-	-	FbStRn3HHROKeDPEy9	application/zip
+#close	2014-04-03-10-49-17

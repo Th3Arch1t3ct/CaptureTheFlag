@@ -1,0 +1,33 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-57-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1332404011.110838	CZc6U45iMel7aEA9d	192.168.8.10	1030	89.19.30.110	80	1	GET	fedar.net	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6245	200	OK	-	-	-	(empty)	-	-	-	-	-	FuSa9P2JMVBVVD50Zg	text/html
+1332404012.075559	CRRdIP3qSEvDcdvgIc	192.168.8.10	1031	89.19.30.110	80	1	GET	fedar.net	/images/mfedar1.jpg	http://fedar.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1635	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FkIbbZiganCYnp3Ck	text/html
+1332404011.914575	CZc6U45iMel7aEA9d	192.168.8.10	1030	89.19.30.110	80	2	GET	fedar.net	/layouts/ramblingsoul4/images/style.css	http://fedar.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	8159	200	OK	-	-	-	(empty)	-	-	-	-	-	FMjRfl4oO1XVSzFTXe	text/plain
+1332404012.269848	CRRdIP3qSEvDcdvgIc	192.168.8.10	1031	89.19.30.110	80	2	GET	fedar.net	/layouts/ramblingsoul4/images//pagebg.gif	http://fedar.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	119	200	OK	-	-	-	(empty)	-	-	-	-	-	FR9ZwJ1EMIjiOTeF8f	image/gif
+1332404012.548495	CWwni24ZeBJjiuHmpb	192.168.8.10	1032	196.46.189.214	80	1	GET	civilavia.in	/tds/in.cgi?2	http://fedar.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	232	302	Found	-	-	-	(empty)	-	-	-	-	-	FFs6GX2jHor6Xhvgk2	text/html
+1332404012.270148	CZc6U45iMel7aEA9d	192.168.8.10	1030	89.19.30.110	80	3	GET	fedar.net	/layouts/ramblingsoul4/images/bg.gif	http://fedar.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	43401	200	OK	-	-	-	(empty)	-	-	-	-	-	FrwDbB3xU43Pgoe2ch	image/gif
+1332404012.811131	CZc6U45iMel7aEA9d	192.168.8.10	1030	89.19.30.110	80	4	GET	fedar.net	/layouts/ramblingsoul4/images/logo.gif	http://fedar.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	12374	200	OK	-	-	-	(empty)	-	-	-	-	-	F7JDJQ3MWlCBbS66H	image/gif
+1332404012.450611	CRRdIP3qSEvDcdvgIc	192.168.8.10	1031	89.19.30.110	80	3	GET	fedar.net	/layouts/ramblingsoul4/images/sidebar.gif	http://fedar.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	31468	200	OK	-	-	-	(empty)	-	-	-	-	-	FO7Fgp4hkZS0bdlWOg	image/gif
+1332404012.993004	CZc6U45iMel7aEA9d	192.168.8.10	1030	89.19.30.110	80	5	GET	fedar.net	/layouts/ramblingsoul4/images/topmenu.gif	http://fedar.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3949	200	OK	-	-	-	(empty)	-	-	-	-	-	FIxKBu2gsBR1xigKxl	image/gif
+1332404012.872237	C8B1eK34RSJzJB1wPb	192.168.8.10	1033	91.205.74.23	80	1	GET	help-web.in	/main.php?page=99201204d903c23d	http://fedar.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	18216	200	OK	-	-	-	(empty)	-	-	-	-	-	FZBsbD45allp2V4Qvf	text/html
+1332404014.166852	C8B1eK34RSJzJB1wPb	192.168.8.10	1033	91.205.74.23	80	2	GET	help-web.in	/w.php?f=47bca&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	83456	200	OK	-	-	-	(empty)	-	-	-	-	-	FuQlL71Db5RiYRZ1N4	application/x-dosexec
+1332404014.711116	C8B1eK34RSJzJB1wPb	192.168.8.10	1033	91.205.74.23	80	3	GET	help-web.in	/w.php?f=5a20e&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	51712	200	OK	-	-	-	(empty)	-	-	-	-	-	F0tIHlgI7J8UwDTj	application/x-dosexec
+1332404014.998604	C8B1eK34RSJzJB1wPb	192.168.8.10	1033	91.205.74.23	80	4	GET	help-web.in	/content/ap2.php?f=47bca::5a20e	http://help-web.in/main.php?page=99201204d903c23d	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	21488	200	OK	-	-	-	(empty)	-	-	-	-	-	FkzrLx1qhVtfWxA6Cb	application/pdf
+1332404015.256385	Cmkzx14LwZUw5qYXBd	192.168.8.10	1038	91.205.74.23	80	1	GET	help-web.in	/content/field.swf	http://fedar.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1558	200	OK	-	-	-	(empty)	-	-	-	-	-	FzL9EusKgFJvzS1Pl	application/x-shockwave-flash
+1332404020.737417	CBbL0W3IUR74BzRmec	192.168.8.10	1039	74.52.33.74	80	1	GET	74.52.33.74	/~audio1/ad/	http://fedar.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1403	200	OK	-	-	-	(empty)	-	-	-	-	-	Fv5tYA1SNnMfw9XIn4	text/html
+1332404023.723697	Cmkzx14LwZUw5qYXBd	192.168.8.10	1038	91.205.74.23	80	2	GET	help-web.in	/w.php?f=47bca&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	83456	200	OK	-	-	-	(empty)	-	-	-	-	-	FoM3lKzlt778EGkrl	application/x-dosexec
+1332404024.923119	CgP3II3DwJuALf0Gp7	192.168.8.10	1041	91.205.74.23	80	1	GET	help-web.in	/content/Qai.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	17476	200	OK	-	-	-	(empty)	-	-	-	-	-	FWrEYh1lvbeJlh5Qmd	application/zip
+1332404026.35299	CoIbly2X8oEU1RPQ7	192.168.8.10	1042	91.205.74.23	80	1	GET	help-web.in	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	162	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FilIwy1tHVlnvTCG79	text/html
+1332404026.489079	CoIbly2X8oEU1RPQ7	192.168.8.10	1042	91.205.74.23	80	2	GET	help-web.in	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	162	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F5GDPU2Ek9kbbJkyme	text/html
+1332404026.620933	CoIbly2X8oEU1RPQ7	192.168.8.10	1042	91.205.74.23	80	3	GET	help-web.in	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	162	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FdLWdZ1jNq9FYszQfg	text/html
+1332404026.755323	CoIbly2X8oEU1RPQ7	192.168.8.10	1042	91.205.74.23	80	4	GET	help-web.in	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	162	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FdNMuC1WDb4gb8GEf8	text/html
+1332404029.110806	CWliNgopDnpVyxQz3	192.168.8.10	1045	91.205.74.23	80	1	GET	help-web.in	/w.php?f=47bca&e=0	-	Java/1.6.0_10	0	83456	200	OK	-	-	-	(empty)	-	-	-	-	-	FAvMzm3R0cBvLWaOFb	application/x-dosexec
+1332404029.662283	CWliNgopDnpVyxQz3	192.168.8.10	1045	91.205.74.23	80	2	GET	help-web.in	/w.php?f=5a20e&e=0	-	Java/1.6.0_10	0	51712	200	OK	-	-	-	(empty)	-	-	-	-	-	FCAoXj1FJxqTtTvNze	application/x-dosexec
+1332404055.900588	C8B1eK34RSJzJB1wPb	192.168.8.10	1033	91.205.74.23	80	5	GET	help-web.in	/w.php?f=5a20e&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	51712	200	OK	-	-	-	(empty)	-	-	-	-	-	FqbeerndzQcz5Upo1	application/x-dosexec
+#close	2014-04-03-10-57-15

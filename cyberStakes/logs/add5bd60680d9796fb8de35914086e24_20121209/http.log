@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-05-57
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1355034503.960318	CjRWzs4xLz1Iyh1Yg8	192.168.9.10	1030	93.170.52.21	80	1	GET	q522z.tk	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	842	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	Fa8PLp2LcMfKdxjZKl	text/plain
+1355034504.405655	CQeZ5x3dzt4Sph1z0d	192.168.9.10	1031	195.3.143.42	80	1	GET	itislol.makewap.kz	/?wkxh	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	161	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	FlrK7G22phV8X8tx4j	text/html
+1355034504.818954	CT8NE01sr3mWAf8Vxh	192.168.9.10	1032	195.3.143.42	80	1	GET	itislol.makewap.ru	/index.html?rdr=makewap.kz&wkxh	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	161	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	FngL6g3qC5ZspX9xWj	text/html
+1355034504.950075	CQeZ5x3dzt4Sph1z0d	192.168.9.10	1031	195.3.143.42	80	2	GET	itislol.makewap.kz	/index.html?sid=02a54c0019&wkxh	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1196	200	OK	-	-	-	(empty)	-	-	-	-	-	FFWSzRoYxATZevVEa	text/html
+1355034507.307589	CcCmKG1nvg2SvHxgle	192.168.9.10	1039	178.218.209.2	80	1	GET	c.waplog.net	/438257.cnt	http://itislol.makewap.kz/index.html?sid=02a54c0019&wkxh	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	207	200	OK	-	-	-	(empty)	-	-	-	-	-	FXl1nU3g5SAOqNGPha	image/gif
+1355034507.377466	C3nN3p4HwmQzBYpOy8	192.168.9.10	1041	92.243.66.77	80	1	GET	wapstatistic.net	/img.php?id=2468	http://itislol.makewap.kz/index.html?sid=02a54c0019&wkxh	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	74	200	OK	-	-	-	(empty)	-	-	-	-	-	FudZNM2eqybffimvL5	image/gif
+1355034507.312123	Ca4DG8B04IqHG9kW6	192.168.9.10	1040	185.4.227.74	80	1	GET	185.4.227.74	/YouNaked.JPG.exe	http://itislol.makewap.kz/index.html?sid=02a54c0019&wkxh	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	9946	200	OK	-	-	-	(empty)	-	-	-	-	-	F6OzhA4qCYLOkLZOr7	application/x-dosexec
+1355034507.162259	CF3PP83Uq1bSJjUdIl	192.168.9.10	1038	195.3.143.42	80	1	GET	makewap.kz	/img/home.gif	http://itislol.makewap.kz/index.html?sid=02a54c0019&wkxh	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	120	200	OK	-	-	-	(empty)	-	-	-	-	-	FtKVBS1Jz6VECaM41g	image/gif
+#close	2014-04-03-11-05-57

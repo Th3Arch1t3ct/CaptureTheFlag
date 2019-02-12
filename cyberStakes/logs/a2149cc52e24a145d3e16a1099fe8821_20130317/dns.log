@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-58-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1363479293.07213	CwQD2711BLcjraKMF8	192.168.40.10	1029	4.2.2.3	53	udp	52623	fabiola-voyance.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.186.33.4	86378.000000	F
+1363479327.502935	CPXRH44fr6BnBqGrCb	192.168.40.10	1029	4.2.2.3	53	udp	4748	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,173.194.37.66,173.194.37.70,173.194.37.71,173.194.37.73,173.194.37.78,173.194.37.68,173.194.37.64,173.194.37.72,173.194.37.67,173.194.37.65,173.194.37.69	2592.000000,151.000000,151.000000,151.000000,151.000000,151.000000,151.000000,151.000000,151.000000,151.000000,151.000000,151.000000	F
+1363479327.52832	CPXRH44fr6BnBqGrCb	192.168.40.10	1029	4.2.2.3	53	udp	13965	webr.emv2.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	base-webr.emv2.com,193.25.198.219,193.25.198.218	1909.000000,3600.000000,3600.000000	F
+1363479327.934256	CPXRH44fr6BnBqGrCb	192.168.40.10	1029	4.2.2.3	53	udp	47501	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.137.95	2138.000000,76.000000	F
+#close	2014-04-03-09-58-33

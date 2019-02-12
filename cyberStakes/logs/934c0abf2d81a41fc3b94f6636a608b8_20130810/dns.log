@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-07-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1376101297.010179	CUA3Lk1gNEHUF5N7Yk	192.168.79.10	1035	4.2.2.3	53	udp	8073	updateplayer.appspot.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	appspot.l.google.com,173.194.79.141	86373.000000,146.000000	F
+1376101297.132838	CUA3Lk1gNEHUF5N7Yk	192.168.79.10	1035	4.2.2.3	53	udp	52617	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.239.7,74.125.239.6,74.125.239.5,74.125.239.4,74.125.239.8,74.125.239.14,74.125.239.3,74.125.239.2,74.125.239.0,74.125.239.1,74.125.239.9	50543.000000,71.000000,71.000000,71.000000,71.000000,71.000000,71.000000,71.000000,71.000000,71.000000,71.000000,71.000000	F
+1376101297.168082	CUA3Lk1gNEHUF5N7Yk	192.168.79.10	1035	4.2.2.3	53	udp	37512	quercus-redirect.appspot.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	appspot.l.google.com,173.194.79.141	86400.000000,146.000000	F
+1376101297.969008	CUA3Lk1gNEHUF5N7Yk	192.168.79.10	1035	4.2.2.3	53	udp	59272	flv.hs5dmr.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	grupoblidoo.go2cloud.org,54.229.12.122	300.000000,60.000000	F
+1376101298.442934	CUA3Lk1gNEHUF5N7Yk	192.168.79.10	1035	4.2.2.3	53	udp	63112	flv.hs1dmr.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	grupoblidoo.go2cloud.org,54.229.12.122	300.000000,60.000000	F
+1376101298.80413	CUA3Lk1gNEHUF5N7Yk	192.168.79.10	1035	4.2.2.3	53	udp	31882	dl.down324.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.211.134.97	300.000000	F
+#close	2014-04-03-11-07-15

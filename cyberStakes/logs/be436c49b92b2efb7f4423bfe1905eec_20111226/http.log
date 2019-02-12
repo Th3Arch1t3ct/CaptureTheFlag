@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-31-47
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1324931458.737438	CcvMlA4g4OBjud09a5	192.168.61.10	1029	69.65.60.193	80	1	GET	iconspedia.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	413	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FL4L583PUFzce2jbXf	text/html
+1324931458.805068	CpLJuUYD1jT4w9as5	192.168.61.10	1030	69.65.60.193	80	1	GET	www.iconspedia.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	147411	200	OK	-	-	-	(empty)	-	-	-	-	-	FDR4i66KoNmse6sTg	text/html
+1324931460.843061	ClHCcVD8ZMJ15QP86	192.168.61.10	1037	67.201.31.184	80	1	GET	mcdn.iconspedia.com	/common/js/unitpngfix.js	http://www.iconspedia.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	963	200	OK	-	-	-	(empty)	-	-	-	-	-	Frttfo1vKV1FBUUj4e	text/plain
+1324931460.845664	C2Flvm1PNgl61tnNQ5	192.168.61.10	1038	67.201.31.184	80	1	GET	mcdn.iconspedia.com	/common/css/style-min-new.css	http://www.iconspedia.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	87798	200	OK	-	-	-	(empty)	-	-	-	-	-	FmMTr83duj1ThUx1ec	text/plain
+1324931460.882523	ClHCcVD8ZMJ15QP86	192.168.61.10	1037	67.201.31.184	80	2	GET	mcdn.iconspedia.com	/common/css/ie6.css	http://www.iconspedia.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1338	200	OK	-	-	-	(empty)	-	-	-	-	-	FRLifg4wdRsxxg9Iu8	text/plain
+1324931460.891671	CitJNl1PR4BA5JdeK6	192.168.61.10	1039	74.125.157.95	80	1	GET	ajax.googleapis.com	/ajax/libs/jquery/1.4.2/jquery.min.js	http://www.iconspedia.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	72174	200	OK	-	-	-	(empty)	-	-	-	-	-	FLZvhsidIZzK3xS22	text/plain
+1324931460.93979	C2Flvm1PNgl61tnNQ5	192.168.61.10	1038	67.201.31.184	80	2	GET	mcdn.iconspedia.com	/common/js/combined.js	http://www.iconspedia.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	21091	200	OK	-	-	-	(empty)	-	-	-	-	-	Fdj5EEXa406EH2h2	text/plain
+1324931460.990175	CCDBAe1dpc58Z01UC6	192.168.61.10	1040	69.65.60.193	80	1	GET	www.iconspedia.com	/common/js/js.js	http://www.iconspedia.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7365	200	OK	-	-	-	(empty)	-	-	-	-	-	FYjVQ91Xj2gdi606La	text/html
+1324931461.20252	C6XxCb168bKiXezoz4	192.168.61.10	1041	109.169.37.65	80	1	GET	host112.myvnc.com	/img/show.php?s=9f800220b9	http://www.iconspedia.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	539	200	OK	-	-	-	(empty)	-	-	-	-	-	FUs4GZ2hYurqqrfbC	text/html
+1324931462.868305	CZXkw51AtJNHz1PDJl	192.168.61.10	1043	109.169.37.65	80	1	GET	host112.myvnc.com	/img/hpndspglkujyfn.jar?40c650ef	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	10640	200	OK	-	-	-	(empty)	-	-	-	-	-	FRVumx3S8Jr2kFHMb1	application/jar
+1324931462.870093	Crayy21Kzy2mbG4KG4	192.168.61.10	1042	109.169.37.65	80	1	GET	host112.myvnc.com	/img/wkrokfgziuonyn.jar?2374c6fc	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11663	200	OK	-	-	-	(empty)	-	-	-	-	-	FRxBdV3xS8AyXMO4C1	application/jar
+1324931463.875951	C4xzop4MkDcxLXJ0Rl	192.168.61.10	1044	109.169.37.65	80	1	GET	host112.myvnc.com	/img/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	294	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Fs96qs4jHsIl74B1h8	text/html
+1324931464.438132	C4xzop4MkDcxLXJ0Rl	192.168.61.10	1044	109.169.37.65	80	2	GET	host112.myvnc.com	/img/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	294	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FK5kLe3VJc6vEF0zDg	text/html
+1324931464.537836	C4xzop4MkDcxLXJ0Rl	192.168.61.10	1044	109.169.37.65	80	3	GET	host112.myvnc.com	/img/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	294	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FBI6UR3fAgpc2MBZrl	text/html
+1324931464.640408	C4xzop4MkDcxLXJ0Rl	192.168.61.10	1044	109.169.37.65	80	4	GET	host112.myvnc.com	/img/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	294	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FHttZCqxLfEgB4BRl	text/html
+1324931464.818807	C4xzop4MkDcxLXJ0Rl	192.168.61.10	1044	109.169.37.65	80	5	GET	host112.myvnc.com	/img/a.php?e=1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	212992	200	OK	-	-	-	(empty)	-	-	-	-	-	FJOFcrUwXYYdK8ri8	application/x-dosexec
+1324931464.954495	CM1cns4Zmp0bdLh1yb	192.168.61.10	1045	109.169.37.65	80	1	GET	host112.myvnc.com	/img/a.php?e=1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	212992	200	OK	-	-	-	(empty)	-	-	-	-	-	Fdi9xT2qIKCMs4Ed7b	application/x-dosexec
+#close	2014-04-03-10-31-48

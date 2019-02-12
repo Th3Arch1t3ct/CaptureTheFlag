@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-11-09-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1374664888.2632	C3nXUGvsi4XfWcT9k	192.168.116.10	1143	199.59.148.11	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.twitter.com,OU=Domain Control Validated - RapidSSL(R),OU=See www.rapidssl.com/resources/cps (c)11,OU=GT57932074,O=*.twitter.com,C=US,serialNumber=wpFoaVWoLWP3/6EepBi19sPC6JEAFJCG	CN=RapidSSL CA,O=GeoTrust\, Inc.,C=US	1310919191.000000	1379462399.000000	-	-	-	8dc7bdedfde8d8f351187541f83f5408	ok
+1374664889.448485	CdfrQ73dOc631wWhj3	192.168.116.10	1160	31.13.75.1	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.facebook.com,O=Facebook\, Inc.,L=Palo Alto,ST=California,C=US	OU=www.verisign.com/CPS Incorp.by Ref. LIABILITY LTD.(c)97 VeriSign,OU=VeriSign International Server CA - Class 3,OU=VeriSign\, Inc.,O=VeriSign Trust Network	1340254800.000000	1388555999.000000	-	-	-	f10b4102a78b5894231109d6d3fbeeb5	ok
+1374664891.373534	CCz91p3FkxuZrxZ7D4	192.168.116.10	1220	178.33.84.159	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=www.legendstorm.com,OU=Domain Control Validated - RapidSSL(R),OU=See www.rapidssl.com/resources/cps (c)13,OU=GT19140552,serialNumber=jPQ8VKXUNOxySYVi7V7Zu2Wo9rTKxgbi	CN=RapidSSL CA,O=GeoTrust\, Inc.,C=US	1372839271.000000	1404589881.000000	-	-	-	c6737e9040b0adbf643bf5c02be53dcb	ok
+1374664900.868857	CVKMDf1EI1zQpCu9ch	192.168.116.10	1398	204.2.166.35	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=a248.e.akamai.net,O=Akamai Technologies\, Inc.,C=US	CN=GTE CyberTrust Global Root,OU=GTE CyberTrust Solutions\, Inc.,O=GTE Corporation,C=US	1346111654.000000	1377647602.000000	-	-	-	0195040f2287236cf5ad9ef729821cb9	ok
+1374664901.312493	CBSQQP3m6H5gn14R08	192.168.116.10	1402	204.2.166.35	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	be29f94d830d9f0b0e896bbd875b7fc23e64aec128dffff715b29ad4550b0878	-	-	-	-	-	-	-	-	-
+1374664907.265234	C2Twra4tcQTYuK3BA9	192.168.116.10	1546	31.13.75.1	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	add777bedd718f1e5bd3fd6b019c4c1e94daf70b4e1d711648618d8489796feb	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-11-09-16

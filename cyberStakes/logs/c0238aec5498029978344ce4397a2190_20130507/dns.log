@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-55-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1367961465.915998	C37CgA2ro8IO4WeGb5	192.168.59.10	1029	4.2.2.3	53	udp	15757	flightsoft.co.za	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	108.167.179.122	3600.000000	F
+1367961488.945525	C2fHpu1TOkbZHkVhfj	192.168.59.10	1029	4.2.2.3	53	udp	16013	shield.sitelock.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.154.178.164	79704.000000	F
+1367961488.947166	CRoeCm420FwcVhvja8	192.168.59.10	1036	4.2.2.3	53	udp	16268	regnow.img.digitalriver.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	regnow.img.digitalriver.com.edgekey.net,e791.p.akamaiedge.net,23.64.19.91	86399.000000,21600.000000,20.000000	F
+1367961489.062119	C2fHpu1TOkbZHkVhfj	192.168.59.10	1029	4.2.2.3	53	udp	43662	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,173.194.37.2,173.194.37.3,173.194.37.4,173.194.37.5,173.194.37.6,173.194.37.0,173.194.37.7,173.194.37.9,173.194.37.1,173.194.37.14,173.194.37.8	68595.000000,112.000000,112.000000,112.000000,112.000000,112.000000,112.000000,112.000000,112.000000,112.000000,112.000000,112.000000	F
+1367961489.062418	CRoeCm420FwcVhvja8	192.168.59.10	1036	4.2.2.3	53	udp	8078	za.offerforge.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	zaofferforge.wip.directresponsetech.com,174.47.188.201	14400.000000,3600.000000	F
+1367961489.151589	C2fHpu1TOkbZHkVhfj	192.168.59.10	1029	4.2.2.3	53	udp	61833	images.directtrack.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	images.directtrack.com.edgesuite.net,a1772.x.akamai.net,23.67.61.99,23.67.61.82	3600.000000,21600.000000,20.000000,20.000000	F
+1367961489.414227	C2fHpu1TOkbZHkVhfj	192.168.59.10	1029	4.2.2.3	53	udp	52363	offerserve.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.10.212.171	7200.000000	F
+#close	2014-04-03-10-55-30

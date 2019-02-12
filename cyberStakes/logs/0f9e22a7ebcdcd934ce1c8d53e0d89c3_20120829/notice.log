@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-49-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1346269812.913818	Ct8qpw4qseoUBFwHt1	192.168.100.10	1032	184.82.160.118	80	FwInI81jAHXKfdBHN3	application/x-dosexec	http://guitarshopuk.co.cc/w.php?f=182b5&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-08-28 17:31:13	https://www.virustotal.com/en/search/?query=27cc3c8d99748d7f68ffa8c03f240d81276978f4	192.168.100.10	184.82.160.118	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1346269813.916459	CPUrfz2CrAPdbullr9	192.168.100.10	1040	184.82.160.118	80	FYjsip2di9mD57xvEj	application/x-shockwave-flash	http://guitarshopuk.co.cc/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 32%  Last seen: 2012-09-05 10:46:09	https://www.virustotal.com/en/search/?query=4663116c1896eacb0b017c8f168bfc101f8b3b3a	192.168.100.10	184.82.160.118	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1346269815.317282	Ct8qpw4qseoUBFwHt1	192.168.100.10	1032	184.82.160.118	80	F1lnVC421bxgjoIoH1	application/x-dosexec	http://guitarshopuk.co.cc/w.php?f=182b5&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-08-28 17:31:13	https://www.virustotal.com/en/search/?query=27cc3c8d99748d7f68ffa8c03f240d81276978f4	192.168.100.10	184.82.160.118	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1346269818.595831	CdFtkO37Rkx10QBJc	192.168.100.10	1044	184.82.160.118	80	FNQn3oN1xKBhB4Xo1	application/x-dosexec	http://guitarshopuk.co.cc/w.php?f=182b5&e=0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-08-28 17:31:13	https://www.virustotal.com/en/search/?query=27cc3c8d99748d7f68ffa8c03f240d81276978f4	192.168.100.10	184.82.160.118	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-49-37

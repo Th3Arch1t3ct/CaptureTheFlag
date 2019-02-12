@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	app_stats
+#open	2014-04-03-11-08-24
+#fields	ts	ts_delta	app	uniq_hosts	hits	bytes
+#types	time	interval	string	count	count	count
+1352718234.265198	900.000000	google	1	1	32474
+#close	2014-04-03-11-08-24

@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-43-41
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1340227845.470359	Cq8BswtKnaDY33No	192.168.101.10	1030	206.183.111.80	80	1	GET	infinitecourses.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	154	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FiHN6f1dfAsYbUL7V1	text/html
+1340227845.930522	C1sERD1SxdcjGkO3vc	192.168.101.10	1031	206.183.111.80	80	1	GET	www.infinitecourses.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	279323	200	OK	-	-	-	(empty)	-	-	-	-	-	F2HCcf34b93Mcy9r29	text/html
+1340227847.107845	C1sERD1SxdcjGkO3vc	192.168.101.10	1031	206.183.111.80	80	2	GET	www.infinitecourses.com	/JS/InfiniteTabs.js	http://www.infinitecourses.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2415	200	OK	-	-	-	(empty)	-	-	-	-	-	FQRyLA3RCsk0kBmUXi	text/plain
+1340227846.921259	Czj5dK3vbFPdYjqSrb	192.168.101.10	1032	206.183.111.80	80	1	GET	www.infinitecourses.com	/style_sheet.css	http://www.infinitecourses.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	23580	200	OK	-	-	-	(empty)	-	-	-	-	-	FTKYh91nKuZXyVGBzi	text/plain
+1340227847.387819	C1sERD1SxdcjGkO3vc	192.168.101.10	1031	206.183.111.80	80	3	GET	www.infinitecourses.com	/Scripts/AC_RunActiveContent.js	http://www.infinitecourses.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	8321	200	OK	-	-	-	(empty)	-	-	-	-	-	FkcrRx28vi2fQhjea4	text/plain
+1340227847.388241	Czj5dK3vbFPdYjqSrb	192.168.101.10	1032	206.183.111.80	80	2	GET	www.infinitecourses.com	/JS/jquery-1.5.1.min.js	http://www.infinitecourses.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13510	200	OK	-	-	-	(empty)	-	-	-	-	-	FeDtIh3hZmKjuS39Ll	text/plain
+1340227847.543831	CO9wnY2Lc9nvjsJT79	192.168.101.10	1038	83.69.233.14	80	1	GET	olrlcmvnhvuyaooq.co.cc	/main.php?page=7f8d5cb464e641e1	http://www.infinitecourses.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	58480	200	OK	-	-	-	(empty)	-	-	-	-	-	FqN0tGicSwtmxVML8	text/html
+1340227850.465867	CO9wnY2Lc9nvjsJT79	192.168.101.10	1038	83.69.233.14	80	2	GET	olrlcmvnhvuyaooq.co.cc	/w.php?f=97d19&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	173568	200	OK	-	-	-	(empty)	-	-	-	-	-	Fu0wKq10zqwpLaFE08	application/x-dosexec
+1340227851.439369	CcYCpEPSDBZiRVNek	192.168.101.10	1040	83.69.233.14	80	1	GET	olrlcmvnhvuyaooq.co.cc	/data/field.swf	http://www.infinitecourses.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1547	200	OK	-	-	-	(empty)	-	-	-	-	-	FEiR9B48JmBywV4tX2	application/x-shockwave-flash
+1340227851.277023	CO9wnY2Lc9nvjsJT79	192.168.101.10	1038	83.69.233.14	80	3	GET	olrlcmvnhvuyaooq.co.cc	/data/ap2.php	http://olrlcmvnhvuyaooq.co.cc/main.php?page=7f8d5cb464e641e1	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	23111	200	OK	-	-	-	(empty)	-	-	-	-	-	F3Rws13sI8L8Xw0waa	application/pdf
+1340227851.770945	CUiknl3g0DQ1cZTqZe	192.168.101.10	1041	194.50.116.223	80	1	POST	mokhoto.com	/kkk/	mz0j32c3i7syjn.net	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:10.0.2) Gecko/20100168 Firefox/10.0.2	35	70	200	OK	-	-	-	(empty)	-	-	-	FxJIow1EQhBhPpslqe	text/plain	FO9qdp18t8D4mTNpX1	text/plain
+1340227870.441823	CvmOCS161ytq0nVu44	192.168.101.10	1042	209.170.118.17	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1111	200	OK	-	-	-	(empty)	-	-	-	-	-	F7WQQ4Fi32Nv7bwhl	text/plain
+1340227876.044806	CcYCpEPSDBZiRVNek	192.168.101.10	1040	83.69.233.14	80	2	GET	olrlcmvnhvuyaooq.co.cc	/w.php?f=97d19&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	173568	200	OK	-	-	-	(empty)	-	-	-	-	-	FXR751oCyJqQ0RUS4	application/x-dosexec
+1340227876.835861	CnQ4W52p2dPP3tWZZf	192.168.101.10	1043	83.69.233.14	80	1	GET	olrlcmvnhvuyaooq.co.cc	/Half.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	51241	200	OK	-	-	-	(empty)	-	-	-	-	-	FH7uwA4Lxg6eJihUs3	application/zip
+1340227878.164175	CXQXze4HC8Vw903gg7	192.168.101.10	1044	83.69.233.14	80	1	GET	olrlcmvnhvuyaooq.co.cc	/w.php?f=97d19&e=0	-	Java/1.6.0_10	0	173568	200	OK	-	-	-	(empty)	-	-	-	-	-	F93ivX1CWYR2qHcI0e	application/x-dosexec
+#close	2014-04-03-10-43-41

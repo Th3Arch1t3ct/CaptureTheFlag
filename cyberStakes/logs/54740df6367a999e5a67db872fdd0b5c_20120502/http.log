@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-53-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1335934529.671498	CNvk2Q1xurfccm2mmc	192.168.54.10	1030	69.89.31.100	80	1	GET	skyaerial.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2106	200	OK	-	-	-	(empty)	-	-	-	-	-	Fkr0Gy2QgDco2wjB3	text/html
+1335934530.067701	CPsY7I34YR1YE4fdr3	192.168.54.10	1031	178.162.132.223	80	1	GET	luterosuororikxus.ru	/t/d5a3e9355187a62180f8eb43d792cd91	http://skyaerial.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	42293	200	OK	-	-	-	(empty)	-	-	-	-	-	F3D2jpDKrjuP1l7ml	text/html
+1335934534.982059	CPsY7I34YR1YE4fdr3	192.168.54.10	1031	178.162.132.223	80	2	GET	luterosuororikxus.ru	/images/71a65646f981c9d5e94f267ded9b5e99/667965540/1/1.js	http://luterosuororikxus.ru/t/d5a3e9355187a62180f8eb43d792cd91	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	590	200	OK	-	-	-	(empty)	-	-	-	-	-	Fioard4W841QeGwiDa	text/plain
+1335934535.483026	CPsY7I34YR1YE4fdr3	192.168.54.10	1031	178.162.132.223	80	3	GET	luterosuororikxus.ru	/images/71a65646f981c9d5e94f267ded9b5e99/667965540.pdf	http://luterosuororikxus.ru/t/d5a3e9355187a62180f8eb43d792cd91	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	17724	200	OK	-	-	-	(empty)	-	-	-	-	-	F6oxkM1HKuRh8xWpS3	application/pdf
+1335934547.152384	CPsY7I34YR1YE4fdr3	192.168.54.10	1031	178.162.132.223	80	4	GET	luterosuororikxus.ru	/f/667965540/71a65646f981c9d5e94f267ded9b5e99/6	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	257272	200	OK	-	-	-	(empty)	-	-	-	-	-	FR8Crt2GzcvblY7Gc8	application/x-dosexec
+1335934548.131738	CMIwlk307zf8XykGt7	192.168.54.10	1036	178.162.132.223	80	1	GET	luterosuororikxus.ru	/images/71a65646f981c9d5e94f267ded9b5e99/667965540.pdf	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	17724	200	OK	-	-	-	(empty)	-	-	-	-	-	FujacU1E8KHdNgBwTd	application/pdf
+1335934549.388379	C6nALkqfdDkc34ure	192.168.54.10	1037	178.162.132.223	80	1	GET	luterosuororikxus.ru	/images/71a65646f981c9d5e94f267ded9b5e99/667965540.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13050	200	OK	-	-	-	(empty)	-	-	-	-	-	FO8VqW2TsaNwj52Del	application/jar
+1335934549.9044	C6nALkqfdDkc34ure	192.168.54.10	1037	178.162.132.223	80	2	GET	luterosuororikxus.ru	/images/71a65646f981c9d5e94f267ded9b5e99/667965540.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13050	200	OK	-	-	-	(empty)	-	-	-	-	-	FdOoXw2fszDOFkJ5Cf	application/jar
+1335934550.486508	C6nALkqfdDkc34ure	192.168.54.10	1037	178.162.132.223	80	3	GET	luterosuororikxus.ru	/images/71a65646f981c9d5e94f267ded9b5e99/667965540.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13050	200	OK	-	-	-	(empty)	-	-	-	-	-	FejCvE14kUq21CVVkb	application/jar
+1335934551.311579	C6nALkqfdDkc34ure	192.168.54.10	1037	178.162.132.223	80	4	GET	luterosuororikxus.ru	/images/71a65646f981c9d5e94f267ded9b5e99/667965540.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13050	200	OK	-	-	-	(empty)	-	-	-	-	-	FAdZrsj8UnJ4Bhmuc	application/jar
+1335934551.716655	C6nALkqfdDkc34ure	192.168.54.10	1037	178.162.132.223	80	5	GET	luterosuororikxus.ru	/f/667965540/71a65646f981c9d5e94f267ded9b5e99/3	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	257272	200	OK	-	-	-	(empty)	-	-	-	-	-	FpZDMb4SYcaoK4oR2b	application/x-dosexec
+1335934554.567976	C6nALkqfdDkc34ure	192.168.54.10	1037	178.162.132.223	80	6	GET	luterosuororikxus.ru	/f/667965540/71a65646f981c9d5e94f267ded9b5e99/3/2	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-10-53-55

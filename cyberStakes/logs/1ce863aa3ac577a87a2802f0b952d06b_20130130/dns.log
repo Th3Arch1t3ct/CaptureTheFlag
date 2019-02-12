@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-50-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1359583956.411062	CF5rax1d59boDq3Tm4	192.168.90.10	1029	4.2.2.3	53	udp	35474	allhomesolutionsllc.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.168.139.128	3600.000000	F
+1359583957.58319	CF5rax1d59boDq3Tm4	192.168.90.10	1029	4.2.2.3	53	udp	20114	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.142.95	2239.000000,50.000000	F
+1359583958.38755	CF5rax1d59boDq3Tm4	192.168.90.10	1029	4.2.2.3	53	udp	11665	content.bitsontherun.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.132.221.169	1149.000000	F
+1359583959.572608	CF5rax1d59boDq3Tm4	192.168.90.10	1029	4.2.2.3	53	udp	407	d2ciznq2rtdp7k.cloudfront.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.137.33.237,216.137.33.61,216.137.33.53,216.137.33.213,216.137.33.189,216.137.33.29,216.137.33.97,216.137.33.81	60.000000,60.000000,60.000000,60.000000,60.000000,60.000000,60.000000,60.000000	F
+1359583960.014847	CF5rax1d59boDq3Tm4	192.168.90.10	1029	4.2.2.3	53	udp	42389	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.d.akamai.net,184.51.126.88,184.51.126.107	12003.000000,121.000000,3009.000000,20.000000,20.000000	F
+1359583960.432687	CF5rax1d59boDq3Tm4	192.168.90.10	1029	4.2.2.3	53	udp	6548	www.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	star.c10r.facebook.com,173.252.101.26	1257.000000,22.000000	F
+1359583961.867579	CF5rax1d59boDq3Tm4	192.168.90.10	1029	4.2.2.3	53	udp	4251	fms.413c.edgecastcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	gs1.fms45.v2cdn.net,68.232.32.220	3600.000000,3600.000000	F
+1359583962.539682	CF5rax1d59boDq3Tm4	192.168.90.10	1029	4.2.2.3	53	udp	36505	d3el35u4qe4frz.cloudfront.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	54.240.160.166,54.240.160.134,54.240.160.126,54.240.160.110,54.240.160.146,54.240.160.42,54.240.160.26,54.240.160.206	60.000000,60.000000,60.000000,60.000000,60.000000,60.000000,60.000000,60.000000	F
+#close	2014-04-03-10-50-26

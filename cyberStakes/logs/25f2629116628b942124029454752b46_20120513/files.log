@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-09-56-30
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1336951093.288654	FS7Rqo4mop6fTPwMjk	174.143.122.196	192.168.35.10	C6gX1tlZiVEH0Ytob	HTTP	0	SHA1,MD5	text/html	-	0.113795	-	F	17357	17357	0	0	F	-	a618a8cdd27090e829cea49ef72b897b	892170ee7532d41eb34f5a665d7eef978d0d569c	-	-
+1336951095.801536	FGPkmu3su1rdp2suy9	98.124.199.1	192.168.35.10	CWl42M2LeWjnme1YQ5	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	178	178	0	0	F	-	244a4d4bc1582fb9f43d0e7a7ecc0c06	0c07f50eb1ed7ea68d26b18b9ecd02924539f623	-	-
+1336951096.473603	FQkvrpDy8T1POwBQa	83.69.226.72	192.168.35.10	CCb72O25fTluKgxBqe	HTTP	0	SHA1,MD5	binary	-	0.415599	-	F	20839	-	0	0	F	-	c8ca01f03d1123df86abd0fb7d86414a	96a20c589d09922bcc430c3a299ac822c3bd8923	-	-
+1336951097.705515	FHtu3Y13WIeWZtVBVl	83.69.226.72	192.168.35.10	CCb72O25fTluKgxBqe	HTTP	0	SHA1,MD5	application/x-dosexec	about.exe	0.434079	-	F	67072	-	0	0	F	-	50f7df69eb181dd60fd878469f491942	0453aa68fe249901ca4f795480898914ed20553f	-	-
+1336951098.511983	FHYWbi4XFHI375nSxi	83.69.226.72	192.168.35.10	CCb72O25fTluKgxBqe	HTTP	0	SHA1,MD5	application/pdf	3737b.pdf	0.217965	-	F	32468	32468	0	0	F	-	e51e6edeb6f27ac50a3632b602260a42	b75de1396eeee795c02cf8012f90d6efe99b6d0f	-	-
+1336951098.859481	FSv00c3MLrGBgSgqS6	83.69.226.72	192.168.35.10	CLiKi92THHGKL6e1ke	HTTP	0	SHA1,MD5	application/x-shockwave-flash	-	0.000000	-	F	1499	1499	0	0	F	-	bc59f307b33315848d83e907b69c18c4	d6aa7a1009c86a0fa55f74ecdd04dee1d6000730	-	-
+1336951106.793956	Fno0wm4MO8PEaYmno6	198.87.51.33	192.168.35.10	Cdf0og2stOxlVpFcNj	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	1759	1759	0	0	F	-	4a5693fabfd4e15039896b105c9058db	350a25b622e7a75e82ec6783bcf7a2367239aa61	-	-
+1336951107.096818	F8yO1In0jWHJj9Ho3	83.69.226.72	192.168.35.10	CLiKi92THHGKL6e1ke	HTTP	0	SHA1,MD5	application/x-shockwave-flash	-	0.207372	-	F	6972	6972	0	0	F	-	1bd165a2ac919727f96422451a1ddabc	a063ee5cef01c24568e9e3d0395cb1dfb226414f	-	-
+#close	2014-04-03-09-56-30

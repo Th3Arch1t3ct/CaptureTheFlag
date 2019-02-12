@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-52-01
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1327642769.496673	CxOGke1jctfzYWTOS2	192.168.24.10	1028	4.2.2.3	53	udp	27527	almeriafitness.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.162.209.145	14379.000000	F
+1327642770.146111	CxOGke1jctfzYWTOS2	192.168.24.10	1028	4.2.2.3	53	udp	13956	fonts.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.65.95	3262.000000,233.000000	F
+1327642770.426077	CxOGke1jctfzYWTOS2	192.168.24.10	1028	4.2.2.3	53	udp	41092	themes.googleusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlehosted.l.googleusercontent.com,74.125.45.132	173.000000,18.000000	F
+1327642771.148093	CY770e4tboxWjqCGbi	192.168.24.10	1039	4.2.2.3	53	udp	48259	onliername.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.60.242.95	6644.000000	F
+1327642771.150297	CY770e4tboxWjqCGbi	192.168.24.10	1039	4.2.2.3	53	udp	39041	connect.facebook.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	connect.facebook.net.edgekey.net,e3821.c.akamaiedge.net,184.87.15.139	694.000000,21184.000000,11.000000	F
+1327642771.1379	CxOGke1jctfzYWTOS2	192.168.24.10	1028	4.2.2.3	53	udp	16770	crossingwords.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	80.172.241.23	600.000000	F
+1327642771.621853	CY770e4tboxWjqCGbi	192.168.24.10	1039	4.2.2.3	53	udp	50318	ttghdrgfggg.nl.ai	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	203.170.193.102	3600.000000	F
+1327642772.148554	CY770e4tboxWjqCGbi	192.168.24.10	1039	4.2.2.3	53	udp	655	www.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.63.181.12	28.000000	F
+1327642804.680865	Cvx4vP2V9sSdP8tdWl	192.168.24.10	1039	4.2.2.3	53	udp	64652	static.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.g.akamai.net,69.31.132.67,69.31.132.42	6824.000000,21008.000000,3.000000,3.000000	F
+1327642815.464971	CbHdUoRQUP3GOlgH9	192.168.24.10	1039	4.2.2.3	53	udp	45197	audurighton.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	88.80.12.22	600.000000	F
+1327642836.877376	CUt8Vd30nws8pdWC5i	192.168.24.10	1039	4.2.2.3	53	udp	13450	jazutonfario.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.246.89.182	600.000000	F
+1327642837.437062	CUt8Vd30nws8pdWC5i	192.168.24.10	1039	4.2.2.3	53	udp	32139	thebricigehit.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.44.184.63	600.000000	F
+#close	2014-04-03-10-52-01

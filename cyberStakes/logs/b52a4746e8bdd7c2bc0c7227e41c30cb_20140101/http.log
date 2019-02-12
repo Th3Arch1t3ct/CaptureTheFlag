@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-56-17
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1388600706.835216	CR2tFH23bAoUuzX7uk	192.168.29.10	1034	192.133.137.63	80	1	GET	original-filmsonline.com	/	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1388600808.143043	Cp0mrj1j03nwUWzX51	192.168.29.10	1041	193.169.245.77	80	1	GET	201116.io.vfmuxgrk.trustingcommon.info	/	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	735	200	OK	-	-	-	(empty)	-	-	-	-	-	FIyY6Z2pQ8qmtXhdK6	text/html
+1388600808.743804	CfukzJ2Gq2y10vAsXb	192.168.29.10	1042	193.169.245.77	80	1	GET	201116.io.vfmuxgrk.trustingcommon.info	/10d_39c4/9_07ccfce9/1d5e_8c74fefbce0/0/4b/9/b0bdef8/5/a/6_38_8_b_d_e443/04a9_7/35/1bb	http://201116.io.vfmuxgrk.trustingcommon.info/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	12374	200	OK	-	-	-	(empty)	-	-	-	-	-	Fy4T9i2AsPyZg2Cfcc	text/html
+1388600810.261713	CCXpolOSRXFbYTgH7	192.168.29.10	1043	193.169.245.77	80	1	GET	193.169.245.77	/?93deb04a4958a626afe4f7c465a22aa3	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	82037	200	OK	-	-	-	(empty)	-	-	-	-	-	FYOPat4kcfIuVjova	application/x-dosexec
+#close	2014-04-03-10-56-17

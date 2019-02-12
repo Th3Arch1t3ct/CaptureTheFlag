@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-59-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1315595583.194438	CJguwo1MPldhPbWQFc	192.168.12.10	1029	4.2.2.3	53	udp	50573	freegiftaway.x10.bz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.154.58.130	14374.000000	F
+1315595583.280609	CJguwo1MPldhPbWQFc	192.168.12.10	1029	4.2.2.3	53	udp	52364	freegiftaway.cz.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	68.168.222.122	14400.000000	F
+1315595609.272348	CWW6Gy3XPPwNObuzy2	192.168.12.10	1029	4.2.2.3	53	udp	12942	google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.125.115.99,74.125.115.103,74.125.115.104,74.125.115.105,74.125.115.106,74.125.115.147	110.000000,110.000000,110.000000,110.000000,110.000000,110.000000	F
+1315595609.334797	CWW6Gy3XPPwNObuzy2	192.168.12.10	1029	4.2.2.3	53	udp	142	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.91.99,74.125.91.103,74.125.91.104,74.125.91.105,74.125.91.106,74.125.91.147	42054.000000,94.000000,94.000000,94.000000,94.000000,94.000000,94.000000	F
+#close	2014-04-03-09-59-16

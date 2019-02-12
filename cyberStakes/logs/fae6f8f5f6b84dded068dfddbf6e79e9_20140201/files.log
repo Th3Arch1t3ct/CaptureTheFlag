@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-14-40
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1391287297.399651	FhXdoC43nmD3uNXA1	206.72.195.132	192.168.68.10	Cy9VRC2drWZhufda11	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	617	617	0	0	F	-	b14e8fbfa7a0203973d1920b7f566fda	6424d2b96b1cbd9fcaed171197ab1c31f85f4e37	-	-
+1391287298.506508	F10XGq2bsXfPq1GM1i	206.72.195.132	192.168.68.10	CJJxbX3KJYQ5m2Yzn2	HTTP	0	MD5,SHA1	application/x-shockwave-flash	-	0.163151	-	F	33441	33441	0	0	F	-	952bce071d58a1b293f2e0eecd7438e4	dcf76a0bc24f10d17a7a7a4087e6d6683acffcb0	-	-
+1391287301.820709	FVr0DR29YQd3MarA1f	23.62.228.51	192.168.68.10	C2hPBE3Wu1kBbno7e7	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	1382	1382	0	0	F	-	a49eeeca497991144d278662c0faff80	b3001c7c9a55643771e7e258767c76a486647713	-	-
+1391287301.839257	F0oag51cKZNPHuuuD	206.72.195.132	192.168.68.10	Cy9VRC2drWZhufda11	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	502	502	0	0	F	-	11b2cd68df94ef3282a95fa468907027	d4045e28265e349e3b7f3ec3b58c11095e899de9	-	-
+1391287303.09274	FuhnJp1Q5skLtZc472	206.72.195.132	192.168.68.10	CJJxbX3KJYQ5m2Yzn2	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	439	-	0	0	F	-	25e81927f544657b1c7849b4ec5bc205	874d7d8ea282841dffa9074508e7a7bff062f61f	-	-
+1391287303.945573	FNosx83eKRNEUOKoag	178.32.189.104	192.168.68.10	ClGOqu2zXXRZ6QCxR5	HTTP	0	MD5,SHA1	text/html	-	0.000206	-	F	1682	-	0	0	F	-	bd589c1cf2befaeaddc26c57ed7c920b	33c0dbfe80a6f98f67873e580f6044491414a139	-	-
+1391287305.535025	F1Lm7CStBzruT3lfc	178.32.189.104	192.168.68.10	C0eQKq2WY1nYNM2ee6	HTTP	0	MD5,SHA1	text/html	-	0.000161	-	F	12440	12440	0	0	F	-	de2bb8a77260a760e9ae702898ded9d5	cdbb092de91792b6e1e18c5cfdcd549346869253	-	-
+1391287311.481553	F7Atm12viRs83WsZVi	178.32.189.104	192.168.68.10	CdFjLI2u3UcLkY5MB	HTTP	0	MD5,SHA1	application/x-dosexec	-	0.920186	-	F	273920	-	0	0	F	-	4ca957d49ff6b43d7903bc78d1225877	d6ab5ccb05d559f18e38c6e3a7c9856c586b6dac	-	-
+#close	2014-04-03-10-14-40

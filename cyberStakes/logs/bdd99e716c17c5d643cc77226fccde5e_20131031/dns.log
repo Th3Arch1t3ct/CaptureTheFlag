@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-55-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1383262420.122645	C9Oj5R3OV1g58hyQFl	192.168.80.10	1035	4.2.2.3	53	udp	16303	canal-street-halloween.trafoboom.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.211.22.216	14400.000000	F
+1383262420.760279	C9Oj5R3OV1g58hyQFl	192.168.80.10	1035	4.2.2.3	53	udp	63151	daymoney.co.uk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.211.162.138	1800.000000	F
+1383262421.597899	C9Oj5R3OV1g58hyQFl	192.168.80.10	1035	4.2.2.3	53	udp	57007	www3.z63we11en1dtg.dalnet.ca	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.116.34.246	3600.000000	F
+1383262422.106564	C9Oj5R3OV1g58hyQFl	192.168.80.10	1035	4.2.2.3	53	udp	5294	www1.xncbgqys3y2q9.dalnet.ca	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.232.225	3600.000000	F
+1383262423.058421	C9Oj5R3OV1g58hyQFl	192.168.80.10	1035	4.2.2.3	53	udp	30382	l.yimg.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fd-geoycs-l.gy1.b.yahoodns.net,ds-fo-anyycs-l.ay1.b.yahoodns.net,206.190.60.139,206.190.60.138	567.000000,175.000000,271.000000,271.000000	F
+1383262433.538232	C9Oj5R3OV1g58hyQFl	192.168.80.10	1035	4.2.2.3	53	udp	37292	www2.vp9ergw9olyhe0d14.wpbh.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.143.193.76	86400.000000	F
+1383262427.909463	C9Oj5R3OV1g58hyQFl	192.168.80.10	1035	4.2.2.3	53	udp	10668	225.232.32.178.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1383262427.909463	C9Oj5R3OV1g58hyQFl	192.168.80.10	1035	4.2.2.3	53	udp	10668	225.232.32.178.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1383262427.909463	C9Oj5R3OV1g58hyQFl	192.168.80.10	1035	4.2.2.3	53	udp	10668	225.232.32.178.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1383262481.899993	Cnqeg01eokmh2HoN42	192.168.80.10	1035	208.115.221.125	53	udp	9899	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	50.31.74.56	7200.000000	F
+#close	2014-04-03-10-55-39

@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-02-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1336493919.541968	CVHwab25gxJqrzpYa7	192.168.109.10	1030	66.7.221.11	80	1	GET	varak.ca	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	84883	200	OK	-	-	-	(empty)	-	-	-	-	-	F7sWIt2T7YEt2YTf5l	text/html
+1336493919.768476	Cvq0pG4uJz3V3mzI8a	192.168.109.10	1031	98.124.198.1	80	1	GET	csepros.com	/	http://varak.ca/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	182	302	Object moved	-	-	-	(empty)	-	-	-	-	-	FbWc3G28FA2Lp6Nq7g	text/html
+1336493919.768733	C0egOZ3A4qUyegKu0l	192.168.109.10	1032	66.7.221.11	80	1	GET	varak.ca	/index_files/image938.jpg	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	16888	200	OK	-	-	-	(empty)	-	-	-	-	-	F3vaca2gBYBBRNF8h3	image/jpeg
+1336493919.964523	CI9RAi3L2DBp3wdxj5	192.168.109.10	1035	98.124.198.1	80	1	GET	csepros.com	/	http://varak.ca/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	182	302	Object moved	-	-	-	(empty)	-	-	-	-	-	F53Ewb40vVJHQIx5ze	text/html
+1336493919.967917	Caveoi24PcZQiBc162	192.168.109.10	1034	66.7.221.11	80	1	GET	varak.ca	/index_files/image1081.jpg	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4705	200	OK	-	-	-	(empty)	-	-	-	-	-	FDoMa44KU2Z0KkO1fi	image/jpeg
+1336493920.079759	ClxcYC1p8Biqn1kAXh	192.168.109.10	1033	83.69.226.72	80	1	GET	thesavvymillionaire.com	/main.php?page=5e0cdb0ca7f86ed0	http://varak.ca/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	47766	200	OK	-	-	-	(empty)	-	-	-	-	-	FCFOtifAX3sYkXj7e	text/html
+1336493920.142952	CjF4rF2Vfa6xVqC6qg	192.168.109.10	1036	83.69.226.72	80	1	GET	thesavvymillionaire.com	/main.php?page=5e0cdb0ca7f86ed0	http://varak.ca/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	47766	200	OK	-	-	-	(empty)	-	-	-	-	-	Fm6Due3hPwWLly6lL5	text/html
+1336493922.863098	ClxcYC1p8Biqn1kAXh	192.168.109.10	1033	83.69.226.72	80	2	GET	thesavvymillionaire.com	/w.php?f=97d19&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	67072	200	OK	-	-	-	(empty)	-	-	-	-	-	FDHd4P1FkCUDXIiw4h	application/x-dosexec
+1336493923.782119	ClxcYC1p8Biqn1kAXh	192.168.109.10	1033	83.69.226.72	80	3	GET	thesavvymillionaire.com	/data/field.swf	http://varak.ca/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1499	200	OK	-	-	-	(empty)	-	-	-	-	-	F54zV42R5l29B6hZW6	application/x-shockwave-flash
+1336493923.616023	CjF4rF2Vfa6xVqC6qg	192.168.109.10	1036	83.69.226.72	80	2	GET	thesavvymillionaire.com	/data/ap2.php	http://thesavvymillionaire.com/main.php?page=5e0cdb0ca7f86ed0	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	32582	200	OK	-	-	-	(empty)	-	-	-	-	-	FGyLu21U2TDhRYx2Z1	application/pdf
+1336493928.641922	ClxcYC1p8Biqn1kAXh	192.168.109.10	1033	83.69.226.72	80	4	GET	thesavvymillionaire.com	/w.php?f=97d19&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1336493929.047829	ClxcYC1p8Biqn1kAXh	192.168.109.10	1033	83.69.226.72	80	5	GET	thesavvymillionaire.com	/data/ap2.php	http://thesavvymillionaire.com/main.php?page=5e0cdb0ca7f86ed0	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	32573	200	OK	-	-	-	(empty)	-	-	-	-	-	FOG87a4m6zXlvN09r7	application/pdf
+1336493938.741854	CjF4rF2Vfa6xVqC6qg	192.168.109.10	1036	83.69.226.72	80	3	GET	thesavvymillionaire.com	/data/score.swf	http://thesavvymillionaire.com/data/field.swf	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6972	200	OK	-	-	-	(empty)	-	-	-	-	-	FDuYBh3ikS1WaTAJWk	application/x-shockwave-flash
+1336493944.588187	CslLUQ2vNnPipWN7yf	192.168.109.10	1042	91.201.4.75	80	1	POST	palktikaljob.ru	/mtm/in/	-	Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)	109	302183	200	OK	-	-	-	(empty)	-	-	-	Fp41kW1RDnli8V7R0b	binary	FYq4Jq4kfEXmHGCUs6	binary
+1336493959.416534	CHZaWskgpk5HRQWpc	192.168.109.10	1043	91.201.4.75	80	1	POST	palktikaljob.ru	/mtm/in/	-	Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)	118	24	200	OK	-	-	-	(empty)	-	-	-	Fo4tt92ah8aEVnDyI3	binary	FrMUBh11pl5X8BcKg6	binary
+#close	2014-04-03-10-02-29

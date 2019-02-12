@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-27-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1344284648.622683	CigA1N2Qy936xcBfxg	192.168.43.10	1103	23.62.207.139	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=connect.facebook.net,ST=CALIFORNIA,OU=connect.facebook.net,O=Facebook,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1325623715.000000	1357246115.000000	-	-	-	2ae743fc530ecdbe75c5e60048cccccc	ok
+1344284651.28243	CZtSni2CzkhtXFgRz	192.168.43.10	1110	23.62.194.110	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=s-static.ak.facebook.com,ST=California,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1340068319.000000	1368334740.000000	-	-	-	9e5e608717b1f05d5ef57491557c1e52	ok
+1344284653.644051	CLrE1j4qvZ3HlOiGJ6	192.168.43.10	1113	199.7.48.231	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=seal.verisign.com,OU=Production Security Services Trust Seal Edge,O=VeriSign\, Inc.,L=Mountain View,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G2,OU=Terms of use at https://www.verisign.com/rpa (c)09,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1278478800.000000	1404709199.000000	-	-	-	496ae4785aae2d1f3a60fd29e6bc4f5b	ok
+1344284655.035961	CSqy50352maGh7Z3zi	192.168.43.10	1116	74.125.45.95	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleapis.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1340823515.000000	1370652207.000000	-	-	-	980b3c74df8c6f1bdc623f3b46111a3d	ok
+1344284655.124424	CdHS1j4H2HfuHIJhrf	192.168.43.10	1119	74.125.45.102	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1340823510.000000	1370652207.000000	-	-	-	f9c466004f94d919a26a19cb71a67764	ok
+#close	2014-04-03-10-27-11

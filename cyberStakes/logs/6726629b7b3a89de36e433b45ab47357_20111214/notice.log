@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-40-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1323895040.008234	CRmEaVbEaUn9hsTU7	192.168.119.10	1102	79.137.237.67	80	FT95OJVqI83Pi8zo8	application/x-dosexec	http://bzuotzgfwz.ns3.name/w.php?f=17&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2011-12-29 01:13:57	https://www.virustotal.com/en/search/?query=d3394e330478c09bc6dc4757f662a76e3004e384	192.168.119.10	79.137.237.67	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1323895053.654655	CRmEaVbEaUn9hsTU7	192.168.119.10	1102	79.137.237.67	80	FkxPNy4C5IsP4MPjwf	application/x-shockwave-flash	http://bzuotzgfwz.ns3.name/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 67%  Last seen: 2012-01-01 08:21:16	https://www.virustotal.com/en/search/?query=e04b910107cbb1c18fd2b4b4eb2fdcb7e0d03812	192.168.119.10	79.137.237.67	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1323895063.753183	CUT9YB2WAZHzd0dqhl	192.168.119.10	1107	74.77.207.154	80	F8ovIS3iPe6rUiZMLb	application/x-dosexec	http://qjmbifvcd.ce.ms/csrss.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2011-12-14 11:01:04	https://www.virustotal.com/en/search/?query=3dbb68fa6f8973c4171895f6a7b62324c8969bfd	192.168.119.10	74.77.207.154	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-40-53

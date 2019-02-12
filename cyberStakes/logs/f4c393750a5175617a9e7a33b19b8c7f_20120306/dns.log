@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-59-01
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1330995396.553042	CegxTI2aZyFzR1WGoh	192.168.96.10	1029	4.2.2.3	53	udp	53135	reb-ac.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.163.242.164	14372.000000	F
+1330995396.895999	CegxTI2aZyFzR1WGoh	192.168.96.10	1029	4.2.2.3	53	udp	49548	zead94mits.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.28.114.103	21600.000000	F
+1330995397.286722	CegxTI2aZyFzR1WGoh	192.168.96.10	1029	4.2.2.3	53	udp	6285	gssep81arated.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.28.114.103	21600.000000	F
+1330995397.681026	CegxTI2aZyFzR1WGoh	192.168.96.10	1029	4.2.2.3	53	udp	12429	secure-software-gvfgfdgb.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.120.208.219	28800.000000	F
+1330995398.252838	CegxTI2aZyFzR1WGoh	192.168.96.10	1029	4.2.2.3	53	udp	46221	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,192.204.3.42,192.204.3.10	17467.000000,300.000000,8823.000000,20.000000,20.000000	F
+#close	2014-04-03-09-59-01

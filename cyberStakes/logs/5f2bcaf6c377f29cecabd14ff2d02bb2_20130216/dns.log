@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-02-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1361015362.144119	CJVis83fvndhsIZXL6	192.168.28.10	1029	4.2.2.3	53	udp	50572	benefitforall.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.165.194.186	600.000000	F
+1361015362.40478	CJVis83fvndhsIZXL6	192.168.28.10	1029	4.2.2.3	53	udp	59276	balllever.amiaccessible.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	88.198.219.86	1800.000000	F
+1361015365.281177	CJVis83fvndhsIZXL6	192.168.28.10	1029	4.2.2.3	53	udp	3983	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,64.4.52.169	21.000000,300.000000	F
+1361015365.558991	CJVis83fvndhsIZXL6	192.168.28.10	1029	4.2.2.3	53	udp	41870	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	3600.000000,600.000000	F
+#close	2014-04-03-11-02-35

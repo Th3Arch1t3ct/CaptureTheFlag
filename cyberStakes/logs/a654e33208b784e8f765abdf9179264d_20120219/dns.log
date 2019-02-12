@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-46-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1329623303.123642	CVCqYx1htAdHIJUcMh	192.168.112.10	1029	4.2.2.3	53	udp	17805	st-bavoschool.nl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	83.172.150.12	43177.000000	F
+1329623303.771101	CVCqYx1htAdHIJUcMh	192.168.112.10	1029	4.2.2.3	53	udp	8335	storylootybuz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.190.98.79	3600.000000	F
+1329623322.435158	CCKFwevitHDpIB2jb	192.168.112.10	1029	4.2.2.3	53	udp	59534	tripslokabucks.su	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	220.195.24.9,217.24.246.7,217.162.224.66,218.12.4.254	300.000000,300.000000,300.000000,300.000000	F
+1329623324.055841	CCKFwevitHDpIB2jb	192.168.112.10	1029	4.2.2.3	53	udp	2953	stat.onestat.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.18.240.138	3263.000000	F
+1329623352.476382	C8yeNt2sc6N2dpaNt2	192.168.112.10	1029	4.2.2.3	53	udp	61064	wertubublersco.su	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	60.19.30.135,209.141.60.202,217.24.246.7,220.195.24.9	300.000000,300.000000,300.000000,300.000000	F
+#close	2014-04-03-10-46-54

@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-05-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1384291373.178026	CNORRK9MCCt7Ohgi7	192.168.18.10	1043	198.7.61.48	80	FGEErK2oiJsKxCTB12	application/x-dosexec	http://198.7.61.48/?bc2a67baf7d173def34c7916501261cc	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 68%  Last seen: 2014-03-21 03:25:31	https://www.virustotal.com/en/search/?query=bdb560448f8ef5afd46a072182620b8613a586a0	192.168.18.10	198.7.61.48	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-05-48

@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-07-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1328686624.023982	C7WD8M2skxNemniHA4	192.168.121.10	1029	4.2.2.3	53	udp	32141	kasiahaupt.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	108.60.15.132	10779.000000	F
+1328686624.334231	C7WD8M2skxNemniHA4	192.168.121.10	1029	4.2.2.3	53	udp	54668	dropshipperportal.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.124.198.1	3600.000000	F
+1328686624.394182	C7WD8M2skxNemniHA4	192.168.121.10	1029	4.2.2.3	53	udp	61070	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.65.100,74.125.65.101,74.125.65.102,74.125.65.113,74.125.65.138,74.125.65.139	35564.000000,92.000000,92.000000,92.000000,92.000000,92.000000,92.000000	F
+1328686624.430564	C7WD8M2skxNemniHA4	192.168.121.10	1029	4.2.2.3	53	udp	65166	qw.regionredbirds.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.135.132.62	3600.000000	F
+1328686640.242591	CrZ5Ax1SfhI2m4hXCk	192.168.121.10	1029	4.2.2.3	53	udp	58248	chintoe.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.24.246.7,12.133.182.141,209.141.60.202,210.212.58.161	300.000000,300.000000,300.000000,300.000000	F
+1328686670.324051	CoEvUbd5XkZmhREWe	192.168.121.10	1029	4.2.2.3	53	udp	30859	blingcar.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	12.133.182.141,209.141.60.202,210.212.58.161,217.24.246.7	300.000000,300.000000,300.000000,300.000000	F
+1328686671.404325	CoEvUbd5XkZmhREWe	192.168.121.10	1029	4.2.2.3	53	udp	31882	amosindustries.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.220.219.52	2030.000000	F
+#close	2014-04-03-11-07-30

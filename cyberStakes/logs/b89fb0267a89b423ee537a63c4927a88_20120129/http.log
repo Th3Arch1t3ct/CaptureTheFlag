@@ -1,0 +1,33 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-54-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1327811075.972841	CCGVUi4VqaycfIV8Fc	192.168.103.10	1030	208.64.123.45	80	1	GET	1v48ulqq6xk0dq.xm3.me	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	178	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	F6uoqK3Ymy5AUoIjP5	text/html
+1327811076.181582	CRvZu2wsNRJHPXI3l	192.168.103.10	1031	64.34.154.74	80	1	GET	fasttrackonlinesurveys.com	/d/traf2.com	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	225	302	Found	-	-	-	(empty)	-	-	-	-	-	FHg2pN13GqhAqARLe4	text/html
+1327811076.265438	CDpLFQ1e5d6CXlfLW	192.168.103.10	1032	64.34.154.74	80	1	GET	leaked.private-videos-taken.com	/d/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1737	200	OK	-	-	-	(empty)	-	-	-	-	-	FQ0e350PN0B5T8Ebk	text/html
+1327811076.383491	CYfVFP2zBUfAoA7lq9	192.168.103.10	1033	209.17.74.150	80	1	GET	i35.tinypic.com	/n4ts0p.png	http://leaked.private-videos-taken.com/d/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	97370	200	OK	-	-	-	(empty)	-	-	-	-	-	F62GZ61NnZ0euUxgkc	image/png
+1327811076.708788	CIAXDC4OGe0GaDw09k	192.168.103.10	1034	64.34.154.74	80	1	GET	i.d2f3.com	/oops/index.php?e9cb9458b4b97866bf6dfbbc558dfc77	http://leaked.private-videos-taken.com/d/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	43975	200	OK	-	-	-	(empty)	-	-	-	-	-	FUMUbec7bXF5tIfeb	text/html
+1327811078.591818	C39RKf2foizT251q3c	192.168.103.10	1035	64.34.154.74	80	1	GET	i.d2f3.com	/oops/server_privileges.php?6e973055ca2c946ef80a7baf6229c188=1	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	315392	200	OK	-	-	-	(empty)	-	-	-	-	-	FyBhtyRvweO0sfCpi	application/x-dosexec
+1327811080.35736	CGfSqa4srh4ChyfcN1	192.168.103.10	1040	65.39.172.126	80	1	GET	network.stripthere.com	/mars/iLog.php?dl=5.9&log=Loader: 507^BB	-	IE7.0	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1327811080.556982	C7zkbcqIvdLjV7hH8	192.168.103.10	1043	64.34.154.74	80	1	GET	i.d2f3.com	/oops/images/938a99f1be85e19406438f9a572fdf71.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5380	200	OK	-	-	-	(empty)	-	-	-	-	-	FDexvA2tOajcMLej52	application/jar
+1327811080.5594	CNLc9Z1io6KHFYNfjd	192.168.103.10	1042	64.34.154.74	80	1	GET	leaked.private-videos-taken.com	/Java.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	2755	200	OK	-	-	-	(empty)	-	-	-	-	-	FjETpH3ymRCm3nrDI8	application/zip
+1327811080.561852	CMTFmr2ncb9FRM4PMl	192.168.103.10	1041	64.34.154.74	80	1	GET	i.d2f3.com	/oops/images/r/938a99f1be85e19406438f9a572fdf71.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	2909	200	OK	-	-	-	(empty)	-	-	-	-	-	Fv6p1123Ij7evslETg	application/jar
+1327811080.716602	CmIN9u4byuQDLjsHi	192.168.103.10	1044	64.34.154.74	80	1	GET	i.d2f3.com	/oops/images/r/938a99f1be85e19406438f9a572fdf71.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	2909	200	OK	-	-	-	(empty)	-	-	-	-	-	FTV6Ud4imcGBefd6U7	application/jar
+1327811080.840549	CGZcZF2SPr2Uo2Gskc	192.168.103.10	1045	64.34.154.74	80	1	GET	i.d2f3.com	/oops/images/938a99f1be85e19406438f9a572fdf71.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5380	200	OK	-	-	-	(empty)	-	-	-	-	-	FiKnNz32H2P9zycu0h	application/jar
+1327811081.008598	CEXvgyfbvWYgeEW1k	192.168.103.10	1046	64.34.154.74	80	1	GET	i.d2f3.com	/oops/images/r/938a99f1be85e19406438f9a572fdf71.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	2909	200	OK	-	-	-	(empty)	-	-	-	-	-	FJrIJb1eH0tcNxwuVd	application/jar
+1327811081.409432	CqnSfd2NKfLwwC7VY1	192.168.103.10	1047	64.34.154.74	80	1	GET	i.d2f3.com	/oops/images/938a99f1be85e19406438f9a572fdf71.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5380	200	OK	-	-	-	(empty)	-	-	-	-	-	FRmHh33mZhRKuSPN77	application/jar
+1327811081.420574	CHK8Ss2CjubNvJs3M9	192.168.103.10	1048	64.34.154.74	80	1	GET	i.d2f3.com	/oops/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	225	302	Found	-	-	-	(empty)	-	-	-	-	-	F4ajBu2vbNRQWQkZ1f	text/html
+1327811081.510886	CRypN64fHYgmoN4m8d	192.168.103.10	1049	64.34.154.74	80	1	GET	leaked.private-videos-taken.com	/d/	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	1737	200	OK	-	-	-	(empty)	-	-	-	-	-	FYJlR021M1gPD3cQyd	text/html
+1327811081.601662	C0rIB22izgAf3hst2	192.168.103.10	1051	64.34.154.74	80	1	GET	i.d2f3.com	/oops/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	225	302	Found	-	-	-	(empty)	-	-	-	-	-	FOY7LR1UeR1HEBPzF6	text/html
+1327811081.707001	CDDovF2l6xTWiiOQO8	192.168.103.10	1052	64.34.154.74	80	1	GET	leaked.private-videos-taken.com	/d/	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	1739	200	OK	-	-	-	(empty)	-	-	-	-	-	FJXMyD3lvTC3AAFju1	text/html
+1327811082.087601	C170uw4W0e6KzG5aoj	192.168.103.10	1053	64.34.154.74	80	1	GET	i.d2f3.com	/oops/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	225	302	Found	-	-	-	(empty)	-	-	-	-	-	FT8jeG1cVmrddGitFc	text/html
+1327811082.174277	CQ3SD327a0bDY4h2Bb	192.168.103.10	1054	64.34.154.74	80	1	GET	leaked.private-videos-taken.com	/d/	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	1739	200	OK	-	-	-	(empty)	-	-	-	-	-	FrPqq94VL29WsKqUg8	text/html
+1327811081.591346	CI4dzaIGyiTqVu4Pl	192.168.103.10	1050	64.34.154.74	80	1	GET	i.d2f3.com	/oops/server_privileges.php?6e973055ca2c946ef80a7baf6229c188=2	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	315392	200	OK	-	-	-	(empty)	-	-	-	-	-	FzU0P63DLuTiXomi82	application/x-dosexec
+1327811082.267615	CEiKIphNOguNxYMpa	192.168.103.10	1055	64.34.154.74	80	1	GET	i.d2f3.com	/oops/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	225	302	Found	-	-	-	(empty)	-	-	-	-	-	FTU1vi3eoHU2riflAi	text/html
+1327811082.359081	CvCNpg4IHkfnLMrjI2	192.168.103.10	1056	64.34.154.74	80	1	GET	leaked.private-videos-taken.com	/d/	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	1739	200	OK	-	-	-	(empty)	-	-	-	-	-	FivCp82acaqJNHVgwa	text/html
+1327811082.847895	CVsDqB2ZnUpSvB6ibl	192.168.103.10	1057	64.34.154.74	80	1	GET	i.d2f3.com	/oops/server_privileges.php?6e973055ca2c946ef80a7baf6229c188=3	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	315392	200	OK	-	-	-	(empty)	-	-	-	-	-	FyIMn920DQWFqT17nb	application/x-dosexec
+#close	2014-04-03-10-54-24

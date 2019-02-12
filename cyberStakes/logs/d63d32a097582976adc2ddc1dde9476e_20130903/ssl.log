@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-51-51
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1378196374.75435	CrGmWM3WCYxYz7oqI1	192.168.16.10	1051	74.125.224.102	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1376538013.000000	1408074013.000000	-	-	-	04a2f65d53517539bcfe0fe8105edccb	ok
+1378196377.473713	CBD0Dp1gbyk3IBMFnc	192.168.16.10	1057	74.125.224.175	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1376534899.000000	1408070899.000000	-	-	-	4e7dcc82199d954770b0c9618443f586	ok
+1378196377.7855	CEyY5y9JRrnEhSDS5	192.168.16.10	1058	74.125.28.84	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=accounts.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1376535373.000000	1408071373.000000	-	-	-	372f0f6e17c2fd371e0d94124c50d219	ok
+1378196378.259617	CZfucI3LyuU6bGTY12	192.168.16.10	1059	74.125.224.102	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	15d836ea05062cdbba779cdbd27143c872b6c4a03e4adb4e2257c18ba655fafa	-	-	-	-	-	-	-	-	-
+1378196378.334756	Cw0znO25SbVUaz8SV	192.168.16.10	1060	74.125.224.106	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1376536658.000000	1408072658.000000	-	-	-	e9cb7a1b46b152121cad7552afb52e8a	ok
+#close	2014-04-03-10-51-51

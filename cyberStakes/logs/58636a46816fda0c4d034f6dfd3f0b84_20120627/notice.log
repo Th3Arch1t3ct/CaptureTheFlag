@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-01-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1340817148.675773	C0OWje1nXU4o7Vbat5	192.168.86.10	1040	65.60.2.154	80	Fwq3FX3tN72hT5LH0k	application/x-dosexec	http://neofoxshops.net/sys/w.php?f=f424f&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 21%  Last seen: 2012-07-02 10:14:24	https://www.virustotal.com/en/search/?query=070e41dfc72e87f734d05c55ff982004fd7ca74d	192.168.86.10	65.60.2.154	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1340817148.705872	CkQDzgljW0BVLXPD8	192.168.86.10	1041	65.60.2.154	80	F7REZU3MZlsG1Rg44	application/x-shockwave-flash	http://neofoxshops.net/sys/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 50%  Last seen: 2012-07-01 09:24:37	https://www.virustotal.com/en/search/?query=1f5c1f1302e0b5c1dffc7b150bf26cfff6cc3b43	192.168.86.10	65.60.2.154	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-01-13

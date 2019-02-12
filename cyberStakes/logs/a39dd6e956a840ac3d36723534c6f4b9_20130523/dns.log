@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-05-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1369321789.752008	CLGKZS2aqgnWO8Lji	192.168.13.10	1029	4.2.2.3	53	udp	8843	www.qinglongdk.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	gjserver7.kalegou.com,61.153.104.126	3600.000000,600.000000	F
+1369321795.605631	CLGKZS2aqgnWO8Lji	192.168.13.10	1029	4.2.2.3	53	udp	30091	www.download.windowsupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.download.windowsupdate.nsatc.net,main.dl.wu.akadns.net,dom.dl.wu.akadns.net,dl.wu.ms.edgesuite.net,a26.d.akamai.net,23.67.61.202,23.67.61.186,23.67.61.193,23.67.61.184,23.67.61.194,23.67.61.162,23.67.61.146	2824.000000,42.000000,60.000000,212.000000,4905.000000,12.000000,12.000000,12.000000,12.000000,12.000000,12.000000,12.000000	F
+1369321795.678303	CLGKZS2aqgnWO8Lji	192.168.13.10	1029	4.2.2.3	53	udp	63371	crl.startssl.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.startssl.com.edgesuite.net,a1603.g1.akamai.net,107.14.43.162,107.14.43.146	63292.000000,20263.000000,20.000000,20.000000	F
+1369321795.756845	CLGKZS2aqgnWO8Lji	192.168.13.10	1029	4.2.2.3	53	udp	43146	crls.wosign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	122.152.175.8,123.125.161.216	300.000000,300.000000	F
+#close	2014-04-03-10-05-50

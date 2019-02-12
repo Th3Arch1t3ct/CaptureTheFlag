@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-12-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1316556138.786397	Cx4AYU2KVg8zrwilOa	192.168.108.10	1029	4.2.2.3	53	udp	54415	blackkingcasino.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.75.215.27	13999.000000	F
+1316556140.153728	CDP1S530Y3HRolrt4h	192.168.108.10	1029	4.2.2.5	53	udp	33679	asianssextube.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.170.147.6	3600.000000	F
+1316556139.146982	Cx4AYU2KVg8zrwilOa	192.168.108.10	1029	4.2.2.3	53	udp	33679	asianssextube.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+#close	2014-04-03-11-12-32

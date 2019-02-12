@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-08-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1379381873.650472	CdG3IF1YNOQf1tR7H1	192.168.23.10	1031	192.185.5.140	80	1	GET	narutoshippudenenglishdub.com	/	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	24840	200	OK	-	-	-	(empty)	-	-	-	-	-	FHQCWI3wmwzXx94Vla	text/html
+1379381874.639712	CdG3IF1YNOQf1tR7H1	192.168.23.10	1031	192.185.5.140	80	2	GET	narutoshippudenenglishdub.com	/wp-content/themes/twentyeleven/js/html5.js	http://narutoshippudenenglishdub.com/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	2436	200	OK	-	-	-	(empty)	-	-	-	-	-	FcrmnF4f4ZnxT9ilfk	text/html
+1379381875.917625	CUkZF718hbwKHsdRx	192.168.23.10	1037	107.23.222.212	80	1	GET	track.cmllk1.info	/aff_c?offer_id=18&aff_id=7106	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	270	302	Found	-	-	-	(empty)	-	-	-	-	-	FqLXmbeTInxt0Je93	text/html
+1379381876.535104	CcG7BjsVyK73j1YK9	192.168.23.10	1038	98.129.229.201	80	1	GET	www.cml1234.com	/downloadprem.php?tn=102c08c8c2e7d520c040e2a4bd5e89&aff=7106	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	2	302	Found	-	-	-	(empty)	-	-	-	-	-	F0XybO1fpQlRhMWsSc	text/plain
+1379381876.865005	CDp0DS1JqCyMI1aU28	192.168.23.10	1039	66.77.96.140	80	1	GET	dl.installiq.com	/download/downloadpop.aspx?shortname=vioplayer2&a=13749&f=vioplayersearch-7106	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	247	302	Found	-	-	-	(empty)	-	-	-	-	-	FJssGg2TnQcpxvTp8b	text/html
+1379381876.932216	CDp0DS1JqCyMI1aU28	192.168.23.10	1039	66.77.96.140	80	2	GET	dl.installiq.com	/download/getdynamicpath.aspx?shortname=vioplayer2&a=13749&f=vioplayersearch-7106&VersionId=-1&key=standarddefault	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	200	302	Found	-	-	-	(empty)	-	-	-	-	-	FPbPNO2NdIFVhQ8mLa	text/html
+1379381877.124282	CjtxKm1hydiRo4m7d6	192.168.23.10	1040	208.111.148.7	80	1	GET	dl7.iq8download.com	/dynamic/standard/standarddefault/vioplayer2_d3993199.exe	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	94300	200	OK	-	-	-	(empty)	-	-	-	-	-	FThiOQ1ox38E8JD7s2	application/x-dosexec
+1379381874.671864	Cx4ZfKlwbKtfftUC3	192.168.23.10	1036	192.185.5.140	80	1	GET	narutoshippudenenglishdub.com	/wp-content/themes/twentyeleven/style.css	http://narutoshippudenenglishdub.com/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-10-08-25

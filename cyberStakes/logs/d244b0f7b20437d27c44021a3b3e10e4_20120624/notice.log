@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-35-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1340526864.970476	Cq3hgd8K7FHCfcmT4	192.168.107.10	1036	178.162.167.136	80	FsElc6cx6rmbAkx2b	application/x-dosexec	http://178.162.167.136/2.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 89%  Last seen: 2014-01-03 16:41:14	https://www.virustotal.com/en/search/?query=2c9d98d26d95fde90c3936c398f8810e9f1c4e55	192.168.107.10	178.162.167.136	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1340526878.308137	COFTfrYOpimzMmgLf	192.168.107.10	1041	178.162.167.136	80	FY6Gy14D5sCsHx38s6	application/x-dosexec	http://178.162.167.136/1.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 89%  Last seen: 2014-01-03 16:41:14	https://www.virustotal.com/en/search/?query=2c9d98d26d95fde90c3936c398f8810e9f1c4e55	192.168.107.10	178.162.167.136	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1340526901.2414	C9n7eQ3abl4UpUIIrj	192.168.107.10	1075	195.210.47.239	80	FK93Jk3N73e0jGg6u6	application/x-dosexec	http://ferfis.ipq.co/f/it1.exe?ts=11bfdfd6&affid=5630	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2012-07-03 07:06:17	https://www.virustotal.com/en/search/?query=c765fbfda0ee9b528e7d550eb2cd9ce2c28772a7	192.168.107.10	195.210.47.239	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-35-14

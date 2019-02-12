@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-01-57
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1394309441.256056	CHxx681WLXLR9HjAi	192.168.36.10	1036	91.184.11.19	80	1	GET	whitesource.nl	/	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	3072	200	OK	-	-	-	(empty)	-	-	-	-	-	FaE9u5LjAKm1iBwBc	text/html
+1394309441.445541	CHxx681WLXLR9HjAi	192.168.36.10	1036	91.184.11.19	80	2	GET	whitesource.nl	/css/styles.css	http://whitesource.nl/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	2437	200	OK	-	-	-	(empty)	-	-	-	-	-	FFa6E03anvtBfH2UE7	text/x-asm
+1394309441.736684	CHxx681WLXLR9HjAi	192.168.36.10	1036	91.184.11.19	80	3	GET	whitesource.nl	/resources/images/modules/FlashIntro/flash.swf?code=Flash1	http://whitesource.nl/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	157222	200	OK	-	-	-	(empty)	-	-	-	-	-	F5WSNJPTtf5yDxja	application/x-shockwave-flash
+1394309441.957601	CMTYmT3KEntKm5bIY3	192.168.36.10	1037	85.214.29.126	80	1	GET	paparazzi-fotograaf.nl	/relay.php?id=4576109	http://whitesource.nl/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	109493	200	OK	-	-	-	(empty)	-	-	-	-	-	Fwra8F2PP55WI9GIBk	text/plain
+1394309443.681403	CcGCpD6Cl09pMvhIc	192.168.36.10	1038	23.62.228.51	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	1382	200	OK	-	-	-	(empty)	-	-	-	-	-	FwpIwD18Rqy4pvGGz9	text/plain
+1394309443.685336	CHxx681WLXLR9HjAi	192.168.36.10	1036	91.184.11.19	80	4	GET	whitesource.nl	/favicon.ico	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	209	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FT9oF8BMH1EKRHqc2	text/html
+1394309444.691743	C3jqGN21KAr3KKtKq8	192.168.36.10	1039	212.172.221.16	80	1	GET	fcschwand-fussballabteilung.de	/427965556.php?tiny_byte=8DFDCBC7AF&previous-notes=i	http://whitesource.nl/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	44593	200	OK	-	-	-	(empty)	-	-	-	-	-	FES4Ax2WozsZx5ZAD6	text/html
+1394309447.325624	C1RT7r2NTQJvgoctYa	192.168.36.10	1043	212.172.221.16	80	1	GET	fcschwand-fussballabteilung.de	/2340.mp3	-	Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)	0	377856	200	OK	-	-	-	(empty)	-	-	-	-	-	FrNaWK3TysReRMBay2	binary
+1394309455.155175	CT1hP62R7AYODt5NXg	192.168.36.10	1044	212.172.221.16	80	1	GET	fcschwand-fussballabteilung.de	/proxies/4/rar/jsupdater.jnlp	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	811	200	OK	-	-	-	(empty)	-	-	-	-	-	F1fugzkJ9XceHJvW6	application/xml
+1394309455.946343	CKHlKG3GPcWmTzpnr4	192.168.36.10	1045	212.172.221.16	80	1	GET	fcschwand-fussballabteilung.de	/proxies/4/rar/jsupdater.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	9109	200	OK	-	-	-	(empty)	-	-	-	-	-	FNKHWv2qFHCOOe33P3	application/jar
+1394309457.687489	CQtbU91ivMIgAohDej	192.168.36.10	1046	212.172.221.16	80	1	GET	fcschwand-fussballabteilung.de	/proxies/4/rar/083519.mp3	-	Java/1.6.0_10	0	114688	200	OK	-	-	-	(empty)	-	-	-	-	-	FPqcmp4fcUh9KEwe22	binary
+1394309459.917396	CbbDXk4xlAwy7P24U1	192.168.36.10	1047	193.105.210.115	80	1	GET	get-smokers.com	/b/shoe/54676	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 4.0.3219)	0	161	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FE0jQx3VThlh4udF3i	text/html
+1394309460.515497	CDotnuTKyjsenhyNe	192.168.36.10	1048	193.105.210.115	80	1	GET	get-smokers.com	/b/shoe/54676	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 4.0.3219)	0	161	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FmE5okYeQNEMEUV09	text/html
+1394309461.139148	CGwJiW2SlN1r8OFtK7	192.168.36.10	1049	109.163.239.243	80	1	GET	bmw-serviceclub.com	/libp3/jquery/	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 4.0.3219)	0	192512	200	OK	-	-	-	(empty)	-	-	-	-	-	FUUdEw1Tuh4u5mcddf	application/x-dosexec
+#close	2014-04-03-10-01-57

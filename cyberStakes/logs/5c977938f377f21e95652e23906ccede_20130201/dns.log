@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-04-03
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1359752498.920665	CLNDBz4pEOAI0sxzsc	192.168.110.10	1029	4.2.2.3	53	udp	34450	mikaelasptjallden.se	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	212.97.132.158	86400.000000	F
+1359752515.817312	CvYtgm2xgFrfUmNQo8	192.168.110.10	1029	4.2.2.3	53	udp	56722	a-cleanuptoanime.br.ms	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.138.88.212	3600.000000	F
+1359752516.512957	CvYtgm2xgFrfUmNQo8	192.168.110.10	1029	4.2.2.3	53	udp	44433	verassureerdesuppliez.fuelcube.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.139.52.29	1800.000000	F
+1359752517.824602	CvYtgm2xgFrfUmNQo8	192.168.110.10	1029	4.2.2.3	53	udp	29840	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,64.4.52.169	1906.000000,300.000000	F
+1359752518.093679	CvYtgm2xgFrfUmNQo8	192.168.110.10	1029	4.2.2.3	53	udp	20119	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	2351.000000,180.000000	F
+1359752525.963304	CvYtgm2xgFrfUmNQo8	192.168.110.10	1029	4.2.2.3	53	udp	44693	29.52.139.37.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	37-139-52-29.mrhost.biz	14400.000000	F
+1359752526.35449	CvYtgm2xgFrfUmNQo8	192.168.110.10	1029	4.2.2.3	53	udp	44948	37-139-52-29.mrhost.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.139.52.29	14400.000000	F
+1359752558.454785	C5mAzGD5gwta5UWE6	192.168.110.10	1029	4.2.2.3	53	udp	17563	swupmf.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	swupmf.wip4.adobe.com,swupmf.adobe.com.edgesuite.net,a1137.g.akamai.net,24.143.197.50,24.143.197.18	5001.000000,600.000000,16843.000000,20.000000,20.000000	F
+1359752558.533105	C5mAzGD5gwta5UWE6	192.168.110.10	1029	4.2.2.3	53	udp	24987	crl.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.wip4.adobe.com,crl.adobe.com.edgesuite.net,a1180.g.akamai.net,24.143.197.9,24.143.197.32	5222.000000,300.000000,12585.000000,20.000000,20.000000	F
+1359752561.040396	C5mAzGD5gwta5UWE6	192.168.110.10	1029	4.2.2.3	53	udp	41370	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.d.akamai.net,69.31.72.120,69.31.72.90	17581.000000,138.000000,19878.000000,5.000000,5.000000	F
+#close	2014-04-03-10-04-03

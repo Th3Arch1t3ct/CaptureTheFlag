@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-57-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1338416648.438874	CTrNBu3SycMXba2Aa	192.168.88.10	1029	4.2.2.3	53	udp	9867	meta-tv.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.109.23.206	3579.000000	F
+1338416648.810756	CTrNBu3SycMXba2Aa	192.168.88.10	1029	4.2.2.3	53	udp	38794	qwerttioloa.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.170.52.30,93.170.52.20	300.000000,300.000000	F
+1338416648.931787	CTrNBu3SycMXba2Aa	192.168.88.10	1029	4.2.2.3	53	udp	33417	traaf.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	158.255.215.154	38400.000000	F
+1338416652.308905	CTrNBu3SycMXba2Aa	192.168.88.10	1029	4.2.2.3	53	udp	31881	domain.dot.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	webapp.dot.tk,93.170.52.50	300.000000,300.000000	F
+1338416653.67407	CTrNBu3SycMXba2Aa	192.168.88.10	1029	4.2.2.3	53	udp	17295	cdn.dot.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	d36uhrd35ikbgc.cloudfront.net,216.137.47.65,216.137.47.118,216.137.47.165,216.137.47.196,216.137.47.219,216.137.47.228,216.137.47.243,216.137.47.11	300.000000,60.000000,60.000000,60.000000,60.000000,60.000000,60.000000,60.000000,60.000000	F
+#close	2014-04-03-09-57-10

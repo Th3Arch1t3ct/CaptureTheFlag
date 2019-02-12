@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-09-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1331413230.884346	CvOnjmf56oZHmQtM8	192.168.64.10	1029	4.2.2.3	53	udp	56716	medpharma.com.gt	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.236.181.207	14377.000000	F
+1331413231.01687	CvOnjmf56oZHmQtM8	192.168.64.10	1029	4.2.2.3	53	udp	22924	www.medpharma.com.gt	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.236.181.207	14376.000000	F
+1331413231.634397	CvOnjmf56oZHmQtM8	192.168.64.10	1029	4.2.2.3	53	udp	17037	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.45.100,74.125.45.101,74.125.45.102,74.125.45.113,74.125.45.138,74.125.45.139	30596.000000,98.000000,98.000000,98.000000,98.000000,98.000000,98.000000	F
+1331413232.877251	CvOnjmf56oZHmQtM8	192.168.64.10	1029	4.2.2.3	53	udp	17549	sweepstakesandcontestsdo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.28.114.103	35174.000000	F
+1331413233.232485	CvOnjmf56oZHmQtM8	192.168.64.10	1029	4.2.2.3	53	udp	9614	orksp44erfor.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.28.114.103	21386.000000	F
+1331413233.612689	CvOnjmf56oZHmQtM8	192.168.64.10	1029	4.2.2.3	53	udp	13711	www4.safearmyny.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.157.82.19	600.000000	F
+1331413234.454521	CvOnjmf56oZHmQtM8	192.168.64.10	1029	4.2.2.3	53	udp	62856	www2.topcqholder.net.tf	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.23.8.121	3600.000000	F
+1331413264.463875	CQ3v3LsM1vNRMd1X7	192.168.64.10	1029	4.2.2.3	53	udp	47752	www2.personalionetwork.25u.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.142.217	31.000000	F
+#close	2014-04-03-11-09-00

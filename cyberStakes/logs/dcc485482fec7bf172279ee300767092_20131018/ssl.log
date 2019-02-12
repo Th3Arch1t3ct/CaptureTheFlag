@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-04-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1382065646.715871	Crhtbt4mC13aNOQHi4	192.168.81.10	1075	74.125.224.57	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.g.doubleclick.net,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1380139946.000000	1411675946.000000	-	-	-	cd7c189f5818f3a57394c2e72fad52c3	ok
+1382065646.809733	CiR1Nx4Y2dF90sSzKj	192.168.81.10	1076	74.125.224.57	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	553f5d390dcb9670bebd23ab21c8ea4dfeaca384b2e6e8467cb65530f9baa43a	-	-	-	-	-	-	-	-	-
+1382065647.002736	CYlSdOyAsH1neMB5k	192.168.81.10	1077	74.125.224.57	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	553f5d390dcb9670bebd23ab21c8ea4dfeaca384b2e6e8467cb65530f9baa43a	-	-	-	-	-	-	-	-	-
+1382065692.847881	CqCgpi2YD9ZGwtub5g	192.168.81.10	1121	54.243.202.103	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.truste.com,O=True Ultimate Standards Everywhere\, Inc.,L=San Francisco,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1327298400.000000	1422079199.000000	-	-	-	75c6308ffb77ea6550ef41d826eeeeee	ok
+1382065722.437152	CSz2KR2QojnjlVJPG8	192.168.81.10	1144	54.243.202.103	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	3b10e89d2bfddb290ff44c173834f2a94a62aa3e502ef679472dbf78fa83988e	-	-	-	-	-	-	-	-	-
+1382065722.43574	CzfwLc3i4ZoGbQY129	192.168.81.10	1145	54.243.202.103	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	3b10e89d2bfddb290ff44c173834f2a94a62aa3e502ef679472dbf78fa83988e	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-04-50

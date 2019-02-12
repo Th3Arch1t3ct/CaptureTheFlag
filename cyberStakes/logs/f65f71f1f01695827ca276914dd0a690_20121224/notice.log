@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-18-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1356391182.409824	CQc5w01X3B2S4w2x85	192.168.67.10	1124	91.201.215.173	80	FsOIjgDMNlrnVTo0h	application/x-dosexec	http://penetraterarest.pro/ACOT7902Bsg0Uogq0VJuV013rE0pgbJ0Rg7T06Xbv0RM9Q0u1QN0VVax16vfp10iI00KSxv0r6Xu036uA0JuuZ0UBfW0A3W800T7W0iAkX0Z46b0Qrn30T8BO08bng0cA17031II0M62Y0gwyg06aKq06mQA0BSsZ0NTcj0f7bC03ANP0WtIS0oCoe0lWPt10EIW0GxMI09bsn/getmyfile.exe?o=1&h=11	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2012-12-23 05:16:02	https://www.virustotal.com/en/search/?query=bf58f206a978fc90fb020a0e970e30e640db536e	192.168.67.10	91.201.215.173	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-18-53

@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-57-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1357168976.053721	CejHgs1Ln8CCq351sk	192.168.68.10	1029	4.2.2.3	53	udp	17805	13280.janeislutuj.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	janeislutuj.tk,93.170.52.21,93.170.52.31	300.000000,300.000000,300.000000	F
+1357168976.589946	CejHgs1Ln8CCq351sk	192.168.68.10	1029	4.2.2.3	53	udp	17292	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,173.194.37.134,173.194.37.137,173.194.37.136,173.194.37.133,173.194.37.131,173.194.37.129,173.194.37.132,173.194.37.142,173.194.37.128,173.194.37.135,173.194.37.130	66429.000000,38.000000,38.000000,38.000000,38.000000,38.000000,38.000000,38.000000,38.000000,38.000000,38.000000,38.000000	F
+1357168976.599949	CejHgs1Ln8CCq351sk	192.168.68.10	1029	4.2.2.3	53	udp	43150	pvtfmp.altoest.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	urlforward.topdns.com,72.8.167.249,199.59.160.184	3600.000000,2143.000000,2143.000000	F
+1357168980.306409	CejHgs1Ln8CCq351sk	192.168.68.10	1029	4.2.2.3	53	udp	18062	fbstatic-a.akamaihd.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fbstatic-a.akamaihd.net.edgesuite.net,a1168.dsw4.akamai.net,107.14.43.208,107.14.43.187	269.000000,261.000000,19.000000,19.000000	F
+#close	2014-04-03-10-57-00

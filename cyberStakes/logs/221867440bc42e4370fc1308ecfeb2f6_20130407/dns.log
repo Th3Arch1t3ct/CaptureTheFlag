@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-59-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1365370914.340433	CvjZ0V2VT2eK48QEAd	192.168.111.10	1029	4.2.2.3	53	udp	17807	nhverhuur.nl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.75.244.128	277.000000	F
+1365370915.760326	CvjZ0V2VT2eK48QEAd	192.168.111.10	1029	4.2.2.3	53	udp	34700	www.hegemanmaterieelverhuur.nl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	hegemanmaterieelverhuur.nl,62.75.244.128	59.000000,60.000000	F
+1365370942.27116	C5yYjR2UkFDXvvQ1ud	192.168.111.10	1029	4.2.2.3	53	udp	32909	forbiddenz.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	108.162.198.39,108.162.199.39	300.000000,300.000000	F
+1365370942.542572	C5yYjR2UkFDXvvQ1ud	192.168.111.10	1029	4.2.2.3	53	udp	63885	wickedink.com.au	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.255.206.25	86400.000000	F
+1365370944.393504	C5yYjR2UkFDXvvQ1ud	192.168.111.10	1029	4.2.2.3	53	udp	18826	f3e29191.linkbucks.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	lex-in.linkbucks.com,199.59.167.109	150.000000,300.000000	F
+1365370944.715731	C5yYjR2UkFDXvvQ1ud	192.168.111.10	1029	4.2.2.3	53	udp	13192	static.linkbucks.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wac.45ee.edgecastcdn.net,gs1.wac.v4cdn.net,93.184.216.169	60.000000,1941.000000,635.000000	F
+1365370944.959559	C5yYjR2UkFDXvvQ1ud	192.168.111.10	1029	4.2.2.3	53	udp	49544	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.140.138,74.125.140.101,74.125.140.113,74.125.140.100,74.125.140.139,74.125.140.102	6662.000000,248.000000,248.000000,248.000000,248.000000,248.000000,248.000000	F
+1365370944.972548	C5yYjR2UkFDXvvQ1ud	192.168.111.10	1029	4.2.2.3	53	udp	59017	www.linkbucksmedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.59.167.109	300.000000	F
+1365370945.19323	C5yYjR2UkFDXvvQ1ud	192.168.111.10	1029	4.2.2.3	53	udp	19335	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.d.akamai.net,23.67.61.114,23.67.61.131	4465.000000,154.000000,10962.000000,8.000000,8.000000	F
+1365370945.20196	C5yYjR2UkFDXvvQ1ud	192.168.111.10	1029	4.2.2.3	53	udp	12165	www.down1oads.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	down1oads.com,78.138.127.87	877.000000,877.000000	F
+1365370945.499478	C5yYjR2UkFDXvvQ1ud	192.168.111.10	1029	4.2.2.3	53	udp	52357	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.140.95	1454.000000,43.000000	F
+1365370952.644722	C5yYjR2UkFDXvvQ1ud	192.168.111.10	1029	4.2.2.3	53	udp	50053	download.softiglu.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.138.127.87	1800.000000	F
+1365370953.030211	C5yYjR2UkFDXvvQ1ud	192.168.111.10	1029	4.2.2.3	53	udp	44675	static.bicdn.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	download.betterinstaller.com,betterinstaller.com,78.138.97.8	600.000000,600.000000,600.000000	F
+#close	2014-04-03-10-59-44

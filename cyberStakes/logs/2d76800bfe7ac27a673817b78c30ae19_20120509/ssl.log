@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-24-41
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1336547520.980597	CGCebO2bEB0ICYnGLi	192.168.51.10	1046	74.125.137.105	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=www.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Thawte SGC CA,O=Thawte Consulting (Pty) Ltd.,C=ZA	1319605200.000000	1380603599.000000	-	-	-	7d7c837f0a8d7508388b555552380c25	ok
+1336547521.401012	CgNTIG22O0tNr9bdXh	192.168.51.10	1052	74.125.137.105	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	43e88f115fcdd89f8971c8fed3c15b82cfa35e871fcb7f59c2ef1aa75c2b3624	-	-	-	-	-	-	-	-	-
+1336547521.744125	CGo7zf1y0QXkrVYHE	192.168.51.10	1057	74.125.45.139	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1334908638.000000	1366445238.000000	-	-	-	7d430a3ead9216318fd7fa9e15140ff5	ok
+1336547521.744392	CQ89yZURyrqm296N5	192.168.51.10	1056	74.125.45.139	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1334908638.000000	1366445238.000000	-	-	-	7d430a3ead9216318fd7fa9e15140ff5	ok
+1336547521.760727	CAGqs62jhUOBTT6ed4	192.168.51.10	1058	74.125.45.139	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	88fd21a6220dd604e3d5ce4ad7a02a56e25629ec1400305a4daea55d757d222a	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-24-42

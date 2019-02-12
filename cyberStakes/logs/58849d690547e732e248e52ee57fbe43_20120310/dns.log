@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-40-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1331356338.842532	CMHIWt17N13NoICpKd	192.168.82.10	1029	4.2.2.3	53	udp	35474	ptginc.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.207.234.15	38.000000	F
+1331356338.982204	CMHIWt17N13NoICpKd	192.168.82.10	1029	4.2.2.3	53	udp	4242	www.qksz.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	track.cj.akadns.net,216.34.207.62	3432.000000,127.000000	F
+1331356339.166974	CMHIWt17N13NoICpKd	192.168.82.10	1029	4.2.2.3	53	udp	23187	www.awltovhc.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	track.cj.akadns.net,216.34.207.62	132.000000,126.000000	F
+1331356339.302604	CMHIWt17N13NoICpKd	192.168.82.10	1029	4.2.2.3	53	udp	13969	www.yceml.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	mirror.cj.edgesuite.net,a1257.g.akamai.net,192.204.3.10,192.204.3.32	433.000000,12775.000000,13.000000,13.000000	F
+1331356339.346453	CMHIWt17N13NoICpKd	192.168.82.10	1029	4.2.2.3	53	udp	19345	www.tqlkg.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	track.cj.akadns.net,216.34.207.62	497.000000,126.000000	F
+1331356339.348689	CMHIWt17N13NoICpKd	192.168.82.10	1029	4.2.2.3	53	udp	28049	dl.javafx.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	137.254.16.78	61.000000	F
+1331356339.973506	CMHIWt17N13NoICpKd	192.168.82.10	1029	4.2.2.3	53	udp	662	pagead2.googlesyndication.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pagead.l.doubleclick.net,74.125.65.154,74.125.65.155,74.125.65.156,74.125.65.157	210.000000,64.000000,64.000000,64.000000,64.000000	F
+1331356341.51742	CMHIWt17N13NoICpKd	192.168.82.10	1029	4.2.2.3	53	udp	54167	www.ptginc.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.207.234.15	60.000000	F
+1331356342.548043	CMHIWt17N13NoICpKd	192.168.82.10	1029	4.2.2.3	53	udp	59028	dlc-cdn.sun.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	dlc.sun.com.edgesuite.net,a665.d.akamai.net,204.245.190.106,204.245.190.66	900.000000,21600.000000,20.000000,20.000000	F
+#close	2014-04-03-10-40-25

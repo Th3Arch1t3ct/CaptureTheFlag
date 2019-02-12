@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-37-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1342292963.617478	Cuqla63KiS3sA01x5	192.168.85.10	1032	79.96.63.212	80	FJpsES2EVlFwfx91Ka	application/x-dosexec	http://kibpboim.tk/2.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 21%  Last seen: 2012-07-16 10:01:13	https://www.virustotal.com/en/search/?query=2be6859aefa55481e6161f29d3d5a2745c9936c2	192.168.85.10	79.96.63.212	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1342292987.094786	CZiuP54b54WF1DAiC3	192.168.85.10	1054	195.210.47.239	80	FUTXLi1y9gx7M8YKa3	application/x-dosexec	http://oppoconditions.cu.cc/f/notepad.exe?ts=71dc2917&affid=5630	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 14%  Last seen: 2012-07-14 15:17:31	https://www.virustotal.com/en/search/?query=7bf57ccfde72a77d568e135c35ec7f41b68a0470	192.168.85.10	195.210.47.239	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-37-56

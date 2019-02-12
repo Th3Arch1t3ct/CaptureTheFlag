@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-09-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1358937445.161164	CxigVD2PxNr9n6YQ3g	192.168.49.10	1029	4.2.2.3	53	udp	25229	pronunciationsfuni.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.170.52.21,93.170.52.31	279.000000,279.000000	F
+1358937445.491235	CxigVD2PxNr9n6YQ3g	192.168.49.10	1029	4.2.2.3	53	udp	49293	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.228.32,74.125.228.37,74.125.228.39,74.125.228.41,74.125.228.46,74.125.228.36,74.125.228.40,74.125.228.33,74.125.228.38,74.125.228.35,74.125.228.34	26016.000000,170.000000,170.000000,170.000000,170.000000,170.000000,170.000000,170.000000,170.000000,170.000000,170.000000,170.000000	F
+1358937445.495554	CxigVD2PxNr9n6YQ3g	192.168.49.10	1029	4.2.2.3	53	udp	41358	otijk.consistory.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.131.138.217	10.000000	F
+1358937445.769243	CxigVD2PxNr9n6YQ3g	192.168.49.10	1029	4.2.2.3	53	udp	26760	fbstatic-a.akamaihd.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fbstatic-a.akamaihd.net.edgesuite.net,a1168.dsw4.akamai.net,192.204.4.82,192.204.4.65	258.000000,68.000000,20.000000,20.000000	F
+#close	2014-04-03-10-09-59

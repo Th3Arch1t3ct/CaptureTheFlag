@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-05-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1330987044.890187	CxHfc62FGecRXQH33	192.168.72.10	1029	4.2.2.3	53	udp	52108	jaxyouthsoccer.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.89.31.75	14373.000000	F
+1330987046.944085	CzxWgIj5ylbwPrgh7	192.168.72.10	1031	4.2.2.3	53	udp	14735	html5shiv.googlecode.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlecode.l.google.com,74.125.65.82	28505.000000,19.000000	F
+1330987046.984032	CzxWgIj5ylbwPrgh7	192.168.72.10	1031	4.2.2.3	53	udp	47758	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.159.95	3234.000000,156.000000	F
+1330987046.940071	CxHfc62FGecRXQH33	192.168.72.10	1029	4.2.2.3	53	udp	39055	photosmile.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.75.244.113	3600.000000	F
+1330987047.335384	CzxWgIj5ylbwPrgh7	192.168.72.10	1031	4.2.2.3	53	udp	43401	razlet.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.94.43.145	3600.000000	F
+1330987049.069807	CzxWgIj5ylbwPrgh7	192.168.72.10	1031	4.2.2.3	53	udp	35977	platform.twitter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ssl2.twitter.com.edgekey.net,e5237.g.akamaiedge.net,184.28.203.55	26.000000,3544.000000,6.000000	F
+1330987064.623194	CtGZpf4OIhHepupcL5	192.168.72.10	1031	4.2.2.3	53	udp	1161	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,24.143.193.33,24.143.193.16	6967.000000,85.000000,13412.000000,20.000000,20.000000	F
+#close	2014-04-03-10-05-10

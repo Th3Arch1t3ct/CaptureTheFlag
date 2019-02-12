@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-06-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1342036942.005375	CggR0Q3b7ydUzQ0Ydj	192.168.7.10	1029	4.2.2.3	53	udp	34450	cyberodisha.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	182.18.131.53	43172.000000	F
+1342036942.823602	CggR0Q3b7ydUzQ0Ydj	192.168.7.10	1029	4.2.2.3	53	udp	1938	baffalo.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.149.15.143	6218.000000	F
+1342036943.281095	CggR0Q3b7ydUzQ0Ydj	192.168.7.10	1029	4.2.2.3	53	udp	42385	jkeyboard.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.201.16	30.000000	F
+1342036944.588535	CggR0Q3b7ydUzQ0Ydj	192.168.7.10	1029	4.2.2.3	53	udp	5264	nopearth.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.59.198.62	30.000000	F
+1342036946.735818	CggR0Q3b7ydUzQ0Ydj	192.168.7.10	1029	4.2.2.3	53	udp	45975	connect.facebook.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	connect.facebook.net.edgekey.net,e3821.dspe1.akamaiedge.net,23.10.143.139	937.000000,220.000000,5.000000	F
+1342036947.777064	CggR0Q3b7ydUzQ0Ydj	192.168.7.10	1029	4.2.2.3	53	udp	6295	www.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.171.237.32	5.000000	F
+1342036947.86946	CggR0Q3b7ydUzQ0Ydj	192.168.7.10	1029	4.2.2.3	53	udp	3734	static.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.dsw4.akamai.net,96.17.109.90,96.17.109.88	584.000000,141.000000,12.000000,12.000000	F
+1342036947.873392	CggR0Q3b7ydUzQ0Ydj	192.168.7.10	1029	4.2.2.3	53	udp	14229	b.static.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.dsw4.akamai.net,96.17.109.88,96.17.109.90	6011.000000,141.000000,12.000000,12.000000	F
+1342036950.647028	CggR0Q3b7ydUzQ0Ydj	192.168.7.10	1029	4.2.2.3	53	udp	46235	static.ak.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.dsw4.akamai.net,96.17.109.90,96.17.109.88	971.000000,138.000000,9.000000,9.000000	F
+1342036950.649372	CpJ7Iu431HwKdImbzl	192.168.7.10	1052	4.2.2.3	53	udp	6299	s-static.ak.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	s-static.ak.facebook.com.edgekey.net,e566.dspe1.akamaiedge.net,23.0.2.110	729.000000,25.000000,9.000000	F
+1342036948.886361	CggR0Q3b7ydUzQ0Ydj	192.168.7.10	1029	4.2.2.3	53	udp	27028	62.198.59.37.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1342036971.963185	CdUcWm4ZkOsePACDc4	192.168.7.10	1029	4.2.2.3	53	udp	45210	profile.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	profile.ak.facebook.com.edgesuite.net,a1725.dspl.akamai.net,140.174.24.168,140.174.24.169,140.174.24.177,140.174.25.73	572.000000,112.000000,14.000000,14.000000,14.000000,14.000000	F
+#close	2014-04-03-10-06-35

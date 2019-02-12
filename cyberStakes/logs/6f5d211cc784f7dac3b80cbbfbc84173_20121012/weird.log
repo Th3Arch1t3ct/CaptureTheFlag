@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-42-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1350043339.736346	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1350043344.244687	CaKSUl2OCu1kI85Jmb	192.168.17.10	1038	78.83.177.242	80	above_hole_data_without_any_acks	-	F	bro
+1350043387.44335	CO4hXe3sZS1ecXdGsf	192.168.17.10	1043	78.83.177.242	80	above_hole_data_without_any_acks	-	F	bro
+#close	2014-04-03-10-42-00

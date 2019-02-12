@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-39-21
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1355623980.412257	FTHQYn29vUjEDyZWr9	66.147.244.220	192.168.3.10	CRcR7X14FUexuEyq5d	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	2678	-	0	0	F	-	c00221bc61e8219dfabffa491a8ae19d	6385555bd4dafeb205760c33550e4e7a9e12b65c	-	-
+1355623980.996925	FElMph4VnboXGAGwF2	142.0.34.55	192.168.3.10	Csr2SF1pMRCEup2Fpk	HTTP	0	MD5,SHA1	text/html	-	0.486976	-	F	94404	-	0	0	F	-	840a04264312647f8cc9908f2a485d71	697800cfea41efab4417b37e0435695b8da80abc	-	-
+1355623983.819179	FceeKU3JTEPvzO9t2d	192.168.3.10	65.55.13.243	CTC8sLrJVPnJF1VEj	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	T	44	44	0	0	F	-	cde5bdd41fae8122ee6f419d237143e3	90cf92217ee0d1af9dea3d662930950d89292bf8	-	-
+1355623983.89448	FvhUsu2uZWIOsoCCcl	65.55.13.243	192.168.3.10	CTC8sLrJVPnJF1VEj	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	13	13	0	0	F	-	1e6cd917ed71a1241e4bedc29264bd98	5b65037351caeb0e5a48d963d7ffa88d0271d546	-	-
+1355623984.071263	FyTfPI2tGauvimUGtf	192.168.3.10	64.4.52.169	COkcnJQTLCKueNktc	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	T	44	44	0	0	F	-	cde5bdd41fae8122ee6f419d237143e3	90cf92217ee0d1af9dea3d662930950d89292bf8	-	-
+1355623984.130657	FQ032v2TBRzeo1U5Y3	64.4.52.169	192.168.3.10	COkcnJQTLCKueNktc	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	13	13	0	0	F	-	1e6cd917ed71a1241e4bedc29264bd98	5b65037351caeb0e5a48d963d7ffa88d0271d546	-	-
+1355623988.751676	Fx019jA4gVbhE5y4l	142.0.34.55	192.168.3.10	CKc5pv190z8EK0puzj	HTTP	0	MD5,SHA1	application/x-shockwave-flash	-	0.000000	-	F	912	-	0	0	F	-	6478baaaef1fea99d1c4520ec2d30002	3d44fc9b69f221b28b69b8904fa8a65686a7accb	-	-
+1355623988.70406	Fh9xYu1HnaRaLWoS43	142.0.34.55	192.168.3.10	Csr2SF1pMRCEup2Fpk	HTTP	0	MD5,SHA1	application/pdf	dbd31.pdf	0.085043	-	F	14492	14492	0	0	F	-	407b8b61fb12210f2d523e9162064d63	1dcadd96913266f61019d4b9640c1f076bead6f9	-	-
+1355624009.426858	F2Zwoa3egXHdL6ErE8	142.0.34.55	192.168.3.10	Csr2SF1pMRCEup2Fpk	HTTP	0	MD5,SHA1	application/x-dosexec	about.exe	0.188777	-	F	38352	38352	0	0	F	-	7d09da7e64e94c8d6c945536a3c2e627	d44879c8491ec844108c6159a9e8667192640854	-	-
+#close	2014-04-03-10-39-21

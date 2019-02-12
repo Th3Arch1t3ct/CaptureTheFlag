@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-35-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1355630006.269508	CdkioE1RAGMUpaHme6	192.168.124.10	1031	142.0.34.55	80	tcp	http	0.192718	347	0	RSTO	-	0	ShADaR	4	515	2	88	(empty)
+1355630005.493249	C9f0AyLbPQSmaepXf	192.168.124.10	1030	74.220.219.133	80	tcp	http	15.123620	289	5065	RSTO	-	0	ShADadfR	11	737	14	5633	(empty)
+1355630005.308946	CTAKDn4VsgevQ9ZtLl	192.168.124.10	1029	4.2.2.3	53	udp	dns	3.664414	143	304	SF	-	0	Dd	4	255	4	416	(empty)
+1355630014.398606	CLW3Yj46fnumRaHCvj	192.168.124.10	1039	142.0.34.55	80	tcp	http	27.961729	383	1079	RSTO	-	0	ShADadfR	6	631	4	1247	(empty)
+1355629987.948529	CvIHAr4YxyHDXSdpej	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000909	626	0	S0	-	0	D	2	682	0	0	(empty)
+1355629987.948891	Cht4u4hQqKxzIKb61	192.168.124.10	68	192.168.124.1	67	udp	dhcp	13.659835	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1355630064.11037	Cv41eq4QOoGGB90Ko7	192.168.124.10	1040	65.55.162.200	25	tcp	-	3.031588	0	0	S0	-	0	S	2	96	0	0	(empty)
+1355630064.106165	C9tYUmhiPI9EOeA1	192.168.124.10	1029	4.2.2.3	53	udp	dns	0.000982	31	87	SF	-	0	Dd	1	59	1	115	(empty)
+1355630006.51713	CLRfB838vLR8gjJN6e	192.168.124.10	1032	142.0.34.55	80	tcp	http	57.061601	1112	148185	RSTO	-	0	ShADadfR	72	4000	114	152753	(empty)
+1355630008.721745	CvVNmj18dmFPXAUPi7	192.168.124.10	1033	65.55.13.243	80	tcp	http	0.264104	479	239	S1	-	0	ShADd	4	647	2	327	(empty)
+1355630008.974662	Cbwwfx5NhpyOdfUm1	192.168.124.10	1038	64.4.52.169	80	tcp	http	0.338917	476	239	S1	-	0	ShADd	4	644	2	327	(empty)
+1355630008.820493	C9MzEl3JfeVBHCYSRl	192.168.124.10	1036	239.255.255.250	1900	udp	-	6.391220	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-10-35-30

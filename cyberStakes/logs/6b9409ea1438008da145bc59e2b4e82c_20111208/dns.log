@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-14-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1323347722.759741	CXFb1U3BJxSdewwAwj	192.168.88.10	1029	4.2.2.3	53	udp	52623	tempdom3-1.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.236.82.78	6.000000	F
+1323347722.964146	CXFb1U3BJxSdewwAwj	192.168.88.10	1029	4.2.2.3	53	udp	10892	softportal9.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.236.82.79	7.000000	F
+1323347737.730666	C3VtgR1zYCRNxa36c7	192.168.88.10	1029	4.2.2.3	53	udp	34700	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.47.105,74.125.47.106,74.125.47.147,74.125.47.99,74.125.47.103,74.125.47.104	22135.000000,111.000000,111.000000,111.000000,111.000000,111.000000,111.000000	F
+1323347737.761985	C3VtgR1zYCRNxa36c7	192.168.88.10	1029	4.2.2.3	53	udp	48269	waytraffic.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.107.227.69	43200.000000	F
+1323347740.791828	C3VtgR1zYCRNxa36c7	192.168.88.10	1029	4.2.2.3	53	udp	35466	porn-finder.de.ms	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.107.227.70	14400.000000	F
+1323347742.622753	C3VtgR1zYCRNxa36c7	192.168.88.10	1029	4.2.2.3	53	udp	11659	getmilfs.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.202.163.8	3600.000000	F
+1323347743.587518	C3VtgR1zYCRNxa36c7	192.168.88.10	1029	4.2.2.3	53	udp	52363	oneathleticmom.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	72.167.207.74	3600.000000	F
+1323347743.725361	CYFKQb1mwkLmyUsNea	192.168.88.10	1055	4.2.2.3	53	udp	49544	friendslinks.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.107.227.66	14400.000000	F
+#close	2014-04-03-11-14-30

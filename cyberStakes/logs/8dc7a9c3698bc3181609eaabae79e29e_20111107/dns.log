@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-54-57
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1320641570.893653	Cj4l9R4MH8kI3GNNa	192.168.99.10	1029	4.2.2.3	53	udp	56462	opera120.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.177.22.130	14375.000000	F
+1320641572.684267	Cj4l9R4MH8kI3GNNa	192.168.99.10	1029	4.2.2.3	53	udp	40847	goo.gl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.125.229.34,74.125.229.35,74.125.229.36,74.125.229.37,74.125.229.38,74.125.229.39,74.125.229.40,74.125.229.41,74.125.229.42,74.125.229.43,74.125.229.44,74.125.229.45,74.125.229.46,74.125.229.47,74.125.229.32,74.125.229.33	46.000000,46.000000,46.000000,46.000000,46.000000,46.000000,46.000000,46.000000,46.000000,46.000000,46.000000,46.000000,46.000000,46.000000,46.000000,46.000000	F
+1320641572.73907	Cj4l9R4MH8kI3GNNa	192.168.99.10	1029	4.2.2.3	53	udp	5004	megatds.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.95.50.172	3600.000000	F
+1320641573.169313	Cj4l9R4MH8kI3GNNa	192.168.99.10	1029	4.2.2.3	53	udp	55178	crystalix.biz.ua	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.223.77.96	43200.000000	F
+#close	2014-04-03-09-54-57

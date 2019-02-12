@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-06-28
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1338321554.035534	CL4ZWf1ATIXEIHQU5	192.168.10.10	1047	23.11.252.130	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.s-static.ak.fbcdn.net,ST=CALIFORNIA,OU=*.s-static.ak.fbcdn.net,O=*.s-static.ak.fbcdn.net,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1337211995.000000	1368334740.000000	-	-	-	6491024b816906f0c94466666dd7c4e6	ok
+1338321554.079455	C7ZIaYEsy2DVXFyNb	192.168.10.10	1046	23.11.252.130	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	9760eed80fb79bf341c7dde8c5f2452058704bd6380fa19146c778c52e7e7933	-	-	-	-	-	-	-	-	-
+1338321559.5778	CPLvtx2ccVwvYI9tJ4	192.168.10.10	1055	23.11.252.130	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	9760eed80fb79bf341c7dde8c5f2452058704bd6380fa19146c778c52e7e7933	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-06-29

@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-12-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1327026846.573925	CGk1n73gFbIwZDWVC2	192.168.56.10	1030	62.149.128.157	80	1	GET	radiogioiosamarina.it	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	241	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FrdtA04tCmcnqVozZd	text/html
+1327026846.834736	Ccpa7G1LIeiXYHpi5g	192.168.56.10	1031	62.149.130.49	80	1	GET	www.radiogioiosamarina.it	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	680	200	OK	-	-	-	(empty)	-	-	-	-	-	FItik72K0yB9M1gyS8	text/html
+1327026847.171306	CQVNUE4JiWLtfwqrUg	192.168.56.10	1032	66.199.240.210	80	1	GET	ysuj4cfghd.biz	/?tp=89c9473171a1c848	http://www.radiogioiosamarina.it/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	95079	200	OK	-	-	-	(empty)	-	-	-	-	-	FHWuS605UsXnyaz1a	text/html
+1327026846.967722	Ccpa7G1LIeiXYHpi5g	192.168.56.10	1031	62.149.130.49	80	2	GET	www.radiogioiosamarina.it	/sito_principale/images/loghi/logo .jpg	http://www.radiogioiosamarina.it/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	57784	200	OK	-	-	-	(empty)	-	-	-	-	-	FMZg7z2ZcxV8m5ypUk	image/jpeg
+1327026852.351588	CoZVqn2athJWXlHkl8	192.168.56.10	1033	66.199.240.210	80	1	GET	ysuj4cfghd.biz	/w.php?f=142&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	94208	200	OK	-	-	-	(empty)	-	-	-	-	-	FXf9Zp2BSKbGlLWNzl	application/x-dosexec
+1327026853.405587	CD5Puh3ocjavsFkdc7	192.168.56.10	1038	66.199.240.210	80	1	GET	ysuj4cfghd.biz	/content/2ddfp.php?f=142	http://ysuj4cfghd.biz/?tp=89c9473171a1c848	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	113985	200	OK	-	-	-	(empty)	-	-	-	-	-	FwfKMM3lbr0GEGAzra	application/pdf
+1327026855.87784	ClUk6qUnKNTg3LRO3	192.168.56.10	1039	66.199.240.210	80	1	GET	ysuj4cfghd.biz	/content/field.swf	http://www.radiogioiosamarina.it/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	529	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FarqsPkBzHcVqTMN2	text/html
+1327026856.959909	C1aNJ71gu3CxIOr51j	192.168.56.10	1042	66.199.240.210	80	1	GET	ysuj4cfghd.biz	/content/v1.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4270	200	OK	-	-	-	(empty)	-	-	-	-	-	FhRFBf4ViDbps2Wu0i	application/zip
+1327026857.809616	CpszlN28LZnAlQnhVd	192.168.56.10	1043	66.199.240.210	80	1	GET	ysuj4cfghd.biz	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	169	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F5RDTeTX9FtLRKIY	text/html
+1327026858.111913	C5uAhe45fdnoXg37G	192.168.56.10	1044	66.199.240.210	80	1	GET	ysuj4cfghd.biz	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	169	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FfdOJ420Om9IwSydQ	text/html
+1327026858.411655	CZc0Pd1Q75EEQiL6K	192.168.56.10	1045	66.199.240.210	80	1	GET	ysuj4cfghd.biz	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	169	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FEo01f4zHWJbfjBZr5	text/html
+1327026856.865346	CJwWhK3hKMMjJZ5cka	192.168.56.10	1041	128.204.199.37	80	1	POST	jiutsjitsers2.com	/search?fr=altavista&itag=ody&q=hBeSH9KUO5NNJ3LS0-e4=,d5fa8ff57ad763fe&kgs=1&kls=0	-	-	444	622592	200	OK	-	-	-	(empty)	-	-	-	F2nHZH13bM282EZdC9	text/plain	FVXjxm2yDMUz7Q1Zn2	binary
+1327026858.702517	CPxE1q13G8szXMjbTe	192.168.56.10	1046	66.199.240.210	80	1	GET	ysuj4cfghd.biz	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	169	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FHXLST7i19qdqwxc8	text/html
+1327026859.128696	ClCpHf43Jc8AN9bS5i	192.168.56.10	1047	66.199.240.210	80	1	GET	ysuj4cfghd.biz	/w.php?f=142&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1327026870.783862	CJwWhK3hKMMjJZ5cka	192.168.56.10	1041	128.204.199.37	80	2	POST	jiutsjitsers2.com	/search?fr=altavista&itag=ody&q=hBeSH9KUO5NNJ3LS0-e4=,d5fa8ff57ad763fe,aG1cbeBgN89UNBNiSDU&kgs=1&kls=0&p=1000	-	-	50	0	200	OK	-	-	-	(empty)	-	-	-	FBNCFb3A9QBcgJ9Ty6	text/plain	-	-
+1327026886.282472	CJwWhK3hKMMjJZ5cka	192.168.56.10	1041	128.204.199.37	80	3	POST	jiutsjitsers2.com	/search?fr=altavista&itag=ody&q=hBeSH9KUO5NNJ3LS0-e4=,d5fa8ff57ad763fe,aG1cbeBgN89UNBNiSDU&kgs=1&kls=0&p=1000	-	-	18	0	200	OK	-	-	-	(empty)	-	-	-	FcrOxO3TYJsaDyM1oa	text/plain	-	-
+#close	2014-04-03-10-12-09

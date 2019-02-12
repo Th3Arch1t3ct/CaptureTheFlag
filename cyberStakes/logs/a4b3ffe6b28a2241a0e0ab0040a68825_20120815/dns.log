@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-54-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1345025434.768824	CRjkpw2s6H5Y8iq9x1	192.168.73.10	1029	4.2.2.3	53	udp	11143	virtualmeter.co.uk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.136.40.82	43176.000000	F
+1345025434.984331	CRjkpw2s6H5Y8iq9x1	192.168.73.10	1029	4.2.2.3	53	udp	7559	tdd.tns-global.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.202.213.74	1800.000000	F
+#close	2014-04-03-10-54-32

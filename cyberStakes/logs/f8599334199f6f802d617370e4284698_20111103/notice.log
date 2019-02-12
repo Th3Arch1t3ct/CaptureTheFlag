@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-06-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1320320442.487105	CesauW1jcyLs77YUd	192.168.11.10	1062	91.217.153.116	80	Fem9W63earoegXtBW7	application/jar	http://legalcrg.in/images/9943dc5c225a029f1692ff2b1810a356.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 45%  Last seen: 2012-12-01 03:46:02	https://www.virustotal.com/en/search/?query=719578f0fe8f67cf4864076deb4467ddedca73ad	192.168.11.10	91.217.153.116	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1320320442.487105	CaqZUT2aw1HHaaOuOf	192.168.11.10	1065	91.217.153.116	80	FRBn524IUM2j7szre2	application/jar	http://legalcrg.in/images/9943dc5c225a029f1692ff2b1810a356.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 45%  Last seen: 2012-12-01 03:46:02	https://www.virustotal.com/en/search/?query=719578f0fe8f67cf4864076deb4467ddedca73ad	192.168.11.10	91.217.153.116	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1320320444.001989	C3BoLm17nb4EHwyNV2	192.168.11.10	1066	91.217.153.116	80	FJdEHAHKcZpXzPvIe	application/jar	http://legalcrg.in/images/9943dc5c225a029f1692ff2b1810a356.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 45%  Last seen: 2012-12-01 03:46:02	https://www.virustotal.com/en/search/?query=719578f0fe8f67cf4864076deb4467ddedca73ad	192.168.11.10	91.217.153.116	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-06-15

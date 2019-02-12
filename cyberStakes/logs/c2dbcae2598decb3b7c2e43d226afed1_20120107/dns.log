@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-24-38
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1325902864.235281	C9Cb8uFaQJvOWO6vf	192.168.119.10	1029	4.2.2.3	53	udp	8843	newcolonial.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.163.251.253	14381.000000	F
+1325902864.412254	C9Cb8uFaQJvOWO6vf	192.168.119.10	1029	4.2.2.3	53	udp	31369	www.newcolonial.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.163.251.253	14382.000000	F
+1325902865.004479	C9Cb8uFaQJvOWO6vf	192.168.119.10	1029	4.2.2.3	53	udp	2441	globalpoweringgathering.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.28.114.102	43200.000000	F
+1325902865.887599	C9Cb8uFaQJvOWO6vf	192.168.119.10	1029	4.2.2.3	53	udp	23439	ttees41colla.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.28.114.102	21600.000000	F
+1325902866.103786	C9Cb8uFaQJvOWO6vf	192.168.119.10	1029	4.2.2.3	53	udp	61838	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,64.72.65.216,64.72.65.214	10463.000000,196.000000,4951.000000,2.000000,2.000000	F
+1325902866.394149	C9Cb8uFaQJvOWO6vf	192.168.119.10	1029	4.2.2.3	53	udp	8589	www3.personalxnetwork.kwik.to	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.238.105	21600.000000	F
+1325902866.71689	C9Cb8uFaQJvOWO6vf	192.168.119.10	1029	4.2.2.3	53	udp	49795	www1.powerguardf.kwik.to	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.110	21600.000000	F
+1325902904.319534	CkXbMX3T8U9OFcZLQ4	192.168.119.10	1029	4.2.2.3	53	udp	17283	www2.smart-acleaner.kwik.to	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.142.217	21600.000000	F
+#close	2014-04-03-10-24-39

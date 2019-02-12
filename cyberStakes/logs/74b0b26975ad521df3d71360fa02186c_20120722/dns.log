@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-34-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1342969997.99535	CeQCoRQE5d9uXAbl9	192.168.4.10	1029	4.2.2.3	53	udp	28301	emp3bank.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	212.95.58.100	4.000000	F
+1342969999.081755	CeQCoRQE5d9uXAbl9	192.168.4.10	1029	4.2.2.3	53	udp	33934	klmsocks.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	176.31.16.224	30.000000	F
+1342970001.925626	CeQCoRQE5d9uXAbl9	192.168.4.10	1029	4.2.2.3	53	udp	35214	224.16.31.176.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1342970001.925626	CeQCoRQE5d9uXAbl9	192.168.4.10	1029	4.2.2.3	53	udp	35214	224.16.31.176.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1342970001.925626	CeQCoRQE5d9uXAbl9	192.168.4.10	1029	4.2.2.3	53	udp	35214	224.16.31.176.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-34-55

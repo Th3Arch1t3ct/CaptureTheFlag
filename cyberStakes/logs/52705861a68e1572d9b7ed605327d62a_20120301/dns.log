@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-32-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1330638040.826082	CDGGg93yahlRQT4vyd	192.168.37.10	1029	4.2.2.3	53	udp	53135	africandevelopmentagency.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.165.208.240	10779.000000	F
+1330638045.022583	CDGGg93yahlRQT4vyd	192.168.37.10	1029	4.2.2.3	53	udp	61839	pokosa.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.111.9.98	60.000000	F
+1330638045.251352	CDGGg93yahlRQT4vyd	192.168.37.10	1029	4.2.2.3	53	udp	50316	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,204.2.254.185,204.2.254.129	28641.000000,71.000000,19671.000000,20.000000,20.000000	F
+1330638046.430333	CDGGg93yahlRQT4vyd	192.168.37.10	1029	4.2.2.3	53	udp	25226	www4.simplewd-defense.net.tc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.238.105	3600.000000	F
+1330638046.853843	CDGGg93yahlRQT4vyd	192.168.37.10	1029	4.2.2.3	53	udp	10635	www2.bestr-suite.net.tf	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.104	3600.000000	F
+1330638055.827397	CDGGg93yahlRQT4vyd	192.168.37.10	1029	4.2.2.3	53	udp	16267	www2.firstdefenserb.de.lv	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.142.217	3600.000000	F
+1330638091.637811	CFdzpF2W07RDv0CsFf	192.168.37.10	1029	80.90.43.19	53	udp	48520	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	208.117.45.135	86400.000000	F
+1330638091.727588	CxoQW73sXBXY1B1Dsd	192.168.37.10	1057	204.45.75.109	53	udp	21897	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	208.117.45.135	86400.000000	F
+#close	2014-04-03-10-32-30

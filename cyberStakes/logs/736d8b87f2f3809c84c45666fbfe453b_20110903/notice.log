@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-40-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1315079868.615525	CixP4n2S3NRe00fc2e	192.168.41.10	1034	188.127.228.44	80	FQvURA1ZiPfLQSAO4b	application/x-dosexec	http://mareop922we.cu.cc/e/1/150a481215eca7cffe04ee01617443ccc811e546966bf3cb9a07fcd357e1371a_exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 15%  Last seen: 2011-09-03 02:47:00	https://www.virustotal.com/en/search/?query=5963197f40b9b0d20042ad438a24a07ad96b63df	192.168.41.10	188.127.228.44	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-40-34

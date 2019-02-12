@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-09-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1329640149.831026	CLgXQE1MW7RzcfJR0k	192.168.27.10	1030	195.211.72.36	80	1	GET	puttensmodeshop.nl	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	43549	200	OK	-	-	-	(empty)	-	-	-	-	-	FbVYdk1lXLZ2yG795k	text/html
+1329640150.292741	CAtqTh2ekDP194yeJ5	192.168.27.10	1032	74.125.45.95	80	1	GET	ajax.googleapis.com	/ajax/libs/jquery/1.6.2/jquery.min.js	http://puttensmodeshop.nl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	91556	200	OK	-	-	-	(empty)	-	-	-	-	-	F4HZ2O27WX9LcT1an3	text/html
+1329640150.148765	CLgXQE1MW7RzcfJR0k	192.168.27.10	1030	195.211.72.36	80	2	GET	puttensmodeshop.nl	/index_bestanden/image405.png	http://puttensmodeshop.nl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	171	200	OK	-	-	-	(empty)	-	-	-	-	-	FcYqWi35nrPFJ4rggk	image/png
+1329640150.427993	CLgXQE1MW7RzcfJR0k	192.168.27.10	1030	195.211.72.36	80	3	GET	puttensmodeshop.nl	/index_bestanden/image338.jpg	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	53319	200	OK	-	-	-	(empty)	-	-	-	-	-	FM53mf2p85OzlPJfU5	image/jpeg
+1329640150.287637	CFSQf51aI1DaAQ8J0f	192.168.27.10	1031	195.211.72.36	80	1	GET	puttensmodeshop.nl	/index_bestanden/image411.png	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	318117	200	OK	-	-	-	(empty)	-	-	-	-	-	FJJXpH21oFae7VGw77	image/png
+1329640151.610829	CyC9cE2gYtZ295T7t	192.168.27.10	1033	199.59.148.87	80	1	GET	api.twitter.com	/1/trends/daily.json?callback=jQuery16202500347342008105_1329654431937&_=1329654433093	http://puttensmodeshop.nl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	44065	200	OK	-	-	-	(empty)	-	-	-	-	-	FDpV6Z1onzZSyXFiw8	text/plain
+1329640151.491192	CFSQf51aI1DaAQ8J0f	192.168.27.10	1031	195.211.72.36	80	2	GET	puttensmodeshop.nl	/index_bestanden/image402.gif	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	58967	200	OK	-	-	-	(empty)	-	-	-	-	-	FNXO4w3CVZcbaubZf2	image/gif
+1329640152.785302	CyC9cE2gYtZ295T7t	192.168.27.10	1033	199.59.148.87	80	2	GET	api.twitter.com	/1/trends/daily.json?callback=jQuery16202500347342008105_1329654431938&date=2012-02-17&_=1329654434312	http://puttensmodeshop.nl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	44065	200	OK	-	-	-	(empty)	-	-	-	-	-	FApg88sIvtTwbvaBk	text/plain
+1329640150.839373	CLgXQE1MW7RzcfJR0k	192.168.27.10	1030	195.211.72.36	80	4	GET	puttensmodeshop.nl	/index_bestanden/image319.jpg	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1587015	200	OK	-	-	-	(empty)	-	-	-	-	-	Fxryq64COtVVA11vYb	image/jpeg
+1329640153.29369	Ck45K83UsRkVJu23m5	192.168.27.10	1038	80.73.191.95	80	1	GET	olevlpmwosi.com	/index.php?tp=001e4bb7b4d7333d	http://puttensmodeshop.nl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	81825	200	OK	-	-	-	(empty)	-	-	-	-	-	FHlttbel6AjU3Icp8	text/html
+1329640168.083849	CDmZek4CvUj9f3xV1i	192.168.27.10	1039	80.73.191.95	80	1	GET	olevlpmwosi.com	/w.php?f=26&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	86016	200	OK	-	-	-	(empty)	-	-	-	-	-	FugvAQ11xTQBTrsgkh	application/x-dosexec
+1329640170.792072	CBdlauoMuE7qA7Rc	192.168.27.10	1040	80.73.191.95	80	1	GET	olevlpmwosi.com	/content/adp2.php?f=26	http://olevlpmwosi.com/index.php?tp=001e4bb7b4d7333d	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13047	200	OK	-	-	-	(empty)	-	-	-	-	-	F7v5nj3zFMUL79V5wf	application/pdf
+1329640179.583829	CUbJtHrT7LxVbprqf	192.168.27.10	1041	80.73.191.95	80	1	GET	olevlpmwosi.com	/w.php?f=26&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	86016	200	OK	-	-	-	(empty)	-	-	-	-	-	FkANzA4uZzF6qyUCn3	application/x-dosexec
+1329640189.316118	CREVLM19eqMz8wdUd8	192.168.27.10	1042	80.73.191.95	80	1	GET	olevlpmwosi.com	/content/field.swf	http://puttensmodeshop.nl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	529	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F8inSa4IBdRjhdCuUe	text/html
+1329640196.649501	CmQMyH35JW8cxZDpbb	192.168.27.10	1044	77.95.231.87	80	1	POST	retasterdabop.eu	/search?fr=altavista&itag=ody&q=OSDicSU7g7JIDUEdgP1KR,d5fa8ff57ad763fe&kgs=1&kls=0	-	-	443	600064	200	OK	-	-	-	(empty)	-	-	-	FXB3rf2owToyOGLrNl	text/plain	FWySOy3pCNnqw2jvKi	binary
+1329640208.559653	CmQMyH35JW8cxZDpbb	192.168.27.10	1044	77.95.231.87	80	2	POST	retasterdabop.eu	/search?fr=altavista&itag=ody&q=OSDicSU7g7JIDUEdgP1KR,d5fa8ff57ad763fe,MRGU6495_9QGg8d5F22&kgs=1&kls=0&p=1000	-	-	28	0	200	OK	-	-	-	(empty)	-	-	-	Feand63fou2VvAWpeb	text/plain	-	-
+#close	2014-04-03-10-09-36

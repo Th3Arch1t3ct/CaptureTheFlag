@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-32-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1327521724.033689	CcUknd3ZqxSBTs6MJ1	192.168.124.10	1041	31.184.192.57	80	FnaFtz3gmqPndxVNH3	application/x-dosexec	http://trollface.jabascript.org/w.php?f=79&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-02-10 21:11:25	https://www.virustotal.com/en/search/?query=dfab1665a49dce46012de5989f7abf2cfe31897d	192.168.124.10	31.184.192.57	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1327521735.345811	C7fgQk4PFC2xuQMeZi	192.168.124.10	1044	31.184.192.57	80	Fp16O24g4XlqSAPXP	application/x-shockwave-flash	http://trollface.jabascript.org/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-01-24 03:07:24	https://www.virustotal.com/en/search/?query=6e2ae6f0cefe954350f2a5a48c874cc6da292cfd	192.168.124.10	31.184.192.57	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1327521739.574246	CcUknd3ZqxSBTs6MJ1	192.168.124.10	1041	31.184.192.57	80	FP8uXG9zC3zM7PIU7	application/x-dosexec	http://trollface.jabascript.org/w.php?f=79&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-02-10 21:11:25	https://www.virustotal.com/en/search/?query=dfab1665a49dce46012de5989f7abf2cfe31897d	192.168.124.10	31.184.192.57	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1327521762.495633	CeIGrS1yHgIb5s5DOe	192.168.124.10	1046	31.184.192.57	80	FZ1XpCjxC1NPW0cq6	application/x-dosexec	http://trollface.jabascript.org/w.php?f=79&e=0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-02-10 21:11:25	https://www.virustotal.com/en/search/?query=dfab1665a49dce46012de5989f7abf2cfe31897d	192.168.124.10	31.184.192.57	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-32-22

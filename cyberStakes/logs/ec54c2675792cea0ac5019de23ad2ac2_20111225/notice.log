@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-59-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1324852524.914959	CEOJlN1iAO4zN9BxCa	192.168.51.10	1037	69.59.25.33	80	FOrn1mLXH6TztU8g5	application/pdf	http://nyskiffintabout.com/content/2ddfp.php?f=144	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 60%  Last seen: 2011-12-27 04:02:12	https://www.virustotal.com/en/search/?query=88147bcc36f6394e16e75a96e9a26cb2a9e7cd12	192.168.51.10	69.59.25.33	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-59-04

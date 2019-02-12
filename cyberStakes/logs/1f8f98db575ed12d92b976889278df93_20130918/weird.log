@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-09-55-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1379477188.122957	CKFMfb39XsSEKuKt02	192.168.37.10	1038	74.125.28.141	80	above_hole_data_without_any_acks	-	F	bro
+1379477188.950964	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1379477189.824025	CJ48CpoWsiR8jMngk	192.168.37.10	1052	98.138.49.42	80	unescaped_special_URI_char	-	F	bro
+1379477190.786732	CIyUT24OSn3GdfgEi3	192.168.37.10	1096	66.70.125.98	80	unescaped_special_URI_char	-	F	bro
+1379477191.545758	CFwILj32BRK7WaLym1	192.168.37.10	1121	74.125.224.220	80	unescaped_special_URI_char	-	F	bro
+1379477191.634717	CxIIRT1567BM9zyRYi	192.168.37.10	1125	74.125.224.99	80	above_hole_data_without_any_acks	-	F	bro
+1379477207.843549	Csp6ME3i8RdHbO7qLa	192.168.37.10	1157	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1379477207.869429	C0Gd1O380376oVOwlc	192.168.37.10	1158	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1379477207.902779	Cv2eK71323ZfnJKmEb	192.168.37.10	1159	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1379477207.906247	C9MidYvIOSgGxxwOh	192.168.37.10	1160	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1379477207.908784	CFoqci2wkSuF9IX2ah	192.168.37.10	1161	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1379477207.910001	C57xe927H7Cop9AOZ7	192.168.37.10	1162	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1379477207.911399	CZbz2o4iubuc57gNj7	192.168.37.10	1163	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1379477207.92449	CPVWof4APihyEayOw2	192.168.37.10	1164	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1379477207.963471	CLHiAd3xQ2iYtur7O1	192.168.37.10	1165	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1379477208.052189	C1NNn43cRstQMxGaJd	192.168.37.10	1166	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1379477208.053437	CnqDuP7nR3n7Qzt0d	192.168.37.10	1167	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+#close	2014-04-03-09-55-16

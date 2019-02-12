@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-44-28
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1321218630.981836	CitDRS1TrZtzNii8hi	192.168.61.10	1040	74.125.229.72	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1320286116.000000	1351909116.000000	-	-	-	bc573ea00c29ea65da7eeeeeeeeee132	ok
+1321218631.385775	CKRU1910x9IzT8m36h	192.168.61.10	1047	74.125.229.223	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1320286203.000000	1351909203.000000	-	-	-	83f1a3733cee57f2fdeeeeeeeee11dae	ok
+1321218634.221019	C9hAEJ3midV12a7WOa	192.168.61.10	1079	74.125.47.95	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleapis.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1320286136.000000	1351909136.000000	-	-	-	bde279ac6be6a1796382d83818c3663e	ok
+1321218635.20791	CejAT42nJY8VmQgRGb	192.168.61.10	1086	50.17.181.179	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.truste.com,OU=Terms of use at www.verisign.com/rpa (c)05,OU=Engineering,O=True Ultimate Standards Everywhere\, Inc.,L=San Francisco,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1298872800.000000	1330495199.000000	-	-	-	2cd5430144cc15388c01edfb1ef6177b	ok
+1321218636.377165	C38Gdy42FTV3A5Ux6	192.168.61.10	1094	50.17.181.179	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	d2565f38a29293a0047a8bda4112ac7f113d46e448bc0ff3ef735e7ded702f20	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-44-29

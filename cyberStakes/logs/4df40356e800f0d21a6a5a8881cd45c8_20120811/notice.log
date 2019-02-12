@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-16-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1344663934.669856	CC1ISZ397MUfduUK5h	192.168.37.10	1043	94.136.160.19	80	FB5hB73e0QaTWMdwX9	application/x-dosexec	http://www.kredit-fakten.de/3.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 52%  Last seen: 2012-08-28 13:54:14	https://www.virustotal.com/en/search/?query=84a10cb1f2eeb2bbe46d9e78e671942299136839	192.168.37.10	94.136.160.19	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1344663934.669856	CJAO9927X6VmeuOa6g	192.168.37.10	1044	94.136.160.19	80	FsZbyIeM8IUA9HBXd	application/x-dosexec	http://www.kredit-fakten.de/2.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 52%  Last seen: 2012-08-28 13:54:14	https://www.virustotal.com/en/search/?query=84a10cb1f2eeb2bbe46d9e78e671942299136839	192.168.37.10	94.136.160.19	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-16-26

@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-55-43
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1363322986.233764	C5JMtKsHx5drrYLgd	192.168.59.10	1029	4.2.2.3	53	udp	64397	szlaki-zachodniopomorskie.pl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.200.32.25	3477.000000	F
+1363322986.616677	C5JMtKsHx5drrYLgd	192.168.59.10	1029	4.2.2.3	53	udp	46733	zeas.dyndns-mail.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	176.116.146.74	60.000000	F
+1363322987.070296	C5JMtKsHx5drrYLgd	192.168.59.10	1029	4.2.2.3	53	udp	55439	mvqvpq.freewww.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	88.198.228.109	31.000000	F
+1363323019.631056	CzFcBx4x0LGrw79ro6	192.168.59.10	1029	4.2.2.3	53	udp	62350	free-ukvouchers.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	88.80.196.2	300.000000	F
+#close	2014-04-03-09-55-44

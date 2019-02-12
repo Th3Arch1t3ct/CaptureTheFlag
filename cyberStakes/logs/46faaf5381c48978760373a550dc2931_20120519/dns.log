@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-10-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1337457478.858017	CY3qe44MnSE3dLin77	192.168.30.10	1029	4.2.2.3	53	udp	37776	catholic.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	144.202.254.223	276.000000	F
+1337457482.673705	CY3qe44MnSE3dLin77	192.168.30.10	1029	4.2.2.3	53	udp	60562	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.45.95	2627.000000,131.000000	F
+1337457482.837846	CY3qe44MnSE3dLin77	192.168.30.10	1029	4.2.2.3	53	udp	34706	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,173.194.37.37,173.194.37.38,173.194.37.39,173.194.37.40,173.194.37.41,173.194.37.46,173.194.37.32,173.194.37.33,173.194.37.34,173.194.37.35,173.194.37.36	28058.000000,203.000000,203.000000,203.000000,203.000000,203.000000,203.000000,203.000000,203.000000,203.000000,203.000000,203.000000	F
+1337457482.919127	CY3qe44MnSE3dLin77	192.168.30.10	1029	4.2.2.3	53	udp	52115	img197.imagshacks.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.107.16.23	3600.000000	F
+1337457486.985996	CY3qe44MnSE3dLin77	192.168.30.10	1029	4.2.2.3	53	udp	7059	windows-updatez2013.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.162.209.216	600.000000	F
+#close	2014-04-03-11-10-58

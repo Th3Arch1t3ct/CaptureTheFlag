@@ -1,0 +1,37 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-10-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1321610563.226013	CE512j2L0gr1J7TMe	192.168.83.10	1030	149.255.33.227	80	1	GET	bestmusicbank.info	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	237	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FGx9VU3Ut7DTeqCrea	text/html
+1321610563.267514	Ck4Cr34frBsMcRi2g9	192.168.83.10	1031	149.255.33.228	80	1	GET	vipservice2.in	/?site=5	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	167	200	OK	-	-	-	(empty)	-	-	-	-	-	F0uK97ji5qmgxcJX1	text/html
+1321610564.534865	CvW5Pi3OyAC3eFfsJk	192.168.83.10	1032	149.255.33.228	80	1	GET	vipservice2.in	/dl/applet.php?5fe4dc8f1f1ffb197aa52d41d6586a96	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3966	200	OK	-	-	-	(empty)	-	-	-	-	-	Frt1es3peISfSzQo48	application/jar
+1321610564.677879	CEln9REWuzSwh9n5d	192.168.83.10	1033	149.255.33.228	80	1	GET	vipservice2.in	/dl/applet.php?5fe4dc8f1f1ffb197aa52d41d6586a96	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3966	200	OK	-	-	-	(empty)	-	-	-	-	-	FqemJLyZ8mtvw9R8j	application/jar
+1321610565.570016	Cm8u633yBBSpENB9o1	192.168.83.10	1038	149.255.33.228	80	1	GET	vipservice2.in	/dl/applet.php?5fe4dc8f1f1ffb197aa52d41d6586a96	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3966	200	OK	-	-	-	(empty)	-	-	-	-	-	F8fGkD10Oy3XZ7cYQb	application/jar
+1321610565.671082	Ct29JN3pFGWKa75mTb	192.168.83.10	1039	149.255.33.228	80	1	GET	vipservice2.in	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F3jzRB1Qsx0P1g5Eo3	text/html
+1321610565.715019	CoKZKy1JODINNiwqxj	192.168.83.10	1040	149.255.33.228	80	1	GET	vipservice2.in	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FZInOI3itRExWmZ52	text/html
+1321610565.765567	Cn6Ei61oV6KHCW4bL5	192.168.83.10	1041	149.255.33.228	80	1	GET	vipservice2.in	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FgBRvgWGfk5EC29S1	text/html
+1321610565.812769	Cl2ZSR2iba2IJHwLB3	192.168.83.10	1042	149.255.33.228	80	1	GET	vipservice2.in	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F0zZxL1stZQnnYUb3a	text/html
+1321610566.003826	CaWu0v4BvQI3QEJeaf	192.168.83.10	1043	149.255.33.228	80	1	GET	vipservice2.in	/dl/dl.php?4	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	39936	200	OK	-	-	-	(empty)	-	-	-	-	-	FBNyJORqdrtQZ4WBb	application/x-dosexec
+1321610569.323501	ChJB622blfkHJfBOGi	192.168.83.10	1044	74.125.45.147	80	1	GET	www.google.com	/	-	Mozilla/4.0	0	8756	200	OK	-	-	-	(empty)	-	-	-	-	-	FRehx11aSOAX1C8kQc	text/html
+1321610569.425502	CmzMO6M5LfXVXEbCf	192.168.83.10	1045	70.38.44.198	80	1	GET	adinout.com	/s/index.php?cmd=getgrab	-	Mozilla/4.0	0	362500	200	OK	-	-	-	(empty)	-	-	-	-	-	F0iPkp2Ebt1CrUmBQc	audio/x-hx-aac-adts
+1321610570.042892	CzgjIW1Mq5so2lT6Yi	192.168.83.10	1046	70.38.44.198	80	1	POST	adinout.com	/s/index.php	-	Mozilla/4.0	38	0	200	OK	-	-	-	(empty)	-	-	-	FZFaHI2or5y3QEbQe4	text/plain	-	-
+1321610572.338117	CAi7H3Dsvv7Lzht26	192.168.83.10	1047	70.38.44.198	80	1	GET	adinout.com	/s/index.php?cmd=getload&login=73EB7C44AE36447DF&sel=77777&ver=5.1&bits=0	-	Mozilla/4.0	0	4	200	OK	-	-	-	(empty)	-	-	-	-	-	F8eVqw4ECdIT8vXp5d	text/plain
+1321610572.517185	CbFkLO2JM3CkbywI34	192.168.83.10	1048	70.38.44.198	80	1	GET	adinout.com	/s/index.php?cmd=getload&login=73EB7C44AE36447DF&sel=77777&ver=5.1&bits=0&file=0	-	Mozilla/4.0	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1321610572.848924	CWebCp42cKihD1rilc	192.168.83.10	1049	70.38.44.195	80	1	GET	thepornvideos.de.ms	/movies/25.exe	-	Mozilla/4.0	0	1996800	200	OK	-	-	-	(empty)	-	-	-	-	-	F4H7114q39hb3zW7sa	application/x-dosexec
+1321610574.571379	Cixxmt1EImMiIQmJOj	192.168.83.10	1050	70.38.44.198	80	1	GET	adinout.com	/s/index.php?cmd=getload&login=73EB7C44AE36447DF&sel=77777&ver=5.1&bits=0&file=0&run=ok	-	Mozilla/4.0	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1321610575.729426	Clf8b31pLq10BmiHGa	192.168.83.10	1051	70.38.44.198	80	1	GET	adinout.com	/s/index.php?cmd=getload&login=73EB7C44AE36447DF&sel=77777&ver=5.1&bits=0&file=1	-	Mozilla/4.0	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1321610575.863415	CsnXYZ2bRYQU2cT5Q1	192.168.83.10	1052	70.38.44.195	80	1	GET	thepornvideos.de.ms	/movies/ic.exe	-	Mozilla/4.0	0	185856	200	OK	-	-	-	(empty)	-	-	-	-	-	FKR2p96sJGPl3MmHj	application/x-dosexec
+1321610576.252255	CD3IkI37yeD0aft5Yk	192.168.83.10	1053	70.38.44.198	80	1	GET	adinout.com	/s/index.php?cmd=getload&login=73EB7C44AE36447DF&sel=77777&ver=5.1&bits=0&file=1&run=ok	-	Mozilla/4.0	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1321610578.451412	Ck9xsNVMyVDGz7Fud	192.168.83.10	1064	70.38.44.198	80	1	GET	adinout.com	/s/index.php?cmd=getload&login=73EB7C44AE36447DF&sel=77777&ver=5.1&bits=0&file=r	-	Mozilla/4.0	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1321610604.523035	Ccd1Os16I5FFKJ0gpl	192.168.83.10	1213	74.125.47.147	80	1	GET	google.com	/	-	chrome/9.0	0	219	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FoluKr46Zwy3pv4Br7	text/html
+1321610604.597634	CevaKr3TkjzNndjWV	192.168.83.10	1212	74.125.47.99	80	1	GET	google.com	/	-	chrome/9.0	0	219	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FTDPXq18ty9Z1BdQBc	text/html
+1321610604.570452	CjCwU83tID5eZmt1A8	192.168.83.10	1210	199.7.48.190	80	1	GET	crl.verisign.com	/pca3.crl	-	Microsoft-CryptoAPI/5.131.2600.2180	0	898	200	OK	-	-	-	(empty)	-	-	-	-	-	FFwQfR3nRo5Mp3JO4i	binary
+1321610604.783867	CpqxXD4kJIM0zJDts6	192.168.83.10	1214	199.7.48.190	80	1	GET	CSC3-2004-crl.verisign.com	/CSC3-2004.crl	-	Microsoft-CryptoAPI/5.131.2600.2180	0	96089	200	OK	-	-	-	(empty)	-	-	-	-	-	FeKOJo2mpKHL3UVkx8	binary
+1321610606.723597	CR9lUo26cs7hYDwRA4	192.168.83.10	1216	69.77.188.103	80	1	GET	browsermmorpg.com	/images/cpc2.png?pr=gHZutDyMv5rJejPia9nrmsl6giWz+JZbVyA=	-	chrome/9.0	0	509	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Fu7HS23i88UjQXnOZg	text/html
+1321610606.82026	CiFpVh4dyvpckZmiNc	192.168.83.10	1215	62.212.66.148	80	1	GET	onlinereportsystem.com	/r.php?fax=d72&os=xp&vl=msd&id=6575&hwid=002018EBCA5378144B1E&ver=15&p=2&av=none&wd=0&ad=1	-	chrome/9.0	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1321610626.440336	CFp3tnRfuePJlQvUd	192.168.83.10	1218	85.25.95.142	80	1	GET	renamesys5.com	/logo.png?tq=gKZEtzoYwLzEvUb5dQzRsrCqD/cvTca3l74EgC5OjrPGpgfib1XGp5zpRPksUt+A/gSoSEU=&pr=41	-	chrome/9.0	0	174088	200	OK	-	-	-	(empty)	-	-	-	-	-	FovL5X1STYnDEGhupb	binary
+#close	2014-04-03-10-10-59

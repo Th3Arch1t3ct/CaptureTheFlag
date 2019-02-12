@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-51-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1329848094.700398	CGlC432hLZWJsOIB98	192.168.26.10	1029	4.2.2.3	53	udp	34453	youngoldnaked.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	146.185.18.51	43182.000000	F
+1329848094.889317	CGlC432hLZWJsOIB98	192.168.26.10	1029	4.2.2.3	53	udp	6550	eromeo.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.168.178.70	30.000000	F
+1329848133.264707	CWIgh3HDvZm8GNwXb	192.168.26.10	1029	4.2.2.3	53	udp	64407	pipeboys.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	75.125.251.122	37434.000000	F
+1329848133.778781	CWIgh3HDvZm8GNwXb	192.168.26.10	1029	4.2.2.3	53	udp	43921	oneathleticmom.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	72.167.207.74	3600.000000	F
+#close	2014-04-03-09-51-11

@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-11-08-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1343663059.334034	Ci0J44FLxHnvnN0B2	192.168.54.10	1037	94.242.199.78	80	tcp	http	0.793520	299	2703	SF	-	0	ShADadFf	6	547	5	2911	(empty)
+1343663063.054432	CYBwKN3oUoxwjJji94	192.168.54.10	1038	94.242.199.78	80	tcp	http	6.171097	226	970	RSTO	-	0	ShADadR	5	434	3	1098	(empty)
+1343663055.884665	CCeRuq3EBZwfEEdsFl	192.168.54.10	1030	94.242.199.78	80	tcp	http	13.341035	6826	307602	RSTO	-	0	ShADadR	166	13474	224	316570	(empty)
+1343663056.9796	CsZNlhWUlXpLpJ88j	192.168.54.10	1031	94.242.199.78	80	tcp	http	12.246227	5128	103581	RSTO	-	0	ShADadR	70	7936	85	106989	(empty)
+1343663058.078067	CwoOdQNkFRGSW032i	192.168.54.10	1032	92.48.127.154	80	tcp	http	11.147887	10978	44924	RSTO	-	0	ShADadR	54	13146	46	46772	(empty)
+1343663055.879788	C42wmO2EfgbWqu8wb6	192.168.54.10	1029	4.2.2.3	53	udp	dns	7.387065	175	219	SF	-	0	Dd	5	315	4	331	(empty)
+1343663075.598671	CSB4n84eHtdOPouAie	192.168.54.10	1041	94.242.199.69	80	tcp	http	0.295891	252	364	SF	-	0	ShADadFf	5	460	4	532	(empty)
+1343663075.932761	CaZJez10oG1WBuNPlb	192.168.54.10	1042	77.232.85.104	80	tcp	-	2.974008	0	0	S0	-	0	S	2	96	0	0	(empty)
+1343663061.205374	Cg2qbl43SL6pImJec5	192.168.54.10	1029	4.2.2.5	53	udp	dns	14.724788	195	379	SF	-	0	Dd	6	363	6	547	(empty)
+1343663084.969921	CkLdcb2dF0DyyaDIKb	192.168.54.10	1042	77.232.85.104	80	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+1343663040.396152	CO4PSm35sS4DK7T2N8	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000711	626	0	S0	-	0	D	2	682	0	0	(empty)
+1343663097.051545	CCiazg2ZfWAvypEzCe	192.168.54.10	1043	77.232.85.104	80	tcp	-	2.948949	0	0	S0	-	0	S	2	96	0	0	(empty)
+1343663106.016882	CWT6BD14FOTOxcB2p5	192.168.54.10	1043	77.232.85.104	80	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+1343663040.396488	CaRqwJ2OsTwxq2V6a9	192.168.54.10	68	192.168.54.1	67	udp	dhcp	12.367065	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1343663118.095577	Cgm7JL3ERecSs4Ywq2	192.168.54.10	1044	77.232.85.104	80	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+1343663068.880883	C2MwXz3sqpBNXGpuC1	192.168.54.10	1040	94.242.199.69	80	tcp	http	21.301982	289	177279	S3	-	0	ShADadf	95	4557	126	182327	(empty)
+1343663058.322894	Cg8mCBzf7ua4rnqFk	192.168.54.10	1035	239.255.255.250	1900	udp	-	6.131385	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-11-08-14

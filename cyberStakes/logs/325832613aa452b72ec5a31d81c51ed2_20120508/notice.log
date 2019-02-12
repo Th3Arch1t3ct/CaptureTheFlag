@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-39-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1336498135.708536	C9TWG5Fn0eaZbABg	192.168.62.10	1057	37.59.198.60	80	F5dJYT2hzQSfS60zG	application/x-dosexec	http://abcforest.org/?d1b0f78b93d6e24f0f8673c70dbf85f5	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-05-10 11:05:27	https://www.virustotal.com/en/search/?query=70f5695728f79f7b82fcaa4afef4185d4905a434	192.168.62.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336498137.321623	Cu7mgr1sT7vBEjrC7c	192.168.62.10	1059	37.59.198.60	80	FwmwZS1KeiBpbHtmh	application/x-dosexec	http://abcforest.org/?63ba5259907116121953c1af7791e2f1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-05-10 14:37:09	https://www.virustotal.com/en/search/?query=a8831908c74d20a0ff18d38e5182e4727a51447b	192.168.62.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336498137.71276	CbBwp6elik5uCK1c6	192.168.62.10	1060	37.59.198.60	80	FIJSWd2j8mSiCzypod	application/x-dosexec	http://abcforest.org/?367a92c9bbe610d4976e82e8646e99ab	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-05-10 15:40:25	https://www.virustotal.com/en/search/?query=b91047bd26242f034e0a8a2138612cf3c45045db	192.168.62.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-39-49

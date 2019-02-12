@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-27-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1340936031.03708	CgaJKB1jV1hMdJJEBj	192.168.4.10	1029	4.2.2.3	53	udp	9867	frcitrus.co.za	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	41.204.200.110	7174.000000	F
+1340936032.564357	CvnPvz3O2mzQ0rOxF9	192.168.4.10	1029	4.2.2.5	53	udp	3210	hecrery.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	165.194.43.61	0.000000	F
+1340936033.339256	CvnPvz3O2mzQ0rOxF9	192.168.4.10	1029	4.2.2.5	53	udp	6026	vesuqpu.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	190.164.178.20	0.000000	F
+1340936031.571403	CgaJKB1jV1hMdJJEBj	192.168.4.10	1029	4.2.2.3	53	udp	3210	hecrery.ru	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1340936061.602616	C4kbrpvOg5k7e4Uee	192.168.4.10	1029	4.2.2.3	53	udp	3210	-	-	-	-	-	2	SERVFAIL	F	F	F	F	0	-	-	T
+#close	2014-04-03-10-27-13

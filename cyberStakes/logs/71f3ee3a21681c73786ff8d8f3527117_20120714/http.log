@@ -1,0 +1,33 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-37-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1342292926.302932	CUwElA4sLis8CBKW7	192.168.85.10	1030	94.102.216.162	80	1	GET	klie24.de	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1023	200	OK	-	-	-	(empty)	-	-	-	-	-	FHw7sa4JWUCHoch6S	text/html
+1342292926.874152	Cy0Wnd2umXcWDNIP4c	192.168.85.10	1031	83.169.61.41	80	1	GET	www.naturzeit.com	/default.php	http://klie24.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1342292927.683254	Cuqla63KiS3sA01x5	192.168.85.10	1032	79.96.63.212	80	1	GET	kibpboim.tk	/36654425.html	http://klie24.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	12321	200	OK	-	-	-	(empty)	-	-	-	-	-	FWpthB2rdlDuogMbIc	text/html
+1342292928.37333	Cuqla63KiS3sA01x5	192.168.85.10	1032	79.96.63.212	80	2	GET	kibpboim.tk	/98765.pdf	http://kibpboim.tk/36654425.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5114	200	OK	-	-	-	(empty)	-	-	-	-	-	F4xDrDcLPAUlXN3q6	application/pdf
+1342292956.078091	Cuqla63KiS3sA01x5	192.168.85.10	1032	79.96.63.212	80	3	GET	kibpboim.tk	/2.html	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	22016	200	OK	-	-	-	(empty)	-	-	-	-	-	FJpsES2EVlFwfx91Ka	application/x-dosexec
+1342292959.546587	CFWAMt4VjSH6en4Pb	192.168.85.10	1037	79.96.63.212	80	1	GET	kibpboim.tk	/33256.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11042	200	OK	-	-	-	(empty)	-	-	-	-	-	FGq0TOGGUrgxrYKsg	application/jar
+1342292963.713364	CkgG6x4DhlxDMat1d8	192.168.85.10	1038	98.131.38.197	80	1	GET	onecanhelp.org	/732853.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	179200	200	OK	-	-	-	(empty)	-	-	-	-	-	Fkdg7w45QwiUEnCDHj	binary
+1342292965.722781	CkgG6x4DhlxDMat1d8	192.168.85.10	1038	98.131.38.197	80	2	GET	onecanhelp.org	/732853.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	189440	200	OK	-	-	-	(empty)	-	-	-	-	-	FRC91K1DKsz0MTzOC2	binary
+1342292967.341509	CkgG6x4DhlxDMat1d8	192.168.85.10	1038	98.131.38.197	80	3	GET	onecanhelp.org	/732853.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	367616	200	OK	-	-	-	(empty)	-	-	-	-	-	FgswSQ31laNS5WmoFe	binary
+1342292969.628818	CkgG6x4DhlxDMat1d8	192.168.85.10	1038	98.131.38.197	80	4	GET	onecanhelp.org	/732853.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	138752	200	OK	-	-	-	(empty)	-	-	-	-	-	FBpchi43QUx4hkEYb	binary
+1342292971.095625	CkgG6x4DhlxDMat1d8	192.168.85.10	1038	98.131.38.197	80	5	GET	onecanhelp.org	/732853.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	176128	200	OK	-	-	-	(empty)	-	-	-	-	-	FGBR154yZbOaxaz9z1	binary
+1342292972.601302	CkgG6x4DhlxDMat1d8	192.168.85.10	1038	98.131.38.197	80	6	GET	onecanhelp.org	/732853.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	359377	200	OK	-	-	-	(empty)	-	-	-	-	-	FV6maE1eocJSOAu2f4	binary
+1342292974.821922	CkgG6x4DhlxDMat1d8	192.168.85.10	1038	98.131.38.197	80	7	GET	onecanhelp.org	/732853.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	666	200	OK	-	-	-	(empty)	-	-	-	-	-	FUGMRWwLw0yECQcG8	binary
+1342292983.60314	CoRkec3na0ByxGGCP7	192.168.85.10	1043	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	29	200	OK	-	-	-	(empty)	-	-	-	-	-	Fq48XJ1u4yNgtXWpt1	text/plain
+1342292983.9853	CAVkOj2WI3OXeSpnol	192.168.85.10	1044	213.108.252.185	80	1	GET	bigfatcounters.com	/5699017-3C912481A04E584CDF231C519E1DF857/counter.img?theme=1&digits=10&siteId=603	-	Opera/9 (Windows NT 5.1; US; x86)	0	2388	200	OK	-	-	-	(empty)	-	-	-	-	-	FA4XrM2LR87feeaTwj	image/jpeg
+1342292983.992128	ClN0Dm2wXIGX4BDk0a	192.168.85.10	1046	213.108.252.185	80	1	GET	bigfatcounters.com	/5699017-3C912481A04E584CDF231C519E1DF857/counter.img?theme=2&digits=10&siteId=724	-	Opera/9 (Windows NT 5.1; US; x86)	0	2268	200	OK	-	-	-	(empty)	-	-	-	-	-	FAZRzu26GdlIpMWxTl	image/jpeg
+1342292984.115251	C79lqX3AiCB5rq0yC9	192.168.85.10	1048	213.108.252.185	80	1	GET	bigfatcounters.com	/5699017-3C912481A04E584CDF231C519E1DF857/counter.img?theme=3&digits=10&siteId=734	-	Opera/9 (Windows NT 5.1; US; x86)	0	2205	200	OK	-	-	-	(empty)	-	-	-	-	-	FnTtIg4AE5riWDdHT8	image/jpeg
+1342292984.121645	CokoK04VCUhSp1eHne	192.168.85.10	1052	213.108.252.185	80	1	GET	bigfatcounters.com	/5699017-3C912481A04E584CDF231C519E1DF857/counter.img?theme=5&digits=10&siteId=623	-	Opera/9 (Windows NT 5.1; US; x86)	0	1619	200	OK	-	-	-	(empty)	-	-	-	-	-	FXODn747AkqXs4KsLk	image/jpeg
+1342292984.119667	CLadrA1Rxr0mbYqi0e	192.168.85.10	1050	213.108.252.185	80	1	GET	bigfatcounters.com	/5699017-3C912481A04E584CDF231C519E1DF857/counter.img?theme=4&digits=10&siteId=604	-	Opera/9 (Windows NT 5.1; US; x86)	0	2145	200	OK	-	-	-	(empty)	-	-	-	-	-	F7kIK81q0afJLeinE8	image/jpeg
+1342292983.63108	ClydYr4NUY52oJDkz	192.168.85.10	1042	112.121.178.189	80	1	GET	112.121.178.189	/api/urls/?ts=71dc2917&affid=56300	-	(empty)	0	65	200	OK	-	-	-	(empty)	-	-	-	-	-	F85ZNbPAgbfpo4ps5	text/plain
+1342292986.146757	CxUBOhBIrgQimkyn6	192.168.85.10	1056	213.108.252.185	80	1	GET	bigfatcounters.com	/5699017-3C912481A04E584CDF231C519E1DF857/counter.img?theme=6&digits=10&siteId=624	-	Opera/9 (Windows NT 5.1; US; x86)	0	1771	200	OK	-	-	-	(empty)	-	-	-	-	-	FoVnkZ1QXvgw31bq3	image/jpeg
+1342292986.375745	CC5Z4VDnVALvlw6ah	192.168.85.10	1059	213.108.252.185	80	1	GET	bigfatcounters.com	/5699017-3C912481A04E584CDF231C519E1DF857/counter.img?theme=7&digits=10&siteId=633	-	Opera/9 (Windows NT 5.1; US; x86)	0	1489	200	OK	-	-	-	(empty)	-	-	-	-	-	FNHOCAYGUWM3JNGXd	image/jpeg
+1342292986.404656	C8HCNX11x4nAIYKnMg	192.168.85.10	1062	213.108.252.185	80	1	GET	bigfatcounters.com	/5699017-3C912481A04E584CDF231C519E1DF857/counter.img?theme=8&digits=10&siteId=634	-	Opera/9 (Windows NT 5.1; US; x86)	0	1536	200	OK	-	-	-	(empty)	-	-	-	-	-	Fh2Urr7qL6QA8dTzc	image/jpeg
+1342292984.673943	CZiuP54b54WF1DAiC3	192.168.85.10	1054	195.210.47.239	80	1	GET	oppoconditions.cu.cc	/f/notepad.exe?ts=71dc2917&affid=5630	-	(empty)	0	210432	200	OK	-	-	-	(empty)	-	-	-	-	-	FUTXLi1y9gx7M8YKa3	application/x-dosexec
+#close	2014-04-03-10-37-56

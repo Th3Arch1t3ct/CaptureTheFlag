@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-49-28
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1374920228.401151	CxMp0z13OAx4wmlD25	192.168.3.10	1035	4.2.2.3	53	udp	48271	win7zip.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	54.214.15.30	32.000000	F
+1374920228.475806	CxMp0z13OAx4wmlD25	192.168.3.10	1035	4.2.2.3	53	udp	21902	www.win7zip.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	win7zip.com,54.214.15.30	272.000000,32.000000	F
+1374920228.630376	CxMp0z13OAx4wmlD25	192.168.3.10	1035	4.2.2.3	53	udp	60557	www.webpagescripts.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	webpagescripts.net,54.245.121.59	1800.000000,60.000000	F
+1374920228.725931	CxMp0z13OAx4wmlD25	192.168.3.10	1035	4.2.2.3	53	udp	39307	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.224.161,74.125.224.174,74.125.224.165,74.125.224.162,74.125.224.160,74.125.224.164,74.125.224.167,74.125.224.166,74.125.224.168,74.125.224.169,74.125.224.163	21994.000000,151.000000,151.000000,151.000000,151.000000,151.000000,151.000000,151.000000,151.000000,151.000000,151.000000,151.000000	F
+1374920229.057765	CxMp0z13OAx4wmlD25	192.168.3.10	1035	4.2.2.3	53	udp	53642	reports.amonetize.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	76.9.4.18	1800.000000	F
+1374920235.353721	CxMp0z13OAx4wmlD25	192.168.3.10	1035	4.2.2.3	53	udp	42633	www.amoninst.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ils-front-balancer-1422728235.us-east-1.elb.amazonaws.com,23.21.40.49	1800.000000,60.000000	F
+#close	2014-04-03-09-49-28

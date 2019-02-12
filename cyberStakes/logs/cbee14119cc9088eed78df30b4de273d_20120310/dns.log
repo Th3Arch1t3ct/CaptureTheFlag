@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-41-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1331340575.835773	CfTv7MGNgnuigLSnk	192.168.64.10	1029	4.2.2.3	53	udp	18317	miaminewtimes.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.235.245.149	278.000000	F
+1331340575.938494	CfTv7MGNgnuigLSnk	192.168.64.10	1029	4.2.2.3	53	udp	36751	www.miaminewtimes.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	vvoice-1.vo.llnwd.net,69.164.10.161,69.164.10.214	278.000000,328.000000,328.000000	F
+1331340576.248959	CfTv7MGNgnuigLSnk	192.168.64.10	1029	4.2.2.3	53	udp	62095	assets.miaminewtimes.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	vvoice-1.vo.llnwd.net,69.164.10.214,69.164.10.161	300.000000,327.000000,327.000000	F
+1331340576.46913	CfTv7MGNgnuigLSnk	192.168.64.10	1029	4.2.2.3	53	udp	23694	oascentral.miaminewtimes.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	oasc04004.247realmedia.com,oasc08a.247realmedia.com,oasc12a.247realmedia.com,208.71.125.69	300.000000,300.000000,300.000000,246.000000	F
+1331340576.586981	CfTv7MGNgnuigLSnk	192.168.64.10	1029	4.2.2.3	53	udp	6536	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.47.139,74.125.47.100,74.125.47.101,74.125.47.102,74.125.47.113,74.125.47.138	16864.000000,260.000000,260.000000,260.000000,260.000000,260.000000,260.000000	F
+1331340576.60145	CfTv7MGNgnuigLSnk	192.168.64.10	1029	4.2.2.3	53	udp	57994	imagec12.247realmedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	imagec12.247realmedia.com.edgesuite.net,a1498.w3.akamai.net,192.204.3.26,192.204.3.41	169.000000,204.000000,20.000000,20.000000	F
+1331340576.615887	CfTv7MGNgnuigLSnk	192.168.64.10	1029	4.2.2.3	53	udp	56452	media.miaminewtimes.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	vvoice-1.vo.llnwd.net,69.164.10.161,69.164.10.214	300.000000,327.000000,327.000000	F
+1331340576.63799	CfTv7MGNgnuigLSnk	192.168.64.10	1029	4.2.2.3	53	udp	60548	blogs.miaminewtimes.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	vvoice-2.vo.llnwd.net,69.164.9.55,208.111.185.209	300.000000,350.000000,350.000000	F
+1331340576.72811	CfTv7MGNgnuigLSnk	192.168.64.10	1029	4.2.2.3	53	udp	24196	statimps.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.93.18.196	3600.000000	F
+1331340577.473952	CfTv7MGNgnuigLSnk	192.168.64.10	1029	4.2.2.3	53	udp	47494	jnejbvcs.nl.ai	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.200.176.24	3600.000000	F
+#close	2014-04-03-10-41-56

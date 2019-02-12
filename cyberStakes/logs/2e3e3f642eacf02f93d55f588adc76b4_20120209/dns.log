@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-27-41
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1328814077.723097	CWG2b94I7TlF5UJDCi	192.168.89.10	1029	4.2.2.3	53	udp	50573	thedirtdepot.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.31.14.26	14377.000000	F
+1328814078.564433	CWG2b94I7TlF5UJDCi	192.168.89.10	1029	4.2.2.3	53	udp	48269	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.45.113,74.125.45.138,74.125.45.139,74.125.45.100,74.125.45.101,74.125.45.102	37712.000000,149.000000,149.000000,149.000000,149.000000,149.000000,149.000000	F
+1328814078.56966	CWG2b94I7TlF5UJDCi	192.168.89.10	1029	4.2.2.3	53	udp	37517	kcvxolsvuvj.ddns.name	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.59.74.146	31.000000	F
+1328814089.988595	CzOFvM1hixSLvtjvG5	192.168.89.10	1029	4.2.2.3	53	udp	17036	spgryerwomq.ddns.name	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.59.74.146	31.000000	F
+#close	2014-04-03-10-27-41

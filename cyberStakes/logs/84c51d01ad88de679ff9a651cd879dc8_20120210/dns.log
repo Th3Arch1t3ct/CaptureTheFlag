@@ -1,0 +1,32 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-59-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1328837812.570583	C0v8yDLMorCTAQPnf	192.168.85.10	1029	4.2.2.3	53	udp	19855	herbertandcridan.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.104.65.194	43183.000000	F
+1328837812.949908	C0v8yDLMorCTAQPnf	192.168.85.10	1029	4.2.2.3	53	udp	30348	sexfunxcash.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.190.98.79	3600.000000	F
+1328837839.29795	C29vXX212NpHwPN9s4	192.168.85.10	1029	4.2.2.5	53	udp	31373	usagetorrenen.com	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1328837842.65804	C29vXX212NpHwPN9s4	192.168.85.10	1029	4.2.2.5	53	udp	31373	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328837846.969856	C29vXX212NpHwPN9s4	192.168.85.10	1029	4.2.2.5	53	udp	31373	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328837855.896974	C29vXX212NpHwPN9s4	192.168.85.10	1029	4.2.2.5	53	udp	2699	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328837858.9538	C29vXX212NpHwPN9s4	192.168.85.10	1029	4.2.2.5	53	udp	2699	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328837863.156775	C29vXX212NpHwPN9s4	192.168.85.10	1029	4.2.2.5	53	udp	2699	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328837875.345655	C29vXX212NpHwPN9s4	192.168.85.10	1029	4.2.2.5	53	udp	21643	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328837878.375713	C29vXX212NpHwPN9s4	192.168.85.10	1029	4.2.2.5	53	udp	21643	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328837882.459409	C29vXX212NpHwPN9s4	192.168.85.10	1029	4.2.2.5	53	udp	21643	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328837838.282066	C3MaoX4WAbnuk2akc	192.168.85.10	1029	4.2.2.3	53	udp	31373	usagetorrenen.com	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1328837840.352027	C3MaoX4WAbnuk2akc	192.168.85.10	1029	4.2.2.3	53	udp	31373	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328837842.657804	C3MaoX4WAbnuk2akc	192.168.85.10	1029	4.2.2.3	53	udp	31373	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328837846.969546	C3MaoX4WAbnuk2akc	192.168.85.10	1029	4.2.2.3	53	udp	31373	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328837854.89822	C3MaoX4WAbnuk2akc	192.168.85.10	1029	4.2.2.3	53	udp	2699	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328837856.892103	C3MaoX4WAbnuk2akc	192.168.85.10	1029	4.2.2.3	53	udp	2699	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328837858.953585	C3MaoX4WAbnuk2akc	192.168.85.10	1029	4.2.2.3	53	udp	2699	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328837863.156602	C3MaoX4WAbnuk2akc	192.168.85.10	1029	4.2.2.3	53	udp	2699	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328837874.348893	C3MaoX4WAbnuk2akc	192.168.85.10	1029	4.2.2.3	53	udp	21643	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328837876.344647	C3MaoX4WAbnuk2akc	192.168.85.10	1029	4.2.2.3	53	udp	21643	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328837878.375526	C3MaoX4WAbnuk2akc	192.168.85.10	1029	4.2.2.3	53	udp	21643	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328837882.459226	C3MaoX4WAbnuk2akc	192.168.85.10	1029	4.2.2.3	53	udp	21643	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+#close	2014-04-03-09-59-31

@@ -1,0 +1,49 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-16-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1340824175.444125	C80Ahe2LGgiylnxBg3	192.168.58.10	1030	81.169.145.71	80	1	GET	www.lili-fit.de	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5644	200	OK	-	-	-	(empty)	-	-	-	-	-	FRF0Dx38AOat2OzzUj	text/html
+1340824175.689376	C80Ahe2LGgiylnxBg3	192.168.58.10	1030	81.169.145.71	80	2	GET	www.lili-fit.de	/style.css	http://www.lili-fit.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5306	200	OK	-	-	-	(empty)	-	-	-	-	-	FLBFnX1Tw1p1yoxJG9	text/plain
+1340824175.975257	C80Ahe2LGgiylnxBg3	192.168.58.10	1030	81.169.145.71	80	3	GET	www.lili-fit.de	/images/Lilifit_DSC0073_023.jpg	http://www.lili-fit.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	92136	200	OK	-	-	-	(empty)	-	-	-	-	-	Fywunc4IzZs9xkKHka	image/jpeg
+1340824176.461023	C80Ahe2LGgiylnxBg3	192.168.58.10	1030	81.169.145.71	80	4	GET	www.lili-fit.de	/images/topbg.gif	http://www.lili-fit.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1546	200	OK	-	-	-	(empty)	-	-	-	-	-	FvFXqO3Gbd7hiSV8Hc	image/gif
+1340824176.049046	CWL7Fq4NnKbw073AEl	192.168.58.10	1031	97.79.238.227	80	1	GET	www.lifeshiftdevelopment.com	/stats.php	http://www.lili-fit.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1340824176.585046	C80Ahe2LGgiylnxBg3	192.168.58.10	1030	81.169.145.71	80	5	GET	www.lili-fit.de	/images/navbar-bg.gif	http://www.lili-fit.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	861	200	OK	-	-	-	(empty)	-	-	-	-	-	FSVQUC4dUFTDgJZ0F9	image/gif
+1340824176.712049	C80Ahe2LGgiylnxBg3	192.168.58.10	1030	81.169.145.71	80	6	GET	www.lili-fit.de	/images/body-bg.gif	http://www.lili-fit.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3834	200	OK	-	-	-	(empty)	-	-	-	-	-	FBqsKFJzT4qT7mGie	image/gif
+1340824176.735783	CCeFn033MvKZg5kHAe	192.168.58.10	1033	37.157.255.30	80	1	GET	37.157.255.30	/67433516.html	http://www.lili-fit.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	12207	200	OK	-	-	-	(empty)	-	-	-	-	-	Feyhyu32n0YJZ6nMRj	text/html
+1340824176.838993	C80Ahe2LGgiylnxBg3	192.168.58.10	1030	81.169.145.71	80	7	GET	www.lili-fit.de	/images/navbar-left.gif	http://www.lili-fit.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1170	200	OK	-	-	-	(empty)	-	-	-	-	-	FsByyl1y3j3zrCnSxe	image/gif
+1340824177.04854	C80Ahe2LGgiylnxBg3	192.168.58.10	1030	81.169.145.71	80	8	GET	www.lili-fit.de	/images/navbar-divider.gif	http://www.lili-fit.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	899	200	OK	-	-	-	(empty)	-	-	-	-	-	FycHpU3FnFBy9Rh1C1	image/gif
+1340824177.198203	C80Ahe2LGgiylnxBg3	192.168.58.10	1030	81.169.145.71	80	9	GET	www.lili-fit.de	/images/navbar-right.gif	http://www.lili-fit.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1170	200	OK	-	-	-	(empty)	-	-	-	-	-	FDozF21VhovTAoLmwk	image/gif
+1340824177.316353	C80Ahe2LGgiylnxBg3	192.168.58.10	1030	81.169.145.71	80	10	GET	www.lili-fit.de	/images/header.jpg	http://www.lili-fit.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	50886	200	OK	-	-	-	(empty)	-	-	-	-	-	FxhRUh18rDgEtVKY42	image/jpeg
+1340824177.543242	C80Ahe2LGgiylnxBg3	192.168.58.10	1030	81.169.145.71	80	11	GET	www.lili-fit.de	/images/footer-div.gif	http://www.lili-fit.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	928	200	OK	-	-	-	(empty)	-	-	-	-	-	FO14m519dn8ZO4Ith5	image/gif
+1340824177.618636	CCeFn033MvKZg5kHAe	192.168.58.10	1033	37.157.255.30	80	2	GET	37.157.255.30	/98765.pdf	http://37.157.255.30/67433516.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	41367	200	OK	-	-	-	(empty)	-	-	-	-	-	F0hsxn34a8AhMLfFad	application/pdf
+1340824176.082947	CevfONzuIMSBTi9W9	192.168.58.10	1032	81.169.145.71	80	1	GET	www.lili-fit.de	/images/Lilienfein_HG.jpg	http://www.lili-fit.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	397591	200	OK	-	-	-	(empty)	-	-	-	-	-	Fx91QsHe6jZfvrfoi	image/jpeg
+1340824186.258639	CCt1MZ2iOFcD6MkQXe	192.168.58.10	1038	37.157.255.30	80	1	GET	37.157.255.30	/55993.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	76321	200	OK	-	-	-	(empty)	-	-	-	-	-	FoXTc11Bej2AfyXpRa	application/zip
+1340824186.747957	CCt1MZ2iOFcD6MkQXe	192.168.58.10	1038	37.157.255.30	80	2	GET	37.157.255.30	/55993.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	76321	200	OK	-	-	-	(empty)	-	-	-	-	-	Fs9PCv297Q2HfZMbJl	application/zip
+1340824187.686341	CCt1MZ2iOFcD6MkQXe	192.168.58.10	1038	37.157.255.30	80	3	GET	37.157.255.30	/55993.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	76321	200	OK	-	-	-	(empty)	-	-	-	-	-	F9Tpe52bre0G93I7ea	application/zip
+1340824188.775801	CCt1MZ2iOFcD6MkQXe	192.168.58.10	1038	37.157.255.30	80	4	GET	37.157.255.30	/1.html	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	36864	200	OK	-	-	-	(empty)	-	-	-	-	-	FfztqhydKK0YSGbvh	application/x-dosexec
+1340824190.920842	CCeFn033MvKZg5kHAe	192.168.58.10	1033	37.157.255.30	80	3	GET	37.157.255.30	/2.html	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	36864	200	OK	-	-	-	(empty)	-	-	-	-	-	FL76pZ1lutflzKbF9c	application/x-dosexec
+1340824194.650037	CW3i8e2g16Ib9HwsT2	192.168.58.10	1039	37.157.255.26	80	1	GET	37.157.255.26	/432909.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	192000	200	OK	-	-	-	(empty)	-	-	-	-	-	FtS1iH1TgUhamiKOFd	binary
+1340824196.107945	CW3i8e2g16Ib9HwsT2	192.168.58.10	1039	37.157.255.26	80	2	GET	37.157.255.26	/432909.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	389120	200	OK	-	-	-	(empty)	-	-	-	-	-	FVsEWY2eSl994AvRD2	binary
+1340824197.01182	CW3i8e2g16Ib9HwsT2	192.168.58.10	1039	37.157.255.26	80	3	GET	37.157.255.26	/432909.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	139776	200	OK	-	-	-	(empty)	-	-	-	-	-	F3rEyy3Faj99SURsq1	binary
+1340824197.503568	CW3i8e2g16Ib9HwsT2	192.168.58.10	1039	37.157.255.26	80	4	GET	37.157.255.26	/432909.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	171008	200	OK	-	-	-	(empty)	-	-	-	-	-	Fh2MWJ2kPoJzT3UEke	binary
+1340824198.170118	CW3i8e2g16Ib9HwsT2	192.168.58.10	1039	37.157.255.26	80	5	GET	37.157.255.26	/432909.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	361984	200	OK	-	-	-	(empty)	-	-	-	-	-	F1xCpOnFcnIqdeqd2	binary
+1340824198.876172	CW3i8e2g16Ib9HwsT2	192.168.58.10	1039	37.157.255.26	80	6	GET	37.157.255.26	/432909.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	79328	200	OK	-	-	-	(empty)	-	-	-	-	-	FpY80q2R5zo4efvhY7	binary
+1340824199.138348	CW3i8e2g16Ib9HwsT2	192.168.58.10	1039	37.157.255.26	80	7	GET	37.157.255.26	/432909.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	666	200	OK	-	-	-	(empty)	-	-	-	-	-	FCnkVHfhxJxrKO9P7	binary
+1340824199.561257	C6gTpOnDE2heAFwV9	192.168.58.10	1041	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	30	200	OK	-	-	-	(empty)	-	-	-	-	-	FEdzpK1i0b0uqq0T5j	text/plain
+1340824199.650378	C27ofq4T10B90dLhFl	192.168.58.10	1044	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=600&c=2&d=7&s=121	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340824199.650248	C47Tv03vXQFflGvFye	192.168.58.10	1042	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=600&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340824199.669714	CEbaX8qWvbBvZQiS	192.168.58.10	1046	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=600&c=3&d=7&s=131	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340824199.671697	CokZiv1W2ECYsdpWe8	192.168.58.10	1048	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=600&c=4&d=7&s=1	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340824199.673532	CqLRfDFPPTT3C2c1	192.168.58.10	1050	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=600&c=5&d=7&s=20	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340824200.05661	CgJwBz1nT1zH6ylfz7	192.168.58.10	1053	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=600&c=6&d=7&s=21	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340824200.072272	CcEnsv1QUHtr9vMYc8	192.168.58.10	1056	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=600&c=7&d=7&s=30	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340824200.084364	COw7w8MMTPFrhJVS	192.168.58.10	1058	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=600&c=8&d=7&s=31	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340824210.746363	Cyl4l419v8xqFip3s8	192.168.58.10	1069	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	28	200	OK	-	-	-	(empty)	-	-	-	-	-	F09ROR2jL3ZLqLHkm	text/plain
+1340824211.566113	CmQnak3Ho0MDvYDROf	192.168.58.10	1070	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=31212032&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340824211.664344	Csc4cf1ggjUdvaS8I6	192.168.58.10	1072	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=31212032&c=2&d=7&s=110	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340824211.722336	CuoVcpKBTgLaogro2	192.168.58.10	1074	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=31212032&c=3&d=7&s=10	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-10-16-24

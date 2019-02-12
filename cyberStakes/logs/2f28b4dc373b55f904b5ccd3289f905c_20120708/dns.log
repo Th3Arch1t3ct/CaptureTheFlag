@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-14-28
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1341709598.301793	CmJilJ3Z7iG5GLx1nj	192.168.120.10	1028	4.2.2.3	53	udp	49795	cimar.pt	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.22.7.5	43181.000000	F
+1341709601.277182	CmJilJ3Z7iG5GLx1nj	192.168.120.10	1028	4.2.2.3	53	udp	13699	coppertect.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.17.94.145	43200.000000	F
+1341709601.879217	CmJilJ3Z7iG5GLx1nj	192.168.120.10	1028	4.2.2.3	53	udp	11394	wwwfogdogcompostinstall.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.127.249.53	1800.000000	F
+1341709604.23506	CmJilJ3Z7iG5GLx1nj	192.168.120.10	1028	4.2.2.3	53	udp	40321	progresseliminates.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.215.62.133	1800.000000	F
+1341709636.533806	CJTjmF2cqLaOw8ycY9	192.168.120.10	1028	4.2.2.3	53	udp	11392	swupmf.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	swupmf.wip4.adobe.com,swupmf.adobe.com.edgesuite.net,a1137.g.akamai.net,192.204.4.43,192.204.4.65	5498.000000,600.000000,6555.000000,20.000000,20.000000	F
+1341709636.604533	CJTjmF2cqLaOw8ycY9	192.168.120.10	1028	4.2.2.3	53	udp	64646	crl.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.wip4.adobe.com,crl.adobe.com.edgesuite.net,a1180.g.akamai.net,192.204.4.10,192.204.4.26	10800.000000,300.000000,21600.000000,20.000000,20.000000	F
+#close	2014-04-03-11-14-28

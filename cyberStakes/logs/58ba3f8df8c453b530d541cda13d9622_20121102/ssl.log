@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-25-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1351851652.419476	Cn2iWh2mZeH2MKbL76	192.168.111.10	1035	67.210.242.251	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.bible.org,OU=Domain Control Validated - RapidSSL(R),OU=See www.rapidssl.com/resources/cps (c)11,OU=GT12711273,O=*.bible.org,C=US,serialNumber=ugZMOhfaoLbDU12uMamMSIRGy9uBdhfq	CN=RapidSSL CA,O=GeoTrust\, Inc.,C=US	1299509403.000000	1362899383.000000	-	-	-	4d86a236a296d5555555555555555552	ok
+1351851653.460309	COc2C3u4EvZWx7Utg	192.168.111.10	1040	67.210.240.91	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.bible.org,OU=Domain Control Validated - RapidSSL(R),OU=See www.rapidssl.com/resources/cps (c)11,OU=GT12711273,O=*.bible.org,C=US,serialNumber=ugZMOhfaoLbDU12uMamMSIRGy9uBdhfq	CN=RapidSSL CA,O=GeoTrust\, Inc.,C=US	1299509403.000000	1362899383.000000	-	-	-	4d86a236a296d5555555555555555552	ok
+1351851653.463985	CGhJeE4xvZSUbN0yDj	192.168.111.10	1041	67.210.240.91	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.bible.org,OU=Domain Control Validated - RapidSSL(R),OU=See www.rapidssl.com/resources/cps (c)11,OU=GT12711273,O=*.bible.org,C=US,serialNumber=ugZMOhfaoLbDU12uMamMSIRGy9uBdhfq	CN=RapidSSL CA,O=GeoTrust\, Inc.,C=US	1299509403.000000	1362899383.000000	-	-	-	4d86a236a296d5555555555555555552	ok
+1351851653.58074	CasunC1NlMJ5TYvIq8	192.168.111.10	1046	67.210.240.91	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	ddaf98435cabf1ef1cfecd45da2565b6f2e7dcd73fbed5cbcacfefa094487f7b	-	-	-	-	-	-	-	-	-
+1351851654.296155	CST0zW2vvv31MsxGp2	192.168.111.10	1049	67.210.240.91	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	ddaf98435cabf1ef1cfecd45da2565b6f2e7dcd73fbed5cbcacfefa094487f7b	-	-	-	-	-	-	-	-	-
+1351851654.322428	CXggsHTLN0Q6kzLgd	192.168.111.10	1051	67.210.240.91	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	ddaf98435cabf1ef1cfecd45da2565b6f2e7dcd73fbed5cbcacfefa094487f7b	-	-	-	-	-	-	-	-	-
+1351851654.38251	C7104Y3nFu5JVHk7R	192.168.111.10	1052	67.210.240.91	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	ddaf98435cabf1ef1cfecd45da2565b6f2e7dcd73fbed5cbcacfefa094487f7b	-	-	-	-	-	-	-	-	-
+1351851654.435192	CpUo8o14pxoLqqjXcl	192.168.111.10	1053	67.210.240.91	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	ddaf98435cabf1ef1cfecd45da2565b6f2e7dcd73fbed5cbcacfefa094487f7b	-	-	-	-	-	-	-	-	-
+1351851654.480441	CD6vIj3pmi7hQytDjc	192.168.111.10	1054	67.210.240.91	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	ddaf98435cabf1ef1cfecd45da2565b6f2e7dcd73fbed5cbcacfefa094487f7b	-	-	-	-	-	-	-	-	-
+1351851655.004581	CKu48L3quyL0ZU3kK9	192.168.111.10	1055	67.210.242.251	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	f59c70a8129c3a5076fc470ae53c6b8841a8ca5b7907b626ce44108ac8a44485	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-25-56

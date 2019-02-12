@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-04-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1329620004.224066	Cza1kH3IT8CDxB5lO8	192.168.119.10	1029	4.2.2.3	53	udp	15757	gottalovexbl.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	206.212.243.114	14379.000000	F
+1329620007.870413	Cza1kH3IT8CDxB5lO8	192.168.119.10	1029	4.2.2.3	53	udp	41871	114.243.212.206.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	bear.xdns2.net	600.000000	F
+1329620007.910648	Cza1kH3IT8CDxB5lO8	192.168.119.10	1029	4.2.2.3	53	udp	14734	bear.xdns2.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	206.212.243.114	14400.000000	F
+1329620019.087416	Cog8jc3VTuGKrHvv89	192.168.119.10	1029	4.2.2.3	53	udp	1929	a.dns107.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.163.40.133	300.000000	F
+1329620019.254677	Cog8jc3VTuGKrHvv89	192.168.119.10	1029	4.2.2.3	53	udp	32907	api.wipmania.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.15.234.7	1148.000000	F
+#close	2014-04-03-11-04-22

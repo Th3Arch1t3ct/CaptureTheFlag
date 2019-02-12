@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-50-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1319229273.829695	ChRfjS3ZyA2Xn9V2T6	192.168.50.10	1029	4.2.2.3	53	udp	25229	vipmedica.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.182.205.29	43179.000000	F
+1319229274.302116	ChRfjS3ZyA2Xn9V2T6	192.168.50.10	1029	4.2.2.3	53	udp	11919	infocenc.com.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	187.73.33.34	3600.000000	F
+1319229274.680432	ChRfjS3ZyA2Xn9V2T6	192.168.50.10	1029	4.2.2.3	53	udp	23432	drhousenews.orge.pl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	221.132.34.184	3600.000000	F
+1319229276.919326	CfGnOH1vvobZnftj7j	192.168.50.10	1038	4.2.2.3	53	udp	10889	counter.yadro.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	88.212.196.77,88.212.196.101,88.212.196.102,88.212.196.103,88.212.196.104,88.212.196.105,88.212.196.66,88.212.196.69	65.000000,65.000000,65.000000,65.000000,65.000000,65.000000,65.000000,65.000000	F
+1319229276.908341	ChRfjS3ZyA2Xn9V2T6	192.168.50.10	1029	4.2.2.3	53	udp	35465	cyclonyz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.17.136.153	43200.000000	F
+#close	2014-04-03-09-50-45

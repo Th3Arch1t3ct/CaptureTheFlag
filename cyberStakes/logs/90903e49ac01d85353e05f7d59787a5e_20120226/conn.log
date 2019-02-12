@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-09-56-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1330283720.678283	Cc86BG3xhIoIiawfb	192.168.49.10	1029	4.2.2.3	53	udp	dns	0.001156	32	48	SF	-	0	Dd	1	60	1	76	(empty)
+1330283734.927556	CazeLR5VHU6ipqRkb	192.168.49.10	1036	65.55.13.243	80	tcp	http	6.292689	495	239	SF	-	0	ShADdFf	6	743	3	367	(empty)
+1330283734.925772	CXS2iB40uFYRa9Of38	192.168.49.10	1029	4.2.2.3	53	udp	dns	3.872046	121	401	SF	-	0	Dd	3	205	3	485	(empty)
+1330283704.141737	Cds4Ta3julBhHLBl11	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000880	626	0	S0	-	0	D	2	682	0	0	(empty)
+1330283704.141974	CM9gUd2kCNAmYTUAt7	192.168.49.10	68	192.168.49.1	67	udp	dhcp	13.068426	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1330283722.179389	CqgVj72isRQmdoNAii	192.168.49.10	1031	210.124.234.101	80	tcp	http	57.227667	6060	590645	RSTO	-	0	ShADdfR	307	18524	416	607293	(empty)
+1330283774.523495	CYkXzj2iBiEPhbWXCi	192.168.49.10	1029	4.2.2.3	53	udp	dns	0.225965	126	411	SF	-	0	Dd	3	210	3	495	(empty)
+1330283720.680485	CNPvjq4DitGU0OQy6	192.168.49.10	1030	210.124.234.101	80	tcp	http	64.372702	9895	2948360	S3	-	0	ShADdf	1367	64991	2043	3031548	(empty)
+1330283738.799996	CmcbcDl0zbYCvYG61	192.168.49.10	1038	192.204.3.42	80	tcp	http	0.004531	299	1812	S1	-	0	ShADad	4	467	4	1980	(empty)
+1330283774.708213	CMvcOJTUBkl0pFjgc	192.168.49.10	1040	199.7.48.190	80	tcp	http	0.036344	182	945	S1	-	0	ShADd	4	350	3	1069	(empty)
+1330283774.750176	C3LHqC4IEquoXP2E2i	192.168.49.10	1041	199.7.48.190	80	tcp	http	0.276418	194	37869	S1	-	0	ShADd	18	922	27	38953	(empty)
+1330283735.134035	CrLdZv4QLK9v8evjS6	192.168.49.10	1037	65.55.13.243	80	tcp	http	0.351097	492	239	S1	-	0	ShADd	4	660	2	327	(empty)
+1330283774.525244	C1nau730t53YpsZiN7	192.168.49.10	1039	168.143.242.114	80	tcp	http	0.129741	749	49319	S1	-	0	ShADad	25	1757	38	50847	(empty)
+1330283722.883979	CLLPp43v9Prv02OIPb	192.168.49.10	1034	239.255.255.250	1900	udp	-	6.041254	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-09-56-46

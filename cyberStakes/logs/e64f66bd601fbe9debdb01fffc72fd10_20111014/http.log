@@ -1,0 +1,30 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-18-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1318565654.413447	C4huZ51K6wL4AqSLW6	192.168.26.10	1030	174.132.171.130	80	1	GET	renovapneus.com.br	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7826	200	OK	-	-	-	(empty)	-	-	-	-	-	FvyyR6Owmt5hlRtI6	text/html
+1318565654.473553	C01KoD4RNVA8P6Jqf5	192.168.26.10	1031	174.132.171.130	80	1	GET	renovapneus.com.br	/_pgtres/stmenu.js	http://renovapneus.com.br/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	23542	200	OK	-	-	-	(empty)	-	-	-	-	-	F1jugi3vSbkzFl8vf8	text/plain
+1318565654.634002	C4huZ51K6wL4AqSLW6	192.168.26.10	1030	174.132.171.130	80	2	GET	renovapneus.com.br	/_pgtres/stcode.js	http://renovapneus.com.br/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	87409	200	OK	-	-	-	(empty)	-	-	-	-	-	FdV5Tn3dKKV4BYp8e9	text/plain
+1318565654.920736	C01KoD4RNVA8P6Jqf5	192.168.26.10	1031	174.132.171.130	80	2	GET	renovapneus.com.br	/images/topo1.jpg	http://renovapneus.com.br/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6800	200	OK	-	-	-	(empty)	-	-	-	-	-	FM9f6D3QHPkNIUYC89	image/jpeg
+1318565655.079622	CMokD99csDdfsnWbh	192.168.26.10	1033	194.219.29.139	80	1	GET	qerfhgkadhsfukhertgrpotgjpoidfg.ce.ms	/main.php?page=b5a87c34230be775	http://renovapneus.com.br/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	308	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FODNsr2hmaNuP0m5pj	text/html
+1318565655.11583	CRQDqE2uJgOL7Tggde	192.168.26.10	1032	89.208.34.116	80	1	GET	microgaftnoipfack.ce.ms	/main.php?page=4ecfff4e4234c726	http://renovapneus.com.br/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	154	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	FpNzCP2Pjd8G2hvad4	text/html
+1318565655.652169	Cv80tR1zEM8VqNhdnh	192.168.26.10	1034	213.123.52.133	80	1	GET	iklrunqsv.org.in	/index.php?src=58&surl=microgaftnoipfack.ce.ms&sport=80&suri=/main.php?page=4ecfff4e4234c726	http://renovapneus.com.br/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1318565656.044989	CBZ5IT1gnFV4cPFWne	192.168.26.10	1035	89.208.34.116	80	1	GET	microgaftnoipfack.ce.ms	/main.php?page=4ecfff4e4234c726	http://renovapneus.com.br/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	93499	200	OK	-	-	-	(empty)	-	-	-	-	-	FYa7Xm20mvZdB1Mtr2	text/html
+1318565666.466957	CBZ5IT1gnFV4cPFWne	192.168.26.10	1035	89.208.34.116	80	2	GET	microgaftnoipfack.ce.ms	/w.php?f=23&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	876544	200	OK	-	-	-	(empty)	-	-	-	-	-	FEbiQe3VWlNr7cXdt	application/x-dosexec
+1318565671.566685	CBZ5IT1gnFV4cPFWne	192.168.26.10	1035	89.208.34.116	80	3	GET	microgaftnoipfack.ce.ms	/content/2ddfp.php?f=23	http://microgaftnoipfack.ce.ms/main.php?page=4ecfff4e4234c726	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	12097	200	OK	-	-	-	(empty)	-	-	-	-	-	FJ4DvXpiFAiDxmH96	application/pdf
+1318565687.808843	CDLOGG2wK554Bpmx77	192.168.26.10	1048	89.208.34.116	80	1	GET	microgaftnoipfack.ce.ms	/content/field.swf	http://renovapneus.com.br/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1320	200	OK	-	-	-	(empty)	-	-	-	-	-	FicguJ1MSgABRW65Gl	application/x-shockwave-flash
+1318565687.879835	CNn86e4ceJF7fRDY9i	192.168.26.10	1045	89.208.34.116	80	1	GET	microgaftnoipfack.ce.ms	/content/field.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5583	200	OK	-	-	-	(empty)	-	-	-	-	-	FcVrIs2lEHFqYeeh87	application/zip
+1318565688.933058	CcxABj2tAbqyrRePkg	192.168.26.10	1053	95.163.88.209	80	1	OPTIONS	95.163.88.209	/	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	166	405	Not Allowed	-	-	-	(empty)	-	-	-	-	-	FTfuYy3zyPUvr3ezUg	text/html
+1318565679.805716	CBZ5IT1gnFV4cPFWne	192.168.26.10	1035	89.208.34.116	80	4	GET	microgaftnoipfack.ce.ms	/w.php?f=23&e=6	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	876544	200	OK	-	-	-	(empty)	-	-	-	-	-	FPMZLu3Jan8rbuuUa6	application/x-dosexec
+1318565690.621109	C7Zanmb1kpvOs4Fma	192.168.26.10	1054	89.208.34.116	80	1	GET	microgaftnoipfack.ce.ms	/w.php?f=23&e=1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	876544	200	OK	-	-	-	(empty)	-	-	-	-	-	Fcfuzj41JoEuw7GAa9	application/x-dosexec
+1318565712.058038	CTP2vW3fKCm1Hadyag	192.168.26.10	1056	31.3.153.147	80	1	GET	520329619	/Main/class.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	162	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FzBXwL3b19DlbgEBlg	text/html
+1318565712.059416	C1HyLb4UAaurVaVJa3	192.168.26.10	1060	31.3.153.147	80	1	GET	520329619	/Main/class.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	162	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FoSXeTsUfgsD7y6y5	text/html
+1318565712.060457	CMaaAv25MU8ZvecTZ4	192.168.26.10	1058	31.3.153.147	80	1	GET	520329619	/Main/class.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	162	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FSJE0Q1HezOUodOKpk	text/html
+1318565712.060817	Cg3Ieh2BsOQ5qgLOh6	192.168.26.10	1059	31.3.153.147	80	1	GET	520329619	/Main/class.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	162	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F59T6lGxJzmDfPgD6	text/html
+1318565712.065547	C1mG3koViFdjERCZh	192.168.26.10	1057	31.3.153.147	80	1	GET	520329619	/Main/class.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	162	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Fetbxa3X71NZhkBfF6	text/html
+1318565712.067311	CY3ERp35J0gjp4qQwa	192.168.26.10	1055	31.3.153.147	80	1	GET	520329619	/Main/class.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	162	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F45Tkg1qzmXozyRFm	text/html
+#close	2014-04-03-10-18-07

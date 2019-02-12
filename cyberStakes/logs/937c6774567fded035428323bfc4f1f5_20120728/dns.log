@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-07-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1343476480.212934	CHccSi2sbp6ZEtRkgb	192.168.4.10	1029	4.2.2.3	53	udp	17805	statewideservicecenter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	68.99.70.18	3573.000000	F
+1343476485.851942	CHccSi2sbp6ZEtRkgb	192.168.4.10	1029	4.2.2.3	53	udp	38284	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.127.101,74.125.127.102,74.125.127.113,74.125.127.138,74.125.127.139,74.125.127.100	29743.000000,235.000000,235.000000,235.000000,235.000000,235.000000,235.000000	F
+1343476487.268893	C0bE0F3fOHoj1VTDT4	192.168.4.10	1038	4.2.2.3	53	udp	48271	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.22.148.208,69.22.148.227	12149.000000,144.000000,9289.000000,20.000000,20.000000	F
+1343476486.968362	CHccSi2sbp6ZEtRkgb	192.168.4.10	1029	4.2.2.3	53	udp	23948	www.octubre.cat	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	212.36.74.170	900.000000	F
+#close	2014-04-03-11-07-20

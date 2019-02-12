@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-07-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1332965155.804233	CsajJj21fpy2bH3qme	192.168.124.10	1075	37.59.164.3	80	Fs4rsW1q12ZZpdXzz	application/x-dosexec	http://zzzgreen.org/?f=46e1ff1d8de8fe7d11951a9f6b3c044f&e=1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-04-19 02:01:20	https://www.virustotal.com/en/search/?query=9226798971d0e367499e997b598c130dd5f8c9e9	192.168.124.10	37.59.164.3	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1332965192.995373	CSQqbO2kcUaq5tdMzj	192.168.124.10	1077	109.230.220.92	80	FpXlti2mluKyAgVL4l	application/x-dosexec	http://109.230.220.92/data/5b39c8b553c821e7cddc6da64b5bd2ee/dd3f0681a1f7efccffdba7ba2f3d1c60.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 45%  Last seen: 2012-04-13 12:46:11	https://www.virustotal.com/en/search/?query=8d31094125bd19b852431ea8c85da9966600d1dc	192.168.124.10	109.230.220.92	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1332965193.846973	C9Nl6j2ljtEWZeguv5	192.168.124.10	1078	37.59.164.3	80	FVnUUF2WYD6pbSi3h9	application/x-dosexec	http://zzzgreen.org/?f=14d12877c8ebcdf76fb42440803eb64c&e=1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2012-03-30 04:41:23	https://www.virustotal.com/en/search/?query=57f1a6deb98c5b802a883f784d56285617312592	192.168.124.10	37.59.164.3	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1332965204.774684	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.124.10 scanned at least 25 unique hosts on port 34354/tcp in 0m43s	remote	192.168.124.10	-	34354	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-07-09

@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-04-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1336200135.988009	CM4z5b156RPsGe9LE4	192.168.119.10	1029	4.2.2.3	53	udp	57229	purityceremony.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.147.242.192	14375.000000	F
+1336200136.511885	CM4z5b156RPsGe9LE4	192.168.119.10	1029	4.2.2.3	53	udp	27276	www.purityceremony.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	purityceremony.com,66.147.242.192	14375.000000,14374.000000	F
+1336200138.474413	CM4z5b156RPsGe9LE4	192.168.119.10	1029	4.2.2.3	53	udp	16012	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.130.113,74.125.130.138,74.125.130.139,74.125.130.100,74.125.130.101,74.125.130.102	32598.000000,127.000000,127.000000,127.000000,127.000000,127.000000,127.000000	F
+1336200138.480429	CsuNOx4aPql2wcKDdc	192.168.119.10	1033	4.2.2.3	53	udp	52623	www.ddisima.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.75.213.213	28800.000000	F
+1336200138.522711	CM4z5b156RPsGe9LE4	192.168.119.10	1029	4.2.2.3	53	udp	22158	abigtree.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.213.72	30.000000	F
+1336200168.061495	CjUhWm2bUig7KwStQd	192.168.119.10	1033	4.2.2.3	53	udp	35465	vwxjuice.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.59.198.59	30.000000	F
+1336200173.649206	CjUhWm2bUig7KwStQd	192.168.119.10	1033	4.2.2.3	53	udp	139	213.213.75.94.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	hosted-by.leaseweb.com	43200.000000	F
+1336200173.777506	CjUhWm2bUig7KwStQd	192.168.119.10	1033	4.2.2.3	53	udp	395	hosted-by.leaseweb.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	127.0.0.1	300.000000	F
+#close	2014-04-03-10-04-01

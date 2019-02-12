@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-04-41
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1315320701.732707	CogbjloRFm0HHwSEg	192.168.16.10	1029	4.2.2.3	53	udp	31629	sexurekavids.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.168.165.225	3576.000000	F
+1315320701.963265	CogbjloRFm0HHwSEg	192.168.16.10	1029	4.2.2.3	53	udp	399	sinfulcelebsporno.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.236.82.48	31055.000000	F
+1315320704.894877	CogbjloRFm0HHwSEg	192.168.16.10	1029	4.2.2.3	53	udp	59785	48.82.236.109.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	customer.worldstream.nl	1000.000000	F
+1315320705.021528	CogbjloRFm0HHwSEg	192.168.16.10	1029	4.2.2.3	53	udp	55433	customer.worldstream.nl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.190.136.5	1000.000000	F
+1315320708.680064	CogbjloRFm0HHwSEg	192.168.16.10	1029	4.2.2.3	53	udp	41864	rebeccajessop.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.249.137.9	13893.000000	F
+1315320709.594838	CogbjloRFm0HHwSEg	192.168.16.10	1029	4.2.2.3	53	udp	64392	mistykatz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	205.134.252.251	13893.000000	F
+#close	2014-04-03-10-04-42

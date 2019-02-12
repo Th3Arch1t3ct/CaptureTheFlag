@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-01-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1338515538.517577	CluGYP2bs2qCm3LuXe	192.168.1.10	1050	37.59.188.165	80	FewhUNHZTdrfyNpI7	application/x-dosexec	http://dictatingrepurposed.in/w.php?f=5e9d0&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2012-06-03 07:46:34	https://www.virustotal.com/en/search/?query=d5b4ac488695e868eabcecaf5ace41e8ef7ebed4	192.168.1.10	37.59.188.165	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1338515539.303136	CfW5LC1wTtzYXm2oD3	192.168.1.10	1051	37.59.188.165	80	F2aZIn2zBrnefekoq9	application/x-dosexec	http://dictatingrepurposed.in/w.php?f=d4fc7&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2012-06-02 06:16:02	https://www.virustotal.com/en/search/?query=fc06242f20595b652181f452590418caa046afeb	192.168.1.10	37.59.188.165	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1338515540.13957	CLc7fs4bFibzM3478b	192.168.1.10	1053	37.59.188.165	80	FLinQ71RAIh94JYIp4	application/x-shockwave-flash	http://dictatingrepurposed.in/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 75%  Last seen: 2012-09-14 14:05:04	https://www.virustotal.com/en/search/?query=27474f210893b69a5204dcafb6d9fc12b743dc1f	192.168.1.10	37.59.188.165	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1338515548.847552	CRkqhb2jzc7PXZ9qP5	192.168.1.10	1054	37.59.188.165	80	FX1IkM2Z9jttQQwGU2	application/x-shockwave-flash	http://dictatingrepurposed.in/data/score.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 50%  Last seen: 2012-09-14 14:05:04	https://www.virustotal.com/en/search/?query=6c81c4f1d16468b4169256972e30622e6956f7cc	192.168.1.10	37.59.188.165	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-01-25

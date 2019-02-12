@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-03-40
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1336462092.82496	CzuNDc1Fi4ZE93aC78	192.168.2.10	1029	4.2.2.3	53	udp	2955	zerotolerancelive.co.uk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.37.52.211	14374.000000	F
+1336462093.009442	CzuNDc1Fi4ZE93aC78	192.168.2.10	1029	4.2.2.3	53	udp	23432	cb.amazingcounters.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.65.43.176	39527.000000	F
+1336462093.029442	CzuNDc1Fi4ZE93aC78	192.168.2.10	1029	4.2.2.3	53	udp	39817	csepros.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.124.198.1	1800.000000	F
+1336462093.23102	CzuNDc1Fi4ZE93aC78	192.168.2.10	1029	4.2.2.3	53	udp	1678	thesavvymillionaire.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	83.69.226.72	3600.000000	F
+1336462132.397299	C45sxbxBVRY2Q5Vli	192.168.2.10	1029	4.2.2.3	53	udp	46735	palktikaljob.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.201.4.75	3600.000000	F
+#close	2014-04-03-10-03-40

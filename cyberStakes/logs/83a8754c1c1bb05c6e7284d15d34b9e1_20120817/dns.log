@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-47-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1345243016.15601	CbkhU22jkZgvOdi5Ul	192.168.28.10	1029	4.2.2.3	53	udp	16269	transportfinance.com.au	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	210.50.7.55	86373.000000	F
+1345243016.858122	CbkhU22jkZgvOdi5Ul	192.168.28.10	1029	4.2.2.3	53	udp	20876	f-source.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	65.254.250.114	3600.000000	F
+1345243018.075966	CbkhU22jkZgvOdi5Ul	192.168.28.10	1029	4.2.2.3	53	udp	8846	bqvfhuhfev.fqxfvmxmhmfhfxeq.waw.pl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.40.204.80	60.000000	F
+1345243021.290248	CbkhU22jkZgvOdi5Ul	192.168.28.10	1029	4.2.2.3	53	udp	57486	ponysoft.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.216.52.76	43200.000000	F
+1345243019.102656	CvGhpz4FrjNdJm5v39	192.168.28.10	1029	4.2.2.5	53	udp	8846	bqvfhuhfev.fqxfvmxmhmfhfxeq.waw.pl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.40.204.80	60.000000	F
+1345243021.869789	CbkhU22jkZgvOdi5Ul	192.168.28.10	1029	4.2.2.3	53	udp	648	xgrdqdilk.sellclassics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.216.52.78	31.000000	F
+1345243020.094005	CbkhU22jkZgvOdi5Ul	192.168.28.10	1029	4.2.2.3	53	udp	8846	bqvfhuhfev.fqxfvmxmhmfhfxeq.waw.pl	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1345243020.094005	CbkhU22jkZgvOdi5Ul	192.168.28.10	1029	4.2.2.3	53	udp	8846	bqvfhuhfev.fqxfvmxmhmfhfxeq.waw.pl	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1345243033.439415	CAmPRqwATsOQhZeCb	192.168.28.10	1029	4.2.2.3	53	udp	42632	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	1591.000000,21.000000	F
+1345243033.605985	CAmPRqwATsOQhZeCb	192.168.28.10	1029	4.2.2.3	53	udp	54411	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,64.4.52.169	3321.000000,321.000000	F
+1345243058.757682	CTknJV3NUySCKDpqx7	192.168.28.10	1029	4.2.2.3	53	udp	46469	ponysoft.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.216.52.77	86400.000000	F
+1345243058.770062	CZk5pc4yxF95QeQJ6a	192.168.28.10	1043	4.2.2.3	53	udp	59013	ponysoft.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.216.52.77	86400.000000	F
+1345243058.914811	CTknJV3NUySCKDpqx7	192.168.28.10	1029	4.2.2.3	53	udp	40324	xgrdqdilk.sellclassics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.216.52.78	31.000000	F
+1345243059.300416	CTknJV3NUySCKDpqx7	192.168.28.10	1029	4.2.2.3	53	udp	59780	gogohealth.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.168.7.68	43200.000000	F
+1345243059.31592	CZk5pc4yxF95QeQJ6a	192.168.28.10	1043	4.2.2.3	53	udp	10119	gogohealth.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.168.7.68	43200.000000	F
+#close	2014-04-03-10-47-11

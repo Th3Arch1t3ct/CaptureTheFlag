@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-55-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1331029319.628653	CacpaHPbxvVIknLBh	192.168.123.10	1030	194.50.176.6	80	1	GET	echo-ch.ch	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3232	200	OK	-	-	-	(empty)	-	-	-	-	-	FVeoK03UHuDJKZn1Vk	text/html
+1331029319.884241	CacpaHPbxvVIknLBh	192.168.123.10	1030	194.50.176.6	80	2	GET	echo-ch.ch	/echo.css	http://echo-ch.ch/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2388	200	OK	-	-	-	(empty)	-	-	-	-	-	FoZQ6r2excjOaXN1G1	text/x-asm
+1331029320.021312	CQNwEg2WT64GR95Noh	192.168.123.10	1031	194.50.176.6	80	1	GET	echo-ch.ch	/bilder/home_logo.gif	http://echo-ch.ch/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	992	200	OK	-	-	-	(empty)	-	-	-	-	-	F6H0lM3S5YQ5HDJ6wi	image/gif
+1331029320.151438	CQNwEg2WT64GR95Noh	192.168.123.10	1031	194.50.176.6	80	2	GET	echo-ch.ch	/bilder/home_line.jpg	http://echo-ch.ch/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	474	200	OK	-	-	-	(empty)	-	-	-	-	-	FJ5ndT1GoUl9iPJS0a	image/jpeg
+1331029320.275267	CQNwEg2WT64GR95Noh	192.168.123.10	1031	194.50.176.6	80	3	GET	echo-ch.ch	/bilder/home_de.jpg	http://echo-ch.ch/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1821	200	OK	-	-	-	(empty)	-	-	-	-	-	FVYdZE3gF92enxsYZ9	image/jpeg
+1331029320.132429	Cgqq9h2NMtDnsG4m56	192.168.123.10	1032	194.209.60.30	80	1	GET	stat.paus.ch	/powerstat.exe?action=stat&statfile=echo-ch	http://echo-ch.ch/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7030	200	OK	-	-	-	(empty)	-	-	-	-	-	FoUOMe4bwfXoUVeJq6	application/x-dosexec
+1331029320.411404	CQNwEg2WT64GR95Noh	192.168.123.10	1031	194.50.176.6	80	4	GET	echo-ch.ch	/bilder/home_fr.jpg	http://echo-ch.ch/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1709	200	OK	-	-	-	(empty)	-	-	-	-	-	FOPYSjZiDhzL4e0p7	image/jpeg
+1331029320.021552	CacpaHPbxvVIknLBh	192.168.123.10	1030	194.50.176.6	80	3	GET	echo-ch.ch	/bilder/home_kreuz.jpg	http://echo-ch.ch/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	48284	200	OK	-	-	-	(empty)	-	-	-	-	-	Fgufk93azSPnc1Clr	image/jpeg
+1331029320.545293	CQNwEg2WT64GR95Noh	192.168.123.10	1031	194.50.176.6	80	5	GET	echo-ch.ch	/bilder/home_it.jpg	http://echo-ch.ch/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1644	200	OK	-	-	-	(empty)	-	-	-	-	-	FfeqoFZxBcRIX6339	image/jpeg
+#close	2014-04-03-10-55-35

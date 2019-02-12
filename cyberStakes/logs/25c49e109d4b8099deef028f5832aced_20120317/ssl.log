@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-27-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1331980117.267052	CP7e7c4CPKwUxnrNQ7	192.168.92.10	1070	199.204.138.214	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.foxycart.com,O=FoxyCart.com LLC,L=Antioch,ST=TN,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1300165200.000000	1342026000.000000	-	-	-	dc116035f40fd83a21a6a1ea1f61011c	ok
+#close	2014-04-03-10-27-33

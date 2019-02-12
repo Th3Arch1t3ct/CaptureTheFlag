@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-00-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1330366437.892013	CU8tlRXPC49uXZqAj	192.168.21.10	1029	4.2.2.3	53	udp	59018	auditoryimages.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.236.245.212	14378.000000	F
+1330366437.999457	CU8tlRXPC49uXZqAj	192.168.21.10	1029	4.2.2.3	53	udp	25481	www.auditoryimages.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.236.245.212	14378.000000	F
+1330366438.395455	CU8tlRXPC49uXZqAj	192.168.21.10	1029	4.2.2.3	53	udp	22664	sm8.sitemeter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.80.46.59	9282.000000	F
+1330366438.75396	CU8tlRXPC49uXZqAj	192.168.21.10	1029	4.2.2.3	53	udp	48015	dg.specificclick.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	mpp.specificclick.net,207.38.101.14	6746.000000,83.000000	F
+1330366438.806049	CU8tlRXPC49uXZqAj	192.168.21.10	1029	4.2.2.3	53	udp	63118	ues02the.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.28.114.103	21600.000000	F
+1330366438.938622	CU8tlRXPC49uXZqAj	192.168.21.10	1029	4.2.2.3	53	udp	33677	b.scorecardresearch.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	b.scorecardresearch.com.edgesuite.net,a1294.w20.akamai.net,69.31.74.35,69.31.74.41	40656.000000,2843.000000,17.000000,17.000000	F
+1330366439.29038	CU8tlRXPC49uXZqAj	192.168.21.10	1029	4.2.2.3	53	udp	52876	mitexp80ressman.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.28.114.103	21600.000000	F
+1330366439.783422	CU8tlRXPC49uXZqAj	192.168.21.10	1029	4.2.2.3	53	udp	7052	www3.thebestchcsecurity.net.tc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.157.82.19	1420.000000	F
+1330366440.086791	CU8tlRXPC49uXZqAj	192.168.21.10	1029	4.2.2.3	53	udp	5772	www2.hardhoyantivir.de.lv	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.23.8.121	1419.000000	F
+1330366470.237273	CZiR382zKcnOKygpmg	192.168.21.10	1029	4.2.2.3	53	udp	29314	www1.powerholderxy.de.lv	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.142.217	3600.000000	F
+#close	2014-04-03-11-00-32

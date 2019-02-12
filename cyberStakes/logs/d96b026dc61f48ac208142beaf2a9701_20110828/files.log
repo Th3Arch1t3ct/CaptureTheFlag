@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-08-04
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1314538001.472971	FPjFYi44FRCiIvWLY8	208.73.210.48	192.168.62.10	CJ9zCK34616GjUz07g	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	587	-	0	0	F	-	e73939501c10db0f26c62e8c2ebd3b4d	f9e68b35a34d23597c94a41e6afbfa7a87fb970a	-	-
+1314538001.983267	FH9Dv5FDMMzOoXH41	50.22.131.188	192.168.62.10	CIrHTV1FTnxLS7lSY7	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	1486	-	0	0	F	-	72a3d56a24a1a56e34d2ac8398b18db6	7c408fe1e56d0b88013e47729e5bf6db957227b2	-	-
+1314538002.54	FZvmwK3ZO5eNAQFHve	72.52.4.35	192.168.62.10	CP7r8C23lBPjohdOG8	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	362	362	0	0	F	-	d58bf2d4165bc2a3c79785bfb9ba31ea	6ceecf77d36d80b981f1e44eadb5a07c7d23701e	-	-
+1314538003.409172	FIXedC4oZ4pmhLdhT2	72.20.11.15	192.168.62.10	C4TaQl3u82uHlmpfcb	HTTP	0	SHA1,MD5	application/x-dosexec	WinPalace.exe	0.043069	-	F	5840	1343128	0	0	F	-	0acdc52b179b614c52e90dd5860b20d8	4b8f8cd46bcdfb677e0d5eb179e2305a5f342942	-	-
+#close	2014-04-03-10-08-04

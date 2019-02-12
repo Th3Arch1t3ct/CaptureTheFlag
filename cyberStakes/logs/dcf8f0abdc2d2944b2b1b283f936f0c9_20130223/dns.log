@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-56-38
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1361605418.090518	C2Qnq24ExCtPYFyln2	192.168.72.10	1029	4.2.2.3	53	udp	23695	tubefreeporn.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.204.18	5.000000	F
+1361605418.346724	C2Qnq24ExCtPYFyln2	192.168.72.10	1029	4.2.2.3	53	udp	55694	yqw.4maderrotangodans.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.135.204.177	30.000000	F
+1361605426.449272	C2Qnq24ExCtPYFyln2	192.168.72.10	1029	4.2.2.3	53	udp	28557	usnaswih.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	87.252.234.123	0.000000	F
+1361605468.997406	CGBIHdWrMYaNuaDrh	192.168.72.10	1192	152.202.72.188	53	udp	4231	97.36.217.74.in-addr.arpa	1	C_INTERNET	12	PTR	-	-	F	F	T	F	0	-	-	F
+1361605470.016916	CGBIHdWrMYaNuaDrh	192.168.72.10	1192	152.202.72.188	53	udp	4231	97.36.217.74.in-addr.arpa	1	C_INTERNET	12	PTR	-	-	F	F	T	F	0	-	-	F
+1361605471.047283	CGBIHdWrMYaNuaDrh	192.168.72.10	1192	152.202.72.188	53	udp	4231	97.36.217.74.in-addr.arpa	1	C_INTERNET	12	PTR	-	-	F	F	T	F	0	-	-	F
+1361605473.053684	CGBIHdWrMYaNuaDrh	192.168.72.10	1192	152.202.72.188	53	udp	4231	97.36.217.74.in-addr.arpa	1	C_INTERNET	12	PTR	-	-	F	F	T	F	0	-	-	F
+1361605477.078542	CGBIHdWrMYaNuaDrh	192.168.72.10	1192	152.202.72.188	53	udp	4231	97.36.217.74.in-addr.arpa	1	C_INTERNET	12	PTR	-	-	F	F	T	F	0	-	-	F
+#close	2014-04-03-09-56-39

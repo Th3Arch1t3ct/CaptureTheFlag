@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-01-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1327256387.096097	CUEiMoN1dTbIkj7ze	192.168.53.10	1029	4.2.2.3	53	udp	37779	r1wmyjijr.eightyfizzes.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.21.27.74,95.79.161.81,95.83.225.29,95.132.175.81,95.133.218.7,109.58.37.52,109.169.135.249,121.92.66.41,178.90.181.210,178.164.194.117,187.142.217.154,188.143.115.42,188.232.86.103,188.235.68.89,189.194.142.17,190.64.119.178,190.113.139.227,77.69.165.10,79.113.12.218,84.0.106.238	20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000	F
+1327256387.926015	CUEiMoN1dTbIkj7ze	192.168.53.10	1029	4.2.2.3	53	udp	42896	new-themes.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	176.34.179.106	43180.000000	F
+1327256430.785369	C06p6i4Te1LbrJeAo7	192.168.53.10	1029	4.2.2.3	53	udp	19604	volondoko.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.57.120.104	600.000000	F
+1327256431.818759	C06p6i4Te1LbrJeAo7	192.168.53.10	1029	4.2.2.3	53	udp	47253	www.download.windowsupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.download.windowsupdate.nsatc.net,main.dl.wu.akadns.net,dom.dl.wu.akadns.net,dl.wu.ms.edgesuite.net,a26.ms.akamai.net,69.31.132.99,69.31.132.129,69.31.132.147,69.31.132.153	1606.000000,441.000000,144.000000,144.000000,1146.000000,4.000000,4.000000,4.000000,4.000000	F
+1327256426.069791	C06p6i4Te1LbrJeAo7	192.168.53.10	1029	4.2.2.3	53	udp	25750	jahramainso.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1327256426.069791	C06p6i4Te1LbrJeAo7	192.168.53.10	1029	4.2.2.3	53	udp	25750	jahramainso.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1327256426.069791	C06p6i4Te1LbrJeAo7	192.168.53.10	1029	4.2.2.3	53	udp	25750	jahramainso.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-01-07

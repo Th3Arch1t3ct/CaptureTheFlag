@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-54-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1326949695.390297	CYI2jY28dE9rxRTORg	192.168.23.10	1031	98.124.198.1	80	tcp	http	0.038126	330	490	SF	-	0	ShADdfFa	5	538	4	658	(empty)
+1326949695.0825	C4KaYS3nwtDzeZxRhf	192.168.23.10	1029	4.2.2.3	53	udp	dns	1.188265	152	351	SF	-	0	Dd	4	264	4	463	(empty)
+1326949678.67281	ClK6Bh4nQeehQgAjlc	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000727	626	0	S0	-	0	D	2	682	0	0	(empty)
+1326949724.886822	CpzCUX2lTs45V9dB9h	192.168.23.10	1038	203.170.193.102	80	tcp	http	9.428297	276	4343	SF	-	0	ShADadFf	8	604	7	4631	(empty)
+1326949735.551143	CYTwZh4IpbMZGYgx3c	192.168.23.10	1041	217.24.246.7	80	tcp	http	2.467496	322	19759	SF	-	0	ShADadfF	14	890	19	20527	(empty)
+1326949733.790536	C7YBR21MJJ0SalBfu8	192.168.23.10	1029	4.2.2.3	53	udp	dns	1.758279	28	92	SF	-	0	Dd	1	56	1	120	(empty)
+1326949734.814594	CMZFD5jkjbWKITeM1	192.168.23.10	1029	4.2.2.5	53	udp	dns	0.878315	28	92	SF	-	0	Dd	1	56	1	120	(empty)
+1326949734.002652	CyCjkR2j6Vfby8NTsl	192.168.23.10	1040	203.170.193.102	80	tcp	http	8.359411	965	193142	SF	-	0	ShADadFf	91	4613	147	199030	(empty)
+1326949678.673165	CjHFx420lnVG6mGNF3	192.168.23.10	68	192.168.23.1	67	udp	dhcp	13.038500	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1326949695.471347	CsqPs41tbJGLApYJm8	192.168.23.10	1032	203.170.193.102	80	tcp	http	53.842118	1211	305620	RSTO	-	0	ShADadfR	170	8619	230	314828	(empty)
+1326949696.271774	Cfnp7V2kBi2NIzO2rl	192.168.23.10	1033	69.31.132.73	80	tcp	http	63.168261	299	1807	RSTO	-	0	ShADadR	5	507	4	1975	(empty)
+1326949695.095513	C04Yhp1zstQ6EqO6X7	192.168.23.10	1030	213.171.219.2	80	tcp	http	64.344782	580	165585	RSTO	-	0	ShADdR	81	3828	116	170233	(empty)
+1326949697.843993	CJ0Mm8MZqCg43JT98	192.168.23.10	1036	239.255.255.250	1900	udp	-	6.765908	399	0	S0	-	0	D	3	483	0	0	(empty)
+1326949763.163649	CI9T862nqCokUq3iy3	192.168.23.10	1029	4.2.2.3	53	udp	dns	0.048532	29	93	SF	-	0	Dd	1	57	1	121	(empty)
+1326949763.21289	CPugLW3GKfjkMqz0gf	192.168.23.10	1042	217.24.246.7	80	tcp	http	1.392726	502	260	SF	-	0	ShADadfF	5	710	5	468	(empty)
+#close	2014-04-03-10-54-31

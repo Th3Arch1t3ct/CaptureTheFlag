@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-11-00-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1392059231.416411	CG4raN5VyhRtM9hKi	192.168.46.10	1061	74.125.224.109	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.g.doubleclick.net,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1391022366.000000	1401339600.000000	-	-	-	da9d1c580b58226feba3a8eb5236db96	ok
+1392059232.904704	CeXraJ2apML8ddg401	192.168.46.10	1068	74.125.224.109	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	8b9fd82e6efb13b0f0178d6f659e17d9ae92b5baded84ad81a6d5b98e5cffefa	CN=*.g.doubleclick.net,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1391022366.000000	1401339600.000000	-	-	-	da9d1c580b58226feba3a8eb5236db96	ok
+1392059237.214846	CK28fz4IJJcKavcDI	192.168.46.10	1071	74.125.224.36	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1391025890.000000	1401339600.000000	-	-	-	61e3fe0c7e27cacb564f975d62a5bff5	ok
+1392059238.847546	CLxwGL2xN6F0ATbEL8	192.168.46.10	1073	74.125.224.36	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	a4c3763f174db9a96d3ce96dfeca67759678657ccab7de57139f29289b531214	-	-	-	-	-	-	-	-	-
+1392059238.976226	CNkubw4XA9xvNRvAC7	192.168.46.10	1074	199.59.150.7	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=twitter.com,OU=Twitter Security,O=Twitter\, Inc.,street=795 Folsom St\, Suite 600,L=San Francisco,ST=California,postalCode=94107,C=US,serialNumber=4337446,businessCategory=Private Organization,1.3.6.1.4.1.311.60.2.1.2=#130844656C6177617265,1.3.6.1.4.1.	311.60.2.1.3=#13025553CN=VeriSign Class 3 Extended Validation SSL CA,OU=Terms of use at https://www.verisign.com/rpa (c)06,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1334034000.000000	1399784399.000000	-	-	-	27741b9b80ad6aeccdc45e181a48a140	ok
+1392059239.126364	C9PqR63OMperFmwkG4	192.168.46.10	1076	74.125.20.84	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=accounts.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1391023763.000000	1401339600.000000	-	-	-	f346fb28b3a8e6f106b5dcfd132354b4	ok
+1392059239.491503	C7Hs423npF5mqRYM35	192.168.46.10	1080	74.125.224.207	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1391024159.000000	1401339600.000000	-	-	-	2e9030d9527678e566fccccccccccccc	ok
+1392059239.492662	CrdNUA3cOecVgYAsz4	192.168.46.10	1079	74.125.224.207	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1391024159.000000	1401339600.000000	-	-	-	2e9030d9527678e566fccccccccccccc	ok
+1392059239.494224	C4nL7733LxW8SQmtO7	192.168.46.10	1081	74.125.224.140	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1391022819.000000	1401339600.000000	-	-	-	b16c68175db5907b1f11c72e24c303c9	ok
+#close	2014-04-03-11-00-05

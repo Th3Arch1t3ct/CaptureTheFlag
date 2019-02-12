@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-21-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1360176510.996088	CtYZg53W3X4NryoAd6	192.168.114.10	1037	216.244.71.144	80	F5F9J02wyecILuicJl	application/jar	http://systemspoints.info/links/manner_between.php?cqrb=laags&gpbvc=ubi	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2013-05-07 07:31:06	https://www.virustotal.com/en/search/?query=a7400cabb8267f89a3517e070c009620ce2cf36f	192.168.114.10	216.244.71.144	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-21-36

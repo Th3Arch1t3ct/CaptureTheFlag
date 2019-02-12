@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-11-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1339552327.156096	CfGWmt2ao9ly6e8Jl5	192.168.46.10	1029	4.2.2.3	53	udp	20367	alpha-1wrestling.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.7.221.152	14373.000000	F
+1339552327.367285	CfGWmt2ao9ly6e8Jl5	192.168.46.10	1029	4.2.2.3	53	udp	1420	ww2.myjobresumeonline.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.171.133.163	3600.000000	F
+1339552332.658504	CfGWmt2ao9ly6e8Jl5	192.168.46.10	1029	4.2.2.3	53	udp	46221	willowcreekcompany.mobi	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.50.116.224	3600.000000	F
+1339552338.011153	CfGWmt2ao9ly6e8Jl5	192.168.46.10	1029	4.2.2.3	53	udp	2957	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,96.17.109.88,96.17.109.114	18705.000000,212.000000,10560.000000,20.000000,20.000000	F
+#close	2014-04-03-11-11-12

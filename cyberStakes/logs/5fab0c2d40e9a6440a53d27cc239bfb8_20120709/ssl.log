@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-05-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1341841355.398824	CRTIuV30uD26Lxs975	192.168.122.10	1037	96.17.47.139	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=connect.facebook.net,ST=CALIFORNIA,OU=connect.facebook.net,O=Facebook,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1325623715.000000	1357246115.000000	-	-	-	2ae743fc530ecdbe75c5e60048cccccc	ok
+1341841356.607511	CJ7Uf82H0m3OHIoAt8	192.168.122.10	1040	96.17.34.110	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=s-static.ak.facebook.com,ST=California,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1340068319.000000	1368334740.000000	-	-	-	9e5e608717b1f05d5ef57491557c1e52	ok
+1341841378.061019	CFOhnJ1esshxYmRapf	192.168.122.10	1053	96.17.47.139	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	cfe67a6d845fb5d0e7b2fccd04fb2857722ce965214c55735d5da92a71dddd6b	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-05-29

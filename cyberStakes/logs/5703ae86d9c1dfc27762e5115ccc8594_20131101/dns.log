@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-04-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1383345050.166276	CcTWwd1i3xmODEHZG3	192.168.21.10	1035	4.2.2.3	53	udp	63912	set-free.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	107.20.230.31	60.000000	F
+1383345050.628535	CcTWwd1i3xmODEHZG3	192.168.21.10	1035	4.2.2.3	53	udp	47786	www.californiaflights.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	54.208.99.166	3600.000000	F
+1383345051.196392	CcTWwd1i3xmODEHZG3	192.168.21.10	1035	4.2.2.3	53	udp	39338	click.jve.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cash4creatives-3.wip.directresponsetech.com,174.47.188.3	300.000000,3600.000000	F
+1383345051.74466	CcTWwd1i3xmODEHZG3	192.168.21.10	1035	4.2.2.3	53	udp	14765	crl.geotrust.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.ws.symantec.com.edgekey.net,e6845.ce.akamaiedge.net,23.5.5.163	51.000000,18076.000000,1.000000	F
+1383345051.801872	CcTWwd1i3xmODEHZG3	192.168.21.10	1035	4.2.2.3	53	udp	39085	gtssldv-crl.geotrust.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.ws.symantec.com.edgekey.net,e6845.ce.akamaiedge.net,23.5.5.163	818.000000,18076.000000,1.000000	F
+1383345051.948734	CcTWwd1i3xmODEHZG3	192.168.21.10	1035	4.2.2.3	53	udp	60844	tracktrk.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	72.32.219.0	30.000000	F
+1383345052.27203	CcTWwd1i3xmODEHZG3	192.168.21.10	1035	4.2.2.3	53	udp	23727	worldtrack.co	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	54.200.47.49	600.000000	F
+1383345052.497902	CcTWwd1i3xmODEHZG3	192.168.21.10	1035	4.2.2.3	53	udp	58286	urgentpcdownloads.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	54.200.40.74	600.000000	F
+1383345052.619829	CcTWwd1i3xmODEHZG3	192.168.21.10	1035	4.2.2.3	53	udp	57774	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,173.194.79.95	707.000000,97.000000	F
+1383345052.623137	CfIQPo1gdYPGRts9g3	192.168.21.10	1045	4.2.2.3	53	udp	52398	wtta4363587.s3.amazonaws.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	s3-1-w.amazonaws.com,176.32.99.201	2400.000000,27.000000	F
+1383345053.145298	CcTWwd1i3xmODEHZG3	192.168.21.10	1035	4.2.2.3	53	udp	31905	js-agent.newrelic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	newrelic-003.inscname.net,ins-011.inscname.net,192.33.31.101	61138.000000,40.000000,2386.000000	F
+1383345053.240066	CcTWwd1i3xmODEHZG3	192.168.21.10	1035	4.2.2.3	53	udp	53153	beacon-2.newrelic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.31.164.172	19317.000000	F
+1383345058.798392	C9bcv43KQwcqjwmI1l	192.168.21.10	1035	4.2.2.5	53	udp	31651	secure.oi-installer7.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	54.235.251.129	30.000000	F
+1383345057.808488	CcTWwd1i3xmODEHZG3	192.168.21.10	1035	4.2.2.3	53	udp	31651	secure.oi-installer7.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	23.21.98.30	30.000000	F
+#close	2014-04-03-11-04-06

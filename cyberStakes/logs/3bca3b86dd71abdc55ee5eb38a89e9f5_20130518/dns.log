@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-15-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1368841167.074928	CcVJS84pLkEuA4Xvz5	192.168.10.10	1029	4.2.2.3	53	udp	54414	diariodosertao.com.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	186.227.193.184	14400.000000	F
+1368841170.27028	CcVJS84pLkEuA4Xvz5	192.168.10.10	1029	4.2.2.3	53	udp	65422	lalla.ma	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.254.28.40	7200.000000	F
+1368841185.679981	C6f96u2q1txsGkDfd3	192.168.10.10	1029	4.2.2.3	53	udp	40589	wwwimages.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wwwimages.wip4.adobe.com,wwwimages.adobe.com.edgesuite.net,wwwimages.adobe.com.edgesuite.net.globalredir.akadns.net,a1953.x.akamai.net,23.67.61.130,23.67.61.136	1.000000,126.000000,12641.000000,126.000000,20.000000,20.000000	F
+1368841185.879045	C6f96u2q1txsGkDfd3	192.168.10.10	1029	4.2.2.3	53	udp	42125	whos.amung.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.202.94.94,67.202.94.86,67.202.94.93	235.000000,235.000000,235.000000	F
+1368841190.526096	C6f96u2q1txsGkDfd3	192.168.10.10	1029	4.2.2.3	53	udp	53644	www.pm.pa.gov.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	200.164.100.224	3600.000000	F
+#close	2014-04-03-10-15-37

@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-22-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1318198218.35981	C8tPzwW1iHYatxxlf	192.168.111.10	1029	4.2.2.3	53	udp	17807	merlinesdeurraca.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	77.232.72.94	21576.000000	F
+1318198220.298745	C8tPzwW1iHYatxxlf	192.168.111.10	1029	4.2.2.3	53	udp	43916	www.conduit-banners.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	origin-banners_www.conduit-banners.com,us_dc_banners_www.conduit-banners.com,www.va.conduit-banners.com,66.77.197.176	560.000000,260.000000,560.000000,260.000000	F
+1318198220.474988	C8tPzwW1iHYatxxlf	192.168.111.10	1029	4.2.2.3	53	udp	51084	api.conduit.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	orig-10020.conduit.cotcdn.net,208.93.140.95	29.000000,29.000000	F
+1318198220.482497	CLtlvw4tPoWKBUDnG7	192.168.111.10	1033	4.2.2.3	53	udp	14989	images.conduit-banners.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	orig-10006.conduit.cotcdn.net,208.93.140.70	261.000000,261.000000	F
+1318198220.494935	C8tPzwW1iHYatxxlf	192.168.111.10	1029	4.2.2.3	53	udp	16525	translation.conduit.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	orig-10001.conduit.cotcdn.net,208.93.140.80	299.000000,299.000000	F
+1318198220.655197	CLtlvw4tPoWKBUDnG7	192.168.111.10	1033	4.2.2.3	53	udp	15754	usage.conduit-banners.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	origin-banners_usage.conduit-banners.com,us_dc_banners_usage.conduit-banners.com,usage.va.conduit-banners.com,66.77.197.209	32.000000,32.000000,332.000000,32.000000	F
+1318198222.209899	CLtlvw4tPoWKBUDnG7	192.168.111.10	1033	4.2.2.3	53	udp	13963	31544.calendars.motigo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	s1.motigo.com,62.146.124.117	43200.000000,42693.000000	F
+1318198222.785798	CLtlvw4tPoWKBUDnG7	192.168.111.10	1033	4.2.2.3	53	udp	36744	s7.addthis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wildcard.addthis.com.edgekey.net,e2943.c.akamaiedge.net,23.1.60.20	116.000000,13257.000000,1.000000	F
+1318198222.786956	C8tPzwW1iHYatxxlf	192.168.111.10	1029	4.2.2.3	53	udp	16262	www.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.171.228.11	25.000000	F
+1318198223.178541	CLtlvw4tPoWKBUDnG7	192.168.111.10	1033	4.2.2.3	53	udp	20359	apis.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www3.l.google.com,74.125.65.102,74.125.65.113,74.125.65.138,74.125.65.139,74.125.65.100,74.125.65.101	34742.000000,15.000000,15.000000,15.000000,15.000000,15.000000,15.000000	F
+1318198223.239116	CLtlvw4tPoWKBUDnG7	192.168.111.10	1033	4.2.2.3	53	udp	57220	static.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.g.akamai.net,204.245.190.34,204.245.190.25	5775.000000,12791.000000,18.000000,18.000000	F
+1318198223.265476	CLtlvw4tPoWKBUDnG7	192.168.111.10	1033	4.2.2.3	53	udp	24450	ssl.gstatic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.125.45.120	82.000000	F
+1318198223.446017	CLtlvw4tPoWKBUDnG7	192.168.111.10	1033	4.2.2.3	53	udp	34178	api-public.addthis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wildcard.addthis.com.edgekey.net,e2943.c.akamaiedge.net,23.1.60.20	264.000000,13256.000000,20.000000	F
+1318198223.874417	CLtlvw4tPoWKBUDnG7	192.168.111.10	1033	4.2.2.3	53	udp	31616	l.addthiscdn.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wildcard.addthiscdn.com.edgekey.net,e1303.c.akamaiedge.net,23.1.53.115	19.000000,13634.000000,2.000000	F
+#close	2014-04-03-10-22-15

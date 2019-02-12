@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-13-40
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1319962516.71369	CAP5Sy4RnRcFS1qaZ9	192.168.115.10	1041	91.217.153.87	80	FPSMuP1b2rIbafGEDa	application/x-dosexec	http://inmatyga.sytes.net/server_privileges.php?01d67b82ac9ba249c304d78bb0c3afbc=5	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2011-11-17 03:22:20	https://www.virustotal.com/en/search/?query=4f33f304fdfc55ed13b24117543557ca3cbbb582	192.168.115.10	91.217.153.87	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1319962530.693349	C0kmeE1vE2GGxjj1ie	192.168.115.10	1058	91.217.153.87	80	FpLNY9cic6dC5xoG6	application/jar	http://inmatyga.sytes.net//images/938a99f1be85e19406438f9a572fdf71.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2011-10-26 20:31:04	https://www.virustotal.com/en/search/?query=e62f148fcc5b8c9f866dc69ae001cff776caf8aa	192.168.115.10	91.217.153.87	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1319962530.996519	C0kmeE1vE2GGxjj1ie	192.168.115.10	1058	91.217.153.87	80	FnF8N52Va5I5rotTJ1	application/jar	http://inmatyga.sytes.net//images/938a99f1be85e19406438f9a572fdf71.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2011-10-26 20:31:04	https://www.virustotal.com/en/search/?query=e62f148fcc5b8c9f866dc69ae001cff776caf8aa	192.168.115.10	91.217.153.87	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1319962533.463313	CCK9kP2KWWnE5NRlL8	192.168.115.10	1062	91.217.153.87	80	FEJ2un34JuVQjYqRC8	application/jar	http://inmatyga.sytes.net//images/938a99f1be85e19406438f9a572fdf71.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2011-10-26 20:31:04	https://www.virustotal.com/en/search/?query=e62f148fcc5b8c9f866dc69ae001cff776caf8aa	192.168.115.10	91.217.153.87	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1319962535.960558	C5IRmu49pkPEnx8Bka	192.168.115.10	1061	91.217.153.87	80	F929XztalIK1c1SV3	application/x-dosexec	http://inmatyga.sytes.net/server_privileges.php?01d67b82ac9ba249c304d78bb0c3afbc=1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2011-11-17 03:22:20	https://www.virustotal.com/en/search/?query=4f33f304fdfc55ed13b24117543557ca3cbbb582	192.168.115.10	91.217.153.87	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-13-41

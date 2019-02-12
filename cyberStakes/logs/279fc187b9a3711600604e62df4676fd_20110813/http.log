@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-11-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1313211487.748788	CqLfdu1KGgzSPgmfsb	192.168.11.10	1030	193.105.154.222	80	1	GET	misnomerb76.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	440	200	OK	-	-	-	(empty)	-	-	-	-	-	FUphZY1lp5JIXTxARc	text/html
+1313211487.879927	CqLfdu1KGgzSPgmfsb	192.168.11.10	1030	193.105.154.222	80	2	GET	misnomerb76.com	/images/11.jpeg	http://misnomerb76.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	45786	200	OK	-	-	-	(empty)	-	-	-	-	-	F9ajZ33YeqYupfoB3k	image/jpeg
+1313211488.120985	CHu23y4jopHG4z2Fwa	192.168.11.10	1031	193.105.154.135	80	1	GET	ornateg4.com	/index.php?tp=8c127bf5b1bd833e	http://misnomerb76.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	65481	200	OK	-	-	-	(empty)	-	-	-	-	-	F2F8tc3Bm3MTQw4Sv5	text/html
+1313211491.485222	CHu23y4jopHG4z2Fwa	192.168.11.10	1031	193.105.154.135	80	2	GET	ornateg4.com	/games/java_trust.php?f=24	http://ornateg4.com/index.php?tp=8c127bf5b1bd833e	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3850	200	OK	-	-	-	(empty)	-	-	-	-	-	F5kY0L2zWR6pyGzC1g	text/html
+1313211491.732154	CdRBD8tJqiMKZPTPj	192.168.11.10	1038	193.105.154.135	80	1	GET	ornateg4.com	/d.php?f=24&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	195584	200	OK	-	-	-	(empty)	-	-	-	-	-	FdsYtES5LQnKGMAz	application/x-dosexec
+1313211492.764445	CHu23y4jopHG4z2Fwa	192.168.11.10	1031	193.105.154.135	80	3	GET	ornateg4.com	/games/2fdp.php?f=24	http://ornateg4.com/index.php?tp=8c127bf5b1bd833e	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	64063	200	OK	-	-	-	(empty)	-	-	-	-	-	FcBj2n3CAARvC03YW6	application/pdf
+1313211513.011076	C5fB0V2ZDBVvkh7zx2	192.168.11.10	1042	193.105.154.135	80	1	OPTIONS	193.105.154.135	/	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	166	405	Not Allowed	-	-	-	(empty)	-	-	-	-	-	FE2NtX2p5aYTq9HGNe	text/html
+1313211513.916814	CdRBD8tJqiMKZPTPj	192.168.11.10	1038	193.105.154.135	80	2	GET	ornateg4.com	/d.php?f=24&e=6	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	195584	200	OK	-	-	-	(empty)	-	-	-	-	-	FmnUEv269nV7eL1u3i	application/x-dosexec
+1313211514.787547	CRnzHL1QvtC6c4biwf	192.168.11.10	1043	193.105.154.135	80	1	GET	ornateg4.com	/games/worms.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4979	200	OK	-	-	-	(empty)	-	-	-	-	-	F0DvjPpYuYmQboKac	application/zip
+1313211514.860828	C4Yq4H3zU7zCq5Kks6	192.168.11.10	1044	91.193.72.70	80	1	GET	1539393606	/GSearch.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13610	200	OK	-	-	-	(empty)	-	-	-	-	-	FhVNsw3v2G65fzWoB7	application/x-java-applet
+1313211516.090582	CGP6xZ5DNv6JiFBqi	192.168.11.10	1045	193.105.154.135	80	1	GET	ornateg4.com	/d.php?f=24&e=1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	195584	200	OK	-	-	-	(empty)	-	-	-	-	-	Fe6Uh346JDN7wxuED7	application/x-dosexec
+1313211516.119806	Ch6OR832u4fHQ731y3	192.168.11.10	1046	193.105.154.135	80	1	GET	ornateg4.com	/d.php?f=24&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	195584	200	OK	-	-	-	(empty)	-	-	-	-	-	FOGfoG1n2dgJ1xuv39	application/x-dosexec
+#close	2014-04-03-10-11-54

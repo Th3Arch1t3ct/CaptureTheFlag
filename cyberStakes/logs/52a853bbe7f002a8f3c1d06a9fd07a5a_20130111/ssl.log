@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-26-57
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1357906446.049068	CTkdHi1AIsZtcDr6f2	192.168.115.10	1052	173.252.100.27	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.facebook.com,O=Facebook\, Inc.,L=Palo Alto,ST=California,C=US	OU=www.verisign.com/CPS Incorp.by Ref. LIABILITY LTD.(c)97 VeriSign,OU=VeriSign International Server CA - Class 3,OU=VeriSign\, Inc.,O=VeriSign Trust Network	1340254800.000000	1388555999.000000	-	-	-	f10b4102a78b5894231109d6d3fbeeb5	ok
+1357906450.822028	CgtXvt2AACWAtlFRYi	192.168.115.10	1082	192.204.4.65	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=a248.e.akamai.net,O=Akamai Technologies\, Inc.,C=US	CN=GTE CyberTrust Global Root,OU=GTE CyberTrust Solutions\, Inc.,O=GTE Corporation,C=US	1346111654.000000	1377647602.000000	-	-	-	0195040f2287236cf5ad9ef729821cb9	ok
+1357906450.822418	CP6tFp30gxXOcxFt15	192.168.115.10	1081	192.204.4.65	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=a248.e.akamai.net,O=Akamai Technologies\, Inc.,C=US	CN=GTE CyberTrust Global Root,OU=GTE CyberTrust Solutions\, Inc.,O=GTE Corporation,C=US	1346111654.000000	1377647602.000000	-	-	-	0195040f2287236cf5ad9ef729821cb9	ok
+#close	2014-04-03-10-26-57

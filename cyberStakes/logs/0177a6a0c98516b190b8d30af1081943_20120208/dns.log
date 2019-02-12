@@ -1,0 +1,40 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-04-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1328671151.801579	CPG4Uv3ImYCslwj0Dg	192.168.96.10	1029	4.2.2.3	53	udp	52623	rycconsultores.cl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	200.29.0.56	43180.000000	F
+1328671152.912659	CPG4Uv3ImYCslwj0Dg	192.168.96.10	1029	4.2.2.3	53	udp	28812	sexfunxcash.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.190.98.79	3600.000000	F
+1328671152.916386	CCiLaL1hyenSjjuiC2	192.168.96.10	1033	4.2.2.3	53	udp	9101	ohioswingersbus.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	141.136.22.56	43200.000000	F
+1328671206.204384	CRyBfK3dhGpTGzZLQ6	192.168.96.10	1029	4.2.2.3	53	udp	38283	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328671208.205133	CRyBfK3dhGpTGzZLQ6	192.168.96.10	1029	4.2.2.3	53	udp	38283	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328671210.252002	CRyBfK3dhGpTGzZLQ6	192.168.96.10	1029	4.2.2.3	53	udp	38283	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328671214.26651	CRyBfK3dhGpTGzZLQ6	192.168.96.10	1029	4.2.2.3	53	udp	38283	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328671185.309369	CRyBfK3dhGpTGzZLQ6	192.168.96.10	1029	4.2.2.3	53	udp	9867	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328671187.316761	CRyBfK3dhGpTGzZLQ6	192.168.96.10	1029	4.2.2.3	53	udp	9867	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328671189.48479	CRyBfK3dhGpTGzZLQ6	192.168.96.10	1029	4.2.2.3	53	udp	9867	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328671193.485365	CRyBfK3dhGpTGzZLQ6	192.168.96.10	1029	4.2.2.3	53	udp	9867	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328671170.203374	CRyBfK3dhGpTGzZLQ6	192.168.96.10	1029	4.2.2.3	53	udp	23946	usagetorrenen.com	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1328671172.281571	CRyBfK3dhGpTGzZLQ6	192.168.96.10	1029	4.2.2.3	53	udp	23946	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328671174.282677	CRyBfK3dhGpTGzZLQ6	192.168.96.10	1029	4.2.2.3	53	udp	23946	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328671178.283226	CRyBfK3dhGpTGzZLQ6	192.168.96.10	1029	4.2.2.3	53	udp	23946	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328671221.360585	CRyBfK3dhGpTGzZLQ6	192.168.96.10	1029	4.2.2.3	53	udp	24712	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328671223.359757	CRyBfK3dhGpTGzZLQ6	192.168.96.10	1029	4.2.2.3	53	udp	24712	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328671174.282677	CRyBfK3dhGpTGzZLQ6	192.168.96.10	1029	4.2.2.3	53	udp	23946	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328671178.283226	CRyBfK3dhGpTGzZLQ6	192.168.96.10	1029	4.2.2.3	53	udp	23946	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328671207.204259	CfFAAd1ctyGaY3Cyd5	192.168.96.10	1029	4.2.2.5	53	udp	38283	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328671210.252126	CfFAAd1ctyGaY3Cyd5	192.168.96.10	1029	4.2.2.5	53	udp	38283	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328671214.266643	CfFAAd1ctyGaY3Cyd5	192.168.96.10	1029	4.2.2.5	53	udp	38283	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328671186.301146	CfFAAd1ctyGaY3Cyd5	192.168.96.10	1029	4.2.2.5	53	udp	9867	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328671189.484935	CfFAAd1ctyGaY3Cyd5	192.168.96.10	1029	4.2.2.5	53	udp	9867	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328671193.48554	CfFAAd1ctyGaY3Cyd5	192.168.96.10	1029	4.2.2.5	53	udp	9867	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328671171.28187	CfFAAd1ctyGaY3Cyd5	192.168.96.10	1029	4.2.2.5	53	udp	23946	usagetorrenen.com	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1328671174.282825	CfFAAd1ctyGaY3Cyd5	192.168.96.10	1029	4.2.2.5	53	udp	23946	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328671178.283389	CfFAAd1ctyGaY3Cyd5	192.168.96.10	1029	4.2.2.5	53	udp	23946	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328671222.35988	CfFAAd1ctyGaY3Cyd5	192.168.96.10	1029	4.2.2.5	53	udp	24712	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328671174.282825	CfFAAd1ctyGaY3Cyd5	192.168.96.10	1029	4.2.2.5	53	udp	23946	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328671178.283389	CfFAAd1ctyGaY3Cyd5	192.168.96.10	1029	4.2.2.5	53	udp	23946	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+#close	2014-04-03-11-04-24

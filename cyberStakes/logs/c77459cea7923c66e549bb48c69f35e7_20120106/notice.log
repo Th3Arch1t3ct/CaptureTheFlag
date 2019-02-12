@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-55-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1325827283.34179	CqJQUG36iMBeoDe90b	192.168.49.10	1062	174.122.209.61	80	FE1xqWXMGAhnqNY5k	application/x-dosexec	http://www.amorosini.com.br/.jsm/Java.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 45%  Last seen: 2012-01-20 20:33:40	https://www.virustotal.com/en/search/?query=01f4a5adf77c97faea6650fc216fb4e42e6322ed	192.168.49.10	174.122.209.61	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-55-24

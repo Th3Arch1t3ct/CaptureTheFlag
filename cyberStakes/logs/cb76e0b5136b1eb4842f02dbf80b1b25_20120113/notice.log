@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-05-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1326436855.609297	CnWzpK2ehavulZcu9d	192.168.26.10	1037	94.23.148.66	80	FGDNVi2flWghLsgepg	application/jar	http://nopwinter.info/?77802c0bef8f9db19f1d8f5b18def781	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 32%  Last seen: 2012-01-21 16:31:03	https://www.virustotal.com/en/search/?query=14fe92c6bfc82829422800bc72ec563e2772b9bb	192.168.26.10	94.23.148.66	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1326436856.176636	C6JrfHr3n6wF5VkYg	192.168.26.10	1039	94.23.148.66	80	FZPHne4GDpixYQtCtc	application/jar	http://nopwinter.info/?77802c0bef8f9db19f1d8f5b18def781	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 32%  Last seen: 2012-01-21 16:31:03	https://www.virustotal.com/en/search/?query=14fe92c6bfc82829422800bc72ec563e2772b9bb	192.168.26.10	94.23.148.66	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1326436856.838824	CnVCq8velrkvdp7I	192.168.26.10	1042	94.23.148.66	80	FhYX9j4u8i2pZGGHfl	application/jar	http://nopwinter.info/?77802c0bef8f9db19f1d8f5b18def781	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 32%  Last seen: 2012-01-21 16:31:03	https://www.virustotal.com/en/search/?query=14fe92c6bfc82829422800bc72ec563e2772b9bb	192.168.26.10	94.23.148.66	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-05-08

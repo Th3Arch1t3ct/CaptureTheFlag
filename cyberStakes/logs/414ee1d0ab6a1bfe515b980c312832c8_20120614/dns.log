@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-02-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1339663693.391247	C5r3F9vEPcxR2eVea	192.168.102.10	1029	4.2.2.3	53	udp	8845	huaxunt.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	59.45.99.107	3576.000000	F
+1339663694.385155	C5r3F9vEPcxR2eVea	192.168.102.10	1029	4.2.2.3	53	udp	60559	fna.athersite.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	211.100.253.9	21600.000000	F
+1339663694.875737	C5r3F9vEPcxR2eVea	192.168.102.10	1029	4.2.2.3	53	udp	44169	uud.ns02.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	221.122.114.5	31.000000	F
+1339663696.08103	C5r3F9vEPcxR2eVea	192.168.102.10	1029	4.2.2.3	53	udp	28041	js.tongji.linezing.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	img.gslb.tbcache.com,58.218.203.250,60.191.143.240,60.191.143.250,115.238.137.240,115.238.137.250,115.239.199.250,117.27.140.240,58.218.203.240	1526.000000,300.000000,300.000000,300.000000,300.000000,300.000000,300.000000,300.000000,300.000000	F
+#close	2014-04-03-11-02-34

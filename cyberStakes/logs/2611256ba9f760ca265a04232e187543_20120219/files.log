@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-27-14
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1329622637.790488	F4l7peihMItFxP9H6	77.79.7.156	192.168.25.10	CYYU0W13RTtbIY3Dbl	HTTP	0	MD5,SHA1	text/html	-	0.000013	-	F	3518	3518	0	0	F	-	a50fd9224f75ad9f3440ccdaa3548b49	c6cfda59e05fbb27e5c6ca22bd9d43182d2170be	-	-
+1329622638.092838	Fc0H36eLWYxSsFJi6	77.79.7.156	192.168.25.10	CQ9lAq28G4qZqie7l8	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	893	893	0	0	F	-	4709f5f03895c93f17988dee72fc68f2	af0563d1018d2d3759bb5d8b3c09b4bcf13f5146	-	-
+1329622638.409655	FPEHa43b5yH947kGh9	77.79.7.156	192.168.25.10	CATAd41Ai7jTcoEudj	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	854	854	0	0	F	-	fdbfa1d0e9b99bc085da7fc2985255ae	5c125183e3cc4a0e7e7d31c47ba323eaac0e5ea8	-	-
+1329622638.431485	FfzbsW1tiUAb2vp9Vc	77.79.7.156	192.168.25.10	CfJPUlTLFSEo0Asc6	HTTP	0	MD5,SHA1	image/gif	-	0.303762	-	F	10655	10655	0	0	F	-	4ec55c200c05dccb0ada0183e365d202	5088acb7a0085ddbe3120005dadc6d7c7b645d9a	-	-
+1329622638.707932	F8lei817Pt62snuHG	77.79.7.156	192.168.25.10	ChC3hb3Z5sRduBcbp9	HTTP	0	MD5,SHA1	image/gif	-	0.147069	-	F	7901	7901	0	0	F	-	d24f4599e76a228ef70e62df88706a43	cbe8c1bd6a6689d0b8dd5954646670b13c62d828	-	-
+1329622639.038791	FtAiaz3IaixIUtBOP	77.79.7.156	192.168.25.10	CGJRdAk9KHF8JGMul	HTTP	0	MD5,SHA1	text/plain	-	0.000016	-	F	2691	2691	0	0	F	-	3436855cf171b2fb51a4991a9520d67f	85d88d87f144a89dc9bd5d56364394411a52cc54	-	-
+1329622639.18124	FploKG1oYDu2750rC8	77.79.7.156	192.168.25.10	CTUBsu2JvJBYUWjL9i	HTTP	0	MD5,SHA1	text/html	-	0.000327	-	F	3518	3518	0	0	F	-	97fc81f0bce7ef7101a6e9e69d4f2f14	4e015bd6416194268f3549c70126e1164369e29f	-	-
+1329622639.569029	FsbE062PrwJl8B2JG8	77.79.7.156	192.168.25.10	Cj6Jp015oBdxD55kye	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	1253	1253	0	0	F	-	a3f22328260170bc446a89cc12e79a9f	12b8975358ef86f669b57eb10de007220f2475ca	-	-
+1329622639.536585	FxFyvv1GxceytWL277	77.79.7.156	192.168.25.10	C6bDTW2SKWmb4TlYS5	HTTP	0	MD5,SHA1	image/jpeg	-	0.290862	-	F	15748	15748	0	0	F	-	889edeac55cedf4dca3b53cffb76b094	97d50e4a76c59027375160eebe66af624bff2077	-	-
+1329622644.948866	FVCuYJ3e242sxx6lYa	77.79.7.156	192.168.25.10	CEPTjo1lAdqTh6vM02	HTTP	0	MD5,SHA1	application/x-dosexec	-	0.157803	-	F	7025	708608	0	0	F	-	cc81c4fccb74c235e6972f6da6bbbbb6	c4daf875f803d090b0724d9a19fdd66c35836721	-	-
+#close	2014-04-03-10-27-14

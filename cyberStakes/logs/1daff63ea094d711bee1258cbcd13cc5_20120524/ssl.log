@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-11-01-28
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1337871585.560933	CcK63g4Da0FBWJRCK9	192.168.23.10	1054	23.64.18.110	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=s-static.ak.facebook.com,ST=California,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1311993164.000000	1343615564.000000	-	-	-	26d4cf1984232a07a57908abdaf2c53d	ok
+1337871606.79918	CJyVDU35lsODgL5mG4	192.168.23.10	1070	23.64.29.177	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=s-static.ak.fbcdn.net,ST=CALIFORNIA,OU=s-static.ak.fbcdn.net,O=s-static.ak.fbcdn.net,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1312234016.000000	1343856416.000000	-	-	-	13ef8c4315fd282fdf7dbba3913e72c4	ok
+1337871606.798788	CR3q8v3g7wUXPEz2h3	192.168.23.10	1069	23.64.29.177	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=s-static.ak.fbcdn.net,ST=CALIFORNIA,OU=s-static.ak.fbcdn.net,O=s-static.ak.fbcdn.net,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1312234016.000000	1343856416.000000	-	-	-	13ef8c4315fd282fdf7dbba3913e72c4	ok
+1337871606.903526	CwlKNB3u3JzUWkUPT7	192.168.23.10	1071	23.64.29.177	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	19e7d6f6a846992ad3a915862c1eaa9cfbb8efe59f0d76938ce1059fc094e026	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-11-01-29

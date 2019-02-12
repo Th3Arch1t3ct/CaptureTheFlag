@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-50-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1386096879.939813	CtzjA73CcOGKEV3Uz2	192.168.52.10	1036	192.133.137.140	80	1	GET	greatetastemp3.com	/	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1386096880.17104	CDief92FpfRPceXsob	192.168.52.10	1037	199.204.74.77	80	1	GET	182e.eox.mxld.gdvq.nuktemkkqj.geredat.info	/	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	777	200	OK	-	-	-	(empty)	-	-	-	-	-	FAV3Sc3b2WgdLM0Fia	text/html
+1386096880.945569	C9Jzoo48dz3POzQOI1	192.168.52.10	1038	199.204.74.77	80	1	GET	182e.eox.mxld.gdvq.nuktemkkqj.geredat.info	//b47e_3_6a_4/0/973a_4/4_07ecbb/06039_7_c3_560/6_8934/8028_3c037_d_6851/c9/637_1_bb7630e	http://182e.eox.mxld.gdvq.nuktemkkqj.geredat.info/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	11873	200	OK	-	-	-	(empty)	-	-	-	-	-	F8VBVX2zuLvIIfvY42	text/html
+1386096884.896379	CZbjuk2bmg09XH7gfc	192.168.52.10	1039	199.204.74.77	80	1	GET	199.204.74.77	/?933157e44a4205b28d714492041225ca	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	178176	200	OK	-	-	-	(empty)	-	-	-	-	-	FSwFUq3R5VrLi80Nxf	application/x-dosexec
+1386096885.383671	CL6E5d4D3OzXXwKtvb	192.168.52.10	1040	199.204.74.77	80	1	GET	199.204.74.77	/?e401f9384de59d08a0b5320425137ab5	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1386096886.509661	CbTgul40YDZe57xWs2	192.168.52.10	1041	199.204.74.77	80	1	GET	199.204.74.77	/?31efe914b81d8530961ead50ad78fe1e	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1386096886.801115	CdeH9c2tu54O7evB1c	192.168.52.10	1042	199.204.74.77	80	1	GET	199.204.74.77	/?2536150b09dbbebd7f730d08af5c9b4d	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1386096886.971983	CPFrZi2GzFAGXXqHih	192.168.52.10	1046	199.204.74.77	80	1	GET	199.204.74.77	/?d8dffdca88c43b2a9	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1386096958.504967	CmhB9M2fbB2ADhUxN8	192.168.52.10	1055	190.105.226.64	8080	1	POST	190.105.226.64	/e2bnwBAAAA/vIc7PAAAAAA/xXo4i/	-	Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)	347	280658	200	OK	-	-	-	(empty)	-	-	-	FJS8yv3TJZQzOKdVkc	binary	FHuhzo3ogOulYSSVJi	binary
+#close	2014-04-03-09-50-10

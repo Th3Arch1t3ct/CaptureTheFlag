@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-55-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1342951339.430555	CZjZvk3OfeRYEs1Dze	192.168.117.10	1029	4.2.2.3	53	udp	25227	provinzkartoffel.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.75.164.111	43174.000000	F
+1342951339.790343	CZjZvk3OfeRYEs1Dze	192.168.117.10	1029	4.2.2.3	53	udp	11145	www.lassiter.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.75.164.111	43200.000000	F
+1342951340.001875	CZjZvk3OfeRYEs1Dze	192.168.117.10	1029	4.2.2.3	53	udp	40841	lassiter.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.75.164.111	43200.000000	F
+1342951341.257135	CZjZvk3OfeRYEs1Dze	192.168.117.10	1029	4.2.2.3	53	udp	24207	lundf-creation.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.13.135.128	7200.000000	F
+1342951341.716142	CZjZvk3OfeRYEs1Dze	192.168.117.10	1029	4.2.2.3	53	udp	16013	up-photodesign.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.169.145.163	5897.000000	F
+1342951350.555073	CZjZvk3OfeRYEs1Dze	192.168.117.10	1029	4.2.2.3	53	udp	57228	163.145.169.81.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	wa3.rzone.de	43200.000000	F
+1342951350.679256	CZjZvk3OfeRYEs1Dze	192.168.117.10	1029	4.2.2.3	53	udp	17795	wa3.rzone.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.169.145.163	43200.000000	F
+1342951363.293807	CRAeKu4rkRttj4qD86	192.168.117.10	1029	4.2.2.3	53	udp	20867	windowsupdate.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	windowsupdate.microsoft.nsatc.net,www.update.microsoft.com.nsatc.net,65.55.25.44	1130.000000,231.000000,146.000000	F
+1342951363.461481	CRAeKu4rkRttj4qD86	192.168.117.10	1029	4.2.2.3	53	udp	4226	furikesdn.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.221.160.149	900.000000	F
+#close	2014-04-03-09-55-26

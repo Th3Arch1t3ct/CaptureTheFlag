@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-55-47
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1333591782.508763	Cp4rxi20w10mG22Uq8	192.168.70.10	1029	4.2.2.3	53	udp	56463	joripcom.co.kr	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	119.205.194.151	3582.000000	F
+1333591783.859516	Cp4rxi20w10mG22Uq8	192.168.70.10	1029	4.2.2.3	53	udp	55951	www.danawa.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	119.205.194.11	7200.000000	F
+1333591801.596442	Cp4rxi20w10mG22Uq8	192.168.70.10	1029	4.2.2.3	53	udp	32911	www.download.windowsupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.download.windowsupdate.nsatc.net,main.dl.wu.akadns.net,dom.dl.wu.akadns.net,dl.wu.ms.edgesuite.net,a26.ms.akamai.net,24.143.200.32,24.143.200.34	3123.000000,419.000000,35.000000,225.000000,13080.000000,5.000000,5.000000	F
+1333591801.781996	Cp4rxi20w10mG22Uq8	192.168.70.10	1029	4.2.2.3	53	udp	56718	crl.thawte.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.48.190	331.000000,1.000000	F
+1333591801.834877	Cp4rxi20w10mG22Uq8	192.168.70.10	1029	4.2.2.3	53	udp	44941	cs-g2-crl.thawte.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.48.190	860.000000,1.000000	F
+#close	2014-04-03-09-55-47

@@ -1,0 +1,40 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-57-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1339162514.329951	CZswz5ku3zxzfDirc	192.168.77.10	1031	69.27.101.7	80	1	GET	youreinvited.ca	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2495	200	OK	-	-	-	(empty)	-	-	-	-	-	FJTYoT3eeG6QKJsqo2	text/html
+1339162514.769352	Cigmsg2PyRzr7UzkV7	192.168.77.10	1032	96.31.86.178	80	1	GET	drbolivar.com	/stats.php	http://youreinvited.ca/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1339162514.397129	CZswz5ku3zxzfDirc	192.168.77.10	1031	69.27.101.7	80	2	GET	youreinvited.ca	/graphics/front-6-jun.jpg	http://youreinvited.ca/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	315901	200	OK	-	-	-	(empty)	-	-	-	-	-	F4TI492X6WVhGDb28d	image/jpeg
+1339162516.304875	CUrijm3CNDJk1tptpc	192.168.77.10	1033	37.157.255.149	80	1	GET	seraiw.tk	/90553516.html	http://youreinvited.ca/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	277	200	OK	-	-	-	(empty)	-	-	-	-	-	F6pWoL10NtOwFkz6r1	text/html
+1339162518.084065	C9Jh5T1ib04MtZ5sz5	192.168.77.10	1038	37.157.255.149	80	1	GET	seraiw.tk	/33982.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	65819	200	OK	-	-	-	(empty)	-	-	-	-	-	Fe1N4i3hvacqns1Pd	application/zip
+1339162518.626959	C9Jh5T1ib04MtZ5sz5	192.168.77.10	1038	37.157.255.149	80	2	GET	seraiw.tk	/33982.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	65819	200	OK	-	-	-	(empty)	-	-	-	-	-	Fq4KIe1gKooEEMzJXk	application/zip
+1339162519.074524	C9Jh5T1ib04MtZ5sz5	192.168.77.10	1038	37.157.255.149	80	3	GET	seraiw.tk	/33982.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	65819	200	OK	-	-	-	(empty)	-	-	-	-	-	Fjif7g26qhixnoDE6f	application/zip
+1339162519.748295	C9Jh5T1ib04MtZ5sz5	192.168.77.10	1038	37.157.255.149	80	4	GET	seraiw.tk	/1.html	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	35840	200	OK	-	-	-	(empty)	-	-	-	-	-	F6iT4HZO661jtIHk4	application/x-dosexec
+1339162525.898981	CUjkX83m7S5movIDx5	192.168.77.10	1039	37.157.255.149	80	1	GET	37.157.255.149	/342122.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	186880	200	OK	-	-	-	(empty)	-	-	-	-	-	FlkAQk2McQxy3Azz32	binary
+1339162526.892191	CUjkX83m7S5movIDx5	192.168.77.10	1039	37.157.255.149	80	2	GET	37.157.255.149	/342122.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	409600	200	OK	-	-	-	(empty)	-	-	-	-	-	FHwi0D4YQtscl4ovqc	binary
+1339162528.618243	CUjkX83m7S5movIDx5	192.168.77.10	1039	37.157.255.149	80	3	GET	37.157.255.149	/342122.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	123392	200	OK	-	-	-	(empty)	-	-	-	-	-	FfFAgh1TdJrz9Nzj75	binary
+1339162529.167242	CUjkX83m7S5movIDx5	192.168.77.10	1039	37.157.255.149	80	4	GET	37.157.255.149	/342122.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	165376	200	OK	-	-	-	(empty)	-	-	-	-	-	FdKxND1Xdk81Ax2kkd	binary
+1339162529.837947	CUjkX83m7S5movIDx5	192.168.77.10	1039	37.157.255.149	80	5	GET	37.157.255.149	/342122.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	390656	200	OK	-	-	-	(empty)	-	-	-	-	-	Fs3iEy2WImB4hlXv7	binary
+1339162531.031103	CUjkX83m7S5movIDx5	192.168.77.10	1039	37.157.255.149	80	6	GET	37.157.255.149	/342122.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	79328	200	OK	-	-	-	(empty)	-	-	-	-	-	FmxaxP2IseeWcHkkc6	binary
+1339162531.398058	CUjkX83m7S5movIDx5	192.168.77.10	1039	37.157.255.149	80	7	GET	37.157.255.149	/342122.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	666	200	OK	-	-	-	(empty)	-	-	-	-	-	FQnFCW3ZRYuNhJyXai	binary
+1339162531.911213	Cy0GtT1nnijC2sg0Uk	192.168.77.10	1041	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	29	200	OK	-	-	-	(empty)	-	-	-	-	-	FrfbrC1b8ylf7nY2sj	text/plain
+1339162532.122532	CTdsrrwfnMmuQ2Jt5	192.168.77.10	1042	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339162532.13054	CnLTJT3hc9edzL3RRk	192.168.77.10	1044	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=2&d=7&s=121	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339162532.137946	CcDXNK3rpkpWG4wDak	192.168.77.10	1046	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=3&d=7&s=131	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339162532.14315	CCmG12ycMtBAPUgh3	192.168.77.10	1048	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=4&d=7&s=1	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339162532.146743	C80Hng3Bp2V4BothRc	192.168.77.10	1050	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=5&d=7&s=20	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339162532.227333	CcYybk288wx8kg3QD7	192.168.77.10	1053	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=6&d=7&s=21	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339162532.24613	CflQdc3CFUkUWtPuNb	192.168.77.10	1056	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=7&d=7&s=30	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339162532.260348	CLLtEN1DGjZ6j6MVY5	192.168.77.10	1059	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=8&d=7&s=31	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339162541.886333	CupnSd3EaO3zWa3P2d	192.168.77.10	1067	78.140.131.157	80	1	GET	megaupload.com	/file/id=AwAtAAEAUs0AAAEFBhcAAAAAAAAAAAAAAAAAAABrDAYGCwAAAEmrKTbhEW2xrLhwgiZvmW8AAFVVVVVVVVVVVVVVVVVVVVWcRc0BzANM2B7GAABVd3Vtc219Y29lczMyaGc4Zzg4AkaTNQrd_hNvAAAAADRW&rt=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)	0	523	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FHLLZr4Q8Nzg8Wuy87	text/html
+1339162543.29739	CXg1SQ1dNaVdMwyHJ5	192.168.77.10	1069	113.10.173.15	80	1	GET	113.10.173.15	/api/urls/?ts=bcd19a31&affid=56300	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	0	404	NOT FOUND	-	-	-	(empty)	-	-	-	-	-	-	-
+1339162544.125714	CrANU63sq84RQf3ecc	192.168.77.10	1070	113.10.173.15	80	1	GET	113.10.173.15	/api/stats/install/?ts=bcd19a31&affid=56300&ver=3050001&group=liv	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339162549.68587	CzXpuH387cEzDa4rQ2	192.168.77.10	1072	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	29	200	OK	-	-	-	(empty)	-	-	-	-	-	FRiHsu1ESrUMjfnj04	text/plain
+1339162549.953367	CmRPSH3xmoNTcKTvok	192.168.77.10	1073	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=928140577&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339162550.040182	CG07Xd2yFfcZNntS68	192.168.77.10	1075	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=928140577&c=2&d=7&s=110	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339162550.07324	CQh5Oj3BHCxKWIM1Bc	192.168.77.10	1077	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=928140577&c=3&d=7&s=10	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-09-57-24

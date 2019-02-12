@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-11-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1332445699.200019	C2Pycr412yhoE6HnBh	192.168.19.10	1045	82.192.87.16	80	FGxq1v2qYQHyj8GkTg	application/x-dosexec	http://inetfreehelp.com/b1G9XB_uh5QNvEbYT7ljy8	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 21%  Last seen: 2012-03-24 20:07:57	https://www.virustotal.com/en/search/?query=9528a006c47517ae617009101ace47f51d83ec11	192.168.19.10	82.192.87.16	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-11-37

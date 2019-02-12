@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-55-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1324413510.982578	CWm45l4Ar1WhWjRfqa	192.168.106.10	1029	4.2.2.3	53	udp	59018	www.salarha.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	salarha.com,95.173.167.150	14380.000000,14380.000000	F
+1324413515.629163	CWm45l4Ar1WhWjRfqa	192.168.106.10	1029	4.2.2.3	53	udp	64906	parametronwcmrr.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.192.87.24	300.000000	F
+1324413520.060277	CWm45l4Ar1WhWjRfqa	192.168.106.10	1029	4.2.2.3	53	udp	34953	hotyupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.210.122.18	3600.000000	F
+1324413548.051403	CFC17U1nz5yT1dQMLl	192.168.106.10	1029	4.2.2.3	53	udp	2953	swupmf.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	swupmf.wip4.adobe.com,swupmf.adobe.com.edgesuite.net,a1137.g.akamai.net,69.31.74.105,69.31.74.120	9526.000000,280.000000,10661.000000,20.000000,20.000000	F
+#close	2014-04-03-09-55-48

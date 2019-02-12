@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-09-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1320386183.030099	C7bWPw2iJKcRN7Swq3	192.168.126.10	1029	4.2.2.3	53	udp	2443	sbkr.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.63.73.122	579.000000	F
+1320386184.126709	Co41Po1wQBF7ekvvnj	192.168.126.10	1029	4.2.2.5	53	udp	18313	count29.51yes.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	222.173.188.44	3600.000000	F
+1320386183.134563	C7bWPw2iJKcRN7Swq3	192.168.126.10	1029	4.2.2.3	53	udp	18313	count29.51yes.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	222.173.188.44	3600.000000	F
+#close	2014-04-03-11-09-33

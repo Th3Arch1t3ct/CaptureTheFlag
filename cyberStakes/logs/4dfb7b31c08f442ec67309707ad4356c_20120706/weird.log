@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-15-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1341533118.468069	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1341533153.674468	CwI2h7ElDWtEyaxpk	192.168.95.10	1049	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341533153.674702	C30FPv2VTt2L6SCtci	192.168.95.10	1049	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341533153.72276	CEA7nm42dwVhdfWsnf	192.168.95.10	1051	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341533153.723069	CODOOW3Rw56Vne6Ta5	192.168.95.10	1051	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341533154.523745	CDsWWi42GGCi9QpvDf	192.168.95.10	1054	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341533154.523993	CHSK9R3rgBklYmiQV4	192.168.95.10	1054	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341533154.557554	CI47SP1s3Nw8LnzPzh	192.168.95.10	1056	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341533154.557773	Cf5u153l7Ci9t4Ua2l	192.168.95.10	1056	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341533154.658639	C0RB0zT0dJWyYOvP5	192.168.95.10	1058	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341533154.658901	CofCKIMYZ6z7m4Aih	192.168.95.10	1058	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341533156.037832	Ce0iTI2QSU7YBUvbWa	192.168.95.10	1062	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341533156.038054	CNouGvbJt0JxBU556	192.168.95.10	1062	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341533156.083228	Cei0Th2miQxG4wPPT2	192.168.95.10	1064	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341533156.083368	CakgFg1rosJxG2zvZe	192.168.95.10	1064	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341533156.089457	Cp0nCs41SBmnm28Vv2	192.168.95.10	1066	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341533156.089602	CVGxhe2C5EOIoB3Ja3	192.168.95.10	1066	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341533159.226788	CbvLo63KKDsCZtbfEc	192.168.95.10	1075	31.193.12.27	80	bad_HTTP_request	-	F	bro
+#close	2014-04-03-10-15-27

@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-03-03
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1315301685.759428	CTk5184TUDP8MTferi	192.168.118.10	1030	218.242.141.134	80	1	GET	mytotoo.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	15313	500	Internal Server Error	-	-	-	(empty)	-	-	-	-	-	FJ15iChSDvuQk9C8h	binary
+1315301686.583056	CTk5184TUDP8MTferi	192.168.118.10	1030	218.242.141.134	80	2	GET	mytotoo.com	/photos/s2.jpg	http://mytotoo.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	423	200	OK	-	-	-	(empty)	-	-	-	-	-	FPkAZV180ZWDjdGMbi	image/jpeg
+1315301686.591282	Ci1ZTU3VBABslhFOFl	192.168.118.10	1031	218.242.141.134	80	1	GET	mytotoo.com	/photos/s1.jpg	http://mytotoo.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3194	200	OK	-	-	-	(empty)	-	-	-	-	-	FvHlQw4HnBhD8PCpvg	image/jpeg
+1315301686.799608	CTk5184TUDP8MTferi	192.168.118.10	1030	218.242.141.134	80	3	GET	mytotoo.com	/photos/s3.jpg	http://mytotoo.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	798	200	OK	-	-	-	(empty)	-	-	-	-	-	FnHbf61ezD28OoHNF7	image/jpeg
+1315301687.011774	Ci1ZTU3VBABslhFOFl	192.168.118.10	1031	218.242.141.134	80	2	GET	mytotoo.com	/ad/ad.asp?TID=4	http://mytotoo.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	328	500	Internal Server Error	-	-	-	(empty)	-	-	-	-	-	FVArzz1qwmlWJedREd	text/plain
+1315301687.305518	CTk5184TUDP8MTferi	192.168.118.10	1030	218.242.141.134	80	4	GET	mytotoo.com	/newscodejs.asp?lm2=83&list=1&icon=images/icon/001.gif&tj=0&font=10&hot=0&new=1&line=0&lmname=0&open=1&n=60&more=0&t=4&week=0&zzly=0&hit=0&pls=0	http://mytotoo.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2217	500	Internal Server Error	-	-	-	(empty)	-	-	-	-	-	F7exqaqteCDdV0qte	binary
+#close	2014-04-03-10-03-03

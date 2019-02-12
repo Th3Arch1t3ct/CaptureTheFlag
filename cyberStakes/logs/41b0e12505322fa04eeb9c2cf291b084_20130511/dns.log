@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-29-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1368303951.617103	C73GJV3Q1LjJ8QSfUd	192.168.62.10	1030	4.2.2.3	53	udp	62606	malwarestyledatebased.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.37.165.118	600.000000	F
+1368303952.598175	C73GJV3Q1LjJ8QSfUd	192.168.62.10	1030	4.2.2.3	53	udp	35981	user.pamelibulahykirch.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	198.50.187.24	3600.000000	F
+1368303963.591825	Cm78MH2UDR8FpSd3Sf	192.168.62.10	1030	4.2.2.3	53	udp	12173	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	534.000000,300.000000	F
+1368303963.84687	Cm78MH2UDR8FpSd3Sf	192.168.62.10	1030	4.2.2.3	53	udp	31627	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	2631.000000,202.000000	F
+1368303978.037374	Cm78MH2UDR8FpSd3Sf	192.168.62.10	1030	4.2.2.3	53	udp	49544	levelincome.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.152.193.10	28800.000000	F
+1368303966.285017	Cm78MH2UDR8FpSd3Sf	192.168.62.10	1030	4.2.2.3	53	udp	35721	24.187.50.198.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1368303966.285017	Cm78MH2UDR8FpSd3Sf	192.168.62.10	1030	4.2.2.3	53	udp	35721	24.187.50.198.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-29-51

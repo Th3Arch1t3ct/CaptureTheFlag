@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-57-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1332037125.45833	CUnQAJ2OXGgBbrVvG2	192.168.50.10	1030	95.168.177.93	80	1	GET	stugsidans.info	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1332037125.689003	CoVLwB4tYzjA0JbEj4	192.168.50.10	1031	178.162.149.198	80	1	GET	renuatsosd.info	/main.php?page=a6c93e2252edfa2c	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	17962	200	OK	-	-	-	(empty)	-	-	-	-	-	FPD1H8lDZWBJkoYK1	text/html
+1332037126.807037	CoVLwB4tYzjA0JbEj4	192.168.50.10	1031	178.162.149.198	80	2	GET	renuatsosd.info	/w.php?f=00f49&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	201728	200	OK	-	-	-	(empty)	-	-	-	-	-	F6gxKb2DIYRYbFUD7f	application/x-dosexec
+1332037128.440287	CaCSF644I9mlhoIPy3	192.168.50.10	1036	178.162.149.198	80	1	GET	renuatsosd.info	/content/field.swf	http://renuatsosd.info/main.php?page=a6c93e2252edfa2c	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1557	200	OK	-	-	-	(empty)	-	-	-	-	-	F8gdKb3CqXfo0DApR4	application/x-shockwave-flash
+1332037128.203335	CoVLwB4tYzjA0JbEj4	192.168.50.10	1031	178.162.149.198	80	3	GET	renuatsosd.info	/content/ap2.php?f=00f49	http://renuatsosd.info/main.php?page=a6c93e2252edfa2c	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	15017	200	OK	-	-	-	(empty)	-	-	-	-	-	F5b0m648GXsQKdcEGk	application/pdf
+1332037137.784789	CH6K1Z3SADkqv1Qvq1	192.168.50.10	1037	23.3.9.75	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1568	200	OK	-	-	-	(empty)	-	-	-	-	-	FRPaqF3C007n0n8EFg	text/html
+1332037137.626681	CaCSF644I9mlhoIPy3	192.168.50.10	1036	178.162.149.198	80	2	GET	renuatsosd.info	/content/score.swf	http://renuatsosd.info/content/field.swf	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6923	200	OK	-	-	-	(empty)	-	-	-	-	-	FmPxNp2D2het0U7pvf	application/x-shockwave-flash
+1332037142.760551	C8VuGt4mkc0tqxLlj3	192.168.50.10	1038	178.162.149.198	80	1	GET	renuatsosd.info	/content/Qai.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	17520	200	OK	-	-	-	(empty)	-	-	-	-	-	FQKnME3I2A8cOuCBNf	application/zip
+#close	2014-04-03-10-57-07

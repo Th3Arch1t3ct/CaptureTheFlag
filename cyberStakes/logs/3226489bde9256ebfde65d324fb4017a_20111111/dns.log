@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-45-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1320970875.639595	CWJW051q0hMAeWsan1	192.168.114.10	1029	4.2.2.3	53	udp	62867	superiorframes.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.96.144.175	3584.000000	F
+1320970875.931784	CWJW051q0hMAeWsan1	192.168.114.10	1029	4.2.2.3	53	udp	49552	fgdgdfgttr.twilightparadox.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	70.39.97.252	3600.000000	F
+1320970876.230765	CWJW051q0hMAeWsan1	192.168.114.10	1029	4.2.2.3	53	udp	51344	asxvrrvrv.twilightparadox.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	70.39.97.249	3600.000000	F
+1320970876.368041	CWJW051q0hMAeWsan1	192.168.114.10	1029	4.2.2.3	53	udp	26001	z180119.infobox.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	srv041.infobox.ru,77.221.130.41	600.000000,600.000000	F
+1320970876.653995	CWJW051q0hMAeWsan1	192.168.114.10	1029	4.2.2.3	53	udp	62870	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.74.137,69.31.74.187	15082.000000,252.000000,13364.000000,11.000000,11.000000	F
+1320970876.661269	CWJW051q0hMAeWsan1	192.168.114.10	1029	4.2.2.3	53	udp	5780	z179526.infobox.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	srv041.infobox.ru,77.221.130.41	600.000000,600.000000	F
+1320970876.943937	CWJW051q0hMAeWsan1	192.168.114.10	1029	4.2.2.3	53	udp	25237	hdlam.nl.am	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.194.214.66	3600.000000	F
+1320970877.313734	C3wotk1Z29UWpk8ry8	192.168.114.10	1037	4.2.2.3	53	udp	41877	infobox.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	77.221.140.2	600.000000	F
+1320970877.266848	CWJW051q0hMAeWsan1	192.168.114.10	1029	4.2.2.3	53	udp	6293	www.infobox.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	infobox.ru,77.221.140.2	600.000000,600.000000	F
+1320970927.666083	Cq1djA6qInpUiz6y4	192.168.114.10	1037	4.2.2.3	53	udp	33690	swupmf.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	swupmf.wip4.adobe.com,swupmf.adobe.com.edgesuite.net,a1137.g.akamai.net,69.31.74.137,69.31.74.160	9087.000000,600.000000,2555.000000,20.000000,20.000000	F
+1320970927.796678	Cq1djA6qInpUiz6y4	192.168.114.10	1037	4.2.2.3	53	udp	24984	crl.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.wip4.adobe.com,crl.adobe.com.edgesuite.net,a1180.g.akamai.net,69.31.74.192,69.31.74.138	7820.000000,300.000000,21070.000000,20.000000,20.000000	F
+1320970928.097683	Cq1djA6qInpUiz6y4	192.168.114.10	1037	4.2.2.3	53	udp	37272	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.47.104,74.125.47.105,74.125.47.106,74.125.47.147,74.125.47.99,74.125.47.103	23552.000000,19.000000,19.000000,19.000000,19.000000,19.000000,19.000000	F
+#close	2014-04-03-10-45-59

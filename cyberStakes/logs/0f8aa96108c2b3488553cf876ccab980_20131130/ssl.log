@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-09-50-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1385852720.372675	CNgskm9QNaTnqqk59	192.168.74.10	1076	74.125.28.95	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleapis.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1384980353.000000	1395291600.000000	-	-	-	4d434ff9bad22ece3166666666654e08	ok
+1385852722.831654	CUb9ao1Aq1D4I59xm2	192.168.74.10	1137	31.13.70.17	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.facebook.com,O=Facebook\, Inc.,L=Palo Alto,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1382936400.000000	1438837199.000000	-	-	-	8a2cdf3b44eeeeeeeeeeeeeeeeeeeeee	ok
+1385852723.615791	CipTmx2UQEY0pXYjGk	192.168.74.10	1148	31.13.70.17	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	29f3ccaa59ca1b87a6c2710d60c5e8a8274cecb2252db75ba4ff4321bd82d537	-	-	-	-	-	-	-	-	-
+1385852724.853903	CK9TxJ28pH23jjk8xk	192.168.74.10	1150	75.126.225.196	443	TLSv10	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=ads.us.e-planning.net,OU=Domain Control Validated - RapidSSL(R),OU=See www.rapidssl.com/resources/cps (c)12,OU=GT19680246,serialNumber=wVAfdgaa5Ape5BPGZqD8lNyutc/dEC41	CN=RapidSSL CA,O=GeoTrust\, Inc.,C=US	1346658092.000000	1410019444.000000	-	-	-	a83eb553db68c25d86c9bf798acccccc	ok
+1385852725.505605	CbH8ZY2ic54x4zohwe	192.168.74.10	1153	173.193.144.4	443	TLSv10	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=us.img.e-planning.net,OU=Domain Control Validated - RapidSSL(R),OU=See www.rapidssl.com/resources/cps (c)12,OU=GT67744497,serialNumber=gLsk-zsU2747eUDIWkY9TCn5usmwXsyV	CN=RapidSSL CA,O=GeoTrust\, Inc.,C=US	1346734661.000000	1410046290.000000	-	-	-	a2c87d321b1195cab624e13cbe0ca510	unable to get local issuer certificate
+1385852729.170054	CwMgHs2UtAdDx9aDni	192.168.74.10	1279	54.218.16.89	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.rlcdn.com,OU=Domain Control Validated	serialNumber=07969287,CN=Go Daddy Secure Certification Authority,OU=http://certificates.godaddy.com/repository,O=GoDaddy.com\, Inc.,L=Scottsdale,ST=Arizona,C=US	1371795782.000000	1434867782.000000	-	-	-	165e65616655925cd6c6c031a33c2f11	ok
+1385852729.99905	CPdM472EfZvtCIAGma	192.168.74.10	1297	199.38.166.155	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=m.xp1.ru4.com,OU=Domain Control Validated - QuickSSL(R) Premium,OU=See www.geotrust.com/resources/cps (c)13,OU=GT55625602,serialNumber=iWbaH4RK6a/r5YI4w5/8iVx-6bIZZ41p	CN=GeoTrust DV SSL CA,OU=Domain Validated SSL,O=GeoTrust Inc.,C=US	1370228753.000000	1433611247.000000	-	-	-	7cc9ec18814c45555555555550cc2751	ok
+#close	2014-04-03-09-50-05

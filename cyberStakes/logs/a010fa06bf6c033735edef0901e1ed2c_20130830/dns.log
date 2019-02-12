@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-07-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1377844376.697514	C8l1rlbw9Hp0sRqh4	192.168.25.10	1035	4.2.2.3	53	udp	17805	canales.dvrlists.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	72.191.134.153	0.000000	F
+#close	2014-04-03-10-07-59

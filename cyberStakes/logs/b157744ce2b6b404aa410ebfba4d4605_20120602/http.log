@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-20-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1338654792.593538	CzAaih3vM12Fnee9dd	192.168.26.10	1030	98.124.199.1	80	1	GET	aipicks.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	173	302	Object moved	-	-	-	(empty)	-	-	-	-	-	FMUHxBeED2apft6J	text/html
+1338654792.811901	CvepUmOS0Z1o4Mus8	192.168.26.10	1031	83.69.226.126	80	1	GET	tresorhunt.com	/main.php?page=fd4915ca70926af1	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	60122	200	OK	-	-	-	(empty)	-	-	-	-	-	FfSqcs1YgIMQcZ3D0g	text/html
+1338654797.679994	CvepUmOS0Z1o4Mus8	192.168.26.10	1031	83.69.226.126	80	2	GET	tresorhunt.com	/w.php?f=97d19&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	113664	200	OK	-	-	-	(empty)	-	-	-	-	-	Fbh3Wd1qI7G084SbTb	application/x-dosexec
+1338654798.752094	CLNas033GMy6q7rR4i	192.168.26.10	1036	83.69.226.126	80	1	GET	tresorhunt.com	/data/field.swf	http://tresorhunt.com/main.php?page=fd4915ca70926af1	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1547	200	OK	-	-	-	(empty)	-	-	-	-	-	FUXfWS2xrWIcbtXzBe	application/x-shockwave-flash
+1338654798.478025	CvepUmOS0Z1o4Mus8	192.168.26.10	1031	83.69.226.126	80	3	GET	tresorhunt.com	/data/ap2.php	http://tresorhunt.com/main.php?page=fd4915ca70926af1	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	53279	200	OK	-	-	-	(empty)	-	-	-	-	-	FlgprO1MPAgFzZRKsc	application/pdf
+1338654814.931916	Ceonkm2COSVnfpnB26	192.168.26.10	1040	63.233.60.10	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1759	200	OK	-	-	-	(empty)	-	-	-	-	-	Frrw5A24Op1mYeqYpd	text/html
+1338654821.879465	CwFd8J3zwhTI2Tl8fg	192.168.26.10	1041	83.69.226.126	80	1	GET	tresorhunt.com	/Set.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	20450	200	OK	-	-	-	(empty)	-	-	-	-	-	FlhUiJ283Q6BpA7E19	application/zip
+1338654823.458373	C8EOBTu3jDcz7FQe2	192.168.26.10	1042	83.69.226.126	80	1	GET	tresorhunt.com	/w.php?f=97d19&e=0	-	Java/1.6.0_10	0	113664	200	OK	-	-	-	(empty)	-	-	-	-	-	Fy2aBOI1SHVlgmWY	application/x-dosexec
+1338654849.252868	ChWVwl31EeaDlmy3wg	192.168.26.10	1046	63.233.60.17	80	1	GET	swupmf.adobe.com	/manifest/60/win/reader9rdr-en_US.upd	-	Adobe Update Manager 6	0	192693	200	OK	-	-	-	(empty)	-	-	-	-	-	FTFUcG22hSHoTUTqO9	binary
+1338654852.590232	ChWVwl31EeaDlmy3wg	192.168.26.10	1046	63.233.60.17	80	2	GET	swupmf.adobe.com	/manifest/60/win/AdobeUpdater.upd	-	Adobe Update Manager 6	0	3524	200	OK	-	-	-	(empty)	-	-	-	-	-	FcHbIO1qEl4eQZYA13	binary
+#close	2014-04-03-10-20-01

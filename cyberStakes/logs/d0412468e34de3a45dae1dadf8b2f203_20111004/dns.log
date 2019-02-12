@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-16-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1317732557.116557	CBNBvJyN5AXeKpcDd	192.168.34.10	1029	4.2.2.3	53	udp	25229	glossarium.pl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	212.85.121.16	3573.000000	F
+1317732557.433557	CBNBvJyN5AXeKpcDd	192.168.34.10	1029	4.2.2.3	53	udp	31630	rebotstat.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.212.192.228	3600.000000	F
+1317732557.759889	CBNBvJyN5AXeKpcDd	192.168.34.10	1029	4.2.2.3	53	udp	65167	hgfh.ns3.name	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.66.209	31.000000	F
+1317732563.724953	CBNBvJyN5AXeKpcDd	192.168.34.10	1029	4.2.2.3	53	udp	63112	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	2636.000000,238.000000	F
+1317732563.887918	CBNBvJyN5AXeKpcDd	192.168.34.10	1029	4.2.2.3	53	udp	19593	adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.150.16.117	10265.000000	F
+#close	2014-04-03-11-16-21

@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-23-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1315280649.635638	CABEXIaqHeYQMfAFd	192.168.109.10	1029	4.2.2.3	53	udp	2955	xpornstar-global.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.168.165.225	3574.000000	F
+1315280649.861945	CABEXIaqHeYQMfAFd	192.168.109.10	1029	4.2.2.3	53	udp	26760	bigtitsroundassesporno.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.236.82.48	16110.000000	F
+1315280652.356598	CABEXIaqHeYQMfAFd	192.168.109.10	1029	4.2.2.3	53	udp	40073	48.82.236.109.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	customer.worldstream.nl	688.000000	F
+1315280652.392464	CABEXIaqHeYQMfAFd	192.168.109.10	1029	4.2.2.3	53	udp	49294	customer.worldstream.nl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.190.136.5	688.000000	F
+1315280655.289955	CABEXIaqHeYQMfAFd	192.168.109.10	1029	4.2.2.3	53	udp	30350	rebeccajessop.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.249.137.9	12836.000000	F
+1315280656.891547	CABEXIaqHeYQMfAFd	192.168.109.10	1029	4.2.2.3	53	udp	911	mistykatz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	205.134.252.251	12836.000000	F
+#close	2014-04-03-10-23-19

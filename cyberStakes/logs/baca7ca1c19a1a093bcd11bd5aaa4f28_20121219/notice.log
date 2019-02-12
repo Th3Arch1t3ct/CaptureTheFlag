@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-03-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1355892660.750498	CD7z9uoFo7zLa5I8j	192.168.115.10	1086	70.84.7.114	80	FMKpBF32Tm9VDnQTsl	application/x-dosexec	http://cisich.org/logs/admin28.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 34%  Last seen: 2012-12-23 12:48:05	https://www.virustotal.com/en/search/?query=cdd77b1e721ede52e7ce95a8090634066869d91e	192.168.115.10	70.84.7.114	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1355892660.750498	CuNxVV1BSj2N5HluS1	192.168.115.10	1087	82.98.160.4	80	FByQZRbWnLXdW1cpk	application/x-dosexec	http://feelbook.es/logs/admin28.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 34%  Last seen: 2012-12-23 12:48:05	https://www.virustotal.com/en/search/?query=cdd77b1e721ede52e7ce95a8090634066869d91e	192.168.115.10	82.98.160.4	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-03-31

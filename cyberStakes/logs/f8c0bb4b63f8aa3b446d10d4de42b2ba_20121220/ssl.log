@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-25-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1356035576.738716	ChP3J41VPEfCSo8MIi	192.168.117.10	1039	204.246.175.167	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.cloudfront.net,O=Amazon.com\, Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1289368800.000000	1384408799.000000	-	-	-	5976df54f8265193d61c127af8b6f710	ok
+1356035577.169912	C0elzT1wcDYvpT4Fhd	192.168.117.10	1042	54.240.190.139	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.cloudfront.net,O=Amazon.com\, Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1289368800.000000	1384408799.000000	-	-	-	5976df54f8265193d61c127af8b6f710	ok
+1356035577.630532	Ca1UkLIo07tETp0ih	192.168.117.10	1043	173.194.75.95	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleapis.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1354805643.000000	1370652207.000000	-	-	-	c74dc82cbf6889badac00936f6d4bbfe	ok
+1356035582.604649	C0x2MV3hPquC52TzF4	192.168.117.10	1092	173.194.75.95	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleapis.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1354805643.000000	1370652207.000000	-	-	-	c74dc82cbf6889badac00936f6d4bbfe	ok
+1356035611.467708	C9jQc92VVYYOPkeWPc	192.168.117.10	1284	176.31.238.29	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	emailAddress=webmaster@localhost,CN=localhost,OU=none,O=none,L=Sometown,ST=Someprovince,C=US	emailAddress=webmaster@localhost,CN=localhost,OU=none,O=none,L=Sometown,ST=Someprovince,C=US	1355755547.000000	2.219669e+09	-	-	-	5d98e1e2b5bdeadacbb06f6bf401e7f1	self signed certificate
+1356035613.126323	C0l1v1HSzJ5SkzWze	192.168.117.10	1301	176.31.238.29	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	1749f0906fa889deff83ab7b566f69692ccd84c9687852298aa2e4ce86265f60	-	-	-	-	-	-	-	-	-
+1356035613.512544	CN0P2nnTTvaYaOZZk	192.168.117.10	1304	176.31.238.29	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	1749f0906fa889deff83ab7b566f69692ccd84c9687852298aa2e4ce86265f60	-	-	-	-	-	-	-	-	-
+1356035613.977784	CttdYaYYmm5UpDQ2k	192.168.117.10	1305	176.31.238.29	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	1749f0906fa889deff83ab7b566f69692ccd84c9687852298aa2e4ce86265f60	-	-	-	-	-	-	-	-	-
+1356035615.591359	CeDH9U2IxdhtJSxkRa	192.168.117.10	1325	70.33.182.200	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.ib-ibi.com,OU=IT,O=i-behavior Inc.,L=Louisville,ST=Colorado,C=US	CN=Thawte SSL CA,O=Thawte\, Inc.,C=US	1345438800.000000	1382245199.000000	-	-	-	2e70fc68a76303cc53991e9f88be694c	ok
+1356035615.912297	CXBsJX3VZL8gXwVUR4	192.168.117.10	1328	70.33.182.202	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=ib.mookie1.com,OU=IT,O=I-Behavior\, Inc,L=Louisville,ST=Colorado,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1334034000.000000	1373648400.000000	-	-	-	3567a18a090d67b8f2cb9ac062b99fdc	ok
+#close	2014-04-03-10-25-12

@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-22-51
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1395081599.569751	FmmTR61Sw1USXud0qd	69.197.18.187	192.168.71.10	CC6bAO2LynxZfKyi7g	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	770	770	0	0	F	-	b4fca84b6563e7e3d24ac4967bcef73b	c914eba010574782d8a11d00af0343e1b4738923	-	-
+1395081599.996969	Ft0N5j3kyFZ0FMg9Tj	67.23.226.179	192.168.71.10	CcXCFo3GzJY7U42bRk	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	459	459	0	0	F	-	c1786e740be7e2a3539c920a49986f13	08d33952e52e1eefe83f2f16190c1b30ec5b28d1	-	-
+1395081600.225694	FTSbG24Yj0LrSNdM3a	69.197.18.187	192.168.71.10	CC6bAO2LynxZfKyi7g	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	803	803	0	0	F	-	f5076cc76f6e36514d49300ffb1c240c	152dd66811c6731e1b682d2a7f6eccd124e498a3	-	-
+1395081600.401795	Fx7tQl1SwVnY9ngJ7i	67.23.226.179	192.168.71.10	CWn3mp4H0TfutYqCj2	HTTP	0	MD5,SHA1	application/x-dosexec	-	0.193624	-	F	17311	729916	0	0	F	-	804d1ee7026e243748aabf7da2bb0e85	1953a423df9e0bfd46862e3f9a80d911ca891db2	-	-
+#close	2014-04-03-10-22-51

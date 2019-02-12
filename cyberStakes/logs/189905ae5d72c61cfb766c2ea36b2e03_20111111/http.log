@@ -1,0 +1,33 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-08-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1321035884.346125	CCYRfK2PR8dDkg1Aq3	192.168.106.10	1030	173.236.69.45	80	1	GET	findpharmacy.net	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6756	200	OK	-	-	-	(empty)	-	-	-	-	-	FdaRUg44eWL0I0pXG7	text/html
+1321035884.435351	CCYRfK2PR8dDkg1Aq3	192.168.106.10	1030	173.236.69.45	80	2	GET	findpharmacy.net	/css/reset.css	http://findpharmacy.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	977	200	OK	-	-	-	(empty)	-	-	-	-	-	FkgdPF4wg9ZdvM82i4	text/plain
+1321035884.477457	CCYRfK2PR8dDkg1Aq3	192.168.106.10	1030	173.236.69.45	80	3	GET	findpharmacy.net	/img/bt-search.gif	http://findpharmacy.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	369	200	OK	-	-	-	(empty)	-	-	-	-	-	FPsWXqEUrP9ZNZOhg	image/gif
+1321035884.477078	CaSVUj1GN3ymD0UwM7	192.168.106.10	1031	173.236.69.45	80	1	GET	findpharmacy.net	/css/layout.css	http://findpharmacy.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2633	200	OK	-	-	-	(empty)	-	-	-	-	-	F6jR834WdGYqnRT1b1	text/plain
+1321035884.515602	CCYRfK2PR8dDkg1Aq3	192.168.106.10	1030	173.236.69.45	80	4	GET	findpharmacy.net	/img/bg-main.gif	http://findpharmacy.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	390	200	OK	-	-	-	(empty)	-	-	-	-	-	FWOzmv1RUE2zX5XZTc	image/gif
+1321035884.635306	C74yFYw5f0ibdERfd	192.168.106.10	1032	173.236.69.45	80	1	GET	adstraffics.com	/in.cgi?default	http://findpharmacy.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	178	302	Found	-	-	-	(empty)	-	-	-	-	-	Fl3bFu1iHpef9ghhTl	text/html
+1321035884.617639	CaSVUj1GN3ymD0UwM7	192.168.106.10	1031	173.236.69.45	80	2	GET	findpharmacy.net	/img/bg-header.jpg	http://findpharmacy.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	36692	200	OK	-	-	-	(empty)	-	-	-	-	-	FneWR41ZiCHiqNcPU1	image/jpeg
+1321035884.617943	CCYRfK2PR8dDkg1Aq3	192.168.106.10	1030	173.236.69.45	80	5	GET	findpharmacy.net	/img/bg-imgblock.jpg	http://findpharmacy.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	48515	200	OK	-	-	-	(empty)	-	-	-	-	-	FgqJWo2AXZTLpj5Sld	image/jpeg
+1321035884.844824	CA2iXu43kJ1u6MTAQj	192.168.106.10	1033	109.236.82.74	80	1	GET	redirportal11.info	/	http://findpharmacy.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	235	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	F6Ykvl2n8uUz13Ojca	text/html
+1321035885.242212	ChAfrv2t984DVd6W1l	192.168.106.10	1034	109.236.82.76	80	1	GET	lllstyle.in	/?site=11	http://findpharmacy.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	164	200	OK	-	-	-	(empty)	-	-	-	-	-	FSTYThcFJwEKcpLe	text/html
+1321035887.563998	C4XtFd4KFdnycBMdj6	192.168.106.10	1039	109.236.82.76	80	1	GET	lllstyle.in	/dl/applet.php?dee59e359a022e6ef20a93b3d3efdce6	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3966	200	OK	-	-	-	(empty)	-	-	-	-	-	FBKLTYwQT3EpexfF2	application/jar
+1321035887.788643	CjddXHJEan6XMTUt4	192.168.106.10	1040	109.236.82.76	80	1	GET	lllstyle.in	/dl/applet.php?dee59e359a022e6ef20a93b3d3efdce6	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3966	200	OK	-	-	-	(empty)	-	-	-	-	-	F220qh3Sz7NcPfZwJa	application/jar
+1321035888.07619	CGRisG1n1l0HCJXY4k	192.168.106.10	1041	109.236.82.76	80	1	GET	lllstyle.in	/dl/applet.php?dee59e359a022e6ef20a93b3d3efdce6	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3966	200	OK	-	-	-	(empty)	-	-	-	-	-	FqR9we3lb86ckq8hsb	application/jar
+1321035888.34613	CEqLks2yro6pmRalLc	192.168.106.10	1042	109.236.82.76	80	1	GET	lllstyle.in	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FuTLcE4hmlJVzLJa1c	text/html
+1321035888.551989	C94LqB4OW5FZFRqlf7	192.168.106.10	1043	109.236.82.76	80	1	GET	lllstyle.in	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F9Inw84di3JPLnqaSc	text/html
+1321035888.765733	CMxdI51fmLG69t4Zw3	192.168.106.10	1044	109.236.82.76	80	1	GET	lllstyle.in	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F8pgZn3rP5PNgcNYVl	text/html
+1321035888.98131	CZP2wi1WkFflnt5OVa	192.168.106.10	1045	109.236.82.76	80	1	GET	lllstyle.in	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FrlQOt3npQnHOZcGb6	text/html
+1321035889.301752	CJRdSib0ePLmQaib	192.168.106.10	1046	109.236.82.76	80	1	GET	lllstyle.in	/dl/dl.php?4	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	237624	200	OK	-	-	-	(empty)	-	-	-	-	-	FWeLD41ROxVczkow6	application/x-dosexec
+1321035890.689187	Cq67I02TRafb7dojJg	192.168.106.10	1047	199.27.134.146	80	1	GET	www.premiumsoft.info	/dynamic/get_configuration.php?installer_id=4ebabd8d7af7b1.51433012&step_id=1	-	-	0	1865	200	OK	-	-	-	(empty)	-	-	-	-	-	FvmWPZtlz8gIRqEGd	text/plain
+1321035893.800644	CBQywa3O5az08Y8Prg	192.168.106.10	1049	199.27.134.146	80	1	POST	www.premiumsoft.info	/utils/track_installer_products.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	369	6	200	OK	-	-	-	(empty)	-	-	-	FPUrhm4fk0ct9qfcYh	text/plain	FBUbPK3XzSdZ6wmW6c	text/plain
+1321035894.360149	C2puAO3c6RrtZVE3r8	192.168.106.10	1050	67.201.31.170	80	1	GET	cdn.premiumsafe.info	/installmate/addons/zugo/indy-indyesigns-dtx.exe	-	-	0	296832	200	OK	-	-	-	(empty)	-	-	-	-	-	FTLmj1ySPIxU3GFgd	application/x-dosexec
+1321035894.954918	CEm7nfDR9f3iDqeF2	192.168.106.10	1051	209.159.151.3	80	1	GET	installer.zugo.com	/getcountry?pid=695&channel=0-0-0&bdate=20110809T102552&bversion=1.9&client=installer&action=tb_validated&user_guid=936EECAC08544ABB9DDEC3830E7D4BBA	-	NSISDL/1.2 (Mozilla)	0	13	200	OK	-	-	-	(empty)	-	-	-	-	-	FbrC3C34TJoBXlW35f	text/plain
+1321035896.356608	ChYX142t7KzK8Qkedj	192.168.106.10	1052	209.159.151.3	80	1	POST	tbtrack.zugo.com	/register	-	NSIS_Inetc (Mozilla)	1421	12	200	OK	-	-	-	(empty)	-	-	-	F6ICNb3L508IbBn0qj	text/plain	FDStm42AlyMTxL9RKk	text/plain
+1321035896.507539	C2puAO3c6RrtZVE3r8	192.168.106.10	1050	67.201.31.170	80	2	GET	cdn.premiumsafe.info	/installmate/images/general_logo.bmp	-	-	0	21616	200	OK	-	-	-	(empty)	-	-	-	-	-	FjCsOF3PqfjoptILKa	image/x-ms-bmp
+#close	2014-04-03-10-08-13

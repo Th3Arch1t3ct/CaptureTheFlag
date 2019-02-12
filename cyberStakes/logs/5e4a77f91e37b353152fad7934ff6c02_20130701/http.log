@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-19-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1372648887.749045	CFSQaJ2dPuTMW2DZ64	192.168.64.10	1030	212.124.126.18	80	1	GET	kickassfaster.net	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3117	200	OK	-	-	-	(empty)	-	-	-	-	-	FXsz3RlvMwxJs45X4	text/html
+1372648887.924414	CNVwBh3kXDBlXpDCL8	192.168.64.10	1032	74.125.129.95	80	1	GET	ajax.googleapis.com	/ajax/libs/jquery/1.9.1/jquery.min.js	http://kickassfaster.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	92629	200	OK	-	-	-	(empty)	-	-	-	-	-	FYyuon4jtiCiX0mxp1	text/plain
+1372648887.933655	Ch1Lcj1TIEhETdGJOi	192.168.64.10	1031	212.124.126.18	80	1	GET	kickassfaster.net	/styles.css	http://kickassfaster.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4483	200	OK	-	-	-	(empty)	-	-	-	-	-	FnbCHi2XRyoADFaXXg	text/plain
+1372648888.169399	CFvLbg8TkND9rDiCc	192.168.64.10	1033	212.124.126.18	80	1	GET	kickassfaster.net	/images/kickasslogosmall.png	http://kickassfaster.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	9125	200	OK	-	-	-	(empty)	-	-	-	-	-	FawToFwpP1lR1g3W6	image/png
+1372648888.174251	CPw0wA429LQFOVRGCl	192.168.64.10	1034	212.124.126.18	80	1	GET	kickassfaster.net	/images/search.png	http://kickassfaster.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3774	200	OK	-	-	-	(empty)	-	-	-	-	-	FIQYr4rhTVqtQx8V5	image/png
+1372648888.191714	CIsYJH2WBn2PeWS2i1	192.168.64.10	1035	205.204.88.154	80	1	GET	kastatic.com	/images/toplogoBg.png	http://kickassfaster.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2136	200	OK	-	-	-	(empty)	-	-	-	-	-	F2ENmy1kowpXMlebh1	image/png
+1372648888.346694	CEafqT1XrR4iTYZ0if	192.168.64.10	1036	212.124.126.18	80	1	GET	kickassfaster.net	/images/search_btn.png	http://kickassfaster.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3663	200	OK	-	-	-	(empty)	-	-	-	-	-	F0R5CPguYnG3QzTDf	image/png
+1372648888.407286	CAMd404nzYD4Gv4U46	192.168.64.10	1037	212.124.126.18	80	1	GET	kickassfaster.net	/images/header_bg.jpg	http://kickassfaster.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	10949	200	OK	-	-	-	(empty)	-	-	-	-	-	Fk4Wgm1n3PikHDQynk	image/jpeg
+1372648888.705622	CIsCZQev1B42a3SQc	192.168.64.10	1038	94.75.243.14	80	1	GET	download-faster.net	/smart-download/51901121/file=file/SaveAs.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	14337	200	OK	-	-	-	(empty)	-	-	-	-	-	Frg60C2aLeR0ouWgM6	application/x-dosexec
+#close	2014-04-03-10-19-37

@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-16-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1331237965.801886	C6Nus6ygtBBEfyVOg	192.168.38.10	1104	82.103.142.217	80	F32IgpGAzoHuibrYi	application/x-dosexec	http://www1.simplexn-holder2.25u.com/?qlop=lc/c1LDO5dWS2uHSap2lnZyL5qbdqdChpp7SpJ2VrKVejuPfoZalZaKeoqernKOW2Ni1n12Yp5LFx9Skrr7Du5nZ1tSpmJ7hUQ==&t=31	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2012-03-12 21:59:58	https://www.virustotal.com/en/search/?query=a37d11a006e105297754f97fec3d1e0d00722da6	192.168.38.10	82.103.142.217	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1331237966.883958	CfMpqW2Y6MkpRctXpd	192.168.38.10	1110	82.103.142.217	80	F8kQj40sNuZYsCPjj	application/x-dosexec	http://www1.simplexn-holder2.25u.com/?7owwlvafr=W9Lk26nb2cuY6NLRraGbqaZT3OPYocajZWzUq6icqpiXmOfcqqGfmKmgYJ+nn5qL3qV0oKenpJzCyNTlpr/Et4vo15GlopLXiQ==&t=15	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2012-03-12 21:59:58	https://www.virustotal.com/en/search/?query=a37d11a006e105297754f97fec3d1e0d00722da6	192.168.38.10	82.103.142.217	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-16-50

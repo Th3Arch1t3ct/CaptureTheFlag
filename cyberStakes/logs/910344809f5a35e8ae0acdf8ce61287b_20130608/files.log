@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-10-27
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1370694796.915779	FdeWjW373OfL60SBAi	109.71.40.49	192.168.57.10	CDm1dm4Pb7TXgG6RLf	HTTP	0	SHA1,MD5	text/html	-	0.000013	-	F	2872	2872	0	0	F	-	1399c3699e2d9c785e9c5cf93363a12b	63251e73514c8fe0eac0b1c05b71db5fc390aefc	-	-
+1370694797.170873	F13ekprplmvSOZ1N1	109.71.40.49	192.168.57.10	C0xEMd1mmR783J1nY3	HTTP	0	SHA1,MD5	text/plain	-	0.114843	-	F	21969	21969	0	0	F	-	f96ff6b4ac204552e75d118c6a02caf3	ff0f1f1b2746184a2ef369071293d7c526aabe12	-	-
+1370694797.668287	FexF8M3P3ijANRSub	109.71.40.49	192.168.57.10	CoY1Fp2IByk6Jsd1xk	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	276	276	0	0	F	-	37309798f526d5c15cc103d5b5ebb1df	36f9851b263211ef35a73b4e5339ba5804bd49eb	-	-
+1370694798.780831	Fstzd9qn82Qd1daJ5	109.71.40.49	192.168.57.10	CQlAIt5RjDyR0iN06	HTTP	0	SHA1,MD5	application/pdf	manual20100188.pdf	0.000015	-	F	2691	2691	0	0	F	-	4f8c3decc09cb33f44402bdb668f9713	487fb01ce7445554d93ea5a6998e9b38a7394a5a	-	-
+1370694800.942395	FlyEnm1WveTgwDQtfe	109.71.40.49	192.168.57.10	CVXLfh30EucDoLu6ej	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	302	302	0	0	F	-	bab353114f2da70afd2c6c1dc3ab708c	78db305828d5c78c46061509d453abbb8ea9537d	-	-
+1370694801.960901	Ff6Vof2L5nwNN8ZTW3	109.71.40.49	192.168.57.10	CVPAsj43Rn6Ng7NOgf	HTTP	0	SHA1,MD5	application/zip	-	0.000000	-	F	2698	2698	0	0	F	-	b9e30841be42c17f498c532e0f651289	118c1bcc46cfb2540f446504a22dedfb3be96ecb	-	-
+1370694802.022332	FM0Cbi3J8I2RsYDyti	109.71.40.49	192.168.57.10	C5kWU52iLIwPsi2VC2	HTTP	0	SHA1,MD5	application/zip	-	0.000000	-	F	2327	2327	0	0	F	-	bca052471d50aa5b3e4d381ff1ac389d	4a8ab7e39e2e4f61dec638131cd228552b5fb7db	-	-
+1370694802.199254	FtoxCo7m8pbrdLds2	109.71.40.49	192.168.57.10	C0Vp9g1I5uX2FfeEr3	HTTP	0	SHA1,MD5	application/x-dosexec	qwade.exe.exe	0.351471	-	F	107008	107008	0	0	F	-	de16996cb1a693cb860770c657370690	f136b372c55b62792637b960a9f8e99d52e03bca	-	-
+1370694812.930731	FJh7BN2fvukpOIYBO9	109.71.40.49	192.168.57.10	CKxw6349yZGlgHAQF9	HTTP	0	SHA1,MD5	binary	-	0.000000	-	F	512	512	0	0	F	-	16e5ba761a978ed0790be6f0f0c96b27	008ab94dc929e2e7f17e9af725af336cd575bdba	-	-
+1370694820.345476	FaPWJg3PhbnZtyUWxg	69.197.137.58	192.168.57.10	C2KCWj2a4SJdQDvLa	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	18	18	0	0	F	-	dfbdf2086e55da5c5fcc02aac66c86f4	a46c74e7b1204def66e710fb07f8b11ec1b619c1	-	-
+#close	2014-04-03-10-10-27

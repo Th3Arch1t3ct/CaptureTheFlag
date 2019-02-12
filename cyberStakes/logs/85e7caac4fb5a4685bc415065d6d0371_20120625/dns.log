@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-01-16
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1340588585.20905	Ck0q4K2O0FyM6J3Fa8	192.168.39.10	1029	4.2.2.3	53	udp	8843	nanaimofostering.ca	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	204.174.222.0	3573.000000	F
+1340588586.28039	Ck0q4K2O0FyM6J3Fa8	192.168.39.10	1029	4.2.2.3	53	udp	31370	pub15.bravenet.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	public15.bravenet.com,65.39.176.115	8530.000000,8530.000000	F
+1340588586.777589	Ck0q4K2O0FyM6J3Fa8	192.168.39.10	1029	4.2.2.3	53	udp	16521	jzkitejvrxgkgpgi.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.211.27.206	3600.000000	F
+1340588587.218776	Ck0q4K2O0FyM6J3Fa8	192.168.39.10	1029	4.2.2.3	53	udp	61065	oldsert.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.17.94.154	43200.000000	F
+#close	2014-04-03-11-01-16

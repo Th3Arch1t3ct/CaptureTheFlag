@@ -1,0 +1,32 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-45-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1316261564.371336	Cdivhw4lTmql4rGznl	192.168.40.10	1030	69.65.33.126	80	1	GET	detectivecostume.net	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13043	200	OK	-	-	-	(empty)	-	-	-	-	-	F7yOLf1z2vHO0iaK	text/html
+1316261566.805733	Clqy7I8Wa9Lk5tDbi	192.168.40.10	1035	95.163.66.196	80	1	GET	maps.urmalls.com	/main.php?page=fc3e77a595495932	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	185132	200	OK	-	-	-	(empty)	-	-	-	-	-	FAVQOF4YTlPU5Kj3Ad	text/html
+1316261568.74008	C6Wrn626G3v8HYYbRe	192.168.40.10	1036	95.163.66.196	80	1	GET	maps.urmalls.com	/content/worms.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5844	200	OK	-	-	-	(empty)	-	-	-	-	-	FscVkL3slQJTiMxDyg	application/zip
+1316261570.894349	C7djKkzngxTJSEvEh	192.168.40.10	1038	95.163.88.209	80	1	GET	1604540625	/Main.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6128	200	OK	-	-	-	(empty)	-	-	-	-	-	FzO6o822goXDToucj8	application/x-java-applet
+1316261571.052764	CyYYjZ1oSQPEoTTxbd	192.168.40.10	1044	95.163.88.209	80	1	GET	1604540625	/Main.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6128	200	OK	-	-	-	(empty)	-	-	-	-	-	FUF5I12AAqwBiI5oOk	application/x-java-applet
+1316261571.066655	CcL6Ph1r0e0HUH3Aj6	192.168.40.10	1046	95.163.88.209	80	1	GET	1604540625	/Main.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6128	200	OK	-	-	-	(empty)	-	-	-	-	-	FeBYwrJPWA2rZobE	application/x-java-applet
+1316261571.065408	C5ol4g4bntk1yvmhK4	192.168.40.10	1047	95.163.88.209	80	1	GET	1604540625	/Main.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6128	200	OK	-	-	-	(empty)	-	-	-	-	-	FwGspp40vhZn9lCp73	application/x-java-applet
+1316261571.076248	CwxXDK2uVrm11yYjw8	192.168.40.10	1048	95.163.88.209	80	1	GET	1604540625	/Main.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6128	200	OK	-	-	-	(empty)	-	-	-	-	-	Fb1LbBRGNopz3CaD4	application/x-java-applet
+1316261571.075619	Clqff21i4ZFnwBgeRj	192.168.40.10	1045	95.163.88.209	80	1	GET	1604540625	/Main.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6128	200	OK	-	-	-	(empty)	-	-	-	-	-	FFIq7q1zB9LTziNzX7	application/x-java-applet
+1316261570.794376	Clqy7I8Wa9Lk5tDbi	192.168.40.10	1035	95.163.66.196	80	2	GET	maps.urmalls.com	/content/2fdp.php?f=60	http://maps.urmalls.com/main.php?page=fc3e77a595495932	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	12245	200	OK	-	-	-	(empty)	-	-	-	-	-	FxnUfy1Rf9pGhKCrBl	application/pdf
+1316261570.865219	CpqeGdpzrerQPQgof	192.168.40.10	1037	95.163.66.196	80	1	GET	maps.urmalls.com	/w.php?f=60&e=1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	375808	200	OK	-	-	-	(empty)	-	-	-	-	-	FEb6iZ3xHWN8dx1AK	application/x-dosexec
+1316261574.855353	Clqy7I8Wa9Lk5tDbi	192.168.40.10	1035	95.163.66.196	80	3	GET	maps.urmalls.com	/content/field.swf	http://maps.urmalls.com/main.php?page=fc3e77a595495932	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1302	200	OK	-	-	-	(empty)	-	-	-	-	-	FKYfhx2xSKvkkJiiQ1	application/x-shockwave-flash
+1316261582.480457	C5DDI22AsSy5liYa8f	192.168.40.10	1055	178.162.174.147	80	1	GET	178.162.174.147	/api/urls/?affid=13602	http://178.162.174.147	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	38	200	OK	-	-	-	(empty)	-	-	-	-	-	FFJiwJM4JrKb92io6	text/plain
+1316261583.798745	C7u9Gg117DmoTKiKgd	192.168.40.10	1057	178.162.174.147	80	1	GET	178.162.174.147	/api/stats/install/1007/13602	http://178.162.174.147	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1316261583.734152	CKVpBjXBDCE9iJ8Bj	192.168.40.10	1056	95.163.66.196	80	1	GET	maps.urmalls.com	/w.php?f=60&e=6	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	375808	200	OK	-	-	-	(empty)	-	-	-	-	-	Fzf2h21XDzE9ZuAGcc	application/x-dosexec
+1316261587.833119	C65QD514NTFB9E0apb	192.168.40.10	1058	122.224.4.134	80	1	GET	122.224.4.134	/1.exe?affid=13602	http://122.224.4.134	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	230912	200	OK	-	-	-	(empty)	-	-	-	-	-	FsbhVJogqTnniyIV2	application/x-dosexec
+1316261583.433724	CLaawJ2O9ycvb9z1p6	192.168.40.10	1049	95.163.66.196	80	1	GET	maps.urmalls.com	/w.php?f=60&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	375808	200	OK	-	-	-	(empty)	-	-	-	-	-	FBqHunOuL0ko50rk9	application/x-dosexec
+1316261589.819092	Cw3b9s3KIxibBVVqu4	192.168.40.10	1051	95.163.66.196	80	1	GET	maps.urmalls.com	/w.php?f=60&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	375808	200	OK	-	-	-	(empty)	-	-	-	-	-	FNgWac36reuW4gBVe1	application/x-dosexec
+1316261589.716752	CV7Ryv3B71VbEHQtg8	192.168.40.10	1053	95.163.66.196	80	1	GET	maps.urmalls.com	/w.php?f=60&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	375808	200	OK	-	-	-	(empty)	-	-	-	-	-	FhHa0b2T6nK7Ha8L9l	application/x-dosexec
+1316261589.616471	CZoczy3E7k8JDW8xx2	192.168.40.10	1050	95.163.66.196	80	1	GET	maps.urmalls.com	/w.php?f=60&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	375808	200	OK	-	-	-	(empty)	-	-	-	-	-	FE1rws1RRTHefQOa7	application/x-dosexec
+1316261589.819519	CeZ5uj4RQlcu97XYC2	192.168.40.10	1052	95.163.66.196	80	1	GET	maps.urmalls.com	/w.php?f=60&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	375808	200	OK	-	-	-	(empty)	-	-	-	-	-	FTBILT2Lra92vzFbBe	application/x-dosexec
+1316261592.477158	CiJCYGcuT5spJSLsl	192.168.40.10	1059	95.163.66.196	80	1	OPTIONS	95.163.66.196	/	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	166	405	Not Allowed	-	-	-	(empty)	-	-	-	-	-	F2qepF368AhM4wWOfg	text/html
+1316261589.733144	Cqvkrx3WKeoDPvIHJh	192.168.40.10	1054	95.163.66.196	80	1	GET	maps.urmalls.com	/w.php?f=60&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	375808	200	OK	-	-	-	(empty)	-	-	-	-	-	Fnn7jK1gDxFgkqaEVh	application/x-dosexec
+#close	2014-04-03-10-45-14

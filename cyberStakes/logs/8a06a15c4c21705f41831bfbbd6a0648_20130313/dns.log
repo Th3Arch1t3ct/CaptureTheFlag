@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-16-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1363205015.532805	C2ZnVhlBRtuGfSc9l	192.168.42.10	1029	4.2.2.3	53	udp	62606	skill.lv	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.30.214.138	43200.000000	F
+1363205018.185221	C2ZnVhlBRtuGfSc9l	192.168.42.10	1029	4.2.2.3	53	udp	57486	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.140.95	1389.000000,290.000000	F
+1363205023.943858	C2ZnVhlBRtuGfSc9l	192.168.42.10	1029	4.2.2.3	53	udp	35725	www.gravatar.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cs91.wac.edgecastcdn.net,72.21.91.121	4764.000000,2919.000000	F
+1363205024.029196	C2ZnVhlBRtuGfSc9l	192.168.42.10	1029	4.2.2.3	53	udp	25228	i2.wp.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cs82.wac.edgecastcdn.net,72.21.91.111	9380.000000,3192.000000	F
+#close	2014-04-03-11-16-29

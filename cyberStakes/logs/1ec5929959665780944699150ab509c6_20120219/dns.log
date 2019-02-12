@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-37-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1329625906.710922	Cdk74E4uxvXNsAj5Sg	192.168.53.10	1029	4.2.2.3	53	udp	50572	traintech2000.com.au	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	202.148.142.253	1778.000000	F
+1329625908.174474	Cdk74E4uxvXNsAj5Sg	192.168.53.10	1029	4.2.2.3	53	udp	12940	www.traintech.com.au	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	117.104.160.130	300.000000	F
+1329625910.227872	Cdk74E4uxvXNsAj5Sg	192.168.53.10	1029	4.2.2.3	53	udp	39822	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.45.95	2462.000000,50.000000	F
+1329625911.95686	Cdk74E4uxvXNsAj5Sg	192.168.53.10	1029	4.2.2.3	53	udp	30862	code.jquery.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wac.1257.edgecastcdn.net,ne.wac.edgecastcdn.net,ne1.wac.edgecastcdn.net,72.21.91.19	5814.000000,2729.000000,3495.000000,8300.000000	F
+1329625915.029669	Cdk74E4uxvXNsAj5Sg	192.168.53.10	1029	4.2.2.3	53	udp	26505	maps.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	maps.l.google.com,74.125.47.101,74.125.47.102,74.125.47.113,74.125.47.138,74.125.47.139,74.125.47.100	3832.000000,95.000000,95.000000,95.000000,95.000000,95.000000,95.000000	F
+1329625915.158834	Cdk74E4uxvXNsAj5Sg	192.168.53.10	1029	4.2.2.3	53	udp	59531	maps.gstatic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.125.45.120	103.000000	F
+1329625930.065841	CS1hJl21LITHtxrzFj	192.168.53.10	1029	4.2.2.3	53	udp	11146	www.daysofyorr.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	daysofyorr.com,174.136.19.133	14400.000000,14400.000000	F
+1329625930.278885	CS1hJl21LITHtxrzFj	192.168.53.10	1029	4.2.2.3	53	udp	18565	adver3.zadverising.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.192.87.25	600.000000	F
+1329625939.629635	CS1hJl21LITHtxrzFj	192.168.53.10	1029	4.2.2.3	53	udp	8325	platinumhd.tv	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	223.27.3.163	14400.000000	F
+1329625967.477793	CfPGCe4svj6voOhk6j	192.168.53.10	1029	4.2.2.3	53	udp	2948	swupmf.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	swupmf.wip4.adobe.com,swupmf.adobe.com.edgesuite.net,a1137.g.akamai.net,192.204.3.18,192.204.3.24	106.000000,565.000000,9227.000000,20.000000,20.000000	F
+1329625967.511293	CfPGCe4svj6voOhk6j	192.168.53.10	1029	4.2.2.3	53	udp	30343	crl.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.wip4.adobe.com,crl.adobe.com.edgesuite.net,a1180.g.akamai.net,192.204.3.10,192.204.3.11	7251.000000,300.000000,15814.000000,20.000000,20.000000	F
+#close	2014-04-03-10-37-29

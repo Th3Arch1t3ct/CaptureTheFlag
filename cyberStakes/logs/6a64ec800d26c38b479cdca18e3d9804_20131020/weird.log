@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-15-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1382294322.748518	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1382294339.066955	Cfk2JI31gQ1jEW7Thc	192.168.10.10	1092	199.21.148.98	80	unescaped_special_URI_char	-	F	bro
+1382294353.14911	CCAxUx14yjxQD0iP03	192.168.10.10	1108	184.72.238.61	80	unescaped_special_URI_char	-	F	bro
+1382294354.73	Cd8BS22CHrA0Z4AsK3	192.168.10.10	1113	199.21.148.98	80	unescaped_special_URI_char	-	F	bro
+1382294362.123523	CXULYA3jrrvy5FoSmf	192.168.10.10	1128	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1382294362.136243	C7vfTY1WfYn7DeXKr3	192.168.10.10	1129	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1382294362.175447	CDA7yw4JnZPSna6P1b	192.168.10.10	1130	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1382294362.17914	CJysbK1HYtUHrMDRY	192.168.10.10	1131	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1382294362.180452	Cr9R3T3siwoDLVVD0e	192.168.10.10	1132	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1382294362.181667	CXAdRg2VmIs0JHvEO4	192.168.10.10	1133	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1382294362.18309	Cp4ore4cB40RFmPVnc	192.168.10.10	1134	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1382294362.193815	CFL8fs146hidgmFAUg	192.168.10.10	1135	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1382294362.213575	CnxRvvRrbP9lQKek9	192.168.10.10	1136	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1382294362.249873	CxzkWh3iGWaO0X9Efl	192.168.10.10	1137	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1382294362.253172	CfFCdKv5VQlvw37e8	192.168.10.10	1138	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1382294374.372	CUMngG4pWT7u5uV57g	192.168.10.10	1154	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1382294374.372635	CcHPaQ14NHvQHHn6I1	192.168.10.10	1155	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1382294374.373151	CkmoyK3gfriDtsgV82	192.168.10.10	1156	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+#close	2014-04-03-10-15-09

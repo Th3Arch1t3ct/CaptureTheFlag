@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-49-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1354691658.023176	C4mgqe2V3KkuNQJmDc	192.168.43.10	1029	4.2.2.3	53	udp	25492	myshoppingdealz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	88.198.101.120	1800.000000	F
+1354691663.403305	C4mgqe2V3KkuNQJmDc	192.168.43.10	1029	4.2.2.3	53	udp	62612	www.myshoppingdealz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	88.198.101.120	1800.000000	F
+1354691666.060471	C4mgqe2V3KkuNQJmDc	192.168.43.10	1029	4.2.2.3	53	udp	55447	updateci.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.16.128.34	14400.000000	F
+1354691666.276532	C4mgqe2V3KkuNQJmDc	192.168.43.10	1029	4.2.2.3	53	udp	47255	marbledb.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.173.168.16	14400.000000	F
+1354691671.958681	C4mgqe2V3KkuNQJmDc	192.168.43.10	1029	4.2.2.3	53	udp	10646	16.168.173.95.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	linux2.hostabi.com	3600.000000	F
+1354691672.426809	C4mgqe2V3KkuNQJmDc	192.168.43.10	1029	4.2.2.3	53	udp	46742	linux2.hostabi.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.173.168.5	14400.000000	F
+1354691681.425228	C4mgqe2V3KkuNQJmDc	192.168.43.10	1029	4.2.2.3	53	udp	23440	google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.125.140.138,74.125.140.100,74.125.140.102,74.125.140.139,74.125.140.101,74.125.140.113	15.000000,15.000000,15.000000,15.000000,15.000000,15.000000	F
+#close	2014-04-03-09-49-56

@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-12-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1323588842.61027	CKsEBb1Lrm9oJzxbqi	192.168.100.10	1044	96.45.180.170	443	-	-	-	-	-	-	-	-	unknown-24079	-	-	-	-
+1323588842.61027	CKsEBb1Lrm9oJzxbqi	192.168.100.10	1044	96.45.180.170	443	-	-	-	-	-	-	-	-	unknown-24079	-	-	-	-
+1323588842.61027	CKsEBb1Lrm9oJzxbqi	192.168.100.10	1044	96.45.180.170	443	-	-	-	-	-	-	-	-	unknown-24079	-	-	-	-
+1323588842.61027	CKsEBb1Lrm9oJzxbqi	192.168.100.10	1044	96.45.180.170	443	-	-	-	-	-	-	-	-	unknown-24079	-	-	-	-
+1323588842.61027	CKsEBb1Lrm9oJzxbqi	192.168.100.10	1044	96.45.180.170	443	-	-	-	-	-	-	-	-	unknown-24079	-	-	-	-
+1323588842.61027	CKsEBb1Lrm9oJzxbqi	192.168.100.10	1044	96.45.180.170	443	-	-	-	-	-	-	-	-	unknown-24079	-	-	-	-
+#close	2014-04-03-10-12-34

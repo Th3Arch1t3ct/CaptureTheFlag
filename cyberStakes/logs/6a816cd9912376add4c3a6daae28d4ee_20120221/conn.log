@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-09-49-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1329856991.876162	CwL9tyTnqNqg5F4Ai	192.168.4.10	1033	66.85.168.164	80	tcp	http	0.635132	329	662	SF	-	0	ShADadfF	6	577	6	910	(empty)
+1329856994.201258	CNXqmk3f8z7YfBEeX9	192.168.4.10	1038	66.85.168.164	80	tcp	http	0.337608	277	2045	SF	-	0	ShADdaFf	6	525	6	2293	(empty)
+1329856995.276199	Cryych3JymFePVjw1a	192.168.4.10	1041	66.85.168.166	80	tcp	http	0.428302	195	51476	RSTO	-	0	ShADdaR	29	1363	38	53004	(empty)
+1329856994.586368	Crbnqe2sJOJ69eyhSf	192.168.4.10	1039	66.85.168.164	80	tcp	http	9.903877	788	5872	SF	-	0	ShADdaFf	12	1276	12	6360	(empty)
+1329856991.240398	C3vLex4TEWsxRHQCf4	192.168.4.10	1029	4.2.2.3	53	udp	dns	4.531980	225	494	SF	-	0	Dd	6	393	6	662	(empty)
+1329856974.832313	CjZD5p4x6AWII3Z7H4	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000829	626	0	S0	-	0	D	2	682	0	0	(empty)
+1329856991.242268	CX0oF51oGlogiZNvF1	192.168.4.10	1030	173.245.61.14	80	tcp	http	46.868191	283	1429	RSTO	-	0	ShADadfR	7	571	6	1677	(empty)
+1329856974.832649	CtXQT61YCRul7D6iMl	192.168.4.10	68	192.168.4.1	67	udp	dhcp	13.210283	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1329856991.777134	Cg2D9U3Ql0DcEthUJ1	192.168.4.10	1032	74.125.45.155	80	tcp	http	61.598194	832	485	RSTO	-	0	ShADadR	5	1040	3	613	(empty)
+1329856995.776226	CTxG2k2ktdQxmWbWo7	192.168.4.10	1042	66.85.168.166	60886	tcp	-	50.897099	475	88	S1	-	0	ShADd	9	843	5	296	(empty)
+1329856991.451272	CqOBRsl7fu9Lw0Saj	192.168.4.10	1031	74.125.45.157	80	tcp	http	61.924326	1085	29030	RSTO	-	0	ShADadR	21	1933	24	29998	(empty)
+1329856994.131332	CeJeWQ34GcdJzorjtg	192.168.4.10	1036	239.255.255.250	1900	udp	-	6.150377	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-09-49-32

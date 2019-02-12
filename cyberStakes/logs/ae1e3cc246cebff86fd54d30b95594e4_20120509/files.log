@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-58-03
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1336562554.180332	FKjrFP3NgH6aNP8am4	117.28.235.141	192.168.99.10	C1cZ1J3dFvaVP8o5U2	HTTP	0	SHA1,MD5	application/x-dosexec	007.exe	0.000000	-	F	1460	194048	0	0	F	-	51f1d2accd646da74e8a1c69e30d7771	7aefa14b16021ecb6f65fd7e7cf275668eed47bc	-	-
+1336562556.540789	Fs528LAXnvx5GLKTb	114.112.59.89	192.168.99.10	CkDQT74QtRHuR3ZwY7	HTTP	0	SHA1,MD5	text/html	-	60.030264	-	F	20272	20272	0	0	F	-	8da3298e153779982057ae8a7525dbda	916cdb0a921681eb298a9499f93f99257d2cd1c2	-	-
+#close	2014-04-03-10-58-03

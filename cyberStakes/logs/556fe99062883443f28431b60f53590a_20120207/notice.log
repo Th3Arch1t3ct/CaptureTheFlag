@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-53-21
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1328638727.80997	CflSGq2P2KnxVW3cwk	192.168.85.10	1046	78.159.105.120	80	FzKLxaeXUkSwK7Oi3	application/x-dosexec	http://abcfunny.info/?eea8ca9deae0f6117bb9cb3b2306eb54	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-02-20 22:58:25	https://www.virustotal.com/en/search/?query=f076dc209dfa2543ae3643354d3f2374ec3d4507	192.168.85.10	78.159.105.120	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328638728.406589	CFiqDvBfEnIFbmgE9	192.168.85.10	1050	78.159.105.120	80	Ft9G8g1ZuSJ7oB45xg	application/x-dosexec	http://abcfunny.info/?eea8ca9deae0f6117bb9cb3b2306eb54	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-02-20 22:58:25	https://www.virustotal.com/en/search/?query=f076dc209dfa2543ae3643354d3f2374ec3d4507	192.168.85.10	78.159.105.120	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328638734.346323	CZTkKQ3KEno2akj2Yf	192.168.85.10	1088	78.159.105.120	80	FSfP1B1FuOoWShMSpa	application/x-dosexec	http://abcfunny.info/?aa507b8b363d36191654d7c6bac2907c	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2012-02-08 00:46:50	https://www.virustotal.com/en/search/?query=31e176145282a621953a43d1f985dfc1232ed271	192.168.85.10	78.159.105.120	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328638734.65287	CQmGCa4K3JcuWd7EA3	192.168.85.10	1089	78.159.105.120	80	F3NPg93ugU18VtgG9d	application/x-dosexec	http://abcfunny.info/?aa507b8b363d36191654d7c6bac2907c	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2012-02-08 00:46:50	https://www.virustotal.com/en/search/?query=31e176145282a621953a43d1f985dfc1232ed271	192.168.85.10	78.159.105.120	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-53-22

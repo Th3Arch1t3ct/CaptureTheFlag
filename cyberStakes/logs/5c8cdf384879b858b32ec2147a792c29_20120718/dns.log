@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-13-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1342586092.962652	CMqYwc2evbuP15Q8Gj	192.168.58.10	1029	4.2.2.3	53	udp	31887	secretofmakingmoneyonline.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.23.189.85	14374.000000	F
+1342586093.196972	CMqYwc2evbuP15Q8Gj	192.168.58.10	1029	4.2.2.3	53	udp	42382	flipsphere.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.211.26.174	43200.000000	F
+1342586093.396352	CMqYwc2evbuP15Q8Gj	192.168.58.10	1029	4.2.2.3	53	udp	51598	pagead2.googlesyndication.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pagead46.l.doubleclick.net,74.125.137.154,74.125.137.155,74.125.137.156,74.125.137.157	238.000000,156.000000,156.000000,156.000000,156.000000	F
+1342586093.530231	CMqYwc2evbuP15Q8Gj	192.168.58.10	1029	4.2.2.3	53	udp	40845	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,192.204.4.9,192.204.4.73	9515.000000,8.000000,10477.000000,8.000000,8.000000	F
+1342586093.668063	CMqYwc2evbuP15Q8Gj	192.168.58.10	1029	4.2.2.3	53	udp	55180	glmailbacon.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.215.60.134	38400.000000	F
+1342586093.779393	CMqYwc2evbuP15Q8Gj	192.168.58.10	1029	4.2.2.3	53	udp	29066	googleads.g.doubleclick.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pagead.l.doubleclick.net,74.125.137.155,74.125.137.156,74.125.137.157,74.125.137.154	218.000000,134.000000,134.000000,134.000000,134.000000	F
+1342586116.577298	CBy5KE1ynM8jEKpnek	192.168.58.10	1029	4.2.2.3	53	udp	52874	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.134.104,74.125.134.105,74.125.134.106,74.125.134.147,74.125.134.99,74.125.134.103	9353.000000,148.000000,148.000000,148.000000,148.000000,148.000000,148.000000	F
+1342586126.184503	CBy5KE1ynM8jEKpnek	192.168.58.10	1029	4.2.2.3	53	udp	40073	swupmf.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	swupmf.wip4.adobe.com,swupmf.adobe.com.edgesuite.net,a1137.g.akamai.net,192.204.4.65,192.204.4.43	6872.000000,600.000000,15745.000000,20.000000,20.000000	F
+1342586141.538161	C6LNWc2nDTEEIujbIj	192.168.58.10	1029	4.2.2.3	53	udp	7048	crl.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.wip4.adobe.com,crl.adobe.com.edgesuite.net,a1180.g.akamai.net,192.204.4.26,192.204.4.10	6872.000000,300.000000,12940.000000,20.000000,20.000000	F
+#close	2014-04-03-11-14-00

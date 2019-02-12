@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-49-17
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1362042020.818789	ClPtwaLf0NuwFg9wl	192.168.14.10	1030	81.169.145.73	80	1	GET	lindhoeft-muehle.de	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	23361	200	OK	-	-	-	(empty)	-	-	-	-	-	F5tfOj4litxrlBkade	text/html
+1362042021.615929	CfYT4Y2yy5btgXFcfe	192.168.14.10	1031	62.73.93.102	80	1	GET	sraphicshouldn.su	/img2/count.htm	http://lindhoeft-muehle.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	287	200	OK	-	-	-	(empty)	-	-	-	-	-	FWZe4E5D60uDYHkU3	binary
+1362042022.264942	Cv2KKD42xzG5J1ZpGj	192.168.14.10	1032	37.139.51.110	80	1	GET	rcbmy.amit.whomptt.biz	/horner-centurion_into	http://lindhoeft-muehle.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5671	200	OK	-	-	-	(empty)	-	-	-	-	-	FDAjSw2krxbzOJGppl	text/html
+1362042022.721103	Cv2KKD42xzG5J1ZpGj	192.168.14.10	1032	37.139.51.110	80	2	GET	rcbmy.amit.whomptt.biz	/5kogiGgwaeGQawpmZQaariZwQG/7QpQeQ7eH77ZtQ7QeQe/resembling.js	http://rcbmy.amit.whomptt.biz/horner-centurion_into	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	768	200	OK	-	-	-	(empty)	-	-	-	-	-	FRET5d3wyYsHDVw6gb	text/plain
+1362042024.043561	CRkpd94mOqXMLlBe4k	192.168.14.10	1037	81.169.145.73	80	1	GET	lindhoeft-muehle.de	/09ezex7mogiGgwaGGQawpmZQaariZwee/152886222/oils.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	249	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FX30XW1gcc0BIcXCIb	text/html
+1362042024.182347	CRkpd94mOqXMLlBe4k	192.168.14.10	1037	81.169.145.73	80	2	GET	lindhoeft-muehle.de	/09ezex7mogiGgwaGGQawpmZQaariZwee/152886222/oils.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	249	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FilRHM2Gs4KVUOpuxj	text/html
+1362042024.309685	CRkpd94mOqXMLlBe4k	192.168.14.10	1037	81.169.145.73	80	3	GET	lindhoeft-muehle.de	/09ezex7mogiGgwaGGQawpmZQaariZwee/152886222/MyApplet.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	255	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FGXFoi3Di1JfKyi4m4	text/html
+1362042024.436882	CRkpd94mOqXMLlBe4k	192.168.14.10	1037	81.169.145.73	80	4	GET	lindhoeft-muehle.de	/09ezex7mogiGgwaGGQawpmZQaariZwee/152886222/MyApplet/class.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Fxp4jQ2Z9b9WmBo7lk	text/html
+1362042028.055087	Cv2KKD42xzG5J1ZpGj	192.168.14.10	1032	37.139.51.110	80	3	GET	rcbmy.amit.whomptt.biz	/09ezex7mogiGgwaGGQawpmZQaariZwee/364141721/history.pdf	http://rcbmy.amit.whomptt.biz/horner-centurion_into	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	30740	200	OK	-	-	-	(empty)	-	-	-	-	-	FPYj2xjBSqazyXyDb	application/pdf
+1362042031.050685	Cv2KKD42xzG5J1ZpGj	192.168.14.10	1032	37.139.51.110	80	4	GET	rcbmy.amit.whomptt.biz	/8z89qtogiGgwaGGQawpmZQaariZwee/323860656/36203	-	http://rcbmy.amit.whomptt.biz/8z89qtogiGgwaGGQawpmZQaariZwee/323860656/36203	0	247808	200	OK	-	-	-	(empty)	-	-	-	-	-	FHqFgk3ff985mEWY73	binary
+1362042034.533882	CRVAef3rNeG4qmVLHf	192.168.14.10	1038	186.227.160.207	80	1	POST	satisfactorily.su	/hjz/file.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	119	76208	200	OK	-	-	-	(empty)	-	-	-	F8kqyP3qR0FhCHoEG4	binary	FI6Jge5ZRePWGP1M7	binary
+1362042034.533294	C7uYJm4nUqBI6Axk9l	192.168.14.10	1039	186.227.160.207	80	1	POST	satisfactorily.su	/hjz/file.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	131	221471	200	OK	-	-	-	(empty)	-	-	-	Fs1SASrFMBmgDXW5f	binary	FaFAooDMl0aeW6iEk	binary
+1362042064.219351	Cxyziq4YRyf3jBKZc	192.168.14.10	1041	173.194.75.99	80	1	GET	www.google.com	/webhp	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	31746	200	OK	-	-	-	(empty)	-	-	-	-	-	F1RErg4vJrqBWsyPbc	text/html
+1362042064.465336	C9A2w6TMQot43Csx2	192.168.14.10	1043	76.185.101.239	80	1	POST	upkeepfilesyst.su	/fiv/gfhk.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	533	64	200	OK	-	-	-	(empty)	-	-	-	FsuY6B25cA15NcjtXe	binary	FhANR34R5Yg1etjWp7	binary
+1362042064.465529	C5kngF11Asz4PQVk08	192.168.14.10	1042	76.185.101.239	80	1	POST	upkeepfilesyst.su	/fiv/gfhk.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	382	142	200	OK	-	-	-	(empty)	-	-	-	FH4AnByQUv7Cvv1Sc	binary	FG7Ayn3RoGHz041ny2	binary
+1362042064.991752	CtdCrg1OH4n2X8mSJ5	192.168.14.10	1044	186.227.160.207	80	1	POST	satisfactorily.su	/hjz/file.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	118	62464	200	OK	-	-	-	(empty)	-	-	-	FyzihH5B6bYnr4yX4	binary	FW9d221XQUCFc1VGM1	application/x-dosexec
+1362042068.030383	CLWCUtLM7hXLkeNBi	192.168.14.10	1045	76.185.101.239	80	1	POST	upkeepfilesyst.su	/fiv/gfhk.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	255	64	200	OK	-	-	-	(empty)	-	-	-	F6ePyC3rvrt8xJXn1g	binary	Fqr4fL4ovXEuJRL35	binary
+#close	2014-04-03-10-49-17

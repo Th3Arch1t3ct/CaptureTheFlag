@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-14-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1342026310.872815	C5Q07f14yClvktZOM1	192.168.63.10	1029	4.2.2.3	53	udp	8845	txl-tech.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.227.192.135	43175.000000	F
+1342026311.028466	C5Q07f14yClvktZOM1	192.168.63.10	1029	4.2.2.3	53	udp	33166	baffalo.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.149.15.143	21907.000000	F
+1342026311.371803	C5Q07f14yClvktZOM1	192.168.63.10	1029	4.2.2.3	53	udp	16271	akeyboard.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.168.173.91	30.000000	F
+1342026311.636143	C5Q07f14yClvktZOM1	192.168.63.10	1029	4.2.2.3	53	udp	5768	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,192.204.4.9,192.204.4.73	2930.000000,188.000000,8536.000000,1.000000,1.000000	F
+1342026312.817942	C5Q07f14yClvktZOM1	192.168.63.10	1029	4.2.2.3	53	udp	46730	nopearth.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.59.198.62	30.000000	F
+1342026327.543311	CB9eSa3DyUUXhFRHul	192.168.63.10	1029	4.2.2.3	53	udp	16779	62.198.59.37.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1342026367.133175	Coa0N94NMGCXRZv9tf	192.168.63.10	1029	4.2.2.3	53	udp	20100	sk5srvgy3.en0so1ck11go.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.139.9.18	3356.000000	F
+1342026367.561611	Coa0N94NMGCXRZv9tf	192.168.63.10	1029	4.2.2.3	53	udp	6021	prh8vrw4.en0so1ck11go.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.139.9.18	3356.000000	F
+1342026370.734354	Coa0N94NMGCXRZv9tf	192.168.63.10	1029	4.2.2.3	53	udp	45191	sh5wcsvr5.en0so1ck11go.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.139.9.18	2533.000000	F
+#close	2014-04-03-10-14-10

@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-33-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1343385704.005184	CfVXHG1TkHbXWoXbC2	192.168.89.10	1065	184.82.60.172	80	F6m7x122MJ4gGpRzc1	application/x-shockwave-flash	http://loddena.cu.cc/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 60%  Last seen: 2012-09-06 19:30:37	https://www.virustotal.com/en/search/?query=d55886f888b40f7c4069473c59408afb6ed8a2df	192.168.89.10	184.82.60.172	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-33-47

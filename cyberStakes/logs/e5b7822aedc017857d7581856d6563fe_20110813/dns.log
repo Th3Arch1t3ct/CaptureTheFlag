@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-00-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1313196719.561236	Ce9LfqAkezfrXlWGg	192.168.111.10	1029	4.2.2.3	53	udp	8843	buycheapall365.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.21.148.208	3574.000000	F
+1313196719.956697	Ce9LfqAkezfrXlWGg	192.168.111.10	1029	4.2.2.3	53	udp	45450	img1.liveinternet.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	88.212.202.52,88.212.202.24	10800.000000,10800.000000	F
+1313196720.112247	Ce9LfqAkezfrXlWGg	192.168.111.10	1029	4.2.2.3	53	udp	42377	lslegkeds.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	68.168.222.122	14400.000000	F
+1313196720.380289	Ce9LfqAkezfrXlWGg	192.168.111.10	1029	4.2.2.3	53	udp	62857	zzzzzzzzz.c0m.li	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.220.0.49	3600.000000	F
+1313196721.455058	Ce9LfqAkezfrXlWGg	192.168.111.10	1029	4.2.2.3	53	udp	28297	bnmbnbb.c0m.li	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.236.81.160	3600.000000	F
+1313196767.800033	CpRXcF2puZKhML32V5	192.168.111.10	1029	4.2.2.3	53	udp	62351	search-netsite.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.234.8.69	3600.000000	F
+1313196767.891227	CpRXcF2puZKhML32V5	192.168.111.10	1029	4.2.2.3	53	udp	2440	maserluk.com.tw	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.199.48.151	600.000000	F
+1313196772.450245	CpRXcF2puZKhML32V5	192.168.111.10	1029	4.2.2.3	53	udp	27278	onlineinstitute.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.28.3.141	1800.000000	F
+1313196789.580252	CrAhp2FPp6tX83uVk	192.168.111.10	1029	4.2.2.3	53	udp	27534	gubkabob.com.tw	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	221.132.34.165	600.000000	F
+1313196795.596604	CrAhp2FPp6tX83uVk	192.168.111.10	1029	4.2.2.3	53	udp	64141	forum4relax.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.50.121.112	36930.000000	F
+#close	2014-04-03-11-00-51

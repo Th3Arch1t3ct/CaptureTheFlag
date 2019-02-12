@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-08-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1323480119.494656	CzLde73fDihii1XYrj	192.168.75.10	1029	4.2.2.3	53	udp	53135	gaif.ge	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.212.213.27	14379.000000	F
+1323480119.905015	CzLde73fDihii1XYrj	192.168.75.10	1029	4.2.2.3	53	udp	61580	counter.top.ge	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.168.168.133	30066.000000	F
+#close	2014-04-03-10-08-58

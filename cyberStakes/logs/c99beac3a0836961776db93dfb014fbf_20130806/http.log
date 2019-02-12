@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-07-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1375828240.171825	CFF0on2BxiAuSsWNkd	192.168.94.10	1031	74.125.129.141	80	1	GET	updateplayer.appspot.com	/	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	5027	200	OK	-	-	-	(empty)	-	-	-	-	-	FENZNw3rgLk2zyeY6	text/html
+1375828240.228243	CFF0on2BxiAuSsWNkd	192.168.94.10	1031	74.125.129.141	80	2	GET	updateplayer.appspot.com	/www/style.css	http://updateplayer.appspot.com/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	2899	200	OK	-	-	-	(empty)	-	-	-	-	-	FDvll311c9vrRZrpe5	text/plain
+1375828240.348998	Cc8uag85UdfZWrUZc	192.168.94.10	1032	74.125.224.162	80	1	GET	www.google-analytics.com	/analytics.js	http://updateplayer.appspot.com/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	20379	200	OK	-	-	-	(empty)	-	-	-	-	-	F0JIQz4E7ATrEssXkk	text/plain
+1375828240.487562	CFF0on2BxiAuSsWNkd	192.168.94.10	1031	74.125.129.141	80	3	GET	updateplayer.appspot.com	/www/icon.png	http://updateplayer.appspot.com/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	4953	200	OK	-	-	-	(empty)	-	-	-	-	-	FwaJam7iRabqeqKp9	image/png
+1375828240.513075	CeMbj2KirGeNiyMOl	192.168.94.10	1033	74.125.129.141	80	1	GET	updateplayer.appspot.com	/www/li.png	http://updateplayer.appspot.com/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	1005	200	OK	-	-	-	(empty)	-	-	-	-	-	Fc3Q3V2Snm8BIdOlx4	image/png
+1375828240.673629	CFF0on2BxiAuSsWNkd	192.168.94.10	1031	74.125.129.141	80	4	GET	updateplayer.appspot.com	/favicon.ico	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	288	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F1RRPn1TunS9JZw4Ni	text/html
+1375828240.726236	COWFPX1dfbcdE1yDMk	192.168.94.10	1034	74.125.129.141	80	1	GET	quercus-redirect.appspot.com	/?id=eT2QmzjMIWuXeToaKOjMIWuXeTbQmG-0N-0N&&dv5=lp-noalert	http://updateplayer.appspot.com/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	220	200	OK	-	-	-	(empty)	-	-	-	-	-	FhTYQYfaRrxVtiMsb	text/html
+1375828241.315105	CoLmGE2OLgJ78GshI	192.168.94.10	1039	50.18.211.52	80	1	GET	flv.hs1dmr.com	/aff_c?offer_id=44&aff_id=1002&url_id=38&aff_sub=1849209500	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	289	302	Found	-	-	-	(empty)	-	-	-	-	-	FuUw6f1vkQ43FlBpcg	text/html
+1375828241.573963	Cm7FxS2OTGMzPL3Lk8	192.168.94.10	1040	95.211.134.97	80	1	GET	dl.down324.com	/n/88593b14-d4e3-11e2-a752-00259033c1da/Setup.exe?tid=1024fbc73ee4c1387b195ac77982a6	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1375828242.021394	Ce7jAt4pCBsLZ24Um9	192.168.94.10	1041	95.211.134.97	80	1	GET	dl.down324.com	/n/3.0.17.6/8923535/Setup.exe?tid=1024fbc73ee4c1387b195ac77982a6	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	14192	200	OK	-	-	-	(empty)	-	-	-	-	-	FcrRuYIYdSgcnQDQb	application/x-dosexec
+#close	2014-04-03-11-07-14

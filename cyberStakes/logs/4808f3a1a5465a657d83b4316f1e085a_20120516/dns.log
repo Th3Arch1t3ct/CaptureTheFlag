@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-16-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1337150794.740999	C9Crt035pjndL7iZ14	192.168.104.10	1029	4.2.2.3	53	udp	38288	bonniepricedrapery.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.50.0.45	14372.000000	F
+1337150794.881968	C9Crt035pjndL7iZ14	192.168.104.10	1029	4.2.2.3	53	udp	50322	karenbrowntx.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.124.199.1	1800.000000	F
+1337150794.912681	C9Crt035pjndL7iZ14	192.168.104.10	1029	4.2.2.3	53	udp	52370	designbyallison.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	83.69.226.72	3600.000000	F
+1337150835.192454	CgeQfBHVOTK12a1Be	192.168.104.10	1029	4.2.2.3	53	udp	44434	mxs.mail.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.100.176.20	3600.000000	F
+1337150835.389672	CgeQfBHVOTK12a1Be	192.168.104.10	1029	4.2.2.3	53	udp	17045	alt4.gmail-smtp-in.l.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.125.131.27	219.000000	F
+1337150835.391932	CgeQfBHVOTK12a1Be	192.168.104.10	1029	4.2.2.3	53	udp	4244	gmail-smtp-in.l.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.125.127.27	177.000000	F
+1337150835.393962	CgeQfBHVOTK12a1Be	192.168.104.10	1029	4.2.2.3	53	udp	10135	in1.smtp.messagingengine.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.111.4.71,66.111.4.72,66.111.4.73,66.111.4.70	24092.000000,24092.000000,24092.000000,24092.000000	F
+1337150835.395956	CgeQfBHVOTK12a1Be	192.168.104.10	1029	4.2.2.3	53	udp	63385	mail7.digitalwaves.co.nz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	127.0.0.1	300.000000	F
+#close	2014-04-03-10-16-32

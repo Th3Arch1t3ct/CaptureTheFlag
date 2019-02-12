@@ -1,0 +1,32 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-57-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1333995055.848834	CFFjTV1LzDY89wp02j	192.168.18.10	1030	80.237.132.137	80	1	GET	wagner-kunststofftechnik.de	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4130	200	OK	-	-	-	(empty)	-	-	-	-	-	F7ARY8K6cQIYzRcn2	text/html
+1333995056.485652	ClbwWys3B5dJcJzwk	192.168.18.10	1031	117.104.161.154	80	1	GET	www.thebrainary.com	/affiliate/docs/release.js	http://wagner-kunststofftechnik.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2990	200	OK	-	-	-	(empty)	-	-	-	-	-	FwuODm3sMXTXwOL1r3	text/plain
+1333995057.691355	CFFjTV1LzDY89wp02j	192.168.18.10	1030	80.237.132.137	80	2	GET	wagner-kunststofftechnik.de	/01.gif	http://wagner-kunststofftechnik.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	18573	200	OK	-	-	-	(empty)	-	-	-	-	-	F2Wt7C2nVVCilyfo97	image/gif
+1333995057.895358	COeRfY1Wz0SmVol8cj	192.168.18.10	1039	212.48.100.87	80	1	GET	www.counters.de	/counter.php?i=5689&r=&n=Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)&p=Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)&sd=24&sw=800x600	http://wagner-kunststofftechnik.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	99	200	OK	-	-	-	(empty)	-	-	-	-	-	FJMOBzl9gs4hQVeS9	image/png
+1333995057.93918	CMWYC4258BN2qX7YWg	192.168.18.10	1037	89.208.48.70	80	1	GET	eop.kinnetix.com	/showthread.php?t=42442948	http://wagner-kunststofftechnik.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	316	200	OK	-	-	-	(empty)	-	-	-	-	-	FptRzsZ9W7mpVnfag	text/html
+1333995057.796609	CYieV66oR79pVDlue	192.168.18.10	1038	80.237.132.137	80	1	GET	wagner-kunststofftechnik.de	/02.gif	http://wagner-kunststofftechnik.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	28065	200	OK	-	-	-	(empty)	-	-	-	-	-	FLZor02tF9ZfLtW3Cg	image/gif
+1333995060.719968	CmkSUwfkyx1zkih7l	192.168.18.10	1040	89.208.48.70	80	1	GET	eop.kinnetix.com	/showthread.php?t=83475	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6383	200	OK	-	-	-	(empty)	-	-	-	-	-	FyVxGu3TsTMpteozRi	application/jar
+1333995061.254358	CmkSUwfkyx1zkih7l	192.168.18.10	1040	89.208.48.70	80	2	GET	eop.kinnetix.com	/showthread.php?t=83475	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6383	200	OK	-	-	-	(empty)	-	-	-	-	-	FU3k22P9evfl2GRoc	application/jar
+1333995062.131596	CmkSUwfkyx1zkih7l	192.168.18.10	1040	89.208.48.70	80	3	GET	eop.kinnetix.com	/showthread.php?t=83475	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6383	200	OK	-	-	-	(empty)	-	-	-	-	-	FnhqKD4fPIgTWq9qT	application/jar
+1333995067.819707	CmkSUwfkyx1zkih7l	192.168.18.10	1040	89.208.48.70	80	4	GET	eop.kinnetix.com	/showthread.php?t=83475	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6383	200	OK	-	-	-	(empty)	-	-	-	-	-	FoqhbHawXEGBZrov9	application/jar
+1333995068.354791	CmkSUwfkyx1zkih7l	192.168.18.10	1040	89.208.48.70	80	5	GET	eop.kinnetix.com	/showthread.php?t=1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	30248	200	OK	-	-	-	(empty)	-	-	-	-	-	FUa2O233uf9deZdL0e	application/x-dosexec
+1333995074.15909	CZKk101x0WlRUdVrdb	192.168.18.10	1041	89.208.48.70	80	1	GET	eop.kinnetix.com	/showthread.php?t=202595	-	User-Agent: Opera/10.60 Presto/2.2.30	0	200704	200	OK	-	-	-	(empty)	-	-	-	-	-	FEIhunxfUv7HGao6k	binary
+1333995077.397525	CZKk101x0WlRUdVrdb	192.168.18.10	1041	89.208.48.70	80	2	GET	eop.kinnetix.com	/showthread.php?t=202595	-	User-Agent: Opera/10.60 Presto/2.2.30	0	210944	200	OK	-	-	-	(empty)	-	-	-	-	-	FZpPuo3bnOCG8HShG2	binary
+1333995078.457418	CZKk101x0WlRUdVrdb	192.168.18.10	1041	89.208.48.70	80	3	GET	eop.kinnetix.com	/showthread.php?t=202595	-	User-Agent: Opera/10.60 Presto/2.2.30	0	402432	200	OK	-	-	-	(empty)	-	-	-	-	-	FP1vZn3hJuULTFyHef	binary
+1333995082.261776	CZKk101x0WlRUdVrdb	192.168.18.10	1041	89.208.48.70	80	4	GET	eop.kinnetix.com	/showthread.php?t=202595	-	User-Agent: Opera/10.60 Presto/2.2.30	0	115712	200	OK	-	-	-	(empty)	-	-	-	-	-	FnrgFB13VebMeBfs53	binary
+1333995083.308287	CZKk101x0WlRUdVrdb	192.168.18.10	1041	89.208.48.70	80	5	GET	eop.kinnetix.com	/showthread.php?t=202595	-	User-Agent: Opera/10.60 Presto/2.2.30	0	900096	200	OK	-	-	-	(empty)	-	-	-	-	-	FPNU443LR9EaRnhex6	binary
+1333995090.334052	CZKk101x0WlRUdVrdb	192.168.18.10	1041	89.208.48.70	80	6	GET	eop.kinnetix.com	/showthread.php?t=202595	-	User-Agent: Opera/10.60 Presto/2.2.30	0	666	200	OK	-	-	-	(empty)	-	-	-	-	-	FS0mEm2egjJwZP2Wf8	binary
+1333995101.05337	CX5ichyhBeHI8mhLj	192.168.18.10	1045	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	28	200	OK	-	-	-	(empty)	-	-	-	-	-	F5qqHx3nYoS0oYzB74	text/plain
+1333995101.009129	CWkQ7D1FqruPoEKZ3g	192.168.18.10	1044	122.224.18.199	80	1	GET	122.224.18.199	/api/urls/?&affid=10500	122.224.18.199	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	45	200	OK	-	-	-	(empty)	-	-	-	-	-	FTeTMJXkNvEHzFqI8	text/plain
+1333995104.261873	CvETZx2NDmJkTqqBq8	192.168.18.10	1073	178.162.132.116	80	1	GET	178.162.132.116	/api/stats/install/?&affid=10500&ver=3040003&group=sf	178.162.132.116	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1333995102.414445	CB8zNd47jBqo5yf267	192.168.18.10	1062	81.91.1.36	80	1	GET	anotherone.ipq.co	/f/1.exe?&affid=1050	anotherone.ipq.co	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	210944	200	OK	-	-	-	(empty)	-	-	-	-	-	FWPGHl4bcdYaIYUhj7	application/x-dosexec
+1333995114.765462	C1w6lf2AkdPYwRx9Yb	192.168.18.10	1204	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	28	200	OK	-	-	-	(empty)	-	-	-	-	-	FItsP64CjVUPGm1P98	text/plain
+1333995130.071446	CZmd3aYXUTZ0Xordg	192.168.18.10	1224	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	28	200	OK	-	-	-	(empty)	-	-	-	-	-	FjTG413V6NhN7y3psg	text/plain
+#close	2014-04-03-10-57-14

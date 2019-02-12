@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-09-58-45
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1328693136.952132	FTiPsi4VZgA4mWYeEb	206.212.243.114	192.168.26.10	CaZF3a1bLWi3mVNpT	HTTP	0	MD5,SHA1	text/html	-	0.000017	-	F	2872	2872	0	0	F	-	ca7e92e518ebdff1f1d04bb4856846e2	0ca13ee3424153a443bf963eb3a2b923ca2ac5c2	-	-
+1328693137.553962	F6fV3C3dYdQfaxo3Fg	206.212.243.114	192.168.26.10	Cq6AcOwOaOl5lqkaa	HTTP	0	MD5,SHA1	text/plain	-	0.100561	-	F	21969	21969	0	0	F	-	f96ff6b4ac204552e75d118c6a02caf3	ff0f1f1b2746184a2ef369071293d7c526aabe12	-	-
+1328693138.523118	FKvfW91jFB4S03VFEf	206.212.243.114	192.168.26.10	Cj3KD6Tw588K7xrc8	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	240	240	0	0	F	-	164bfa8a541dae1f8b24d7cb48058eeb	d5f2f779e35ad47aa3432aa50c592e0395ccf539	-	-
+1328693141.337508	F1KcFyMgC3sWmHgMf	206.212.243.114	192.168.26.10	CX4fTy2m76oqN6F60i	HTTP	0	MD5,SHA1	application/zip	-	0.000000	-	F	2327	2327	0	0	F	-	bca052471d50aa5b3e4d381ff1ac389d	4a8ab7e39e2e4f61dec638131cd228552b5fb7db	-	-
+1328693142.252237	FDg57Q3AlK03m0oAsb	206.212.243.114	192.168.26.10	CUhDwx4Se5aEE1tYlb	HTTP	0	MD5,SHA1	binary	-	0.000000	-	F	494	494	0	0	F	-	3d4d951fbfe6b7385b181123a97ce892	0f91e650cf274f269a02b85aaf0f70e6a122909b	-	-
+1328693143.247826	Fykvh71JcmDdXIFk47	206.212.243.114	192.168.26.10	CAcu4Y29fzFAsAuujl	HTTP	0	MD5,SHA1	application/pdf	manual20100188.pdf	0.000012	-	F	2672	2672	0	0	F	-	d8c8379fd070a056ade0a01a1b6e1296	f1559d471c5a7835b288c597954f1b93a6293ea6	-	-
+1328693148.238648	FxyZns3o23zoYWgMM8	206.212.243.114	192.168.26.10	CPnNb44pYhCk5RIXak	HTTP	0	MD5,SHA1	application/x-dosexec	payload.exe.exe	0.540407	-	F	114688	114688	0	0	F	-	64f56d01b619e36aa4f935e0da3136a4	7878f7d28947cb7aba62049bb47a3432896ed0e7	-	-
+1328693149.701066	F6Lwcz2iTNVhGPzfA4	199.15.234.7	192.168.26.10	CcSuFb4BXfcIRlKkog	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	18	18	0	0	F	-	3652cf0e5835446abc20660943358de3	6e2647ac2ac96faaa0c0bb89e26d520d291904d6	-	-
+#close	2014-04-03-09-58-46

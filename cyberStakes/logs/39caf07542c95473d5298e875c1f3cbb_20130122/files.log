@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-55-37
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1358888822.278894	FHhtbP3MWwRP83n2H1	93.170.52.21	192.168.81.10	C2ZTV62w3TNTj1hgrh	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	1171	-	0	0	F	-	98fab3a821e6355d6b55fb90a63062fe	b840e32eafb937c7d7db1ef4d9ed9b176ba25d76	-	-
+1358888822.523388	FcVu163vP8JvmvVea7	173.194.75.100	192.168.81.10	CkI3QS3hVWqXTeJoEj	HTTP	0	MD5,SHA1	text/plain	-	0.027737	-	F	37362	-	0	0	F	-	f5592eabae33f8499d067344f1f42183	142a9875c4bd7e15ce6ac8b5bb181fb29ed08ba5	-	-
+1358888822.595116	F9AbFO3QtgtIg7I6ha	208.131.138.217	192.168.81.10	CfsPWB4L156TJSHFgj	HTTP	0	MD5,SHA1	text/html	-	0.000015	-	F	3239	3239	0	0	F	-	9d7bfaa15fde84c92293297f6887feeb	be62ec9f5915900c5c21abb4b518a9eb01a0cd4c	-	-
+1358888822.681489	FinXUM3p3MKfdCGJhl	173.194.75.100	192.168.81.10	CkI3QS3hVWqXTeJoEj	HTTP	0	MD5,SHA1	image/gif	-	0.000000	-	F	35	35	0	0	F	-	28d6814f309ea289f847c69cf91194c6	0f4e929dd5bb2564f7ab9c76338e04e292a42ace	-	-
+1358888822.768437	F4cV6F1Ep2m3UyjFf2	208.131.138.217	192.168.81.10	CfZQTF4KzetmcJ4pPh	HTTP	0	MD5,SHA1	application/x-dosexec	YouLolJPEG.exe	0.058300	-	F	33580	167424	0	0	F	-	ff82025f12421938bfcff367314be658	164d5b0fcba10fdc6cbcc2be18a45b2576153c95	-	-
+#close	2014-04-03-10-55-38

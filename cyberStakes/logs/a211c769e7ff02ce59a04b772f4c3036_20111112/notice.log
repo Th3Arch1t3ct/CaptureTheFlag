@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-44-01
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1321056680.658148	CUKGke1TRuVqE5zdTd	192.168.2.10	1045	95.211.160.73	80	F2OvYf16BTpJOvlHOb	application/x-dosexec	http://debtgzgd.tk/b/1/49fa5cb8daedb380b6aeff8f8384074aab1499e7bc4c886cc15599107c2fbeed	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 42%  Last seen: 2012-03-16 08:40:58	https://www.virustotal.com/en/search/?query=563b0c3fecaeae845bdf09f8454fecbd993b3783	192.168.2.10	95.211.160.73	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1321056745.297219	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.2.10 scanned at least 25 unique hosts on port 22292/tcp in 0m46s	remote	192.168.2.10	-	22292	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-44-01

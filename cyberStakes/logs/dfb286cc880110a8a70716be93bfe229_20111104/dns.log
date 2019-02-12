@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-42-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1320371970.418639	CpyCpr2BcASA7CUqkd	192.168.64.10	1028	4.2.2.3	53	udp	4231	hervo.nl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.106.171.152	1.000000	F
+1320371971.139976	CpyCpr2BcASA7CUqkd	192.168.64.10	1028	4.2.2.3	53	udp	4742	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.47.95	2928.000000,252.000000	F
+1320371971.684722	CpyCpr2BcASA7CUqkd	192.168.64.10	1028	4.2.2.3	53	udp	25477	api.twitter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.59.149.232,199.59.148.20,199.59.148.87,199.59.149.200	9.000000,9.000000,9.000000,9.000000	F
+1320371974.093017	CpyCpr2BcASA7CUqkd	192.168.64.10	1028	4.2.2.3	53	udp	14724	bhjaezqbncz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.227.204.203	3600.000000	F
+1320372012.658385	CGgMIs3DmshgslaSl7	192.168.64.10	1028	4.2.2.3	53	udp	62596	erwtyuikbfkdldfd.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	76.76.15.155	3600.000000	F
+#close	2014-04-03-10-42-51

@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-14-40
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1320936625.533121	CAuJFP34ikvuNpm577	192.168.66.10	1029	4.2.2.3	53	udp	38288	isbrus.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.208.83.28	581.000000	F
+1320936627.07039	CAuJFP34ikvuNpm577	192.168.66.10	1029	4.2.2.3	53	udp	50064	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.45.95	1936.000000,46.000000	F
+1320936628.00107	CAuJFP34ikvuNpm577	192.168.66.10	1029	4.2.2.3	53	udp	5520	mc.yandex.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.180.193.119,87.250.250.119,93.158.134.119	2488.000000,2488.000000,2488.000000	F
+1320936631.788743	CAuJFP34ikvuNpm577	192.168.66.10	1029	4.2.2.3	53	udp	45458	fgasdh.coom.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.208.142.55	3600.000000	F
+1320936636.678318	CAuJFP34ikvuNpm577	192.168.66.10	1029	4.2.2.3	53	udp	24722	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	3266.000000,172.000000	F
+1320936636.850977	CAuJFP34ikvuNpm577	192.168.66.10	1029	4.2.2.3	53	udp	58516	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	2656.000000,57.000000	F
+#close	2014-04-03-10-14-41

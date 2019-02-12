@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-11-11-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1333652402.450694	CU6YZU33ZgI3oaBn4k	192.168.4.10	1043	74.125.45.102	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1331217831.000000	1362754431.000000	-	-	-	266d0253fc5f3f88fab45a4bf3f1c389	ok
+1333652402.757778	ChEkgZ2NvtVjO7QJLi	192.168.4.10	1045	91.221.10.78	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.tipico.com,OU=Domain Control Validated - RapidSSL(R),OU=See www.rapidssl.com/resources/cps (c)12,OU=GT04158074,O=*.tipico.com,C=GI,serialNumber=swIRr6h4nfh5MEfV7ERw6Mt5Jax2agDs	CN=RapidSSL CA,O=GeoTrust\, Inc.,C=US	1326914877.000000	1361269402.000000	-	-	-	792995b4d0ee6609a1eeeeeeeef569fe	ok
+1333652403.02151	CZNTE33FBP5klRASFg	192.168.4.10	1053	195.72.135.25	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=adserver.itsfogo.com,OU=IT,O=bwin International Ltd.,L=Gibraltar,ST=Gibraltar,C=GI	CN=Thawte SGC CA - G2,O=Thawte\, Inc.,C=US	1304658000.000000	1337317199.000000	-	-	-	518527c4f36d11807ecb5a7e437ddb66	ok
+1333652403.953045	CrVNw14iFhslWfsFsc	192.168.4.10	1058	195.72.135.29	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=media.itsfogo.com,OU=IT,O=bwin International Ltd.,L=Gibraltar,ST=Gibraltar,C=GI	CN=Thawte SGC CA - G2,O=Thawte\, Inc.,C=US	1318136400.000000	1350017999.000000	-	-	-	cffaf69cb2c826d859853e90bf8922a9	ok
+1333652406.87913	CUZivv30ryGEYshfAl	192.168.4.10	1061	188.92.41.201	443	TLSv10	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	55234acad8ebb133d0e3f4a7ce804b3bbd68fe85f00e9808746ade12403960ae	CN=p1.fsdatacentre.com,OU=Domain Control Validated - RapidSSL(R),OU=See www.rapidssl.com/resources/cps (c)11,OU=GT82240874,O=p1.fsdatacentre.com,C=CZ,serialNumber=W2t17TGayUdalkUeCpy2HmJrInfA0GYs	CN=RapidSSL CA,O=GeoTrust\, Inc.,C=US	1312429095.000000	1349365238.000000	-	-	-	824ba56a001bcb7973ab0693a517d9c5	ok
+#close	2014-04-03-11-11-51

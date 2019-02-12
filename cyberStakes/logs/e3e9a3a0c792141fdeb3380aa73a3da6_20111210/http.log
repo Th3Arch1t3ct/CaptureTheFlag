@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-08-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1323480119.676239	CiljaO1YmWZp8qsJPk	192.168.75.10	1030	91.212.213.27	80	1	GET	gaif.ge	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	8810	200	OK	-	-	-	(empty)	-	-	-	-	-	F8UHWd22ORYvIXeIL2	text/html
+1323480120.074425	CguWvl4GFW6wVfKBfe	192.168.75.10	1033	62.168.168.133	80	1	GET	counter.top.ge	/cgi-bin/cod?100+66045	http://gaif.ge/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	361	200	OK	-	-	-	(empty)	-	-	-	-	-	Fq3TIv11bnUYDWZ6sh	text/html
+1323480120.065645	CJ6xu62zG9mJaqbn05	192.168.75.10	1031	91.212.213.27	80	1	GET	gaif.ge	/style.css	http://gaif.ge/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	606	200	OK	-	-	-	(empty)	-	-	-	-	-	FcvjYSOadHg1j62C8	text/plain
+1323480120.074164	Cm7Eep31BZxagKRKm9	192.168.75.10	1032	91.212.213.27	80	1	GET	gaif.ge	/menu_style.css	http://gaif.ge/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1408	200	OK	-	-	-	(empty)	-	-	-	-	-	FghwwZ1QyEufp6bcpg	text/troff
+1323480120.443656	CRG9Uv33MeWBNHxjel	192.168.75.10	1035	91.212.213.27	80	1	GET	gaif.ge	/img/ge.png	http://gaif.ge/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	720	200	OK	-	-	-	(empty)	-	-	-	-	-	FE0pA22GMdO0IB2zi9	image/png
+1323480120.448595	CoQobb2J5O2xmDdjKd	192.168.75.10	1036	62.168.168.133	80	1	GET	counter.top.ge	/cgi-bin/count?ID:66045+JS:12+REFERER:+RESOLUTION:800X600+DEPT:24+RAND:0.6956217188885675	http://gaif.ge/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	266	200	OK	-	-	-	(empty)	-	-	-	-	-	FNfQJ5315IsIMVDFe3	image/png
+1323480120.814937	CIyRJAwuJUYGGsO09	192.168.75.10	1037	91.212.213.27	80	1	GET	gaif.ge	/img/en.png	http://gaif.ge/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1163	200	OK	-	-	-	(empty)	-	-	-	-	-	FscWMv1tAnWGs9Xmfh	image/png
+1323480120.433391	CFiTPG2hqoGRXmZs5	192.168.75.10	1034	91.212.213.27	80	1	GET	gaif.ge	/img/logo.png	http://gaif.ge/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	42474	200	OK	-	-	-	(empty)	-	-	-	-	-	FnEGDB3PqqezPhMal2	image/png
+1323480121.21863	Cb5agg4HBC4oAYLona	192.168.75.10	1038	91.212.213.27	80	1	GET	gaif.ge	/img/search_1.jpg	http://gaif.ge/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	777	200	OK	-	-	-	(empty)	-	-	-	-	-	F44Z331FhyYwMM5pPd	image/jpeg
+1323480121.547893	CciAgy44ZAUtyxJ38f	192.168.75.10	1039	91.212.213.27	80	1	GET	gaif.ge	/uploads/684tsodnis baneri.exe	http://gaif.ge/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6636	200	OK	-	-	-	(empty)	-	-	-	-	-	FsU9xz1TO0nYzX2Jgf	application/x-dosexec
+1323480122.107516	CoE7Cd39vWchFrNnN2	192.168.75.10	1045	91.212.213.27	80	1	GET	gaif.ge	/uploads/781tsodnis baneri.exe	http://gaif.ge/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6636	200	OK	-	-	-	(empty)	-	-	-	-	-	FiMvDO4MPsxCB5Cp4	application/x-dosexec
+1323480122.683716	CVMtCW2Q4hIcBuWpXj	192.168.75.10	1046	91.212.213.27	80	1	GET	gaif.ge	/img/bg_top.jpg	http://gaif.ge/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1470	200	OK	-	-	-	(empty)	-	-	-	-	-	Fq6Ak4zdRTPv9at4l	image/jpeg
+1323480121.60214	CVs54TgJxwuhsATRj	192.168.75.10	1040	91.212.213.27	80	1	GET	gaif.ge	/uploads/752topjobs.ge bameri.gif	http://gaif.ge/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	118793	200	OK	-	-	-	(empty)	-	-	-	-	-	FTgVtw6qhs1mfwPf4	image/gif
+#close	2014-04-03-10-08-58

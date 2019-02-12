@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-37-35
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1339855475.880728	FvDQki4B8zoICb6fkl	88.214.198.108	192.168.42.10	CHnNdE4J5L39YQXnnh	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	36	-	0	0	F	-	99cabfcf50ac5538f76b1aa9c72c6b41	e412bdda897eb86a7341d141329d2eb484ad0fe8	-	-
+1339855476.516464	F6glUD4pIOUGp2IPOl	91.235.128.68	192.168.42.10	CBwWOaNUfYYiU4UDf	HTTP	0	MD5,SHA1	text/html	-	0.279769	-	F	4526	-	0	0	F	-	7976038250f0dea9e76162507d68b241	891c75305ffb65ed6b587eeffcb4e4630534ca0a	-	-
+1339855477.289188	FcuuJA2gvYapv6isgc	91.235.128.68	192.168.42.10	CBwWOaNUfYYiU4UDf	HTTP	0	MD5,SHA1	text/html	-	0.287331	-	F	10722	-	0	0	F	-	1cff852dd2ed0ebc9401fa1baec08eab	f7f41216c0307aa014b383c9b02c9bacd494f1c5	-	-
+1339855479.645671	FFRk6mmwRO2n81Yhg	91.235.128.68	192.168.42.10	CdGdRl35hKVpnk4ZJ	HTTP	0	MD5,SHA1	application/jar	-	0.288795	-	F	9986	9986	0	0	F	-	b2ba5d733c3b7cf704cd5d7c113fbfc1	9271294a3762cf762d559580e5d4179c3e071f1e	-	-
+1339855480.407117	FCfvtl2RVqHdca4cI	91.235.128.68	192.168.42.10	CdGdRl35hKVpnk4ZJ	HTTP	0	MD5,SHA1	application/jar	-	0.289659	-	F	9986	9986	0	0	F	-	b2ba5d733c3b7cf704cd5d7c113fbfc1	9271294a3762cf762d559580e5d4179c3e071f1e	-	-
+1339855481.348269	FcsBLo43F60OhOPYXf	91.235.128.68	192.168.42.10	CdGdRl35hKVpnk4ZJ	HTTP	0	MD5,SHA1	application/jar	-	0.288617	-	F	9986	9986	0	0	F	-	b2ba5d733c3b7cf704cd5d7c113fbfc1	9271294a3762cf762d559580e5d4179c3e071f1e	-	-
+1339855488.035196	FIWn8F15fcFTZzikGd	91.235.128.68	192.168.42.10	C8piu34W9Uu5NnzUt8	HTTP	0	MD5,SHA1	application/jar	-	0.289617	-	F	9986	9986	0	0	F	-	b2ba5d733c3b7cf704cd5d7c113fbfc1	9271294a3762cf762d559580e5d4179c3e071f1e	-	-
+1339855488.801489	FAVcUp4EPiokjcDNjj	91.235.128.68	192.168.42.10	C8piu34W9Uu5NnzUt8	HTTP	0	MD5,SHA1	application/jar	-	0.290646	-	F	9986	9986	0	0	F	-	b2ba5d733c3b7cf704cd5d7c113fbfc1	9271294a3762cf762d559580e5d4179c3e071f1e	-	-
+1339855489.52305	FrPazj2GgeL9MpDmE	91.235.128.68	192.168.42.10	C8piu34W9Uu5NnzUt8	HTTP	0	MD5,SHA1	application/x-dosexec	-	0.287480	-	F	8704	8704	0	0	F	-	c31d988940dd803c71cb441d30c36bb9	76f5f896c9623d908fdbf078ed3cb31ee99a20f1	-	-
+#close	2014-04-03-10-37-35

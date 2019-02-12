@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-01-09
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1323821350.699907	F99azl13SjRRyvPJck	65.61.167.244	192.168.99.10	Cg5snX39VYZtHKDhab	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	782	782	0	0	F	-	c49aed264c5bff31f3a3808eeae8c10a	ab3ca56b044ad4cfa974f8ee1e7582bf69188123	-	-
+1323821350.912394	FNl3ha3MSDKj4tFMrb	74.125.47.82	192.168.99.10	CMazdFhbmgm9SFjq	HTTP	0	SHA1,MD5	application/x-dosexec	Javasun.exe	0.015767	-	F	32478	96256	0	0	F	-	a1f2201ae14695a8c9e3e2b4b7ff0a20	4b28470df4febbababbeb7eeb50f175b6339f893	-	-
+1323821350.95183	FYFKxq1vC0zKTs4009	208.94.3.135	192.168.99.10	CmCvIz3d3mc0OBoJF8	HTTP	0	SHA1,MD5	image/jpeg	-	0.242105	-	F	33045	33045	0	0	F	-	a440c354caf7ba702ce49d59768d6242	b90239a18500177f9ac02bcc309edd9b102e69cb	-	-
+#close	2014-04-03-10-01-09

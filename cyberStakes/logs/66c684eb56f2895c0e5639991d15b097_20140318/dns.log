@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-53-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1395169550.230329	CweO0A2O4Iy42TtBZa	192.168.58.10	1032	4.2.2.3	53	udp	51350	helpurtravel.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.162.121.130	538.000000	F
+1395169550.739717	CweO0A2O4Iy42TtBZa	192.168.58.10	1032	4.2.2.3	53	udp	13974	goo.gl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.194.33.135,173.194.33.131,173.194.33.136,173.194.33.134,173.194.33.132,173.194.33.128,173.194.33.129,173.194.33.133,173.194.33.142,173.194.33.130,173.194.33.137	112.000000,112.000000,112.000000,112.000000,112.000000,112.000000,112.000000,112.000000,112.000000,112.000000,112.000000	F
+1395169550.817896	CweO0A2O4Iy42TtBZa	192.168.58.10	1032	4.2.2.3	53	udp	1431	www.filessly.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	8.webfilesdownloader.com,195.66.79.27	600.000000,600.000000	F
+1395169554.306731	C46zDj44gX106qWhea	192.168.58.10	1042	4.2.2.3	53	udp	26516	freemediastats.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	176.121.11.24	600.000000	F
+1395169554.304289	CweO0A2O4Iy42TtBZa	192.168.58.10	1032	4.2.2.3	53	udp	12180	stat.freemediastats.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	176.121.11.24	600.000000	F
+#close	2014-04-03-09-53-24

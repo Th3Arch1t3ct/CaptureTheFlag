@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-18-17
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1326622719.94987	CAaNsg3X4RQrtp4wWf	192.168.28.10	1041	77.21.101.206	80	F0zQmx4Ok3V2pbWwc	application/x-dosexec	http://pmrpoponae.com/w.php?f=26&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-02-07 23:06:23	https://www.virustotal.com/en/search/?query=0a363fd30522f8da4383b3764aa03c00ad4b1d29	192.168.28.10	77.21.101.206	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1326622721.076154	CZytx1666ICdwlYO1	192.168.28.10	1042	77.21.101.206	80	FHQpIH25Cqvjy4YZVd	application/pdf	http://pmrpoponae.com/content/2ddfp.php?f=26	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 67%  Last seen: 2012-01-16 09:35:47	https://www.virustotal.com/en/search/?query=f734add788ca3fad66472dc05d6f5a04286c0d3c	192.168.28.10	77.21.101.206	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-18-17

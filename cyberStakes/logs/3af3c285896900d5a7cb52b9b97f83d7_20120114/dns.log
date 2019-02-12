@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-53-17
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1326538205.294638	CV9yZ114dUfbMnw0Y4	192.168.121.10	1029	4.2.2.3	53	udp	48270	aeropuertocaracas.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.98.131.33	14382.000000	F
+1326538206.205435	CV9yZ114dUfbMnw0Y4	192.168.121.10	1029	4.2.2.3	53	udp	3215	unclesammm.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.18.249.19	43200.000000	F
+1326538207.138608	CV9yZ114dUfbMnw0Y4	192.168.121.10	1029	4.2.2.3	53	udp	32909	chaladoj.1dumb.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.18.249.19	31.000000	F
+1326538210.525773	CV9yZ114dUfbMnw0Y4	192.168.121.10	1029	4.2.2.3	53	udp	20621	ueqgj.1dumb.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.18.249.19	31.000000	F
+1326538231.960433	C8vz3a3pDzb21zLBqk	192.168.121.10	1029	4.2.2.3	53	udp	1931	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.159.104,74.125.159.105,74.125.159.106,74.125.159.147,74.125.159.99,74.125.159.103	23926.000000,240.000000,240.000000,240.000000,240.000000,240.000000,240.000000	F
+1326538231.978982	C8vz3a3pDzb21zLBqk	192.168.121.10	1029	4.2.2.3	53	udp	15753	wwidow.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.18.249.19	43200.000000	F
+#close	2014-04-03-10-53-18

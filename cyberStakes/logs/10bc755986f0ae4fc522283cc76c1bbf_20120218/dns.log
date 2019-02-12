@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-08-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1329603152.967441	CcqbEA4qflLhNBCOX2	192.168.7.10	1029	4.2.2.3	53	udp	19343	x4d.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.214.250.242	43186.000000	F
+1329603153.199174	CcqbEA4qflLhNBCOX2	192.168.7.10	1029	4.2.2.3	53	udp	53135	www.x4d.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.214.250.242	43185.000000	F
+1329603155.187479	CcqbEA4qflLhNBCOX2	192.168.7.10	1029	4.2.2.3	53	udp	31372	page2.adrotation.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.142.170.44	14400.000000	F
+1329603156.188359	ChKuPi48A9ppzIdYJk	192.168.7.10	1029	4.2.2.5	53	udp	31372	page2.adrotation.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.142.170.44	14400.000000	F
+#close	2014-04-03-11-08-53

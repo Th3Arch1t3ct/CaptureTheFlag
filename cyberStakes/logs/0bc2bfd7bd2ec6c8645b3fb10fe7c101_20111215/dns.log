@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-32-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1323992547.075562	CzydGn1aSeAXVpM0Jk	192.168.83.10	1029	4.2.2.3	53	udp	64147	naturalheatworks.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	65.19.69.32	7178.000000	F
+1323992547.25435	CzydGn1aSeAXVpM0Jk	192.168.83.10	1029	4.2.2.3	53	udp	7057	www.naturalheatworks.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	65.19.69.32	7200.000000	F
+1323992547.400421	CzydGn1aSeAXVpM0Jk	192.168.83.10	1029	4.2.2.3	53	udp	4753	sexatcars.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.211.134.108	28800.000000	F
+1323992548.14765	CzydGn1aSeAXVpM0Jk	192.168.83.10	1029	4.2.2.3	53	udp	50065	moisha.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.249.37.109	28800.000000	F
+1323992560.594935	CicOMO3WQEjCDbUh99	192.168.83.10	1029	4.2.2.3	53	udp	33424	crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.52.190	458.000000,1.000000	F
+1323992560.73997	CicOMO3WQEjCDbUh99	192.168.83.10	1029	4.2.2.3	53	udp	14230	csc3-2004-crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.52.190	271.000000,1.000000	F
+1323992562.931927	CicOMO3WQEjCDbUh99	192.168.83.10	1029	4.2.2.3	53	udp	24982	complaintsboard.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.64.87.242	34839.000000	F
+1323992562.934941	C8gEEL3R8GNH9kgx4a	192.168.83.10	1046	4.2.2.3	53	udp	58518	xd14gb5mtf.kolabatory.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.197.187.133	7200.000000	F
+1323992568.772312	CicOMO3WQEjCDbUh99	192.168.83.10	1029	4.2.2.3	53	udp	48276	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.75.17,69.31.75.27	17160.000000,229.000000,18656.000000,13.000000,13.000000	F
+1323992573.238074	CicOMO3WQEjCDbUh99	192.168.83.10	1029	4.2.2.3	53	udp	11674	1i9-lum.kolabatory.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.197.187.133	7200.000000	F
+1323992594.64486	CyqUBo1EesD5LlVf9l	192.168.83.10	1029	4.2.2.3	53	udp	27033	jointhenewworldorder.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.92.12.78	3368.000000	F
+1323992594.707644	CyqUBo1EesD5LlVf9l	192.168.83.10	1029	4.2.2.3	53	udp	54424	transersdataforme.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1323992594.707644	CyqUBo1EesD5LlVf9l	192.168.83.10	1029	4.2.2.3	53	udp	54424	transersdataforme.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1323992605.410799	C80JAr3UkOZe1xQWv	192.168.83.10	1029	4.2.2.3	53	udp	2718	2cum6c.suras-ip.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.191.89.117	43200.000000	F
+#close	2014-04-03-10-32-44

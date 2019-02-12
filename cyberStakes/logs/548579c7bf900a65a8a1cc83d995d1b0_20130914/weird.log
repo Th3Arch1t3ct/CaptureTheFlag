@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-00-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1379163062.165104	CF2dDQR5Ye6lshCag	192.168.84.10	1038	74.125.129.95	80	unescaped_special_URI_char	-	F	bro
+1379163062.179195	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1379163087.914654	CNdPWC4fRcR8n4Gqv9	192.168.84.10	1069	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1379163087.920266	CzyLMK30fGyancEhuf	192.168.84.10	1070	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1379163087.949419	C7eg5rQbGrmkQ9wub	192.168.84.10	1071	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1379163087.952961	CXWjBHKJrtB3eLYQ3	192.168.84.10	1072	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1379163087.955216	CM4YKC2QqPeARW1ew2	192.168.84.10	1073	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1379163087.957046	CUY4Ku3QtyvxYBvY8e	192.168.84.10	1074	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1379163087.962421	CYCbv86eNUKJfhIPc	192.168.84.10	1075	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1379163087.970983	CKJqa01uXAg3WYuLa5	192.168.84.10	1076	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1379163087.998943	CVn3FV2Oj2RnKlvuc1	192.168.84.10	1077	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1379163088.014265	CXkfRb3qh0Z7GS8rZk	192.168.84.10	1078	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1379163088.01508	ChF3EB1wEFGxeYLFYg	192.168.84.10	1079	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1379163095.958313	CSFQ3j1AKvo10UKTji	192.168.84.10	1084	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1379163095.959057	CW7iWa2u6Y4Rh8UWFa	192.168.84.10	1085	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1379163095.959644	ClNHd64QVlYh7Z1GG6	192.168.84.10	1086	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1379163249.44828	CGbCR22rwrHux8gpc	192.168.84.10	1109	176.37.210.100	80	line_terminated_with_single_CR	-	F	bro
+1379163249.456159	CGbCR22rwrHux8gpc	192.168.84.10	1109	176.37.210.100	80	bad_HTTP_request	-	F	bro
+#close	2014-04-03-10-00-55

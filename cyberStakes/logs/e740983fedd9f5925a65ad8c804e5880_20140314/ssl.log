@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-12-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1394827489.646633	CSL7Eu4E2e5siZJYP3	192.168.26.10	1138	64.71.187.120	443	TLSv10	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=*.relestar.com,OU=Domain Control Validated	serialNumber=07969287,CN=Go Daddy Secure Certification Authority,OU=http://certificates.godaddy.com/repository,O=GoDaddy.com\, Inc.,L=Scottsdale,ST=Arizona,C=US	1367658181.000000	1430730181.000000	-	-	-	0b47b913dc7ea09001591acaf40a3302	ok
+1394827489.70566	ClfEYQ1lV007RYIS1h	192.168.26.10	1139	64.71.187.120	443	TLSv10	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=*.relestar.com,OU=Domain Control Validated	serialNumber=07969287,CN=Go Daddy Secure Certification Authority,OU=http://certificates.godaddy.com/repository,O=GoDaddy.com\, Inc.,L=Scottsdale,ST=Arizona,C=US	1367658181.000000	1430730181.000000	-	-	-	0b47b913dc7ea09001591acaf40a3302	ok
+#close	2014-04-03-10-12-08

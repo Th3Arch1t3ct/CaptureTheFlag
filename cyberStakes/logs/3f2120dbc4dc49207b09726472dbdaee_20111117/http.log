@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-16-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1321567033.814913	C8XCNK1WXnQ8Ku4Dwe	192.168.58.10	1030	109.236.82.74	80	1	GET	theghi.in	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	236	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FkxbpB4Tbr7JkfEfg5	text/html
+1321567034.022463	Ca2w2815ixLl1OJaZ	192.168.58.10	1031	109.236.82.76	80	1	GET	mp5storage.in	/?site=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	166	200	OK	-	-	-	(empty)	-	-	-	-	-	FkHyvu1sZU0De5c4W7	text/html
+1321567035.684599	CzytxV25blvE7IlDY4	192.168.58.10	1032	109.236.82.76	80	1	GET	mp5storage.in	/dl/applet.php?50397db815cff91b8d2020de255540ef	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3956	200	OK	-	-	-	(empty)	-	-	-	-	-	FfRJjI1GWML2sS6w75	application/jar
+1321567035.901432	CFRFdhfS8HXoDSlcj	192.168.58.10	1037	109.236.82.76	80	1	GET	mp5storage.in	/dl/applet.php?50397db815cff91b8d2020de255540ef	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3956	200	OK	-	-	-	(empty)	-	-	-	-	-	FrxEQdgHUm7mdTDqj	application/jar
+1321567036.190668	CnvDqn1MP57604FhOa	192.168.58.10	1038	109.236.82.76	80	1	GET	mp5storage.in	/dl/applet.php?50397db815cff91b8d2020de255540ef	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3956	200	OK	-	-	-	(empty)	-	-	-	-	-	F3P5I6485G6lMYWxg8	application/jar
+1321567036.459635	CONs3h4Ovj4NutlHO6	192.168.58.10	1039	109.236.82.76	80	1	GET	mp5storage.in	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Fq3jGw1CnTO9sJdlOa	text/html
+1321567036.665652	CxwTJ14rlBrEC1Wjmk	192.168.58.10	1040	109.236.82.76	80	1	GET	mp5storage.in	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FpaLP034XE9Ghaep83	text/html
+1321567036.886554	CmfIce2Tp57ke1W2jc	192.168.58.10	1041	109.236.82.76	80	1	GET	mp5storage.in	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FxWeFz40lb1ZDmE0Z2	text/html
+1321567037.09948	CMKCwvKXpo01YeZR3	192.168.58.10	1042	109.236.82.76	80	1	GET	mp5storage.in	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FKqlrd42BFgD3IOhH2	text/html
+1321567037.458953	CrFGEo3GSB9uzDb1I2	192.168.58.10	1043	109.236.82.76	80	1	GET	mp5storage.in	/dl/dl.php?4	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	65024	200	OK	-	-	-	(empty)	-	-	-	-	-	FXYZHEkDVjKbUHtgf	application/x-dosexec
+1321567038.573217	CaVBSx2VVU8XMCfDig	192.168.58.10	1045	94.199.48.206	80	1	GET	advbeacon.net	/adv.php?i=11&rnd=19093	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-11-16-14

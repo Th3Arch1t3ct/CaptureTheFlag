@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-44-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1321138647.259539	CLBj1n3M66rSqTd8U5	192.168.6.10	1029	4.2.2.3	53	udp	17807	webcam-seebruck.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	83.138.65.30	43180.000000	F
+1321138647.555933	CLBj1n3M66rSqTd8U5	192.168.6.10	1029	4.2.2.3	53	udp	56975	www.webcam-seebruck.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	83.138.65.30	43200.000000	F
+1321138647.683738	CLBj1n3M66rSqTd8U5	192.168.6.10	1029	4.2.2.3	53	udp	53644	pagead2.googlesyndication.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pagead.l.google.com,74.125.229.92	28229.000000,236.000000	F
+1321138648.071962	CLBj1n3M66rSqTd8U5	192.168.6.10	1029	4.2.2.3	53	udp	31629	googleads.g.doubleclick.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pagead.l.doubleclick.net,74.125.229.89,74.125.229.90	28296.000000,91.000000,91.000000	F
+1321138648.100003	CLBj1n3M66rSqTd8U5	192.168.6.10	1029	4.2.2.3	53	udp	15498	actiftp.hosting4less.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.84.113.82	600.000000	F
+1321138651.686852	CLBj1n3M66rSqTd8U5	192.168.6.10	1029	4.2.2.3	53	udp	9611	csc3-2009-2-aia.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.52.190	900.000000,1.000000	F
+1321138651.912642	CLBj1n3M66rSqTd8U5	192.168.6.10	1029	4.2.2.3	53	udp	1673	crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.52.190	876.000000,1.000000	F
+1321138652.044599	CLBj1n3M66rSqTd8U5	192.168.6.10	1029	4.2.2.3	53	udp	34953	csc3-2009-2-crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.48.190	448.000000,1.000000	F
+#close	2014-04-03-10-44-35

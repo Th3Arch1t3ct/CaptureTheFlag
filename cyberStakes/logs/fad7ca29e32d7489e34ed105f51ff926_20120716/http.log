@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-16-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1342455200.045255	CbkFAc3ISc1tsEWDqe	192.168.127.10	1030	67.228.172.86	80	1	GET	bestmyhosting.info	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1482	200	OK	-	-	-	(empty)	-	-	-	-	-	F5uraM25W4zqV1MoH	text/html
+1342455200.840609	CraA2Z2Dp9aTUcDPu7	192.168.127.10	1031	91.235.128.68	8382	1	GET	worldhostingbest.info	/FPlUTk?oTrSj=28	http://bestmyhosting.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	11100	200	OK	-	-	-	(empty)	-	-	-	-	-	FRsdFA3RyQ2zmKokU9	text/html
+1342455203.263444	CFCqpI1YiUFVukseN1	192.168.127.10	1032	91.235.128.68	8382	1	GET	worldhostingbest.info	/888	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13142	200	OK	-	-	-	(empty)	-	-	-	-	-	Fr5iraiAtcubarmb	application/zip
+1342455203.801903	CFCqpI1YiUFVukseN1	192.168.127.10	1032	91.235.128.68	8382	2	GET	worldhostingbest.info	/888	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13142	200	OK	-	-	-	(empty)	-	-	-	-	-	F3nZundhndahuGU9a	application/zip
+1342455204.930969	CFCqpI1YiUFVukseN1	192.168.127.10	1032	91.235.128.68	8382	3	GET	worldhostingbest.info	/888	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13142	200	OK	-	-	-	(empty)	-	-	-	-	-	FidzSc36jE9IKqNeLg	application/zip
+1342455212.432843	CVxDRIxtdSvbfhH2i	192.168.127.10	1037	91.235.128.68	8382	1	GET	worldhostingbest.info	/888	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13142	200	OK	-	-	-	(empty)	-	-	-	-	-	FYoKaB22d8yMjY04Cb	application/zip
+1342455213.807201	CrbX6Y3AdoREwuB8vc	192.168.127.10	1038	91.235.128.68	8382	1	GET	besthostingaroundhere.info	/xGymfj?expid=7&fid=12	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	94208	200	OK	-	-	-	(empty)	-	-	-	-	-	FBSYi21IXQz5tNigRj	application/x-dosexec
+#close	2014-04-03-10-16-04

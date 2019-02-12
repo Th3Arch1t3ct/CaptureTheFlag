@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-34-40
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1327200032.504075	CMS1nzyibUlRhaIl6	192.168.57.10	1031	69.65.10.29	80	tcp	http	0.814095	315	20608	SF	-	0	ShADadfF	15	923	19	21376	(empty)
+1327200032.299666	C62mTF3qyh7WTMMaBd	192.168.57.10	1029	4.2.2.3	53	udp	dns	0.203782	67	99	SF	-	0	Dd	2	123	2	155	(empty)
+1327200043.862566	CvsiVR3z49MGsczZ0a	192.168.57.10	1032	69.65.10.29	80	tcp	http	1.086460	192	94633	SF	-	0	ShADadfF	47	2080	71	97481	(empty)
+1327200044.969817	CApz8Dblk3bc5DtMf	192.168.57.10	1037	69.65.10.29	80	tcp	http	1.363715	370	274	SF	-	0	ShADadfF	5	578	5	482	(empty)
+1327200048.519562	CoArzPW1Qmiq6SACa	192.168.57.10	1038	69.65.10.29	80	tcp	http	0.312131	310	379	SF	-	0	ShADadfF	5	518	5	587	(empty)
+1327200049.481081	CDIXt74teDk4QPln56	192.168.57.10	1039	69.65.10.29	80	tcp	http	0.470776	275	4635	SF	-	0	ShADadfF	7	563	8	4963	(empty)
+1327200051.294835	CO3bGE37TYrKNeGpg8	192.168.57.10	1043	69.65.10.29	80	tcp	http	0.665145	191	319	SF	-	0	ShADadfF	5	399	5	527	(empty)
+1327200050.346066	CDYModMEzpxECwDZ7	192.168.57.10	1042	69.65.10.29	80	tcp	http	1.614455	191	319	SF	-	0	ShADadfF	5	399	5	527	(empty)
+1327200052.443453	CJenMBhKFnBdYlAga	192.168.57.10	1046	69.65.10.29	80	tcp	http	1.289295	196	94637	SF	-	0	ShADadfF	43	1924	70	97445	(empty)
+1327200032.301801	CnjNw5RlqVkc3Oftb	192.168.57.10	1030	46.161.12.165	80	tcp	http	21.684289	289	245	RSTO	-	0	ShADadfR	6	537	4	413	(empty)
+1327200050.087981	CxWwc24wqIOQCZdvTb	192.168.57.10	1029	4.2.2.3	53	udp	dns	0.052245	36	52	SF	-	0	Dd	1	64	1	80	(empty)
+1327200051.62823	CUxGXA4mLw9lKFNsMe	192.168.57.10	1044	69.65.10.29	80	tcp	http	0.308567	191	319	S3	-	0	ShADadf	4	359	4	487	(empty)
+1327200050.151475	C6mMoibJLVK853guc	192.168.57.10	1041	128.204.199.37	80	tcp	http	14.778202	991	720279	S1	-	0	ShADad	315	13599	506	740732	(empty)
+1327200051.962965	ClEBXZSBjBlqakI8g	192.168.57.10	1045	69.65.10.29	80	tcp	http	0.311526	191	319	S3	-	0	ShADadf	4	359	4	487	(empty)
+1327200016.106414	CX4ei31gZIUjVJYvy9	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.016915	626	0	S0	-	0	D	2	682	0	0	(empty)
+1327200016.106783	CKd8dv4hDkSHA1IN27	192.168.57.10	68	192.168.57.1	67	udp	dhcp	12.928958	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1327200043.915191	Cjrzim4gl4VEy7zsRf	192.168.57.10	1035	239.255.255.250	1900	udp	-	6.291623	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-10-34-40

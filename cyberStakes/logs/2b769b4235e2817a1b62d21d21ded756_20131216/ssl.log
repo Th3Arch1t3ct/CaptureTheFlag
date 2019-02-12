@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-21-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1387221553.01418	C4q6CW1ZyTCHgTtYw3	192.168.83.10	1074	23.213.18.110	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=s-static.ak.facebook.com,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,ST=California,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1363150837.000000	1394686837.000000	-	-	-	8072f767b362050ff6b5555555555554	ok
+1387221553.642082	CzJmzD4jaTlcxZ58Nb	192.168.83.10	1073	173.252.112.23	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.facebook.com,O=Facebook\, Inc.,L=Palo Alto,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1382936400.000000	1438837199.000000	-	-	-	8a2cdf3b44eeeeeeeeeeeeeeeeeeeeee	ok
+1387221554.270046	CheMk53cnzvxMn7eWi	192.168.83.10	1093	173.252.112.23	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	3912cf436a50ea5add62083fe30958b8ef05c8493bda8c9b7c4d5861d0bdd26e	CN=*.facebook.com,O=Facebook\, Inc.,L=Palo Alto,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1382936400.000000	1438837199.000000	-	-	-	8a2cdf3b44eeeeeeeeeeeeeeeeeeeeee	ok
+1387221554.402864	Cxsm6V2sgYDouw7bek	192.168.83.10	1095	173.194.127.198	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1386173559.000000	1396501200.000000	-	-	-	9d83233518ff11173dfffffffff26d7f	ok
+1387221554.42612	CU6ZcaGAm2RPTzASc	192.168.83.10	1096	173.194.127.198	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1386173559.000000	1396501200.000000	-	-	-	9d83233518ff11173dfffffffff26d7f	ok
+1387221555.900222	C8Fi6E2yI888ICYRCj	192.168.83.10	1111	173.194.127.198	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	92b3f9b5a35f8b9a40669d2d60a3460304d0485b7d068512cdda2f31fe0020aa	-	-	-	-	-	-	-	-	-
+1387221556.141442	CsukrF4X3nt2B6fIVb	192.168.83.10	1115	74.125.129.84	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=accounts.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1386174839.000000	1396501200.000000	-	-	-	54be4a08ad807dcb095dc997d32476d7	ok
+1387221556.278172	CVa3TV11550mHiG4Og	192.168.83.10	1116	74.125.224.75	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1386172706.000000	1396501200.000000	-	-	-	d3c53fa1470a21e711247cb0794af58c	ok
+1387221556.427946	CyJV3BtzTFBMTpXg7	192.168.83.10	1117	74.125.128.120	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1386173671.000000	1396501200.000000	-	-	-	260284db30911c9548acad86f0c488b3	ok
+1387221556.649199	C9Cvjm25YOLaYTyat1	192.168.83.10	1120	74.125.128.120	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1386173671.000000	1396501200.000000	-	-	-	260284db30911c9548acad86f0c488b3	ok
+1387221556.908847	Cqiy3r4fr7F8zRmcxb	192.168.83.10	1121	74.125.128.120	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	eb2af6b7804f9135afb25f7f5598c3b56f1ebab3f293d8dae7f0e2deaa944aad	-	-	-	-	-	-	-	-	-
+1387221557.088758	CJbsWQ1tjT3dezn3h3	192.168.83.10	1122	74.125.128.120	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	4b214f5aacc2b63fca1eb49df25d35bab066668a464bbeaad82f72ca5c889948	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-21-40

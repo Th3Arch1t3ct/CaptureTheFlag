@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-49-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1347602955.016016	CYGtKv4K6egIdAHANh	192.168.6.10	1087	46.28.4.21	80	FZSJF83qxQZl3aAFr9	application/x-dosexec	http://avvocatostudiolegale.net/2.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2012-09-16 02:28:27	https://www.virustotal.com/en/search/?query=b9e1d6af8827622079fa8507939c49c356a1d57f	192.168.6.10	46.28.4.21	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1347602975.127883	Cwsvge2XJot7uyuvqb	192.168.6.10	1093	46.28.4.21	80	FcdMnE401DmoVkeBck	application/x-dosexec	http://avvocatostudiolegale.net/3.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2012-09-16 02:28:27	https://www.virustotal.com/en/search/?query=b9e1d6af8827622079fa8507939c49c356a1d57f	192.168.6.10	46.28.4.21	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-49-07

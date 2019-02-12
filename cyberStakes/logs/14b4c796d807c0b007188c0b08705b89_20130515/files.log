@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-11-06-56
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1368648499.185119	FtHlA32mFk9Nmdv346	108.170.16.12	192.168.29.10	C0OT1i4svhyUh6wOl	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	281	281	0	0	F	-	9e4b43838f9949e2fa23d8e024b7064b	065c3cb3104fb1dc15df20dbbf912a6a48cf3ed6	-	-
+1368648500.401854	Fka9GP2Uapycz20TGb	5.9.219.81	192.168.29.10	Capa2s4WIi9IGQEZpl	HTTP	0	SHA1,MD5	text/html	-	0.676149	-	F	29391	-	0	0	F	-	98058acc82107b1205d55505eac32120	66afc5923d6a02e079353126c71c1a9e8a1fc8d7	-	-
+1368648501.580349	FB6zXP2NkhNmuHVS3f	5.9.219.81	192.168.29.10	C1dUr53rdkxWrwnTc8	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	922	-	0	0	F	-	30da1ee240291b93fa76b76f22d63e7e	75bbf65da5a1b661dbe402a44c76e1a5c58a0066	-	-
+1368648502.612428	FRb2Ns4VMCWlZWrV4d	5.9.219.81	192.168.29.10	Capa2s4WIi9IGQEZpl	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	909	-	0	0	F	-	683433479f0a0decf7ae10894e67af7a	496b1e3159ffe11b9dac56688f471cb66751b335	-	-
+#close	2014-04-03-11-06-56

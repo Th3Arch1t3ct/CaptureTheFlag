@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-43-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1383336007.79448	CuhLc2K6HvtKKdv32	192.168.8.10	1034	4.2.2.3	53	udp	21400	halloween-soup-recipes.trafoboom.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.211.22.216	14400.000000	F
+1383336008.306787	CuhLc2K6HvtKKdv32	192.168.8.10	1034	4.2.2.3	53	udp	64411	daymoney.co.uk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.211.162.138	1746.000000	F
+1383336008.92304	CuhLc2K6HvtKKdv32	192.168.8.10	1034	4.2.2.3	53	udp	3229	www3.f-rlra4d1muf9a0.4pu.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.116.34.246	30.000000	F
+1383336009.421079	CuhLc2K6HvtKKdv32	192.168.8.10	1034	4.2.2.3	53	udp	12191	www1.uvx0otasgg8i9.4pu.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.232.225	30.000000	F
+1383336010.230469	CuhLc2K6HvtKKdv32	192.168.8.10	1034	4.2.2.3	53	udp	61086	l.yimg.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fd-geoycs-l.gy1.b.yahoodns.net,ds-fo-anyycs-l.ay1.b.yahoodns.net,216.115.97.236	6301.000000,95.000000,13.000000	F
+1383336021.356446	CuhLc2K6HvtKKdv32	192.168.8.10	1034	4.2.2.3	53	udp	7825	www2.l4nrfupu2ivvm4.wpbh.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.143.193.76	86400.000000	F
+1383336015.780101	CuhLc2K6HvtKKdv32	192.168.8.10	1034	4.2.2.3	53	udp	63902	225.232.32.178.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1383336015.780101	CuhLc2K6HvtKKdv32	192.168.8.10	1034	4.2.2.3	53	udp	63902	225.232.32.178.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1383336060.720868	CpplyY1nk3GL0IktOa	192.168.8.10	1034	208.115.221.125	53	udp	53392	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	50.31.74.56	7200.000000	F
+#close	2014-04-03-10-43-05

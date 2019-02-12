@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-55-03
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1314444680.055721	CptdGZ11wKJHp4XqBe	192.168.98.10	1041	200.80.43.244	80	tcp	-	0.296734	12	322	RSTO	-	0	ShADafdR	6	272	4	490	(empty)
+1314444677.834421	Cbz9U52J6hIrcosSr4	192.168.98.10	1029	4.2.2.3	53	udp	dns	1.075094	105	437	SF	-	0	Dd	3	189	3	521	(empty)
+1314444678.335807	CCEj8jfQhhiYzjaZ6	192.168.98.10	1033	200.62.55.6	80	tcp	http	6.649781	2979	20264	RSTO	-	0	ShADadfR	20	3799	21	21112	(empty)
+1314444678.445525	Cb3AVY2jCUWs0dh9eh	192.168.98.10	1034	200.62.55.6	80	tcp	http	6.540400	1398	47467	RSTO	-	0	ShADadfR	32	2710	41	50425	(empty)
+1314444678.97146	CfhLCv2terCg6QWhT3	192.168.98.10	1036	200.80.43.244	80	tcp	http	16.076204	522	19099	RSTO	-	0	ShADadfR	16	1182	17	19787	(empty)
+1314444678.091907	C6pZku45O8f4PTirvf	192.168.98.10	1031	200.62.55.254	80	tcp	http	21.955950	1267	36560	RSTO	-	0	ShADadfR	29	2471	30	37768	(empty)
+1314444678.197012	CxxcLi1GYeADHwXqwj	192.168.98.10	1032	200.62.55.254	80	tcp	http	21.851254	1021	94295	RSTO	-	0	ShADadfR	51	3093	69	97063	(empty)
+1314444677.853918	COmGtw3IyYjZFcyaz	192.168.98.10	1030	200.62.55.254	80	tcp	http	22.194629	593	7808	RSTO	-	0	ShADadfR	12	1093	11	9465	(empty)
+1314444661.848178	CXOh7M257eC2MzQ3oi	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000725	626	0	S0	-	0	D	2	682	0	0	(empty)
+1314444661.848516	C4cYEGUuOv2O2E79b	192.168.98.10	68	192.168.98.1	67	udp	dhcp	12.878090	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1314444678.910684	Cg5a551e6JHnKh83xa	192.168.98.10	1035	74.125.229.99	80	tcp	http	61.356749	900	7522	RSTO	-	0	ShADadR	10	1308	9	7890	(empty)
+1314444679.886013	CQuB6540e4OqTpy3Gd	192.168.98.10	1039	239.255.255.250	1900	udp	-	6.069505	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-10-55-03

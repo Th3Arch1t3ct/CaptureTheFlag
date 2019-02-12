@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-11-05-57
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1355034503.846015	CjRWzs4xLz1Iyh1Yg8	192.168.9.10	1030	93.170.52.21	80	tcp	http	0.274386	280	1105	SF	-	0	ShADadfF	5	488	5	1309	(empty)
+1355034507.162025	Ca4DG8B04IqHG9kW6	192.168.9.10	1040	185.4.227.74	80	tcp	http	0.509136	367	26280	RSTO	-	0	ShADadFRRR	21	1215	21	27128	(empty)
+1355034507.16122	CcCmKG1nvg2SvHxgle	192.168.9.10	1039	178.218.209.2	80	tcp	http	0.305594	277	525	SF	-	0	ShADadfF	5	485	5	729	(empty)
+1355034507.245095	C3nN3p4HwmQzBYpOy8	192.168.9.10	1041	92.243.66.77	80	tcp	http	0.278628	286	251	SF	-	0	ShADadfF	5	494	5	459	(empty)
+1355034503.843217	CuefP4zvxhyX2sP87	192.168.9.10	1029	4.2.2.3	53	udp	dns	3.317372	128	236	SF	-	0	Dd	4	240	4	348	(empty)
+1355034506.907411	CmUV3Q28Cqvc0FHyX	192.168.9.10	1037	4.2.2.3	53	udp	dns	0.337035	62	94	SF	-	0	Dd	2	118	2	150	(empty)
+1355034488.14912	CHMvj5365wv0eBYETl	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000728	626	0	S0	-	0	D	2	682	0	0	(empty)
+1355034488.14946	CEMEBK1lGJzW6TyO9e	192.168.9.10	68	192.168.9.1	67	udp	dhcp	12.368502	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1355034504.688051	CT8NE01sr3mWAf8Vxh	192.168.9.10	1032	195.3.143.42	80	tcp	http	65.376248	320	505	RSTO	-	0	ShADadR	5	528	3	633	(empty)
+1355034506.90936	CF3PP83Uq1bSJjUdIl	192.168.9.10	1038	195.3.143.42	80	tcp	http	2.826627	301	360	S1	-	0	ShADad	4	469	3	488	(empty)
+1355034504.277474	CQeZ5x3dzt4Sph1z0d	192.168.9.10	1031	195.3.143.42	80	tcp	http	65.787168	639	1391	RSTO	-	0	ShADadR	7	927	5	1599	(empty)
+1355034506.008183	C5qVvZ1UXjKc54WU75	192.168.9.10	1035	239.255.255.250	1900	udp	-	6.039227	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-11-05-57

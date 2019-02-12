@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-53-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1389843910.767744	Cl1Lfx3i5z1hcC1iSc	192.168.52.10	1065	74.125.224.240	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=www.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1386784978.000000	1397106000.000000	-	-	-	e81da1dd1093f0a9991bb00053ea6cb0	ok
+1389843911.109136	Covf9SIB6HVeeAsAa	192.168.52.10	1069	74.125.224.240	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	634e23a34aee7774f413e8220f4548dc3ba075e763b38126a761c89e1a6a26cb	-	-	-	-	-	-	-	-	-
+1389843911.159759	C69Tdd6DyApwMI8b8	192.168.52.10	1078	74.125.224.240	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	634e23a34aee7774f413e8220f4548dc3ba075e763b38126a761c89e1a6a26cb	-	-	-	-	-	-	-	-	-
+1389843911.194394	CVLqLx2sesbYNkUMBj	192.168.52.10	1080	74.125.224.240	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	634e23a34aee7774f413e8220f4548dc3ba075e763b38126a761c89e1a6a26cb	-	-	-	-	-	-	-	-	-
+1389843911.20887	Ce5T2pFTsPo3fOeK5	192.168.52.10	1081	74.125.224.240	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	634e23a34aee7774f413e8220f4548dc3ba075e763b38126a761c89e1a6a26cb	-	-	-	-	-	-	-	-	-
+1389843911.850752	C10aqe35l7wwPUQQNg	192.168.52.10	1082	74.125.224.240	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	634e23a34aee7774f413e8220f4548dc3ba075e763b38126a761c89e1a6a26cb	-	-	-	-	-	-	-	-	-
+1389843912.088474	CQ51TUx8Q26mMy8Q8	192.168.52.10	1089	74.125.224.240	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	634e23a34aee7774f413e8220f4548dc3ba075e763b38126a761c89e1a6a26cb	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-53-32

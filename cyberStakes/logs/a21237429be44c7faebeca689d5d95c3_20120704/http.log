@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-39-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1341419523.486796	CV3fvj1u7IRltKjMo2	192.168.9.10	1030	213.202.100.31	80	1	GET	delphis-studio.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6099	200	OK	-	-	-	(empty)	-	-	-	-	-	FtouwV5YaGI4NjVU9	text/html
+1341419524.436143	CfsVIDZFc97qVc0ij	192.168.9.10	1032	66.197.180.10	80	1	GET	zolotoineta.com	/runforestrun	http://delphis-studio.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	166	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	F5VZdr15Tge72Bpcq8	text/html
+1341419524.459532	C3LD413Zm7QKt3qXxd	192.168.9.10	1031	213.202.100.31	80	1	GET	delphis-studio.com	/img/logo2.jpg	http://delphis-studio.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	15297	200	OK	-	-	-	(empty)	-	-	-	-	-	F3nNJQ2HLbRjIR6Lib	image/jpeg
+1341419524.898579	C4QS5Z3abLI2TAPwl6	192.168.9.10	1034	109.235.51.226	80	1	GET	sektorgaza.biz	/dfasdd.php?sfsdf=244180cdbd7dde2d	http://delphis-studio.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	63829	200	OK	-	-	-	(empty)	-	-	-	-	-	FYleDt3FwsGpMxLurk	text/html
+1341419528.13949	C4QS5Z3abLI2TAPwl6	192.168.9.10	1034	109.235.51.226	80	2	GET	sektorgaza.biz	/w.php?f=b6863&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	273408	200	OK	-	-	-	(empty)	-	-	-	-	-	FyZWtV19FfdYzIBsAh	application/x-dosexec
+1341419529.631952	C4QS5Z3abLI2TAPwl6	192.168.9.10	1034	109.235.51.226	80	3	GET	sektorgaza.biz	/data/ap2.php	http://sektorgaza.biz/dfasdd.php?sfsdf=244180cdbd7dde2d	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	24897	200	OK	-	-	-	(empty)	-	-	-	-	-	FAhZ6R2szcxgJh8aw2	application/pdf
+1341419529.861524	C6Yna42d9sYP3fNclf	192.168.9.10	1039	109.235.51.226	80	1	GET	sektorgaza.biz	/data/field.swf	http://delphis-studio.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1008	200	OK	-	-	-	(empty)	-	-	-	-	-	Fx2u8c1ObuOZ6a8ta	application/x-shockwave-flash
+1341419551.7041	C6Yna42d9sYP3fNclf	192.168.9.10	1039	109.235.51.226	80	2	GET	sektorgaza.biz	/w.php?f=b6863&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	273408	200	OK	-	-	-	(empty)	-	-	-	-	-	FtxZ682CoidlnPuMn	application/x-dosexec
+1341419553.51951	CvCgTU1UtjLhWCn117	192.168.9.10	1041	109.235.51.226	80	1	GET	sektorgaza.biz	/Utor.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	51661	200	OK	-	-	-	(empty)	-	-	-	-	-	Fnn0bc3lsuefsCk0We	application/zip
+1341419560.341953	CdGUPm4W70U0ELfKQ3	192.168.9.10	1042	109.235.51.226	80	1	GET	sektorgaza.biz	/w.php?f=b6863&e=0	-	Java/1.6.0_10	0	273408	200	OK	-	-	-	(empty)	-	-	-	-	-	FBLUTk1dmBiQ3MrGxg	application/x-dosexec
+#close	2014-04-03-10-39-08

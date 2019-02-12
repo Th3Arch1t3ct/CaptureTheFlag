@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-23-42
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1329359846.369516	CVXL1u4sNsa0kzmGGi	192.168.113.10	1030	64.202.189.170	80	1	GET	huanchacoinn.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	365	200	OK	-	-	-	(empty)	-	-	-	-	-	FRY8I23U2Zmui52yB2	text/html
+1329359846.585398	C6MCRJ2oPFzbr4ylla	192.168.113.10	1031	207.58.168.78	80	1	GET	www.huanchacoinn.net	/	http://huanchacoinn.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7073	200	OK	-	-	-	(empty)	-	-	-	-	-	FSV5VM2wuPCWNnSwT9	text/html
+1329359846.645802	Cbx8nXK50nHImoOFk	192.168.113.10	1032	207.58.168.78	80	1	GET	www.huanchacoinn.net	/Scripts/AC_RunActiveContent.js	http://www.huanchacoinn.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	8029	200	OK	-	-	-	(empty)	-	-	-	-	-	FJRGaH2DmmSgGtXmH9	text/plain
+1329359847.034778	C6MCRJ2oPFzbr4ylla	192.168.113.10	1031	207.58.168.78	80	2	GET	www.huanchacoinn.net	/introduccion.swf	http://www.huanchacoinn.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	46539	200	OK	-	-	-	(empty)	-	-	-	-	-	FxCLHD4m2DcJfGmTw1	application/x-shockwave-flash
+1329359847.204836	Cjirco3ht8VN13Qfh7	192.168.113.10	1035	64.212.44.171	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1568	200	OK	-	-	-	(empty)	-	-	-	-	-	F0h6W61y42OOOq96ce	text/html
+1329359847.062668	CgOOys3qrNO15WbOX6	192.168.113.10	1033	188.190.98.79	80	1	GET	storylootybuz.com	/main.php?page=6eb5b7677d651df4	http://www.huanchacoinn.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	80523	200	OK	-	-	-	(empty)	-	-	-	-	-	FTkXWo1iORLcEf4xb1	text/html
+1329359857.802075	Crh6ND2HlqE3ulQOMa	192.168.113.10	1036	188.190.98.79	80	1	GET	storylootybuz.com	/w.php?f=40&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	192512	200	OK	-	-	-	(empty)	-	-	-	-	-	F49hhN3XMfnO6sMGYj	application/x-dosexec
+1329359858.878313	CtruMt1IlONcssT4fg	192.168.113.10	1041	188.190.98.79	80	1	GET	storylootybuz.com	/content/adp2.php?f=40	http://storylootybuz.com/main.php?page=6eb5b7677d651df4	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13089	200	OK	-	-	-	(empty)	-	-	-	-	-	Fnzwp01GdfauxJ8krk	application/pdf
+1329359866.148949	CyxoFp4IcZjuYsrRA4	192.168.113.10	1042	188.190.98.79	80	1	GET	storylootybuz.com	/w.php?f=40&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	192512	200	OK	-	-	-	(empty)	-	-	-	-	-	FfYl1e1G93roSKBZr3	application/x-dosexec
+1329359867.291683	CjtPbe26zp4EweTvJc	192.168.113.10	1043	188.190.98.79	80	1	GET	storylootybuz.com	/content/field.swf	http://huanchacoinn.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1553	200	OK	-	-	-	(empty)	-	-	-	-	-	FpmLiKlfrCwSE9E96	application/x-shockwave-flash
+1329359847.189897	Cbx8nXK50nHImoOFk	192.168.113.10	1032	207.58.168.78	80	2	GET	www.huanchacoinn.net	/intro.flv	http://www.huanchacoinn.net/introduccion.swf	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	24874503	200	OK	-	-	-	(empty)	-	-	-	-	-	Ftb89K2doQ8hVdYmhh	video/x-flv
+#close	2014-04-03-10-23-44

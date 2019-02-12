@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-34-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1352461580.320458	ClYmvc10CvWTONQBxi	192.168.7.10	1029	4.2.2.3	53	udp	64657	download-files.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	149.13.65.188,149.13.65.189	43200.000000,600.000000	F
+1352461580.685183	ClYmvc10CvWTONQBxi	192.168.7.10	1029	4.2.2.3	53	udp	45970	code.jquery.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wac.1257.edgecastcdn.net,ne.wac.edgecastcdn.net,72.21.91.19	540206.000000,1089.000000,2575.000000	F
+1352461581.251449	ClYmvc10CvWTONQBxi	192.168.7.10	1029	4.2.2.3	53	udp	2708	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.134.102,74.125.134.113,74.125.134.139,74.125.134.138,74.125.134.100,74.125.134.101	21389.000000,19.000000,19.000000,19.000000,19.000000,19.000000,19.000000	F
+1352461588.443143	ClYmvc10CvWTONQBxi	192.168.7.10	1029	4.2.2.3	53	udp	18325	dn.download-files.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.9.88.142,5.9.121.45,176.9.92.131,5.9.9.44,5.9.104.20,5.9.104.21,5.9.104.23,5.9.104.22,5.9.121.47,5.9.105.2,5.9.95.204,5.9.55.137,5.9.121.44,5.9.104.18	600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000	F
+#close	2014-04-03-10-34-00

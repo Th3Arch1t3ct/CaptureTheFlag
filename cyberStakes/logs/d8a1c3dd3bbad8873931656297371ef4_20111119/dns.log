@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-55-38
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1321732136.483138	CstCxv4J2Zfjaq2P2h	192.168.55.10	1029	4.2.2.3	53	udp	51084	bonsaibloggeries.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	190.120.236.252	41.000000	F
+1321732136.648668	CstCxv4J2Zfjaq2P2h	192.168.55.10	1029	4.2.2.3	53	udp	57742	www.myfreerotator.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	myfreerotator.com,50.22.107.94	600.000000,600.000000	F
+1321732136.715131	CstCxv4J2Zfjaq2P2h	192.168.55.10	1029	4.2.2.3	53	udp	41870	i1-news.softpedia-static.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	orig-10002.softpedia.cotcdn.net,206.41.8.60	3600.000000,300.000000	F
+1321732137.04003	CstCxv4J2Zfjaq2P2h	192.168.55.10	1029	4.2.2.3	53	udp	6793	ad15.cz.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.89.194	43200.000000	F
+1321732137.247426	CstCxv4J2Zfjaq2P2h	192.168.55.10	1029	4.2.2.3	53	udp	53128	www.statcounter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	g1.panthercdn.com,66.114.53.30,66.114.53.29	7736.000000,13.000000,13.000000	F
+1321732137.372198	CstCxv4J2Zfjaq2P2h	192.168.55.10	1029	4.2.2.3	53	udp	648	c.statcounter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.215.253.140,67.215.253.139	557.000000,557.000000	F
+#close	2014-04-03-10-55-39

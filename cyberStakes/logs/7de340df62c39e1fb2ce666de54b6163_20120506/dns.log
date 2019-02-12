@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-19-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1336283286.122374	CnQEi34yIXHZmUbA6	192.168.87.10	1029	4.2.2.3	53	udp	25227	onlinestream4free.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.162.100.42	43174.000000	F
+1336283286.448429	CnQEi34yIXHZmUbA6	192.168.87.10	1029	4.2.2.3	53	udp	41610	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.137.101,74.125.137.102,74.125.137.113,74.125.137.138,74.125.137.139,74.125.137.100	35842.000000,55.000000,55.000000,55.000000,55.000000,55.000000,55.000000	F
+1336283287.134562	CnQEi34yIXHZmUbA6	192.168.87.10	1029	4.2.2.3	53	udp	42121	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,64.72.65.215,64.72.65.214	16255.000000,156.000000,16620.000000,20.000000,20.000000	F
+#close	2014-04-03-10-19-36

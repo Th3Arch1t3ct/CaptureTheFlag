@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-06-21
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1367733758.3281	CpkgAt4Kji4R4hQtKb	192.168.7.10	1029	4.2.2.3	53	udp	56204	pps-pps.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.208.245.178	600.000000	F
+1367733759.534127	CpkgAt4Kji4R4hQtKb	192.168.7.10	1029	4.2.2.3	53	udp	41101	cnrdn.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	110.75.187.209	600.000000	F
+1367733760.293276	CpkgAt4Kji4R4hQtKb	192.168.7.10	1029	4.2.2.3	53	udp	28301	buy.yahoo.com.tw	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	yts.shp.vip.tw1.yahoo.net,203.84.197.77	300.000000,1197.000000	F
+1367733761.805194	CygFwd1kt07myWmNk5	192.168.7.10	1038	4.2.2.3	53	udp	23694	js.users.51.la	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	117.21.227.34,222.187.221.28,113.107.42.34	120.000000,120.000000,120.000000	F
+1367733762.813393	Cj6649311R1iNKoHui	192.168.7.10	1029	4.2.2.5	53	udp	60558	360gnc.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.208.245.178	600.000000	F
+1367733761.80315	CpkgAt4Kji4R4hQtKb	192.168.7.10	1029	4.2.2.3	53	udp	60558	360gnc.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.208.245.178	600.000000	F
+1367733772.119587	CoLS9teGdK4IDiWF8	192.168.7.10	1038	4.2.2.5	53	udp	56207	neirong.funshion.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	down.fspcdn.com,182.118.38.50,111.161.35.75,111.161.35.76,60.31.184.17,60.31.184.40,60.31.184.35,182.118.38.51	600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000	F
+#close	2014-04-03-11-06-21

@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-48-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1362628351.454009	CXMoWPqSwQilYAzHb	192.168.37.10	1065	5.104.106.56	80	FoSTVi3T38kOxJBlO1	application/x-dosexec	http://bquxi.dolfolks.crabdance.com/get_soft_demo.php?ts=c5ca2c52d250a3e19f2108e583d4497b394f9f79&affid=70800	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 38%  Last seen: 2013-03-31 16:13:00	https://www.virustotal.com/en/search/?query=5cf22e6158a7af5976680674188d9a5dfa74bbdf	192.168.37.10	5.104.106.56	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-48-47

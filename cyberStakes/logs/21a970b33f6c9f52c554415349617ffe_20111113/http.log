@@ -1,0 +1,31 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-17-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1321203871.440335	C7Z0eu11FmmOOuQf6h	192.168.62.10	1030	194.109.108.97	80	1	GET	berghstoop.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4886	200	OK	-	-	-	(empty)	-	-	-	-	-	Fhdobq1xXdfQu8IWDb	text/html
+1321203871.649669	CuvSvC2bQTPVgTYk66	192.168.62.10	1031	194.109.108.97	80	1	GET	berghstoop.com	/stylesheet.css	http://berghstoop.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3375	200	OK	-	-	-	(empty)	-	-	-	-	-	FMk1Od4V1rfa1ald41	text/plain
+1321203871.81738	CYSzhhfXhcfQ3Fm9d	192.168.62.10	1034	74.125.47.95	80	1	GET	ajax.googleapis.com	/ajax/libs/jquery/1.6.2/jquery.min.js	http://berghstoop.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	91556	200	OK	-	-	-	(empty)	-	-	-	-	-	FMo4sh4YBtqFTUlo3l	text/html
+1321203871.880685	CtMX9hBOZlPW4zA8d	192.168.62.10	1032	194.109.108.97	80	1	GET	berghstoop.com	/graphics/nl-on.gif	http://berghstoop.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	535	200	OK	-	-	-	(empty)	-	-	-	-	-	FAiGxuEZEpQfKDCTe	image/gif
+1321203871.903538	CA4wkP3rWEeZUkI376	192.168.62.10	1033	194.109.108.97	80	1	GET	berghstoop.com	/graphics/eng-on.gif	http://berghstoop.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	342	200	OK	-	-	-	(empty)	-	-	-	-	-	FMD72829gEt5q49A7j	image/gif
+1321203872.080632	CDzisP3rYWGU3NNxMk	192.168.62.10	1035	194.109.108.97	80	1	GET	berghstoop.com	/graphics/fra-on.gif	http://berghstoop.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	419	200	OK	-	-	-	(empty)	-	-	-	-	-	FJnFif4Pna4JuFWiRd	image/gif
+1321203872.106185	CJwijp3x2rhJYwgpM3	192.168.62.10	1036	194.109.108.97	80	1	GET	berghstoop.com	/graphics/dan-on.gif	http://berghstoop.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	296	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F2Jq3h4WE0T2hJGlv2	text/html
+1321203872.285353	CkAHzP1byRm4XNfjNk	192.168.62.10	1037	194.109.108.97	80	1	GET	berghstoop.com	/graphics/nl.gif	http://berghstoop.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	588	200	OK	-	-	-	(empty)	-	-	-	-	-	FhJPy43Q3L1IzGvvd6	image/gif
+1321203872.307389	CiBurp3xoQ0YCWD8N3	192.168.62.10	1038	194.109.108.97	80	1	GET	berghstoop.com	/graphics/eng.gif	http://berghstoop.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	425	200	OK	-	-	-	(empty)	-	-	-	-	-	FsWrjBzZ10Kh7NQn6	image/gif
+1321203872.527103	Cj7UGP1D1Bbq4VsTLe	192.168.62.10	1039	194.109.108.97	80	1	GET	berghstoop.com	/graphics/fra.gif	http://berghstoop.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	481	200	OK	-	-	-	(empty)	-	-	-	-	-	FN2zsC4IQArCIaIV9a	image/gif
+1321203872.557911	CYIE0b43eLthoyG3N9	192.168.62.10	1040	194.109.108.97	80	1	GET	berghstoop.com	/graphics/dan.gif	http://berghstoop.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	293	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Fzo9Xo3Hl93zpaMqk5	text/html
+1321203872.789043	C5qmS31DHQMxPWoFMe	192.168.62.10	1041	194.109.108.97	80	1	GET	berghstoop.com	/graphics/logo.png	http://berghstoop.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7227	200	OK	-	-	-	(empty)	-	-	-	-	-	FGtthT1PXhGPTHDUAk	image/png
+1321203872.811854	Cn5p8b4BblDR5XzMN9	192.168.62.10	1042	194.109.108.97	80	1	GET	berghstoop.com	/graphics/motto1.png	http://berghstoop.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5823	200	OK	-	-	-	(empty)	-	-	-	-	-	F5MWHmnQknbqNWNwd	image/png
+1321203873.14761	CeF0041eZpoHmsjARh	192.168.62.10	1043	199.59.149.232	80	1	GET	api.twitter.com	/1/trends/daily.json?callback=jQuery16207357423094439913_1321218152750&_=1321218153890	http://berghstoop.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	43365	200	OK	-	-	-	(empty)	-	-	-	-	-	F2U3SdOVBkcaEE1d9	text/plain
+1321203874.270499	CeF0041eZpoHmsjARh	192.168.62.10	1043	199.59.149.232	80	2	GET	api.twitter.com	/1/trends/daily.json?callback=jQuery16207357423094439913_1321218152751&date=2011-11-11&_=1321218155093	http://berghstoop.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	44305	200	OK	-	-	-	(empty)	-	-	-	-	-	FnzHXp2KBnXmg7hjVf	text/plain
+1321203882.524471	C1RMPM2otXj2zEctd1	192.168.62.10	1049	189.200.180.42	80	1	GET	satdifnyet.com	/content/import.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	169	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FxLyPQ16edfT3y6b7j	text/html
+1321203886.845403	CoJjDh1WA4iEmBZdcc	192.168.62.10	1050	189.200.180.42	80	1	GET	satdifnyet.com	/content/import.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	169	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FWxHZr3rVAkK07u4Ue	text/html
+1321203887.557253	CRH3XC3216uLbXv3S6	192.168.62.10	1051	189.200.180.42	80	1	GET	satdifnyet.com	/json/Parser.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	169	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FJBDx52YUzm6e0dtyk	text/html
+1321203888.388457	CuYCgreIHkE3omXcc	192.168.62.10	1052	189.200.180.42	80	1	GET	satdifnyet.com	/json/Parser/class.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	169	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F4AM6fvi1MIsvCQYj	text/html
+1321203874.865503	CLezvh1oKvwyrecjSh	192.168.62.10	1048	66.81.254.159	80	1	GET	satdifnyet.com	/index.php?tp=001e4bb7b4d7333d	http://berghstoop.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	97106	200	OK	-	-	-	(empty)	-	-	-	-	-	F5rP6boIJ20Aj3dnh	text/html
+1321203931.551637	ClbPorURWLKCzzo45	192.168.62.10	1059	93.187.142.38	80	1	OPTIONS	93.187.142.38	/	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	166	405	Not Allowed	-	-	-	(empty)	-	-	-	-	-	F3wMU623FcQ24qucwd	text/html
+1321203910.317849	C4ng4D3mFLtzBlXOS6	192.168.62.10	1056	66.81.254.159	80	1	GET	satdifnyet.com	/w.php?f=26&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	51312	200	OK	-	-	-	(empty)	-	-	-	-	-	FVNsu32nbWb0byeex9	application/x-dosexec
+#close	2014-04-03-10-17-59

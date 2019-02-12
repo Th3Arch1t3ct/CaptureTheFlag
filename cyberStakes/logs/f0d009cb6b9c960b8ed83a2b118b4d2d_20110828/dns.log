@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-03-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1314529956.134788	CHQpX4ub8sqLVrTXh	192.168.59.10	1029	4.2.2.3	53	udp	54417	sunshines-world.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.165.88.47	43175.000000	F
+1314529956.583911	CHQpX4ub8sqLVrTXh	192.168.59.10	1029	4.2.2.3	53	udp	9619	www.sunshines-world.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.165.88.47	43200.000000	F
+1314529956.908683	CHQpX4ub8sqLVrTXh	192.168.59.10	1029	4.2.2.3	53	udp	21652	newsticker.shortnews.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.146.86.145	600.000000	F
+1314529957.293885	CR7uco4EGThPkOP825	192.168.59.10	1037	4.2.2.3	53	udp	15765	www.flatcast.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.51.180.136	43200.000000	F
+1314529957.291144	CHQpX4ub8sqLVrTXh	192.168.59.10	1029	4.2.2.3	53	udp	43668	www.meds-help.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.165.79.48	43200.000000	F
+1314529957.43383	CR7uco4EGThPkOP825	192.168.59.10	1037	4.2.2.3	53	udp	5014	top100.sunshines-world.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.165.88.47	43200.000000	F
+1314529957.455416	CHQpX4ub8sqLVrTXh	192.168.59.10	1029	4.2.2.3	53	udp	49815	www.meds-world.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.165.79.48	43200.000000	F
+1314529957.483315	CR7uco4EGThPkOP825	192.168.59.10	1037	4.2.2.3	53	udp	38808	www.megaevent.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	87.118.82.122	43200.000000	F
+1314529957.74071	CR7uco4EGThPkOP825	192.168.59.10	1037	4.2.2.3	53	udp	48538	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,24.143.201.43,24.143.201.35	28012.000000,184.000000,6367.000000,8.000000,8.000000	F
+1314529957.514595	CHQpX4ub8sqLVrTXh	192.168.59.10	1029	4.2.2.3	53	udp	13722	www.radioaktiv24.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	radioaktiv24.de,87.118.73.2	43200.000000,43200.000000	F
+1314529957.869438	CR7uco4EGThPkOP825	192.168.59.10	1037	4.2.2.3	53	udp	42907	www.flatcast.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.51.180.142	43200.000000	F
+1314529966.788018	CHQpX4ub8sqLVrTXh	192.168.59.10	1029	4.2.2.3	53	udp	43164	crl.globalsign.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.ops.cybertrust.com,64.18.21.1,194.7.155.81	822.000000,218.000000,218.000000	F
+1314529967.473111	CHQpX4ub8sqLVrTXh	192.168.59.10	1029	4.2.2.3	53	udp	59550	www.download.windowsupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.download.windowsupdate.nsatc.net,mscom-wui-any.vo.msecnd.net,65.54.93.36,65.54.93.56	3222.000000,535.000000,200.000000,200.000000	F
+#close	2014-04-03-10-03-00

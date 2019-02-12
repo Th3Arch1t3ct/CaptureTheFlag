@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-05-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1320786250.21574	CENibi3Z3bv3ZVlyqf	192.168.41.10	1035	95.211.160.73	80	FAnnpf1X8a1w6JLtV9	application/x-dosexec	http://erehholachan.sytes.net/b/1/17d10637d586b8a63b026278c27765324dea87b811a144f6adcc6979d7db6744	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 13%  Last seen: 2011-11-09 00:25:00	https://www.virustotal.com/en/search/?query=b7d01d0bc2a6bd9a697d0f62dbe4ebddf9719de9	192.168.41.10	95.211.160.73	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-05-31

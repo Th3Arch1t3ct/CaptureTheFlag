@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-08-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1336465795.230718	CwjljH0r7I03TGzX9	192.168.49.10	1055	37.59.198.60	80	FIXnui4O7jWBmmSkWc	application/x-dosexec	http://defpurple.info/?39b53cf9e0205f8a316ce42412e8d9e0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-05-10 11:05:27	https://www.virustotal.com/en/search/?query=70f5695728f79f7b82fcaa4afef4185d4905a434	192.168.49.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336465795.230718	Ce6hPovZJ023zrQlh	192.168.49.10	1058	37.59.198.60	80	FP3CB04a7T6GqPeCT6	application/x-dosexec	http://defpurple.info/?d895ff0056b1a7edfce94023f92f2f9b	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-05-10 11:05:27	https://www.virustotal.com/en/search/?query=70f5695728f79f7b82fcaa4afef4185d4905a434	192.168.49.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336465804.769063	CZH8hJZHWHiQisMil	192.168.49.10	1046	69.64.43.71	80	FgoRqu37Z82Pq2A4A8	application/x-dosexec	http://www.good-clinical.in/1.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-05-14 23:19:17	https://www.virustotal.com/en/search/?query=5ccbdcac791f2c2e7b86f1c878fbb49b2a282403	192.168.49.10	69.64.43.71	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-08-13

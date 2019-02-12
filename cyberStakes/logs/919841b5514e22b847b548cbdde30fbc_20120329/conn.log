@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-37-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1333013296.319814	Cem7roda7gQ5ohvYk	192.168.41.10	1036	221.132.34.184	80	tcp	http	1.464299	346	386	SF	-	0	ShADadfF	5	554	5	594	(empty)
+1333013296.923697	CIuaG34C2MNEFfik7e	192.168.41.10	1037	221.132.34.184	80	tcp	http	1.366843	346	242	SF	-	0	ShADadfF	5	554	5	450	(empty)
+1333013291.887046	CfLe9SCD58m6vOCIh	192.168.41.10	1029	4.2.2.3	53	udp	dns	6.009125	106	154	SF	-	0	Dd	3	190	3	238	(empty)
+1333013297.897004	CstVHA2PlImltPuQi9	192.168.41.10	1038	31.210.105.148	80	tcp	http	20.174184	1592	83335	RSTO	-	0	ShADadfR	51	3640	66	85983	(empty)
+1333013276.151214	CeYb3LEG7NHSUv1eh	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000858	626	0	S0	-	0	D	2	682	0	0	(empty)
+1333013314.598195	CfNs9y2BcqVS5vix99	192.168.41.10	1040	31.210.105.148	80	tcp	http	20.553427	1417	52092	SF	-	0	ShADadfF	30	2625	43	53820	(empty)
+1333013314.597942	CiNI4h10L1tLwKr0Yd	192.168.41.10	1039	31.210.105.148	80	tcp	http	20.563907	1573	34842	SF	-	0	ShADadfF	26	2621	33	36170	(empty)
+1333013276.151591	CkscT74Z1tCLBKgvx	192.168.41.10	68	192.168.41.1	67	udp	dhcp	12.429506	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1333013332.60771	ClBowe1rwcrzzUasAd	192.168.41.10	1041	31.210.105.148	80	tcp	http	15.582546	234	18169	RSTO	-	0	ShADadfR	14	802	16	18817	(empty)
+1333013294.190875	ClKFSlPP5KLM20cPk	192.168.41.10	1033	239.255.255.250	1900	udp	-	6.350958	399	0	S0	-	0	D	3	483	0	0	(empty)
+1333013296.298034	CzmR714cxHIs1on0c5	192.168.41.10	1035	193.200.173.6	80	tcp	http	67.406493	2502	24434	RSTO	-	0	ShADdR	21	3350	23	25362	(empty)
+1333013291.888906	CBH6Ze44nNNRmUrG25	192.168.41.10	1030	193.200.173.6	80	tcp	http	71.815352	2499	119179	RSTO	-	0	ShADadR	62	4987	89	122747	(empty)
+#close	2014-04-03-10-37-46

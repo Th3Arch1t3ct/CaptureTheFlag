@@ -1,0 +1,29 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-47-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1336669311.480087	CM38ug1pYCo9heWRdi	192.168.50.10	1029	4.2.2.3	53	udp	59019	campusbasket.rs	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	77.105.36.192	275.000000	F
+1336669312.023246	CM38ug1pYCo9heWRdi	192.168.50.10	1029	4.2.2.3	53	udp	3210	icecover.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	146.185.218.146	7200.000000	F
+1336669312.511595	CM38ug1pYCo9heWRdi	192.168.50.10	1029	4.2.2.3	53	udp	13449	studio-chicago2012.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	146.185.218.147	600.000000	F
+1336669317.438304	CKgDoa2Xiik7RYmSQj	192.168.50.10	1038	8.8.8.8	53	udp	13107	promos.fling.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.91.207.10	54.000000	F
+1336669325.111519	CY1Rzz4eqcroGFJWY8	192.168.50.10	1029	4.2.2.3	53	udp	56713	update.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	update.microsoft.com.nsatc.net,www.update.microsoft.com.nsatc.net,65.55.200.139	562.000000,199.000000,170.000000	F
+1336669327.708494	CY1Rzz4eqcroGFJWY8	192.168.50.10	1029	4.2.2.3	53	udp	63112	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,192.204.3.42,192.204.3.10	4703.000000,202.000000,19464.000000,11.000000,11.000000	F
+1336669317.782468	CiPWQB3Ib0GX0Xr74f	192.168.50.10	1041	94.242.250.64	53	udp	18607	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336669317.813767	CPjSw81nHuCrrMZcuc	192.168.50.10	1043	94.242.250.64	53	udp	18607	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336669318.187769	C52K4ICma69k7Twf	192.168.50.10	1045	94.242.250.64	53	udp	18607	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336669318.22663	Cdo1CGP8peJFEktVb	192.168.50.10	1047	94.242.250.64	53	udp	18607	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336669318.229709	CLDfgvE2tQfNPl6M9	192.168.50.10	1049	94.242.250.64	53	udp	18607	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336669318.248518	Ca55b7474wvIf6LTQ6	192.168.50.10	1051	94.242.250.64	53	udp	18607	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336669318.252468	CCtFQ44T1tlOiolRVf	192.168.50.10	1053	94.242.250.64	53	udp	18607	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336669318.254119	CbPIvKO4VyR8cUODb	192.168.50.10	1055	94.242.250.64	53	udp	18607	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336669318.262858	CrBm5qPPJunOYvDHa	192.168.50.10	1057	94.242.250.64	53	udp	18607	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336669318.26508	CeDU0m4U7bTBG4NII5	192.168.50.10	1059	94.242.250.64	53	udp	18607	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336669318.266759	CIQqqS361q8zYUcED4	192.168.50.10	1061	94.242.250.64	53	udp	18607	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336669318.272349	ClGm543F5zxZiqKIG	192.168.50.10	1063	94.242.250.64	53	udp	18607	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336669318.42826	C9yuaO2IKpFd0cZuSk	192.168.50.10	1065	94.242.250.64	53	udp	18607	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336669318.438929	CGPIDN1T2OhyI1dxCh	192.168.50.10	1067	94.242.250.64	53	udp	18607	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+#close	2014-04-03-10-47-23

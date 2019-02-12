@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-19-42
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1392425325.525847	Cngkvm2Xpvb7f6iGX5	192.168.3.10	1034	4.2.2.3	53	udp	32672	fil.sislerhightechnology.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.254.28.145	14400.000000	F
+1392425327.835876	Cngkvm2Xpvb7f6iGX5	192.168.3.10	1034	4.2.2.3	53	udp	40610	www.planetoscope.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.121.223.121	3600.000000	F
+1392425328.846815	CaFYAy4afDhu15ifJ9	192.168.3.10	1043	4.2.2.3	53	udp	65188	s.ytimg.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ytstatic.l.google.com,74.125.224.198,74.125.224.201,74.125.224.199,74.125.224.194,74.125.224.195,74.125.224.200,74.125.224.192,74.125.224.196,74.125.224.197,74.125.224.206,74.125.224.193	3338.000000,166.000000,166.000000,166.000000,166.000000,166.000000,166.000000,166.000000,166.000000,166.000000,166.000000,166.000000	F
+1392425328.864582	C2jwIj3lryr3wx4B9d	192.168.3.10	1044	4.2.2.3	53	udp	34470	www.youtube-nocookie.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	youtube-ui.l.google.com,74.125.224.64,74.125.224.68,74.125.224.78,74.125.224.66,74.125.224.69,74.125.224.70,74.125.224.73,74.125.224.67,74.125.224.72,74.125.224.71,74.125.224.65	53344.000000,256.000000,256.000000,256.000000,256.000000,256.000000,256.000000,256.000000,256.000000,256.000000,256.000000,256.000000	F
+1392425328.843185	Cngkvm2Xpvb7f6iGX5	192.168.3.10	1034	4.2.2.3	53	udp	4773	www.tagxedo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ghs.google.com,ghs.l.google.com,74.125.28.121	3600.000000,559683.000000,31.000000	F
+1392425330.491116	CaFYAy4afDhu15ifJ9	192.168.3.10	1043	4.2.2.3	53	udp	56230	go.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.go.microsoft.akadns.net,64.4.11.25	3350.000000,470.000000	F
+1392425330.584684	CaFYAy4afDhu15ifJ9	192.168.3.10	1043	4.2.2.3	53	udp	40361	www.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	toggle.www.ms.akadns.net,g.www.ms.akadns.net,lb1.www.ms.akadns.net,65.55.57.27	3336.000000,163.000000,167.000000,159.000000	F
+1392425330.707447	CaFYAy4afDhu15ifJ9	192.168.3.10	1043	4.2.2.3	53	udp	54696	silverlight.dlservice.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	silverlight.dlservice.microsoft.nsatc.net,main.dl.sl.akadns.net,a1900.ms.akamai.net,a1900.ms.akamai.net.0.1.cn.akamaitech.net,23.62.228.42,23.62.228.40	3044.000000,815.000000,6469.000000,20.000000,20.000000,20.000000	F
+#close	2014-04-03-10-19-42

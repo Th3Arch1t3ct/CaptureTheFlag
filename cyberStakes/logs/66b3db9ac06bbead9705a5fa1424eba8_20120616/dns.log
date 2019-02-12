@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-14-41
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1339818210.986228	C6Ivkr4YV47xkRNyS8	192.168.118.10	1029	4.2.2.3	53	udp	17807	noo.com.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	108.171.179.249	3574.000000	F
+1339818211.909988	C6Ivkr4YV47xkRNyS8	192.168.118.10	1029	4.2.2.3	53	udp	33164	francais-college.fr	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.186.33.19	43200.000000	F
+1339818215.292927	C6Ivkr4YV47xkRNyS8	192.168.118.10	1029	4.2.2.3	53	udp	57997	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,173.194.79.102,173.194.79.113,173.194.79.138,173.194.79.139,173.194.79.100,173.194.79.101	862.000000,178.000000,178.000000,178.000000,178.000000,178.000000,178.000000	F
+1339818215.295732	C6Ivkr4YV47xkRNyS8	192.168.118.10	1029	4.2.2.3	53	udp	56970	connect.facebook.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	connect.facebook.net.edgekey.net,e3821.dspe1.akamaiedge.net,184.30.255.139	2710.000000,190.000000,18.000000	F
+1339818215.322466	C6Ivkr4YV47xkRNyS8	192.168.118.10	1029	4.2.2.3	53	udp	6792	noo.softbrazilweb.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.116.75.144	14400.000000	F
+1339818216.434918	C6Ivkr4YV47xkRNyS8	192.168.118.10	1029	4.2.2.3	53	udp	10630	s-static.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	s-static.ak.fbcdn.net.edgekey.net,e3353.dspe1.akamaiedge.net,184.30.253.177	4415.000000,264.000000,12.000000	F
+1339818216.464657	C6Ivkr4YV47xkRNyS8	192.168.118.10	1029	4.2.2.3	53	udp	10118	static.ak.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.dsw4.akamai.net,96.17.109.105,96.17.109.90	796.000000,11.000000,11.000000,11.000000	F
+1339818216.498353	C7ypbt1zHZoqRXqCWg	192.168.118.10	1041	4.2.2.3	53	udp	6022	s-static.ak.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	s-static.ak.facebook.com.edgekey.net,e566.dspe1.akamaiedge.net,184.30.242.110	3061.000000,63.000000,15.000000	F
+1339818217.264142	C6Ivkr4YV47xkRNyS8	192.168.118.10	1029	4.2.2.3	53	udp	35975	www.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.220.149.94	21.000000	F
+#close	2014-04-03-10-14-41

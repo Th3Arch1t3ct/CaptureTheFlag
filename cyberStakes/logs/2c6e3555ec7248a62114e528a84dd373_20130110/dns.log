@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-12-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1357850129.197868	C8Nwrw4ZCFGyBKFNwk	192.168.71.10	1030	4.2.2.3	53	udp	19343	dhamma-of-buddha.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	122.155.16.126	100.000000	F
+1357850141.469118	C2timb3CN9P7uIE8tf	192.168.71.10	1030	4.2.2.3	53	udp	41612	download.camfrog.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	camfrog.com,72.52.10.87,209.200.153.101	900.000000,900.000000,900.000000	F
+1357850141.597795	C4OXO04JJmmBkp4OIg	192.168.71.10	1054	4.2.2.3	53	udp	52363	static.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.dsw4.akamai.net,72.246.45.75,72.246.45.66,72.246.45.25,72.246.45.18	1433.000000,259.000000,0.000000,0.000000,0.000000,0.000000	F
+1357850141.599112	ClEnV14P8py8DmwrM5	192.168.71.10	1055	4.2.2.3	53	udp	64137	www.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	star.c10r.facebook.com,66.220.158.27	212.000000,28.000000	F
+1357850141.58961	C2timb3CN9P7uIE8tf	192.168.71.10	1030	4.2.2.3	53	udp	3978	download2.camfrog.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	72.52.10.87,209.200.153.101	900.000000,900.000000	F
+1357850142.122061	C4OXO04JJmmBkp4OIg	192.168.71.10	1054	4.2.2.3	53	udp	46983	crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.59.190	122.000000,1.000000	F
+1357850142.196277	C4OXO04JJmmBkp4OIg	192.168.71.10	1054	4.2.2.3	53	udp	33927	csc3-2009-2-crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.59.190	599.000000,1.000000	F
+1357850142.653189	C4OXO04JJmmBkp4OIg	192.168.71.10	1054	4.2.2.3	53	udp	16517	connect.facebook.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	connect.facebook.net.edgekey.net,e3821.dspe1.akamaiedge.net,184.87.15.139	1528.000000,323.000000,2.000000	F
+1357850143.398033	ClEnV14P8py8DmwrM5	192.168.71.10	1055	4.2.2.3	53	udp	59010	s-static.ak.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	s-static.ak.facebook.com.edgekey.net,e566.dspe1.akamaiedge.net,184.87.2.110	144.000000,90.000000,1.000000	F
+1357850143.395299	C4OXO04JJmmBkp4OIg	192.168.71.10	1054	4.2.2.3	53	udp	12162	static.ak.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.dsw4.akamai.net,107.14.43.203,107.14.43.200	3503.000000,257.000000,20.000000,20.000000	F
+1357850143.764047	ClEnV14P8py8DmwrM5	192.168.71.10	1055	4.2.2.3	53	udp	20864	b.static.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.dsw4.akamai.net,107.14.43.203,107.14.43.200	1001.000000,257.000000,20.000000,20.000000	F
+#close	2014-04-03-10-12-30

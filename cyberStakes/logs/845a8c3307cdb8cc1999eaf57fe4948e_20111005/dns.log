@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-09-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1317841193.443237	CKby0h2CpvZ82By3ae	192.168.12.10	1029	4.2.2.3	53	udp	8843	track.wwwapp-ups.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	122.155.13.130	579.000000	F
+1317841194.079272	CKby0h2CpvZ82By3ae	192.168.12.10	1029	4.2.2.3	53	udp	57227	wwwapp-ups.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.219.29.139	600.000000	F
+1317841194.810049	CKby0h2CpvZ82By3ae	192.168.12.10	1029	4.2.2.3	53	udp	34185	tgqswpqqh.org.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.123.52.133	900.000000	F
+1317841213.071355	Cyd5cA4PoFjLlN1JTi	192.168.12.10	1051	4.2.2.3	53	udp	26511	www.ups.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.ups.com.akadns.net,www.upsprodcidr2.com.akadns.net,origin.www.ups.com,153.2.224.50,153.2.228.50	277.000000,277.000000,2.000000,3292.000000,3292.000000	F
+1317841211.802792	CTohXY21sW6cUjz4ua	192.168.12.10	1029	4.2.2.5	53	udp	52105	mysybackups.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.46.251.167	3600.000000	F
+1317841210.711559	CKby0h2CpvZ82By3ae	192.168.12.10	1029	4.2.2.3	53	udp	52105	mysybackups.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.46.251.167	3600.000000	F
+1317841223.244574	CdGfsD3nxUHwxXAAjj	192.168.12.10	1051	4.2.2.5	53	udp	52111	ssdc.ups.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	153.2.229.56,153.2.225.56	182.000000,182.000000	F
+1317841212.79746	CKby0h2CpvZ82By3ae	192.168.12.10	1029	4.2.2.3	53	udp	52105	mysybackups.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-10-01

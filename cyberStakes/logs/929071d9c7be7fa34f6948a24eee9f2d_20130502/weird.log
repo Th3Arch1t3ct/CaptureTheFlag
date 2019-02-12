@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-10-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1367482149.528151	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1367482164.437311	CHQnubHhKWV2XOEsg	192.168.56.10	1099	208.71.125.1	80	unescaped_special_URI_char	-	F	bro
+1367482164.43873	CyCMeq6fZMVSJYjij	192.168.56.10	1100	208.71.125.1	80	unescaped_special_URI_char	-	F	bro
+1367482164.728389	C1Bgsf2lRhgemzIj4i	192.168.56.10	1103	208.71.125.1	80	unescaped_special_URI_char	-	F	bro
+1367482164.923803	CV0Kc34ma2cRZNvZ5a	192.168.56.10	1107	208.71.125.1	80	unescaped_special_URI_char	-	F	bro
+1367482165.29946	CURt8e1VmOqPaQvGvf	192.168.56.10	1116	107.23.70.238	80	unescaped_special_URI_char	-	F	bro
+1367482168.513104	CdCvg53rcXpbVS6m4	192.168.56.10	1153	64.208.138.215	80	unescaped_special_URI_char	-	F	bro
+1367482169.001338	C5dGGP2NG5FVgxkIm9	192.168.56.10	1156	64.208.138.247	80	unescaped_special_URI_char	-	F	bro
+1367482170.593078	CM1UkS3779Avxf4dL8	192.168.56.10	1138	50.116.194.21	80	window_recision	-	F	bro
+1367482175.077267	CSfq4s34z9rOKGCrJ1	192.168.56.10	1231	199.233.57.41	80	unescaped_special_URI_char	-	F	bro
+1367482175.078285	C0F87v3UN1na1gRqf	192.168.56.10	1235	50.116.194.23	80	unescaped_special_URI_char	-	F	bro
+1367482175.090462	CKyzfY1TT2s4afmW3j	192.168.56.10	1238	208.71.125.1	80	unescaped_special_URI_char	-	F	bro
+1367482180.845846	C8jgHy24se4L1edj23	192.168.56.10	1273	209.190.70.254	80	unescaped_special_URI_char	-	F	bro
+1367482202.584149	CfzHJg4L2pAf8jMEC2	192.168.56.10	1291	64.208.138.247	80	unescaped_special_URI_char	-	F	bro
+1367482208.688807	C8ADSq2ga6bQofqFN3	192.168.56.10	1294	54.239.142.139	80	double_%_in_URI	-	F	bro
+1367482208.688807	C8ADSq2ga6bQofqFN3	192.168.56.10	1294	54.239.142.139	80	unescaped_%_in_URI	-	F	bro
+1367482208.688807	C8ADSq2ga6bQofqFN3	192.168.56.10	1294	54.239.142.139	80	unescaped_special_URI_char	-	F	bro
+1367482214.719817	Cx7duW1EDJkwc29yIg	192.168.56.10	1311	74.125.229.251	80	unescaped_special_URI_char	-	F	bro
+#close	2014-04-03-10-10-46

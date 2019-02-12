@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-14-43
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1338704466.053815	CHoql34vpOK0LZxES7	192.168.109.10	1029	4.2.2.3	53	udp	23695	mackbooks.co.uk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.202.110.186	10775.000000	F
+1338704467.894164	CHoql34vpOK0LZxES7	192.168.109.10	1029	4.2.2.3	53	udp	44686	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.134.139,74.125.134.100,74.125.134.101,74.125.134.102,74.125.134.113,74.125.134.138	33888.000000,174.000000,174.000000,174.000000,174.000000,174.000000,174.000000	F
+1338704468.259691	CHoql34vpOK0LZxES7	192.168.109.10	1029	4.2.2.3	53	udp	24717	ineed.co.nz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	119.47.120.52	600.000000	F
+1338704482.160831	COx5cK2AxmuXfOGAF1	192.168.109.10	1029	4.2.2.3	53	udp	61324	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,173.194.37.51,173.194.37.52,173.194.37.48,173.194.37.49,173.194.37.50	33834.000000,51.000000,51.000000,51.000000,51.000000,51.000000	F
+#close	2014-04-03-11-14-43

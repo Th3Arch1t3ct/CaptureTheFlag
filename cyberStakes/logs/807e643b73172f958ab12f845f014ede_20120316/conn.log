@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-40-01
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1331857425.918509	CBFQxX2urVxvlocTZd	192.168.26.10	1029	4.2.2.3	53	udp	dns	0.413989	108	291	SF	-	0	Dd	3	192	3	375	(empty)
+1331857425.920791	CeSqpwVjxuTVdBtHe	192.168.26.10	1030	64.29.145.9	80	tcp	http	12.992915	842	68541	RSTO	-	0	ShADadfR	39	2410	51	70589	(empty)
+1331857426.104709	CoXtw639kcePi5MpI2	192.168.26.10	1032	64.29.145.9	80	tcp	http	12.810457	281	47228	RSTO	-	0	ShADadfR	27	1369	36	48676	(empty)
+1331857455.024639	CKbDIL3Du4CYcNwhOh	192.168.26.10	1040	91.205.74.23	80	tcp	http	0.928909	274	15095	SF	-	0	ShADadFf	13	802	15	15703	(empty)
+1331857457.234963	CEci7d2yHxI4TPdJva	192.168.26.10	1042	91.205.74.23	80	tcp	http	1.142744	336	188733	RSTO	-	0	ShADadR	84	3704	134	194101	(empty)
+1331857410.282486	CJAM5oWOjoZm8Vv12	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000728	626	0	S0	-	0	D	2	682	0	0	(empty)
+1331857410.282831	C0WaQ43MKcxH4RsvA2	192.168.26.10	68	192.168.26.1	67	udp	dhcp	12.538135	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1331857456.04437	ChCof42oej02GZPF6h	192.168.26.10	1041	91.205.74.23	80	tcp	http	9.729043	756	1240	SF	-	0	ShADadFf	9	1124	7	1528	(empty)
+1331857426.366145	CcYJZwlcOG0ZK464h	192.168.26.10	1034	184.86.255.35	80	tcp	http	64.546908	299	1812	RSTO	-	0	ShADadR	5	507	4	1980	(empty)
+1331857428.383675	C0DqHd2LZIxBGd5CDa	192.168.26.10	1035	91.205.74.23	80	tcp	http	25.872724	474	55961	S1	-	0	ShADad	32	1762	43	57689	(empty)
+1331857426.075915	CplOxnz4JeFl8WrT1	192.168.26.10	1031	91.205.74.23	80	tcp	http	59.806786	1303	361526	S1	-	0	ShADad	181	9207	259	371894	(empty)
+1331857426.36548	CxKVOV25kjqBU7DiXd	192.168.26.10	1033	184.86.255.35	80	tcp	http	64.547992	598	3624	RSTO	-	0	ShADadR	7	886	6	3872	(empty)
+1331857428.98235	Cz671B3XgSkw3epEO9	192.168.26.10	1038	239.255.255.250	1900	udp	-	7.127478	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-10-40-02

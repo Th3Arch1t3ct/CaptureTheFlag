@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-30-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1349790348.58654	CM9JbZ1d05zZZkd2I2	192.168.79.10	1049	149.47.144.199	80	FKeNZB2RY5CKVbQZNg	application/x-dosexec	http://149.47.144.199/Web/links/replacement-based_destroy-varies.php?boysnn=02360a0837&iphopqoe=030a37380a0a0a33360b&evrd=04&twu=vwhh&qkgrin=chcn	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 77%  Last seen: 2013-11-05 07:23:30	https://www.virustotal.com/en/search/?query=ec102a00d428234a70e627ead486cee4979d44cd	192.168.79.10	149.47.144.199	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1349790348.58654	CUZbqD4074FPxDi9Qd	192.168.79.10	1051	149.47.144.199	80	FSIkCA2IVIRs8kzAjf	application/x-dosexec	http://149.47.144.199/Web/links/replacement-based_destroy-varies.php?af=02360a0837&ee=030a37380a0a0a33360b&e=02&zy=m&uq=h	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 77%  Last seen: 2013-11-05 07:23:30	https://www.virustotal.com/en/search/?query=ec102a00d428234a70e627ead486cee4979d44cd	192.168.79.10	149.47.144.199	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1349790350.542269	Cpb60ERyy0s0tZeB2	192.168.79.10	1052	149.47.144.199	80	F2QwVR1uWpTv4u4HCi	application/x-dosexec	http://149.47.144.199/Web/links/replacement-based_destroy-varies.php?yiktbkb=02360a0837&vme=030a37380a0a0a33360b&qhl=03&mtrx=iajoo&qnvq=zcrxucy	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 77%  Last seen: 2013-11-05 07:23:30	https://www.virustotal.com/en/search/?query=ec102a00d428234a70e627ead486cee4979d44cd	192.168.79.10	149.47.144.199	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-30-44

@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-22-31
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1340892957.230532	FmJuXF4vhuhfHKtsVa	119.205.194.151	192.168.61.10	CY80Jt3PDLfcTYJPM2	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	279	279	0	0	F	-	f880419196598581fc0b8692eea32318	41f5ed8090c4968b893ca208c89a89069efa9183	-	-
+1340892957.850275	Fiugnm2iiP4aeCCVNj	119.205.194.151	192.168.61.10	CY80Jt3PDLfcTYJPM2	HTTP	0	MD5,SHA1	text/html	-	0.600886	-	F	29680	-	0	0	F	-	936626b1f7473a161dcdfda83eb7a3de	3f5d047f51c1049538352d8177f0a8d515b23797	-	-
+1340892958.466548	FxZvfj1phLMdYS5EI1	119.205.194.11	192.168.61.10	CMxvMEx1kLLv2it5b	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	977	977	0	0	F	-	384b89091250918b8e4a265d477d0b98	152d0429fe79e3d5cbf49c739e8646b4c35948de	-	-
+1340892958.764335	Ff0EZa4LBtOx6gE8Lc	119.205.194.11	192.168.61.10	CMxvMEx1kLLv2it5b	HTTP	0	MD5,SHA1	application/x-dosexec	-	13.364771	-	F	3561912	3561912	0	0	F	-	27b266eec3d16d4c71f53f26ca80eed1	ab83afe36cc2b7161d1bcca40d4a2af46f6ef863	-	-
+1340892972.432044	FWmE982KzmyLKCwnLb	204.2.243.244	192.168.61.10	CkTPws2zhQ6U4hjR83	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	18	18	0	0	F	-	21811ea4cc481a064aed68a0ddd7605e	12928d7dd940a882da50d8a523eadaf92aee27a9	-	-
+1340892972.439578	FJsApbgjVjFCMlghj	204.2.243.244	192.168.61.10	CkTPws2zhQ6U4hjR83	HTTP	0	MD5,SHA1	application/vnd.ms-cab-compressed	-	0.005247	-	F	48483	48483	0	0	F	-	0be2a289a1a6e7bb2543ea6f0c915fbd	46cac12eccc1e9e5590bb0233aa4a4d9eea854dd	-	-
+1340892972.623053	Fj6Jt915ILfSXPdNKe	199.7.52.190	192.168.61.10	Cc9JjI2COgJ4tXv6a	HTTP	0	MD5,SHA1	binary	-	0.000000	-	F	500	500	0	0	F	-	5546a0801ca8c5826dee8a6930ec9092	21705aad864b3e0aa92f32eff98f0ffa12aefa16	-	-
+1340892972.868595	FuI88n1Eniiw2kVTSi	199.7.52.190	192.168.61.10	CmRy7a2iZq8kcztphi	HTTP	0	MD5,SHA1	binary	-	0.238840	-	F	106117	106117	0	0	F	-	bdc1595777d4ba63f33989eac6f14dc3	12eae705578bd7e5bcd8662f5b3c58d1d3e4ca80	-	-
+#close	2014-04-03-10-22-31

@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-38-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1339643813.154364	CR05rE4v0Th8SRjsE6	192.168.54.10	1033	216.59.38.124	80	tcp	-	0.270011	0	0	SF	-	0	ShAFf	4	168	2	88	(empty)
+1339643812.945962	CDIfob8Xwe0pVvmVf	192.168.54.10	1029	4.2.2.3	53	udp	dns	0.392218	144	316	SF	-	0	Dd	4	256	4	428	(empty)
+1339643813.089812	CBQw4e1z8gi8mdqhBk	192.168.54.10	1032	174.35.3.12	80	tcp	http	12.058931	258	3549	RSTO	-	0	ShADadfR	7	546	7	3837	(empty)
+1339643828.255204	CsKv7c4sxQquXzi2q7	192.168.54.10	1029	4.2.2.3	53	udp	dns	2.940004	74	241	SF	-	0	Dd	2	130	2	297	(empty)
+1339643812.948871	CYATj53hJfCU9wRXDk	192.168.54.10	1030	108.162.194.92	80	tcp	http	22.170430	2177	87647	RSTO	-	0	ShADadR	50	4185	76	90695	(empty)
+1339643834.517108	CuQHm9357z3xfpkM4	192.168.54.10	1042	31.171.133.163	80	tcp	-	0.602819	0	0	RSTO	-	0	ShAR	3	128	1	48	(empty)
+1339643813.339013	CS0V1H1OMkDeOLc0dk	192.168.54.10	1034	31.171.133.163	80	tcp	http	21.780597	937	260007	RSTO	-	0	ShADadR	131	6185	196	267855	(empty)
+1339643819.689112	CSvqZB1GQaoiZ3Yx1l	192.168.54.10	1039	31.171.133.163	80	tcp	http	15.430685	594	9017	RSTO	-	0	ShADadR	10	1002	11	9465	(empty)
+1339643828.26081	CZldgj1ZlueIFBV6H2	192.168.54.10	1040	198.87.51.43	80	tcp	http	6.858648	299	1355	RSTO	-	0	ShADadR	5	507	3	1483	(empty)
+1339643831.199347	CrHNzgBhIxyirgXig	192.168.54.10	1041	193.107.19.129	80	tcp	http	0.582228	137	258	S1	-	0	ShADad	4	305	3	386	(empty)
+1339643813.022	CuYy484dN2qP4uBK77	192.168.54.10	1031	108.162.194.92	80	tcp	http	22.096937	1908	147679	RSTO	-	0	ShADadR	71	4756	112	152167	(empty)
+1339643817.245034	CthMwA4Sq2gj2m6wl6	192.168.54.10	1037	239.255.255.250	1900	udp	-	6.084078	399	0	S0	-	0	D	3	483	0	0	(empty)
+1339643797.195094	Cm77so4dQzajEARke	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.001031	626	0	S0	-	0	D	2	682	0	0	(empty)
+1339643797.195648	CRNRMl3E7IVnkyAOo2	192.168.54.10	68	192.168.54.1	67	udp	dhcp	12.672483	314	900	SF	-	0	dD	1	342	3	984	(empty)
+#close	2014-04-03-10-38-49

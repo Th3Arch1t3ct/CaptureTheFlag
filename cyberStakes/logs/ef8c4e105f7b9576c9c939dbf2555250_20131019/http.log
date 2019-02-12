@@ -1,0 +1,28 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-36-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1382217401.107372	CsP61f9C3sEW86Faj	192.168.49.10	1035	217.76.132.151	80	1	GET	orlasfortuny.com	/	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	12327	200	OK	-	-	-	(empty)	-	-	-	-	-	FXkc8A3zozqvlCO7W2	text/html
+1382217401.834015	CXPtnE3eRmjFP0v4Pc	192.168.49.10	1037	217.76.132.151	80	1	GET	orlasfortuny.com	/index_archivos/image001.gif	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	20065	200	OK	-	-	-	(empty)	-	-	-	-	-	FXTVuT1u7axAnlAcsb	image/gif
+1382217402.167514	CTB7BA2yx0n0WXVoT5	192.168.49.10	1038	80.67.224.22	80	1	GET	www.ts-paris.eu	/traf.php	http://orlasfortuny.com/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	0	302	<empty>	-	-	-	(empty)	-	-	-	-	-	-	-
+1382217402.804952	CU3z4H1R6pZtNb0jg1	192.168.49.10	1039	212.83.150.165	8000	1	GET	eelu4v.netpanel.pw	/ouhqlq?hvucrhwgyjp=4886127	http://orlasfortuny.com/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	687	200	OK	-	-	-	(empty)	-	-	-	-	-	FdS4h2Uvg1OT6PGI6	text/html
+1382217403.110847	CoHXEpnjnKa0uVgR2	192.168.49.10	1040	74.125.28.95	80	1	GET	ajax.googleapis.com	/ajax/libs/jquery/1.9.1/jquery.min.js	http://eelu4v.netpanel.pw:8000/ouhqlq?hvucrhwgyjp=4886127	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	92629	200	OK	-	-	-	(empty)	-	-	-	-	-	Fye8vP40KKhmCL12	text/plain
+1382217403.33963	CsP61f9C3sEW86Faj	192.168.49.10	1035	217.76.132.151	80	2	GET	orlasfortuny.com	/favicon.ico	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	1245	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FvjKNz21ReHaJcGDYc	text/html
+1382217403.286335	CU3z4H1R6pZtNb0jg1	192.168.49.10	1039	212.83.150.165	8000	2	POST	eelu4v.netpanel.pw	/ihselgmqnaugq	http://eelu4v.netpanel.pw:8000/ouhqlq?hvucrhwgyjp=4886127	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	102016	200	OK	-	-	-	(empty)	-	-	-	-	-	FfZeYx2UC3iIm81U0j	text/plain
+1382217410.798224	CU3z4H1R6pZtNb0jg1	192.168.49.10	1039	212.83.150.165	8000	3	POST	eelu4v.netpanel.pw	/yniegne	http://eelu4v.netpanel.pw:8000/ouhqlq?hvucrhwgyjp=4886127	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	842	668	200	OK	-	-	-	(empty)	-	-	-	FwG8Rg35bAxXNAsNUd	text/plain	FqYpFC4UyoeRuRsdS6	text/plain
+1382217414.592238	CEkG472mZUkQFdFw1g	192.168.49.10	1044	212.83.150.165	8000	1	GET	eelu4v.netpanel.pw	/bcaefmceawdaf?nswwci=xpiiukhfjc	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	23399	200	OK	-	-	-	(empty)	-	-	-	-	-	FgAYVW2QjHOfh6d2Hi	application/jar
+1382217415.677161	Cr0VxY2dOGEvkQQhFk	192.168.49.10	1045	212.83.150.165	8000	1	GET	eelu4v.netpanel.pw	/voexvu?ndzwxi=xpiiukhfjc	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	311296	200	OK	-	-	-	(empty)	-	-	-	-	-	FT5Jxf2UB2PsdvcHKk	binary
+1382217424.24241	CUIIsDVTgLvpjprH9	192.168.49.10	1047	211.71.99.66	80	1	POST	lyvegetarians.net	/foh/file.php	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	132	97072	200	OK	-	-	-	(empty)	-	-	-	FpPsVz16gdNoXJHxub	binary	FdBFE7IaLg89sw7G1	binary
+1382217424.241344	CUA61V1tfmv2B3i7Pd	192.168.49.10	1046	211.71.99.66	80	1	POST	lyvegetarians.net	/foh/file.php	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	143	221471	200	OK	-	-	-	(empty)	-	-	-	FlZsr52GnKGzI8WVNc	binary	Fv9SKq38OVNMtMGhmk	binary
+1382217453.717257	Cneb8U3ggKlBJGAdDb	192.168.49.10	1049	74.125.224.177	80	1	GET	www.google.com	/webhp	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	225	302	Found	-	-	-	(empty)	-	-	-	-	-	F1QD5lFMxJCD2AU61	text/html
+1382217454.048875	CaLJjr1d0DrMXmwas2	192.168.49.10	1051	23.5.5.163	80	1	GET	crl.geotrust.com	/crls/secureca.crl	-	Microsoft-CryptoAPI/5.131.2600.2180	0	1736	200	OK	-	-	-	(empty)	-	-	-	-	-	FGTm2C3vuXdYE4ZkVe	binary
+1382217454.074829	CaLJjr1d0DrMXmwas2	192.168.49.10	1051	23.5.5.163	80	2	GET	crl.geotrust.com	/crls/gtglobal.crl	-	Microsoft-CryptoAPI/5.131.2600.2180	0	554	200	OK	-	-	-	(empty)	-	-	-	-	-	FCQ11C34Rj2sTsiWnc	binary
+1382217454.183278	CKVHm5WcvcNvsKnri	192.168.49.10	1052	74.125.224.72	80	1	GET	pki.google.com	/GIAG2.crl	-	Microsoft-CryptoAPI/5.131.2600.2180	0	665	200	OK	-	-	-	(empty)	-	-	-	-	-	FdnQCv4qz4CnDfNOia	binary
+1382217454.557819	CZHMTM3RRU9XGym0td	192.168.49.10	1053	211.71.99.66	80	1	POST	lyvegetarians.net	/foh/hfer.php	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	413	160	200	OK	-	-	-	(empty)	-	-	-	FzNSKW3YCnVyWGcGra	binary	F6ivET2F88aGdERDy7	binary
+1382217455.941584	CXMJWq238RfGEJBFC6	192.168.49.10	1054	211.71.99.66	80	1	POST	lyvegetarians.net	/foh/file.php	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	136	73728	200	OK	-	-	-	(empty)	-	-	-	F9Y9tI2Nu7dVduaPVj	binary	FZKNyH3N8LQbs9jI21	application/x-dosexec
+1382217459.240069	CCj8yy1esDoIFEKnC	192.168.49.10	1055	211.71.99.66	80	1	POST	lyvegetarians.net	/foh/hfer.php	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	286	76	200	OK	-	-	-	(empty)	-	-	-	FGDz9r1wDtvxOwnIZa	binary	FcA7vE3oORdLMXbvD7	binary
+#close	2014-04-03-10-36-33

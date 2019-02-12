@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-50-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1348438196.872472	Cj512XYfi15B61A74	192.168.50.10	1043	208.76.52.83	80	F6p5CwnKIe9JdEfTf	application/x-dosexec	http://verdictdeclick.com/links/especially-reserved-increasing.php?yjhlcwi=02360a0837&eke=37020404020836333307&wlxoy=04&pgo=jojpif&nlpkwdav=prvdqb	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 14%  Last seen: 2012-09-18 23:56:59	https://www.virustotal.com/en/search/?query=31525b8250dedb98b6fe7ea196cff3b44e8c5eed	192.168.50.10	208.76.52.83	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1348438196.872472	Cj512XYfi15B61A74	192.168.50.10	1043	208.76.52.83	80	FX4ZLH2VjCzfOqzXK9	application/x-dosexec	http://verdictdeclick.com/links/especially-reserved-increasing.php?mai=02360a0837&rodsbqoc=37020404020836333307&gwjkk=03&bjnjp=uewl&sjqcsy=wdcukdy	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 14%  Last seen: 2012-09-18 23:56:59	https://www.virustotal.com/en/search/?query=31525b8250dedb98b6fe7ea196cff3b44e8c5eed	192.168.50.10	208.76.52.83	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1348438207.112087	CAuzWi25on4OFJTj12	192.168.50.10	1045	208.76.52.83	80	FHw4E7dmUJbkQMrhl	application/x-dosexec	http://verdictdeclick.com/links/especially-reserved-increasing.php?yf=02360a0837&me=37020404020836333307&k=02&pk=h&bm=x	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 14%  Last seen: 2012-09-18 23:56:59	https://www.virustotal.com/en/search/?query=31525b8250dedb98b6fe7ea196cff3b44e8c5eed	192.168.50.10	208.76.52.83	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-50-20

@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-40-41
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1337461437.931927	Cn6vxeMxlUIJKNoj1	192.168.99.10	1153	95.163.66.195	80	Fa61031xmZy4zVNHP4	application/x-dosexec	http://adjciejbc.co.cc/w.php?f=182b5&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2012-06-02 11:20:01	https://www.virustotal.com/en/search/?query=df553d824165227f01ee0bfa5399f1d7a0fe9d18	192.168.99.10	95.163.66.195	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1337461438.4622	CsYuJjG6WUzhXBFZ6	192.168.99.10	1156	95.163.66.195	80	Fz0eFe4LrehZdksQQc	application/x-shockwave-flash	http://adjciejbc.co.cc/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 75%  Last seen: 2012-09-14 14:05:04	https://www.virustotal.com/en/search/?query=27474f210893b69a5204dcafb6d9fc12b743dc1f	192.168.99.10	95.163.66.195	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1337461475.293477	CdeiB40XAKmgsY5rj	192.168.99.10	1183	95.163.66.195	80	F0Zlxi1vgIz5KWwKHl	application/x-dosexec	http://adjciejbc.co.cc/w.php?f=182b5&e=0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2012-06-02 11:20:01	https://www.virustotal.com/en/search/?query=df553d824165227f01ee0bfa5399f1d7a0fe9d18	192.168.99.10	95.163.66.195	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-40-41

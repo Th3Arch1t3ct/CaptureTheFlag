@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-40-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1339017275.764333	CBBTqs13jVAHpvO0y1	192.168.36.10	1029	4.2.2.3	53	udp	24980	glamorous-models-girls.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.233.79	21908.000000	F
+1339017276.133078	CBBTqs13jVAHpvO0y1	192.168.36.10	1029	4.2.2.3	53	udp	16023	22jun06.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.16.90.83	28772.000000	F
+1339017309.78738	CDpn3U3B01nPlEZ0K8	192.168.36.10	1029	4.2.2.3	53	udp	51089	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,96.17.109.9,96.17.109.42	17868.000000,194.000000,12096.000000,5.000000,5.000000	F
+#close	2014-04-03-10-40-01

@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-27-03
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1357681889.729973	CRM6Iu2qRIk06yt318	192.168.92.10	1048	62.76.187.148	80	FJgwZr4eMENbpbroW5	application/x-dosexec	http://htiqvkbgl.freewww.biz/x201212s/yputa/load.php?e=Java6&token=ftp&	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2013-01-08 23:15:00	https://www.virustotal.com/en/search/?query=9ae0ee2c4efba11b40c89decb3baebf075e2140c	192.168.92.10	62.76.187.148	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1357681897.432962	CQXXxd4GEUoICn9loe	192.168.92.10	1066	91.149.157.152	80	F5Gv9Dz2Hafyj9r8j	application/x-dosexec	http://advertising.by/tmp/v9b5713.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 21%  Last seen: 2013-01-09 05:06:50	https://www.virustotal.com/en/search/?query=a83406802a6ea49d51ca44beec7eded22b7d1eb7	192.168.92.10	91.149.157.152	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1357681898.10883	C9azwx10oOoRyPNhS1	192.168.92.10	1070	87.98.171.148	80	F4JAOO3W126jT0Wtf3	application/x-dosexec	http://zr-7.org/tmp/v9b5713.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 21%  Last seen: 2013-01-09 05:06:50	https://www.virustotal.com/en/search/?query=a83406802a6ea49d51ca44beec7eded22b7d1eb7	192.168.92.10	87.98.171.148	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1357681900.949353	CQMBqm246iz6bqcMVk	192.168.92.10	1079	91.149.157.152	80	FBPsf52mzP3QOxzPdb	application/x-dosexec	http://advertising.by/tmp/buildcrypt.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 10%  Last seen: 2013-01-09 05:06:50	https://www.virustotal.com/en/search/?query=fc27be7207f9843d7a516d22822cdc70ec61a781	192.168.92.10	91.149.157.152	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1357681901.822558	CZ1PHI2fk913Ee0gTj	192.168.92.10	1085	87.98.171.148	80	FC8Shk1YSdtsQapxp7	application/x-dosexec	http://zr-7.org/tmp/buildcrypt.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 10%  Last seen: 2013-01-09 05:06:50	https://www.virustotal.com/en/search/?query=fc27be7207f9843d7a516d22822cdc70ec61a781	192.168.92.10	87.98.171.148	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-27-04

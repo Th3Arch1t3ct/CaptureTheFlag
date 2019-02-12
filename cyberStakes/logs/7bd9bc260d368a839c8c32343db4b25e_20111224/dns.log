@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-53-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1324741429.769942	CwGn0c2zF1rD5eGLQ2	192.168.87.10	1029	4.2.2.3	53	udp	45968	cheapshoemall.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	182.50.148.128	878.000000	F
+1324741435.767716	CwGn0c2zF1rD5eGLQ2	192.168.87.10	1029	4.2.2.3	53	udp	56208	s7.addthis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wildcard.addthis.com.edgekey.net,e2943.c.akamaiedge.net,184.31.12.20	42.000000,2036.000000,17.000000	F
+1324741439.012825	CWKxrT2Y9zeRR8Kbg9	192.168.87.10	1037	4.2.2.3	53	udp	53138	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,24.143.193.16,24.143.193.33	23845.000000,17.000000,2347.000000,18.000000,18.000000	F
+1324741438.237608	CwGn0c2zF1rD5eGLQ2	192.168.87.10	1029	4.2.2.3	53	udp	28816	s19.cnzz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cache.cnzz.com,a.cnzz.com.lxdns.com,4399.ecoma.glb0.lxdns.com,183.60.136.43,183.60.136.44,183.60.136.45,183.60.136.46	7200.000000,7200.000000,600.000000,120.000000,120.000000,120.000000,120.000000	F
+1324741439.934728	CwGn0c2zF1rD5eGLQ2	192.168.87.10	1029	4.2.2.3	53	udp	20628	icon.cnzz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	img.gslb.tbcache.com,222.186.60.250,58.218.213.240,58.218.213.250,117.25.148.240,117.25.148.250,220.181.151.240,220.181.151.250,222.186.60.240	240.000000,239.000000,239.000000,239.000000,239.000000,239.000000,239.000000,239.000000,239.000000	F
+1324741439.9339	CWKxrT2Y9zeRR8Kbg9	192.168.87.10	1037	4.2.2.3	53	udp	3987	hzs19.cnzz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	110.75.187.129,110.75.187.124,110.75.187.125,110.75.187.126	300.000000,300.000000,300.000000,300.000000	F
+1324741440.568529	CwGn0c2zF1rD5eGLQ2	192.168.87.10	1029	4.2.2.3	53	udp	32150	api-public.addthis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wildcard.addthis.com.edgekey.net,e2943.c.akamaiedge.net,184.31.12.20	299.000000,2031.000000,12.000000	F
+#close	2014-04-03-09-53-34

@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-22-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1346273580.125716	CHjzvTz4nxGXuCwFb	192.168.77.10	1045	74.125.134.113	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1345137934.000000	1370652207.000000	-	-	-	4a93f9439729f36889822006666657ca	ok
+1346273593.5803	CPdCXUObFqM2d8Iqb	192.168.77.10	1097	174.121.165.35	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=contentnotifier.com,OU=PositiveSSL,OU=Domain Control Validated	CN=PositiveSSL CA,O=Comodo CA Limited,L=Salford,ST=Greater Manchester,C=GB	1329026400.000000	1360648799.000000	-	-	-	a11c5c35774b1521aac03b4f6e33be5d	ok
+1346273594.485932	CwXqEGYVSUEJ7mie5	192.168.77.10	1100	174.121.165.35	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	01440000e5cfdc017b3372d5215fee9abd6bc8c9817d1618201089f87608648b	-	-	-	-	-	-	-	-	-
+1346273594.541398	Cc0sPy2pboKFsZMtAc	192.168.77.10	1102	174.121.165.35	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	01440000e5cfdc017b3372d5215fee9abd6bc8c9817d1618201089f87608648b	-	-	-	-	-	-	-	-	-
+1346273594.932212	CCsbIg2KDAB8wInHs8	192.168.77.10	1106	174.121.165.35	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	01440000e5cfdc017b3372d5215fee9abd6bc8c9817d1618201089f87608648b	-	-	-	-	-	-	-	-	-
+1346273595.449747	Cuw7Hc11IhEaglQbC7	192.168.77.10	1108	174.121.165.35	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	01440000e5cfdc017b3372d5215fee9abd6bc8c9817d1618201089f87608648b	-	-	-	-	-	-	-	-	-
+1346273595.536623	CDoiry3pPCGCzE0E3a	192.168.77.10	1109	174.121.165.35	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	01440000e5cfdc017b3372d5215fee9abd6bc8c9817d1618201089f87608648b	-	-	-	-	-	-	-	-	-
+1346273596.060499	C7Zl0Z1egp9Te8KEb8	192.168.77.10	1111	174.121.165.35	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	01440000e5cfdc017b3372d5215fee9abd6bc8c9817d1618201089f87608648b	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-22-35

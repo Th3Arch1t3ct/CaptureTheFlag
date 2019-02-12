@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-00-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1389574733.999335	CK4oTM4Br9CTbd6R7	192.168.39.10	1143	173.252.112.23	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.facebook.com,O=Facebook\, Inc.,L=Palo Alto,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1382936400.000000	1438837199.000000	-	-	-	8a2cdf3b44eeeeeeeeeeeeeeeeeeeeee	ok
+1389574735.019199	CYJOo848BNz9W9kEHa	192.168.39.10	1166	69.192.35.146	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.chango.com,OU=CHANGO INC.,O=CHANGO INC.,L=TORONTO,ST=Ontario,C=CA	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1363292760.000000	1394828760.000000	-	-	-	cca8fdbb099cc269bed73088897aada4	ok
+1389574738.690196	CZMxRK1db9HZhaKNMj	192.168.39.10	1210	69.89.76.20	443	TLSv10	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=connexity.net,OU=Domain Control Validated,C=us	CN=GlobalSign Domain Validation CA - G2,O=GlobalSign nv-sa,C=BE	1335483531.000000	1404417378.000000	-	-	-	bd8b504f4bed6b258291a2849f5585fe	ok
+#close	2014-04-03-10-00-34

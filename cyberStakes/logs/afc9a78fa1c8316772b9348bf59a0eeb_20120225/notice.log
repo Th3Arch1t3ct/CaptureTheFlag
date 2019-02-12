@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-37-27
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1330199427.684997	CRvdMd4sQI7QiEak0g	192.168.20.10	1076	91.205.74.23	80	FJMd4n2pOp9uIRmqhj	application/x-dosexec	http://fantactikafilm.in/w.php?f=c5826&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-03-02 09:32:10	https://www.virustotal.com/en/search/?query=e239453191f9692f557d7dd8e7d0be75709aa4da	192.168.20.10	91.205.74.23	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1330199437.19341	CRvdMd4sQI7QiEak0g	192.168.20.10	1076	91.205.74.23	80	FflNAX2NBK34ldFICk	application/x-dosexec	http://fantactikafilm.in/w.php?f=182b5&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-03-06 20:27:24	https://www.virustotal.com/en/search/?query=e0e30e2cc3c7ecf7a86408947084ce654803b814	192.168.20.10	91.205.74.23	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1330199437.743897	CE6aMw1TaUFHOKoTHf	192.168.20.10	1079	91.205.74.23	80	FpVsW41kxB0Gkcyt9l	application/x-shockwave-flash	http://fantactikafilm.in/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 50%  Last seen: 2012-04-09 12:34:14	https://www.virustotal.com/en/search/?query=42e529663161cd019cf5c29735225a8e79372652	192.168.20.10	91.205.74.23	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-37-28

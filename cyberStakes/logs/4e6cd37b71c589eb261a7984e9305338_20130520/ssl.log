@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-26-03
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1369088084.446311	CWDsRK2GlvDSad1BA5	192.168.26.10	1036	74.125.137.101	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1368031363.000000	1388425363.000000	-	-	-	a17b54c7aa3b45a38f65555555555554	ok
+1369088085.104947	CQwbMX3WjAejT7NJtf	192.168.26.10	1045	74.125.140.132	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1368031212.000000	1388425212.000000	-	-	-	5aef60d96f4091758e5bb712a085380a	ok
+1369088087.026259	C8wkzw1T3Xl19QLGr5	192.168.26.10	1082	173.252.101.26	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.facebook.com,O=Facebook\, Inc.,L=Palo Alto,ST=California,C=US	OU=www.verisign.com/CPS Incorp.by Ref. LIABILITY LTD.(c)97 VeriSign,OU=VeriSign International Server CA - Class 3,OU=VeriSign\, Inc.,O=VeriSign Trust Network	1340254800.000000	1388555999.000000	-	-	-	f10b4102a78b5894231109d6d3fbeeb5	ok
+#close	2014-04-03-10-26-03

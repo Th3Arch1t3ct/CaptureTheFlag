@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-39-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1331342012.76395	C1bgLo3xudAncbZ3m4	192.168.41.10	1029	4.2.2.3	53	udp	54414	dorazoa.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	121.254.154.159	276.000000	F
+1331342013.178938	C1bgLo3xudAncbZ3m4	192.168.41.10	1029	4.2.2.3	53	udp	8078	www.dckorean.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	dckorean.net,66.147.240.164	14400.000000,14400.000000	F
+1331342013.530711	C1bgLo3xudAncbZ3m4	192.168.41.10	1029	4.2.2.3	53	udp	54413	img.dnsever.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	211.233.75.84	19814.000000	F
+1331342013.943864	C1bgLo3xudAncbZ3m4	192.168.41.10	1029	4.2.2.3	53	udp	62603	pagead2.googlesyndication.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pagead.l.doubleclick.net,173.194.37.58,173.194.37.45,173.194.37.57	62.000000,243.000000,243.000000,243.000000	F
+1331342014.105131	C1bgLo3xudAncbZ3m4	192.168.41.10	1029	4.2.2.3	53	udp	20107	googleads.g.doubleclick.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pagead.l.doubleclick.net,173.194.37.57,173.194.37.58,173.194.37.45	15557.000000,242.000000,242.000000,242.000000	F
+1331342014.550495	C1bgLo3xudAncbZ3m4	192.168.41.10	1029	4.2.2.3	53	udp	50058	google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.125.47.102,74.125.47.113,74.125.47.138,74.125.47.139,74.125.47.100,74.125.47.101	250.000000,250.000000,250.000000,250.000000,250.000000,250.000000	F
+1331342018.779767	C1bgLo3xudAncbZ3m4	192.168.41.10	1029	4.2.2.3	53	udp	10377	www.onclub.co.kr	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	222.239.79.238	43200.000000	F
+#close	2014-04-03-10-39-30

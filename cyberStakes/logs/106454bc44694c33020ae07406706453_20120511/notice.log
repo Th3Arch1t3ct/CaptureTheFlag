@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-41-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1336750894.658297	Ca3bMI10Q40jTjZ30i	192.168.117.10	1036	83.69.226.72	80	FRoruMMOt3dvjWlIa	application/x-dosexec	http://thesavvymillionaire.com/w.php?f=97d19&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 21%  Last seen: 2012-05-06 22:01:13	https://www.virustotal.com/en/search/?query=0453aa68fe249901ca4f795480898914ed20553f	192.168.117.10	83.69.226.72	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336750901.663428	CbnyKj0dPiOv3g9j1	192.168.117.10	1037	83.69.226.72	80	FQyBoB4YEfLCLxTJZ2	application/x-shockwave-flash	http://thesavvymillionaire.com/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 60%  Last seen: 2012-05-01 04:03:58	https://www.virustotal.com/en/search/?query=d6aa7a1009c86a0fa55f74ecdd04dee1d6000730	192.168.117.10	83.69.226.72	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336750902.424968	CbnyKj0dPiOv3g9j1	192.168.117.10	1037	83.69.226.72	80	FdbiM14htRdYcZzpI8	application/x-dosexec	http://thesavvymillionaire.com/w.php?f=97d19&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 21%  Last seen: 2012-05-06 22:01:13	https://www.virustotal.com/en/search/?query=0453aa68fe249901ca4f795480898914ed20553f	192.168.117.10	83.69.226.72	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336750917.875796	C4wuF04WHXbQclBvg7	192.168.117.10	1043	83.69.226.72	80	FG1OF51mhjAy6ULbrb	application/x-dosexec	http://thesavvymillionaire.com/w.php?f=97d19&e=0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 21%  Last seen: 2012-05-06 22:01:13	https://www.virustotal.com/en/search/?query=0453aa68fe249901ca4f795480898914ed20553f	192.168.117.10	83.69.226.72	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-41-55

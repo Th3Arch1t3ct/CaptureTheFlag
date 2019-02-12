@@ -1,0 +1,30 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-00-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1346361969.325203	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1346362005.297206	CtCeJe27FSrAaskkr5	192.168.84.10	1068	204.183.124.32	80	SYN_after_reset	-	F	bro
+1346362005.320534	CtCeJe27FSrAaskkr5	192.168.84.10	1068	204.183.124.32	80	data_after_reset	-	F	bro
+1346362018.935057	CbfVqabKFygKoULG6	192.168.84.10	1074	91.195.254.70	53	DNS_Conn_count_too_large	-	F	bro
+1346362018.935274	CCe4b9PunKyRWeAlg	192.168.84.10	1074	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1346362018.936888	CMSNDA4oGCoKwp85eg	192.168.84.10	1076	91.195.254.70	53	DNS_Conn_count_too_large	-	F	bro
+1346362018.937044	CO5hIy4FZE46O06t9g	192.168.84.10	1076	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1346362018.951652	Coyijy2KGGjATIqCPh	192.168.84.10	1078	91.195.254.70	53	DNS_Conn_count_too_large	-	F	bro
+1346362018.954462	CfKn1x2oHDjAb3wrGh	192.168.84.10	1078	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1346362018.966599	CCNfHv2ujW6YProzxh	192.168.84.10	1080	91.195.254.70	53	DNS_Conn_count_too_large	-	F	bro
+1346362018.966778	Ckg7kw2nsTj8OdZDDh	192.168.84.10	1080	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1346362018.97107	CJPKyx24uteng78aHh	192.168.84.10	1082	91.195.254.70	53	DNS_Conn_count_too_large	-	F	bro
+1346362018.975973	CKtOOy2AjTq8UFAgcg	192.168.84.10	1082	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1346362018.978951	CG1p5y4tCDjkwfJIsg	192.168.84.10	1084	91.195.254.70	53	DNS_Conn_count_too_large	-	F	bro
+1346362018.979124	CAqi8A4S8s0PJ7H6og	192.168.84.10	1084	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1346362019.730311	CYDHImfgeWa95zmW6	192.168.84.10	1088	91.195.254.70	53	DNS_Conn_count_too_large	-	F	bro
+1346362019.730466	CH121or2BuezNPC57	192.168.84.10	1088	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1346362019.764098	CIPGjpWyE9jmWDMP2	192.168.84.10	1090	91.195.254.70	53	DNS_Conn_count_too_large	-	F	bro
+1346362019.764245	C5sWDQ158A9dyJ75L2	192.168.84.10	1090	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1346362019.817406	CuIpBT1sXprcpPvO13	192.168.84.10	1093	91.195.254.70	53	DNS_Conn_count_too_large	-	F	bro
+1346362019.817563	CDXoCS1To2PgTT9q43	192.168.84.10	1093	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+#close	2014-04-03-10-00-27

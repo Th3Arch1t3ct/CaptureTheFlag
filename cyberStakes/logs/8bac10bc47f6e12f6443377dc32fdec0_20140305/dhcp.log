@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dhcp
+#open	2014-04-03-10-21-27
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	mac	assigned_ip	lease_time	trans_id
+#types	time	string	addr	port	addr	port	string	addr	interval	count
+1393994227.460028	CWy24eS5Qe52Hv4bh	192.168.29.10	68	192.168.29.1	67	00:20:18:eb:ca:1d	192.168.29.10	4.294967e+09	1728079364
+1393994230.321528	CWy24eS5Qe52Hv4bh	192.168.29.10	68	192.168.29.1	67	00:20:18:eb:ca:1d	192.168.29.10	4.294967e+09	1784461786
+#close	2014-04-03-10-21-28

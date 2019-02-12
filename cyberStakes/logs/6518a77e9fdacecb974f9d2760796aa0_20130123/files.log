@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-11-08-10
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1358922555.990446	FDs1dj4SCJ7QYmo7I4	93.170.52.31	192.168.33.10	CuOUKw3b5uu75cU2Mi	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	1165	-	0	0	F	-	ab875703a883f38290466061420d3b84	a68370d1e84dc3e272eec65e69d2da894995b653	-	-
+1358922556.280366	FTdR7Ef6Yi7jFqVgk	173.194.75.102	192.168.33.10	CRWuMz1cVdxIx8sP35	HTTP	0	SHA1,MD5	text/plain	-	0.020654	-	F	37362	-	0	0	F	-	f5592eabae33f8499d067344f1f42183	142a9875c4bd7e15ce6ac8b5bb181fb29ed08ba5	-	-
+1358922556.368373	FPetvZZjFOK0iaMTa	208.131.138.218	192.168.33.10	CP3YWk36ontXA1Kre4	HTTP	0	SHA1,MD5	text/html	-	0.000012	-	F	3194	3194	0	0	F	-	0a7498591c88d6360288dd0ff763d991	6d8c8d51a49038b63f661a46b557a37f35705d10	-	-
+1358922556.417577	FOq5Rj2PTZ1yqRlPp2	173.194.75.102	192.168.33.10	CRWuMz1cVdxIx8sP35	HTTP	0	SHA1,MD5	image/gif	-	0.000000	-	F	35	35	0	0	F	-	28d6814f309ea289f847c69cf91194c6	0f4e929dd5bb2564f7ab9c76338e04e292a42ace	-	-
+1358922556.50134	FoZPYT11VYM6wmibnh	204.93.38.136	192.168.33.10	CwRqkI1cfYZ3yACu8i	HTTP	0	SHA1,MD5	image/png	-	0.000000	-	F	2349	2349	0	0	F	-	ce404e2f475dbf547ee8195dac0eff0a	3eb3390ad49e78b3e872aaf154256496e132e9f3	-	-
+1358922556.516052	F58yFR2RS8NztS2Sr5	208.131.138.217	192.168.33.10	CA1yIt3LFaS9n3JXWh	HTTP	0	SHA1,MD5	application/x-dosexec	MeFunnyPNG.exe	0.060248	-	F	36500	156160	0	0	F	-	e802762963013235edb2144723fb334d	d9b33a7564af09b94b6cb775a92e0153296d552c	-	-
+#close	2014-04-03-11-08-10

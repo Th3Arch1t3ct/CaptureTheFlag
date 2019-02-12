@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-39-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1334196242.818479	Cf6e5s2TTTXm9tRl99	192.168.98.10	1029	4.2.2.3	53	udp	28301	getspringconnect.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	205.251.242.139,207.171.163.21,72.21.211.137,72.21.214.82	5.000000,5.000000,5.000000,5.000000	F
+1334196244.089801	Cf6e5s2TTTXm9tRl99	192.168.98.10	1029	4.2.2.3	53	udp	23438	downloads.springahead.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.96.146.84	30.000000	F
+#close	2014-04-03-10-39-21

@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-38-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1336607042.285799	CxFeERNj7gPvxfjhc	192.168.95.10	1029	4.2.2.3	53	udp	18317	es5.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	212.235.106.110	3573.000000	F
+1336607043.618031	CxFeERNj7gPvxfjhc	192.168.95.10	1029	4.2.2.3	53	udp	33164	www.es5.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	212.235.106.110	3600.000000	F
+1336607047.274445	CxFeERNj7gPvxfjhc	192.168.95.10	1029	4.2.2.3	53	udp	29068	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.134.101,74.125.134.102,74.125.134.113,74.125.134.138,74.125.134.139,74.125.134.100	14483.000000,190.000000,190.000000,190.000000,190.000000,190.000000,190.000000	F
+1336607049.628824	CxFeERNj7gPvxfjhc	192.168.95.10	1029	4.2.2.3	53	udp	60303	js.anonym.to	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	img.fliks.net,213.203.216.19,213.203.216.15	600.000000,300.000000,300.000000	F
+1336607050.123036	CxFeERNj7gPvxfjhc	192.168.95.10	1029	4.2.2.3	53	udp	26511	www.norwellsolutions.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	norwellsolutions.com,72.167.2.1	3600.000000,3600.000000	F
+1336607050.563789	CxFeERNj7gPvxfjhc	192.168.95.10	1029	4.2.2.3	53	udp	54158	www.zdnet.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	c13-b2b-iris-zdnet-lb.cnet.com,216.239.116.55	300.000000,300.000000	F
+1336607050.616463	CrbmqT2htiDNjjanl5	192.168.95.10	1040	4.2.2.3	53	udp	10126	prospercapitalservices.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.37.169.12	3600.000000	F
+1336607053.138877	CrbmqT2htiDNjjanl5	192.168.95.10	1040	4.2.2.3	53	udp	16777	i1.zdnetstatic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	i.b2b.com.com.edgesuite.net,a1262.g.akamai.net,65.121.208.123,65.121.208.107	300.000000,4291.000000,20.000000,20.000000	F
+1336607053.13853	CxFeERNj7gPvxfjhc	192.168.95.10	1029	4.2.2.3	53	udp	51593	i3.zdnetstatic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	i.b2b.com.com.edgesuite.net,a1262.g.akamai.net,65.121.208.123,65.121.208.107	300.000000,4291.000000,20.000000,20.000000	F
+1336607053.140618	CvePv1RBwCtnKy1z6	192.168.95.10	1043	4.2.2.3	53	udp	11656	i2.zdnetstatic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	i.b2b.com.com.edgesuite.net,a1262.g.akamai.net,65.121.208.107,65.121.208.123	300.000000,4291.000000,20.000000,20.000000	F
+1336607053.220696	CxFeERNj7gPvxfjhc	192.168.95.10	1029	4.2.2.3	53	udp	30858	dw.com.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	dw.cnet-basic-performance.akadns.net,216.239.113.95	241.000000,241.000000	F
+1336607053.220444	CrbmqT2htiDNjjanl5	192.168.95.10	1040	4.2.2.3	53	udp	30859	i4.zdnetstatic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	i.b2b.com.com.edgesuite.net,a1262.g.akamai.net,65.121.208.123,65.121.208.107	300.000000,4291.000000,20.000000,20.000000	F
+1336607070.230048	CHkUY64T65OjccSxUe	192.168.95.10	1029	4.2.2.3	53	udp	56453	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,65.121.208.114,65.121.208.147	9352.000000,172.000000,16903.000000,3.000000,3.000000	F
+#close	2014-04-03-10-38-49

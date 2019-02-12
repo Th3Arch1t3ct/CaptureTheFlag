@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-26-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1320324196.681419	CBHQmF1IFAdUAdHgYe	192.168.103.10	1031	109.236.82.74	80	1	GET	the123.in	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	232	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FtroG22deZM8I2p95a	text/html
+1320324196.880901	CJw6zg1IeGRnTEbsLh	192.168.103.10	1032	109.236.82.75	80	1	GET	ghsite.in	/?site=9	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	51615	200	OK	-	-	-	(empty)	-	-	-	-	-	FawIVR35JayqZVsKT2	text/html
+1320324197.955516	CVBCQGsl31edc1gFa	192.168.103.10	1033	109.236.82.75	80	1	GET	ghsite.in	/dl/pdf_libtiff9.php	http://ghsite.in/?site=9	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2634	200	OK	-	-	-	(empty)	-	-	-	-	-	Fl6GMa2UCK2njaU5wd	application/pdf
+1320324202.054858	C4Lysx417fVO10vfD1	192.168.103.10	1038	109.236.82.75	80	1	GET	ghsite.in	/dl/dl.php?6	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	175616	200	OK	-	-	-	(empty)	-	-	-	-	-	FLPTnv1gXYPN2uExjh	application/x-dosexec
+1320324203.206822	CYipXx4VADFmRmb1V9	192.168.103.10	1039	94.63.240.112	80	1	GET	gfjdyrfcb.net	/info.php?rnd=787748	-	-	0	42	200	OK	-	-	-	(empty)	-	-	-	-	-	Fkw4zN2Z7vsiciHxEd	text/plain
+1320324203.659872	CLAchXWcNp7p5aUp9	192.168.103.10	1045	109.236.82.75	80	1	GET	ghsite.in	/dl/jsm.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5930	200	OK	-	-	-	(empty)	-	-	-	-	-	Ff2Ei5pin0UKQwz9g	application/jar
+1320324203.63972	CCuByN2NdJDUQUjgBg	192.168.103.10	1040	109.236.82.75	80	1	GET	1844204107	/alpha.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14289	200	OK	-	-	-	(empty)	-	-	-	-	-	F4SgAN25gFf2qfQFee	application/x-java-applet
+1320324203.638109	CJ4iKLZALajRK9pTd	192.168.103.10	1042	109.236.82.75	80	1	GET	1844204107	/alpha.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14289	200	OK	-	-	-	(empty)	-	-	-	-	-	FaNCI71KwScdFZawlc	application/x-java-applet
+1320324203.66035	CPY5Bm1msPsXPhyAtg	192.168.103.10	1043	109.236.82.75	80	1	GET	1844204107	/alpha.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14289	200	OK	-	-	-	(empty)	-	-	-	-	-	FmyWmq375bZ3bPR6Eb	application/x-java-applet
+1320324203.660782	ChGFlw3E6XuXUPqfu6	192.168.103.10	1041	109.236.82.75	80	1	GET	1844204107	/alpha.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14289	200	OK	-	-	-	(empty)	-	-	-	-	-	Fzs7cE2cSnrJoJMSHd	application/x-java-applet
+1320324203.665658	CGHA9t24EkVL3zbt81	192.168.103.10	1046	109.236.82.75	80	1	GET	1844204107	/alpha.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14289	200	OK	-	-	-	(empty)	-	-	-	-	-	FBgy6r3K6ZfRLYPkce	application/x-java-applet
+1320324203.66747	CGmOCd4OK58cwxBwH3	192.168.103.10	1047	109.236.82.75	80	1	GET	1844204107	/alpha.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14289	200	OK	-	-	-	(empty)	-	-	-	-	-	Fp8ZQc1jcxtWAapAE6	application/x-java-applet
+1320324203.659203	Cfdocy18GLVHxBa7bj	192.168.103.10	1044	109.236.82.75	80	1	GET	ghsite.in	/dl/apache.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	19279	200	OK	-	-	-	(empty)	-	-	-	-	-	FZrJ88221ngPvi8xsj	application/jar
+#close	2014-04-03-10-26-58

@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-55-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1336215960.816478	CtgJhxWxdAsV1xR54	192.168.40.10	1029	4.2.2.3	53	udp	8843	singlestopmarketing.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.147.244.212	14374.000000	F
+1336215962.062421	CtgJhxWxdAsV1xR54	192.168.40.10	1029	4.2.2.3	53	udp	44682	www.singlestopmarketing.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	singlestopmarketing.com,66.147.244.212	14375.000000,14372.000000	F
+1336215967.377603	CtgJhxWxdAsV1xR54	192.168.40.10	1029	4.2.2.3	53	udp	18312	www.flashi.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.75.234.145	28800.000000	F
+1336215967.423318	CuUSSX0w7rb1ffz6l	192.168.40.10	1041	4.2.2.3	53	udp	2440	ebigtree.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	212.95.58.93	30.000000	F
+1336215968.061465	CtgJhxWxdAsV1xR54	192.168.40.10	1029	4.2.2.3	53	udp	30095	deffile.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.59.198.59	30.000000	F
+1336215979.059029	CtgJhxWxdAsV1xR54	192.168.40.10	1029	4.2.2.3	53	udp	60558	145.234.75.94.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1336215979.059029	CtgJhxWxdAsV1xR54	192.168.40.10	1029	4.2.2.3	53	udp	60558	145.234.75.94.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1336216022.266988	Ceu9gV2pI0z6hZMlck	192.168.40.10	1075	8.8.8.8	53	udp	13107	promos.fling.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.91.207.10	283.000000	F
+1336216025.84527	CRtVgg4st46S1ij5Ji	192.168.40.10	1078	66.85.130.234	53	udp	29420	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+#close	2014-04-03-10-55-50

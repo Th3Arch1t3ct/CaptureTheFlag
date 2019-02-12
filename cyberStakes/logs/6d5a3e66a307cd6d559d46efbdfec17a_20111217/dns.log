@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-24-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1324086494.87693	CYG2EFxAjdmcmYLpe	192.168.87.10	1029	4.2.2.3	53	udp	32141	www.awfulannouncing.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	awfulannouncing.com,72.249.109.53	14379.000000,14379.000000	F
+1324086496.782209	CYG2EFxAjdmcmYLpe	192.168.87.10	1029	4.2.2.3	53	udp	16781	www.morandini.it	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	80.22.34.20	3600.000000	F
+1324086498.367676	CYG2EFxAjdmcmYLpe	192.168.87.10	1029	4.2.2.3	53	udp	52109	kanoe.zs12.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.127.228.44	600.000000	F
+1324086531.140149	COY5Ry4lPixlFzkC1	192.168.87.10	1029	4.2.2.3	53	udp	37775	swupmf.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	swupmf.wip4.adobe.com,swupmf.adobe.com.edgesuite.net,a1137.g.akamai.net,69.31.132.58,69.31.132.72	9099.000000,466.000000,8881.000000,20.000000,20.000000	F
+1324086531.240707	COY5Ry4lPixlFzkC1	192.168.87.10	1029	4.2.2.3	53	udp	9102	crl.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.wip4.adobe.com,crl.adobe.com.edgesuite.net,a1180.g.akamai.net,69.31.132.82,69.31.132.57	9860.000000,300.000000,9772.000000,20.000000,20.000000	F
+#close	2014-04-03-10-24-18

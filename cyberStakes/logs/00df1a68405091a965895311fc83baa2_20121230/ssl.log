@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-20-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1356897604.429654	CCytn33koLNJd8ErCj	192.168.82.10	1157	173.194.75.95	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleapis.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1354805643.000000	1370652207.000000	-	-	-	c74dc82cbf6889badac00936f6d4bbfe	ok
+1356897608.191083	CNASey2ogYOFjMjO2h	192.168.82.10	1175	174.129.214.243	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.truste.com,O=True Ultimate Standards Everywhere\, Inc.,L=San Francisco,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1327298400.000000	1422079199.000000	-	-	-	75c6308ffb77ea6550ef41d826eeeeee	ok
+#close	2014-04-03-10-20-49

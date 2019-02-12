@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-24-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1354450695.724117	CrXK131ltQ9Jby38F	192.168.67.10	1079	5.104.106.56	80	FwdUm64Zfo7YeVubxg	application/x-dosexec	http://yhwwe.gdsgdas.tk/update.exe?ts=55823909&affid=7080	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 55%  Last seen: 2012-12-08 12:01:09	https://www.virustotal.com/en/search/?query=1fea6c4aea996f0e694eb4689bb2731425033a7e	192.168.67.10	5.104.106.56	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-24-25

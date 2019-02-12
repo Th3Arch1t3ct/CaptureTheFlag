@@ -1,0 +1,29 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-15-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1321013773.097235	CpMtwmmpTiKU3I3r3	192.168.106.10	1031	74.125.157.95	80	1	GET	ajax.googleapis.com	/ajax/libs/jquery/1.6.2/jquery.min.js	http://fotonic.ro/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	91556	200	OK	-	-	-	(empty)	-	-	-	-	-	Fkn3SB4cQGdLEKJfEi	text/html
+1321013772.970638	CDtG0A216FJFC8FWsj	192.168.106.10	1030	69.6.252.129	80	1	GET	fotonic.ro	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	17957	200	OK	-	-	-	(empty)	-	-	-	-	-	Fny8HdMuANt9tdgn4	text/html
+1321013781.467952	C39ohlsZQQhZmLxy3	192.168.106.10	1036	65.55.13.243	80	1	POST	activex.microsoft.com	/objects/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	FJIeds3Mwy06nLuBKj	text/plain	FNKYUg2Azj3L9N0A7h	text/plain
+1321013781.534602	CeMkhX34M4eoOE6253	192.168.106.10	1037	69.6.252.129	80	1	GET	fotonic.ro	/zcv.gif	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	72192	200	OK	-	-	-	(empty)	-	-	-	-	-	FIDKRs46XtIluSGPDg	application/x-dosexec
+1321013782.141963	Cfyk3R3DBwTPaxP92k	192.168.106.10	1038	199.59.149.232	80	1	GET	api.twitter.com	/1/trends/daily.json?callback=jQuery16208819661272211561_1321028054484&_=1321028063281	http://fotonic.ro/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	44879	200	OK	-	-	-	(empty)	-	-	-	-	-	FKqdnE49IzYtHz42y1	text/plain
+1321013783.923019	CS5KtrIhHQq3Y1SX2	192.168.106.10	1041	208.109.53.70	80	1	GET	aachristmas.com	/images/led/hg.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	912	200	OK	-	-	-	(empty)	-	-	-	-	-	FflOJTLRFD11OnmNb	text/html
+1321013784.519578	Cfyk3R3DBwTPaxP92k	192.168.106.10	1038	199.59.149.232	80	2	GET	api.twitter.com	/1/trends/daily.json?callback=jQuery16208819661272211561_1321028054485&date=2011-11-09&_=1321028065515	http://fotonic.ro/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	43867	200	OK	-	-	-	(empty)	-	-	-	-	-	FPErsf2ALI9dqS8Pe1	text/plain
+1321013784.815904	Cp3XzS3dZr5ZzAB0Wj	192.168.106.10	1042	67.227.204.203	80	1	GET	pdeqfrhpncz.com	/index.php?tp=001e4bb7b4d7333d	http://fotonic.ro/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	96911	200	OK	-	-	-	(empty)	-	-	-	-	-	FDV57a1e8YBMFR94Q7	text/html
+1321013812.490842	CeN5NsAeabSLdjBda	192.168.106.10	1046	67.227.204.203	80	1	GET	pdeqfrhpncz.com	/w.php?f=26&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	98304	200	OK	-	-	-	(empty)	-	-	-	-	-	Ft1tDD4SDwABUOrpod	application/x-dosexec
+1321013813.954986	CKPszs2TfwCQrwHIhg	192.168.106.10	1049	67.227.204.203	80	1	GET	pdeqfrhpncz.com	/content/2ddfp.php?f=26	http://pdeqfrhpncz.com/index.php?tp=001e4bb7b4d7333d	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	52061	200	OK	-	-	-	(empty)	-	-	-	-	-	FWOAI31dMwLQmfSBG9	application/pdf
+1321013818.860723	CQYnGT2yt2S4221aae	192.168.106.10	1053	93.187.142.14	80	1	GET	1572572686	/Gmail.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4276	200	OK	-	-	-	(empty)	-	-	-	-	-	F6A1wqNHyNQPytDL5	application/x-java-applet
+1321013822.494104	CbuD9z1VkiPzrKFSs9	192.168.106.10	1052	67.227.204.203	80	1	GET	pdeqfrhpncz.com	/content/field.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5607	200	OK	-	-	-	(empty)	-	-	-	-	-	F0De1u4IHFI6yWolCd	application/zip
+1321013822.486544	CZ9Dfp10lJEg2Jf7aa	192.168.106.10	1050	93.187.142.14	80	1	GET	1572572686	/Gmail.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4276	200	OK	-	-	-	(empty)	-	-	-	-	-	FjDN0z1ObYVNvOW9ol	application/x-java-applet
+1321013822.492243	CCBEjt2fyUiU2TNddg	192.168.106.10	1055	93.187.142.14	80	1	GET	1572572686	/Gmail.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4276	200	OK	-	-	-	(empty)	-	-	-	-	-	FPTQHh3fHutxUhJoYj	application/x-java-applet
+1321013822.49961	ClTWty1bUu62ce2Ix9	192.168.106.10	1056	93.187.142.14	80	1	GET	1572572686	/Gmail.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4276	200	OK	-	-	-	(empty)	-	-	-	-	-	Fo3RIr1PxEXLecHyH	application/x-java-applet
+1321013822.501916	Cg4hIU26MwLoRkdoJk	192.168.106.10	1051	93.187.142.14	80	1	GET	1572572686	/Gmail.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4276	200	OK	-	-	-	(empty)	-	-	-	-	-	F2Junp1Ea4sMhwyDu	application/x-java-applet
+1321013822.506954	CDk5dq1otTLNiFVjde	192.168.106.10	1054	93.187.142.14	80	1	GET	1572572686	/Gmail.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4276	200	OK	-	-	-	(empty)	-	-	-	-	-	FKZ9AN2v8F007yz0jl	application/x-java-applet
+1321013818.970449	CVVJ6I3uZS40qLZTBk	192.168.106.10	1058	50.22.239.250	80	1	POST	isys673ghdftsg.com	/search?fr=altavista&itag=ody&q=-93UbQJSK9PLSCgIgDO3b-gR,d5fa8ff57ad763fe&kgs=1&kls=0	-	-	475	598016	200	OK	-	-	-	(empty)	-	-	-	FKR7Kp1dTQMRtKDz9a	text/plain	FwWBhj2sl4Xw8ZS9ub	binary
+1321013831.923169	CVVJ6I3uZS40qLZTBk	192.168.106.10	1058	50.22.239.250	80	2	POST	isys673ghdftsg.com	/search?fr=altavista&itag=ody&q=-93UbQJSK9PLSCgIgDO3b-gR,d5fa8ff57ad763fe,IAL7UFDSSMDBGjNI9dC&kgs=1&kls=0&p=1000	-	-	10	0	200	OK	-	-	-	(empty)	-	-	-	FsflXk1WRW37BdeiYi	text/plain	-	-
+1321013834.005437	CLIElJ3PYWjiBubk84	192.168.106.10	1062	93.187.142.38	80	1	OPTIONS	93.187.142.38	/	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	166	405	Not Allowed	-	-	-	(empty)	-	-	-	-	-	FLlMfkwd5syHVyCFi	text/html
+#close	2014-04-03-11-15-46

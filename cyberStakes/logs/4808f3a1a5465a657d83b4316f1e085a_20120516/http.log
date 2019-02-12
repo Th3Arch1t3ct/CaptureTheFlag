@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-16-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1337150794.762584	CEB0ug4f3XinvowjJ2	192.168.104.10	1030	74.50.0.45	80	1	GET	bonniepricedrapery.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	23819	200	OK	-	-	-	(empty)	-	-	-	-	-	FboW9t1iQJAU72hcXa	text/html
+1337150794.891706	C5i9cJ2ekBlNOJju3k	192.168.104.10	1032	98.124.199.1	80	1	GET	karenbrowntx.com	/	http://bonniepricedrapery.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1337150794.858872	CEB0ug4f3XinvowjJ2	192.168.104.10	1030	74.50.0.45	80	2	GET	bonniepricedrapery.com	/dbbp.jpg	http://bonniepricedrapery.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7971	200	OK	-	-	-	(empty)	-	-	-	-	-	FPtw7H1IZlX3Bu5Oyf	image/jpeg
+1337150794.896831	Ca7W3Sbvdximku6ce	192.168.104.10	1033	98.124.199.1	80	1	GET	karenbrowntx.com	/RpemW/	http://bonniepricedrapery.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1337150794.904479	CvSqLO1MecjvlC3no9	192.168.104.10	1034	98.124.199.1	80	1	GET	karenbrowntx.com	/	http://bonniepricedrapery.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	178	302	Object moved	-	-	-	(empty)	-	-	-	-	-	F6iuup6MCTptfcwzl	text/html
+1337150794.901779	CEB0ug4f3XinvowjJ2	192.168.104.10	1030	74.50.0.45	80	3	GET	bonniepricedrapery.com	/bio2.jpg	http://bonniepricedrapery.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1059	200	OK	-	-	-	(empty)	-	-	-	-	-	Fhj70B3mOTeZCJFcBg	image/jpeg
+1337150794.873037	CEL2hZ3gvPGurZ0R77	192.168.104.10	1031	74.50.0.45	80	1	GET	bonniepricedrapery.com	/pk2.jpg	http://bonniepricedrapery.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7866	200	OK	-	-	-	(empty)	-	-	-	-	-	FYibqo4KT4NfUW0aX7	image/jpeg
+1337150795.022554	CEB0ug4f3XinvowjJ2	192.168.104.10	1030	74.50.0.45	80	4	GET	bonniepricedrapery.com	/pg.jpg	http://bonniepricedrapery.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3321	200	OK	-	-	-	(empty)	-	-	-	-	-	Fet7P3NjleIxdDILf	image/jpeg
+1337150795.212936	CpASD83bY9Ccs925T2	192.168.104.10	1035	83.69.226.72	80	1	GET	designbyallison.com	/main.php?page=5e0cdb0ca7f86ed0	http://bonniepricedrapery.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	65188	200	OK	-	-	-	(empty)	-	-	-	-	-	FEOwAn1rCjNmKW7dG9	text/html
+1337150798.748068	CpASD83bY9Ccs925T2	192.168.104.10	1035	83.69.226.72	80	2	GET	designbyallison.com	/w.php?f=97d19&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	18872	200	OK	-	-	-	(empty)	-	-	-	-	-	FVjhpm36b0e7vWDNtj	application/x-dosexec
+1337150799.5216	CZZ7RH1seMyUhx8txi	192.168.104.10	1040	83.69.226.72	80	1	GET	designbyallison.com	/data/field.swf	http://bonniepricedrapery.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1499	200	OK	-	-	-	(empty)	-	-	-	-	-	FclUpA2TWOGfP0Hjrk	application/x-shockwave-flash
+1337150799.2828	CpASD83bY9Ccs925T2	192.168.104.10	1035	83.69.226.72	80	3	GET	designbyallison.com	/data/ap2.php	http://designbyallison.com/main.php?page=5e0cdb0ca7f86ed0	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	33056	200	OK	-	-	-	(empty)	-	-	-	-	-	FjAqty1uHefZQHq215	application/pdf
+#close	2014-04-03-10-16-32

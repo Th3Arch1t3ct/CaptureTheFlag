@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-37-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1340756974.555288	Ca3QU61Lkn3OnNCrah	192.168.5.10	1029	4.2.2.3	53	udp	31113	infinicastonline.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.214.173.86	14374.000000	F
+1340757023.091125	Cv6yMTgkb5AFeYsnh	192.168.5.10	1040	8.8.8.8	53	udp	13107	promos.fling.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.91.207.10	90.000000	F
+1340757027.796289	C4RgFTjdTjhl0ZtP6	192.168.5.10	1029	4.2.2.3	53	udp	15243	secondfatman.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.193.12.27	600.000000	F
+1340757030.127694	CT2QPq4EQj8L7vAlN	192.168.5.10	1065	8.8.8.8	53	udp	13107	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.45.105,74.125.45.106,74.125.45.147,74.125.45.99,74.125.45.104,74.125.45.103	86399.000000,299.000000,299.000000,299.000000,299.000000,299.000000,299.000000	F
+1340757023.457073	CbWC9c2OQP2hkUlhS	192.168.5.10	1043	66.85.130.234	53	udp	64122	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340757023.55074	CRtxaq4CF7QDcJESe2	192.168.5.10	1045	66.85.130.234	53	udp	64122	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340757024.313277	CXzAS74lxo79l6J9rd	192.168.5.10	1047	66.85.130.234	53	udp	64122	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340757024.40843	CtYERT19citLWEoBB5	192.168.5.10	1049	66.85.130.234	53	udp	64122	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340757024.410255	C5gydp3gPE2l7cXU9h	192.168.5.10	1051	66.85.130.234	53	udp	64122	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340757025.503966	CVEJM61bAXbdxSqb12	192.168.5.10	1054	66.85.130.234	53	udp	64122	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340757025.527854	COKdSk4UkJFpbJFisc	192.168.5.10	1057	66.85.130.234	53	udp	64122	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340757025.547535	C8zqLW10loiO4jUaB6	192.168.5.10	1059	66.85.130.234	53	udp	64122	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+#close	2014-04-03-10-37-59

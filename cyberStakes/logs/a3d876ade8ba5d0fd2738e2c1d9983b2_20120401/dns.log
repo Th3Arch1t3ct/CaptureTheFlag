@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-49-38
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1333243568.838486	CzkThk3E9B9SROmQd8	192.168.121.10	1029	4.2.2.3	53	udp	25229	projectsmars.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.171.247.125	14378.000000	F
+1333243573.404821	CzkThk3E9B9SROmQd8	192.168.121.10	1029	4.2.2.3	53	udp	8591	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	3560.000000,260.000000	F
+1333243575.168823	CzkThk3E9B9SROmQd8	192.168.121.10	1029	4.2.2.3	53	udp	56200	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,64.213.163.72,64.213.163.74	11813.000000,75.000000,11895.000000,2.000000,2.000000	F
+1333243576.187321	CzkThk3E9B9SROmQd8	192.168.121.10	1029	4.2.2.3	53	udp	137	easyfunguide.at	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.98.86.169	600.000000	F
+1333243577.069606	CzkThk3E9B9SROmQd8	192.168.121.10	1029	4.2.2.3	53	udp	50058	aachristmas.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.109.53.70	3600.000000	F
+#close	2014-04-03-10-49-39

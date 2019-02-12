@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-12-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1328293401.234606	CDRTELv2XvAhaexug	192.168.1.10	1029	4.2.2.3	53	udp	25227	amosindustries.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.220.219.52	14379.000000	F
+1328293401.891611	CDRTELv2XvAhaexug	192.168.1.10	1029	4.2.2.3	53	udp	64137	www.amosindustries.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	amosindustries.com,74.220.219.52	14381.000000,14379.000000	F
+1328293404.79744	CDRTELv2XvAhaexug	192.168.1.10	1029	4.2.2.3	53	udp	11656	customercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.124.199.1	3600.000000	F
+1328293405.029416	CDRTELv2XvAhaexug	192.168.1.10	1029	4.2.2.3	53	udp	7304	tr.hyundaita.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.132.67.141	3600.000000	F
+1328293435.066048	CxSrZx3PN0oT7wDCr3	192.168.1.10	1029	4.2.2.3	53	udp	39567	hairme.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.24.246.7,178.211.46.156,208.109.84.227,210.212.58.161	300.000000,300.000000,300.000000,300.000000	F
+1328293461.728608	CG9TBZ1fM73d5WSfrb	192.168.1.10	1029	4.2.2.3	53	udp	59278	spanerd.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	220.195.24.9,178.211.46.156,208.109.84.227,210.212.58.161	101.000000,101.000000,101.000000,101.000000	F
+#close	2014-04-03-11-12-09

@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-41-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1379138960.853628	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1379138989.096347	CDTjOQ2qRhDFJFA9Qa	192.168.111.10	1081	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1379138989.126701	Cr32Zq2fbRuTJuiLOh	192.168.111.10	1082	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1379138989.154196	CbkhqYfFeBgxRZkVh	192.168.111.10	1083	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1379138989.158088	Cd9DcMVjkFTnSZYh9	192.168.111.10	1084	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1379138989.15971	CxS7VK2DgRUFQqVBU9	192.168.111.10	1085	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1379138989.161287	CrLVrw2pAVs8plMdXi	192.168.111.10	1086	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1379138989.162934	CtGWEHJwcPfGkQSMg	192.168.111.10	1087	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1379138989.170355	C5ATX21v0VWUkV3uWa	192.168.111.10	1088	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1379138989.186261	CVPnUr2NZXI1zEb7g8	192.168.111.10	1089	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1379138989.199697	CDCBsP2Rvie4HvG65	192.168.111.10	1090	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1379138989.200365	Cf7bbA4BRRS5A6SNI2	192.168.111.10	1091	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1379138996.696591	CPUyDv4tG4bDA5G17f	192.168.111.10	1097	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1379138996.697283	Cj9XOm1RcB8YED153f	192.168.111.10	1098	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1379138996.697896	CbdFBz1DyQA6pKoDm3	192.168.111.10	1099	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1379139084.509463	Ckvx1e2jNmJU1Y6Iqd	192.168.111.10	1120	176.37.210.100	80	line_terminated_with_single_CR	-	F	bro
+1379139084.517174	Ckvx1e2jNmJU1Y6Iqd	192.168.111.10	1120	176.37.210.100	80	bad_HTTP_request	-	F	bro
+#close	2014-04-03-10-41-13

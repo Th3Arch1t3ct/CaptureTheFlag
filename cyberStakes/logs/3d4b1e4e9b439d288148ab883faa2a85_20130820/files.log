@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-11-07-15
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1377004816.09508	F4Gvyz3rW2kr5BIqa9	74.125.28.141	192.168.74.10	CbZ18m1056hMNUzG77	HTTP	0	SHA1,MD5	text/html	-	0.000024	-	F	2771	-	0	0	F	-	114e21b22666e65d91d3fdc53a3e2fe5	27cad8c4d71911ebba08a53dd8472dd88d7b267b	-	-
+1377004816.238427	F3mb2k2BdMYsJCrgMd	74.125.224.134	192.168.74.10	C5sPRq4KsmnEdvWHG3	HTTP	0	SHA1,MD5	text/plain	-	0.000070	-	F	20379	-	0	0	F	-	486da44291f3517078f6850c9d9c37e8	91f0c95b9ad89e0fc279e711912ca432e4169bea	-	-
+1377004816.347188	FxkhYluuTSL8DRcf	74.125.28.141	192.168.74.10	CbZ18m1056hMNUzG77	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	288	288	0	0	F	-	7611bba28f0f82eef84a5f825c4a4575	7ab71167ee6e76b6a3510deda3c1d9dd71c2244d	-	-
+1377004816.619262	FOJkfq4HTpdZAIW5y1	74.125.28.141	192.168.74.10	Cby1Ow2OHAy89bEuHa	HTTP	0	SHA1,MD5	text/html	-	0.000201	-	F	3078	-	0	0	F	-	255d8c6ebf5f63878167c6915317f63f	1537b929b6112565cae624b917a35a6f4e813bae	-	-
+1377004816.681864	FNbeTw4yNVHVjHHs9g	74.125.28.141	192.168.74.10	Crbi724UWwv8l6QNo	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	220	-	0	0	F	-	b4f4cdb4e81d5e60ad6fbe0354865519	4920b463a29611d196330058a50fe18b804fdede	-	-
+1377004817.699347	FLprvF1v36ZaB347Og	74.125.28.141	192.168.74.10	CbZ18m1056hMNUzG77	HTTP	0	SHA1,MD5	text/plain	-	0.001231	-	F	2899	-	0	0	F	-	47ed9fdde203f165191c42ce95576cc7	134f9f81cd0b8810f576b3a4f2bdb0581bed5a5e	-	-
+1377004817.994444	FDOeAQ1vu3nJPRJbfd	107.23.222.204	192.168.74.10	CZrIv03PfPrHjAS0Ee	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	276	276	0	0	F	-	b8ae68564bac1e1419fe425a5c8287dd	f6d91efb4d5d65307784357b4373a3766b10814c	-	-
+1377004818.106186	F48op51t77joRa8fhe	74.125.28.141	192.168.74.10	Cby1Ow2OHAy89bEuHa	HTTP	0	SHA1,MD5	image/png	-	0.000939	-	F	4953	-	0	0	F	-	83ae7540b2268a445c8247d226665ba5	9e0f3cdd199dcce5cbe379b7385fd59211bf786e	-	-
+1377004818.124743	FWVyIV2Pigg0ucHU0e	74.125.28.141	192.168.74.10	CbZ18m1056hMNUzG77	HTTP	0	SHA1,MD5	image/png	-	0.000000	-	F	1005	-	0	0	F	-	ef6a2693539ee259b6a2737e093d53c6	5fd8c5b7fd46bc0baf8fcb69760e6ac1e12f7c3f	-	-
+1377004818.258421	FzHjmn2H0z2lKnTYt6	107.23.222.204	192.168.74.10	CeafTbpYmWMNUkZ4i	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	289	289	0	0	F	-	3d37868934568c4e6eb703a05d6c62c1	833dfafce581f072459e655cfc8c3345a26e1360	-	-
+1377004819.469812	FL6wXnj39OpIXBr36	95.211.134.97	192.168.74.10	CsLP2FHcWL9yJAxHl	HTTP	0	SHA1,MD5	application/x-dosexec	Setup.exe	0.145063	-	F	14192	288704	0	0	F	-	bd5fb00bee2d17e9a2a25f8619a241c8	e7c9b4e1105ed1ea3a11b5fdee65f7af5c8344ce	-	-
+#close	2014-04-03-11-07-15

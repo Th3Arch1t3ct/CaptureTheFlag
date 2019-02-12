@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-32-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1349994485.277838	CyzKfm4lVxEQJSaFUi	192.168.16.10	1030	4.2.2.3	53	udp	56462	vrbo.nl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.116.181.25	3575.000000	F
+1349994487.049686	CyzKfm4lVxEQJSaFUi	192.168.16.10	1030	4.2.2.3	53	udp	65167	a2.cdnpark.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	dbc0m5mdihyre.cloudfront.net,204.246.175.86,204.246.175.214,204.246.175.15,204.246.175.31,204.246.175.143,204.246.175.244,204.246.175.133,204.246.175.213	1163.000000,60.000000,60.000000,60.000000,60.000000,60.000000,60.000000,60.000000,60.000000	F
+1349994489.136766	CyzKfm4lVxEQJSaFUi	192.168.16.10	1030	4.2.2.3	53	udp	31884	www.dntx.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.51.207.181	60.000000	F
+1349994489.876342	CyzKfm4lVxEQJSaFUi	192.168.16.10	1030	4.2.2.3	53	udp	39309	www.downloadbooster.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	downloadbooster.us,193.169.104.240	86400.000000,86400.000000	F
+1349994491.8148	CyzKfm4lVxEQJSaFUi	192.168.16.10	1030	4.2.2.3	53	udp	28301	network.adsmarket.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.169.104.1	40220.000000	F
+1349994492.066723	CyzKfm4lVxEQJSaFUi	192.168.16.10	1030	4.2.2.3	53	udp	10378	www.ultimate-downloads.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	23.23.179.237	30.000000	F
+1349994492.159609	CyzKfm4lVxEQJSaFUi	192.168.16.10	1030	4.2.2.3	53	udp	21384	install.optimum-installer.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	23.21.149.72	30.000000	F
+#close	2014-04-03-10-32-35

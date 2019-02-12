@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-13-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1329465934.520558	CusbFr4OueD2v0CiY5	192.168.96.10	1055	199.47.216.170	443	SSLv3	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=*.dropbox.com,O=Dropbox\, Inc.,L=San Francisco,ST=California,C=US	CN=Thawte SSL CA,O=Thawte\, Inc.,C=US	1322719200.000000	1391061599.000000	-	-	-	d7bc4836e22e3cbe9a6bcf02fb73a3fb	ok
+1329465935.805776	Cf8bhH2UvpEdewS0g	192.168.96.10	1056	199.47.216.170	443	SSLv3	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	fa5f3874f8e826c32baee853782c4be18942a6ab5c431538417dcde97527ae8f	CN=*.dropbox.com,O=Dropbox\, Inc.,L=San Francisco,ST=California,C=US	CN=Thawte SSL CA,O=Thawte\, Inc.,C=US	1322719200.000000	1391061599.000000	-	-	-	d7bc4836e22e3cbe9a6bcf02fb73a3fb	ok
+1329465938.829766	Cpx2rY3lZHGXzZDft9	192.168.96.10	1057	74.125.65.97	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google-analytics.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1328771517.000000	1360394517.000000	-	-	-	92693799ada1b0319d6058c7b0573ef0	ok
+1329465945.028562	CmkEKfiq7QoOxSZ2a	192.168.96.10	1058	174.129.232.94	443	SSLv3	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=*.dropbox.com,O=Dropbox\, Inc.,L=San Francisco,ST=California,C=US	CN=Thawte SSL CA,O=Thawte\, Inc.,C=US	1322719200.000000	1391061599.000000	-	-	-	d7bc4836e22e3cbe9a6bcf02fb73a3fb	ok
+#close	2014-04-03-10-13-50

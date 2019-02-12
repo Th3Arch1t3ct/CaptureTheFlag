@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-26-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1319579870.443652	CXMYzQ1AULpU3Jv4v	192.168.105.10	1028	4.2.2.3	53	udp	18051	brianvanaken.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.139.135.22,98.139.135.21	1181.000000,1181.000000	F
+1319579871.007373	CXMYzQ1AULpU3Jv4v	192.168.105.10	1028	4.2.2.3	53	udp	35202	daserd-izz-el.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.25.109.94	28800.000000	F
+1319579871.134763	CXMYzQ1AULpU3Jv4v	192.168.105.10	1028	4.2.2.3	53	udp	22145	superdaserdizzel.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.25.109.94	28800.000000	F
+1319579871.379928	CXMYzQ1AULpU3Jv4v	192.168.105.10	1028	4.2.2.3	53	udp	7041	adersersut.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.25.109.94	28800.000000	F
+1319579872.435442	ChLmcw3ND0cGs41mPd	192.168.105.10	1046	4.2.2.3	53	udp	23942	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,204.245.190.27,204.245.190.51	26383.000000,238.000000,2758.000000,15.000000,15.000000	F
+1319579871.749594	CXMYzQ1AULpU3Jv4v	192.168.105.10	1028	4.2.2.3	53	udp	30599	ntmtain.ce.ms	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.208.31.14	0.000000	F
+1319579906.294771	CgDKpdSJc8nNXA9b9	192.168.105.10	1046	4.2.2.3	53	udp	59781	mtiwbbl.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.208.34.116	300.000000	F
+1319579906.989045	CgDKpdSJc8nNXA9b9	192.168.105.10	1046	4.2.2.3	53	udp	40068	ovgpqqzs.org.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.123.52.133	900.000000	F
+#close	2014-04-03-10-26-50

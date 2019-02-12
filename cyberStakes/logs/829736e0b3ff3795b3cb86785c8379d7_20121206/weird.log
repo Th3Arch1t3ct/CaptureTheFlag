@@ -1,0 +1,30 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-47-43
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1354760050.124375	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1354760079.086624	CoCFlb4dZOF3lJz7Ii	192.168.68.10	1055	194.165.17.3	53	DNS_Conn_count_too_large	-	F	bro
+1354760079.086801	C5L4oH31GgYNo1Uvga	192.168.68.10	1055	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1354760079.08848	Cp7tYP1yryGdrMEUI7	192.168.68.10	1057	194.165.17.3	53	DNS_Conn_count_too_large	-	F	bro
+1354760079.088647	CCJV4m1fNxsTBT89qd	192.168.68.10	1057	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1354760079.103266	CrRP4D2ez0excUaFif	192.168.68.10	1059	194.165.17.3	53	DNS_Conn_count_too_large	-	F	bro
+1354760079.103462	C2efIX2DXusTu77i0a	192.168.68.10	1059	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1354760079.106677	CSP8sT1WjJdt2RvXN7	192.168.68.10	1061	194.165.17.3	53	DNS_Conn_count_too_large	-	F	bro
+1354760079.106855	Cvkg1l1XFbIdeezPFd	192.168.68.10	1061	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1354760079.108977	CY1yKz2KZEjdaUC4df	192.168.68.10	1063	194.165.17.3	53	DNS_Conn_count_too_large	-	F	bro
+1354760079.109125	CRkeVY2RmThtJN9qc3	192.168.68.10	1063	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1354760079.120556	CiAA601CBWs6KQ1rX	192.168.68.10	1065	194.165.17.3	53	DNS_Conn_count_too_large	-	F	bro
+1354760079.120753	C9K0fsfhtI93ZZjJh	192.168.68.10	1065	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1354760079.368722	C0Ugr3423xHDNmUdjj	192.168.68.10	1069	194.165.17.3	53	DNS_Conn_count_too_large	-	F	bro
+1354760079.368903	CpNI2s4J036oVwD2i3	192.168.68.10	1069	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1354760079.382227	C5WbTYQkZqNxzxMH	192.168.68.10	1071	194.165.17.3	53	DNS_Conn_count_too_large	-	F	bro
+1354760079.382394	CUXSyv7TvaxwymkEh	192.168.68.10	1071	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1354760079.534073	C4qmyo4s3NTUyLibF6	192.168.68.10	1074	194.165.17.3	53	DNS_Conn_count_too_large	-	F	bro
+1354760079.534234	CM4ucJ1zcqrlEyQ2A8	192.168.68.10	1074	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1354760094.527107	CgXY1s2K8qQ8nxoNb7	192.168.68.10	1088	181.165.40.20	80	bad_HTTP_request	-	F	bro
+1354760094.527107	CgXY1s2K8qQ8nxoNb7	192.168.68.10	1088	181.165.40.20	80	line_terminated_with_single_CR	-	F	bro
+#close	2014-04-03-10-47-44

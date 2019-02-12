@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-28-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1364942265.982159	C2fbWu3kFoOGO5naJ2	192.168.22.10	1031	195.66.79.29	80	tcp	http	2.838052	1813	143354	RSTO	-	0	ShADadR	79	4981	102	147442	(empty)
+1364942268.820822	CcCel315VWInN73NRj	192.168.22.10	1039	195.66.79.29	80	tcp	-	0.140682	0	0	RSTO	-	0	ShR	2	88	1	48	(empty)
+1364942268.822725	CA2WNg4VqNRshF5xl6	192.168.22.10	1040	195.66.79.29	80	tcp	http	0.497592	417	11680	RSTO	-	0	ShADadR	11	865	10	12088	(empty)
+1364942265.561775	CwJ9Jd227xKfRqxvdf	192.168.22.10	1030	195.66.79.29	80	tcp	http	3.778635	2116	256186	RSTO	-	0	ShADadR	122	7004	182	263474	(empty)
+1364942265.559199	ClbC0X3LkgjyFKo2ea	192.168.22.10	1029	4.2.2.3	53	udp	dns	2.664180	79	146	SF	-	0	Dd	2	135	2	202	(empty)
+1364942268.007309	CTBMhx3c7yWazqEqp8	192.168.22.10	1036	4.2.2.3	53	udp	dns	0.165158	41	57	SF	-	0	Dd	1	69	1	85	(empty)
+1364942278.330893	CbNnsj1K6BkUfogVkc	192.168.22.10	1041	195.66.79.29	80	tcp	http	0.467926	510	10220	RSTO	-	0	ShADadR	10	918	9	10588	(empty)
+1364942249.42132	CAZcZ637SC7tVbyTM	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.003247	626	0	S0	-	0	D	2	682	0	0	(empty)
+1364942249.421674	C7qXv8zNZkdDEfiGi	192.168.22.10	68	192.168.22.1	67	udp	dhcp	12.615731	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1364942267.402772	CFUrYj42ngeLk5eOh	192.168.22.10	1034	239.255.255.250	1900	udp	-	6.291892	399	0	S0	-	0	D	3	483	0	0	(empty)
+1364942268.173301	CA0lL22zEBNfHdJjad	192.168.22.10	1037	176.121.11.24	80	tcp	http	66.077116	801	22073	RSTO	-	0	ShADadfR	17	1489	21	23166	(empty)
+1364942268.224148	CJCZuL2XtLzIjI5mN4	192.168.22.10	1038	176.121.11.24	80	tcp	http	66.026510	280	405	RSTO	-	0	ShADadfR	6	528	4	573	(empty)
+#close	2014-04-03-10-28-24

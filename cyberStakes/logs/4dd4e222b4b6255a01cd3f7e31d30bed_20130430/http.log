@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-28-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1367353908.62017	CBBQxc4hEJg2jPvpTl	192.168.10.10	1031	37.143.13.157	80	1	GET	69cataloq.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	92	200	OK	-	-	-	(empty)	-	-	-	-	-	FnRwAF2mGTXloPQWuf	text/html
+1367353909.340888	CtDqSr2xaBzSj2Mpq9	192.168.10.10	1032	37.143.13.157	80	1	GET	69cataloqs.com	/betty.php	http://69cataloq.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1367353910.950545	CNjlaqthoRGiNLTse	192.168.10.10	1033	198.50.187.5	64784	1	GET	successfully.mailfgurbnje.com	/d94ad641e1fbfa7aa25accf8ed31ff22.html	http://69cataloq.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	60794	200	OK	-	-	-	(empty)	-	-	-	-	-	FDm71i1yXNlbC65UHe	text/html
+1367353923.703977	C58ljU3vRfipW43Ig5	192.168.10.10	1038	65.55.13.243	80	1	POST	activex.microsoft.com	/objects/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	FyBH252fwIp9HnIuQi	text/plain	F8uulG4RI3rlhgkBEg	text/plain
+1367353924.194413	CNkAkj1HkkvjNMxwml	192.168.10.10	1039	65.55.13.243	80	1	POST	codecs.microsoft.com	/isapi/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	FYYsXHiK49FC02DSc	text/plain	Fe1cqT2QGORHT1neo7	text/plain
+1367353925.049156	CBsmHn2NNOcU1LSP69	192.168.10.10	1040	198.50.187.5	64784	1	GET	successfully.mailfgurbnje.com	/75f5a42c7b5d0ec1323bb36d7e2f0821/1367353829/4e2394b6f51c3395e0a49ea9dc455cee.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12627	200	OK	-	-	-	(empty)	-	-	-	-	-	FGiYsC2N9jkVIwB7k6	application/jar
+1367353925.212718	CBsmHn2NNOcU1LSP69	192.168.10.10	1040	198.50.187.5	64784	2	GET	successfully.mailfgurbnje.com	/75f5a42c7b5d0ec1323bb36d7e2f0821/1367353829/4e2394b6f51c3395e0a49ea9dc455cee.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12627	200	OK	-	-	-	(empty)	-	-	-	-	-	FCZS3u1l2cg8dTfh0e	application/jar
+1367353925.586321	CBsmHn2NNOcU1LSP69	192.168.10.10	1040	198.50.187.5	64784	3	GET	successfully.mailfgurbnje.com	/75f5a42c7b5d0ec1323bb36d7e2f0821/1367353829/4e2394b6f51c3395e0a49ea9dc455cee.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12627	200	OK	-	-	-	(empty)	-	-	-	-	-	FCO4a7364Rxzj55hA2	application/jar
+1367353926.022213	CBsmHn2NNOcU1LSP69	192.168.10.10	1040	198.50.187.5	64784	4	GET	successfully.mailfgurbnje.com	/75f5a42c7b5d0ec1323bb36d7e2f0821/1367353829/4e2394b6f51c3395e0a49ea9dc455cee.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12627	200	OK	-	-	-	(empty)	-	-	-	-	-	FGQn4O1t1wv1c53Wzj	application/jar
+1367353931.038222	CBsmHn2NNOcU1LSP69	192.168.10.10	1040	198.50.187.5	64784	5	GET	successfully.mailfgurbnje.com	/75f5a42c7b5d0ec1323bb36d7e2f0821/1367353829/4e2394b6f51c3395e0a49ea9dc455cee.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12627	200	OK	-	-	-	(empty)	-	-	-	-	-	FiJSBg4VE4iHFWdp64	application/jar
+1367353931.404948	CBsmHn2NNOcU1LSP69	192.168.10.10	1040	198.50.187.5	64784	6	GET	successfully.mailfgurbnje.com	/f/1367353829/4e2394b6f51c3395e0a49ea9dc455cee/75f5a42c7b5d0ec1323bb36d7e2f0821/2	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	234364	200	OK	-	-	-	(empty)	-	-	-	-	-	F3qyQe1MbOuCkJc4N5	application/x-dosexec
+1367353932.906584	CBsmHn2NNOcU1LSP69	192.168.10.10	1040	198.50.187.5	64784	7	GET	successfully.mailfgurbnje.com	/f/1367353829/4e2394b6f51c3395e0a49ea9dc455cee/75f5a42c7b5d0ec1323bb36d7e2f0821/2/2	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-10-28-06

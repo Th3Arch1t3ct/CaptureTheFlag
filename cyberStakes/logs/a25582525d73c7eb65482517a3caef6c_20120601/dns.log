@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-05-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1338559101.617207	CMisBr1yMApK1qHPe6	192.168.22.10	1029	4.2.2.3	53	udp	54414	stonecalculate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.89.22.133	14374.000000	F
+1338559104.566602	CMisBr1yMApK1qHPe6	192.168.22.10	1029	4.2.2.3	53	udp	47501	www.daysofyorr.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	daysofyorr.com,50.28.53.156	300.000000,300.000000	F
+1338559105.57873	Ckrt2m1ooHOmNQRVx6	192.168.22.10	1029	4.2.2.5	53	udp	47501	www.daysofyorr.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	daysofyorr.com,50.28.53.156	300.000000,300.000000	F
+1338559118.844816	CMisBr1yMApK1qHPe6	192.168.22.10	1029	4.2.2.3	53	udp	37516	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.71.106,74.125.71.147,74.125.71.99,74.125.71.103,74.125.71.104,74.125.71.105	18088.000000,140.000000,140.000000,140.000000,140.000000,140.000000,140.000000	F
+#close	2014-04-03-10-05-33

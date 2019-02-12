@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-17-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1354945613.34135	Cjp3MC406X4IwQCs64	192.168.56.10	1030	93.170.52.21	80	tcp	http	0.270532	280	1106	SF	-	0	ShADadfF	5	488	5	1310	(empty)
+1354945614.363837	CJNVQQ1H1dkRR0ahP6	192.168.56.10	1032	93.170.52.21	80	tcp	http	0.267011	323	1105	SF	-	0	ShADadfF	5	531	5	1309	(empty)
+1354945617.472935	CINIpC4ghMvct5PlGf	192.168.56.10	1042	185.4.227.74	80	tcp	http	0.490504	367	26280	RSTO	-	0	ShADadFRRR	21	1215	21	27128	(empty)
+1354945617.283994	Cbb3aR2fa6PWZYhPri	192.168.56.10	1040	178.218.209.2	80	tcp	http	0.344499	277	525	SF	-	0	ShADadfF	5	485	5	729	(empty)
+1354945617.618445	C1xuR94U2ZorbmEGx3	192.168.56.10	1043	92.243.66.77	80	tcp	http	0.303986	286	251	SF	-	0	ShADadfF	5	494	5	459	(empty)
+1354945613.326547	CAwLEa4PEa2sN9imwe	192.168.56.10	1029	4.2.2.3	53	udp	dns	4.290753	224	425	SF	-	0	Dd	7	420	7	621	(empty)
+1354945616.210975	C9qKgf2gsgXGMba3S6	192.168.56.10	1039	4.2.2.3	53	udp	dns	-	-	-	S0	-	0	D	1	56	0	0	(empty)
+1354945617.220653	ChN5w6gOi9lToTkO6	192.168.56.10	1029	4.2.2.5	53	udp	dns	0.218515	30	46	SF	-	0	Dd	1	58	1	74	(empty)
+1354945617.220836	CuYUvu3Ah7kqGnTjh	192.168.56.10	1039	4.2.2.5	53	udp	dns	0.250145	28	44	SF	-	0	Dd	1	56	1	72	(empty)
+1354945613.965177	C6cT3f2wgXgXf8dva4	192.168.56.10	1031	195.64.155.34	80	tcp	http	34.222877	296	355	RSTO	-	0	ShADadfR	6	544	4	523	(empty)
+1354945597.222951	Cx1Nkp28XTxlyzFaih	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000737	626	0	S0	-	0	D	2	682	0	0	(empty)
+1354945597.223285	CGM96S21tShfZPqiFf	192.168.56.10	68	192.168.56.1	67	udp	dhcp	12.683159	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1354945615.756729	CISeLR1toPHPD0EO24	192.168.56.10	1038	195.3.143.42	80	tcp	http	62.791080	363	505	RSTO	-	0	ShADadR	5	571	3	633	(empty)
+1354945617.471904	CoKe7p2IX7zHURoHAe	192.168.56.10	1041	195.3.143.42	80	tcp	http	61.075679	277	360	RSTO	-	0	ShADadR	5	485	3	488	(empty)
+1354945615.134067	CP5qKtxYi6xeKhmW6	192.168.56.10	1033	195.3.143.42	80	tcp	http	63.413892	701	1393	RSTO	-	0	ShADadR	7	989	4	1561	(empty)
+1354945615.445285	CKnra6fLNr7CAyT84	192.168.56.10	1036	239.255.255.250	1900	udp	-	6.055217	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-10-17-04

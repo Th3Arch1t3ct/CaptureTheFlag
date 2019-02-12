@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-36-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1323227773.881869	COQ2x22RkueWUroy52	192.168.53.10	1030	216.24.193.27	80	1	GET	haod163.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6348	200	OK	-	-	-	(empty)	-	-	-	-	-	Fj2nTsK2DLVPiXitb	text/html
+1323227774.002656	COQ2x22RkueWUroy52	192.168.53.10	1030	216.24.193.27	80	2	GET	haod163.com	/index/1.jpg	http://haod163.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	10008	200	OK	-	-	-	(empty)	-	-	-	-	-	FMP8Lh31uE6PCbaPo3	image/jpeg
+1323227774.282792	COQ2x22RkueWUroy52	192.168.53.10	1030	216.24.193.27	80	3	GET	haod163.com	/index/3.jpg	http://haod163.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13841	200	OK	-	-	-	(empty)	-	-	-	-	-	FeC4IE7hDOSibD6jf	image/jpeg
+1323227774.270712	C26B7B2fTujWztaqj9	192.168.53.10	1031	216.24.193.27	80	1	GET	haod163.com	/index/2.jpg	http://haod163.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	9287	200	OK	-	-	-	(empty)	-	-	-	-	-	FnqgUv32s48y8B8Qml	image/jpeg
+1323227774.534856	COQ2x22RkueWUroy52	192.168.53.10	1030	216.24.193.27	80	4	GET	haod163.com	/index/down.gif	http://haod163.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5870	200	OK	-	-	-	(empty)	-	-	-	-	-	FVivObdOSFpwPETk9	image/gif
+1323227774.56379	C4gzAz4vDFU2Rxo7j8	192.168.53.10	1032	218.59.236.228	80	1	GET	tiao.114lm.cn	/iclk/?zoneid=205484&uid=55956	http://haod163.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1323227777.617072	CLRmwi39hTYa79pbm7	192.168.53.10	1037	60.191.222.19	80	1	GET	jh.01lm.com	/jh/AQLiao_aqliao976548_55956.exe	http://haod163.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13427384	200	OK	-	-	-	(empty)	-	-	-	-	-	FPorbgnJz8DsMzYq8	application/x-dosexec
+#close	2014-04-03-10-36-56

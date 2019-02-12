@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-04-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1316400411.528693	CLKEKg3gT9H44QoHog	192.168.98.10	1029	4.2.2.3	53	udp	31889	nymediadesign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.217.253.61	14375.000000	F
+1316400465.580247	CMYmRj3UQKLc9Ox2Sf	192.168.98.10	1029	4.2.2.3	53	udp	27793	49.36.112.220.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	servers.szgwbn.net	43200.000000	F
+1316400466.055322	CMYmRj3UQKLc9Ox2Sf	192.168.98.10	1029	4.2.2.3	53	udp	30355	servers.szgwbn.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-11-04-11

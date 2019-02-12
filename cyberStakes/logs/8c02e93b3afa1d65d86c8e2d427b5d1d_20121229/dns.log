@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-13-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1356764908.127966	Cx28pQ32cQh1EnBfg7	192.168.118.10	1029	4.2.2.3	53	udp	56205	consultrain.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.53.96.66	14400.000000	F
+1356764908.663396	Cx28pQ32cQh1EnBfg7	192.168.118.10	1029	4.2.2.3	53	udp	908	www.consultrain.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	consultrain.info,74.53.96.66	14400.000000,14400.000000	F
+#close	2014-04-03-11-13-36

@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-14-19
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1348336064.945302	CZEMx8UMX8OehXzSg	192.168.63.10	1047	176.31.16.236	80	FxN7GG3BrpMDEfEr4	application/x-dosexec	http://qpx.nopwood.info/?5690951f0cc1b4af27d78e949b811eba	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2012-11-02 14:50:21	https://www.virustotal.com/en/search/?query=3b81379584b6f885a85a5480c5d415392087117f	192.168.63.10	176.31.16.236	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1348336064.945302	CgY5qJ1LTYUKMK8eG7	192.168.63.10	1048	176.31.16.236	80	FlS4ak1hxG1XLbvvyl	application/x-dosexec	http://qpx.nopwood.info/?840739b341bd27e42e9f84197f396aab	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2012-11-02 14:50:21	https://www.virustotal.com/en/search/?query=3b81379584b6f885a85a5480c5d415392087117f	192.168.63.10	176.31.16.236	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1348336065.650657	Cy2PVz3hXYxIJKNlSc	192.168.63.10	1049	176.31.16.236	80	FP5mqY2cwa4A3gv3g	application/x-dosexec	http://qpx.nopwood.info/?9bcfe2e81234e242c6c9ff0edef35716	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2012-11-02 14:50:21	https://www.virustotal.com/en/search/?query=3b81379584b6f885a85a5480c5d415392087117f	192.168.63.10	176.31.16.236	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1348336067.851281	C2XzUB1Zdm7WpzQxMc	192.168.63.10	1068	176.31.16.236	80	FCZWbn1PAApXKof4mf	application/x-dosexec	http://qpx.nopwood.info/?10d99e3ace606c5ea5a63f5beb2e0253	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2012-11-02 14:50:21	https://www.virustotal.com/en/search/?query=3b81379584b6f885a85a5480c5d415392087117f	192.168.63.10	176.31.16.236	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-14-19

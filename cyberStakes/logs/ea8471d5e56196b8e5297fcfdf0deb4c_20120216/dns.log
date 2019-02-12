@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-50-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1329422044.462574	Ciobgl4zgjXBMLHaVh	192.168.106.10	1029	4.2.2.3	53	udp	52108	aikiclub.org.ua	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.206.31.34	581.000000	F
+1329422045.191487	Ciobgl4zgjXBMLHaVh	192.168.106.10	1029	4.2.2.3	53	udp	44172	www.dindon.ddns.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.46.71.132	31.000000	F
+1329422046.275397	Ciobgl4zgjXBMLHaVh	192.168.106.10	1029	4.2.2.3	53	udp	20364	formybro3.ddns.ms	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.215.3.170	31.000000	F
+1329422055.595761	CwmPGxXzKDaTaoSL2	192.168.106.10	1038	8.8.4.4	53	udp	4660	projektrebuild.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.159.121.178	1866.000000	F
+1329422070.387275	CxAHjG4zUqvHy1RtGg	192.168.106.10	1029	4.2.2.3	53	udp	27790	google.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.125.157.94	300.000000	F
+1329422070.404817	CxAHjG4zUqvHy1RtGg	192.168.106.10	1029	4.2.2.3	53	udp	27278	www.google.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-cctld.l.google.com,74.125.65.94	25489.000000,220.000000	F
+#close	2014-04-03-10-50-20

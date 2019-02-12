@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-53-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1393965953.857436	C6nL3QvG725gWdFV	192.168.65.10	1036	198.187.31.41	80	1	GET	lightvpn.org	/	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	239	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FcIivE3ZOimUPBjgS1	text/html
+1393965954.055705	CL03i61HzAcJP9wHn3	192.168.65.10	1037	109.236.87.163	80	1	GET	109.236.87.163	/rolex.php	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1393965956.691274	CpwQXjqEQlQJWiMeb	192.168.65.10	1038	93.171.172.14	13014	1	GET	rolexcpa9.pw	/dialogs/future.php?nomic=62	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	242762	200	OK	-	-	-	(empty)	-	-	-	-	-	FPun77Bt3qL7QCGWd	text/html
+1393965959.346533	CpwQXjqEQlQJWiMeb	192.168.65.10	1038	93.171.172.14	13014	2	GET	rolexcpa9.pw	/button.php?pixel=469&cart=4&site=653&elections=171&vote=656&pets=314&apps=360&demo=342&index=444	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	313344	200	OK	-	-	-	(empty)	-	-	-	-	-	Fov2Vy2f1kixgOJR37	application/x-dosexec
+1393965962.719056	CpwQXjqEQlQJWiMeb	192.168.65.10	1038	93.171.172.14	13014	3	GET	rolexcpa9.pw	/dialogs/CjFck	http://rolexcpa9.pw:13014/dialogs/future.php?nomic=62	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	9	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FtZy3n34Xa7VYTd0ed	text/plain
+1393965965.675995	Cvsi7owmRUUmPx7f1	192.168.65.10	1043	93.171.172.14	13014	1	GET	rolexcpa9.pw	/dialogs/testi.jnlp	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	9	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FJ5vCS2b94e8rbxIY4	text/plain
+1393965965.679789	Cj2msO2s146DkG8z43	192.168.65.10	1042	93.171.172.14	13014	1	GET	rolexcpa9.pw	/dialogs/applet.jnlp	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	9	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FHesd841JkPbPL7Eja	text/plain
+1393965965.752993	Cj2msO2s146DkG8z43	192.168.65.10	1042	93.171.172.14	13014	2	GET	rolexcpa9.pw	/dialogs/testi.jnlp	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	9	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FR8uYW10DkGf7OTxLb	text/plain
+1393965965.783189	Cvsi7owmRUUmPx7f1	192.168.65.10	1043	93.171.172.14	13014	2	GET	rolexcpa9.pw	/dialogs/applet.jnlp	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	9	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FdDvsa4l11HL3pKjJg	text/plain
+1393965966.49513	CpwQXjqEQlQJWiMeb	192.168.65.10	1038	93.171.172.14	13014	4	GET	rolexcpa9.pw	/favicon.ico	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	9	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Ff5FHc2zRSW7CEGB86	text/plain
+#close	2014-04-03-09-53-24

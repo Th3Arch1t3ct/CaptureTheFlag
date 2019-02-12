@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-31-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1395093996.929338	C84WoblbOebridFDc	192.168.28.10	1049	93.184.216.146	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=si0.twimg.com,O=Twitter\, Inc.,L=San Francisco,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1392012000.000000	1402462799.000000	-	-	-	300a9cdc2f39fb46c870a7cc94f29dcc	ok
+1395093996.928573	CFzGo9djlU3KkDguc	192.168.28.10	1045	23.74.14.239	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.linkedin.com,OU=Production Operations Group,O=Linkedin Corporation,L=Mountain View,ST=CALIFORNIA,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1392069962.000000	1423605962.000000	-	-	-	77c531752e83e7d8083940733b06edf7	ok
+1395093998.182571	ClTVtr2VnvPskuEJed	192.168.28.10	1058	74.125.239.133	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1393363158.000000	1401080400.000000	-	-	-	7af07aca6d5c65086ca4f9cdc767cf5e	ok
+1395094000.561562	CINW2j2QQFwEt6uWDj	192.168.28.10	1081	184.25.226.110	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=s-static.ak.facebook.com,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,ST=California,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1390645446.000000	1422181446.000000	-	-	-	e4ac22f763a41b0087e6f48d59584004	ok
+#close	2014-04-03-10-31-57

@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-31-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1312014209.777986	C9LCipdBh8iQQDGx8	192.168.43.10	1029	4.2.2.3	53	udp	46480	migraine-remedy.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.89.31.161	14377.000000	F
+1312014210.38543	C9LCipdBh8iQQDGx8	192.168.43.10	1029	4.2.2.3	53	udp	51090	qtoicsd.co.tv	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.60.123.48	43200.000000	F
+1312014210.690422	C9LCipdBh8iQQDGx8	192.168.43.10	1029	4.2.2.3	53	udp	42133	pagead2.googlesyndication.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pagead.l.google.com,72.14.204.167,72.14.204.164,72.14.204.165,72.14.204.166	24946.000000,37.000000,37.000000,37.000000,37.000000	F
+1312014210.866421	C9LCipdBh8iQQDGx8	192.168.43.10	1029	4.2.2.3	53	udp	63127	googleads.g.doubleclick.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pagead.l.doubleclick.net,72.14.204.157,72.14.204.154,72.14.204.155,72.14.204.156	24940.000000,217.000000,217.000000,217.000000,217.000000	F
+1312014211.110633	CHl1r61vYO6ZeTsuj6	192.168.43.10	1037	4.2.2.3	53	udp	35990	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,72.14.204.102,72.14.204.113,72.14.204.138,72.14.204.100,72.14.204.101	24933.000000,66.000000,66.000000,66.000000,66.000000,66.000000	F
+1312014211.276339	CHl1r61vYO6ZeTsuj6	192.168.43.10	1037	4.2.2.3	53	udp	60056	sitesupertracker.wealthwisdomandhealth.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.89.31.161	14400.000000	F
+1312014210.987028	C9LCipdBh8iQQDGx8	192.168.43.10	1029	4.2.2.3	53	udp	37783	fbnjmyg.co.tv	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.193.72.71	43200.000000	F
+1312014263.270551	CH8WqT1LLS6hckq2el	192.168.43.10	1037	4.2.2.3	53	udp	32155	123007db0716.podtube.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	202.150.208.68	3600.000000	F
+#close	2014-04-03-10-31-25

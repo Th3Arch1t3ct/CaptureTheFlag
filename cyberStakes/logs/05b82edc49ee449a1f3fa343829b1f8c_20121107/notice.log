@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-15-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1352300579.860419	CrcaOI3CbdX6vlGcL2	192.168.75.10	1061	77.72.133.64	80	FzWn8y4G6Byo2LpGDc	application/pdf	http://pleasure.plus-sized-fashion.com/r/pricelist.php	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 100%  Last seen: 2012-11-07 09:00:19	https://www.virustotal.com/en/search/?query=7ddc4a102e03b02e5a5c35b9c450932aba6d606c	192.168.75.10	77.72.133.64	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-15-15

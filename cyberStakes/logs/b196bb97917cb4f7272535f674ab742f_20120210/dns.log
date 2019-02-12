@@ -1,0 +1,39 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-25-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1328862791.224494	CFDaQk3DheO0ddIrtd	192.168.12.10	1029	4.2.2.3	53	udp	25229	cash-debts.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.248.165.133	3577.000000	F
+1328862791.937779	CFDaQk3DheO0ddIrtd	192.168.12.10	1029	4.2.2.3	53	udp	37261	hefflypaddy.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.47.198.36	3600.000000	F
+1328862844.741345	C1m88B3ZQZcSdRTJsk	192.168.12.10	1029	4.2.2.5	53	udp	20367	cuficellimaad.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328862847.735899	C1m88B3ZQZcSdRTJsk	192.168.12.10	1029	4.2.2.5	53	udp	20367	cuficellimaad.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328862851.766244	C1m88B3ZQZcSdRTJsk	192.168.12.10	1029	4.2.2.5	53	udp	20367	cuficellimaad.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328862823.845049	C1m88B3ZQZcSdRTJsk	192.168.12.10	1029	4.2.2.5	53	udp	8847	cuficellimaad.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328862826.847786	C1m88B3ZQZcSdRTJsk	192.168.12.10	1029	4.2.2.5	53	udp	8847	cuficellimaad.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328862830.907519	C1m88B3ZQZcSdRTJsk	192.168.12.10	1029	4.2.2.5	53	udp	8847	cuficellimaad.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328862859.797712	C1m88B3ZQZcSdRTJsk	192.168.12.10	1029	4.2.2.5	53	udp	24969	cuficellimaad.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328862826.847786	C1m88B3ZQZcSdRTJsk	192.168.12.10	1029	4.2.2.5	53	udp	8847	cuficellimaad.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328862830.907519	C1m88B3ZQZcSdRTJsk	192.168.12.10	1029	4.2.2.5	53	udp	8847	cuficellimaad.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328862808.760007	C1m88B3ZQZcSdRTJsk	192.168.12.10	1029	4.2.2.5	53	udp	6286	cuficellimaad.com	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1328862811.766791	C1m88B3ZQZcSdRTJsk	192.168.12.10	1029	4.2.2.5	53	udp	6286	cuficellimaad.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328862815.781805	C1m88B3ZQZcSdRTJsk	192.168.12.10	1029	4.2.2.5	53	udp	6286	cuficellimaad.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328862843.740307	C5TuEo3FVty7mags3a	192.168.12.10	1029	4.2.2.3	53	udp	20367	cuficellimaad.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328862845.734764	C5TuEo3FVty7mags3a	192.168.12.10	1029	4.2.2.3	53	udp	20367	cuficellimaad.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328862847.735732	C5TuEo3FVty7mags3a	192.168.12.10	1029	4.2.2.3	53	udp	20367	cuficellimaad.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328862851.766065	C5TuEo3FVty7mags3a	192.168.12.10	1029	4.2.2.3	53	udp	20367	cuficellimaad.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328862822.858988	C5TuEo3FVty7mags3a	192.168.12.10	1029	4.2.2.3	53	udp	8847	cuficellimaad.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328862824.8444	C5TuEo3FVty7mags3a	192.168.12.10	1029	4.2.2.3	53	udp	8847	cuficellimaad.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328862826.844192	C5TuEo3FVty7mags3a	192.168.12.10	1029	4.2.2.3	53	udp	8847	cuficellimaad.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328862830.907378	C5TuEo3FVty7mags3a	192.168.12.10	1029	4.2.2.3	53	udp	8847	cuficellimaad.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328862858.79823	C5TuEo3FVty7mags3a	192.168.12.10	1029	4.2.2.3	53	udp	24969	cuficellimaad.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328862824.8444	C5TuEo3FVty7mags3a	192.168.12.10	1029	4.2.2.3	53	udp	8847	cuficellimaad.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328862826.844192	C5TuEo3FVty7mags3a	192.168.12.10	1029	4.2.2.3	53	udp	8847	cuficellimaad.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328862830.907378	C5TuEo3FVty7mags3a	192.168.12.10	1029	4.2.2.3	53	udp	8847	cuficellimaad.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328862807.742065	C5TuEo3FVty7mags3a	192.168.12.10	1029	4.2.2.3	53	udp	6286	cuficellimaad.com	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1328862809.765863	C5TuEo3FVty7mags3a	192.168.12.10	1029	4.2.2.3	53	udp	6286	cuficellimaad.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328862811.766013	C5TuEo3FVty7mags3a	192.168.12.10	1029	4.2.2.3	53	udp	6286	cuficellimaad.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328862815.781631	C5TuEo3FVty7mags3a	192.168.12.10	1029	4.2.2.3	53	udp	6286	cuficellimaad.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-25-54

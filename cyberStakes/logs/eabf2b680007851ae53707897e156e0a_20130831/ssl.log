@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-11-06-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1377917124.808514	CAkqOd4Hd2okDOkVh9	192.168.22.10	1041	74.125.224.228	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1376538013.000000	1408074013.000000	-	-	-	04a2f65d53517539bcfe0fe8105edccb	ok
+1377917125.686625	Cd9BMw1r4PpatpNHHi	192.168.22.10	1045	74.125.224.111	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1376534899.000000	1408070899.000000	-	-	-	4e7dcc82199d954770b0c9618443f586	ok
+1377917129.018	CIpqZ04Ev83THGItoh	192.168.22.10	1058	2.17.130.110	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=s-static.ak.facebook.com,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,ST=California,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1363150837.000000	1394686837.000000	-	-	-	8072f767b362050ff6b5555555555554	ok
+1377917129.073697	CYzjO737BAq64JVNK2	192.168.22.10	1059	31.13.70.17	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.facebook.com,O=Facebook\, Inc.,L=Palo Alto,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1365656400.000000	1457243999.000000	-	-	-	8dcb09e95b92d8f629d865ae781c9f48	ok
+1377917135.364758	CpGORb0ahGj4qBO3b	192.168.22.10	1069	74.125.129.84	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=accounts.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1376535373.000000	1408071373.000000	-	-	-	372f0f6e17c2fd371e0d94124c50d219	ok
+1377917135.415687	CG0Is74UDZXaaUvuWe	192.168.22.10	1070	74.125.224.228	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	6f8415e43e233ec796b3e59addcf12b6f6bee54b51c12d7ec2ee59af588c53a4	-	-	-	-	-	-	-	-	-
+1377917135.730626	Ccdr4M31YeJs5XzGS5	192.168.22.10	1071	74.125.224.234	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1376536658.000000	1408072658.000000	-	-	-	e9cb7a1b46b152121cad7552afb52e8a	ok
+#close	2014-04-03-11-06-54

@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-02-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1331586779.165403	CN7hNL3NMyhW3P1Hb5	192.168.124.10	1029	4.2.2.3	53	udp	17807	kwiksurveys.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.165.230.88	43175.000000	F
+1331586781.531052	CN7hNL3NMyhW3P1Hb5	192.168.124.10	1029	4.2.2.3	53	udp	22668	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.159.113,74.125.159.138,74.125.159.139,74.125.159.100,74.125.159.101,74.125.159.102	29861.000000,170.000000,170.000000,170.000000,170.000000,170.000000,170.000000	F
+1331586784.28504	CN7hNL3NMyhW3P1Hb5	192.168.124.10	1029	4.2.2.3	53	udp	42124	img303.momokoko.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.162.101.191	6001.000000	F
+1331586797.72924	CN7hNL3NMyhW3P1Hb5	192.168.124.10	1029	4.2.2.3	53	udp	5002	ns1.shoshololo.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.106.31.187	43200.000000	F
+#close	2014-04-03-10-02-49

@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-05-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1316272763.205918	CleUTY2LYUm0JKaV2	192.168.91.10	1059	89.201.174.28	80	FxikOu8ejlI4jCtK7	application/jar	http://fdafadv.freewww.info/showthread.php?t=707008394	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 68%  Last seen: 2012-12-01 04:31:09	https://www.virustotal.com/en/search/?query=ca641aeaf0578efb0bdd96bb8fac350d348f7221	192.168.91.10	89.201.174.28	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1316272763.205918	CleUTY2LYUm0JKaV2	192.168.91.10	1059	89.201.174.28	80	FNxSUYb2saybxI2of	application/jar	http://fdafadv.freewww.info/showthread.php?t=707008394	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 68%  Last seen: 2012-12-01 04:31:09	https://www.virustotal.com/en/search/?query=ca641aeaf0578efb0bdd96bb8fac350d348f7221	192.168.91.10	89.201.174.28	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1316272763.834754	CleUTY2LYUm0JKaV2	192.168.91.10	1059	89.201.174.28	80	FsBWgX1FYJQsxvjw4d	application/jar	http://fdafadv.freewww.info/showthread.php?t=707008394	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 68%  Last seen: 2012-12-01 04:31:09	https://www.virustotal.com/en/search/?query=ca641aeaf0578efb0bdd96bb8fac350d348f7221	192.168.91.10	89.201.174.28	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-05-36

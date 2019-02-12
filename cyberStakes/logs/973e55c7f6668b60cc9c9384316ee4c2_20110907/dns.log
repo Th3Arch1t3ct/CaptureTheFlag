@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-59-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1315421236.353534	CnQiRq1Dy9oqx7BREf	192.168.111.10	1029	4.2.2.3	53	udp	32141	client.ups-track.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	122.224.18.76	3576.000000	F
+1315421236.85672	CnQiRq1Dy9oqx7BREf	192.168.111.10	1029	4.2.2.3	53	udp	59277	ups-track.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.208.34.84	3600.000000	F
+1315421258.987887	Cy0NWacruTIpVazJk	192.168.111.10	1029	4.2.2.3	53	udp	38028	www.ups.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.ups.com.akadns.net,www.upsprodcidr2.com.akadns.net,origin.www.ups.com,153.2.224.50,153.2.228.50	300.000000,300.000000,30.000000,1248.000000,1248.000000	F
+1315421269.216434	Cbja8R2DXLbaLb66B8	192.168.111.10	1058	4.2.2.3	53	udp	3465	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,204.245.190.8,204.245.190.27	4469.000000,77.000000,4493.000000,7.000000,7.000000	F
+1315421269.861028	CY2RkQxzkPHMVwqoi	192.168.111.10	1029	4.2.2.5	53	udp	910	mysybackups.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.46.251.167	3600.000000	F
+1315421268.865781	Cy0NWacruTIpVazJk	192.168.111.10	1029	4.2.2.3	53	udp	910	mysybackups.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.46.251.167	3600.000000	F
+1315421270.860139	Cy0NWacruTIpVazJk	192.168.111.10	1029	4.2.2.3	53	udp	910	mysybackups.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1315421270.860139	Cy0NWacruTIpVazJk	192.168.111.10	1029	4.2.2.3	53	udp	910	mysybackups.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1315421298.94096	CzB9iX2EOR32P2ozck	192.168.111.10	1058	4.2.2.5	53	udp	54408	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	search.ms.com.edgesuite.net,a134.b.akamai.net,65.121.208.162,65.121.208.169,65.121.208.171,65.121.208.177,65.121.208.179,65.121.208.104,65.121.208.105,65.121.208.152,65.121.208.160	725.000000,3220.000000,2.000000,2.000000,2.000000,2.000000,2.000000,2.000000,2.000000,2.000000,2.000000	F
+#close	2014-04-03-10-59-40

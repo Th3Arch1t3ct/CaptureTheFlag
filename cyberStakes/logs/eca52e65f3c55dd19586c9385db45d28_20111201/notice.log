@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-50-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1322736028.625238	C0OeUD2MHBwK5Ekuzl	192.168.33.10	1033	109.235.49.136	80	F8PTWx1d5kP9emDTN7	application/x-shockwave-flash	http://very-bad-tube.info/jlarepytilcrk.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 50%  Last seen: 2011-11-30 09:32:00	https://www.virustotal.com/en/search/?query=68c4c58082660b5a0c21784ca5d30bab95448ec9	192.168.33.10	109.235.49.136	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1322736036.26762	CUAIzk4WJn9BmltWhh	192.168.33.10	1034	109.235.49.136	80	Fv93YN2AaTZDnKZWN2	application/pdf	http://very-bad-tube.info/azjpcwenisapyo9.pdf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 25%  Last seen: 2011-12-01 04:07:22	https://www.virustotal.com/en/search/?query=700a14ba4d69b2fd4f2fd646fbda02a7ef9d466f	192.168.33.10	109.235.49.136	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1322736039.457279	Co3J4AMCxwmoefZ1a	192.168.33.10	1045	109.235.49.136	80	FLHq833tJPkb4EEZb3	application/x-dosexec	http://very-bad-tube.info/eo.php?i=15	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2011-12-14 04:05:58	https://www.virustotal.com/en/search/?query=e24a6334637c246a89e535e2a5f868316c6ad8e8	192.168.33.10	109.235.49.136	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1322736039.48833	CzA3BK22sSvw6nSHKl	192.168.33.10	1047	109.235.49.136	80	FjE7Q33DNrBKZSycV9	application/pdf	http://very-bad-tube.info/btftbpywknyv8.pdf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 25%  Last seen: 2011-11-30 09:20:29	https://www.virustotal.com/en/search/?query=9a017e5bfaf6968c1711f2a7d4d9946cb6da1d8d	192.168.33.10	109.235.49.136	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1322736049.737135	CENNP44DfTY1d1D8Bf	192.168.33.10	1039	109.235.49.136	80	F7ne221XMeF5KtjWx7	application/jar	http://very-bad-tube.info/xqcrhoemgpin.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2011-11-23 07:46:08	https://www.virustotal.com/en/search/?query=5f3480b2dc331cbfb77ab719945cd6b072268fe1	192.168.33.10	109.235.49.136	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-50-54

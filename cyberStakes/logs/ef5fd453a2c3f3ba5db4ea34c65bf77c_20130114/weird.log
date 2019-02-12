@@ -1,0 +1,30 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-14-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1358207899.591502	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1358207922.424887	CtSg8m35ZxGayl1she	192.168.38.10	1054	194.165.17.3	53	DNS_Conn_count_too_large	-	F	bro
+1358207922.425087	Cjzzxo1nkKrgXiCokh	192.168.38.10	1054	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1358207922.427175	Ce8hyEPgpHT9klul4	192.168.38.10	1056	194.165.17.3	53	DNS_Conn_count_too_large	-	F	bro
+1358207922.427339	CoXo6Y3QPRW56bLsS6	192.168.38.10	1056	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1358207922.44082	CEreKp32Ua1VRNDqIe	192.168.38.10	1058	194.165.17.3	53	DNS_Conn_count_too_large	-	F	bro
+1358207922.441139	CQLpQb1cPFNfLun6Ug	192.168.38.10	1058	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1358207922.445031	Cf9hPQKUvbrSDCms5	192.168.38.10	1060	194.165.17.3	53	DNS_Conn_count_too_large	-	F	bro
+1358207922.445211	CTTwUU3hjjqyqVQNfg	192.168.38.10	1060	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1358207922.447982	C49U0B1BRlZKcMrl16	192.168.38.10	1062	194.165.17.3	53	DNS_Conn_count_too_large	-	F	bro
+1358207922.448144	COCzA93JLopTX4nPz3	192.168.38.10	1062	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1358207922.467696	CR8ljA3HQlsaNuno6i	192.168.38.10	1064	194.165.17.3	53	DNS_Conn_count_too_large	-	F	bro
+1358207922.467887	CPPLp21e2MaAIwxW8f	192.168.38.10	1064	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1358207922.707646	CzZYcE1WSHMqnE4Cr6	192.168.38.10	1068	194.165.17.3	53	DNS_Conn_count_too_large	-	F	bro
+1358207922.707875	CJiejX2KG2vYBpiU83	192.168.38.10	1068	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1358207922.722266	CsPf1N3iqvI7RCaTdj	192.168.38.10	1070	194.165.17.3	53	DNS_Conn_count_too_large	-	F	bro
+1358207922.722559	CARUMYPw7jT7GVT6a	192.168.38.10	1070	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1358207922.790434	CY9ugV2TG33nm84zfc	192.168.38.10	1072	194.165.17.3	53	DNS_Conn_count_too_large	-	F	bro
+1358207922.790625	CAXjtQ1lf6RXlbgWkj	192.168.38.10	1072	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1358207943.024541	CBs2JU3bs196rxKzZ7	192.168.38.10	1086	5.79.240.44	80	bad_HTTP_request	-	F	bro
+1358207943.024541	CBs2JU3bs196rxKzZ7	192.168.38.10	1086	5.79.240.44	80	line_terminated_with_single_CR	-	F	bro
+#close	2014-04-03-10-14-02

@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-54-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1343247814.781988	C9jz1T3JSYoqUNjeQb	192.168.61.10	1045	82.98.144.35	80	Fasef83FBSiqOCLImj	application/x-dosexec	http://radiofusion.eu/3.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 38%  Last seen: 2012-07-28 07:03:36	https://www.virustotal.com/en/search/?query=9eb9fc882bc142427a6224c55065673ca20458b9	192.168.61.10	82.98.144.35	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1343247814.781988	CBDPMg47VJyqH2U6U4	192.168.61.10	1046	82.98.144.35	80	FkSOIF2M1lz4zdEvBg	application/x-dosexec	http://radiofusion.eu/2.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 38%  Last seen: 2012-07-28 07:03:36	https://www.virustotal.com/en/search/?query=9eb9fc882bc142427a6224c55065673ca20458b9	192.168.61.10	82.98.144.35	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1343247834.797121	C5y1WZ2HlfpLD2b2ta	192.168.61.10	1088	195.210.47.239	80	FVcPka1INx1dIJvcai	application/x-dosexec	http://thanosactpetitioned.cu.cc/f/notepad.exe?ts=86b559f2&affid=5630	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2012-07-27 04:38:48	https://www.virustotal.com/en/search/?query=c14ecaaa335ef3a433651d92996ea76efa7b6601	192.168.61.10	195.210.47.239	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-54-45

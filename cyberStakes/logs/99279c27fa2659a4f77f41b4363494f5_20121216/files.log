@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-35-30
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1355630005.998604	FdvQOd2yxOX4uxnzjl	74.220.219.133	192.168.124.10	C9f0AyLbPQSmaepXf	HTTP	0	MD5,SHA1	text/html	-	0.479227	-	F	4751	-	0	0	F	-	632493a739f61c0a62677d3247f64d56	901ee549837727b2e096a518041c15bdf47b6ec9	-	-
+1355630006.822558	F39fGC39gcTNwledIi	142.0.34.55	192.168.124.10	CLRfB838vLR8gjJN6e	HTTP	0	MD5,SHA1	text/html	-	0.791364	-	F	94411	-	0	0	F	-	5f1cef8eb60b6dca048925b0bbe07b8d	2df01ef5780899e236433b9b1093e98e40eb6850	-	-
+1355630008.798268	FodsO64TwOqkbCEer	192.168.124.10	65.55.13.243	CvVNmj18dmFPXAUPi7	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	T	44	44	0	0	F	-	cde5bdd41fae8122ee6f419d237143e3	90cf92217ee0d1af9dea3d662930950d89292bf8	-	-
+1355630008.873311	FqIcdk12KLdKYGKGGb	65.55.13.243	192.168.124.10	CvVNmj18dmFPXAUPi7	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	13	13	0	0	F	-	1e6cd917ed71a1241e4bedc29264bd98	5b65037351caeb0e5a48d963d7ffa88d0271d546	-	-
+1355630009.034679	FDF5le1vSw2nn4Wed8	192.168.124.10	64.4.52.169	Cbwwfx5NhpyOdfUm1	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	T	44	44	0	0	F	-	cde5bdd41fae8122ee6f419d237143e3	90cf92217ee0d1af9dea3d662930950d89292bf8	-	-
+1355630009.09422	FVK8TBjAfEzs98lT1	64.4.52.169	192.168.124.10	Cbwwfx5NhpyOdfUm1	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	13	13	0	0	F	-	1e6cd917ed71a1241e4bedc29264bd98	5b65037351caeb0e5a48d963d7ffa88d0271d546	-	-
+1355630014.650673	FAtEDK17T0yByzKbo2	142.0.34.55	192.168.124.10	CLW3Yj46fnumRaHCvj	HTTP	0	MD5,SHA1	application/x-shockwave-flash	-	0.000000	-	F	912	-	0	0	F	-	6478baaaef1fea99d1c4520ec2d30002	3d44fc9b69f221b28b69b8904fa8a65686a7accb	-	-
+1355630014.602175	FnG4g32XHFT1BSetwk	142.0.34.55	192.168.124.10	CLRfB838vLR8gjJN6e	HTTP	0	MD5,SHA1	application/pdf	1da8e.pdf	0.086090	-	F	14498	14498	0	0	F	-	16f4034627d276e581e41170714e7987	df3a290179f1f750847158ffc1822debadd67ec4	-	-
+1355630037.177854	FtZnsWYugLWn9E4xc	142.0.34.55	192.168.124.10	CLRfB838vLR8gjJN6e	HTTP	0	MD5,SHA1	application/x-dosexec	about.exe	0.193441	-	F	38352	38352	0	0	F	-	7d09da7e64e94c8d6c945536a3c2e627	d44879c8491ec844108c6159a9e8667192640854	-	-
+#close	2014-04-03-10-35-30

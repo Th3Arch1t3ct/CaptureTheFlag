@@ -1,0 +1,43 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-52-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1339539392.688897	C5QjGD22NamWjV9fba	192.168.56.10	1030	199.59.241.250	80	1	GET	666nf.info	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1233	200	OK	-	-	-	(empty)	-	-	-	-	-	FnXNWn3k9ytLcWZwzi	text/html
+1339539392.780297	C5QjGD22NamWjV9fba	192.168.56.10	1030	199.59.241.250	80	2	GET	666nf.info	/?framerequest=1&refurl=	http://666nf.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3917	200	OK	-	-	-	(empty)	-	-	-	-	-	FZBbBt1Q4oZAqT3C88	text/html
+1339539395.127597	C5QjGD22NamWjV9fba	192.168.56.10	1030	199.59.241.250	80	3	GET	666nf.info	/tracking?method=ZeroClickRequest&enc=cmk9NDc2MTI3JmQ9NjY2bmYuaW5mbyZzPTMyM3dvNmsxM3N4bDlyd3cmc3I9JnRhZ2lkPSZ6cGlkPSZpdWY9ZmFsc2UmdWY9JnNpPTQ5JnN0PTIxODQmenJpPTMzejdsbHN0dXhhemF0MnQmcGlkPTg3JnBiPTAuMDAyMDE&sw=800&sh=600&r=http://feed.bizzclick.com/click.php?id=oRZKfO7_NN9cOdZxAHVk6JvWg5SKqxbJYDJd02600ihukLCC5byujdhaNaYINDRyFhHAlOECUq3zORUuLqBN8Q%2C%2C	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1339539395.254481	Cl3gRjRazlRMDwvB1	192.168.56.10	1035	216.18.215.5	80	1	GET	feed.bizzclick.com	/click.php?id=oRZKfO7_NN9cOdZxAHVk6JvWg5SKqxbJYDJd02600ihukLCC5byujdhaNaYINDRyFhHAlOECUq3zORUuLqBN8Q,,	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1339539395.860164	CPb94h3UqrjhpNeQii	192.168.56.10	1036	62.75.246.122	80	1	GET	all-lyric.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	133	200	OK	-	-	-	(empty)	-	-	-	-	-	F37VEd45HhwjzjDZg5	text/plain
+1339539396.682462	CH9bf92PRSMpkpKLM1	192.168.56.10	1037	37.157.255.155	80	1	GET	cetuha.tk	/79363990.html	http://all-lyric.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	277	200	OK	-	-	-	(empty)	-	-	-	-	-	FP9jWC3CsPaf6bhHh	text/html
+1339539398.707722	C1Xi7j3oqIrTuTSJ8i	192.168.56.10	1038	37.157.255.155	80	1	GET	cetuha.tk	/33982.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	61226	200	OK	-	-	-	(empty)	-	-	-	-	-	FkCAEY3efGsY9gvsyb	application/zip
+1339539399.261501	C1Xi7j3oqIrTuTSJ8i	192.168.56.10	1038	37.157.255.155	80	2	GET	cetuha.tk	/33982.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	61226	200	OK	-	-	-	(empty)	-	-	-	-	-	FFqnSf2t24E4aAJ9Il	application/zip
+1339539399.730816	C1Xi7j3oqIrTuTSJ8i	192.168.56.10	1038	37.157.255.155	80	3	GET	cetuha.tk	/33982.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	61226	200	OK	-	-	-	(empty)	-	-	-	-	-	FWBy48Vj0lz7IwIt5	application/zip
+1339539400.364128	C1Xi7j3oqIrTuTSJ8i	192.168.56.10	1038	37.157.255.155	80	4	GET	cetuha.tk	/1.html	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	76288	200	OK	-	-	-	(empty)	-	-	-	-	-	FYNtTu3GpQ6uZJpIv7	application/x-dosexec
+1339539408.556911	CZzuJ62SpAFLoqd0H9	192.168.56.10	1039	37.157.255.156	80	1	GET	37.157.255.156	/572156.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	186880	200	OK	-	-	-	(empty)	-	-	-	-	-	F0OfgM1HZis9XKYsAf	binary
+1339539409.755199	CZzuJ62SpAFLoqd0H9	192.168.56.10	1039	37.157.255.156	80	2	GET	37.157.255.156	/572156.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	186880	200	OK	-	-	-	(empty)	-	-	-	-	-	FMYHyD1i3Be6ygIGbh	binary
+1339539410.29684	CZzuJ62SpAFLoqd0H9	192.168.56.10	1039	37.157.255.156	80	3	GET	37.157.255.156	/572156.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	385024	200	OK	-	-	-	(empty)	-	-	-	-	-	FFGegM3DJL1tWiWS16	binary
+1339539411.347999	CZzuJ62SpAFLoqd0H9	192.168.56.10	1039	37.157.255.156	80	4	GET	37.157.255.156	/572156.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	122880	200	OK	-	-	-	(empty)	-	-	-	-	-	FbdvIp3GISVtP1kx6l	binary
+1339539411.754833	CZzuJ62SpAFLoqd0H9	192.168.56.10	1039	37.157.255.156	80	5	GET	37.157.255.156	/572156.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	165888	200	OK	-	-	-	(empty)	-	-	-	-	-	FKtesjEssYNUpIIWj	binary
+1339539412.292886	CZzuJ62SpAFLoqd0H9	192.168.56.10	1039	37.157.255.156	80	6	GET	37.157.255.156	/572156.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	338498	200	OK	-	-	-	(empty)	-	-	-	-	-	FRBb4M28deJJQdoqo5	binary
+1339539413.308302	CZzuJ62SpAFLoqd0H9	192.168.56.10	1039	37.157.255.156	80	7	GET	37.157.255.156	/572156.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	79328	200	OK	-	-	-	(empty)	-	-	-	-	-	FEv4e94PeVMT2dKdc4	binary
+1339539413.701047	CZzuJ62SpAFLoqd0H9	192.168.56.10	1039	37.157.255.156	80	8	GET	37.157.255.156	/572156.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	666	200	OK	-	-	-	(empty)	-	-	-	-	-	FULuTz2FaN4Bth3fX7	binary
+1339539414.288128	Czf28q4cEIXqcWKKk	192.168.56.10	1041	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	29	200	OK	-	-	-	(empty)	-	-	-	-	-	FmW4EAVeNmoM8Nv5	text/plain
+1339539414.512023	CzGsUu1X9eKrrQ0LE4	192.168.56.10	1042	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=549&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339539414.513182	C1yUfZ0sh2dOvqZ27	192.168.56.10	1044	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=549&c=2&d=7&s=121	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339539414.527043	CpvRIH2wAIHEE5txYk	192.168.56.10	1046	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=549&c=3&d=7&s=131	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339539414.533732	CFwx9x4fpc4BYFxVoc	192.168.56.10	1048	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=549&c=4&d=7&s=1	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339539414.53389	C1nGSa2xeQdjoHpat1	192.168.56.10	1050	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=549&c=5&d=7&s=20	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339539414.643967	Cp6dulaJyNQlwCW2a	192.168.56.10	1053	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=549&c=6&d=7&s=21	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339539414.665528	C3A8mnunJYxpdmFU9	192.168.56.10	1056	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=549&c=7&d=7&s=30	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339539414.678322	ClW8Y32JcN2TA1jo02	192.168.56.10	1058	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=549&c=8&d=7&s=31	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339539421.584114	CEj5ql3hL9hEI9aXXh	192.168.56.10	1062	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	29	200	OK	-	-	-	(empty)	-	-	-	-	-	FAYsXw4d9bmti6SGM6	text/plain
+1339539421.795353	CC87v42yKPASjtVO0d	192.168.56.10	1063	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339539421.838409	C05Fdx1G0IlVRr1Vt4	192.168.56.10	1065	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=2&d=7&s=110	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339539421.887872	CA6Eez1GKuul30dFj4	192.168.56.10	1067	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=3&d=7&s=10	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339539423.429586	C2DOKe3baNGkU9yFti	192.168.56.10	1070	78.140.131.157	80	1	GET	megaupload.com	/file/id=BAAyAAEAkOIAAAEFBhcAAAAAAAAAAAAAAAAAAAAjDAYKCwAAAEX4qs_hEdO0rLhwgiZvmW8AAFVVVVVVVVVVVVVVVVVVVVUKSc0BDIeUVpjeAABVd3Vtc219Y29lczMyaGc4Zzg4AkaTNQrd_hNvAAAAAAA0VgAA&rt=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)	0	523	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FMsavO3hCzbEThitZ6	text/html
+1339539423.724253	CG37ub2jiNtxhi4N0a	192.168.56.10	1071	116.255.235.9	80	1	GET	116.255.235.9	/api/urls/?ts=402336cd&affid=56300	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	0	404	NOT FOUND	-	-	-	(empty)	-	-	-	-	-	-	-
+1339539432.135545	CSk5qF2NjyK74xbk9l	192.168.56.10	1077	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	29	200	OK	-	-	-	(empty)	-	-	-	-	-	F7W05B36aoJB9kcxR2	text/plain
+#close	2014-04-03-09-52-39

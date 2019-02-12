@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-31-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1329043096.232363	CsTs2H3bjjfafegl53	192.168.29.10	1030	66.147.244.150	80	1	GET	urbancomputingllc.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2093	200	OK	-	-	-	(empty)	-	-	-	-	-	FEtSDx3cWQCHxOjC12	text/html
+1329043096.82992	CBQye64c1GhhwJK9Lf	192.168.29.10	1031	37.59.74.146	80	1	GET	jnobuznhccv.ddns.name	/index.php?showtopic=892380	http://urbancomputingllc.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	448	200	OK	-	-	-	(empty)	-	-	-	-	-	FJu3qG37yXU7udMN0i	text/plain
+1329043097.180733	CBQye64c1GhhwJK9Lf	192.168.29.10	1031	37.59.74.146	80	2	GET	jnobuznhccv.ddns.name	/lib.php	http://jnobuznhccv.ddns.name/index.php?showtopic=892380	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5173	200	OK	-	-	-	(empty)	-	-	-	-	-	FwgWEb4GNY9zGAfTWk	application/pdf
+1329043102.489716	Cu0Hri4zrDC2TvGmlj	192.168.29.10	1036	37.59.74.146	80	1	GET	jnobuznhccv.ddns.name	/Loo.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	7245	200	OK	-	-	-	(empty)	-	-	-	-	-	FUpyzLs2m7kBrKFTc	application/jar
+1329043102.492226	CMhUXj2RYf5qFAzPW1	192.168.29.10	1037	37.59.74.146	80	1	GET	jnobuznhccv.ddns.name	/rhin.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14963	200	OK	-	-	-	(empty)	-	-	-	-	-	FB4cK7496akXZ1zhVc	application/jar
+1329043104.637172	COILfx0BZWa5i5O3a	192.168.29.10	1038	37.59.74.146	80	1	GET	jnobuznhccv.ddns.name	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	360	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FIV8Up8bbO2hck2L5	text/html
+1329043105.48332	COILfx0BZWa5i5O3a	192.168.29.10	1038	37.59.74.146	80	2	GET	jnobuznhccv.ddns.name	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	360	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FFlw4w2Pk1yJ2JkXJ6	text/html
+1329043105.582224	COILfx0BZWa5i5O3a	192.168.29.10	1038	37.59.74.146	80	3	GET	jnobuznhccv.ddns.name	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	360	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FPR4pt2EumehikI8ue	text/html
+1329043105.682134	COILfx0BZWa5i5O3a	192.168.29.10	1038	37.59.74.146	80	4	GET	jnobuznhccv.ddns.name	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	360	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FBD7QD4XHwTAVPMob9	text/html
+1329043105.595069	C09xJv2MNR0VSDu0x5	192.168.29.10	1039	37.59.74.146	80	1	GET	uhypqwwrwqb.ddns.name	/load.php?showforum=lib	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	29184	200	OK	-	-	-	(empty)	-	-	-	-	-	FIBiQW2i17iFnqIwdh	application/x-dosexec
+1329043105.949612	CRKZUr3pwaCsPJ2Pci	192.168.29.10	1040	37.59.74.146	80	1	GET	uhypqwwrwqb.ddns.name	/load.php?showforum=rhino	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	29184	200	OK	-	-	-	(empty)	-	-	-	-	-	FMLgVa1RuSRBpBCpt5	application/x-dosexec
+1329043109.281141	CRKZUr3pwaCsPJ2Pci	192.168.29.10	1040	37.59.74.146	80	2	GET	uhypqwwrwqb.ddns.name	/load.php?showforum=obe	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	29184	200	OK	-	-	-	(empty)	-	-	-	-	-	FMTWHS3vPpdFInaT7c	application/x-dosexec
+#close	2014-04-03-10-31-06

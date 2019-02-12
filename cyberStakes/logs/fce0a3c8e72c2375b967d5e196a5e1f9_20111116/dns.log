@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-26-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1321433935.199472	CXe9vw1vQQ3wXvhKo8	192.168.98.10	1030	4.2.2.3	53	udp	40336	caninecastlekennels.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.205.124.151	14378.000000	F
+1321433935.300258	CXe9vw1vQQ3wXvhKo8	192.168.98.10	1030	4.2.2.3	53	udp	53649	cloud-ventures.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.217.153.36	1800.000000	F
+1321433935.358333	CXe9vw1vQQ3wXvhKo8	192.168.98.10	1030	4.2.2.3	53	udp	58514	google-banking.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-26-32

@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-13-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1322936953.914601	CBSN1g1pxkQlAqOmb	192.168.79.10	1030	65.98.101.162	80	1	GET	www.online-topbrand.us	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	897	200	OK	-	-	-	(empty)	-	-	-	-	-	F2n1kV3pxpphxCmFUd	text/html
+1322936953.956346	CBSN1g1pxkQlAqOmb	192.168.79.10	1030	65.98.101.162	80	2	GET	www.online-topbrand.us	/css/reset.css	http://www.online-topbrand.us/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	991	200	OK	-	-	-	(empty)	-	-	-	-	-	F0RLaw1cLxL7HmnFd9	text/plain
+1322936953.9853	CY2Xv94KpXwnHU62K1	192.168.79.10	1031	65.98.101.162	80	1	GET	www.online-topbrand.us	/css/style.css	http://www.online-topbrand.us/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	694	200	OK	-	-	-	(empty)	-	-	-	-	-	FQ2GDqq9Af2tZTqZb	text/plain
+1322936953.985618	CBSN1g1pxkQlAqOmb	192.168.79.10	1030	65.98.101.162	80	3	GET	www.online-topbrand.us	/js/jquery.js	http://www.online-topbrand.us/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2592	200	OK	-	-	-	(empty)	-	-	-	-	-	FZVW1Q2sSg8QPE0I2k	text/plain
+1322936954.350244	CBSN1g1pxkQlAqOmb	192.168.79.10	1030	65.98.101.162	80	4	GET	www.online-topbrand.us	/img/bg.gif	http://www.online-topbrand.us/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	73	200	OK	-	-	-	(empty)	-	-	-	-	-	Fn1RHv2QVaOZuPi98d	image/gif
+1322936954.349929	CY2Xv94KpXwnHU62K1	192.168.79.10	1031	65.98.101.162	80	2	GET	www.online-topbrand.us	/img/bt.jpg	http://www.online-topbrand.us/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5918	200	OK	-	-	-	(empty)	-	-	-	-	-	FUlqsj2xFhM1J2tYle	image/jpeg
+1322936954.41753	CY2Xv94KpXwnHU62K1	192.168.79.10	1031	65.98.101.162	80	3	GET	www.online-topbrand.us	/img/watch.gif	http://www.online-topbrand.us/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	14084	200	OK	-	-	-	(empty)	-	-	-	-	-	FtJVlvDowMQwFpeFj	image/gif
+1322936954.379912	CBSN1g1pxkQlAqOmb	192.168.79.10	1030	65.98.101.162	80	5	GET	www.online-topbrand.us	/img/logo.png	http://www.online-topbrand.us/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	18753	200	OK	-	-	-	(empty)	-	-	-	-	-	F2mvax4byHjBZ5Yox6	image/png
+1322936954.575568	CHoNLt4G5wprT9fXod	192.168.79.10	1032	188.127.228.44	80	1	GET	ggeoliyerr.in	/i/yula	http://www.online-topbrand.us/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2116	200	OK	-	-	-	(empty)	-	-	-	-	-	FgKxqh1jJphxJBWwAb	text/html
+1322936955.552963	CFEgSh23snUcjxXWSb	192.168.79.10	1033	188.127.228.44	80	1	GET	ggeoliyerr.in	/x/1dba671f4492e47c9ee77efb39b1a22f?pdf=9.1.0	http://ggeoliyerr.in/i/yula	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3063	200	OK	-	-	-	(empty)	-	-	-	-	-	FAP6mDtkqCL7zcf7d	text/plain
+1322936955.996026	CA1e3X1SHCROnXNb1g	192.168.79.10	1034	188.127.228.44	80	1	GET	ggeoliyerr.in	/e/1/1dba671f4492e47c9ee77efb39b1a22f	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	844288	200	OK	-	-	-	(empty)	-	-	-	-	-	Fwq8CS23YnX71AML4	application/x-dosexec
+1322936960.262641	CgOwno1lPU0mgCNc93	192.168.79.10	1039	188.127.228.44	80	1	GET	ggeoliyerr.in	/p/1dba671f4492e47c9ee77efb39b1a22f	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	232	404	NOT FOUND	-	-	-	(empty)	-	-	-	-	-	FCtlM92wz6XyNaskXb	text/html
+1322936961.396037	COUYPA3i1eNCfanfm4	192.168.79.10	1040	64.202.163.8	80	1	GET	getmilfs.com	/logo/go.php?id=51	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2	200	OK	-	-	-	(empty)	-	-	-	-	-	FFIkRB2kEtCw0pw7Fg	text/plain
+1322936962.944161	CXXDCQ3lc0B7EBKuLc	192.168.79.10	1041	72.167.207.74	80	1	GET	oneathleticmom.com	/images/b.php?id=51	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2	200	OK	-	-	-	(empty)	-	-	-	-	-	Fznz7rWomW6Npthr4	text/plain
+#close	2014-04-03-10-13-11

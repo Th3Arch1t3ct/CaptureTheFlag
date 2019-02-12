@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-17-38
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1318197547.916382	CM2YQGNQ9rl0czj13	192.168.40.10	1036	46.37.181.23	80	FbsbaY1h1FESveRjmb	application/x-dosexec	http://rollaa.ru/photo-54726/172949049/IMG_1564.scr	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2011-10-05 05:16:05	https://www.virustotal.com/en/search/?query=5a9b8f959bd9b0483183b1cc3a2159f44c59a402	192.168.40.10	46.37.181.23	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-17-38

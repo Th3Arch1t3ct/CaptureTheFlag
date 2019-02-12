@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-08-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1327524488.144801	CUrfP144q9Tv2Lhth2	192.168.34.10	1029	4.2.2.3	53	udp	23949	hahaaustralia.com.au	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	70.87.76.162	14378.000000	F
+1327524502.180687	CY4aNWrowAJ3iWUI2	192.168.34.10	1029	4.2.2.3	53	udp	41357	www.hahaaustralia.com.au	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	hahaaustralia.com.au,70.87.76.162	14374.000000,14364.000000	F
+1327524518.627622	CxLY611mvkoh9Ra8Hk	192.168.34.10	1029	4.2.2.3	53	udp	29068	mintronix.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.175.58.9	3600.000000	F
+1327524526.549659	CxLY611mvkoh9Ra8Hk	192.168.34.10	1029	4.2.2.3	53	udp	7055	fkdvut.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	203.170.193.102	600.000000	F
+#close	2014-04-03-10-08-58

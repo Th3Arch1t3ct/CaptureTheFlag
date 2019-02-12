@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-16-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1343093156.238731	CdVKtg4XLSOau5uydd	192.168.117.10	1029	4.2.2.3	53	udp	51084	proactive-search.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.172.167.11	14373.000000	F
+1343093157.265608	CdVKtg4XLSOau5uydd	192.168.117.10	1029	4.2.2.3	53	udp	37775	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,199.3.115.129,199.3.115.153	26973.000000,16.000000,3700.000000,18.000000,18.000000	F
+1343093157.461634	CdVKtg4XLSOau5uydd	192.168.117.10	1029	4.2.2.3	53	udp	22671	udzycaf.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	202.123.230.171	0.000000	F
+1343093172.981297	CWXb3Q2vNQq6yIuL5k	192.168.117.10	1029	4.2.2.3	53	udp	28041	groupelauzon.ca	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	204.147.76.4	14400.000000	F
+1343093178.431055	CWXb3Q2vNQq6yIuL5k	192.168.117.10	1029	4.2.2.3	53	udp	21641	4.76.147.204.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	server1.activedata.ca	37265.000000	F
+1343093178.436277	CWXb3Q2vNQq6yIuL5k	192.168.117.10	1029	4.2.2.3	53	udp	7305	server1.activedata.ca	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	204.147.76.4	8465.000000	F
+1343093192.951528	CWXb3Q2vNQq6yIuL5k	192.168.117.10	1029	4.2.2.3	53	udp	37256	www.scharfegger.at	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	212.69.175.122	43200.000000	F
+1343093214.963204	CHuSQVujy2a32aHP5	192.168.117.10	1029	4.2.2.3	53	udp	2952	yxyqwiz.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	75.132.233.216	0.000000	F
+#close	2014-04-03-10-16-14

@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-37-51
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1357269414.333187	CdftC03bsXCGwkakEb	192.168.112.10	1029	4.2.2.3	53	udp	46225	christinejtdear.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.170.52.31,93.170.52.21	300.000000,300.000000	F
+1357269414.755102	CdftC03bsXCGwkakEb	192.168.112.10	1029	4.2.2.3	53	udp	63634	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.139.102,74.125.139.138,74.125.139.101,74.125.139.100,74.125.139.139,74.125.139.113	51880.000000,90.000000,90.000000,90.000000,90.000000,90.000000,90.000000	F
+1357269414.759416	CdftC03bsXCGwkakEb	192.168.112.10	1029	4.2.2.3	53	udp	15764	zehkq.khjvgsg.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	urlforward.topdns.com,72.8.167.249,199.59.160.184	3600.000000,3232.000000,3232.000000	F
+1357269415.188654	CdftC03bsXCGwkakEb	192.168.112.10	1029	4.2.2.3	53	udp	8853	fbstatic-a.akamaihd.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fbstatic-a.akamaihd.net.edgesuite.net,a1168.dsw4.akamai.net,69.31.74.9,69.31.74.65,69.31.74.72,69.31.74.81,69.31.74.59,69.31.74.57,69.31.74.51,69.31.74.66,69.31.74.73	46.000000,163.000000,12.000000,12.000000,12.000000,12.000000,12.000000,12.000000,12.000000,12.000000,12.000000	F
+#close	2014-04-03-10-37-51

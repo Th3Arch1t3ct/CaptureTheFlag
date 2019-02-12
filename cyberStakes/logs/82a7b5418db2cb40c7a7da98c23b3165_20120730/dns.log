@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-08-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1343663055.879788	C42wmO2EfgbWqu8wb6	192.168.54.10	1029	4.2.2.3	53	udp	23949	mxstylex.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.242.199.78	43174.000000	F
+1343663057.880883	C42wmO2EfgbWqu8wb6	192.168.54.10	1029	4.2.2.3	53	udp	15500	pornosector.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.48.127.154	43200.000000	F
+1343663060.07681	C42wmO2EfgbWqu8wb6	192.168.54.10	1029	4.2.2.3	53	udp	143	78.199.242.94.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	ovz3.aminahost.ru	3600.000000	F
+1343663061.205374	Cg2qbl43SL6pImJec5	192.168.54.10	1029	4.2.2.5	53	udp	54158	ovz3.aminahost.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.242.199.66	3600.000000	F
+1343663060.206403	C42wmO2EfgbWqu8wb6	192.168.54.10	1029	4.2.2.3	53	udp	54158	ovz3.aminahost.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.242.199.66	3600.000000	F
+1343663068.708556	Cg2qbl43SL6pImJec5	192.168.54.10	1029	4.2.2.5	53	udp	32137	dublonax.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.242.199.69	43200.000000	F
+1343663075.799125	Cg2qbl43SL6pImJec5	192.168.54.10	1029	4.2.2.5	53	udp	16772	intergal-bud.com.ua	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	77.232.85.104	1440.000000	F
+1343663062.203406	C42wmO2EfgbWqu8wb6	192.168.54.10	1029	4.2.2.3	53	udp	54158	ovz3.aminahost.ru	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1343663071.689427	Cg2qbl43SL6pImJec5	192.168.54.10	1029	4.2.2.5	53	udp	34955	spovnaw.ru	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1343663071.689427	Cg2qbl43SL6pImJec5	192.168.54.10	1029	4.2.2.5	53	udp	34955	spovnaw.ru	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1343663075.361145	Cg2qbl43SL6pImJec5	192.168.54.10	1029	4.2.2.5	53	udp	7301	http://dublonax.ru/	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1343663075.361145	Cg2qbl43SL6pImJec5	192.168.54.10	1029	4.2.2.5	53	udp	7301	http://dublonax.ru/	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1343663075.361145	Cg2qbl43SL6pImJec5	192.168.54.10	1029	4.2.2.5	53	udp	7301	http://dublonax.ru/	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1343663069.07576	Cg2qbl43SL6pImJec5	192.168.54.10	1029	4.2.2.5	53	udp	12171	laxcloud.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	F	0	-	-	T
+#close	2014-04-03-11-08-14

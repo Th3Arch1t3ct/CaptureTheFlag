@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-29-52
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1343804941.641439	CAfN354z4rOuC4SwDa	192.168.49.10	1029	4.2.2.3	53	udp	56462	logancountywv.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.118.64.208	43173.000000	F
+1343804941.863545	CAfN354z4rOuC4SwDa	192.168.49.10	1029	4.2.2.3	53	udp	59023	www.citynet.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.118.64.190	600.000000	F
+#close	2014-04-03-10-29-52

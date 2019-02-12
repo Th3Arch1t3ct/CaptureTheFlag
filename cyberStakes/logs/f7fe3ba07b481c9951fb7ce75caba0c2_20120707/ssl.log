@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-09-51-23
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1341690610.5569	CN7z4X1pRoHnaSPvd5	192.168.120.10	1031	74.86.34.46	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=www.neostreams.info,OU=Domain Control Validated,O=www.neostreams.info	serialNumber=10688435,CN=Starfield Secure Certification Authority,OU=http://certificates.starfieldtech.com/repository,O=Starfield Technologies\, Inc.,L=Scottsdale,ST=Arizona,C=US	1332230711.000000	1363766711.000000	-	-	-	9732a50ec32804ccf8095806e3e154bc	ok
+1341690613.258981	Ccwhru4S0p28e14w8i	192.168.120.10	1062	173.194.37.78	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1339674167.000000	1370652207.000000	-	-	-	157ccaf6c94a5a538c33797b755fa243	ok
+1341690613.825676	C751TK1bjlyOZ47CO	192.168.120.10	1079	74.86.34.46	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	562c761614c46632d49b841576a8d44f5965790f70fd6390a3bffa27808a82d0	-	-	-	-	-	-	-	-	-
+1341690614.424837	CfFZkyBpDcrB7P8d6	192.168.120.10	1089	74.125.134.115	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=checkout.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Thawte SGC CA,O=Thawte Consulting (Pty) Ltd.,C=ZA	1319605200.000000	1380603599.000000	-	-	-	b2d057d34affffffffffffffffffffff	ok
+1341690614.512317	Cpcs212Cps8cVR5vP4	192.168.120.10	1090	173.0.84.34	443	SSLv3	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=www.paypal.com,OU=PayPal Production,O=PayPal\, Inc.,street=2211 N 1st St,L=San Jose,ST=California,postalCode=95131-2021,C=US,serialNumber=3014267,businessCategory=Private Organization,1.3.6.1.4.1.311.60.2.1.2=#130844656C6177617265,1.3.6.1.4.1.311.60.2.	1.3=#13025553CN=VeriSign Class 3 Extended Validation SSL CA,OU=Terms of use at https://www.verisign.com/rpa (c)06,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1300856400.000000	1364878799.000000	-	-	-	bf47cecad861e3d05ee433333d1ee903	ok
+1341690637.294757	C0KsGq1afySjfJgTU	192.168.120.10	1122	96.17.63.139	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=connect.facebook.net,ST=CALIFORNIA,OU=connect.facebook.net,O=Facebook,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1325623715.000000	1357246115.000000	-	-	-	2ae743fc530ecdbe75c5e60048cccccc	ok
+1341690637.827123	CQVlDf4HPwiFS8t9lg	192.168.120.10	1123	96.17.50.110	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=s-static.ak.facebook.com,ST=California,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1340068319.000000	1368334740.000000	-	-	-	9e5e608717b1f05d5ef57491557c1e52	ok
+1341690662.099572	CLG9623qqmqqEQzLVk	192.168.120.10	1155	96.17.63.139	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	c95cc50ed9c63008b2eb2e26261fc86181b6b14ab71e813dc72f6bb237681f58	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-09-51-23

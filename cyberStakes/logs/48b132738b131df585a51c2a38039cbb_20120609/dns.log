@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-47-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1339280543.018266	CLnkPm3yppLN3CxOYa	192.168.25.10	1029	4.2.2.3	53	udp	42900	granitecountertopprices.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.120.168.9	14370.000000	F
+1339280543.227325	CLnkPm3yppLN3CxOYa	192.168.25.10	1029	4.2.2.3	53	udp	50836	pagead2.googlesyndication.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pagead46.l.doubleclick.net,173.194.79.155,173.194.79.156,173.194.79.157,173.194.79.154	295.000000,153.000000,153.000000,153.000000,153.000000	F
+1339280543.600992	CLnkPm3yppLN3CxOYa	192.168.25.10	1029	4.2.2.3	53	udp	28055	googleads.g.doubleclick.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pagead.l.doubleclick.net,74.125.127.155,74.125.127.156,74.125.127.157,74.125.127.154	230.000000,158.000000,158.000000,158.000000,158.000000	F
+1339280543.662084	CLnkPm3yppLN3CxOYa	192.168.25.10	1029	4.2.2.3	53	udp	13457	pokosa.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.111.9.98	60.000000	F
+1339280545.210303	CLnkPm3yppLN3CxOYa	192.168.25.10	1029	4.2.2.3	53	udp	29585	www3.hard-aascanner.dnset.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.238.110	31.000000	F
+1339280545.536989	CLnkPm3yppLN3CxOYa	192.168.25.10	1029	4.2.2.3	53	udp	915	www1.power-defensegk.dnset.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.121	31.000000	F
+1339280552.946578	CLnkPm3yppLN3CxOYa	192.168.25.10	1029	4.2.2.3	53	udp	30098	www2.smartcasuite.zonet.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.23.11.163	3600.000000	F
+1339280603.933011	CrfOL51E8GyBpN0nGd	192.168.25.10	1029	208.115.221.125	53	udp	63644	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	87.236.195.139	7200.000000	F
+1339280604.537069	CrQYfB19szcpdzwQPc	192.168.25.10	1029	80.90.48.91	53	udp	2204	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	87.236.195.139	7200.000000	F
+#close	2014-04-03-10-47-59

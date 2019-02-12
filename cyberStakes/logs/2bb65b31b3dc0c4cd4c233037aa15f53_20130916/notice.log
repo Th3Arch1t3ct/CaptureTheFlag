@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-36-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1379291008.138755	Cnpcxg1b20OFSAKinc	192.168.85.10	1037	195.66.79.29	80	FrjJSHxHVPNVkpT75	application/x-dosexec	http://www.freefilesdownloader.com/get/Downloader__16100103.exe?st=cO3Qp-QCxfaVyrfFAoeDUQ&e=1379377284	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 14%  Last seen: 2014-03-25 03:28:06	https://www.virustotal.com/en/search/?query=350c513718f15f84537ae1b14b60e546d8b8ff78	192.168.85.10	195.66.79.29	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-36-36

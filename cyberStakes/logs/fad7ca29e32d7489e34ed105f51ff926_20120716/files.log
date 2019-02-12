@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-16-04
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1342455200.088739	F5uraM25W4zqV1MoH	67.228.172.86	192.168.127.10	CbkFAc3ISc1tsEWDqe	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	1482	1482	0	0	F	-	fd9bea07c60aef1de6be83a3309f5a06	93ba890fc7fe9289b59ce785549ea0bd2cdb425f	-	-
+1342455200.840625	FRsdFA3RyQ2zmKokU9	91.235.128.68	192.168.127.10	CraA2Z2Dp9aTUcDPu7	HTTP	0	SHA1,MD5	text/html	-	0.397761	-	F	11100	-	0	0	F	-	8105e2d6d13fb062c5394fd4753990ac	8fad6fc208f89b76b9c95d2ed95daf8ade3a4a26	-	-
+1342455203.263654	Fr5iraiAtcubarmb	91.235.128.68	192.168.127.10	CFCqpI1YiUFVukseN1	HTTP	0	SHA1,MD5	application/zip	-	0.529372	-	F	13142	13142	0	0	F	-	8cde1f559d020ba20ab18236bf578c1f	ab61f78ca189d4b7e3d54bf122f3f3c70f2a0be2	-	-
+1342455204.397035	F3nZundhndahuGU9a	91.235.128.68	192.168.127.10	CFCqpI1YiUFVukseN1	HTTP	0	SHA1,MD5	application/zip	-	0.397690	-	F	13142	13142	0	0	F	-	8cde1f559d020ba20ab18236bf578c1f	ab61f78ca189d4b7e3d54bf122f3f3c70f2a0be2	-	-
+1342455205.519682	FidzSc36jE9IKqNeLg	91.235.128.68	192.168.127.10	CFCqpI1YiUFVukseN1	HTTP	0	SHA1,MD5	application/zip	-	0.397890	-	F	13142	13142	0	0	F	-	8cde1f559d020ba20ab18236bf578c1f	ab61f78ca189d4b7e3d54bf122f3f3c70f2a0be2	-	-
+1342455212.433119	FYoKaB22d8yMjY04Cb	91.235.128.68	192.168.127.10	CVxDRIxtdSvbfhH2i	HTTP	0	SHA1,MD5	application/zip	-	0.561360	-	F	13142	13142	0	0	F	-	8cde1f559d020ba20ab18236bf578c1f	ab61f78ca189d4b7e3d54bf122f3f3c70f2a0be2	-	-
+1342455213.807301	FBSYi21IXQz5tNigRj	91.235.128.68	192.168.127.10	CrbX6Y3AdoREwuB8vc	HTTP	0	SHA1,MD5	application/x-dosexec	-	1.391621	-	F	94208	94208	0	0	F	-	2453d37e7cb4e1f3c6231bc55fe3f5ec	866914b954155dad97f4116bc4dcdf78131372d2	-	-
+#close	2014-04-03-10-16-04

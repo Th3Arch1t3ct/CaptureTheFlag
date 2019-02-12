@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-44-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1327225446.12454	C09Fgi3DBt8MbuGSG3	192.168.1.10	1030	75.119.216.225	80	1	GET	kayakobrasil.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	-	-
+1327225446.663257	CxZzjn4POsU1cotFH8	192.168.1.10	1031	75.119.219.227	80	1	GET	webtags.com.br	/kayako	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	219	302	Found	-	-	-	(empty)	-	-	-	-	-	FTNnt81q9toWFiEqsj	text/html
+1327225446.953677	CqVogX2SsZZYPRDHRb	192.168.1.10	1032	95.163.67.190	80	1	GET	onclicklook.ru	/vis/index.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1255	200	OK	-	-	-	(empty)	-	-	-	-	-	Fu7sGWScvxj6qPqyi	text/html
+1327225447.740227	CImuPq1aD6Cfk4FbYg	192.168.1.10	1033	95.163.67.190	80	1	GET	nusgo-bomko.ru	/main.php?page=47a76b488c8a18b4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	79776	200	OK	-	-	-	(empty)	-	-	-	-	-	FGw9jC33IJZGZrbOPi	text/html
+1327225457.294473	CImuPq1aD6Cfk4FbYg	192.168.1.10	1033	95.163.67.190	80	2	GET	nusgo-bomko.ru	/w.php?f=45&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	178176	200	OK	-	-	-	(empty)	-	-	-	-	-	FfvmQ53GPEZ1WLL6a1	application/x-dosexec
+1327225458.912913	CImuPq1aD6Cfk4FbYg	192.168.1.10	1033	95.163.67.190	80	3	GET	nusgo-bomko.ru	/content/fdp2.php?f=45	http://nusgo-bomko.ru/main.php?page=47a76b488c8a18b4	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	154	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	FvWKYJ2sLbdOElpMUl	text/html
+1327225459.173398	CdxAzxIpK6MNTCzSc	192.168.1.10	1038	74.82.198.253	80	1	GET	update2.nilaelwspuioaw.com	/index.php?a0428e=kdjf0tXm1J6a09upycbf35nd3s2sltpexqLQqdSYmqfGlGOimdLEnc3b2afbn9XG2WGa09OZ	-	Mozilla/3.0	0	64	200	OK	-	-	-	(empty)	-	-	-	-	-	FV2BvAJVVPmdQ1U1h	text/plain
+1327225459.523582	CEOZYs3tWg6OTtjLH4	192.168.1.10	1039	76.73.19.180	80	1	GET	report2.nilaelwspuioaw.com	/?a0428e=ieTK4N7k6G9718ze0M7a6ufR4dWVwueet+jdxm1lWKXO1qKl0qLXZZGizaCamM3ZqKSlz9KZ2JLJptOXlpmUa5zWy5bb5bFjVOPS0J6dnKujluzfrNjthrOV3cqUcVih2MXZ0eHmsWNS	-	Mozilla/3.0	0	6	200	OK	-	-	-	(empty)	-	-	-	-	-	Fw3IqK1TLvR9rG0c1	binary
+1327225460.193636	CvmUDr4WbyrbD5xWf9	192.168.1.10	1040	95.163.67.190	80	1	GET	nusgo-bomko.ru	/content/field.swf	http://nusgo-bomko.ru/main.php?page=47a76b488c8a18b4	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1464	200	OK	-	-	-	(empty)	-	-	-	-	-	FVAj7G4IeE9n8HqG11	application/x-shockwave-flash
+1327225460.375919	CyICEd38d1DQ7YQh73	192.168.1.10	1041	74.82.198.253	80	1	GET	update2.nilaelwspuioaw.com	/index.php?a0428e=kdjf0tXm1J6a09upzs7P6eLZ49zjwuOayOGT1tLG07GygnGU3NHV2tzL7ODapufRnaLX26qnopWTpJlkYJ6boofV1duwlurS056vXpefk+LZyJ6pyGKRocygxZmlqtTSqp2fx9pmxNPTrNaax9nHZWXSz5A=	-	Mozilla/3.0	0	3384320	200	OK	-	-	-	(empty)	-	-	-	-	-	FUL2dG3hvjsdznsG6g	binary
+1327225474.255914	Cp8Q6hvD4I6Hn6qnb	192.168.1.10	1043	76.73.19.180	80	1	GET	report2.nilaelwspuioaw.com	/?a0428e=ieTK4N7k6G9718ze0M7a6ufR4dWVwueet+jdxm1lWKXO1qKl0qLXZZGizaCamM3ZqKSlz9KZ2JLJptOXlpmUa5zWy5bb5bFjVOPS0J6dnKujluzfrNjthrOV3cqUcVih2MXZ0eHmsWJS	-	Mozilla/3.0	0	6	200	OK	-	-	-	(empty)	-	-	-	-	-	FrwaN41rYvkiS0UE04	binary
+1327225475.445383	Cmqdw31PhA2Tp22eif	192.168.1.10	1044	24.143.193.16	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1568	200	OK	-	-	-	(empty)	-	-	-	-	-	FuM6ZL2Pu6jjDcSTri	text/html
+1327225475.352624	CvmUDr4WbyrbD5xWf9	192.168.1.10	1040	95.163.67.190	80	2	GET	nusgo-bomko.ru	/content/score.swf	http://nusgo-bomko.ru/content/field.swf	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6920	200	OK	-	-	-	(empty)	-	-	-	-	-	FVOgft4VUhjJkxOxD1	application/x-shockwave-flash
+1327225475.676011	CflBD6455JCgUBX7rh	192.168.1.10	1042	95.163.67.190	80	1	GET	nusgo-bomko.ru	/content/v1.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4408	200	OK	-	-	-	(empty)	-	-	-	-	-	F4dHv81jZSYpLdLAyd	application/zip
+#close	2014-04-03-10-44-56

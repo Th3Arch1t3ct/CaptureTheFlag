@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-54-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1370011146.60594	CM7cru3Zd8CdGTyV3f	192.168.84.10	1054	23.64.24.229	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.wsimg.com,OU=GoDaddy.com\, LLC,O=GoDaddy.com\, LLC,L=Scottsdale,ST=AZ,C=US	serialNumber=10688435,CN=Starfield Secure Certification Authority,OU=http://certificates.starfieldtech.com/repository,O=Starfield Technologies\, Inc.,L=Scottsdale,ST=Arizona,C=US	1324520835.000000	1419215235.000000	-	-	-	c8940be92e7377777777777777777777	ok
+1370011146.612198	Cm1OJH1fHyTdv7Rfx3	192.168.84.10	1053	23.64.24.229	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.wsimg.com,OU=GoDaddy.com\, LLC,O=GoDaddy.com\, LLC,L=Scottsdale,ST=AZ,C=US	serialNumber=10688435,CN=Starfield Secure Certification Authority,OU=http://certificates.starfieldtech.com/repository,O=Starfield Technologies\, Inc.,L=Scottsdale,ST=Arizona,C=US	1324520835.000000	1419215235.000000	-	-	-	c8940be92e7377777777777777777777	ok
+#close	2014-04-03-10-54-27

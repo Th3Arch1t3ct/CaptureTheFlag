@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-08-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1328337796.660517	CboMbW2nm8K9sYs4Vl	192.168.116.10	1029	4.2.2.3	53	udp	40336	nikitaboardman.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.168.192.6	3576.000000	F
+1328337804.000775	CboMbW2nm8K9sYs4Vl	192.168.116.10	1029	4.2.2.3	53	udp	57232	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.47.95	845.000000,243.000000	F
+1328337805.222385	CboMbW2nm8K9sYs4Vl	192.168.116.10	1029	4.2.2.3	53	udp	5779	api.twitter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.59.149.232,199.59.148.20,199.59.148.87,199.59.149.200	19.000000,19.000000,19.000000,19.000000	F
+1328337806.550559	CboMbW2nm8K9sYs4Vl	192.168.116.10	1029	4.2.2.3	53	udp	43666	peytcswofn.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	24.34.17.117,200.8.189.39	1.000000,1.000000	F
+1328337838.834387	Cq7IRa3V10YrZdCzDh	192.168.116.10	1029	4.2.2.3	53	udp	3477	peytcswofn.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.63.83.97,188.173.132.243	1.000000,1.000000	F
+1328337848.061751	Cq7IRa3V10YrZdCzDh	192.168.116.10	1029	4.2.2.3	53	udp	63124	jeksedu84heg.eu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	77.95.231.87	3600.000000	F
+1328337848.642675	Cq7IRa3V10YrZdCzDh	192.168.116.10	1029	4.2.2.3	53	udp	40855	peytcswofn.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.24.124.208,207.189.247.78	1.000000,1.000000	F
+#close	2014-04-03-11-08-27

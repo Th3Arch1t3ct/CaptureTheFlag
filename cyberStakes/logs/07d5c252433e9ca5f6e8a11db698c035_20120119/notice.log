@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-39-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1326999082.711253	Cza2ag1XvBWWPDDAh6	192.168.43.10	1049	31.7.62.154	80	Fr0GOz1HdbRmifSKWe	application/x-shockwave-flash	http://iqemkyzal.ftp1.biz/fen/bvjwhtfskwyu.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-01-19 08:13:40	https://www.virustotal.com/en/search/?query=2314be3823a1bbb283adff1adca043d5bf37b761	192.168.43.10	31.7.62.154	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1326999083.01774	CSoLqPBuwZeEgGNrk	192.168.43.10	1051	31.7.62.154	80	F5xzKu3GH63JIufN14	application/pdf	http://iqemkyzal.ftp1.biz/fen/yndqgoimcoxma.pdf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 67%  Last seen: 2012-01-19 08:12:37	https://www.virustotal.com/en/search/?query=5b93ca36c93d3e6fc86a3ccea9979925b64d7ab5	192.168.43.10	31.7.62.154	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1326999084.218155	CzKpz93PahKCR01Qy9	192.168.43.10	1055	31.7.62.154	80	FpaYCg2rFQbx2ehcMk	application/pdf	http://iqemkyzal.ftp1.biz/fen/yndqgoimcoxma.pdf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 67%  Last seen: 2012-01-19 08:12:37	https://www.virustotal.com/en/search/?query=5b93ca36c93d3e6fc86a3ccea9979925b64d7ab5	192.168.43.10	31.7.62.154	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1326999095.22995	CoP7pC3NoFAZoxHeP3	192.168.43.10	1065	31.7.62.154	80	Fj35MO3OrKEONZz5o6	application/x-dosexec	http://germangmayner.1dumb.com/fen/xl.php?i=15	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2012-01-31 23:38:59	https://www.virustotal.com/en/search/?query=ebff1f2273256b6a7d5f98420c0f9c1af2579eee	192.168.43.10	31.7.62.154	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1326999096.340652	CXBGUVTg2bvnSLHv7	192.168.43.10	1066	31.7.62.154	80	FBmhK939On6ZLSV725	application/pdf	http://iqemkyzal.ftp1.biz/fen/ylxlevylbmfl.pdf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 67%  Last seen: 2012-01-19 08:13:40	https://www.virustotal.com/en/search/?query=680899b7fe0a188b18b4fac90a8cc6efca62aeed	192.168.43.10	31.7.62.154	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-39-56

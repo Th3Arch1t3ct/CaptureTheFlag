@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-17-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1343047058.351203	Cc0WlK1xXQ7hWtxSe1	192.168.65.10	1029	4.2.2.3	53	udp	3979	mowgliz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.173.177.14	575.000000	F
+1343047058.780339	Cc0WlK1xXQ7hWtxSe1	192.168.65.10	1029	4.2.2.3	53	udp	31624	pinkium.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.211.26.73	43200.000000	F
+1343047059.347982	CWHtSa2vanA4k4P2q3	192.168.65.10	1035	4.2.2.3	53	udp	10895	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	a134.dsw3.akamai.net,192.204.4.8,192.204.4.48	1862.000000,20.000000,20.000000	F
+1343047059.208133	Cc0WlK1xXQ7hWtxSe1	192.168.65.10	1029	4.2.2.3	53	udp	38798	objecttroop.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.215.60.136	43200.000000	F
+1343047063.713937	CWHtSa2vanA4k4P2q3	192.168.65.10	1035	4.2.2.3	53	udp	44941	exposednamaylong.cu.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.38.62.18	6054.000000	F
+1343047063.797903	CWHtSa2vanA4k4P2q3	192.168.65.10	1035	4.2.2.3	53	udp	36227	cu.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.38.62.18	6054.000000	F
+1343047063.882624	CWHtSa2vanA4k4P2q3	192.168.65.10	1035	4.2.2.3	53	udp	64387	www.registry.cu.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.38.62.18	6054.000000	F
+1343047063.987802	CWHtSa2vanA4k4P2q3	192.168.65.10	1035	4.2.2.3	53	udp	45952	15647.bodisparking.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.59.241.203	9654.000000	F
+#close	2014-04-03-10-17-37

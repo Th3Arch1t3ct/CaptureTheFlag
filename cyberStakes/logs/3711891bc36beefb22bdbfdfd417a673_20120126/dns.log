@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-51-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1327550187.972618	CU6GuC47IGs3klcKGi	192.168.39.10	1029	4.2.2.3	53	udp	50572	ge-immigration.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.72.245.18	14380.000000	F
+1327550188.724913	CU6GuC47IGs3klcKGi	192.168.39.10	1029	4.2.2.3	53	udp	60044	karenbrowntx.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.124.198.1	1800.000000	F
+1327550189.24028	CU6GuC47IGs3klcKGi	192.168.39.10	1029	4.2.2.3	53	udp	51598	brainbin.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	203.170.193.102	3601.000000	F
+1327550223.79924	CNLT41318OnL7PnQ5b	192.168.39.10	1029	4.2.2.3	53	udp	5774	legcold.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	60.19.30.135,118.212.168.131,220.195.24.9,24.249.167.92	300.000000,300.000000,300.000000,300.000000	F
+1327550254.387539	CLivBa2IXZn5DWgLk6	192.168.39.10	1029	4.2.2.3	53	udp	22153	noseclan.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	118.212.168.131,195.214.238.241,210.212.58.161,24.249.167.92	300.000000,300.000000,300.000000,300.000000	F
+#close	2014-04-03-09-51-25

@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-15-16
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1344768722.990236	CqJFyU1hxv1HfeOXLc	192.168.87.10	1038	87.98.239.19	80	FhBtej2K05lQXTmIRi	application/x-dosexec	http://ogniwa-paliwowe.info/2.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 48%  Last seen: 2012-08-29 02:30:30	https://www.virustotal.com/en/search/?query=6652858b22745db4603fade3fcd0ac79af47badf	192.168.87.10	87.98.239.19	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1344768731.355862	Cvc99zCQGZ9CLIWO1	192.168.87.10	1039	87.98.239.19	80	FQvkvI2hOM1PsfhfH	application/x-dosexec	http://ogniwa-paliwowe.info/3.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 48%  Last seen: 2012-08-29 02:30:30	https://www.virustotal.com/en/search/?query=6652858b22745db4603fade3fcd0ac79af47badf	192.168.87.10	87.98.239.19	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-15-17

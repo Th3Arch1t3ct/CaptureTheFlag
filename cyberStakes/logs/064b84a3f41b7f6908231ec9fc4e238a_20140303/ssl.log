@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-11-11-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1393885775.9472	CqE2B1c3wTy8evfq9	192.168.42.10	1232	199.38.166.155	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=m.xp1.ru4.com,OU=Domain Control Validated - QuickSSL(R) Premium,OU=See www.geotrust.com/resources/cps (c)13,OU=GT55625602,serialNumber=iWbaH4RK6a/r5YI4w5/8iVx-6bIZZ41p	CN=GeoTrust DV SSL CA,OU=Domain Validated SSL,O=GeoTrust Inc.,C=US	1370228753.000000	1433611247.000000	-	-	-	7cc9ec18814c45555555555550cc2751	ok
+1393885776.776337	C1LjDr2wYbzca9h31k	192.168.42.10	1244	54.218.63.62	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.rlcdn.com,OU=Domain Control Validated	serialNumber=07969287,CN=Go Daddy Secure Certification Authority,OU=http://certificates.godaddy.com/repository,O=GoDaddy.com\, Inc.,L=Scottsdale,ST=Arizona,C=US	1371795782.000000	1434867782.000000	-	-	-	165e65616655925cd6c6c031a33c2f11	ok
+1393885776.775778	CzxpMT1frexaX1Hici	192.168.42.10	1243	54.218.63.62	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.rlcdn.com,OU=Domain Control Validated	serialNumber=07969287,CN=Go Daddy Secure Certification Authority,OU=http://certificates.godaddy.com/repository,O=GoDaddy.com\, Inc.,L=Scottsdale,ST=Arizona,C=US	1371795782.000000	1434867782.000000	-	-	-	165e65616655925cd6c6c031a33c2f11	ok
+1393885777.211221	CZn1pG2Le0K6haodV6	192.168.42.10	1257	31.13.76.49	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.facebook.com,O=Facebook\, Inc.,L=Palo Alto,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1382936400.000000	1438837199.000000	-	-	-	8a2cdf3b44eeeeeeeeeeeeeeeeeeeeee	ok
+1393885778.24078	C3bv2c4B8XxsEkbX3e	192.168.42.10	1271	31.13.76.49	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	44557e9dcece1bc1b79675d1abe6717731184ed2beb46043abcff17d0d83cefd	-	-	-	-	-	-	-	-	-
+1393885780.265297	CsjDyD2tkB9wrmzSGl	192.168.42.10	1336	72.21.91.113	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=tags.crwdcntrl.net,OU=Technology,O=LOTAME SOLUTIONS\, INC,L=Elkridge,ST=Maryland,C=US	CN=Thawte SSL CA,O=Thawte\, Inc.,C=US	1367211600.000000	1400907599.000000	-	-	-	5469071648753d07875d47e9ed2b9c2d	ok
+1393885781.731724	CyDmzs3euEZb8yAQSh	192.168.42.10	1416	199.59.150.42	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.twitter.com,O=Twitter\, Inc.,L=San Francisco,ST=California,C=US,serialNumber=X5-6oDhQgpWsUADnOU2IdZ38YWlIV8/8	CN=GeoTrust SSL CA,O=GeoTrust\, Inc.,C=US	1377662624.000000	1509267658.000000	-	-	-	53e55222ce9e0d28b9fdcc264d2ff39d	ok
+1393885783.651025	CvMWWK3zG2A0WaZGRd	192.168.42.10	1462	216.39.55.12	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=ad.yieldmanager.com,O=Yahoo! Inc.,L=Sunnyvale,ST=CA,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1387346400.000000	1419357600.000000	-	-	-	6d314b592d5f679a4d0ccccccccccccc	ok
+1393885784.050988	Cv5kB344M7m8GdULI2	192.168.42.10	1465	216.39.55.12	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=ad.yieldmanager.com,O=Yahoo! Inc.,L=Sunnyvale,ST=CA,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1387346400.000000	1419357600.000000	-	-	-	6d314b592d5f679a4d0ccccccccccccc	ok
+#close	2014-04-03-11-11-17

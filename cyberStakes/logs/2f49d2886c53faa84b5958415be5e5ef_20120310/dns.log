@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-56-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1331407345.310906	C7aAuC4y2Fkrzcjk6a	192.168.94.10	1029	4.2.2.3	53	udp	17807	klassiksystems.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.16.243.49	14380.000000	F
+1331407347.191621	CPjDMu1v7rNF7VD7zi	192.168.94.10	1029	4.2.2.5	53	udp	56463	tylcaqo.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	190.172.153.80	0.000000	F
+1331407346.186536	C7aAuC4y2Fkrzcjk6a	192.168.94.10	1029	4.2.2.3	53	udp	56463	tylcaqo.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.139.1.132	0.000000	F
+1331407352.581246	CPjDMu1v7rNF7VD7zi	192.168.94.10	1029	4.2.2.5	53	udp	21900	fypejiv.eu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.168.161.125	5.000000	F
+1331407357.887667	CPjDMu1v7rNF7VD7zi	192.168.94.10	1029	4.2.2.5	53	udp	42380	torpedoman.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.168.161.125	43200.000000	F
+1331407358.889791	CPjDMu1v7rNF7VD7zi	192.168.94.10	1029	4.2.2.5	53	udp	47500	ejywqem.eu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.11.251.173	3600.000000	F
+1331407348.199735	C7aAuC4y2Fkrzcjk6a	192.168.94.10	1029	4.2.2.3	53	udp	56463	tylcaqo.in	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1331407348.199735	C7aAuC4y2Fkrzcjk6a	192.168.94.10	1029	4.2.2.3	53	udp	56463	tylcaqo.in	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1331407385.48648	CksaCI1tYwi2YMK3zl	192.168.94.10	1029	4.2.2.5	53	udp	19597	swupmf.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	swupmf.wip4.adobe.com,swupmf.adobe.com.edgesuite.net,a1137.g.akamai.net,69.31.75.35,69.31.75.9	9846.000000,473.000000,3106.000000,20.000000,20.000000	F
+1331407385.637692	CksaCI1tYwi2YMK3zl	192.168.94.10	1029	4.2.2.5	53	udp	38538	crl.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.wip4.adobe.com,crl.adobe.com.edgesuite.net,a1180.g.akamai.net,69.31.74.211,69.31.75.33	9157.000000,300.000000,5118.000000,20.000000,20.000000	F
+#close	2014-04-03-09-56-30

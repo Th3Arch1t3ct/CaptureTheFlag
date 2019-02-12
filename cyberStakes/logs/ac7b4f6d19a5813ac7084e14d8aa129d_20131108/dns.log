@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-39-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1383872769.898733	CZtpWx1YfABCUeDqFe	192.168.87.10	1035	4.2.2.3	53	udp	47765	zzzmp3.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.128.47.36	21600.000000	F
+1383872772.595143	CZtpWx1YfABCUeDqFe	192.168.87.10	1035	4.2.2.3	53	udp	31894	u.pub-fit.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	0f78c01bcda4cd74abd6-d600b30837480d0202e70c6dd2d3c245.r21.cf1.rackcdn.com,a21.rackcdn.com,a21.rackcdn.com.mdc.edgesuite.net,a23.dscg10.akamai.net,198.172.88.96,198.172.88.58	319.000000,187.000000,187.000000,187.000000,20.000000,20.000000	F
+1383872772.698158	CZtpWx1YfABCUeDqFe	192.168.87.10	1035	4.2.2.3	53	udp	37271	ad.yieldmanager.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fd-world.ngd.gysm.yahoodns.net,ds-world.ngdg.gysm.yahoodns.net,ds-any-world.ngd.ysm.yahoodns.net,98.138.49.42,216.39.55.13,98.138.49.43,216.39.55.12	51586.000000,262.000000,262.000000,41.000000,41.000000,41.000000,41.000000	F
+1383872772.70005	CbCB7s2XI0Q0MtiEAa	192.168.87.10	1043	4.2.2.3	53	udp	34711	px.pub-fit.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	f410858f1ded21f5c344-705d6f7de9f65820ac2884c0d7641a39.r69.cf1.rackcdn.com,a69.rackcdn.com,a69.rackcdn.com.mdc.edgesuite.net,a71.dscg10.akamai.net,198.172.88.73,198.172.88.72	13867.000000,300.000000,300.000000,300.000000,20.000000,20.000000	F
+1383872773.274122	CZtpWx1YfABCUeDqFe	192.168.87.10	1035	4.2.2.3	53	udp	57751	cookiex.ngd.yahoo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	world.ngd.ysm.yahoodns.net,any-world.ngd.ysm.yahoodns.net,216.39.55.13,216.39.55.12,98.138.49.43,98.138.49.42	1320.000000,103.000000,36.000000,36.000000,36.000000,36.000000	F
+1383872773.307095	CZtpWx1YfABCUeDqFe	192.168.87.10	1035	4.2.2.3	53	udp	25488	cookex.amp.yahoo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cookex.amp.gapx.yahoodns.net,any-cookex.amp.apx.yahoodns.net,98.136.10.33	183.000000,183.000000,210.000000	F
+1383872773.52228	CZtpWx1YfABCUeDqFe	192.168.87.10	1035	4.2.2.3	53	udp	51601	ad.rekket.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ad.yieldmanager.com,fd-world.ngd.gysm.yahoodns.net,ds-world.ngdg.gysm.yahoodns.net,ds-any-world.ngd.ysm.yahoodns.net,98.138.49.42,216.39.55.13,98.138.49.43,216.39.55.12	3782.000000,51585.000000,261.000000,261.000000,40.000000,40.000000,40.000000,40.000000	F
+1383872773.727587	CZtpWx1YfABCUeDqFe	192.168.87.10	1035	4.2.2.3	53	udp	2194	ac.cpn-adverting.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.149.254.79	600.000000	F
+1383872774.259242	CZtpWx1YfABCUeDqFe	192.168.87.10	1035	4.2.2.3	53	udp	25746	www.gamestreamer.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	gamestreamer.net,184.73.215.231	10508.000000,10508.000000	F
+1383872774.264915	CbCB7s2XI0Q0MtiEAa	192.168.87.10	1043	4.2.2.3	53	udp	58771	d4ymkg.fenexis.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.149.250.166	600.000000	F
+1383872774.272573	CZtpWx1YfABCUeDqFe	192.168.87.10	1035	4.2.2.3	53	udp	26524	www.mindxstudio.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.208.92.149	83558.000000	F
+1383872812.22623	C5pYi01so97HczfW61	192.168.87.10	1043	4.2.2.3	53	udp	23965	sunshineforthewin.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.248.172.180	1800.000000	F
+1383872812.902156	C5pYi01so97HczfW61	192.168.87.10	1043	4.2.2.3	53	udp	54173	toursandtravelsa.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	197.221.14.30	7200.000000	F
+1383872813.123438	CzSl9r4wKEePeeZfjj	192.168.87.10	1035	4.2.2.3	53	udp	18846	toursandtravelsa.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	197.221.14.30	7200.000000	F
+1383872814.769793	C5pYi01so97HczfW61	192.168.87.10	1043	4.2.2.3	53	udp	47263	exordiumsolution.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.43.75.195	14400.000000	F
+1383872814.860255	CzSl9r4wKEePeeZfjj	192.168.87.10	1035	4.2.2.3	53	udp	8600	exordiumsolution.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.43.75.195	14400.000000	F
+#close	2014-04-03-10-39-44

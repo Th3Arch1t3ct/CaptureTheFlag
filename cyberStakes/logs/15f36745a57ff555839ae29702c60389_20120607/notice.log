@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-00-23
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1339087238.491281	CQlPHV39CK4S5aChS4	192.168.41.10	1039	96.43.129.237	80	F4OiTn3QWHOiITwCH	application/x-shockwave-flash	http://thesalivan.com/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 75%  Last seen: 2012-09-14 14:05:04	https://www.virustotal.com/en/search/?query=27474f210893b69a5204dcafb6d9fc12b743dc1f	192.168.41.10	96.43.129.237	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1339087242.977205	CSxPSR1iOZDqlEQVFl	192.168.41.10	1038	96.43.129.237	80	FPkqfw2nSVWzEqGbH9	application/x-dosexec	http://thesalivan.com/w.php?f=97d19&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2012-07-24 14:37:09	https://www.virustotal.com/en/search/?query=f6d270ea827fd9c5c439767df6a8bac51e85a8ba	192.168.41.10	96.43.129.237	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-00-23

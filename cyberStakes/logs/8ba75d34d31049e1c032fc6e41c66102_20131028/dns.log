@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-56-42
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1383000508.486915	CphgSJ2mWAqdwlRljl	192.168.84.10	1035	4.2.2.3	53	udp	56204	aozheli.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	42.121.108.14	600.000000	F
+1383000509.555054	CphgSJ2mWAqdwlRljl	192.168.84.10	1035	4.2.2.3	53	udp	13196	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.28.95	3119.000000,229.000000	F
+1383000510.235092	CphgSJ2mWAqdwlRljl	192.168.84.10	1035	4.2.2.3	53	udp	56718	canexback.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.64.112.135	1200.000000	F
+1383000511.130955	CphgSJ2mWAqdwlRljl	192.168.84.10	1035	4.2.2.3	53	udp	52367	www3.higckdxsn8.wpbh.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.232.228	86400.000000	F
+1383000511.652332	CphgSJ2mWAqdwlRljl	192.168.84.10	1035	4.2.2.3	53	udp	37256	www1.q5akzjkec5ky.wpbh.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.232.225	86400.000000	F
+1383000512.528873	CphgSJ2mWAqdwlRljl	192.168.84.10	1035	4.2.2.3	53	udp	50313	l.yimg.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fd-geoycs-l.gy1.b.yahoodns.net,ds-fo-anyycs-l.ay1.b.yahoodns.net,206.190.60.139,206.190.60.138	3058.000000,176.000000,42.000000,42.000000	F
+1383000523.213812	CphgSJ2mWAqdwlRljl	192.168.84.10	1035	4.2.2.3	53	udp	57483	www2.dgqbr8uj88lgmwsr-4.wpbh.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.143.193.76	86400.000000	F
+1383000517.046595	CphgSJ2mWAqdwlRljl	192.168.84.10	1035	4.2.2.3	53	udp	34186	225.232.32.178.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1383000517.046595	CphgSJ2mWAqdwlRljl	192.168.84.10	1035	4.2.2.3	53	udp	34186	225.232.32.178.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1383000517.046595	CphgSJ2mWAqdwlRljl	192.168.84.10	1035	4.2.2.3	53	udp	34186	225.232.32.178.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1383000517.046595	CphgSJ2mWAqdwlRljl	192.168.84.10	1035	4.2.2.3	53	udp	34186	225.232.32.178.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1383000517.046595	CphgSJ2mWAqdwlRljl	192.168.84.10	1035	4.2.2.3	53	udp	34186	225.232.32.178.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1383000517.046595	CphgSJ2mWAqdwlRljl	192.168.84.10	1035	4.2.2.3	53	udp	34186	225.232.32.178.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1383000567.905102	Ca8yZs3iZw4wqPTpWh	192.168.84.10	1035	208.115.221.125	53	udp	44427	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	50.31.74.56	7200.000000	F
+#close	2014-04-03-10-56-42

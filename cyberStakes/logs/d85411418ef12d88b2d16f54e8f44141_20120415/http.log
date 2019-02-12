@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-56-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1334452964.752402	CTO6q71267LKui9jY1	192.168.44.10	1030	37.26.106.43	80	1	GET	skybluephoto.co.uk	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	102	200	OK	-	-	-	(empty)	-	-	-	-	-	F3DENE3JmVZfdEMrYk	text/plain
+1334452965.175499	CPCcV52rbxvq2ydEhj	192.168.44.10	1031	65.77.129.14	80	1	GET	65.77.129.14	/Home/index.php	http://skybluephoto.co.uk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	22235	200	OK	-	-	-	(empty)	-	-	-	-	-	FAXCnM1jjhVWxvwLNl	text/html
+1334452967.25814	CdSNUp2MVO7ucEDEV9	192.168.44.10	1032	65.77.129.14	80	1	GET	65.77.129.14	/Home/w.php?f=16&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	300032	200	OK	-	-	-	(empty)	-	-	-	-	-	FKI5ol4vCBL9wAWGbf	application/x-dosexec
+1334452970.404563	CGadS745B98QyS2UMf	192.168.44.10	1037	65.77.129.14	80	1	GET	65.77.129.14	/Home//Home/data/ap2.php	http://65.77.129.14/Home/index.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	21961	200	OK	-	-	-	(empty)	-	-	-	-	-	F54OEw28bmwqvtm3md	application/pdf
+1334452970.680406	ClkD4S3YcaH49jmHC5	192.168.44.10	1038	65.77.129.14	80	1	GET	65.77.129.14	//Home/data/Klot.jar?a=1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	15719	200	OK	-	-	-	(empty)	-	-	-	-	-	FY2a2L2JIJJlR2AOAj	application/zip
+1334452972.954779	CnEz6GXiN0z8Okz5i	192.168.44.10	1039	65.77.129.14	80	1	GET	65.77.129.14	/Home/w.php?f=16&e=0	-	Java/1.6.0_10	0	300032	200	OK	-	-	-	(empty)	-	-	-	-	-	FQG4YCtSn4wQqFqSj	application/x-dosexec
+1334452985.614605	CugMNk3c4zYfTvcY93	192.168.44.10	1040	65.77.129.14	80	1	GET	65.77.129.14	/data/Home/w.php?f=16&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	509	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FOD44M15EUomxpncUi	text/html
+1334452986.563468	CidVYa11LfaRSk2Ke9	192.168.44.10	1041	65.77.129.14	80	1	GET	65.77.129.14	/Home/data/field.swf	http://skybluephoto.co.uk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1499	200	OK	-	-	-	(empty)	-	-	-	-	-	FM9urO2TQtafmMvGZc	application/x-shockwave-flash
+#close	2014-04-03-09-56-34

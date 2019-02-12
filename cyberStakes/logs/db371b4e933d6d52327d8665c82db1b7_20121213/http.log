@@ -1,0 +1,32 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-18-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1355382252.914007	CmtiDYbks1NZWogBg	192.168.92.10	1030	216.251.43.11	80	1	GET	gibsonsmassage.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	860	200	OK	-	-	-	(empty)	-	-	-	-	-	FpzhxobsRHPrLQ0Nk	application/xml
+1355382253.076855	C0ihl84ME6shbdrQ3i	192.168.92.10	1031	65.254.67.190	80	1	GET	elyisus.com	/hmod.html	http://gibsonsmassage.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	210	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FFwMIl25ElsKqMQYF2	text/html
+1355382252.982745	CmtiDYbks1NZWogBg	192.168.92.10	1030	216.251.43.11	80	2	GET	gibsonsmassage.com	/image/gibsons-massage_splashpage.jpg	http://gibsonsmassage.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	201478	200	OK	-	-	-	(empty)	-	-	-	-	-	FZXWKL3j2AdUEVcVL7	image/jpeg
+1355382253.453089	CZm3Sr4gTzAxuYrjff	192.168.92.10	1032	213.186.33.19	80	1	GET	caroline-borey.com	/hmod.htm	http://gibsonsmassage.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13162	200	OK	-	-	-	(empty)	-	-	-	-	-	FZowr62TpiXmLTu9Q2	text/html
+1355382255.364737	CZm3Sr4gTzAxuYrjff	192.168.92.10	1032	213.186.33.19	80	2	GET	caroline-borey.com	/987.pdf	http://caroline-borey.com/hmod.htm	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6366	200	OK	-	-	-	(empty)	-	-	-	-	-	FXCzAFt3vYMaS7Bph	binary
+1355382256.248817	CfNV2N3VOBcvwcrSGl	192.168.92.10	1038	213.186.33.19	80	1	GET	caroline-borey.com	/887.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1355382256.245509	C1CrPn2GmvEX3nJozk	192.168.92.10	1037	213.186.33.19	80	1	GET	caroline-borey.com	/332.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11746	200	OK	-	-	-	(empty)	-	-	-	-	-	FfOhLZ2jcTWcVMaHD1	application/jar
+1355382256.671325	CfNV2N3VOBcvwcrSGl	192.168.92.10	1038	213.186.33.19	80	2	GET	caroline-borey.com	/887.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1355382257.006118	CfNV2N3VOBcvwcrSGl	192.168.92.10	1038	213.186.33.19	80	3	GET	caroline-borey.com	/Runs.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FdN5KqGXZc2vefqSa	text/html
+1355382257.145206	CfNV2N3VOBcvwcrSGl	192.168.92.10	1038	213.186.33.19	80	4	GET	caroline-borey.com	/Runs/class.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	214	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FNtYXe3fY7xo77F5nb	text/html
+1355382256.951123	C1CrPn2GmvEX3nJozk	192.168.92.10	1037	213.186.33.19	80	2	GET	caroline-borey.com	/332.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11746	200	OK	-	-	-	(empty)	-	-	-	-	-	FLM7Jq3nki3gCqdap8	application/jar
+1355382257.73276	C1CrPn2GmvEX3nJozk	192.168.92.10	1037	213.186.33.19	80	3	GET	caroline-borey.com	/332.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11746	200	OK	-	-	-	(empty)	-	-	-	-	-	FTNVaq1lcmU5Ss6jB9	application/jar
+1355382259.51819	C1CrPn2GmvEX3nJozk	192.168.92.10	1037	213.186.33.19	80	4	GET	caroline-borey.com	/332.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11746	200	OK	-	-	-	(empty)	-	-	-	-	-	FrnKSI2HWm2rrpiudj	application/jar
+1355382260.370453	C1CrPn2GmvEX3nJozk	192.168.92.10	1037	213.186.33.19	80	5	GET	caroline-borey.com	/33.html	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	34816	200	OK	-	-	-	(empty)	-	-	-	-	-	FNedRE3mqofRVLwHYh	application/x-dosexec
+1355382266.246298	CUs5424vuFZP15l3Gd	192.168.92.10	1039	142.4.26.76	80	1	GET	gpa.ta-u.com	/j.htm	-	Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)	0	161792	200	OK	-	-	-	(empty)	-	-	-	-	-	FhK0Qr4zVLJvNvn6Yb	binary
+1355382270.849686	CUs5424vuFZP15l3Gd	192.168.92.10	1039	142.4.26.76	80	2	GET	gpa.ta-u.com	/j.htm	-	Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)	0	160768	200	OK	-	-	-	(empty)	-	-	-	-	-	FHyH4p1srt4nQx0MA1	binary
+1355382273.66827	Cuvyna3FiUq5XW5IC7	192.168.92.10	1041	50.22.196.70	80	1	GET	j.maxmind.com	/app/geoip.js	-	-	0	502	200	OK	-	-	-	(empty)	-	-	-	-	-	FVFqQm1XK0hL8RvTa7	text/plain
+1355382273.07464	CUs5424vuFZP15l3Gd	192.168.92.10	1039	142.4.26.76	80	3	GET	gpa.ta-u.com	/j.htm	-	Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)	0	585728	200	OK	-	-	-	(empty)	-	-	-	-	-	FPVYID3JpNi49wGeDl	binary
+1355382277.15949	CUs5424vuFZP15l3Gd	192.168.92.10	1039	142.4.26.76	80	4	GET	gpa.ta-u.com	/j.htm	-	Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)	0	377856	200	OK	-	-	-	(empty)	-	-	-	-	-	FVI4Iw1j3SPi9Fmbnb	binary
+1355382280.118898	CUs5424vuFZP15l3Gd	192.168.92.10	1039	142.4.26.76	80	5	GET	gpa.ta-u.com	/j.htm	-	Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)	0	123	200	OK	-	-	-	(empty)	-	-	-	-	-	Fgn0yf34TWRe9jNTX	binary
+1355382280.815983	Chj94D4Q8J5MUoFcOh	192.168.92.10	1068	103.4.225.41	80	1	GET	103.4.225.41	/api/urls/?ts=abf39005&affid=70800	-	Mozilla/5.0 (compatible; MSIE 6.0; Windows NT 5.1; Trident/5.0);(b:2600;c:AMD-32F0;l:09)	0	59	200	OK	-	-	-	(empty)	-	-	-	-	-	FwU9e03yP3IYTLke9a	text/plain
+1355382281.955145	CDgX5z2j19IGLTgAsg	192.168.92.10	1069	5.104.106.56	80	1	GET	hkspm.fdagdsag.tk	/update.exe?ts=abf39005&affid=7080	-	Mozilla/5.0 (compatible; MSIE 6.0; Windows NT 5.1; Trident/5.0);(b:2600;c:AMD-32F0;l:09)	0	227328	200	OK	-	-	-	(empty)	-	-	-	-	-	F2OsWc2Xux9fRjx6t9	application/x-dosexec
+1355382289.067563	Cye0pG1PB3OQ9pTpX8	192.168.92.10	1072	78.140.131.158	80	1	GET	megaupload.com	/upload/fid=BwCRAAEAFewAAAEFCAAAAAAAAAAAAAAAAAAAAACQDAwMCwAAADiJONviEfBErLhxgiZvmW_TeclQAABVVVVVVVVVVVVVVVVVVVVVIdnNAQIzPmMV7AAAVXd1bXNtfWNvZXMzMmhnOGc4OAJGkzUK3f4TbwAAAAAAAQcAAAAHAAAANFYA	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)	0	562	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FyzdwiECFsiUFvm2h	text/html
+#close	2014-04-03-10-18-26

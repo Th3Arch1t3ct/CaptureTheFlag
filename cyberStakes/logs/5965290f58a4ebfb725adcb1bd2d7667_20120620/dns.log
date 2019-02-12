@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-51-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1340182501.548471	CnKVnb2FBtsEf4Y2Ra	192.168.78.10	1029	4.2.2.3	53	udp	48271	kidsplacemalden.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.64.163.12	14377.000000	F
+1340182502.11842	CnKVnb2FBtsEf4Y2Ra	192.168.78.10	1029	4.2.2.3	53	udp	22670	www.couchtarts.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	couchtarts.com,50.28.53.157	300.000000,300.000000	F
+1340182503.237218	CnKVnb2FBtsEf4Y2Ra	192.168.78.10	1029	4.2.2.3	53	udp	56461	poguajue.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.157.255.174	10.000000	F
+1340182504.639291	CnKVnb2FBtsEf4Y2Ra	192.168.78.10	1029	4.2.2.3	53	udp	13451	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,173.194.37.66,173.194.37.67,173.194.37.68,173.194.37.69,173.194.37.70,173.194.37.71,173.194.37.72,173.194.37.73,173.194.37.78,173.194.37.64,173.194.37.65	24665.000000,286.000000,286.000000,286.000000,286.000000,286.000000,286.000000,286.000000,286.000000,286.000000,286.000000,286.000000	F
+1340182516.372706	CnKVnb2FBtsEf4Y2Ra	192.168.78.10	1029	4.2.2.3	53	udp	2699	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,173.194.37.83,173.194.37.84,173.194.37.80,173.194.37.81,173.194.37.82	24600.000000,157.000000,157.000000,157.000000,157.000000,157.000000	F
+1340182516.93472	CnKVnb2FBtsEf4Y2Ra	192.168.78.10	1029	4.2.2.3	53	udp	44427	clients1.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	clients.l.google.com,74.125.45.102,74.125.45.113,74.125.45.138,74.125.45.139,74.125.45.100,74.125.45.101	87.000000,91.000000,91.000000,91.000000,91.000000,91.000000,91.000000	F
+#close	2014-04-03-10-51-26

@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-59-47
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1337397307.474105	CjpDJw15HPC80Nufue	192.168.85.10	1029	4.2.2.3	53	udp	31887	christophpaccard.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.50.160.20	3574.000000	F
+1337397307.887913	CjpDJw15HPC80Nufue	192.168.85.10	1029	4.2.2.3	53	udp	38799	directmarketing32linearsale.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.75.218.37	3600.000000	F
+1337397308.404116	CjpDJw15HPC80Nufue	192.168.85.10	1029	4.2.2.3	53	udp	48271	porngigolos.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.218.121.63	30.000000	F
+1337397308.555834	CjpDJw15HPC80Nufue	192.168.85.10	1029	4.2.2.3	53	udp	31630	direct03.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.75.218.37	3600.000000	F
+1337397309.014921	CjpDJw15HPC80Nufue	192.168.85.10	1029	4.2.2.3	53	udp	32910	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,173.194.37.37,173.194.37.38,173.194.37.39,173.194.37.40,173.194.37.41,173.194.37.46,173.194.37.32,173.194.37.33,173.194.37.34,173.194.37.35,173.194.37.36	1831.000000,222.000000,222.000000,222.000000,222.000000,222.000000,222.000000,222.000000,222.000000,222.000000,222.000000,222.000000	F
+1337397309.026517	CsDPkX2JJ73KEopqj4	192.168.85.10	1042	4.2.2.3	53	udp	54157	ksportal.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	212.95.58.93	30.000000	F
+1337397309.553238	CsDPkX2JJ73KEopqj4	192.168.85.10	1042	4.2.2.3	53	udp	52875	images.smartname.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	images.smartname.com.edgesuite.net,a1025.g.akamai.net,65.121.208.161,65.121.208.160	300.000000,21600.000000,20.000000,20.000000	F
+1337397309.161548	CjpDJw15HPC80Nufue	192.168.85.10	1029	4.2.2.3	53	udp	40588	teenageteenies.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.210.47.109	28800.000000	F
+#close	2014-04-03-10-59-47

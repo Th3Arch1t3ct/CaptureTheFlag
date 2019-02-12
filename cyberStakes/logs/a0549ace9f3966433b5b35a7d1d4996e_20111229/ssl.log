@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-17-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1325193316.313923	CXutHfFjYQ4Ih5Gzj	192.168.79.10	1033	63.245.209.246	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=www.browserid.org,OU=IT Operations,O=Mozilla Corporation,L=Mountain View,ST=California,C=US,serialNumber=KweuqAl34hXMafbGvnysMgstjST8TC4c	CN=GeoTrust SSL CA,O=GeoTrust\, Inc.,C=US	1311711666.000000	1375039270.000000	-	-	-	e2ef19a20c8c1cb9f1ab13aadb6c803b	ok
+1325193325.145694	CizoZs2Da1DmNTe9rd	192.168.79.10	1045	64.20.38.90	443	-	-	-	-	-	-	-	-	unknown-23693	-	-	-	-
+1325193325.145694	CizoZs2Da1DmNTe9rd	192.168.79.10	1045	64.20.38.90	443	-	-	-	-	-	-	-	-	unknown-23693	-	-	-	-
+1325193325.145694	CizoZs2Da1DmNTe9rd	192.168.79.10	1045	64.20.38.90	443	-	-	-	-	-	-	-	-	unknown-23693	-	-	-	-
+1325193325.145694	CizoZs2Da1DmNTe9rd	192.168.79.10	1045	64.20.38.90	443	-	-	-	-	-	-	-	-	unknown-23693	-	-	-	-
+1325193325.145694	CizoZs2Da1DmNTe9rd	192.168.79.10	1045	64.20.38.90	443	-	-	-	-	-	-	-	-	unknown-23693	-	-	-	-
+1325193325.145694	CizoZs2Da1DmNTe9rd	192.168.79.10	1045	64.20.38.90	443	-	-	-	-	-	-	-	-	unknown-24107	-	-	-	-
+1325193325.145694	CizoZs2Da1DmNTe9rd	192.168.79.10	1045	64.20.38.90	443	-	-	-	-	-	-	-	-	unknown-24107	-	-	-	-
+1325193325.145694	CizoZs2Da1DmNTe9rd	192.168.79.10	1045	64.20.38.90	443	-	-	-	-	-	-	-	-	unknown-24107	-	-	-	-
+1325193325.145694	CizoZs2Da1DmNTe9rd	192.168.79.10	1045	64.20.38.90	443	-	-	-	-	-	-	-	-	unknown-15612	-	-	-	-
+1325193325.145694	CizoZs2Da1DmNTe9rd	192.168.79.10	1045	64.20.38.90	443	-	-	-	-	-	-	-	-	unknown-15612	-	-	-	-
+#close	2014-04-03-10-17-51

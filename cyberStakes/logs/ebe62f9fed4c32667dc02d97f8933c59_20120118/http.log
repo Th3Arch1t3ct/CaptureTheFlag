@@ -1,0 +1,42 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-18-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1326927956.742596	C8vK9SewxDTF4PIfg	192.168.2.10	1032	74.208.86.57	80	1	GET	joseluquin.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	199	302	Found	-	-	-	(empty)	-	-	-	-	-	FTcaLq40OKJmaKKeJj	text/html
+1326927956.923807	CeZ8aS10SfuqycMqlf	192.168.2.10	1034	95.168.165.223	80	1	GET	angrybr.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1326927957.063861	CBr5WV1QUUCVZrTtR	192.168.2.10	1037	46.21.155.85	80	1	GET	ghjfunlove.net	/?site=24	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1326927957.368717	CrX4oP30TRjYKUGiv	192.168.2.10	1038	109.123.116.52	80	1	GET	stanleybig.net	/redir.html	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	351	200	OK	-	-	-	(empty)	-	-	-	-	-	FPHM4VZKORf6nr90i	text/html
+1326927957.58856	CoBzfM3p7v8igFqMh2	192.168.2.10	1042	109.123.116.52	80	1	GET	stanleybig.net	/in.cgi?default	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	186	302	Found	-	-	-	(empty)	-	-	-	-	-	F9KvsZ3IIznMRYGxy7	text/html
+1326927957.725046	C3hlYx3weHRtWpPM97	192.168.2.10	1043	46.21.155.85	80	1	GET	ghjfunlove.net	/?site=8	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	485	200	OK	-	-	-	(empty)	-	-	-	-	-	Fi8rSX1212yXgND115	text/html
+1326927959.111624	CnSyHu2QJoDVP4lqX7	192.168.2.10	1044	46.21.155.85	80	1	GET	ghjfunlove.net	/?b057deb8fb275783c4382e711c087f0c	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3486	200	OK	-	-	-	(empty)	-	-	-	-	-	FMt2fT1qQVF9tQZMng	application/jar
+1326927959.11801	CAMc3u26YUjwKCuIzj	192.168.2.10	1045	46.21.155.85	80	1	GET	ghjfunlove.net	/?7ac3e6cd95a6c657d6efb451801c16e4	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11779	200	OK	-	-	-	(empty)	-	-	-	-	-	FoHJss39crevV91bc9	application/jar
+1326927959.206603	CSYHE91E2UV2xyhRfk	192.168.2.10	1046	46.21.155.85	80	1	GET	ghjfunlove.net	/?7ac3e6cd95a6c657d6efb451801c16e4	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11779	200	OK	-	-	-	(empty)	-	-	-	-	-	FYim8w1U740TwFtpwd	application/jar
+1326927959.210441	CPTgzTsXoFD8x30x	192.168.2.10	1047	46.21.155.85	80	1	GET	ghjfunlove.net	/?b057deb8fb275783c4382e711c087f0c	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3486	200	OK	-	-	-	(empty)	-	-	-	-	-	FF4dF41CWey2VYIRck	application/jar
+1326927959.402724	CHBH734SJ4DdsLVwQ	192.168.2.10	1048	46.21.155.85	80	1	GET	ghjfunlove.net	/?b057deb8fb275783c4382e711c087f0c	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3486	200	OK	-	-	-	(empty)	-	-	-	-	-	FdKxvv3Puvjmjimj6i	application/jar
+1326927959.756277	CcBoiR3upTxQhhvuef	192.168.2.10	1049	46.21.155.85	80	1	GET	ghjfunlove.net	/?7ac3e6cd95a6c657d6efb451801c16e4	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11779	200	OK	-	-	-	(empty)	-	-	-	-	-	Fis2974jEmm1x3i39	application/jar
+1326927959.834414	CQqNQW1w5vfPiu05mg	192.168.2.10	1050	46.21.155.85	80	1	GET	ghjfunlove.net	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FAK6c9SelrDNXZ6Uf	text/html
+1326927959.908452	Czc8nR1lMipgYBTpfl	192.168.2.10	1051	46.21.155.85	80	1	GET	ghjfunlove.net	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F6ZlVf3783oMHcQdg1	text/html
+1326927959.975486	C7ZWnOtnswww1I8ll	192.168.2.10	1052	46.21.155.85	80	1	GET	ghjfunlove.net	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FZi3uUyDn2NCIChPa	text/html
+1326927960.045774	CgFPmEPYWrJxvQpv5	192.168.2.10	1053	46.21.155.85	80	1	GET	ghjfunlove.net	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FZfHDU1qq6SVYDJc51	text/html
+1326927960.165031	Cc0WfQ2p4SPiBxkOQ6	192.168.2.10	1054	46.21.155.85	80	1	GET	ghjfunlove.net	/?bb3c1c13de1e42e204326d79d15b8449	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	450300	200	OK	-	-	-	(empty)	-	-	-	-	-	FOvzdv4COlGqZr6Z6j	application/x-dosexec
+1326927961.936748	Cd14YI2uB6meis5cWj	192.168.2.10	1055	46.21.155.85	80	1	GET	ghjfunlove.net	/?540a55cc1ab0a2e6001b1dff3c89747a	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	16896	200	OK	-	-	-	(empty)	-	-	-	-	-	FTpdyF47wq9eL9Bsw8	application/x-dosexec
+1326927966.467786	CARS3WMTZsE3uNXTj	192.168.2.10	1056	46.21.155.85	80	1	GET	ghjfunlove.net	/?9c3978eecf90381c5b060db502cc4474	-	-	0	251368	200	OK	-	-	-	(empty)	-	-	-	-	-	FJGMIUstlx0lhPhf1	application/x-dosexec
+1326927966.926859	CEumty2jQNPJnIfqb2	192.168.2.10	1061	190.9.35.199	80	1	GET	190.9.35.199	/view.php?rnd=787721	-	-	0	32	200	OK	-	-	-	(empty)	-	-	-	-	-	FgFtja1qtmmIPHL4Id	text/html
+1326927966.796423	CF1jrq24cpP6pSlMU6	192.168.2.10	1060	46.21.155.85	80	1	GET	ghjfunlove.net	/?697eeaa55b4803643f8235c5d09ba4f0	-	-	0	292352	200	OK	-	-	-	(empty)	-	-	-	-	-	Fi6MkpC9DVTXoLyql	application/x-dosexec
+1326927969.074991	CkTlLy3zNlrt9XTnW1	192.168.2.10	1062	46.21.155.85	80	1	GET	ghjfunlove.net	/?218278d0196258423e6e46266d443960	-	-	0	450300	200	OK	-	-	-	(empty)	-	-	-	-	-	Fw2uZ11f3c7vFY4i46	application/x-dosexec
+1326927969.795218	CTrRkL3hyTGPWR27Xe	192.168.2.10	1063	46.21.155.85	80	1	GET	ghjfunlove.net	/?1de1a7724006b94298bb798ece6e3036	-	-	0	135168	200	OK	-	-	-	(empty)	-	-	-	-	-	FIAWPk16oHvTBUi1Gi	application/x-dosexec
+1326927970.163577	C93s4929TS2GX591Td	192.168.2.10	1064	46.21.155.85	80	1	GET	ghjfunlove.net	/?90fa042256adf5ad935bb3348ff096c3	-	-	0	27648	200	OK	-	-	-	(empty)	-	-	-	-	-	FvRkrj27OLMToNpGpf	application/x-dosexec
+1326927970.562421	C4Iwvf2xKYLDEbAhne	192.168.2.10	1065	46.21.155.85	80	1	GET	ghjfunlove.net	/?f3dfe3913bfc559dc78e437dfea4e06a	-	-	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1326927976.460551	CJ8PwB3aei8mxmE2p7	192.168.2.10	1069	199.7.71.190	80	1	GET	crl.verisign.com	/pca3.crl	-	Microsoft-CryptoAPI/5.131.2600.2180	0	898	200	OK	-	-	-	(empty)	-	-	-	-	-	FIrTjt4uZOnrCydHNe	binary
+1326927976.691013	Cx1wfA2i5NCMiIt6I7	192.168.2.10	1070	199.7.71.190	80	1	GET	CSC3-2004-crl.verisign.com	/CSC3-2004.crl	-	Microsoft-CryptoAPI/5.131.2600.2180	0	96124	200	OK	-	-	-	(empty)	-	-	-	-	-	FsROBH16rka1tsZDf3	binary
+1326927977.75721	C827wo2mpFgVHarFlj	192.168.2.10	1071	66.96.250.117	80	1	GET	w0inxph.wwwmediahosts.com	/logo.png?sv=874&tq=gL5HtzoYwLzEpUb5fU3HxcazAfc6EsazybMRtyFZ0umG8Ar0SsSA/gSoSEU=	-	chrome/9.0	0	283	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F93ZdPmhlmGCAn0cl	text/html
+1326927979.463473	Ccb0q41iQ43BTX3Otk	192.168.2.10	1073	46.246.89.181	80	1	GET	wautilber.com	/up.php?0Q9oBPXEN0uECUgzEJ95RQsbjjrvq1aG3F/2q5sb+kXU2mKa1w==	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1326927987.992719	CxoehGLEh5sc688Lk	192.168.2.10	1076	66.96.249.133	80	1	GET	6q3fjvgp.hoststorageforyou.com	/logo.png?sv=530&tq=gKZEtzoYwLzEvUb5dQzRsrCpB/IvTca3l74EgC5OjrPGpgfib1XFp5zpRPksUt+A/gSoSEU=	-	chrome/9.0	0	174600	200	OK	-	-	-	(empty)	-	-	-	-	-	Ffd27k4xGeZ4dUR6Xd	binary
+1326927990.691584	CwOpBO1cfUiNdj2JMf	192.168.2.10	1078	31.44.184.41	80	1	GET	craftineer.com	/?ylOdR9GQqXquMlTvsmXlkaz1x3Ab/w==	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	368640	200	OK	-	-	-	(empty)	-	-	-	-	-	FoMHsj4ODyQdRYyORl	binary
+1326928009.120037	CRfQAm2cHQ8rfZKpn7	192.168.2.10	1081	66.70.127.101	80	1	GET	istockanalyst.com	/png/intel.jpg?sv=859&tq=gHZutDyMv5rJcyG1J8K+1MWCJbP4lltXIA==	-	chrome/9.0	0	222	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	Ft9Hij3d0ZYZ6s2gB8	text/html
+1326928019.779003	C9we5G3HGGhpTz8THe	192.168.2.10	1084	66.96.250.117	80	1	GET	ikmup1z0z.firoli-sys.com	/logo.png?sv=595&tq=gKZEtzoYwLzEvUb5dQzRsrCpB/IvTca3l74EgC9OjrPGpgfib1XFp5zpRPksUt+A/gSoSEU=	-	chrome/9.0	0	192520	200	OK	-	-	-	(empty)	-	-	-	-	-	FUa41j4HmoO7AkW04c	binary
+#close	2014-04-03-10-18-25

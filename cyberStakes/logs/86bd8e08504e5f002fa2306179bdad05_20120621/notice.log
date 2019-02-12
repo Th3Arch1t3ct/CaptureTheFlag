@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-27-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1340253480.36199	CCcnfc4nKGtlSbL3Gj	192.168.29.10	1032	37.157.255.171	80	F4vo8k1lxp73Yp9wQl	application/x-dosexec	http://kipoelse.tk/2.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 28%  Last seen: 2012-06-24 17:07:19	https://www.virustotal.com/en/search/?query=1788325e7bfc3999bceaeb9e5e2dcbcd92cb24c4	192.168.29.10	37.157.255.171	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1340253480.36199	CbajZ8TgZQgfbbR72	192.168.29.10	1037	37.157.255.171	80	FCx1SqDDXVhtepOPg	application/x-dosexec	http://kipoelse.tk/1.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 28%  Last seen: 2012-06-24 17:07:19	https://www.virustotal.com/en/search/?query=1788325e7bfc3999bceaeb9e5e2dcbcd92cb24c4	192.168.29.10	37.157.255.171	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-27-26

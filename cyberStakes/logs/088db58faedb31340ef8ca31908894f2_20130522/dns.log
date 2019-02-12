@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-59-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1369240664.30851	Cc7QHS3eCisIXwzig	192.168.37.10	1029	4.2.2.3	53	udp	59018	blog.wathe.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.163.243.198	14400.000000	F
+1369240673.51939	Cc7QHS3eCisIXwzig	192.168.37.10	1029	4.2.2.3	53	udp	37258	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	3347.000000,47.000000	F
+1369240678.306789	Cc7QHS3eCisIXwzig	192.168.37.10	1029	4.2.2.3	53	udp	5769	aachristmas.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.201.74.19	3600.000000	F
+#close	2014-04-03-10-59-13

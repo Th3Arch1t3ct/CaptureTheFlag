@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-38-03
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1326339555.935955	CcsmEx2bDerftO9gwh	192.168.27.10	1042	91.217.153.188	80	FOYtgo2c4oQZREmo56	application/jar	http://ticketptmw.aelita.fr//images/r/938a99f1be85e19406438f9a572fdf71.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 15%  Last seen: 2012-01-06 12:29:41	https://www.virustotal.com/en/search/?query=0c53ed7972c18acb922175565d6ddaa5940f71a6	192.168.27.10	91.217.153.188	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1326339556.283329	CcsmEx2bDerftO9gwh	192.168.27.10	1042	91.217.153.188	80	FRPjFE3kl1BQoTnIs4	application/jar	http://ticketptmw.aelita.fr//images/r/938a99f1be85e19406438f9a572fdf71.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 15%  Last seen: 2012-01-06 12:29:41	https://www.virustotal.com/en/search/?query=0c53ed7972c18acb922175565d6ddaa5940f71a6	192.168.27.10	91.217.153.188	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1326339556.588519	CjgYPp231EUyGFMX98	192.168.27.10	1043	91.217.153.188	80	FPKscB3TbX5i0C0ewh	application/jar	http://ticketptmw.aelita.fr//images/r/938a99f1be85e19406438f9a572fdf71.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 15%  Last seen: 2012-01-06 12:29:41	https://www.virustotal.com/en/search/?query=0c53ed7972c18acb922175565d6ddaa5940f71a6	192.168.27.10	91.217.153.188	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-38-04

@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-17-59
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1382480245.6263	FUYsOoITc6yoyu724	162.210.192.9	192.168.41.10	C787Co1AUGTtwPnpRk	HTTP	0	SHA1,MD5	text/html	-	0.000097	-	F	4894	-	0	0	F	-	8832310339a8132e38ae007770699458	3621888b3e7ffa85f403ae4e0e99a03baedf3e2d	-	-
+1382480245.723972	FfAYYi4rDQ0EOU0pDd	162.210.192.9	192.168.41.10	C787Co1AUGTtwPnpRk	HTTP	0	SHA1,MD5	image/png	-	0.000000	-	F	6968	-	0	0	F	-	47c1f39e55790656538ca9e9e52f17b6	a55d2cbc4acf64c9f49d101145082d2800e0d290	-	-
+1382480245.838612	F97iFr1ldEYQws3Otd	162.210.192.9	192.168.41.10	C787Co1AUGTtwPnpRk	HTTP	0	SHA1,MD5	image/png	-	0.000000	-	F	512	-	0	0	F	-	659d81f4deb69861adba1fda51f83a85	c08eaaf6f11179c4723944b1b2ad60d297382b32	-	-
+1382480245.907819	FmcsL33Yho1DwUDKcf	74.125.28.95	192.168.41.10	CGO7bY10mOykanXGP8	HTTP	0	SHA1,MD5	text/plain	-	0.027563	-	F	93100	-	0	0	F	-	e0e0559014b222245deb26b6ae8bd940	e2f3603e23711f6446f278a411d905623d65201e	-	-
+1382480245.959476	FlnD78I2EnEl7IVT8	162.210.192.9	192.168.41.10	C787Co1AUGTtwPnpRk	HTTP	0	SHA1,MD5	image/png	-	0.069889	-	F	27532	-	0	0	F	-	8bd38194a07862fc43b656d1447f77f8	29dbb1c856816384c1a83c4b6c293c3c7f06aebf	-	-
+1382480246.192358	FGhFwA3YNMukXlOYGb	162.210.192.9	192.168.41.10	CqhBTl4E6PPUUAbbz2	HTTP	0	SHA1,MD5	image/png	-	0.000047	-	F	5604	-	0	0	F	-	fd0719ec4493a55040bbf5ad8c8f9d1f	6718623a24bfdd1dc81a26b6e06d44ba8967d235	-	-
+1382480246.298433	FA7zLv4uETeFCuG9w3	46.165.228.247	192.168.41.10	CbOu9e2DH1ON0EeQ1a	HTTP	0	SHA1,MD5	text/plain	-	0.002368	-	F	11189	-	0	0	F	-	dfe93347c2fb2b99ba20aa3ec3b4f1fd	34b4ce40a649130fd8bf030c8fbdd21c863f2fd8	-	-
+1382480246.443169	FqESvXCZUoeTncW7e	141.101.117.103	192.168.41.10	CfSurq2WFEwUd4TyQb	HTTP	0	SHA1,MD5	application/x-dosexec	Download.exe	0.106304	-	F	14131	310984	0	0	F	-	02a092e880c3ace51356690c3533af3a	a48dc8bfedbb61479fd6eb67575714c5d44853db	-	-
+1382480247.645211	FwvPmA3eGshZSadImb	46.165.228.247	192.168.41.10	CbOu9e2DH1ON0EeQ1a	HTTP	0	SHA1,MD5	image/png	-	0.006536	-	F	12709	-	0	0	F	-	00ffff6bb1b426e48f0ffbd6b38adf47	a6e5957afbd3a02fa33d3ad1224e99f41e7bb085	-	-
+1382480247.815438	FZvdtl4j5kKxvLU8mf	46.165.228.247	192.168.41.10	CY1z7L2dgByKdzufnd	HTTP	0	SHA1,MD5	image/png	-	0.000275	-	F	12573	-	0	0	F	-	18a9f8a12d7c209641319c044ec1b758	484d4e8b1353e40c1351a10bdc41ebea4aa51825	-	-
+#close	2014-04-03-10-18-00

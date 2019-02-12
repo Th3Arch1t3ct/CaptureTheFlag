@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-51-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1338623147.16468	C2f59nKnqVkZOayRd	192.168.22.10	1029	4.2.2.3	53	udp	50572	crphotoanddesign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	97.74.55.128	3576.000000	F
+1338623147.660524	C2f59nKnqVkZOayRd	192.168.22.10	1029	4.2.2.3	53	udp	60815	pokosa.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.111.9.98	60.000000	F
+1338623147.903461	C2f59nKnqVkZOayRd	192.168.22.10	1029	4.2.2.3	53	udp	37263	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,96.17.162.81,96.17.162.49	8225.000000,12.000000,17242.000000,8.000000,8.000000	F
+1338623149.05213	C2f59nKnqVkZOayRd	192.168.22.10	1029	4.2.2.3	53	udp	56718	www3.save-masternk.dnset.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.238.109	31.000000	F
+1338623149.390953	C2f59nKnqVkZOayRd	192.168.22.10	1029	4.2.2.3	53	udp	63374	www1.bestpx-defense.dnset.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.116	31.000000	F
+1338623155.381074	C2f59nKnqVkZOayRd	192.168.22.10	1029	4.2.2.3	53	udp	38025	www2.hardn-scanner.it.cx	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.23.11.220	3600.000000	F
+1338623200.047529	CMZQuZ1hBN1CBDEFHi	192.168.22.10	1029	208.115.221.125	53	udp	11400	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	95.211.77.236	7200.000000	F
+1338623200.114812	CID6jB408jMo1SqRI6	192.168.22.10	1029	80.90.48.91	53	udp	56459	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	95.211.77.236	7200.000000	F
+#close	2014-04-03-09-51-59

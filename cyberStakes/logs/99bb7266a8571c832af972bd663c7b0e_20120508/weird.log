@@ -1,0 +1,30 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-27-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1336502725.077716	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1336502750.742169	CN33uFzx0PKM7CYog	192.168.74.10	1067	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336502750.743881	CM9Hpf4PGMskXMEOwh	192.168.74.10	1069	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336502751.048764	CgOJ1J2JapiYveCJj1	192.168.74.10	1071	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336502751.050401	CLhQwB1gHySiLDWGKe	192.168.74.10	1073	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336502751.052888	CVP84s4Y8DXXN2ZVY8	192.168.74.10	1075	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336502751.057462	C4vKRSKy29q2fkTS9	192.168.74.10	1077	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336502751.061722	Ce6VLNqjh6zbSty8f	192.168.74.10	1079	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336502751.067362	CxjS7g49fPcrcjI4N1	192.168.74.10	1081	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336502751.080818	CHzcuo177Btd3afWvi	192.168.74.10	1083	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336502751.083292	CKdpLC2RHVgqOAJO7e	192.168.74.10	1085	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336502751.08493	C8nyFC4LnqtVrnIzV8	192.168.74.10	1087	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336502751.093151	CdbCA91quKjp7q4nMg	192.168.74.10	1089	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336502752.16628	CfbAHr1cA64jq1Vt32	192.168.74.10	1092	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336502752.249202	CCvjha3jPwiTGLKJXk	192.168.74.10	1094	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336502771.174342	CpUp7b2ESvy2eAg5Y7	192.168.74.10	1240	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1336502771.335992	Caerwma1AyT7TKYr6	192.168.74.10	1242	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1336502771.528474	Cl5pG4g9hZQSjULHd	192.168.74.10	1244	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1336502771.616715	CBbgSO3S2EbVCOhDHb	192.168.74.10	1246	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1336502771.673937	Cg3skE3JOH0vlMeT45	192.168.74.10	1248	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1336502774.23757	CC79bm3V1YsiRiKGzk	192.168.74.10	1249	31.193.12.27	80	bad_HTTP_request	-	F	bro
+#close	2014-04-03-10-27-51

@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-59-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1338454464.943383	CyDEu53N8uQzM3SP93	192.168.65.10	1029	4.2.2.3	53	udp	19343	americanbronzefoundry.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.147.244.177	14374.000000	F
+1338454465.156899	CyDEu53N8uQzM3SP93	192.168.65.10	1029	4.2.2.3	53	udp	58508	www.madeinusa.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.39.10.150	300.000000	F
+1338454465.229923	CyDEu53N8uQzM3SP93	192.168.65.10	1029	4.2.2.3	53	udp	60557	s44.sitemeter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.80.46.76	2850.000000	F
+1338454465.407423	CyDEu53N8uQzM3SP93	192.168.65.10	1029	4.2.2.3	53	udp	37003	dg.specificclick.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	mpp.specificclick.net,207.38.101.14	3655.000000,50.000000	F
+1338454465.435524	CyDEu53N8uQzM3SP93	192.168.65.10	1029	4.2.2.3	53	udp	11142	www3apps-myups.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	83.69.236.63	3600.000000	F
+1338454465.898895	CyDEu53N8uQzM3SP93	192.168.65.10	1029	4.2.2.3	53	udp	53380	b.scorecardresearch.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	b.scorecardresearch.com.edgesuite.net,a1294.w20.akamai.net,69.22.137.193,69.22.137.178,69.22.137.187	25391.000000,1355.000000,14.000000,14.000000,14.000000	F
+1338454465.42375	CyDEu53N8uQzM3SP93	192.168.65.10	1029	4.2.2.3	53	udp	21896	www0apps-myups.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1338454465.42375	CyDEu53N8uQzM3SP93	192.168.65.10	1029	4.2.2.3	53	udp	21896	www0apps-myups.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1338454465.42375	CyDEu53N8uQzM3SP93	192.168.65.10	1029	4.2.2.3	53	udp	21896	www0apps-myups.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1338454465.42375	CyDEu53N8uQzM3SP93	192.168.65.10	1029	4.2.2.3	53	udp	21896	www0apps-myups.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1338454465.42375	CyDEu53N8uQzM3SP93	192.168.65.10	1029	4.2.2.3	53	udp	21896	www0apps-myups.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1338454465.42375	CyDEu53N8uQzM3SP93	192.168.65.10	1029	4.2.2.3	53	udp	21896	www0apps-myups.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1338454485.991493	CIxoo410n7HtbQlmDf	192.168.65.10	1029	4.2.2.3	53	udp	64389	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,198.87.51.43,198.87.51.9	3545.000000,229.000000,11689.000000,8.000000,8.000000	F
+1338454508.4162	CCCClF1kD7nB38VRQk	192.168.65.10	1029	4.2.2.3	53	udp	40066	ns1.dnsapps.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.17.97.50	3600.000000	F
+#close	2014-04-03-09-59-34

@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-27-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1313293897.227234	CIGSVWprFnVhM0w0i	192.168.53.10	1060	184.173.217.27	443	-	-	-	-	-	-	-	-	unknown-11357	-	-	-	-
+1313293897.227234	CIGSVWprFnVhM0w0i	192.168.53.10	1060	184.173.217.27	443	-	-	-	-	-	-	-	-	unknown-31862	-	-	-	-
+1313293897.227234	CIGSVWprFnVhM0w0i	192.168.53.10	1060	184.173.217.27	443	-	-	-	-	-	-	-	-	unknown-31862	-	-	-	-
+1313293934.26178	C0HFv6pkYYUcZDTY2	192.168.53.10	1026	184.173.217.27	443	-	-	-	-	-	-	-	-	unknown-60480	-	-	-	-
+1313293934.26178	C0HFv6pkYYUcZDTY2	192.168.53.10	1026	184.173.217.27	443	-	-	-	-	-	-	-	-	unknown-60480	-	-	-	-
+1313293934.26178	C0HFv6pkYYUcZDTY2	192.168.53.10	1026	184.173.217.27	443	-	-	-	-	-	-	-	-	unknown-60480	-	-	-	-
+1313293934.26178	C0HFv6pkYYUcZDTY2	192.168.53.10	1026	184.173.217.27	443	-	-	-	-	-	-	-	-	unknown-60480	-	-	-	-
+#close	2014-04-03-10-27-32

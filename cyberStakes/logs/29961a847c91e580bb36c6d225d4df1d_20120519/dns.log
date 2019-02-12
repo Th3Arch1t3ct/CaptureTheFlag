@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-15-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1337429621.996789	CWPc7y1a7ANWuonX94	192.168.35.10	1029	4.2.2.3	53	udp	50572	gregstemmler.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.147.192.66	43174.000000	F
+1337429654.796424	CfrDpy3Kg1SsRAzgKl	192.168.35.10	1029	4.2.2.3	53	udp	58764	directmarketing32linearsale.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.75.218.37	3600.000000	F
+1337429655.533112	CfrDpy3Kg1SsRAzgKl	192.168.35.10	1029	4.2.2.3	53	udp	40335	google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.125.71.139,74.125.71.100,74.125.71.101,74.125.71.102,74.125.71.113,74.125.71.138	44.000000,44.000000,44.000000,44.000000,44.000000,44.000000	F
+1337429655.5361	CfrDpy3Kg1SsRAzgKl	192.168.35.10	1029	4.2.2.3	53	udp	46222	gatedielectrics.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.218.121.63	30.000000	F
+1337429655.847756	CfrDpy3Kg1SsRAzgKl	192.168.35.10	1029	4.2.2.3	53	udp	14734	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.71.106,74.125.71.147,74.125.71.99,74.125.71.103,74.125.71.104,74.125.71.105	13345.000000,181.000000,181.000000,181.000000,181.000000,181.000000,181.000000	F
+1337429655.9196	CfrDpy3Kg1SsRAzgKl	192.168.35.10	1029	4.2.2.3	53	udp	32393	direct05.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.75.218.37	3600.000000	F
+1337429656.485135	CfrDpy3Kg1SsRAzgKl	192.168.35.10	1029	4.2.2.3	53	udp	26248	freepartytube.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.210.47.109	28800.000000	F
+#close	2014-04-03-11-15-04

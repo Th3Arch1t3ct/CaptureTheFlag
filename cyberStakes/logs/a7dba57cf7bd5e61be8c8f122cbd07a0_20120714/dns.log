@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-47-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1342251900.953092	C6yd4d2tgkkzB2Kqz2	192.168.113.10	1029	4.2.2.3	53	udp	8843	riversideautoplaza.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.98.50.168	1774.000000	F
+1342251901.346304	C6yd4d2tgkkzB2Kqz2	192.168.113.10	1029	4.2.2.3	53	udp	32650	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.137.95	3152.000000,190.000000	F
+1342251922.644039	CXTpktxgjMuKm7nHa	192.168.113.10	1029	4.2.2.3	53	udp	27018	post.carsforsale.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.42.165.97	520.000000	F
+1342251922.861831	CWWI963zPUnrDVElyh	192.168.113.10	1040	4.2.2.3	53	udp	45704	www.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.wip4.adobe.com,192.150.16.64	9276.000000,8.000000	F
+1342251922.857145	CXTpktxgjMuKm7nHa	192.168.113.10	1029	4.2.2.3	53	udp	24457	cimages3.carsforsale.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cimages3.carsforsale.com.s3.amazonaws.com,s3-directional-w.amazonaws.com,s3-directional-w.geo.amazonaws.com,s3-1-w.amazonaws.com,207.171.163.132	520.000000,5353.000000,12799.000000,7206.000000,60.000000	F
+1342251922.918008	CWWI963zPUnrDVElyh	192.168.113.10	1040	4.2.2.3	53	udp	22671	dlstats.carsforsale.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.98.50.179	520.000000	F
+1342251922.996787	CWWI963zPUnrDVElyh	192.168.113.10	1040	4.2.2.3	53	udp	16014	wwwimages.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wwwimages.wip4.adobe.com,wwwimages.adobe.com.edgesuite.net,wwwimages.adobe.com.edgesuite.net.globalredir.akadns.net,a1953.x.akamai.net,204.2.243.229,204.2.243.75	50.000000,802.000000,14148.000000,802.000000,10.000000,10.000000	F
+1342251923.43979	CWWI963zPUnrDVElyh	192.168.113.10	1040	4.2.2.3	53	udp	62860	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,64.72.65.214,64.72.65.215	26854.000000,80.000000,20562.000000,2.000000,2.000000	F
+#close	2014-04-03-10-47-33

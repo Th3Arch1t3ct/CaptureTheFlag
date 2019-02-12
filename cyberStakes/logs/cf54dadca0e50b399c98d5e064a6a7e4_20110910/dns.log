@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-49-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1315616808.366202	C79Xvl9jQ619kYrl	192.168.95.10	1029	4.2.2.3	53	udp	50572	itronic.com.au	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	207.58.155.211	43175.000000	F
+1315616808.559313	C79Xvl9jQ619kYrl	192.168.95.10	1029	4.2.2.3	53	udp	26764	orangeblue.cl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	200.2.204.172	900.000000	F
+1315616809.055703	C79Xvl9jQ619kYrl	192.168.95.10	1029	4.2.2.3	53	udp	44429	mariko5.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.228.230.54	43200.000000	F
+1315616809.347968	C79Xvl9jQ619kYrl	192.168.95.10	1029	4.2.2.3	53	udp	39055	www.anyware.com.au	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	203.94.148.226	3600.000000	F
+1315616810.948791	C79Xvl9jQ619kYrl	192.168.95.10	1029	4.2.2.3	53	udp	10632	d6.ca.bc.a1.top.mail.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	core1.node9.top.mail.ru,217.69.134.122	600.000000,600.000000	F
+1315616812.890992	C79Xvl9jQ619kYrl	192.168.95.10	1029	4.2.2.3	53	udp	42634	billigates.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.184.86.38	3600.000000	F
+1315616819.448531	C79Xvl9jQ619kYrl	192.168.95.10	1029	4.2.2.3	53	udp	3467	califweuwe.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.208.34.82	43200.000000	F
+1315616852.595543	CpxYSD6nREgFzSoLi	192.168.95.10	1029	4.2.2.3	53	udp	41092	swupmf.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	swupmf.wip4.adobe.com,swupmf.adobe.com.edgesuite.net,a1137.g.akamai.net,204.245.190.26,204.245.190.27	10087.000000,239.000000,3894.000000,1.000000,1.000000	F
+1315616852.66435	CpxYSD6nREgFzSoLi	192.168.95.10	1029	4.2.2.3	53	udp	42117	crl.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.wip4.adobe.com,crl.adobe.com.edgesuite.net,a1180.g.akamai.net,204.245.190.35,204.245.190.18	22180.000000,300.000000,17914.000000,20.000000,20.000000	F
+#close	2014-04-03-10-49-21

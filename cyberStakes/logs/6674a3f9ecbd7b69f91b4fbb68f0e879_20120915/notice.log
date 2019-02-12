@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-04-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1347735429.781466	CfJQTR3pt1dl1f4Euf	192.168.16.10	1032	108.166.200.107	80	FCQKMa2dZ252IAk8bk	application/x-dosexec	http://verdictdeclick.com/links/especially-reserved-increasing.php?ego=04070502360a080b0a380a080309023337020735073734063335370702063808&cldsgb=37020404020836333307&tfzh=03&fnm=xzhpdl&tjb=ossb	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 14%  Last seen: 2012-09-18 23:56:59	https://www.virustotal.com/en/search/?query=31525b8250dedb98b6fe7ea196cff3b44e8c5eed	192.168.16.10	108.166.200.107	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-04-46

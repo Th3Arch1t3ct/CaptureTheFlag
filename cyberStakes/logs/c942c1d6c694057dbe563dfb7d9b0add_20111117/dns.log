@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-21-40
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1321558097.968335	CsGCee4zunxggOn8dg	192.168.93.10	1029	4.2.2.3	53	udp	50573	snoot.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.71.34.54	14375.000000	F
+1321558099.183938	ClvNYfPSHg7JmN9e7	192.168.93.10	1031	4.2.2.3	53	udp	29070	www.freecountersnow.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	freecountersnow.com,66.40.10.194	3600.000000,3600.000000	F
+1321558099.234236	ClvNYfPSHg7JmN9e7	192.168.93.10	1031	4.2.2.3	53	udp	36238	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.229.69,74.125.229.70,74.125.229.71,74.125.229.72,74.125.229.73,74.125.229.74,74.125.229.75,74.125.229.76,74.125.229.77,74.125.229.78,74.125.229.79,74.125.229.64,74.125.229.65,74.125.229.66,74.125.229.67,74.125.229.68	40623.000000,7.000000,7.000000,7.000000,7.000000,7.000000,7.000000,7.000000,7.000000,7.000000,7.000000,7.000000,7.000000,7.000000,7.000000,7.000000,7.000000	F
+1321558099.182865	CsGCee4zunxggOn8dg	192.168.93.10	1029	4.2.2.3	53	udp	9615	cpa.au.ms	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.201.29	3600.000000	F
+1321558099.666398	ClvNYfPSHg7JmN9e7	192.168.93.10	1031	4.2.2.3	53	udp	60808	t24.at.tf	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.230.111.10	3600.000000	F
+#close	2014-04-03-10-21-40

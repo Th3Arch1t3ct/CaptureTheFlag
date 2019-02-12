@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-23-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1338025931.939858	CpIeshTS51ya7G1d5	192.168.23.10	1035	76.163.12.2	80	1	GET	cwvancouver.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2781	200	OK	-	-	-	(empty)	-	-	-	-	-	F2ypVy4VKv6XbUogNj	text/html
+1338025932.688627	CpIeshTS51ya7G1d5	192.168.23.10	1035	76.163.12.2	80	2	GET	cwvancouver.com	/C&W Color_Tag.jpg	http://cwvancouver.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	264085	200	OK	-	-	-	(empty)	-	-	-	-	-	FB3F7W2r6jrcDE3d2g	image/jpeg
+1338025932.97056	CkiAAI2U0TT2IqLui3	192.168.23.10	1036	109.102.176.87	80	1	GET	www.kasdjjaks83adsasd.com	/main.php?page=005f761e1f9a59ed	http://cwvancouver.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	64610	200	OK	-	-	-	(empty)	-	-	-	-	-	Ff9Ype2zctIjHcWjvi	text/html
+1338025944.847607	CkiAAI2U0TT2IqLui3	192.168.23.10	1036	109.102.176.87	80	2	GET	www.kasdjjaks83adsasd.com	/w.php?f=97d19&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	77824	200	OK	-	-	-	(empty)	-	-	-	-	-	FKTU9HNUWJS67zFsc	application/x-dosexec
+1338025966.821367	CXE1za28ID1i4kVoSg	192.168.23.10	1040	109.102.176.87	80	1	GET	www.kasdjjaks83adsasd.com	/data/field.swf	http://cwvancouver.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1547	200	OK	-	-	-	(empty)	-	-	-	-	-	Fcfrfb4LxY7KjYszIa	application/x-shockwave-flash
+1338025966.462304	CkiAAI2U0TT2IqLui3	192.168.23.10	1036	109.102.176.87	80	3	GET	www.kasdjjaks83adsasd.com	/data/ap2.php	http://www.kasdjjaks83adsasd.com/main.php?page=005f761e1f9a59ed	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	33306	200	OK	-	-	-	(empty)	-	-	-	-	-	F8kQMm3wVtpIr49zyf	application/pdf
+1338025979.10139	CXE1za28ID1i4kVoSg	192.168.23.10	1040	109.102.176.87	80	2	GET	www.kasdjjaks83adsasd.com	/w.php?f=97d19&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	65287	200	OK	-	-	-	(empty)	-	-	-	-	-	FdF9ot3NfeygmEmG3	application/x-dosexec
+#close	2014-04-03-10-23-37

@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-49-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1343086030.035429	CZPFva2Vzpq2CZ4BXa	192.168.93.10	1029	4.2.2.3	53	udp	27793	madix-diy.pl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	87.98.239.3	43173.000000	F
+1343086049.963959	Cm5EDxRMAevNHGSK1	192.168.93.10	1029	4.2.2.3	53	udp	4755	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	3140.000000,12.000000	F
+1343086050.018467	Cm5EDxRMAevNHGSK1	192.168.93.10	1029	4.2.2.3	53	udp	42388	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	3600.000000,311.000000	F
+1343086056.917886	Cm5EDxRMAevNHGSK1	192.168.93.10	1029	4.2.2.3	53	udp	19605	kiplonafrey.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	65.23.129.102	3600.000000	F
+1343086049.744366	Cm5EDxRMAevNHGSK1	192.168.93.10	1029	4.2.2.3	53	udp	49811	spoillikesounding.org	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1343086049.744366	Cm5EDxRMAevNHGSK1	192.168.93.10	1029	4.2.2.3	53	udp	49811	spoillikesounding.org	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1343086083.114075	CdSQI22nBWnJewprM8	192.168.93.10	1027	207.46.75.254	53	udp	3	microsoft.com	1	C_INTERNET	1	A	0	NOERROR	T	F	F	F	0	64.4.11.37,65.55.58.201	3600.000000,3600.000000	F
+1343086083.460462	CJtY223e3ThztAnPna	192.168.93.10	1030	109.74.197.75	53	udp	6	ixsswuus.net	1	C_INTERNET	1	A	0	NOERROR	T	F	F	T	0	5.10.76.236,37.58.86.67	3600.000000,3600.000000	F
+1343086082.829512	CjoZmx28wAETfzTVgb	192.168.93.10	1025	192.36.148.17	53	udp	1	upcfgxubk.com	1	C_INTERNET	1	A	0	NOERROR	F	F	F	F	0	-	-	F
+1343086083.061757	Cp4nlb1WgtGBk5g2E1	192.168.93.10	1026	192.54.112.30	53	udp	2	microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	F	F	0	-	-	F
+1343086083.282673	CrzvEusDSHAZUH6Ne	192.168.93.10	1028	198.41.0.4	53	udp	4	snkjobcx.net	1	C_INTERNET	1	A	0	NOERROR	F	F	F	F	0	-	-	F
+1343086083.459117	CdZ0iP3PbKP3wUTWDi	192.168.93.10	1029	192.42.93.30	53	udp	5	ixsswuus.net	1	C_INTERNET	1	A	0	NOERROR	F	F	F	F	0	-	-	F
+#close	2014-04-03-09-49-58

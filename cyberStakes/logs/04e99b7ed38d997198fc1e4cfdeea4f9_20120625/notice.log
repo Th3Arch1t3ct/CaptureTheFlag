@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-39-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1340648234.166817	CNWu4Y1fPztSUkPbr4	192.168.98.10	1040	37.59.188.168	80	FoR8Vp2GLpNbxjWkDd	application/x-dosexec	http://corbacat.com/w.php?f=86b3a&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 34%  Last seen: 2012-07-03 13:30:08	https://www.virustotal.com/en/search/?query=96745583065f36ccc6d08e1b4294d568ca6e7ef6	192.168.98.10	37.59.188.168	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1340648234.465891	CVByOw2WSRUjTDfK2i	192.168.98.10	1042	37.59.188.168	80	F1CKxY3J06R21oGJF2	application/x-shockwave-flash	http://corbacat.com/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 75%  Last seen: 2012-09-14 14:05:04	https://www.virustotal.com/en/search/?query=27474f210893b69a5204dcafb6d9fc12b743dc1f	192.168.98.10	37.59.188.168	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1340648246.315567	C1cfWX14gtxYnmJ7q3	192.168.98.10	1045	37.59.188.168	80	FBfLom1EqlkIISWTk9	application/x-dosexec	http://corbacat.com/w.php?f=86b3a&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 34%  Last seen: 2012-07-03 13:30:08	https://www.virustotal.com/en/search/?query=96745583065f36ccc6d08e1b4294d568ca6e7ef6	192.168.98.10	37.59.188.168	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1340648266.17006	CXeael2dzkpkbX0av3	192.168.98.10	1047	37.59.188.168	80	FdBOuX12KIRf9Nohg3	application/x-dosexec	http://corbacat.com/w.php?f=86b3a&e=0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 34%  Last seen: 2012-07-03 13:30:08	https://www.virustotal.com/en/search/?query=96745583065f36ccc6d08e1b4294d568ca6e7ef6	192.168.98.10	37.59.188.168	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-39-48

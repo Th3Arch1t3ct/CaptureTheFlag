@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-49-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1320970197.934084	CyH8As1DWL6RW9b221	192.168.5.10	1029	4.2.2.3	53	udp	64913	agenciahg.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	200.98.197.86	1778.000000	F
+1320970198.991649	CyH8As1DWL6RW9b221	192.168.5.10	1029	4.2.2.3	53	udp	56464	www.agenciahg.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	200.98.197.86	1784.000000	F
+1320970212.97186	CisAoMG3T71r81Yc7	192.168.5.10	1029	4.2.2.3	53	udp	4755	gfdagds.coom.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.208.142.55	3600.000000	F
+1320970219.510223	CisAoMG3T71r81Yc7	192.168.5.10	1029	4.2.2.3	53	udp	63635	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	3095.000000,173.000000	F
+#close	2014-04-03-10-49-19

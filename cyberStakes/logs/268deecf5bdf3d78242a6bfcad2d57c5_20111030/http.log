@@ -1,0 +1,32 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-24-43
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1319998176.122689	C9DUy33SPyZCnROR42	192.168.85.10	1030	74.52.183.34	80	1	GET	mentalscience.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2451	200	OK	-	-	-	(empty)	-	-	-	-	-	FbmMND2wh6usGRAThe	text/html
+1319998176.411883	CDaeBy2kmAf7PAaWl2	192.168.85.10	1031	74.52.183.34	80	1	GET	www.transtechny.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	8478	200	OK	-	-	-	(empty)	-	-	-	-	-	F0OaKb1YEa5IqFBfp6	text/html
+1319998176.472005	CoeTtv2qUAUqCq0Qe	192.168.85.10	1032	74.52.183.34	80	1	GET	www.transtechny.com	/css.js	http://www.transtechny.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3819	200	OK	-	-	-	(empty)	-	-	-	-	-	FxOZby4KfpdGPRV3df	text/plain
+1319998176.524977	CoeTtv2qUAUqCq0Qe	192.168.85.10	1032	74.52.183.34	80	2	GET	www.transtechny.com	/american_flag.jpg	http://www.transtechny.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1353	200	OK	-	-	-	(empty)	-	-	-	-	-	FR37dIHrjFW4xvMEg	image/jpeg
+1319998176.600413	CoeTtv2qUAUqCq0Qe	192.168.85.10	1032	74.52.183.34	80	3	GET	www.transtechny.com	/Brazil_flag.jpg	http://www.transtechny.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1861	200	OK	-	-	-	(empty)	-	-	-	-	-	FcebhU3OONvshOuGz7	image/jpeg
+1319998176.524621	CDaeBy2kmAf7PAaWl2	192.168.85.10	1031	74.52.183.34	80	2	GET	www.transtechny.com	/bkg_tt.jpg	http://www.transtechny.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	51341	200	OK	-	-	-	(empty)	-	-	-	-	-	FYLbmY2OGyQ9XWvSGk	image/jpeg
+1319998176.643442	CoeTtv2qUAUqCq0Qe	192.168.85.10	1032	74.52.183.34	80	4	GET	www.transtechny.com	/main/images/twitter_logo_header.gif	http://www.transtechny.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1857	200	OK	-	-	-	(empty)	-	-	-	-	-	F2ipp33ga73mdCBnJl	image/gif
+1319998176.72902	CDaeBy2kmAf7PAaWl2	192.168.85.10	1031	74.52.183.34	80	3	GET	www.transtechny.com	/main/images/fb_logo.gif	http://www.transtechny.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1271	200	OK	-	-	-	(empty)	-	-	-	-	-	FT3alg49LIHEsRXakd	image/gif
+1319998177.590334	Cv4aPF2wLrFW20c1ng	192.168.85.10	1034	217.23.8.180	80	1	GET	vc-business.com	/in.php	http://www.transtechny.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3121	200	OK	-	-	-	(empty)	-	-	-	-	-	FW7NR01KOPCy3vF0k4	text/html
+1319998177.580222	C0wh0F2qQYZuJvms8	192.168.85.10	1033	95.211.26.165	80	1	GET	easy2029.co.cc	/main.php?page=0e7924c5295563bc	http://www.transtechny.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	570	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F1NauR2fJDunaKs9k	text/html
+1319998177.896909	Cv4aPF2wLrFW20c1ng	192.168.85.10	1034	217.23.8.180	80	2	GET	vc-business.com	/PluginDetect.js	http://vc-business.com/in.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	23684	200	OK	-	-	-	(empty)	-	-	-	-	-	FYhaUY3Ky3ThZ5ga3	text/plain
+1319998178.666791	CLWukPQfC1GJIQ2jg	192.168.85.10	1035	95.211.26.165	80	1	GET	30domaaaam.in	/main.php?page=c76874df55550a3f	http://www.transtechny.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	95841	200	OK	-	-	-	(empty)	-	-	-	-	-	FGCHHyJXDWuCjtDTd	text/html
+1319998192.599714	CLWukPQfC1GJIQ2jg	192.168.85.10	1035	95.211.26.165	80	2	GET	30domaaaam.in	/w.php?f=74&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1773568	200	OK	-	-	-	(empty)	-	-	-	-	-	FqjsGu1lMpNqInQvDi	application/x-dosexec
+1319998199.568008	CLWukPQfC1GJIQ2jg	192.168.85.10	1035	95.211.26.165	80	3	GET	30domaaaam.in	/content/2ddfp.php?f=74	http://30domaaaam.in/main.php?page=c76874df55550a3f	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	11959	200	OK	-	-	-	(empty)	-	-	-	-	-	F2FQKEOy4wPiwb6D6	application/pdf
+1319998207.374585	C1BWHXt5hkivTXnSb	192.168.85.10	1045	66.96.208.200	80	1	POST	ourdatatransfers.com	/gate.php	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	189	16	200	OK	-	-	-	(empty)	-	-	-	FhvAq42gmHDtvOMOai	binary	Fcsg8i2ALPhFXOp75j	text/plain
+1319998212.012971	C1tqitlRZ7D693qLb	192.168.85.10	1046	66.96.208.200	80	1	POST	ourdatatransfers.com	/gate.php	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	189	16	200	OK	-	-	-	(empty)	-	-	-	Fhm5mA1TjVXRGcvFjk	binary	FSrFP92NDnPVQGTyC5	text/plain
+1319998213.742892	CMwzauJIG84lGk4qc	192.168.85.10	1047	95.211.26.165	80	1	GET	30domaaaam.in	/content/field.swf	http://www.transtechny.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1351	200	OK	-	-	-	(empty)	-	-	-	-	-	FzJMi33On6moKFjocb	application/x-shockwave-flash
+1319998215.261167	CF1puKZez7kcq8Le	192.168.85.10	1049	95.211.26.165	80	1	OPTIONS	95.211.26.165	/	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	172	405	Not Allowed	-	-	-	(empty)	-	-	-	-	-	FUz9nc1cOGBeoG3jrc	text/html
+1319998217.169957	C8R5vpplC1kAJjWyb	192.168.85.10	1056	74.125.47.103	80	1	GET	google.com	/	-	mozilla/2.0	0	219	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	Fg3ztndc5ygSH87vd	text/html
+1319998216.57668	CY6OC3VArEaMYDyHc	192.168.85.10	1048	95.211.26.165	80	1	GET	30domaaaam.in	/content/field.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5847	200	OK	-	-	-	(empty)	-	-	-	-	-	FNRHa63ITArPoilrq2	application/zip
+1319998217.362396	CftG673n2wm8Iukb35	192.168.85.10	1058	64.191.83.213	80	1	GET	pickviewonline.com	/sp.php?adv=6432&who=S	-	mozilla/2.0	0	1	200	OK	-	-	-	(empty)	-	-	-	-	-	FdYoZd2qYE5NnJY8l5	application/octet-stream
+1319998210.755582	CLWukPQfC1GJIQ2jg	192.168.85.10	1035	95.211.26.165	80	4	GET	30domaaaam.in	/w.php?f=74&e=6	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1773568	200	OK	-	-	-	(empty)	-	-	-	-	-	F4Lou3z2t7GOkpeti	application/x-dosexec
+1319998221.691958	C87Xd63x8WCUdGJJ23	192.168.85.10	1059	95.211.26.165	80	1	GET	30domaaaam.in	/w.php?f=74&e=1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	1773568	200	OK	-	-	-	(empty)	-	-	-	-	-	FQOe0wLn9hQOeSiUj	application/x-dosexec
+#close	2014-04-03-10-24-44

@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-51-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1391646400.237824	CJgIae4TcxNJBvy5gc	192.168.7.10	1035	4.2.2.3	53	udp	61877	sanvoxsp.pl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	162.211.228.74	3537.000000	F
+1391646400.68989	CJgIae4TcxNJBvy5gc	192.168.7.10	1035	4.2.2.3	53	udp	32695	panelvw.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.243.116.41	28800.000000	F
+1391646400.702214	ClQwa34gfcdRaI22yf	192.168.7.10	1037	4.2.2.3	53	udp	57015	theme.webme.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	misc.webme.com,46.165.251.105	299.000000,300.000000	F
+1391646401.121881	CJgIae4TcxNJBvy5gc	192.168.7.10	1035	4.2.2.3	53	udp	28848	ppc.tepex.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.45.75.169	86400.000000	F
+1391646401.239698	ClQwa34gfcdRaI22yf	192.168.7.10	1037	4.2.2.3	53	udp	44721	www.shar-m.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	8.webfilesdownloader.com,195.66.79.27	600.000000,600.000000	F
+1391646403.641661	CJgIae4TcxNJBvy5gc	192.168.7.10	1035	4.2.2.3	53	udp	4275	www.sharfiles.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	7.webfilesdownloader.com,195.66.79.27	599.000000,600.000000	F
+1391646404.158867	CJgIae4TcxNJBvy5gc	192.168.7.10	1035	4.2.2.3	53	udp	20925	freemediastats.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	176.121.11.24	600.000000	F
+1391646405.053621	CJgIae4TcxNJBvy5gc	192.168.7.10	1035	4.2.2.3	53	udp	64702	stat.freemediastats.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	176.121.11.24	600.000000	F
+#close	2014-04-03-09-51-24

@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-00-46
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1373854380.281874	FFrFbJ2TzUQwVN0Atl	198.7.61.114	192.168.36.10	C741pLqnmUJ2qbjck	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	313	-	0	0	F	-	98d1b125e6fc39a831f7d8ee62b8fcf5	5c7b5d6922b55828184da6b43e637d1b9b053664	-	-
+1373854380.669799	FDRklN1JlitnxEQ6s3	5.9.90.81	192.168.36.10	CUS1QX2wJ1bGa99m4k	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	226	-	0	0	F	-	c8eb7c40aaaa1b68efb19ed283ec0175	f4f69e373c8ddd421eb7f1bd2facaa2333cc2373	-	-
+1373854381.158276	FVgneu4Mc4WuY8ehRa	108.162.198.113	192.168.36.10	CFhkyZ2IGAyqyegQo1	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	178	-	0	0	F	-	cd2e0e43980a00fb6a2742d3afd803b8	81ffbd1712afe8cdf138b570c0fc9934742c33c1	-	-
+1373854381.325423	FXASZ52DUGvEIqBBce	108.162.198.113	192.168.36.10	CFhkyZ2IGAyqyegQo1	HTTP	0	MD5,SHA1	text/html	-	0.000248	-	F	5226	-	0	0	F	-	36f640f2ed19777019655b0c95afe1dd	b8be7243b88656cf7f5a78b7ddf4bde4b934065e	-	-
+1373854381.336557	FjnxsEn3XjYPnQbc1	108.162.198.113	192.168.36.10	CFhkyZ2IGAyqyegQo1	HTTP	0	MD5,SHA1	image/png	-	0.000121	-	F	5933	-	0	0	F	-	bf3e67bdf7b25b94222ab7e852987dc8	3df84800cc19fc1269db53cb1643b904658fad32	-	-
+1373854381.33859	FfPcLY39O61ZqVqrIl	108.162.198.113	192.168.36.10	CXN9iF1klB0EIgkgC1	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	1754	-	0	0	F	-	9e34efa125ecc8dd3ab5bbfd6ac11a70	4f63a8a18b4f3ee559f1fd8b64f6557556e47b3e	-	-
+1373854381.463623	FMUUG42DhAeGYCyjok	74.125.224.197	192.168.36.10	CD8Q6t1HKdMGjSA742	HTTP	0	MD5,SHA1	text/plain	-	0.009981	-	F	39714	-	0	0	F	-	798da7d352b8ecfb7177f584fef9bfe3	1fe3a850b0fe5e7966ff55dda5f988f98bccdd50	-	-
+1373854381.883391	FaeAHY20ykmEi5sjo9	95.211.169.207	192.168.36.10	C8C3Vv1T723jtTNpmj	HTTP	0	MD5,SHA1	application/x-dosexec	DownloadSetup.exe	0.071164	-	F	14278	298792	0	0	F	-	ea4e1ca58e7d00a1556dd5458c7817ca	23f3a7cf4ae0493b796274ba32e998c1c919970b	-	-
+#close	2014-04-03-10-00-46

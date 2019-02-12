@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-07-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1328686636.978029	CW6OS90uzQrpqFKbl	192.168.121.10	1034	209.135.132.62	80	FZhfGeIgZ0EcWHZ19	application/x-dosexec	http://qw.regionredbirds.com/w.php?f=16&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-02-12 11:13:05	https://www.virustotal.com/en/search/?query=cbc49201f8d210c0d886961a78eb8182ec02f0f6	192.168.121.10	209.135.132.62	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328686670.452983	C0i0wI3IfrUjXgpH59	192.168.121.10	1042	209.135.132.62	80	FVQTrm2o5TkwTe4dPe	application/x-dosexec	http://qw.regionredbirds.com/w.php?f=16&e=0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-02-12 11:13:05	https://www.virustotal.com/en/search/?query=cbc49201f8d210c0d886961a78eb8182ec02f0f6	192.168.121.10	209.135.132.62	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-07-30

@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-09-55-52
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1338430812.818803	C8zhWT2jNLqBr91qP3	192.168.10.10	1142	173.194.37.42	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1337692168.000000	1369228768.000000	-	-	-	2cc9dfa2ffbc8e465ce4add5d02eb085	ok
+1338430812.812701	CNYiu44illQq76ZL12	192.168.10.10	1143	173.194.37.42	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1337692168.000000	1369228768.000000	-	-	-	2cc9dfa2ffbc8e465ce4add5d02eb085	ok
+1338430812.819531	CS8pQf33uhd1eZPRia	192.168.10.10	1145	173.194.37.44	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1337692168.000000	1369228768.000000	-	-	-	2cc9dfa2ffbc8e465ce4add5d02eb085	ok
+1338430812.819216	CFvxpc4IzNxyri3YL5	192.168.10.10	1144	173.194.37.43	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1337692168.000000	1369228768.000000	-	-	-	2cc9dfa2ffbc8e465ce4add5d02eb085	ok
+1338430812.819832	CYsOOx2w2Z9YI5rKO4	192.168.10.10	1146	173.194.37.43	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1337692168.000000	1369228768.000000	-	-	-	2cc9dfa2ffbc8e465ce4add5d02eb085	ok
+1338430812.820124	Chd7nI3tyOdg5lkKg	192.168.10.10	1147	173.194.37.44	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1337692168.000000	1369228768.000000	-	-	-	2cc9dfa2ffbc8e465ce4add5d02eb085	ok
+1338430812.820417	ChkJCq435P84o0mpF4	192.168.10.10	1148	173.194.37.43	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1337692168.000000	1369228768.000000	-	-	-	2cc9dfa2ffbc8e465ce4add5d02eb085	ok
+1338430812.831624	CEwWC13UFeRwmiJyj9	192.168.10.10	1141	173.194.37.43	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1337692168.000000	1369228768.000000	-	-	-	2cc9dfa2ffbc8e465ce4add5d02eb085	ok
+1338430813.591832	CM4leG4B9biQ6q7vE6	192.168.10.10	1150	173.194.37.42	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	55d5685777218dbee7d721f9934b18714526dcbef359df4e3760eb4ab3b26897	-	-	-	-	-	-	-	-	-
+1338430813.592432	CR0uIq2kaMUEC4lxZ2	192.168.10.10	1152	173.194.37.42	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	55d5685777218dbee7d721f9934b18714526dcbef359df4e3760eb4ab3b26897	-	-	-	-	-	-	-	-	-
+1338430813.593594	CwomjO39AUgHedrLd2	192.168.10.10	1153	173.194.37.44	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	e5e2bba97da93ed80d0aaca1e724624f64ef142fc20c67ff00ee5f9063ac29fb	-	-	-	-	-	-	-	-	-
+1338430813.594318	CErxWi4IrdII5WRXI7	192.168.10.10	1154	173.194.37.43	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	20ccbbe7d99b6e044013abf3a44a60636e6a7bc4f533059d4aea50babdc5a467	-	-	-	-	-	-	-	-	-
+1338430813.59819	CjhW983bQyQ34A1Gt8	192.168.10.10	1155	173.194.37.43	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	0facf6553a68aafc8b3b3c5f9b4e0e401b298c74a381b5435026d7a2aaa715ad	-	-	-	-	-	-	-	-	-
+1338430813.694746	CtLkLD2aUGfhbG352l	192.168.10.10	1156	173.194.37.43	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	20ccbbe7d99b6e044013abf3a44a60636e6a7bc4f533059d4aea50babdc5a467	-	-	-	-	-	-	-	-	-
+1338430813.78248	Cz5rQ6bAMfc11DZPh	192.168.10.10	1157	173.194.37.43	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	20ccbbe7d99b6e044013abf3a44a60636e6a7bc4f533059d4aea50babdc5a467	-	-	-	-	-	-	-	-	-
+1338430839.636938	CnatLeWOKm6zdwkTg	192.168.10.10	1254	205.251.72.170	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.ib-ibi.com,OU=IT,O=i-behavior,L=Louisville,ST=Colorado,C=US	CN=Thawte SSL CA,O=Thawte\, Inc.,C=US	1279688400.000000	1348030799.000000	-	-	-	437f37e6eb936517da838a38ec5fc7be	ok
+1338430839.925802	CtOnYsDchXgVG3BSh	192.168.10.10	1260	70.33.182.202	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=ib.mookie1.com,OU=IT,O=I-Behavior\, Inc,L=Louisville,ST=Colorado,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1334034000.000000	1373648400.000000	-	-	-	3567a18a090d67b8f2cb9ac062b99fdc	ok
+#close	2014-04-03-09-55-53

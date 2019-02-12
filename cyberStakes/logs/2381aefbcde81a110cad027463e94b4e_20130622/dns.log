@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-54-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1371873846.193028	CvCxsN2dm6LvzjbWJf	192.168.70.10	1029	4.2.2.3	53	udp	2443	naturekid.co.kr	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	121.254.168.26	86400.000000	F
+1371873846.788888	CvCxsN2dm6LvzjbWJf	192.168.70.10	1029	4.2.2.3	53	udp	55432	www.ienp.co.kr	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ienp.co.kr,111.92.188.23	3600.000000,3600.000000	F
+1371873848.803072	CvCxsN2dm6LvzjbWJf	192.168.70.10	1029	4.2.2.3	53	udp	27784	s9.cnzz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	c.cnzz.com,42.121.103.235	3599.000000,300.000000	F
+1371873850.368697	CdqdAD2CMlK0t50Frg	192.168.70.10	1040	4.2.2.3	53	udp	32398	c.cnzz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	42.121.103.235	300.000000	F
+1371873850.366301	CvCxsN2dm6LvzjbWJf	192.168.70.10	1029	4.2.2.3	53	udp	27529	hzs10.cnzz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	110.75.187.64,110.75.187.66,110.75.187.67,110.75.187.63	300.000000,300.000000,300.000000,300.000000	F
+1371873851.22602	CvCxsN2dm6LvzjbWJf	192.168.70.10	1029	4.2.2.3	53	udp	10895	icon.cnzz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	42.121.103.217	300.000000	F
+1371873851.225704	CdqdAD2CMlK0t50Frg	192.168.70.10	1040	4.2.2.3	53	udp	33935	cnzz.mmstat.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pcookie.split.cnzz.com,42.121.149.42	300.000000,300.000000	F
+1371873852.194935	CvCxsN2dm6LvzjbWJf	192.168.70.10	1029	4.2.2.3	53	udp	44428	pcookie.cnzz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pcookie.split.cnzz.com,42.121.149.43	147.000000,146.000000	F
+#close	2014-04-03-10-54-37

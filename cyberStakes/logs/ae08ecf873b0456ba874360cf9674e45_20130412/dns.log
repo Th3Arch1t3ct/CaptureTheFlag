@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-06-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1365766164.977171	CAXONG1CdSlSrIgUH3	192.168.115.10	1029	4.2.2.3	53	udp	19343	colotion.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.23.248.67	86378.000000	F
+1365766165.433158	CAXONG1CdSlSrIgUH3	192.168.115.10	1029	4.2.2.3	53	udp	3469	www.colotion.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	colotion.com,94.23.248.67	86378.000000,86377.000000	F
+1365766167.839522	CyUB4530m1Ks6IAYPk	192.168.115.10	1037	4.2.2.3	53	udp	43656	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.134.100,74.125.134.138,74.125.134.101,74.125.134.102,74.125.134.139,74.125.134.113	8760.000000,256.000000,256.000000,256.000000,256.000000,256.000000,256.000000	F
+1365766167.84299	CyUB4530m1Ks6IAYPk	192.168.115.10	1037	4.2.2.3	53	udp	40841	www.google.fr	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.194.37.63,173.194.37.55,173.194.37.56	300.000000,300.000000,300.000000	F
+1365766167.837804	CAXONG1CdSlSrIgUH3	192.168.115.10	1029	4.2.2.3	53	udp	26250	connect.facebook.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	connect.facebook.net.edgekey.net,e3821.dspe1.akamaiedge.net,23.62.207.139	2467.000000,360.000000,16.000000	F
+#close	2014-04-03-10-06-14

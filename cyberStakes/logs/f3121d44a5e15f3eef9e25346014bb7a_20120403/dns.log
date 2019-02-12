@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-06-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1333487246.861274	C30OCg3gS3DfjnEwX3	192.168.123.10	1029	4.2.2.3	53	udp	48271	bombshellbeautyloungeny.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	72.167.3.1	3578.000000	F
+1333487247.910222	C5bfnw1ic0MxEtXye	192.168.123.10	1032	4.2.2.3	53	udp	4492	fonts.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,72.14.204.95	2886.000000,270.000000	F
+1333487248.067578	C5bfnw1ic0MxEtXye	192.168.123.10	1032	4.2.2.3	53	udp	37516	themes.googleusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlehosted.l.googleusercontent.com,72.14.204.132	32083.000000,78.000000	F
+1333487247.908808	C30OCg3gS3DfjnEwX3	192.168.123.10	1029	4.2.2.3	53	udp	28302	netabuzam.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.75.244.114	28800.000000	F
+1333487248.569534	C5bfnw1ic0MxEtXye	192.168.123.10	1032	4.2.2.3	53	udp	4234	biznesstroika.be	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.121.75.7	3600.000000	F
+1333487258.262624	CVAmHE1wIvi9gykK0h	192.168.123.10	1032	4.2.2.3	53	udp	27786	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,118.214.164.56,118.214.164.49	4393.000000,145.000000,11606.000000,19.000000,19.000000	F
+#close	2014-04-03-10-06-20

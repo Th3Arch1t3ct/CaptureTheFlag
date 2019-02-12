@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-58-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1349728230.736272	CNiPIf4CekMeYr97p8	192.168.28.10	1030	4.2.2.3	53	udp	31625	askfm.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.210.160.30	86376.000000	F
+1349728231.258615	CNiPIf4CekMeYr97p8	192.168.28.10	1030	4.2.2.3	53	udp	34953	www.flatcast.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.51.180.142	86400.000000	F
+1349728231.977792	CNiPIf4CekMeYr97p8	192.168.28.10	1030	4.2.2.3	53	udp	58248	download.flatcast.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.51.180.142	86400.000000	F
+1349728235.497394	CNiPIf4CekMeYr97p8	192.168.28.10	1030	4.2.2.3	53	udp	14474	crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.55.190	168.000000,0.000000	F
+1349728235.707084	CNiPIf4CekMeYr97p8	192.168.28.10	1030	4.2.2.3	53	udp	9354	csc3-2004-crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.55.190	900.000000,0.000000	F
+#close	2014-04-03-09-58-46

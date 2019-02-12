@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-59-28
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1331172430.52466	Ct2DSc2XevVTJgEd8	192.168.94.10	1029	4.2.2.3	53	udp	20367	csachristuniversity.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.92.50.16	3578.000000	F
+1331172430.677595	Ct2DSc2XevVTJgEd8	192.168.94.10	1029	4.2.2.3	53	udp	64140	panamairline.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.67.210	43178.000000	F
+1331172431.140007	Ct2DSc2XevVTJgEd8	192.168.94.10	1029	4.2.2.3	53	udp	20620	www3.personalzbholder.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.213.222.18	28800.000000	F
+1331172431.322475	Ct2DSc2XevVTJgEd8	192.168.94.10	1029	4.2.2.3	53	udp	27533	www1.safehfantivir.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.213.222.13	28800.000000	F
+1331172456.891965	CPbQU5RhMDek5OAF7	192.168.94.10	1029	4.2.2.3	53	udp	13963	www1.powerscanerxpbm.it.cx	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.249.35.83	3600.000000	F
+1331172457.997354	CPbQU5RhMDek5OAF7	192.168.94.10	1029	4.2.2.3	53	udp	29579	www2.hardrisuite.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.213.222.14	28800.000000	F
+#close	2014-04-03-10-59-28

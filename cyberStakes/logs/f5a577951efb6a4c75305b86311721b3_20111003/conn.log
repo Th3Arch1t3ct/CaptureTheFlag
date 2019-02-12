@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-11-12-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1317602299.962915	CFhyF53Xr6LZJIAnnj	192.168.79.10	1029	4.2.2.3	53	udp	dns	0.035174	32	48	SF	-	0	Dd	1	60	1	76	(empty)
+1317602316.98872	CyU2Qe1TL5VF9lBwdc	192.168.79.10	1029	4.2.2.3	53	udp	dns	1.047797	59	75	SF	-	0	Dd	1	87	1	103	(empty)
+1317602317.985208	CdhI961vN49W1oml5a	192.168.79.10	1029	4.2.2.5	53	udp	dns	0.067125	59	75	SF	-	0	Dd	1	87	1	103	(empty)
+1317602299.99936	CRVLlx1zUwhWMnUzV	192.168.79.10	1030	69.65.3.194	80	tcp	http	25.079331	286	431	RSTO	-	0	ShADadfR	6	534	4	599	(empty)
+1317602284.817384	CIjMjOdHtgwzu2yG8	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000849	626	0	S0	-	0	D	2	682	0	0	(empty)
+1317602319.71454	CtaVMd1tP6X2eWYu01	192.168.79.10	1036	95.163.66.208	80	tcp	http	26.133462	305	5791	SF	-	0	ShADadFf	9	673	9	6159	(empty)
+1317602345.783451	CHXy8p3DvwuAxUhVX9	192.168.79.10	1037	95.163.66.208	80	tcp	http	4.633114	223	407976	SF	-	0	ShADadFf	199	8743	301	420024	(empty)
+1317602284.817718	CO2EyW3BkGqD2nidh2	192.168.79.10	68	192.168.79.1	67	udp	dhcp	12.186557	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1317602355.655857	CftZ0V3bEJzJ19aNGd	192.168.79.10	1040	122.224.4.134	80	tcp	http	9.231918	241	0	S1	-	0	ShAD	5	931	1	52	(empty)
+1317602350.642411	CokLJ71F3NsLHppDB8	192.168.79.10	1039	178.162.174.147	80	tcp	http	1.000683	256	160	S1	-	0	ShADad	4	424	3	288	(empty)
+1317602318.037748	CdXvaE3FrXpreUkmEk	192.168.79.10	1035	95.163.66.208	80	tcp	http	2.182704	343	94890	S1	-	0	ShADad	47	2231	72	97778	(empty)
+1317602350.571675	C6JmeD37baOEsdEUhc	192.168.79.10	1038	178.162.174.147	80	tcp	http	1.071292	249	218	S1	-	0	ShADad	4	417	3	346	(empty)
+1317602302.429839	CQz5Bn3vSWyrlR0ALk	192.168.79.10	1033	239.255.255.250	1900	udp	-	6.040489	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-11-12-10

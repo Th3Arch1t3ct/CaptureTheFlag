@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-17-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1328688597.702711	CxiM2R2xAizuVDwgRh	192.168.85.10	1029	4.2.2.3	53	udp	50573	usadrugtreatment.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.53.38.130	14379.000000	F
+1328688597.926469	CxiM2R2xAizuVDwgRh	192.168.85.10	1029	4.2.2.3	53	udp	12175	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.65.138,74.125.65.139,74.125.65.100,74.125.65.101,74.125.65.102,74.125.65.113	33609.000000,175.000000,175.000000,175.000000,175.000000,175.000000,175.000000	F
+1328688598.279882	CxiM2R2xAizuVDwgRh	192.168.85.10	1029	4.2.2.3	53	udp	30606	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.65.95	2843.000000,273.000000	F
+1328688599.549375	CxiM2R2xAizuVDwgRh	192.168.85.10	1029	4.2.2.3	53	udp	39305	api.twitter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.59.149.200,199.59.149.232,199.59.148.20,199.59.148.87	13.000000,13.000000,13.000000,13.000000	F
+1328688600.883602	CxiM2R2xAizuVDwgRh	192.168.85.10	1029	4.2.2.3	53	udp	12171	tcdrrptcco.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	12.183.171.162,82.72.157.69	1.000000,1.000000	F
+1328688643.701887	CEDvKc2O2OxCuvMGq4	192.168.85.10	1044	4.2.2.3	53	udp	30346	jeksedu84heg.eu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	77.95.231.87	3600.000000	F
+1328688643.113329	CeEUrw2M7JxZqeqyja	192.168.85.10	1029	4.2.2.3	53	udp	15243	tcdrrptcco.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.79.55.199,62.195.163.198	1.000000,1.000000	F
+1328688644.861397	CEDvKc2O2OxCuvMGq4	192.168.85.10	1044	4.2.2.3	53	udp	4229	tcdrrptcco.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.195.163.198,82.79.55.199	1.000000,1.000000	F
+#close	2014-04-03-10-17-49

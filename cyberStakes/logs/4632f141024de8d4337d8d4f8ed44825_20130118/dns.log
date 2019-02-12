@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-57-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1358487773.117074	CZ8gyT1SoYl7qLtjb1	192.168.25.10	1030	4.2.2.3	53	udp	50572	nxray.com.au	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	203.170.85.241	1780.000000	F
+1358487773.707258	CZ8gyT1SoYl7qLtjb1	192.168.25.10	1030	4.2.2.3	53	udp	41359	mail.newcastlexray.com.au	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	115.70.38.54	100.000000	F
+1358487788.514271	CbEMHS2O0OxOQbt8pl	192.168.25.10	1030	4.2.2.3	53	udp	11662	crl.thawte.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.52.190	900.000000,1.000000	F
+1358487788.938558	CbEMHS2O0OxOQbt8pl	192.168.25.10	1030	4.2.2.3	53	udp	59784	cs-g2-crl.thawte.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.52.190	900.000000,1.000000	F
+#close	2014-04-03-09-57-27

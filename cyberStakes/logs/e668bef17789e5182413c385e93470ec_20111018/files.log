@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-24-19
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1318964485.446628	FhIXxr1goa1y3vt66d	66.186.38.90	192.168.94.10	C8lZsf2cFE1PyDK0t6	HTTP	0	SHA1,MD5	text/html	-	0.122929	-	F	20448	-	0	0	F	-	7caf496bef816cb712b56b9c8dd3eb0f	353c54010f07dfef40880f56c4e2defa68c26aa7	-	-
+1318964485.649924	F2HVGz45whe9qh86Og	66.186.38.90	192.168.94.10	C8lZsf2cFE1PyDK0t6	HTTP	0	SHA1,MD5	text/plain	-	0.000022	-	F	9062	-	0	0	F	-	d008ec5c191b605fb552dfc6260e40fc	999886472c021db184298b76fb83b14ba52f9f09	-	-
+1318964485.713143	FrN0Yf1j0VFhTTpvk	66.186.38.90	192.168.94.10	C8lZsf2cFE1PyDK0t6	HTTP	0	SHA1,MD5	image/gif	-	0.000000	-	F	43	43	0	0	F	-	325472601571f31e1bf00674c368d335	2daeaa8b5f19f0bc209d976c02bd6acb51b00b0a	-	-
+1318964485.776461	FfPRIE90pweiWambc	66.186.38.90	192.168.94.10	C8lZsf2cFE1PyDK0t6	HTTP	0	SHA1,MD5	image/gif	-	0.000000	-	F	80	80	0	0	F	-	d4731c9ce4618002582b23b740118d70	1048b8263f8f2963282586c05b3514c2a43ecc6b	-	-
+1318964485.715524	FKwxCM38Nyi9eET4xl	66.186.38.90	192.168.94.10	CvSzM82gNhyPHKzLe2	HTTP	0	SHA1,MD5	image/gif	-	0.061357	-	F	3202	3202	0	0	F	-	f8bcae5123a4e60442b8d83817291095	9cdea49084075566c5916514647b0cb6c3c65bee	-	-
+1318964485.83939	FXCCIl2BBoqneRUBij	66.186.38.90	192.168.94.10	C8lZsf2cFE1PyDK0t6	HTTP	0	SHA1,MD5	text/plain	-	0.000025	-	F	9348	-	0	0	F	-	9066330a4943eff339b403c4b2675809	e669de2a27626f9e949a17ad2f558d96afdc102c	-	-
+1318964485.930452	FjdLDC2j5bQSFsEPNk	66.186.38.90	192.168.94.10	CvSzM82gNhyPHKzLe2	HTTP	0	SHA1,MD5	application/x-dosexec	-	0.039338	-	F	5280	28672	0	0	F	-	0210696ee2372255dbb9df4fb2addc78	47439b327616be23131b41679cadcf072ec9abe2	-	-
+#close	2014-04-03-10-24-20

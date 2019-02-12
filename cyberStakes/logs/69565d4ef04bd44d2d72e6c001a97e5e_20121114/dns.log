@@ -1,0 +1,32 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-55-16
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1352891224.037138	C5oAyY1cjfr2aYKSpj	192.168.81.10	1029	4.2.2.3	53	udp	24203	vivirconalzheimer.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	212.34.128.105	3600.000000	F
+1352891224.625362	C5oAyY1cjfr2aYKSpj	192.168.81.10	1029	4.2.2.3	53	udp	8586	iftttcore.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.235.8.175	600.000000	F
+1352891229.78547	C5oAyY1cjfr2aYKSpj	192.168.81.10	1029	4.2.2.3	53	udp	7306	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	3348.000000,48.000000	F
+1352891230.104894	C5oAyY1cjfr2aYKSpj	192.168.81.10	1029	4.2.2.3	53	udp	24201	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	2900.000000,600.000000	F
+1352891233.424119	C5oAyY1cjfr2aYKSpj	192.168.81.10	1029	4.2.2.3	53	udp	32648	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,173.194.37.96,173.194.37.105,173.194.37.100,173.194.37.110,173.194.37.104,173.194.37.99,173.194.37.102,173.194.37.101,173.194.37.98,173.194.37.97,173.194.37.103	23574.000000,237.000000,237.000000,237.000000,237.000000,237.000000,237.000000,237.000000,237.000000,237.000000,237.000000,237.000000	F
+1352891233.57067	C5oAyY1cjfr2aYKSpj	192.168.81.10	1029	4.2.2.3	53	udp	37775	www.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.252.100.16	69.000000	F
+1352891233.662508	C5oAyY1cjfr2aYKSpj	192.168.81.10	1029	4.2.2.3	53	udp	18573	b.static.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.dsw4.akamai.net,69.31.75.224,69.31.75.235	797.000000,21.000000,0.000000,0.000000	F
+1352891233.664249	Cqm2lb3lSk8D6y9wV3	192.168.81.10	1056	4.2.2.3	53	udp	48013	static.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.dsw4.akamai.net,69.31.75.232,69.31.75.235,69.31.75.163,69.31.75.224,69.31.75.194	2914.000000,224.000000,14.000000,14.000000,14.000000,14.000000,14.000000	F
+1352891238.751369	C5oAyY1cjfr2aYKSpj	192.168.81.10	1029	4.2.2.3	53	udp	27788	profile-a.xx.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	profile-01.xx.fbcdn.net,31.13.73.10	33.000000,33.000000	F
+1352891238.751561	Cqm2lb3lSk8D6y9wV3	192.168.81.10	1056	4.2.2.3	53	udp	50316	profile.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	profile.ak.facebook.com.edgesuite.net,a1725.dspl.akamai.net,72.246.45.74,72.246.45.56	2860.000000,254.000000,6.000000,6.000000	F
+1352891225.6262	C7n7FN1dVujh4kiCdk	192.168.81.10	1029	4.2.2.5	53	udp	8586	iftttcore.info	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1352891228.625919	C7n7FN1dVujh4kiCdk	192.168.81.10	1029	4.2.2.5	53	udp	8586	iftttcore.info	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1352891239.750735	Cqm2lb3lSk8D6y9wV3	192.168.81.10	1056	4.2.2.3	53	udp	50316	profile.ak.fbcdn.net	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1352891226.626266	C5oAyY1cjfr2aYKSpj	192.168.81.10	1029	4.2.2.3	53	udp	8586	iftttcore.info	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1352891228.625751	C5oAyY1cjfr2aYKSpj	192.168.81.10	1029	4.2.2.3	53	udp	8586	iftttcore.info	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1352891226.626266	C5oAyY1cjfr2aYKSpj	192.168.81.10	1029	4.2.2.3	53	udp	8586	iftttcore.info	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1352891228.625751	C5oAyY1cjfr2aYKSpj	192.168.81.10	1029	4.2.2.3	53	udp	8586	iftttcore.info	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1352891226.626266	C5oAyY1cjfr2aYKSpj	192.168.81.10	1029	4.2.2.3	53	udp	8586	iftttcore.info	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1352891228.625751	C5oAyY1cjfr2aYKSpj	192.168.81.10	1029	4.2.2.3	53	udp	8586	iftttcore.info	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1352891226.626266	C5oAyY1cjfr2aYKSpj	192.168.81.10	1029	4.2.2.3	53	udp	8586	iftttcore.info	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1352891228.625751	C5oAyY1cjfr2aYKSpj	192.168.81.10	1029	4.2.2.3	53	udp	8586	iftttcore.info	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1352891226.626266	C5oAyY1cjfr2aYKSpj	192.168.81.10	1029	4.2.2.3	53	udp	8586	iftttcore.info	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1352891228.625751	C5oAyY1cjfr2aYKSpj	192.168.81.10	1029	4.2.2.3	53	udp	8586	iftttcore.info	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-55-16

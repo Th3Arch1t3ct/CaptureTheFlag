@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-10-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1321103694.18968	Chmls54cYAUKsEWCdc	192.168.102.10	1036	188.40.52.46	80	FFLv5D4Ah9M0d1mfp2	application/pdf	http://dalake87.co.cc/movie/hvytamcnhmhqdqb.pdf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 75%  Last seen: 2011-11-12 18:20:24	https://www.virustotal.com/en/search/?query=b5093eff2282a386c609dd5df5788819fcd741ef	192.168.102.10	188.40.52.46	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1321103698.066293	CpcExf26dY7Fjf3Zxc	192.168.102.10	1049	188.40.52.46	80	FagzVC4d3Gprn8iHjl	application/pdf	http://dalake87.co.cc/movie/hnduhwhtasftazh.pdf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 25%  Last seen: 2011-11-12 16:35:39	https://www.virustotal.com/en/search/?query=5ed38891f40b8a84d035e57bfd6374d54a970900	192.168.102.10	188.40.52.46	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1321103699.74829	Ceo9364lVccKW9aYt5	192.168.102.10	1050	188.40.52.46	80	Fe2ZVn21WExP9Bz7pb	application/jar	http://dalake87.co.cc/movie/jwcohvklhrhoe.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2011-11-23 07:46:08	https://www.virustotal.com/en/search/?query=5f3480b2dc331cbfb77ab719945cd6b072268fe1	192.168.102.10	188.40.52.46	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-10-10

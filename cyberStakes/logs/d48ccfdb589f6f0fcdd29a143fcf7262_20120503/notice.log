@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-00-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1336019895.347924	CW00mb2Yi4BCWlUJL8	192.168.94.10	1041	94.75.213.211	80	FrTN0x3cqwRj3pULih	application/x-dosexec	http://xxx.wivipub.in/images.php?t=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2012-05-05 21:57:14	https://www.virustotal.com/en/search/?query=ba95b44f3a3dc94f51455b8f389b4c5a38140381	192.168.94.10	94.75.213.211	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336019900.749252	CJLVoAIvLMEHPJuPj	192.168.94.10	1046	78.46.196.236	80	FcjEvf4XMSY0BK32xc	application/jar	http://xxxz.in/www/p_.jar?95799312	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 50%  Last seen: 2012-05-03 11:53:30	https://www.virustotal.com/en/search/?query=17e5c0af295503a9783630a568d592989eb55cc7	192.168.94.10	78.46.196.236	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336019902.375356	CMmmh32CJKtfHfXH5	192.168.94.10	1045	94.75.213.211	80	FgBh5V2WbRiS0cNGFb	application/x-dosexec	http://xxx.wivipub.in/images.php?t=1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2012-05-05 21:57:14	https://www.virustotal.com/en/search/?query=ba95b44f3a3dc94f51455b8f389b4c5a38140381	192.168.94.10	94.75.213.211	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-00-50

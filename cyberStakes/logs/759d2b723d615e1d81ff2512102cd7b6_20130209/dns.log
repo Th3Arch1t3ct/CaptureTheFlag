@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-10-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1360448540.982058	CjorlA3BFrDD4BSZG3	192.168.48.10	1029	4.2.2.3	53	udp	54414	heregaming.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	97.74.215.236	3600.000000	F
+1360448542.536872	CjorlA3BFrDD4BSZG3	192.168.48.10	1029	4.2.2.3	53	udp	46221	imstore.bet365affiliates.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.237.164.10	3464.000000	F
+1360448542.613021	C14zKv4Pcwn0WCKoD2	192.168.48.10	1033	4.2.2.3	53	udp	44683	api.myobfuscate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.64.170.17	3600.000000	F
+1360448542.611704	CjorlA3BFrDD4BSZG3	192.168.48.10	1029	4.2.2.3	53	udp	10124	virtuoso-luxury.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.159.253.110	14400.000000	F
+1360448543.880088	C14zKv4Pcwn0WCKoD2	192.168.48.10	1033	4.2.2.3	53	udp	32395	virtuoso-luxury.pro	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.9.104.228	3600.000000	F
+1360448544.458129	C14zKv4Pcwn0WCKoD2	192.168.48.10	1033	4.2.2.3	53	udp	52106	liodfddj.dnsdojo.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.76.178.115	60.000000	F
+1360448545.802782	C14zKv4Pcwn0WCKoD2	192.168.48.10	1033	4.2.2.3	53	udp	41866	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	3600.000000,300.000000	F
+1360448546.02052	C14zKv4Pcwn0WCKoD2	192.168.48.10	1033	4.2.2.3	53	udp	55177	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	1355.000000,396.000000	F
+#close	2014-04-03-11-10-02

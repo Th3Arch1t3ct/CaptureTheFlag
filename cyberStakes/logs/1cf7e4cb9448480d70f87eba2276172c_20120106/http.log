@@ -1,0 +1,30 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-28-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1325882946.456643	CuxAi235RGVGeSPA44	192.168.14.10	1030	182.23.242.70	80	1	GET	iiovjt.shiftedalmunia.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1325882947.065255	CtV6wV2fje5BXN1L22	192.168.14.10	1031	67.214.177.20	80	1	GET	67.214.177.20	/main.php?id=937c853a11d42875	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	81965	200	OK	-	-	-	(empty)	-	-	-	-	-	FQ8rE1qVwC7jCV2a6	text/html
+1325882961.887598	CTMxQb5flsVFi61cb	192.168.14.10	1036	95.163.89.227	80	1	GET	95.163.89.227	/w.php?f=20&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	122368	200	OK	-	-	-	(empty)	-	-	-	-	-	FRSGqY2LH2HvsF2xO4	application/x-dosexec
+1325882964.851271	CuJg3E2Hzko1thTBac	192.168.14.10	1038	67.214.177.20	80	1	GET	67.214.177.20	/content/field.swf	http://67.214.177.20/main.php?id=937c853a11d42875	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1437	200	OK	-	-	-	(empty)	-	-	-	-	-	FGFGpt4zBdXsDBlWH	application/x-shockwave-flash
+1325882965.111994	CXj8J71nEQ6rsGpCzf	192.168.14.10	1039	67.214.177.20	80	1	GET	67.214.177.20	/content/v1.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3771	200	OK	-	-	-	(empty)	-	-	-	-	-	FwiyKd4TepSA0tcuL2	application/zip
+1325882964.310108	CdC5I53LnF4JD9jNO2	192.168.14.10	1037	79.137.226.91	80	1	POST	onlinesecurytytests.ru	/mev/in/	-	Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)	109	249556	200	OK	-	-	-	(empty)	-	-	-	FnXV9A1sFi4DX1w7Bk	binary	FyFaDL2hP36fiEgYO1	binary
+1325882963.614207	CtV6wV2fje5BXN1L22	192.168.14.10	1031	67.214.177.20	80	2	GET	67.214.177.20	/content/fdp2.php?f=20	http://67.214.177.20/main.php?id=937c853a11d42875	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	113917	200	OK	-	-	-	(empty)	-	-	-	-	-	FmdFk61pFXumX0rPOg	application/pdf
+1325882981.123311	Cqubn8oWkFMLxc2j2	192.168.14.10	1041	74.125.45.99	80	1	GET	google.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	219	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FixgzM2KF7DbJRHbSj	text/html
+1325882981.195497	C5Xzx73GEf78llFxX2	192.168.14.10	1042	67.214.177.20	80	1	GET	67.214.177.20	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13	200	OK	-	-	-	(empty)	-	-	-	-	-	FoqFh33f57l8JRmNAk	text/plain
+1325882981.901757	ClwaXR2FtjUtoVEeM1	192.168.14.10	1044	67.214.177.20	80	1	GET	67.214.177.20	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13	200	OK	-	-	-	(empty)	-	-	-	-	-	Fj1Ryf4dFzotqF73pc	text/plain
+1325882982.495404	CWdpl03BVAjzGKU4Wf	192.168.14.10	1045	67.214.177.20	80	1	GET	67.214.177.20	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13	200	OK	-	-	-	(empty)	-	-	-	-	-	F85vhA32UzSJOkzDWl	text/plain
+1325882983.086175	C16ugabhKVPZmzK4b	192.168.14.10	1046	67.214.177.20	80	1	GET	67.214.177.20	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13	200	OK	-	-	-	(empty)	-	-	-	-	-	FFveR944oUXtGKWrKc	text/plain
+1325882984.121622	CUympUmJzZ5XbPF3g	192.168.14.10	1047	95.163.89.227	80	1	GET	95.163.89.227	/w.php?f=20&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	122368	200	OK	-	-	-	(empty)	-	-	-	-	-	FGnsha4YhF30Exwhmk	application/x-dosexec
+1325882986.788761	CfOweducnaNShHPib	192.168.14.10	1048	79.137.226.91	80	1	POST	onlinesecurytytests.ru	/mev/in/	-	Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)	118	24	200	OK	-	-	-	(empty)	-	-	-	FksRpo356KjXrkLNm4	binary	FSjsVH1H98U0rZYkna	binary
+1325883002.321257	CYA6z4CgCqCEK5Xc2	192.168.14.10	1050	74.125.45.104	80	1	GET	www.google.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	18748	200	OK	-	-	-	(empty)	-	-	-	-	-	FF0HUjFmcDZjM4m3j	text/html
+1325883002.862025	CYA6z4CgCqCEK5Xc2	192.168.14.10	1050	74.125.45.104	80	2	GET	www.google.com	/intl/en_ALL/images/srpr/logo1w.png	http://www.google.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7330	200	OK	-	-	-	(empty)	-	-	-	-	-	FM9gGiqqTZWe1wY7j	image/png
+1325883002.87529	CYA6z4CgCqCEK5Xc2	192.168.14.10	1050	74.125.45.104	80	3	GET	www.google.com	/images/srpr/nav_logo80.png	http://www.google.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	35636	200	OK	-	-	-	(empty)	-	-	-	-	-	F5WFTk3SxEcpWPLwzk	image/png
+1325883002.914622	CYA6z4CgCqCEK5Xc2	192.168.14.10	1050	74.125.45.104	80	4	GET	www.google.com	/images/mgyhp_sm.png	http://www.google.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	331	200	OK	-	-	-	(empty)	-	-	-	-	-	FrdFnG3ItgBgBpX7ff	image/png
+1325883003.112275	CYA6z4CgCqCEK5Xc2	192.168.14.10	1050	74.125.45.104	80	5	GET	www.google.com	/extern_js/f/CgJlbhICdXMrMEU4ACwrMFo4ACwrMA44ACwrMBc4ACwrMDw4ACwrMFE4ACwrMAo4AJoCAmhlLCswmAE4ACwrMBY4ACwrMBk4ACwrMCU4ACwrMDU4ACwrMEE4ACwrME04ACwrME44ACwrMFQ4ACwrMGM4ACwrMGk4ACwrMJABOAAsKzCSATgALCswrAE4ACwrMBg4ACwrMCY4ACyAAlCQAl0/ekoYSPho0hs.js	http://www.google.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	140272	200	OK	-	-	-	(empty)	-	-	-	-	-	FJO5jr2rigBO2Rn632	text/plain
+1325883003.161852	CYA6z4CgCqCEK5Xc2	192.168.14.10	1050	74.125.45.104	80	6	GET	www.google.com	/compressiontest/gzip.html	http://www.google.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	941	200	OK	-	-	-	(empty)	-	-	-	-	-	F86VwCIN12hLhvjui	text/html
+1325883003.263449	CYA6z4CgCqCEK5Xc2	192.168.14.10	1050	74.125.45.104	80	7	GET	www.google.com	/csi?v=3&s=webhp&action=&e=33492&ei=BV4HT76VFMTdtgeksLzSCw&imc=2&imn=2&imp=2&rt=xjsls.94,prt.94,ol.172,iml.157,xjses.297,xjsee.344,xjs.407	http://www.google.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	204	No Content	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-10-28-23

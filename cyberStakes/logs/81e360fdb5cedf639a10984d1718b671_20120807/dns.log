@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-14-16
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1344302561.245343	CcnKMH3ESXrC5Lu5jd	192.168.3.10	1030	4.2.2.3	53	udp	62606	delicity.com.ar	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	200.49.155.165	0.000000	F
+1344302562.520853	CcnKMH3ESXrC5Lu5jd	192.168.3.10	1030	4.2.2.3	53	udp	42895	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.137.100,74.125.137.101,74.125.137.102,74.125.137.113,74.125.137.138,74.125.137.139	20957.000000,201.000000,201.000000,201.000000,201.000000,201.000000,201.000000	F
+1344302563.191527	CcnKMH3ESXrC5Lu5jd	192.168.3.10	1030	4.2.2.3	53	udp	6028	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.132.66,69.31.132.41	7338.000000,96.000000,1320.000000,8.000000,8.000000	F
+1344302563.290935	CcnKMH3ESXrC5Lu5jd	192.168.3.10	1030	4.2.2.3	53	udp	46218	cyosongjihugkjbg.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.46.153.88,78.46.153.89	60.000000,60.000000	F
+1344302564.394122	CcnKMH3ESXrC5Lu5jd	192.168.3.10	1030	4.2.2.3	53	udp	17546	orangefoundry.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.168.7.67	43200.000000	F
+1344302565.220422	CcnKMH3ESXrC5Lu5jd	192.168.3.10	1030	4.2.2.3	53	udp	64904	sellzeus.rebatesrule.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.215.60.199	31.000000	F
+1344302599.712479	CqTQ5LRKx0s8Onjja	192.168.3.10	1030	4.2.2.3	53	udp	23688	swupmf.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	swupmf.wip4.adobe.com,swupmf.adobe.com.edgesuite.net,a1137.g.akamai.net,64.72.65.214,64.72.65.215	10366.000000,166.000000,10216.000000,20.000000,20.000000	F
+1344302599.843146	CqTQ5LRKx0s8Onjja	192.168.3.10	1030	4.2.2.3	53	udp	48521	crl.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.wip4.adobe.com,crl.adobe.com.edgesuite.net,a1180.g.akamai.net,64.72.65.214,64.72.65.215	10727.000000,227.000000,21527.000000,20.000000,20.000000	F
+#close	2014-04-03-11-14-17

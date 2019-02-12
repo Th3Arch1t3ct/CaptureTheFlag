@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-21-19
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1326599388.347927	CXY6W11v2HmQsENvif	192.168.81.10	1029	4.2.2.3	53	udp	50572	monclerjacketsline.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.98.24.85	283.000000	F
+1326599389.666537	CXY6W11v2HmQsENvif	192.168.81.10	1029	4.2.2.3	53	udp	62348	s7.addthis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wildcard.addthis.com.edgekey.net,e2943.c.akamaiedge.net,184.87.12.20	142.000000,6020.000000,20.000000	F
+1326599390.551334	CXY6W11v2HmQsENvif	192.168.81.10	1029	4.2.2.3	53	udp	50318	count21.51yes.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	61.147.124.75	3600.000000	F
+1326599392.702381	CXY6W11v2HmQsENvif	192.168.81.10	1029	4.2.2.3	53	udp	35982	api-public.addthis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wildcard.addthis.com.edgekey.net,e2943.c.akamaiedge.net,184.87.12.20	101.000000,6017.000000,17.000000	F
+#close	2014-04-03-10-21-19

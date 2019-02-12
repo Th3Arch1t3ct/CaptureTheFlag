@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-09-53-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1330990817.449094	C0tA4n1mVLdxLQJQMe	192.168.57.10	1030	173.236.237.188	80	tcp	http	3.133923	2406	794592	RSTO	-	0	ShADadR	387	18726	551	816640	(empty)
+1330990821.331538	C8ydQn2wodOptAarM2	192.168.57.10	1040	69.31.75.27	80	tcp	-	3.091026	0	0	S0	-	0	S	2	96	0	0	(empty)
+1330990817.447055	CEMwJc4gVjESdDBZa6	192.168.57.10	1029	4.2.2.3	53	udp	dns	3.883458	241	472	SF	-	0	Dd	6	409	6	640	(empty)
+1330990818.216882	C9RCWW29nxHdn75ji	192.168.57.10	1031	173.236.237.188	80	tcp	http	6.854530	3999	342951	RSTO	-	0	ShADadfR	171	10847	248	352879	(empty)
+1330990820.972117	C3pzg61PE6Gh5Ca5ic	192.168.57.10	1039	64.120.208.219	80	tcp	http	4.168179	1319	172812	RSTO	-	0	ShADadR	86	4767	122	177700	(empty)
+1330990830.563387	CqWQDPwdswx6OI3uh	192.168.57.10	1040	69.31.75.27	80	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+1330990842.721453	CRrACD3zrHmJVdc5F8	192.168.57.10	1041	69.31.75.17	80	tcp	http	0.003265	299	1812	S1	-	0	ShADad	4	467	4	1980	(empty)
+1330990819.385547	CrjVngg5DSFqUx9gg	192.168.57.10	1032	72.167.2.1	80	tcp	http	23.334343	282	336199	RSTO	-	0	ShADadfR	149	6250	234	345563	(empty)
+1330990820.208549	CqcYqzhOTTYpqknBd	192.168.57.10	1037	194.28.114.103	80	tcp	http	22.511175	260	295	RSTO	-	0	ShADadfR	6	508	4	463	(empty)
+1330990820.585318	CNDqoH22sh0Caff8e4	192.168.57.10	1038	194.28.114.103	80	tcp	http	22.134157	304	580	RSTO	-	0	ShADadfR	6	552	4	748	(empty)
+1330990801.759775	CXR98G13h9aWNSWRYj	192.168.57.10	68	192.168.57.1	67	udp	dhcp	12.324639	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1330990819.991511	CS9yne3vRmiQ9XxIy1	192.168.57.10	1035	239.255.255.250	1900	udp	-	6.229330	399	0	S0	-	0	D	3	483	0	0	(empty)
+1330990801.759404	ClnP8u48WRbBpjnhr7	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000888	626	0	S0	-	0	D	2	682	0	0	(empty)
+#close	2014-04-03-09-53-15

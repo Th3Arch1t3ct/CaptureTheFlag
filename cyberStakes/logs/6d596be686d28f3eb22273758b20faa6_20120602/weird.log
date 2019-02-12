@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-57-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1338651160.639788	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1338651164.200586	CjTz58TQeEGharejg	192.168.105.10	1043	216.230.241.100	80	window_recision	-	F	bro
+1338651166.017007	C6pATa4arvEAH0n7Fb	192.168.105.10	1038	63.233.60.10	80	SYN_after_reset	-	F	bro
+1338651166.017253	CUjzMZ1CR7cUtYkpKe	192.168.105.10	1039	63.233.60.10	80	SYN_after_reset	-	F	bro
+1338651166.019421	C6pATa4arvEAH0n7Fb	192.168.105.10	1038	63.233.60.10	80	data_after_reset	-	F	bro
+1338651166.019661	CUjzMZ1CR7cUtYkpKe	192.168.105.10	1039	63.233.60.10	80	data_after_reset	-	F	bro
+1338651182.540709	C3su8P1mTix4uSxtNh	192.168.105.10	1055	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338651182.545123	CXW9W93se32xxWib89	192.168.105.10	1057	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338651182.570248	CUqeNaC9nMyuY1tce	192.168.105.10	1059	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338651182.572455	CGtZBD3DeEzqMwRjGa	192.168.105.10	1061	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338651182.574649	C3WXYzV9QZg8q4Eof	192.168.105.10	1063	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338651182.716859	C9fCKO3XMQZ8yBO8Yc	192.168.105.10	1066	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338651182.749998	Cbp8Xt4DCpcOE3Pbz7	192.168.105.10	1069	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338651182.78722	CdYL561yjEAumjjm5b	192.168.105.10	1071	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338651201.553945	CyufHq1RK2ToqqXzV3	192.168.105.10	1085	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338651201.554959	CAl0Fm23NNac8aD8uj	192.168.105.10	1087	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338651201.555923	CxAt7C1Q7OJDEiu595	192.168.105.10	1089	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338651205.788665	CyISOUUlwMwABAD17	192.168.105.10	1090	31.193.12.27	80	bad_HTTP_request	-	F	bro
+#close	2014-04-03-10-57-21

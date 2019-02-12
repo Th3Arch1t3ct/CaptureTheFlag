@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-33-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1327567616.970872	CZ3Fs510xm980Rgp11	192.168.101.10	1030	4.2.2.3	53	udp	9867	bccustomcanvas.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.168.165.1	3580.000000	F
+1327567617.762715	CZ3Fs510xm980Rgp11	192.168.101.10	1030	4.2.2.3	53	udp	6793	my36degrees.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.168.39.1	3600.000000	F
+1327567620.253324	CZ3Fs510xm980Rgp11	192.168.101.10	1030	4.2.2.3	53	udp	41359	fonts.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.47.95	2089.000000,300.000000	F
+1327567620.269663	CZ3Fs510xm980Rgp11	192.168.101.10	1030	4.2.2.3	53	udp	24462	analyze.cz.tf	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.194.180	2922.000000	F
+1327567620.278672	CZ3Fs510xm980Rgp11	192.168.101.10	1030	4.2.2.3	53	udp	62604	themes.googleusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlehosted.l.googleusercontent.com,74.125.65.132	32056.000000,84.000000	F
+1327567620.509965	CZ3Fs510xm980Rgp11	192.168.101.10	1030	4.2.2.3	53	udp	42371	sdjshjak.low-calorie-diet.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.184.192.57	2977.000000	F
+#close	2014-04-03-10-33-50

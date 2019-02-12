@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-54-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1320085105.44601	CssDoq1rZkJWNfA4P7	192.168.43.10	1029	4.2.2.3	53	udp	8845	www.bettynew.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.71.35.20	14382.000000	F
+1320085107.072754	CssDoq1rZkJWNfA4P7	192.168.43.10	1029	4.2.2.3	53	udp	18830	cdn.hk.ms	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.194.180	3600.000000	F
+1320085107.585784	CssDoq1rZkJWNfA4P7	192.168.43.10	1029	4.2.2.3	53	udp	35471	t01.uk.mn	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.228.132.52	1841.000000	F
+1320085127.056949	C5yzFp3m8Powe54HOe	192.168.43.10	1029	4.2.2.3	53	udp	18575	westwaytbal.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.44.184.55	600.000000	F
+1320085127.685924	C5yzFp3m8Powe54HOe	192.168.43.10	1029	4.2.2.3	53	udp	37768	start-258527.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.105.154.34	600.000000	F
+#close	2014-04-03-10-54-09

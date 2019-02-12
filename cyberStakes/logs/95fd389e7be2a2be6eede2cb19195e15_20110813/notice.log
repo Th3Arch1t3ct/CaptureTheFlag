@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-22-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1313200659.097127	CSjfDB1hgoMKDgsthi	192.168.82.10	1049	91.193.72.70	80	FAJ5sn2iZyIwM2Zs39	application/x-java-applet	http://1539393606/GSearch.class	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 14%  Last seen: 2011-08-18 13:46:06	https://www.virustotal.com/en/search/?query=9ae2de93edd376bd6e675e4c896d32fa691fa96e	192.168.82.10	91.193.72.70	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-22-13

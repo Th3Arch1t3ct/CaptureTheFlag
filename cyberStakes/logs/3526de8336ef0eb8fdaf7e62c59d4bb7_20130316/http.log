@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-50-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1363417623.458199	COorM83LcAtCTtLped	192.168.57.10	1030	118.127.29.226	80	1	GET	sky-walker.net	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	203	200	OK	-	-	-	(empty)	-	-	-	-	-	FZYwXV13jahLalMj4h	text/html
+1363417623.683977	COorM83LcAtCTtLped	192.168.57.10	1030	118.127.29.226	80	2	GET	sky-walker.net	/php.tmp.3555257447.php	http://sky-walker.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	88	200	OK	-	-	-	(empty)	-	-	-	-	-	FGFmtn3X1Y9b1UEyF3	text/html
+1363417625.380984	C4PYU33B5g9OdxvuSc	192.168.57.10	1035	69.197.177.13	80	1	GET	kaqucihi.tk	/links/gradually_permits.php	http://sky-walker.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	71310	200	OK	-	-	-	(empty)	-	-	-	-	-	FC23McL7nIMaLSlx3	text/html
+1363417627.538339	CU2QXE4HLplfLCRJOg	192.168.57.10	1036	64.4.52.169	80	1	POST	activex.microsoft.com	/objects/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	Fq9mFD1nmtDlJ5E9uk	text/plain	F3dWrGNyKswou2XUa	text/plain
+1363417627.699929	CmbOB83jHnM3QuGaId	192.168.57.10	1037	64.4.52.169	80	1	POST	codecs.microsoft.com	/isapi/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	FbRMr61SHNzIeRUSff	text/plain	F6fMEc3l4DE5Z9fhq2	text/plain
+1363417633.276821	CMyjGw4lhAS1HoZVmh	192.168.57.10	1038	69.197.177.13	80	1	GET	kaqucihi.tk	/links/gradually_permits.php?fcyfu=1f:31:1n:1l:32&wwqeihcz=3k:3b:3c:38&gewmvdz=1k:1h:33:2w:1i:1f:1i:33:2w:1g&pipdrs=grkijerg	http://sky-walker.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1030	200	OK	-	-	-	(empty)	-	-	-	-	-	FoSQjP1Pk16q9nKZwe	application/x-shockwave-flash
+1363417633.206055	C4PYU33B5g9OdxvuSc	192.168.57.10	1035	69.197.177.13	80	2	GET	kaqucihi.tk	/links/gradually_permits.php?urm=1f:31:1n:1l:32&vmo=38&zijdo=1k:1h:33:2w:1i:1f:1i:33:2w:1g&majrcev=1o:1d:1g:1d:1f:1d:1f	http://kaqucihi.tk/links/gradually_permits.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	8809	200	OK	-	-	-	(empty)	-	-	-	-	-	FMW8kF1ENiPV2ImFi	application/pdf
+1363417638.303667	C4PYU33B5g9OdxvuSc	192.168.57.10	1035	69.197.177.13	80	3	GET	kaqucihi.tk	/links/gradually_permits.php?oqrdgh=1f:31:1n:1l:32&nwgie=1k:1h:33:2w:1i:1f:1i:33:2w:1g&nwxhercz=1i&lxnj=ywuayne&eddboefh=odzdcslo	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	188416	200	OK	-	-	-	(empty)	-	-	-	-	-	FxgBRG353A4Jx1GnUj	application/x-dosexec
+1363417639.937783	CmwK5B4bgTFlv3dm2h	192.168.57.10	1040	50.22.196.70	80	1	GET	j.maxmind.com	/app/geoip.js	-	-	0	502	200	OK	-	-	-	(empty)	-	-	-	-	-	FC1Sd72ZlQRWJzhNy	text/plain
+#close	2014-04-03-09-50-00

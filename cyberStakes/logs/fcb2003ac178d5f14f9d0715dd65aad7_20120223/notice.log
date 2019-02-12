@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-24-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1330026117.288731	Clvai721IWqQTi3bTg	192.168.104.10	1044	95.163.89.228	80	Fs2b0d1pc43gJFRb36	application/x-shockwave-flash	http://voltoralanco.info/jkasdh98768sa9hdjkashdi6iyhikusadhi68/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 50%  Last seen: 2012-04-09 12:34:14	https://www.virustotal.com/en/search/?query=42e529663161cd019cf5c29735225a8e79372652	192.168.104.10	95.163.89.228	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1330026131.015322	Clvai721IWqQTi3bTg	192.168.104.10	1044	95.163.89.228	80	F1ztzz1DLWMfriJssj	application/x-shockwave-flash	http://voltoralanco.info/jkasdh98768sa9hdjkashdi6iyhikusadhi68/content/score.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-03-01 09:20:56	https://www.virustotal.com/en/search/?query=1d5a5d94fddc248b575f51224fa631de1c9f4050	192.168.104.10	95.163.89.228	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-24-30

@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-49-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1343086030.19139	CnaIw3kRzeaGUW96j	192.168.93.10	1030	87.98.239.3	80	1	GET	madix-diy.pl	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	268	200	OK	-	-	-	(empty)	-	-	-	-	-	FMBSbi4Ul3ZDsJ0kWc	text/html
+1343086031.278136	CWucNY2VsR4nwRpFGe	192.168.93.10	1031	188.190.124.93	80	1	GET	188.190.124.93	/index.php?tp=4d446573c1e75ec4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	185095	200	OK	-	-	-	(empty)	-	-	-	-	-	FgP3eZ2vXkzaj2psGk	text/html
+1343086049.990574	CiH0XU1JB6DubDao65	192.168.93.10	1036	65.55.13.243	80	1	POST	activex.microsoft.com	/objects/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	FhQ0954psY9dxmVvFi	text/plain	FPRqnt4vfFLrvQXnj3	text/plain
+1343086050.048585	CYSYuVH4e3Q5tg0lb	192.168.93.10	1038	65.55.13.243	80	1	POST	codecs.microsoft.com	/isapi/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	F3Cmk5iSrEGMBctNe	text/plain	FVozvT2i02cuGTY0C3	text/plain
+1343086050.526436	CsSQuj1y77WKa8wAH6	192.168.93.10	1037	188.190.124.93	80	1	GET	188.190.124.93	/w.php?f=1e9ef&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	49664	200	OK	-	-	-	(empty)	-	-	-	-	-	FEBKcxU5BCC1GtNVh	application/x-dosexec
+1343086052.77073	CYBcYA2VA8Sa1rJlV6	192.168.93.10	1040	188.190.124.93	80	1	GET	188.190.124.93	/data/field.swf	http://188.190.124.93/index.php?tp=4d446573c1e75ec4	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	570	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FMKozE2TzzbYyqpVIa	text/html
+1343086052.711402	C0PUjy4A6C2QSOzdJk	192.168.93.10	1039	188.190.124.93	80	1	GET	188.190.124.93	/data/ap2.php	http://188.190.124.93/index.php?tp=4d446573c1e75ec4	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	19841	200	OK	-	-	-	(empty)	-	-	-	-	-	Fm1Zj23Vl3qm0YmXQl	application/pdf
+1343086060.71867	C5NvBD1ZqKMEy7znAk	192.168.93.10	1044	188.190.124.93	80	1	GET	188.190.124.93	/1.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	22757	200	OK	-	-	-	(empty)	-	-	-	-	-	FE9o921JGcwD2tALx1	application/x-java-applet
+1343086060.731434	CBEMsH2UFB154T7hhd	192.168.93.10	1043	188.190.124.93	80	1	GET	188.190.124.93	/Kyre.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	28020	200	OK	-	-	-	(empty)	-	-	-	-	-	FALFWNf1P1ztX2Rfh	application/zip
+1343086058.855327	C1166OEtZ2VgWxbf3	192.168.93.10	1042	65.23.129.102	80	1	POST	kiplonafrey.info	/search?fr=altavista&itag=ody&q=O=dhJOGN2HAgSc,d5fa8ff57ad763fe&kgs=1&kls=0	-	-	440	597504	200	OK	-	-	-	(empty)	-	-	-	Fmnnj02aCbl4SeX9K6	binary	F4mn3h26BDBkjFEqA5	binary
+1343086062.905159	C5S1hd45otcARoPOyd	192.168.93.10	1045	188.190.124.93	80	1	GET	188.190.124.93	/1.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1343086063.973883	CQtOSI1yCLD3ZoLey7	192.168.93.10	1048	188.190.124.93	80	1	GET	188.190.124.93	/2.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	168	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FJ2yKtGSZylYczIp6	text/html
+1343086063.502994	Cu7iL74meyB9zcZ3Yj	192.168.93.10	1046	188.190.124.93	80	1	GET	188.190.124.93	/w.php?f=1e9ef&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	49664	200	OK	-	-	-	(empty)	-	-	-	-	-	FIL3g235EkaNSYmt6	application/x-dosexec
+1343086063.607675	CYKObI2rnxNECYg4Y2	192.168.93.10	1047	188.190.124.93	80	1	GET	188.190.124.93	/w.php?f=92ee8&e=0	-	Java/1.6.0_10	0	77233	200	OK	-	-	-	(empty)	-	-	-	-	-	FCbSEk3k89fJaiX6me	binary
+1343086068.71404	CAvH6NpJjaJ93so8l	192.168.93.10	1049	65.23.129.102	80	1	POST	kiplonafrey.info	/search?fr=altavista&itag=ody&q=O=dhJOGN2HAgSc,d5fa8ff57ad763fe,ba6=fdJJKgiai&kgs=1&kls=0&p=1000	-	-	24	0	200	OK	-	-	-	(empty)	-	-	-	FBgQZv4fGJEzYgwKrd	binary	-	-
+1343086084.572817	CkpDt42CxkZ6fzHj8h	192.168.93.10	1055	65.23.129.102	80	1	POST	kiplonafrey.info	/search?fr=altavista&itag=ody&q=O=dhJOGN2HAgSc,d5fa8ff57ad763fe,ba6=fdJJKgiai&kgs=1&kls=0&p=1000	-	-	124	0	200	OK	-	-	-	(empty)	-	-	-	FIdswR13qkOvcwaF4k	binary	-	-
+#close	2014-04-03-09-49-58

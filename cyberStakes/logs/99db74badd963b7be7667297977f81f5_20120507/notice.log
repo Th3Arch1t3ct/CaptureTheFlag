@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-32-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1336406133.204848	CCgVhi1bNJavuVSWCj	192.168.109.10	1049	37.59.198.60	80	FkaRap16L3YXknHJ3d	application/x-dosexec	http://ghitower.org/?fdc54ec66215446e5db252f45208fc6a	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-05-07 21:01:01	https://www.virustotal.com/en/search/?query=667751b8df9a123d1ddea70accf933c6e0c877dd	192.168.109.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336406134.338721	C9gYGBqWkZrMeoMn4	192.168.109.10	1053	37.59.198.60	80	FsPVAD2byjzbXUOdjg	application/x-dosexec	http://ghitower.org/?02f78249cf535357767f55980ac8c9db	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-05-07 21:01:01	https://www.virustotal.com/en/search/?query=667751b8df9a123d1ddea70accf933c6e0c877dd	192.168.109.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336406188.203467	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.109.10 scanned at least 25 unique hosts on port 34354/tcp in 0m30s	remote	192.168.109.10	-	34354	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-32-16

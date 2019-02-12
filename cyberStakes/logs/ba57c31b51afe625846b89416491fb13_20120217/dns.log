@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-05-16
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1329449789.275756	C9gGaF1n7YmSpbRQxd	192.168.47.10	1029	4.2.2.3	53	udp	56462	jdmsolutions.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	75.119.222.230	14375.000000	F
+1329449789.546114	C9gGaF1n7YmSpbRQxd	192.168.47.10	1029	4.2.2.3	53	udp	63119	ged20sha.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.116.198.33	21600.000000	F
+1329449790.364527	C9gGaF1n7YmSpbRQxd	192.168.47.10	1029	4.2.2.3	53	udp	24975	vylw.org.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.212.128.31	300.000000	F
+1329449791.756446	C9gGaF1n7YmSpbRQxd	192.168.47.10	1029	4.2.2.3	53	udp	4495	icult66uralwr.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.116.198.33	21600.000000	F
+1329449792.632013	C9gGaF1n7YmSpbRQxd	192.168.47.10	1029	4.2.2.3	53	udp	19597	www3.bestmhguard.net.tc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.238.105	3600.000000	F
+1329449793.153831	C9gGaF1n7YmSpbRQxd	192.168.47.10	1029	4.2.2.3	53	udp	39307	www1.thebest-scanerxeg.net.tf	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.102	3600.000000	F
+1329449817.051529	C7mCvl4ODiOm1Q03D3	192.168.47.10	1029	4.2.2.3	53	udp	53384	www2.safescanneryah.uni.me	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.142.217	43200.000000	F
+#close	2014-04-03-10-05-16

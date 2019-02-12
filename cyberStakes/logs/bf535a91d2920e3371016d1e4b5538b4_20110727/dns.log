@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-36-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1311766399.440851	CiYjsg1dUoiyGErNB8	192.168.16.10	1029	4.2.2.3	53	udp	50572	wqyd.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.239.138.160	43174.000000	F
+1311766399.691607	CiYjsg1dUoiyGErNB8	192.168.16.10	1029	4.2.2.3	53	udp	6284	jtt.hk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	180.149.253.36	180.000000	F
+1311766402.097415	CiYjsg1dUoiyGErNB8	192.168.16.10	1029	4.2.2.3	53	udp	54413	888.zhanshencp.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	112.121.172.106	900.000000	F
+1311766428.470423	CpUhH01E4Kis5JMWM9	192.168.16.10	1029	4.2.2.3	53	udp	27534	frontpage.dyndns.org	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1311766438.782536	CTfJpb1MXcMn1u1wp8	192.168.16.10	1029	4.2.2.3	53	udp	43151	frontpage.dhis.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.168.255.0	60.000000	F
+#close	2014-04-03-10-36-37

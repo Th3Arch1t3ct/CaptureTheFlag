@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-43-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1328825435.776887	Cb9o9E3QMQ9pYHSVsb	192.168.82.10	1067	95.142.170.44	80	FfzuYp2TukT0uttVCh	application/x-dosexec	http://ad8.powerservices23.in/x.php?f=70&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-03-12 01:58:34	https://www.virustotal.com/en/search/?query=43b8c382e69c60883916934a63a9d4111e7d446a	192.168.82.10	95.142.170.44	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328825457.428108	Cb9o9E3QMQ9pYHSVsb	192.168.82.10	1067	95.142.170.44	80	FLf4eF4RkdnMx6aZ1h	application/x-dosexec	http://ad8.powerservices23.in/x.php?f=70&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-03-12 01:58:34	https://www.virustotal.com/en/search/?query=43b8c382e69c60883916934a63a9d4111e7d446a	192.168.82.10	95.142.170.44	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328825459.305495	CNWfMo6jRbB8Xevv7	192.168.82.10	1073	95.142.170.44	80	FRcuzP309QUzQ6Dxvi	application/x-shockwave-flash	http://ad8.powerservices23.in/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 50%  Last seen: 2012-05-06 23:11:12	https://www.virustotal.com/en/search/?query=d2796a769ee9cf1a266a91af4cad45b9dea43ad4	192.168.82.10	95.142.170.44	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328825462.881491	CaL7pf4Lr0b9byzze8	192.168.82.10	1075	95.142.170.44	80	FPQfly1bFKzvmXfF6f	application/x-dosexec	http://ad8.powerservices23.in/x.php?f=70&e=0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-03-12 01:58:34	https://www.virustotal.com/en/search/?query=43b8c382e69c60883916934a63a9d4111e7d446a	192.168.82.10	95.142.170.44	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-43-55

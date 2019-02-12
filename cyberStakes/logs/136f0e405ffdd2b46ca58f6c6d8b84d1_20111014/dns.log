@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-00-42
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1318622518.743586	Cc09Hd1CA37hzLgQRl	192.168.61.10	1029	4.2.2.3	53	udp	35475	divorceandfamilymediate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.208.169.196	10779.000000	F
+1318622521.9209	CBsjyQ1JnfEQO3mVCi	192.168.61.10	1036	4.2.2.3	53	udp	3479	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.229.206,74.125.229.207,74.125.229.192,74.125.229.193,74.125.229.194,74.125.229.195,74.125.229.196,74.125.229.197,74.125.229.198,74.125.229.199,74.125.229.200,74.125.229.201,74.125.229.202,74.125.229.203,74.125.229.204,74.125.229.205	41955.000000,164.000000,164.000000,164.000000,164.000000,164.000000,164.000000,164.000000,164.000000,164.000000,164.000000,164.000000,164.000000,164.000000,164.000000,164.000000,164.000000	F
+1318622521.916954	Cc09Hd1CA37hzLgQRl	192.168.61.10	1029	4.2.2.3	53	udp	52881	dfms.thebadassworld.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.208.169.196	10800.000000	F
+1318622521.946421	CBsjyQ1JnfEQO3mVCi	192.168.61.10	1036	4.2.2.3	53	udp	5013	strangesandwich.mrslove.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.66.209	31.000000	F
+1318622531.859851	Cc09Hd1CA37hzLgQRl	192.168.61.10	1029	4.2.2.3	53	udp	12692	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	1058.000000,91.000000	F
+1318622531.988861	Cc09Hd1CA37hzLgQRl	192.168.61.10	1029	4.2.2.3	53	udp	20890	adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.150.16.117	6934.000000	F
+1318622532.072766	Cc09Hd1CA37hzLgQRl	192.168.61.10	1029	4.2.2.3	53	udp	22938	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,64.4.52.169	217.000000,542.000000	F
+#close	2014-04-03-10-00-42

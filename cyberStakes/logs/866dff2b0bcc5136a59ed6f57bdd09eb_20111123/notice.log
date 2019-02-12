@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-32-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1322013227.85388	C6m8iE2J1nxZVMVIv1	192.168.10.10	1033	188.247.232.179	80	FRIqyr3qxz2OuPbvqh	application/x-shockwave-flash	http://188.247.232.179/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 80%  Last seen: 2011-12-03 08:15:11	https://www.virustotal.com/en/search/?query=fd5850a46bb7645749a8f2c6a2f37889fb43e00a	192.168.10.10	188.247.232.179	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-32-44

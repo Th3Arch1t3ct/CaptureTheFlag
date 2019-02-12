@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-03-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1334203184.301958	CboY4l2hIMB1zcnUDf	192.168.55.10	1029	4.2.2.3	53	udp	17807	i-do-care.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.197.130.114	576.000000	F
+1334203188.011794	Cpfod51DTVSHOhicQk	192.168.55.10	1045	4.2.2.3	53	udp	37004	tianjiao.atwebpages.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.197.130.114	601.000000	F
+1334203188.14718	Cpfod51DTVSHOhicQk	192.168.55.10	1045	4.2.2.3	53	udp	16525	www.gravatar.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wac.0b2d.edgecastcdn.net,gs1.wac.edgecastcdn.net,72.21.91.19	2571.000000,3202.000000,3219.000000	F
+1334203188.011951	CC7liIuL8qPAuaiA8	192.168.55.10	1044	4.2.2.3	53	udp	22156	news.southcn.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	59.42.241.10	43200.000000	F
+1334203188.007754	CboY4l2hIMB1zcnUDf	192.168.55.10	1029	4.2.2.3	53	udp	22927	i0.sinaimg.cn	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.sinaimg.cn,i3.sina.com.cn,n3.panthercdn.com,174.35.32.107,174.35.32.99	600.000000,600.000000,60.000000,20.000000,20.000000	F
+1334203188.196235	Cpfod51DTVSHOhicQk	192.168.55.10	1045	4.2.2.3	53	udp	8330	pokosa.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.111.9.98	60.000000	F
+1334203190.384074	CC7liIuL8qPAuaiA8	192.168.55.10	1044	4.2.2.3	53	udp	31883	www3.savedmholder.ddns.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.238.105	31.000000	F
+1334203190.651539	CC7liIuL8qPAuaiA8	192.168.55.10	1044	4.2.2.3	53	udp	54667	www1.thebest-sentinelfg.ddns.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.112	31.000000	F
+1334203196.343062	CC7liIuL8qPAuaiA8	192.168.55.10	1044	4.2.2.3	53	udp	20873	www2.personal-cleanerbz.it.cx	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.142.166	3600.000000	F
+1334203236.871122	CC1MQf2FoAGoWpw5mf	192.168.55.10	1044	75.102.22.72	53	udp	36489	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	69.72.227.43	86400.000000	F
+#close	2014-04-03-11-03-59

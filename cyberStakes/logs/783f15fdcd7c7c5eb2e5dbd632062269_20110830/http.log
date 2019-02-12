@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-50-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1314732755.734208	CDfNeN3oYLdDyt9z2k	192.168.82.10	1030	95.168.165.224	80	1	GET	virginsfuck.info	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	245	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FDaOup2GPhFpRMdFNk	text/html
+1314732755.972825	CmxaFz20Eig4Gan4b3	192.168.82.10	1031	109.236.82.46	80	1	GET	a.teenburg-movies.com	/?site=25	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7452	200	OK	-	-	-	(empty)	-	-	-	-	-	Fmr5Mp3FMaYnbvReZj	text/html
+1314732758.076886	Cecz9J1HWXGQdVWI54	192.168.82.10	1037	109.236.82.46	80	1	GET	a.teenburg-movies.com	/dl/jsm.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	8534	200	OK	-	-	-	(empty)	-	-	-	-	-	FbPtlB2zVv0xi16e0e	application/jar
+1314732758.073769	CnSsms2KDpzSPSyPc4	192.168.82.10	1039	109.236.82.46	80	1	GET	1844204078	/saturn.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12296	200	OK	-	-	-	(empty)	-	-	-	-	-	FI0Lim4GQtV9wNrdk2	application/x-java-applet
+1314732758.079644	Cl7r0G2Nh4T2J0hI75	192.168.82.10	1036	109.236.82.46	80	1	GET	1844204078	/saturn.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12296	200	OK	-	-	-	(empty)	-	-	-	-	-	FoyOjz2uL5oppYvxQk	application/x-java-applet
+1314732758.075629	CgD8qm1xDv6TVQkkyj	192.168.82.10	1038	109.236.82.46	80	1	GET	a.teenburg-movies.com	/dl/bingo.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	19716	200	OK	-	-	-	(empty)	-	-	-	-	-	FVe07d3dHTqVlim505	application/jar
+1314732758.429708	CRwiry16zMSSCZTVKl	192.168.82.10	1040	109.236.82.46	80	1	GET	a.teenburg-movies.com	/dl/jsm.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	8534	200	OK	-	-	-	(empty)	-	-	-	-	-	FMpN6U2HGoCLjcaWS7	application/jar
+1314732758.571194	CWFFgN2jB2r3WYmUng	192.168.82.10	1041	109.236.82.46	80	1	GET	1844204078	/saturn.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	8529	200	OK	-	-	-	(empty)	-	-	-	-	-	Ft2bq74gq5MQEBDQ5h	application/x-java-applet
+1314732758.55881	C3tjQ04FSeAyaWKtQ9	192.168.82.10	1042	109.236.82.46	80	1	GET	1844204078	/saturn.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	8529	200	OK	-	-	-	(empty)	-	-	-	-	-	Fzrzz4250G5AapANWd	application/x-java-applet
+1314732758.818638	CwTifC36UflMy4rqh9	192.168.82.10	1044	109.236.82.46	80	1	GET	a.teenburg-movies.com	/dl/jsm.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	8534	200	OK	-	-	-	(empty)	-	-	-	-	-	FQMsV71b2TLWFAOJAi	application/jar
+1314732758.622449	C0wHoqo7TEjJwg1Md	192.168.82.10	1043	109.236.82.46	80	1	GET	a.teenburg-movies.com	/dl/bingo.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	19716	200	OK	-	-	-	(empty)	-	-	-	-	-	FwYUKd16Dex1mkTS6a	application/jar
+1314732759.208938	ChIbfk3BekOC9dmmq2	192.168.82.10	1046	109.236.82.46	80	1	GET	a.teenburg-movies.com	/dl/bingo.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	19716	200	OK	-	-	-	(empty)	-	-	-	-	-	FyFSsw2CEmJVN3bK97	application/jar
+1314732759.56649	CcuRie2E3wBPRbYQLh	192.168.82.10	1047	109.236.82.46	80	1	GET	a.teenburg-movies.com	/dl/jsm_text.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	518	200	OK	-	-	-	(empty)	-	-	-	-	-	FJbFEh2Gzh2WPb8Lmf	binary
+1314732758.911601	CPgYfbN8v7bY3KXSh	192.168.82.10	1045	109.236.82.46	80	1	GET	109.236.82.46	/dl/dl.php?4	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	140288	200	OK	-	-	-	(empty)	-	-	-	-	-	FSxv2eiq3z43D2Mlj	application/x-dosexec
+1314732760.131462	CtxCoT1Lex7dzSuLA5	192.168.82.10	1049	109.236.82.46	80	1	GET	a.teenburg-movies.com	/dl/jsm.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	8534	200	OK	-	-	-	(empty)	-	-	-	-	-	F1yj0t1JggdyLMrsAh	application/jar
+1314732759.866129	CAHZd838NOZZ80DKd	192.168.82.10	1048	109.236.82.46	80	1	GET	a.teenburg-movies.com	/dl/dl.php?1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	140288	200	OK	-	-	-	(empty)	-	-	-	-	-	F8TjTd2tDpZPX63m6b	application/x-dosexec
+1314732760.581701	CovQOF9T2sJoQ6c8c	192.168.82.10	1050	95.64.61.122	80	1	GET	versalsearch.net	/agreement.php?rnd=787721	-	-	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1314732761.394029	Cprsgg4GZks7gfLEc8	192.168.82.10	1051	95.64.61.122	80	1	GET	versalsearch.net	/agreement.php?rnd=787721	-	-	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-10-50-08

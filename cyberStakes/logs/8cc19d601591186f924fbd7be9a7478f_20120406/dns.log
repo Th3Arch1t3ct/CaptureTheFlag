@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-14-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1333737294.323254	C8oYeFASZvhIHflZf	192.168.30.10	1029	4.2.2.3	53	udp	8845	www.tiroler-webradio.at	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.4.164.132	3578.000000	F
+1333737300.327436	C8oYeFASZvhIHflZf	192.168.30.10	1029	4.2.2.3	53	udp	41102	www.flatcast.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.51.180.142	43200.000000	F
+1333737300.677581	C8oYeFASZvhIHflZf	192.168.30.10	1029	4.2.2.3	53	udp	59784	www.flatcast.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.51.180.142	43200.000000	F
+1333737301.547795	C8oYeFASZvhIHflZf	192.168.30.10	1029	4.2.2.3	53	udp	46985	download.flatcast.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.51.137.94	43200.000000	F
+1333737309.593349	C8oYeFASZvhIHflZf	192.168.30.10	1029	4.2.2.3	53	udp	30601	crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.54.190	806.000000,1.000000	F
+1333737309.819049	C8oYeFASZvhIHflZf	192.168.30.10	1029	4.2.2.3	53	udp	6282	csc3-2004-crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.54.190	26.000000,1.000000	F
+#close	2014-04-03-10-14-22

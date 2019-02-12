@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-58-17
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1350955002.579011	CU7jNiZcnLpg7i598	192.168.92.10	1029	4.2.2.3	53	udp	2443	rahmenshop-24.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.250.175.23	86374.000000	F
+1350955002.80099	CU7jNiZcnLpg7i598	192.168.92.10	1029	4.2.2.3	53	udp	51336	vdh-rimbach.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.169.145.67	7200.000000	F
+1350955003.043384	CU7jNiZcnLpg7i598	192.168.92.10	1029	4.2.2.3	53	udp	38798	meinegartendeko.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.169.145.159	7200.000000	F
+1350955006.24874	CEBgrT2UEqa6U6H9gj	192.168.92.10	1039	4.2.2.3	53	udp	21644	www.vdh-rimbach.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.169.145.67	7200.000000	F
+1350955005.912939	CU7jNiZcnLpg7i598	192.168.92.10	1029	4.2.2.3	53	udp	18063	adventureslh.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.120.193.144	600.000000	F
+1350955006.90806	CKJDOb3ttE0ZBJtZzf	192.168.92.10	1029	4.2.2.5	53	udp	18063	adventureslh.net	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1350955007.922765	CU7jNiZcnLpg7i598	192.168.92.10	1029	4.2.2.3	53	udp	18063	adventureslh.net	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1350955007.922765	CU7jNiZcnLpg7i598	192.168.92.10	1029	4.2.2.3	53	udp	18063	adventureslh.net	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1350955007.922765	CU7jNiZcnLpg7i598	192.168.92.10	1029	4.2.2.3	53	udp	18063	adventureslh.net	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1350955007.922765	CU7jNiZcnLpg7i598	192.168.92.10	1029	4.2.2.3	53	udp	18063	adventureslh.net	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1350955003.175965	CU7jNiZcnLpg7i598	192.168.92.10	1029	4.2.2.3	53	udp	50318	vzisf7g69gr.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1350955033.083198	CUu6y841EAZdLsMRHd	192.168.92.10	1039	4.2.2.3	53	udp	31629	144.193.120.64.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	64-120-193-144.static.hostnoc.net	86400.000000	F
+1350955033.128579	CUu6y841EAZdLsMRHd	192.168.92.10	1039	4.2.2.3	53	udp	28290	64-120-193-144.static.hostnoc.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-09-58-17

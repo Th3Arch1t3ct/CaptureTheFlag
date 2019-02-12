@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-45-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1362897814.484076	Cynvyi1IXJ5IcOjrxg	192.168.74.10	1029	4.2.2.3	53	udp	61069	eyesec.se	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.91.2.35	36000.000000	F
+1362897815.213298	Cynvyi1IXJ5IcOjrxg	192.168.74.10	1029	4.2.2.3	53	udp	17294	coaipr.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.120.63.222	14400.000000	F
+1362897815.45225	Cynvyi1IXJ5IcOjrxg	192.168.74.10	1029	4.2.2.3	53	udp	56463	truckingjobsnd.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.63.76.1	3600.000000	F
+1362897849.156391	CBdu524uqyGoJOVPDa	192.168.74.10	1029	4.2.2.3	53	udp	1161	1.76.63.50.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	p3nlhg374c1374.shr.prod.phx3.secureserver.net	3600.000000	F
+1362897849.174554	CBdu524uqyGoJOVPDa	192.168.74.10	1029	4.2.2.3	53	udp	905	p3nlhg374c1374.shr.prod.phx3.secureserver.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.63.76.1	3600.000000	F
+1362897850.396511	CBdu524uqyGoJOVPDa	192.168.74.10	1029	4.2.2.3	53	udp	11402	kabouya.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.116.74.195	14400.000000	F
+1362897852.148529	CBdu524uqyGoJOVPDa	192.168.74.10	1029	4.2.2.3	53	udp	29060	rubengraciani.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.116.84.232	14400.000000	F
+1362897853.550609	Cl7Oc244Bts7LeohJ7	192.168.74.10	1044	4.2.2.3	53	udp	18054	zarbecoc.dot5hosting.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	dot5hosting-22.dot5hosting.com,66.96.133.22	3600.000000,3600.000000	F
+1362897853.550282	Cfy7KD1yYlrtaoewy8	192.168.74.10	1029	4.2.2.5	53	udp	9605	hawkeyellc.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.147.240.197	14400.000000	F
+1362897852.545178	CBdu524uqyGoJOVPDa	192.168.74.10	1029	4.2.2.3	53	udp	9605	hawkeyellc.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.147.240.197	14400.000000	F
+1362897855.345864	CHqpFc1illEwholJMj	192.168.74.10	1044	4.2.2.5	53	udp	4486	rodosnightlife.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.172.130.192	14400.000000	F
+1362897855.948503	CHqpFc1illEwholJMj	192.168.74.10	1044	4.2.2.5	53	udp	41094	dgmarketingdesign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.168.138.1	3600.000000	F
+1362897875.300847	C9LjFA37x58oQJySxg	192.168.74.10	1051	4.2.2.5	53	udp	56509	11vm14s.cdn144.filesetchosting.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.131.140.158	3600.000000	F
+#close	2014-04-03-10-45-45

@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-01-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1321064266.775606	CTIBVB2C5C6QHyEC71	192.168.112.10	1051	91.194.214.82	80	FI7YXn4l0guo5D3I31	application/x-shockwave-flash	http://aewkztrivl.serveftp.com/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 26%  Last seen: 2011-11-14 01:21:00	https://www.virustotal.com/en/search/?query=dc592aca72b525b0783064ff77317a0836f235f8	192.168.112.10	91.194.214.82	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-01-35

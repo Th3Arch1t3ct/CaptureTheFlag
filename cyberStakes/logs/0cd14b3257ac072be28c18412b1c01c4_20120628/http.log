@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-15-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1340861154.189475	Cfkg5u1RPBUAYfpRhd	192.168.34.10	1030	46.4.57.189	80	1	GET	extrares.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	421	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	F39KN9Ay9g2i26zIi	text/html
+1340861154.333655	CSnZsr261r4MLrz5Sc	192.168.34.10	1031	207.226.174.229	80	1	GET	www.ginotrack.com	/18010/download/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2484	200	OK	-	-	-	(empty)	-	-	-	-	-	F1UA6P90Sc6IMIWmg	text/html
+1340861154.378526	CSnZsr261r4MLrz5Sc	192.168.34.10	1031	207.226.174.229	80	2	GET	www.ginotrack.com	/css.css	http://www.ginotrack.com/18010/download/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	595	200	OK	-	-	-	(empty)	-	-	-	-	-	FmLHiU3KalmcEUXeZ6	text/plain
+1340861154.405336	CSnZsr261r4MLrz5Sc	192.168.34.10	1031	207.226.174.229	80	3	GET	www.ginotrack.com	/img/txt.png	http://www.ginotrack.com/18010/download/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	15504	200	OK	-	-	-	(empty)	-	-	-	-	-	Fe2YVE24xAyQqqC2ka	image/png
+1340861154.405074	Cedu2x28h5G4yxxMG	192.168.34.10	1032	207.226.174.229	80	1	GET	www.ginotrack.com	/img/logo.png	http://www.ginotrack.com/18010/download/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	11435	200	OK	-	-	-	(empty)	-	-	-	-	-	FMFFxf3FUSydTIeQ0h	image/png
+1340861154.556306	CSnZsr261r4MLrz5Sc	192.168.34.10	1031	207.226.174.229	80	4	GET	www.ginotrack.com	/img/down.png	http://www.ginotrack.com/18010/download/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	12418	200	OK	-	-	-	(empty)	-	-	-	-	-	FPNQD3SGMmsKUTGY2	image/png
+1340861154.556603	Cedu2x28h5G4yxxMG	192.168.34.10	1032	207.226.174.229	80	2	GET	www.ginotrack.com	/img/bg2.jpg	http://www.ginotrack.com/18010/download/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	10217	200	OK	-	-	-	(empty)	-	-	-	-	-	F8RGoA3gbL22UPK6gd	image/jpeg
+1340861154.651032	CSnZsr261r4MLrz5Sc	192.168.34.10	1031	207.226.174.229	80	5	GET	www.ginotrack.com	/img/gbg.jpg	http://www.ginotrack.com/18010/download/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	244076	200	OK	-	-	-	(empty)	-	-	-	-	-	FJfW9R2hynWlnglHOa	image/jpeg
+1340861154.849418	Cedu2x28h5G4yxxMG	192.168.34.10	1032	207.226.174.229	80	3	GET	www.ginotrack.com	/download/18010	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	81604	200	OK	-	-	-	(empty)	-	-	-	-	-	FQXEI33vCvvxHAHPLi	application/x-dosexec
+#close	2014-04-03-11-15-45

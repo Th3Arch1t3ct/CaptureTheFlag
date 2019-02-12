@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-19-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1328406978.449757	CK1sFXdDE0qwucK5i	192.168.69.10	1029	4.2.2.3	53	udp	23695	revisitors.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.40.98.209	20653.000000	F
+1328406978.612184	CK1sFXdDE0qwucK5i	192.168.69.10	1029	4.2.2.3	53	udp	47758	www.revisitors.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	revisitors.com,64.40.98.209	20653.000000,20653.000000	F
+1328406978.860578	CK1sFXdDE0qwucK5i	192.168.69.10	1029	4.2.2.3	53	udp	60558	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.65.95	127.000000,186.000000	F
+1328406979.703111	CK1sFXdDE0qwucK5i	192.168.69.10	1029	4.2.2.3	53	udp	31884	adpage76.google-syndication76.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.142.164.214	14400.000000	F
+1328406981.005065	CK1sFXdDE0qwucK5i	192.168.69.10	1029	4.2.2.3	53	udp	52620	images.scanalert.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	images.scanalert.com.edgekey.net,e54.g.akamaiedge.net,184.87.0.80	217.000000,20851.000000,20.000000	F
+1328407005.370673	CIzRez4vsNcoeIluh3	192.168.69.10	1029	4.2.2.3	53	udp	61579	seal-goldengate.bbb.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	seal-goldengate.hurdman.org,lv1-dynamicseal-21817004.us-east-1.elb.amazonaws.com,204.236.217.205,184.73.255.180	1800.000000,4113.000000,60.000000,60.000000	F
+1328407006.386773	CIzRez4vsNcoeIluh3	192.168.69.10	1029	4.2.2.3	53	udp	51594	secure.trust-guard.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.90.66.147	38537.000000	F
+1328407006.401391	CIzRez4vsNcoeIluh3	192.168.69.10	1029	4.2.2.3	53	udp	12680	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.47.100,74.125.47.101,74.125.47.102,74.125.47.113,74.125.47.138,74.125.47.139	12778.000000,98.000000,98.000000,98.000000,98.000000,98.000000,98.000000	F
+1328407007.515348	CIzRez4vsNcoeIluh3	192.168.69.10	1029	4.2.2.3	53	udp	7559	c674753.ssl.cf2.rackcdn.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cf2.rackcdn.com.edgekey.net,e4847.g.akamaiedge.net,184.86.87.162	300.000000,13279.000000,20.000000	F
+#close	2014-04-03-10-19-36

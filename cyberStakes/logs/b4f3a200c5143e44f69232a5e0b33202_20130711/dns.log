@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-53-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1373560263.003335	Ch2elv1yXoLBxxSXb7	192.168.19.10	1029	4.2.2.3	53	udp	31887	aresplus.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.189.32.169	33.000000	F
+1373560263.370187	Ch2elv1yXoLBxxSXb7	192.168.19.10	1029	4.2.2.3	53	udp	22925	fonts.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.28.95	2762.000000,88.000000	F
+1373560263.578767	Ch2elv1yXoLBxxSXb7	192.168.19.10	1029	4.2.2.3	53	udp	396	themes.googleusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlehosted.l.googleusercontent.com,74.125.239.11,74.125.239.12,74.125.239.10	86091.000000,144.000000,144.000000,144.000000	F
+1373560263.611926	Ch2elv1yXoLBxxSXb7	192.168.19.10	1029	4.2.2.3	53	udp	6539	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.239.0,74.125.239.5,74.125.239.2,74.125.239.3,74.125.239.4,74.125.239.8,74.125.239.9,74.125.239.6,74.125.239.7,74.125.239.1,74.125.239.14	85984.000000,35.000000,35.000000,35.000000,35.000000,35.000000,35.000000,35.000000,35.000000,35.000000,35.000000,35.000000	F
+#close	2014-04-03-09-53-37

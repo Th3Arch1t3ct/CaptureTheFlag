@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-15-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1312045222.688609	C4ir3c1OvoZyylMlDe	192.168.126.10	1042	23.1.62.222	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=imgssl.constantcontact.com,ST=MASSACHUSETTS,OU=Operations,O=Constant Contact,L=Waltham,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1291409717.000000	1322945717.000000	-	-	-	b17861326b92c71242dc70da436f9842	ok
+1312045222.706956	CrlxMQT4sKgGLPZNa	192.168.126.10	1043	23.1.62.222	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=imgssl.constantcontact.com,ST=MASSACHUSETTS,OU=Operations,O=Constant Contact,L=Waltham,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1291409717.000000	1322945717.000000	-	-	-	b17861326b92c71242dc70da436f9842	ok
+#close	2014-04-03-10-15-53

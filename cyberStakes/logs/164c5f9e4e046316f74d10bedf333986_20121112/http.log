@@ -1,0 +1,38 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-05-19
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1352707560.512158	C2TjP517M79amHXHS1	192.168.29.10	1030	208.109.181.78	80	1	GET	zanekotker.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3228	200	OK	-	-	-	(empty)	-	-	-	-	-	F57pu51YsvwUyQ3r8h	text/html
+1352707560.659287	C2TjP517M79amHXHS1	192.168.29.10	1030	208.109.181.78	80	2	GET	zanekotker.com	/Pix-for-homepage-of-Zane-in.jpg	http://zanekotker.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	16162	200	OK	-	-	-	(empty)	-	-	-	-	-	FwBfinX4l4N30JST6	image/jpeg
+1352707560.871247	C2TjP517M79amHXHS1	192.168.29.10	1030	208.109.181.78	80	3	GET	zanekotker.com	/Images/Certain Jacket.JPG	http://zanekotker.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	106098	200	OK	-	-	-	(empty)	-	-	-	-	-	FJmOkO2kWfTkLIAYL3	image/jpeg
+1352707560.863187	C83iU54zT5RIu0Cfa6	192.168.29.10	1031	208.109.181.78	80	1	GET	zanekotker.com	/Images/Bodies Jacket.JPG	http://zanekotker.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	177632	200	OK	-	-	-	(empty)	-	-	-	-	-	FAx3ua2izj49MnEXK3	image/jpeg
+1352707561.176367	C2TjP517M79amHXHS1	192.168.29.10	1030	208.109.181.78	80	4	GET	zanekotker.com	/Images/White Jacket.JPG	http://zanekotker.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	166826	200	OK	-	-	-	(empty)	-	-	-	-	-	FPy9bV2TwpLPRc0hEh	image/jpeg
+1352707561.384366	C2TjP517M79amHXHS1	192.168.29.10	1030	208.109.181.78	80	5	GET	zanekotker.com	/pool.jpg	http://zanekotker.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	389	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F9iaCX16ZlCLQ8AMy3	text/html
+1352707561.36019	C83iU54zT5RIu0Cfa6	192.168.29.10	1031	208.109.181.78	80	2	GET	zanekotker.com	/Images/Try Jacket.JPG	http://zanekotker.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	94213	200	OK	-	-	-	(empty)	-	-	-	-	-	F98bFU3rmsxhlZ0PD8	image/jpeg
+1352707560.955804	CMXUFA2ZWXkbhx0ac7	192.168.29.10	1032	69.161.141.177	80	1	GET	spoileralertdvd.com	/hmod.html	http://zanekotker.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	198	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FUWluY12NWhm34yqA	text/html
+1352707562.006967	CTIUpO25rKHJB0oma	192.168.29.10	1033	173.254.28.18	80	1	GET	shopsmart.in	/hmod.htm	http://zanekotker.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	12778	200	OK	-	-	-	(empty)	-	-	-	-	-	FEDcNv1ovMlf0UTmpd	text/html
+1352707563.731405	CTIUpO25rKHJB0oma	192.168.29.10	1033	173.254.28.18	80	2	GET	shopsmart.in	/987.pdf	http://shopsmart.in/hmod.htm	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6319	200	OK	-	-	-	(empty)	-	-	-	-	-	FcLEIq3G8Dg9Z4OYpc	binary
+1352707564.565468	Co1w2hs2dm59yV20d	192.168.29.10	1038	173.254.28.18	80	1	GET	shopsmart.in	/887.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1352707564.562497	C0RUJH1OpsDTjHFHhb	192.168.29.10	1039	173.254.28.18	80	1	GET	shopsmart.in	/332.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	10939	200	OK	-	-	-	(empty)	-	-	-	-	-	FNPh2T2KvwfFqpo6Pd	application/jar
+1352707565.967402	Co1w2hs2dm59yV20d	192.168.29.10	1038	173.254.28.18	80	2	GET	shopsmart.in	/887.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1352707566.943782	Co1w2hs2dm59yV20d	192.168.29.10	1038	173.254.28.18	80	3	GET	shopsmart.in	/Runs.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	2489	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FDz5dm3gQu3GFeoLG3	text/html
+1352707567.162054	Co1w2hs2dm59yV20d	192.168.29.10	1038	173.254.28.18	80	4	GET	shopsmart.in	/Runs/class.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	2489	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FkI2F618jS9LRvUr28	text/html
+1352707566.099938	C0RUJH1OpsDTjHFHhb	192.168.29.10	1039	173.254.28.18	80	2	GET	shopsmart.in	/332.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	10939	200	OK	-	-	-	(empty)	-	-	-	-	-	FjBbGlJW47s6YJ8bi	application/jar
+1352707567.581624	C0RUJH1OpsDTjHFHhb	192.168.29.10	1039	173.254.28.18	80	3	GET	shopsmart.in	/332.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	10939	200	OK	-	-	-	(empty)	-	-	-	-	-	FBy7254qvrHT2sGZEb	application/jar
+1352707569.409675	C0RUJH1OpsDTjHFHhb	192.168.29.10	1039	173.254.28.18	80	4	GET	shopsmart.in	/332.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	10939	200	OK	-	-	-	(empty)	-	-	-	-	-	FMPD1q3djQAI2Ypbmg	application/jar
+1352707570.797096	Co1w2hs2dm59yV20d	192.168.29.10	1038	173.254.28.18	80	5	GET	shopsmart.in	/33.html	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	41319	200	OK	-	-	-	(empty)	-	-	-	-	-	FvbGSShdoV2KFW9Ee	application/x-dosexec
+1352707578.293789	Cbkmal1Cywa4rNkaYh	192.168.29.10	1040	89.248.61.150	80	1	GET	pinkbuddhagroup.com	/p.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	178688	200	OK	-	-	-	(empty)	-	-	-	-	-	FfoGET3K2dSJBM1F1i	binary
+1352707580.232751	CrWzMuym78RGe2Jz4	192.168.29.10	1041	89.248.61.150	80	1	GET	pinkbuddhagroup.com	/p.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	573952	200	OK	-	-	-	(empty)	-	-	-	-	-	Fosmlq4lN538QoYlFe	binary
+1352707583.77466	CtEnxF44wv9ySjXyS8	192.168.29.10	1042	89.248.61.150	80	1	GET	pinkbuddhagroup.com	/p.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	165888	200	OK	-	-	-	(empty)	-	-	-	-	-	FqUWs54yXSgspvAfv2	binary
+1352707585.863365	CB4Zza3SjBvH4yiuU9	192.168.29.10	1043	89.248.61.150	80	1	GET	pinkbuddhagroup.com	/p.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	364497	200	OK	-	-	-	(empty)	-	-	-	-	-	FCByqu3IVjQwk7EBjg	binary
+1352707588.921265	CqjMjo3Ald1yXH5pR2	192.168.29.10	1044	89.248.61.150	80	1	GET	pinkbuddhagroup.com	/p.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	666	200	OK	-	-	-	(empty)	-	-	-	-	-	FIU5ZY1V5T88Fqsqce	binary
+1352707589.477797	CUu3aD2rcCnXV9CZ22	192.168.29.10	1046	50.22.196.70	80	1	GET	j.maxmind.com	/app/geoip.js	-	-	0	507	200	OK	-	-	-	(empty)	-	-	-	-	-	F5p6Xs1MsSSLSPonz9	text/plain
+1352707599.494286	CHc1ix1LwOZAKQdhth	192.168.29.10	1068	103.4.225.41	80	1	GET	103.4.225.41	/api/urls/?ts=f780d9c7&affid=70800	-	Mozilla/5.0 (compatible; MSIE 6.0; Windows NT 5.1; Trident/5.0);(b:2600;c:AMD-32F0;l:09)	0	56	200	OK	-	-	-	(empty)	-	-	-	-	-	FSprZQ1eaxRkalL9Z9	text/plain
+1352707601.34732	Corj8E6ZuGjCM1y4g	192.168.29.10	1069	5.104.106.56	80	1	GET	pnzxo.lofasurufa.tk	/1.exe?ts=f780d9c7&affid=7080	-	Mozilla/5.0 (compatible; MSIE 6.0; Windows NT 5.1; Trident/5.0);(b:2600;c:AMD-32F0;l:09)	0	178688	200	OK	-	-	-	(empty)	-	-	-	-	-	F9r85DDsYX17MfLD2	application/x-dosexec
+1352707602.287223	Cfi6L012sClF8idz92	192.168.29.10	1071	50.22.196.70	80	1	GET	j.maxmind.com	/app/geoip.js	-	-	0	507	200	OK	-	-	-	(empty)	-	-	-	-	-	Fe2d27TCRLstjDsI9	text/plain
+1352707615.208098	CGLSZ23PQfOIzkPGGb	192.168.29.10	1083	78.140.131.158	80	1	GET	megaupload.com	/upload/fid=BwCEAAEA4DUBAAEFCAAAAAAAAAAAAAAAAAAAAACQDAsJCwAAACTjrNHiEZ4srLhxgiZvmW9ErKBQAABVVVVVVVVVVVVVVVVVVVVVzcDNAfI8IO7gNQEAVXd1bXNtfWNvZXMzMmhnOGc4OAJGkzUK3f4TbwAAAAAAAQcAAAAHAAAANFYA	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)	0	520	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FdSQ441AtfhVstNYG5	text/html
+#close	2014-04-03-10-05-20

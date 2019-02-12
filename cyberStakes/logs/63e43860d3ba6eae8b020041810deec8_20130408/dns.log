@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-00-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1365399171.085557	CitOgb1ZKm485F1Ied	192.168.75.10	1029	4.2.2.3	53	udp	15245	ki-llc.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.163.164.13	14377.000000	F
+1365399198.379588	CY3Huf20Ydvg4H7hMd	192.168.75.10	1029	4.2.2.3	53	udp	29068	bluehost-dz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	141.101.116.87,141.101.117.87	300.000000,300.000000	F
+1365399198.645991	CY3Huf20Ydvg4H7hMd	192.168.75.10	1029	4.2.2.3	53	udp	48012	www.skanninge.se	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.21.75.36	600.000000	F
+1365399200.205665	CY3Huf20Ydvg4H7hMd	192.168.75.10	1029	4.2.2.3	53	udp	29839	eb318544.linkbucks.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	lex-in.linkbucks.com,199.59.167.109	150.000000,300.000000	F
+1365399200.426876	CY3Huf20Ydvg4H7hMd	192.168.75.10	1029	4.2.2.3	53	udp	63630	static.linkbucks.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wac.45ee.edgecastcdn.net,gs1.wac.v4cdn.net,93.184.216.169	60.000000,856.000000,2342.000000	F
+1365399200.641231	CY3Huf20Ydvg4H7hMd	192.168.75.10	1029	4.2.2.3	53	udp	31113	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,173.194.37.66,173.194.37.71,173.194.37.67,173.194.37.72,173.194.37.69,173.194.37.73,173.194.37.64,173.194.37.70,173.194.37.65,173.194.37.68,173.194.37.78	30123.000000,19.000000,19.000000,19.000000,19.000000,19.000000,19.000000,19.000000,19.000000,19.000000,19.000000,19.000000	F
+1365399200.672201	CY3Huf20Ydvg4H7hMd	192.168.75.10	1029	4.2.2.3	53	udp	6792	www.linkbucksmedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.59.167.109	300.000000	F
+1365399200.811371	CY3Huf20Ydvg4H7hMd	192.168.75.10	1029	4.2.2.3	53	udp	6795	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.d.akamai.net,23.67.61.72,23.67.61.35	1456.000000,182.000000,8702.000000,20.000000,20.000000	F
+1365399200.921189	CY3Huf20Ydvg4H7hMd	192.168.75.10	1029	4.2.2.3	53	udp	29323	www.down1oads.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	down1oads.com,78.138.127.87	1176.000000,1176.000000	F
+1365399201.208719	CY3Huf20Ydvg4H7hMd	192.168.75.10	1029	4.2.2.3	53	udp	56714	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.137.95	1607.000000,67.000000	F
+1365399208.575218	CY3Huf20Ydvg4H7hMd	192.168.75.10	1029	4.2.2.3	53	udp	48261	download.softiglu.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.138.127.87	1288.000000	F
+1365399208.82092	CY3Huf20Ydvg4H7hMd	192.168.75.10	1029	4.2.2.3	53	udp	34439	static.bicdn.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	download.betterinstaller.com,betterinstaller.com,78.138.97.8	599.000000,600.000000,600.000000	F
+#close	2014-04-03-10-00-33

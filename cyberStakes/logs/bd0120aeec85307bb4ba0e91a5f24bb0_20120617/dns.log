@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-53-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1339917442.264909	CPKkYAj1epmdITKpk	192.168.31.10	1029	4.2.2.3	53	udp	46225	amerpolgroup.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.208.236.204	43173.000000	F
+1339917442.567359	CPKkYAj1epmdITKpk	192.168.31.10	1029	4.2.2.3	53	udp	31634	largescalebuffer.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.65.42.35	21605.000000	F
+1339917453.951094	CI1A9V2GQQ5ns2tW67	192.168.31.10	1029	4.2.2.3	53	udp	39826	11tc5q8.cdn30.theuploadservice.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1339917456.031543	CI1A9V2GQQ5ns2tW67	192.168.31.10	1029	4.2.2.3	53	udp	39826	11tc5q8.cdn30.theuploadservice.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1339917458.031855	CI1A9V2GQQ5ns2tW67	192.168.31.10	1029	4.2.2.3	53	udp	39826	11tc5q8.cdn30.theuploadservice.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1339917462.250909	CI1A9V2GQQ5ns2tW67	192.168.31.10	1029	4.2.2.3	53	udp	39826	11tc5q8.cdn30.theuploadservice.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1339917454.952671	CGtvMr4svp5ZrEE6P	192.168.31.10	1029	4.2.2.5	53	udp	39826	11tc5q8.cdn30.theuploadservice.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1339917458.031993	CGtvMr4svp5ZrEE6P	192.168.31.10	1029	4.2.2.5	53	udp	39826	11tc5q8.cdn30.theuploadservice.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1339917462.251136	CGtvMr4svp5ZrEE6P	192.168.31.10	1029	4.2.2.5	53	udp	39826	11tc5q8.cdn30.theuploadservice.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1339917483.965812	C09VdJ1GbHn5MLXzDc	192.168.31.10	1029	4.2.2.3	53	udp	39826	-	-	-	-	-	2	SERVFAIL	F	F	F	F	0	-	-	T
+1339917484.967173	C2d7WVCXyk5XqX8dh	192.168.31.10	1029	4.2.2.5	53	udp	39826	-	-	-	-	-	2	SERVFAIL	F	F	F	F	0	-	-	T
+1339917500.970554	CpU4pU18Ua8mupAFae	192.168.31.10	1029	4.2.2.3	53	udp	10131	11tc5qf.cdn30.theuploadservice.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1339917503.03237	CpU4pU18Ua8mupAFae	192.168.31.10	1029	4.2.2.3	53	udp	10131	11tc5qf.cdn30.theuploadservice.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1339917505.1464	CpU4pU18Ua8mupAFae	192.168.31.10	1029	4.2.2.3	53	udp	10131	11tc5qf.cdn30.theuploadservice.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1339917501.971121	CTuRO5JDHVsIGASAi	192.168.31.10	1029	4.2.2.5	53	udp	10131	11tc5qf.cdn30.theuploadservice.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1339917505.146627	CTuRO5JDHVsIGASAi	192.168.31.10	1029	4.2.2.5	53	udp	10131	11tc5qf.cdn30.theuploadservice.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+#close	2014-04-03-09-53-37

@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-39-23
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1364169439.858362	CVHZ8G4fzltMuAhhk9	192.168.108.10	1094	162.116.190.108	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.allergan.com,OU=corporate,O=Allergan\, Inc.,L=Irvine,ST=California,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1342501200.000000	1446051600.000000	-	-	-	3479b75af5d635f6882d6e07caa5ac7a	ok
+#close	2014-04-03-10-39-24

@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-47-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1354910471.431445	CiuHux3UpdCK5aQP5a	192.168.25.10	1029	4.2.2.3	53	udp	37777	norelocato.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.62.68.1	3600.000000	F
+1354910471.676199	CiuHux3UpdCK5aQP5a	192.168.25.10	1029	4.2.2.3	53	udp	4243	www.xmasgifthighlights.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.143.166.139	300.000000	F
+1354910473.240557	CiuHux3UpdCK5aQP5a	192.168.25.10	1029	4.2.2.3	53	udp	48530	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	1802.000000,300.000000	F
+1354910473.55058	CiuHux3UpdCK5aQP5a	192.168.25.10	1029	4.2.2.3	53	udp	36757	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	1795.000000,80.000000	F
+1354910495.153383	CcISer2X49120DSmLb	192.168.25.10	1029	4.2.2.3	53	udp	29847	cheap-papers.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	108.166.200.130	600.000000	F
+1354910525.538802	CesKFW3Iizt3zMMUy8	192.168.25.10	1042	4.2.2.3	53	udp	6041	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.125.130.106,74.125.130.147,74.125.130.105,74.125.130.104,74.125.130.103,74.125.130.99	264.000000,264.000000,264.000000,264.000000,264.000000,264.000000	F
+1354910525.527796	CkgB881obDUOz93OS	192.168.25.10	1029	4.2.2.3	53	udp	51096	black-cables.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	108.166.200.130	600.000000	F
+#close	2014-04-03-10-47-07

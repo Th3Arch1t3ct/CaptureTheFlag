@@ -1,0 +1,28 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-59-01
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1330995396.608714	CiUdO7cF39pGpPspl	192.168.96.10	1030	69.163.242.164	80	1	GET	reb-ac.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6449	200	OK	-	-	-	(empty)	-	-	-	-	-	FH0usjljIGtaTijz8	text/html
+1330995396.775882	C7HMlYRoxQSYweWc9	192.168.96.10	1031	69.163.242.164	80	1	GET	reb-ac.com	/style.css	http://reb-ac.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	822	200	OK	-	-	-	(empty)	-	-	-	-	-	F6zv7AgG2B1EQUjs6	text/plain
+1330995396.88712	CiUdO7cF39pGpPspl	192.168.96.10	1030	69.163.242.164	80	2	GET	reb-ac.com	/images/bg.gif	http://reb-ac.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	240	200	OK	-	-	-	(empty)	-	-	-	-	-	FgXWnV1kPiQrk607ab	image/gif
+1330995396.88759	C7HMlYRoxQSYweWc9	192.168.96.10	1031	69.163.242.164	80	2	GET	reb-ac.com	/images/header1.jpg	http://reb-ac.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	12010	200	OK	-	-	-	(empty)	-	-	-	-	-	F224S83yvFBWLka719	image/jpeg
+1330995396.958879	CiUdO7cF39pGpPspl	192.168.96.10	1030	69.163.242.164	80	3	GET	reb-ac.com	/images/header2.jpg	http://reb-ac.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	10777	200	OK	-	-	-	(empty)	-	-	-	-	-	Fwq8Rb4nEdwpeWyBkk	image/jpeg
+1330995397.026428	C7HMlYRoxQSYweWc9	192.168.96.10	1031	69.163.242.164	80	3	GET	reb-ac.com	/images/home.gif	http://reb-ac.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	807	200	OK	-	-	-	(empty)	-	-	-	-	-	FwJhicAxmpL2Gkab	image/gif
+1330995397.082336	CiUdO7cF39pGpPspl	192.168.96.10	1030	69.163.242.164	80	4	GET	reb-ac.com	/images/about.gif	http://reb-ac.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	502	200	OK	-	-	-	(empty)	-	-	-	-	-	FFZQmE3lXw3ILjfVEi	image/gif
+1330995397.117541	C7HMlYRoxQSYweWc9	192.168.96.10	1031	69.163.242.164	80	4	GET	reb-ac.com	/images/services.gif	http://reb-ac.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	485	200	OK	-	-	-	(empty)	-	-	-	-	-	FTNfCP2fzZG7xbvZT8	image/gif
+1330995397.08271	C5O5E33VKsCeSs2aol	192.168.96.10	1032	194.28.114.103	80	1	GET	zead94mits.rr.nu	/nl.php?p=d	http://reb-ac.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	74	200	OK	-	-	-	(empty)	-	-	-	-	-	FbxxUR1lcoC0Rrqaek	text/plain
+1330995397.191488	CiUdO7cF39pGpPspl	192.168.96.10	1030	69.163.242.164	80	5	GET	reb-ac.com	/images/specials.gif	http://reb-ac.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	480	200	OK	-	-	-	(empty)	-	-	-	-	-	FH5wpN1ltFNrsD81ec	image/gif
+1330995397.19591	C7HMlYRoxQSYweWc9	192.168.96.10	1031	69.163.242.164	80	5	GET	reb-ac.com	/images/contact.gif	http://reb-ac.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1001	200	OK	-	-	-	(empty)	-	-	-	-	-	FL3X64s1q0SdOG7B7	image/gif
+1330995397.24567	CiUdO7cF39pGpPspl	192.168.96.10	1030	69.163.242.164	80	6	GET	reb-ac.com	/images/menuend.gif	http://reb-ac.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	296	200	OK	-	-	-	(empty)	-	-	-	-	-	FkWOTu2zb2eA8VyDOc	image/gif
+1330995397.249968	C7HMlYRoxQSYweWc9	192.168.96.10	1031	69.163.242.164	80	6	GET	reb-ac.com	/images/menucolumntop.gif	http://reb-ac.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	596	200	OK	-	-	-	(empty)	-	-	-	-	-	FoSsIN1NgnZKeCKmKh	image/gif
+1330995397.463791	C5IcDYO219npAcDb9	192.168.96.10	1033	194.28.114.103	80	1	GET	gssep81arated.rr.nu	/n.php?h=1&s=nl	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	357	200	OK	-	-	-	(empty)	-	-	-	-	-	FpXnUk1jlUcsXMKbWj	text/html
+1330995397.745171	CZCsV33jXB9Ky6RIEa	192.168.96.10	1034	64.120.208.219	80	1	GET	secure-software-gvfgfdgb.info	/39f678a0d39279b6/4/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2108	200	OK	-	-	-	(empty)	-	-	-	-	-	FuTFae1TbCY3XeLuUa	text/html
+1330995398.094683	CZCsV33jXB9Ky6RIEa	192.168.96.10	1034	64.120.208.219	80	2	GET	secure-software-gvfgfdgb.info	/39f678a0d39279b6/4/scan1.swf	http://secure-software-gvfgfdgb.info/39f678a0d39279b6/4/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	111475	200	OK	-	-	-	(empty)	-	-	-	-	-	Fu6Ioy4PXo8C37qDLi	application/x-shockwave-flash
+1330995398.365306	CAzvhe3CUeAWVibSqk	192.168.96.10	1035	192.204.3.42	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1568	200	OK	-	-	-	(empty)	-	-	-	-	-	FdQEeJ1Uq29K3QZdql	text/html
+1330995401.897832	CZCsV33jXB9Ky6RIEa	192.168.96.10	1034	64.120.208.219	80	3	GET	secure-software-gvfgfdgb.info	/39f678a0d39279b6/4/download/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	154	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	Fe6IcQ3oBlzg5toNii	text/html
+1330995401.919428	CZCsV33jXB9Ky6RIEa	192.168.96.10	1034	64.120.208.219	80	4	GET	secure-software-gvfgfdgb.info	/39f678a0d39279b6/4/setup.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	39192	200	OK	-	-	-	(empty)	-	-	-	-	-	FdMg0q3bnZrnAmUvui	application/x-dosexec
+#close	2014-04-03-09-59-01

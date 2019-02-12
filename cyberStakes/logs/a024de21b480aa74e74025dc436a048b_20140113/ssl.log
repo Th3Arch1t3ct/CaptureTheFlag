@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-09-58-28
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1389579295.669168	C2YL1kuGNGgBRSedh	192.168.52.10	1047	74.125.224.129	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1386787754.000000	1397106000.000000	-	-	-	4b449ca6d1202610b1068be9460eff96	ok
+1389579297.721329	CpgiYI39dBRTYBBSVb	192.168.52.10	1054	74.125.224.129	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	43239b6ac6921213ea44389c6b8ac894ffc2d0e85add51c5fad8e20f27bc7f35	-	-	-	-	-	-	-	-	-
+1389579298.30701	CRpYwL2yzYwB7M1Opi	192.168.52.10	1056	74.125.28.84	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=accounts.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1386788253.000000	1397106000.000000	-	-	-	1d596fdf0c3b170abcf72996f220b868	ok
+1389579298.552448	CqPp5w23OVQ7np8uE7	192.168.52.10	1059	74.125.224.203	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1386786403.000000	1397106000.000000	-	-	-	647b5de11d67865da5962f88269da406	ok
+1389579298.55288	CfeDAJ3Kzj2FPc4NSb	192.168.52.10	1060	74.125.224.47	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1386786671.000000	1397106000.000000	-	-	-	52727373aecddd6beefdddddbe1e9d98	ok
+1389579298.987857	CTwuo1hLmpEwLaby5	192.168.52.10	1070	74.125.224.47	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	cb37797c001a0e183e7bdd0cb91ed91319fcd58e7cd9fdb2a4a2b0bf2a8eec53	-	-	-	-	-	-	-	-	-
+1389579304.573729	CCQWMq2IvRRhc2keg7	192.168.52.10	1115	173.252.112.23	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.facebook.com,O=Facebook\, Inc.,L=Palo Alto,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1382936400.000000	1438837199.000000	-	-	-	8a2cdf3b44eeeeeeeeeeeeeeeeeeeeee	ok
+1389579310.676184	CNOqgF3W5PFJ3j39Pb	192.168.52.10	1148	75.126.225.196	443	TLSv10	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=ads.us.e-planning.net,OU=Domain Control Validated - RapidSSL(R),OU=See www.rapidssl.com/resources/cps (c)12,OU=GT19680246,serialNumber=wVAfdgaa5Ape5BPGZqD8lNyutc/dEC41	CN=RapidSSL CA,O=GeoTrust\, Inc.,C=US	1346658092.000000	1410019444.000000	-	-	-	a83eb553db68c25d86c9bf798acccccc	ok
+1389579311.757368	CPaXUF3dpk0lA1KdMb	192.168.52.10	1158	173.193.144.4	443	TLSv10	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=us.img.e-planning.net,OU=Domain Control Validated - RapidSSL(R),OU=See www.rapidssl.com/resources/cps (c)12,OU=GT67744497,serialNumber=gLsk-zsU2747eUDIWkY9TCn5usmwXsyV	CN=RapidSSL CA,O=GeoTrust\, Inc.,C=US	1346734661.000000	1410046290.000000	-	-	-	a2c87d321b1195cab624e13cbe0ca510	unable to get local issuer certificate
+#close	2014-04-03-09-58-30

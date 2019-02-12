@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-59-47
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1340812299.317523	CY3REy3BB9g5e797Rh	192.168.39.10	1029	4.2.2.3	53	udp	32402	armadilloposters.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	204.15.250.65	14372.000000	F
+1340812299.942269	CY3REy3BB9g5e797Rh	192.168.39.10	1029	4.2.2.3	53	udp	31891	javlprni.ddns.name	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	146.185.255.114	31.000000	F
+1340812303.875797	CY3REy3BB9g5e797Rh	192.168.39.10	1029	4.2.2.3	53	udp	57488	pokosa.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.111.9.98	60.000000	F
+1340812305.630743	CY3REy3BB9g5e797Rh	192.168.39.10	1029	4.2.2.3	53	udp	28817	www3.simplejd-guard.dnset.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.238.110	31.000000	F
+1340812305.963681	CY3REy3BB9g5e797Rh	192.168.39.10	1029	4.2.2.3	53	udp	41622	www1.strongfaguard.dnset.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.23.8.181	31.000000	F
+1340812313.216653	CY3REy3BB9g5e797Rh	192.168.39.10	1029	4.2.2.3	53	udp	12694	www1.smartol-network.zonet.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.23.11.163	3600.000000	F
+1340812358.387467	CuQLMy1lGIz7jHLC55	192.168.39.10	1029	208.115.221.125	53	udp	1686	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	108.170.33.236	7200.000000	F
+#close	2014-04-03-09-59-48

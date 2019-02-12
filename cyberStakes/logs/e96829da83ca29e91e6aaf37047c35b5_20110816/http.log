@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-29-52
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1313514077.094941	CGV5De2ONhAa8bTlfi	192.168.73.10	1030	66.118.64.208	80	1	GET	logancountywv.org	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	34705	200	OK	-	-	-	(empty)	-	-	-	-	-	FsgSTERG7wAxQ8iO	text/html
+1313514077.240222	COuKdQ2OwQQJe5lrHe	192.168.73.10	1032	66.118.64.208	80	1	GET	logancountywv.org	/earlraylogo.jpg	http://logancountywv.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	22788	200	OK	-	-	-	(empty)	-	-	-	-	-	F3yAn13BRAuza5cSe6	image/jpeg
+1313514077.240053	Ca90fi2RL4OgYhvkn4	192.168.73.10	1031	66.118.64.208	80	1	GET	logancountywv.org	/logan dev header.gif	http://logancountywv.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	11217	200	OK	-	-	-	(empty)	-	-	-	-	-	F6bQ634b5wcWmfUQ23	image/gif
+1313514077.274433	ChrYm3HHzaScC9pD6	192.168.73.10	1033	66.118.64.190	80	1	GET	www.citynet.net	/cgi-bin/counter.exe?logancountycvb-80516	http://logancountywv.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6951	200	OK	-	-	-	(empty)	-	-	-	-	-	FcmSBaKETRvZ9g2ud	application/x-dosexec
+1313514077.329716	CbuovA23wUxbnqAnJg	192.168.73.10	1035	66.118.64.208	80	1	GET	logancountywv.org	/LCDA_Logo2.gif	http://logancountywv.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6144	200	OK	-	-	-	(empty)	-	-	-	-	-	Ffq0412kDXIujwlGVf	image/gif
+1313514077.329461	Cl2zsb4IQFibLidD83	192.168.73.10	1034	66.118.64.208	80	1	GET	logancountywv.org	/wvdevelopmentauthority_logo.gif	http://logancountywv.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	10560	200	OK	-	-	-	(empty)	-	-	-	-	-	FdJaYx2KRj6cXK2dm	image/gif
+1313514077.411653	Cda8HX1SEwlNQQW3P7	192.168.73.10	1036	66.118.64.208	80	1	GET	logancountywv.org	/ieget_a(1).gif	http://logancountywv.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1601	200	OK	-	-	-	(empty)	-	-	-	-	-	FPvDfe14C7UDZImfHk	image/gif
+1313514077.429997	CmT7Pr47dUgezYSMfg	192.168.73.10	1037	66.118.64.208	80	1	GET	logancountywv.org	/_vti_bin/fpcount.exe/C:/Documents and Settings/i_am4god/My Documents/My Webs/?Page=LCDA/index.htm|Image=4|Digits=5	http://logancountywv.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	275	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FT0qjz1z5hRnhzNk09	text/html
+#close	2014-04-03-10-29-52

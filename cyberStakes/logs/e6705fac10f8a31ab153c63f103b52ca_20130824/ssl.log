@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-09-54-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1377352228.435746	CWg2c241NL6XvS0AC	192.168.105.10	1076	74.125.224.198	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1376538013.000000	1408074013.000000	-	-	-	04a2f65d53517539bcfe0fe8105edccb	ok
+1377352229.072182	Cwo0ET8OQWmvtymK	192.168.105.10	1085	50.17.220.9	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.truste.com,O=True Ultimate Standards Everywhere\, Inc.,L=San Francisco,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1327298400.000000	1422079199.000000	-	-	-	75c6308ffb77ea6550ef41d826eeeeee	ok
+1377352234.454408	CdAia810OEc33ekUsl	192.168.105.10	1110	184.85.162.110	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=s-static.ak.facebook.com,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,ST=California,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1363150837.000000	1394686837.000000	-	-	-	8072f767b362050ff6b5555555555554	ok
+1377352234.465715	CHRiiKeJRgFI4UQu1	192.168.105.10	1111	31.13.70.1	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.facebook.com,O=Facebook\, Inc.,L=Palo Alto,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1365656400.000000	1457243999.000000	-	-	-	8dcb09e95b92d8f629d865ae781c9f48	ok
+1377352240.673862	CSy7Iz1vX3KpTOMHA9	192.168.105.10	1131	74.125.224.217	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.g.doubleclick.net,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1376537550.000000	1408073550.000000	-	-	-	ef83a4d97a056b04f5b3df2e5a7a2e53	ok
+1377352256.841288	CnMekwQoRICPUC65d	192.168.105.10	1151	74.125.224.203	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1376536658.000000	1408072658.000000	-	-	-	e9cb7a1b46b152121cad7552afb52e8a	ok
+#close	2014-04-03-09-54-35

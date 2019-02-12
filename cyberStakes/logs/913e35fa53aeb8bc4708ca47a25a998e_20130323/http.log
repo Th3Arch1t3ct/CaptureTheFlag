@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-01-16
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1364078387.135373	CVnNF5478c8TNlTCQa	192.168.119.10	1030	195.64.155.96	80	1	GET	americanqreetings.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	91	200	OK	-	-	-	(empty)	-	-	-	-	-	FDmSrE4zi3ytlSAdS	text/html
+1364078387.928316	CUcoWt4fR4xnwv9QR8	192.168.119.10	1031	195.64.155.96	80	1	GET	online-job.info	/red.php	http://americanqreetings.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1364078389.361353	Czzf4m4dt2tvanKzs6	192.168.119.10	1032	5.135.67.131	64123	1	GET	seven-dom.com	/41b03c867af0977272c722951aa7326b.html	http://americanqreetings.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	319	200	OK	-	-	-	(empty)	-	-	-	-	-	F5MMTX2NrCipWxyNOd	text/plain
+1364078390.562645	CdDK6Y3d5oduG2bRu	192.168.119.10	1037	5.135.67.131	64123	1	GET	seven-dom.com	/bcca8f80096d0cb3bc72b1ed002c35d7/1364078278/541d2da181ab345912ac80990fbe13a0.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12436	200	OK	-	-	-	(empty)	-	-	-	-	-	FpmtSB37abzcQ2X004	application/jar
+1364078390.903042	CdDK6Y3d5oduG2bRu	192.168.119.10	1037	5.135.67.131	64123	2	GET	seven-dom.com	/bcca8f80096d0cb3bc72b1ed002c35d7/1364078278/541d2da181ab345912ac80990fbe13a0.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12436	200	OK	-	-	-	(empty)	-	-	-	-	-	Fc4TfUvznSwyu3IH	application/jar
+1364078391.17034	CdDK6Y3d5oduG2bRu	192.168.119.10	1037	5.135.67.131	64123	3	GET	seven-dom.com	/bcca8f80096d0cb3bc72b1ed002c35d7/1364078278/541d2da181ab345912ac80990fbe13a0.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12436	200	OK	-	-	-	(empty)	-	-	-	-	-	FdAyUw25NCM1pwK9Y4	application/jar
+1364078391.58718	CdDK6Y3d5oduG2bRu	192.168.119.10	1037	5.135.67.131	64123	4	GET	seven-dom.com	/bcca8f80096d0cb3bc72b1ed002c35d7/1364078278/541d2da181ab345912ac80990fbe13a0.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12436	200	OK	-	-	-	(empty)	-	-	-	-	-	FKL8qY3LiiyB0UEoz	application/jar
+1364078396.603581	CdDK6Y3d5oduG2bRu	192.168.119.10	1037	5.135.67.131	64123	5	GET	seven-dom.com	/bcca8f80096d0cb3bc72b1ed002c35d7/1364078278/541d2da181ab345912ac80990fbe13a0.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12436	200	OK	-	-	-	(empty)	-	-	-	-	-	FlqVKjnfyeI80QqX4	application/jar
+1364078396.957528	CdDK6Y3d5oduG2bRu	192.168.119.10	1037	5.135.67.131	64123	6	GET	seven-dom.com	/f/1364078278/541d2da181ab345912ac80990fbe13a0/bcca8f80096d0cb3bc72b1ed002c35d7/2	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	90086	200	OK	-	-	-	(empty)	-	-	-	-	-	FCT2iE408GjOdPbq42	application/x-dosexec
+1364078397.540933	CdDK6Y3d5oduG2bRu	192.168.119.10	1037	5.135.67.131	64123	7	GET	seven-dom.com	/f/1364078278/541d2da181ab345912ac80990fbe13a0/bcca8f80096d0cb3bc72b1ed002c35d7/2/2	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-11-01-17

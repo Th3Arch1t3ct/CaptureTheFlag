@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-09-58-28
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1335857500.644423	FeGNzm4oR70AhsOD5l	70.32.68.249	192.168.96.10	CH90rt3TXz5Y4MB8Wj	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	1204	-	0	0	F	-	df56230c1339bc9b2c3fbed4a23eed73	6e1250985ccd4ebac7371bdf3f6a57007dae308f	-	-
+1335857501.20268	FeCFfH11uMryEyI8B2	193.169.188.143	192.168.96.10	CnlAE23ecbvB9fxeB2	HTTP	0	SHA1,MD5	text/plain	-	0.137683	-	F	3031	3031	0	0	F	-	414918d8cc7056493c9f206e6d9a312d	75942a54a5cef7ec1e392abae34e3e352da7c7a5	-	-
+1335857502.984395	FEtbFd2UwjCDHDPfNk	91.208.16.243	192.168.96.10	CeZmrL3cVS4Vgvy0Vc	HTTP	0	SHA1,MD5	text/plain	-	0.811129	-	F	90322	-	0	0	F	-	7db864d018991eb664d2fab352cfbb5b	6152a2ea281b96e613e50616723b074da9490a08	-	-
+1335857505.086938	FEL9epozjsHRvY7Gg	91.208.16.243	192.168.96.10	CSEIHX3nPlDDPL5ff8	HTTP	0	SHA1,MD5	application/pdf	vkXUYd.pdf	0.135473	-	F	17253	-	0	0	F	-	4af02c1519c6e90ea13d6011b9364d14	27cd70a54b15c93b118d47ce4469f5d6b1758e42	-	-
+1335857507.253701	FtBPdlYNQFsmpJII	91.208.16.243	192.168.96.10	CqbrkQfzEhGlq7k01	HTTP	0	SHA1,MD5	application/pdf	rFpW4LMsd.pdf	0.133512	-	F	17253	-	0	0	F	-	2245a640da81574f5ce50ee27f483ec4	8f9299c99fea85b8e0c054832b186b28e5d6bd16	-	-
+1335857515.131148	F5BBcvKxUvLwdUtee	91.208.16.243	192.168.96.10	CLHG5h1a2kxjHWrOMl	HTTP	0	SHA1,MD5	application/jar	a03cb4b8e5bb148134a57a2c87ddacd9.jar	0.269543	-	F	10545	10545	0	0	F	-	f9dca23c14453f559f934dd646fb9604	f242bef9683dce07d7e63292efcaf23564de01b8	-	-
+1335857515.569292	Frx9Nu9ZBKwjhM2G	91.208.16.243	192.168.96.10	CLHG5h1a2kxjHWrOMl	HTTP	0	SHA1,MD5	application/jar	a03cb4b8e5bb148134a57a2c87ddacd9.jar	0.134471	-	F	10545	10545	0	0	F	-	f9dca23c14453f559f934dd646fb9604	f242bef9683dce07d7e63292efcaf23564de01b8	-	-
+1335857517.366051	F5ng654cOuvcAzTl64	91.208.16.243	192.168.96.10	Chzrci3uQekpkUtdMj	HTTP	0	SHA1,MD5	application/jar	a03cb4b8e5bb148134a57a2c87ddacd9.jar	0.269966	-	F	10545	10545	0	0	F	-	f9dca23c14453f559f934dd646fb9604	f242bef9683dce07d7e63292efcaf23564de01b8	-	-
+1335857518.613534	FDsiqq2LejyJ67Hy9g	91.208.16.243	192.168.96.10	ChKMWI11Q3J4hR6MBa	HTTP	0	SHA1,MD5	application/x-dosexec	files/load1.exe	0.269379	-	F	17880	-	0	0	F	-	73bb10ca7700bfcf2bc34cc52b2e5b6d	95cdd71669b20508c6d9bace391b61ffd980e437	-	-
+1335857523.23634	FlNP9a2v0xrtW7oLxj	91.208.16.243	192.168.96.10	CQmpOYoFRtt1S5gbc	HTTP	0	SHA1,MD5	application/jar	a03cb4b8e5bb148134a57a2c87ddacd9.jar	0.271157	-	F	10545	10545	0	0	F	-	f9dca23c14453f559f934dd646fb9604	f242bef9683dce07d7e63292efcaf23564de01b8	-	-
+1335857523.736839	F2dSzB3LtAUF14OxA1	91.208.16.243	192.168.96.10	CQmpOYoFRtt1S5gbc	HTTP	0	SHA1,MD5	application/x-dosexec	files/load1.exe	0.274736	-	F	17880	17880	0	0	F	-	73bb10ca7700bfcf2bc34cc52b2e5b6d	95cdd71669b20508c6d9bace391b61ffd980e437	-	-
+#close	2014-04-03-09-58-28

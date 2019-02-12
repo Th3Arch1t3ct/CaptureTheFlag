@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-00-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1329008663.110943	CLuo5s3HPrlxrezwga	192.168.25.10	1031	80.74.131.135	80	1	GET	hiklmos.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	8320	200	OK	-	-	-	(empty)	-	-	-	-	-	Fqq3LhurlLp64LmT2	text/html
+1329008663.472632	CFAQSU3xQqRYHORWT8	192.168.25.10	1032	80.74.131.135	80	1	GET	hiklmos.com	/main.css	http://hiklmos.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1867	200	OK	-	-	-	(empty)	-	-	-	-	-	F3nCPe3oZ6ppHRxeG8	text/plain
+1329008663.650151	CFAQSU3xQqRYHORWT8	192.168.25.10	1032	80.74.131.135	80	2	GET	hiklmos.com	/trans.gif	http://hiklmos.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	200	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FyiaqvFDhTtKt6aLl	text/html
+1329008663.893339	Ci7UAC3prVpT08yO3j	192.168.25.10	1033	80.74.131.135	80	1	GET	www.hiklmos.com	/_vti_bin/fpcount.exe/?Page=index.htm|Image=4|Digits=6	http://hiklmos.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6965	200	OK	-	-	-	(empty)	-	-	-	-	-	Fst8SM2PwJCcdmJjlh	application/x-dosexec
+1329008663.649756	CLuo5s3HPrlxrezwga	192.168.25.10	1031	80.74.131.135	80	2	GET	hiklmos.com	/BackGrounds/000_Look02.gif	http://hiklmos.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	51896	200	OK	-	-	-	(empty)	-	-	-	-	-	FKZJ4qwuCSh7zggm3	image/gif
+1329008663.877195	CFAQSU3xQqRYHORWT8	192.168.25.10	1032	80.74.131.135	80	3	GET	hiklmos.com	/Web_images/bonhomme neige.gif	http://hiklmos.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	18958	200	OK	-	-	-	(empty)	-	-	-	-	-	FlHc4o3ySUotB4smif	image/gif
+1329008664.243078	CLuo5s3HPrlxrezwga	192.168.25.10	1031	80.74.131.135	80	3	GET	hiklmos.com	/Web_images/bonhomme neige1.gif	http://hiklmos.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5301	200	OK	-	-	-	(empty)	-	-	-	-	-	FXMLdZ3oC1uEZUboek	image/gif
+1329008664.251938	CFAQSU3xQqRYHORWT8	192.168.25.10	1032	80.74.131.135	80	4	GET	hiklmos.com	/BackGrounds/Look1.gif	http://hiklmos.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	977	200	OK	-	-	-	(empty)	-	-	-	-	-	FUzwnK33rQ1QALePV4	image/gif
+1329008664.373419	CLuo5s3HPrlxrezwga	192.168.25.10	1031	80.74.131.135	80	4	GET	hiklmos.com	/Rev-Cars/Azcar1.jpg	http://hiklmos.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	21037	200	OK	-	-	-	(empty)	-	-	-	-	-	FSay6R2AtOL5WJSx3b	image/jpeg
+1329008664.400856	CFAQSU3xQqRYHORWT8	192.168.25.10	1032	80.74.131.135	80	5	GET	hiklmos.com	/BackGrounds/Look2.gif	http://hiklmos.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	974	200	OK	-	-	-	(empty)	-	-	-	-	-	FtFPQx3kFBOZvm7223	image/gif
+1329008664.623953	CLuo5s3HPrlxrezwga	192.168.25.10	1031	80.74.131.135	80	5	GET	hiklmos.com	/Web_images/button15.jpg	http://hiklmos.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3025	200	OK	-	-	-	(empty)	-	-	-	-	-	FqJfyVRR2C9Jk2RRa	image/jpeg
+1329008664.632512	CFAQSU3xQqRYHORWT8	192.168.25.10	1032	80.74.131.135	80	6	GET	hiklmos.com	/BG_New/BgN_02.gif	http://hiklmos.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	167	200	OK	-	-	-	(empty)	-	-	-	-	-	FjXKEd15mV9Yg3FwSd	image/gif
+1329008664.957521	CLuo5s3HPrlxrezwga	192.168.25.10	1031	80.74.131.135	80	6	GET	hiklmos.com	/Web_images/button16.jpg	http://hiklmos.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2961	200	OK	-	-	-	(empty)	-	-	-	-	-	F4wPJS2vzq4uu3wv0h	image/jpeg
+1329008664.957936	CFAQSU3xQqRYHORWT8	192.168.25.10	1032	80.74.131.135	80	7	GET	hiklmos.com	/Web_images/button17.jpg	http://hiklmos.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2816	200	OK	-	-	-	(empty)	-	-	-	-	-	FjU1dp4TSfxJL3PL4l	image/jpeg
+#close	2014-04-03-10-00-39

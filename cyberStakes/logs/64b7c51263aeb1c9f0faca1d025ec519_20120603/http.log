@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-05-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1338714555.029003	CaXH5e17oKLuPB6pNd	192.168.122.10	1030	95.168.187.94	80	1	GET	aglex70.in	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1008	200	OK	-	-	-	(empty)	-	-	-	-	-	FFYIom2s2jhBzjYK7k	text/html
+1338714555.58042	CTDbmh248gECGEAMl	192.168.122.10	1031	95.168.187.95	80	1	GET	quatroe77.info	/source/index.php?showtopic=343072	http://aglex70.in/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	839	200	OK	-	-	-	(empty)	-	-	-	-	-	FEiswv1VLdeN9OfnB7	text/html
+1338714555.702658	CTDbmh248gECGEAMl	192.168.122.10	1031	95.168.187.95	80	2	GET	quatroe77.info	/source/detect/mm.js	http://quatroe77.info/source/index.php?showtopic=343072	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1950	200	OK	-	-	-	(empty)	-	-	-	-	-	FcyXIKNsoghulX9C1	text/plain
+1338714555.945995	CTDbmh248gECGEAMl	192.168.122.10	1031	95.168.187.95	80	3	GET	quatroe77.info	/source/getfile.php?i=3&key=8986e52df397cd8bb44c90c38cccc1b4	http://quatroe77.info/source/index.php?showtopic=343072	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4642	200	OK	-	-	-	(empty)	-	-	-	-	-	FbBBAj4Zcd4TNhuhH3	application/pdf
+1338714561.822985	CJu9VJnoFcjQO18Li	192.168.122.10	1036	95.168.187.95	80	1	GET	quatroe77.info	/source/getfile.php?i=4&key=9bd02b3ae1be5255f27d3edcd3f6dacf	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	15846	200	OK	-	-	-	(empty)	-	-	-	-	-	FLdQ382irOPaif3Yej	application/jar
+1338714562.833175	CP1jn92gLjlA16y258	192.168.122.10	1037	95.168.187.95	80	1	GET	quatroe77.info	/source/load.php?showforum=ato	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	256512	200	OK	-	-	-	(empty)	-	-	-	-	-	FX26Mk1WuixzkwyBBl	application/x-dosexec
+1338714566.955491	CJekBq4XW7F6CW1Pg	192.168.122.10	1038	95.170.88.77	80	1	POST	letaxserv15.in	/webstat79/file.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	122	174288	200	OK	-	-	-	(empty)	-	-	-	FzXwmw1g6jtLgIho57	binary	FVDPXD2eDLsB8WftJc	binary
+1338714566.95563	CbFiea37UMsIo6IAoa	192.168.122.10	1039	95.170.88.77	80	1	POST	letaxserv15.in	/webstat79/file.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	128	416030	200	OK	-	-	-	(empty)	-	-	-	FqQHJa2KbXZiSheW36	binary	FGykhQ8qOBqoLWwKj	binary
+1338714567.737541	CTDbmh248gECGEAMl	192.168.122.10	1031	95.168.187.95	80	4	GET	quatroe77.info	/source/load.php?showforum=lib	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	256512	200	OK	-	-	-	(empty)	-	-	-	-	-	FXcnC216CxCgXDfOo2	application/x-dosexec
+1338714568.586654	Cn9TYV3A5yjfavcZ53	192.168.122.10	1040	95.170.88.77	80	1	POST	letaxserv55.in	/webstat79/file.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	128	416030	200	OK	-	-	-	(empty)	-	-	-	F9WrKV37r9C7ZcSDK6	binary	FGNQYE4JdZkzNLh4Z	binary
+1338714595.690253	C4s4274rlNzSaH05A1	192.168.122.10	1042	74.125.137.99	80	1	GET	www.google.com	/webhp	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	23449	200	OK	-	-	-	(empty)	-	-	-	-	-	FHoPAr3ANulJnK95Gl	text/html
+1338714596.703925	CuJwgt3UiKOw0l1ljf	192.168.122.10	1043	95.170.88.77	80	1	POST	letaxserv93.in	/webstat79/info.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	342	64	200	OK	-	-	-	(empty)	-	-	-	FTsDU4241D6j20gkrc	binary	FL0qxk1Nxrm0SThhNe	binary
+1338714596.700711	CDs2ExR6WmRoDBSxk	192.168.122.10	1044	95.170.88.77	80	1	POST	letaxserv93.in	/webstat79/info.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	533	64	200	OK	-	-	-	(empty)	-	-	-	FHHuMX3b7S5bcHw87k	binary	FeaYpQ2oZyvuKOEJHg	binary
+#close	2014-04-03-11-05-33

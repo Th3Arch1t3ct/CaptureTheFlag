@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dpd
+#open	2014-04-03-10-30-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	analyzer	failure_reason
+#types	time	string	addr	port	addr	port	enum	string	string
+1386269566.127556	CWp4L140aV9QUe3au8	192.168.23.10	1041	135.19.251.130	35618	tcp	HTTP	not a http reply line
+1386269567.519996	Crq1eh1wwpBslC4cIl	192.168.23.10	1049	135.19.251.130	35618	tcp	HTTP	not a http reply line
+1386269569.265136	CYqg2l15WOFQ5318B3	192.168.23.10	1052	189.155.188.55	35618	tcp	HTTP	not a http reply line
+1386269570.924584	CV6Pn4GUJGlU1ek3g	192.168.23.10	1053	189.155.188.55	35618	tcp	HTTP	not a http reply line
+1386269591.463478	C4XDgT2GGDH0ATLG93	192.168.23.10	1055	189.155.188.55	35618	tcp	HTTP	not a http reply line
+1386269603.957417	C8j3OO18nI2sshnXKi	192.168.23.10	1063	98.211.210.226	35618	tcp	HTTP	not a http reply line
+1386269605.358764	CMu7Qo400wM13AZfpc	192.168.23.10	1064	98.211.210.226	35618	tcp	HTTP	not a http reply line
+1386269608.130244	CZxlhLP95Ilny95c7	192.168.23.10	1066	85.66.108.21	35618	tcp	HTTP	not a http reply line
+1386269609.556671	CuVDue2szhuZZvZxyg	192.168.23.10	1067	85.66.108.21	35618	tcp	HTTP	not a http reply line
+1386269612.977398	CfowKV2tNpoDQSp8a2	192.168.23.10	1069	85.66.108.21	35618	tcp	HTTP	not a http reply line
+#close	2014-04-03-10-30-30

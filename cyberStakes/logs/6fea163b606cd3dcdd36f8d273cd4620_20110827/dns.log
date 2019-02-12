@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-48-40
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1314437268.692369	C6vtt9pG1mCoMaKUg	192.168.76.10	1029	4.2.2.3	53	udp	10631	foraxpertinc.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.152.77.22	1775.000000	F
+1314437270.049996	C6vtt9pG1mCoMaKUg	192.168.76.10	1029	4.2.2.3	53	udp	62853	addserver.6degres.ca	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.152.77.13	1800.000000	F
+1314437271.170141	C6vtt9pG1mCoMaKUg	192.168.76.10	1029	4.2.2.3	53	udp	6530	wwwnove.dyndns-web.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	77.95.18.163	60.000000	F
+#close	2014-04-03-10-48-40

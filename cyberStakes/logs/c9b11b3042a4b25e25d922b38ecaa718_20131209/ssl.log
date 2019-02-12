@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-09-51-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1386628382.446459	Cqygse3QLgk1fK1JT7	192.168.78.10	1078	54.230.86.14	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.cloudfront.net,O=Amazon.com Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1366174800.000000	1461258000.000000	-	-	-	b416f6edd9ff31ac84fffffffff181af	ok
+1386628390.665896	CRIvfu3rbwTSmWkf9c	192.168.78.10	1120	74.125.224.176	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=www.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1384981847.000000	1395291600.000000	-	-	-	5a4cb235c4f2680ce37db689975454c2	ok
+1386628390.678299	C6QZqh4xIuZG90uqJi	192.168.78.10	1126	74.125.224.176	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=www.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1384981847.000000	1395291600.000000	-	-	-	5a4cb235c4f2680ce37db689975454c2	ok
+1386628392.29375	CkMqOo1tZlo5abZ8s7	192.168.78.10	1150	74.125.224.176	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	36f5ce7814e9bb80981fb56b36072b82967b6068c2af7970ad12c92824a44442	-	-	-	-	-	-	-	-	-
+1386628392.292577	CP5SA020Qs3z9HSV58	192.168.78.10	1147	74.125.224.176	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	36f5ce7814e9bb80981fb56b36072b82967b6068c2af7970ad12c92824a44442	-	-	-	-	-	-	-	-	-
+1386628392.292995	CrJ2YG2nRK1DqxYIWa	192.168.78.10	1148	74.125.224.134	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1384980191.000000	1395291600.000000	-	-	-	fb6e59d7958568d1e095ea8510415291	ok
+1386628392.293394	Cc6jZg3EgZe4yhmF5b	192.168.78.10	1149	74.125.224.134	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1384980191.000000	1395291600.000000	-	-	-	fb6e59d7958568d1e095ea8510415291	ok
+1386628392.360723	Cp3XMJ3QDbIOxq3KXl	192.168.78.10	1157	74.125.224.134	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	75cae599665b20e1b1a8477019cd97a703d801ec847d60cfb8ec794784a88a52	-	-	-	-	-	-	-	-	-
+1386628399.146189	Cm1fc91r9OFPnDX163	192.168.78.10	1206	207.171.185.200	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=s3.amazonaws.com,O=Amazon.com Inc.,L=Seattle,ST=Washington,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1378702800.000000	1410411599.000000	-	-	-	d650a5e1b1a77cb4e9db5a287ba6ac5b	ok
+1386628399.177405	CsZ0nH3lzYMpGL8usl	192.168.78.10	1209	23.74.130.110	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=s-static.ak.facebook.com,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,ST=California,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1363150837.000000	1394686837.000000	-	-	-	8072f767b362050ff6b5555555555554	ok
+1386628399.17611	CwO38rUZeP3cSKCC	192.168.78.10	1208	31.13.70.81	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.facebook.com,O=Facebook\, Inc.,L=Palo Alto,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1382936400.000000	1438837199.000000	-	-	-	8a2cdf3b44eeeeeeeeeeeeeeeeeeeeee	ok
+1386628399.145926	C6LO1w3UV1tHGL4vWk	192.168.78.10	1205	54.235.186.31	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.shareaholic.com,OU=Domain Control Validated - RapidSSL(R),OU=See www.rapidssl.com/resources/cps (c)13,OU=GT22928421,serialNumber=4LWxgT4zv1GSZybqNKQxppJw814E3eN1	CN=RapidSSL CA,O=GeoTrust\, Inc.,C=US	1382612991.000000	1416992079.000000	-	-	-	6432618fd005568dd84690fad607d846	ok
+1386628400.46194	Cz3n4T270TDrLyvyXe	192.168.78.10	1219	54.230.86.14	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	d772a43ff82d0dddcee43142e00778176ebbe30a5726710b762e2eb468d0d7ae	CN=*.cloudfront.net,O=Amazon.com Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1366174800.000000	1461258000.000000	-	-	-	b416f6edd9ff31ac84fffffffff181af	ok
+1386628415.298624	CtVw7R14RJFnAzR4Qb	192.168.78.10	1227	23.74.130.110	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	6d71f5a6994a025b9f29cf4b5fa45c7a5f6f731505aabe8047f47d465543061b	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-09-51-45

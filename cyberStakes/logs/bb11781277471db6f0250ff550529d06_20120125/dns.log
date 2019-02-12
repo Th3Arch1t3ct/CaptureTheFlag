@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-06-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1327528115.24372	CVjacL2zLvw2Oqqx1d	192.168.78.10	1029	4.2.2.3	53	udp	54414	armysurpluswarehouselexington.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.7.218.166	14379.000000	F
+1327528115.339953	CVjacL2zLvw2Oqqx1d	192.168.78.10	1029	4.2.2.3	53	udp	20622	webordermanager.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.124.198.1	3600.000000	F
+1327528115.499227	CVjacL2zLvw2Oqqx1d	192.168.78.10	1029	4.2.2.3	53	udp	27535	scripts.widgethost.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.133.95.85	17162.000000	F
+1327528115.551709	CVjacL2zLvw2Oqqx1d	192.168.78.10	1029	4.2.2.3	53	udp	4748	brainbin.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	203.170.193.102	3601.000000	F
+1327528116.893047	CVjacL2zLvw2Oqqx1d	192.168.78.10	1029	4.2.2.3	53	udp	18573	xhow.org.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.212.128.31	900.000000	F
+1327528121.614126	CVjacL2zLvw2Oqqx1d	192.168.78.10	1029	4.2.2.3	53	udp	61579	bober.net.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.212.128.31	900.000000	F
+#close	2014-04-03-11-06-30

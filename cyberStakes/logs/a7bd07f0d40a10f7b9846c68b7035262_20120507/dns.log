@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-33-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1336419607.199035	Cji4Mh19fu3W4QTG39	192.168.86.10	1029	4.2.2.3	53	udp	50572	cpv.servefeed.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.231.157.203	1776.000000	F
+1336419622.518836	CVw0JH6mQrC3l3rlf	192.168.86.10	1029	4.2.2.3	53	udp	55436	network.adsmarket.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.169.104.1	878.000000	F
+1336419622.776929	CVw0JH6mQrC3l3rlf	192.168.86.10	1029	4.2.2.3	53	udp	45197	install.freeappmart.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.150.14.66	30.000000	F
+1336419623.224431	CVw0JH6mQrC3l3rlf	192.168.86.10	1029	4.2.2.3	53	udp	43406	b.thetvpool.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.150.14.46	30.000000	F
+1336419623.479889	CVw0JH6mQrC3l3rlf	192.168.86.10	1029	4.2.2.3	53	udp	45710	s.thetvpool.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ics.hotbar.com.edgesuite.net,a1414.g.akamai.net,63.217.184.33,63.217.184.64	300.000000,11966.000000,20.000000,20.000000	F
+#close	2014-04-03-10-33-39

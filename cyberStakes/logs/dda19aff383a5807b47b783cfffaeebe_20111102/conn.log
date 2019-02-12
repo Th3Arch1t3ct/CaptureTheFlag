@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-41-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1320268564.482437	CR5CTM1jwSIZGc2Vkk	192.168.79.10	1030	62.129.129.64	80	tcp	http	0.414311	279	10882	SF	-	0	ShADadfF	9	647	11	11330	(empty)
+1320268564.818023	CYbFA44M2teGw5ufO4	192.168.79.10	1031	62.129.129.64	80	tcp	http	0.249314	313	228	SF	-	0	ShADadfF	5	521	5	436	(empty)
+1320268564.902801	CBy10c0Fqfi5ZVD0b	192.168.79.10	1032	62.129.129.64	80	tcp	http	0.228110	319	228	SF	-	0	ShADadfF	5	527	5	436	(empty)
+1320268565.070619	CNSNQg3xqmqsbmhDh7	192.168.79.10	1033	62.129.129.64	80	tcp	http	0.200227	231	509	SF	-	0	ShADadfF	5	439	5	717	(empty)
+1320268565.285819	C4t3aS1cC104CkpU33	192.168.79.10	1034	62.129.129.64	80	tcp	http	0.435450	232	8904	SF	-	0	ShADadfF	9	600	10	9312	(empty)
+1320268565.332807	C8dKEC3RSARnVU6TO6	192.168.79.10	1036	95.163.89.193	80	tcp	http	0.521889	347	429	SF	-	0	ShADadfF	5	555	5	637	(empty)
+1320268565.286339	CVeXyjF1slu86blel	192.168.79.10	1035	62.129.129.64	80	tcp	http	0.950636	238	201158	SF	-	0	ShADadfF	93	3966	142	206846	(empty)
+1320268569.759589	C80NXpk7hvUWSO8Fk	192.168.79.10	1042	213.123.52.133	80	tcp	http	2.907058	261	193924	SF	-	0	ShADadfF	91	3909	137	199412	(empty)
+1320268574.689241	CP69wy3A6zZKcDsoe6	192.168.79.10	1043	213.123.52.133	80	tcp	http	0.882619	288	235	RSTO	-	0	ShADadfR	5	496	4	403	(empty)
+1320268564.480244	C6B0Rj3Ewwy3cUB597	192.168.79.10	1029	4.2.2.3	53	udp	dns	5.277760	124	188	SF	-	0	Dd	4	236	4	300	(empty)
+1320268548.28238	CLm92Z3bzGuJWg94u5	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000727	626	0	S0	-	0	D	2	682	0	0	(empty)
+1320268548.282732	CIuchf1FNeE06jaFb	192.168.79.10	68	192.168.79.1	67	udp	dhcp	12.589341	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1320268566.571637	CHfwT53VkY1gXS3873	192.168.79.10	1040	239.255.255.250	1900	udp	-	6.135715	399	0	S0	-	0	D	3	483	0	0	(empty)
+1320268565.864914	CSScWi2ApiAlpzH8md	192.168.79.10	1037	213.123.52.133	80	tcp	http	67.612443	2180	114723	S3	-	0	ShADadf	60	4588	90	118331	(empty)
+#close	2014-04-03-10-41-18

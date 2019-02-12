@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-18-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1318565654.37642	CdadQz1cDvOnA2rNSc	192.168.26.10	1029	4.2.2.3	53	udp	54414	renovapneus.com.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.132.171.130	14379.000000	F
+1318565654.857712	CdadQz1cDvOnA2rNSc	192.168.26.10	1029	4.2.2.3	53	udp	59789	microgaftnoipfack.ce.ms	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.208.34.116	43200.000000	F
+1318565654.889254	CdadQz1cDvOnA2rNSc	192.168.26.10	1029	4.2.2.3	53	udp	40332	qerfhgkadhsfukhertgrpotgjpoidfg.ce.ms	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.219.29.139	43200.000000	F
+1318565655.340004	CdadQz1cDvOnA2rNSc	192.168.26.10	1029	4.2.2.3	53	udp	44683	iklrunqsv.org.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.123.52.133	900.000000	F
+#close	2014-04-03-10-18-07

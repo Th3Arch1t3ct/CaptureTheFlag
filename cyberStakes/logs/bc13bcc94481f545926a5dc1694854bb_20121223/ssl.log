@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-43-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1356291977.792338	Cri9U51iieyyKLErNj	192.168.45.10	1084	69.171.242.27	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.facebook.com,O=Facebook\, Inc.,L=Palo Alto,ST=California,C=US	OU=www.verisign.com/CPS Incorp.by Ref. LIABILITY LTD.(c)97 VeriSign,OU=VeriSign International Server CA - Class 3,OU=VeriSign\, Inc.,O=VeriSign Trust Network	1340254800.000000	1388555999.000000	-	-	-	f10b4102a78b5894231109d6d3fbeeb5	ok
+1356292005.379258	COyKdl1c0PdPplCak2	192.168.45.10	1240	205.251.72.170	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.ib-ibi.com,OU=IT,O=i-behavior Inc.,L=Louisville,ST=Colorado,C=US	CN=Thawte SSL CA,O=Thawte\, Inc.,C=US	1345438800.000000	1382245199.000000	-	-	-	2e70fc68a76303cc53991e9f88be694c	ok
+1356292006.148345	C9cN6D3GFiSrXHFHJh	192.168.45.10	1242	205.251.72.172	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=ib.mookie1.com,OU=IT,O=I-Behavior\, Inc,L=Louisville,ST=Colorado,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1334034000.000000	1373648400.000000	-	-	-	3567a18a090d67b8f2cb9ac062b99fdc	ok
+#close	2014-04-03-10-43-05

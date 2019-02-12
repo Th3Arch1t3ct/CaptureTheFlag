@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-49-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1331669867.443378	CSvJWz20qhWjELRPwg	192.168.1.10	1030	114.163.159.142	80	1	GET	a15wzd.lanarkpopham.ru	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1331669877.059789	CPv4BS3CarEJWSr0Q3	192.168.1.10	1035	64.150.166.50	80	1	GET	64.150.166.50	/showthread.php?t=72d268be707a5fb7	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	17758	200	OK	-	-	-	(empty)	-	-	-	-	-	FbcLcL1jJB6ZeKybfc	text/html
+1331669878.382992	CPv4BS3CarEJWSr0Q3	192.168.1.10	1035	64.150.166.50	80	2	GET	64.150.166.50	/q.php?f=d273a&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	273944	200	OK	-	-	-	(empty)	-	-	-	-	-	F20MrQSGzjXupXBrk	application/x-dosexec
+1331669880.120321	Ckkybr3ZavejorpDte	192.168.1.10	1036	64.150.166.50	80	1	GET	64.150.166.50	/content/field.swf	http://64.150.166.50/showthread.php?t=72d268be707a5fb7	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1557	200	OK	-	-	-	(empty)	-	-	-	-	-	FPefv62KjiZvDiidP4	application/x-shockwave-flash
+1331669889.636743	CXnBwQ24fecV7YosGb	192.168.1.10	1037	69.31.132.73	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1568	200	OK	-	-	-	(empty)	-	-	-	-	-	FKRQvi2vZG6krpnIwc	text/html
+1331669879.950174	CPv4BS3CarEJWSr0Q3	192.168.1.10	1035	64.150.166.50	80	3	GET	64.150.166.50	/content/ap2.php?f=d273a	http://64.150.166.50/showthread.php?t=72d268be707a5fb7	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	104528	200	OK	-	-	-	(empty)	-	-	-	-	-	FoAWsa4RNLKP4n9pO4	application/pdf
+1331669889.577827	Ckkybr3ZavejorpDte	192.168.1.10	1036	64.150.166.50	80	2	GET	64.150.166.50	/content/score.swf	http://64.150.166.50/content/field.swf	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6923	200	OK	-	-	-	(empty)	-	-	-	-	-	F8BNfx1Ac6vD0b0XB5	application/x-shockwave-flash
+#close	2014-04-03-09-49-56

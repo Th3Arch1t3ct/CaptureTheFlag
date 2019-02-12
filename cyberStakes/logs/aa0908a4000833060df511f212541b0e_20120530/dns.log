@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-53-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1338421248.966318	CDSndZ2ZtDVbjAJny	192.168.67.10	1029	4.2.2.3	53	udp	19855	zpstats.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.168.187.94	3574.000000	F
+1338421249.306976	CDSndZ2ZtDVbjAJny	192.168.67.10	1029	4.2.2.3	53	udp	62863	osifjff94.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	84.16.230.137	1800.000000	F
+1338421263.70573	CpTb7F1AujZhfPKGOg	192.168.67.10	1029	4.2.2.3	53	udp	28301	137.230.16.84.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	hosted-by.leaseweb.com	38390.000000	F
+1338421263.7081	CpTb7F1AujZhfPKGOg	192.168.67.10	1029	4.2.2.3	53	udp	50826	hosted-by.leaseweb.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	127.0.0.1	935.000000	F
+#close	2014-04-03-09-53-30

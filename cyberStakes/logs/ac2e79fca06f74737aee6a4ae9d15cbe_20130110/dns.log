@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-06-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1357778118.300877	CZkldd1ShNgjKUlHr2	192.168.42.10	1029	4.2.2.3	53	udp	44174	uasianannoyq.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.170.52.31,93.170.52.21	300.000000,300.000000	F
+1357778118.760059	CZkldd1ShNgjKUlHr2	192.168.42.10	1029	4.2.2.3	53	udp	51341	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.228.67,74.125.228.78,74.125.228.68,74.125.228.72,74.125.228.69,74.125.228.65,74.125.228.71,74.125.228.70,74.125.228.66,74.125.228.73,74.125.228.64	62097.000000,105.000000,105.000000,105.000000,105.000000,105.000000,105.000000,105.000000,105.000000,105.000000,105.000000,105.000000	F
+1357778118.778967	CZkldd1ShNgjKUlHr2	192.168.42.10	1029	4.2.2.3	53	udp	54156	bonv.kjtndsip.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	urlforward.topdns.com,72.8.167.249,199.59.160.184	3600.000000,3600.000000,3600.000000	F
+1357778119.230829	CZkldd1ShNgjKUlHr2	192.168.42.10	1029	4.2.2.3	53	udp	65419	fbstatic-a.akamaihd.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fbstatic-a.akamaihd.net.edgesuite.net,a1168.dsw4.akamai.net,72.164.253.11,72.164.252.251	137.000000,299.000000,0.000000,0.000000	F
+#close	2014-04-03-10-06-49

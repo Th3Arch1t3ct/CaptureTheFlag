@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-09-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1356004336.299815	Cn9QuX29nltoLXcLoi	192.168.42.10	1029	4.2.2.3	53	udp	35475	sevhd.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.170.52.21,93.170.52.31	300.000000,300.000000	F
+1356004336.837734	Cn9QuX29nltoLXcLoi	192.168.42.10	1029	4.2.2.3	53	udp	37778	pyic.khjvgsg.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	urlforward.topdns.com,72.8.167.249,199.59.160.184	3575.000000,3577.000000,3577.000000	F
+1356004336.96359	Cn9QuX29nltoLXcLoi	192.168.42.10	1029	4.2.2.3	53	udp	30352	fb.pl.ua	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fw.ukrnames.com,195.64.155.34	10.000000,1.000000	F
+1356004337.795534	Cn9QuX29nltoLXcLoi	192.168.42.10	1029	4.2.2.3	53	udp	63632	reaves.makewap.kz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	makewap.kz,195.3.143.42	21600.000000,21600.000000	F
+1356004338.590918	Cn9QuX29nltoLXcLoi	192.168.42.10	1029	4.2.2.3	53	udp	15254	reaves.makewap.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	makewap.ru,195.3.143.42	21599.000000,21600.000000	F
+1356004340.771042	Cn9QuX29nltoLXcLoi	192.168.42.10	1029	4.2.2.3	53	udp	19605	fbstatic-a.akamaihd.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fbstatic-a.akamaihd.net.edgesuite.net,a1168.dsw4.akamai.net,208.46.17.169,208.46.17.171,208.46.17.19,208.46.17.43,208.46.17.50	287.000000,242.000000,4.000000,4.000000,4.000000,4.000000,4.000000	F
+1356004340.774283	Cn9QuX29nltoLXcLoi	192.168.42.10	1029	4.2.2.3	53	udp	62868	makewap.kz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.3.143.42	21598.000000	F
+1356004340.772486	CwxlPC4oRE2nSlVuXb	192.168.42.10	1040	4.2.2.3	53	udp	48789	c.waplog.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.218.209.2	1800.000000	F
+1356004340.794016	Cn9QuX29nltoLXcLoi	192.168.42.10	1029	4.2.2.3	53	udp	9115	wapstatistic.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.243.66.77	3600.000000	F
+#close	2014-04-03-11-09-33

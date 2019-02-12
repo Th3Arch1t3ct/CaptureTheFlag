@@ -1,0 +1,54 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-24-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1328736438.695959	Czb3t13WuiLTOj3BYa	192.168.86.10	1030	4.2.2.3	53	udp	23437	metalbox.cl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.51.142.146	14385.000000	F
+1328736438.74637	Czb3t13WuiLTOj3BYa	192.168.86.10	1030	4.2.2.3	53	udp	22156	sexfunxcash.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.190.98.79	3600.000000	F
+1328736454.25171	Czb3t13WuiLTOj3BYa	192.168.86.10	1030	4.2.2.3	53	udp	55689	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.132.73,69.31.132.27	5525.000000,52.000000,12384.000000,5.000000,5.000000	F
+1328736438.786851	Czb3t13WuiLTOj3BYa	192.168.86.10	1030	4.2.2.3	53	udp	24975	ohioswingersbus.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736440.934263	Czb3t13WuiLTOj3BYa	192.168.86.10	1030	4.2.2.3	53	udp	24975	ohioswingersbus.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736442.954157	Czb3t13WuiLTOj3BYa	192.168.86.10	1030	4.2.2.3	53	udp	24975	ohioswingersbus.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736447.047406	Czb3t13WuiLTOj3BYa	192.168.86.10	1030	4.2.2.3	53	udp	24975	ohioswingersbus.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736438.786851	Czb3t13WuiLTOj3BYa	192.168.86.10	1030	4.2.2.3	53	udp	24975	ohioswingersbus.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736440.934263	Czb3t13WuiLTOj3BYa	192.168.86.10	1030	4.2.2.3	53	udp	24975	ohioswingersbus.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736442.954157	Czb3t13WuiLTOj3BYa	192.168.86.10	1030	4.2.2.3	53	udp	24975	ohioswingersbus.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736447.047406	Czb3t13WuiLTOj3BYa	192.168.86.10	1030	4.2.2.3	53	udp	24975	ohioswingersbus.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736438.786851	Czb3t13WuiLTOj3BYa	192.168.86.10	1030	4.2.2.3	53	udp	24975	ohioswingersbus.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736440.934263	Czb3t13WuiLTOj3BYa	192.168.86.10	1030	4.2.2.3	53	udp	24975	ohioswingersbus.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736442.954157	Czb3t13WuiLTOj3BYa	192.168.86.10	1030	4.2.2.3	53	udp	24975	ohioswingersbus.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736447.047406	Czb3t13WuiLTOj3BYa	192.168.86.10	1030	4.2.2.3	53	udp	24975	ohioswingersbus.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736438.786851	Czb3t13WuiLTOj3BYa	192.168.86.10	1030	4.2.2.3	53	udp	24975	ohioswingersbus.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736440.934263	Czb3t13WuiLTOj3BYa	192.168.86.10	1030	4.2.2.3	53	udp	24975	ohioswingersbus.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736442.954157	Czb3t13WuiLTOj3BYa	192.168.86.10	1030	4.2.2.3	53	udp	24975	ohioswingersbus.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736447.047406	Czb3t13WuiLTOj3BYa	192.168.86.10	1030	4.2.2.3	53	udp	24975	ohioswingersbus.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736439.782023	CUVlNl4wzIRlFY302i	192.168.86.10	1030	4.2.2.5	53	udp	24975	ohioswingersbus.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736442.954339	CUVlNl4wzIRlFY302i	192.168.86.10	1030	4.2.2.5	53	udp	24975	ohioswingersbus.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736447.047586	CUVlNl4wzIRlFY302i	192.168.86.10	1030	4.2.2.5	53	udp	24975	ohioswingersbus.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736469.784035	CBYq1J2iBw1T6yLNHe	192.168.86.10	1030	4.2.2.5	53	udp	24975	-	-	-	-	-	2	SERVFAIL	F	F	F	F	0	-	-	T
+1328736478.642375	CBYq1J2iBw1T6yLNHe	192.168.86.10	1030	4.2.2.5	53	udp	17288	usagetorrenen.com	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1328736480.703662	CBYq1J2iBw1T6yLNHe	192.168.86.10	1030	4.2.2.5	53	udp	17288	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736484.815428	CBYq1J2iBw1T6yLNHe	192.168.86.10	1030	4.2.2.5	53	udp	17288	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736512.62859	CBYq1J2iBw1T6yLNHe	192.168.86.10	1030	4.2.2.5	53	udp	25221	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736514.656951	CBYq1J2iBw1T6yLNHe	192.168.86.10	1030	4.2.2.5	53	udp	25221	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736516.672589	CBYq1J2iBw1T6yLNHe	192.168.86.10	1030	4.2.2.5	53	udp	25221	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736491.894225	CBYq1J2iBw1T6yLNHe	192.168.86.10	1030	4.2.2.5	53	udp	64138	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736493.892816	CBYq1J2iBw1T6yLNHe	192.168.86.10	1030	4.2.2.5	53	udp	64138	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736495.907419	CBYq1J2iBw1T6yLNHe	192.168.86.10	1030	4.2.2.5	53	udp	64138	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736500.029134	CBYq1J2iBw1T6yLNHe	192.168.86.10	1030	4.2.2.5	53	udp	64138	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736476.610854	CaZ7V42CyrocT9Gdsc	192.168.86.10	1030	4.2.2.3	53	udp	17288	usagetorrenen.com	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1328736477.626561	CaZ7V42CyrocT9Gdsc	192.168.86.10	1030	4.2.2.3	53	udp	17288	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736480.703508	CaZ7V42CyrocT9Gdsc	192.168.86.10	1030	4.2.2.3	53	udp	17288	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736484.81461	CaZ7V42CyrocT9Gdsc	192.168.86.10	1030	4.2.2.3	53	udp	17288	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736513.642829	CaZ7V42CyrocT9Gdsc	192.168.86.10	1030	4.2.2.3	53	udp	25221	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736516.67244	CaZ7V42CyrocT9Gdsc	192.168.86.10	1030	4.2.2.3	53	udp	25221	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736480.703508	CaZ7V42CyrocT9Gdsc	192.168.86.10	1030	4.2.2.3	53	udp	17288	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736484.81461	CaZ7V42CyrocT9Gdsc	192.168.86.10	1030	4.2.2.3	53	udp	17288	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736492.891004	CaZ7V42CyrocT9Gdsc	192.168.86.10	1030	4.2.2.3	53	udp	64138	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736495.907234	CaZ7V42CyrocT9Gdsc	192.168.86.10	1030	4.2.2.3	53	udp	64138	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736500.028971	CaZ7V42CyrocT9Gdsc	192.168.86.10	1030	4.2.2.3	53	udp	64138	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328736484.81461	CaZ7V42CyrocT9Gdsc	192.168.86.10	1030	4.2.2.3	53	udp	17288	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-24-33

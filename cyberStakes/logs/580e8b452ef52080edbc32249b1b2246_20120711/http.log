@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-55-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1342028418.577699	CVnE231jWR7kPtGac9	192.168.65.10	1030	66.228.50.168	80	1	GET	stagefotoyvideo.com.ar	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2080	200	OK	-	-	-	(empty)	-	-	-	-	-	FZydWr2y8YV46JlLz9	text/html
+1342028418.948559	Cl2GW51cU8JBUl0Kdh	192.168.65.10	1032	62.149.15.143	80	1	GET	baffalo.biz	/	http://stagefotoyvideo.com.ar/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1342028418.74726	CVnE231jWR7kPtGac9	192.168.65.10	1030	66.228.50.168	80	2	GET	stagefotoyvideo.com.ar	/intro.swf	http://stagefotoyvideo.com.ar/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	542098	200	OK	-	-	-	(empty)	-	-	-	-	-	FcaeYl26No4bHmb1z2	application/x-shockwave-flash
+1342028419.483774	C0vIZM29el08zrQ8Gd	192.168.65.10	1034	95.168.173.91	80	1	GET	akeyboard.info	/	http://stagefotoyvideo.com.ar/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	18294	200	OK	-	-	-	(empty)	-	-	-	-	-	F4CyTH1B945EWjjX1	text/html
+1342028423.880398	COpEig102xB7S31IJ1	192.168.65.10	1040	37.59.198.62	80	1	GET	nopearth.info	/?ba784cd000231fbcb399827eece58508=21&f79de0eab0f3b944384063214d43a70a=unprgalati.ro&828054b1ed952978a934dc963c45c1e3	http://stagefotoyvideo.com.ar/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	608	200	OK	-	-	-	(empty)	-	-	-	-	-	FMuBMq41TJ42a7iFId	text/html
+1342028425.989745	CViVIY1oa2nlbDRol5	192.168.65.10	1041	37.59.198.62	80	1	GET	nopearth.info	/?5a558d4370129b3aa269574886289578	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18534	200	OK	-	-	-	(empty)	-	-	-	-	-	FNs6wV3kmi0YnYDUE6	application/jar
+1342028426.442472	CQtqWh1aM0TqsLpuW1	192.168.65.10	1042	37.59.198.62	80	1	GET	nopearth.info	/?5a558d4370129b3aa269574886289578	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18534	200	OK	-	-	-	(empty)	-	-	-	-	-	Fl1QUy4rTz3xoEHFj4	application/jar
+1342028426.952249	CBX1v12x70D2sIOSxd	192.168.65.10	1043	37.59.198.62	80	1	GET	nopearth.info	/?5a558d4370129b3aa269574886289578	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18534	200	OK	-	-	-	(empty)	-	-	-	-	-	FrG7wq0O1quLh1EG7	application/jar
+1342028432.61232	CFSN0d4XHiatSnaiyf	192.168.65.10	1044	37.59.198.62	80	1	GET	nopearth.info	/?5a558d4370129b3aa269574886289578	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18534	200	OK	-	-	-	(empty)	-	-	-	-	-	F0s7O03j5NeZOjfF54	application/jar
+1342028433.075327	Co8OLK3lfvGy7UOnYh	192.168.65.10	1045	37.59.198.62	80	1	GET	nopearth.info	/?58a200c6bedf596ac76fd8cf7e567a65	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	43136	200	OK	-	-	-	(empty)	-	-	-	-	-	FhzeTT1sPPRBfz6mAa	application/x-dosexec
+1342028433.710065	CRIGn63bfo5ntbwirl	192.168.65.10	1046	37.59.198.62	80	1	GET	nopearth.info	/?82b113975263f6275c46ad1cb0de463d	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	51519	200	OK	-	-	-	(empty)	-	-	-	-	-	FrYJM33qgqaw8yjpUd	application/x-dosexec
+1342028434.605197	CCTP6n2oIZZ7FWn9R9	192.168.65.10	1047	37.59.198.62	80	1	GET	nopearth.info	/?c6b9aadb4033452c73b9dac7596aac78	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	68817	200	OK	-	-	-	(empty)	-	-	-	-	-	F3jJxx2T1NcciVDXOf	application/x-dosexec
+1342028435.455793	CkvWsc2y9RNS5W4K7	192.168.65.10	1048	37.59.198.62	80	1	GET	nopearth.info	/?e16f1b14ae594a5fb80960019b67c884	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	369664	200	OK	-	-	-	(empty)	-	-	-	-	-	FlgdNk37fvexTrRJFj	application/x-dosexec
+1342028466.518954	C5Gdqb2F06DxOITib3	192.168.65.10	1053	72.64.146.71	80	1	GET	1.gc.1e400.net	/?net=gnutella2&get=1&client=RAZA2.5.0.0	-	Shareaza	0	1279	200	OK	-	-	-	(empty)	-	-	-	-	-	F8B5D4A0ccJWXmf3h	text/plain
+1342028467.634069	Cq1HAP3AQey1attz7b	192.168.65.10	1058	89.144.61.139	80	1	GET	89.144.61.139	/data.html	-	Mozilla/5.0 (Windows NT 5.1; rv:10.0.2) Gecko/20100101 Firefox/10.0.2	0	7	200	OK	-	-	-	(empty)	-	-	-	-	-	F3m4Uj1j3RMhYogGYe	text/plain
+#close	2014-04-03-09-55-51

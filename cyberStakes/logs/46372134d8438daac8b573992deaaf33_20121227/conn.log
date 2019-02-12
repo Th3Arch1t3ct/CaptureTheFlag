@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-01-03
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1356638875.716907	CyYNBo3aaKxnmEKDm6	192.168.68.10	1030	93.170.52.31	80	tcp	http	0.299109	287	1419	SF	-	0	ShADadfF	5	495	5	1623	(empty)
+1356638878.816649	CyITmd4VcimEClcyA3	192.168.68.10	1042	195.3.143.42	80	tcp	http	0.198927	276	0	RSTO	-	0	ShADR	4	444	1	48	(empty)
+1356638878.781369	C77W0q3hl2BJlSDaJ	192.168.68.10	1039	208.131.138.217	80	tcp	http	0.279385	366	33982	RSTO	-	0	ShADadR	24	1334	26	35030	(empty)
+1356638879.226175	CzjF8B4jLAOtvNqkl6	192.168.68.10	1043	178.218.209.2	80	tcp	-	0.147103	0	0	REJ	-	0	Sr	1	48	1	40	(empty)
+1356638879.308098	C8a12Q2RTtennPGci7	192.168.68.10	1044	92.243.66.77	80	tcp	-	0.134501	0	0	RSTO	-	0	ShR	2	88	1	48	(empty)
+1356638875.619243	CXPXG03IQ9aO3q1ze9	192.168.68.10	1029	4.2.2.3	53	udp	dns	3.684012	290	807	SF	-	0	Dd	8	514	8	1031	(empty)
+1356638878.787661	Ceh7a04dy42M0eZ2Q1	192.168.68.10	1040	4.2.2.3	53	udp	dns	0.437801	30	46	SF	-	0	Dd	1	58	1	74	(empty)
+1356638876.610355	CQcJZr2ulCvGqeuhJ4	192.168.68.10	1032	195.64.155.34	80	tcp	http	32.921763	326	369	RSTO	-	0	ShADadfR	6	574	4	537	(empty)
+1356638859.385271	CRLwLY3CkrOYPi5GW1	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000762	626	0	S0	-	0	D	2	682	0	0	(empty)
+1356638859.385648	CmtXQA3aSIJGH81Maa	192.168.68.10	68	192.168.68.1	67	udp	dhcp	12.978288	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1356638878.258207	C4XSm43vMF3OSmEpX8	192.168.68.10	1038	195.3.143.42	80	tcp	http	61.727276	358	504	RSTO	-	0	ShADadR	5	566	3	632	(empty)
+1356638877.502022	CTP46d4klmFRmOTJB3	192.168.68.10	1033	195.3.143.42	80	tcp	http	62.483755	691	2505	RSTO	-	0	ShADadR	7	979	6	2753	(empty)
+1356638876.040989	CjWYuN288WPGEp3au7	192.168.68.10	1031	74.125.227.96	80	tcp	http	63.945075	889	15699	RSTO	-	0	ShADadR	14	1457	14	16267	(empty)
+1356638878.795549	CB5lwE3N3R3sbpJrx4	192.168.68.10	1041	24.143.197.51	80	tcp	http	61.189533	309	2726	RSTO	-	0	ShADadR	5	517	4	2894	(empty)
+1356638878.119686	Cqk3By4VEbwWnOGg4a	192.168.68.10	1036	239.255.255.250	1900	udp	-	6.115819	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-10-01-03

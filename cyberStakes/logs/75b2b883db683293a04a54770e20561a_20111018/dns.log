@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-52-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1318961984.568779	Ck3YQ62JRgimtJb3G4	192.168.120.10	1029	4.2.2.3	53	udp	23437	www.haus-im-bauhaus-stil.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	80.237.133.28	43182.000000	F
+1318961985.37307	Ck3YQ62JRgimtJb3G4	192.168.120.10	1029	4.2.2.3	53	udp	16015	fonts.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.65.95	1592.000000,95.000000	F
+1318961985.425122	Ck3YQ62JRgimtJb3G4	192.168.120.10	1029	4.2.2.3	53	udp	31375	themes.googleusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlehosted.l.googleusercontent.com,74.125.45.132	6672.000000,261.000000	F
+1318961987.30005	Ck3YQ62JRgimtJb3G4	192.168.120.10	1029	4.2.2.3	53	udp	5769	w.sharethis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	w.sharethis.com.edgesuite.net,a335.b.akamai.net,24.143.197.82,24.143.197.59	6217.000000,7324.000000,20.000000,20.000000	F
+1318961987.35894	Ck3YQ62JRgimtJb3G4	192.168.120.10	1029	4.2.2.3	53	udp	49803	wd-edge.sharethis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wd-edge.edgesuite.net,a1768.g.akamai.net,69.31.16.123,69.31.16.186	6318.000000,10335.000000,1.000000,1.000000	F
+1318961998.329363	Ck3YQ62JRgimtJb3G4	192.168.120.10	1029	4.2.2.3	53	udp	44170	ad.row.name	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.201.33	43200.000000	F
+1318961998.701809	Ck3YQ62JRgimtJb3G4	192.168.120.10	1029	4.2.2.3	53	udp	6282	s19.uk.tc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.228.132.56	3600.000000	F
+#close	2014-04-03-10-52-09

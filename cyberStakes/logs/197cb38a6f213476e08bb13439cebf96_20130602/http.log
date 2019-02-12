@@ -1,0 +1,28 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-57-51
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1370174039.968008	CKHVyn3JJsu3Rpt3We	192.168.93.10	1030	70.97.116.66	80	1	GET	secure.spheremd.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3229	200	OK	-	-	-	(empty)	-	-	-	-	-	F8EHtT3iKJEPhP04i7	text/html
+1370174040.499556	CKHVyn3JJsu3Rpt3We	192.168.93.10	1030	70.97.116.66	80	2	GET	secure.spheremd.com	/webcamera.html	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6176	200	OK	-	-	-	(empty)	-	-	-	-	-	Fcnohb1Nx52TrJzIuf	text/html
+1370174040.703023	CTlYzj3XY6EQNNTPGj	192.168.93.10	1031	70.97.116.66	80	1	GET	secure.spheremd.com	/server.js	http://secure.spheremd.com/webcamera.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	25	200	OK	-	-	-	(empty)	-	-	-	-	-	Fx7kWU2DmUbqFYCPB5	text/plain
+1370174041.818742	CKHVyn3JJsu3Rpt3We	192.168.93.10	1030	70.97.116.66	80	3	GET	secure.spheremd.com	/script/protocol.js	http://secure.spheremd.com/webcamera.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	24081	200	OK	-	-	-	(empty)	-	-	-	-	-	F66X8i11eEnQgMbTI4	text/plain
+1370174042.160914	CTlYzj3XY6EQNNTPGj	192.168.93.10	1031	70.97.116.66	80	2	GET	secure.spheremd.com	/script/main.js	http://secure.spheremd.com/webcamera.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	17940	200	OK	-	-	-	(empty)	-	-	-	-	-	F87kGNMBgFZ0Ih3ea	text/plain
+1370174042.43491	CKHVyn3JJsu3Rpt3We	192.168.93.10	1030	70.97.116.66	80	4	GET	secure.spheremd.com	/script/login.js	http://secure.spheremd.com/webcamera.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	8717	200	OK	-	-	-	(empty)	-	-	-	-	-	FMa02T1bcycs7l6sie	text/plain
+1370174042.627157	CTlYzj3XY6EQNNTPGj	192.168.93.10	1031	70.97.116.66	80	3	GET	secure.spheremd.com	/script/flush_string.js	http://secure.spheremd.com/webcamera.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	867	200	OK	-	-	-	(empty)	-	-	-	-	-	FHR5Ey3EK129qBbWp	text/plain
+1370174043.033423	CKHVyn3JJsu3Rpt3We	192.168.93.10	1030	70.97.116.66	80	5	GET	secure.spheremd.com	/script/Load_WebKit.js	http://secure.spheremd.com/webcamera.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	872	200	OK	-	-	-	(empty)	-	-	-	-	-	FCIU9s3nJAep6XSUMg	text/plain
+1370174043.346879	CTlYzj3XY6EQNNTPGj	192.168.93.10	1031	70.97.116.66	80	4	GET	secure.spheremd.com	/logo/logo.js	http://secure.spheremd.com/webcamera.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	92	200	OK	-	-	-	(empty)	-	-	-	-	-	F8gpCp4WQAdaxXe4Od	text/plain
+1370174043.689615	CKHVyn3JJsu3Rpt3We	192.168.93.10	1030	70.97.116.66	80	6	GET	secure.spheremd.com	/css_style/uistyle.js	http://secure.spheremd.com/webcamera.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2174	200	OK	-	-	-	(empty)	-	-	-	-	-	FBg091upkd17Pywyf	text/plain
+1370174043.93868	CTlYzj3XY6EQNNTPGj	192.168.93.10	1031	70.97.116.66	80	5	GET	secure.spheremd.com	/script/ctrl_multi_edit.js	http://secure.spheremd.com/webcamera.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5619	200	OK	-	-	-	(empty)	-	-	-	-	-	FRiENt4bK68JxBXoVe	text/plain
+1370174044.143393	CKHVyn3JJsu3Rpt3We	192.168.93.10	1030	70.97.116.66	80	7	GET	secure.spheremd.com	/css_style/mystyle.css	http://secure.spheremd.com/webcamera.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5004	200	OK	-	-	-	(empty)	-	-	-	-	-	FPjpe2KXCqLmMMN3h	text/plain
+1370174044.143891	CTlYzj3XY6EQNNTPGj	192.168.93.10	1031	70.97.116.66	80	6	GET	secure.spheremd.com	/css_style/navigation.css	http://secure.spheremd.com/webcamera.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	17505	200	OK	-	-	-	(empty)	-	-	-	-	-	Fp3VIz33r2AEiLimCg	text/plain
+1370174044.346336	CKHVyn3JJsu3Rpt3We	192.168.93.10	1030	70.97.116.66	80	8	GET	secure.spheremd.com	/css_style/uistyle.css	http://secure.spheremd.com/webcamera.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7763	200	OK	-	-	-	(empty)	-	-	-	-	-	FaEaTv3y8Zb0DlNni6	text/plain
+1370174044.361969	CTlYzj3XY6EQNNTPGj	192.168.93.10	1031	70.97.116.66	80	7	GET	secure.spheremd.com	/res/wait.gif	http://secure.spheremd.com/webcamera.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3097	200	OK	-	-	-	(empty)	-	-	-	-	-	FB0EwK3VvD6hmJJhHb	image/gif
+1370174044.556861	CKHVyn3JJsu3Rpt3We	192.168.93.10	1030	70.97.116.66	80	9	GET	secure.spheremd.com	/WebClient.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	908664	200	OK	-	-	-	(empty)	-	-	-	-	-	F6YtJD1veF71toZgd4	application/x-dosexec
+1370174044.564117	CTlYzj3XY6EQNNTPGj	192.168.93.10	1031	70.97.116.66	80	8	GET	secure.spheremd.com	/res/bg.png	http://secure.spheremd.com/webcamera.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	851	200	OK	-	-	-	(empty)	-	-	-	-	-	FBi2J81Ievcve0Swgi	image/png
+1370174046.447004	CuPBAq18FOhtYqBqB2	192.168.93.10	1036	108.162.232.4	80	1	GET	crl.globalsign.net	/root.crl	-	Microsoft-CryptoAPI/5.131.2600.2180	0	469	200	OK	-	-	-	(empty)	-	-	-	-	-	FLRgJZDX119Dwq4s6	binary
+1370174046.491862	CabSx7PEodRsRPhN6	192.168.93.10	1037	108.162.232.8	80	1	GET	crl.globalsign.com	/gs/gscodesigng2.crl	-	Microsoft-CryptoAPI/5.131.2600.2180	0	2912	200	OK	-	-	-	(empty)	-	-	-	-	-	FftbHkXMZmU5te5Y9	binary
+#close	2014-04-03-09-57-51

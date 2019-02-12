@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-57-42
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1355614056.902388	CVPUkB2gNKavhB2k2e	192.168.10.10	1029	4.2.2.3	53	udp	54414	4s.downtango.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	149.13.65.188,149.13.65.189	572.000000,572.000000	F
+1355614057.162677	CVPUkB2gNKavhB2k2e	192.168.10.10	1029	4.2.2.3	53	udp	36750	code.jquery.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wac.1257.edgecastcdn.net,neb1.wac.v2cdn.net,93.184.216.119	587133.000000,2082.000000,1878.000000	F
+1355614057.68291	CVPUkB2gNKavhB2k2e	192.168.10.10	1029	4.2.2.3	53	udp	25998	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.229.169,74.125.229.161,74.125.229.162,74.125.229.160,74.125.229.165,74.125.229.166,74.125.229.174,74.125.229.163,74.125.229.168,74.125.229.167,74.125.229.164	65781.000000,106.000000,106.000000,106.000000,106.000000,106.000000,106.000000,106.000000,106.000000,106.000000,106.000000,106.000000	F
+1355614064.894844	CVPUkB2gNKavhB2k2e	192.168.10.10	1029	4.2.2.3	53	udp	16013	dn.download-files.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.9.9.44,5.9.105.2,5.9.121.45,5.9.104.20,5.9.121.44,5.9.88.142,5.9.104.18,5.9.104.22,5.9.104.21,5.9.55.137,5.9.95.204,176.9.92.131,5.9.121.47,5.9.104.23	600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000	F
+#close	2014-04-03-10-57-42

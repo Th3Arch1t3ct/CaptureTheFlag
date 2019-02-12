@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-07-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1332904801.346734	CAOibxknscsbuCYG6	192.168.21.10	1041	92.243.24.137	80	FFxjG93B61lG7mlfB6	application/x-dosexec	http://traffic-hits956.info/lol/load.php?spl=mdac&b=ie&o=xp&i=mdac	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2012-04-01 20:05:50	https://www.virustotal.com/en/search/?query=87ca346c27c15136180f66c3f844afbcc5550a71	192.168.21.10	92.243.24.137	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1332904809.505991	CoU5RzUavrpPGDFN	192.168.21.10	1053	92.243.24.137	80	FZfCcIVaiHHjcawz6	application/jar	http://traffic-hits956.info/lol/2.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 14%  Last seen: 2012-03-29 04:01:09	https://www.virustotal.com/en/search/?query=27e5f3f915cb1b0b868f106c620e345f02f66374	192.168.21.10	92.243.24.137	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1332904816.973052	CfYNFc1Hi3fCyYoct7	192.168.21.10	1055	92.243.24.137	80	F2g6ux28Cg1XzJiWX2	application/x-dosexec	http://traffic-hits956.info/lol/load.php?spl=atomic&b=ie&o=xp&i=atomic	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2012-04-01 20:05:50	https://www.virustotal.com/en/search/?query=87ca346c27c15136180f66c3f844afbcc5550a71	192.168.21.10	92.243.24.137	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1332904817.182244	C8X8wu851QCu9JPV5	192.168.21.10	1056	92.243.24.137	80	FIditi36VpqLtH0nmk	application/x-dosexec	http://traffic-hits956.info/lol/load.php?spl=rhino&b=ie&o=xp&i=rhino	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2012-04-01 20:05:50	https://www.virustotal.com/en/search/?query=87ca346c27c15136180f66c3f844afbcc5550a71	192.168.21.10	92.243.24.137	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-07-37

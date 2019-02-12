@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-12-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1331252441.685755	CyPdF33MXU4gMlFbai	192.168.117.10	1029	4.2.2.3	53	udp	51351	bankruptcyattorneyorlando-fl.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.90.50.232	14376.000000	F
+1331252441.800728	CyPdF33MXU4gMlFbai	192.168.117.10	1029	4.2.2.3	53	udp	2197	www.bankruptcyattorneyorlando-fl.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.90.50.232	14377.000000	F
+1331252444.381904	CyPdF33MXU4gMlFbai	192.168.117.10	1029	4.2.2.3	53	udp	24468	www.hogan4u.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.113.249.197	14400.000000	F
+1331252444.388611	CeMxjq2IgwjhZUAcpl	192.168.117.10	1037	4.2.2.3	53	udp	55188	sweepstakesandcontestsdo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.28.114.103	43200.000000	F
+1331252445.141856	CyPdF33MXU4gMlFbai	192.168.117.10	1029	4.2.2.3	53	udp	9362	tirela54tingas.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.28.114.103	21600.000000	F
+1331252445.50279	CyPdF33MXU4gMlFbai	192.168.117.10	1029	4.2.2.3	53	udp	59538	www3.personal-lantivir.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.157.82.19	14836.000000	F
+1331252445.84348	CyPdF33MXU4gMlFbai	192.168.117.10	1029	4.2.2.3	53	udp	3473	www1.safekunetwork.net.tf	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.23.8.121	3600.000000	F
+1331252472.855222	CC96RA2pUCHibzdxol	192.168.117.10	1029	4.2.2.3	53	udp	17552	www2.personalarmyops.25u.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.142.217	31.000000	F
+1331252477.077404	CC96RA2pUCHibzdxol	192.168.117.10	1029	4.2.2.3	53	udp	35743	www2.powersn-soft.net.tf	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.137.131	3600.000000	F
+1331252508.914276	C0A9uLZHc8W06my7	192.168.117.10	1029	80.90.43.19	53	udp	45982	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	208.117.45.135	86400.000000	F
+#close	2014-04-03-10-12-22

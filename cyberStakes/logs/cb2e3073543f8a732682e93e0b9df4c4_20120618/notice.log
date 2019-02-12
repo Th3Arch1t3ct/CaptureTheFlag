@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-52-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1340048652.330698	CPrXPv44Y3AUZiCcP5	192.168.10.10	1074	178.239.62.11	80	FZPfzm12W8meR1hR5e	application/x-shockwave-flash	http://vvvv.bodysportbrazil.com/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 75%  Last seen: 2012-09-14 14:05:04	https://www.virustotal.com/en/search/?query=27474f210893b69a5204dcafb6d9fc12b743dc1f	192.168.10.10	178.239.62.11	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1340048652.401145	CxyPzZ1ua5vPmoV3Ec	192.168.10.10	1068	178.239.62.11	80	FgX6r5anpopmymRcc	application/x-dosexec	http://vvvv.bodysportbrazil.com/w.php?f=97d19&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2012-06-19 17:52:17	https://www.virustotal.com/en/search/?query=bed2a240276d08df58fb4fc9db1fa4d4383f5a2b	192.168.10.10	178.239.62.11	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-52-06

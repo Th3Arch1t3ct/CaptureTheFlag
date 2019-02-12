@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-09-27
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1375396284.406959	CXI3RBQw25H6MzrR9	192.168.64.10	1034	74.125.239.14	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1373637630.000000	1383281999.000000	-	-	-	726e408b9b0855cc789ae3b5fb13859c	ok
+1375396285.040154	Ca1CBz3wCTkE9WnVpc	192.168.64.10	1038	74.125.239.14	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	4c1a35b6ea36358fb97eb6fa3642d66d6e749da8c300f031c12a4540cd715300	-	-	-	-	-	-	-	-	-
+1375396285.146257	Cy4N434Aiopee9gYRc	192.168.64.10	1050	74.125.224.175	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1373637541.000000	1383281999.000000	-	-	-	48da016aaaa5087edde929222d7eaaaa	ok
+#close	2014-04-03-10-09-28

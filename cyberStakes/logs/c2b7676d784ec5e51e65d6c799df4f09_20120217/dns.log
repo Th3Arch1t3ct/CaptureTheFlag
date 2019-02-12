@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-07-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1329474844.949327	Cm2wWL1b9uzidgo2Cd	192.168.97.10	1029	4.2.2.3	53	udp	9867	adtplus.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.41.75.24	3580.000000	F
+1329474845.643863	Cm2wWL1b9uzidgo2Cd	192.168.97.10	1029	4.2.2.3	53	udp	28553	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.45.95	2229.000000,201.000000	F
+1329474846.948837	Cm2wWL1b9uzidgo2Cd	192.168.97.10	1029	4.2.2.3	53	udp	45704	api.twitter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.59.148.87,199.59.149.232,199.59.150.9,199.59.148.20	16.000000,16.000000,16.000000,16.000000	F
+1329474848.37392	Cm2wWL1b9uzidgo2Cd	192.168.97.10	1029	4.2.2.3	53	udp	58255	eoltirmhotewc.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	84.25.49.246,222.107.99.29	1.000000,1.000000	F
+1329474871.810449	Cd6F1b2MSnmjf9wbhe	192.168.97.10	1029	4.2.2.3	53	udp	14223	eoltirmhotewc.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.239.187.103,83.185.27.44	1.000000,1.000000	F
+1329474887.34404	C1Y5OJ2kRL3IHBhLf9	192.168.97.10	1029	4.2.2.3	53	udp	60045	gretabraters.eu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	77.95.231.87	3600.000000	F
+1329474909.975999	CEqHBz4vw4cUdaobE	192.168.97.10	1027	213.199.159.59	53	udp	3	microsoft.com	1	C_INTERNET	1	A	0	NOERROR	T	F	F	F	0	207.46.232.182,207.46.197.32	3600.000000,3600.000000	F
+1329474909.892239	CapcOq3ZQNZ50du9W5	192.168.97.10	1025	192.5.5.241	53	udp	1	ibsxebelo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	F	F	0	-	-	F
+1329474909.957064	CRCAkuTI2lQpgaBlh	192.168.97.10	1026	192.5.6.30	53	udp	2	microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	F	F	0	-	-	F
+1329474910.08696	C8e4qXH7tl1BEDew1	192.168.97.10	1028	192.55.83.30	53	udp	4	jxusstdv.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	F	F	0	-	-	F
+1329474915.406744	CfoD5DH3tyknKWUTi	192.168.97.10	1029	192.55.83.30	53	udp	5	jxusstdv.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	F	F	0	-	-	F
+#close	2014-04-03-10-07-40

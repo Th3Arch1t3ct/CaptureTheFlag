@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-11-14-32
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1339266648.665331	FkGHJiplPZKc38oQd	206.217.216.16	192.168.46.10	CScUl2JLoqXZmq6nk	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	104	104	0	0	F	-	d13099e9e91179c49b6d6fc637a4d792	a81d74052fda3ed79adf393099c05af03f91ae73	-	-
+1339266649.161865	FdVOhe2wCMHgvDOOBd	213.5.176.130	192.168.46.10	CSdWTgK1WuAVd4cc3	HTTP	0	MD5,SHA1	text/html	-	5.315854	-	F	66551	-	0	0	F	-	9999fbde6ca5b7ad11691e8223a891da	692bbdc7b616990cf32ad6dbb22001d5a37dc641	-	-
+1339266656.443383	FajnCS3dY0biYDL5Wh	213.5.176.130	192.168.46.10	CSdWTgK1WuAVd4cc3	HTTP	0	MD5,SHA1	application/x-dosexec	readme.exe	21.156407	-	F	344064	344064	0	0	F	-	771f57367d5f79e3bd361cb818c270fd	99829288913f1c27a79d1c44f88b62c40a6b9faf	-	-
+1339266679.604689	Fu7KSi4LbPRXQRpZo4	213.5.176.130	192.168.46.10	C5LFRn3kJSMnj8XMCc	HTTP	0	MD5,SHA1	application/x-shockwave-flash	-	0.000000	-	F	1547	1547	0	0	F	-	c31b916255086a790acd3db2af449346	27474f210893b69a5204dcafb6d9fc12b743dc1f	-	-
+1339266678.232028	FyGEXZ3uEyHQ6Q91xf	213.5.176.130	192.168.46.10	CSdWTgK1WuAVd4cc3	HTTP	0	MD5,SHA1	application/pdf	3c0f3.pdf	1.788516	-	F	24216	24216	0	0	F	-	56201ad8419a1a8d565a31fcdc6fc459	52ea115ec4c917d97630bb92ea4979995e05ecdc	-	-
+1339266683.683635	FVvGaA3zaggKuvyCfk	198.87.51.9	192.168.46.10	Cg1LN33xOE9iSywh6c	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	1111	1111	0	0	F	-	6d7ff6610b57ee56510415e1c19eec06	8d90b14d4ae46314077e934c4afe3a9f4de600f9	-	-
+1339266683.810994	FCwFSE3KygfkSJf1R4	213.5.176.130	192.168.46.10	C5LFRn3kJSMnj8XMCc	HTTP	0	MD5,SHA1	application/x-shockwave-flash	-	0.181252	-	F	6996	6996	0	0	F	-	9dcdbd0b9ea48da04479355954995d0c	6c81c4f1d16468b4169256972e30622e6956f7cc	-	-
+#close	2014-04-03-11-14-33

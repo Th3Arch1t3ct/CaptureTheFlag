@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-52-23
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1395449146.646242	CeexiU2B0JBx5UO2mc	192.168.46.10	1032	4.2.2.3	53	udp	3996	creditcardx.eu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.185.5.59	14400.000000	F
+1395449148.343023	CeexiU2B0JBx5UO2mc	192.168.46.10	1032	4.2.2.3	53	udp	3741	psevdo.name	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.66.5.85	3600.000000	F
+1395449152.110402	CeexiU2B0JBx5UO2mc	192.168.46.10	1032	4.2.2.3	53	udp	37021	huatongchuye.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	128.134.244.74	600.000000	F
+1395449157.156046	CeexiU2B0JBx5UO2mc	192.168.46.10	1032	4.2.2.3	53	udp	28831	6c6a.ed24890.1b.9d49.3aafee.d22dde9.51.exiigjfecok.acceptableair.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.196.50.152	30.000000	F
+1395449163.807396	CeexiU2B0JBx5UO2mc	192.168.46.10	1032	4.2.2.3	53	udp	159	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.125.128.99,74.125.128.103,74.125.128.147,74.125.128.104,74.125.128.106,74.125.128.105	240.000000,240.000000,240.000000,240.000000,240.000000,240.000000	F
+1395449164.221876	CeexiU2B0JBx5UO2mc	192.168.46.10	1032	4.2.2.3	53	udp	54175	kuyuacgsiowawsqa.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.226.163.70	60.000000	F
+1395449164.667903	CeexiU2B0JBx5UO2mc	192.168.46.10	1032	4.2.2.3	53	udp	6809	70.163.226.188.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1395449164.667903	CeexiU2B0JBx5UO2mc	192.168.46.10	1032	4.2.2.3	53	udp	6809	70.163.226.188.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1395449184.873488	CTmTD02vsKR8NbGOIa	192.168.46.10	1032	4.2.2.3	53	udp	44442	searchwalker.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	212.117.180.190	1655.000000	F
+#close	2014-04-03-10-52-24

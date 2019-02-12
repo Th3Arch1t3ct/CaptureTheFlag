@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-16-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1344319542.250285	C8mKmn3YgQ6vFO6Ghe	192.168.43.10	1054	203.189.105.156	80	FEp4UdSbBr7UO2Wg	application/x-dosexec	http://www.sushiparadisecairns.com/3.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 65%  Last seen: 2013-11-23 16:26:27	https://www.virustotal.com/en/search/?query=6b0e1dc76b4aa98a37bb7223ad646cd65997cb47	192.168.43.10	203.189.105.156	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1344319548.56266	COID5aGtpfAgfPiYi	192.168.43.10	1059	203.189.105.156	80	FV3CJV1PnzAgAxrKKj	application/x-dosexec	http://www.sushiparadisecairns.com/2.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 65%  Last seen: 2013-11-23 16:26:27	https://www.virustotal.com/en/search/?query=6b0e1dc76b4aa98a37bb7223ad646cd65997cb47	192.168.43.10	203.189.105.156	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-16-02

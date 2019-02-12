@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-58-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1361158712.353824	CbolxK1Rl4WSEmbBZj	192.168.50.10	1029	4.2.2.3	53	udp	23437	panelsystem.it	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.110.124.133	900.000000	F
+1361158714.116244	CbolxK1Rl4WSEmbBZj	192.168.50.10	1029	4.2.2.3	53	udp	45452	www.panelsystem.it	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	panelsystem.it,195.110.124.133	900.000000,898.000000	F
+1361158717.555936	CbolxK1Rl4WSEmbBZj	192.168.50.10	1029	4.2.2.3	53	udp	38284	www.phrae.tv	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	122.155.7.98	300.000000	F
+1361158718.90555	CbolxK1Rl4WSEmbBZj	192.168.50.10	1029	4.2.2.3	53	udp	11407	africafc.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	88.208.204.70	1800.000000	F
+1361158719.269686	CbolxK1Rl4WSEmbBZj	192.168.50.10	1029	4.2.2.3	53	udp	5262	lol-ka.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.135.67.199	600.000000	F
+1361158721.535129	CbolxK1Rl4WSEmbBZj	192.168.50.10	1029	4.2.2.3	53	udp	46217	199.67.135.5.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1361158721.535129	CbolxK1Rl4WSEmbBZj	192.168.50.10	1029	4.2.2.3	53	udp	46217	199.67.135.5.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1361158721.535129	CbolxK1Rl4WSEmbBZj	192.168.50.10	1029	4.2.2.3	53	udp	46217	199.67.135.5.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-09-58-32

@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-59-31
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1358893900.005865	FgjUED2M3g7tGfUdTa	93.170.52.31	192.168.20.10	Cty7xh4EZoZrJlpn5g	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	1168	-	0	0	F	-	1256a68ccc1546ecd6870474c9e5fc9f	cdfbc020bedec124c7254fc82ee5df1586eb3948	-	-
+1358893900.264236	FKtnOr3UKCmlgtUSec	173.194.75.100	192.168.20.10	CLEuCg1f3WDAadJEVl	HTTP	0	SHA1,MD5	text/plain	-	0.027247	-	F	37362	-	0	0	F	-	f5592eabae33f8499d067344f1f42183	142a9875c4bd7e15ce6ac8b5bb181fb29ed08ba5	-	-
+1358893900.332638	F6K0LL1pWPJwKoNXMa	208.131.138.218	192.168.20.10	CYTBc17a5cyctg6m9	HTTP	0	SHA1,MD5	text/html	-	0.000011	-	F	3194	3194	0	0	F	-	0a7498591c88d6360288dd0ff763d991	6d8c8d51a49038b63f661a46b557a37f35705d10	-	-
+1358893900.407698	FGSSEl37AQoWxS7yvi	173.194.75.100	192.168.20.10	CLEuCg1f3WDAadJEVl	HTTP	0	SHA1,MD5	image/gif	-	0.000000	-	F	35	35	0	0	F	-	28d6814f309ea289f847c69cf91194c6	0f4e929dd5bb2564f7ab9c76338e04e292a42ace	-	-
+1358893900.501743	Fo7hGQ3M5jBOhERuf9	204.183.124.210	192.168.20.10	CDdGJV35HYfw6Wp1Vc	HTTP	0	SHA1,MD5	image/png	-	0.000000	-	F	2349	2349	0	0	F	-	ce404e2f475dbf547ee8195dac0eff0a	3eb3390ad49e78b3e872aaf154256496e132e9f3	-	-
+1358893900.518223	FRPfjvCBXpOtrrAmi	208.131.138.217	192.168.20.10	CanjsG24CyvmpQm8v3	HTTP	0	SHA1,MD5	application/x-dosexec	IamSexyPIC.exe	0.052242	-	F	36500	144384	0	0	F	-	edf1319c89597d2d04e5563b395c78cc	dd0248aab4c11452e4a13aa88651cb4472bede74	-	-
+#close	2014-04-03-10-59-31

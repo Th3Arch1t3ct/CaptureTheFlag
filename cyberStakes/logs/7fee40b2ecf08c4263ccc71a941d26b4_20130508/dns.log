@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-07-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1367991609.371502	CLFKrr1irhuxfzaqK2	192.168.48.10	1029	4.2.2.3	53	udp	51084	65catalog.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.143.13.157	38400.000000	F
+1367991610.200134	CLFKrr1irhuxfzaqK2	192.168.48.10	1029	4.2.2.3	53	udp	12172	61catalog.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.143.13.157	38400.000000	F
+1367991611.436155	CLFKrr1irhuxfzaqK2	192.168.48.10	1029	4.2.2.3	53	udp	53646	barestup.iololosexingg711.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	198.50.187.5	38400.000000	F
+1367991622.198613	CgdGVn2Tn5WFG43Nb9	192.168.48.10	1029	4.2.2.3	53	udp	39817	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	397.000000,300.000000	F
+1367991622.569174	CgdGVn2Tn5WFG43Nb9	192.168.48.10	1029	4.2.2.3	53	udp	53896	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	2558.000000,600.000000	F
+1367991624.744799	CgdGVn2Tn5WFG43Nb9	192.168.48.10	1029	4.2.2.3	53	udp	2699	5.187.50.198.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1367991624.744799	CgdGVn2Tn5WFG43Nb9	192.168.48.10	1029	4.2.2.3	53	udp	2699	5.187.50.198.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-07-31

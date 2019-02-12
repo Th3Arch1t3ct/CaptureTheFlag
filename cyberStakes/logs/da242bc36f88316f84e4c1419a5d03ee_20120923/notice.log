@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-42-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1348432310.792084	CINL532tXJ0zQYfWSi	192.168.106.10	1058	176.31.16.237	80	F6GiOB19rqkgoxTqJh	application/x-dosexec	http://gh.rstunion.info/?b527ee11ad32fc09d9be757259828dfb	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 38%  Last seen: 2012-09-27 00:23:42	https://www.virustotal.com/en/search/?query=82d27bf657590338578a1638a02c7ea5f4baf6a9	192.168.106.10	176.31.16.237	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1348432310.792084	Cpy9a33h8WJUIKK7dh	192.168.106.10	1059	176.31.16.237	80	Fhus1S3Xf1co5DCaw	application/x-dosexec	http://gh.rstunion.info/?4c8acd40d37e0aa2232ea158cb673139	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 38%  Last seen: 2012-09-27 00:23:42	https://www.virustotal.com/en/search/?query=82d27bf657590338578a1638a02c7ea5f4baf6a9	192.168.106.10	176.31.16.237	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1348432311.462172	CmGxCj37h3FuRApA5	192.168.106.10	1060	176.31.16.237	80	F91Vff49HNGVBkRdx7	application/x-dosexec	http://gh.rstunion.info/?08570c6478048516d7db33557eeacde8	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 38%  Last seen: 2012-09-27 00:23:42	https://www.virustotal.com/en/search/?query=82d27bf657590338578a1638a02c7ea5f4baf6a9	192.168.106.10	176.31.16.237	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1348432314.022569	C9qvnV3JDrlKsDnhRf	192.168.106.10	1076	176.31.16.237	80	Fu7JYq4MgR00nC3rV3	application/x-dosexec	http://gh.rstunion.info/?679150b1eb191079bd642a6618cb5b21	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 38%  Last seen: 2012-09-27 00:23:42	https://www.virustotal.com/en/search/?query=82d27bf657590338578a1638a02c7ea5f4baf6a9	192.168.106.10	176.31.16.237	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1348432317.061052	C56YBF3UMbQN4Aymc5	192.168.106.10	1091	176.31.16.237	80	FsJkEC1kBYumIH5H1b	application/x-dosexec	http://gh.rstunion.info/?6ef07a8f6d5eb2990b21b27a1722b799	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 48%  Last seen: 2012-11-02 19:55:32	https://www.virustotal.com/en/search/?query=da2bf31d5dd29ca719e8fb8fdf498a59d15c7b6c	192.168.106.10	176.31.16.237	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-42-02

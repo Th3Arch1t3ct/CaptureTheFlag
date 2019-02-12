@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-04-11
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1356668722.147992	FBNg8w1QqV5YAgKXd7	93.170.52.31	192.168.111.10	CYrhyz47mJtBaniql3	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	1113	-	0	0	F	-	9f5d677ed052b152bbfda423ebb7ec44	b4ca9b7c230462bb4956bf49abe842a4185c9a5b	-	-
+1356668722.543634	FuePbM2SsiSN7wfTJd	74.125.227.102	192.168.111.10	C1gbWt3AFcraShk0Za	HTTP	0	MD5,SHA1	text/plain	-	0.022069	-	F	37362	-	0	0	F	-	f5592eabae33f8499d067344f1f42183	142a9875c4bd7e15ce6ac8b5bb181fb29ed08ba5	-	-
+1356668722.69465	FOdUy82OrRe8yPYJih	74.125.227.102	192.168.111.10	C1gbWt3AFcraShk0Za	HTTP	0	MD5,SHA1	image/gif	-	0.000000	-	F	35	35	0	0	F	-	28d6814f309ea289f847c69cf91194c6	0f4e929dd5bb2564f7ab9c76338e04e292a42ace	-	-
+1356668722.827254	FtxrWANLP2YFItCre	195.64.155.34	192.168.111.10	CBBuwe4u28bIxCKgp4	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	160	160	0	0	F	-	ba15642bf39aaf293060036a89576904	da19c88713d84ae98eb1150372e218f76da447a6	-	-
+1356668723.653598	FuvEb42yl2czofe0Pl	195.3.143.42	192.168.111.10	C9uRM83f6lvItYiR79	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	161	-	0	0	F	-	82d7993071d80f9d273a9923a12a281f	a23eb4c5b4948136f5bb1e3d992d3ebd2403d77e	-	-
+1356668724.436662	Firi5D4U0wY7wXvUqb	195.3.143.42	192.168.111.10	CA8Igl2c321O8Rqokg	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	161	-	0	0	F	-	82d7993071d80f9d273a9923a12a281f	a23eb4c5b4948136f5bb1e3d992d3ebd2403d77e	-	-
+1356668724.625421	FmYf7i4EGmHCdMaKlf	195.3.143.42	192.168.111.10	C9uRM83f6lvItYiR79	HTTP	0	MD5,SHA1	text/html	-	0.000020	-	F	3774	-	0	0	F	-	270c99a66e81d004d46d313b11c7994e	b49ad28df9e1cd7479b74f7d6c5d63283c169dd2	-	-
+1356668724.656513	FQPJOl1Y7L06LMiIr4	64.214.118.224	192.168.111.10	CLpdG8256rJiSVm2yf	HTTP	0	MD5,SHA1	image/png	-	0.000000	-	F	2349	2349	0	0	F	-	ce404e2f475dbf547ee8195dac0eff0a	3eb3390ad49e78b3e872aaf154256496e132e9f3	-	-
+1356668724.738738	FyY5yj48CBYZyQj9Og	208.131.138.217	192.168.111.10	C2ihbI47ygvgwj0Pk	HTTP	0	MD5,SHA1	application/x-dosexec	MeBitchTIFF.exe	0.019439	-	F	13140	93555	0	0	F	-	51e7eabf90b298e1d068f2f7579177e1	f56220bdd6807f570ad59fd8a8a8559bfd2f0065	-	-
+#close	2014-04-03-10-04-11

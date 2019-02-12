@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-05-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1321446087.916708	CBkplH16XO9hdddmBh	192.168.20.10	1029	4.2.2.3	53	udp	21647	the-watershop.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.22.14.103	3583.000000	F
+1321446088.41716	CBkplH16XO9hdddmBh	192.168.20.10	1029	4.2.2.3	53	udp	22158	aquarigger.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.106.174.219	7200.000000	F
+1321446088.521684	CBkplH16XO9hdddmBh	192.168.20.10	1029	4.2.2.3	53	udp	50828	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.229.172,74.125.229.173,74.125.229.174,74.125.229.175,74.125.229.160,74.125.229.161,74.125.229.162,74.125.229.163,74.125.229.164,74.125.229.165,74.125.229.166,74.125.229.167,74.125.229.168,74.125.229.169,74.125.229.170,74.125.229.171	23670.000000,273.000000,273.000000,273.000000,273.000000,273.000000,273.000000,273.000000,273.000000,273.000000,273.000000,273.000000,273.000000,273.000000,273.000000,273.000000,273.000000	F
+#close	2014-04-03-11-05-13

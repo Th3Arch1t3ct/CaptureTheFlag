@@ -1,0 +1,29 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-59-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1328837812.667676	C8pXdU2xhknidEXud3	192.168.85.10	1030	109.104.65.194	80	1	GET	herbertandcridan.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	10188	200	OK	-	-	-	(empty)	-	-	-	-	-	FV7Dcs39IlPqQcX9id	text/html
+1328837813.213114	CUt6UF1JKAMe33bIp6	192.168.85.10	1034	109.104.65.194	80	1	GET	herbertandcridan.com	/images/home.jpg	http://herbertandcridan.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	26637	200	OK	-	-	-	(empty)	-	-	-	-	-	FDfjNS3wl99WlarVA7	image/jpeg
+1328837813.617263	CUt6UF1JKAMe33bIp6	192.168.85.10	1034	109.104.65.194	80	2	GET	herbertandcridan.com	/images/machines.jpg	http://herbertandcridan.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	27148	200	OK	-	-	-	(empty)	-	-	-	-	-	Fcv6e13rHaYvTgd1y	image/jpeg
+1328837813.176373	CRqj9akfcI0A7DQ8d	192.168.85.10	1031	188.190.98.79	80	1	GET	sexfunxcash.com	/main.php?page=e7ac6afc0ef09e23	http://herbertandcridan.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	80983	200	OK	-	-	-	(empty)	-	-	-	-	-	FJdo5gUKTxR6LjmK1	text/html
+1328837813.820133	CUt6UF1JKAMe33bIp6	192.168.85.10	1034	109.104.65.194	80	3	GET	herbertandcridan.com	/images/spares.jpg	http://herbertandcridan.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	26708	200	OK	-	-	-	(empty)	-	-	-	-	-	FCNYbq2eUVDvXVrBhj	image/jpeg
+1328837813.134561	C56R4j3VxMHCXwKnnh	192.168.85.10	1032	109.104.65.194	80	1	GET	herbertandcridan.com	/images/banner.jpg	http://herbertandcridan.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	149511	200	OK	-	-	-	(empty)	-	-	-	-	-	Fx3n2nnqsBGcfK9f7	image/jpeg
+1328837813.260295	Cqaykf4ARBiTNRPi8a	192.168.85.10	1033	188.190.98.79	80	1	GET	sexfunxcash.com	/main.php?page=e7ac6afc0ef09e23	http://herbertandcridan.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	80983	200	OK	-	-	-	(empty)	-	-	-	-	-	FopQfj3pdIBKCVMuO8	text/html
+1328837814.145318	C56R4j3VxMHCXwKnnh	192.168.85.10	1032	109.104.65.194	80	2	GET	herbertandcridan.com	/images/chucksandtooling.jpg	http://herbertandcridan.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	29138	200	OK	-	-	-	(empty)	-	-	-	-	-	Fuo5mE1L1haP3qrZIe	image/jpeg
+1328837814.145039	CUt6UF1JKAMe33bIp6	192.168.85.10	1034	109.104.65.194	80	4	GET	herbertandcridan.com	/images/clutch.jpg	http://herbertandcridan.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	27262	200	OK	-	-	-	(empty)	-	-	-	-	-	FJSIX5PVbsoICMTl2	image/jpeg
+1328837814.263967	CUt6UF1JKAMe33bIp6	192.168.85.10	1034	109.104.65.194	80	5	GET	herbertandcridan.com	/images/websterandbennet.jpg	http://herbertandcridan.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	27674	200	OK	-	-	-	(empty)	-	-	-	-	-	FZqq5k3olrLZ5HOsqe	image/jpeg
+1328837814.25878	C56R4j3VxMHCXwKnnh	192.168.85.10	1032	109.104.65.194	80	3	GET	herbertandcridan.com	/images/service.jpg	http://herbertandcridan.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	29097	200	OK	-	-	-	(empty)	-	-	-	-	-	FvMv9iejp2Em6hB2	image/jpeg
+1328837814.692743	C56R4j3VxMHCXwKnnh	192.168.85.10	1032	109.104.65.194	80	4	GET	herbertandcridan.com	/images/contactus.jpg	http://herbertandcridan.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	27732	200	OK	-	-	-	(empty)	-	-	-	-	-	FTss9d1j6YwYL3xg98	image/jpeg
+1328837814.689181	CUt6UF1JKAMe33bIp6	192.168.85.10	1034	109.104.65.194	80	6	GET	herbertandcridan.com	/images/quote.jpg	http://herbertandcridan.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	26708	200	OK	-	-	-	(empty)	-	-	-	-	-	FudLwm3EeziSoS1Gwe	image/jpeg
+1328837826.44308	CWJAdT1wIMVb0VUXbl	192.168.85.10	1035	188.190.98.79	80	1	GET	sexfunxcash.com	/w.php?f=24&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	195072	200	OK	-	-	-	(empty)	-	-	-	-	-	FjTyOnuNedh8PuZRd	application/x-dosexec
+1328837827.53706	ClBOyu2Cx31zxnW9d2	192.168.85.10	1040	188.190.98.79	80	1	GET	sexfunxcash.com	/content/adp2.php?f=24	http://sexfunxcash.com/main.php?page=e7ac6afc0ef09e23	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13023	200	OK	-	-	-	(empty)	-	-	-	-	-	FNKQGi3UuOcN3rnkNb	application/pdf
+1328837857.371513	CGBpxyi9SLvddv3i8	192.168.85.10	1042	188.190.98.79	80	1	GET	sexfunxcash.com	/w.php?f=24&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1328837885.808406	C3Oexp1dygzlLNwjYi	192.168.85.10	1044	188.190.98.79	80	1	GET	sexfunxcash.com	/w.php?f=24&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	195072	200	OK	-	-	-	(empty)	-	-	-	-	-	FSbibC4B7fEUbYshh8	application/x-dosexec
+1328837886.512013	Cv61aq4D7nLjrbOSoj	192.168.85.10	1045	188.190.98.79	80	1	GET	sexfunxcash.com	/content/rin.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3887	200	OK	-	-	-	(empty)	-	-	-	-	-	FFrPKE6K3HTZ4l1Vb	application/zip
+1328837888.185332	CRFH7K32Tcn1gkK728	192.168.85.10	1046	188.190.98.79	80	1	GET	sexfunxcash.com	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	288	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FbqFvI3cbKCh9NO17f	text/html
+1328837888.487241	CVrHi32Pt97cHYBkh1	192.168.85.10	1047	188.190.98.79	80	1	GET	sexfunxcash.com	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	288	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FfJYxY23kVNyQGDQ6f	text/html
+#close	2014-04-03-09-59-31

@@ -1,0 +1,30 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-53-01
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1336421637.952701	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1336421654.795113	CRnquq2AF0wK0Qitvd	192.168.128.10	1062	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336421654.798714	C23jV22MGibOp84B8a	192.168.128.10	1064	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336421654.979568	CAcvgv3JjiY53winie	192.168.128.10	1066	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336421654.981761	CpJaux1nJxG5XQP0G6	192.168.128.10	1068	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336421654.985493	C5f9xY1DFEHUxueWN9	192.168.128.10	1070	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336421654.989543	CUsT4m2veixUcBlSad	192.168.128.10	1072	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336421654.993357	CwI76t1exhIAr4cml6	192.168.128.10	1074	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336421654.995698	CnO4Rq3Uj97PCTvMXd	192.168.128.10	1076	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336421655.008562	Ci49jG3fGGOnA1hoVh	192.168.128.10	1078	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336421655.011144	CdYnZCh8TQEgebU65	192.168.128.10	1080	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336421655.012874	C1SNDr4e2bRmGf6sbk	192.168.128.10	1082	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336421655.021148	COm4ZsCpzyMvITQ1	192.168.128.10	1084	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336421656.064076	CuuoFHixZv4ejRUs5	192.168.128.10	1086	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336421656.091834	CTRYZK3E7Omw65wihi	192.168.128.10	1088	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336421667.970541	ClwaPR1UBJClTU66Lc	192.168.128.10	1233	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1336421668.158929	CdN6FFJwXmXKvp1h5	192.168.128.10	1235	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1336421668.345872	CzCkdSkc7VbsKbYO	192.168.128.10	1237	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1336421668.485368	COKZSo3Zd0pkHQLILd	192.168.128.10	1239	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1336421668.554932	CNBzvioFkdnb7Nktj	192.168.128.10	1241	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1336421680.836644	CInFqV1mjoTvHDucH9	192.168.128.10	1243	31.193.12.27	80	bad_HTTP_request	-	F	bro
+#close	2014-04-03-10-53-01

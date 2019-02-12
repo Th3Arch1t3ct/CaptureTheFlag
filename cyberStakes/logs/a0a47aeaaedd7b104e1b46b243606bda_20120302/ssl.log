@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-19-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1330657294.68154	CmEror3MqnylIy0pud	192.168.117.10	1080	174.121.165.35	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=contentnotifier.com,OU=PositiveSSL,OU=Domain Control Validated	CN=PositiveSSL CA,O=Comodo CA Limited,L=Salford,ST=Greater Manchester,C=GB	1329026400.000000	1360648799.000000	-	-	-	a11c5c35774b1521aac03b4f6e33be5d	ok
+1330657295.459118	C6VIXO7Idq72W7934	192.168.117.10	1083	174.121.165.35	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	790f0000e8bd5ce87b8c1b06a213a88bc0c9b11e6fea7735e39c4a212fc91ac6	-	-	-	-	-	-	-	-	-
+1330657295.568663	CqOslbWsZGLRTEck5	192.168.117.10	1085	174.121.165.35	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	790f0000e8bd5ce87b8c1b06a213a88bc0c9b11e6fea7735e39c4a212fc91ac6	-	-	-	-	-	-	-	-	-
+1330657296.917156	C7E3Yv30jb7DRIoh9d	192.168.117.10	1088	174.121.165.35	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	790f0000e8bd5ce87b8c1b06a213a88bc0c9b11e6fea7735e39c4a212fc91ac6	-	-	-	-	-	-	-	-	-
+1330657296.929256	CUuKC315SMOnx8lKd1	192.168.117.10	1089	174.121.165.35	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	790f0000e8bd5ce87b8c1b06a213a88bc0c9b11e6fea7735e39c4a212fc91ac6	-	-	-	-	-	-	-	-	-
+1330657298.030943	CEZtJk29ygECOIkde6	192.168.117.10	1093	72.21.214.199	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=s3.amazonaws.com,O=Amazon.com Inc.,L=Seattle,ST=Washington,C=US	CN=VeriSign Class 3 Secure Server CA - G2,OU=Terms of use at https://www.verisign.com/rpa (c)09,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1286514000.000000	1381208399.000000	-	-	-	3bc853ce959a48aaaaaaaaaaa66a1f5e	ok
+1330657298.040362	C9GQ3z4gxPJTqEVhcj	192.168.117.10	1092	72.21.214.199	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=s3.amazonaws.com,O=Amazon.com Inc.,L=Seattle,ST=Washington,C=US	CN=VeriSign Class 3 Secure Server CA - G2,OU=Terms of use at https://www.verisign.com/rpa (c)09,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1286514000.000000	1381208399.000000	-	-	-	3bc853ce959a48aaaaaaaaaaa66a1f5e	ok
+#close	2014-04-03-10-19-55

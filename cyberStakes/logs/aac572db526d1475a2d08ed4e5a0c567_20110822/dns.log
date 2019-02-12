@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-59-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1314037429.262351	CzpGFd1euskgHO8TYg	192.168.74.10	1029	4.2.2.3	53	udp	46222	www.stationery-fast.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	202.175.82.37	10778.000000	F
+1314037430.051381	CzpGFd1euskgHO8TYg	192.168.74.10	1029	4.2.2.3	53	udp	60302	orangeblue.cl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	200.2.204.172	900.000000	F
+1314037430.969792	CzpGFd1euskgHO8TYg	192.168.74.10	1029	4.2.2.3	53	udp	42124	gdgfddhfghk.zapto.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.228.230.54	60.000000	F
+1314037432.200495	CzpGFd1euskgHO8TYg	192.168.74.10	1029	4.2.2.3	53	udp	24460	counter.yadro.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	88.212.196.105,88.212.196.66,88.212.196.69,88.212.196.77,88.212.196.101,88.212.196.102,88.212.196.103,88.212.196.104	106.000000,106.000000,106.000000,106.000000,106.000000,106.000000,106.000000,106.000000	F
+1314037434.301971	CzpGFd1euskgHO8TYg	192.168.74.10	1029	4.2.2.3	53	udp	60298	lexingzaus.cx.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.211.37.163	43200.000000	F
+1314037440.758814	CzpGFd1euskgHO8TYg	192.168.74.10	1029	4.2.2.3	53	udp	25993	ultrainvisible.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.82.193.26	14400.000000	F
+1314037471.296967	CC0TZ534K6AlDH82Gg	192.168.74.10	1029	4.2.2.3	53	udp	20616	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.93.99,74.125.93.103,74.125.93.104,74.125.93.105,74.125.93.106,74.125.93.147	32071.000000,300.000000,300.000000,300.000000,300.000000,300.000000,300.000000	F
+#close	2014-04-03-10-59-19

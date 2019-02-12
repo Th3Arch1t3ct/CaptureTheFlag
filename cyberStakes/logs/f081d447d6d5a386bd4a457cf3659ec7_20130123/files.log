@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-19-09
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1358927201.785111	FtuXCt2RPbNSCoICqg	93.170.52.21	192.168.104.10	C7NSIcNofw8Ml241d	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	1165	-	0	0	F	-	03b5721d7d2c26f9b76090d3a354b895	bcec8bb009daebc51eaf2d298992a1eb73e3cce6	-	-
+1358927201.986353	FEIdYN30jp5By74EQ7	74.125.228.3	192.168.104.10	CT76vh4r9H3uXqBSfb	HTTP	0	SHA1,MD5	text/plain	-	0.016467	-	F	37362	-	0	0	F	-	f5592eabae33f8499d067344f1f42183	142a9875c4bd7e15ce6ac8b5bb181fb29ed08ba5	-	-
+1358927202.069916	FFNR0YB9UVpQnnQde	208.131.138.217	192.168.104.10	CWSZCD4x5n2GGbv7ej	HTTP	0	SHA1,MD5	text/html	-	0.000016	-	F	3239	3239	0	0	F	-	9d7bfaa15fde84c92293297f6887feeb	be62ec9f5915900c5c21abb4b518a9eb01a0cd4c	-	-
+1358927202.127474	FQVIxb1nD9o05uTyfl	74.125.228.3	192.168.104.10	CT76vh4r9H3uXqBSfb	HTTP	0	SHA1,MD5	image/gif	-	0.000000	-	F	35	35	0	0	F	-	28d6814f309ea289f847c69cf91194c6	0f4e929dd5bb2564f7ab9c76338e04e292a42ace	-	-
+1358927202.139874	FvTcgl2N8DXOMEoHF2	24.143.197.59	192.168.104.10	CbA2Lj3zfW3XQW36W4	HTTP	0	SHA1,MD5	image/png	-	0.000000	-	F	2349	2349	0	0	F	-	ce404e2f475dbf547ee8195dac0eff0a	3eb3390ad49e78b3e872aaf154256496e132e9f3	-	-
+1358927202.227971	F1jk74R73ryaH9Bd	208.131.138.217	192.168.104.10	CeZHDX2fOQTUJpzTsh	HTTP	0	SHA1,MD5	application/x-dosexec	IamLolPIC.exe	0.062344	-	F	36500	144384	0	0	F	-	1d859a2c6b2fc0f153f35e2cbe20729d	df9ff0a13ca1b632179bc168e60e383036c30dd6	-	-
+#close	2014-04-03-10-19-09

@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-45-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1349736227.275945	CVhd5p3wuuCTXlJES	192.168.48.10	1029	195.182.222.77	80	tcp	http	5.241060	283	481	RSTO	-	0	ShADadfR	6	531	4	649	(empty)
+1349736228.153105	C1V65n2mdbcfiDBUjl	192.168.48.10	1038	8.12.223.125	80	tcp	http	10.224126	327	174302	RSTO	-	0	ShADadfR	76	3375	125	179310	(empty)
+1349736227.577927	C5Svp2VG46G8mILCa	192.168.48.10	1034	195.182.222.77	80	tcp	http	10.799550	564	17403	RSTO	-	0	ShADadfR	14	1132	16	18051	(empty)
+1349736227.273136	CkHpzF3SNdZwgnjUff	192.168.48.10	1028	4.2.2.3	53	udp	dns	6.323654	295	1059	SF	-	0	Dd	8	519	8	1283	(empty)
+1349736213.862113	CsmGgo15wagDFYfXi4	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.001114	626	0	S0	-	0	D	2	682	0	0	(empty)
+1349736213.862478	CHrxp41RcNhIhJd7vg	192.168.48.10	68	192.168.48.1	67	udp	dhcp	3.066152	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1349736228.129156	CGxFf729M2MTegABPb	192.168.48.10	1037	92.51.180.143	80	tcp	http	0.675732	1006	7282	S1	-	0	ShADd	8	1334	8	7610	(empty)
+1349736233.389446	CP4Nd13wqPL0cjgW78	192.168.48.10	1041	173.245.61.175	80	tcp	http	46.180688	555	18603	S3	-	0	ShADadf	13	1083	18	19331	(empty)
+1349736229.211405	CADchU36D3Qk37qxPe	192.168.48.10	1040	92.51.180.142	80	tcp	http	4.039690	342	1623849	S1	-	0	ShADd	778	32022	1185	1671257	(empty)
+1349736228.221018	Cc1jyo4h0rcIoH0zZi	192.168.48.10	1039	69.31.74.8	80	tcp	http	0.267844	299	863	S1	-	0	ShADad	4	467	4	1894	(empty)
+1349736233.597598	CQ2ZJA11uv7tgjA434	192.168.48.10	1042	23.15.5.198	80	tcp	http	0.389125	749	50194	S1	-	0	ShADad	27	1837	39	52854	(empty)
+1349736236.914165	CZ0KMIhGuq87fppMc	192.168.48.10	1044	239.255.255.250	1900	udp	-	6.405168	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-10-45-09

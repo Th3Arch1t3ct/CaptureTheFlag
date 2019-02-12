@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-54-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1351598668.75486	CJN96B1tGa4QS8Xdr2	192.168.75.10	1030	97.74.215.60	80	1	GET	coveyrisetreefarm.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3621	200	OK	-	-	-	(empty)	-	-	-	-	-	Fze8QYecnlHMCbv19	text/html
+1351598669.315855	CXHIkc49N6rapgZr4h	192.168.75.10	1031	46.235.8.175	80	1	GET	rlzxlwcuqaj.lookin.at	/t/vc.php?go=2	http://coveyrisetreefarm.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1351598670.077204	CchqDa1nUaElRpTZZb	192.168.75.10	1032	46.235.8.175	80	1	GET	mevjfvayjbfh.byinter.net	/k/causes/layout_detailed_this_reveal.php	http://coveyrisetreefarm.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	29818	200	OK	-	-	-	(empty)	-	-	-	-	-	FoVxnd4zXDOCl1cY6b	text/html
+1351598671.3009	CchqDa1nUaElRpTZZb	192.168.75.10	1032	46.235.8.175	80	2	GET	mevjfvayjbfh.byinter.net	/k/causes/layout_detailed_this_reveal.php?cvl=0407050236&itbo=4b&xlruguq=0333330635040834380b&uzwxrsh=0b000300020002	http://mevjfvayjbfh.byinter.net/k/causes/layout_detailed_this_reveal.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13502	200	OK	-	-	-	(empty)	-	-	-	-	-	Fg1US7rSqFUyq4QJg	application/pdf
+1351598671.560943	CKjZr62RcBj1RuTAZ6	192.168.75.10	1033	46.235.8.175	80	1	GET	mevjfvayjbfh.byinter.net	/k/causes/layout_detailed_this_reveal.php?gfmgjkd=0407050236&fszg=0333330635040834380b&janjdrl=04&uxwzfpt=zco&znwru=oxegdl	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	338432	200	OK	-	-	-	(empty)	-	-	-	-	-	FHmEr33Q1pWOTdiGV6	application/x-dosexec
+1351598704.243687	CMwJmG4WA1SVEi2Ut6	192.168.75.10	1039	46.235.8.175	80	1	GET	mevjfvayjbfh.byinter.net	/k/causes/layout_detailed_this_reveal.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	16422	200	OK	-	-	-	(empty)	-	-	-	-	-	FaVZhH2LIuzq7aJv9g	application/zip
+1351598705.231434	CcBKOg3elZZxX96Qsc	192.168.75.10	1040	46.235.8.175	80	1	GET	mevjfvayjbfh.byinter.net	/k/causes/layout_detailed_this_reveal.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	16422	200	OK	-	-	-	(empty)	-	-	-	-	-	FhBJ1E4hkidQZNudfe	application/zip
+1351598709.400449	CJoQ9U14vvIXacVA13	192.168.75.10	1041	46.235.8.175	80	1	GET	mevjfvayjbfh.byinter.net	/k/causes/layout_detailed_this_reveal.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	16422	200	OK	-	-	-	(empty)	-	-	-	-	-	FYsg7GUGGLs0jJm9g	application/zip
+1351598711.197677	CoKlMAeBmpGCEcvf	192.168.75.10	1042	46.235.8.175	80	1	GET	mevjfvayjbfh.byinter.net	/k/causes/layout_detailed_this_reveal.php?asd=12gqw	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	250	200	OK	-	-	-	(empty)	-	-	-	-	-	F9U30b3W4W3aWT2vH	text/plain
+1351598711.478304	CoKlMAeBmpGCEcvf	192.168.75.10	1042	46.235.8.175	80	2	GET	mevjfvayjbfh.byinter.net	/k/causes/layout_detailed_this_reveal.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	16422	200	OK	-	-	-	(empty)	-	-	-	-	-	FSPR7l1G5uZlmUng5d	application/zip
+1351598712.957373	CUpsdq1EbqCEIF4hs9	192.168.75.10	1043	46.235.8.175	80	1	GET	mevjfvayjbfh.byinter.net	/k/causes/layout_detailed_this_reveal.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	16422	200	OK	-	-	-	(empty)	-	-	-	-	-	FqBRxr4ktwvVoRk9T8	application/zip
+1351598704.095841	Cz694GkFPkmixAcz	192.168.75.10	1038	46.235.8.175	80	1	GET	mevjfvayjbfh.byinter.net	/k/causes/layout_detailed_this_reveal.php?dzntx=0407050236&usfuj=0333330635040834380b&wguelr=03&tmim=aequbu&bgz=bgz	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	338432	200	OK	-	-	-	(empty)	-	-	-	-	-	FhPZEZ2OPZ94IaVjMh	application/x-dosexec
+1351598714.472975	CNYmsL2T2n7RbZbU31	192.168.75.10	1044	46.235.8.175	80	1	GET	mevjfvayjbfh.byinter.net	/k/causes/layout_detailed_this_reveal.php?uf=0407050236&ze=0333330635040834380b&g=02&fy=v&az=e	-	Java/1.6.0_10	0	338432	200	OK	-	-	-	(empty)	-	-	-	-	-	FTldeXZhUBFFQGuVd	application/x-dosexec
+#close	2014-04-03-10-54-44

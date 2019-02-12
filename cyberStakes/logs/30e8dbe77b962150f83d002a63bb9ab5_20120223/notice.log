@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-43-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1329978586.314828	Cubx8n2E2oCp8We8hc	192.168.86.10	1039	46.249.35.84	80	Ft165T2zKfrDFsPhx2	application/x-dosexec	http://www2.thebestdusuite.it.cx/?1v6228r=Vdmjlm+d6tmO2svJsKyUqqOb3ejRbqZnlmeapaWhxpXHmejXsqSom62eaK5qZWhe3uellpKVqprF19XnpseydZymm5Z1pZrbiQ==&t=31	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-03-07 21:34:26	https://www.virustotal.com/en/search/?query=019a06861cd5b82030cf951faac62ed509ba6b8a	192.168.86.10	46.249.35.84	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1329978586.646437	Ccwng94gD4D7bX0Qqk	192.168.86.10	1043	46.249.35.84	80	FAdeQo1QGsPN1PhGYb	application/x-dosexec	http://www2.thebestdusuite.it.cx/?2dyw=Vsfm27HN3ceL6N3IsqulnqSLptjltKSZyZfHpqWd1qbXj+jYb5Wsqa2hnJqZpqqK4eaymqSVaYra2dbaorWyt5rU3teynJrYVg==&t=15	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-03-07 21:34:26	https://www.virustotal.com/en/search/?query=019a06861cd5b82030cf951faac62ed509ba6b8a	192.168.86.10	46.249.35.84	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-43-06

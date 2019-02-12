@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-57-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1364882668.435914	C9884G4svZA7WdQpec	192.168.9.10	1029	4.2.2.3	53	udp	38288	interieursenville.ca	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.107.198.50	14400.000000	F
+1364882670.106288	C9884G4svZA7WdQpec	192.168.9.10	1029	4.2.2.3	53	udp	33936	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.225.14,74.125.225.2,74.125.225.9,74.125.225.0,74.125.225.3,74.125.225.5,74.125.225.6,74.125.225.8,74.125.225.4,74.125.225.1,74.125.225.7	1093.000000,204.000000,204.000000,204.000000,204.000000,204.000000,204.000000,204.000000,204.000000,204.000000,204.000000,204.000000	F
+1364882670.632608	C9884G4svZA7WdQpec	192.168.9.10	1029	4.2.2.3	53	udp	43152	24.dallasbodysculpt.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.164.212.67	3600.000000	F
+1364882701.391762	CkSXB6UGcSlnBCIj5	192.168.9.10	1029	4.2.2.3	53	udp	915	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,64.4.52.169	1874.000000,219.000000	F
+1364882701.690976	CkSXB6UGcSlnBCIj5	192.168.9.10	1029	4.2.2.3	53	udp	58002	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	1875.000000,520.000000	F
+1364882708.831766	CkSXB6UGcSlnBCIj5	192.168.9.10	1029	4.2.2.3	53	udp	63893	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.d.akamai.net,23.67.61.72,23.67.61.35	6608.000000,300.000000,11477.000000,20.000000,20.000000	F
+#close	2014-04-03-10-57-06

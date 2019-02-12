@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-21-40
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1321558099.23375	C0ZRVC4uOpAeHebQEh	192.168.93.10	1032	66.40.10.194	80	tcp	http	0.220108	292	667	SF	-	0	ShADadfF	5	500	5	875	(empty)
+1321558099.45467	CkDAkr1sppJrEbSrL1	192.168.93.10	1035	66.40.10.194	80	tcp	http	0.161046	315	615	SF	-	0	ShADadfF	5	523	5	823	(empty)
+1321558097.968335	CsGCee4zunxggOn8dg	192.168.93.10	1029	4.2.2.3	53	udp	dns	1.449968	54	86	SF	-	0	Dd	2	110	2	142	(empty)
+1321558099.183938	ClvNYfPSHg7JmN9e7	192.168.93.10	1031	4.2.2.3	53	udp	dns	0.836121	110	456	SF	-	0	Dd	3	194	3	540	(empty)
+1321558097.970502	CRMV4ne59vPNeSHie	192.168.93.10	1030	64.71.34.54	80	tcp	http	9.095441	806	30844	RSTO	-	0	ShADadfR	22	1694	28	31972	(empty)
+1321558099.442176	CtUt4M27tiKfClpaLj	192.168.93.10	1034	188.72.201.29	80	tcp	http	18.720724	317	756	RSTO	-	0	ShADadfR	6	565	5	964	(empty)
+1321558081.917591	CxzYZA2pQlaJyypoxi	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000880	626	0	S0	-	0	D	2	682	0	0	(empty)
+1321558100.021058	CxVAur3x5VKGE5dS6c	192.168.93.10	1036	91.230.111.10	80	tcp	http	42.045703	1494	831362	S1	-	0	ShADad	355	15702	581	854610	(empty)
+1321558143.422871	CqhRkW3v49toQiAIK8	192.168.93.10	1046	91.230.111.9	80	tcp	http	0.405655	148	316	S1	-	0	ShADad	4	316	3	444	(empty)
+1321558099.247306	C2PhRQ19muBDfKOzp5	192.168.93.10	1033	74.125.229.69	80	tcp	http	0.502869	880	7533	S1	-	0	ShADad	9	1248	9	7901	(empty)
+1321558100.228069	CXvqGGIkVCbWVkNXa	192.168.93.10	1039	239.255.255.250	1900	udp	-	7.376713	399	0	S0	-	0	D	3	483	0	0	(empty)
+1321558081.917912	CoPkFk2O3FNbWYLyJ6	192.168.93.10	68	192.168.93.1	67	udp	dhcp	12.776684	314	900	SF	-	0	dD	1	342	3	984	(empty)
+#close	2014-04-03-10-21-40

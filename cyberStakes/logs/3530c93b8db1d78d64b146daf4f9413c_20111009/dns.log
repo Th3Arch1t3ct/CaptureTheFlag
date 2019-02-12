@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-01-42
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1318187373.654456	CV9W96YV286Ka0iEb	192.168.122.10	1029	4.2.2.3	53	udp	21647	gpinvest.co.za	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	41.204.200.10	7179.000000	F
+1318187377.049728	CV9W96YV286Ka0iEb	192.168.122.10	1029	4.2.2.3	53	udp	65422	fonts.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.67.95	2310.000000,290.000000	F
+1318187377.100452	CV9W96YV286Ka0iEb	192.168.122.10	1029	4.2.2.3	53	udp	22158	themes.googleusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlehosted.l.googleusercontent.com,74.125.159.132	2386.000000,148.000000	F
+1318187379.644981	CV9W96YV286Ka0iEb	192.168.122.10	1029	4.2.2.3	53	udp	28557	www.epromote.co.za	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	41.204.203.36	7200.000000	F
+1318187380.135529	CN1yqH2RmkSwZ7oZv1	192.168.122.10	1040	4.2.2.3	53	udp	7820	bgfgdf.freeddns.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.66.209	31.000000	F
+1318187388.043004	CV9W96YV286Ka0iEb	192.168.122.10	1029	4.2.2.3	53	udp	4747	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	1803.000000,104.000000	F
+1318187388.315963	CV9W96YV286Ka0iEb	192.168.122.10	1029	4.2.2.3	53	udp	31371	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,64.4.52.169	1009.000000,404.000000	F
+1318187388.328081	CN1yqH2RmkSwZ7oZv1	192.168.122.10	1040	4.2.2.3	53	udp	18571	adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.150.16.117	1532.000000	F
+#close	2014-04-03-10-01-42

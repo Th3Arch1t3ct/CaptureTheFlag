@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-09-56-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1372075181.964343	C5IRY4TryW6GoCkJ8	192.168.9.10	1043	173.194.37.98	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1370477383.000000	1383281999.000000	-	-	-	41046bb636c1c368bb96d0fc7e11581b	ok
+1372075183.078025	CxPcMUsMUZlQuwp9i	192.168.9.10	1046	23.64.31.139	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=connect.facebook.net,OU=connect.facebook.net,O=Facebook,L=Palo Alto,ST=CALIFORNIA,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1364843571.000000	1396379571.000000	-	-	-	2942cdfaaaabb681d2cdf960b3fcaaaa	ok
+1372075211.20739	CwqUwP3RlenZZhcybf	192.168.9.10	1142	31.13.69.80	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.facebook.com,O=Facebook\, Inc.,L=Palo Alto,ST=California,C=US	OU=www.verisign.com/CPS Incorp.by Ref. LIABILITY LTD.(c)97 VeriSign,OU=VeriSign International Server CA - Class 3,OU=VeriSign\, Inc.,O=VeriSign Trust Network	1340254800.000000	1388555999.000000	-	-	-	f10b4102a78b5894231109d6d3fbeeb5	ok
+1372075296.832556	CLMoBu1azcmd38Cn47	192.168.9.10	1143	23.64.18.110	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=s-static.ak.facebook.com,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,ST=California,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1363150837.000000	1394686837.000000	-	-	-	8072f767b362050ff6b5555555555554	ok
+1372075395.099964	CpkHJ04YqYPP7L2TBi	192.168.9.10	1157	74.125.229.206	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	100e46c9d265e39ffad2225674aa0df565557281f98a1af01527b94d637d63d8	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1370477383.000000	1383281999.000000	-	-	-	41046bb636c1c368bb96d0fc7e11581b	ok
+1372075395.993863	CvLE3Y6aITJTiSCki	192.168.9.10	1158	23.64.31.139	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	9f727270bb8eb2e9a95c6de1096315df7a21116a1abeebd3b80634017e2e9c44	-	-	-	-	-	-	-	-	-
+1372075417.023849	CKDYxC3GYdRpn4O993	192.168.9.10	1237	31.13.69.80	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	ff54164474711b4d99cb4bc6ddb989c142735e12615e027c84b3171e0ea1bd6e	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-09-56-50

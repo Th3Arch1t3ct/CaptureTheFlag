@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-09-56-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1336977273.098284	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1336977311.057217	CO6jlz4yi9OAl1lixb	192.168.37.10	1061	31.193.12.27	80	bad_HTTP_request	-	F	bro
+1336977311.575462	C040DX3rczIYKzGvXh	192.168.37.10	1066	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336977311.582609	C44vxc3XjBG2s3Qsx3	192.168.37.10	1068	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336977311.684497	CMp6BA1N5q1W6HKuLb	192.168.37.10	1070	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336977311.732006	COv1lw4nfauixiTwH9	192.168.37.10	1072	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336977311.735372	CkBRWg6d62gtEsELf	192.168.37.10	1074	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336977311.804059	CTxvoF3YDjtV1crRP6	192.168.37.10	1076	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336977311.829894	C5J5QSgOy7A9CSdzk	192.168.37.10	1078	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336977311.837656	CN2z3E2S6IquPO2F12	192.168.37.10	1080	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336977311.861507	C933CU18PfH929jIk8	192.168.37.10	1082	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336977311.869024	C9ZdDU2Jw32yI8hzjj	192.168.37.10	1085	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336977311.872305	Cv5qH91hPrM4Iw0Sy5	192.168.37.10	1087	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336977311.896088	ChzU8E31GbboAIrqRf	192.168.37.10	1089	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336977312.094751	C1b6EF4oOvfjLvOs4b	192.168.37.10	1091	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336977312.148359	CH1b18kD0Prqi80oa	192.168.37.10	1093	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336977316.866576	CTSGcw2mXnX7WEh6al	192.168.37.10	1225	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336977316.868213	CTVTZo4cEtTYGBuJh6	192.168.37.10	1227	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+#close	2014-04-03-09-57-00

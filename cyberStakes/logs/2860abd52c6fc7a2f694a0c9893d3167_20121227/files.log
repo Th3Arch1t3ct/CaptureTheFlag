@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-55-31
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1356649398.094644	FN9OHF33LYwgXar1Q2	93.170.52.21	192.168.52.10	C6MC5M11ERllxmpYVh	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	1128	-	0	0	F	-	6347659fc2a87d5de12dd478371dbf26	8664a552fe99239635b4fdeab03adb1d4faeab39	-	-
+1356649398.426833	FOb9NE2ACzmTevT8nh	74.125.134.100	192.168.52.10	CvINR23OnYdVk23Aal	HTTP	0	SHA1,MD5	text/plain	-	0.010878	-	F	37362	-	0	0	F	-	f5592eabae33f8499d067344f1f42183	142a9875c4bd7e15ce6ac8b5bb181fb29ed08ba5	-	-
+1356649398.539748	F0KmRx4ExLZjEvl5ib	74.125.134.100	192.168.52.10	CvINR23OnYdVk23Aal	HTTP	0	SHA1,MD5	image/gif	-	0.000000	-	F	35	35	0	0	F	-	28d6814f309ea289f847c69cf91194c6	0f4e929dd5bb2564f7ab9c76338e04e292a42ace	-	-
+1356649400.369971	FvmGD03oJ5uUwSaXY1	195.64.155.34	192.168.52.10	CKVovl2eHtcisBIBcg	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	160	160	0	0	F	-	ba15642bf39aaf293060036a89576904	da19c88713d84ae98eb1150372e218f76da447a6	-	-
+1356649401.172416	FRkgnjAEZNjqGObO3	195.3.143.42	192.168.52.10	C8a4vk4XdhEOp8TiW	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	161	-	0	0	F	-	82d7993071d80f9d273a9923a12a281f	a23eb4c5b4948136f5bb1e3d992d3ebd2403d77e	-	-
+1356649401.781072	FbssSJ31frb1VB5iUc	195.3.143.42	192.168.52.10	Cf276h2kKTIcgNsYO3	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	161	-	0	0	F	-	82d7993071d80f9d273a9923a12a281f	a23eb4c5b4948136f5bb1e3d992d3ebd2403d77e	-	-
+1356649401.96136	FyFCon6TmrYQqurIg	195.3.143.42	192.168.52.10	C8a4vk4XdhEOp8TiW	HTTP	0	SHA1,MD5	text/html	-	0.000022	-	F	3774	-	0	0	F	-	037534e8459fcfab98eef53d549de7cb	89e320eaf3fd2a284bc0c02c20577f7094e42a58	-	-
+1356649402.157336	FSnwqhVztkdR2THOl	107.14.43.208	192.168.52.10	CfA8hiJuhOpHCQbz5	HTTP	0	SHA1,MD5	image/png	-	0.000000	-	F	2349	2349	0	0	F	-	ce404e2f475dbf547ee8195dac0eff0a	3eb3390ad49e78b3e872aaf154256496e132e9f3	-	-
+1356649402.196276	FPqMRM38FQG5Zun9b	208.131.138.217	192.168.52.10	CwYmqE1Aa9IzkY3tO8	HTTP	0	SHA1,MD5	application/x-dosexec	IamFunnyJPG.exe	0.066460	-	F	33580	93555	0	0	F	-	8be5a4a91b78491b65566ccc7efc992c	3495bd04bc169159a68353231368bbd3b079ee6f	-	-
+1356649402.283432	F8FUsq30AehQJ7YeY1	195.3.143.42	192.168.52.10	C1ysop4zpcwH2tEQJd	HTTP	0	SHA1,MD5	image/gif	-	0.000000	-	F	120	120	0	0	F	-	ccc25d7f7a4ed54589c2623511b9d107	3b306f6a094b4067a00a7d16136afcd2b063c430	-	-
+#close	2014-04-03-10-55-31

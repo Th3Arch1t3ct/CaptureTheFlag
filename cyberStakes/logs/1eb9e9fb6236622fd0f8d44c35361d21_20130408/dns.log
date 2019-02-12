@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-09-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1365383346.961316	CVbIKt3yy4VuVggk35	192.168.98.10	1029	4.2.2.3	53	udp	44177	riedimed.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.169.145.150	7200.000000	F
+1365383376.790176	Cd1nDd21fUyvVjuoNl	192.168.98.10	1029	4.2.2.3	53	udp	13459	fcbarcelonadodocom.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	108.162.199.226,108.162.198.226	300.000000,300.000000	F
+1365383377.197548	Cd1nDd21fUyvVjuoNl	192.168.98.10	1029	4.2.2.3	53	udp	3220	www.lamasyestanterias.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	lamasyestanterias.com,77.72.201.6	86400.000000,86400.000000	F
+1365383379.816813	Cd1nDd21fUyvVjuoNl	192.168.98.10	1029	4.2.2.3	53	udp	37525	6d61c5cd.linkbucks.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	lex-in.linkbucks.com,199.59.167.109	150.000000,300.000000	F
+1365383380.043527	Cd1nDd21fUyvVjuoNl	192.168.98.10	1029	4.2.2.3	53	udp	9366	static.linkbucks.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wac.45ee.edgecastcdn.net,gs1.wac.v4cdn.net,93.184.216.169	60.000000,1824.000000,2309.000000	F
+1365383380.202149	Cd1nDd21fUyvVjuoNl	192.168.98.10	1029	4.2.2.3	53	udp	6295	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,173.194.37.66,173.194.37.68,173.194.37.73,173.194.37.65,173.194.37.69,173.194.37.64,173.194.37.72,173.194.37.67,173.194.37.70,173.194.37.78,173.194.37.71	80620.000000,42.000000,42.000000,42.000000,42.000000,42.000000,42.000000,42.000000,42.000000,42.000000,42.000000,42.000000	F
+1365383380.209085	Cd1nDd21fUyvVjuoNl	192.168.98.10	1029	4.2.2.3	53	udp	64664	www.linkbucksmedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.59.167.109	300.000000	F
+1365383380.345804	Cd1nDd21fUyvVjuoNl	192.168.98.10	1029	4.2.2.3	53	udp	21146	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.d.akamai.net,23.67.61.131,23.67.61.114	25433.000000,93.000000,659.000000,20.000000,20.000000	F
+1365383380.402878	Cd1nDd21fUyvVjuoNl	192.168.98.10	1029	4.2.2.3	53	udp	30876	www.down1oads.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	down1oads.com,78.138.127.87	1800.000000,1800.000000	F
+1365383380.835023	Cd1nDd21fUyvVjuoNl	192.168.98.10	1029	4.2.2.3	53	udp	53661	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.130.95	3051.000000,262.000000	F
+1365383388.048201	Cd1nDd21fUyvVjuoNl	192.168.98.10	1029	4.2.2.3	53	udp	63646	download.softiglu.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.138.127.87	1800.000000	F
+1365383388.42235	Cd1nDd21fUyvVjuoNl	192.168.98.10	1029	4.2.2.3	53	udp	41118	static.bicdn.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	download.betterinstaller.com,betterinstaller.com,78.138.97.8	147.000000,147.000000,147.000000	F
+#close	2014-04-03-10-09-55

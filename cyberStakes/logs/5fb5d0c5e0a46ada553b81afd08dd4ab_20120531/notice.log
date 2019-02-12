@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-18-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1338466463.399117	CYF8Bb1iRSCbojbRwa	192.168.103.10	1062	37.59.198.61	80	FPjVlr1CsLyWo3EFyb	application/x-dosexec	http://defjowelt.org/?5e94ff3af25b19ea7e8cbab0a64970e5	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-06-03 01:41:17	https://www.virustotal.com/en/search/?query=4e9aff3393be662cf33c76c46cb2c66312c4564f	192.168.103.10	37.59.198.61	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1338466463.399117	CMIcJcsdFBQLSgCid	192.168.103.10	1065	37.59.198.61	80	FrUc2p1VLuxcOcMl0h	application/x-dosexec	http://defjowelt.org/?7f201273830bc5a3646e461366a2680e	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-06-03 01:41:17	https://www.virustotal.com/en/search/?query=4e9aff3393be662cf33c76c46cb2c66312c4564f	192.168.103.10	37.59.198.61	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1338466463.559692	ChOLox1HeecrhBoTt9	192.168.103.10	1067	37.59.198.61	80	FBasqd4pYK7tNO3Gmd	application/x-dosexec	http://defjowelt.org/?937d905541e89cdd79a81fc6e1719c53	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2012-06-02 10:48:55	https://www.virustotal.com/en/search/?query=d70e1cd9ec27131909f3183ca9c3076781373197	192.168.103.10	37.59.198.61	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1338466463.879052	CnguvaRmE0K97v8dc	192.168.103.10	1061	195.210.47.109	80	FBXMm02rkz4Qmtnfgj	application/x-dosexec	http://navozmi.ipq.co/f/1100.exe?ts=4ca0eab1&affid=5695	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-06-01 16:00:56	https://www.virustotal.com/en/search/?query=85bc2cc86e7c49ef4b35dbc7e118715cb82cde2f	192.168.103.10	195.210.47.109	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-18-48

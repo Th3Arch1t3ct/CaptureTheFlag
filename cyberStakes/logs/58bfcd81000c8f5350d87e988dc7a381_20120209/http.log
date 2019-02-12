@@ -1,0 +1,30 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-40-27
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1328787220.089552	CMyNMa3A2uNTWDjIa8	192.168.72.10	1030	64.37.52.42	80	1	GET	erikareineke.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7571	200	OK	-	-	-	(empty)	-	-	-	-	-	FANxEx2pVhqV3usEg2	application/xml
+1328787220.296489	Cxgpno4ibl0JtwJPU7	192.168.72.10	1031	64.202.189.170	80	1	GET	htpcapital.com	/main.php?page=98d3bf6d08596d13	http://erikareineke.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	-	-
+1328787220.373486	CQUtX8bjVgkUz5ftf	192.168.72.10	1033	74.125.157.147	80	1	GET	google.com	/main.php?page=98d3bf6d08596d13	http://erikareineke.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	249	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FENpVHmTtTwqGbEzi	text/html
+1328787220.392644	CiNgx5N6Fm0VtGF3d	192.168.72.10	1034	74.125.47.105	80	1	GET	www.google.com	/main.php?page=98d3bf6d08596d13	http://erikareineke.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	961	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FLEDZS27fUCtUhu4xg	text/html
+1328787220.424176	CiNgx5N6Fm0VtGF3d	192.168.72.10	1034	74.125.47.105	80	2	GET	www.google.com	/images/errors/logo_sm.gif	http://www.google.com/main.php?page=98d3bf6d08596d13	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3972	200	OK	-	-	-	(empty)	-	-	-	-	-	FAg1v91wkWZBe48bF2	image/gif
+1328787220.369212	CJ8cXk4BWsLi8GF7Jf	192.168.72.10	1032	98.124.199.1	80	1	GET	karenbrowntx.com	/	http://erikareineke.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	180	302	Object moved	-	-	-	(empty)	-	-	-	-	-	FrnSqnBU4GbdnXbAf	text/html
+1328787220.640407	C4YIkKzXRR4RfBIjd	192.168.72.10	1035	209.135.132.62	80	1	GET	qw.regionredbirds.com	/main.php?page=f01569c984bcc11c	http://erikareineke.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	81657	200	OK	-	-	-	(empty)	-	-	-	-	-	F8QrcY27Y5BxyIIyma	text/html
+1328787231.748252	C4YIkKzXRR4RfBIjd	192.168.72.10	1035	209.135.132.62	80	2	GET	qw.regionredbirds.com	/w.php?f=16&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	202240	200	OK	-	-	-	(empty)	-	-	-	-	-	FKYafb1bYceun6ABSd	application/x-dosexec
+1328787233.049015	C4YIkKzXRR4RfBIjd	192.168.72.10	1035	209.135.132.62	80	3	GET	qw.regionredbirds.com	/content/adp2.php?f=16	http://qw.regionredbirds.com/main.php?page=f01569c984bcc11c	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13095	200	OK	-	-	-	(empty)	-	-	-	-	-	FLJkVn4zpmfyKVo0Sf	application/pdf
+1328787237.846881	C4YIkKzXRR4RfBIjd	192.168.72.10	1035	209.135.132.62	80	4	GET	qw.regionredbirds.com	/content/field.swf	http://erikareineke.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1552	200	OK	-	-	-	(empty)	-	-	-	-	-	FdEttT1F9xyLPtmZhi	application/x-shockwave-flash
+1328787249.529051	CKv92n25cEFc84hMl4	192.168.72.10	1042	209.135.132.62	80	1	GET	qw.regionredbirds.com	/content/rin.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3880	200	OK	-	-	-	(empty)	-	-	-	-	-	FESKoD6IVGNq9f0gg	application/zip
+1328787248.728679	C4YIkKzXRR4RfBIjd	192.168.72.10	1035	209.135.132.62	80	5	GET	qw.regionredbirds.com	/w.php?f=16&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	202240	200	OK	-	-	-	(empty)	-	-	-	-	-	F2eU453NrolcDLx4bl	application/x-dosexec
+1328787242.596292	CxUGiA3lsIjP9vrng4	192.168.72.10	1041	220.195.24.9	80	1	POST	chintoe.ru	/china.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	77	11634	200	OK	-	-	-	(empty)	-	-	-	FfLwPa43DHVANyc51f	text/plain	FhCi4Y1NQJ7yk5zWKa	binary
+1328787271.908042	CnvMTW11rRVKMhKQOk	192.168.72.10	1044	220.195.24.9	80	1	POST	blingcar.ru	/logs311.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	297	128	200	OK	-	-	-	(empty)	-	-	-	Fv4c6I2nUxufOsY8t6	binary	F57zq3imi9wsq6GHc	binary
+1328787276.925369	CGmkjd17YAz301yBJk	192.168.72.10	1045	74.220.219.52	80	1	GET	amosindustries.com	/error.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2610	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FWcO2Rgi64DuEvyo4	text/html
+1328787277.256903	CAXK9c1iC4NVjuV5h2	192.168.72.10	1046	74.220.219.52	80	1	GET	amosindustries.com	/error.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2609	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FueiPD2yD3S2Z4VHM1	text/html
+1328787282.593334	CXQyo738XhJrhcJQb2	192.168.72.10	1047	74.220.219.52	80	1	GET	amosindustries.com	/error.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2610	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FP5J3F3PiGE139Wom5	text/html
+1328787282.88068	CBrZe63joO25lgwoP7	192.168.72.10	1048	74.220.219.52	80	1	GET	amosindustries.com	/error.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2610	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Fagg9G2LDzZypqAGEb	text/html
+1328787271.904943	CdCyMV1gkduoNFU1Mi	192.168.72.10	1043	220.195.24.9	80	1	POST	blingcar.ru	/logs311.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	463	64	200	OK	-	-	-	(empty)	-	-	-	FtW3s33zXVg14gEJX8	binary	FEpCMw1DrEvM2a4p3	binary
+1328787288.234511	CkTYPj4TwVkH57jvz7	192.168.72.10	1049	74.220.219.52	80	1	GET	amosindustries.com	/error.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2609	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FR1Rqr4ADUa3vh7Rxi	text/html
+1328787288.505474	CC2Dpg4GwamKo3uPnf	192.168.72.10	1050	74.220.219.52	80	1	GET	amosindustries.com	/error.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2610	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FIdt8c3I0sHKzK9jsg	text/html
+#close	2014-04-03-10-40-28

@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-59-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1329368676.729416	CcBICN1uQMJonCsJLh	192.168.120.10	1029	4.2.2.3	53	udp	60817	retailtruths.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.35.196.53	14378.000000	F
+1329368676.957517	CcBICN1uQMJonCsJLh	192.168.120.10	1029	4.2.2.3	53	udp	54163	storylootybuz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.190.98.79	1763.000000	F
+1329368731.21331	CIN0dE4UOMnkgMMzmi	192.168.120.10	1029	4.2.2.3	53	udp	6037	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.65.139,74.125.65.100,74.125.65.101,74.125.65.102,74.125.65.113,74.125.65.138	1480.000000,264.000000,264.000000,264.000000,264.000000,264.000000,264.000000	F
+#close	2014-04-03-09-59-51

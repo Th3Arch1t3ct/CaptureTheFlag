@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-05-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1326436852.706482	CViOv9Vm78T8R0oxa	192.168.26.10	1030	87.242.73.96	80	1	GET	tripouttravel.net	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	374	200	OK	-	-	-	(empty)	-	-	-	-	-	FVaWMF1MYw63r6CjU4	text/html
+1326436853.09837	ClOBmC3S7uNX7qXbph	192.168.26.10	1031	188.165.3.30	80	1	GET	kportal11.net	/	http://tripouttravel.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	238	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FzNBbC4Zj9ahhqArvi	text/html
+1326436853.409734	C2gQw92ReZdjEWaMTc	192.168.26.10	1032	94.23.148.66	80	1	GET	nopwinter.info	/?site=11	http://tripouttravel.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	494	200	OK	-	-	-	(empty)	-	-	-	-	-	F2HYuC3VMdAEyS8Akj	text/html
+1326436855.089931	CHGQPN2Vw1sVUlBhx3	192.168.26.10	1038	94.23.148.66	80	1	GET	nopwinter.info	/?dfa5e894c64eaf1daace7b930e28ae2c	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13165	200	OK	-	-	-	(empty)	-	-	-	-	-	F7yToF2kkTkSlY6n1l	application/jar
+1326436855.087903	CnWzpK2ehavulZcu9d	192.168.26.10	1037	94.23.148.66	80	1	GET	nopwinter.info	/?77802c0bef8f9db19f1d8f5b18def781	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11779	200	OK	-	-	-	(empty)	-	-	-	-	-	FGDNVi2flWghLsgepg	application/jar
+1326436855.507237	C6JrfHr3n6wF5VkYg	192.168.26.10	1039	94.23.148.66	80	1	GET	nopwinter.info	/?77802c0bef8f9db19f1d8f5b18def781	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11779	200	OK	-	-	-	(empty)	-	-	-	-	-	FZPHne4GDpixYQtCtc	application/jar
+1326436855.511252	CCAFbf2uBxHXjcPw6a	192.168.26.10	1040	94.23.148.66	80	1	GET	nopwinter.info	/?dfa5e894c64eaf1daace7b930e28ae2c	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13165	200	OK	-	-	-	(empty)	-	-	-	-	-	FEXSocGGOMvw1CnO7	application/jar
+1326436855.980315	Ch8t1I3Ksm6zD7JVOf	192.168.26.10	1041	94.23.148.66	80	1	GET	nopwinter.info	/?dfa5e894c64eaf1daace7b930e28ae2c	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13165	200	OK	-	-	-	(empty)	-	-	-	-	-	FBFvAz11uFcRtqf8Al	application/jar
+1326436856.119662	CnVCq8velrkvdp7I	192.168.26.10	1042	94.23.148.66	80	1	GET	nopwinter.info	/?77802c0bef8f9db19f1d8f5b18def781	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11779	200	OK	-	-	-	(empty)	-	-	-	-	-	FhYX9j4u8i2pZGGHfl	application/jar
+1326436856.433055	COClgm3yoqzOoi7ih7	192.168.26.10	1043	94.23.148.66	80	1	GET	nopwinter.info	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FCCmzu4LkCJ9emPbQg	text/html
+1326436856.639912	CWh6Sj499V9Aw1FPDj	192.168.26.10	1044	94.23.148.66	80	1	GET	nopwinter.info	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Fq2QpmgD7GqgTbe31	text/html
+1326436856.843523	CbmgnG1kTUwcQ1bZ3g	192.168.26.10	1045	94.23.148.66	80	1	GET	nopwinter.info	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FUHKC01A3mQ0semrn6	text/html
+1326436857.057983	CAebN4TaRoqHCTaX	192.168.26.10	1046	94.23.148.66	80	1	GET	nopwinter.info	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FrPoOFZqn1WawY5ll	text/html
+1326436857.51172	C5tUCi30hr82xnflw7	192.168.26.10	1047	94.23.148.66	80	1	GET	nopwinter.info	/?78b6945a062f26041f04a47280385a05	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	454912	200	OK	-	-	-	(empty)	-	-	-	-	-	Fji5hjaZitjbOpHQ4	application/x-dosexec
+1326436857.673753	CRiAeg47AN10oBPSSj	192.168.26.10	1048	94.23.148.66	80	1	GET	nopwinter.info	/?17edf92a65b21b166d5efff3b29a0b7a	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	454912	200	OK	-	-	-	(empty)	-	-	-	-	-	FjOfhT1r0n2gHJlUI3	application/x-dosexec
+1326436859.814878	C6UKJC1PJJfXEMNGD3	192.168.26.10	1049	31.184.237.71	80	1	GET	themakeutlub.com	/up.php?0Q9oBPXEN0uECUgzEJ95RQsbjjrvq1aG3F/2q5sb+kXU2mKa1w==	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1326436860.246825	CewktJ2y171kmVmTfd	192.168.26.10	1050	81.17.24.89	80	1	GET	jaquir.com	/?ylOdR9GQqXquMlTvsmXlkaz1x3Ab/w==	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	360448	200	OK	-	-	-	(empty)	-	-	-	-	-	FWtSth2IRXuEqVR5Vl	binary
+#close	2014-04-03-11-05-08

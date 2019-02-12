@@ -1,0 +1,33 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-33-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1338497930.444582	CSC9xP1XGRMsbMi4H1	192.168.26.10	1030	213.142.141.11	80	1	GET	aksanis.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1595	200	OK	-	-	-	(empty)	-	-	-	-	-	F1Umfx2ERv1VCWA9Ik	text/html
+1338497932.735503	Cc6tYU2V8MbKS7NqXj	192.168.26.10	1036	76.125.219.72	80	1	GET	rycgoka.ru	/count1.php	http://aksanis.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	(empty)	-	-	-	(empty)	-	-	-	-	-	-	-
+1338497933.795001	CYOUE2Dv17UXh1uH7	192.168.26.10	1031	65.60.4.74	80	1	GET	www.ultralang.com	/stats.php	http://aksanis.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1338497934.521492	CE4Rmz417ny42p3NWd	192.168.26.10	1037	188.72.248.168	80	1	GET	qweiosa.tk	/87653516.html	http://aksanis.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	346	200	OK	-	-	-	(empty)	-	-	-	-	-	F6Qjt04bJJSahIwnJ9	text/html
+1338497936.31924	C6mJVh3MOPUbh1UMq5	192.168.26.10	1038	188.72.248.168	80	1	GET	qweiosa.tk	/24842.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	44866	200	OK	-	-	-	(empty)	-	-	-	-	-	FzheY1nodIPOpyfb1	application/zip
+1338497937.347289	C6mJVh3MOPUbh1UMq5	192.168.26.10	1038	188.72.248.168	80	2	GET	qweiosa.tk	/24842.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	44866	200	OK	-	-	-	(empty)	-	-	-	-	-	FH5tXosu1sFbiw2L2	application/zip
+1338497937.812026	C6mJVh3MOPUbh1UMq5	192.168.26.10	1038	188.72.248.168	80	3	GET	qweiosa.tk	/24842.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	44866	200	OK	-	-	-	(empty)	-	-	-	-	-	FKthCi4qePqLhq5YM2	application/zip
+1338497938.327102	C6mJVh3MOPUbh1UMq5	192.168.26.10	1038	188.72.248.168	80	4	GET	qweiosa.tk	/1.html	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	41472	200	OK	-	-	-	(empty)	-	-	-	-	-	FcTH2ZYR7nvR3exP2	application/x-dosexec
+1338497956.430595	CkRw0RMvVq4f3nm4a	192.168.26.10	1039	188.72.248.168	80	1	GET	188.72.248.168	/852724.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	176640	200	OK	-	-	-	(empty)	-	-	-	-	-	FwZapy2oHIBRp6slC3	binary
+1338497960.420348	CkRw0RMvVq4f3nm4a	192.168.26.10	1039	188.72.248.168	80	2	GET	188.72.248.168	/852724.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	446464	200	OK	-	-	-	(empty)	-	-	-	-	-	FyOHYkNKkcbKHs7kc	binary
+1338497967.586685	CkRw0RMvVq4f3nm4a	192.168.26.10	1039	188.72.248.168	80	3	GET	188.72.248.168	/852724.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	129536	200	OK	-	-	-	(empty)	-	-	-	-	-	FowcUb3dXb1rUnJm7h	binary
+1338497970.730902	CkRw0RMvVq4f3nm4a	192.168.26.10	1039	188.72.248.168	80	4	GET	188.72.248.168	/852724.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	163840	200	OK	-	-	-	(empty)	-	-	-	-	-	FxIbP6pscu3MFPll1	binary
+1338497975.225258	CkRw0RMvVq4f3nm4a	192.168.26.10	1039	188.72.248.168	80	5	GET	188.72.248.168	/852724.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	491074	200	OK	-	-	-	(empty)	-	-	-	-	-	Fm3TkX2kiPFRKHHLVa	binary
+1338497987.685117	CkRw0RMvVq4f3nm4a	192.168.26.10	1039	188.72.248.168	80	6	GET	188.72.248.168	/852724.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	79328	200	OK	-	-	-	(empty)	-	-	-	-	-	F939nB3iMw9dN6ne4l	binary
+1338497988.901989	CkRw0RMvVq4f3nm4a	192.168.26.10	1039	188.72.248.168	80	7	GET	188.72.248.168	/852724.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	666	200	OK	-	-	-	(empty)	-	-	-	-	-	FumOqB43tCE6kpriC8	binary
+1338497989.466238	C0lcI5ZYRBbblbh98	192.168.26.10	1041	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	29	200	OK	-	-	-	(empty)	-	-	-	-	-	FjSAXV26UlaAEOWfBl	text/plain
+1338497989.721679	CYE8Jr1ALEoJ9M0DOg	192.168.26.10	1042	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1338497989.725288	CmEBQM2gxnWccbQ5cd	192.168.26.10	1044	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=2&d=7&s=121	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1338497989.736883	CyTXDy33unylBcU8K6	192.168.26.10	1046	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=3&d=7&s=131	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1338497989.74108	CuqljoypB4eFjRuG8	192.168.26.10	1048	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=4&d=7&s=1	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1338497989.743304	Cu4fj91fLRXnPIgYhf	192.168.26.10	1050	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=5&d=7&s=20	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1338497989.847465	CWZ3Dh4A3OzE2Kk0Ed	192.168.26.10	1053	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=6&d=7&s=21	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1338497989.864644	C41ZIB3bGUkCM7YWk6	192.168.26.10	1056	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=7&d=7&s=30	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1338497989.879584	Car1GkWxGE7PLU5s8	192.168.26.10	1059	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=8&d=7&s=31	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-10-33-58

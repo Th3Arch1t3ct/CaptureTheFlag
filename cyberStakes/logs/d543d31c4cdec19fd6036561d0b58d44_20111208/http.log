@@ -1,0 +1,35 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-32-27
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1323334448.218324	CkGqxn3H9htZqwouW3	192.168.78.10	1030	217.73.239.8	80	1	GET	fratelli-napoli.it	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6751	200	OK	-	-	-	(empty)	-	-	-	-	-	FlAHkb3XdFvfNzsyKj	text/html
+1323334448.976026	Cf1eMe3LYHU363kaIg	192.168.78.10	1031	81.176.236.12	80	1	GET	sh1090.ru	/wp-content/plugins/menu/code.js	http://fratelli-napoli.it/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	137	200	OK	-	-	-	(empty)	-	-	-	-	-	F9SkN52yMxQoTjrUql	text/plain
+1323334449.511146	CK1kfj1WYGEusnEjL9	192.168.78.10	1034	188.40.70.29	80	1	GET	systemcode.ch.tf	/system/codice.js	http://fratelli-napoli.it/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1323334449.966843	CiBAGt4m9eqGkuIbAb	192.168.78.10	1037	188.40.70.29	80	1	GET	www.alpennic.com	/	http://fratelli-napoli.it/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1323334450.097598	CiBAGt4m9eqGkuIbAb	192.168.78.10	1037	188.40.70.29	80	2	GET	www.alpennic.com	/us/start/	http://fratelli-napoli.it/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	26183	200	OK	-	-	-	(empty)	-	-	-	-	-	FTeUkx1JNOdT2hSDdk	text/html
+1323334450.379832	CkGqxn3H9htZqwouW3	192.168.78.10	1030	217.73.239.8	80	2	GET	fratelli-napoli.it	/Senza titolo-1.jpg	http://fratelli-napoli.it/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	15923	200	OK	-	-	-	(empty)	-	-	-	-	-	FbrZAg1aftb4ZNNGci	image/jpeg
+1323334449.510904	CXUtD53PggAjNAGbMi	192.168.78.10	1033	91.217.153.97	80	1	GET	kupilkoprodb.in	/t/831b84a9c0c99185fdf1dc5591102ca1	http://fratelli-napoli.it/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	44558	200	OK	-	-	-	(empty)	-	-	-	-	-	FqSBk22PKJj4Ogt3Y5	text/html
+1323334450.507528	CyKOcmgVqf8rCEnp8	192.168.78.10	1042	217.73.239.8	80	1	GET	fratelli-napoli.it	/S4300126.jpg	http://fratelli-napoli.it/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	93202	200	OK	-	-	-	(empty)	-	-	-	-	-	F6y7jA49Co2vKpkYpf	image/jpeg
+1323334452.184738	CRsM0D4YQH5Ljm2XVc	192.168.78.10	1043	91.217.153.97	80	1	GET	kupilkoprodb.in	/f/5d4779bc7d66135b507d0bc3fdb6468e/5	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	165888	200	OK	-	-	-	(empty)	-	-	-	-	-	F5ytVh2oo57M9SRCY1	application/x-dosexec
+1323334454.226243	CRsM0D4YQH5Ljm2XVc	192.168.78.10	1043	91.217.153.97	80	2	GET	kupilkoprodb.in	/images/np/5d4779bc7d66135b507d0bc3fdb6468e.pdf	http://kupilkoprodb.in/t/831b84a9c0c99185fdf1dc5591102ca1	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	517	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F4N2tGEF4iAeSDdph	text/html
+1323334457.217891	CMw19dMrhCPosO1ta	192.168.78.10	1044	91.217.153.97	80	1	GET	kupilkoprodb.in	/images/r/5d4779bc7d66135b507d0bc3fdb6468e.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	2527	200	OK	-	-	-	(empty)	-	-	-	-	-	FsAhlj3492ppUVYHb7	application/jar
+1323334457.215423	ChPROb4ukMdYj4e1ri	192.168.78.10	1045	91.217.153.97	80	1	GET	kupilkoprodb.in	/images/5d4779bc7d66135b507d0bc3fdb6468e.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5538	200	OK	-	-	-	(empty)	-	-	-	-	-	FLe54nqtGPA2L4YAa	application/jar
+1323334457.370084	CMw19dMrhCPosO1ta	192.168.78.10	1044	91.217.153.97	80	2	GET	kupilkoprodb.in	/images/r/5d4779bc7d66135b507d0bc3fdb6468e.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	2527	200	OK	-	-	-	(empty)	-	-	-	-	-	FAsY172gWsPNpJUaSd	application/jar
+1323334457.489171	ChPROb4ukMdYj4e1ri	192.168.78.10	1045	91.217.153.97	80	2	GET	kupilkoprodb.in	/images/5d4779bc7d66135b507d0bc3fdb6468e.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5538	200	OK	-	-	-	(empty)	-	-	-	-	-	FrdHg443aZ8g9w3xUg	application/jar
+1323334460.294938	ChrFqs3ajSgigUe6A3	192.168.78.10	1046	91.217.153.97	80	1	GET	kupilkoprodb.in	/images/r/5d4779bc7d66135b507d0bc3fdb6468e.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	2527	200	OK	-	-	-	(empty)	-	-	-	-	-	F8iSgM9iJsHYVZFag	application/jar
+1323334460.487031	ChrFqs3ajSgigUe6A3	192.168.78.10	1046	91.217.153.97	80	2	GET	kupilkoprodb.in	/t/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1323334460.380654	Cfd1cG1OHIiPV3ofg4	192.168.78.10	1048	91.217.153.97	80	1	GET	kupilkoprodb.in	/images/5d4779bc7d66135b507d0bc3fdb6468e.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5538	200	OK	-	-	-	(empty)	-	-	-	-	-	FZQ4yJ1tvVshtVgypi	application/jar
+1323334460.323437	CQ7bXi3U7ujqrKEf5h	192.168.78.10	1047	194.186.88.59	80	1	GET	reimetersdo.nightmail.ru	/profi.bin	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	110429	200	OK	-	-	-	(empty)	-	-	-	-	-	FPJCdv34jLNsaA2C56	binary
+1323334465.297045	CBxi2f1v8dotmkds7a	192.168.78.10	1050	91.217.153.97	80	1	GET	kupilkoprodb.in	/t/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1323334465.444586	CBxi2f1v8dotmkds7a	192.168.78.10	1050	91.217.153.97	80	2	GET	kupilkoprodb.in	/t/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1323334465.581372	CBxi2f1v8dotmkds7a	192.168.78.10	1050	91.217.153.97	80	3	GET	kupilkoprodb.in	/t/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1323334465.29543	CwGZZ93ugdLIdpQo8j	192.168.78.10	1049	91.217.153.97	80	1	GET	kupilkoprodb.in	/f/5d4779bc7d66135b507d0bc3fdb6468e/3	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	165888	200	OK	-	-	-	(empty)	-	-	-	-	-	FNFgNi4eVU4Atvu832	application/x-dosexec
+1323334465.751868	CBxi2f1v8dotmkds7a	192.168.78.10	1050	91.217.153.97	80	4	GET	kupilkoprodb.in	/f/5d4779bc7d66135b507d0bc3fdb6468e/4	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	165888	200	OK	-	-	-	(empty)	-	-	-	-	-	FnsWUI3C0j026MQ1Hk	application/x-dosexec
+1323334490.19928	CgV6E83sC4Q88qtr9	192.168.78.10	1051	74.125.157.104	80	1	GET	www.google.com	/webhp	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	16070	200	OK	-	-	-	(empty)	-	-	-	-	-	Fyi77wBVhFd92jOc3	text/html
+1323334490.285595	C6FCLzDf2E1iN8hVb	192.168.78.10	1053	174.37.49.133	80	1	POST	alphaorange.net	/images/ext/red.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	293	64	200	OK	-	-	-	(empty)	-	-	-	FsBdTx1RemFAeyb6Tc	binary	Fmlvsx18oMklMB3Ci7	binary
+1323334490.288655	CzSmnp4vhCYS4vrTdb	192.168.78.10	1052	174.37.49.133	80	1	POST	alphaorange.net	/images/ext/red.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	389	64	200	OK	-	-	-	(empty)	-	-	-	F9krbY2PU3WkGdnVZb	binary	FLzTHp1yiSxXP09qtc	binary
+#close	2014-04-03-10-32-28

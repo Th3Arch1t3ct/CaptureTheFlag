@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-04-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1390933690.97026	CkaOnS3GP6shWipz9j	192.168.45.10	1032	4.2.2.3	53	udp	20915	blackbigmilfs.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	75.126.86.175	30.000000	F
+1390933691.191166	CkaOnS3GP6shWipz9j	192.168.45.10	1032	4.2.2.3	53	udp	28849	5a.13f62e.78eb.bdc97.25ff29c.828b05.23.lvrogvvm.suitingwishs.pw	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.189.100	30.000000	F
+1390933700.277457	CkaOnS3GP6shWipz9j	192.168.45.10	1032	4.2.2.3	53	udp	2992	microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	65.55.58.201,64.4.11.37	942.000000,942.000000	F
+1390933703.848847	CkaOnS3GP6shWipz9j	192.168.45.10	1032	4.2.2.3	53	udp	43702	google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.125.239.2,74.125.239.7,74.125.239.1,74.125.239.6,74.125.239.0,74.125.239.8,74.125.239.4,74.125.239.3,74.125.239.9,74.125.239.14,74.125.239.5	16.000000,16.000000,16.000000,16.000000,16.000000,16.000000,16.000000,16.000000,16.000000,16.000000,16.000000	F
+#close	2014-04-03-10-04-11

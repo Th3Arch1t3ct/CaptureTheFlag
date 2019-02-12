@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-56-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1356466167.077955	CC3v0g3vqb9eAm7IUa	192.168.3.10	1031	93.170.52.21	80	1	GET	claudiathotelc.tk	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1032	200	OK	-	-	-	(empty)	-	-	-	-	-	FBPZ7Y2rQCQ1qjDbdd	text/html
+1356466167.722767	CVXNcINoP5pL3OzAg	192.168.3.10	1032	74.125.228.1	80	1	GET	www.google-analytics.com	/ga.js	http://claudiathotelc.tk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	37362	200	OK	-	-	-	(empty)	-	-	-	-	-	FWsMI81QIgGK91qHph	text/plain
+1356466167.846134	CVXNcINoP5pL3OzAg	192.168.3.10	1032	74.125.228.1	80	2	GET	www.google-analytics.com	/__utm.gif?utmwv=5.3.8&utms=1&utmn=250872339&utmhn=claudiathotelc.tk&utmcs=utf-8&utmsr=800x600&utmvp=796x475&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=10.0 r32&utmdt=claudiathotelc.tk&utmhid=737345379&utmr=-&utmp=/&utmac=UA-23441223-3&utmcc=__utma=1.408102131.1356480449.1356480449.1356480449.1;+__utmz=1.1356480449.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);&utmu=qh~	http://claudiathotelc.tk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	35	200	OK	-	-	-	(empty)	-	-	-	-	-	FQRyco3odvKiCwUMG7	image/gif
+1356466167.884153	C7cFFN2Hkbh7HPVoF7	192.168.3.10	1033	195.64.155.34	80	1	GET	ifacebook.com.ua	/?nrv	http://claudiathotelc.tk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	160	200	OK	-	-	-	(empty)	-	-	-	-	-	FzdTkJ3NxaZ5kNKo8g	text/html
+1356466168.764437	CtYHzR6lK02qpnRj	192.168.3.10	1034	195.3.143.42	80	1	GET	facebookimg.makewap.kz	/	http://ifacebook.com.ua/?nrv	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	161	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	FiyVYG1avebou1HpWd	text/html
+1356466169.501162	CssHC81vmTOnV7Wfj	192.168.3.10	1039	195.3.143.42	80	1	GET	facebookimg.makewap.ru	/index.html?rdr=makewap.kz	http://ifacebook.com.ua/?nrv	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	161	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	FQMII22rlkygXjU8le	text/html
+1356466169.642528	CtYHzR6lK02qpnRj	192.168.3.10	1034	195.3.143.42	80	2	GET	facebookimg.makewap.kz	/index.html?sid=4a90182647	http://ifacebook.com.ua/?nrv	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3774	200	OK	-	-	-	(empty)	-	-	-	-	-	FOqG5o2Jkx94hKz8nc	text/html
+1356466170.231948	CyIMzV2HdNbPhlkZX6	192.168.3.10	1042	65.112.54.57	80	1	GET	fbstatic-a.akamaihd.net	/rsrc.php/v2/yX/x/Qq6L1haQrYr.png	http://facebookimg.makewap.kz/index.html?sid=4a90182647	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2349	200	OK	-	-	-	(empty)	-	-	-	-	-	F7bN1v310KRdIt51Ti	image/png
+1356466170.232151	C8uaDo3TPocdRUoWja	192.168.3.10	1040	208.131.138.217	80	1	GET	208.131.138.217	/imagedl11.php	http://facebookimg.makewap.kz/index.html?sid=4a90182647	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13140	200	OK	-	-	-	(empty)	-	-	-	-	-	FqG2Ad4ErAl51cDiC5	application/x-dosexec
+1356466170.232341	Cj7r7a3MF8vQvPsxk	192.168.3.10	1043	195.3.143.42	80	1	GET	makewap.kz	/img/home.gif	http://facebookimg.makewap.kz/index.html?sid=4a90182647	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	120	200	OK	-	-	-	(empty)	-	-	-	-	-	Fj1IkK3wl8EqQOuRx9	image/gif
+#close	2014-04-03-10-56-20

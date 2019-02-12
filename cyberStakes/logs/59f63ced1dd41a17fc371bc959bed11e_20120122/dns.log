@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-27-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1327229740.755525	C57GVg1aEadmmfJ1O8	192.168.1.10	1028	4.2.2.3	53	udp	38015	myaromafusion.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.23.226.107	43181.000000	F
+1327229740.917676	C57GVg1aEadmmfJ1O8	192.168.1.10	1028	4.2.2.3	53	udp	63870	webordermanager.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.124.198.1	3600.000000	F
+1327229740.97825	C57GVg1aEadmmfJ1O8	192.168.1.10	1028	4.2.2.3	53	udp	44669	groupoffers.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.190.44.171	3601.000000	F
+1327229760.691073	C9EOyq2TdBbViJePne	192.168.1.10	1028	4.2.2.3	53	udp	19324	groupoffers.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.190.44.171	3582.000000	F
+1327229774.366329	CDTvNh3Z1Xs1CkHNoc	192.168.1.10	1028	4.2.2.3	53	udp	13692	potvamp.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	210.212.58.161,220.195.24.9,60.19.30.135,118.212.168.131	300.000000,300.000000,300.000000,300.000000	F
+1327229804.933528	Ce2m7ozz8QSVJDoE4	192.168.1.10	1028	4.2.2.3	53	udp	2426	snotarms.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	220.195.24.9,60.19.30.135,118.212.168.131,210.212.58.161	300.000000,300.000000,300.000000,300.000000	F
+#close	2014-04-03-10-27-53

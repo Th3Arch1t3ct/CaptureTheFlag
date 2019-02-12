@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-37-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1331671265.698066	CWW9jVnTmzgaw6Svj	192.168.76.10	1028	4.2.2.3	53	udp	46208	mpcp.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	161.58.148.81	43187.000000	F
+1331671265.99577	CWW9jVnTmzgaw6Svj	192.168.76.10	1028	4.2.2.3	53	udp	40835	labs.verio.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	161.58.46.76	14400.000000	F
+1331671266.075639	CWW9jVnTmzgaw6Svj	192.168.76.10	1028	4.2.2.3	53	udp	45442	adserver01.verio.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	204.202.20.41	14400.000000	F
+1331671266.338597	CWW9jVnTmzgaw6Svj	192.168.76.10	1028	4.2.2.3	53	udp	59266	intezasanpaolo.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.17.122.245	43200.000000	F
+1331671266.438717	CWW9jVnTmzgaw6Svj	192.168.76.10	1028	4.2.2.3	53	udp	43909	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.65.113,74.125.65.138,74.125.65.139,74.125.65.100,74.125.65.101,74.125.65.102	31778.000000,85.000000,85.000000,85.000000,85.000000,85.000000,85.000000	F
+1331671266.778836	CWW9jVnTmzgaw6Svj	192.168.76.10	1028	4.2.2.3	53	udp	55941	housegoa13.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.184.237.26	30.000000	F
+1331671270.629657	CWW9jVnTmzgaw6Svj	192.168.76.10	1028	4.2.2.3	53	udp	18055	housegoa13.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.184.237.26	26.000000	F
+#close	2014-04-03-10-37-54

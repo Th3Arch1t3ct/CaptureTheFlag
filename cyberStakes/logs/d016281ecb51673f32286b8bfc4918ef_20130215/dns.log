@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-06-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1360968901.261992	CqhQkJ3TRKKiQCW86e	192.168.90.10	1029	4.2.2.3	53	udp	48529	turtletraxraceway.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.120.201.250	14400.000000	F
+1360968901.402361	CqhQkJ3TRKKiQCW86e	192.168.90.10	1029	4.2.2.3	53	udp	37008	qevywmuv.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.84.126.191	0.000000	F
+1360968943.421461	CaM1vF4zTKQ4dswQF3	192.168.90.10	1029	4.2.2.3	53	udp	30355	ivqojsaj.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.197.177.20	0.000000	F
+1360968944.864332	CaM1vF4zTKQ4dswQF3	192.168.90.10	1029	4.2.2.3	53	udp	54675	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,64.4.52.169	2518.000000,253.000000	F
+1360968945.003729	CaM1vF4zTKQ4dswQF3	192.168.90.10	1029	4.2.2.3	53	udp	661	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	3600.000000,600.000000	F
+1360968947.439297	C2ZAd32lI0Jji8RUH2	192.168.90.10	1029	4.2.2.5	53	udp	7829	ivqojsaj.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.197.177.20	0.000000	F
+1360968946.442814	CaM1vF4zTKQ4dswQF3	192.168.90.10	1029	4.2.2.3	53	udp	7829	ivqojsaj.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.197.177.20	0.000000	F
+1360968950.409751	C2ZAd32lI0Jji8RUH2	192.168.90.10	1029	4.2.2.5	53	udp	11927	www.limitedmobilityracing.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	limitedmobilityracing.com,75.125.246.210	14400.000000,14400.000000	F
+1360968955.554024	C2ZAd32lI0Jji8RUH2	192.168.90.10	1029	4.2.2.5	53	udp	63639	oxhycsah.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	77.77.29.52	0.000000	F
+1360968948.437956	CaM1vF4zTKQ4dswQF3	192.168.90.10	1029	4.2.2.3	53	udp	7829	ivqojsaj.ru	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1360968948.437956	CaM1vF4zTKQ4dswQF3	192.168.90.10	1029	4.2.2.3	53	udp	7829	ivqojsaj.ru	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+#close	2014-04-03-11-06-05

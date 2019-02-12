@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-59-52
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1332903601.118135	CkHgEM3zZjXVaWaqp1	192.168.43.10	1052	188.190.125.35	80	FLoXik1O0gwFKVWqsl	application/x-shockwave-flash	http://destaewer.in/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 50%  Last seen: 2012-04-01 11:30:29	https://www.virustotal.com/en/search/?query=2fd2cffd811c6331a464b32945cd90e1059dfbf4	192.168.43.10	188.190.125.35	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1332903616.727174	CkHgEM3zZjXVaWaqp1	192.168.43.10	1052	188.190.125.35	80	FVSqSe2YRuZ4ZoQEw2	application/x-shockwave-flash	http://destaewer.in/data/score.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 67%  Last seen: 2012-06-01 09:33:23	https://www.virustotal.com/en/search/?query=a063ee5cef01c24568e9e3d0395cb1dfb226414f	192.168.43.10	188.190.125.35	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-59-52

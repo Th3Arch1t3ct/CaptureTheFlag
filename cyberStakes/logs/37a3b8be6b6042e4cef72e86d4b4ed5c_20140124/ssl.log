@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-09-55-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1390594110.9757	CNwtBx1TQ6OI7WDke6	192.168.49.10	1056	184.84.222.137	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=a248.e.akamai.net,O=Akamai Technologies\, Inc.,L=Cambridge,ST=MA,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1374052540.000000	1405588540.000000	-	-	-	d1880a3900fe7baf2222276d095226e7	ok
+#close	2014-04-03-09-55-07

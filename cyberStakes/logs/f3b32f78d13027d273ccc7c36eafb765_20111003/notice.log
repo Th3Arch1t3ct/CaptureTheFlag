@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-31-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1317609419.216168	CDa6N877XROxUZ1Fk	192.168.118.10	1052	95.163.66.209	80	FVeV7kZcvrxKStb69	application/jar	http://tuge.myz.info/showthread.php?t=49281	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 68%  Last seen: 2012-12-01 04:31:09	https://www.virustotal.com/en/search/?query=ca641aeaf0578efb0bdd96bb8fac350d348f7221	192.168.118.10	95.163.66.209	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1317609420.10406	CDa6N877XROxUZ1Fk	192.168.118.10	1052	95.163.66.209	80	FjNiXv3bg490vEi1h2	application/jar	http://tuge.myz.info/showthread.php?t=49281	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 68%  Last seen: 2012-12-01 04:31:09	https://www.virustotal.com/en/search/?query=ca641aeaf0578efb0bdd96bb8fac350d348f7221	192.168.118.10	95.163.66.209	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1317609421.508886	C1KPs23UqJgug0cm77	192.168.118.10	1046	95.163.66.209	80	Fffty53e7SOmG4d467	application/x-dosexec	http://tuge.myz.info/showthread.php?t=1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 11%  Last seen: 2011-10-02 22:00:00	https://www.virustotal.com/en/search/?query=7b2619c97a17ccdb95c3e671bd5c22c2c0d11744	192.168.118.10	95.163.66.209	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1317609421.674878	CDa6N877XROxUZ1Fk	192.168.118.10	1052	95.163.66.209	80	FqJNXX3a3HzR3b86C4	application/jar	http://tuge.myz.info/showthread.php?t=49281	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 68%  Last seen: 2012-12-01 04:31:09	https://www.virustotal.com/en/search/?query=ca641aeaf0578efb0bdd96bb8fac350d348f7221	192.168.118.10	95.163.66.209	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1317609423.574568	CDa6N877XROxUZ1Fk	192.168.118.10	1052	95.163.66.209	80	FapeQ715H8X0E25eL3	application/x-dosexec	http://tuge.myz.info/showthread.php?t=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 11%  Last seen: 2011-10-02 22:00:00	https://www.virustotal.com/en/search/?query=7b2619c97a17ccdb95c3e671bd5c22c2c0d11744	192.168.118.10	95.163.66.209	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-31-36

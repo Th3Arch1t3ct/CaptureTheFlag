@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-17-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1321203871.326453	CzzInC2Fspr8k3Caa2	192.168.62.10	1029	4.2.2.3	53	udp	29587	berghstoop.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.109.108.97	886.000000	F
+1321203871.812471	CzzInC2Fspr8k3Caa2	192.168.62.10	1029	4.2.2.3	53	udp	56720	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.47.95	1175.000000,247.000000	F
+1321203873.06858	CzzInC2Fspr8k3Caa2	192.168.62.10	1029	4.2.2.3	53	udp	26769	api.twitter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.59.149.232,199.59.148.20,199.59.148.87,199.59.149.200	28.000000,28.000000,28.000000,28.000000	F
+1321203874.380134	CzzInC2Fspr8k3Caa2	192.168.62.10	1029	4.2.2.3	53	udp	18583	satdifnyet.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.81.254.159,177.78.239.236	1.000000,1.000000	F
+1321203882.214497	CzzInC2Fspr8k3Caa2	192.168.62.10	1029	4.2.2.3	53	udp	61588	satdifnyet.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	189.200.180.42,200.126.159.105	1.000000,1.000000	F
+#close	2014-04-03-10-17-59

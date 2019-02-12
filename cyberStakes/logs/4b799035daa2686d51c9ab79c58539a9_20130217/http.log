@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-40-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1361070540.323161	Chegd03HJNTYekVYq1	192.168.123.10	1030	192.31.186.144	80	1	GET	wepurchaseusediphones.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	769	200	OK	-	-	-	(empty)	-	-	-	-	-	FbERU33k3eo7f66Hvh	text/html
+1361070540.586218	CHwFcm3w0FwdY81Tpf	192.168.123.10	1031	46.183.217.137	80	1	GET	46.183.217.137	/million/named_how-entitles.php	http://wepurchaseusediphones.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	124208	200	OK	-	-	-	(empty)	-	-	-	-	-	F2b0Vp4aEROSgP5AMh	text/html
+1361070562.522565	CKvpdk3ZyRVfIguTdf	192.168.123.10	1032	64.4.52.169	80	1	POST	activex.microsoft.com	/objects/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	F98C6d4iph4PViFqSg	text/plain	F1mXDi2jSFDJItSna9	text/plain
+1361070562.742037	CVPkOpibLq2ROULn6	192.168.123.10	1033	65.55.13.243	80	1	POST	codecs.microsoft.com	/isapi/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	Fo3vZM2MdMnQjUL4Xe	text/plain	FcQYL42Ge92w9vJQR3	text/plain
+1361070563.035929	C2sder1PfdCT0Gkte6	192.168.123.10	1038	46.183.217.137	80	1	GET	46.183.217.137	/million/named_how-entitles.php?fdzpq=tycyhfn&mviyv=mqn	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13873	200	OK	-	-	-	(empty)	-	-	-	-	-	F8smgm1DMZf1bf3NBd	application/jar
+1361070563.678749	CIvTRn4O1wiYxXeRek	192.168.123.10	1039	46.183.217.137	80	1	GET	46.183.217.137	/million/named_how-entitles.php?sf=1f:31:1n:1l:32&de=1k:1m:1l:1o:2w:31:1i:1g:1o:33&q=1f&nw=i&cj=o	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	76240	200	OK	-	-	-	(empty)	-	-	-	-	-	FehzhC2lNb4qustVai	application/x-dosexec
+1361070568.181615	CHwFcm3w0FwdY81Tpf	192.168.123.10	1031	46.183.217.137	80	2	GET	46.183.217.137	/million/named_how-entitles.php?bqbhn=1f:31:1n:1l:32&dzubf=3i&hhmq=1k:1m:1l:1o:2w:31:1i:1g:1o:33&mdwvj=1o:1d:1g:1d:1f:1d:1f	http://46.183.217.137/million/named_how-entitles.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	11524	200	OK	-	-	-	(empty)	-	-	-	-	-	FSY7qWEKfVZPsAfpj	application/pdf
+1361070568.389069	CxITFo13p5kljYNLml	192.168.123.10	1040	46.183.217.137	80	1	GET	46.183.217.137	/million/named_how-entitles.php?smpac=1f:31:1n:1l:32&xabkp=38:3f:3a:32&wxo=1k:1m:1l:1o:2w:31:1i:1g:1o:33&zvrnefd=tdzyijo	http://wepurchaseusediphones.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1030	200	OK	-	-	-	(empty)	-	-	-	-	-	Fy7SVb3DdCdmf3ujb6	application/x-shockwave-flash
+1361070576.87859	CHwFcm3w0FwdY81Tpf	192.168.123.10	1031	46.183.217.137	80	3	GET	46.183.217.137	/million/named_how-entitles.php?fhmtu=1f:31:1n:1l:32&hbk=1k:1m:1l:1o:2w:31:1i:1g:1o:33&depjzijw=1i&iuhgrari=xkxyzdx&huba=lmlweqy	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	76240	200	OK	-	-	-	(empty)	-	-	-	-	-	FkjCfw1TXbl0H4xcF5	application/x-dosexec
+1361070578.861052	CKbYjC4W1NB63I1qtl	192.168.123.10	1041	165.254.33.24	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1206	200	OK	-	-	-	(empty)	-	-	-	-	-	Fc4Gpp4UUbBYEjRwJa	text/plain
+#close	2014-04-03-10-40-34

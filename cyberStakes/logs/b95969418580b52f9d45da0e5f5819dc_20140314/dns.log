@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-04-23
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1394826514.176707	CGApDr1x11CU4TQKI3	192.168.71.10	1035	4.2.2.3	53	udp	1436	chantingforworldpeace.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.64.181.135	14340.000000	F
+1394826515.269013	CGApDr1x11CU4TQKI3	192.168.71.10	1035	4.2.2.3	53	udp	34462	www.chantingforworldpeace.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	chantingforworldpeace.com,192.64.181.135	14400.000000,14339.000000	F
+1394826515.965532	CGApDr1x11CU4TQKI3	192.168.71.10	1035	4.2.2.3	53	udp	9630	xlolx.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.236.87.219	3600.000000	F
+1394826516.385299	CGApDr1x11CU4TQKI3	192.168.71.10	1035	4.2.2.3	53	udp	1182	www.brainhost.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.64.180.25	500.000000	F
+1394826517.084728	CGApDr1x11CU4TQKI3	192.168.71.10	1035	4.2.2.3	53	udp	671	huatongchuye.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	128.134.244.74	600.000000	F
+1394826519.73201	CFZSxt3y66HC6lk9Pe	192.168.71.10	1072	4.2.2.3	53	udp	53402	24.87a2d9.5a02f.dcef.d0.cc0749.72.f7b21.grihhbxv.hellscan.pw	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.196.50.144	30.000000	F
+1394826519.652782	CGApDr1x11CU4TQKI3	192.168.71.10	1035	4.2.2.3	53	udp	40857	2487a.2d.95a02fd.cefd0cc.074972.f7b2.1.grihhbxv.hellscan.pw	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.196.50.144	30.000000	F
+1394826553.455326	CA2fF53ACAkONGCjDh	192.168.71.10	1072	4.2.2.3	53	udp	32923	machetesraka.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	185.10.56.103	86400.000000	F
+#close	2014-04-03-10-04-23

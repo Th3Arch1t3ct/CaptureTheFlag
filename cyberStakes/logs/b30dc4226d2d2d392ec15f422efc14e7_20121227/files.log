@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-13-17
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1356651943.77068	FHl5Bx3dOa3jBK9WU3	93.170.52.31	192.168.18.10	CBLPfV3zzAHQRN0bj6	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	1128	-	0	0	F	-	9974f33bf7cce88c9617403d11e421ba	38e7c8d929c4c91c0448d9c0d5dd5d7afdb4d445	-	-
+1356651943.806903	FUreGE16TDNQbEZrvc	74.125.139.101	192.168.18.10	Cj5jJ82qjFHvLmVkmh	HTTP	0	SHA1,MD5	text/plain	-	0.002129	-	F	37362	-	0	0	F	-	f5592eabae33f8499d067344f1f42183	142a9875c4bd7e15ce6ac8b5bb181fb29ed08ba5	-	-
+1356651944.139	FqQcUm2NPyqTjDYzo5	74.125.139.101	192.168.18.10	Cj5jJ82qjFHvLmVkmh	HTTP	0	SHA1,MD5	image/gif	-	0.000000	-	F	35	35	0	0	F	-	28d6814f309ea289f847c69cf91194c6	0f4e929dd5bb2564f7ab9c76338e04e292a42ace	-	-
+1356651944.342306	FnbdVP1Opp0exiwDg1	195.64.155.34	192.168.18.10	CnUPdx4Xu9lyBO1Nd5	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	160	160	0	0	F	-	ba15642bf39aaf293060036a89576904	da19c88713d84ae98eb1150372e218f76da447a6	-	-
+1356651944.772071	FoA5v52ueMSDLrbNv9	195.3.143.42	192.168.18.10	Cc6hu1gf5lixXKXrg	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	161	-	0	0	F	-	82d7993071d80f9d273a9923a12a281f	a23eb4c5b4948136f5bb1e3d992d3ebd2403d77e	-	-
+1356651946.152149	FFa4KD4R40mEMeEnvf	195.3.143.42	192.168.18.10	Cjnoo32RWOvTa7XT4g	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	161	-	0	0	F	-	82d7993071d80f9d273a9923a12a281f	a23eb4c5b4948136f5bb1e3d992d3ebd2403d77e	-	-
+1356651946.331849	FqCzXX2BJOkzvZncyb	195.3.143.42	192.168.18.10	Cc6hu1gf5lixXKXrg	HTTP	0	SHA1,MD5	text/html	-	0.000017	-	F	3774	-	0	0	F	-	57e1d19f2212437df918f79fc62b5326	abb3323bb5f5f0cbe08fd8d912dad8a771e687d4	-	-
+1356651946.646906	F4UHeb3YP6YGgj639	208.131.138.217	192.168.18.10	CiQe5t2IUwTOuPL7O4	HTTP	0	SHA1,MD5	application/x-dosexec	IamBitchTIFF.exe	0.028501	-	F	13140	93555	0	0	F	-	51e7eabf90b298e1d068f2f7579177e1	f56220bdd6807f570ad59fd8a8a8559bfd2f0065	-	-
+1356651946.736544	FwvZI22HwhhxyTsQL3	195.3.143.42	192.168.18.10	C48wVE1ZpndxMfxyk	HTTP	0	SHA1,MD5	image/gif	-	0.000000	-	F	120	120	0	0	F	-	ccc25d7f7a4ed54589c2623511b9d107	3b306f6a094b4067a00a7d16136afcd2b063c430	-	-
+#close	2014-04-03-10-13-17

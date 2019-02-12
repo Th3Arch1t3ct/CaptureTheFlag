@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-54-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1336236820.421977	ChU9122XgVD1YPavkl	192.168.79.10	1074	94.75.234.145	80	F13BOg35A2UJbphLTh	application/x-dosexec	http://www.deriola.in/images.php?t=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 50%  Last seen: 2012-05-09 12:31:28	https://www.virustotal.com/en/search/?query=fe29edb002b09f997987d2f22843c96ffdd43a13	192.168.79.10	94.75.234.145	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336236825.057469	CjEa9c3eIsroknlBQb	192.168.79.10	1075	94.75.234.145	80	F0ZaoY1Q9Rxpx56ZS	application/jar	http://www.deriola.in/images.php?t=81234	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2012-05-07 16:16:05	https://www.virustotal.com/en/search/?query=ee7584a2e2c1decd0cb9cc0da9be94253799a550	192.168.79.10	94.75.234.145	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336236825.057469	CjEa9c3eIsroknlBQb	192.168.79.10	1075	94.75.234.145	80	FnIM3S1d94b9u5r72k	application/jar	http://www.deriola.in/images.php?t=81234	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2012-05-07 16:16:05	https://www.virustotal.com/en/search/?query=ee7584a2e2c1decd0cb9cc0da9be94253799a550	192.168.79.10	94.75.234.145	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336236825.057469	CjEa9c3eIsroknlBQb	192.168.79.10	1075	94.75.234.145	80	FJIM6B2NMbUH0xFbGl	application/jar	http://www.deriola.in/images.php?t=81234	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2012-05-07 16:16:05	https://www.virustotal.com/en/search/?query=ee7584a2e2c1decd0cb9cc0da9be94253799a550	192.168.79.10	94.75.234.145	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336236825.479663	CjEa9c3eIsroknlBQb	192.168.79.10	1075	94.75.234.145	80	F30MwC1lV3APQGjcL2	application/jar	http://www.deriola.in/images.php?t=81234	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2012-05-07 16:16:05	https://www.virustotal.com/en/search/?query=ee7584a2e2c1decd0cb9cc0da9be94253799a550	192.168.79.10	94.75.234.145	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336236825.765556	CjEa9c3eIsroknlBQb	192.168.79.10	1075	94.75.234.145	80	FWhCndIAtYsoURCHl	application/x-dosexec	http://www.deriola.in/images.php?t=1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 50%  Last seen: 2012-05-09 12:31:28	https://www.virustotal.com/en/search/?query=fe29edb002b09f997987d2f22843c96ffdd43a13	192.168.79.10	94.75.234.145	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-54-37

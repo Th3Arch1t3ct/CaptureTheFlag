@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-20-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1368221848.43082	CjkIkL2cEPSV6qCj04	192.168.114.10	1030	37.143.13.157	80	1	GET	57catalog.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	93	200	OK	-	-	-	(empty)	-	-	-	-	-	FFoZcMGpow0LEShjd	text/html
+1368221848.972755	CjkIkL2cEPSV6qCj04	192.168.114.10	1030	37.143.13.157	80	2	GET	57catalog.com	/anybeni.php	http://57catalog.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1368221850.418461	CNxW0U2HASpU4NGDA7	192.168.114.10	1031	198.50.187.26	64784	1	GET	jimmyd.wereherol.com	/395f806697b7695517128c3405d142fc.html	http://57catalog.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	60299	200	OK	-	-	-	(empty)	-	-	-	-	-	FRG1e9s1qenuREyCe	text/html
+1368221860.65127	CYAulB2hOx64k7tug6	192.168.114.10	1036	65.55.13.243	80	1	POST	activex.microsoft.com	/objects/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	FpRQBP2mQwL1Ka9gV5	text/plain	FWRDNH1zf4dCn7WcNa	text/plain
+1368221860.98113	Csa2xy4dUyCS3L0b24	192.168.114.10	1037	65.55.13.243	80	1	POST	codecs.microsoft.com	/isapi/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	F2dPgN3W4r8VhSWqjb	text/plain	FSeP9f4OxSB78DNb4l	text/plain
+1368221861.703906	CBokkU2IV5EyEZ7uz7	192.168.114.10	1038	198.50.187.26	64784	1	GET	jimmyd.wereherol.com	/27c571a242b82f3a03266ebbbb242d1d/1368221777/d5f4b4a78ad56eaf1720350c86ffa85d.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12731	200	OK	-	-	-	(empty)	-	-	-	-	-	F8KLrM37zgrpO35hBi	application/jar
+1368221861.874814	CBokkU2IV5EyEZ7uz7	192.168.114.10	1038	198.50.187.26	64784	2	GET	jimmyd.wereherol.com	/27c571a242b82f3a03266ebbbb242d1d/1368221777/d5f4b4a78ad56eaf1720350c86ffa85d.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12731	200	OK	-	-	-	(empty)	-	-	-	-	-	FMlwJd2fNiLGPFh2M3	application/jar
+1368221862.260482	CBokkU2IV5EyEZ7uz7	192.168.114.10	1038	198.50.187.26	64784	3	GET	jimmyd.wereherol.com	/27c571a242b82f3a03266ebbbb242d1d/1368221777/d5f4b4a78ad56eaf1720350c86ffa85d.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12731	200	OK	-	-	-	(empty)	-	-	-	-	-	FhgAfY3VoFEcd8wr6l	application/jar
+1368221862.712645	CBokkU2IV5EyEZ7uz7	192.168.114.10	1038	198.50.187.26	64784	4	GET	jimmyd.wereherol.com	/27c571a242b82f3a03266ebbbb242d1d/1368221777/d5f4b4a78ad56eaf1720350c86ffa85d.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12731	200	OK	-	-	-	(empty)	-	-	-	-	-	FfjJfL1wbh1a4vygq3	application/jar
+1368221867.82224	CBokkU2IV5EyEZ7uz7	192.168.114.10	1038	198.50.187.26	64784	5	GET	jimmyd.wereherol.com	/27c571a242b82f3a03266ebbbb242d1d/1368221777/d5f4b4a78ad56eaf1720350c86ffa85d.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12731	200	OK	-	-	-	(empty)	-	-	-	-	-	FpmO471Rx2edWmWez6	application/jar
+1368221868.21244	CBokkU2IV5EyEZ7uz7	192.168.114.10	1038	198.50.187.26	64784	6	GET	jimmyd.wereherol.com	/f/1368221777/d5f4b4a78ad56eaf1720350c86ffa85d/27c571a242b82f3a03266ebbbb242d1d/2	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	276992	200	OK	-	-	-	(empty)	-	-	-	-	-	F0ptTp4sfOdGHZkKYk	application/x-dosexec
+1368221869.527857	CBokkU2IV5EyEZ7uz7	192.168.114.10	1038	198.50.187.26	64784	7	GET	jimmyd.wereherol.com	/f/1368221777/d5f4b4a78ad56eaf1720350c86ffa85d/27c571a242b82f3a03266ebbbb242d1d/2/2	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-10-20-38

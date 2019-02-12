@@ -1,0 +1,35 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-10-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1321103679.710462	CJkBxE1qrEdMmxEIjf	192.168.102.10	1030	95.168.163.152	80	1	GET	rexstats.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1073	200	OK	-	-	-	(empty)	-	-	-	-	-	FzSj2c31vK10DdqNy5	text/html
+1321103679.991442	CYHnWE1TXeTaVjxD01	192.168.102.10	1032	95.168.163.154	80	1	GET	zxsentex3.in	/in.cgi?7	http://rexstats.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	182	302	Found	-	-	-	(empty)	-	-	-	-	-	FmaZlr2ALeGmJFFRx8	text/html
+1321103679.992301	CtAp9G4YnrMtepj202	192.168.102.10	1031	95.168.163.154	80	1	GET	zxsentex3.in	/in.cgi?12	http://rexstats.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	210	302	Found	-	-	-	(empty)	-	-	-	-	-	FvM4KB1lvfAG0VZb3g	text/html
+1321103680.353435	CZYjDh1nCX0gzRaU0f	192.168.102.10	1033	95.168.163.154	80	1	GET	cvrv.net	/default.cgi	http://rexstats.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	282	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FL9Zgy1ZupIryn6K8g	text/html
+1321103680.466091	CUTaL9454J3wwp10O4	192.168.102.10	1034	188.40.52.46	80	1	GET	dalake87.co.cc	/movie/yogqxoxmg.php	http://rexstats.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3703	200	OK	-	-	-	(empty)	-	-	-	-	-	FtcLej1oAxqYDeqdu4	text/html
+1321103680.878463	CIv7Ee2tFTVfs2tLBc	192.168.102.10	1035	188.40.52.46	80	1	GET	dalake87.co.cc	/movie/xzhpcwhtezasctk.swf	http://dalake87.co.cc/movie/yogqxoxmg.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7123	200	OK	-	-	-	(empty)	-	-	-	-	-	FBszzt1aqA5GMs3Ci7	application/x-shockwave-flash
+1321103680.878716	Chmls54cYAUKsEWCdc	192.168.102.10	1036	188.40.52.46	80	1	GET	dalake87.co.cc	/movie/hvytamcnhmhqdqb.pdf	http://dalake87.co.cc/movie/yogqxoxmg.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13096	200	OK	-	-	-	(empty)	-	-	-	-	-	FFLv5D4Ah9M0d1mfp2	application/pdf
+1321103693.368888	CLzstS1LWPlE4FNufc	192.168.102.10	1041	188.40.52.46	80	1	GET	188.40.52.46	/movie/ko.php?i=8	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	166912	200	OK	-	-	-	(empty)	-	-	-	-	-	F5Ai6fSCJM3TiUO12	application/x-dosexec
+1321103693.880747	CFMoJz3JOg8WDLuJJ3	192.168.102.10	1047	188.40.52.46	80	1	GET	188.40.52.46	/movie/ko.php?i=15	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	166912	200	OK	-	-	-	(empty)	-	-	-	-	-	FPc8wd2P092xF6TzB3	application/x-dosexec
+1321103696.595903	Cmq2jS1KYFhBRMSNI4	192.168.102.10	1048	188.40.52.46	80	1	GET	dalake87.co.cc	/movie/ewevfqxshldth.html	http://dalake87.co.cc/movie/yogqxoxmg.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6018	200	OK	-	-	-	(empty)	-	-	-	-	-	Fg6lgF3PfMJsU7kzD2	text/html
+1321103696.707991	CpcExf26dY7Fjf3Zxc	192.168.102.10	1049	188.40.52.46	80	1	GET	dalake87.co.cc	/movie/hnduhwhtasftazh.pdf	http://dalake87.co.cc/movie/yogqxoxmg.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13385	200	OK	-	-	-	(empty)	-	-	-	-	-	FagzVC4d3Gprn8iHjl	application/pdf
+1321103697.670543	Ceo9364lVccKW9aYt5	192.168.102.10	1050	188.40.52.46	80	1	GET	dalake87.co.cc	/movie/jwcohvklhrhoe.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	17874	200	OK	-	-	-	(empty)	-	-	-	-	-	Fe2ZVn21WExP9Bz7pb	application/jar
+1321103697.713201	CP6OG529i4A3ymTTid	192.168.102.10	1051	188.40.52.46	8080	1	GET	3156751406	/tr/jupiter.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14190	200	OK	-	-	-	(empty)	-	-	-	-	-	FykHPE3PfecV9IEuOe	application/x-java-applet
+1321103697.715616	Ce1CfW32amJJputDxb	192.168.102.10	1052	188.40.52.46	8080	1	GET	3156751406	/tr/jupiter.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14190	200	OK	-	-	-	(empty)	-	-	-	-	-	FvKvyx2C46aRGsGMq6	application/x-java-applet
+1321103697.724077	CPSy9J3AYvOwimE723	192.168.102.10	1053	188.40.52.46	8080	1	GET	3156751406	/tr/jupiter.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14190	200	OK	-	-	-	(empty)	-	-	-	-	-	FeE1PJ38hAchXlE98f	application/x-java-applet
+1321103697.730553	CQkUF12fJsGY8CRayb	192.168.102.10	1054	188.40.52.46	8080	1	GET	3156751406	/tr/jupiter.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14190	200	OK	-	-	-	(empty)	-	-	-	-	-	FRZXzS22z5QgcDOzg4	application/x-java-applet
+1321103697.733622	CIg2YI3ritTvdUhU33	192.168.102.10	1055	188.40.52.46	8080	1	GET	3156751406	/tr/jupiter.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14190	200	OK	-	-	-	(empty)	-	-	-	-	-	FDCqdg1GQZMj1ox99j	application/x-java-applet
+1321103697.740675	CrATd12y5YM4Apz6q5	192.168.102.10	1056	188.40.52.46	8080	1	GET	3156751406	/tr/jupiter.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14190	200	OK	-	-	-	(empty)	-	-	-	-	-	FhE46M3qJlIFHRRr1b	application/x-java-applet
+1321103699.607006	CjI18X3UKdSRFFXxg	192.168.102.10	1057	188.40.52.9	80	1	GET	latex8.info	/logs/adv.bin	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	235	200	OK	-	-	-	(empty)	-	-	-	-	-	FBdqNL1mejOsrLnCIf	binary
+1321103700.463202	CFBkGr1QtVnu0jKTge	192.168.102.10	1058	188.40.52.46	80	1	GET	188.40.52.46	/movie/ko.php?i=13	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	166912	200	OK	-	-	-	(empty)	-	-	-	-	-	FWnfEK3NdITptuukp6	application/x-dosexec
+1321103700.838005	CCV4Nj4DloENHdMP1g	192.168.102.10	1059	188.40.52.46	80	1	GET	188.40.52.46	/movie/ko.php?i=1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	166912	200	OK	-	-	-	(empty)	-	-	-	-	-	F2UpcW2Am1hgHiEyuh	application/x-dosexec
+1321103715.659422	CJ7GOw4DwRo4Dvf4I2	192.168.102.10	1060	188.40.52.46	80	1	OPTIONS	188.40.52.46	/	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1321103715.906966	C2jKCv1iCqRPJk8IZf	192.168.102.10	1061	188.40.52.46	80	1	PROPFIND	188.40.52.46	/smb	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	307	405	Method Not Allowed	-	-	-	(empty)	-	-	-	-	-	FunHtd4AhDq4Ha8Knf	text/html
+1321103730.028803	Ch5WJv1DYrIhoXnFk	192.168.102.10	1062	74.125.159.99	80	1	GET	www.google.com	/webhp	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	20329	200	OK	-	-	-	(empty)	-	-	-	-	-	FHVAXj3vqvsPWwqIg1	text/html
+1321103730.182584	CP6UXi4ESuR2zQDXd1	192.168.102.10	1063	188.40.52.9	80	1	POST	dasex4.info	/stat345.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	274	64	200	OK	-	-	-	(empty)	-	-	-	FwzIzE396Ut1F7JzAb	binary	FRaytg2U4Ek3vLBfG2	binary
+1321103730.182206	CgwDAq1508L5NaLLje	192.168.102.10	1064	188.40.52.9	80	1	POST	dasex4.info	/stat345.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	379	64	200	OK	-	-	-	(empty)	-	-	-	FvNoXs3GoWo1M0bmUb	binary	FuvqVy3KazcKbUxxfc	binary
+#close	2014-04-03-10-10-10

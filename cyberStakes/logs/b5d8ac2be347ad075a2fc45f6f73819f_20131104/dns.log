@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-10-43
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1383607173.740197	CQB1Xo45tHVqN15Mzg	192.168.30.10	1035	4.2.2.3	53	udp	31617	windows.7.a.disk.read.error.occurred.press.ctrl.alt.del.fastpcultimate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.120.204.210	14400.000000	F
+1383607208.552078	CQpCkd1eCP2eRC91T9	192.168.30.10	1035	4.2.2.3	53	udp	46464	www.statcounter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	g1.panthercdn.com,174.35.25.12,174.35.25.9	19015.000000,9.000000,9.000000	F
+1383607208.634478	CQpCkd1eCP2eRC91T9	192.168.30.10	1035	4.2.2.3	53	udp	32643	c.statcounter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.215.253.140,67.215.253.139,216.59.38.124,216.59.38.123	1489.000000,1489.000000,1489.000000,1489.000000	F
+1383607227.040895	C7CZm6mv6NRbh2i35	192.168.30.10	1035	4.2.2.3	53	udp	54658	trx625.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	8.29.155.184	14400.000000	F
+1383607227.601997	C7CZm6mv6NRbh2i35	192.168.30.10	1035	4.2.2.3	53	udp	42370	signup09.speedypc.revenuewire.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.139.253.25	86400.000000	F
+1383607227.865886	C7CZm6mv6NRbh2i35	192.168.30.10	1035	4.2.2.3	53	udp	33669	signup09.speedypc.safecart.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.139.253.23	86400.000000	F
+1383607228.181798	C7CZm6mv6NRbh2i35	192.168.30.10	1035	4.2.2.3	53	udp	16004	www.speedypc.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	139.142.105.83	86400.000000	F
+1383607228.333799	C7CZm6mv6NRbh2i35	192.168.30.10	1035	4.2.2.3	53	udp	13447	dlc2.speedypc.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	dlc2.speedypc.com.cdngc.net,174.35.24.137,174.35.24.201	86400.000000,20.000000,20.000000	F
+#close	2014-04-03-10-10-43

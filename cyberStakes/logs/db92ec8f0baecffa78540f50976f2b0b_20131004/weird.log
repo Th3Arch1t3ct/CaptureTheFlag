@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-31-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1380864852.356727	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1380864904.861833	CraHaj3XeGUcBCOsn	192.168.50.10	1170	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1380864904.885297	CNbhNDMnNletaMH17	192.168.50.10	1171	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1380864904.966951	C1P1Pa23wA4FzKk02h	192.168.50.10	1172	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1380864904.976003	CDsFu74GwES0DKflAj	192.168.50.10	1173	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1380864904.978061	Ccd8Iz3PQ55vVMUkV9	192.168.50.10	1174	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1380864904.980247	CYTSuy12Q7Fxsrjbh3	192.168.50.10	1175	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1380864904.982708	CINbu1vCCfBooReff	192.168.50.10	1176	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1380864905.007357	CiMipL2Hdv059Khbb2	192.168.50.10	1177	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1380864905.045908	Cu8Yo81Ec6TzvLAsgc	192.168.50.10	1178	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1380864905.154352	CSeWH635oRK0UoM2Qi	192.168.50.10	1179	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1380864905.159293	CIDTaC4G13uUuep1B6	192.168.50.10	1180	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1380864957.005291	CBx4xF3ZphP0lkIBma	192.168.50.10	1208	192.162.79.15	80	bad_HTTP_request	-	F	bro
+1380864957.005291	CBx4xF3ZphP0lkIBma	192.168.50.10	1208	192.162.79.15	80	line_terminated_with_single_CR	-	F	bro
+1380864976.115199	CPmDES15UgtabZqapi	192.168.50.10	1247	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1380864976.11608	CjE3Fp48OMWc2dgEjb	192.168.50.10	1248	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1380864976.116861	CTer013LpL6ozPyDK1	192.168.50.10	1249	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+#close	2014-04-03-10-31-23

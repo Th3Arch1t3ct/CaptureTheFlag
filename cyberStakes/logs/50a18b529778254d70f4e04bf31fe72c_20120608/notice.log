@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-04-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1339176712.689934	CB99xB12v57bSUkpqc	192.168.87.10	1069	95.211.154.46	80	FbwKB93Lp0YeJYhNy8	application/x-shockwave-flash	http://vpwrutgwthoiuasdq.co.cc/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 75%  Last seen: 2012-09-14 14:05:04	https://www.virustotal.com/en/search/?query=27474f210893b69a5204dcafb6d9fc12b743dc1f	192.168.87.10	95.211.154.46	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1339176713.490133	CvWxI83dlEOpZ3D8j9	192.168.87.10	1054	95.211.154.46	80	FCRGXQ1wofV7EeTFg9	application/x-dosexec	http://vpwrutgwthoiuasdq.co.cc/w.php?f=182b5&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 21%  Last seen: 2012-06-11 00:02:40	https://www.virustotal.com/en/search/?query=2b67eb16ad8e463d71901bc610107aa4fd5c86fe	192.168.87.10	95.211.154.46	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-04-47

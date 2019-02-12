@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-11-04-03
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1328787746.9508	Cn36z44WHHugop3kpi	192.168.99.10	1038	74.125.65.138	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1327996890.000000	1359619890.000000	-	-	-	be1abfa488eeeeeeeeeeeeeeeeeeeeee	ok
+1328787754.06843	C4uTQf2SgyVQEe3iT9	192.168.99.10	1040	207.171.163.24	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.s3.amazonaws.com,O=Amazon.com Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1292392800.000000	1387432799.000000	-	-	-	e3cc103aacd8beea27f01fd08da597bd	ok
+#close	2014-04-03-11-04-03

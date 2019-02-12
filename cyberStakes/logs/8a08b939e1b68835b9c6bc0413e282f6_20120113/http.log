@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-14-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1326454939.697754	CZ3aTQiqKyfeC1pmi	192.168.68.10	1030	95.168.165.223	80	1	GET	angrybr.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1326454939.847328	C7j0BK1cR9Ezp40dm4	192.168.68.10	1031	46.21.155.83	80	1	GET	abccristmas.com	/?site=24	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1326454940.093295	CM2pKn3D8uN0bn4vlg	192.168.68.10	1032	109.123.116.52	80	1	GET	matrixneo.net	/redir.html	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	349	200	OK	-	-	-	(empty)	-	-	-	-	-	Fi5h37lQHi8k4Wvak	text/html
+1326454940.335507	C2sAWZROaf4ADhf94	192.168.68.10	1036	109.123.116.52	80	1	GET	matrixneo.net	/in.cgi?default	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	188	302	Found	-	-	-	(empty)	-	-	-	-	-	FeJkbk46Y6tFhveS5j	text/html
+1326454940.470624	Crptnp3dgzZvpQJ2ui	192.168.68.10	1037	46.21.155.83	80	1	GET	abccristmas.com	/?site=8	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	491	200	OK	-	-	-	(empty)	-	-	-	-	-	FE7a5r38bpzmtybMP3	text/html
+1326454942.320553	CXYABI3azEdGdSJmFh	192.168.68.10	1043	46.21.155.83	80	1	GET	abccristmas.com	/?62adc5730e8c526410139aa74bbb8c8f	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11779	200	OK	-	-	-	(empty)	-	-	-	-	-	FlZ9nZ19kinEEeeioa	application/jar
+1326454942.33758	CkdCYNRwOqkBA52C5	192.168.68.10	1042	46.21.155.83	80	1	GET	abccristmas.com	/?f0dba8faf2dee5e1f3a43ca28ac3372c	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3151	200	OK	-	-	-	(empty)	-	-	-	-	-	FDdXaz1EgR3iOFadR	application/zip
+1326454942.397034	CYIIsj1ASBEfxYU4G3	192.168.68.10	1044	46.21.155.83	80	1	GET	abccristmas.com	/?62adc5730e8c526410139aa74bbb8c8f	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11779	200	OK	-	-	-	(empty)	-	-	-	-	-	FN6RvU2LG47t53Qg6i	application/jar
+1326454942.412683	CHVHnW2UytX19Y3EO8	192.168.68.10	1045	46.21.155.83	80	1	GET	abccristmas.com	/?f0dba8faf2dee5e1f3a43ca28ac3372c	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3151	200	OK	-	-	-	(empty)	-	-	-	-	-	F2AdTG1EzXGuiOTMie	application/zip
+1326454942.57705	CzS2Rk4siSaWO06g8b	192.168.68.10	1046	46.21.155.83	80	1	GET	abccristmas.com	/?f0dba8faf2dee5e1f3a43ca28ac3372c	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3151	200	OK	-	-	-	(empty)	-	-	-	-	-	FbrePD2FcxF1OHGFy7	application/zip
+1326454942.694792	CiSKqdFOjIGgK1o71	192.168.68.10	1047	46.21.155.83	80	1	GET	abccristmas.com	/?62adc5730e8c526410139aa74bbb8c8f	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11779	200	OK	-	-	-	(empty)	-	-	-	-	-	FnoxTi2TpPiFyw0gMf	application/jar
+1326454942.740443	C5gDMt27bGNC4oz46k	192.168.68.10	1048	46.21.155.83	80	1	GET	abccristmas.com	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F1YV2To7bRdVB9qkb	text/html
+1326454942.818059	CgQAuL1NgpbyWf1Rjd	192.168.68.10	1049	46.21.155.83	80	1	GET	abccristmas.com	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FOR7Ep2QBTlsU09lM9	text/html
+1326454942.888151	CSsKIjTfzN6j8ieFa	192.168.68.10	1050	46.21.155.83	80	1	GET	abccristmas.com	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FAI1m22eD6nN5MtGwk	text/html
+1326454942.960065	Ch3ZAv48u06xy0vMEk	192.168.68.10	1051	46.21.155.83	80	1	GET	abccristmas.com	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FQP9M03ZKR9LuckzX5	text/html
+1326454943.059809	CGpoxf2QAUkyQbwa12	192.168.68.10	1052	46.21.155.83	80	1	GET	abccristmas.com	/?7a44a37a3b2f43eed7c9bc094670cfbd	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	453376	200	OK	-	-	-	(empty)	-	-	-	-	-	FfCqaE3be9P0f6ACS9	application/x-dosexec
+1326454943.841639	CRcdnT21zOzD4LlbO1	192.168.68.10	1053	46.21.155.83	80	1	GET	abccristmas.com	/?88c2378bdb7e47918de98ee320ff5cce	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	268288	200	OK	-	-	-	(empty)	-	-	-	-	-	FAiV4W1qMaPp8gF4t1	application/x-dosexec
+#close	2014-04-03-11-14-36

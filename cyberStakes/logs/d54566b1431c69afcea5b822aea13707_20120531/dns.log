@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-17-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1338444966.632284	CIILhv1Lf4pens45Bj	192.168.89.10	1028	4.2.2.3	53	udp	14729	trbet.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	88.214.194.59	10776.000000	F
+1338444966.824091	CIILhv1Lf4pens45Bj	192.168.89.10	1028	4.2.2.3	53	udp	55944	inexcusablyataglance.net.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	83.69.233.47	38378.000000	F
+1338444991.184093	CRQQNDZ6fLVDb2bPc	192.168.89.10	1028	4.2.2.3	53	udp	15498	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,204.2.133.59,204.2.133.17	11436.000000,235.000000,296.000000,8.000000,8.000000	F
+1338444995.713454	CRQQNDZ6fLVDb2bPc	192.168.89.10	1028	4.2.2.3	53	udp	28813	inexcusablyataglance.net.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	83.69.233.47	38349.000000	F
+#close	2014-04-03-10-17-37

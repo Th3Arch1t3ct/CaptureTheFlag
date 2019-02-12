@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-12-27
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1323002353.588298	CgOV1l2w115khmrgA7	192.168.68.10	1030	74.220.219.57	80	1	GET	mobiles4u.info	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1724	200	OK	-	-	-	(empty)	-	-	-	-	-	FM8s4K3E8sPBGEWaH2	text/html
+1323002353.716746	CgOV1l2w115khmrgA7	192.168.68.10	1030	74.220.219.57	80	2	GET	mobiles4u.info	/1.gif	http://mobiles4u.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2137	200	OK	-	-	-	(empty)	-	-	-	-	-	F7hlyk2Z0D2QtFFUqc	image/gif
+1323002353.818472	CfKP2QBp3W3mTxhdh	192.168.68.10	1031	50.22.101.100	80	1	GET	www.x46x.com	/xx/open.js	http://mobiles4u.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13300	200	OK	-	-	-	(empty)	-	-	-	-	-	Fo97di3Sm9wbys2Kfc	text/plain
+1323002353.974452	CgOV1l2w115khmrgA7	192.168.68.10	1030	74.220.219.57	80	3	GET	mobiles4u.info	/index.shtml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	266	302	Found	-	-	-	(empty)	-	-	-	-	-	FJBmhC3GHa3LlBkjud	text/html
+1323002354.103614	CtJXEs3aUXoiq8hdW	192.168.68.10	1032	74.220.219.57	80	1	GET	mobiles4u.info	/index.shtml	http://mobiles4u.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	266	302	Found	-	-	-	(empty)	-	-	-	-	-	FShUlP1LD840aoWkTd	text/html
+1323002354.208112	CK8cbo4QtHMGbdCerj	192.168.68.10	1034	82.98.86.162	80	1	GET	upgiga.info	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	58	200	OK	-	-	-	(empty)	-	-	-	-	-	FJXfYd4MhXJ3VNEBA9	text/plain
+1323002354.291063	CchXsM21BHcG4RiwQ9	192.168.68.10	1035	82.98.86.162	80	1	GET	upgiga.info	/	http://mobiles4u.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	58	200	OK	-	-	-	(empty)	-	-	-	-	-	FCXCbBVGkZzcLF6El	text/plain
+1323002354.776566	CgHhd8EhPJRzK9rbf	192.168.68.10	1038	66.77.197.154	80	1	GET	x46x.toolbar.fm	/exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	150	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FykoP54BqOaL4UMM12	text/html
+1323002354.801501	ChLH2C3tBx7EwalrK2	192.168.68.10	1039	66.77.197.154	80	1	GET	x46x.toolbar.fm	/exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	150	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FQUZQx2TE32QLa84D6	text/html
+1323002354.849961	CraQ7z116xeg1nM8P9	192.168.68.10	1040	66.77.197.154	80	1	GET	x46x.toolbar.fm	/exe/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	225	302	Found	-	-	-	(empty)	-	-	-	-	-	FJIxjp3eVhXLZsXI6g	text/html
+1323002354.848054	CgOV1l2w115khmrgA7	192.168.68.10	1030	74.220.219.57	80	4	GET	mobiles4u.info	/index.shtml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	266	302	Found	-	-	-	(empty)	-	-	-	-	-	FZGNvE1DuZCYtsBWxi	text/html
+1323002354.916655	CtJXEs3aUXoiq8hdW	192.168.68.10	1032	74.220.219.57	80	2	GET	mobiles4u.info	/index.shtml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	266	302	Found	-	-	-	(empty)	-	-	-	-	-	FAYSq33X0W25aW8etd	text/html
+1323002354.958343	CWDdHL2XtfHhzacQO2	192.168.68.10	1042	24.143.193.26	80	1	GET	ie.conduit-download.com	/44/301/CT3015144/Downloads/IE/Releases/6.4.1.2/11-11-29-18.42.35.051/x46x.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2582	200	OK	-	-	-	(empty)	-	-	-	-	-	FB4Tg82ty0cbPsGgba	application/x-dosexec
+1323002355.073937	CcUPW8YsWKHgzxMsj	192.168.68.10	1041	82.98.86.162	80	1	GET	upgiga.info	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	58	200	OK	-	-	-	(empty)	-	-	-	-	-	FzybKO3GN1g2sqkPic	text/plain
+1323002355.115091	ChOrTy1skju2zS3S6f	192.168.68.10	1043	82.98.86.162	80	1	GET	upgiga.info	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	58	200	OK	-	-	-	(empty)	-	-	-	-	-	FeBaMr36ZHROV35t5	text/plain
+1323002357.271155	C0x4Dk2rQwGoyvNRed	192.168.68.10	1033	184.72.242.74	80	1	GET	www.webcounterstats.com	/count.php?page=173577	http://mobiles4u.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-11-12-27

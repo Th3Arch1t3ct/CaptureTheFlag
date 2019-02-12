@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-05-38
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1348924478.677554	ClSTcA2GKP6hZlnQP6	192.168.95.10	1029	103.15.192.88	80	1	GET	google-tracker.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	278	200	OK	-	-	-	(empty)	-	-	-	-	-	FnjZDWF1nXjk4Dqs4	text/plain
+1348924479.965633	CeVkrr0xyATyscUMi	192.168.95.10	1036	113.132.8.211	80	1	GET	r8r8.gnway.net	/QQQ.exe	http://google-tracker.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1460	200	OK	-	-	-	(empty)	-	-	-	-	-	F0sOrU1roP2CAYsdLh	application/x-dosexec
+#close	2014-04-03-11-05-38

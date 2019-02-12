@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-43-23
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1377974333.263109	CytAh62nfGTQh3idug	192.168.85.10	1043	198.50.134.239	29991	FAgWpU1zzlujKRp2j7	application/x-dosexec	http://av2b6tmt.gelotinetospbetty.biz:29991/tcp/f/1377974071/81ad77faf28ffb79ecd1a6fb00dbdbf4/e72c8365d2cedaa4426e16350c146745/2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 62%  Last seen: 2013-11-03 14:14:52	https://www.virustotal.com/en/search/?query=be6ddc76b416799a5316ec9582d80424f0526db6	192.168.85.10	198.50.134.239	29991	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-43-23

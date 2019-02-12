@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-37-57
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1317729187.017642	CLwj5p3CWjOsyCoxl1	192.168.46.10	1030	69.175.26.138	80	1	GET	blackberifields.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13461	200	OK	-	-	-	(empty)	-	-	-	-	-	Fl8VwCWqfKOntfIal	text/html
+1317729187.31534	Cc0Axb3Zqa3P0svMke	192.168.46.10	1031	69.175.26.138	80	1	GET	blackberifields.com	/templates/blackberi_fields/images/logo.gif	http://blackberifields.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2394	200	OK	-	-	-	(empty)	-	-	-	-	-	FRPIwzWQruFryq7P6	image/gif
+1317729187.32635	CLwj5p3CWjOsyCoxl1	192.168.46.10	1030	69.175.26.138	80	2	GET	blackberifields.com	/templates/blackberi_fields/images/img_header.jpg	http://blackberifields.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	14309	200	OK	-	-	-	(empty)	-	-	-	-	-	FSsLb11x8aMBZCVu9h	image/jpeg
+1317729187.82658	CcPHk5pNuUIGanJci	192.168.46.10	1032	95.163.66.209	80	1	GET	hgfh.ns3.name	/showthread.php?t=82651514	http://blackberifields.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	40191	200	OK	-	-	-	(empty)	-	-	-	-	-	F0mROw4NHUhS6aXPG1	text/html
+1317729189.208737	CJz5ia2aztOILZSOKa	192.168.46.10	1033	95.163.66.209	80	1	GET	hgfh.ns3.name	/showthread.php?t=19538	http://hgfh.ns3.name/showthread.php?t=82651514	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	18467	200	OK	-	-	-	(empty)	-	-	-	-	-	F0VItD26knsqS4NSp1	text/plain
+1317729190.733328	CcPHk5pNuUIGanJci	192.168.46.10	1032	95.163.66.209	80	2	GET	hgfh.ns3.name	/showthread.php?s=240.800.600.24&jv=1.6.0.10&ua=Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	http://hgfh.ns3.name/showthread.php?t=82651514	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317729192.479425	CPXWlY97lY5X4cNk5	192.168.46.10	1038	95.163.66.209	80	1	GET	hgfh.ns3.name	/showthread.php?t=49281	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18417	200	OK	-	-	-	(empty)	-	-	-	-	-	FS49Wo3Tqrqq2eYZea	application/jar
+1317729194.258249	CPXWlY97lY5X4cNk5	192.168.46.10	1038	95.163.66.209	80	2	GET	hgfh.ns3.name	/showthread.php?t=49281	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18417	200	OK	-	-	-	(empty)	-	-	-	-	-	F3lE5d3hyVRcVXfknf	application/jar
+1317729195.11818	CPXWlY97lY5X4cNk5	192.168.46.10	1038	95.163.66.209	80	3	GET	hgfh.ns3.name	/showthread.php?t=49281	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18417	200	OK	-	-	-	(empty)	-	-	-	-	-	FUJEnh1T38BiEpgIX9	application/jar
+1317729195.909347	CPXWlY97lY5X4cNk5	192.168.46.10	1038	95.163.66.209	80	4	GET	hgfh.ns3.name	/showthread.php?t=2	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	52736	200	OK	-	-	-	(empty)	-	-	-	-	-	FK5pYP22MPZQteyAUg	application/x-dosexec
+1317729197.470532	C2uHUm4eyFwjMpX9Ij	192.168.46.10	1039	192.150.16.117	80	1	POST	adobe.com	/geo/productid.php	-	Opera/10.60 Pesto/2.2.30	20	246	301	Moved Permanently	-	-	-	(empty)	-	-	-	F5ifx012g14O6mT0Nl	text/plain	FIcvkU1DyiHMsDWqu	text/html
+1317729197.848688	Cksmyj1sqb9xVmcJJk	192.168.46.10	1040	95.163.66.209	80	1	GET	hgfh.ns3.name	/showthread.php?t=352517	-	User-Agent: Opera/10.60 Presto/2.2.30	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317729198.180885	Cksmyj1sqb9xVmcJJk	192.168.46.10	1040	95.163.66.209	80	2	GET	hgfh.ns3.name	/showthread.php?t=352517	-	User-Agent: Opera/10.60 Presto/2.2.30	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317729198.530418	Cksmyj1sqb9xVmcJJk	192.168.46.10	1040	95.163.66.209	80	3	GET	hgfh.ns3.name	/showthread.php?t=352517	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317729199.220791	CfoX5x19FTF3twwsC7	192.168.46.10	1042	95.163.66.209	80	1	GET	hgfh.ns3.name	/showthread.php?t=352517	-	User-Agent: Opera/10.60 Presto/2.2.30	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317729199.582162	Cksmyj1sqb9xVmcJJk	192.168.46.10	1040	95.163.66.209	80	4	GET	hgfh.ns3.name	/showthread.php?t=352517	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317729199.936306	CfoX5x19FTF3twwsC7	192.168.46.10	1042	95.163.66.209	80	2	GET	hgfh.ns3.name	/showthread.php?t=352517	-	User-Agent: Opera/10.60 Presto/2.2.30	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-10-37-57

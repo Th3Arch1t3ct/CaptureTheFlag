@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-35-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1365326366.152107	CcYkTtuCIlvZ47Tkb	192.168.6.10	1030	188.93.150.33	80	tcp	http	0.222151	532	2054	RSTO	-	0	ShADadR	6	780	4	2222	(empty)
+1365326371.438176	C6dhm84h5TSwlNe9Xa	192.168.6.10	1041	184.84.220.65	80	tcp	-	3.030925	0	0	S0	-	0	S	2	96	0	0	(empty)
+1365326366.362874	CdMSoa3BYxD1Txq2th	192.168.6.10	1031	188.93.150.33	80	tcp	http	9.731188	1470	62400	RSTO	-	0	ShADadfR	39	3038	50	64408	(empty)
+1365326366.37692	C4vjja47XBeIvUiJu4	192.168.6.10	1032	188.93.150.33	80	tcp	http	9.717395	247	843653	RSTO	-	0	ShADadfR	404	16415	581	866901	(empty)
+1365326380.516003	CVyZcB1E8shv1SGrc4	192.168.6.10	1041	184.84.220.65	80	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+1365326365.215032	CnKKGy1x30D6oo8Bl4	192.168.6.10	1029	4.2.2.3	53	udp	dns	6.221982	223	575	SF	-	0	Dd	6	391	6	743	(empty)
+1365326349.363008	CHD3yc4OJrrnhiA4fb	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.001112	626	0	S0	-	0	D	2	682	0	0	(empty)
+1365326349.363376	CeYW173SHceGWyc0Oa	192.168.6.10	68	192.168.6.1	67	udp	dhcp	12.647461	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1365326366.496913	C3a8ywKowBWHiowza	192.168.6.10	1033	92.51.180.142	80	tcp	http	64.957478	380	517	RSTO	-	0	ShADdR	5	588	2	605	(empty)
+1365326366.91214	CSd9ax14NLJRWpFSD4	192.168.6.10	1034	92.51.180.142	80	tcp	http	64.541855	1127	7405	RSTO	-	0	ShADdR	9	1495	8	7733	(empty)
+1365326367.68968	CauVDu1VqjBVEBAHwb	192.168.6.10	1039	92.51.180.142	80	tcp	http	3.403481	342	1623849	S1	-	0	ShADd	779	32062	1184	1671217	(empty)
+1365326371.340256	CZNPlc3ygsZlbjmehh	192.168.6.10	1040	108.162.232.9	80	tcp	http	60.394530	555	18781	RSTO	-	0	ShADadfR	15	1163	17	19469	(empty)
+1365326367.506776	CHLi4zTHXLDM5hnqa	192.168.6.10	1037	239.255.255.250	1900	udp	-	6.088946	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-10-35-31

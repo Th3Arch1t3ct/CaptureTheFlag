@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-12-23
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1336492578.424532	CRaaJY3mrc9oCgPPa6	192.168.56.10	1029	4.2.2.3	53	udp	2443	jdcogmon.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.247.240.210	14374.000000	F
+1336492608.956698	COQATu1nnyMN7eJkOh	192.168.56.10	1029	4.2.2.3	53	udp	1160	www.jdcogmon.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	jdcogmon.net,173.247.240.210	14400.000000,14344.000000	F
+1336492615.25802	COQATu1nnyMN7eJkOh	192.168.56.10	1029	4.2.2.3	53	udp	37256	connect.facebook.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	connect.facebook.net.edgekey.net,e3821.e1.akamaiedge.net,96.17.63.139	530.000000,133.000000,2.000000	F
+1336492618.408767	COQATu1nnyMN7eJkOh	192.168.56.10	1029	4.2.2.3	53	udp	22926	ie7-js.googlecode.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlecode.l.googleusercontent.com,74.125.134.82	39096.000000,86.000000	F
+1336492619.536498	COQATu1nnyMN7eJkOh	192.168.56.10	1029	4.2.2.3	53	udp	47503	static.networkedblogs.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ghs.google.com,ghs.l.google.com,74.125.137.121	491.000000,42603.000000,76.000000	F
+1336492619.538279	CT99Fu34MAFJBedru3	192.168.56.10	1042	4.2.2.3	53	udp	43407	www.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.171.234.21	31.000000	F
+1336492619.573729	Cem3Ru3hB74BgqyaM2	192.168.56.10	1045	4.2.2.3	53	udp	32652	nwidget.networkedblogs.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ghs.google.com,ghs.l.google.com,74.125.137.121	491.000000,42603.000000,76.000000	F
+1336492619.853036	COQATu1nnyMN7eJkOh	192.168.56.10	1029	4.2.2.3	53	udp	52109	static.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.g.akamai.net,63.217.184.81,63.217.184.9	7049.000000,20995.000000,9.000000,9.000000	F
+1336492619.853311	CT99Fu34MAFJBedru3	192.168.56.10	1042	4.2.2.3	53	udp	46978	b.static.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.g.akamai.net,63.217.184.9,63.217.184.81	6637.000000,20995.000000,9.000000,9.000000	F
+1336492620.650987	COQATu1nnyMN7eJkOh	192.168.56.10	1029	4.2.2.3	53	udp	54147	profile.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	profile.ak.facebook.com.edgesuite.net,a1725.l.akamai.net,23.33.186.146,23.33.186.104,23.33.186.106,23.33.186.107,23.33.186.113,23.33.186.115,23.33.186.130,23.33.186.139,23.33.186.145	6965.000000,21108.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000	F
+1336492621.15222	COQATu1nnyMN7eJkOh	192.168.56.10	1029	4.2.2.3	53	udp	31104	external.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	external.ak.fbcdn.net.edgesuite.net,a1920.g.akamai.net,63.217.184.24,63.217.184.19	1027.000000,21331.000000,2.000000,2.000000	F
+1336492624.0137	COQATu1nnyMN7eJkOh	192.168.56.10	1029	4.2.2.3	53	udp	10880	cdn.wibiya.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	orig-10001.wibiya.cotcdn.net,206.41.8.180	14.000000,360.000000	F
+1336492624.274728	COQATu1nnyMN7eJkOh	192.168.56.10	1029	4.2.2.3	53	udp	33409	www.jiloaer.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.30.47.80	28800.000000	F
+1336492624.275746	CT99Fu34MAFJBedru3	192.168.56.10	1042	4.2.2.3	53	udp	6279	yoummyporn.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.213.28	30.000000	F
+1336492632.851914	COQATu1nnyMN7eJkOh	192.168.56.10	1029	4.2.2.3	53	udp	34951	s-static.ak.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	s-static.ak.facebook.com.edgekey.net,e566.e1.akamaiedge.net,96.17.50.110	811.000000,107.000000,3.000000	F
+1336492632.852409	CCpthx2izJxvdp98J1	192.168.56.10	1045	4.2.2.3	53	udp	63364	s-static.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	s-static.ak.fbcdn.net.edgekey.net,e3353.e1.akamaiedge.net,96.17.61.177	469.000000,245.000000,19.000000	F
+1336492632.852193	CT99Fu34MAFJBedru3	192.168.56.10	1042	4.2.2.3	53	udp	6276	static.ak.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.g.akamai.net,63.217.184.9,63.217.184.81	981.000000,20982.000000,16.000000,16.000000	F
+1336492633.547348	COQATu1nnyMN7eJkOh	192.168.56.10	1029	4.2.2.3	53	udp	48517	ghjmalta.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.59.198.60	30.000000	F
+#close	2014-04-03-11-12-24

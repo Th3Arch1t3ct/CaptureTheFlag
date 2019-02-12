@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-58-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1338094538.400442	CLGJSBz0dMW3250cf	192.168.1.10	1039	37.59.188.165	80	F2m6ZP1P599K3EcuL5	application/x-dosexec	http://boostedtheftprevention.in/w.php?f=01438&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-06-03 12:23:12	https://www.virustotal.com/en/search/?query=7ed5cb26b55438518978b9902da0e02a10f94eeb	192.168.1.10	37.59.188.165	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1338094538.883385	CYrZoErm6aW4OUJBk	192.168.1.10	1041	37.59.188.165	80	Fpq7991bZ5AlLYwjyk	application/x-shockwave-flash	http://boostedtheftprevention.in/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 75%  Last seen: 2012-09-14 14:05:04	https://www.virustotal.com/en/search/?query=27474f210893b69a5204dcafb6d9fc12b743dc1f	192.168.1.10	37.59.188.165	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1338094564.450286	Cp69YU30Y9ZSYeYF36	192.168.1.10	1048	37.59.188.165	80	FoRs4Z1yguHmDkqiT2	application/x-dosexec	http://boostedtheftprevention.in/w.php?f=01438&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-06-03 12:23:12	https://www.virustotal.com/en/search/?query=7ed5cb26b55438518978b9902da0e02a10f94eeb	192.168.1.10	37.59.188.165	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1338094568.938755	CuNkY33YDnTc3cNK1a	192.168.1.10	1062	37.59.188.165	80	For2x42ejUS5IisoE	application/x-dosexec	http://boostedtheftprevention.in/w.php?f=01438&e=0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-06-03 12:23:12	https://www.virustotal.com/en/search/?query=7ed5cb26b55438518978b9902da0e02a10f94eeb	192.168.1.10	37.59.188.165	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-58-15

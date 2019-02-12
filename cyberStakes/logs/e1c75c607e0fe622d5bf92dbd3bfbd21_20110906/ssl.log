@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-15-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1315329657.580761	CzrekB41zoowhZxi6	192.168.120.10	1049	70.32.100.210	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=app.tabpress.com,OU=Domain Control Validated - QuickSSL(R),OU=See www.geotrust.com/resources/cps (c)11,OU=GT72731341,O=app.tabpress.com,C=US,serialNumber=hsaCHmFCqh6DEuuW33oEdLArz4HU6RGM	CN=GeoTrust DV SSL CA,OU=Domain Validated SSL,O=GeoTrust Inc.,C=US	1299690988.000000	1331462158.000000	-	-	-	ac644eb66549d887ccc037f132e68e0c	ok
+#close	2014-04-03-10-15-40

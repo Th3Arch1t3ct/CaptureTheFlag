@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-13-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1328837932.538787	CIrk3J3BaCGira1Lqd	192.168.86.10	1029	4.2.2.3	53	udp	54417	alcomature.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	80.77.81.46	38.000000	F
+1328837932.589239	CIrk3J3BaCGira1Lqd	192.168.86.10	1029	4.2.2.3	53	udp	6291	www.alcomature.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	80.77.81.46	10778.000000	F
+1328837932.743156	CIrk3J3BaCGira1Lqd	192.168.86.10	1029	4.2.2.3	53	udp	37523	th1.alcomature.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.244.198.161	3600.000000	F
+1328837932.802772	CIrk3J3BaCGira1Lqd	192.168.86.10	1029	4.2.2.3	53	udp	52372	th2.alcomature.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.244.198.161	3600.000000	F
+1328837932.978533	CIrk3J3BaCGira1Lqd	192.168.86.10	1029	4.2.2.3	53	udp	41877	th3.alcomature.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.244.198.161	3600.000000	F
+1328837933.041282	CIrk3J3BaCGira1Lqd	192.168.86.10	1029	4.2.2.3	53	udp	14743	a7ahe.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.229.210.117	300.000000	F
+1328837945.831674	CIrk3J3BaCGira1Lqd	192.168.86.10	1029	4.2.2.3	53	udp	19865	phatcutie.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.133.57.114	43200.000000	F
+1328837948.439507	CIrk3J3BaCGira1Lqd	192.168.86.10	1029	4.2.2.3	53	udp	27545	oneathleticmom.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	72.167.207.74	3600.000000	F
+#close	2014-04-03-10-13-00

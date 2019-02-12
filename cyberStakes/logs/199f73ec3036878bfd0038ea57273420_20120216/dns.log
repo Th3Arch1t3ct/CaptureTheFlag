@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-49-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1329366960.426584	CFv0bCIiHbH1rv3ab	192.168.55.10	1029	4.2.2.3	53	udp	20367	huanchacoinn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	207.58.168.78	14377.000000	F
+1329366960.597182	CFv0bCIiHbH1rv3ab	192.168.55.10	1029	4.2.2.3	53	udp	14988	storylootybuz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.190.98.79	3479.000000	F
+1329366960.605399	CFv0bCIiHbH1rv3ab	192.168.55.10	1029	4.2.2.3	53	udp	38541	ohioswingersbus.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	141.136.22.56	43200.000000	F
+1329366960.905726	CFv0bCIiHbH1rv3ab	192.168.55.10	1029	4.2.2.3	53	udp	48011	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.75.17,69.31.75.27	2544.000000,19.000000,9874.000000,13.000000,13.000000	F
+#close	2014-04-03-10-49-16

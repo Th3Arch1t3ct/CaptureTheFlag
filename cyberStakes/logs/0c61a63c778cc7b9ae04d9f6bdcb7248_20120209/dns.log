@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-26-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1328813661.342105	CkbIRhdoiqQnT0Mdh	192.168.57.10	1029	4.2.2.3	53	udp	48271	69ta.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.109.78.128	3586.000000	F
+1328813675.983293	CTuj8zxHNPd2Fixl2	192.168.57.10	1029	4.2.2.3	53	udp	2189	qimaysadaliachu.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.67.193	40844.000000	F
+1328813676.464065	CTuj8zxHNPd2Fixl2	192.168.57.10	1029	4.2.2.3	53	udp	60300	www3.topzhk-guard.82i.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.213.222.18	43200.000000	F
+1328813676.706654	CTuj8zxHNPd2Fixl2	192.168.57.10	1029	4.2.2.3	53	udp	41611	www1.strongguarduv.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.127.81.214	28800.000000	F
+1328813694.189451	Cq9BqA2wQ9JEaUsdo6	192.168.57.10	1029	4.2.2.3	53	udp	44171	www2.thebest-cleanertcn.82i.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.249.35.84	43200.000000	F
+#close	2014-04-03-10-26-12

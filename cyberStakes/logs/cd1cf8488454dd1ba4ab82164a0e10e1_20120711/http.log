@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-53-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1342018481.432836	CMkSZl2BGGrmk8MC0h	192.168.66.10	1029	189.1.174.70	80	1	GET	docemarmita.com.br	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	101	200	OK	-	-	-	(empty)	-	-	-	-	-	FS2Po51Mi7uYLruUq7	text/plain
+1342018481.957999	C4udL52UFXSvDbBk11	192.168.66.10	1036	62.149.15.143	80	1	GET	baffalo.biz	/	http://docemarmita.com.br/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1342018482.240746	Cre9uv31zyNY716D87	192.168.66.10	1037	95.168.173.91	80	1	GET	akeyboard.info	/	http://docemarmita.com.br/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	18294	200	OK	-	-	-	(empty)	-	-	-	-	-	Fl1AWq4NEPAGLaSSI2	text/html
+1342018482.76987	Ce7RCe4OvnrBTodKDd	192.168.66.10	1038	95.168.173.91	80	1	GET	akeyboard.info	/?7a5c7f7349560767bb1227f15b5fef6e=1.6.0.10	http://docemarmita.com.br/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1342018482.998854	ChdXiM4KNI0b2CwPa	192.168.66.10	1039	37.59.198.62	80	1	GET	klmearth.info	/?d78a6b5528c9facb134dd363a2313b12=21&3f181612ca0814eb3114526a20bfb6e7=htmlartists.com&7a5c7f7349560767bb1227f15b5fef6e	http://docemarmita.com.br/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	798	200	OK	-	-	-	(empty)	-	-	-	-	-	FDS8eU1QR6RaOxnMwh	text/html
+1342018484.600328	CKopHH3114czi3Bwrf	192.168.66.10	1040	37.59.198.62	80	1	GET	klmearth.info	/?73dc92da768c2bd38ad1022648f0f37f	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18534	200	OK	-	-	-	(empty)	-	-	-	-	-	FtPHZK3GePNoBZAEu3	application/jar
+1342018484.911837	C7j1z8YviikiFdAbk	192.168.66.10	1041	37.59.198.62	80	1	GET	klmearth.info	/?73dc92da768c2bd38ad1022648f0f37f	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18534	200	OK	-	-	-	(empty)	-	-	-	-	-	F0bSfS3ODvV2ypzoa	application/jar
+1342018485.264459	CQ5KbK1TxOPIzH23l3	192.168.66.10	1042	37.59.198.62	80	1	GET	klmearth.info	/?73dc92da768c2bd38ad1022648f0f37f	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18534	200	OK	-	-	-	(empty)	-	-	-	-	-	FTBZAL1aOXuxSTKRck	application/jar
+1342018490.118282	Ch8foG28nBupwQCGdi	192.168.66.10	1043	37.59.198.62	80	1	GET	klmearth.info	/?73dc92da768c2bd38ad1022648f0f37f	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18534	200	OK	-	-	-	(empty)	-	-	-	-	-	FZI2cW3cBLCOkd7x79	application/jar
+1342018490.430245	ChwQmL1J0aLcf1toe2	192.168.66.10	1044	37.59.198.62	80	1	GET	klmearth.info	/?f460afc83687cb846e3ea8b5a94479bd	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	43136	200	OK	-	-	-	(empty)	-	-	-	-	-	FdAL6C4penx5R6cRVf	application/x-dosexec
+1342018490.850018	CTv2yu4Rf0glMf9o6c	192.168.66.10	1048	37.59.198.62	80	1	GET	klmearth.info	/?17f99516e61e51925e1812281f6b72f7	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	51519	200	OK	-	-	-	(empty)	-	-	-	-	-	FLR71R2G3zefKDLAIf	application/x-dosexec
+1342018491.560101	C6U8e21aQrVQQZoRX4	192.168.66.10	1049	37.59.198.62	80	1	GET	klmearth.info	/?5b57818f237412a4f977273dddb1700a	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	68817	200	OK	-	-	-	(empty)	-	-	-	-	-	F2VcO2iw6xl7aBOk	application/x-dosexec
+1342018491.997053	CWdtWA25EMmBlqQcXk	192.168.66.10	1050	37.59.198.62	80	1	GET	klmearth.info	/?3c9ceafe4205095714a4a77df1e3565a	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	369664	200	OK	-	-	-	(empty)	-	-	-	-	-	FRGn6f3px8EztB7vWb	application/x-dosexec
+1342018518.080016	CweNCk2FoqnU7Za8L3	192.168.66.10	1054	69.163.250.145	80	1	GET	cache.trillinux.org	/g2/bazooka.php?net=gnutella2&get=1&client=RAZA2.5.0.0	-	Shareaza	0	335	403	Forbidden	-	-	-	(empty)	-	-	-	-	-	F8LUXW3I2r8pX7acJi	text/html
+1342018518.277641	CjvrgV24peK4lXAtKj	192.168.66.10	1055	69.163.248.145	80	1	GET	cache2.bazookanetworks.com	/g2/bazooka.php?net=gnutella2&get=1&client=RAZA2.5.0.0	-	Shareaza	0	179	200	OK	-	-	-	(empty)	-	-	-	-	-	FOpKbS2xjvIn3Epzug	text/plain
+1342018518.557009	Con5xv1HmDJyiknAng	192.168.66.10	1056	72.64.146.71	80	1	GET	1.gc.1e400.net	/?net=gnutella2&get=1&client=RAZA2.5.0.0	-	Shareaza	0	1225	200	OK	-	-	-	(empty)	-	-	-	-	-	FNAvd91b12b49YWYqc	text/plain
+1342018519.455934	ChugeU15mfZkvpfrv1	192.168.66.10	1063	89.144.61.139	80	1	GET	89.144.61.139	/data.html	-	Mozilla/5.0 (Windows NT 5.1; rv:10.0.2) Gecko/20100101 Firefox/10.0.2	0	7	200	OK	-	-	-	(empty)	-	-	-	-	-	Fcwtn46NdvlFuWqrd	text/plain
+1342018527.642357	CH0U8q3VEjvQkpxxMg	192.168.66.10	1086	67.198.145.218	80	1	GET	67.198.145.218	/index.html	-	-	0	107	200	OK	-	-	-	(empty)	-	-	PROXY-CONNECTION -> Keep-Alive	-	-	Fh69Xd4X89bg9pSFHh	text/html
+#close	2014-04-03-09-53-39

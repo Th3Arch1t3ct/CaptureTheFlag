@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-56-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1361914969.215876	CPKeFH2lAyUjm77mi	192.168.115.10	1029	4.2.2.3	53	udp	64149	asmaralogistics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.254.28.115	28777.000000	F
+1361914969.978086	CPKeFH2lAyUjm77mi	192.168.115.10	1029	4.2.2.3	53	udp	34454	s.wordpress.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wac.0b2d.edgecastcdn.net,dual46.gs1.wac.v2cdn.net,93.184.216.119	3300.000000,1156.000000,1156.000000	F
+1361914970.956706	CPKeFH2lAyUjm77mi	192.168.115.10	1029	4.2.2.3	53	udp	18327	nutritionaltransition.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	97.74.215.233	3600.000000	F
+1361914971.098513	CPKeFH2lAyUjm77mi	192.168.115.10	1029	4.2.2.3	53	udp	59792	adaptinc.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.96.145.104	3600.000000	F
+1361914983.443739	CPKeFH2lAyUjm77mi	192.168.115.10	1029	4.2.2.3	53	udp	63633	104.145.96.66.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	104.145.96.66.static.eigbox.net	43200.000000	F
+1361914983.476357	CPKeFH2lAyUjm77mi	192.168.115.10	1029	4.2.2.3	53	udp	60306	104.145.96.66.static.eigbox.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.96.145.104	3600.000000	F
+1361914993.058553	CPKeFH2lAyUjm77mi	192.168.115.10	1029	4.2.2.3	53	udp	45212	hopper-stopper.com.au	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.247.244.100	14400.000000	F
+1361914995.144174	CPKeFH2lAyUjm77mi	192.168.115.10	1029	4.2.2.3	53	udp	64156	nashgroup.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.247.244.100	14400.000000	F
+1361914995.989117	CPKeFH2lAyUjm77mi	192.168.115.10	1029	4.2.2.3	53	udp	3998	apexautoprotection.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.254.64.175	14400.000000	F
+#close	2014-04-03-09-56-38

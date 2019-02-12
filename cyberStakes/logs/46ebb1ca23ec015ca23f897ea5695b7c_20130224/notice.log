@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-08-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1361670482.156613	CsOhzP1HX1uKQWygmk	192.168.89.10	1046	5.104.106.56	80	FVSVDpxP4g14t40kf	application/x-dosexec	http://vseby.iomert.chickenkiller.com/get_soft_demo.php?ts=a078eac94bab5b54c1141a62e17e0c9f52bbfd7d&affid=70800	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 48%  Last seen: 2013-04-15 08:28:30	https://www.virustotal.com/en/search/?query=6d85be459a3438c8b1c5d147eeb3ea2942101b73	192.168.89.10	5.104.106.56	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-08-48

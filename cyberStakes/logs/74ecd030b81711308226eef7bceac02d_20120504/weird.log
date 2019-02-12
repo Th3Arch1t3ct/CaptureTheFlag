@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-11-05-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1336116924.739303	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1336116987.317193	CE7b2F13pcrwfAPrui	192.168.113.10	1043	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336116987.319308	CwCkTy2pU98VXSawpf	192.168.113.10	1045	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336116987.418593	CbOZrn4hUsUFI6ZOBb	192.168.113.10	1047	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+#close	2014-04-03-11-05-21

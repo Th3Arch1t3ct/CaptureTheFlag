@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-17-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1356564248.242743	C3wyTD1NYS8nfhpWYh	192.168.96.10	1064	91.201.215.173	80	FnQqvV1uS3O6h7Uh4d	application/x-dosexec	http://consumesenhanced.pro/D1J4BF00liD0dTMz0lC8S06G280dbST0Ef0n0AB5309G8d06i6700pGC0PjhR03yg40iWTO0uYRt0CRaC12TkC06Fae0Jmql07esC0RKn60bV7c0W414143AI0wxTK0dMoS0wydH0Crud0hnKI0uEA10nVt206E950JCUI0zbJE0gPoM0M0T00T4FO0Qau805Z080W3Mp137dD/getmyfile.exe?o=1&h=11	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2012-12-23 05:16:02	https://www.virustotal.com/en/search/?query=bf58f206a978fc90fb020a0e970e30e640db536e	192.168.96.10	91.201.215.173	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-17-44

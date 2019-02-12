@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-46-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1327450641.326633	CpknSTKBIjYmt2Sdk	192.168.99.10	1029	4.2.2.3	53	udp	11917	iransalamat.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.142.240.98	43181.000000	F
+1327450641.55692	CpknSTKBIjYmt2Sdk	192.168.99.10	1029	4.2.2.3	53	udp	53646	www.iransalamat.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	iransalamat.com,174.142.240.98	43200.000000,43181.000000	F
+1327450641.723238	CpknSTKBIjYmt2Sdk	192.168.99.10	1029	4.2.2.3	53	udp	10127	semestr.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.89.230	3600.000000	F
+1327450668.381421	CM7xsf240MG44DAULd	192.168.99.10	1029	4.2.2.3	53	udp	6280	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	2725.000000,252.000000	F
+1327450670.864646	CM7xsf240MG44DAULd	192.168.99.10	1029	4.2.2.3	53	udp	54409	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,64.4.52.169	717.000000,138.000000	F
+1327450698.529639	CRks871YZHkTktRIUe	192.168.99.10	1029	4.2.2.3	53	udp	7561	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	akam.bing.com,a134.b.akamai.net,208.48.254.107,208.48.254.88,208.48.254.91	3427.000000,2608.000000,11.000000,11.000000,11.000000	F
+1327450703.98918	CRks871YZHkTktRIUe	192.168.99.10	1029	4.2.2.3	53	udp	37770	swupmf.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	swupmf.wip4.adobe.com,swupmf.adobe.com.edgesuite.net,a1137.g.akamai.net,69.31.132.72,69.31.132.58	1265.000000,600.000000,3063.000000,20.000000,20.000000	F
+1327450704.045067	CRks871YZHkTktRIUe	192.168.99.10	1029	4.2.2.3	53	udp	14986	crl.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.wip4.adobe.com,crl.adobe.com.edgesuite.net,a1180.g.akamai.net,69.31.132.57,69.31.132.82	9403.000000,300.000000,7568.000000,20.000000,20.000000	F
+1327450708.363708	CRks871YZHkTktRIUe	192.168.99.10	1029	4.2.2.3	53	udp	64644	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	akam.bing.com,a134.b.akamai.net,208.48.254.91,208.48.254.107,208.48.254.88	3417.000000,2598.000000,1.000000,1.000000,1.000000	F
+1327450710.259209	CRks871YZHkTktRIUe	192.168.99.10	1029	4.2.2.3	53	udp	25989	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	akam.bing.com,a134.b.akamai.net,208.48.254.89,208.48.254.91,208.48.254.107	3415.000000,2596.000000,19.000000,19.000000,19.000000	F
+#close	2014-04-03-10-46-34

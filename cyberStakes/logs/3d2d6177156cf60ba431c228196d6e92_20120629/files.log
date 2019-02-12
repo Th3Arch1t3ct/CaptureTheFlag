@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-27-12
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1340936031.523471	F5B2Iz2Ue89xPeXfl2	41.204.200.110	192.168.4.10	CbtD2m21vCfAf8sspe	HTTP	0	MD5,SHA1	text/html	-	0.000019	-	F	3625	-	0	0	F	-	ef5127e7a664da41a3cc692984f98735	7c426cf447e339b3c8aad4abd1337169a1c8de4b	-	-
+1340936034.084114	F78o52HMENn6M5TX8	196.7.147.2	192.168.4.10	CnWBL53logNKDf8NN7	HTTP	0	MD5,SHA1	image/jpeg	-	0.868813	-	F	42675	42675	0	0	F	-	c5ca73830ae35d9fe9d46b023a413a95	a697c3df9626e110a1b6032547c27cc6d732c7d4	-	-
+1340936037.419577	F9nhWk4x5mP5GTqHil	178.162.137.64	192.168.4.10	CJrKWg4pKgchf4MoMj	HTTP	0	MD5,SHA1	text/html	-	0.112331	-	F	12218	-	0	0	F	-	7ded25c54cc7ccf371201c8f52bc5e3c	f1adf352b049c4a7d91087577ca9499b2e20214d	-	-
+1340936038.021183	FPQXQr2XX4CPnOyq4h	178.162.137.64	192.168.4.10	CJrKWg4pKgchf4MoMj	HTTP	0	MD5,SHA1	application/pdf	66eb8978.pdf	0.457841	-	F	41359	41359	0	0	F	-	394d61d341e7d325aede26f344cd8d91	04c9a3bbd6a36f8d19e20808189b1add5d2cf699	-	-
+1340936044.980449	FBkCcebdhxAzUnsGd	178.162.137.64	192.168.4.10	CJrKWg4pKgchf4MoMj	HTTP	0	MD5,SHA1	application/x-dosexec	setup.exe	0.356950	-	F	33792	33792	0	0	F	-	643ef0454f93284b4c4447e7e47ca9de	3449b2a12f82839cac446c612ee3f48a0a8a97c4	-	-
+1340936045.410068	Fnnssm4lLpV6Rw6ORe	178.162.137.64	192.168.4.10	Cp0Hko2S1vARWR1td4	HTTP	0	MD5,SHA1	application/zip	bcf938cf.jar	0.644441	-	F	76321	76321	0	0	F	-	9f0576f02165be7f46ef49cebff71725	d213838a2a51045440a8b9fd715c013713ec89e8	-	-
+1340936049.377466	FNrxUF2h5w6GEXfAP	178.162.137.64	192.168.4.10	Cp0Hko2S1vARWR1td4	HTTP	0	MD5,SHA1	application/zip	48c7ed32.jar	0.643917	-	F	76321	76321	0	0	F	-	9f0576f02165be7f46ef49cebff71725	d213838a2a51045440a8b9fd715c013713ec89e8	-	-
+1340936050.267838	FqlIeF12EZKTPgIe21	178.162.137.64	192.168.4.10	Cp0Hko2S1vARWR1td4	HTTP	0	MD5,SHA1	application/zip	7aa25ae4.jar	0.213909	-	F	76321	76321	0	0	F	-	9f0576f02165be7f46ef49cebff71725	d213838a2a51045440a8b9fd715c013713ec89e8	-	-
+1340936050.68603	FYEcid3uSU2fWxES4k	178.162.137.64	192.168.4.10	Cp0Hko2S1vARWR1td4	HTTP	0	MD5,SHA1	application/x-dosexec	setup.exe	0.057447	-	F	33792	33792	0	0	F	-	643ef0454f93284b4c4447e7e47ca9de	3449b2a12f82839cac446c612ee3f48a0a8a97c4	-	-
+#close	2014-04-03-10-27-13

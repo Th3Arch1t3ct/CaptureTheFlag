@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-27-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1320913840.129975	CRl8Lr2XVpCYClrRs3	192.168.35.10	1030	109.236.82.74	80	1	GET	theuvw.in	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	234	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FyOHFJ10CAsLRNU0wh	text/html
+1320913840.330772	CxYvr6312S2uEFMmTi	192.168.35.10	1031	109.236.82.76	80	1	GET	jjjstyle.in	/?site=7	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	164	200	OK	-	-	-	(empty)	-	-	-	-	-	FLtvu039ycduwaHnw2	text/html
+1320913842.493584	CyqND53u6d2VyM4d2j	192.168.35.10	1036	109.236.82.76	80	1	GET	jjjstyle.in	/dl/applet.php?f86ca4254a18b56458548d2600985ab1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3963	200	OK	-	-	-	(empty)	-	-	-	-	-	FVQqsG4jS1QV1nfPzb	application/jar
+1320913842.714229	C4V39H1ep8DapFr9l8	192.168.35.10	1037	109.236.82.76	80	1	GET	jjjstyle.in	/dl/applet.php?f86ca4254a18b56458548d2600985ab1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3963	200	OK	-	-	-	(empty)	-	-	-	-	-	FHiaeS3BjFTIW8bG9k	application/jar
+1320913843.011345	CVKWl64k2rSPfTDzPc	192.168.35.10	1038	109.236.82.76	80	1	GET	jjjstyle.in	/dl/applet.php?f86ca4254a18b56458548d2600985ab1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3963	200	OK	-	-	-	(empty)	-	-	-	-	-	FAEqXz25A64TPQLphc	application/jar
+1320913843.275815	CtMH5n38LrZcK11i8	192.168.35.10	1039	109.236.82.76	80	1	GET	jjjstyle.in	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FQMuyA4rkmWqq6D7U	text/html
+1320913843.477655	C8Bng84bs1zEgIDQLc	192.168.35.10	1040	109.236.82.76	80	1	GET	jjjstyle.in	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FAPTO52pnRGEWVeV72	text/html
+1320913843.691574	CUjpQoH68gzvjkSNf	192.168.35.10	1041	109.236.82.76	80	1	GET	jjjstyle.in	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FndJvC4wTxLt3K91Rf	text/html
+1320913843.899112	C8eFX21FrVMQUUz2y6	192.168.35.10	1042	109.236.82.76	80	1	GET	jjjstyle.in	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FQfqSOtmxfSEdiznh	text/html
+1320913844.340814	CuBIcL361QXtDQm8Wf	192.168.35.10	1043	109.236.82.76	80	1	GET	jjjstyle.in	/dl/dl.php?4	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	237624	200	OK	-	-	-	(empty)	-	-	-	-	-	F11sNS163ZXDTDliH5	application/x-dosexec
+1320913845.896824	CL8O921OPMXet8eSG6	192.168.35.10	1044	141.101.126.146	80	1	GET	www.premiumsoft.info	/dynamic/get_configuration.php?installer_id=4ebabd8d7af7b1.51433012&step_id=1	-	-	0	1865	200	OK	-	-	-	(empty)	-	-	-	-	-	FuKTzeXFrWCcxUEG3	text/plain
+1320913847.993512	CpJVyK3JpKRUYCbDc1	192.168.35.10	1046	141.101.126.146	80	1	POST	www.premiumsoft.info	/utils/track_installer_products.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	369	6	200	OK	-	-	-	(empty)	-	-	-	Fsy0ll1oL6WDHJKVX7	text/plain	FuqS7t3o9V3baz0l41	text/plain
+1320913848.499035	CDE2xC2369bZCgzyul	192.168.35.10	1047	67.201.31.170	80	1	GET	cdn.premiumsafe.info	/installmate/addons/zugo/indy-indyesigns-dtx.exe	-	-	0	296832	200	OK	-	-	-	(empty)	-	-	-	-	-	F593w51SzfbM0crfe	application/x-dosexec
+1320913849.221123	C3GDag2KFBd6cyZxl1	192.168.35.10	1048	209.159.151.3	80	1	GET	installer.zugo.com	/getcountry?pid=695&channel=0-0-0&bdate=20110809T102552&bversion=1.9&client=installer&action=tb_validated&user_guid=43382219599D43B486E953C017F5F803	-	NSISDL/1.2 (Mozilla)	0	13	200	OK	-	-	-	(empty)	-	-	-	-	-	FWDoeDc7gUvPwtByl	text/plain
+1320913850.54683	CkA9SB2aT9U5d5sJCl	192.168.35.10	1049	209.159.151.3	80	1	POST	tbtrack.zugo.com	/register	-	NSIS_Inetc (Mozilla)	1420	12	200	OK	-	-	-	(empty)	-	-	-	F2zu4T1Otjfyu3VoBg	text/plain	Freaci4xyfa3KrFIpi	text/plain
+1320913850.613086	CDE2xC2369bZCgzyul	192.168.35.10	1047	67.201.31.170	80	2	GET	cdn.premiumsafe.info	/installmate/images/general_logo.bmp	-	-	0	21616	200	OK	-	-	-	(empty)	-	-	-	-	-	FrquXk1ekvkqdQlDSk	image/x-ms-bmp
+#close	2014-04-03-10-27-26

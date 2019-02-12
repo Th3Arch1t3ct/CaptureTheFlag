@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-42-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1359179917.741646	C3gocEmV6KXcwzMKl	192.168.98.10	1029	4.2.2.3	53	udp	48271	digestivewellnessctr.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.106.55.17	3600.000000	F
+1359179919.001608	C3gocEmV6KXcwzMKl	192.168.98.10	1029	4.2.2.3	53	udp	8077	www.digestivewellnessctr.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.106.55.17	3600.000000	F
+1359179920.070255	C3gocEmV6KXcwzMKl	192.168.98.10	1029	4.2.2.3	53	udp	50572	vox.mybar.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	205.178.189.129	7200.000000	F
+1359179920.924729	C3gocEmV6KXcwzMKl	192.168.98.10	1029	4.2.2.3	53	udp	15242	thisidminigame.hk.ms	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.138.88.212	3600.000000	F
+1359179921.523915	C3gocEmV6KXcwzMKl	192.168.98.10	1029	4.2.2.3	53	udp	21129	51035289803ad.cc-mw.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.150.0.194	1800.000000	F
+1359179922.81134	C3gocEmV6KXcwzMKl	192.168.98.10	1029	4.2.2.3	53	udp	57225	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,64.4.52.169	580.000000,260.000000	F
+1359179922.906181	C3gocEmV6KXcwzMKl	192.168.98.10	1029	4.2.2.3	53	udp	64136	510360ce271ed.cc-mw.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.159.153.168	1800.000000	F
+1359179922.962564	C3gocEmV6KXcwzMKl	192.168.98.10	1029	4.2.2.3	53	udp	55687	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	2330.000000,585.000000	F
+1359179928.511709	C3gocEmV6KXcwzMKl	192.168.98.10	1029	4.2.2.3	53	udp	29317	194.0.150.193.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	free.fastvds.ru	3600.000000	F
+1359179928.895355	C3gocEmV6KXcwzMKl	192.168.98.10	1029	4.2.2.3	53	udp	55941	free.fastvds.ru	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1359179928.895355	C3gocEmV6KXcwzMKl	192.168.98.10	1029	4.2.2.3	53	udp	55941	free.fastvds.ru	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1359179928.895355	C3gocEmV6KXcwzMKl	192.168.98.10	1029	4.2.2.3	53	udp	55941	free.fastvds.ru	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1359179928.895355	C3gocEmV6KXcwzMKl	192.168.98.10	1029	4.2.2.3	53	udp	55941	free.fastvds.ru	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1359179928.895355	C3gocEmV6KXcwzMKl	192.168.98.10	1029	4.2.2.3	53	udp	55941	free.fastvds.ru	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1359179946.244787	CpFV3v1F4XXqWqfaN6	192.168.98.10	1029	4.2.2.3	53	udp	1411	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.d.akamai.net,209.170.94.247,209.170.94.242	17644.000000,300.000000,3202.000000,20.000000,20.000000	F
+1359179959.283595	CUMOPg2akbKwXS4AMc	192.168.98.10	1029	4.2.2.3	53	udp	30339	swupmf.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	swupmf.wip4.adobe.com,swupmf.adobe.com.edgesuite.net,a1137.g.akamai.net,204.93.38.114,204.93.38.112	618.000000,316.000000,7356.000000,20.000000,20.000000	F
+1359179959.985398	CUMOPg2akbKwXS4AMc	192.168.98.10	1029	4.2.2.3	53	udp	4226	crl.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.wip4.adobe.com,crl.adobe.com.edgesuite.net,a1180.g.akamai.net,204.93.38.146,204.93.38.131	4463.000000,300.000000,8647.000000,20.000000,20.000000	F
+#close	2014-04-03-10-42-26

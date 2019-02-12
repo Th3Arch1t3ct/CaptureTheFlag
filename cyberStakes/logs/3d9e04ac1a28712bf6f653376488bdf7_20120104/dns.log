@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-49-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1325712097.086917	CoBbUJ1cLutOv50e13	192.168.59.10	1028	4.2.2.3	53	udp	4231	xct47vtl.inghamroyale.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	77.126.234.63,77.253.251.121,95.13.61.240,95.25.151.250,119.31.149.118,178.179.28.31,189.194.190.44,190.160.182.231,201.164.113.217,201.164.173.69,201.213.213.173,213.114.145.56,213.231.62.217,219.85.213.96,24.110.87.155,46.177.170.55,58.93.219.229,75.53.113.59,77.52.241.5,77.79.163.54	4.000000,4.000000,4.000000,4.000000,4.000000,4.000000,4.000000,4.000000,4.000000,4.000000,4.000000,4.000000,4.000000,4.000000,4.000000,4.000000,4.000000,4.000000,4.000000,4.000000	F
+1325712098.025566	CoBbUJ1cLutOv50e13	192.168.59.10	1028	4.2.2.3	53	udp	20870	leworknews.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.89.228	3584.000000	F
+1325712112.419698	CcXqJD4EYG9YvU1j6b	192.168.59.10	1028	4.2.2.3	53	udp	54148	leworknews.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.89.228	3570.000000	F
+1325712112.529178	CcXqJD4EYG9YvU1j6b	192.168.59.10	1028	4.2.2.3	53	udp	50308	onlinesecurytytests.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.137.226.91	43200.000000	F
+1325712125.348081	CypavGG0tgQxYAEJk	192.168.59.10	1028	4.2.2.3	53	udp	31619	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.75.27,69.31.75.17	16784.000000,274.000000,7566.000000,3.000000,3.000000	F
+#close	2014-04-03-10-49-27

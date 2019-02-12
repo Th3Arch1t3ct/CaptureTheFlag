@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-13-43
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1318160340.141763	Cf1cXergykJLWY6S7	192.168.79.10	1029	4.2.2.3	53	udp	54415	neopharma.ae	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	204.3.112.68	3577.000000	F
+1318160341.371408	Cf1cXergykJLWY6S7	192.168.79.10	1029	4.2.2.3	53	udp	14221	www.neopharma.ae	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	neopharma.ae,204.3.112.68	3600.000000,3576.000000	F
+1318160343.774352	Cf1cXergykJLWY6S7	192.168.79.10	1029	4.2.2.3	53	udp	50316	jjghui.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	146.185.248.3	600.000000	F
+1318160344.405021	Cf1cXergykJLWY6S7	192.168.79.10	1029	4.2.2.3	53	udp	17546	www3.smart-scanereq.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	75.102.21.121	13587.000000	F
+1318160344.500569	Cf1cXergykJLWY6S7	192.168.79.10	1029	4.2.2.3	53	udp	19850	www1.smart-umaster.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.125	21600.000000	F
+1318160358.599082	Cf1cXergykJLWY6S7	192.168.79.10	1029	4.2.2.3	53	udp	51338	www1.simplegq-network.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.23.11.219	10942.000000	F
+1318160393.541096	ChCS6u3C3RXYybafZj	192.168.79.10	1029	75.102.22.72	53	udp	24456	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	68.168.222.177	86400.000000	F
+1318160393.654851	CRKVPa1fKynYFw3ODg	192.168.79.10	1029	205.234.236.192	53	udp	13960	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	68.168.222.177	86400.000000	F
+1318160393.755369	C4b0Uj3EJTQ3ZJxjw4	192.168.79.10	1029	66.197.152.72	53	udp	49032	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	68.168.222.177	86400.000000	F
+#close	2014-04-03-10-13-44

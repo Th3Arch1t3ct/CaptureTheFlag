@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-50-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1328638502.584962	C82UIc4Kxl2u5hqC66	192.168.95.10	1030	146.185.18.50	80	1	GET	8teengayboy.net	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1328638502.923737	CwPHJw4ogIdhzFDlY	192.168.95.10	1031	78.159.105.120	80	1	GET	abcfunny.info	/?site=15	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	272	200	OK	-	-	-	(empty)	-	-	-	-	-	FPzMMXEF66mjdndK1	text/html
+1328638505.12981	Cgj2kA4cHxgIqw1iD7	192.168.95.10	1037	78.159.105.120	80	1	GET	abcfunny.info	/?8fbd396db06666adf69a73c5ff3824a1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3735	200	OK	-	-	-	(empty)	-	-	-	-	-	F3njOh2VYCwDy1ryI6	application/zip
+1328638505.127894	C2XKP635HDWH14v7m6	192.168.95.10	1036	78.159.105.120	80	1	GET	abcfunny.info	/?e6c15e034159d8e7c7f518db7125a71f	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3030	200	OK	-	-	-	(empty)	-	-	-	-	-	FuF2w1akOpUYAx8Fa	application/zip
+1328638505.369542	CXhUYl2ENjjoxOSmV2	192.168.95.10	1039	78.159.105.120	80	1	GET	abcfunny.info	/?e6c15e034159d8e7c7f518db7125a71f	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3030	200	OK	-	-	-	(empty)	-	-	-	-	-	FnBUAF2OeZIPnCKxj8	application/zip
+1328638505.372007	C2TT1g4FLe11brfxc4	192.168.95.10	1038	78.159.105.120	80	1	GET	abcfunny.info	/?8fbd396db06666adf69a73c5ff3824a1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3735	200	OK	-	-	-	(empty)	-	-	-	-	-	Fo5txq1nANKLPRlfh	application/zip
+1328638505.666277	Cv49hG2QGarUt5h8L9	192.168.95.10	1040	78.159.105.120	80	1	GET	abcfunny.info	/?e6c15e034159d8e7c7f518db7125a71f	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3030	200	OK	-	-	-	(empty)	-	-	-	-	-	FmEQhw3mHKdqmOwLB2	application/zip
+1328638505.747661	CvV63y3RWIKcRXqBw8	192.168.95.10	1041	78.159.105.120	80	1	GET	abcfunny.info	/?8fbd396db06666adf69a73c5ff3824a1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3735	200	OK	-	-	-	(empty)	-	-	-	-	-	F40LuI2JVX7gmHftq2	application/zip
+1328638505.983593	CBBjMR33hYcRvONm34	192.168.95.10	1042	78.159.105.120	80	1	GET	abcfunny.info	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FJbn5Sjm6Blvi3Jge	text/html
+1328638506.218452	ChQDUA2uaOVhOU1Et9	192.168.95.10	1044	78.159.105.120	80	1	GET	abcfunny.info	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FvihdBTan0IJmjGa9	text/html
+1328638506.455016	ClTf544pt5hObu2PGa	192.168.95.10	1045	78.159.105.120	80	1	GET	abcfunny.info	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F14Iux4ar4kWe8BRS6	text/html
+1328638506.689339	C5SUDK3SPkHDAvCev9	192.168.95.10	1046	78.159.105.120	80	1	GET	abcfunny.info	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F9UVui16zRXncfTmh	text/html
+1328638506.08147	C74yVU2Ua9RRjqZdj5	192.168.95.10	1043	78.159.105.120	80	1	GET	abcfunny.info	/?682ec016f5a0784f4a4e9daf7ec5dd79	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	442368	200	OK	-	-	-	(empty)	-	-	-	-	-	F2YgXB36FAOHXKXvVk	application/x-dosexec
+1328638506.971921	CMiLZ44nHojEILWLFa	192.168.95.10	1047	78.159.105.120	80	1	GET	abcfunny.info	/?3f6679c346723932d1785997526d15be	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	442368	200	OK	-	-	-	(empty)	-	-	-	-	-	F7bDmS2UMjpUNGmYo2	application/x-dosexec
+1328638509.998752	CYZyQJ3TqwSXEzO874	192.168.95.10	1048	78.159.105.120	80	1	GET	abcfunny.info	/?3f6679c346723932d1785997526d15be	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	7680	200	OK	-	-	-	(empty)	-	-	-	-	-	F0elk52rNp7gEzsuG9	application/x-dosexec
+1328638516.043067	C0j9AA2QFG9jcmi1K9	192.168.95.10	1049	81.17.24.90	80	1	GET	tilenigotec.com	/up.php?0Q9oBPXEN0uECUgzEJ95RQsbjjrvq1aG3F/2q5sb+kXU2mKa1w==	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1328638516.608105	Cyctfx3Hm3vPamNay8	192.168.95.10	1050	31.44.184.49	80	1	GET	wirelescefard.com	/?ylOdR9GQqXquMlTvsmXlkaz1x3Ab/w==	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	571392	200	OK	-	-	-	(empty)	-	-	-	-	-	FRwzHknZ0nh5xwzm5	binary
+#close	2014-04-03-09-50-59

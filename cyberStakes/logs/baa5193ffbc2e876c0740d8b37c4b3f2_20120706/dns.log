@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-04-52
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1341540359.372595	CqrfZD3cqIb1m8vzBl	192.168.100.10	1029	4.2.2.3	53	udp	54414	phisieunhan.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	59.157.7.158	342.000000	F
+1341540361.678708	CqrfZD3cqIb1m8vzBl	192.168.100.10	1029	4.2.2.3	53	udp	11919	opi.yahoo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	opium.fy7.b.yahoo.com,98.138.26.40	1591.000000,295.000000	F
+1341540363.775687	CqrfZD3cqIb1m8vzBl	192.168.100.10	1029	4.2.2.3	53	udp	5263	static.nhaccuatui.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	123.30.134.20	1800.000000	F
+1341540364.42614	CqrfZD3cqIb1m8vzBl	192.168.100.10	1029	4.2.2.3	53	udp	30348	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.72.120,69.31.72.90	4008.000000,235.000000,18589.000000,19.000000,19.000000	F
+1341540364.800898	CqrfZD3cqIb1m8vzBl	192.168.100.10	1029	4.2.2.3	53	udp	14732	smtp.mail.yahoo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	smtp.mail.global.gm0.yahoodns.net,smtp.mail.us.am0.yahoodns.net,98.136.185.95,98.138.84.55,98.139.212.139	199.000000,923.000000,28.000000,28.000000,28.000000	F
+1341540365.915806	CqrfZD3cqIb1m8vzBl	192.168.100.10	1029	4.2.2.3	53	udp	46477	www.nhaccuatui.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	nhaccuatui.com,123.30.134.2	1800.000000,1800.000000	F
+1341540366.840294	CqrfZD3cqIb1m8vzBl	192.168.100.10	1029	4.2.2.3	53	udp	24205	stream41.gonct.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	123.30.134.97	1800.000000	F
+1341540366.912711	CqrfZD3cqIb1m8vzBl	192.168.100.10	1029	4.2.2.3	53	udp	46730	stc.nct.nixcdn.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	123.30.134.20	43200.000000	F
+1341540427.918196	CWLUzI2zjJL2skXLv	192.168.100.10	1029	4.2.2.3	53	udp	20875	smtp.mail.yahoo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	smtp.mail.global.gm0.yahoodns.net,smtp.mail.us.am0.yahoodns.net,98.136.185.95,98.138.84.55,98.139.212.139	136.000000,860.000000,300.000000,300.000000,300.000000	F
+#close	2014-04-03-11-04-53

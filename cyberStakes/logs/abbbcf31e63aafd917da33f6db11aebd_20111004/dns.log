@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-24-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1317734191.675728	CWOHDmYFulI6W4ej8	192.168.41.10	1029	4.2.2.3	53	udp	11917	securer.fi	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.146.69.14	3574.000000	F
+1317734192.091408	CWOHDmYFulI6W4ej8	192.168.41.10	1029	4.2.2.3	53	udp	51086	jsquery.co.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	10.10.10.10	3600.000000	F
+1317734192.52636	CWOHDmYFulI6W4ej8	192.168.41.10	1029	4.2.2.3	53	udp	12175	amourcollection.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.226.97.56	43200.000000	F
+1317734193.191408	CWOHDmYFulI6W4ej8	192.168.41.10	1029	4.2.2.3	53	udp	19849	amour-collection.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.208.34.80	43200.000000	F
+1317734237.12895	CxRjap3JoDgDqzUEzg	192.168.41.10	1029	4.2.2.3	53	udp	56970	guide.opendns.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.67.217.136,208.67.216.136	126.000000,126.000000	F
+1317734239.406726	CxRjap3JoDgDqzUEzg	192.168.41.10	1029	4.2.2.3	53	udp	12676	files.opendns.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.67.216.141	30.000000	F
+#close	2014-04-03-10-24-35

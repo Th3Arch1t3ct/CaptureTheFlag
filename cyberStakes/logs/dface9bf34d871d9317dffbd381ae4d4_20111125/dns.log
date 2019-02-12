@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-14-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1322179921.452091	CixrD7LcPxtuCarJ5	192.168.12.10	1029	4.2.2.3	53	udp	9867	elementodiseno.cl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	190.98.219.46	14379.000000	F
+1322179924.659861	CixrD7LcPxtuCarJ5	192.168.12.10	1029	4.2.2.3	53	udp	54666	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.47.95	2841.000000,52.000000	F
+1322179929.042104	CixrD7LcPxtuCarJ5	192.168.12.10	1029	4.2.2.3	53	udp	50058	cpb.hk.ms	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.194.180	3600.000000	F
+1322179929.490356	CixrD7LcPxtuCarJ5	192.168.12.10	1029	4.2.2.3	53	udp	13193	t24.edu.tf	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.230.111.11	3600.000000	F
+#close	2014-04-03-11-14-02

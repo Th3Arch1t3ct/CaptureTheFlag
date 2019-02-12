@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-58-43
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1338594023.452348	CAC6cq4CUldGVfyiOh	192.168.42.10	1053	85.25.152.217	80	FOasEp3blc3CfILqza	application/pdf	http://volip8.com/img1/fqhnbuklemeojv.pdf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 100%  Last seen: 2012-06-02 12:22:10	https://www.virustotal.com/en/search/?query=94325f5e2366672525faafcba98b15f81ca0620f	192.168.42.10	85.25.152.217	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-58-43

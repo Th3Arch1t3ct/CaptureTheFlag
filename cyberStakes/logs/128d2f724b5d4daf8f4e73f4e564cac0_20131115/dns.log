@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-15-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1384478834.153953	CBPneB227AHRa91fp6	192.168.6.10	1035	4.2.2.3	53	udp	25492	poplit.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.43.161.174	3562.000000	F
+1384478834.620429	CBPneB227AHRa91fp6	192.168.6.10	1035	4.2.2.3	53	udp	58261	b.zeroredirect1.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	54.204.33.63	600.000000	F
+1384478834.848582	CBPneB227AHRa91fp6	192.168.6.10	1035	4.2.2.3	53	udp	36502	b.zeroredirect2.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	54.204.33.63	600.000000	F
+1384478835.166066	CBPneB227AHRa91fp6	192.168.6.10	1035	4.2.2.3	53	udp	51351	track.vocliq.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	dqzhm.trackvoluum.com,23.23.166.128	10505.000000,60.000000	F
+1384478835.355922	CBPneB227AHRa91fp6	192.168.6.10	1035	4.2.2.3	53	udp	18064	worldtrack.co	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	54.200.47.49	600.000000	F
+1384478835.538953	CBPneB227AHRa91fp6	192.168.6.10	1035	4.2.2.3	53	udp	63121	urgentpcdownloads.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	54.200.40.74	600.000000	F
+1384478835.629778	CBPneB227AHRa91fp6	192.168.6.10	1035	4.2.2.3	53	udp	16529	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.28.95	1742.000000,225.000000	F
+1384478835.636473	CN4dMl3llEewKBkNO9	192.168.6.10	1045	4.2.2.3	53	udp	39314	wtta4363587.s3.amazonaws.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	s3-1-w.amazonaws.com,205.251.242.188	2400.000000,7.000000	F
+1384478836.507173	CBPneB227AHRa91fp6	192.168.6.10	1035	4.2.2.3	53	udp	12434	js-agent.newrelic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	newrelic-003.inscname.net,ins-011.inscname.net,192.33.31.101	50673.000000,470.000000,1524.000000	F
+1384478836.573421	CBPneB227AHRa91fp6	192.168.6.10	1035	4.2.2.3	53	udp	43923	beacon-2.newrelic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.31.164.172	9201.000000	F
+1384478840.546752	CBPneB227AHRa91fp6	192.168.6.10	1035	4.2.2.3	53	udp	51356	secure.oi-installer7.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	23.21.98.30	30.000000	F
+#close	2014-04-03-10-15-05

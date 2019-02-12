@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-49-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1343186539.79533	ChiH7S33HnPIGVQ8Ic	192.168.53.10	1030	196.201.6.11	80	1	GET	zonkmanufacturing.co.za	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	23480	200	OK	-	-	-	(empty)	-	-	-	-	-	FLK5H52aCafhChPyNe	text/html
+1343186542.241296	Cp0vIW258bEzTKUgkj	192.168.53.10	1036	88.198.228.114	80	1	GET	mvuvchtcxxibeubd.ru	/runforestrun?sid=botnet2	http://zonkmanufacturing.co.za/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	110	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	FcqMzO1BVNRe4gZZ31	text/html
+1343186540.74919	C5ebtI3OHb4IyUE8Wb	192.168.53.10	1031	196.201.6.11	80	1	GET	zonkmanufacturing.co.za	/process5.swf	http://zonkmanufacturing.co.za/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	77683	200	OK	-	-	-	(empty)	-	-	-	-	-	FYmj4Tf4cHfvf1oPb	application/x-shockwave-flash
+1343186542.966566	CPCkXv3IjVHPWZ6nV5	192.168.53.10	1037	178.63.123.224	80	1	GET	dynapass.ru	/in.cgi?7	http://zonkmanufacturing.co.za/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	208	302	Found	-	-	-	(empty)	-	-	-	-	-	F0geQ5AdWRCVREEwd	text/html
+1343186549.646973	CQNHC5roAG5Hgwz24	192.168.53.10	1039	95.215.60.144	80	1	GET	a20.topsitesadvisor.info	/soft2	http://zonkmanufacturing.co.za/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4737	200	OK	-	-	-	(empty)	-	-	-	-	-	FkSjWzVMFxcZ1DvVl	text/html
+1343186550.518492	Cihhp52Qx8ErQo7H74	192.168.53.10	1040	95.215.60.144	80	1	GET	a20.topsitesadvisor.info	/LqWR/Hw9G5ux_daFAYs86?czxnam=A9M9Z0z0.0.0t0.sAA	http://a20.topsitesadvisor.info/soft2	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4113	200	OK	-	-	-	(empty)	-	-	-	-	-	FGL5Jh2p7ApWzxWGSh	text/plain
+1343186564.028437	CWdODU1MJ7nCtiJON5	192.168.53.10	1042	63.217.115.106	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	691	200	OK	-	-	-	(empty)	-	-	-	-	-	Fylu9T3S4N7Y4Cqbr2	text/plain
+1343186581.619843	CETBT32XslawCiDAe4	192.168.53.10	1044	69.31.74.51	80	1	GET	crl.adobe.com	/aum.crl	-	Adobe Update Manager 6	0	2819	200	OK	-	-	-	(empty)	-	-	-	-	-	FUOHJb6FPOwcBVfRg	binary
+1343186581.352224	COXBJ20j5k3hykvY3	192.168.53.10	1043	63.217.115.107	80	1	GET	swupmf.adobe.com	/manifest/60/win/reader9rdr-en_US.upd	-	Adobe Update Manager 6	0	192693	200	OK	-	-	-	(empty)	-	-	-	-	-	FuxIyWqgdP5t9zF95	binary
+1343186582.200765	COXBJ20j5k3hykvY3	192.168.53.10	1043	63.217.115.107	80	2	GET	swupmf.adobe.com	/manifest/60/win/AdobeUpdater.upd	-	Adobe Update Manager 6	0	3524	200	OK	-	-	-	(empty)	-	-	-	-	-	FDuaT81xwHX0Oyt9db	binary
+1343186554.99724	CCCRT12TWSD4Ygkcz3	192.168.53.10	1041	95.215.60.144	80	1	GET	a20.topsitesadvisor.info	/P1qWR/Hw9G5ux_daFAYs86	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	405504	200	OK	-	-	-	(empty)	-	-	-	-	-	Fl2zDWuWAfFDNKDC9	application/x-dosexec
+1343186597.287886	Co8xS2213fiyEQ9PR5	192.168.53.10	1045	112.121.178.189	80	1	GET	112.121.178.189	/api/urls/?ts=83e22e15&affid=61711	-	(empty)	0	66	200	OK	-	-	-	(empty)	-	-	-	-	-	FG2c1H3JmmekGbmR4d	text/plain
+1343186598.184062	CskEq6x9e52QrUpJ5	192.168.53.10	1046	216.38.62.18	80	1	GET	opposingentitle.cu.cc	/f/notepad.exe?ts=83e22e15&affid=6171	-	(empty)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1343186598.268329	C8oWZvy4RzVO3DF38	192.168.53.10	1047	216.38.62.18	80	1	GET	cu.cc	/free.php?domain=opposingentitle.cu.cc	-	(empty)	0	271	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FKL7pH2q9rXGPNZbme	text/html
+1343186598.35129	CuuSD3EzlExhkJjv3	192.168.53.10	1048	216.38.62.18	80	1	GET	www.registry.cu.cc	/free.php?domain=opposingentitle.cu.cc	-	(empty)	0	3	302	Found	-	-	-	(empty)	-	-	-	-	-	FdwoTI3f8KqCgVvmb8	text/plain
+1343186598.454908	CMO5ea2tP6WmLDsVM4	192.168.53.10	1049	199.59.241.197	80	1	GET	15647.bodisparking.com	/opposingentitle.cu.cc	-	(empty)	0	1233	200	OK	-	-	-	(empty)	-	-	-	-	-	FlVZ7F4kpaZjGqIa8	text/html
+#close	2014-04-03-09-49-59

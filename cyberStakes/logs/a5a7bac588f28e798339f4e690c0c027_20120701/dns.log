@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-51-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1341111975.049539	C2o6lM13jYjdOju9qf	192.168.86.10	1029	4.2.2.3	53	udp	8845	divxstreamresource.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.162.100.42	43178.000000	F
+1341111976.136192	C2o6lM13jYjdOju9qf	192.168.86.10	1029	4.2.2.3	53	udp	60559	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,157.238.91.58,157.238.91.97	27498.000000,49.000000,13133.000000,1.000000,1.000000	F
+#close	2014-04-03-09-51-09

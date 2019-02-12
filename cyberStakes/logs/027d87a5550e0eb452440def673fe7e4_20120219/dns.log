@@ -1,0 +1,33 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-36-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1329623063.614888	C57nAbj85HwIrzvdg	192.168.26.10	1029	4.2.2.3	53	udp	52108	bengalanmine.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.7.216.224	14378.000000	F
+1329623063.718366	C57nAbj85HwIrzvdg	192.168.26.10	1029	4.2.2.3	53	udp	12687	webordermanager.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.124.199.1	3600.000000	F
+1329623064.048261	C57nAbj85HwIrzvdg	192.168.26.10	1029	4.2.2.3	53	udp	14734	ww.turningsbyterry.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	83.69.233.148	3600.000000	F
+1329623098.266931	COkJwU1nLW8z1fBu7j	192.168.26.10	1029	4.2.2.5	53	udp	43915	tablepack.ru	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1329623101.266239	COkJwU1nLW8z1fBu7j	192.168.26.10	1029	4.2.2.5	53	udp	43915	tablepack.ru	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1329623105.297608	COkJwU1nLW8z1fBu7j	192.168.26.10	1029	4.2.2.5	53	udp	43915	tablepack.ru	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1329623080.659503	COkJwU1nLW8z1fBu7j	192.168.26.10	1029	4.2.2.5	53	udp	63368	tablepack.ru	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1329623083.907563	COkJwU1nLW8z1fBu7j	192.168.26.10	1029	4.2.2.5	53	udp	63368	tablepack.ru	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1329623087.953646	COkJwU1nLW8z1fBu7j	192.168.26.10	1029	4.2.2.5	53	udp	63368	tablepack.ru	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1329623097.26816	CO0RHd1TJjyS2p57oi	192.168.26.10	1029	4.2.2.3	53	udp	43915	tablepack.ru	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1329623099.266351	CO0RHd1TJjyS2p57oi	192.168.26.10	1029	4.2.2.3	53	udp	43915	tablepack.ru	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1329623101.266073	CO0RHd1TJjyS2p57oi	192.168.26.10	1029	4.2.2.3	53	udp	43915	tablepack.ru	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1329623105.297485	CO0RHd1TJjyS2p57oi	192.168.26.10	1029	4.2.2.3	53	udp	43915	tablepack.ru	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1329623079.472377	CO0RHd1TJjyS2p57oi	192.168.26.10	1029	4.2.2.3	53	udp	63368	tablepack.ru	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1329623081.65846	CO0RHd1TJjyS2p57oi	192.168.26.10	1029	4.2.2.3	53	udp	63368	tablepack.ru	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1329623083.907386	CO0RHd1TJjyS2p57oi	192.168.26.10	1029	4.2.2.3	53	udp	63368	tablepack.ru	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1329623087.953454	CO0RHd1TJjyS2p57oi	192.168.26.10	1029	4.2.2.3	53	udp	63368	tablepack.ru	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1329623119.941994	CGw2Sp2BRNmkxBI3z4	192.168.26.10	1029	4.2.2.3	53	udp	33163	tablepack.ru	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1329623121.953825	CGw2Sp2BRNmkxBI3z4	192.168.26.10	1029	4.2.2.3	53	udp	33163	tablepack.ru	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1329623123.954703	CGw2Sp2BRNmkxBI3z4	192.168.26.10	1029	4.2.2.3	53	udp	33163	tablepack.ru	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1329623128.000378	CGw2Sp2BRNmkxBI3z4	192.168.26.10	1029	4.2.2.3	53	udp	33163	tablepack.ru	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1329623120.939295	CKRhhy2CW6r6vQqbs5	192.168.26.10	1029	4.2.2.5	53	udp	33163	tablepack.ru	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1329623123.954852	CKRhhy2CW6r6vQqbs5	192.168.26.10	1029	4.2.2.5	53	udp	33163	tablepack.ru	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1329623128.00051	CKRhhy2CW6r6vQqbs5	192.168.26.10	1029	4.2.2.5	53	udp	33163	tablepack.ru	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-36-08

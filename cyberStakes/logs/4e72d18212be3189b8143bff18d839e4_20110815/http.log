@@ -1,0 +1,29 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-15-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1313437829.188837	CsGeSs4wtQjem7ablc	192.168.110.10	1030	67.18.16.114	80	1	GET	barneysministorage.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	11952	200	OK	-	-	-	(empty)	-	-	-	-	-	FmBwH81X2i3NxdC0Ce	text/html
+1313437829.247806	COe8EJ2jHtAoS6Gta6	192.168.110.10	1031	67.18.16.114	80	1	GET	barneysministorage.com	/images/background.gif	http://barneysministorage.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	51	200	OK	-	-	-	(empty)	-	-	-	-	-	Fq5Tvj4cQbwl0RwpDa	image/gif
+1313437829.269384	CsGeSs4wtQjem7ablc	192.168.110.10	1030	67.18.16.114	80	2	GET	barneysministorage.com	/images/needstorage.gif	http://barneysministorage.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	9216	200	OK	-	-	-	(empty)	-	-	-	-	-	FpvBx8Zv3yE0hIz9g	image/gif
+1313437829.29947	COe8EJ2jHtAoS6Gta6	192.168.110.10	1031	67.18.16.114	80	2	GET	barneysministorage.com	/images/housefurn.gif	http://barneysministorage.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	10925	200	OK	-	-	-	(empty)	-	-	-	-	-	FbJcPLUuTmIVc4nTa	image/gif
+1313437829.371641	CsGeSs4wtQjem7ablc	192.168.110.10	1030	67.18.16.114	80	3	GET	barneysministorage.com	/images/bizstor.gif	http://barneysministorage.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	9500	200	OK	-	-	-	(empty)	-	-	-	-	-	FkoFrx2Tng6rgZdmvd	image/gif
+1313437829.371874	COe8EJ2jHtAoS6Gta6	192.168.110.10	1031	67.18.16.114	80	3	GET	barneysministorage.com	/images/motorcycle.gif	http://barneysministorage.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	12706	200	OK	-	-	-	(empty)	-	-	-	-	-	Fhjxcc3YHoAxYJa02k	image/gif
+1313437829.411506	CsGeSs4wtQjem7ablc	192.168.110.10	1030	67.18.16.114	80	4	GET	barneysministorage.com	/images/jetski.gif	http://barneysministorage.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6711	200	OK	-	-	-	(empty)	-	-	-	-	-	F392Ne210zScfm1Ih7	image/gif
+1313437829.461032	CsGeSs4wtQjem7ablc	192.168.110.10	1030	67.18.16.114	80	5	GET	barneysministorage.com	/images/horizbar.gif	http://barneysministorage.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	82	200	OK	-	-	-	(empty)	-	-	-	-	-	FaUyPe5wKLXGPtOHa	image/gif
+1313437829.43059	COe8EJ2jHtAoS6Gta6	192.168.110.10	1031	67.18.16.114	80	4	GET	barneysministorage.com	/images/barn_min_stor_header_2.gif	http://barneysministorage.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	68191	200	OK	-	-	-	(empty)	-	-	-	-	-	FI4lpI348OCkxr5ONf	image/gif
+1313437829.462017	CNlK5I1TVyNLCY4q7i	192.168.110.10	1032	178.17.163.92	80	1	GET	zirycatum.com	/k985ytv.htm	http://barneysministorage.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1313437829.648136	COe8EJ2jHtAoS6Gta6	192.168.110.10	1031	67.18.16.114	80	5	GET	barneysministorage.com	/images/map.gif	http://barneysministorage.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	22233	200	OK	-	-	-	(empty)	-	-	-	-	-	FRoLue3JZzV4Mzb4Ng	image/gif
+1313437829.553638	CsGeSs4wtQjem7ablc	192.168.110.10	1030	67.18.16.114	80	6	GET	barneysministorage.com	/images/bulletpic.gif	http://barneysministorage.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	264146	200	OK	-	-	-	(empty)	-	-	-	-	-	Fp6WGj1KAcQrthlq74	image/gif
+1313437829.912251	CUctXG3mYxhWJIddk2	192.168.110.10	1033	69.50.202.74	80	1	GET	ufycbv.com	/i87yta.htm	http://barneysministorage.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	46367	200	OK	-	-	-	(empty)	-	-	-	-	-	FwqFwN2wrID38f2cMb	text/html
+1313437832.664069	CUctXG3mYxhWJIddk2	192.168.110.10	1033	69.50.202.74	80	2	GET	ufycbv.com	/games/java_trust.php?f=22	http://ufycbv.com/i87yta.htm	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3453	200	OK	-	-	-	(empty)	-	-	-	-	-	Fx6uEk4p3hpIUxYy3	text/html
+1313437832.810787	CD7xY1R6odd0P3LEa	192.168.110.10	1037	69.50.202.74	80	1	GET	ufycbv.com	/i87yta.htm?f=22&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1313437833.929021	C6v8dc32i5DC1F4jP2	192.168.110.10	1044	69.50.202.74	80	1	GET	ufycbv.com	/games/worms.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4935	200	OK	-	-	-	(empty)	-	-	-	-	-	FhMvA4YNqhC7prfu8	application/zip
+1313437834.363641	C8v0cr4KmUtNthwidc	192.168.110.10	1046	69.50.202.74	80	1	GET	ufycbv.com	/i87yta.htm?f=22&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1313437837.132964	CrmV941ViyTPuXe20k	192.168.110.10	1045	91.193.72.70	80	1	GET	1539393606	/GSearch.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13172	200	OK	-	-	-	(empty)	-	-	-	-	-	FsY4KL3Tps8slgm6th	application/x-java-applet
+1313437838.118873	C8v0cr4KmUtNthwidc	192.168.110.10	1046	69.50.202.74	80	2	GET	ufycbv.com	/d.php?f=22&e=1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	377344	200	OK	-	-	-	(empty)	-	-	-	-	-	Fx9Llf2bpSsZ9XBggd	application/x-dosexec
+1313437845.558769	CEi0Uo3jtIF0a6QHM4	192.168.110.10	1101	46.165.192.177	80	1	GET	vomifydacyfyki.com	/1016000112	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)	0	2	200	OK	-	-	-	(empty)	-	-	-	-	-	Fx8yg63WUSxIi3ZHP1	text/plain
+#close	2014-04-03-10-15-34

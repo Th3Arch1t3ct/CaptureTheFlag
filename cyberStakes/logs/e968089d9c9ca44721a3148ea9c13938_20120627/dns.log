@@ -1,0 +1,29 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-16-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1340761835.865437	CjuTwm35Ekw1Vx7LEd	192.168.94.10	1029	4.2.2.3	53	udp	50572	isosignalisation.ma	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.33.47.130	14374.000000	F
+1340761836.661315	CjuTwm35Ekw1Vx7LEd	192.168.94.10	1029	4.2.2.3	53	udp	23692	fyefxug.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.63.42.161	0.000000	F
+1340761837.657688	CuQtsHKbP3cIMXuuj	192.168.94.10	1029	4.2.2.5	53	udp	23692	fyefxug.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	1.246.138.28	0.000000	F
+1340761838.415508	CjuTwm35Ekw1Vx7LEd	192.168.94.10	1029	4.2.2.3	53	udp	53646	zypzieb.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.50.8.174	0.000000	F
+1340761839.694938	CjuTwm35Ekw1Vx7LEd	192.168.94.10	1029	4.2.2.3	53	udp	2190	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,96.17.109.106,96.17.109.98	1015.000000,300.000000,18791.000000,10.000000,10.000000	F
+1340761868.064318	C350iL3nHBBQj3LMH	192.168.94.10	1029	4.2.2.3	53	udp	34952	tisreyp.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	83.96.36.3	0.000000	F
+1340761869.066974	CQLnqj1u1RuLSoA6x9	192.168.94.10	1029	4.2.2.5	53	udp	34952	tisreyp.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	97.100.134.109	0.000000	F
+1340761880.014274	CccMpj4sbo1U9xqiLg	192.168.94.10	1043	8.8.8.8	53	udp	13107	promos.fling.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.91.207.10	286.000000	F
+1340761884.637889	C350iL3nHBBQj3LMH	192.168.94.10	1029	4.2.2.3	53	udp	20875	secondfatman.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.193.12.27	600.000000	F
+1340761880.411089	CPKerM1JTmMnUqarpg	192.168.94.10	1046	83.133.123.20	53	udp	722	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340761880.445535	CxXl9M2jW9ywU99P67	192.168.94.10	1048	83.133.123.20	53	udp	722	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340761880.586244	CrtvZe2wBvUl5U2LN6	192.168.94.10	1050	83.133.123.20	53	udp	722	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340761880.785849	CGakwT1wVyqJCERCYd	192.168.94.10	1052	83.133.123.20	53	udp	722	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340761880.788224	CUsVcx2UbxIsQrczd7	192.168.94.10	1054	83.133.123.20	53	udp	722	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340761881.810966	CNhONv4niPakrge78j	192.168.94.10	1059	83.133.123.20	53	udp	722	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340761881.923804	Cp0LHLGachQDRHBe	192.168.94.10	1062	83.133.123.20	53	udp	722	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340761881.928438	CTwW0F34JEeVeMCJxk	192.168.94.10	1064	83.133.123.20	53	udp	722	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340761897.632509	CdmenS20YxNhIs0RAf	192.168.94.10	1078	8.8.8.8	53	udp	13107	fpdownload.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload.wip4.adobe.com,fpdownload.macromedia.com.edgekey.net,e526.d.akamaiedge.net,23.14.34.70	21021.000000,220.000000,221.000000,16.000000	F
+1340761897.691988	C12dmY1worR1zH6aN5	192.168.94.10	1080	8.8.8.8	53	udp	13107	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,63.80.138.17,63.80.138.40	6634.000000,136.000000,20210.000000,15.000000,15.000000	F
+1340761897.908405	C350iL3nHBBQj3LMH	192.168.94.10	1029	4.2.2.3	53	udp	9098	fpdownload.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload.wip4.adobe.com,fpdownload.macromedia.com.edgekey.net,e526.d.akamaiedge.net,23.0.2.70	27654.000000,262.000000,262.000000,3.000000	F
+#close	2014-04-03-11-16-12

@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-55-28
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1354371662.89034	CuPBK83RJo0PYdnpAh	192.168.109.10	1029	4.2.2.3	53	udp	8843	yukodesign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.254.28.99	14400.000000	F
+1354371663.803624	CuPBK83RJo0PYdnpAh	192.168.109.10	1029	4.2.2.3	53	udp	54666	www.yukodesign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	yukodesign.com,173.254.28.99	14400.000000,14399.000000	F
+1354371665.061088	CuPBK83RJo0PYdnpAh	192.168.109.10	1029	4.2.2.3	53	udp	22153	fonts.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.139.95	537.000000,103.000000	F
+1354371665.082943	CuPBK83RJo0PYdnpAh	192.168.109.10	1029	4.2.2.3	53	udp	63375	themes.googleusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlehosted.l.googleusercontent.com,74.125.140.132	12558.000000,18.000000	F
+#close	2014-04-03-10-55-29

@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-13-25
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1336413209.644134	FlBIum2irFihklaXrl	98.124.198.1	192.168.21.10	Cjsf3L3gbRudA4bPh5	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	182	182	0	0	F	-	e3a732dffff24641d70d8f93e5f777e3	4e49e38ad73f93e5b85ff21648466eb021d3ceb2	-	-
+1336413210.071512	FaXQNO2kUFUeMQHoW1	83.69.226.72	192.168.21.10	CwkPUE2sPiuEkCeoxc	HTTP	0	MD5,SHA1	binary	-	0.271425	-	F	20754	-	0	0	F	-	dfdabe95652514bf951c3f82b01f5c34	61582545fa8925bdcc588a8a7a9e8b2008e48179	-	-
+1336413210.902526	FR1cvO2uMyArdxqZ76	83.69.226.72	192.168.21.10	CwkPUE2sPiuEkCeoxc	HTTP	0	MD5,SHA1	application/x-dosexec	calc.exe	0.316107	-	F	67072	-	0	0	F	-	50f7df69eb181dd60fd878469f491942	0453aa68fe249901ca4f795480898914ed20553f	-	-
+1336413211.494288	FqrXeH3pj0idCR5xbb	83.69.226.72	192.168.21.10	CwkPUE2sPiuEkCeoxc	HTTP	0	MD5,SHA1	application/pdf	d66bb.pdf	0.208664	-	F	32615	32615	0	0	F	-	a59c2643077ed27647466cbf5e5593e3	ac4510ae6e5002d74af6b0b9e9550f26e87908bf	-	-
+1336413211.865541	FAW9hl2KbVDZhg7Jh3	83.69.226.72	192.168.21.10	CVpk791WxouAWnYrsj	HTTP	0	MD5,SHA1	application/x-shockwave-flash	-	0.000000	-	F	1499	1499	0	0	F	-	bc59f307b33315848d83e907b69c18c4	d6aa7a1009c86a0fa55f74ecdd04dee1d6000730	-	-
+1336413217.457687	FpGheh4dEs2s3zTx2	83.69.226.72	192.168.21.10	CwkPUE2sPiuEkCeoxc	HTTP	0	MD5,SHA1	application/x-shockwave-flash	-	0.054438	-	F	6972	6972	0	0	F	-	1bd165a2ac919727f96422451a1ddabc	a063ee5cef01c24568e9e3d0395cb1dfb226414f	-	-
+1336413217.61188	FvRWli1d0ljEpyBcpc	63.218.71.147	192.168.21.10	Cmui784NDPdHmKW9B9	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	1759	1759	0	0	F	-	4a5693fabfd4e15039896b105c9058db	350a25b622e7a75e82ec6783bcf7a2367239aa61	-	-
+1336413233.304409	FCswNy3F9FvW7Wx0ji	192.168.21.10	91.201.4.75	C9pSJZ1BQtgmZOd9cf	HTTP	0	MD5,SHA1	binary	-	0.000000	-	T	109	109	0	0	F	-	b3e1af4bd346ad19d04d911cc2b5473f	2a8e84efec9c6d764262eea1907280a440c7e5fc	-	-
+1336413233.823783	FNjDcZ3jHVCCIzUFl9	91.201.4.75	192.168.21.10	C9pSJZ1BQtgmZOd9cf	HTTP	0	MD5,SHA1	binary	-	1.888665	-	F	302183	-	0	0	F	-	44fbb05029f84cb1d2fff3805653a831	2f7cb84ccbee2db6d78e0da991f38246c3e2a949	-	-
+#close	2014-04-03-10-13-25

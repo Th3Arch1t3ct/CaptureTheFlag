@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-49-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1356894669.348555	CuXDiu4aNhrblmIjC5	192.168.15.10	1029	4.2.2.3	53	udp	17807	ozbiztech.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	27.123.25.1	3585.000000	F
+1356894670.096645	CuXDiu4aNhrblmIjC5	192.168.15.10	1029	4.2.2.3	53	udp	49039	www.ozbiztech.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ozbiztech.com,27.123.25.1	3584.000000,3584.000000	F
+1356894673.118507	CuXDiu4aNhrblmIjC5	192.168.15.10	1029	4.2.2.3	53	udp	4492	gfkkcp.wikaba.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.208.85.27	31.000000	F
+1356894673.495339	CuXDiu4aNhrblmIjC5	192.168.15.10	1029	4.2.2.3	53	udp	62349	wvztspn.wikaba.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.143.9.126	31.000000	F
+1356894673.659753	CuXDiu4aNhrblmIjC5	192.168.15.10	1029	4.2.2.3	53	udp	35722	baidu.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	220.181.111.85,220.181.111.86,123.125.114.144	600.000000,600.000000,600.000000	F
+1356894674.929406	CuXDiu4aNhrblmIjC5	192.168.15.10	1029	4.2.2.3	53	udp	22920	www.baidu.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.a.shifen.com,220.181.111.147	1145.000000,272.000000	F
+1356894678.515488	CuXDiu4aNhrblmIjC5	192.168.15.10	1029	4.2.2.3	53	udp	56457	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	1930.000000,300.000000	F
+1356894678.772195	CuXDiu4aNhrblmIjC5	192.168.15.10	1029	4.2.2.3	53	udp	11910	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	2292.000000,600.000000	F
+1356894682.684877	CuXDiu4aNhrblmIjC5	192.168.15.10	1029	4.2.2.3	53	udp	24198	shredtends.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.20.141.23	600.000000	F
+#close	2014-04-03-09-49-22

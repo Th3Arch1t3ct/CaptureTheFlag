@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-09-57-51
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1317499829.980062	Cks3Uk46J8bhHLYnUi	192.168.54.10	1032	188.127.228.44	80	tcp	http	0.420435	339	402	SF	-	0	ShADadfF	5	547	5	610	(empty)
+1317499829.306087	CLDhenZubTHsSo6nc	192.168.54.10	1031	173.236.156.11	80	tcp	http	5.556893	285	2037	RSTO	-	0	ShADadfR	6	533	5	2245	(empty)
+1317499829.180192	CASzgv1sVqcMbLLvZ8	192.168.54.10	1030	173.236.156.11	80	tcp	http	5.683026	281	479	RSTO	-	0	ShADadfR	6	529	4	647	(empty)
+1317499829.16148	CxmLB73spxGJfXUN14	192.168.54.10	1029	4.2.2.3	53	udp	dns	5.610923	226	419	SF	-	0	Dd	6	394	6	587	(empty)
+1317499830.255518	CZQYgW2xNJC5GvYha3	192.168.54.10	1033	178.63.199.10	80	tcp	http	25.706884	954	344069	SF	-	0	ShADadfF	166	7638	246	356837	(empty)
+1317499855.963426	CbkGGW3v4dynmRc5mk	192.168.54.10	1044	178.63.199.10	80	tcp	http	1.728651	241	493	RSTO	-	0	ShADadR	5	449	4	661	(empty)
+1317499813.076448	CjTZAyWhowUwfa6ed	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.001588	626	0	S0	-	0	D	2	682	0	0	(empty)
+1317499813.076802	CSvr6e49osuUXuxJoi	192.168.54.10	68	192.168.54.1	67	udp	dhcp	12.770548	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1317499833.002699	CkJ7YQ2xiNq96RTKI2	192.168.54.10	1038	65.55.13.243	80	tcp	http	0.918590	2874	1434	S1	-	0	ShADd	10	3282	8	2001	(empty)
+1317499833.003209	CxDwXO1evoMlUTMDc7	192.168.54.10	1039	65.55.13.243	80	tcp	http	0.762895	2395	1195	S1	-	0	ShADd	9	2763	7	1722	(empty)
+1317499889.519398	CQTNyF2WL0qDPU5ER1	192.168.54.10	1046	173.236.156.11	80	tcp	-	3.255048	0	0	S1	-	0	ShA	3	128	2	96	(empty)
+1317499834.783556	Cs5PvRvAelTJFVJHe	192.168.54.10	1041	64.4.52.169	80	tcp	http	0.296495	476	239	S1	-	0	ShADd	4	644	2	327	(empty)
+1317499831.295287	CyP76C1CubaT64D1Qj	192.168.54.10	1036	239.255.255.250	1900	udp	-	6.627001	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-09-57-51

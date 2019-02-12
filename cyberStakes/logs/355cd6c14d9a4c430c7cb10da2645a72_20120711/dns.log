@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-54-38
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1342037018.280434	CMardwzOUQ761G1X4	192.168.18.10	1029	4.2.2.3	53	udp	34450	reduceplastic.it	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.86.153.134	14378.000000	F
+1342037018.373395	CMardwzOUQ761G1X4	192.168.18.10	1029	4.2.2.3	53	udp	6802	baffalo.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.149.15.143	41354.000000	F
+1342037018.73535	CMardwzOUQ761G1X4	192.168.18.10	1029	4.2.2.3	53	udp	51088	jkeyboard.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.201.16	30.000000	F
+1342037019.661494	CMardwzOUQ761G1X4	192.168.18.10	1029	4.2.2.3	53	udp	17041	nopearth.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.59.198.62	30.000000	F
+1342037020.577898	CMardwzOUQ761G1X4	192.168.18.10	1029	4.2.2.3	53	udp	15510	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,24.143.193.202,24.143.193.194	25970.000000,156.000000,19102.000000,17.000000,17.000000	F
+1342037025.573924	CMardwzOUQ761G1X4	192.168.18.10	1029	4.2.2.3	53	udp	44695	62.198.59.37.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1342037025.573924	CMardwzOUQ761G1X4	192.168.18.10	1029	4.2.2.3	53	udp	44695	62.198.59.37.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1342037025.573924	CMardwzOUQ761G1X4	192.168.18.10	1029	4.2.2.3	53	udp	44695	62.198.59.37.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1342037025.573924	CMardwzOUQ761G1X4	192.168.18.10	1029	4.2.2.3	53	udp	44695	62.198.59.37.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-54-39

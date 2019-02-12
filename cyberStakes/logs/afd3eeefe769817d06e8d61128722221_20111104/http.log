@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-59-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1320410706.824097	CJtGux21TJe7NKQF54	192.168.94.10	1031	204.42.140.155	80	1	GET	modular-homes-ga.com	/cssstyles/stylesheet.css	http://modular-homes-ga.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	218	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FNawNc4pyHBpGYAAm4	text/html
+1320410706.592423	COJEUW131pmJz3LmOl	192.168.94.10	1030	204.42.140.155	80	1	GET	modular-homes-ga.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	14322	200	OK	-	-	-	(empty)	-	-	-	-	-	Fz2jSb4EoOgKIWLL78	text/html
+1320410706.894093	CJtGux21TJe7NKQF54	192.168.94.10	1031	204.42.140.155	80	2	GET	modular-homes-ga.com	/animate.js	http://modular-homes-ga.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	204	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F45I6fYyhAPZTKk44	text/html
+1320410707.286526	CygSoF1J3G38UlPl7	192.168.94.10	1032	69.43.161.178	80	1	GET	ahbazen.net	/?click=5103296	http://modular-homes-ga.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1320410707.504371	C92KN92BEmfqHoTiVh	192.168.94.10	1033	69.43.161.178	80	1	GET	ww25.ahbazen.net	/?click=5103296	http://modular-homes-ga.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	391	200	OK	-	-	-	(empty)	-	-	-	-	-	FXvLnk3azaCCTOElhe	text/html
+1320410715.770052	COJEUW131pmJz3LmOl	192.168.94.10	1030	204.42.140.155	80	2	GET	modular-homes-ga.com	/zcv.gif	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	72192	200	OK	-	-	-	(empty)	-	-	-	-	-	Fp2Lzf4byc48Vv8ef4	application/x-dosexec
+1320410718.085484	CBj0pA143ihOOU1fVk	192.168.94.10	1042	208.109.53.70	80	1	GET	aachristmas.com	/images/led/hg.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	912	200	OK	-	-	-	(empty)	-	-	-	-	-	F2DRQfL9GVQmArBL7	text/html
+#close	2014-04-03-10-59-31

@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-09-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1330486138.946953	C94b921kv4cK8aB7yi	192.168.46.10	1029	4.2.2.3	53	udp	64654	hakomibc.ca	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.69.93.68	43180.000000	F
+1330486139.2546	C94b921kv4cK8aB7yi	192.168.46.10	1029	4.2.2.3	53	udp	22671	www.hakomibc.ca	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	hakomibc.ca,64.69.93.68	43179.000000,43179.000000	F
+1330486140.858371	CD4MQv4babS8B3nBT1	192.168.46.10	1039	4.2.2.3	53	udp	18316	dropshipperportal.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.124.198.1	3600.000000	F
+1330486140.85058	C94b921kv4cK8aB7yi	192.168.46.10	1029	4.2.2.3	53	udp	17807	www.blog.briangrady.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.187.94.184	43200.000000	F
+1330486140.954215	CD4MQv4babS8B3nBT1	192.168.46.10	1039	4.2.2.3	53	udp	11149	ww.turningsbyterry.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.37.188.14	3600.000000	F
+1330486141.444206	C94b921kv4cK8aB7yi	192.168.46.10	1029	4.2.2.3	53	udp	45195	txrt.org.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.171.105.43	300.000000	F
+1330486145.784167	C94b921kv4cK8aB7yi	192.168.46.10	1029	4.2.2.3	53	udp	47752	bober.net.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.171.105.43	300.000000	F
+#close	2014-04-03-10-09-45

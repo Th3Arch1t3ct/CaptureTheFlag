@@ -1,0 +1,40 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-32-28
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1337252795.777407	CktDZS2Gy5moXSEAx4	192.168.3.10	1030	217.76.130.26	80	1	GET	batudewa.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	17213	200	OK	-	-	-	(empty)	-	-	-	-	-	FbBdACVmzGeqJ0jGg	text/html
+1337252796.939499	Cjnbzw4BAKqBcZl5ya	192.168.3.10	1033	217.76.130.26	80	1	GET	batudewa.com	/fondo.png	http://batudewa.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	93	200	OK	-	-	-	(empty)	-	-	-	-	-	FWPumM1f7NTHJ8JIYe	image/png
+1337252796.940517	CVXMru6XNCSEeu3g5	192.168.3.10	1034	217.76.130.26	80	1	GET	batudewa.com	/lujo.swf	http://batudewa.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	387	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F0PeXu3VmhpJhteVv1	text/html
+1337252796.922767	C0z5bo3mkbT923CFYc	192.168.3.10	1032	217.76.130.26	80	1	GET	www.batudewa.com	/portada_batudewa.png	http://batudewa.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	626465	200	OK	-	-	-	(empty)	-	-	-	-	-	FN6ZOonHjTvIGDNSj	image/png
+1337252798.155761	C2I7Fe3QuHliQlrXBd	192.168.3.10	1035	105.148.4.92	80	1	GET	xakruaq.ru	/count27.php	http://batudewa.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	(empty)	-	-	-	(empty)	-	-	-	-	-	-	-
+1337252805.45921	CbY86mtuFBuToJbZf	192.168.3.10	1040	178.162.157.190	80	1	GET	178.162.157.190	/66500006.html	http://batudewa.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	236	200	OK	-	-	-	(empty)	-	-	-	-	-	FGU3Hj4jMqA7Jgtl78	text/html
+1337252807.23551	CtgNxZ3k9KabHGQpy7	192.168.3.10	1041	178.162.157.190	80	1	GET	178.162.157.190	/24842.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	54923	200	OK	-	-	-	(empty)	-	-	-	-	-	FRz0V93cIQxlgVScba	application/zip
+1337252808.287	CtgNxZ3k9KabHGQpy7	192.168.3.10	1041	178.162.157.190	80	2	GET	178.162.157.190	/24842.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	54923	200	OK	-	-	-	(empty)	-	-	-	-	-	FxP4D43t22I2iPrdof	application/zip
+1337252808.812191	CtgNxZ3k9KabHGQpy7	192.168.3.10	1041	178.162.157.190	80	3	GET	178.162.157.190	/24842.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	54923	200	OK	-	-	-	(empty)	-	-	-	-	-	F3XkdI19BY31edyGkl	application/zip
+1337252809.298155	CtgNxZ3k9KabHGQpy7	192.168.3.10	1041	178.162.157.190	80	4	GET	178.162.157.190	/1.html	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	54272	200	OK	-	-	-	(empty)	-	-	-	-	-	FZcOh43qsKzltnpV25	application/x-dosexec
+1337252817.883273	Cd9Um11ZUwfdBjLee2	192.168.3.10	1042	178.162.157.188	80	1	GET	178.162.157.188	/542164.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	16896	200	OK	-	-	-	(empty)	-	-	-	-	-	FNOnIx483d3pRlGAZ1	binary
+1337252818.413989	Cd9Um11ZUwfdBjLee2	192.168.3.10	1042	178.162.157.188	80	2	GET	178.162.157.188	/542164.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	156672	200	OK	-	-	-	(empty)	-	-	-	-	-	Foqvyr2pVUxleZjZik	binary
+1337252819.437626	Cd9Um11ZUwfdBjLee2	192.168.3.10	1042	178.162.157.188	80	3	GET	178.162.157.188	/542164.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	483328	200	OK	-	-	-	(empty)	-	-	-	-	-	F2hR8rqGggBJUxuaa	binary
+1337252821.373444	Cd9Um11ZUwfdBjLee2	192.168.3.10	1042	178.162.157.188	80	4	GET	178.162.157.188	/542164.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	106496	200	OK	-	-	-	(empty)	-	-	-	-	-	FFVVp44u0tdjNnptk3	binary
+1337252821.959859	Cd9Um11ZUwfdBjLee2	192.168.3.10	1042	178.162.157.188	80	5	GET	178.162.157.188	/542164.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	70112	200	OK	-	-	-	(empty)	-	-	-	-	-	FScoU71pYVm5P5cXzl	binary
+1337252822.486481	Cd9Um11ZUwfdBjLee2	192.168.3.10	1042	178.162.157.188	80	6	GET	178.162.157.188	/542164.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	388674	200	OK	-	-	-	(empty)	-	-	-	-	-	F9RtkK2Y1u7FkJr91	binary
+1337252823.677223	Cd9Um11ZUwfdBjLee2	192.168.3.10	1042	178.162.157.188	80	7	GET	178.162.157.188	/542164.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	666	200	OK	-	-	-	(empty)	-	-	-	-	-	FFdX6c1jLj96Ui8x94	binary
+1337252825.631798	CxBXVl4JDrEasoBug8	192.168.3.10	1043	178.91.203.215	80	1	GET	wyliwow.ru	/newm001.exe	-	-	0	4483	200	(empty)	-	-	-	(empty)	-	-	-	-	-	FjCBdk0wJFnkLfuu3	text/html
+1337252834.224919	Ce8E3r1RbfTrFekRMg	192.168.3.10	1045	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	29	200	OK	-	-	-	(empty)	-	-	-	-	-	F3mgkU3MVI6iz6S6y1	text/plain
+1337252834.517782	CplJeG30xxrCH3pgV5	192.168.3.10	1049	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=4118011373&c=2&d=7&s=121	-	Opera/9 (Windows NT 5.1; US; x86)	0	401	200	OK	-	-	-	(empty)	-	-	-	-	-	F0OGqrgrdU8vGjSCf	image/gif
+1337252834.517595	CAAITZ2dW5dJ0xMpW	192.168.3.10	1046	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=4118011373&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	289	200	OK	-	-	-	(empty)	-	-	-	-	-	FyNHUK3InKbVqY45Il	image/gif
+1337252834.705491	CcpFTO1c88AG2KjXtk	192.168.3.10	1051	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=4118011373&c=3&d=7&s=130	-	Opera/9 (Windows NT 5.1; US; x86)	0	402	200	OK	-	-	-	(empty)	-	-	-	-	-	FjNuNb4EdqQWuZNHt6	image/gif
+1337252834.875783	ChpLIw3g4DkUc1eJD6	192.168.3.10	1053	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=4118011373&c=4&d=7&s=131	-	Opera/9 (Windows NT 5.1; US; x86)	0	1506	200	OK	-	-	-	(empty)	-	-	-	-	-	Fy4pOa19vEUfIwG3i2	image/gif
+1337252834.87598	CVZrZa4PzItXJLnz59	192.168.3.10	1055	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=4118011373&c=5&d=7&s=1	-	Opera/9 (Windows NT 5.1; US; x86)	0	1037	200	OK	-	-	-	(empty)	-	-	-	-	-	FBIadwUPaCDxB4sT3	image/gif
+1337252835.016084	CyDs973DPqrPSCGKHc	192.168.3.10	1058	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=4118011373&c=6&d=7&s=20	-	Opera/9 (Windows NT 5.1; US; x86)	0	465	200	OK	-	-	-	(empty)	-	-	-	-	-	FNlTtN1WWZwGzC9jPk	image/gif
+1337252834.629629	CcQeit2jxnSBwFXFwe	192.168.3.10	1048	220.164.140.246	80	1	GET	220.164.140.246	/api/urls/?ts=a724b64f&affid=56300	220.164.140.246	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	0	404	NOT FOUND	-	-	-	(empty)	-	-	-	-	-	-	-
+1337252835.878658	Cqi06ynX8rRTOpv84	192.168.3.10	1060	220.164.140.246	80	1	GET	220.164.140.246	/api/stats/install/?ts=a724b64f&affid=56300&ver=3040003&group=sf	220.164.140.246	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1337252836.957776	CNOJPs1SEeS1yYSz3j	192.168.3.10	1063	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=4118011373&c=7&d=7&s=21	-	Opera/9 (Windows NT 5.1; US; x86)	0	777	200	OK	-	-	-	(empty)	-	-	-	-	-	FTjLyo2v3coMQ0jTw	image/gif
+1337252838.748788	CrnNw82RlTbxBiUOol	192.168.3.10	1065	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=4118011373&c=8&d=7&s=30	-	Opera/9 (Windows NT 5.1; US; x86)	0	1441	200	OK	-	-	-	(empty)	-	-	-	-	-	FL7rJr4g5nnObK3Bbe	image/gif
+1337252838.858496	CoeaDW3XYjX5pT52M7	192.168.3.10	1067	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=4118011373&c=9&d=7&s=31	-	Opera/9 (Windows NT 5.1; US; x86)	0	469	200	OK	-	-	-	(empty)	-	-	-	-	-	FMXUdIV84klOULPd7	image/gif
+1337252841.180766	CoGgrAuCZ8qK1Bvd1	192.168.3.10	1075	78.140.131.157	80	1	GET	11t2vlp.cdn35.the-upload-service.com	/file/id=AgAgAAEAvhEBAAEFBhcAAAAAAAAAAAAAAAAAAAAjDAUPCwAAAG6kIlXhEQ6grLhvgiZvmW8AAFVVVVVVVVVVVVVVVVVVVVU-NM0BzJWgdUXxAABVd3Vtc219Y29lczMyaGc4Zzg4AkaTNQrd_hNvNFYA&rt=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-10-32-29

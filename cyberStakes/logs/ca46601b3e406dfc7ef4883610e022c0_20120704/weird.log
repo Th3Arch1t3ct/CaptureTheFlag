@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-28-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1341439964.292223	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1341439990.282057	CoZZ9ysN4pFkDU2yg	192.168.23.10	1047	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341439990.282347	CNHggR1LKX1bm4JFm6	192.168.23.10	1047	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341439990.37705	CjMwfQ3Ye6JVx82qY8	192.168.23.10	1049	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341439990.377312	CvWJFL3TZyUB9qOirj	192.168.23.10	1049	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341439990.708772	CuKXrs4b7d2YzowAXi	192.168.23.10	1052	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341439990.708979	CLsM4e227Vwk5bhrme	192.168.23.10	1052	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341439990.768643	CxVYrv2QgEvpiTvGdd	192.168.23.10	1054	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341439990.768861	CXwhX61pifn2pSlGD1	192.168.23.10	1054	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341439990.801927	Cj5Pun1vGSfjRbZeF8	192.168.23.10	1056	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341439990.802206	CWlzTx34HTaIctlaVh	192.168.23.10	1056	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341439992.985735	CNSmFF4cNb0auI1ST2	192.168.23.10	1060	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341439992.985911	C04Tuq2FbyN36y0bHe	192.168.23.10	1060	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341439993.027254	C35prp3ZxFrNffuiQc	192.168.23.10	1062	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341439993.027419	CWHcuTWzaFNISeVNb	192.168.23.10	1062	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341439993.051747	CH7TC23IMxGlGcBdJf	192.168.23.10	1064	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341439993.051912	C90UWkrhhHk6s35j5	192.168.23.10	1064	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341439997.875617	CnpL9B1jOtszF7U5g6	192.168.23.10	1068	31.193.12.27	80	bad_HTTP_request	-	F	bro
+#close	2014-04-03-10-28-10

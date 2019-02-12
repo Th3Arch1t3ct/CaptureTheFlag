@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-59-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1343390868.253865	CUBIPe2MhKXZQcSzpj	192.168.81.10	1029	4.2.2.3	53	udp	61069	custommilitaryplayingcards.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	72.167.160.18	43173.000000	F
+1343390869.118932	CUBIPe2MhKXZQcSzpj	192.168.81.10	1029	4.2.2.3	53	udp	63630	kvzstpqmeoxtcwko.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	88.198.228.114,78.46.11.101	3600.000000,3600.000000	F
+1343390870.079362	CUBIPe2MhKXZQcSzpj	192.168.81.10	1029	4.2.2.3	53	udp	54927	redrigger.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.242.214.155	43200.000000	F
+1343390870.607309	CUBIPe2MhKXZQcSzpj	192.168.81.10	1029	4.2.2.3	53	udp	47496	yellowskiff.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.215.60.182	43200.000000	F
+1343390902.863978	Cl4Zyi2uwRPZMWa6z1	192.168.81.10	1029	4.2.2.3	53	udp	17802	swupmf.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	swupmf.wip4.adobe.com,swupmf.adobe.com.edgesuite.net,a1137.g.akamai.net,69.31.75.35,69.31.75.9	6408.000000,533.000000,19010.000000,20.000000,20.000000	F
+1343390902.887438	Cl4Zyi2uwRPZMWa6z1	192.168.81.10	1029	4.2.2.3	53	udp	7819	crl.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.wip4.adobe.com,crl.adobe.com.edgesuite.net,a1180.g.akamai.net,69.31.75.33,69.31.74.211	1905.000000,300.000000,10192.000000,20.000000,20.000000	F
+#close	2014-04-03-10-59-09

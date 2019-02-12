@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-41-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1320268568.483826	CSScWi2ApiAlpzH8md	192.168.79.10	1037	213.123.52.133	80	FSBtO3hrZ0bA9ghxi	application/x-dosexec	http://ylzgnslw.org.in/index4.php?src=58&gpr=11&tkr=11022114304101440&tkri=4ad92461ec72c4c79bf14e7821611b3a&e=10&	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 39%  Last seen: 2012-06-02 09:20:22	https://www.virustotal.com/en/search/?query=bdd959430c18b3d7ffde80bd05343603a4ab4f9c	192.168.79.10	213.123.52.133	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-41-18

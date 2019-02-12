@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-24-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1338146135.660393	C7Dws71v7o2hHvmc3h	192.168.62.10	1078	178.162.181.132	80	FOKBIp1hvuufzJztQ5	application/x-shockwave-flash	http://wfefwefwedf.tld.cc/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 75%  Last seen: 2012-09-14 14:05:04	https://www.virustotal.com/en/search/?query=27474f210893b69a5204dcafb6d9fc12b743dc1f	192.168.62.10	178.162.181.132	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1338146135.775978	C5bB3g1VFK8CAhT4cb	192.168.62.10	1075	178.162.181.132	80	FRxqtC4y7bFdmjrxtb	application/x-dosexec	http://wfefwefwedf.tld.cc/w.php?f=5e91c&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 13%  Last seen: 2012-05-28 02:07:00	https://www.virustotal.com/en/search/?query=95046794ce49dfadc9be9301cb8b3ae1e353d401	192.168.62.10	178.162.181.132	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1338146148.919726	C4qfut3DxjolDpm7za	192.168.62.10	1082	178.162.181.132	80	FeOtl74Alt3CWiKSxe	application/x-dosexec	http://wfefwefwedf.tld.cc/w.php?f=5e91c&e=0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 13%  Last seen: 2012-05-28 02:07:00	https://www.virustotal.com/en/search/?query=95046794ce49dfadc9be9301cb8b3ae1e353d401	192.168.62.10	178.162.181.132	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-24-56

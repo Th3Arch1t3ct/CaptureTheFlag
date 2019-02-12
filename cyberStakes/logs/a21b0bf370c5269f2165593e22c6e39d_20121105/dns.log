@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-40-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1352076899.430065	Ckpxjh4FsxTrBJVH86	192.168.82.10	1029	4.2.2.3	53	udp	21649	ilknurmustu.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.199.200.153	600.000000	F
+1352076900.416453	Ckpxjh4FsxTrBJVH86	192.168.82.10	1029	4.2.2.3	53	udp	54418	fctwqfskh.americanunfinished.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.235.8.175	31.000000	F
+1352076901.051627	Ckpxjh4FsxTrBJVH86	192.168.82.10	1029	4.2.2.3	53	udp	58260	xaytyado.got-game.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.235.8.175	31.000000	F
+1352076914.230096	CnknuX2ZhZOA1f4C2b	192.168.82.10	1029	4.2.2.3	53	udp	56469	175.8.235.46.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	46.235.8.175.static.teknikdata.com	86400.000000	F
+1352076914.568494	CnknuX2ZhZOA1f4C2b	192.168.82.10	1029	4.2.2.3	53	udp	35734	46.235.8.175.static.teknikdata.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1352076914.568494	CnknuX2ZhZOA1f4C2b	192.168.82.10	1029	4.2.2.3	53	udp	35734	46.235.8.175.static.teknikdata.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-40-07

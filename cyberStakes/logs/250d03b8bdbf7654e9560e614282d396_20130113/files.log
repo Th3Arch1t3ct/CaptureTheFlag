@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-09-53-40
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1358067585.507409	F18GmE1t27omZT6PC7	93.170.52.31	192.168.99.10	CqnUNK2pkamaEaIc94	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	1116	-	0	0	F	-	35450e13cf8f4dcbdba3f95cff68343b	d6786390132b08b2f0da7530729853009fe24f1f	-	-
+1358067585.856179	F8CyfoCWxtCYr86F8	74.125.229.193	192.168.99.10	CsytJM1TJYFmlqG9vj	HTTP	0	MD5,SHA1	text/plain	-	0.015375	-	F	37362	-	0	0	F	-	f5592eabae33f8499d067344f1f42183	142a9875c4bd7e15ce6ac8b5bb181fb29ed08ba5	-	-
+1358067585.957518	FOxQAQ23GfkIOsV7C6	72.8.167.249	192.168.99.10	CXVAeh3gjXL65zi8Xd	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	568	568	0	0	F	-	e8011fad0506f6a1b0e30037a900671a	da82b532f376ab35fa034476d16d4589e2bf1b15	-	-
+1358067586.03839	FPwlqE65fsKpvx6lj	74.125.229.193	192.168.99.10	CsytJM1TJYFmlqG9vj	HTTP	0	MD5,SHA1	image/gif	-	0.000000	-	F	35	35	0	0	F	-	28d6814f309ea289f847c69cf91194c6	0f4e929dd5bb2564f7ab9c76338e04e292a42ace	-	-
+1358067586.143474	FBJvrQ74jm9sCFW17	208.131.138.217	192.168.99.10	Cpe8gs4gnylfRdUMM9	HTTP	0	MD5,SHA1	text/html	-	0.000017	-	F	3194	3194	0	0	F	-	0a7498591c88d6360288dd0ff763d991	6d8c8d51a49038b63f661a46b557a37f35705d10	-	-
+1358067586.263484	F1ncZa3zoCVglvR289	107.14.43.138	192.168.99.10	Cz4aW23siJRqrHiO93	HTTP	0	MD5,SHA1	image/png	-	0.000000	-	F	2349	2349	0	0	F	-	ce404e2f475dbf547ee8195dac0eff0a	3eb3390ad49e78b3e872aaf154256496e132e9f3	-	-
+1358067586.268676	FjOO8g4zsQVany9NSi	208.131.138.217	192.168.99.10	CS97wAI4NsIYLErgl	HTTP	0	MD5,SHA1	application/x-dosexec	MeBitchPIC.exe	0.082794	-	F	36500	184320	0	0	F	-	5035c0a65d87a6182eb196461e329881	b451f4d0dab4d0fd4536367e4a24162c37f9197a	-	-
+#close	2014-04-03-09-53-41

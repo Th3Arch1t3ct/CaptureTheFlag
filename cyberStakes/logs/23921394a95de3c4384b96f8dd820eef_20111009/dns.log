@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-00-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1318142360.322955	CHIIzQ2u9Md1XPYHya	192.168.74.10	1029	4.2.2.3	53	udp	18317	cridapalma.cat	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.194.90.71	14377.000000	F
+1318142361.589954	CHIIzQ2u9Md1XPYHya	192.168.74.10	1029	4.2.2.3	53	udp	13967	www.cridapalma.cat	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cridapalma.cat,82.194.90.71	14377.000000,14376.000000	F
+1318142362.864875	CHIIzQ2u9Md1XPYHya	192.168.74.10	1029	4.2.2.3	53	udp	15246	fonts.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.157.95	822.000000,212.000000	F
+1318142363.474519	CHIIzQ2u9Md1XPYHya	192.168.74.10	1029	4.2.2.3	53	udp	33672	themes.googleusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlehosted.l.googleusercontent.com,74.125.45.132	3803.000000,75.000000	F
+1318142364.679328	CHIIzQ2u9Md1XPYHya	192.168.74.10	1029	4.2.2.3	53	udp	7048	lh4.googleusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlehosted.l.googleusercontent.com,74.125.45.132	4143.000000,74.000000	F
+1318142364.700525	CdtaIn4plSdJ5WVDd1	192.168.74.10	1039	4.2.2.3	53	udp	38539	lh5.googleusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlehosted.l.googleusercontent.com,74.125.45.132	6484.000000,74.000000	F
+1318142364.703775	CHIIzQ2u9Md1XPYHya	192.168.74.10	1029	4.2.2.3	53	udp	8075	connect.facebook.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	connect.facebook.net.edgekey.net,e3821.c.akamaiedge.net,72.246.231.139	2234.000000,737.000000,9.000000	F
+1318142365.726436	CHIIzQ2u9Md1XPYHya	192.168.74.10	1029	4.2.2.3	53	udp	23434	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,24.143.201.43,24.143.201.35	17564.000000,76.000000,6069.000000,6.000000,6.000000	F
+1318142365.700224	CdtaIn4plSdJ5WVDd1	192.168.74.10	1039	4.2.2.3	53	udp	39050	fdasfda.ddns.me.uk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.66.209	31.000000	F
+1318142371.298039	CHIIzQ2u9Md1XPYHya	192.168.74.10	1029	4.2.2.3	53	udp	9605	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	2806.000000,129.000000	F
+1318142371.537013	CHIIzQ2u9Md1XPYHya	192.168.74.10	1029	4.2.2.3	53	udp	903	adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.150.16.117	3639.000000	F
+1318142373.669272	CHIIzQ2u9Md1XPYHya	192.168.74.10	1029	4.2.2.3	53	udp	25223	static.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.g.akamai.net,24.143.201.32,24.143.201.81	498.000000,328.000000,14.000000,14.000000	F
+1318142374.455819	CHIIzQ2u9Md1XPYHya	192.168.74.10	1029	4.2.2.3	53	udp	7297	www.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.171.229.11	14.000000	F
+1318142374.781749	CHIIzQ2u9Md1XPYHya	192.168.74.10	1029	4.2.2.3	53	udp	62592	b.static.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.g.akamai.net,24.143.201.32,24.143.201.81	1952.000000,327.000000,13.000000,13.000000	F
+1318142375.346748	CHIIzQ2u9Md1XPYHya	192.168.74.10	1029	4.2.2.3	53	udp	387	profile.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	profile.ak.facebook.com.edgesuite.net,a1725.l.akamai.net,24.143.193.51,24.143.193.56,24.143.193.57,24.143.193.58,24.143.193.59,24.143.193.10,24.143.193.48,24.143.193.49,24.143.193.50	574.000000,385.000000,17.000000,17.000000,17.000000,17.000000,17.000000,17.000000,17.000000,17.000000,17.000000	F
+#close	2014-04-03-10-00-15

@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-43-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1340149681.486171	CjCnkcWhrO3Jgk3C3	192.168.79.10	1030	188.72.233.79	80	1	GET	glamorous-models-girls.net	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1340149681.766444	CBAsDtKAXg4eGaZY1	192.168.79.10	1031	195.16.89.193	80	1	GET	alertingtwentyfour.info	/main.php?page=e46a6707752bf59e	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	58917	200	OK	-	-	-	(empty)	-	-	-	-	-	FTpvV9nviR7jPcAy9	text/html
+1340149684.987025	CBAsDtKAXg4eGaZY1	192.168.79.10	1031	195.16.89.193	80	2	GET	alertingtwentyfour.info	/w.php?f=b6863&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	43008	200	OK	-	-	-	(empty)	-	-	-	-	-	F0WbuA4954Rlrm4xo6	application/x-dosexec
+1340149685.750959	CBAsDtKAXg4eGaZY1	192.168.79.10	1031	195.16.89.193	80	3	GET	alertingtwentyfour.info	/data/ap2.php	http://alertingtwentyfour.info/main.php?page=e46a6707752bf59e	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	47540	200	OK	-	-	-	(empty)	-	-	-	-	-	FhHP0p3Dc97macx8wb	application/pdf
+1340149686.024687	C9ZgUHzJ1oQKizrK3	192.168.79.10	1036	195.16.89.193	80	1	GET	alertingtwentyfour.info	/data/field.swf	http://alertingtwentyfour.info/main.php?page=e46a6707752bf59e	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1547	200	OK	-	-	-	(empty)	-	-	-	-	-	FknBKy1qXKYrdStN1j	application/x-shockwave-flash
+1340149703.48868	Cs8btE429u5ogP4RRk	192.168.79.10	1037	63.148.207.127	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1111	200	OK	-	-	-	(empty)	-	-	-	-	-	FQVfeC1Ra3CQrNjoej	text/plain
+1340149708.340367	CZKWwz3fncV2pVrLPk	192.168.79.10	1038	195.16.89.193	80	1	GET	alertingtwentyfour.info	/Set.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	20868	200	OK	-	-	-	(empty)	-	-	-	-	-	FX6eOT1eAlOadd9Wn7	application/zip
+1340149711.270449	C9ZgUHzJ1oQKizrK3	192.168.79.10	1036	195.16.89.193	80	2	GET	alertingtwentyfour.info	/w.php?f=b6863&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	43008	200	OK	-	-	-	(empty)	-	-	-	-	-	FDqXVF1vnp5Eqfm3P5	application/x-dosexec
+1340149711.788716	CGqZYy31rvDHtcDbPh	192.168.79.10	1039	195.16.89.193	80	1	GET	alertingtwentyfour.info	/w.php?f=b6863&e=0	-	Java/1.6.0_10	0	43008	200	OK	-	-	-	(empty)	-	-	-	-	-	F4yvNr3PgqJkb6UsF8	application/x-dosexec
+#close	2014-04-03-10-43-08

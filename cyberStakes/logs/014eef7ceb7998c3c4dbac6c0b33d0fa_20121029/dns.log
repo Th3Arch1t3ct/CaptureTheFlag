@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-09-17
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1351490058.600053	Cry4Fp22eeLLiHmrfe	192.168.51.10	1030	4.2.2.3	53	udp	8843	radio-portuganet.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.33.214.162	14374.000000	F
+1351490061.537831	Cry4Fp22eeLLiHmrfe	192.168.51.10	1030	4.2.2.3	53	udp	7818	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,107.14.43.154,107.14.43.137	110.000000,38.000000,14728.000000,20.000000,20.000000	F
+1351490061.807633	Cry4Fp22eeLLiHmrfe	192.168.51.10	1030	4.2.2.3	53	udp	11914	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.194.37.83,173.194.37.80,173.194.37.81,173.194.37.84,173.194.37.82	26.000000,26.000000,26.000000,26.000000,26.000000	F
+1351490061.835278	Cry4Fp22eeLLiHmrfe	192.168.51.10	1030	4.2.2.3	53	udp	56969	www.radio-portuganet.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	radio-portuganet.net,178.33.214.162	14400.000000,14371.000000	F
+1351490061.848433	CvpREd9oEo5PCIjf7	192.168.51.10	1040	4.2.2.3	53	udp	45705	download.portuganet.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.33.214.162	14400.000000	F
+1351490066.505534	Cry4Fp22eeLLiHmrfe	192.168.51.10	1030	4.2.2.3	53	udp	10376	download2.camfrog.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.40.9.41,64.40.9.42,64.40.9.43,64.40.9.40	900.000000,900.000000,900.000000,900.000000	F
+1351490067.125673	Cry4Fp22eeLLiHmrfe	192.168.51.10	1030	4.2.2.3	53	udp	31374	crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.71.190	142.000000,0.000000	F
+1351490067.350828	Cry4Fp22eeLLiHmrfe	192.168.51.10	1030	4.2.2.3	53	udp	16525	csc3-2009-2-crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.71.190	900.000000,0.000000	F
+#close	2014-04-03-11-09-17

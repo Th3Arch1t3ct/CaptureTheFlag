@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-11-05-52
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1362532354.160881	FBrQui49nga0OmB4je	217.23.12.215	192.168.115.10	CEXIAF3VpWdSMeNp41	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	647	-	0	0	F	-	ad188f33878e58f3d9730c8359c31acc	4d9ac19b989630c4db45215606a0a397242fb45e	-	-
+1362532354.348234	FWQGKHmac58nxttFh	217.23.12.215	192.168.115.10	CEXIAF3VpWdSMeNp41	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	244	-	0	0	F	-	c57ddd3ff53d46df0802e02fc4a682f8	7b46270aecf7e26902c1d1f8aef76520f3674ecb	-	-
+1362532354.886488	FLLtqj2TfNXHY4PIQ8	195.242.161.154	192.168.115.10	C3y6GDgvpXvz9Bn87	HTTP	0	SHA1,MD5	text/html	-	1.001452	-	F	139863	-	0	0	F	-	674dab7ddd5fef0496653e2642a2655a	62feaa9568a97e532f58dac7b03cfbee710fa7f3	-	-
+1362532361.734894	FTWdAW3UxZxChPZDxc	192.168.115.10	64.4.52.169	C0HanL3mTuPMKpQMag	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	T	44	44	0	0	F	-	cde5bdd41fae8122ee6f419d237143e3	90cf92217ee0d1af9dea3d662930950d89292bf8	-	-
+1362532361.794306	FJVzY33icVolpobqbd	64.4.52.169	192.168.115.10	C0HanL3mTuPMKpQMag	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	13	13	0	0	F	-	1e6cd917ed71a1241e4bedc29264bd98	5b65037351caeb0e5a48d963d7ffa88d0271d546	-	-
+1362532361.886262	F4Gbuf3W41x1SrfbS1	192.168.115.10	64.4.52.169	CxPpOG2TX8so7PMPwg	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	T	44	44	0	0	F	-	cde5bdd41fae8122ee6f419d237143e3	90cf92217ee0d1af9dea3d662930950d89292bf8	-	-
+1362532361.945848	FMFm1w4C5MhKbU7mFc	64.4.52.169	192.168.115.10	CxPpOG2TX8so7PMPwg	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	13	13	0	0	F	-	1e6cd917ed71a1241e4bedc29264bd98	5b65037351caeb0e5a48d963d7ffa88d0271d546	-	-
+1362532362.448612	FhVoIL382FoRBlAlr6	195.242.161.154	192.168.115.10	CsQoim4A45pYyO09Jd	HTTP	0	SHA1,MD5	application/zip	-	0.399728	-	F	14704	14704	0	0	F	-	c3b7f626bef80d357de4b42eb462321c	2ea04903c74665b484b60bf565001fc24abdc59c	-	-
+1362532364.733196	FFFnLA8a0WcNlWzzf	195.242.161.154	192.168.115.10	ChQisf3BJb45nU6u74	HTTP	0	SHA1,MD5	binary	readme.dll	0.967499	-	F	114688	114688	0	0	F	-	bf1262f7cbd80648338f22da935a5c1e	d071ec491dfaef886bb31c332113bb55c8f21ade	-	-
+1362532378.178418	F8TlnVNeX6BaMiZs4	195.242.161.154	192.168.115.10	C3y6GDgvpXvz9Bn87	HTTP	0	SHA1,MD5	application/pdf	-	0.132273	-	F	8720	8720	0	0	F	-	d86206c1672cbc67cb27fc595662a1ef	7648b7bd9f3d848655bf74c3766261bc36c8e911	-	-
+1362532387.523446	FQcr8b2G5soIR9phmf	195.242.161.154	192.168.115.10	C3y6GDgvpXvz9Bn87	HTTP	0	SHA1,MD5	application/x-dosexec	info.dll	0.665749	-	F	114688	114688	0	0	F	-	cdfa469f012297972b81ec951b9d027a	5234fcd66e9bd68ec717a97c54ee30a8587f4e0f	-	-
+#close	2014-04-03-11-05-52

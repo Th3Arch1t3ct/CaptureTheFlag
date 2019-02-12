@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-04-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1357459903.889236	ClzVXrSNqOB9sM2Dc	192.168.68.10	1029	4.2.2.3	53	udp	29841	uti-wantme.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.170.52.21,93.170.52.31	277.000000,277.000000	F
+1357459904.214874	ClzVXrSNqOB9sM2Dc	192.168.68.10	1029	4.2.2.3	53	udp	15762	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.134.101,74.125.134.139,74.125.134.113,74.125.134.102,74.125.134.138,74.125.134.100	34368.000000,14.000000,14.000000,14.000000,14.000000,14.000000,14.000000	F
+1357459904.230935	ClzVXrSNqOB9sM2Dc	192.168.68.10	1029	4.2.2.3	53	udp	5523	seujje.eqeki.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	urlforward.topdns.com,72.8.167.249,199.59.160.184	3600.000000,2634.000000,2634.000000	F
+1357459904.705244	ClzVXrSNqOB9sM2Dc	192.168.68.10	1029	4.2.2.3	53	udp	55955	fbstatic-a.akamaihd.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fbstatic-a.akamaihd.net.edgesuite.net,a1168.dsw4.akamai.net,69.31.75.234,69.31.75.185	231.000000,297.000000,20.000000,20.000000	F
+#close	2014-04-03-10-04-00

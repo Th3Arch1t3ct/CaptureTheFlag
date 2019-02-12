@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-21-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1339748574.441245	ChZ1UR3TdgSH4dmoy3	192.168.120.10	1029	4.2.2.3	53	udp	57229	poco-solar.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.169.145.169	7179.000000	F
+1339748574.903424	ChZ1UR3TdgSH4dmoy3	192.168.120.10	1029	4.2.2.3	53	udp	51597	largescalebuffer.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.65.42.35	38400.000000	F
+1339748578.276233	ChZ1UR3TdgSH4dmoy3	192.168.120.10	1029	4.2.2.3	53	udp	37260	settoolbar.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.65.43.109	1800.000000	F
+1339748585.803413	ChZ1UR3TdgSH4dmoy3	192.168.120.10	1029	4.2.2.3	53	udp	38799	11tbk7a.cdn30.theuploadservice.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.140.131.157	3600.000000	F
+#close	2014-04-03-10-21-55

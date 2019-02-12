@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-15-41
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1342018046.191088	Cwqozp2f2ilojJjmT7	192.168.36.10	1029	4.2.2.3	53	udp	56463	apartmani-bozinovic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.63.221.250	14377.000000	F
+1342018046.615957	Cwqozp2f2ilojJjmT7	192.168.36.10	1029	4.2.2.3	53	udp	48015	baffalo.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.149.15.143	30172.000000	F
+1342018046.923662	Cwqozp2f2ilojJjmT7	192.168.36.10	1029	4.2.2.3	53	udp	58509	akeyboard.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.168.173.91	2.000000	F
+1342018048.191634	Cwqozp2f2ilojJjmT7	192.168.36.10	1029	4.2.2.3	53	udp	2187	klmearth.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.59.198.62	30.000000	F
+1342018048.943475	Cwqozp2f2ilojJjmT7	192.168.36.10	1029	4.2.2.3	53	udp	20106	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.137.101,74.125.137.102,74.125.137.113,74.125.137.138,74.125.137.139,74.125.137.100	34179.000000,38.000000,38.000000,38.000000,38.000000,38.000000,38.000000	F
+1342018048.94537	CFKih73772DQ2wp1X9	192.168.36.10	1041	4.2.2.3	53	udp	38794	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,204.2.243.73,204.2.243.221	11193.000000,259.000000,16799.000000,5.000000,5.000000	F
+1342018053.324254	Cwqozp2f2ilojJjmT7	192.168.36.10	1029	4.2.2.3	53	udp	44426	62.198.59.37.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1342018053.324254	Cwqozp2f2ilojJjmT7	192.168.36.10	1029	4.2.2.3	53	udp	44426	62.198.59.37.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1342018053.324254	Cwqozp2f2ilojJjmT7	192.168.36.10	1029	4.2.2.3	53	udp	44426	62.198.59.37.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1342018053.324254	Cwqozp2f2ilojJjmT7	192.168.36.10	1029	4.2.2.3	53	udp	44426	62.198.59.37.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1342018074.420166	ClsgD67WXJm9vg61j	192.168.36.10	1029	4.2.2.3	53	udp	25736	sh5wcsvr5.en0so1ck11go.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.139.9.18	3392.000000	F
+#close	2014-04-03-11-15-42

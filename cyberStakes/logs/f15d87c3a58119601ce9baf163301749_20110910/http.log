@@ -1,0 +1,33 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-55-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1315699124.277247	CAjFVF3rXZnXtshpGh	192.168.3.10	1031	95.168.165.225	80	1	GET	virginsporn.org	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	245	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	F06DDx4rZdE2owT2Tf	text/html
+1315699124.50534	C5hahP1IlzeWapjSOe	192.168.3.10	1032	109.236.82.48	80	1	GET	blackgaygalleries.org	/?site=15	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7383	200	OK	-	-	-	(empty)	-	-	-	-	-	FPkyJf0XOps5AII8	text/html
+1315699126.480173	C0q8zOZeYRwwb1Hyj	192.168.3.10	1039	109.236.82.48	80	1	GET	blackgaygalleries.org	/dl/jsm.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	7012	200	OK	-	-	-	(empty)	-	-	-	-	-	FBHXn43D6ev36mIaf5	application/jar
+1315699126.477295	CNce5O2ExSVdf96Kdb	192.168.3.10	1038	109.236.82.48	80	1	GET	1844204080	/saturn.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11944	200	OK	-	-	-	(empty)	-	-	-	-	-	FWzUsd1fsYetOhTnf9	application/x-java-applet
+1315699126.478822	CIZzOx4syqWnwFv4L4	192.168.3.10	1037	109.236.82.48	80	1	GET	1844204080	/saturn.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11944	200	OK	-	-	-	(empty)	-	-	-	-	-	FS9s2k2hao10Cpt4L4	application/x-java-applet
+1315699126.487386	CfCcuq1AQryyMyTua2	192.168.3.10	1040	109.236.82.48	80	1	GET	blackgaygalleries.org	/dl/apache.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	19455	200	OK	-	-	-	(empty)	-	-	-	-	-	Fkp1QB3PMfmr80Re4e	application/jar
+1315699126.791659	CzDTjm35XYvZnDftja	192.168.3.10	1041	109.236.82.48	80	1	GET	blackgaygalleries.org	/dl/jsm.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	7012	200	OK	-	-	-	(empty)	-	-	-	-	-	FxUbPZ10MrGQI5CGp3	application/jar
+1315699127.003152	Cuyn7V3Yb9pZgc409i	192.168.3.10	1042	109.236.82.48	80	1	GET	1844204080	/saturn.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	8529	200	OK	-	-	-	(empty)	-	-	-	-	-	FIORnJ2X0FkJuWyMIe	application/x-java-applet
+1315699127.0167	CDm5ni2nbf6rnLSNif	192.168.3.10	1043	109.236.82.48	80	1	GET	1844204080	/saturn.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	8529	200	OK	-	-	-	(empty)	-	-	-	-	-	F4i0GAqZa7bLIQMZf	application/x-java-applet
+1315699127.153708	Cq2LNd4nG2LHcI2zA3	192.168.3.10	1045	109.236.82.48	80	1	GET	blackgaygalleries.org	/dl/jsm.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	7012	200	OK	-	-	-	(empty)	-	-	-	-	-	FRhtqp4suioBVxwxt7	application/jar
+1315699127.122353	C4UNNvmt8wXXfGMe6	192.168.3.10	1044	109.236.82.48	80	1	GET	blackgaygalleries.org	/dl/apache.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	19455	200	OK	-	-	-	(empty)	-	-	-	-	-	FgPzmh969FEBxnOgc	application/jar
+1315699127.906449	CEwe4i3h78GynaTWPj	192.168.3.10	1048	109.236.82.48	80	1	GET	blackgaygalleries.org	/dl/jsm_text.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	518	200	OK	-	-	-	(empty)	-	-	-	-	-	Fl9GCU1nyxj37oKFge	binary
+1315699127.648668	CnMSpR3wDWLkgK6ax2	192.168.3.10	1047	109.236.82.48	80	1	GET	blackgaygalleries.org	/dl/apache.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	19455	200	OK	-	-	-	(empty)	-	-	-	-	-	Fgq3PW3PykiGKXWCad	application/jar
+1315699127.321056	C1a4mu2bFl8etTDIIa	192.168.3.10	1046	109.236.82.48	80	1	GET	109.236.82.48	/dl/dl.php?4	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	182272	200	OK	-	-	-	(empty)	-	-	-	-	-	FQJ6lA4fPKYjt2r9tf	application/x-dosexec
+1315699128.208679	CFuEKJNyn2QCLWNR3	192.168.3.10	1050	109.236.82.48	80	1	GET	blackgaygalleries.org	/dl/jsm.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	7012	200	OK	-	-	-	(empty)	-	-	-	-	-	F8DP743o5aCOwEjWQh	application/jar
+1315699128.879835	Cton6si94rFbjfGvi	192.168.3.10	1053	72.233.44.59	80	1	GET	gravatar.com	/avatar.php?gravatar_id=f2a3889aff6fc9711a3cbcfe64067be1?v67=66&tq=gKZEtzyL2brw2Z/QGUHKe8GowEwhiM5jC+yQ12VHxlekt3dKVzKgBjYZo2N5RiQULNEZeuUQBvPgNX3UylUfp/OdqM7bee2aXUxQ/+MwODmrAAz3HyOP9WR7cOkRxHS8OZi8AukuAnKOu7566ig4lxJ7oGtiymNCYl+lIGFSAkjP9Ryl18xjIYdm16BXJDO0eAuUBOWl0Ca5WHGBfJqXQS1CqzG2fm+bGxaPSOAuFIXRhocUgRydkp6ax5kJaXF+5CphjNq2bABhG7dpgcy8sjUzxUEYjdKlg5EPdU9DfwBwuHwFGyS8RJqXSMOpjC1ZhfSjmrgf3h/G/V+y8a5l5jlN8opHAMvhm88kna8SNbisjtv3qePAN5seXy	-	mozilla/2.0	0	2637	200	OK	-	-	-	(empty)	-	-	-	-	-	FzJ2z1PpXvn9UD3Lb	image/jpeg
+1315699128.207871	Covu5l1koQFl9AOJxb	192.168.3.10	1049	109.236.82.48	80	1	GET	blackgaygalleries.org	/dl/dl.php?1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	182272	200	OK	-	-	-	(empty)	-	-	-	-	-	FyDjmn4yYKRnQIWKBg	application/x-dosexec
+1315699128.963546	CzQcZ84pvjQi8ZA3If	192.168.3.10	1052	84.16.242.100	80	1	GET	onlinemediaresource.com	/blog/images/3521.jpg?v67=41&tq=gL5HtzyMv5rJsxG1J4Xo2rCyBvUtwr7UxUrEgPiWW1cg	-	mozilla/2.0	0	293	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FoZQBQ1kW4Xnqn9IGe	text/html
+1315699138.758751	C3ehbK3NOXD627ALg	192.168.3.10	1054	66.197.146.117	80	1	GET	yourvideoportal.com	/blog/images/3521.jpg?v5=29&tq=gKZEtzyMv5rJqxG1J42pzMffBvUr0+jbwvgS917W65rJqlLfgPiWW1cg	-	mozilla/2.0	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+1315699148.816551	CEC6ya3UUIt2glK5rl	192.168.3.10	1055	72.10.50.52	80	1	GET	psfk.com	/img/icons/twitter.png?v68=18&tq=gHZutDyMv5rJeSG1J8K+1MWCJbP4lltXIA==	-	mozilla/2.0	0	364	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FhtzN7385QNCyUkFy1	text/html
+1315699159.518033	Cr31m01C4PYv1cw5r4	192.168.3.10	1056	188.72.250.17	80	1	GET	regsysonline.com	/blog/images/3521.jpg?v40=21&tq=gKZEtzyMv5rJqxG1J42pzMffBvUr0+jbwvgS917X65rJqlLfgPiWW1cg	-	mozilla/2.0	0	199176	200	OK	-	-	-	(empty)	-	-	-	-	-	FLzLxy1bEPPVrzBE6b	binary
+1315699168.594337	CssNTS2jBHES6eMI67	192.168.3.10	1057	8.5.1.42	80	1	GET	greenherbalteaonline.com	/images/greenherbalteagirlholdingcup350.gif?v17=50&tq=gHZutDyMv5rJfiG1J8K+1MWCJbP4lltXIA==	-	mozilla/2.0	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+1315699189.455068	CVQXe7HUCj9yf09hh	192.168.3.10	1058	74.125.115.103	80	1	GET	www.google.com	/	-	-	0	29792	200	OK	-	-	-	(empty)	-	-	-	-	-	F1HUDg3uN70FG4M7r3	text/html
+1315699189.527628	CKAxYS1kNbhjnCld6i	192.168.3.10	1060	74.125.115.103	80	1	GET	www.google.com	/	-	-	0	29723	200	OK	-	-	-	(empty)	-	-	-	-	-	Fi70Td12mPvqvSpNCi	text/html
+#close	2014-04-03-09-55-23

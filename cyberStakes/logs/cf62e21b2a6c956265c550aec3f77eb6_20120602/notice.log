@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-10-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1338635749.567626	C5BtdH2Az66bd4sZOa	192.168.6.10	1036	79.137.213.158	80	FQdiN513WJvO5B13d5	application/x-shockwave-flash	http://stats.www5apps-myups.com/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 75%  Last seen: 2012-09-14 14:05:04	https://www.virustotal.com/en/search/?query=27474f210893b69a5204dcafb6d9fc12b743dc1f	192.168.6.10	79.137.213.158	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1338635751.052549	CpM8ZJ28rWjVvbC3oa	192.168.6.10	1031	79.137.213.158	80	FsPj372rsZuykJU3Ac	application/x-dosexec	http://stats.www5apps-myups.com/w.php?f=f424f&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-06-02 16:20:12	https://www.virustotal.com/en/search/?query=1de0a2dca0dbc5dc9ce3b92b3568ba0653dc93f0	192.168.6.10	79.137.213.158	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1338635765.337248	C5BtdH2Az66bd4sZOa	192.168.6.10	1036	79.137.213.158	80	FNGF812yQxIRnatQu	application/x-shockwave-flash	http://stats.www5apps-myups.com/data/score.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 50%  Last seen: 2012-09-14 14:05:04	https://www.virustotal.com/en/search/?query=6c81c4f1d16468b4169256972e30622e6956f7cc	192.168.6.10	79.137.213.158	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-10-11

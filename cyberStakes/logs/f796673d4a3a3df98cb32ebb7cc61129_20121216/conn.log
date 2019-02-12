@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-23-17
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1355624338.905487	CSHKXi4apYpPiLUwp6	192.168.102.10	1029	4.2.2.3	53	udp	dns	2.242728	139	300	SF	-	0	Dd	4	251	4	412	(empty)
+1355624338.929543	CIwX2n4EYm28fuB85j	192.168.102.10	1030	184.172.169.35	80	tcp	http	7.352903	285	8834	RSTO	-	0	ShADadfR	10	693	11	9282	(empty)
+1355624346.742314	CV71uJ2EfQ3dmGf2x4	192.168.102.10	1038	142.0.34.55	80	tcp	http	29.713888	378	1079	RSTO	-	0	ShADadfR	6	626	4	1247	(empty)
+1355624323.015039	CDdZhS14Xq5E1Sq2ah	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.003747	626	0	S0	-	0	D	2	682	0	0	(empty)
+1355624323.015389	C5uYtP1lULGUiyWDN6	192.168.102.10	68	192.168.102.1	67	udp	dhcp	12.879808	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1355624396.751848	CSYwjrMwjQptqIpVf	192.168.102.10	1039	65.55.172.254	25	tcp	-	2.982866	0	0	S0	-	0	S	2	96	0	0	(empty)
+1355624339.160129	COvbTe2RKsoRHlxlSi	192.168.102.10	1031	142.0.34.55	80	tcp	http	58.044159	1116	148227	RSTO	-	0	ShADadfR	75	4124	113	152755	(empty)
+1355624396.720391	C3kVtE2diLNPLTLe9g	192.168.102.10	1029	4.2.2.3	53	udp	dns	0.014241	31	87	SF	-	0	Dd	1	59	1	115	(empty)
+1355624405.891332	C2SOAxWfKEHdYMLT3	192.168.102.10	1039	65.55.172.254	25	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+1355624341.151548	C9Ktyw4requ1JlFTq7	192.168.102.10	1033	64.4.52.169	80	tcp	http	66.193022	476	239	RSTO	-	0	ShADdR	5	684	2	327	(empty)
+1355624340.820337	Culf6l2yQvsp70k787	192.168.102.10	1032	65.55.13.243	80	tcp	http	66.524508	479	239	RSTO	-	0	ShADdR	5	687	2	327	(empty)
+1355624341.60461	CHR0lr4ryLCTznqye4	192.168.102.10	1036	239.255.255.250	1900	udp	-	6.040653	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-10-23-17

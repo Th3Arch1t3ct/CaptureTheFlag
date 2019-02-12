@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-57-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1366278187.832595	COyOCrMuMncw5Fdi2	192.168.4.10	1029	4.2.2.3	53	udp	15245	universaldeliverysolution.co.uk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.83.45.2	21600.000000	F
+1366278188.305436	COyOCrMuMncw5Fdi2	192.168.4.10	1029	4.2.2.3	53	udp	27021	www.wekudo.nl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.93.150.38	600.000000	F
+1366278190.540618	COyOCrMuMncw5Fdi2	192.168.4.10	1029	4.2.2.3	53	udp	44684	net.tech.microsoft.windows.internet.explorer.aa.7povelagin.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.164.99	30.000000	F
+1366278202.843326	COyOCrMuMncw5Fdi2	192.168.4.10	1029	4.2.2.3	53	udp	33679	www.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	toggle.www.ms.akadns.net,g.www.ms.akadns.net,lb1.www.ms.akadns.net,64.4.11.42	2386.000000,186.000000,186.000000,86.000000	F
+1366278203.021073	C8BBhddM69LaZECsl	192.168.4.10	1052	4.2.2.3	53	udp	58760	fpdownload.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload.wip4.adobe.com,fpdownload.macromedia.com.edgekey.net,e526.d.akamaiedge.net,184.29.130.70	22767.000000,94.000000,94.000000,13.000000	F
+1366278203.026547	C8BBhddM69LaZECsl	192.168.4.10	1052	4.2.2.3	53	udp	50826	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.d.akamai.net,23.62.111.195,23.62.111.179	28589.000000,89.000000,18863.000000,1.000000,1.000000	F
+1366278203.012285	COyOCrMuMncw5Fdi2	192.168.4.10	1029	4.2.2.3	53	udp	5513	uhteofvkydhkmvdkqnj.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.166.219.62	3600.000000	F
+#close	2014-04-03-09-57-36

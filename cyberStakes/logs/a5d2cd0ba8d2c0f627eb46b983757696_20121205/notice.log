@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-55-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1354749750.284768	Ca9Oa9x0dI4LHF07b	192.168.103.10	1100	174.142.68.54	80	FMsKgg8Sl8393NFG4	application/x-dosexec	http://rayenterprise.co.in/33.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2012-12-07 12:03:20	https://www.virustotal.com/en/search/?query=3fe8606848c13c8c4cd704ad5721e01aadc50fd4	192.168.103.10	174.142.68.54	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-55-45

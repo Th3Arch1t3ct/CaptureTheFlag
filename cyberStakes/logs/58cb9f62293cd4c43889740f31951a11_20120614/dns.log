@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-03-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1339684220.64514	CjR4vNt7eCYfgUjG4	192.168.61.10	1029	4.2.2.3	53	udp	21647	autolloans.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	88.214.198.108	10773.000000	F
+1339684221.383804	CjR4vNt7eCYfgUjG4	192.168.61.10	1029	4.2.2.3	53	udp	10125	avtoaonvip.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.235.128.68	3573.000000	F
+1339684238.28094	CjR4vNt7eCYfgUjG4	192.168.61.10	1029	4.2.2.3	53	udp	28043	rt2.paydayloatnsstc.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	88.214.198.108	3600.000000	F
+1339684228.158388	C7RA5O2r4AYBrERgPe	192.168.61.10	1029	4.2.2.5	53	udp	46219	68.128.235.91.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1339684227.169286	CjR4vNt7eCYfgUjG4	192.168.61.10	1029	4.2.2.3	53	udp	46219	68.128.235.91.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1339684227.169286	CjR4vNt7eCYfgUjG4	192.168.61.10	1029	4.2.2.3	53	udp	46219	68.128.235.91.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1339684227.169286	CjR4vNt7eCYfgUjG4	192.168.61.10	1029	4.2.2.3	53	udp	46219	68.128.235.91.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-03-08

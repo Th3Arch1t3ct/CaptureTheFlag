@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-57-51
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1320556200.761913	CkELRh37qp7CbeU1Id	192.168.111.10	1029	4.2.2.3	53	udp	50572	cestquiquiestgros.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.90.48.130	14381.000000	F
+1320556201.015016	CkELRh37qp7CbeU1Id	192.168.111.10	1029	4.2.2.3	53	udp	59276	fonts.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.65.95	852.000000,246.000000	F
+1320556201.179513	CkELRh37qp7CbeU1Id	192.168.111.10	1029	4.2.2.3	53	udp	15500	themes.googleusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlehosted.l.googleusercontent.com,74.125.47.132	14251.000000,195.000000	F
+1320556201.47429	CkELRh37qp7CbeU1Id	192.168.111.10	1029	4.2.2.3	53	udp	52879	cdn.etc.br.ms	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.201.29	3600.000000	F
+1320556201.97273	C007ar1YmPb2Cglxt8	192.168.111.10	1037	4.2.2.3	53	udp	52617	ws.amazon.fr	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ws.assoc-amazon.fr,87.238.81.226	7200.000000,60.000000	F
+1320556201.944899	CkELRh37qp7CbeU1Id	192.168.111.10	1029	4.2.2.3	53	udp	6798	t04.ch.tf	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.228.132.52	3600.000000	F
+1320556202.375444	C007ar1YmPb2Cglxt8	192.168.111.10	1037	4.2.2.3	53	udp	27016	wms.assoc-amazon.fr	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	87.238.83.101	60.000000	F
+#close	2014-04-03-09-57-52

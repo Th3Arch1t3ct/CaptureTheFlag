@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-27-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1325225246.706129	CXH50b10kBvmHzyJra	192.168.64.10	1030	188.165.3.30	80	1	GET	jportal10.net	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	237	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FsjE6k1Ek1V53qBGg7	text/html
+1325225246.903485	CNHDff2rlTuyq7ANxk	192.168.64.10	1031	94.23.148.66	80	1	GET	whitecat3.net	/?site=10	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	463	200	OK	-	-	-	(empty)	-	-	-	-	-	FDUOzT3FmxQPjHHvY3	text/html
+1325225248.305665	Ckm9NI2x4g6MeVMG6	192.168.64.10	1032	94.23.148.66	80	1	GET	whitecat3.net	/?ad3dc7962e5743fa02f9cf73560b5d00	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	10244	200	OK	-	-	-	(empty)	-	-	-	-	-	FcIeAI2piuv0jxtiU4	application/jar
+1325225248.561344	CLx0hk4CDM9rtgia1d	192.168.64.10	1033	94.23.148.66	80	1	GET	whitecat3.net	/?13bed1487c1fd9f80add0a2023c216ad	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13219	200	OK	-	-	-	(empty)	-	-	-	-	-	FgkQoC1S6joT5C3Eid	application/jar
+1325225248.717009	CyWqB2VN4p1lNv9El	192.168.64.10	1034	94.23.148.66	80	1	GET	whitecat3.net	/?ad3dc7962e5743fa02f9cf73560b5d00	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	10244	200	OK	-	-	-	(empty)	-	-	-	-	-	F37CwN2Ngh6dnVWEv2	application/jar
+1325225249.131045	CrDBJF4m4SQYYO4ma9	192.168.64.10	1035	94.23.148.66	80	1	GET	whitecat3.net	/?13bed1487c1fd9f80add0a2023c216ad	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13219	200	OK	-	-	-	(empty)	-	-	-	-	-	FVWVBY2Qao1KQmCTvf	application/jar
+1325225249.320264	CGmlsjcbTcwZ4zQob	192.168.64.10	1040	94.23.148.66	80	1	GET	whitecat3.net	/?ad3dc7962e5743fa02f9cf73560b5d00	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	10244	200	OK	-	-	-	(empty)	-	-	-	-	-	FySYM8255BMkxb5bbb	application/jar
+1325225249.560249	CYui8u2ZZHolPHl7kg	192.168.64.10	1041	94.23.148.66	80	1	GET	whitecat3.net	/?13bed1487c1fd9f80add0a2023c216ad	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13219	200	OK	-	-	-	(empty)	-	-	-	-	-	F6k1Zt2dwE8ri2nvt	application/jar
+1325225250.06407	CULDNs3MH57mMz63v3	192.168.64.10	1042	94.23.148.66	80	1	GET	whitecat3.net	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F5KUleBEinGEJa9Ae	text/html
+1325225250.270414	C0KeJNN1jsxbwpGS6	192.168.64.10	1043	94.23.148.66	80	1	GET	whitecat3.net	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F4hvYJ2XsYZhA0rsn	text/html
+1325225250.479697	Clejow14RIvBtjx94h	192.168.64.10	1044	94.23.148.66	80	1	GET	whitecat3.net	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FQPuHI3rFE8UzgawPi	text/html
+1325225250.682513	CHkXwC3q1bh0YG9tq5	192.168.64.10	1045	94.23.148.66	80	1	GET	whitecat3.net	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FFtHBUmccAdSFMkud	text/html
+1325225250.972996	Civc083aDDKCf58HXh	192.168.64.10	1047	94.23.148.66	80	1	GET	whitecat3.net	/?74eb516d87ddf0736137f226c3f19572	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	450808	200	OK	-	-	-	(empty)	-	-	-	-	-	FDUdSN1oRizcxbo4J6	application/x-dosexec
+1325225250.765191	Cam6p61PNhOVNdP3Ae	192.168.64.10	1046	94.23.148.66	80	1	GET	whitecat3.net	/?d15f12a4822949378dabaac41f3fe148	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	450808	200	OK	-	-	-	(empty)	-	-	-	-	-	FvYbDF3M4OOcpwTVFh	application/x-dosexec
+1325225254.750814	CtFp8g1q9le86k2uKa	192.168.64.10	1048	176.53.112.115	80	1	GET	ushbrenerw.net	/up.php?0Q9oBPXEN0uECUgzEJ95RQsbjjrvq1aG3F/2q5sb+kXU2mKa1w==	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1325225255.28417	Cxallj2Nkxf1sR5ofk	192.168.64.10	1049	81.17.26.197	80	1	GET	gelongotbalebs.com	/?ylOdR9GQqXquMlTvsmXlkaz1x3Ab/w==	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	372736	200	OK	-	-	-	(empty)	-	-	-	-	-	F62T2m4zx8uyD0WzNc	binary
+#close	2014-04-03-10-27-50

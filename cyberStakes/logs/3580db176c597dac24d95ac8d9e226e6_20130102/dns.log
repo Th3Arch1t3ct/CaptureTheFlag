@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-46-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1357095967.05814	CsaXcQ9ragfHJeOOa	192.168.62.10	1029	4.2.2.3	53	udp	54417	onesextube.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.168.173.47	30.000000	F
+1357095967.417509	CsaXcQ9ragfHJeOOa	192.168.62.10	1029	4.2.2.3	53	udp	59794	xht.7ladernox.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.23.76.187	30.000000	F
+1357095990.816999	CFDQTB31y8SltH7HWc	192.168.62.10	1048	4.2.2.3	53	udp	16428	11v1udf.cdn66.etchostingupload.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.131.140.158	3600.000000	F
+#close	2014-04-03-10-46-54

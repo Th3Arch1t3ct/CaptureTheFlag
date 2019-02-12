@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-59-28
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1331172459.845593	C1h9YVmdY9S6et8m6	192.168.94.10	1043	67.213.222.14	80	FJwnng3GRZRYWodNI2	application/x-dosexec	http://www2.hardrisuite.in/?j37s=jpak16XG6smY3tzZpqyVn2Nd59zNr8WjnKjanaWVnmpomdzUr5WlnKSmoKaYm2dd39ueo5SioJnWy9bXp3WNw47R28ivnJnojQ==&t=15	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2012-03-09 14:39:20	https://www.virustotal.com/en/search/?query=31918c61a775be1885d536e8c67aff7ebd5c016e	192.168.94.10	67.213.222.14	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-59-28

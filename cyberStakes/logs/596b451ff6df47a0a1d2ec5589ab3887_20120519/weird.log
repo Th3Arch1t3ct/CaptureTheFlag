@@ -1,0 +1,31 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-53-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1337471104.244212	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1337471106.20365	C9DpWN2YYkvqtJlgk5	192.168.44.10	1033	74.125.71.139	80	SYN_after_reset	-	F	bro
+1337471106.357122	C9DpWN2YYkvqtJlgk5	192.168.44.10	1033	74.125.71.139	80	data_after_reset	-	F	bro
+1337471119.64248	C7mA684h0xLpr9SXsj	192.168.44.10	1079	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337471119.661757	CzkaWg1RVTcKOjE746	192.168.44.10	1081	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337471119.685275	CqnU6gx2w2FG0bR71	192.168.44.10	1083	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337471119.687314	C21Tb739pUlsQUCMve	192.168.44.10	1085	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337471119.696633	C1hasjw0Thdrry5y1	192.168.44.10	1087	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337471119.700428	CjAXJj3s9Dgzj5JlDf	192.168.44.10	1089	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337471121.241855	CZmC6B4UedFZgUhsU7	192.168.44.10	1093	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337471121.877383	C7X2VJ1Du6OMoKpqQj	192.168.44.10	1095	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337471123.642992	CW4sUa4nrsQlLt9FL5	192.168.44.10	1097	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337471133.1142	C0dtZC1Ureo4lPCZS7	192.168.44.10	1113	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337471133.115151	CpK1bc3B041ZxH7kUe	192.168.44.10	1115	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337471133.116029	CFk63cDyfKGeheEP	192.168.44.10	1117	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337471142.563616	CDRsyp2jFgrcNa0u2b	192.168.44.10	1121	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337471142.657578	Crtj3JLoBTKfetj83	192.168.44.10	1123	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337471142.753165	CaiESR2yFESXSup8Hd	192.168.44.10	1125	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337471146.488171	CeE9cfrmz9hLQrGrk	192.168.44.10	1133	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337471146.504135	CC718l4FcKjeDssVm6	192.168.44.10	1135	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337471146.562085	CyHc1l1aepDwGR9XHk	192.168.44.10	1137	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337471149.194364	Cp9ykH2UXfMvtVw9oc	192.168.44.10	1138	31.193.12.27	80	bad_HTTP_request	-	F	bro
+#close	2014-04-03-10-53-40

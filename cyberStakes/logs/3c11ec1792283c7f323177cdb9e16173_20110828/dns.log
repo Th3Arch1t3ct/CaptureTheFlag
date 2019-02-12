@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-52-57
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1314546047.877282	C8XbCU2LhhqMnbXjUk	192.168.80.10	1029	4.2.2.3	53	udp	48270	poot.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.47.64.212	976.000000	F
+1314546048.837628	C8XbCU2LhhqMnbXjUk	192.168.80.10	1029	4.2.2.3	53	udp	30350	www.poot.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	80.246.114.204	876.000000	F
+1314546049.225475	C8XbCU2LhhqMnbXjUk	192.168.80.10	1029	4.2.2.3	53	udp	63884	maseoi1l4f.c0m.li	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.127.228.44	3600.000000	F
+1314546053.803735	C8XbCU2LhhqMnbXjUk	192.168.80.10	1029	4.2.2.3	53	udp	53133	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,65.121.208.251,65.121.208.243	11054.000000,237.000000,11056.000000,1.000000,1.000000	F
+1314546076.108241	CpRLCz3pYRC6Zpbca4	192.168.80.10	1029	4.2.2.3	53	udp	32397	vsp.c0m.li	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.63.150.150	3600.000000	F
+1314546083.877982	CpRLCz3pYRC6Zpbca4	192.168.80.10	1029	4.2.2.3	53	udp	51082	swupmf.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	swupmf.wip4.adobe.com,swupmf.adobe.com.edgesuite.net,a1137.g.akamai.net,65.121.208.203,65.121.208.218	15264.000000,400.000000,12481.000000,20.000000,20.000000	F
+1314546084.044364	CpRLCz3pYRC6Zpbca4	192.168.80.10	1029	4.2.2.3	53	udp	57227	crl.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.wip4.adobe.com,crl.adobe.com.edgesuite.net,a1180.g.akamai.net,65.121.208.217,65.121.208.193	20619.000000,99.000000,10254.000000,20.000000,20.000000	F
+1314546106.380774	CAGOwoeGp78v6DVk	192.168.80.10	1029	4.2.2.3	53	udp	51851	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.115.103,74.125.115.104,74.125.115.105,74.125.115.106,74.125.115.147,74.125.115.99	10941.000000,150.000000,150.000000,150.000000,150.000000,150.000000,150.000000	F
+#close	2014-04-03-10-52-57

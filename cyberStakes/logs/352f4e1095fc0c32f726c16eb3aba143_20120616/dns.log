@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-16-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1339888800.790938	CcoupUgpS6xjFu3G3	192.168.55.10	1030	4.2.2.3	53	udp	63376	zicoa.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	1.234.4.219	43184.000000	F
+1339888803.863886	CcoupUgpS6xjFu3G3	192.168.55.10	1030	4.2.2.3	53	udp	32915	s95.cnzz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	c.cnzz.com,c.split.cnzz.com,42.120.59.20	300.000000,300.000000,13.000000	F
+1339888804.230355	CcoupUgpS6xjFu3G3	192.168.55.10	1030	4.2.2.3	53	udp	8083	img.toria.tv	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	1.234.4.219	300.000000	F
+1339888805.040269	CcoupUgpS6xjFu3G3	192.168.55.10	1030	4.2.2.3	53	udp	28821	hzs4.cnzz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	110.75.187.37,110.75.187.38,110.75.187.35,110.75.187.36	54.000000,54.000000,54.000000,54.000000	F
+1339888805.041653	CSzPqb3Dxg2GfzgRFf	192.168.55.10	1049	4.2.2.3	53	udp	31381	c.cnzz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	c.split.cnzz.com,42.120.59.20	299.000000,12.000000	F
+1339888805.273357	CcoupUgpS6xjFu3G3	192.168.55.10	1030	4.2.2.3	53	udp	41876	tool.oivxz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.172.153.212	3600.000000	F
+1339888819.923993	Cq79MK1XbqC7TO6RT5	192.168.55.10	1030	4.2.2.3	53	udp	26260	get.comvzv.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.46.88.61	3600.000000	F
+#close	2014-04-03-10-16-24

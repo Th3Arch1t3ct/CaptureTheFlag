@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-29-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1318962059.799456	CLCb122LpgcFz8GZx3	192.168.45.10	1030	91.218.121.58	80	1	GET	www.cubinfo.in	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	95	200	OK	-	-	-	(empty)	-	-	-	-	-	FZyAje1KxYJF8aKzt7	text/plain
+1318962059.980037	CKhB5c1jj06NxvH9h4	192.168.45.10	1031	173.244.205.243	80	1	GET	iframesale.com	/tds/in.cgi?3	http://www.cubinfo.in/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	228	302	Found	-	-	-	(empty)	-	-	-	-	-	FN4DAz3GOjIUfehex4	text/html
+1318962060.777283	CJCoVD1tu47DB0ST4f	192.168.45.10	1032	182.18.185.81	80	1	GET	besttt004.in	/main.php?page=5941b8974a990a3f	http://www.cubinfo.in/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	95752	200	OK	-	-	-	(empty)	-	-	-	-	-	FKC5c61yPuEpIy9oKc	text/html
+1318962081.629979	CJCoVD1tu47DB0ST4f	192.168.45.10	1032	182.18.185.81	80	2	GET	besttt004.in	/w.php?f=61&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	396288	200	OK	-	-	-	(empty)	-	-	-	-	-	FJsVY03ujUga8v4mec	application/x-dosexec
+1318962087.049844	CJCoVD1tu47DB0ST4f	192.168.45.10	1032	182.18.185.81	80	3	GET	besttt004.in	/content/2ddfp.php?f=61	http://besttt004.in/main.php?page=5941b8974a990a3f	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	11953	200	OK	-	-	-	(empty)	-	-	-	-	-	FhCNcO5Y1MbXwmpM2	application/pdf
+1318962088.403857	CLxr8p4rHygx470ZZa	192.168.45.10	1042	182.18.185.81	80	1	GET	besttt004.in	/content/field.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5528	200	OK	-	-	-	(empty)	-	-	-	-	-	Fh4AxW3Qf0t24dk6Y3	application/zip
+1318962095.427051	CEnHUl4MpTkVLirfBe	192.168.45.10	1049	193.105.171.154	80	1	GET	193.105.171.154	/api/urls/?affid=20302	http://193.105.171.154	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	39	200	OK	-	-	-	(empty)	-	-	-	-	-	FFAWUF3AeITh93bVFi	text/plain
+1318962097.815919	COizme4UbIc20pqv0d	192.168.45.10	1050	193.105.171.154	80	1	GET	193.105.171.154	/api/stats/install/?affid=20302&ver=1010	http://193.105.171.154	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1318962101.598488	CC3XlO3qw95vT55ANd	192.168.45.10	1052	182.18.185.81	80	1	GET	besttt004.in	/content/field.swf	http://www.cubinfo.in/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1332	200	OK	-	-	-	(empty)	-	-	-	-	-	FB6Sbo2xTrIl64Yfi7	application/x-shockwave-flash
+1318962104.368603	CT4pVP1p8lJQGQMBM1	192.168.45.10	1054	182.18.185.81	80	1	OPTIONS	182.18.185.81	/	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	166	405	Not Allowed	-	-	-	(empty)	-	-	-	-	-	FfqiCo3W1VuYbOh8f2	text/html
+1318962100.239978	CJCoVD1tu47DB0ST4f	192.168.45.10	1032	182.18.185.81	80	4	GET	besttt004.in	/w.php?f=61&e=6	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	396288	200	OK	-	-	-	(empty)	-	-	-	-	-	FfQojFdj4RUlHN1zg	application/x-dosexec
+1318962101.631575	CRK5RF37Dfg8Zith31	192.168.45.10	1053	182.18.185.81	80	1	GET	besttt004.in	/w.php?f=61&e=1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	396288	200	OK	-	-	-	(empty)	-	-	-	-	-	FwYkkc3gQ2DCbsbA4c	application/x-dosexec
+1318962099.896873	CjEmcG4gBGdqtsQKOf	192.168.45.10	1051	95.168.187.201	80	1	GET	95.168.187.201	/1.exe?affid=20302	http://95.168.187.201	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	216576	200	OK	-	-	-	(empty)	-	-	-	-	-	FBM7HB4FqG7AXF2SKl	application/x-dosexec
+#close	2014-04-03-10-29-29

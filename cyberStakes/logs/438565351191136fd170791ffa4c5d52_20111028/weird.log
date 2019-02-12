@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-11-13-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1319843815.576538	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1319843825.142173	CUySVg4H41jBBAEsUk	192.168.56.10	1088	74.125.229.59	80	unescaped_special_URI_char	-	F	bro
+1319843825.142412	CsV2K74DzOuQbYO3Ba	192.168.56.10	1089	74.125.229.59	80	unescaped_special_URI_char	-	F	bro
+1319843832.27794	CKOyZ7Sfw4EgseRBi	192.168.56.10	1083	208.71.123.129	80	window_recision	-	F	bro
+1319843832.807838	Cptkfz4NgsPxwJ6aw8	192.168.56.10	1125	74.217.252.37	80	unescaped_special_URI_char	-	F	bro
+1319843837.798816	CSPeOb2Tvuppupb0se	192.168.56.10	1162	74.217.252.37	80	unescaped_special_URI_char	-	F	bro
+1319843862.042645	C1pR864GNoHuD8KSUg	192.168.56.10	1201	208.71.123.1	80	unescaped_special_URI_char	-	F	bro
+1319843862.842502	CkpxpC1JLpZ93Gxs2k	192.168.56.10	1212	74.117.199.102	80	HTTP_version_mismatch	-	F	bro
+1319843863.096815	CfXRTK2g89wtkJC561	192.168.56.10	1176	74.125.229.59	80	unescaped_special_URI_char	-	F	bro
+1319843863.739794	CQJ55X2E5lfxKL9p65	192.168.56.10	1222	74.125.250.80	80	unescaped_special_URI_char	-	F	bro
+1319843879.402943	CIVGYt2llsPWI978vd	192.168.56.10	1080	74.217.252.44	80	window_recision	-	F	bro
+1319843879.77478	CKjI201dGmdBrbQZn4	192.168.56.10	1219	74.117.199.102	80	HTTP_version_mismatch	-	F	bro
+#close	2014-04-03-11-13-07

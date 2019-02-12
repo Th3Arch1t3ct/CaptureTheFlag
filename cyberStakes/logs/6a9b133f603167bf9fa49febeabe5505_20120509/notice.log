@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-38-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1336607088.627509	CSC5Ry4eDhZ1LJxBF7	192.168.95.10	1050	46.37.169.12	80	F4andY3GyWQ8oX87lh	application/x-shockwave-flash	http://prospercapitalservices.info/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 60%  Last seen: 2012-05-01 04:03:58	https://www.virustotal.com/en/search/?query=d6aa7a1009c86a0fa55f74ecdd04dee1d6000730	192.168.95.10	46.37.169.12	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336607089.523801	CcH9dsiHxRoVzhJQf	192.168.95.10	1042	46.37.169.12	80	Fv9Wyp1D37ObtehEfh	application/x-dosexec	http://prospercapitalservices.info/w.php?f=a2e1a&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 15%  Last seen: 2012-05-20 00:12:03	https://www.virustotal.com/en/search/?query=4e716e2be508c225ac4cc8c7edff23f8dcb7d24f	192.168.95.10	46.37.169.12	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336607090.19085	CqorKECNF6difCKib	192.168.95.10	1053	46.37.169.12	80	F6LYWc3waMtZLoLGpj	application/x-dosexec	http://prospercapitalservices.info/w.php?f=a2e1a&e=0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 15%  Last seen: 2012-05-20 00:12:03	https://www.virustotal.com/en/search/?query=4e716e2be508c225ac4cc8c7edff23f8dcb7d24f	192.168.95.10	46.37.169.12	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-38-49

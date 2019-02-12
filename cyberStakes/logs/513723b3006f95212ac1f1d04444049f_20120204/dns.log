@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-04-21
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1328387021.72013	C9l2eC3VTHHhdd2Glf	192.168.15.10	1029	4.2.2.3	53	udp	52623	fourhourworkweek.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.207.158.52	278.000000	F
+1328387021.934716	C9l2eC3VTHHhdd2Glf	192.168.15.10	1029	4.2.2.3	53	udp	6796	adpage63.google-syndication60.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.142.164.214	14400.000000	F
+1328387022.110651	C9l2eC3VTHHhdd2Glf	192.168.15.10	1029	4.2.2.3	53	udp	45965	cetrk.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.129.12.237	20546.000000	F
+1328387022.16977	C9l2eC3VTHHhdd2Glf	192.168.15.10	1029	4.2.2.3	53	udp	9355	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.47.102,74.125.47.113,74.125.47.138,74.125.47.139,74.125.47.100,74.125.47.101	32762.000000,280.000000,280.000000,280.000000,280.000000,280.000000,280.000000	F
+#close	2014-04-03-11-04-22

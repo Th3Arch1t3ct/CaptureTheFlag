@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-09-54-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1376674074.300275	CW86GqJ5RSVvnYvad	192.168.107.10	1056	74.125.224.172	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1375288803.000000	1383281999.000000	-	-	-	02caaafbd8fa6ee08744a77f90eb1fd0	ok
+1376674075.981309	Ch0zHhXklilVZ2val	192.168.107.10	1074	74.125.224.89	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.g.doubleclick.net,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1375288815.000000	1383281999.000000	-	-	-	d4ab5f3cf9d92d5ef02aa406a1222222	ok
+1376674076.162951	CYocK84dq2o6JETzUc	192.168.107.10	1077	23.79.162.110	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=s-static.ak.facebook.com,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,ST=California,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1363150837.000000	1394686837.000000	-	-	-	8072f767b362050ff6b5555555555554	ok
+1376674076.378087	C06BaC1Ude18IUZRO3	192.168.107.10	1081	107.21.116.69	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.truste.com,O=True Ultimate Standards Everywhere\, Inc.,L=San Francisco,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1327298400.000000	1422079199.000000	-	-	-	75c6308ffb77ea6550ef41d826eeeeee	ok
+1376674076.377713	C8KCu21NF1CHMQQfHf	192.168.107.10	1080	107.21.116.69	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.truste.com,O=True Ultimate Standards Everywhere\, Inc.,L=San Francisco,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1327298400.000000	1422079199.000000	-	-	-	75c6308ffb77ea6550ef41d826eeeeee	ok
+1376674079.231194	ClwKU73xJFTgbxL1a3	192.168.107.10	1120	31.13.70.1	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.facebook.com,O=Facebook\, Inc.,L=Palo Alto,ST=California,C=US	OU=www.verisign.com/CPS Incorp.by Ref. LIABILITY LTD.(c)97 VeriSign,OU=VeriSign International Server CA - Class 3,OU=VeriSign\, Inc.,O=VeriSign Trust Network	1340254800.000000	1388555999.000000	-	-	-	f10b4102a78b5894231109d6d3fbeeb5	ok
+1376674079.861584	Co6tz5Qhj5MSw4OF9	192.168.107.10	1129	74.125.224.71	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1375288834.000000	1383281999.000000	-	-	-	d74e5a5b79fb5fb85553dd342ef5bb7e	ok
+1376674080.659143	CeyGfg3hBRppawvYr6	192.168.107.10	1138	107.21.116.69	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	3de1dd5e177ffc610205134df830c2d54b31f098bfbf25e9578de2b89a8ef9c3	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-09-54-31

@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-56-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1355771363.459868	Cdiw8q3mRb5zQoVGZ5	192.168.16.10	1063	37.143.8.11	80	FXDA8Ubd3GHhBj9a6	application/jar	http://izqfmene.qhigh.com/images/became/oppose-imposes-carries.php?jgunas=jpvnlw&dgpdvyl=qbrjfd	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 20%  Last seen: 2012-12-16 04:03:22	https://www.virustotal.com/en/search/?query=06c00da4cda216a3deab27fb55c8f2781e389743	192.168.16.10	37.143.8.11	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-56-48

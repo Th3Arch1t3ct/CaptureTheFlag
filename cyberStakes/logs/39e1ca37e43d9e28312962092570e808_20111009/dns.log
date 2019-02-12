@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-17-38
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1318197542.349912	Cd55vO2j4SkkA6gEFd	192.168.40.10	1028	4.2.2.3	53	udp	4231	rollaa.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.37.181.23	3580.000000	F
+1318197545.373337	Cd55vO2j4SkkA6gEFd	192.168.40.10	1028	4.2.2.3	53	udp	63879	findplace.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.188.109.210	3600.000000	F
+1318197545.513135	CFzP6tqVxuOTYzMq5	192.168.40.10	1037	4.2.2.3	53	udp	19589	www.imeet.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.188.107.74	3600.000000	F
+1318197545.693271	Cd55vO2j4SkkA6gEFd	192.168.40.10	1028	4.2.2.3	53	udp	28547	jsg.dt00.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	jsg.dt01.net,dt01.net,178.218.210.194	3600.000000,14400.000000,2746.000000	F
+1318197546.282404	CFzP6tqVxuOTYzMq5	192.168.40.10	1037	4.2.2.3	53	udp	38275	ac.goodsblock.dt00.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	87.242.88.124	3600.000000	F
+1318197546.709489	CFzP6tqVxuOTYzMq5	192.168.40.10	1037	4.2.2.3	53	udp	60291	ad.goodsblock.dt00.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	87.242.88.123	3600.000000	F
+1318197547.0255	CFzP6tqVxuOTYzMq5	192.168.40.10	1037	4.2.2.3	53	udp	2177	imgg.dt00.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	imgg.dt01.net,dt01.net,178.218.210.194	3600.000000,14400.000000,2744.000000	F
+1318197547.275017	Cd55vO2j4SkkA6gEFd	192.168.40.10	1028	4.2.2.3	53	udp	45952	c.dirx.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.162.97.169	3600.000000	F
+1318197547.272995	CFzP6tqVxuOTYzMq5	192.168.40.10	1037	4.2.2.3	53	udp	44161	top.list.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	node2.top.list.ru,217.69.134.212	60.000000,60.000000	F
+1318197547.950973	Cd55vO2j4SkkA6gEFd	192.168.40.10	1028	4.2.2.3	53	udp	25487	core0.node12.top.mail.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.100.188.224	600.000000	F
+#close	2014-04-03-10-17-38

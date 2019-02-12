@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-57-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1314983818.96209	Csvivo4KWrZu7VNaDf	192.168.43.10	1028	4.2.2.3	53	udp	49795	bartringlaw.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.49.219.194	3577.000000	F
+1314983819.94597	Csvivo4KWrZu7VNaDf	192.168.43.10	1028	4.2.2.3	53	udp	63619	ad.dzw.tv	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.201.33	43200.000000	F
+1314983820.803823	Csvivo4KWrZu7VNaDf	192.168.43.10	1028	4.2.2.3	53	udp	39297	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,209.170.118.17	9474.000000,24.000000,9538.000000,7.000000	F
+1314983820.93925	Csvivo4KWrZu7VNaDf	192.168.43.10	1028	4.2.2.3	53	udp	54145	s107.de.tc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	146.185.242.9	3600.000000	F
+1314983826.36507	Csvivo4KWrZu7VNaDf	192.168.43.10	1028	4.2.2.3	53	udp	6529	s107.de.tc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	146.185.242.9	3595.000000	F
+#close	2014-04-03-10-57-06

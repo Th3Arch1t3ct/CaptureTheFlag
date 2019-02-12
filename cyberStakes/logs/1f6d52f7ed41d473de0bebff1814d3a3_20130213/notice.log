@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-30-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1360740355.702673	CTBUTej9u1y1d4URb	192.168.50.10	1043	91.121.57.231	8080	Fbg65tNbT9cEUgXf5	application/x-dosexec	http://enakinukia.ru:8080/tcp/forum/links/news.php?qf=1f:31:1n:1l:32&qe=2v:1k:1m:32:33:1k:1k:31:1j:1o&d=1f&js=t&ps=m	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 31%  Last seen: 2013-02-21 17:44:44	https://www.virustotal.com/en/search/?query=2cb8c9b65c51240ba045745489c85d94342ff910	192.168.50.10	91.121.57.231	8080	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1360740365.58463	CkNqgbs8eSCyUConh	192.168.50.10	1037	91.121.57.231	8080	FNm5eB2iUszSJbtZaj	application/x-dosexec	http://enakinukia.ru:8080/tcp/forum/links/news.php?biahqmy=1f:31:1n:1l:32&pjttztdu=2v:1k:1m:32:33:1k:1k:31:1j:1o&gmebwi=1i&vjo=suzqoe&iya=zjblujy	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 31%  Last seen: 2013-02-21 17:44:44	https://www.virustotal.com/en/search/?query=2cb8c9b65c51240ba045745489c85d94342ff910	192.168.50.10	91.121.57.231	8080	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-30-18

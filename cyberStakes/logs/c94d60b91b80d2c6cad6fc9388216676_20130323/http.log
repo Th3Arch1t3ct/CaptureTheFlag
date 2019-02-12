@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-17-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1364079595.908427	Ccoviw2b8T4udJ4uTk	192.168.107.10	1030	79.170.44.96	80	1	GET	blackbullshead.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	-	-
+1364079596.386668	CMpJJ04ZJev85q8d64	192.168.107.10	1031	79.170.44.96	80	1	GET	www.blackbullshead.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	11780	200	OK	-	-	-	(empty)	-	-	-	-	-	FiijOlLqChKs4FaS8	text/html
+1364079597.274902	C4cyjW1BFmbd5xnsud	192.168.107.10	1033	198.173.255.86	80	1	GET	vatrosistemi.com	/novisite/images/proizvodi/velika/Flash-Player-YouTube.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	18327	200	OK	-	-	-	(empty)	-	-	-	-	-	FeDWy93KvfGhbsFqMi	application/x-dosexec
+1364079597.080949	CMpJJ04ZJev85q8d64	192.168.107.10	1031	79.170.44.96	80	2	GET	www.blackbullshead.com	/wp-content/themes/black-bulls-head/fonts/murbia-webfont.eot?	http://www.blackbullshead.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	85567	200	OK	-	-	-	(empty)	-	-	-	-	-	FPu07mPVchekyftmd	application/vnd.ms-fontobject
+1364079596.925058	C3C2K8zkZvsERYLC5	192.168.107.10	1032	79.170.44.96	80	1	GET	www.blackbullshead.com	/wp-content/themes/black-bulls-head/style.css	http://www.blackbullshead.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+1364079597.124631	C3C2K8zkZvsERYLC5	192.168.107.10	1032	79.170.44.96	80	2	GET	www.blackbullshead.com	/wp-content/themes/black-bulls-head/images/wall-bg.jpg	http://www.blackbullshead.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-10-17-33

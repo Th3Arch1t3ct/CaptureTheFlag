@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-37-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1349696687.167464	CFNNaG2aVqPTkJ0LGj	192.168.37.10	1029	74.117.221.143	80	1	GET	ztechremote.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	357	200	OK	-	-	-	(empty)	-	-	-	-	-	F8Y7Ua3WKsEX1Ie0Sj	text/html
+1349696690.460568	CoKXbv1imfanB0wz4a	192.168.37.10	1036	184.168.235.1	80	1	GET	www.ztechnet.com	/support/TeamViewerQS.exe	http://ztechremote.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7000	200	OK	-	-	-	(empty)	-	-	-	-	-	FH4U2wX41GAJOFAEb	application/x-dosexec
+#close	2014-04-03-10-37-08

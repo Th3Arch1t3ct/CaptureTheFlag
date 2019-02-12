@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-09-57
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1316349683.382184	CkTchU2fb0oNuAeiYa	192.168.94.10	1029	4.2.2.3	53	udp	52111	educationusa-peru.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	168.144.240.60	3579.000000	F
+1316349684.724752	CkTchU2fb0oNuAeiYa	192.168.94.10	1029	4.2.2.3	53	udp	13964	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,24.27.250.42,24.27.250.74	24771.000000,264.000000,7128.000000,4.000000,4.000000	F
+#close	2014-04-03-11-09-57

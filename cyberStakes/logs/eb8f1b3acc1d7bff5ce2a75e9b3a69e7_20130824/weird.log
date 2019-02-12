@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-17-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1377326939.229408	Cqm0Yg2YcoHNSKQVji	192.168.42.10	1044	198.1.121.173	80	above_hole_data_without_any_acks	-	F	bro
+1377326941.652268	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1377326982.830626	C5wpye5UG3BG6Bide	192.168.42.10	1119	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1377326982.877789	Cl3IPz4PflVmDm4ESg	192.168.42.10	1120	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1377326982.959473	CId8uN2Rs3FljK1If4	192.168.42.10	1121	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1377326982.963164	CMQbL02m3aVXkCZdg1	192.168.42.10	1122	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1377326982.965655	CGHb4w1KrySkPxweBl	192.168.42.10	1123	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1377326982.967707	CiaUG43wYmULD2u3k6	192.168.42.10	1124	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1377326982.970742	C3brKoevKNSlGyEbg	192.168.42.10	1125	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1377326982.995224	CH8Vl74ZMXZZZlt5jb	192.168.42.10	1126	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1377326983.10233	C30sb64xuHGiTuRqba	192.168.42.10	1127	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1377326983.197047	CBWTLMHhvKU215522	192.168.42.10	1128	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1377326983.197703	CESL1o1943p8ys0Mrj	192.168.42.10	1129	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1377327009.897986	Cyy74bcyijGkwoxx4	192.168.42.10	1151	109.207.123.10	80	bad_HTTP_request	-	F	bro
+1377327009.897986	Cyy74bcyijGkwoxx4	192.168.42.10	1151	109.207.123.10	80	line_terminated_with_single_CR	-	F	bro
+1377327010.310208	C1XxIU1UoYoz5cKCDg	192.168.42.10	1154	109.200.236.4	80	bad_HTTP_request	-	F	bro
+1377327010.517881	C1XxIU1UoYoz5cKCDg	192.168.42.10	1154	109.200.236.4	80	line_terminated_with_single_CR	-	F	bro
+1377327019.20893	CcBFUZLfzAdWw3uId	192.168.42.10	1147	108.176.74.5	16464	data_after_reset	-	F	bro
+#close	2014-04-03-10-17-12

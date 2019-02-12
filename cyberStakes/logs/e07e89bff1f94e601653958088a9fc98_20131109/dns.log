@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-23-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1383957363.807202	CZpyz13wYUhpi5Kvy6	192.168.88.10	1035	4.2.2.3	53	udp	46222	autzzv.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	63.141.231.227	600.000000	F
+1383957364.317624	CZpyz13wYUhpi5Kvy6	192.168.88.10	1035	4.2.2.3	53	udp	19341	u.pub-fit.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	0f78c01bcda4cd74abd6-d600b30837480d0202e70c6dd2d3c245.r21.cf1.rackcdn.com,a21.rackcdn.com,a21.rackcdn.com.mdc.edgesuite.net,a23.dscg10.akamai.net,198.172.88.58,198.172.88.96	1800.000000,300.000000,300.000000,300.000000,20.000000,20.000000	F
+1383957364.557857	CZpyz13wYUhpi5Kvy6	192.168.88.10	1035	4.2.2.3	53	udp	49804	ad.yieldmanager.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fd-world.ngd.gysm.yahoodns.net,ds-world.ngdg.gysm.yahoodns.net,ds-any-world.ngd.ysm.yahoodns.net,98.138.49.43,216.39.55.13,98.138.49.42,216.39.55.12	53479.000000,161.000000,119.000000,12.000000,12.000000,12.000000,12.000000	F
+1383957364.616609	CZpyz13wYUhpi5Kvy6	192.168.88.10	1035	4.2.2.3	53	udp	34442	fonts.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.28.95	2668.000000,286.000000	F
+1383957364.56126	CqUt9V2S3gJWvtMqfl	192.168.88.10	1040	4.2.2.3	53	udp	20107	px.pub-fit.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	f410858f1ded21f5c344-705d6f7de9f65820ac2884c0d7641a39.r69.cf1.rackcdn.com,a69.rackcdn.com,a69.rackcdn.com.mdc.edgesuite.net,a71.dscg10.akamai.net,198.172.88.72,198.172.88.73	21449.000000,148.000000,80.000000,80.000000,20.000000,20.000000	F
+1383957364.784894	CZpyz13wYUhpi5Kvy6	192.168.88.10	1035	4.2.2.3	53	udp	62601	themes.googleusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlehosted.l.googleusercontent.com,74.125.224.170,74.125.224.171,74.125.224.172	53523.000000,24.000000,24.000000,24.000000	F
+1383957364.819106	CZpyz13wYUhpi5Kvy6	192.168.88.10	1035	4.2.2.3	53	udp	19081	cookex.amp.yahoo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cookex.amp.gapx.yahoodns.net,any-cookex.amp.apx.yahoodns.net,98.136.10.33	203.000000,203.000000,74.000000	F
+1383957364.914677	CZpyz13wYUhpi5Kvy6	192.168.88.10	1035	4.2.2.3	53	udp	15240	cookiex.ngd.yahoo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	world.ngd.ysm.yahoodns.net,any-world.ngd.ysm.yahoodns.net,98.138.49.42,216.39.55.13,98.138.49.43,216.39.55.12	1718.000000,24.000000,54.000000,54.000000,54.000000,54.000000	F
+1383957365.091177	CZpyz13wYUhpi5Kvy6	192.168.88.10	1035	4.2.2.3	53	udp	30086	ad.rekket.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ad.yieldmanager.com,fd-world.ngd.gysm.yahoodns.net,ds-world.ngdg.gysm.yahoodns.net,ds-any-world.ngd.ysm.yahoodns.net,98.138.49.43,216.39.55.13,98.138.49.42,216.39.55.12	43200.000000,53478.000000,160.000000,118.000000,11.000000,11.000000,11.000000,11.000000	F
+1383957365.559319	CqUt9V2S3gJWvtMqfl	192.168.88.10	1040	4.2.2.3	53	udp	27780	ch.capsiltrainer.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.149.249.188	957.000000	F
+1383957365.503429	CZpyz13wYUhpi5Kvy6	192.168.88.10	1035	4.2.2.3	53	udp	63364	ff.capsiltrainer.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.149.249.188	1800.000000	F
+1383957365.970533	CqUt9V2S3gJWvtMqfl	192.168.88.10	1040	4.2.2.3	53	udp	63874	cdn2.tinyhousedesign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	thd.tinyhousedesignc.netdna-cdn.com,108.161.189.161	3600.000000,244.000000	F
+1383957365.971801	CZpyz13wYUhpi5Kvy6	192.168.88.10	1035	4.2.2.3	53	udp	38786	9nz2.mandulozz.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.149.255.61	600.000000	F
+1383957366.147964	CqUt9V2S3gJWvtMqfl	192.168.88.10	1040	4.2.2.3	53	udp	40577	ydzvbu.manchikers.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.149.250.166	180.000000	F
+1383957366.148647	CZpyz13wYUhpi5Kvy6	192.168.88.10	1035	4.2.2.3	53	udp	21377	netbeans.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	137.254.56.26	296.000000	F
+1383957366.41562	CqUt9V2S3gJWvtMqfl	192.168.88.10	1040	4.2.2.3	53	udp	4992	crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.ws.symantec.com.edgekey.net,e6845.ce.akamaiedge.net,23.5.5.163	542.000000,10867.000000,4.000000	F
+1383957366.451526	CqUt9V2S3gJWvtMqfl	192.168.88.10	1040	4.2.2.3	53	udp	45982	svrintl-g3-crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.ws.symantec.com.edgekey.net,e6845.ce.akamaiedge.net,23.5.5.163	58.000000,10867.000000,4.000000	F
+#close	2014-04-03-10-23-24

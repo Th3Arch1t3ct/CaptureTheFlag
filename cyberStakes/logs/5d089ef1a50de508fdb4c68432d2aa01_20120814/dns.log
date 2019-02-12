@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-46-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1344935711.452844	C7iuWL3txvbxHLAJA4	192.168.123.10	1029	4.2.2.3	53	udp	2441	dinhlawfirm.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.236.161.251	14374.000000	F
+1344935711.564157	C7iuWL3txvbxHLAJA4	192.168.123.10	1029	4.2.2.3	53	udp	55947	www.dinhlawfirm.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.236.161.251	14375.000000	F
+1344935711.935193	C7iuWL3txvbxHLAJA4	192.168.123.10	1029	4.2.2.3	53	udp	11403	cwdowfwpgfmwewih.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.168.7.66	43200.000000	F
+1344935712.527242	C7iuWL3txvbxHLAJA4	192.168.123.10	1029	4.2.2.3	53	udp	57997	ehvhxqgh.lflinkup.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.28.132.110	31.000000	F
+1344935719.131711	C7iuWL3txvbxHLAJA4	192.168.123.10	1029	4.2.2.3	53	udp	18573	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	3600.000000,300.000000	F
+1344935719.320063	C7iuWL3txvbxHLAJA4	192.168.123.10	1029	4.2.2.3	53	udp	29580	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,64.4.52.169	3600.000000,600.000000	F
+1344935726.366049	C7iuWL3txvbxHLAJA4	192.168.123.10	1029	4.2.2.3	53	udp	7564	downloadinfo.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.0.212.246	43200.000000	F
+#close	2014-04-03-10-46-10

@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-09-50-47
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1340928112.194337	CafXCT3rbJnvpkpdk9	192.168.64.10	1029	4.2.2.3	53	udp	dns	0.117999	58	90	SF	-	0	Dd	2	114	2	146	(empty)
+1340928112.313223	CdQxGN3FBKnurD6Gia	192.168.64.10	1031	50.22.126.97	80	tcp	http	7.245890	322	386	RSTO	-	0	ShADadfR	6	570	4	554	(empty)
+1340928112.197134	CNd4f92vBzpT9Oqjpi	192.168.64.10	1030	174.120.119.189	80	tcp	http	7.363265	522	6106	RSTO	-	0	ShADadfR	9	890	8	6430	(empty)
+1340928123.776677	CWIAMl12154GqC3Hg2	192.168.64.10	1037	178.162.167.135	80	tcp	http	7.556473	959	263814	SF	-	0	ShADadFf	113	5487	190	271422	(empty)
+1340928133.703668	CBhW342UYuHBVjD8g	192.168.64.10	1038	37.157.255.182	80	tcp	-	2.906351	0	0	S0	-	0	S	2	96	0	0	(empty)
+1340928142.641061	CYAwWX2uDV8zBFb5i5	192.168.64.10	1038	37.157.255.182	80	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+1340928096.851147	CA02Vr4RwFjUylXtt6	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000692	626	0	S0	-	0	D	2	682	0	0	(empty)
+1340928154.689068	CLkGgFmsZ4IYYZwpd	192.168.64.10	1039	37.157.255.182	80	tcp	-	2.967572	0	0	S0	-	0	S	2	96	0	0	(empty)
+1340928163.67236	Cqh6Vr2OW7855wCzl3	192.168.64.10	1039	37.157.255.182	80	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+1340928096.851434	C3UWLv1Xea631ZCkCh	192.168.64.10	68	192.168.64.1	67	udp	dhcp	12.218568	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1340928175.782479	CMrdy91UKilCpqNPCb	192.168.64.10	1040	37.157.255.182	80	tcp	-	2.952435	0	0	S0	-	0	S	2	96	0	0	(empty)
+1340928118.268225	CzvWPf4BZ1oqeR2RS6	192.168.64.10	1035	239.255.255.250	1900	udp	-	6.060562	399	0	S0	-	0	D	3	483	0	0	(empty)
+1340928184.750246	CvPo2U26gXR3IcGm6	192.168.64.10	1040	37.157.255.182	80	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+1340928112.457008	CCahV02XfNfn3WchKk	192.168.64.10	1032	178.162.167.135	80	tcp	http	11.702702	858	81101	S1	-	0	ShADad	43	2586	61	83549	(empty)
+#close	2014-04-03-09-50-47

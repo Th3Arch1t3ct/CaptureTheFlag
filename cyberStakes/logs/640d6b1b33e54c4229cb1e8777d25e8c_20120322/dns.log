@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-59-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1332404181.33318	Cm9JFN3DOEP0lZfR01	192.168.118.10	1029	4.2.2.3	53	udp	65171	crsvoucher.it	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	130.186.88.152	878.000000	F
+1332404181.62322	Cm9JFN3DOEP0lZfR01	192.168.118.10	1029	4.2.2.3	53	udp	40337	www.crsvoucher.it	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crsvoucher.it,130.186.88.152	879.000000,878.000000	F
+#close	2014-04-03-09-59-25

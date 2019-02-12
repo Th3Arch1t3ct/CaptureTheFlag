@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-33-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1367188372.300737	CEHiv14hOZsOXhgpl	192.168.121.10	1032	74.125.140.95	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleapis.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1365702708.000000	1388527130.000000	-	-	-	a30cbfdf0dc59555555555555b404e52	ok
+1367188372.463979	CBRuAD1CQnrzqs3bQ8	192.168.121.10	1033	173.194.37.3	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1365702639.000000	1388527130.000000	-	-	-	5b7cb8d98aeeeeeeeeeeeeeeeeeeeeee	ok
+1367188375.097757	C0EN1Y3Pcgi3mWVxQj	192.168.121.10	1072	173.252.101.26	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.facebook.com,O=Facebook\, Inc.,L=Palo Alto,ST=California,C=US	OU=www.verisign.com/CPS Incorp.by Ref. LIABILITY LTD.(c)97 VeriSign,OU=VeriSign International Server CA - Class 3,OU=VeriSign\, Inc.,O=VeriSign Trust Network	1340254800.000000	1388555999.000000	-	-	-	f10b4102a78b5894231109d6d3fbeeb5	ok
+1367188377.337397	C6L66I1zezc9jozPce	192.168.121.10	1131	54.225.245.240	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.truste.com,O=True Ultimate Standards Everywhere\, Inc.,L=San Francisco,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1327298400.000000	1422079199.000000	-	-	-	75c6308ffb77ea6550ef41d826eeeeee	ok
+1367188383.219056	C2rEp14syVNOiP9E33	192.168.121.10	1243	54.225.245.240	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	5022861db18727bea0f92a93214abcfd9e5ec05c2d7451a0b68ad7484abf69d5	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-33-21

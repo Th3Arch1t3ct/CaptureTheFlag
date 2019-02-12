@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-18-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1321044809.793147	Ce2tkE1FCDQUWM2nz9	192.168.3.10	1029	4.2.2.3	53	udp	61333	creativelook.com.my	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.7.194.3	14379.000000	F
+1321044809.981099	Ce2tkE1FCDQUWM2nz9	192.168.3.10	1029	4.2.2.3	53	udp	25239	aquarigger.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.106.174.219	3257.000000	F
+1321044810.37737	Ce2tkE1FCDQUWM2nz9	192.168.3.10	1029	4.2.2.3	53	udp	6038	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.74.80,69.31.74.8	26053.000000,194.000000,5115.000000,20.000000,20.000000	F
+1321044845.584125	CBSXCMQDDJXAygYe1	192.168.3.10	1029	4.2.2.3	53	udp	54673	xzczxczxcz.coom.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.208.142.55	3600.000000	F
+#close	2014-04-03-10-18-38

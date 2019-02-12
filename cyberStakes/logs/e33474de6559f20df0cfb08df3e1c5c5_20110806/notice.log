@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-40-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1312654044.679764	CQjhNC2FUzfMgTmSsd	192.168.10.10	1045	92.38.233.191	80	Fbtl2C4m3CK9l2PNY5	application/x-dosexec	http://eastontree.ce.ms/showthread.php?t=741028	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2011-12-08 18:03:40	https://www.virustotal.com/en/search/?query=3375c77d8882f85a30342cfb766604dad8f8bc57	192.168.10.10	92.38.233.191	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1312654044.759416	CRYlMY3JQ5yUElq4dd	192.168.10.10	1058	92.38.233.191	80	FhyV9M1pbizGhqwdaj	application/jar	http://eastontree.ce.ms/showthread.php?t=205156663	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 55%  Last seen: 2012-12-01 06:01:05	https://www.virustotal.com/en/search/?query=a897e1a7645e3ab0c247614e8d94f0bf98beefc8	192.168.10.10	92.38.233.191	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1312654045.143958	CRYlMY3JQ5yUElq4dd	192.168.10.10	1058	92.38.233.191	80	FlWWFA29XabUD88ivb	application/jar	http://eastontree.ce.ms/showthread.php?t=205156663	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 55%  Last seen: 2012-12-01 06:01:05	https://www.virustotal.com/en/search/?query=a897e1a7645e3ab0c247614e8d94f0bf98beefc8	192.168.10.10	92.38.233.191	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1312654046.260222	CRYlMY3JQ5yUElq4dd	192.168.10.10	1058	92.38.233.191	80	FK033N1p2HzWdK0DDj	application/jar	http://eastontree.ce.ms/showthread.php?t=205156663	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 55%  Last seen: 2012-12-01 06:01:05	https://www.virustotal.com/en/search/?query=a897e1a7645e3ab0c247614e8d94f0bf98beefc8	192.168.10.10	92.38.233.191	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1312654047.162558	CRYlMY3JQ5yUElq4dd	192.168.10.10	1058	92.38.233.191	80	FS25SmD7xmpqOPBC9	application/x-dosexec	http://eastontree.ce.ms/showthread.php?t=181259	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2011-12-08 18:03:40	https://www.virustotal.com/en/search/?query=3375c77d8882f85a30342cfb766604dad8f8bc57	192.168.10.10	92.38.233.191	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-40-50

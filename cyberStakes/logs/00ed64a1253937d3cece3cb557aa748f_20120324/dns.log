@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-03-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1332594297.552937	CCsnjC20nN1j3XBZJf	192.168.20.10	1029	4.2.2.3	53	udp	51084	acneproblemsolved.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.172.167.27	14375.000000	F
+1332594300.483693	CCsnjC20nN1j3XBZJf	192.168.20.10	1029	4.2.2.3	53	udp	40335	www.acneproblemsolved.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	acneproblemsolved.info,216.172.167.27	14373.000000,14372.000000	F
+1332594301.960574	CCsnjC20nN1j3XBZJf	192.168.20.10	1029	4.2.2.3	53	udp	23438	fonts.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.47.95	497.000000,126.000000	F
+1332594301.981014	CCsnjC20nN1j3XBZJf	192.168.20.10	1029	4.2.2.3	53	udp	1673	themes.googleusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlehosted.l.googleusercontent.com,74.125.47.132	20065.000000,169.000000	F
+1332594301.987385	CCsnjC20nN1j3XBZJf	192.168.20.10	1029	4.2.2.3	53	udp	41611	www.commission-killer.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.131.69.65	10800.000000	F
+1332594302.494766	CCsnjC20nN1j3XBZJf	192.168.20.10	1029	4.2.2.3	53	udp	12426	cbscout.hopfeed.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	hopfeed2.elasticbeanstalk.com,awseb-hopfeed2-229423367.us-east-1.elb.amazonaws.com,23.21.251.245	300.000000,60.000000,60.000000	F
+1332594304.056207	CCsnjC20nN1j3XBZJf	192.168.20.10	1029	4.2.2.3	53	udp	27012	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.72.90,69.31.72.120	18418.000000,221.000000,11120.000000,14.000000,14.000000	F
+1332594304.144516	CCsnjC20nN1j3XBZJf	192.168.20.10	1029	4.2.2.3	53	udp	10628	www3.hardguardgt.25u.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.238.105	31.000000	F
+1332594304.402553	CCsnjC20nN1j3XBZJf	192.168.20.10	1029	4.2.2.3	53	udp	60550	www1.simpleab-army.25u.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.112	31.000000	F
+1332594312.403613	CCsnjC20nN1j3XBZJf	192.168.20.10	1029	4.2.2.3	53	udp	31873	www2.firstpfql-master.it.cx	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.142.217	3600.000000	F
+1332594356.167952	Cyp3et3k7FUPXiOs3e	192.168.20.10	1029	75.102.22.72	53	udp	63363	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	65.98.95.70	86400.000000	F
+#close	2014-04-03-10-03-32

@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-11-00-19
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1328218412.515827	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1328218423.096014	C6XZ2636F5dvcgfqW6	192.168.91.10	1091	67.201.62.138	80	unescaped_special_URI_char	-	F	bro
+1328218423.101697	C91BBE4KdnxqDsku3d	192.168.91.10	1092	67.201.62.138	80	unescaped_special_URI_char	-	F	bro
+1328218458.549035	CetRhV1sS8z2xJfUi1	192.168.91.10	1362	208.71.125.1	80	unescaped_special_URI_char	-	F	bro
+1328218458.613723	CgNyEX2tFZC9eBHRa8	192.168.91.10	1363	208.71.125.1	80	unescaped_special_URI_char	-	F	bro
+1328218461.696857	CQACiXwmOEWS38C8h	192.168.91.10	1389	208.71.125.1	80	unescaped_special_URI_char	-	F	bro
+1328218462.123341	CWXWwL2zBCfM33gn47	192.168.91.10	1359	208.71.125.129	80	window_recision	-	F	bro
+1328218465.650484	CFIwJq2EwmSVefYfuj	192.168.91.10	1408	64.208.138.133	80	unescaped_special_URI_char	-	F	bro
+1328218466.603263	CTXhNaELNtwgrCMA9	192.168.91.10	1445	74.117.199.102	80	HTTP_version_mismatch	-	F	bro
+#close	2014-04-03-11-00-21

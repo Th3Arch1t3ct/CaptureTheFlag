@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-08-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1356496162.817647	CRvLVFoq1OLyqELKi	192.168.42.10	1030	5.9.25.112	80	1	GET	gigabase.info	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3936	200	OK	-	-	-	(empty)	-	-	-	-	-	FFDfNn2mdEaLpA8KVi	text/html
+1356496162.953911	CRvLVFoq1OLyqELKi	192.168.42.10	1030	5.9.25.112	80	2	GET	gigabase.info	/assets/application-0487bf17418511b3d842d8902f822663.css	http://gigabase.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	50482	200	OK	-	-	-	(empty)	-	-	-	-	-	FEpS4S1dHklrm7VU13	text/plain
+1356496163.067883	CzlfFx3GmCc16Mp8ri	192.168.42.10	1031	5.9.25.112	80	1	GET	gigabase.info	/assets/application-6e2ac1c99eee59425871cb46976332a9.js	http://gigabase.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	302136	200	OK	-	-	-	(empty)	-	-	-	-	-	FEQ3Gz1HXyM0GWWnWc	text/plain
+1356496163.940733	CzlfFx3GmCc16Mp8ri	192.168.42.10	1031	5.9.25.112	80	2	GET	gigabase.info	/assets/bg-nav-holder-r.png	http://gigabase.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	740	200	OK	-	-	-	(empty)	-	-	-	-	-	FTDRsI1cS6x1PTo3Ld	image/png
+1356496163.940392	CRvLVFoq1OLyqELKi	192.168.42.10	1030	5.9.25.112	80	3	GET	gigabase.info	/assets/bg-download-body.gif	http://gigabase.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	519	200	OK	-	-	-	(empty)	-	-	-	-	-	FTzpgv4D2uAl5C9ac	image/gif
+1356496164.066858	CzlfFx3GmCc16Mp8ri	192.168.42.10	1031	5.9.25.112	80	3	GET	gigabase.info	/css/PIE.htc	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	728	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FmBPhm45pyhCoOdyee	text/html
+1356496164.245277	CzlfFx3GmCc16Mp8ri	192.168.42.10	1031	5.9.25.112	80	4	GET	gigabase.info	/assets/bg-nav-holder-l.png	http://gigabase.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1293	200	OK	-	-	-	(empty)	-	-	-	-	-	F7Z1ry4lGW0lhzkpKh	image/png
+1356496164.413732	CzlfFx3GmCc16Mp8ri	192.168.42.10	1031	5.9.25.112	80	5	GET	gigabase.info	/assets/arrow03.gif	http://gigabase.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	58	200	OK	-	-	-	(empty)	-	-	-	-	-	FA2jOi2213rYJyWOnj	image/gif
+1356496164.524065	CzlfFx3GmCc16Mp8ri	192.168.42.10	1031	5.9.25.112	80	6	GET	gigabase.info	/assets/bg-download-page-header.gif	http://gigabase.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	70	200	OK	-	-	-	(empty)	-	-	-	-	-	F173DZ2H0ZYiuhDh97	image/gif
+1356496164.639087	CzlfFx3GmCc16Mp8ri	192.168.42.10	1031	5.9.25.112	80	7	GET	gigabase.info	/assets/logo02.png	http://gigabase.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13124	200	OK	-	-	-	(empty)	-	-	-	-	-	FmZY2V2JOORBNdhhZg	image/png
+1356496164.791478	CzlfFx3GmCc16Mp8ri	192.168.42.10	1031	5.9.25.112	80	8	GET	gigabase.info	/assets/bg-download-btn.png	http://gigabase.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	83301	200	OK	-	-	-	(empty)	-	-	-	-	-	FQMDX71hCwZBFoNJnf	image/png
+1356496164.067207	CRvLVFoq1OLyqELKi	192.168.42.10	1030	5.9.25.112	80	4	GET	gigabase.info	/toolbar/download.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1663384	200	OK	-	-	-	(empty)	-	-	-	-	-	Fi8lmOEOkf1doArw1	application/x-dosexec
+1356496167.912467	C5izPg2ixMMTXoPxf9	192.168.42.10	1036	4.27.255.126	80	1	GET	www.download.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/authrootseq.txt	-	Microsoft-CryptoAPI/5.131.2600.2180	0	18	200	OK	-	-	-	(empty)	-	-	-	-	-	FWI9dJ1f7OpyR0lyxf	text/plain
+1356496167.940761	C5izPg2ixMMTXoPxf9	192.168.42.10	1036	4.27.255.126	80	2	GET	www.download.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/authrootstl.cab	-	Microsoft-CryptoAPI/5.131.2600.2180	0	49082	200	OK	-	-	-	(empty)	-	-	-	-	-	Fwy0ru3NOeuAxSy4xi	application/vnd.ms-cab-compressed
+1356496168.354843	CJUaZ32xUHzB3j5982	192.168.42.10	1037	199.7.71.190	80	1	GET	crl.thawte.com	/ThawtePCA.crl	-	Microsoft-CryptoAPI/5.131.2600.2180	0	500	200	OK	-	-	-	(empty)	-	-	-	-	-	FZGTKi3KDM8m9o6X6	binary
+1356496183.682527	CQiduu33jGNuY6Ecwe	192.168.42.10	1039	4.27.255.126	80	1	GET	www.download.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/DE28F4A4FFE5B92FA3C503D1A349A7F9962A8212.crt	-	Microsoft-CryptoAPI/5.131.2600.2180	0	856	200	OK	-	-	-	(empty)	-	-	-	-	-	Ftd7vA35JFY07BDFBf	binary
+#close	2014-04-03-11-08-16

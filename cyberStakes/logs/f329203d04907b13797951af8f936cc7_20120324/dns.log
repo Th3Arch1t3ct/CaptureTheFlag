@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-13-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1332620033.932403	Ch8stl2oYGYs7eV2pi	192.168.4.10	1029	4.2.2.3	53	udp	24203	bvinteriors.co.za	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	41.215.237.19	3577.000000	F
+1332620049.185127	C1LFrb4Ftl1VeleTg3	192.168.4.10	1038	4.2.2.3	53	udp	27018	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.65.139,74.125.65.100,74.125.65.101,74.125.65.102,74.125.65.113,74.125.65.138	33407.000000,95.000000,95.000000,95.000000,95.000000,95.000000,95.000000	F
+1332620049.181184	CxuPdg4fFRMstk9Ang	192.168.4.10	1029	4.2.2.3	53	udp	49547	pokosa.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.111.9.98	60.000000	F
+1332620050.700271	C1LFrb4Ftl1VeleTg3	192.168.4.10	1038	4.2.2.3	53	udp	61834	www3.saveqvsuite.25u.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.238.105	31.000000	F
+1332620050.964917	C1LFrb4Ftl1VeleTg3	192.168.4.10	1038	4.2.2.3	53	udp	28552	www1.safe-masterkk.25u.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.112	31.000000	F
+1332620056.40809	C1LFrb4Ftl1VeleTg3	192.168.4.10	1038	4.2.2.3	53	udp	6798	www2.powertzsoft.it.cx	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.142.217	3600.000000	F
+1332620099.396214	C4t18q4uQClIlKM081	192.168.4.10	1038	75.102.22.72	53	udp	28814	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	69.72.227.43	86400.000000	F
+#close	2014-04-03-11-13-35

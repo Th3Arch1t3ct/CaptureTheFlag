@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-52-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1332580424.356463	CJAIDG1JbSiX0sEaBe	192.168.8.10	1127	188.165.4.33	80	F7segC1GfniQuorOW5	application/x-dosexec	http://nnnblack.com/?324140256ae9ab498063a8515d8695b7	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 21%  Last seen: 2012-03-26 00:56:09	https://www.virustotal.com/en/search/?query=4c4b0e09c7936b424264e67e28dd30c005db0086	192.168.8.10	188.165.4.33	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1332580424.356463	CEQpAU1qiKTK1a8rgk	192.168.8.10	1128	188.165.4.33	80	FWGkOi3A23yRJMZHF2	application/x-dosexec	http://nnnblack.com/?e7a045edb3466fa5462d6218b50d2cf0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 21%  Last seen: 2012-03-26 00:56:09	https://www.virustotal.com/en/search/?query=4c4b0e09c7936b424264e67e28dd30c005db0086	192.168.8.10	188.165.4.33	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1332580425.868883	CGu0LQNTj7BCCnKtf	192.168.8.10	1129	188.165.4.33	80	FUVtpD2fG8skB7ZY36	application/x-dosexec	http://nnnblack.com/?6769f117262be1903326ae049b7b4803	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 21%  Last seen: 2012-03-26 00:56:09	https://www.virustotal.com/en/search/?query=4c4b0e09c7936b424264e67e28dd30c005db0086	192.168.8.10	188.165.4.33	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-52-03

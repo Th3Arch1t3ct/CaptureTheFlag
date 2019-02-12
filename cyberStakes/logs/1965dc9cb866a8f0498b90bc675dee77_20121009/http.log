@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-40-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1349798506.373998	Ct5pSU35z6IJBmeG1l	192.168.87.10	1030	88.198.0.227	80	1	GET	proxithome.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	125	200	OK	-	-	-	(empty)	-	-	-	-	-	F8CtPB4RvV09YrNUYj	text/plain
+1349798506.968082	Cl1Yyon09GytA247d	192.168.87.10	1031	178.63.195.175	1342	1	GET	fg33f34fd23d32.25u.com	/t/e358406f41dd74c94360b9d162928654	http://proxithome.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	64054	200	OK	-	-	-	(empty)	-	-	-	-	-	FcRZnd44YVp4ppSpQc	text/html
+1349798517.785239	C3IcYQqImFs3x1w3e	192.168.87.10	1032	65.55.13.243	80	1	POST	activex.microsoft.com	/objects/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	FimDYvpzl36Xlg1ck	text/plain	FdEmJuzc74OeDZ2xk	text/plain
+1349798517.899641	CiQH0e1M2iCLC0dICc	192.168.87.10	1033	65.55.13.243	80	1	POST	codecs.microsoft.com	/isapi/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	FA2LVV29jR3TIFoPx9	text/plain	FLBj7a3fEj4tmloGk4	text/plain
+1349798518.868305	CTlX9yzBFA3ppIyqe	192.168.87.10	1038	178.63.195.175	1342	1	GET	fg33f34fd23d32.25u.com	/images/2a149319ccd0db2076c14ce5eb2e6faa/674917170/326768e39baa3b6658bf55c574b40306.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11962	200	OK	-	-	-	(empty)	-	-	-	-	-	FtRHnMimJVrkfQbU3	application/jar
+1349798519.042347	CTlX9yzBFA3ppIyqe	192.168.87.10	1038	178.63.195.175	1342	2	GET	fg33f34fd23d32.25u.com	/images/2a149319ccd0db2076c14ce5eb2e6faa/674917170/326768e39baa3b6658bf55c574b40306.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11962	200	OK	-	-	-	(empty)	-	-	-	-	-	FhLD9738Enl1Uh4pD7	application/jar
+1349798519.275505	CTlX9yzBFA3ppIyqe	192.168.87.10	1038	178.63.195.175	1342	3	GET	fg33f34fd23d32.25u.com	/images/2a149319ccd0db2076c14ce5eb2e6faa/674917170/326768e39baa3b6658bf55c574b40306.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11962	200	OK	-	-	-	(empty)	-	-	-	-	-	FBqRdr3SXfv2CRbKzi	application/jar
+1349798519.919774	CTlX9yzBFA3ppIyqe	192.168.87.10	1038	178.63.195.175	1342	4	GET	fg33f34fd23d32.25u.com	/images/2a149319ccd0db2076c14ce5eb2e6faa/674917170/326768e39baa3b6658bf55c574b40306.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11962	200	OK	-	-	-	(empty)	-	-	-	-	-	FpcxjZSd7sPY1X0lc	application/jar
+1349798520.116751	CTlX9yzBFA3ppIyqe	192.168.87.10	1038	178.63.195.175	1342	5	GET	fg33f34fd23d32.25u.com	/f/674917170/326768e39baa3b6658bf55c574b40306/2a149319ccd0db2076c14ce5eb2e6faa/3	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	238951	200	OK	-	-	-	(empty)	-	-	-	-	-	F4I4zv3uaUMFoNkk6b	application/x-dosexec
+1349798531.856698	CYafcl1JQJh5RrccRg	192.168.87.10	1039	178.63.195.175	1342	1	GET	fg33f34fd23d32.25u.com	/f/674917170/326768e39baa3b6658bf55c574b40306/2a149319ccd0db2076c14ce5eb2e6faa/3/2	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-10-40-55

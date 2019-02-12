@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-09-51-13
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1339319679.856748	FP4WyarDU3EKxE96k	67.212.188.26	192.168.4.10	C754un3iQbt3V3KpVf	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	1788	-	0	0	F	-	26692e94fba9bdd070e9e866de95881c	7cd2a02cbf45541f11baa0b1ec91073e84f6a0b6	-	-
+1339319681.745992	F0lE0k4OxbTLmLDMe4	93.104.215.155	192.168.4.10	CpQQr11ZsP6K78dAp5	HTTP	0	SHA1,MD5	text/html	-	0.077328	-	F	2891	-	0	0	F	-	24a6ef3e9e0141add59bfd29e014d7ae	a77cfb02292065dc0cf3490d22f34ff9afe9389e	-	-
+1339319682.350062	F0jbwyseQyypb0vdi	93.104.215.155	192.168.4.10	CdVOdU1ROBoeue9TM2	HTTP	0	SHA1,MD5	text/plain	-	0.509594	-	F	21969	21969	0	0	F	-	f96ff6b4ac204552e75d118c6a02caf3	ff0f1f1b2746184a2ef369071293d7c526aabe12	-	-
+1339319683.57638	F7dm8v4g0DFTv9Nk6l	93.104.215.155	192.168.4.10	CjuhGb3uQ1sw6TuDke	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	290	-	0	0	F	-	349b62314fc17c1bea03278e307f6836	c0050fc9b122a1c418344fc6f1ff0df2653f49fd	-	-
+1339319684.11628	FE8D8T8o74wkGVIa2	93.104.215.155	192.168.4.10	CtyoEq4QV2sMMEdhGk	HTTP	0	SHA1,MD5	application/pdf	manual20100188.pdf	0.084534	-	F	2696	2696	0	0	F	-	62c7612e6cd20fd58af55e902a8d02df	1e1f195cb1114e84acc49f623608732beae76ad2	-	-
+1339319684.551898	Fl0ARx3U35fN5ld916	93.104.215.155	192.168.4.10	CRqzG43y8QSvIey52f	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	316	-	0	0	F	-	ce18464a2167144c469ddeb25c12268d	168a1b55457cf1482462a38fc3d828115b34d1cb	-	-
+1339319687.476636	FjWh1d1ViEQMWSn0pb	93.104.215.155	192.168.4.10	C3qM0CHLpQWWhpRLi	HTTP	0	SHA1,MD5	application/zip	-	0.000000	-	F	2698	2698	0	0	F	-	b9e30841be42c17f498c532e0f651289	118c1bcc46cfb2540f446504a22dedfb3be96ecb	-	-
+1339319687.520938	Frj5Aa4paInpi2TsL7	93.104.215.155	192.168.4.10	CdmnEj2pK64cwL7paa	HTTP	0	SHA1,MD5	application/zip	-	0.000000	-	F	2327	2327	0	0	F	-	bca052471d50aa5b3e4d381ff1ac389d	4a8ab7e39e2e4f61dec638131cd228552b5fb7db	-	-
+1339319688.205737	FT87rG3bC8Pbb7MH5h	93.104.215.155	192.168.4.10	CM9YSA29EQeuEm3Nrb	HTTP	0	SHA1,MD5	binary	-	0.000000	-	F	519	519	0	0	F	-	456ea8ea7abb7f5bdefca401c010905c	4146be1b0350a475f79946edea700e0d3fb336d4	-	-
+1339319687.413025	FoBzIm1XCqVL5Nxg65	93.104.215.155	192.168.4.10	C5FnEx4z7G2pMXMez3	HTTP	0	SHA1,MD5	application/x-dosexec	FlashUtil10f_Plugin.exe.exe	1.094597	-	F	81408	81408	0	0	F	-	ed8faaf144251270f606a947d4e5ff86	c8b67852b53f7154198859e703fbdbc3d894f66e	-	-
+1339319689.065964	FVcV0Q3xCnBVjcEng4	50.63.35.1	192.168.4.10	CGF9MQ3OuyFJTR5mk	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	42	-	0	0	F	-	10c7349ad9fe75bd9da57447cf5bcf49	9b5c342e6f46f29d4504f8ebd955bb0bdd5c4fee	-	-
+#close	2014-04-03-09-51-13

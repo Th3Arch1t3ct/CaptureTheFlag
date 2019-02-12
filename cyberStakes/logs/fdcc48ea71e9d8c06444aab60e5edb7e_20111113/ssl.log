@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-51-23
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1321221004.117762	CuDBaZ2fzkShaSl05f	192.168.83.10	1040	74.125.229.106	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1320286116.000000	1351909116.000000	-	-	-	bc573ea00c29ea65da7eeeeeeeeee132	ok
+1321221004.492359	Cr6SbfBmXTuu9rF9	192.168.83.10	1044	74.125.229.223	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1320286203.000000	1351909203.000000	-	-	-	83f1a3733cee57f2fdeeeeeeeee11dae	ok
+1321221007.206536	CEastr1ecs81lXzTH5	192.168.83.10	1071	174.129.203.211	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.truste.com,OU=Terms of use at www.verisign.com/rpa (c)05,OU=Engineering,O=True Ultimate Standards Everywhere\, Inc.,L=San Francisco,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1298872800.000000	1330495199.000000	-	-	-	2cd5430144cc15388c01edfb1ef6177b	ok
+1321221008.246268	CDilxG3qEErlvY8fa6	192.168.83.10	1072	174.129.203.211	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	4a7fe6072c236af0f56ac7d17c52500a25be162bd0248d869e65c2d51d1ff1ac	-	-	-	-	-	-	-	-	-
+1321221008.262892	CagMJK3pHU3R5AItF	192.168.83.10	1073	174.129.203.211	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	4a7fe6072c236af0f56ac7d17c52500a25be162bd0248d869e65c2d51d1ff1ac	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-51-24

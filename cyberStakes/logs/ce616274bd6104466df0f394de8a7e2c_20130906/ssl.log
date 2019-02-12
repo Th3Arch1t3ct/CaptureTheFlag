@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-11-01-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1378472967.916809	CMdh7Y1E2slvJXfg1h	192.168.38.10	1038	74.125.28.95	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleapis.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1376535998.000000	1408071998.000000	-	-	-	1abbf4c60b56524fc217ed4258a2f17e	ok
+1378472968.284075	CGczaarhAQVyCjMbe	192.168.38.10	1045	74.125.239.10	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1376536658.000000	1408072658.000000	-	-	-	e9cb7a1b46b152121cad7552afb52e8a	ok
+1378472968.284556	CB3CGg4oTQx5r8Tnab	192.168.38.10	1046	74.125.239.10	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1376536658.000000	1408072658.000000	-	-	-	e9cb7a1b46b152121cad7552afb52e8a	ok
+1378472968.285528	CmoWdM3YUzXhAkq9A8	192.168.38.10	1047	74.125.239.10	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1376536658.000000	1408072658.000000	-	-	-	e9cb7a1b46b152121cad7552afb52e8a	ok
+1378472968.466007	CLg25SFj2D2WcBIq3	192.168.38.10	1048	74.125.239.10	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	19534f481eed3238c9712ffe025435ae2b0a98fdea1e04cac6a54225475b4247	-	-	-	-	-	-	-	-	-
+1378472976.820363	C7RRE94BPlHVRPBgPb	192.168.38.10	1074	184.85.162.110	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=s-static.ak.facebook.com,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,ST=California,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1363150837.000000	1394686837.000000	-	-	-	8072f767b362050ff6b5555555555554	ok
+1378472977.508755	CC3evC3AufkoDiXKV8	192.168.38.10	1083	74.125.224.161	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1377796666.000000	1409332666.000000	-	-	-	9810d3ea59ecb75fbca459fa4b71e6e6	ok
+1378472978.648654	CDvjqL1ZwOQpMD19Gh	192.168.38.10	1085	74.125.239.15	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1376534899.000000	1408070899.000000	-	-	-	4e7dcc82199d954770b0c9618443f586	ok
+#close	2014-04-03-11-01-35

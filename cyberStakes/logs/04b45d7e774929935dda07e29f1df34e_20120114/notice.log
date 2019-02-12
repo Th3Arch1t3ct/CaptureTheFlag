@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-43-03
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1326540111.576157	CBDaIp4yx4PsNdWOv	192.168.107.10	1050	203.170.193.102	80	FaffOc3jqeKMMklyy2	application/x-shockwave-flash	http://dr.derrainain-lacustaside.in.ua/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 25%  Last seen: 2012-01-10 09:34:00	https://www.virustotal.com/en/search/?query=d4cb0f78157e943d5650045932724b44390d6d4e	192.168.107.10	203.170.193.102	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1326540112.149953	Cg88bGpuczSruQcN9	192.168.107.10	1045	203.170.193.102	80	F2545D407JtQ0BMNod	application/x-dosexec	http://dr.derrainain-lacustaside.in.ua/w.php?f=16&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2012-01-28 09:09:27	https://www.virustotal.com/en/search/?query=38370e48dcac988b9ec51e6d7098d32d44f96745	192.168.107.10	203.170.193.102	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1326540135.467396	CVAsbIxeciiMlCm4i	192.168.107.10	1053	203.170.193.102	80	Fsrd6G4XlcT4azRsle	application/x-dosexec	http://dr.derrainain-lacustaside.in.ua/w.php?f=16&e=0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2012-01-28 09:09:27	https://www.virustotal.com/en/search/?query=38370e48dcac988b9ec51e6d7098d32d44f96745	192.168.107.10	203.170.193.102	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-43-03

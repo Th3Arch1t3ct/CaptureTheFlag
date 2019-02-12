@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-04-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1328900493.756442	CWv1oY1BM1jAOzjLcl	192.168.45.10	1029	4.2.2.3	53	udp	19855	filmscollection.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	146.185.18.50	9.000000	F
+1328900493.971757	CWv1oY1BM1jAOzjLcl	192.168.45.10	1029	4.2.2.3	53	udp	35471	klmtom.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.159.105.120	9.000000	F
+1328900504.663542	CNiYjc4TfMBHo5K9la	192.168.45.10	1029	4.2.2.3	53	udp	23180	crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.51.190	735.000000,1.000000	F
+1328900504.730013	CNiYjc4TfMBHo5K9la	192.168.45.10	1029	4.2.2.3	53	udp	43661	csc3-2004-crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.51.190	844.000000,1.000000	F
+1328900505.488148	CNiYjc4TfMBHo5K9la	192.168.45.10	1029	4.2.2.3	53	udp	29067	highspeedinternetlosangeles.webnode.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.123.210.163	39378.000000	F
+1328900505.496325	CNiYjc4TfMBHo5K9la	192.168.45.10	1029	4.2.2.3	53	udp	8073	nnxq.datastoreplus.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.120.147.117	14400.000000	F
+1328900515.890585	CkzbWx2aqU1azO76U1	192.168.45.10	1029	4.2.2.3	53	udp	1926	-bumn.randomasystems.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.120.147.117	120.000000	F
+1328900537.270159	CGJdIe1mOHPWIxu1cf	192.168.45.10	1029	4.2.2.3	53	udp	40839	istockanalyst.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.70.127.101	120.000000	F
+1328900547.457333	CGJdIe1mOHPWIxu1cf	192.168.45.10	1029	4.2.2.3	53	udp	44933	16a.datastoreplus.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.120.147.117	14400.000000	F
+1328900540.497946	CGJdIe1mOHPWIxu1cf	192.168.45.10	1029	4.2.2.3	53	udp	17540	transersdataforme.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1328900540.497946	CGJdIe1mOHPWIxu1cf	192.168.45.10	1029	4.2.2.3	53	udp	17540	transersdataforme.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1328900540.497946	CGJdIe1mOHPWIxu1cf	192.168.45.10	1029	4.2.2.3	53	udp	17540	transersdataforme.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-11-04-46

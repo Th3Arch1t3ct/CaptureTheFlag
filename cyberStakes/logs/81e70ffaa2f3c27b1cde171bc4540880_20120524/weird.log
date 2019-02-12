@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-11-08-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1337901832.317642	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1337901871.212805	CB5U9f1yj1zmImQzX4	192.168.109.10	1116	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337901871.2184	C2skfD2M6JbnzSPk7l	192.168.109.10	1118	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337901871.234932	C4MpX64irT07sOcphd	192.168.109.10	1120	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337901871.24721	CVuXNOogmY2RCjuq7	192.168.109.10	1122	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337901871.283983	ClOblu21S4VnJi15Nl	192.168.109.10	1124	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337901871.303031	C4Mw8o17HPp4yPYth4	192.168.109.10	1126	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337901871.615261	CbKc9g4Bedxw13DjAc	192.168.109.10	1131	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337901871.640324	Cfgc45c0Vl7MELgQa	192.168.109.10	1134	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337901871.726418	Cw83G33oosePoZfsZi	192.168.109.10	1139	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337901879.969991	C1RLNc2wFqVAswz0c	192.168.109.10	1176	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337901880.017232	C39amq6Kf0lR6Brm9	192.168.109.10	1178	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337901880.532066	Cw6Ax32jqhwrG7MqT	192.168.109.10	1180	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337901888.133445	CWl8FYlTHvtgR8n2e	192.168.109.10	1197	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337901888.13473	CQobeZ3PYYNp8o5xA9	192.168.109.10	1199	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337901888.135678	Ct2WsoRNUl8IiMd5	192.168.109.10	1201	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337901893.829813	CqEFBA1MckycCwaZQ3	192.168.109.10	1208	31.193.12.27	80	bad_HTTP_request	-	F	bro
+#close	2014-04-03-11-08-12

@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-14-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1358199840.547694	C52vM7VNGdNJHmWDb	192.168.28.10	1072	212.227.126.98	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=dsl.1und1.de,O=1 und 1 Internet AG,L=Montabaur,ST=Rhineland-Palatinate,C=DE	CN=Thawte SSL CA,O=Thawte\, Inc.,C=US	1351573200.000000	1384840799.000000	-	-	-	5ec8b60a982cec60b6e4bac509704bf2	ok
+1358199849.154736	CRyZPL1JCaZBAX5Onj	192.168.28.10	1080	95.129.55.136	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=www.homeseller.de,OU=PremiumSSL Legacy,O=homeseller.de,street=Merkurring 33-35,L=DE,ST=DE,postalCode=22143,C=DE	CN=USERTrust Legacy Secure Server CA,O=The USERTRUST Network,L=Salt Lake City,ST=UT,C=US	1334034000.000000	1373432399.000000	-	-	-	fade4f6153d43faae9b45215d3a28b16	ok
+1358199858.236218	CYQrZg2rq5GrXxddbi	192.168.28.10	1127	139.7.146.10	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=shop.vodafone.de,OU=TOPO,O=VodafoneD2 GmbH,L=Duesseldorf,ST=NRW,C=DE	CN=VeriSign Class 3 International Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1295848800.000000	1359611999.000000	-	-	-	e29f3c676b2a32b53ddb15246b870e4b	ok
+1358199849.154959	CgbKnG4HXOKmbk1cca	192.168.28.10	1081	95.129.55.136	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=www.homeseller.de,OU=PremiumSSL Legacy,O=homeseller.de,street=Merkurring 33-35,L=DE,ST=DE,postalCode=22143,C=DE	CN=USERTrust Legacy Secure Server CA,O=The USERTRUST Network,L=Salt Lake City,ST=UT,C=US	1334034000.000000	1373432399.000000	-	-	-	fade4f6153d43faae9b45215d3a28b16	ok
+1358199886.462949	CiZItG4HA5LOG94hSa	192.168.28.10	1135	145.253.32.90	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=dslshop.vodafone.de,OU=TZOP,O=Vodafone D2 GmbH,L=Duesseldorf,ST=NRW,C=DE	CN=VeriSign Class 3 International Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1310533200.000000	1374728399.000000	-	-	-	7d5a37985ab5139134e41c40156a1e35	ok
+1358199887.073023	CbW6LL1rgeIdWUST3k	192.168.28.10	1136	145.253.32.90	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	d40390f4b626c2541d1e683104d68a1d4ecd52cd99dd502b79b084b171b57f59	-	-	-	-	-	-	-	-	-
+1358199887.457723	C3NVbx4KaYgOZiKtca	192.168.28.10	1137	145.253.32.90	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	d40390f4b626c2541d1e683104d68a1d4ecd52cd99dd502b79b084b171b57f59	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-14-49

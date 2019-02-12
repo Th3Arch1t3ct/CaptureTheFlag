@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-11-02-10
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1382395857.349713	FGOZxb2JXrYhuQl6dh	76.73.48.170	192.168.22.10	CYP4uQ1wuV8Lm9CPI4	HTTP	0	SHA1,MD5	text/html	-	0.000050	-	F	32932	-	0	0	F	-	092494775c1fe02f6d087a308290394c	d903717ce251586e00f6b358319a07555338ce2f	-	-
+1382395857.445128	FPQcJo1AapVZKfyJZ4	76.73.48.170	192.168.22.10	CYP4uQ1wuV8Lm9CPI4	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	4128	-	0	0	F	-	edc328d4d6b22ee22c711d9027099bb2	bf46c73a54d98b376cc94e8c29e246173940042a	-	-
+1382395857.646654	Fs85Vr1j06Y5y8YPQb	76.73.48.170	192.168.22.10	CYP4uQ1wuV8Lm9CPI4	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	2686	-	0	0	F	-	acfb87f73fb27cfc00380643b5116988	a3bbb55440affc26ab04abf7d5c55470a3c64b2f	-	-
+1382395860.255992	FXnplY28KeicZCadWa	76.73.48.170	192.168.22.10	CbxBk7CxGf5aflkbj	HTTP	0	SHA1,MD5	application/zip	-	0.000000	-	F	15447	-	0	0	F	-	d6f12b976a69aa5c6e43cd2ee21478d2	aef229a4283ae15fdc19740fca26570c4ae148d0	-	-
+1382395860.453099	FURWuH3BIztGstVji	76.73.48.170	192.168.22.10	CbxBk7CxGf5aflkbj	HTTP	0	SHA1,MD5	application/zip	-	0.000000	-	F	15446	-	0	0	F	-	24e51971a807a90b554d2b5f36f09350	1d545c1dd7fc4254c9c48f12a27e04a28767cfbd	-	-
+1382395860.794836	FlHGzd4flAdAjwFC12	76.73.48.170	192.168.22.10	CbxBk7CxGf5aflkbj	HTTP	0	SHA1,MD5	application/zip	-	0.000194	-	F	15446	-	0	0	F	-	8e710a9ac7be550347cbcd620d67a015	e2f70d3d18c31dc35693cbfbbbbe5ad67a4eca94	-	-
+1382395861.156346	FG2jha4W8MYhITeP7f	76.73.48.170	192.168.22.10	CbxBk7CxGf5aflkbj	HTTP	0	SHA1,MD5	application/x-dosexec	xBMGti7duS.exe	0.108037	-	F	76288	76288	0	0	F	-	b232a9da540a4b7ced1a65fa05053ede	337edb714934d9f3efb9bf1d5932021211f8f4e6	-	-
+#close	2014-04-03-11-02-10

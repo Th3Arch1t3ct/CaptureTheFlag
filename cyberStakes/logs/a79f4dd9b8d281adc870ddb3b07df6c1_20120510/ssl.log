@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-21-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1336621696.787215	Cbq10r4ITETCPfmdT3	192.168.28.10	1049	74.112.184.66	443	SSLv3	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=*.box.net,O=Box.net\, Inc.,L=Palo Alto,ST=California,C=US,serialNumber=0MGVbeRgiby0TjHW-MooTK8dV15gkuNW	CN=GeoTrust SSL CA,O=GeoTrust\, Inc.,C=US	1318375437.000000	1381658547.000000	-	-	-	4e465ca0603c15b3de0555555555555c	ok
+1336621698.640045	C2BDkY3H3CCdGX1Rb9	192.168.28.10	1055	74.112.184.66	443	SSLv3	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	bd2466f14238a33cedab2edd2db936e23815e1cee4dadf6bea5510bc87164956	CN=*.box.net,O=Box.net\, Inc.,L=Palo Alto,ST=California,C=US,serialNumber=0MGVbeRgiby0TjHW-MooTK8dV15gkuNW	CN=GeoTrust SSL CA,O=GeoTrust\, Inc.,C=US	1318375437.000000	1381658547.000000	-	-	-	4e465ca0603c15b3de0555555555555c	ok
+#close	2014-04-03-10-21-54

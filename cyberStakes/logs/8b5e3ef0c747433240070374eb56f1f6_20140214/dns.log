@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-30-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1392403612.67828	CDHIGz1qPjEeGigUg5	192.168.4.10	1035	4.2.2.3	53	udp	32933	musicfm43.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.196.49.182	30.000000	F
+1392403613.008011	CDHIGz1qPjEeGigUg5	192.168.4.10	1035	4.2.2.3	53	udp	2980	33428e.fbafbae.c7fc0b.859794.905eecb.wgqcxsnadh.tellshospital.pw	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.55.157.200	30.000000	F
+#close	2014-04-03-10-30-13

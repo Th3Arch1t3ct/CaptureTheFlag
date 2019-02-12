@@ -1,0 +1,28 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-24-47
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1341675042.897027	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1341675090.554547	CKYcDJAUhax0RrUMb	192.168.90.10	1137	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341675090.554801	CX0rEa2lr26HbTAqOi	192.168.90.10	1137	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341675090.573861	C0WiWe24q1djCFESdc	192.168.90.10	1139	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341675090.574097	CSwz752nEd50MAKiVh	192.168.90.10	1139	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341675090.761561	CVGhqi2lFCv0IdgnTi	192.168.90.10	1141	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341675090.761766	CIQ5HECMbXeSD5uM8	192.168.90.10	1141	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341675090.771943	CUEnbE3g1noYvWtX89	192.168.90.10	1143	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341675090.772109	C6cYzJ2F0LWfQm7yt4	192.168.90.10	1143	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341675090.786776	CJxn5y1bzRqmIiyM6l	192.168.90.10	1145	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341675090.786951	CGA5obk7S1WrP5Doe	192.168.90.10	1145	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341675091.070769	CU2L4s3FP5Pnnessz2	192.168.90.10	1149	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341675091.070936	CFEKN84GrFVsfUfJP6	192.168.90.10	1149	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341675091.096398	CQFkfn4vCXOkKMAsUg	192.168.90.10	1152	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341675091.096578	CR8a851WFSUkd6IIfd	192.168.90.10	1152	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341675091.102945	CERSt114wbkYIVGzVc	192.168.90.10	1154	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341675091.103084	CdF5zV1v7s9FUTlBQ3	192.168.90.10	1154	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341675094.779015	CUJsy53jkugwRwGGq	192.168.90.10	1163	31.193.12.27	80	bad_HTTP_request	-	F	bro
+1341675097.579652	C2STTp4ocWAApmpAW7	192.168.90.10	1164	65.55.57.27	80	window_recision	-	F	bro
+#close	2014-04-03-10-24-49

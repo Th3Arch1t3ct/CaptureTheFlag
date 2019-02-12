@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-11-07-02
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1370440166.833059	FDMwBM2WvhSaVIgAle	108.9.140.206	192.168.128.10	C5xD0D3ig8nwoTBORd	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	812	812	0	0	F	-	3f145af9d1d95e39ee15d4184d4791f3	e205d88535308c92c40959599663689b153b593c	-	-
+1370440166.888749	FgE0Xi3sLNQZz6jzBh	108.9.140.206	192.168.128.10	C5xD0D3ig8nwoTBORd	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	1174	1174	0	0	F	-	bafc2ae72e694f28a61345d1448fbaed	1be7de4dc09f73ec7a035b270606e9bba0b30469	-	-
+1370440167.001314	FHXJUd3C4FmeF2R3Sb	108.9.140.206	192.168.128.10	C5xD0D3ig8nwoTBORd	HTTP	0	SHA1,MD5	application/x-dosexec	-	4.324866	-	F	2723264	2723264	0	0	F	-	5c82be7ad1775b67916ee19c15b99331	7dfa98be78249921dd0eedb9a3dd809e7d215c8d	-	-
+1370440171.673548	FJyCxCKcze2pCphFj	69.31.11.51	192.168.128.10	C0DJY64vObguLZ2Xyi	HTTP	0	SHA1,MD5	binary	-	0.000000	-	F	558	558	0	0	F	-	3cc0012f96f8f44164c18d7de05023d9	c8feb560d751fe720c8bdb53f5e78aa92abb9a9e	-	-
+1370440171.83597	FVszHd3n2eJogAJPqd	108.9.140.206	192.168.128.10	C5xD0D3ig8nwoTBORd	HTTP	0	SHA1,MD5	application/vnd.ms-cab-compressed	-	4.337203	-	F	2656981	2656981	0	0	F	-	f08c47603e5b6f9cf69b565f48cd8f89	b1961d05a7bc20c5477f0d751ae87a0e5c0b0626	-	-
+1370440176.458227	FNIbp33ms9C9YG5jJl	108.162.232.7	192.168.128.10	CLR0yx1dGxu1xDVW7	HTTP	0	SHA1,MD5	binary	-	0.000000	-	F	469	469	0	0	F	-	0231b18f450b2fc7f5d80e7b893e3ae7	161cb2baaafc6b8825894be7df5f89dea9b92d80	-	-
+1370440176.522334	F4vOd32JG4CKprPfGc	108.162.232.8	192.168.128.10	C4DCVN2C12hhDpn0Xb	HTTP	0	SHA1,MD5	binary	-	0.000014	-	F	2875	2875	0	0	F	-	aec9d0717f11b056ff22d4d314cd1526	db8c6c1123af78a71ac90e9b70187d226121f735	-	-
+#close	2014-04-03-11-07-03

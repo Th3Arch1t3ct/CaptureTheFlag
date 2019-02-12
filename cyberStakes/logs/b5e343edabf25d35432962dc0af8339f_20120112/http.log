@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-03-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1326381509.230423	CG42RQ33fIICXAYj66	192.168.123.10	1030	94.23.202.140	80	1	GET	mysticalgov.info	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2756	200	OK	-	-	-	(empty)	-	-	-	-	-	F8kO9F3pakRgNwn5Xb	text/html
+1326381509.479378	CIAqWQ5fjZcESi7o8	192.168.123.10	1031	94.23.202.140	80	1	GET	mysticalgov.info	/include/PluginDetect.js	http://mysticalgov.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	21475	200	OK	-	-	-	(empty)	-	-	-	-	-	FylFnE3xhLCpcgokLa	text/plain
+1326381509.7249	Ca2j69FUT3Basiiza	192.168.123.10	1032	94.23.202.140	80	1	GET	mysticalgov.info	/add_visitor.php?referrer=	http://mysticalgov.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1326381509.787878	CLUFbljEOjcO9n138	192.168.123.10	1033	94.23.202.140	80	1	GET	mysticalgov.info	/load_module.php?e=Java-2010-0842	http://mysticalgov.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	251	200	OK	-	-	-	(empty)	-	-	-	-	-	Fac6TC2DpvIHx1LI91	text/plain
+1326381512.058155	CnWKdn4ZL2RShv48Ud	192.168.123.10	1038	94.23.202.140	80	1	GET	mysticalgov.info	//modules/helpers/Java-2010-0842.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	2327	200	OK	-	-	-	(empty)	-	-	-	-	-	F9kEln30Sxl3IpXAOc	application/zip
+1326381512.592339	CfH1oF3PJmJ7cZIi5g	192.168.123.10	1039	94.23.202.140	80	1	GET	mysticalgov.info	//modules/helpers/Java-2010-0842Helper.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	501	200	OK	-	-	-	(empty)	-	-	-	-	-	FIY5Tj32jl6wlONdr1	binary
+1326381515.14864	CGtjtR3TIctCEi11zd	192.168.123.10	1040	94.23.202.140	80	1	GET	mysticalgov.info	/load_module.php?e=Adobe-90-2010-0188	http://mysticalgov.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2675	200	OK	-	-	-	(empty)	-	-	-	-	-	F3zF0W2UWEfKlRFuS1	application/pdf
+1326381520.18007	Cq1DS93hzNOjcum96	192.168.123.10	1042	94.23.202.140	80	1	GET	mysticalgov.info	/load_module.php?e=JavaSignedApplet	http://mysticalgov.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1326381517.856028	CMrKnt4XM8SZcvSmk8	192.168.123.10	1041	94.23.202.140	80	1	GET	mysticalgov.info	//download_file.php?e=Adobe-90-2010-0188	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	138752	200	OK	-	-	-	(empty)	-	-	-	-	-	FgLmWx1DlRAY8YLmkg	application/x-dosexec
+#close	2014-04-03-10-03-14

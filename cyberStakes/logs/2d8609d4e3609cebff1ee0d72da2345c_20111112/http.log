@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-01-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1321064237.385317	CIATupfkOQBqc0rSc	192.168.112.10	1030	68.178.254.126	80	1	GET	wellnesshotelek.info	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1375	200	OK	-	-	-	(empty)	-	-	-	-	-	FoCinQdphNnhsiGO8	text/html
+1321064237.678327	CgnnlC1q5V2IDnH7Gf	192.168.112.10	1031	91.223.89.92	80	1	GET	icnsckdq.zyns.com	/i.php?go=1	http://wellnesshotelek.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1321064238.214764	CERZVf2YwAkBqu1Sll	192.168.112.10	1032	91.194.214.82	80	1	GET	aewkztrivl.serveftp.com	/main.php?page=7dc34c4bf2100d19	http://wellnesshotelek.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	96004	200	OK	-	-	-	(empty)	-	-	-	-	-	F95TLB3UN419FcKVR9	text/html
+1321064252.366655	CmwRzc2YachDmE74Cl	192.168.112.10	1037	91.194.214.82	80	1	GET	aewkztrivl.serveftp.com	/content/field.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5596	200	OK	-	-	-	(empty)	-	-	-	-	-	FebelK293sGCXLXTv8	application/zip
+1321064252.492086	CERZVf2YwAkBqu1Sll	192.168.112.10	1032	91.194.214.82	80	2	GET	aewkztrivl.serveftp.com	/w.php?f=16&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	849408	200	OK	-	-	-	(empty)	-	-	-	-	-	FXBzJb2Wd8UkEgkTg2	application/x-dosexec
+1321064258.646182	CERZVf2YwAkBqu1Sll	192.168.112.10	1032	91.194.214.82	80	3	GET	aewkztrivl.serveftp.com	/content/2ddfp.php?f=16	http://aewkztrivl.serveftp.com/main.php?page=7dc34c4bf2100d19	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	45096	200	OK	-	-	-	(empty)	-	-	-	-	-	FhJwH63YTsQVhP3HTa	application/pdf
+1321064265.180667	CBLGhb3YYcRFyo2GK5	192.168.112.10	1050	64.202.163.8	80	1	GET	getmilfs.com	/logo/go.php?id=117	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2	200	OK	-	-	-	(empty)	-	-	-	-	-	F3jzWf2nYE1GWPLYIf	text/plain
+1321064265.402707	CtURnXncuddz2TqY3	192.168.112.10	1049	91.194.214.163	80	1	GET	1539495587	/Gmail.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4276	200	OK	-	-	-	(empty)	-	-	-	-	-	Fjr1in10PsczGH8bu2	application/x-java-applet
+1321064265.42876	ClBFUe2iOhi2dSENrl	192.168.112.10	1048	91.194.214.163	80	1	GET	1539495587	/Gmail.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4276	200	OK	-	-	-	(empty)	-	-	-	-	-	FN3iT52KFVsNRudHtl	application/x-java-applet
+1321064265.43234	Czyf5D1KWgAoYM8fMf	192.168.112.10	1047	91.194.214.163	80	1	GET	1539495587	/Gmail.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4276	200	OK	-	-	-	(empty)	-	-	-	-	-	FGDxlxv5Z1caTdbt6	application/x-java-applet
+1321064265.458159	C9Efcq16nk1SYrYKc	192.168.112.10	1046	91.194.214.163	80	1	GET	1539495587	/Gmail.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4276	200	OK	-	-	-	(empty)	-	-	-	-	-	FIqzPN38U7fpn3ewhb	application/x-java-applet
+1321064266.134425	CTTlCw3YfIgbwPfoA5	192.168.112.10	1052	72.167.207.74	80	1	GET	oneathleticmom.com	/images/b.php=117	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	401	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F3Kc6sJ9yxhpCKpld	text/html
+1321064265.553844	CSMUpF1xo2Qa6YflLi	192.168.112.10	1044	91.194.214.163	80	1	GET	1539495587	/Gmail.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4276	200	OK	-	-	-	(empty)	-	-	-	-	-	F4ZuKl0hfjMvjqAe	application/x-java-applet
+1321064266.288307	CTIBVB2C5C6QHyEC71	192.168.112.10	1051	91.194.214.82	80	1	GET	aewkztrivl.serveftp.com	/content/field.swf	http://wellnesshotelek.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1359	200	OK	-	-	-	(empty)	-	-	-	-	-	FI7YXn4l0guo5D3I31	application/x-shockwave-flash
+1321064266.019948	CKTmQnTyggPGD1kVc	192.168.112.10	1045	91.194.214.163	80	1	GET	1539495587	/Gmail.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4276	200	OK	-	-	-	(empty)	-	-	-	-	-	F9EdAN20C9ZjP1k1Xk	application/x-java-applet
+1321064260.420388	CssCJZ5ft2RuDp5Bi	192.168.112.10	1043	91.194.214.82	80	1	GET	aewkztrivl.serveftp.com	/w.php?f=16&e=1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	77452	200	OK	-	-	-	(empty)	-	-	-	-	-	FwBAKCNNLjfOq6Es1	application/x-dosexec
+1321064265.184174	CERZVf2YwAkBqu1Sll	192.168.112.10	1032	91.194.214.82	80	4	GET	aewkztrivl.serveftp.com	/w.php?f=16&e=6	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	114820	200	OK	-	-	-	(empty)	-	-	-	-	-	FTFtEhRePY0SldHii	application/x-dosexec
+1321064274.327045	Cwl8Az2IplxAAeRYh1	192.168.112.10	1053	93.187.142.38	80	1	OPTIONS	93.187.142.38	/	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	166	405	Not Allowed	-	-	-	(empty)	-	-	-	-	-	FGDEdV3VOAes8tVYk4	text/html
+#close	2014-04-03-10-01-35

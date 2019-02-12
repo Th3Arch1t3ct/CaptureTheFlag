@@ -1,0 +1,44 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-09-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1340920885.199189	CpI6UD14jrQPunnJRe	192.168.106.10	1030	69.161.143.166	80	1	GET	cjitfm.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	9666	200	OK	-	-	-	(empty)	-	-	-	-	-	FAyp5c3yDQdZGhEgIe	text/html
+1340920885.41213	Czu5f41O7zKO4ea9Q4	192.168.106.10	1031	98.124.199.1	80	1	GET	ventergy.com	/	http://cjitfm.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	176	302	Object moved	-	-	-	(empty)	-	-	-	-	-	F7JpOg3FHOZdCWORki	text/html
+1340920885.62843	CKAoPc3AdKlpi8VrLj	192.168.106.10	1032	109.235.51.180	80	1	GET	wwww.bodearmy.com	/main.php?page=3081100e9fdaf127	http://cjitfm.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	75395	200	OK	-	-	-	(empty)	-	-	-	-	-	FhYTWx1YBJWGWgJpHh	text/html
+1340920889.215774	CKAoPc3AdKlpi8VrLj	192.168.106.10	1032	109.235.51.180	80	2	GET	wwww.bodearmy.com	/w.php?f=97d19&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	120320	200	OK	-	-	-	(empty)	-	-	-	-	-	FBGvRrozdLxrevNqj	application/x-dosexec
+1340920890.364453	CKAoPc3AdKlpi8VrLj	192.168.106.10	1032	109.235.51.180	80	3	GET	wwww.bodearmy.com	/data/ap2.php	http://wwww.bodearmy.com/main.php?page=3081100e9fdaf127	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	23030	200	OK	-	-	-	(empty)	-	-	-	-	-	FZumGE4ioQ9kZx1oH5	application/pdf
+1340920890.656009	ChlIVa4HrYTOYTQQQk	192.168.106.10	1037	109.235.51.180	80	1	GET	wwww.bodearmy.com	/data/field.swf	http://cjitfm.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1008	200	OK	-	-	-	(empty)	-	-	-	-	-	FWH5473u4tmzzP31c3	application/x-shockwave-flash
+1340920891.383993	CArKnR11B8ICrbWPT8	192.168.106.10	1038	188.190.126.75	80	1	POST	webmail.bode222.com	/vepof83/gw3t3s.php	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	389	16	200	OK	-	-	-	(empty)	-	-	-	Fg0fR43bqHqX9nFBTd	binary	FKWZoxbQ5cvQoVL4d	text/plain
+1340920892.780501	Cf0mRQ9hwGbspD5Q3	192.168.106.10	1040	109.70.1.164	80	1	GET	lfpink.eu	/pd.exe	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	0	192000	200	OK	-	-	-	(empty)	-	-	-	-	-	Faj22x4jyK44kO0o13	application/x-dosexec
+1340920894.630804	Crbyxp1yWkKTxntxm	192.168.106.10	1043	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	29	200	OK	-	-	-	(empty)	-	-	-	-	-	FKaQtOylhcaKXBKNa	text/plain
+1340920894.867808	CXFwcH2I8I9q27Mhuc	192.168.106.10	1044	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340920894.351524	CYbZbr32GqVojV7sN6	192.168.106.10	1041	109.70.1.164	80	1	GET	lfpink.eu	/1689.exe	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	0	64512	200	OK	-	-	-	(empty)	-	-	-	-	-	FhYwlShuZ7AOn9EG6	application/x-dosexec
+1340920895.565399	CKBPjj2rSRAHKR4mEa	192.168.106.10	1046	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=2&d=7&s=121	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340920896.322281	CBaOmYHgSIW6dtqJ4	192.168.106.10	1048	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=3&d=7&s=131	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340920896.325672	Crstrv2EmtkpfBXXUb	192.168.106.10	1052	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=5&d=7&s=20	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340920896.327095	CuSXuA3mzYA9CHcnDg	192.168.106.10	1050	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=4&d=7&s=1	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340920898.71104	CXIMoR2hV6iuHDQfzd	192.168.106.10	1055	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=6&d=7&s=21	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340920898.782128	CMpXjW3l5h9fNgfnii	192.168.106.10	1058	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=7&d=7&s=30	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340920898.815924	CPHMxCmbNcUvIzq43	192.168.106.10	1060	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=8&d=7&s=31	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340920912.615221	ChlIVa4HrYTOYTQQQk	192.168.106.10	1037	109.235.51.180	80	2	GET	wwww.bodearmy.com	/w.php?f=97d19&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	120320	200	OK	-	-	-	(empty)	-	-	-	-	-	FaUoB74VqL1bp7hJl	application/x-dosexec
+1340920915.236597	CQoC921V5ZwLwjxt25	192.168.106.10	1065	188.190.126.75	80	1	POST	webmail.bode222.com	/vepof83/gw3t3s.php	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	389	16	200	OK	-	-	-	(empty)	-	-	-	FwyFNq2vpyQNbkHbkb	binary	FOYYMmdSDffKne4Ic	text/plain
+1340920913.5159	CfpAd72HuVgdgqHVK9	192.168.106.10	1064	109.235.51.180	80	1	GET	wwww.bodearmy.com	/Lor.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	49393	200	OK	-	-	-	(empty)	-	-	-	-	-	F3zvzYQommTRY8ife	application/zip
+1340920915.810592	Cbrdkb32iQYvjTn7I5	192.168.106.10	1066	109.70.1.164	80	1	GET	lfpink.eu	/pd.exe	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	0	192000	200	OK	-	-	-	(empty)	-	-	-	-	-	FFemQ61Ar7194PZSOa	application/x-dosexec
+1340920917.050381	CMLTOD4F6ksaZhf2uf	192.168.106.10	1070	109.235.51.180	80	1	GET	wwww.bodearmy.com	/w.php?f=97d19&e=0	-	Java/1.6.0_10	0	120320	200	OK	-	-	-	(empty)	-	-	-	-	-	FceZzr1OrEFb8JIAug	application/x-dosexec
+1340920918.387301	ChZeQh2gyTvH8T2eTa	192.168.106.10	1075	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	29	200	OK	-	-	-	(empty)	-	-	-	-	-	FEeLj04YrGAVVLqJcf	text/plain
+1340920918.642582	C645ih4tE53KriHZv2	192.168.106.10	1076	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340920918.673729	CfbZJznRtlMAdaLp7	192.168.106.10	1078	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=2&d=7&s=110	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340920918.691112	C0uMQx1XaXbTJwd5Qj	192.168.106.10	1080	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=3&d=7&s=10	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340920918.03955	CiO6z11uL2FVuc9iC4	192.168.106.10	1073	109.70.1.164	80	1	GET	lfpink.eu	/1689.exe	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	0	64512	200	OK	-	-	-	(empty)	-	-	-	-	-	FIRbKs2RA6mfCPz117	application/x-dosexec
+1340920919.460923	CupW9c4VbwRoWphILe	192.168.106.10	1082	188.190.126.75	80	1	POST	webmail.bode222.com	/vepof83/gw3t3s.php	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	389	16	200	OK	-	-	-	(empty)	-	-	-	Fx5PY429AOKTenB0W6	binary	F0OQc44fO3pYw1EZu2	text/plain
+1340920920.050375	CihEw51TxXmrnLL1V4	192.168.106.10	1083	109.70.1.164	80	1	GET	lfpink.eu	/pd.exe	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	0	192000	200	OK	-	-	-	(empty)	-	-	-	-	-	Fz7KKz2I3xFPlRsYj	application/x-dosexec
+1340920921.972703	C5nPHmtDyBXdDB0r	192.168.106.10	1086	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	29	200	OK	-	-	-	(empty)	-	-	-	-	-	FqztWJHzr4j5naaC9	text/plain
+1340920922.200262	Cm8exo1EMZIWfji3Sf	192.168.106.10	1089	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=2&d=7&s=110	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340920922.205685	CRg3eq3UiC2JqBeNVk	192.168.106.10	1091	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=3&d=7&s=10	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340920922.205291	CFpe78XUJGeYYRgH6	192.168.106.10	1087	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340920921.605031	CqapYC1KxzA2lDtIw1	192.168.106.10	1084	109.70.1.164	80	1	GET	lfpink.eu	/1689.exe	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	0	64512	200	OK	-	-	-	(empty)	-	-	-	-	-	FB2lsK16LyuuecL6m6	application/x-dosexec
+#close	2014-04-03-10-09-55

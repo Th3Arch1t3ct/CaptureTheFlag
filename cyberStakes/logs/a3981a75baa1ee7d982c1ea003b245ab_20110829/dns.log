@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-00-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1314576230.570711	CN7BACOaiEASt7gq1	192.168.90.10	1029	4.2.2.3	53	udp	16269	joyacessorios.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	187.73.33.34	3573.000000	F
+1314576231.202741	CN7BACOaiEASt7gq1	192.168.90.10	1029	4.2.2.3	53	udp	1932	eponim.mk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.142.65.166	14400.000000	F
+1314576231.75628	CN7BACOaiEASt7gq1	192.168.90.10	1029	4.2.2.3	53	udp	7055	235hjgh3423.cz.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.228.230.54	21027.000000	F
+1314576232.052628	CN7BACOaiEASt7gq1	192.168.90.10	1029	4.2.2.3	53	udp	29327	1see.ir	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.142.5.205	14400.000000	F
+1314576232.736722	CN7BACOaiEASt7gq1	192.168.90.10	1029	4.2.2.3	53	udp	29582	p.simg.uol.com.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	200.147.67.174,200.221.7.116	3600.000000,3600.000000	F
+1314576233.832532	CN7BACOaiEASt7gq1	192.168.90.10	1029	4.2.2.3	53	udp	59785	xrgcryjutkdygkshh.cx.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.208.34.116	43200.000000	F
+1314576233.843111	CXpZ2lq3tLnQA5Iil	192.168.90.10	1053	4.2.2.3	53	udp	31880	counter.yadro.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	88.212.196.69,88.212.196.77,88.212.196.101,88.212.196.102,88.212.196.103,88.212.196.104,88.212.196.105,88.212.196.66	2.000000,2.000000,2.000000,2.000000,2.000000,2.000000,2.000000,2.000000	F
+#close	2014-04-03-10-00-06

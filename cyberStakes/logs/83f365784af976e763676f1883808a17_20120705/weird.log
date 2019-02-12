@@ -1,0 +1,30 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-11-08-03
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1341531780.698467	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1341531810.129724	C5FIxDsgeCdFS2XT	192.168.93.10	1065	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341531810.129914	Ca3Uxc1lvfGdwoJWxd	192.168.93.10	1065	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341531810.134498	Css5AY13ID0SHcndLf	192.168.93.10	1067	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341531810.134691	CEMiYC4psehgEMrt4f	192.168.93.10	1067	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341531810.196869	CNXUC72HJp8T1gVhub	192.168.93.10	1069	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341531810.197122	Cvqn0N38n2GTtdj0B1	192.168.93.10	1069	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341531810.19924	CmP2K41G1tmbDJNQNj	192.168.93.10	1071	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341531810.199429	CYE10b3PAFw6XNJjS7	192.168.93.10	1071	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341531810.201869	CgKIgu2XYJk0yHQqi5	192.168.93.10	1073	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341531810.202066	CtMSEa2oCts1ay17Ge	192.168.93.10	1073	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341531810.582506	C9ImlH1O3mAkKGHK2b	192.168.93.10	1076	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341531810.5827	CLfA7J3Bckwo8xgYyj	192.168.93.10	1076	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341531810.601207	CSKDma17T639TWTBih	192.168.93.10	1079	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341531810.601376	COMymo2Er3i0sdWw88	192.168.93.10	1079	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341531810.632665	C92RRfnM0jm9EHHZh	192.168.93.10	1082	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341531810.632852	CFizDP2o43igFbWOj9	192.168.93.10	1082	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341531821.209737	CexAnG3nR4dqYZYRp5	192.168.93.10	1092	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1341531821.251319	Ce5xha4f5uOsGHvdE7	192.168.93.10	1094	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1341531821.262536	C3DRwr2tOA87wuFET9	192.168.93.10	1096	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1341531824.346707	CC21dd4QynljEMm015	192.168.93.10	1097	31.193.12.27	80	bad_HTTP_request	-	F	bro
+#close	2014-04-03-11-08-04

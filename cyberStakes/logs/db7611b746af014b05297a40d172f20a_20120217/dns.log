@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-07-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1329461378.803416	CjHrUXgUrsz3eSNkg	192.168.100.10	1029	4.2.2.3	53	udp	38289	e-commerceoffice.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.124.199.1	3576.000000	F
+1329461378.944099	CjHrUXgUrsz3eSNkg	192.168.100.10	1029	4.2.2.3	53	udp	17811	bmegsjheqprhupouh.nl.ai	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	83.69.233.148	3576.000000	F
+1329461394.814262	CM9eWN2if8FIyImh8	192.168.100.10	1029	4.2.2.3	53	udp	25746	tablepack.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	80.78.127.85,70.102.175.218	300.000000,300.000000	F
+1329461395.798611	CyApC14BXMM6Hxo9Z6	192.168.100.10	1029	4.2.2.5	53	udp	25746	tablepack.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	70.102.175.218,80.78.127.85	300.000000,300.000000	F
+1329461424.304571	Cdd9MF2wlDejPgUlJ6	192.168.100.10	1029	4.2.2.3	53	udp	15506	brainrace.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	80.78.127.85,70.102.175.218	300.000000,300.000000	F
+1329461435.284148	CDlrxB3jHXkZR1etG4	192.168.100.10	1029	4.2.2.3	53	udp	1429	amosindustries.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.220.219.52	14400.000000	F
+#close	2014-04-03-10-07-33

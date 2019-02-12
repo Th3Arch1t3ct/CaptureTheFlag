@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-11-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1318590963.000999	CR8WS54B3EhwFxyie	192.168.5.10	1038	89.208.34.116	80	FteT8n4X1rhNDEDb59	application/x-dosexec	http://microgaftnoipfack.ce.ms/w.php?f=23&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 60%  Last seen: 2011-10-18 22:03:12	https://www.virustotal.com/en/search/?query=9fcde531902ddc849c0a565c41e780bfcca00707	192.168.5.10	89.208.34.116	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1318590963.797261	CP9jHlqBJASNKz47	192.168.5.10	1078	89.208.34.116	80	F43ZpRI1pzKKQIr08	application/x-shockwave-flash	http://microgaftnoipfack.ce.ms/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 25%  Last seen: 2011-11-05 13:18:54	https://www.virustotal.com/en/search/?query=5250a8eca99443a3047fe3c68d957b0a70e98025	192.168.5.10	89.208.34.116	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1318590969.656484	CR8WS54B3EhwFxyie	192.168.5.10	1038	89.208.34.116	80	Fbep3Z00os2bo0NMj	application/x-dosexec	http://microgaftnoipfack.ce.ms/w.php?f=23&e=6	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 60%  Last seen: 2011-10-18 22:03:12	https://www.virustotal.com/en/search/?query=9fcde531902ddc849c0a565c41e780bfcca00707	192.168.5.10	89.208.34.116	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-11-01

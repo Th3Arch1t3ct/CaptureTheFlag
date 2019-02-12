@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-01-42
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1375892808.153279	CzCyJIlNaagRbja9e	192.168.111.10	1031	74.125.28.141	80	1	GET	java-update.appspot.com	/	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	5271	200	OK	-	-	-	(empty)	-	-	-	-	-	FeAfPnvOcjdmJijGd	text/html
+1375892808.194925	CzCyJIlNaagRbja9e	192.168.111.10	1031	74.125.28.141	80	2	GET	java-update.appspot.com	/images/screen.css	http://java-update.appspot.com/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	4098	200	OK	-	-	-	(empty)	-	-	-	-	-	FdnSBb4MJHDVovxjO	text/x-c
+1375892808.244705	C3ydQL1g5k19KkJync	192.168.111.10	1032	74.125.28.141	80	1	GET	java-update.appspot.com	/images/screen.css	http://java-update.appspot.com/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	4098	200	OK	-	-	-	(empty)	-	-	-	-	-	FOd2ed1wkikPTJszai	text/x-c
+1375892808.351849	CQBjGx15bcsI8vcLye	192.168.111.10	1033	74.125.224.231	80	1	GET	www.google-analytics.com	/analytics.js	http://java-update.appspot.com/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	20379	200	OK	-	-	-	(empty)	-	-	-	-	-	FeSYjH3N84AicyGtT2	text/plain
+1375892808.337846	C3ydQL1g5k19KkJync	192.168.111.10	1032	74.125.28.141	80	2	GET	java-update.appspot.com	/images/jv0h.jpg	http://java-update.appspot.com/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	11990	200	OK	-	-	-	(empty)	-	-	-	-	-	F1EAUh4c6oaoeXPm33	image/jpeg
+1375892808.371619	CDcTO02W2JWtFqmMvd	192.168.111.10	1034	74.125.28.141	80	1	GET	java-update.appspot.com	/images/jv0dl_a.png	http://java-update.appspot.com/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	2898	200	OK	-	-	-	(empty)	-	-	-	-	-	F8c28g12VkVMwYDpRl	image/png
+1375892808.371966	C3ydQL1g5k19KkJync	192.168.111.10	1032	74.125.28.141	80	3	GET	java-update.appspot.com	/images/jv0_sidebar_bg.gif	http://java-update.appspot.com/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	3666	200	OK	-	-	-	(empty)	-	-	-	-	-	FpMY6J1qtnmMmXHIk4	image/gif
+1375892808.373692	CeoM8D16oZgVhaIgy3	192.168.111.10	1035	74.125.28.141	80	1	GET	java-update.appspot.com	/images/jv0_oracle.gif	http://java-update.appspot.com/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	4621	200	OK	-	-	-	(empty)	-	-	-	-	-	FaT7Hy2tcFYcmdgiF9	image/gif
+1375892808.519712	CDcTO02W2JWtFqmMvd	192.168.111.10	1034	74.125.28.141	80	2	GET	java-update.appspot.com	/favicon.ico	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	288	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F8Hf8D2pY6VNaoO472	text/html
+1375892808.589172	CfRSbl4FJYCEWauAx2	192.168.111.10	1036	74.125.28.141	80	1	GET	quercus-redirect.appspot.com	/?id=eT2QmzjMIWuXeW4ueRjMIWuXeTbQmG-0N-0N&&dv5=java-noalert	http://java-update.appspot.com/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	220	200	OK	-	-	-	(empty)	-	-	-	-	-	FLgqbd35rwxetGMXxi	text/html
+1375892809.212432	CfbdE645BSjY1X6pr1	192.168.111.10	1041	107.23.222.212	80	1	GET	flv.hs1dmr.com	/aff_c?offer_id=44&aff_id=1002&url_id=76&aff_sub=1853642277	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	289	302	Found	-	-	-	(empty)	-	-	-	-	-	FCzj6s1MNkFgJBIo	text/html
+1375892809.561504	CYeAxT3FcRCu8nqvt7	192.168.111.10	1042	95.211.134.97	80	1	GET	dl.down324.com	/n/8326f16e-dd66-11e2-a752-00259033c1da/Setup.exe?tid=102a28f52da9db383d22162779b853	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1375892809.901708	C4KLlH28GNjuJvHOz8	192.168.111.10	1043	95.211.134.97	80	1	GET	dl.down324.com	/n/3.0.17.6/9107993/Setup.exe?tid=102a28f52da9db383d22162779b853	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	14192	200	OK	-	-	-	(empty)	-	-	-	-	-	F7fgQK11jkZr0VNyE3	application/x-dosexec
+#close	2014-04-03-11-01-42

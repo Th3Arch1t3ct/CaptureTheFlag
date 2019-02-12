@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-59-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1321784453.857457	CwNzatDbwO5dgxfv2	192.168.97.10	1029	4.2.2.3	53	udp	52111	caleta.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.22.115.56	3582.000000	F
+1321784453.935077	CwNzatDbwO5dgxfv2	192.168.97.10	1029	4.2.2.3	53	udp	8589	re7mhz41oybx3pqnaujlkt-sf92w806v5gdic.n-4-8v5-e6w-o3.is-very-evil.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	n-4-8v5-e6w-o3.is-very-evil.org,184.22.115.56	60.000000,60.000000	F
+1321784455.25352	CwNzatDbwO5dgxfv2	192.168.97.10	1029	4.2.2.3	53	udp	8074	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	2346.000000,300.000000	F
+1321784456.527763	CwNzatDbwO5dgxfv2	192.168.97.10	1029	4.2.2.3	53	udp	6794	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	1421.000000,478.000000	F
+1321784462.32375	CwNzatDbwO5dgxfv2	192.168.97.10	1029	4.2.2.3	53	udp	27531	api.wipmania.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.15.234.7	1816.000000	F
+1321784462.384812	CJdwRf4ZUouF1bKyvc	192.168.97.10	1041	4.2.2.3	53	udp	40399	ramen4all.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	68.178.232.100	3600.000000	F
+#close	2014-04-03-10-59-11

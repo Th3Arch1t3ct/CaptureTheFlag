@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-05-19
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1361501895.121426	CDwT0E1uV2lDF8MIql	192.168.13.10	1029	4.2.2.3	53	udp	38288	hundephysio-norderstedt.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.4.75.107	10778.000000	F
+1361501895.364682	CDwT0E1uV2lDF8MIql	192.168.13.10	1029	4.2.2.3	53	udp	19600	ajax.aspnetcdn.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	mscomajax.vo.msecnd.net,65.54.93.145,65.54.93.4	847.000000,219.000000,219.000000	F
+1361501895.658878	CDwT0E1uV2lDF8MIql	192.168.13.10	1029	4.2.2.3	53	udp	52626	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.139.95	2798.000000,104.000000	F
+1361501896.065185	CDwT0E1uV2lDF8MIql	192.168.13.10	1029	4.2.2.3	53	udp	60309	product-best.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.197.177.20	86400.000000	F
+1361501932.454326	C3RXki53M4xHrXR8f	192.168.13.10	1029	4.2.2.3	53	udp	40084	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,64.4.52.169	456.000000,96.000000	F
+1361501932.58997	C3RXki53M4xHrXR8f	192.168.13.10	1029	4.2.2.3	53	udp	13207	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	1074.000000,396.000000	F
+1361501948.238372	CX21ib1WXh69jTkzij	192.168.13.10	1029	4.2.2.3	53	udp	63897	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.d.akamai.net,a1293.d.akamai.net.0.1.cn.akamaitech.net,63.236.253.74,63.236.253.27	27800.000000,69.000000,3879.000000,3.000000,3.000000,3.000000	F
+#close	2014-04-03-10-05-19

@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-52-41
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1347863707.618386	Ct7zMy4LwYyittq5E5	192.168.50.10	1063	50.97.48.154	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=www.advpoints.com,OU=Domain Control Validated - RapidSSL(R),OU=See www.rapidssl.com/resources/cps (c)12,OU=GT49380531,serialNumber=W09A1nBFha2e-InkpY59lyr-fQGE8F4z	CN=RapidSSL CA,O=GeoTrust\, Inc.,C=US	1345657441.000000	1380165494.000000	-	-	-	cfcab33ff354a2222222222222224308	ok
+1347863707.783151	CVPljI1Qg5KRhoYaCg	192.168.50.10	1068	50.97.48.154	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	9408ce012050f1c8b5c45484bb7a0fbb40721fa3378d0e4eadc29ab4b17c4132	-	-	-	-	-	-	-	-	-
+1347863707.876461	CHdm0a1wa1h5CaCJe7	192.168.50.10	1069	50.97.48.154	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	9408ce012050f1c8b5c45484bb7a0fbb40721fa3378d0e4eadc29ab4b17c4132	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-52-41

@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-57-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1337417280.15138	CB7DspwiouHFkpAR2	192.168.114.10	1038	146.185.218.147	80	Fp57ss1lDkv52w3Gh1	application/x-dosexec	http://midmayfunbackup.org/l/r.php?f=c5826&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 48%  Last seen: 2012-07-07 19:33:50	https://www.virustotal.com/en/search/?query=99abcff43879b43b2946b7934b974922e6922573	192.168.114.10	146.185.218.147	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1337417284.259302	CB7DspwiouHFkpAR2	192.168.114.10	1038	146.185.218.147	80	FKonGUqsKhhvMcQa9	application/x-dosexec	http://midmayfunbackup.org/l/r.php?f=d4fc7&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 45%  Last seen: 2012-06-08 13:01:40	https://www.virustotal.com/en/search/?query=32dc611740c4274254b4982290199957408c762c	192.168.114.10	146.185.218.147	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1337417290.072544	CG6BGedk2SIT4msz1	192.168.114.10	1070	146.185.218.147	80	FdO14t3EKXy4zHp9kc	application/x-shockwave-flash	http://midmayfunbackup.org/l/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 75%  Last seen: 2012-09-14 14:05:04	https://www.virustotal.com/en/search/?query=27474f210893b69a5204dcafb6d9fc12b743dc1f	192.168.114.10	146.185.218.147	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1337417295.250472	CG6BGedk2SIT4msz1	192.168.114.10	1070	146.185.218.147	80	F5Etv9vlS6h0mCTia	application/x-shockwave-flash	http://midmayfunbackup.org/l/data/score.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 50%  Last seen: 2012-09-14 14:05:04	https://www.virustotal.com/en/search/?query=6c81c4f1d16468b4169256972e30622e6956f7cc	192.168.114.10	146.185.218.147	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-57-49

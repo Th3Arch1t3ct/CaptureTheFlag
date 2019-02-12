@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-57-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1337384060.504471	CwvYyP3uFrvujMgyx7	192.168.109.10	1038	74.53.93.162	80	FIKtXw1NI7bn9FiYki	application/x-dosexec	http://artnovation.it/site/wp-content/uploads/2012/05/7/load.php?spl=mdac&b=ie&o=xp&i=mdac	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 42%  Last seen: 2012-06-12 01:18:53	https://www.virustotal.com/en/search/?query=9fb481591bbf24f26eb00cac75a68686967fcb0c	192.168.109.10	74.53.93.162	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-58-00

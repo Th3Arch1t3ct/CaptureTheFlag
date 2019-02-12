@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-58-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1323196484.345613	CwuVLv36V39W2zMj1c	192.168.61.10	1036	109.236.82.79	80	FA25uA1bpyR6CLdr22	application/jar	http://softportal8.in/?74b0998069fa9345946a1ed0fdb64ce3	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2011-12-17 16:31:05	https://www.virustotal.com/en/search/?query=6316cf6dcdef2df9b26c1881777e16172f984ef8	192.168.61.10	109.236.82.79	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1323196484.345613	CakCsz49r0yyZtp1Bg	192.168.61.10	1037	109.236.82.79	80	FQm9CI2JNC45vEIuc	application/jar	http://softportal8.in/?74b0998069fa9345946a1ed0fdb64ce3	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2011-12-17 16:31:05	https://www.virustotal.com/en/search/?query=6316cf6dcdef2df9b26c1881777e16172f984ef8	192.168.61.10	109.236.82.79	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1323196485.95634	C8HKrj3mn0DFaxzQBb	192.168.61.10	1038	109.236.82.79	80	FVwl6oDapJEuX8O43	application/jar	http://softportal8.in/?74b0998069fa9345946a1ed0fdb64ce3	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2011-12-17 16:31:05	https://www.virustotal.com/en/search/?query=6316cf6dcdef2df9b26c1881777e16172f984ef8	192.168.61.10	109.236.82.79	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-58-11

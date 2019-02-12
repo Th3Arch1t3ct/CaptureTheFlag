@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-50-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1338504589.286369	C1LtfLJ0bL2EuzArg	192.168.111.10	1030	4.2.2.3	53	udp	32141	anthonymink.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.225.234.97	14374.000000	F
+1338504595.153403	C1LtfLJ0bL2EuzArg	192.168.111.10	1030	4.2.2.3	53	udp	43917	www.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.171.234.37	93.000000	F
+1338504595.160027	CVZ0ei4ocWZ0UJKNN8	192.168.111.10	1054	4.2.2.3	53	udp	37772	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,173.194.37.33,173.194.37.34,173.194.37.35,173.194.37.36,173.194.37.37,173.194.37.38,173.194.37.39,173.194.37.40,173.194.37.41,173.194.37.46,173.194.37.32	17762.000000,148.000000,148.000000,148.000000,148.000000,148.000000,148.000000,148.000000,148.000000,148.000000,148.000000,148.000000	F
+1338504595.525108	C1LtfLJ0bL2EuzArg	192.168.111.10	1030	4.2.2.3	53	udp	31375	olbasket.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.236.80.88	38400.000000	F
+1338504596.014597	C1LtfLJ0bL2EuzArg	192.168.111.10	1030	4.2.2.3	53	udp	8846	dictatingrepurposed.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.59.188.165	38400.000000	F
+1338504624.655687	CRFCGm1oe6RrMwlJVi	192.168.111.10	1030	4.2.2.3	53	udp	42638	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,24.27.250.40,24.27.250.74	6263.000000,5.000000,6122.000000,7.000000,7.000000	F
+#close	2014-04-03-09-50-37

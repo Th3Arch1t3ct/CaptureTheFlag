@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-36-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1330032255.113812	C4qZh4xpR53gfGSSl	192.168.69.10	1029	4.2.2.3	53	udp	19343	emc-hamburg.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.165.108.156	10779.000000	F
+1330032255.381183	C4qZh4xpR53gfGSSl	192.168.69.10	1029	4.2.2.3	53	udp	20876	gadgotec.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.236.87.130	14400.000000	F
+1330032255.553531	C4qZh4xpR53gfGSSl	192.168.69.10	1029	4.2.2.3	53	udp	5258	abcyt.iamallama.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.213.8.224	60.000000	F
+1330032267.919774	C4orz42gYbqL4JuB1c	192.168.69.10	1045	4.2.2.3	53	udp	62603	www.emc-hamburg.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.165.108.156	10800.000000	F
+1330032267.911995	CUcrzG1YfWhv6vMtCi	192.168.69.10	1029	4.2.2.3	53	udp	44683	www.cayo.at	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.165.105.217	10800.000000	F
+#close	2014-04-03-10-36-33

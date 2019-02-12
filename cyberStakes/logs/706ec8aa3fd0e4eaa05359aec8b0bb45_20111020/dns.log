@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-13-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1319136767.285473	CtB9cW2SKzKHbO3Ene	192.168.57.10	1029	4.2.2.3	53	udp	15245	mobilemoneymachines.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.192.107.98	14375.000000	F
+1319136768.687245	CBIjZRDXtiKlvV6h2	192.168.57.10	1032	4.2.2.3	53	udp	63628	pop.sge.me	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.201.35	43200.000000	F
+1319136769.14057	CBIjZRDXtiKlvV6h2	192.168.57.10	1032	4.2.2.3	53	udp	24719	s23.int.tc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.228.132.56	3600.000000	F
+1319136769.594097	C5EgoG2nciGFX9LEPc	192.168.57.10	1029	4.2.2.5	53	udp	20620	millionaireat21.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.22.65.220	14400.000000	F
+1319136768.535887	CtB9cW2SKzKHbO3Ene	192.168.57.10	1029	4.2.2.3	53	udp	20620	millionaireat21.net	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-13-36

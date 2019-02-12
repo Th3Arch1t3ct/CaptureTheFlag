@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-42-03
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1328351535.379171	C5eANk3TqqKW2XMjz3	192.168.82.10	1028	4.2.2.3	53	udp	4231	activematerials.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.163.161.165	14380.000000	F
+1328351535.767143	C5eANk3TqqKW2XMjz3	192.168.82.10	1028	4.2.2.3	53	udp	23175	www.activematerials.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.163.161.165	14400.000000	F
+1328351536.106443	C5eANk3TqqKW2XMjz3	192.168.82.10	1028	4.2.2.3	53	udp	51845	globalpoweringgathering.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.28.114.102	43200.000000	F
+1328351536.926737	C5eANk3TqqKW2XMjz3	192.168.82.10	1028	4.2.2.3	53	udp	64132	ident15under.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.28.114.102	21600.000000	F
+1328351537.278926	C5eANk3TqqKW2XMjz3	192.168.82.10	1028	4.2.2.3	53	udp	14468	www3.thebest-rwucleaner.kwik.to	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.238.105	21600.000000	F
+1328351537.526962	C5eANk3TqqKW2XMjz3	192.168.82.10	1028	4.2.2.3	53	udp	32131	www2.savevfchecker.kwik.to	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.111	21600.000000	F
+1328351571.252843	CGiCWHdDpLEs6lRSf	192.168.82.10	1028	4.2.2.3	53	udp	33153	www1.saveonantivir.kwik.to	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.142.217	21600.000000	F
+#close	2014-04-03-10-42-03

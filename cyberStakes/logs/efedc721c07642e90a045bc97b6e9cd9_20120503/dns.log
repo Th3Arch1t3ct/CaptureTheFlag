@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-49-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1336044109.142978	Ce3jK32L7rsh8ShOYh	192.168.58.10	1029	4.2.2.3	53	udp	16011	k2womensmovement.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.31.143.101	14373.000000	F
+1336044109.820823	Ce3jK32L7rsh8ShOYh	192.168.58.10	1029	4.2.2.3	53	udp	650	rec-creations.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.223.51.238	3600.000000	F
+1336044110.598745	Ce3jK32L7rsh8ShOYh	192.168.58.10	1029	4.2.2.3	53	udp	6026	www.sessioweb.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.75.213.211	28800.000000	F
+1336044111.086644	Ce3jK32L7rsh8ShOYh	192.168.58.10	1029	4.2.2.3	53	udp	10890	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,96.17.162.49,96.17.162.81	24891.000000,300.000000,18130.000000,20.000000,20.000000	F
+1336044128.874404	Ce3jK32L7rsh8ShOYh	192.168.58.10	1029	4.2.2.3	53	udp	62345	211.213.75.94.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	hosted-by.leaseweb.com	32332.000000	F
+1336044128.889248	Ce3jK32L7rsh8ShOYh	192.168.58.10	1029	4.2.2.3	53	udp	26767	hosted-by.leaseweb.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	127.0.0.1	300.000000	F
+#close	2014-04-03-09-49-35

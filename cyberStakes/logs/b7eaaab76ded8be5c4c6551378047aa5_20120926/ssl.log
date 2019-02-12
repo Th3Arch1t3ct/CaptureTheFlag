@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-46-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1348654590.263806	CK21eRuCCF7MoIIk5	192.168.73.10	1063	74.125.139.113	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1347555314.000000	1370652207.000000	-	-	-	4c16bcd9881726279850666665f704c6	ok
+1348654590.372583	CvASNI3ABb0FiQozQ	192.168.73.10	1064	205.251.72.170	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.ib-ibi.com,OU=IT,O=i-behavior Inc.,L=Louisville,ST=Colorado,C=US	CN=Thawte SSL CA,O=Thawte\, Inc.,C=US	1345438800.000000	1382245199.000000	-	-	-	2e70fc68a76303cc53991e9f88be694c	ok
+1348654590.791355	CnK3p64Sopyt8L9NY2	192.168.73.10	1068	205.251.72.172	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=ib.mookie1.com,OU=IT,O=I-Behavior\, Inc,L=Louisville,ST=Colorado,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1334034000.000000	1373648400.000000	-	-	-	3567a18a090d67b8f2cb9ac062b99fdc	ok
+#close	2014-04-03-10-46-19

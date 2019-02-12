@@ -1,0 +1,30 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-33-51
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1330193848.192948	Cx7GcH7THFw21H2fg	192.168.85.10	1030	146.185.18.51	80	1	GET	tubeyard.net	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1330193848.450211	CM3Z2XiSa0z6uBsI	192.168.85.10	1031	109.206.179.141	80	1	GET	oblue.info	/?f69827db7eb438b6dc549b715e143534	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	319	200	OK	-	-	-	(empty)	-	-	-	-	-	FsGnK93P4c6RYznZic	text/html
+1330193850.235445	CjzxJqfDNnKCEq13d	192.168.85.10	1037	109.206.179.141	80	1	GET	oblue.info	/?5d5f9a00619943cfcbb281f569201a9a	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4200	200	OK	-	-	-	(empty)	-	-	-	-	-	FT8B4n4zQodDI0z3W3	application/jar
+1330193850.241084	CW37WY2wtMyYGJcUCd	192.168.85.10	1036	109.206.179.141	80	1	GET	oblue.info	/?83ee5ceb524096c03fb110ce5b42be55	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5055	200	OK	-	-	-	(empty)	-	-	-	-	-	F5qcRwMlWuhthwKXd	application/jar
+1330193850.398449	CvwfYyGYxJ8xad7Y2	192.168.85.10	1038	109.206.179.141	80	1	GET	oblue.info	/?83ee5ceb524096c03fb110ce5b42be55	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5055	200	OK	-	-	-	(empty)	-	-	-	-	-	F5BvVn4Av49yHFwPwc	application/jar
+1330193850.401953	CGMET83lwefj2WPU5	192.168.85.10	1039	109.206.179.141	80	1	GET	oblue.info	/?5d5f9a00619943cfcbb281f569201a9a	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4200	200	OK	-	-	-	(empty)	-	-	-	-	-	FAGxT02rNBf2RWbPP4	application/jar
+1330193850.599464	CFOcCu2Go9boUBFBuf	192.168.85.10	1040	109.206.179.141	80	1	GET	oblue.info	/?5d5f9a00619943cfcbb281f569201a9a	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4200	200	OK	-	-	-	(empty)	-	-	-	-	-	FmRQ9X1ZE3YjUpca61	application/jar
+1330193850.698783	CyLIz71BCUoT9Wv9ie	192.168.85.10	1041	109.206.179.141	80	1	GET	oblue.info	/?83ee5ceb524096c03fb110ce5b42be55	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5055	200	OK	-	-	-	(empty)	-	-	-	-	-	FIh1fg4qNYZ8VU8sw3	application/jar
+1330193850.81272	C5YlHRqcOCDuoutD1	192.168.85.10	1042	109.206.179.141	80	1	GET	oblue.info	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FHhZYQjNxORrItmYb	text/html
+1330193850.945653	CXumOo3MXozS2YbXub	192.168.85.10	1044	109.206.179.141	80	1	GET	oblue.info	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FsZza14A11Utru9L3b	text/html
+1330193851.085732	CCo2uekKwXcHItnXe	192.168.85.10	1045	109.206.179.141	80	1	GET	oblue.info	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FxmJ083k7hcCik2cnj	text/html
+1330193851.22071	COZ0kIdNm67amdrl2	192.168.85.10	1046	109.206.179.141	80	1	GET	oblue.info	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F8ZOu84X5is1n6PyS2	text/html
+1330193850.91988	Cile0P2dQFduXmKHa4	192.168.85.10	1043	109.206.179.141	80	1	GET	oblue.info	/?8a51d31aab6b22d9dd2aa5e383219b81	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	370176	200	OK	-	-	-	(empty)	-	-	-	-	-	FfI8Bi2iquHVCKCiuj	application/x-dosexec
+1330193851.401395	CB2YcG20sCTAqX1BS4	192.168.85.10	1047	109.206.179.141	80	1	GET	oblue.info	/?aca0fb893276a16db51b15b8ff7fa572	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	370176	200	OK	-	-	-	(empty)	-	-	-	-	-	FIB11F3MFdlTA1Zg9k	application/x-dosexec
+1330193851.676221	Cqs90g3fGaPwjSzfac	192.168.85.10	1048	109.206.179.141	80	1	GET	oblue.info	/?451b088c1fbeeeca58b5e3f95828d1d8	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	846336	200	OK	-	-	-	(empty)	-	-	-	-	-	FjKXY53tEdgZmex9E2	application/x-dosexec
+1330193855.178629	CcFgCpt1fa0VazYF3	192.168.85.10	1050	109.206.179.141	80	1	GET	oblue.info	/?866f0b6d37f6d16eba8c263e9ef8c59c	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	198696	200	OK	-	-	-	(empty)	-	-	-	-	-	FASami25pQKcbSl9Hl	application/x-dosexec
+1330193855.152722	CFTD75si3OFVhajId	192.168.85.10	1049	109.206.179.141	80	1	GET	oblue.info	/?41606fb3ff3c8b61cb0d9b00fa149e3f	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	846336	200	OK	-	-	-	(empty)	-	-	-	-	-	FeEaS83YgLJpV8ppTa	application/x-dosexec
+1330193856.48253	Cm1mPl2nUIpAEbHN9g	192.168.85.10	1052	190.9.35.199	80	1	GET	190.9.35.199	/view.php?rnd=787721	-	-	0	32	200	OK	-	-	-	(empty)	-	-	-	-	-	FmS386jvW0KsFlO81	text/html
+1330193856.942304	CXnwcYQ0ORWEBqQzf	192.168.85.10	1053	109.206.179.141	80	1	GET	oblue.info	/?be4219fa6d2818394d42dde6491a1d9e	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	198696	200	OK	-	-	-	(empty)	-	-	-	-	-	Fspsha3ZH37xhgYFHl	application/x-dosexec
+1330193857.589201	C3Wgq61VvX2OoWLv	192.168.85.10	1054	190.9.35.199	80	1	GET	190.9.35.199	/view.php?rnd=787721	-	-	0	32	200	OK	-	-	-	(empty)	-	-	-	-	-	F2sSwg4TfiAoekvKac	text/html
+1330193917.221237	CAwz5AQS4Z6w28Ipb	192.168.85.10	1056	66.148.89.11	80	1	GET	updateonlinedatabase.com	/404.php?id=95	-	Mozilla	0	2	200	OK	-	-	-	(empty)	-	-	-	-	-	FUBTL04Fr0Csn0Zgjb	text/plain
+#close	2014-04-03-10-33-52

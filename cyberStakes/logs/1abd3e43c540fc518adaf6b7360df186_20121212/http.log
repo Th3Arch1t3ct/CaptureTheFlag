@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-00-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1355352259.315833	Ctil5txibcVYp4Qll	192.168.57.10	1030	93.170.52.31	80	1	GET	9bay1.tk	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	842	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	Fb3Iov3BCcmD0JHXie	text/plain
+1355352260.218283	C5Z3cK2yuaZvc0Zeeg	192.168.57.10	1031	195.3.143.42	80	1	GET	justfun.makewap.kz	/?ywsjs	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	161	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	FJ8VPv2V5EKSE0J7rb	text/html
+1355352260.655466	CexEAO3bXaWJ5QNHJg	192.168.57.10	1032	195.3.143.42	80	1	GET	justfun.makewap.ru	/index.html?rdr=makewap.kz&ywsjs	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	161	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	F1B8Id1CcqGCIuUq76	text/html
+1355352260.793148	C5Z3cK2yuaZvc0Zeeg	192.168.57.10	1031	195.3.143.42	80	2	GET	justfun.makewap.kz	/index.html?sid=720396452f&ywsjs	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1194	200	OK	-	-	-	(empty)	-	-	-	-	-	FamZkkTmprsotCwg2	text/html
+1355352261.691924	C2N1Ph4MlCpOdoS0Yi	192.168.57.10	1034	178.218.209.2	80	1	GET	c.waplog.net	/438257.cnt	http://justfun.makewap.kz/index.html?sid=720396452f&ywsjs	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	207	200	OK	-	-	-	(empty)	-	-	-	-	-	FtIVV61QmlAiBWmzol	image/gif
+1355352261.829109	CG1FVy2znqYUFd360e	192.168.57.10	1040	92.243.66.77	80	1	GET	wapstatistic.net	/img.php?id=2468	http://justfun.makewap.kz/index.html?sid=720396452f&ywsjs	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	74	200	OK	-	-	-	(empty)	-	-	-	-	-	F63Pyf9U3wBTErrhc	image/gif
+1355352261.692688	CQMQMf3l83PW8Abbad	192.168.57.10	1035	185.4.227.74	80	1	GET	185.4.227.74	/YouNaked.JPG.exe	http://justfun.makewap.kz/index.html?sid=720396452f&ywsjs	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	9947	200	OK	-	-	-	(empty)	-	-	-	-	-	FW01Bw1yNuWdnI723c	application/x-dosexec
+1355352262.724403	CFSybd1dW0aXk79Ea9	192.168.57.10	1041	195.3.143.42	80	1	GET	makewap.kz	/img/home.gif	http://justfun.makewap.kz/index.html?sid=720396452f&ywsjs	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	120	200	OK	-	-	-	(empty)	-	-	-	-	-	FWKTf44sT8CJQOTsR9	image/gif
+#close	2014-04-03-11-00-30

@@ -1,0 +1,31 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-06-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1349311996.785114	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1349312000.80245	CUQ35p1ACnnY8XacG	192.168.108.10	1036	82.165.86.192	80	unescaped_special_URI_char	-	F	bro
+1349312001.152283	CZC0iyEoX3ZpftO4	192.168.108.10	1035	82.165.86.192	80	unescaped_special_URI_char	-	F	bro
+1349312035.315612	Cyke8a2Ejuo2Xwwjh5	192.168.108.10	1055	91.242.217.247	53	DNS_Conn_count_too_large	-	F	bro
+1349312035.315858	CXKFRl1p6NcaOZZsK9	192.168.108.10	1055	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1349312035.361378	C0xIS5V1mVQmHTxJ6	192.168.108.10	1057	91.242.217.247	53	DNS_Conn_count_too_large	-	F	bro
+1349312035.36158	CBXyM41XAL1aydRI8i	192.168.108.10	1057	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1349312036.053866	CxmNE43PPZyW250Yjk	192.168.108.10	1059	91.242.217.247	53	DNS_Conn_count_too_large	-	F	bro
+1349312036.054059	CcANFM2UxliogxT9Ld	192.168.108.10	1059	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1349312036.200765	CTTBJT344UicLXObId	192.168.108.10	1061	91.242.217.247	53	DNS_Conn_count_too_large	-	F	bro
+1349312036.200974	C0EBVi42v8J6QfKuXf	192.168.108.10	1061	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1349312036.303848	CxTU3L38JpVOVeiRvb	192.168.108.10	1063	91.242.217.247	53	DNS_Conn_count_too_large	-	F	bro
+1349312036.304057	C2oeBr4tw5ApOcS4qh	192.168.108.10	1063	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1349312036.305724	CNXX2u3lJd59p4jC2l	192.168.108.10	1065	91.242.217.247	53	DNS_Conn_count_too_large	-	F	bro
+1349312036.305863	CSIyhn2hZI4L9lfxW8	192.168.108.10	1065	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1349312036.938592	CE0Upwhwehgpnktx7	192.168.108.10	1068	91.242.217.247	53	DNS_Conn_count_too_large	-	F	bro
+1349312036.938786	C1KrfEAREg1jrjpk2	192.168.108.10	1068	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1349312036.95263	CQcyB22Iyv18Gt7ga3	192.168.108.10	1071	91.242.217.247	53	DNS_Conn_count_too_large	-	F	bro
+1349312036.952781	CZ8qot10dM1hVIBgL6	192.168.108.10	1071	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1349312036.994038	CfRCi41wocxIauVJI9	192.168.108.10	1074	91.242.217.247	53	DNS_Conn_count_too_large	-	F	bro
+1349312036.994213	CwmIm6Pm7esUV3Si5	192.168.108.10	1074	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1349312037.612473	C9VC4T3KZtwdXtffgk	192.168.108.10	1077	216.211.119.8	16464	above_hole_data_without_any_acks	-	F	bro
+#close	2014-04-03-10-06-59

@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-09-55-37
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1358895017.531897	FMXkDC42I5FwvQYdEj	93.170.52.21	192.168.108.10	CeEe9K16ql1wYAoSBh	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	1174	-	0	0	F	-	46911f03640e6fafcfddb226752abcbd	7497e8634c4db08a2e20a543e0b91789e517e7ad	-	-
+1358895017.759839	FaYAYt2RZZbrQXU2e2	173.194.75.100	192.168.108.10	CdaWmU3UwcRf2W5Jf4	HTTP	0	MD5,SHA1	text/plain	-	0.026677	-	F	37362	-	0	0	F	-	f5592eabae33f8499d067344f1f42183	142a9875c4bd7e15ce6ac8b5bb181fb29ed08ba5	-	-
+1358895017.833916	FhxiOv2mOo3oBCD8Q1	208.131.138.217	192.168.108.10	CmV6xLfL5VPLrZyzg	HTTP	0	MD5,SHA1	text/html	-	0.000010	-	F	3239	3239	0	0	F	-	9d7bfaa15fde84c92293297f6887feeb	be62ec9f5915900c5c21abb4b518a9eb01a0cd4c	-	-
+1358895017.969533	F9zcDVpqCzOy7d8x1	173.194.75.100	192.168.108.10	CdaWmU3UwcRf2W5Jf4	HTTP	0	MD5,SHA1	image/gif	-	0.000000	-	F	35	35	0	0	F	-	28d6814f309ea289f847c69cf91194c6	0f4e929dd5bb2564f7ab9c76338e04e292a42ace	-	-
+1358895018.070175	FTAWqA4vUkH5g2Sxck	208.131.138.217	192.168.108.10	CHwENY3lZ8Bliov2i5	HTTP	0	MD5,SHA1	application/x-dosexec	IamNakedJPG.exe	0.034337	-	F	13140	167424	0	0	F	-	dd05d8a3b1ae211b28e078e07bcfafe5	a091d890a3c7aae2c9279dc0fc49b8eb9fa57c50	-	-
+#close	2014-04-03-09-55-37

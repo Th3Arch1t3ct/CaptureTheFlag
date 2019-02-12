@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-09-19
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1312648681.486712	C5qf68UWtXBb3DZ3g	192.168.119.10	1029	173.242.113.143	80	1	GET	uesfaloja.edu.ec	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3412	200	OK	-	-	-	(empty)	-	-	-	-	-	Fig8XL1ooGk8sxxvpb	text/html
+1312648682.204125	CpcW9o2lcOoUIc59nb	192.168.119.10	1035	91.214.209.19	80	1	GET	toolbarqueries-google.info	/in.cgi	http://uesfaloja.edu.ec/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	200	302	Found	-	-	-	(empty)	-	-	-	-	-	FF0EWs4HfAWNGazswc	text/html
+1312648682.45092	Cu1C674DPM1JfTUoHi	192.168.119.10	1036	69.175.39.138	80	1	GET	niksteam.com	/lab/el/index.php	http://uesfaloja.edu.ec/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13827	200	OK	-	-	-	(empty)	-	-	-	-	-	F2R9J92USXnvuBdUY2	text/html
+1312648682.592827	CKNQHs39aEvnlFDXl6	192.168.119.10	1037	69.175.39.138	80	1	GET	niksteam.com	/lab/el/q.php	http://niksteam.com/lab/el/index.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	777	200	OK	-	-	-	(empty)	-	-	-	-	-	FgOuUnOqk5pdyeUSl	text/plain
+1312648682.753028	Cu1C674DPM1JfTUoHi	192.168.119.10	1036	69.175.39.138	80	2	GET	niksteam.com	/lab/el/viewforum.php/f5887396d82c79e7f1a2f8917838fc1e?spl=mdac	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	172032	200	OK	-	-	-	(empty)	-	-	-	-	-	FNR0R12pfxViDJ19N7	application/x-dosexec
+1312648686.738882	Cb4GaR3PnDujNzc22	192.168.119.10	1038	194.226.177.186	80	1	GET	tolbarqueries-google.net	/.../cfg1.bin	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	428030	200	OK	-	-	-	(empty)	-	-	-	-	-	FMcuGRN0B82jTtXY9	binary
+1312648716.35601	CG89ko1IkFbOWFPHCk	192.168.119.10	1040	74.125.67.105	80	1	GET	www.google.com	/webhp	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	18784	200	OK	-	-	-	(empty)	-	-	-	-	-	Fmg1te3XPnFetIt4N	text/html
+1312648716.506505	CUbOBG39IlibaoZMNh	192.168.119.10	1042	173.201.28.32	80	1	POST	kunluv.com	/.../system-updates/gate.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	399	64	200	OK	-	-	-	(empty)	-	-	-	FP1JlE1PoGqJnw8r42	binary	Fn0nlV1OIbkAPDHkPh	binary
+1312648716.506129	CSAh6J2owNY6qbwPTe	192.168.119.10	1041	173.201.28.32	80	1	POST	kunluv.com	/.../system-updates/gate.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	294	64	200	OK	-	-	-	(empty)	-	-	-	FoOoHU3WQyl3LSXhX8	binary	FVtE9k1FInubqOQ4sf	binary
+#close	2014-04-03-11-09-20

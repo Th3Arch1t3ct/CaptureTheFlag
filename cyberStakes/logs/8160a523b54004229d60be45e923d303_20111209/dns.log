@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-38-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1323389699.634857	CjcGWN27Rkr37Jhv26	192.168.110.10	1029	4.2.2.3	53	udp	20367	stlaurentpro.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.147.244.211	14375.000000	F
+1323389700.299094	CjcGWN27Rkr37Jhv26	192.168.110.10	1029	4.2.2.3	53	udp	42124	www.stlaurentpro.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	stlaurentpro.com,66.147.244.211	14376.000000,14374.000000	F
+1323389705.906829	CjcGWN27Rkr37Jhv26	192.168.110.10	1029	4.2.2.3	53	udp	56461	subd49.crossfit-recovery.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.211.160.232	3600.000000	F
+1323389706.163382	CjcGWN27Rkr37Jhv26	192.168.110.10	1029	4.2.2.3	53	udp	10381	vimeo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.113.233.128	5.000000	F
+1323389706.428072	CgnUUp1JKJieVDk7wj	192.168.110.10	1039	4.2.2.3	53	udp	34440	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,64.72.65.216,64.72.65.214	4163.000000,300.000000,19639.000000,20.000000,20.000000	F
+1323389706.417713	CjcGWN27Rkr37Jhv26	192.168.110.10	1029	4.2.2.3	53	udp	16522	a.vimeocdn.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	a.vimeocdn.com.edgesuite.net,a1982.g.akamai.net,64.72.65.216,64.72.65.214	1556.000000,9542.000000,20.000000,20.000000	F
+1323389707.194002	CgnUUp1JKJieVDk7wj	192.168.110.10	1039	4.2.2.3	53	udp	48264	b.vimeocdn.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	b.vimeocdn.com.edgesuite.net,a1638.g.akamai.net,64.72.65.216,64.72.65.214	1769.000000,20811.000000,20.000000,20.000000	F
+1323389707.20242	CjcGWN27Rkr37Jhv26	192.168.110.10	1029	4.2.2.3	53	udp	61576	av.vimeo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	av.vimeo.com.edgesuite.net,a808.g.akamai.net,64.72.65.215,64.72.65.216	11374.000000,12682.000000,20.000000,20.000000	F
+1323389707.209855	C20ZQaksYp3DcfKoe	192.168.110.10	1043	4.2.2.3	53	udp	17032	player.vimeo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.113.233.133	30.000000	F
+1323389712.906612	CgnUUp1JKJieVDk7wj	192.168.110.10	1039	4.2.2.3	53	udp	32649	b.scorecardresearch.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	b.scorecardresearch.com.edgesuite.net,a1294.w20.akamai.net,64.212.44.200,64.212.44.185	15394.000000,994.000000,5.000000,5.000000	F
+1323389738.269053	CgOBooiZIATkfmFlh	192.168.110.10	1039	4.2.2.3	53	udp	50823	swupmf.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	swupmf.wip4.adobe.com,swupmf.adobe.com.edgesuite.net,a1137.g.akamai.net,64.72.65.216,64.72.65.214	7920.000000,151.000000,20838.000000,20.000000,20.000000	F
+1323389738.372719	CgOBooiZIATkfmFlh	192.168.110.10	1039	4.2.2.3	53	udp	34949	crl.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.wip4.adobe.com,crl.adobe.com.edgesuite.net,a1180.g.akamai.net,64.72.65.216,64.72.65.215	6966.000000,300.000000,19041.000000,20.000000,20.000000	F
+#close	2014-04-03-10-38-54

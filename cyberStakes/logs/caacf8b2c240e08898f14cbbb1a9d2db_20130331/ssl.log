@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-53-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1364768677.824001	CFPoeB1JjUKRcDuRzl	192.168.15.10	1042	199.16.156.104	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=api.twitter.com,OU=Twitter Security,O=Twitter\, Inc.,L=San Francisco,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G2,OU=Terms of use at https://www.verisign.com/rpa (c)09,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1335934800.000000	1367643599.000000	-	-	-	65ab65a149bc3fc0206666666668bb74	ok
+1364768678.406711	CGumzB2FcRuj8dd05g	192.168.15.10	1050	93.184.216.139	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=si0.twimg.com,OU=Network Engineering,O=Twitter Inc.,L=San Francisco,ST=California,C=US,serialNumber=Q2Q6BmtG0uLidCylZJsS3uaXNgPzlavY	CN=GeoTrust SSL CA,O=GeoTrust\, Inc.,C=US	1358144513.000000	1414453041.000000	-	-	-	de5277dfb943a1daaaaaaaaa50a611c3	ok
+1364768679.920388	Cei7emcrWHDnFFlj3	192.168.15.10	1071	107.21.246.219	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.truste.com,O=True Ultimate Standards Everywhere\, Inc.,L=San Francisco,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1327298400.000000	1422079199.000000	-	-	-	75c6308ffb77ea6550ef41d826eeeeee	ok
+#close	2014-04-03-10-53-46

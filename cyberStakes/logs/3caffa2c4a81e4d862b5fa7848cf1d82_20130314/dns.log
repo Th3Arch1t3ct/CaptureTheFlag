@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-04-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1363240849.483638	Cnc06G2sS5dYPIcSqi	192.168.40.10	1029	4.2.2.3	53	udp	56717	greeart.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.177.25.130	1800.000000	F
+1363240852.841508	CQTG4h1Uin4XWgt97	192.168.40.10	1036	4.2.2.3	53	udp	12943	counter.yadro.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	88.212.196.124,88.212.196.66,88.212.196.69,88.212.196.72,88.212.196.75,88.212.196.77,88.212.196.101,88.212.196.102,88.212.196.103,88.212.196.104,88.212.196.105,88.212.196.122,88.212.196.123	143.000000,143.000000,143.000000,143.000000,143.000000,143.000000,143.000000,143.000000,143.000000,143.000000,143.000000,143.000000,143.000000	F
+1363240852.839661	Cnc06G2sS5dYPIcSqi	192.168.40.10	1029	4.2.2.3	53	udp	34957	www.euroclimat.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.177.25.130	86400.000000	F
+#close	2014-04-03-11-04-45

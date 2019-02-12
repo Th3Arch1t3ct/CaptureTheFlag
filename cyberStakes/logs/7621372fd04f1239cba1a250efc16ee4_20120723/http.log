@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-17-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1343047058.484199	CRipfN3FDbIdWb9k6	192.168.65.10	1030	213.173.177.14	80	1	GET	mowgliz.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	10040	200	OK	-	-	-	(empty)	-	-	-	-	-	FGNRdy1sijVpXRnrpl	text/html
+1343047059.072648	CNlQuw3YnuYMyF99uc	192.168.65.10	1031	95.211.26.73	80	1	GET	pinkium.ru	/in.cgi?16	http://mowgliz.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	188	302	Found	-	-	-	(empty)	-	-	-	-	-	Fo5zhc3Ra5qJsNf8ik	text/html
+1343047059.07927	CuUC2t1aAIQ4vva3sf	192.168.65.10	1032	95.211.26.73	80	1	GET	pinkium.ru	/in.cgi?16	http://mowgliz.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	174	302	Found	-	-	-	(empty)	-	-	-	-	-	FnQdG545juzfGLHzJa	text/html
+1343047059.098805	CY3kC94CMwWMTZgZKf	192.168.65.10	1034	213.173.177.14	80	1	GET	mowgliz.com	/fileadmin/mowgliz/css.css	http://mowgliz.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4179	200	OK	-	-	-	(empty)	-	-	-	-	-	FimaQV1g3Vczf89p76	text/x-c
+1343047059.09606	CVvHg625tYri5WeJ33	192.168.65.10	1033	213.173.177.14	80	1	GET	mowgliz.com	/typo3temp/stylesheet_e99aac0be0.css	http://mowgliz.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5203	200	OK	-	-	-	(empty)	-	-	-	-	-	FPNk633Zmgwemazvi	text/plain
+1343047059.500954	CiTPxA3CG8ucMKuKNc	192.168.65.10	1037	213.173.177.14	80	1	GET	mowgliz.com	/typo3conf/ext/perfectlightbox/res/css/slightbox.css	http://mowgliz.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4006	200	OK	-	-	-	(empty)	-	-	-	-	-	FQZKI5kOoDdT71GJb	text/plain
+1343047059.640499	CH2zsF17mfAOBzqeR	192.168.65.10	1039	95.215.60.136	80	1	GET	objecttroop.ru	/soft2	http://mowgliz.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6658	200	OK	-	-	-	(empty)	-	-	-	-	-	F7CSi91LHF6kyK7e7d	text/html
+1343047059.512271	CRicNx1odmg96OQIfd	192.168.65.10	1038	213.173.177.14	80	1	GET	mowgliz.com	/typo3conf/ext/perfectlightbox/res/js/prototype-packed.js	http://mowgliz.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	27197	200	OK	-	-	-	(empty)	-	-	-	-	-	FL9wX33suPvJr8snGj	text/plain
+1343047060.552227	C641MI3Xu3JEUuD0u3	192.168.65.10	1040	95.215.60.136	80	1	GET	objecttroop.ru	/LXnb/jist1mg2D956Ihx?pz=8xz9MK4Kz9OK8Kz8K5	http://objecttroop.ru/soft2	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5956	200	OK	-	-	-	(empty)	-	-	-	-	-	FYPgpN32Hm4QNyCK8i	text/plain
+1343047060.617927	CfIHuh4Qvh3jlitFRf	192.168.65.10	1041	213.173.177.14	80	1	GET	mowgliz.com	/typo3conf/ext/perfectlightbox/res/js/scriptaculousEffects-packed.js?load=effects	http://mowgliz.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	15627	200	OK	-	-	-	(empty)	-	-	-	-	-	FoCnOe3kVfTLYp4Dvh	text/plain
+1343047061.070552	C2uf0e29rwhA2crXF2	192.168.65.10	1042	95.215.60.136	80	1	GET	objecttroop.ru	/P1Xnb/jist1mg2D956Ihx	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	413696	200	OK	-	-	-	(empty)	-	-	-	-	-	FO7r9B3ApV2Y2GOdy5	application/x-dosexec
+1343047062.898077	C2BKMq1UTpcSdKcFVe	192.168.65.10	1047	112.121.178.189	80	1	GET	112.121.178.189	/api/urls/?ts=a69e9e8d&affid=61711	-	(empty)	0	67	200	OK	-	-	-	(empty)	-	-	-	-	-	FftHt13TucsScDWvU8	text/plain
+1343047063.746092	CFommZ1jw5VQGQ2yi5	192.168.65.10	1048	216.38.62.18	80	1	GET	exposednamaylong.cu.cc	/f/notepad.exe?ts=a69e9e8d&affid=6171	-	(empty)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1343047063.829732	CsMdeD4LA5gSZgpjn4	192.168.65.10	1049	216.38.62.18	80	1	GET	cu.cc	/free.php?domain=exposednamaylong.cu.cc	-	(empty)	0	272	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FgAAeri0Heje9Vlg6	text/html
+1343047063.914078	CMNHIs4AREU16RkNXd	192.168.65.10	1050	216.38.62.18	80	1	GET	www.registry.cu.cc	/free.php?domain=exposednamaylong.cu.cc	-	(empty)	0	3	302	Found	-	-	-	(empty)	-	-	-	-	-	FTiTd22bhQuZpY23t	text/plain
+1343047064.025102	C7ALqP1ispGJ2mxp0b	192.168.65.10	1051	199.59.241.203	80	1	GET	15647.bodisparking.com	/exposednamaylong.cu.cc	-	(empty)	0	1233	200	OK	-	-	-	(empty)	-	-	-	-	-	Frlzo339DDkON9b557	text/html
+#close	2014-04-03-10-17-37

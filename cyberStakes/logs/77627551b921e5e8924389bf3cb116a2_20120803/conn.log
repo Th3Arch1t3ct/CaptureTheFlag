@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-18-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1344006479.133202	CR6th335NcuXsyU303	192.168.21.10	1030	23.23.210.22	80	tcp	http	0.168680	287	233	SF	-	0	ShADadfF	5	495	5	441	(empty)
+1344006480.515231	COXG2O2P3btsjsjjt5	192.168.21.10	1034	216.36.248.143	80	tcp	http	0.210645	1295	807	SF	-	0	ShADdfFa	5	1503	4	975	(empty)
+1344006480.759318	CSPaRL1iqvxpZ1Pl0k	192.168.21.10	1035	64.111.214.157	80	tcp	http	0.173440	369	3385	SF	-	0	ShADadfF	6	617	6	3633	(empty)
+1344006480.986163	CixUbl3v1uoJVU4kb1	192.168.21.10	1036	74.125.129.101	80	tcp	-	0.045140	0	0	SF	-	0	ShAFf	4	168	2	88	(empty)
+1344006481.174776	CvDo8K1cYCjZDxbisi	192.168.21.10	1039	72.21.194.23	80	tcp	-	0.079011	0	0	RSTO	-	0	ShR	2	88	1	48	(empty)
+1344006481.175286	Chyl9w25NgAab5dmj4	192.168.21.10	1040	72.21.194.23	80	tcp	-	0.079167	0	0	RSTO	-	0	ShR	2	88	1	48	(empty)
+1344006481.018292	CbUcTp2jQXoc4zgo1	192.168.21.10	1038	76.9.4.18	80	tcp	http	0.244876	428	365	SF	-	0	ShADadfF	5	636	5	573	(empty)
+1344006481.017763	CPmvVv1iK2FM5iRjQi	192.168.21.10	1037	76.9.4.18	80	tcp	http	0.256373	431	365	SF	-	0	ShADadfF	5	639	5	573	(empty)
+1344006481.180962	CO6l4022DjwNmsRiCj	192.168.21.10	1041	72.21.194.23	80	tcp	http	0.259351	518	11680	RSTO	-	0	ShADdR	10	926	9	12048	(empty)
+1344006479.129598	Cbpte32u4jInXPJDrl	192.168.21.10	1029	4.2.2.3	53	udp	dns	2.044283	339	710	SF	-	0	Dd	9	591	9	962	(empty)
+1344006480.179401	CSlcMs18mOIjV9r51h	192.168.21.10	1033	216.36.248.227	80	tcp	http	6.243231	375	1428	RSTO	-	0	ShADadfR	6	623	4	1596	(empty)
+1344006463.312441	CWo5td107H1TUpHguh	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000924	626	0	S0	-	0	D	2	682	0	0	(empty)
+1344006463.312946	CqI9XI21adkoQnIw44	192.168.21.10	68	192.168.21.1	67	udp	dhcp	12.712591	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1344006479.305629	C3sRxi2KJLsbHybrYk	192.168.21.10	1031	208.73.210.128	80	tcp	http	62.257662	901	4468	RSTO	-	0	ShADdaR	8	1229	7	4752	(empty)
+1344006479.400595	Cvmhn831RYwCvrI5q1	192.168.21.10	1032	204.13.162.127	80	tcp	http	62.162372	1393	2121	RSTO	-	0	ShADadR	7	1681	5	2325	(empty)
+1344006481.706967	Ckhksr3nDM3lUUIpya	192.168.21.10	1044	239.255.255.250	1900	udp	-	6.028251	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-10-18-54

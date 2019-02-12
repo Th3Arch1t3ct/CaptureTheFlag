@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-11-02-57
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1366952422.16954	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1366952423.621809	CsOnMI8Qn6Uei3WK7	192.168.63.10	1047	98.139.225.43	80	unescaped_special_URI_char	-	F	bro
+1366952424.063781	CO4EXd1jz2sQ9KADt5	192.168.63.10	1055	98.139.225.43	80	unescaped_special_URI_char	-	F	bro
+1366952424.409965	CbRAd84NB4vnZvR3rd	192.168.63.10	1059	37.59.15.44	80	unescaped_special_URI_char	-	F	bro
+1366952424.634179	CEBt0V2t2DXdHlct3i	192.168.63.10	1062	37.59.15.44	80	unescaped_special_URI_char	-	F	bro
+1366952426.10975	CdYQ7s4Nlo9DFJFqcc	192.168.63.10	1039	23.67.61.169	80	SYN_after_reset	-	F	bro
+1366952426.188511	CdYQ7s4Nlo9DFJFqcc	192.168.63.10	1039	23.67.61.169	80	data_after_reset	-	F	bro
+1366952439.529082	C6SCoEpa37VFSbMNl	192.168.63.10	1119	23.21.161.223	80	unescaped_special_URI_char	-	F	bro
+1366952439.530174	CwNsVc4mSYycZlc8ve	192.168.63.10	1118	23.21.161.223	80	unescaped_special_URI_char	-	F	bro
+1366952461.709183	CrX03i10SPqqWcGYZ	192.168.63.10	1122	98.139.225.43	80	unescaped_special_URI_char	-	F	bro
+1366952462.725489	C4Ika0215fpICVwYM2	192.168.63.10	1128	98.139.225.43	80	unescaped_special_URI_char	-	F	bro
+1366952465.301149	CRmMim2aA6JajaQvX5	192.168.63.10	1123	98.139.225.43	80	unescaped_special_URI_char	-	F	bro
+1366952465.312051	ClZhZL3DDoVosl7lgb	192.168.63.10	1124	98.139.225.43	80	unescaped_special_URI_char	-	F	bro
+#close	2014-04-03-11-03-00

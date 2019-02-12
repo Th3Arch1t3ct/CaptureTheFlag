@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-44-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1340777135.196502	CeLkqH3V69S7FcEtWi	192.168.61.10	1029	4.2.2.3	53	udp	54414	asianabiztro.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.168.16.1	3572.000000	F
+1340777136.329357	CeLkqH3V69S7FcEtWi	192.168.61.10	1029	4.2.2.3	53	udp	57484	onmouseup.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.165.113.142	10800.000000	F
+1340777136.607635	CeLkqH3V69S7FcEtWi	192.168.61.10	1029	4.2.2.3	53	udp	4236	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,204.2.133.59,204.2.133.17	16152.000000,89.000000,3436.000000,14.000000,14.000000	F
+1340777198.224601	CaZltTzN8jdibBKE	192.168.61.10	1041	8.8.8.8	53	udp	13107	promos.fling.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.91.207.10	266.000000	F
+1340777198.481931	CD3Lwv2mwBcUWATEAd	192.168.61.10	1044	66.85.130.234	53	udp	52343	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340777198.486051	CHhBcZ2J2WJFkSqYAf	192.168.61.10	1046	66.85.130.234	53	udp	52343	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340777198.498026	CNbeY3HcxyP6fl1S1	192.168.61.10	1048	66.85.130.234	53	udp	52343	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340777198.499664	CrOUpDJA47WL3bRs4	192.168.61.10	1050	66.85.130.234	53	udp	52343	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340777198.501669	CnD6yo2Twt3qmKXPJc	192.168.61.10	1052	66.85.130.234	53	udp	52343	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340777198.6155	Ce4FpL1G4p6VljyYca	192.168.61.10	1055	66.85.130.234	53	udp	52343	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340777198.632645	CO9phw3mxlW1LJt0qi	192.168.61.10	1058	66.85.130.234	53	udp	52343	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340777198.650217	Cmx1z84iihgHv6zbel	192.168.61.10	1061	66.85.130.234	53	udp	52343	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+#close	2014-04-03-10-45-00

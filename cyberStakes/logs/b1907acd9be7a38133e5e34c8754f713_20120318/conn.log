@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-57-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1332037125.3547	CUnQAJ2OXGgBbrVvG2	192.168.50.10	1030	95.168.177.93	80	tcp	http	0.207757	287	260	SF	-	0	ShADadfF	5	495	5	468	(empty)
+1332037125.352667	CFZDkn3kW9oVpSYOJ9	192.168.50.10	1029	4.2.2.3	53	udp	dns	0.212150	66	98	SF	-	0	Dd	2	122	2	154	(empty)
+1332037137.719194	CLYi6L33SqDYZZE2i5	192.168.50.10	1029	4.2.2.3	53	udp	dns	6.591188	73	240	SF	-	0	Dd	2	129	2	296	(empty)
+1332037137.751252	CH6K1Z3SADkqv1Qvq1	192.168.50.10	1037	23.3.9.75	80	tcp	http	4.976612	299	1812	RSTO	-	0	ShADadR	5	507	4	1980	(empty)
+1332037125.565594	CoVLwB4tYzjA0JbEj4	192.168.50.10	1031	178.162.149.198	80	tcp	http	17.753600	887	235568	RSTO	-	0	ShADadR	122	6539	168	242296	(empty)
+1332037141.02192	C8VuGt4mkc0tqxLlj3	192.168.50.10	1038	178.162.149.198	80	tcp	http	2.336082	277	19102	RSTO	-	0	ShADadR	12	765	16	19750	(empty)
+1332037128.328901	CaCSF644I9mlhoIPy3	192.168.50.10	1036	178.162.149.198	80	tcp	http	14.990700	613	8940	RSTO	-	0	ShADadR	10	1021	11	9388	(empty)
+1332037144.311546	CZlg0z35jBu0rPxDZ	192.168.50.10	1039	146.185.249.149	80	tcp	-	2.955016	0	0	S0	-	0	S	2	96	0	0	(empty)
+1332037153.470172	Cwr66o43y5olhXemJ8	192.168.50.10	1039	146.185.249.149	80	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+1332037109.586694	CrwNxZ298r1qWyr889	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000665	626	0	S0	-	0	D	2	682	0	0	(empty)
+1332037165.521212	C0BR2n2c9pgn2ykZe6	192.168.50.10	1040	146.185.249.149	80	tcp	-	3.042115	0	0	S0	-	0	S	2	96	0	0	(empty)
+1332037174.657084	Cp3MR93SqecxdUHvRa	192.168.50.10	1040	146.185.249.149	80	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+1332037109.587024	C8rzHB2Dhxk7Dg12W7	192.168.50.10	68	192.168.50.1	67	udp	dhcp	12.511883	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1332037191.985981	CcTcFP2fKxgb9HhCa7	192.168.50.10	1041	146.185.249.149	80	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+1332037127.663358	CLO2wV3XHCyJtvaTn	192.168.50.10	1034	239.255.255.250	1900	udp	-	7.341568	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-10-57-07

@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-00-42
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1315289765.920459	C4PDEolNHU7lXZZmb	192.168.79.10	1029	4.2.2.3	53	udp	3979	as-madagascar.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	87.98.153.31	43176.000000	F
+1315289766.817892	C4PDEolNHU7lXZZmb	192.168.79.10	1029	4.2.2.3	53	udp	5768	wormetal.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	203.68.180.184	0.000000	F
+1315289768.21509	C4PDEolNHU7lXZZmb	192.168.79.10	1029	4.2.2.3	53	udp	23177	greenfilled.cu.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.208.141.137	3600.000000	F
+1315289776.794743	C4PDEolNHU7lXZZmb	192.168.79.10	1029	4.2.2.3	53	udp	7822	adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.150.16.117	16456.000000	F
+1315289804.988795	CQZitR3WGBVpuwOCL5	192.168.79.10	1029	4.2.2.3	53	udp	32143	rebeccajessop.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.249.137.9	14400.000000	F
+#close	2014-04-03-11-00-42

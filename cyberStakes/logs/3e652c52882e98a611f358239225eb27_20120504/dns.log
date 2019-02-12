@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-04-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1336164466.879879	COtqte8gh07h3lpgh	192.168.6.10	1029	4.2.2.3	53	udp	19343	mattslongrun.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	108.60.9.81	14382.000000	F
+1336164467.361205	COtqte8gh07h3lpgh	192.168.6.10	1029	4.2.2.3	53	udp	61836	dropshipperportal.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.124.198.1	3600.000000	F
+1336164467.45133	COtqte8gh07h3lpgh	192.168.6.10	1029	4.2.2.3	53	udp	48778	thesavvymillionaire.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	83.69.226.72	3600.000000	F
+1336164492.100427	CVtx1t4tTWqKwg93I	192.168.6.10	1029	4.2.2.3	53	udp	12427	palktikaljob.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.201.4.71	3600.000000	F
+#close	2014-04-03-10-04-59

@@ -1,0 +1,30 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-11-03-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1344273526.381284	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1344273556.848192	C1aWHu1FiFprlMzn8j	192.168.9.10	1054	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344273556.848464	Cvdnyv4AoMDNaB1sn6	192.168.9.10	1054	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344273557.240348	CR6SoU1zMCDI7E9Idi	192.168.9.10	1056	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344273557.24058	CNxFaD4kLp2kv5WHV9	192.168.9.10	1056	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344273557.650776	CFagZN3aF4h2h9TDHi	192.168.9.10	1058	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344273557.650976	CSzSGp4r5ZjPN8WcE6	192.168.9.10	1058	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344273557.659854	CU3Xvy3568CAmDUfQa	192.168.9.10	1060	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344273557.660085	Cu18lA1fKWW1waCu0a	192.168.9.10	1060	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344273557.737206	C4mv8G3pLr7qwsdt96	192.168.9.10	1062	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344273557.737427	CqpwA22S0ZzYX1db7i	192.168.9.10	1062	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344273559.341904	C3HzKCBPH5QieN0Te	192.168.9.10	1066	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344273559.342096	CjlhNr2clXyKZ5jGX4	192.168.9.10	1066	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344273559.365779	C10vvvnz8QaCG0Roe	192.168.9.10	1069	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344273559.365959	C76bQC2ceKY5qBaV	192.168.9.10	1069	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344273559.437446	CJ2oOr3HrdSNOZE21i	192.168.9.10	1072	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344273559.461329	CosMu02f7BXsvgSGtj	192.168.9.10	1072	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344273564.401424	C7LAlu3vea1cOfkNf	192.168.9.10	1076	200.144.249.47	80	bad_HTTP_request	-	F	bro
+1344273564.401424	C7LAlu3vea1cOfkNf	192.168.9.10	1076	200.144.249.47	80	line_terminated_with_single_CR	-	F	bro
+1344273575.150299	CzNgRg1yQzq6SFGAnl	192.168.9.10	1079	176.44.29.1	80	bad_HTTP_request	-	F	bro
+1344273575.150299	CzNgRg1yQzq6SFGAnl	192.168.9.10	1079	176.44.29.1	80	line_terminated_with_single_CR	-	F	bro
+#close	2014-04-03-11-03-30

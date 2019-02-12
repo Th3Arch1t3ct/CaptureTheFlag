@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-56-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1336410022.248585	COps3yfhQssEvVUtl	192.168.61.10	1057	37.59.198.60	80	Fqc8cr3zaDQun878P9	application/x-dosexec	http://abcpurple.info/?2fcedba0603c7cdd8501b22193747db9	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-05-07 21:01:01	https://www.virustotal.com/en/search/?query=667751b8df9a123d1ddea70accf933c6e0c877dd	192.168.61.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336410022.874843	Cn0tE527Smv0SZkiA2	192.168.61.10	1066	37.59.198.60	80	FmZdkn4VsnaJfw6Ovf	application/x-dosexec	http://abcpurple.info/?0d99a11e0b26e52b2f3177e34351f4bb	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2012-05-18 04:30:19	https://www.virustotal.com/en/search/?query=1bf52e6b8a00bfe77ac1e9db65f5426604994b40	192.168.61.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336410022.877845	C9A4IB4zgGQ9px0Mrf	192.168.61.10	1067	37.59.198.60	80	FxgPgrfoxNatOqYw6	application/x-dosexec	http://abcpurple.info/?6c1ba3c11991a962aec555c5a25a7080	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-05-07 21:01:01	https://www.virustotal.com/en/search/?query=667751b8df9a123d1ddea70accf933c6e0c877dd	192.168.61.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336410033.581116	C2cZfE4ORZGGfAUdf2	192.168.61.10	1072	37.59.198.60	80	F0aKlDHmcaFzn8EC4	application/x-dosexec	http://abcpurple.info/?2b8a5621f92676e03657e52c6769ccde	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2012-05-18 04:30:19	https://www.virustotal.com/en/search/?query=1bf52e6b8a00bfe77ac1e9db65f5426604994b40	192.168.61.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336410071.150657	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.61.10 scanned at least 25 unique hosts on port 34354/tcp in 0m28s	remote	192.168.61.10	-	34354	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-56-25

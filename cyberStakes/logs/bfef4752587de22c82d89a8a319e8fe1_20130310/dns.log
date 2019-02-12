@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-28-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1362943536.533821	CFYGO4Lbezqoz1Qud	192.168.28.10	1029	4.2.2.3	53	udp	56717	webcam-choice.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.214.253.81	30.000000	F
+1362943536.846127	CFYGO4Lbezqoz1Qud	192.168.28.10	1029	4.2.2.3	53	udp	52109	tech.net.microsoft.windows.update.system.release.ifksb.2upezdalda.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.135.204.181	30.000000	F
+#close	2014-04-03-10-28-12

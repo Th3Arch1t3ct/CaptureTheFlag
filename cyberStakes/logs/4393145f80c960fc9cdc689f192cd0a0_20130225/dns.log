@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-14-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1361754874.654833	C7Xu3m2Cecep6q4tI6	192.168.31.10	1029	4.2.2.3	53	udp	40852	hotelsadults.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.211.218.215	576.000000	F
+1361754874.884134	C7Xu3m2Cecep6q4tI6	192.168.31.10	1029	4.2.2.3	53	udp	14997	detraineddrieakters.lindsayandmerritt.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.102.6.159	1800.000000	F
+1361754877.931586	C7Xu3m2Cecep6q4tI6	192.168.31.10	1029	4.2.2.3	53	udp	7573	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,64.4.52.169	1531.000000,300.000000	F
+1361754878.673488	C7Xu3m2Cecep6q4tI6	192.168.31.10	1029	4.2.2.3	53	udp	2454	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,64.4.52.169	691.000000,600.000000	F
+1361754881.6736	C7Xu3m2Cecep6q4tI6	192.168.31.10	1029	4.2.2.3	53	udp	39319	159.6.102.192.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	192-102-6-159.vds.seo-host.ru	3600.000000	F
+1361754881.996171	C7Xu3m2Cecep6q4tI6	192.168.31.10	1029	4.2.2.3	53	udp	53905	192-102-6-159.vds.seo-host.ru	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1361754881.996171	C7Xu3m2Cecep6q4tI6	192.168.31.10	1029	4.2.2.3	53	udp	53905	192-102-6-159.vds.seo-host.ru	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-11-14-50

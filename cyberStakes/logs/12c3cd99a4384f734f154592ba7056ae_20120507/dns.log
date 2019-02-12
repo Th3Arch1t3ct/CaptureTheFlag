@@ -1,0 +1,31 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-56-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1336410009.410292	Cu5JUf3zC4VemXcx3j	192.168.61.10	1029	4.2.2.3	53	udp	2443	geelongfirecats.com.au	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	97.74.141.128	3574.000000	F
+1336410012.65875	Cu5JUf3zC4VemXcx3j	192.168.61.10	1029	4.2.2.3	53	udp	31368	bbigtree.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	212.95.58.73	30.000000	F
+1336410013.313014	Cu5JUf3zC4VemXcx3j	192.168.61.10	1029	4.2.2.3	53	udp	12942	abcpurple.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.59.198.60	30.000000	F
+1336410013.450564	Cu5JUf3zC4VemXcx3j	192.168.61.10	1029	4.2.2.3	53	udp	32142	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,204.93.38.114,204.93.38.112	4746.000000,291.000000,19520.000000,11.000000,11.000000	F
+1336410032.025807	CaAfXY3XvJLancs5wc	192.168.61.10	1070	8.8.8.8	53	udp	13107	promos.fling.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.91.207.10	42.000000	F
+1336410032.114243	CnDu1a2geXrCH0Ztl5	192.168.61.10	1074	94.242.250.64	53	udp	7904	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336410032.11617	Cxg2Av18HtB9apmVmc	192.168.61.10	1076	94.242.250.64	53	udp	7904	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336410032.399501	CC5unC46kRVSt4pAuf	192.168.61.10	1078	94.242.250.64	53	udp	7904	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336410032.401044	CWlJDX33K64MFKZDs5	192.168.61.10	1080	94.242.250.64	53	udp	7904	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336410032.403702	CBp42x1bkC8mYW02p2	192.168.61.10	1082	94.242.250.64	53	udp	7904	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336410032.411086	C1X43c2z7w30C62iy2	192.168.61.10	1084	94.242.250.64	53	udp	7904	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336410032.414226	CE8DW421Ue4ngOI0Y4	192.168.61.10	1086	94.242.250.64	53	udp	7904	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336410032.41669	CQWPzz1at1lAFp9Cif	192.168.61.10	1088	94.242.250.64	53	udp	7904	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336410032.428505	CLuob44iTz9mHQRgUc	192.168.61.10	1090	94.242.250.64	53	udp	7904	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336410032.430967	CVdvoA4m3PYKCtRUZj	192.168.61.10	1092	94.242.250.64	53	udp	7904	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336410032.432479	C6HDJq2gingJz5oQyh	192.168.61.10	1094	94.242.250.64	53	udp	7904	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336410032.445681	CKVioW2bT4CzUXk286	192.168.61.10	1096	94.242.250.64	53	udp	7904	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336410042.774466	CGo1T03Vfd8Kw91meh	192.168.61.10	1103	8.8.8.8	53	udp	13107	promos.fling.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.91.207.10	32.000000	F
+1336410033.280869	Chx19NBobDy6so4v8	192.168.61.10	1098	94.242.250.64	53	udp	7904	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336410033.295148	Cp1fdhpD9A0tTv6H8	192.168.61.10	1100	94.242.250.64	53	udp	7904	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336410042.846576	Cdqk8p2BaimMGAp0rh	192.168.61.10	1234	94.242.250.64	53	udp	25088	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336410042.847925	CHI6ZQ77xK4qsN7I5	192.168.61.10	1236	94.242.250.64	53	udp	25088	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+#close	2014-04-03-09-56-25

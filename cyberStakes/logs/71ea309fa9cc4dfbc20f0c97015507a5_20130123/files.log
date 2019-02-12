@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-11-05-24
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1358975662.917769	FEYx4y2peSzbus5fk4	65.254.248.149	192.168.61.10	CtlK7I7lwM2T5GoS8	HTTP	0	MD5,SHA1	text/html	-	0.000326	-	F	8189	-	0	0	F	-	9647b2e2403c1f023093d64cf07b5ed4	fe84f3839409fb7d48b04b8d9d12c5daff407c90	-	-
+1358975662.967206	FSarZu28mseydB1JB6	65.254.248.149	192.168.61.10	CtlK7I7lwM2T5GoS8	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	1427	-	0	0	F	-	5473c0eea67fe8900cb26644b10e72eb	c35d5138bffcb41558a724211e909912a03b2987	-	-
+1358975664.647965	F1U1pk1wSVnmF8pgch	199.195.194.4	192.168.61.10	C925uh1NDjvW9Gqwq3	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	1826	-	0	0	F	-	03f8a3db9657c7f0dfc6135157632377	7809259615da1635b69224fff131e3e65def69c9	-	-
+1358975664.751544	FzomVz4ybEvp7g5v94	199.195.194.4	192.168.61.10	Cy4yma3Vx5twG92i94	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	1771	1771	0	0	F	-	bc6c61098b336585a9e254eef53224d6	2aa4aa12b9754789ac030a68879e253af3773c3e	-	-
+1358975664.96961	FnDQUF2H4aopaQz2Yh	199.195.194.4	192.168.61.10	CVbLMu1usWEumjuIed	HTTP	0	MD5,SHA1	image/jpeg	-	0.000000	-	F	2492	2492	0	0	F	-	c66a6f8cc135492730835c465fdc49c1	0b88a8cd3490e78e8ffb8170d954f1e8683ffd04	-	-
+1358975665.084182	FvInoI2C0VaEcYDv61	199.195.194.4	192.168.61.10	CugGj14uJIVuRZedn1	HTTP	0	MD5,SHA1	image/png	-	0.000014	-	F	3905	3905	0	0	F	-	abbd149d62fa6d3618e55ad6bf072b4b	aaae4f347a744eef12db64a1cdac27318cab703c	-	-
+1358975664.969432	FBdzTX18qq8TKINvnk	199.195.194.4	192.168.61.10	Cweuwjv1zWDMMVOG9	HTTP	0	MD5,SHA1	image/jpeg	-	0.287523	-	F	87930	87930	0	0	F	-	b50b5b79323c6971678ef89baa50072c	eec55ad5c442d936d5b704e9d8e9d66cc128d432	-	-
+1358975669.122884	Fr8wDv1zJ2rCuGkBj3	204.45.126.106	192.168.61.10	Cr7S7Q2llUiHLRXMxl	HTTP	0	MD5,SHA1	application/x-dosexec	hop3_ran_downloader_us_99220.exe	0.011793	-	F	3946	12854880	0	0	F	-	b7f2a8854fa7ceb85b99268d05d4cd85	d393f88031d48a74a7a06f4fcddc2832ee43593b	-	-
+1358975670.015651	FB59662e7XycnbXbvd	199.195.194.4	192.168.61.10	CMfBm52hrigZQrLWDj	HTTP	0	MD5,SHA1	image/png	-	0.090598	-	F	10010	10010	0	0	F	-	6acc51389eadb156db9fcf68979a88b7	13e3980fafa4a7cb093911ee8605b8df0a4b2d1a	-	-
+1358975670.016275	FDwuNy1RkNBElBcTt2	199.195.194.4	192.168.61.10	CTEGX22kKVlgrwnQd1	HTTP	0	MD5,SHA1	image/png	-	0.137767	-	F	25790	25790	0	0	F	-	ea7a4cda12d2e18e00036c342c45a88f	1be84635af1102d970f43bcdb189c21c7f5e83f6	-	-
+1358975670.207603	FHkgDz4uVmuLc7QSm4	199.195.194.4	192.168.61.10	Cwk9ar24PW37nXjYK6	HTTP	0	MD5,SHA1	image/png	-	0.046334	-	F	5668	5668	0	0	F	-	014309dd4045c842813c731ef672deb0	3519c8cc756aeefdcf641e1a92fa5df994ff8bd1	-	-
+#close	2014-04-03-11-05-24

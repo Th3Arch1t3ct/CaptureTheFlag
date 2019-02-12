@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-47-40
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1321899601.956567	CuzKFqwfzoGQhGHN7	192.168.37.10	1030	95.168.165.225	80	1	GET	thebananamama.info	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	238	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FuqLFb2KEheMPk2XFi	text/html
+1321899602.179881	CleCdi4RFc18d23pIh	192.168.37.10	1031	109.236.85.58	80	1	GET	publicfiles9.in	/?site=7	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	168	200	OK	-	-	-	(empty)	-	-	-	-	-	FxNMZy3AHH5YoesqZ2	text/html
+1321899603.914871	CIt1ck2oWWQ8Bweee1	192.168.37.10	1032	109.236.85.58	80	1	GET	publicfiles9.in	/dl/applet.php?ceeeb2ce0aa99fcf8f1b0f4083893026	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3957	200	OK	-	-	-	(empty)	-	-	-	-	-	FZFnyn41h8MAKhb4wh	application/jar
+1321899604.211189	CEXoOu3BeEgyAhyaid	192.168.37.10	1033	109.236.85.58	80	1	GET	publicfiles9.in	/dl/applet.php?ceeeb2ce0aa99fcf8f1b0f4083893026	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3957	200	OK	-	-	-	(empty)	-	-	-	-	-	Fhu91R38aWlb8x4h9	application/jar
+1321899604.532532	Cw5x2g4dL2MKXDGtzh	192.168.37.10	1038	109.236.85.58	80	1	GET	publicfiles9.in	/dl/applet.php?ceeeb2ce0aa99fcf8f1b0f4083893026	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3957	200	OK	-	-	-	(empty)	-	-	-	-	-	FeheBA3ElaUyZMz57l	application/jar
+1321899604.810914	CL3NPg2OFMuCKH4m51	192.168.37.10	1039	109.236.85.58	80	1	GET	publicfiles9.in	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F3jy6z4FBJ0mcNaEL	text/html
+1321899605.019782	CNqRsr31mYyqqUuL3d	192.168.37.10	1040	109.236.85.58	80	1	GET	publicfiles9.in	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FNjlhx3MHOp5w1KeNe	text/html
+1321899605.239593	CG6U0KjrDmBqLEpG8	192.168.37.10	1041	109.236.85.58	80	1	GET	publicfiles9.in	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FtqKpf3669bNhY6FO1	text/html
+1321899605.447721	CzEBpU3MAHpTpQDbKk	192.168.37.10	1042	109.236.85.58	80	1	GET	publicfiles9.in	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FNqPw44MHNhiRt0xV7	text/html
+1321899605.84039	CgmNPb1fuUx92QBng4	192.168.37.10	1043	109.236.85.58	80	1	GET	publicfiles9.in	/dl/dl.php?4	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	433400	200	OK	-	-	-	(empty)	-	-	-	-	-	Fq19cy3crPdboGFB1d	application/x-dosexec
+#close	2014-04-03-10-47-40

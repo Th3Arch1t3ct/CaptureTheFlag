@@ -1,0 +1,30 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-45-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1339916788.58678	CHQqXJLH6g4pVGy85	192.168.100.10	1030	66.7.207.100	80	1	GET	eastwoodvillageapartments.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	10250	200	OK	-	-	-	(empty)	-	-	-	-	-	FdANx1VWRhe037Xf3	text/html
+1339916788.967291	C8fX5B3jJ3s18Bibed	192.168.100.10	1031	98.124.199.1	80	1	GET	charityairsupport.org	/	http://eastwoodvillageapartments.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	175	302	Object moved	-	-	-	(empty)	-	-	-	-	-	F8wU9glnbqJ5i7zEa	text/html
+1339916789.202949	CNQBsR1l5vqaODGQv2	192.168.100.10	1032	74.125.127.139	80	1	GET	www.google-analytics.com	/ga.js	http://eastwoodvillageapartments.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	36639	200	OK	-	-	-	(empty)	-	-	-	-	-	FI51eY3OqlSLCpIXkc	text/plain
+1339916789.357401	CNQBsR1l5vqaODGQv2	192.168.100.10	1032	74.125.127.139	80	2	GET	www.google-analytics.com	/__utm.gif?utmwv=5.3.2&utms=1&utmn=1074391885&utmhn=eastwoodvillageapartments.com&utmcs=iso-8859-1&utmsr=800x600&utmvp=780x475&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=10.0 r32&utmdt=Eastwood Village Apartments, GEORGIA&utmhid=289014028&utmr=-&utmp=/&utmac=UA-25215678-23&utmcc=__utma=78207104.543029594.1339931070.1339931070.1339931070.1;+__utmz=78207104.1339931070.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);&utmu=q~	http://eastwoodvillageapartments.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	35	200	OK	-	-	-	(empty)	-	-	-	-	-	F91Xi91q0BFtwvrnR4	image/gif
+1339916789.356663	C6lNB94zkMNWTYiBbg	192.168.100.10	1033	178.239.62.11	80	1	GET	trd.modulvec.com	/main.php?page=3081100e9fdaf127	http://eastwoodvillageapartments.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	61696	200	OK	-	-	-	(empty)	-	-	-	-	-	FmDj1c1rJd1ISw8OD3	text/html
+1339916792.782233	C6lNB94zkMNWTYiBbg	192.168.100.10	1033	178.239.62.11	80	2	GET	trd.modulvec.com	/w.php?f=97d19&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	31232	200	OK	-	-	-	(empty)	-	-	-	-	-	Frj9Ic2nhLPOHBTmti	application/x-dosexec
+1339916793.459774	C6lNB94zkMNWTYiBbg	192.168.100.10	1033	178.239.62.11	80	3	GET	trd.modulvec.com	/data/ap2.php	http://trd.modulvec.com/main.php?page=3081100e9fdaf127	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	23567	200	OK	-	-	-	(empty)	-	-	-	-	-	FuXl3I1doaKVkKf405	application/pdf
+1339916793.720671	CwModo4JU9gUDh9Fff	192.168.100.10	1038	178.239.62.11	80	1	GET	trd.modulvec.com	/data/field.swf	http://eastwoodvillageapartments.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1547	200	OK	-	-	-	(empty)	-	-	-	-	-	FYxrqz31wMBFFnnLUg	application/x-shockwave-flash
+1339916794.894158	CdLzCq1Bh0U6SiQDI4	192.168.100.10	1039	188.190.126.75	80	1	POST	WWWW.ACEBPSK9.COM	/vepof83/gw3t3s.php	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	390	16	200	OK	-	-	-	(empty)	-	-	-	FUOyKR3BwAjCD5IrJg	binary	FoC5i1rpMFeWBeNbf	text/plain
+1339916795.424143	C8LLDG3lNBIKGKMVYc	192.168.100.10	1040	72.249.47.165	80	1	GET	tisdale.us	/pd.exe	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	0	188928	200	OK	-	-	-	(empty)	-	-	-	-	-	FGmu9d4zOaJkgLmvUk	application/x-dosexec
+1339916796.73137	CKNfxq2Idrm9NSJFNi	192.168.100.10	1042	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	29	200	OK	-	-	-	(empty)	-	-	-	-	-	Fi8J0nOrj1zzl2c5f	text/plain
+1339916797.190422	CNTYoGm5sKBqp7G28	192.168.100.10	1043	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339916797.733798	CF8Zh4xyGAJjvDCZ1	192.168.100.10	1045	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=2&d=7&s=121	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339916797.7554	CNgafl1RvLOZr76ig4	192.168.100.10	1047	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=3&d=7&s=131	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339916797.759722	CHaMW22QHDyUwQRiGa	192.168.100.10	1049	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=4&d=7&s=1	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339916797.764104	CJ0zCCWZ9ziQen8O7	192.168.100.10	1051	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=5&d=7&s=20	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339916797.985081	CrOqe5Ggt4i9tArx7	192.168.100.10	1054	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=6&d=7&s=21	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339916798.001967	Czsx2bqXVYvgvk8J9	192.168.100.10	1057	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=7&d=7&s=30	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339916798.027182	CB4dxRpQ8sVxZD7c5	192.168.100.10	1060	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=8&d=7&s=31	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339916809.161125	CaN9V84IqChHR0prcf	192.168.100.10	1062	63.150.12.50	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1111	200	OK	-	-	-	(empty)	-	-	-	-	-	FJph9U37TgSRC3Nh8i	text/plain
+1339916809.144882	CwModo4JU9gUDh9Fff	192.168.100.10	1038	178.239.62.11	80	2	GET	trd.modulvec.com	/data/score.swf	http://trd.modulvec.com/data/field.swf	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6996	200	OK	-	-	-	(empty)	-	-	-	-	-	F6ovF43PLCXW7iNcQ1	application/x-shockwave-flash
+#close	2014-04-03-10-45-56

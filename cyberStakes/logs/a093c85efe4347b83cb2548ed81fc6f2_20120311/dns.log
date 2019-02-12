@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-14-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1331442468.640837	Cuv2nHHfwWbhX2mE4	192.168.91.10	1029	4.2.2.3	53	udp	28301	solracinc.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.168.39.231	3580.000000	F
+1331442469.971457	Cuv2nHHfwWbhX2mE4	192.168.91.10	1029	4.2.2.3	53	udp	51341	photosmile.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.75.244.113	3600.000000	F
+1331442470.403697	Cuv2nHHfwWbhX2mE4	192.168.91.10	1029	4.2.2.3	53	udp	398	allfabrika.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.165.3.22	3600.000000	F
+1331442474.595081	Cuv2nHHfwWbhX2mE4	192.168.91.10	1029	4.2.2.3	53	udp	28302	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.75.27,69.31.75.17	12699.000000,299.000000,11975.000000,19.000000,19.000000	F
+1331442477.388697	Cuv2nHHfwWbhX2mE4	192.168.91.10	1029	4.2.2.3	53	udp	55950	nnnorange.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.165.3.22	30.000000	F
+1331442483.183128	Cuv2nHHfwWbhX2mE4	192.168.91.10	1029	4.2.2.3	53	udp	41871	susanreno.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	204.15.249.161	3600.000000	F
+1331442483.711483	Cuv2nHHfwWbhX2mE4	192.168.91.10	1029	4.2.2.3	53	udp	24456	ropedgirls.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.43.24.249	24219.000000	F
+1331442487.876005	Cuv2nHHfwWbhX2mE4	192.168.91.10	1029	4.2.2.3	53	udp	5514	boss-search.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	77.79.4.148	3600.000000	F
+#close	2014-04-03-10-14-06

@@ -1,0 +1,28 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-16-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1343814712.121303	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1343814713.220965	CV9eq31ALoKLnJayw1	192.168.69.10	1052	199.21.148.108	80	unescaped_special_URI_char	-	F	bro
+1343814734.206378	C3FxiV2MsmPzkpoT91	192.168.69.10	1090	199.21.148.108	80	unescaped_special_URI_char	-	F	bro
+1343814750.503576	CncWYZ34A79OkQqhNk	192.168.69.10	1119	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1343814750.503755	C0TMl024EVtrMWsn9i	192.168.69.10	1119	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1343814750.689328	CGyc4w4wdBaCAbWP8j	192.168.69.10	1122	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1343814750.689525	C9Nn7c14VSCMgG0TWl	192.168.69.10	1122	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1343814751.067489	CZJbcX3MMI1d8vjsfh	192.168.69.10	1124	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1343814751.067691	ChTXaB1c64DAbwn7Ua	192.168.69.10	1124	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1343814751.238815	CDyWay36ZFXmHJb44k	192.168.69.10	1126	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1343814751.238989	CYzQ0a2m8h309QdxAj	192.168.69.10	1126	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1343814751.33395	ClPj9K38PoKO2FuZP9	192.168.69.10	1128	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1343814751.33415	CslKgl48jO5I2Kk4Xg	192.168.69.10	1128	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1343814755.391986	CDdemEQODQ2TcZOvd	192.168.69.10	1132	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1343814755.392185	Cwqqd3cEgOjJNepE3	192.168.69.10	1132	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1343814755.891679	CTrYDn3cpNdvB8KHrc	192.168.69.10	1134	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1343814755.891819	Cu58mhMjVjMOb3Eff	192.168.69.10	1134	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1343814755.923741	C82tPO28n50RghhQma	192.168.69.10	1136	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1343814755.923881	CxWfNe4aSqVZaRGIMh	192.168.69.10	1136	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+#close	2014-04-03-10-16-46

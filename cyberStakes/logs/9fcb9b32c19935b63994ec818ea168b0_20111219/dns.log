@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-55-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1324319531.940907	CLDxgf3NG8ZxaHX8kh	192.168.81.10	1029	4.2.2.3	53	udp	25227	www.hausscheppen.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.40.64.122	43177.000000	F
+1324319532.211003	CLDxgf3NG8ZxaHX8kh	192.168.81.10	1029	4.2.2.3	53	udp	2953	zalupka.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.211.134.108	28800.000000	F
+1324319532.751602	CLDxgf3NG8ZxaHX8kh	192.168.81.10	1029	4.2.2.3	53	udp	31369	www.maturehot.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.211.134.108	28800.000000	F
+1324319533.209955	CLDxgf3NG8ZxaHX8kh	192.168.81.10	1029	4.2.2.3	53	udp	18569	www.bestbuyshop.in.ua	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.47.198.36	43200.000000	F
+1324319533.799676	CLDxgf3NG8ZxaHX8kh	192.168.81.10	1029	4.2.2.3	53	udp	61832	qrow.org.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.123.52.133	900.000000	F
+1324319552.537398	CsOQEg1G6FRodpo0j5	192.168.81.10	1029	4.2.2.3	53	udp	16783	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.132.27,69.31.132.73	13667.000000,158.000000,13702.000000,20.000000,20.000000	F
+1324319558.807012	CsOQEg1G6FRodpo0j5	192.168.81.10	1029	4.2.2.3	53	udp	40846	first.lib-invest.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.31.15.44	3600.000000	F
+1324319559.464301	CHtw8l2wmiQ2kroOvj	192.168.81.10	1046	4.2.2.3	53	udp	45196	second.lib-invest.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.31.15.45	3600.000000	F
+1324319559.429193	CsOQEg1G6FRodpo0j5	192.168.81.10	1029	4.2.2.3	53	udp	43149	second.lib-invest.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.31.15.45	3600.000000	F
+#close	2014-04-03-09-55-50

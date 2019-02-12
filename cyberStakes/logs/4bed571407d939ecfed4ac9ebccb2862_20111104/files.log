@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-04-26
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1320396289.21444	FKHh953fvCRuis5598	66.186.38.90	192.168.49.10	CNFDILLC25doVSv2e	HTTP	0	MD5,SHA1	text/html	-	0.119738	-	F	20448	-	0	0	F	-	799bda74c8bce54e3c63b6c4c5339e93	ab171563e9d33406cdb6c03ec11fc20f585d943e	-	-
+1320396289.411871	Fs0BMI162WKLtHPBai	66.186.38.90	192.168.49.10	CNFDILLC25doVSv2e	HTTP	0	MD5,SHA1	text/plain	-	0.000022	-	F	9062	-	0	0	F	-	d008ec5c191b605fb552dfc6260e40fc	999886472c021db184298b76fb83b14ba52f9f09	-	-
+1320396289.473247	FoqB6D3zxfqXLQv0R4	66.186.38.90	192.168.49.10	CNFDILLC25doVSv2e	HTTP	0	MD5,SHA1	image/gif	-	0.000000	-	F	43	43	0	0	F	-	325472601571f31e1bf00674c368d335	2daeaa8b5f19f0bc209d976c02bd6acb51b00b0a	-	-
+1320396289.472126	FdaUNRBtnlrLoJ7I	66.186.38.90	192.168.49.10	Cngg1J3bxWgwKwsmpk	HTTP	0	MD5,SHA1	image/gif	-	0.058540	-	F	3202	3202	0	0	F	-	f8bcae5123a4e60442b8d83817291095	9cdea49084075566c5916514647b0cb6c3c65bee	-	-
+1320396289.534966	FEbgV925XALv0jVXIe	66.186.38.90	192.168.49.10	CNFDILLC25doVSv2e	HTTP	0	MD5,SHA1	image/gif	-	0.000000	-	F	80	80	0	0	F	-	d4731c9ce4618002582b23b740118d70	1048b8263f8f2963282586c05b3514c2a43ecc6b	-	-
+1320396289.593487	F49mxl1WVmfDLJ5DZi	66.186.38.90	192.168.49.10	Cngg1J3bxWgwKwsmpk	HTTP	0	MD5,SHA1	text/plain	-	0.000018	-	F	9348	-	0	0	F	-	9066330a4943eff339b403c4b2675809	e669de2a27626f9e949a17ad2f558d96afdc102c	-	-
+1320396289.681503	FK38m24AJPXqG5nBfc	66.186.38.90	192.168.49.10	CNFDILLC25doVSv2e	HTTP	0	MD5,SHA1	application/x-dosexec	-	0.004440	-	F	12180	28672	0	0	F	-	29234a9067b1c8e77ca0e30aa26e9466	0dc7ab5fd9eaceaf23e1c631a2b9eeb395755d20	-	-
+#close	2014-04-03-10-04-26

@@ -1,0 +1,42 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-03-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1317724335.775248	CPSxW43t0Q3O57khf7	192.168.17.10	1030	98.130.42.110	80	1	GET	najaadesigns.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4863	200	OK	-	-	-	(empty)	-	-	-	-	-	FA4CZWO7OV9NHuwjd	text/html
+1317724345.554593	CXsIzk1wUjZZ8VbA1g	192.168.17.10	1036	95.163.66.209	80	1	GET	hgdhfg.dns1.us	/showthread.php?t=82651514	http://najaadesigns.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	40419	200	OK	-	-	-	(empty)	-	-	-	-	-	FAyMGk2cckynyB1z4f	text/html
+1317724347.636615	CvUcoJ3VV8D0JPJV0i	192.168.17.10	1037	95.163.66.209	80	1	GET	hgdhfg.dns1.us	/showthread.php?t=19538	http://hgdhfg.dns1.us/showthread.php?t=82651514	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	18467	200	OK	-	-	-	(empty)	-	-	-	-	-	FwLai53gVcNqylcYKa	text/plain
+1317724349.20207	CXsIzk1wUjZZ8VbA1g	192.168.17.10	1036	95.163.66.209	80	2	GET	hgdhfg.dns1.us	/showthread.php?s=240.800.600.24&jv=1.6.0.10&ua=Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	http://hgdhfg.dns1.us/showthread.php?t=82651514	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317724350.389059	CvUcoJ3VV8D0JPJV0i	192.168.17.10	1037	95.163.66.209	80	2	GET	hgdhfg.dns1.us	/showthread.php?t=1	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	52736	200	OK	-	-	-	(empty)	-	-	-	-	-	F1No171mRpzG6RfJph	application/x-dosexec
+1317724356.36073	ChKkOa1bpPdMks0Xbj	192.168.17.10	1042	192.150.16.117	80	1	POST	adobe.com	/geo/productid.php	-	Opera/10.60 Pesto/2.2.30	20	246	301	Moved Permanently	-	-	-	(empty)	-	-	-	FrSVsv4P9INF80XMA8	text/plain	F2IPuA49V0wgXxQou9	text/html
+1317724356.366862	CHH76r1RbDVEx1hxif	192.168.17.10	1040	65.55.13.243	80	1	POST	activex.microsoft.com	/objects/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	FSoQ282GKTwkOJIozd	text/plain	F4AGz930SKUUHyty49	text/plain
+1317724356.524565	Cb1lNPur2ZrkFjTd9	192.168.17.10	1044	64.4.52.169	80	1	POST	codecs.microsoft.com	/isapi/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	FjKiZp4JqEBocYy36	text/plain	FfIEff3WdjzyIY02Ma	text/plain
+1317724356.666732	CJKCLz3WBzEf5E3ee4	192.168.17.10	1041	95.163.66.209	80	1	GET	hgdhfg.dns1.us	/showthread.php?t=49281	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18417	200	OK	-	-	-	(empty)	-	-	-	-	-	FvvE3h3SR6ZEwsVvq3	application/jar
+1317724357.847451	CJKCLz3WBzEf5E3ee4	192.168.17.10	1041	95.163.66.209	80	2	GET	hgdhfg.dns1.us	/showthread.php?t=49281	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18417	200	OK	-	-	-	(empty)	-	-	-	-	-	FTK4662Mz74AVnGOya	application/jar
+1317724358.600738	CJKCLz3WBzEf5E3ee4	192.168.17.10	1041	95.163.66.209	80	3	GET	hgdhfg.dns1.us	/showthread.php?t=49281	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18417	200	OK	-	-	-	(empty)	-	-	-	-	-	FfAS2S2iom3sbFzGUb	application/jar
+1317724359.241045	CJKCLz3WBzEf5E3ee4	192.168.17.10	1041	95.163.66.209	80	4	GET	hgdhfg.dns1.us	/showthread.php?t=2	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317724356.711791	CHzDCc30VhkvY8vZY7	192.168.17.10	1043	95.163.66.209	80	1	GET	hgdhfg.dns1.us	/showthread.php?t=932581	-	User-Agent: Opera/10.60 Presto/2.2.30	0	260096	200	OK	-	-	-	(empty)	-	-	-	-	-	FSG7Xx2twcdXoW9ze4	application/x-dosexec
+1317724360.969197	CeoHBtfkKVxABhXUj	192.168.17.10	1045	193.105.154.210	80	1	GET	fxfzcvct.cn	/stat2.php?w=73&i=3365dd4c64badd4c5e57850750bb7a35&a=13	-	Opera/6 (Windows NT 5.1; U; LangID=409; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317724361.991909	CQypfV2VSAKvLbXVp9	192.168.17.10	1174	193.105.154.210	80	1	GET	fxfzcvct.cn	/stat2.php?w=73&i=3365dd4c64badd4c5e57850750bb7a35&a=1	-	Opera/6 (Windows NT 5.1; U; LangID=409; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317724362.34384	COB2N42SSKbjikhcp6	192.168.17.10	1175	193.105.154.210	80	1	GET	fxfzcvct.cn	/stat2.php?w=73&i=3365dd4c64badd4c5e57850750bb7a35&a=21	-	Opera/6 (Windows NT 5.1; U; LangID=409; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317724362.549148	CDOhxn3MSUKOtIigm3	192.168.17.10	1176	193.105.154.210	80	1	GET	fxfzcvct.cn	/stat2.php?w=73&i=3365dd4c64badd4c5e57850750bb7a35&a=4	-	Opera/6 (Windows NT 5.1; U; LangID=409; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317724366.861866	Cxz94U38pAoGy0YLy3	192.168.17.10	1177	193.105.154.210	80	1	GET	fxfzcvct.cn	/stat2.php?w=73&i=3365dd4c64badd4c5e57850750bb7a35&a=5	-	Opera/6 (Windows NT 5.1; U; LangID=409; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317724366.689321	CHzDCc30VhkvY8vZY7	192.168.17.10	1043	95.163.66.209	80	2	GET	hgdhfg.dns1.us	/showthread.php?t=932581	-	User-Agent: Opera/10.60 Presto/2.2.30	0	226304	200	OK	-	-	-	(empty)	-	-	-	-	-	FUraaJnLZXlhye1Jc	application/x-dosexec
+1317724376.126208	CHzDCc30VhkvY8vZY7	192.168.17.10	1043	95.163.66.209	80	3	GET	hgdhfg.dns1.us	/showthread.php?t=932581	-	User-Agent: Opera/10.60 Presto/2.2.30	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317724376.426657	CHzDCc30VhkvY8vZY7	192.168.17.10	1043	95.163.66.209	80	4	GET	hgdhfg.dns1.us	/showthread.php?t=932581	-	User-Agent: Opera/10.60 Presto/2.2.30	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317724376.74473	CHzDCc30VhkvY8vZY7	192.168.17.10	1043	95.163.66.209	80	5	GET	hgdhfg.dns1.us	/showthread.php?t=932581	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317724377.043953	CHzDCc30VhkvY8vZY7	192.168.17.10	1043	95.163.66.209	80	6	GET	hgdhfg.dns1.us	/showthread.php?t=932581	-	User-Agent: Opera/10.60 Presto/2.2.30	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317724377.359265	CHzDCc30VhkvY8vZY7	192.168.17.10	1043	95.163.66.209	80	7	GET	hgdhfg.dns1.us	/showthread.php?t=932581	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317724382.235739	Ccfm0T1SzjJGKgsMNc	192.168.17.10	1178	193.105.154.210	80	1	GET	fxfzcvct.cn	/stat2.php?w=73&i=3365dd4c64badd4c5e57850750bb7a35&a=6	-	Opera/6 (Windows NT 5.1; U; LangID=409; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317724382.236065	CoFTAV1CmFbYORDwkd	192.168.17.10	1180	193.105.154.210	80	1	GET	fxfzcvct.cn	/stat2.php?w=73&i=3365dd4c64badd4c5e57850750bb7a35&a=8	-	Opera/6 (Windows NT 5.1; U; LangID=409; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317724382.235619	CQzHpw2NhKWoI6KE5a	192.168.17.10	1179	193.105.154.210	80	1	GET	fxfzcvct.cn	/stat2.php?w=73&i=3365dd4c64badd4c5e57850750bb7a35&a=7	-	Opera/6 (Windows NT 5.1; U; LangID=409; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317724382.345352	Cm57s2FDIpcQnxtwd	192.168.17.10	1181	193.105.154.210	80	1	GET	fxfzcvct.cn	/stat2.php?w=73&i=3365dd4c64badd4c5e57850750bb7a35&a=23	-	Opera/6 (Windows NT 5.1; U; LangID=409; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317724382.541456	Civ1s94KGZ0sdIFMq1	192.168.17.10	1182	193.105.154.210	80	1	GET	fxfzcvct.cn	/stat2.php?w=73&i=3365dd4c64badd4c5e57850750bb7a35&a=24	-	Opera/6 (Windows NT 5.1; U; LangID=409; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317724382.945641	CMGO7eoCDvEd03Z7f	192.168.17.10	1183	193.105.154.210	80	1	GET	fxfzcvct.cn	/stat2.php?w=73&i=3365dd4c64badd4c5e57850750bb7a35&a=25	-	Opera/6 (Windows NT 5.1; U; LangID=409; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317724383.378028	CHxSka3t2QtmGJIx98	192.168.17.10	1184	193.105.154.210	80	1	GET	fxfzcvct.cn	/stat2.php?w=73&i=3365dd4c64badd4c5e57850750bb7a35&a=26	-	Opera/6 (Windows NT 5.1; U; LangID=409; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317724388.297613	CvHGkCiUEyVbBPFlg	192.168.17.10	1185	193.105.154.210	80	1	GET	fxfzcvct.cn	/stat2.php?w=73&i=3365dd4c64badd4c5e57850750bb7a35&a=27	-	Opera/6 (Windows NT 5.1; U; LangID=409; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317724390.099838	CtxKRm1tDO4HkrG0Rf	192.168.17.10	1186	193.105.154.210	80	1	GET	fxfzcvct.cn	/stat2.php?w=73&i=3365dd4c64badd4c5e57850750bb7a35&a=11	-	Opera/6 (Windows NT 5.1; U; LangID=409; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-11-03-45

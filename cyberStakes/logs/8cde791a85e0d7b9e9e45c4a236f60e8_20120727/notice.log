@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-48-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1343361591.218234	CAXBVTRlFAZCQ6Hz6	192.168.113.10	1043	188.124.16.235	80	FvosZ83M6ETeElBta2	application/x-dosexec	http://batipen.com.tr/2.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 38%  Last seen: 2012-07-29 04:49:55	https://www.virustotal.com/en/search/?query=b767b0fdc59e65cb8956d3ebd912c59c4fefab0a	192.168.113.10	188.124.16.235	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1343361591.218234	CcLcAL9pQN7qHxIg9	192.168.113.10	1045	188.124.16.235	80	FAfTbJ1dixx9jEqvij	application/x-dosexec	http://batipen.com.tr/3.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 38%  Last seen: 2012-07-29 04:49:55	https://www.virustotal.com/en/search/?query=b767b0fdc59e65cb8956d3ebd912c59c4fefab0a	192.168.113.10	188.124.16.235	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-48-37

@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-56-47
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1332397927.963349	CMf5zc4UFu02b8Dy53	192.168.12.10	1063	91.218.38.251	80	FYMGF84Ui0Iu1UWASh	application/x-shockwave-flash	http://prodlin.in/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 50%  Last seen: 2012-03-31 23:10:35	https://www.virustotal.com/en/search/?query=359244f0038e3bf78449217915ead1d70c733a16	192.168.12.10	91.218.38.251	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1332397953.738017	CMf5zc4UFu02b8Dy53	192.168.12.10	1063	91.218.38.251	80	FvTtbE483ShUk01Xjb	application/x-shockwave-flash	http://prodlin.in/content/score.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 50%  Last seen: 2012-08-23 09:42:24	https://www.virustotal.com/en/search/?query=25f3e4a0ce7135d95556a55fcfd908bf524a90f3	192.168.12.10	91.218.38.251	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-56-47

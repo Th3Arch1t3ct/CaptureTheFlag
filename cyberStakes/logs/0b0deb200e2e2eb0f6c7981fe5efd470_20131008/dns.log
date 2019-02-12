@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-16-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1381217487.408382	CTGu9Zykhxgtvk6r4	192.168.72.10	1035	4.2.2.3	53	udp	31386	danoah.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	198.41.191.15,198.41.186.16,198.41.185.16,198.41.187.16,198.41.184.16	300.000000,300.000000,300.000000,300.000000,300.000000	F
+1381217491.098915	CTGu9Zykhxgtvk6r4	192.168.72.10	1035	4.2.2.3	53	udp	57498	aqquxwtu.servehttp.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.211.162.28	60.000000	F
+1381217510.790978	CRN4Uq24LEs0AHWcdb	192.168.72.10	1035	4.2.2.3	53	udp	21657	twinkcam.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.86.20.50	86400.000000	F
+1381217511.628366	CRN4Uq24LEs0AHWcdb	192.168.72.10	1035	4.2.2.3	53	udp	42648	cinnamyn.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.17.105.36	300.000000	F
+1381217574.963857	CI8Mdv4BjT5ugldZ2l	192.168.72.10	1035	4.2.2.3	53	udp	16799	saggerboy.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.86.20.50	86400.000000	F
+#close	2014-04-03-11-16-19

@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-50-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1324065714.04403	Cwf6KS2O2aoGxxS0Ig	192.168.17.10	1052	74.125.45.115	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=checkout.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Thawte SGC CA,O=Thawte Consulting (Pty) Ltd.,C=ZA	1319605200.000000	1380603599.000000	-	-	-	b2d057d34affffffffffffffffffffff	ok
+1324065714.049154	CH1MBP7Y6hEln5t4l	192.168.17.10	1051	74.125.45.115	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=checkout.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Thawte SGC CA,O=Thawte Consulting (Pty) Ltd.,C=ZA	1319605200.000000	1380603599.000000	-	-	-	b2d057d34affffffffffffffffffffff	ok
+1324065715.691678	CXdojgSvNJhRdAc07	192.168.17.10	1055	74.125.45.115	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	f1eab03ea7033244c9b9bc1cff74c04871483dc5f6b429b6050cb68584a86d7b	-	-	-	-	-	-	-	-	-
+1324065715.696921	CGI6m31iP3xJtFSymj	192.168.17.10	1056	74.125.45.115	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	f1eab03ea7033244c9b9bc1cff74c04871483dc5f6b429b6050cb68584a86d7b	-	-	-	-	-	-	-	-	-
+1324065715.886409	CLNzdw2tAdWO31G5Ag	192.168.17.10	1057	74.125.45.115	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	f1eab03ea7033244c9b9bc1cff74c04871483dc5f6b429b6050cb68584a86d7b	-	-	-	-	-	-	-	-	-
+1324065715.908213	CZwI86335fF5bsqLI9	192.168.17.10	1058	74.125.45.115	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	f1eab03ea7033244c9b9bc1cff74c04871483dc5f6b429b6050cb68584a86d7b	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-50-00

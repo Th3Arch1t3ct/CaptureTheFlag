@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-18-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1326346455.996741	C62XdF4uKGzxOFJPW4	192.168.71.10	1029	4.2.2.3	53	udp	19343	chinazyycw.cn	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	222.208.183.165	340.000000	F
+1326346477.293832	CXaacz2cH8T47S4ugj	192.168.71.10	1029	4.2.2.3	53	udp	25487	duk.uglyas.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	60.190.174.174	21600.000000	F
+1326346477.842351	CXaacz2cH8T47S4ugj	192.168.71.10	1029	4.2.2.3	53	udp	55436	gdf.ns02.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	121.22.6.39	31.000000	F
+1326346478.60363	CXaacz2cH8T47S4ugj	192.168.71.10	1029	4.2.2.3	53	udp	17805	js.tongji.linezing.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	img.gslb.tbcache.com,122.225.34.250,119.97.134.240,119.97.134.250,121.14.89.240,121.14.89.250,121.207.229.240,121.207.229.250,122.225.34.240	1800.000000,265.000000,265.000000,265.000000,265.000000,265.000000,265.000000,265.000000,265.000000	F
+#close	2014-04-03-10-18-31

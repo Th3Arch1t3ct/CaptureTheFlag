@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-18-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1337381473.404195	C5irhy9xO9bTepSi5	192.168.118.10	1030	95.168.173.156	80	1	GET	adfullserver.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	8990	200	OK	-	-	-	(empty)	-	-	-	-	-	FpjJG01ZUIdNKfkZy9	text/html
+1337381473.630629	C2mxmKfcrazVFfth3	192.168.118.10	1031	95.168.173.156	80	1	GET	adfullserver.com	/assets/ga.js	http://adfullserver.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	33408	200	OK	-	-	-	(empty)	-	-	-	-	-	FQvEfGxxG7c4QDceh	text/plain
+1337381474.223595	CtUk4Wnn3SOdEUX4c	192.168.118.10	1032	95.168.173.156	80	1	GET	adfullserver.com	/assets/jquery.js	http://adfullserver.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	21172	200	OK	-	-	-	(empty)	-	-	-	-	-	F94fJF2SmVlKdjQJde	text/plain
+1337381474.736175	C9yZsO2XXLQDFtQcZc	192.168.118.10	1033	95.168.173.156	80	1	GET	adfullserver.com	/assets/interface.js	http://adfullserver.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	79402	200	OK	-	-	-	(empty)	-	-	-	-	-	FekOr41GMrfEBbRFS4	text/plain
+1337381475.777551	Co5KZn2uTDXezz8v3g	192.168.118.10	1034	95.168.173.156	80	1	GET	adfullserver.com	/assets/software_lp.js	http://adfullserver.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7755	200	OK	-	-	-	(empty)	-	-	-	-	-	FK2LRVKZQfaALpEc9	text/plain
+1337381476.131195	C4nYDzUP8eBQcUkv1	192.168.118.10	1040	95.168.173.156	80	1	GET	adfullserver.com	/assets/motif_bg.jpg	http://adfullserver.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	972	200	OK	-	-	-	(empty)	-	-	-	-	-	FZ9sNd2uU0Px3ctUYk	image/jpeg
+1337381476.378269	CJCKc50taHPvGqQn3	192.168.118.10	1041	95.168.173.156	80	1	GET	adfullserver.com	/assets/ajax-loader.gif	http://adfullserver.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2608	200	OK	-	-	-	(empty)	-	-	-	-	-	FtDnTq2bPZBghtAbv2	image/gif
+1337381476.123751	CMvIxk3A5LmImLZKT	192.168.118.10	1039	95.168.173.156	80	1	GET	adfullserver.com	/assets/xvid_bg2.jpg	http://adfullserver.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	167017	200	OK	-	-	-	(empty)	-	-	-	-	-	FTcQgi4Ndfe0YDyhif	image/jpeg
+1337381477.130748	CZEr7LgoVMrq5dNSc	192.168.118.10	1043	95.168.173.156	80	1	GET	adfullserver.com	/assets/xvid_mid2.jpg	http://adfullserver.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7312	200	OK	-	-	-	(empty)	-	-	-	-	-	FUOxhO1oFgJ72v7iY7	image/jpeg
+1337381477.482075	C3xDNo20aROFahvebc	192.168.118.10	1044	95.168.173.156	80	1	GET	adfullserver.com	/assets/player.jpg	http://adfullserver.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6674	200	OK	-	-	-	(empty)	-	-	-	-	-	FkCOCp4VVjaGHZehba	image/jpeg
+1337381477.812068	C2OzHN2zMl1k2nCqJ4	192.168.118.10	1045	95.168.173.156	80	1	GET	adfullserver.com	/assets/window_min.jpg	http://adfullserver.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	8932	200	OK	-	-	-	(empty)	-	-	-	-	-	FnokEu4R11LmUNnSZc	image/jpeg
+1337381478.174185	CtOjSCVNR0pwS5zQ3	192.168.118.10	1046	95.168.173.156	80	1	GET	adfullserver.com	/assets/window_max.jpg	http://adfullserver.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	9039	200	OK	-	-	-	(empty)	-	-	-	-	-	Ftkitz2n04j4tJDYpe	image/jpeg
+1337381478.536112	C2AGC31zTQLXTgxcxb	192.168.118.10	1047	95.168.173.156	80	1	GET	adfullserver.com	/assets/window_close.jpg	http://adfullserver.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	9098	200	OK	-	-	-	(empty)	-	-	-	-	-	Fn7SxG3EQZLZa0Vg1h	image/jpeg
+1337381478.882978	CUvfcH2Z89hg9u5kxd	192.168.118.10	1048	95.168.173.156	80	1	GET	adfullserver.com	/assets/window_resize.gif	http://adfullserver.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	56	200	OK	-	-	-	(empty)	-	-	-	-	-	F8Rv2VvkS1X7nDB3	image/gif
+1337381479.179107	CIXm6u3nzqimLRXFaf	192.168.118.10	1050	95.168.173.156	80	1	GET	adfullserver.com	/update.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4104	200	OK	-	-	-	(empty)	-	-	-	-	-	FAIwNA4W9enSwu8zWl	application/x-dosexec
+1337381476.637163	CwXXgV4PhOUuXbEc5	192.168.118.10	1042	95.168.173.156	80	1	GET	adfullserver.com	/assets/blank.gif	http://adfullserver.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-10-18-26

@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-47-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1349872201.390438	CYTu4C2hISz5utr7ce	192.168.79.10	1050	95.163.110.91	80	FzQiIa3YI5mm1GFK67	application/pdf	http://down.consumocuidado.com.co/r/pricelist.php	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 25%  Last seen: 2012-10-10 10:40:00	https://www.virustotal.com/en/search/?query=27dca103f849bb5698c5317da927fc4a19f77a6b	192.168.79.10	95.163.110.91	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-47-34

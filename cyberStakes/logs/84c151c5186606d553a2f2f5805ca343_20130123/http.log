@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-25-23
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1358929586.132756	Cdun2a25RK5HEi2Bp4	192.168.115.10	1030	93.170.52.31	80	1	GET	9515b.rwnimblecknh.tk	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1157	200	OK	-	-	-	(empty)	-	-	-	-	-	FiUqQ54AsLxjQVMQr2	text/html
+1358929587.023495	CMXuxv3nNMWtDbLb9k	192.168.115.10	1031	74.125.228.3	80	1	GET	www.google-analytics.com	/ga.js	http://9515b.rwnimblecknh.tk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	37362	200	OK	-	-	-	(empty)	-	-	-	-	-	FjRdvB2gRh5uzKhWY8	text/plain
+1358929587.072693	CrPgbS1UP7j9rtonE9	192.168.115.10	1032	208.131.138.217	80	1	GET	bawltu.consistory.net	/132.html	http://9515b.rwnimblecknh.tk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3194	200	OK	-	-	-	(empty)	-	-	-	-	-	FV2cX84P2kxMiHxhq6	text/html
+1358929587.126839	CMXuxv3nNMWtDbLb9k	192.168.115.10	1031	74.125.228.3	80	2	GET	www.google-analytics.com	/__utm.gif?utmwv=5.3.8&utms=1&utmn=1851923645&utmhn=9515b.rwnimblecknh.tk&utmcs=utf-8&utmsr=800x600&utmvp=796x475&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=10.0 r32&utmdt=Facebook.com: What's up? Check this out!&utmhid=235363122&utmr=-&utmp=/&utmac=UA-23441223-3&utmcc=__utma=1.2120844995.1358943868.1358943868.1358943868.1;+__utmz=1.1358943868.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);&utmu=qh~	http://9515b.rwnimblecknh.tk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	35	200	OK	-	-	-	(empty)	-	-	-	-	-	FmLSI84k7qPVO53kli	image/gif
+1358929587.141554	CpE6qGJfadOULJezk	192.168.115.10	1034	24.143.197.59	80	1	GET	fbstatic-a.akamaihd.net	/rsrc.php/v2/yX/x/Qq6L1haQrYr.png	http://bawltu.consistory.net/132.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2349	200	OK	-	-	-	(empty)	-	-	-	-	-	F5CYUh2ncMxLoir4o	image/png
+1358929587.186762	CyQhNC4MIsEMa90Xye	192.168.115.10	1033	208.131.138.217	80	1	GET	208.131.138.217	/imagedl.php	http://bawltu.consistory.net/132.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	36500	200	OK	-	-	-	(empty)	-	-	-	-	-	FX39bo4Sgl3SYA7cU1	application/x-dosexec
+#close	2014-04-03-10-25-23

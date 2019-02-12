@@ -1,0 +1,32 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-02-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1317235555.360381	CmFEkUAuhZGYROO87	192.168.125.10	1030	46.4.115.74	80	1	GET	camberly.in	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1077	200	OK	-	-	-	(empty)	-	-	-	-	-	FyPlGk1HgYNFNDpak8	text/html
+1317235555.608451	CXySDm1NlzazylPO26	192.168.125.10	1031	46.4.115.74	80	1	GET	camberly.in	/in.cgi?2	http://camberly.in/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	232	302	Found	-	-	-	(empty)	-	-	-	-	-	FLxcqj3triB48pz0k8	text/html
+1317235555.955211	CPGyOK1lRMVjmMhUCi	192.168.125.10	1032	91.217.153.109	80	1	GET	coamtun.in	/t/d02bdb91a3029ac1b554c45cc94c99bb	http://camberly.in/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	53078	200	OK	-	-	-	(empty)	-	-	-	-	-	FTW42zIxSAH0tLnK8	text/html
+1317235559.690238	CPGyOK1lRMVjmMhUCi	192.168.125.10	1032	91.217.153.109	80	2	GET	coamtun.in	/f/83578d3c060c5b585bbe8489337e8923/5	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	90112	200	OK	-	-	-	(empty)	-	-	-	-	-	FBXIPu1xUZtXXbLmFe	application/x-dosexec
+1317235561.62688	CPGyOK1lRMVjmMhUCi	192.168.125.10	1032	91.217.153.109	80	3	GET	coamtun.in	/images/t/83578d3c060c5b585bbe8489337e8923.html	http://coamtun.in/t/d02bdb91a3029ac1b554c45cc94c99bb	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	884	200	OK	-	-	-	(empty)	-	-	-	-	-	FWwSZNfOv2ZNNHqq8	text/html
+1317235563.023643	Cd2CMS3sFqyUBbcDaa	192.168.125.10	1042	91.217.153.109	80	1	GET	coamtun.in	/images/np/83578d3c060c5b585bbe8489337e8923.pdf	http://coamtun.in/t/d02bdb91a3029ac1b554c45cc94c99bb	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4103	200	OK	-	-	-	(empty)	-	-	-	-	-	FEyjPk33FT9l3r3Tkb	application/pdf
+1317235568.114202	CKujU22ntAzShRCIv8	192.168.125.10	1043	91.217.153.109	80	1	GET	coamtun.in	/images/np/83578d3c060c5b585bbe8489337e8923.pdf	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4099	200	OK	-	-	-	(empty)	-	-	-	-	-	Fndp5e2J3aMrEsfIP3	application/pdf
+1317235568.928764	CASMSa4gnEoIzqFFZj	192.168.125.10	1045	31.31.74.37	80	1	POST	willbefine.com.tw	/admin/data	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	712	3	200	OK	-	-	-	(empty)	-	-	-	FimZwa42g0SmgCmXs1,FRdiLc3wI58zrrcAq3,FgCLXi2zEHVjvzgvDb,F1fdck3mFtL3Q6WwKc	text/plain,text/plain,text/plain,text/plain	FHwHi111oMQCLmOzgj	text/plain
+1317235569.334416	CASMSa4gnEoIzqFFZj	192.168.125.10	1045	31.31.74.37	80	2	POST	willbefine.com.tw	/admin/cmd	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	64	0	200	OK	-	-	-	(empty)	-	-	-	FmQke44XZpAdYpDKf	text/plain	-	-
+1317235568.929157	CiXJ1q4mdQ5xsxtzHc	192.168.125.10	1044	31.31.74.37	80	1	POST	willbefine.com.tw	/admin/alive	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	64	40317	200	OK	-	-	-	(empty)	-	-	-	FbfnR313Ae7ro9GEvc	text/plain	Fbgrny1iqpB3VTSWHa	binary
+1317235573.643954	Ch1T0x2Pefkdfa5Wyb	192.168.125.10	1046	91.217.153.109	80	1	GET	coamtun.in	/f/83578d3c060c5b585bbe8489337e8923/1	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	90112	200	OK	-	-	-	(empty)	-	-	-	-	-	F2NvMy1bDnkPXjaih9	application/x-dosexec
+1317235584.203602	Cf6aCU25zNyT3u8O42	192.168.125.10	1047	91.217.153.68	80	1	OPTIONS	91.217.153.68	/	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317235584.335247	Cf6aCU25zNyT3u8O42	192.168.125.10	1047	91.217.153.68	80	2	PROPFIND	91.217.153.68	/smb	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	408	405	Method Not Allowed	-	-	-	(empty)	-	-	-	-	-	FEnHuz28Z4mUbkG1Zg	text/html
+1317235596.005215	CZWrL1yreKKCjDm91	192.168.125.10	1048	91.217.153.109	80	1	GET	coamtun.in	/images/9943dc5c225a029f1692ff2b1810a356.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5373	200	OK	-	-	-	(empty)	-	-	-	-	-	FMzdamCKpQToHOKlb	application/jar
+1317235596.002892	C3jZlq4ZhexajUg8Kl	192.168.125.10	1049	91.217.153.95	80	1	GET	1540987231	/fbere3.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3742	200	OK	-	-	-	(empty)	-	-	-	-	-	FyxKBn37MItrK4Di8f	application/x-java-applet
+1317235596.006118	C3HsEnM91ZhtAkfa1	192.168.125.10	1050	91.217.153.95	80	1	GET	1540987231	/fbere3.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3742	200	OK	-	-	-	(empty)	-	-	-	-	-	F312wn36P3W6YrHgtc	application/x-java-applet
+1317235596.004459	CiC7zV2cFcEOo0ONCc	192.168.125.10	1053	91.217.153.95	80	1	GET	1540987231	/fbere3.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3742	200	OK	-	-	-	(empty)	-	-	-	-	-	F7OFrp2AZw2RV1Idej	application/x-java-applet
+1317235596.00727	C0pVtx24wquUB5dzVj	192.168.125.10	1054	91.217.153.95	80	1	GET	1540987231	/fbere3.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3742	200	OK	-	-	-	(empty)	-	-	-	-	-	F3LfLQ3Fk8I91WTfNk	application/x-java-applet
+1317235596.008321	CKZCUmnfhO7d11V72	192.168.125.10	1051	91.217.153.95	80	1	GET	1540987231	/fbere3.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3742	200	OK	-	-	-	(empty)	-	-	-	-	-	Fz9gha3mXW61PWMxVl	application/x-java-applet
+1317235596.013034	CyttE1FimsuyCc3xb	192.168.125.10	1052	91.217.153.95	80	1	GET	1540987231	/fbere3.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3742	200	OK	-	-	-	(empty)	-	-	-	-	-	F9Cu150wjpvorqe9d	application/x-java-applet
+1317235596.271127	CZWrL1yreKKCjDm91	192.168.125.10	1048	91.217.153.109	80	2	GET	coamtun.in	/images/9943dc5c225a029f1692ff2b1810a356.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5373	200	OK	-	-	-	(empty)	-	-	-	-	-	FKz0Qw2B70SKZnMwO9	application/jar
+1317235601.043892	CBmwYb4NZ1CIfANuz8	192.168.125.10	1055	91.217.153.109	80	1	GET	coamtun.in	/images/9943dc5c225a029f1692ff2b1810a356.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5373	200	OK	-	-	-	(empty)	-	-	-	-	-	FnlnB93g8yo7qgyOS2	application/jar
+1317235601.336777	CBmwYb4NZ1CIfANuz8	192.168.125.10	1055	91.217.153.109	80	2	GET	coamtun.in	/f/83578d3c060c5b585bbe8489337e8923/3	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	90112	200	OK	-	-	-	(empty)	-	-	-	-	-	FEGeTD4AwSRkvlnqXk	application/x-dosexec
+#close	2014-04-03-11-02-46

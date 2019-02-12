@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-00-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1313177620.81611	CDJY4gcYAtxPnuJRh	192.168.45.10	1029	4.2.2.3	53	udp	50572	www.vittoriastatues.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.113.134.13	14377.000000	F
+1313177621.077486	CDJY4gcYAtxPnuJRh	192.168.45.10	1029	4.2.2.3	53	udp	56973	adorabletots.co.uk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	87.106.167.142	43200.000000	F
+1313177621.421231	CDJY4gcYAtxPnuJRh	192.168.45.10	1029	4.2.2.3	53	udp	8845	solnechnozdes.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.236.137.192	43200.000000	F
+1313177622.142645	CTywAm4d0MYFGl71a9	192.168.45.10	1036	4.2.2.3	53	udp	22152	counter.yadro.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	88.212.196.103,88.212.196.104,88.212.196.105,88.212.196.66,88.212.196.69,88.212.196.77,88.212.196.101,88.212.196.102	108.000000,108.000000,108.000000,108.000000,108.000000,108.000000,108.000000,108.000000	F
+1313177622.140383	CDJY4gcYAtxPnuJRh	192.168.45.10	1029	4.2.2.3	53	udp	51599	nlwelar4.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.193.72.64	43200.000000	F
+#close	2014-04-03-11-00-32

@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-50-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1375270267.139774	CUFjtO2RHZgjocoGEi	192.168.27.10	1035	4.2.2.3	53	udp	62606	kolplay.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	107.21.100.111	60.000000	F
+1375270267.511519	CUFjtO2RHZgjocoGEi	192.168.27.10	1035	4.2.2.3	53	udp	28559	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.224.195,74.125.224.196,74.125.224.199,74.125.224.193,74.125.224.197,74.125.224.194,74.125.224.206,74.125.224.201,74.125.224.198,74.125.224.200,74.125.224.192	17601.000000,280.000000,280.000000,280.000000,280.000000,280.000000,280.000000,280.000000,280.000000,280.000000,280.000000,280.000000	F
+1375270267.514188	CCiM2j1FXfg5Jns5E	192.168.27.10	1037	4.2.2.3	53	udp	53389	i.imgur.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cf-ssl11496-protected-i.imgur.com,103.31.7.32,103.31.6.32,103.31.7.35,103.31.6.33,103.31.7.31,103.31.6.35,103.31.6.34,103.31.6.184,103.31.7.184,103.31.7.34,103.31.7.33,103.31.6.36	2.000000,190.000000,190.000000,190.000000,190.000000,190.000000,190.000000,190.000000,190.000000,190.000000,190.000000,190.000000,190.000000	F
+#close	2014-04-03-10-50-09

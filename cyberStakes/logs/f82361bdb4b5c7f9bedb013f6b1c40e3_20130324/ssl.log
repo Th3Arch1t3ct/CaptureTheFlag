@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-18-27
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1364096149.070626	Csfc4v2SOtA82wOAR9	192.168.34.10	1116	173.252.110.27	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.facebook.com,O=Facebook\, Inc.,L=Palo Alto,ST=California,C=US	OU=www.verisign.com/CPS Incorp.by Ref. LIABILITY LTD.(c)97 VeriSign,OU=VeriSign International Server CA - Class 3,OU=VeriSign\, Inc.,O=VeriSign Trust Network	1340254800.000000	1388555999.000000	-	-	-	f10b4102a78b5894231109d6d3fbeeb5	ok
+1364096149.22424	CcXiYh2Igb44T29vb6	192.168.34.10	1119	23.23.171.224	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.truste.com,O=True Ultimate Standards Everywhere\, Inc.,L=San Francisco,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1327298400.000000	1422079199.000000	-	-	-	75c6308ffb77ea6550ef41d826eeeeee	ok
+1364096149.412406	CH0OCj1muJZPsbK6hg	192.168.34.10	1122	23.23.171.224	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	9c88ebe850e5762ab0ba8b1f04d446c2fba3828045072bb98b29c15967ce7d60	-	-	-	-	-	-	-	-	-
+1364096150.811908	CWC2kb3iN9kVLL02x7	192.168.34.10	1156	23.23.171.224	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	9c88ebe850e5762ab0ba8b1f04d446c2fba3828045072bb98b29c15967ce7d60	-	-	-	-	-	-	-	-	-
+1364096150.932204	CPOFBL29jRrFfCBAY3	192.168.34.10	1161	23.23.171.224	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	9c88ebe850e5762ab0ba8b1f04d446c2fba3828045072bb98b29c15967ce7d60	-	-	-	-	-	-	-	-	-
+1364096152.107589	CPKlzN1UCxDkQGEPOi	192.168.34.10	1169	23.23.171.224	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	9c88ebe850e5762ab0ba8b1f04d446c2fba3828045072bb98b29c15967ce7d60	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-18-28

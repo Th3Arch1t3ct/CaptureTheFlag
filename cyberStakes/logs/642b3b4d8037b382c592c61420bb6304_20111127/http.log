@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-35-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1322418590.847605	Cl36U6MkDGJqscM18	192.168.60.10	1030	109.236.82.74	80	1	GET	redirportal5.info	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	235	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	F5LwyN2Vbo5y4vfPj4	text/html
+1322418591.052714	CEts2t2ES7dFrJSEqd	192.168.60.10	1031	109.236.82.77	80	1	GET	aeroclub6.in	/?site=5	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	152	200	OK	-	-	-	(empty)	-	-	-	-	-	FeEo513I07Tu9a539h	text/html
+1322418592.796323	CopPMi1W0RPJECOV3h	192.168.60.10	1032	109.236.82.77	80	1	GET	aeroclub6.in	/?0bbc22ed983f77268baaaa7479ba4238	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3992	200	OK	-	-	-	(empty)	-	-	-	-	-	FQAryD4dU9S5GL1Oc6	application/jar
+1322418593.018477	CGEvU14hfUW4FrDPJ4	192.168.60.10	1037	109.236.82.77	80	1	GET	aeroclub6.in	/?0bbc22ed983f77268baaaa7479ba4238	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3992	200	OK	-	-	-	(empty)	-	-	-	-	-	FUVHEs1j21LwC9qw44	application/jar
+1322418593.285795	CwbDuk4pH7rAZbZ3cl	192.168.60.10	1038	109.236.82.77	80	1	GET	aeroclub6.in	/?0bbc22ed983f77268baaaa7479ba4238	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3992	200	OK	-	-	-	(empty)	-	-	-	-	-	FqLpCWoQwfuXugng9	application/jar
+1322418593.562858	CUFvLPpEctPyiPRLe	192.168.60.10	1039	109.236.82.77	80	1	GET	aeroclub6.in	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Fg7h5q34cHq9j40Hfl	text/html
+1322418593.769855	CO67qb2P7SDKlXsTq9	192.168.60.10	1040	109.236.82.77	80	1	GET	aeroclub6.in	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FPAWcN3g3Z68yza5nf	text/html
+1322418593.987049	CaMfpl3UkFEn3qoOmk	192.168.60.10	1041	109.236.82.77	80	1	GET	aeroclub6.in	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FYZeLB1IT8ie4Mzaz7	text/html
+1322418594.193501	CvmXPZWr93fqefAQ3	192.168.60.10	1042	109.236.82.77	80	1	GET	aeroclub6.in	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FHZYCijth5XbuI6dc	text/html
+1322418594.569322	C7Ow7x4cFrkkBRL78a	192.168.60.10	1043	109.236.82.77	80	1	GET	aeroclub6.in	/?3c404e03fe5da738e87704e173efadda	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	151552	200	OK	-	-	-	(empty)	-	-	-	-	-	FeBpZi4IPox5keuseb	application/x-dosexec
+1322418601.803107	CXYVlZ1EiJegoFCcOb	192.168.60.10	1044	87.251.154.28	80	1	POST	ecommerceone.ru	/control/config.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	73	69772	200	OK	-	-	-	(empty)	-	-	-	FaVSN52jDLfyMq65fj	text/plain	FQhv6WqMagqw4pK79	binary
+1322418631.947475	CzuX5H2IfbIn3uwwB1	192.168.60.10	1045	74.125.47.105	80	1	GET	www.google.com	/webhp	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	20997	200	OK	-	-	-	(empty)	-	-	-	-	-	Ff2mIt2Ns9kdBV1357	text/html
+1322418632.120162	C11HjH3GCel44KT49i	192.168.60.10	1046	87.251.154.28	80	1	POST	ecommerceone.ru	/zzz/gate.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	294	64	200	OK	-	-	-	(empty)	-	-	-	FobWiE2ML74hF91Vih	binary	Fobpvw2vQWtTJT5zU9	binary
+#close	2014-04-03-10-35-53

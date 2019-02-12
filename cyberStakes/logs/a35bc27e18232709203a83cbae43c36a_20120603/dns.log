@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-32-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1338690292.914534	C0qHal1tYyxpqcjTYj	192.168.63.10	1029	4.2.2.3	53	udp	29841	alwayssafeandhealthy.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.63.72.1	3573.000000	F
+1338690293.308944	C0qHal1tYyxpqcjTYj	192.168.63.10	1029	4.2.2.3	53	udp	31378	www.alwayssafeandhealthy.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	alwayssafeandhealthy.com,50.63.72.1	3574.000000,3572.000000	F
+1338690293.722846	C0qHal1tYyxpqcjTYj	192.168.63.10	1029	4.2.2.3	53	udp	8339	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,173.194.79.95	2477.000000,64.000000	F
+1338690294.725756	C0qHal1tYyxpqcjTYj	192.168.63.10	1029	4.2.2.3	53	udp	916	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.127.139,74.125.127.100,74.125.127.101,74.125.127.102,74.125.127.113,74.125.127.138	5510.000000,250.000000,250.000000,250.000000,250.000000,250.000000,250.000000	F
+1338690295.542609	C0qHal1tYyxpqcjTYj	192.168.63.10	1029	4.2.2.3	53	udp	17300	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,63.235.28.176,63.235.28.177	25478.000000,115.000000,14450.000000,16.000000,16.000000	F
+1338690296.519364	C0qHal1tYyxpqcjTYj	192.168.63.10	1029	4.2.2.3	53	udp	20116	www.daysofyorr.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	daysofyorr.com,50.28.53.156	300.000000,300.000000	F
+1338690310.505308	C0qHal1tYyxpqcjTYj	192.168.63.10	1029	4.2.2.3	53	udp	61332	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.127.106,74.125.127.147,74.125.127.99,74.125.127.103,74.125.127.104,74.125.127.105	5493.000000,133.000000,133.000000,133.000000,133.000000,133.000000,133.000000	F
+#close	2014-04-03-10-32-50

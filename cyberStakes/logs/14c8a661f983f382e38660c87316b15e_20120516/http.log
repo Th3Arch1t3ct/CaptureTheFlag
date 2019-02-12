@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-11-42
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1337135966.757085	CI6Rbt1vqSY8QAWLqi	192.168.80.10	1030	98.139.135.22	80	1	GET	gograbbit.org	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	286	200	OK	-	-	-	(empty)	-	-	-	-	-	Ffs04U3EXdPKrblwgh	text/html
+1337135967.039583	CQ5eq04pK6GOMQ7z66	192.168.80.10	1031	98.139.135.22	80	1	GET	terjet.biz	/klivcsdqxvgoklcpf.php	http://gograbbit.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7699	200	OK	-	-	-	(empty)	-	-	-	-	-	FoRFNh2hSzRnLKqvl2	text/html
+1337135971.411815	CO7rLaPniGaBE1qLc	192.168.80.10	1036	98.139.135.22	80	1	GET	terjet.biz	/gziudoirjwgrau8.pdf	http://terjet.biz/klivcsdqxvgoklcpf.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	12947	200	OK	-	-	-	(empty)	-	-	-	-	-	FspaeKt3DISUbykP8	application/pdf
+1337135972.038875	CgSLtN2dWwXuNXK9bg	192.168.80.10	1037	98.139.135.22	80	1	GET	terjet.biz	/hsg.php?i=15	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	175104	200	OK	-	-	-	(empty)	-	-	-	-	-	FMsrlySM00TfjT3rg	application/x-dosexec
+1337135982.629616	CG7nUd3NnHT3dfjCV3	192.168.80.10	1038	98.139.135.22	80	1	GET	terjet.biz	/hsg.php?i=8	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	175104	200	OK	-	-	-	(empty)	-	-	-	-	-	F9HDofTqF0ODFc5Tg	application/x-dosexec
+1337135984.370876	CoSWRc2D7jsGAlNVGj	192.168.80.10	1041	98.139.135.22	80	1	GET	terjet.biz	/izfoxlglfnhvg.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	9722	200	OK	-	-	-	(empty)	-	-	-	-	-	FtpOan254CkfPRNRP5	application/zip
+1337135984.367352	COBhOg4VJLyxLcFUme	192.168.80.10	1042	98.139.135.22	80	1	GET	terjet.biz	/xzklelfrktaucsb.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18799	200	OK	-	-	-	(empty)	-	-	-	-	-	FegNb9ptKPIcsuTj9	application/zip
+1337135987.774664	Cg1Ws41oMWNc7jiUCd	192.168.80.10	1044	98.139.135.22	80	1	GET	terjet.biz	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	73	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Flbf483QwDeAydHqD5	text/plain
+1337135987.98731	ChhOKG2wdm8KsXK4i1	192.168.80.10	1045	98.139.135.22	80	1	GET	terjet.biz	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	73	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FSi0Kct8YsGXP7dN9	text/plain
+1337135987.140417	CY1Zp83VuWxCkWuoI4	192.168.80.10	1043	98.139.135.22	80	1	GET	terjet.biz	/hsg.php?i=6&f=c0af9&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	175104	200	OK	-	-	-	(empty)	-	-	-	-	-	FXPQva4y1S6Owey8s7	application/x-dosexec
+1337135988.208074	C9lMT32f5r2f446C6	192.168.80.10	1046	98.139.135.22	80	1	GET	terjet.biz	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	73	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Fz0db9WJ7WyIpnbi3	text/plain
+1337135989.84986	CZe7ic1WyeJw5tkXWi	192.168.80.10	1047	98.139.135.22	80	1	GET	terjet.biz	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	73	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Fp2jlb17apTsE1waJb	text/plain
+1337135990.48726	CV4N9P36Wu4LG4qso7	192.168.80.10	1048	98.139.135.22	80	1	GET	terjet.biz	/hsg.php?i=3&f=c0af9&e=0	-	Java/1.6.0_10	0	175104	200	OK	-	-	-	(empty)	-	-	-	-	-	FznSKeoEJme2eqw56	application/x-dosexec
+1337135983.778945	CAnfQq49ZfV8POGr2a	192.168.80.10	1040	188.162.10.19	80	1	POST	stopwell.org	/file.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	127	108640	200	OK	-	-	-	(empty)	-	-	-	FdopCw4EZcwUiBWZHf	binary	FrQn1C4KP35ACIag2i	binary
+1337136013.528126	CdpUzJ3QbZuYtUjXsb	192.168.80.10	1049	74.125.71.104	80	1	GET	www.google.com	/webhp	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	23992	200	OK	-	-	-	(empty)	-	-	-	-	-	FSgCQyhd5QMoX6cJ1	text/html
+1337136013.727581	CX7lDw2Ol1p6Z049J1	192.168.80.10	1050	188.162.10.19	80	1	POST	stopwell.org	/gate.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	621	64	200	OK	-	-	-	(empty)	-	-	-	FvSmxKHNkYkfD9mha	binary	FXPCoYGzxZAiU32Xj	binary
+1337136015.141693	CX7lDw2Ol1p6Z049J1	192.168.80.10	1050	188.162.10.19	80	2	POST	stopwell.org	/gate.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	342	64	200	OK	-	-	-	(empty)	-	-	-	FSoOKp2Pgp9klqldRc	binary	FxiRlU2Gy15oHHvGOg	binary
+1337135983.782077	CuGE7P1lRDjXYiXsQl	192.168.80.10	1039	188.162.10.19	80	1	POST	stopwell.org	/file.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	128	364109	200	OK	-	-	-	(empty)	-	-	-	FMprA23usiEhn2Y7a4	binary	Fwrdb34qkSukHfOZHc	binary
+#close	2014-04-03-11-11-42

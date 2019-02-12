@@ -1,0 +1,42 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-19-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1337375294.680777	CoyGH719WSo0BL5GOd	192.168.61.10	1030	98.139.134.174	80	1	GET	nuwavetrends.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	11862	200	OK	-	-	-	(empty)	-	-	-	-	-	F5CT781u8Gyuke8f8	text/html
+1337375295.752832	C8VPqW2AyCoLZPaUma	192.168.61.10	1031	84.247.61.25	80	1	GET	pornvvid.com	/secure/?1	http://nuwavetrends.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1337375296.318739	CXckWc2fLZCMmHqetk	192.168.61.10	1032	178.162.182.136	80	1	GET	178.162.182.136	/35043578.html	http://nuwavetrends.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	236	200	OK	-	-	-	(empty)	-	-	-	-	-	FYzkau2TqeMy4cOiEf	text/html
+1337375298.281445	CpLIqZUuua7D0KlT5	192.168.61.10	1037	178.162.182.136	80	1	GET	178.162.182.136	/24842.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	102795	200	OK	-	-	-	(empty)	-	-	-	-	-	FBHquHtvHQTjvDMW1	application/zip
+1337375299.193876	CpLIqZUuua7D0KlT5	192.168.61.10	1037	178.162.182.136	80	2	GET	178.162.182.136	/24842.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	102795	200	OK	-	-	-	(empty)	-	-	-	-	-	FSJLdf3OV85RzfyCp1	application/zip
+1337375299.739369	CpLIqZUuua7D0KlT5	192.168.61.10	1037	178.162.182.136	80	3	GET	178.162.182.136	/24842.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	102795	200	OK	-	-	-	(empty)	-	-	-	-	-	Fs4KDr3oXfBn4i6Wdf	application/zip
+1337375300.18008	CpLIqZUuua7D0KlT5	192.168.61.10	1037	178.162.182.136	80	4	GET	178.162.182.136	/1.html	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	52224	200	OK	-	-	-	(empty)	-	-	-	-	-	FvSgiFHNUb8zHldl7	application/x-dosexec
+1337375309.244132	Ca571S2WDePkyusYR	192.168.61.10	1038	74.125.130.138	80	1	GET	google.com	/	http://nuwavetrends.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	219	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	Frr7ph3RKpsvjOQdlb	text/html
+1337375309.277606	CNu4VbxsGlUvXWf2i	192.168.61.10	1039	74.125.139.106	80	1	GET	www.google.com	/	http://nuwavetrends.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	23290	200	OK	-	-	-	(empty)	-	-	-	-	-	FMcafp1ZoJibsVTE1e	text/html
+1337375311.096811	CON1LQ3Hz43G3QA5R6	192.168.61.10	1040	178.162.157.242	80	1	GET	178.162.157.242	/492246.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	135168	200	OK	-	-	-	(empty)	-	-	-	-	-	FauCMg1ZxoPvkTybSa	binary
+1337375312.24488	CON1LQ3Hz43G3QA5R6	192.168.61.10	1040	178.162.157.242	80	2	GET	178.162.157.242	/492246.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	161280	200	OK	-	-	-	(empty)	-	-	-	-	-	FRnorl3nramFeg5Ny3	binary
+1337375313.30337	CON1LQ3Hz43G3QA5R6	192.168.61.10	1040	178.162.157.242	80	3	GET	178.162.157.242	/492246.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	434176	200	OK	-	-	-	(empty)	-	-	-	-	-	FxQB7B2BaStncG1Dv1	binary
+1337375315.319587	CON1LQ3Hz43G3QA5R6	192.168.61.10	1040	178.162.157.242	80	4	GET	178.162.157.242	/492246.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	109568	200	OK	-	-	-	(empty)	-	-	-	-	-	FtfUJorlnT2kxEL58	binary
+1337375315.795737	CON1LQ3Hz43G3QA5R6	192.168.61.10	1040	178.162.157.242	80	5	GET	178.162.157.242	/492246.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	28640	200	OK	-	-	-	(empty)	-	-	-	-	-	F1MEbk1yNS5U1kwnBf	binary
+1337375316.012287	CON1LQ3Hz43G3QA5R6	192.168.61.10	1040	178.162.157.242	80	6	GET	178.162.157.242	/492246.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	388674	200	OK	-	-	-	(empty)	-	-	-	-	-	FpNTXGa5s0vUmPfD6	binary
+1337375316.968133	CON1LQ3Hz43G3QA5R6	192.168.61.10	1040	178.162.157.242	80	7	GET	178.162.157.242	/492246.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	156672	200	OK	-	-	-	(empty)	-	-	-	-	-	FovFD14sedU5SQFsak	binary
+1337375317.605653	CON1LQ3Hz43G3QA5R6	192.168.61.10	1040	178.162.157.242	80	8	GET	178.162.157.242	/492246.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	666	200	OK	-	-	-	(empty)	-	-	-	-	-	FGoquz1b28i1dm8zmi	binary
+1337375323.678733	CvKagM2XTCoORd8g7	192.168.61.10	1041	78.83.177.244	80	1	GET	exchangeservices.org	/j_secure_check/lma.bin	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	61613	200	OK	-	-	-	(empty)	-	-	-	-	-	F9utOO3d6k8wgq2uFd	binary
+1337375327.986935	CchK81ehlK98YgiFi	192.168.61.10	1042	78.140.131.157	80	1	GET	11t3bi7.cdn35.downloadsconsulting.com	/file/id=AgAgAAEAuOMAAAEFCBcAAAAAAAAAAAAAAAAAAAAjDAUSCwAAAGdDO2jhESehrLhvgiZvmW8AAFVVVVVVVVVVVVVVVVVVVVVbNc0BlN9vqCveAABVd3Vtc219Y29lczMyaGc4Zzg4AkaTNQrd_hNvNFYA&rt=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1337375328.855581	CU1r8s2YIyKs4fma28	192.168.61.10	1044	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	28	200	OK	-	-	-	(empty)	-	-	-	-	-	FqXFbr2YKSkqM5HMJ3	text/plain
+1337375328.941049	C9FzuI1RAjn4Iz9frh	192.168.61.10	1045	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	303	200	OK	-	-	-	(empty)	-	-	-	-	-	Fiw5bb1ZKA5qkBuCb4	image/gif
+1337375328.957383	Cl1mUlK3aEa5Huvgc	192.168.61.10	1047	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=2&d=7&s=121	-	Opera/9 (Windows NT 5.1; US; x86)	0	689	200	OK	-	-	-	(empty)	-	-	-	-	-	FJVOl84mrNFQsKgClh	image/gif
+1337375329.226125	CoWwrA1AgNKrP9fYvg	192.168.61.10	1049	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=3&d=7&s=130	-	Opera/9 (Windows NT 5.1; US; x86)	0	714	200	OK	-	-	-	(empty)	-	-	-	-	-	FIRjy21bleZH8XcrEi	image/gif
+1337375329.33097	CWV7urtgVrkNFoa99	192.168.61.10	1051	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=4&d=7&s=131	-	Opera/9 (Windows NT 5.1; US; x86)	0	2080	200	OK	-	-	-	(empty)	-	-	-	-	-	FwJ4Ht1jb3hqkpDgP3	image/gif
+1337375329.409918	CRTL7h3Js7s850zS53	192.168.61.10	1053	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=5&d=7&s=1	-	Opera/9 (Windows NT 5.1; US; x86)	0	1522	200	OK	-	-	-	(empty)	-	-	-	-	-	FW1clcCXuvTqGjQj1	image/gif
+1337375329.642832	CdR4AC4uFl2HCfTop8	192.168.61.10	1055	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=6&d=7&s=20	-	Opera/9 (Windows NT 5.1; US; x86)	0	582	200	OK	-	-	-	(empty)	-	-	-	-	-	FPisud7sYud7BiFu4	image/gif
+1337375331.754994	CGmWRC2HpCGa8qQCt7	192.168.61.10	1061	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=7&d=7&s=21	-	Opera/9 (Windows NT 5.1; US; x86)	0	1039	200	OK	-	-	-	(empty)	-	-	-	-	-	FJiatp3q2dZ2lIsK6l	image/gif
+1337375332.079458	CUhady3bDbUt9P8fc2	192.168.61.10	1064	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=8&d=7&s=30	-	Opera/9 (Windows NT 5.1; US; x86)	0	2184	200	OK	-	-	-	(empty)	-	-	-	-	-	FbwZuf28lKOXOS8lM2	image/gif
+1337375332.124598	Cj7JVp2mDU2hnnURV7	192.168.61.10	1066	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=9&d=7&s=31	-	Opera/9 (Windows NT 5.1; US; x86)	0	623	200	OK	-	-	-	(empty)	-	-	-	-	-	FduRFA3CvqhSb6i342	image/gif
+1337375331.248945	C7RqzRFEbnTo12eel	192.168.61.10	1058	220.164.140.246	80	1	GET	220.164.140.246	/api/urls/?ts=e49e44e&affid=56300	220.164.140.246	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	0	404	NOT FOUND	-	-	-	(empty)	-	-	-	-	-	-	-
+1337375332.009527	CIOJyw4mTVP1r9d9ic	192.168.61.10	1060	220.164.140.246	80	1	GET	220.164.140.246	/api/stats/install/?ts=e49e44e&affid=56300&ver=3040003&group=sf	220.164.140.246	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1337375354.131216	COFg8Y3iD7EAvTK1X5	192.168.61.10	1074	74.125.139.106	80	1	GET	www.google.com	/webhp	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	23509	200	OK	-	-	-	(empty)	-	-	-	-	-	FJ31jy3saqWJhhJVvd	text/html
+1337375360.537696	C4nCpg1zFvzTNBKNvd	192.168.61.10	1076	74.125.139.106	80	1	GET	www.google.com	/webhp	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	23454	200	OK	-	-	-	(empty)	-	-	-	-	-	Fu0qpn9fpDDlUShxc	text/html
+#close	2014-04-03-10-19-56

@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-14-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1348336050.768922	CehTAb2WFTIUkMMYE9	192.168.63.10	1029	4.2.2.3	53	udp	22405	jmillerstudios.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.168.229.128	3575.000000	F
+1348336055.47443	CehTAb2WFTIUkMMYE9	192.168.63.10	1029	4.2.2.3	53	udp	10373	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.134.95	2136.000000,252.000000	F
+1348336056.740413	CehTAb2WFTIUkMMYE9	192.168.63.10	1029	4.2.2.3	53	udp	7556	fonts.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.134.95	457.000000,251.000000	F
+1348336056.755491	CehTAb2WFTIUkMMYE9	192.168.63.10	1029	4.2.2.3	53	udp	41862	themes.googleusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlehosted.l.googleusercontent.com,74.125.134.132	35529.000000,188.000000	F
+1348336056.776395	CehTAb2WFTIUkMMYE9	192.168.63.10	1029	4.2.2.3	53	udp	31361	rlkofc.portrelay.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.47.192.46	31.000000	F
+1348336057.847295	CehTAb2WFTIUkMMYE9	192.168.63.10	1029	4.2.2.3	53	udp	47747	teenportfree.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.168.163.227	30.000000	F
+1348336058.299685	CehTAb2WFTIUkMMYE9	192.168.63.10	1029	4.2.2.3	53	udp	6530	qpx.nopwood.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	176.31.16.236	30.000000	F
+1348336065.563472	CehTAb2WFTIUkMMYE9	192.168.63.10	1029	4.2.2.3	53	udp	37516	ighklplong.gigatraff.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.225.54.218	3600.000000	F
+#close	2014-04-03-10-14-19

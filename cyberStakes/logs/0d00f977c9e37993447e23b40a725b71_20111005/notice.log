@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-21-01
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1317843691.561581	CSXezV20sOesQvNZEb	192.168.24.10	1035	95.211.160.73	80	Fsmvmi4cXQtlv9o997	application/x-dosexec	http://more.harlemcrossfit.com/b/1/95b4fe90a23a707c08c640fa3e3330bbeee7985604f9670089c5adb9f4770a30	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 42%  Last seen: 2011-12-13 02:07:37	https://www.virustotal.com/en/search/?query=98868049ef13abd336d68442e71c3abbd73fefcd	192.168.24.10	95.211.160.73	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1317843757.425842	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.24.10 scanned at least 25 unique hosts on port 21810/tcp in 1m5s	remote	192.168.24.10	-	21810	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-21-01

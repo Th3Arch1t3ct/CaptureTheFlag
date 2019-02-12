@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-50-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1313306017.65315	CT0y31Utan6aNv1fc	192.168.116.10	1030	70.32.68.208	80	1	GET	skullbit.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	289	302	Found	-	-	-	(empty)	-	-	-	-	-	FlseSYKfox4UPuvJ1	text/html
+1313306017.93153	CcxPbo3OwAFEpiSYE8	192.168.116.10	1031	91.193.72.63	80	1	GET	allowcompany.ru	/new/index.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	178	200	OK	-	-	-	(empty)	-	-	-	-	-	FHPbd1r8Q4oOuvMFg	text/html
+1313306018.161273	CcxPbo3OwAFEpiSYE8	192.168.116.10	1031	91.193.72.63	80	2	GET	allowcompany.ru	/new/index.php?rf=	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1313306018.782777	CFG5Hw1vV2B699etie	192.168.116.10	1032	95.163.66.180	80	1	GET	name-distribution.ru	/forum.php?tp=d3d5fd9c0b2ab73e	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	46299	200	OK	-	-	-	(empty)	-	-	-	-	-	FLU7NF3sjR5hqXjst5	text/html
+1313306021.632194	CFG5Hw1vV2B699etie	192.168.116.10	1032	95.163.66.180	80	2	GET	name-distribution.ru	/games/java_trust.php?f=17	http://name-distribution.ru/forum.php?tp=d3d5fd9c0b2ab73e	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3404	200	OK	-	-	-	(empty)	-	-	-	-	-	F4Tce8IL915jYPIea	text/html
+1313306022.200982	Cntybg2g2HbjtdvCb	192.168.116.10	1042	95.163.66.180	80	1	GET	name-distribution.ru	/k.php?f=17&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	947200	200	OK	-	-	-	(empty)	-	-	-	-	-	Fefvjh3kaztJarSKni	application/x-dosexec
+1313306028.579556	CFG5Hw1vV2B699etie	192.168.116.10	1032	95.163.66.180	80	3	GET	name-distribution.ru	/games/2fdp.php?f=17	http://name-distribution.ru/forum.php?tp=d3d5fd9c0b2ab73e	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	65033	200	OK	-	-	-	(empty)	-	-	-	-	-	F5Caw6ra0MWYCl5Mg	application/pdf
+1313306034.396137	C6SxVYqr84UcYIKWj	192.168.116.10	1043	95.163.66.180	80	1	GET	name-distribution.ru	/games/worms.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4979	200	OK	-	-	-	(empty)	-	-	-	-	-	FSsiMF4eeM0AobcTI8	application/zip
+1313306034.427002	CXxPix4JJION2gZSra	192.168.116.10	1045	74.53.28.98	80	1	GET	funnyteens.com	/images/s6.php?id=111	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2	200	OK	-	-	-	(empty)	-	-	-	-	-	FW1Kxd101ITy0dl7af	text/plain
+1313306034.406455	Cpoq764P0K3s1ETSC3	192.168.116.10	1044	91.193.72.70	80	1	GET	1539393606	/GSearch.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13172	200	OK	-	-	-	(empty)	-	-	-	-	-	F5SzPH3fHQaPmtgL5i	application/x-java-applet
+1313306035.350655	CBL9x03A6Uvw4NyC07	192.168.116.10	1047	95.163.66.180	80	1	GET	name-distribution.ru	/k.php?f=17&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	947200	200	OK	-	-	-	(empty)	-	-	-	-	-	Fo2XEaupHQpdlyMs	application/x-dosexec
+1313306035.331466	C88dMq1lvKRRdVDLGc	192.168.116.10	1046	95.163.66.180	80	1	GET	name-distribution.ru	/k.php?f=17&e=1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	947200	200	OK	-	-	-	(empty)	-	-	-	-	-	F7n6oT3cJ057tflzr8	application/x-dosexec
+1313306035.247926	CgwGXR18wdTtYdm28g	192.168.116.10	1048	205.234.129.135	80	1	GET	yazminx.com	/scripts/ss.php?id=111	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2	200	OK	-	-	-	(empty)	-	-	-	-	-	FFM1FG1vqzLFkLJ9Y2	text/plain
+1313306043.859341	CpfLlz2d3PQViO0Etf	192.168.116.10	1049	95.163.66.179	80	1	OPTIONS	95.163.66.179	/	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	166	405	Not Allowed	-	-	-	(empty)	-	-	-	-	-	FyJzLH1f4xSSfh3Glj	text/html
+1313306044.053545	C8QKEp2nmBRSvwxo58	192.168.116.10	1050	74.53.28.98	80	1	GET	funnyteens.com	/images/s6.php?id=111	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2	200	OK	-	-	-	(empty)	-	-	-	-	-	FrJj9R1iqAaGevMvVd	text/plain
+1313306044.586725	CdNF1W1Eg6w6WTQfqd	192.168.116.10	1051	205.234.129.135	80	1	GET	yazminx.com	/scripts/ss.php?id=111	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2	200	OK	-	-	-	(empty)	-	-	-	-	-	Fh9vys4vYwghLHf8G	text/plain
+1313306038.212801	Cntybg2g2HbjtdvCb	192.168.116.10	1042	95.163.66.180	80	2	GET	name-distribution.ru	/k.php?f=17&e=6	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	817285	200	OK	-	-	-	(empty)	-	-	-	-	-	Fsqaae7tsOqY3INC9	application/x-dosexec
+#close	2014-04-03-09-50-13

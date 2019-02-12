@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-52-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1350870032.226498	CeWdnH1xO82h4zJZy4	192.168.99.10	1029	4.2.2.3	53	udp	40337	soldepourfemme.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.64.189.114	14368.000000	F
+1350870032.62216	CeWdnH1xO82h4zJZy4	192.168.99.10	1029	4.2.2.3	53	udp	5008	brusyzhgod.ontheweb.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.235.8.175	21600.000000	F
+1350870034.23855	CeWdnH1xO82h4zJZy4	192.168.99.10	1029	4.2.2.3	53	udp	61075	augcktjsf.ontheweb.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.235.8.175	21600.000000	F
+#close	2014-04-03-10-52-10

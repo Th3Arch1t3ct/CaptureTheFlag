@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-52-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1362857820.654649	CsGRvf4t1JXqhNrlih	192.168.122.10	1029	4.2.2.3	53	udp	37779	grapeswpc.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.96.147.106	3600.000000	F
+1362857821.387631	CsGRvf4t1JXqhNrlih	192.168.122.10	1029	4.2.2.3	53	udp	14992	21.cedrictherealtor.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.246.102.250	3600.000000	F
+1362857832.503816	Cghc2uGJSc86DLvf8	192.168.122.10	1029	4.2.2.3	53	udp	51089	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,64.4.52.169	2896.000000,300.000000	F
+1362857832.705688	Cghc2uGJSc86DLvf8	192.168.122.10	1029	4.2.2.3	53	udp	26518	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,64.4.52.169	945.000000,600.000000	F
+1362857838.76463	Cghc2uGJSc86DLvf8	192.168.122.10	1029	4.2.2.3	53	udp	50071	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.d.akamai.net,107.14.43.201,107.14.43.209	27614.000000,226.000000,13557.000000,20.000000,20.000000	F
+1362857895.505056	CiQ8aH1CpBig22m67h	192.168.122.10	1029	4.2.2.3	53	udp	22420	wwwimages.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wwwimages.wip4.adobe.com,wwwimages.adobe.com.edgesuite.net,wwwimages.adobe.com.edgesuite.net.globalredir.akadns.net,a1953.x.akamai.net,107.14.44.24,107.14.44.19	39.000000,793.000000,5527.000000,794.000000,20.000000,20.000000	F
+#close	2014-04-03-09-52-33

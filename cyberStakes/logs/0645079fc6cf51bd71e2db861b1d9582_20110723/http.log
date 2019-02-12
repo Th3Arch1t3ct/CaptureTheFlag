@@ -1,0 +1,41 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-15-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1311421000.750436	CnbP5q3KPgLEPEzEr2	192.168.46.10	1034	64.120.165.117	80	1	GET	mmdor.ru	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13884	200	OK	-	-	-	(empty)	-	-	-	-	-	FvnBGH1W2DtHlwaIYb	text/html
+1311421000.873351	CCyBuM2ame6xgJfTdd	192.168.46.10	1035	64.120.165.117	80	1	GET	mmdor.ru	/css/style.css	http://mmdor.ru/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1645	200	OK	-	-	-	(empty)	-	-	-	-	-	FQA86q1sWgmewl7f6k	text/plain
+1311421000.905005	CZZEWjE4L5Ab5ocya	192.168.46.10	1036	64.120.165.117	80	1	GET	mmdor.ru	/images/b2.jpg	http://mmdor.ru/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	371	200	OK	-	-	-	(empty)	-	-	-	-	-	FwUilc3LOwkgSu1E5a	image/jpeg
+1311421000.984094	CLrQ9b2Lvipmr3io0i	192.168.46.10	1038	64.120.165.117	80	1	GET	mmdor.ru	/images/1.jpg	http://mmdor.ru/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4725	200	OK	-	-	-	(empty)	-	-	-	-	-	FRhXwRYNO3zwQkhC7	image/jpeg
+1311421000.977005	C21l8q4q0cHsVCUDGl	192.168.46.10	1037	64.120.165.117	80	1	GET	mmdor.ru	/images/b1.jpg	http://mmdor.ru/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	11761	200	OK	-	-	-	(empty)	-	-	-	-	-	FPoq6y2Egc5RRDUFI2	image/jpeg
+1311421001.061469	CaS5oE15ldT4jX28x7	192.168.46.10	1039	64.120.165.117	80	1	GET	mmdor.ru	/images/4.jpg	http://mmdor.ru/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4614	200	OK	-	-	-	(empty)	-	-	-	-	-	FtKFTv239SKZvEqxxl	image/jpeg
+1311421001.147343	C7gu6wL3Spob2Q1w1	192.168.46.10	1041	64.120.165.117	80	1	GET	mmdor.ru	/images/b3.png	http://mmdor.ru/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	263	200	OK	-	-	-	(empty)	-	-	-	-	-	FvUIWy3ojbPCp2CTSh	image/png
+1311421001.061215	CBr8b24B1Hg3Pc872d	192.168.46.10	1040	64.120.165.117	80	1	GET	mmdor.ru	/images/6.jpg	http://mmdor.ru/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	115429	200	OK	-	-	-	(empty)	-	-	-	-	-	FRbBzj2XbO1E6dYMS2	image/jpeg
+1311421001.199723	CMru7P2aaJEBA1Jjc5	192.168.46.10	1042	64.120.165.117	80	1	GET	mmdor.ru	/images/36.jpg	http://mmdor.ru/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	74218	200	OK	-	-	-	(empty)	-	-	-	-	-	F4JLwd3CE1sUa5TTei	image/jpeg
+1311421001.300155	CVuRTl36T9omHKJd3g	192.168.46.10	1043	64.120.165.117	80	1	GET	mmdor.ru	/images/47.jpg	http://mmdor.ru/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	112501	200	OK	-	-	-	(empty)	-	-	-	-	-	Fy1olB3CaWObhLPu8l	image/jpeg
+1311421001.41274	C6jj4ULDWtjDuTET	192.168.46.10	1044	64.120.165.117	80	1	GET	mmdor.ru	/images/10.jpg	http://mmdor.ru/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	51636	200	OK	-	-	-	(empty)	-	-	-	-	-	FHOF3f4Iak3JrC7HN7	image/jpeg
+1311421001.583648	CyTGC8swSit5eqRPd	192.168.46.10	1046	64.120.165.117	80	1	GET	mmdor.ru	/xtsx/itraff.js	http://mmdor.ru/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	709	200	OK	-	-	-	(empty)	-	-	-	-	-	FjUA9fBDNr4Ip2DS1	text/plain
+1311421001.523997	CXVmtn2vmz5auozv1c	192.168.46.10	1045	64.120.165.117	80	1	GET	mmdor.ru	/images/21.jpg	http://mmdor.ru/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	46837	200	OK	-	-	-	(empty)	-	-	-	-	-	Fza0xR1gLwhgV9ZMAa	image/jpeg
+1311421001.755221	C7caxMKWsFV9tQkn3	192.168.46.10	1047	64.120.165.117	80	1	GET	mmdor.ru	/xtsx/xts.txt	http://mmdor.ru/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	9	200	OK	-	-	-	(empty)	-	-	-	-	-	FptHXH2FLMNIxS2RDd	text/plain
+1311421006.271918	Cmiqaa32yfgyhwvZQj	192.168.46.10	1048	64.120.165.117	80	1	GET	vmaske.ru	/ts/in.cgi?test	http://mmdor.ru/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2365	200	OK	-	-	-	(empty)	-	-	-	-	-	FnNF6M3Z5B7kt2LI8	text/html
+1311421006.362623	CIFgzZ1qdFrB1o3vl8	192.168.46.10	1049	64.120.165.117	80	1	GET	vmaske.ru	/ts/in.cgi?test&ab_iframe=1&ab_badtraffic=1&antibot_hash=2329309774&ur=1&HTTP_REFERER=http://mmdor.ru/	http://mmdor.ru/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	190	302	Found	-	-	-	(empty)	-	-	-	-	-	FHStNi1ih0LISI3pR	text/html
+1311421006.736892	Cvcssi4l7sZnPG5cx6	192.168.46.10	1050	173.212.204.51	80	1	GET	kickassgirl.net	/?site=20	http://mmdor.ru/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7012	200	OK	-	-	-	(empty)	-	-	-	-	-	Fsf7Zj4ctwEXGvXyM5	text/html
+1311421007.976355	CPZGSc1TUdQ8vMjjE3	192.168.46.10	1052	173.212.204.51	80	1	GET	2916404275	/saturn.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13321	200	OK	-	-	-	(empty)	-	-	-	-	-	F4REku25g8sQ1YzRfi	application/x-java-applet
+1311421007.98005	CsAsyE3ZGKNIeGrmnh	192.168.46.10	1051	173.212.204.51	80	1	GET	2916404275	/saturn.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13321	200	OK	-	-	-	(empty)	-	-	-	-	-	FAYV1b1baMUi539Sck	application/x-java-applet
+1311421008.167845	CGmKSW2ZmX8cQxMQQe	192.168.46.10	1053	173.212.204.51	80	1	GET	a.tubedoomsday.net	/dl/jsm.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	8344	200	OK	-	-	-	(empty)	-	-	-	-	-	FcK3Ld1CziWR5kPNTg	application/jar
+1311421008.169203	CRHdKIqWC003uPb9b	192.168.46.10	1054	173.212.204.51	80	1	GET	2916404275	/saturn.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11448	200	OK	-	-	-	(empty)	-	-	-	-	-	FHBGU9vtKD6b0ReX9	application/x-java-applet
+1311421008.170613	Cg4UHbQUVUpPQVEE	192.168.46.10	1055	173.212.204.51	80	1	GET	2916404275	/saturn.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11448	200	OK	-	-	-	(empty)	-	-	-	-	-	FRk5Gu4fhfY8HJjWyb	application/x-java-applet
+1311421008.17494	C54Ybz24eYj5F4OY8h	192.168.46.10	1056	173.212.204.51	80	1	GET	a.tubedoomsday.net	/dl/bingo.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18415	200	OK	-	-	-	(empty)	-	-	-	-	-	FNwBOz40kHXHvORFf4	application/jar
+1311421008.252171	CHp1so1YPydE6raaE5	192.168.46.10	1057	173.212.204.51	80	1	GET	a.tubedoomsday.net	/dl/jsm.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	8344	200	OK	-	-	-	(empty)	-	-	-	-	-	Fr8emW2TiJHWPYA6e	application/jar
+1311421008.314282	CYa0MH3ZKT37kD0Sl9	192.168.46.10	1058	173.212.204.51	80	1	GET	a.tubedoomsday.net	/dl/bingo.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18415	200	OK	-	-	-	(empty)	-	-	-	-	-	FfOQ8P2yZZsCScv2Rf	application/jar
+1311421008.381968	COoh9M1QiP0FbWNlv1	192.168.46.10	1060	173.212.204.51	80	1	GET	a.tubedoomsday.net	/dl/jsm.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	8344	200	OK	-	-	-	(empty)	-	-	-	-	-	Fkk3gq3fopv8YvJAt	application/jar
+1311421008.612528	CVaUewT9DnWsj9u2g	192.168.46.10	1062	173.212.204.51	80	1	GET	a.tubedoomsday.net	/dl/jsm_text.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	514	200	OK	-	-	-	(empty)	-	-	-	-	-	FSq6Hm32e3kDRbvEe	binary
+1311421008.60922	CKxHZO2uCCwakhoP2d	192.168.46.10	1061	173.212.204.51	80	1	GET	a.tubedoomsday.net	/dl/bingo.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18415	200	OK	-	-	-	(empty)	-	-	-	-	-	FaJSuafjc19z9Fq5	application/jar
+1311421008.699721	CySCVTbcJDCRB01d5	192.168.46.10	1063	173.212.204.51	80	1	GET	a.tubedoomsday.net	/dl/jsm.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	8344	200	OK	-	-	-	(empty)	-	-	-	-	-	FG6FrF3BFMX8EGa3Mj	application/jar
+1311421008.345375	C5vNOe4vQZlLP85G8k	192.168.46.10	1059	173.212.204.51	80	1	GET	173.212.204.51	/dl/dl.php?4	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	372736	200	OK	-	-	-	(empty)	-	-	-	-	-	FPxGrAZkz19oq04Tf	application/x-dosexec
+1311421008.818764	ChZV1m39nFjiq4vnHl	192.168.46.10	1064	173.212.204.51	80	1	GET	a.tubedoomsday.net	/dl/dl.php?1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	372736	200	OK	-	-	-	(empty)	-	-	-	-	-	FTyTTZ34EQaFMT8Zx7	application/x-dosexec
+1311421015.313644	CHsv6Gie7hExyc7w3	192.168.46.10	1116	50.7.240.92	80	1	GET	gatugimysy.com	/1034000212	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)	0	2	200	OK	-	-	-	(empty)	-	-	-	-	-	FTLkZ2aRhvOSgw4Fb	text/plain
+#close	2014-04-03-10-15-52

@@ -1,0 +1,32 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-05-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1346337557.770457	CzU4mopr3CnUjBep6	192.168.5.10	1030	88.198.65.183	80	1	GET	sternart.pl	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1016	200	OK	-	-	-	(empty)	-	-	-	-	-	FQwvyPEtLIgBr5Lzg	text/html
+1346337557.896023	CzU4mopr3CnUjBep6	192.168.5.10	1030	88.198.65.183	80	2	GET	sternart.pl	/style.css	http://sternart.pl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	486	200	OK	-	-	-	(empty)	-	-	-	-	-	F9se45319FS0FGxQnd	text/plain
+1346337558.039639	CzU4mopr3CnUjBep6	192.168.5.10	1030	88.198.65.183	80	3	GET	sternart.pl	/images/bg.png	http://sternart.pl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2532	200	OK	-	-	-	(empty)	-	-	-	-	-	FugXxc8XDodZIsog	image/png
+1346337558.151586	CXGSP03NFLvlIhB0A4	192.168.5.10	1031	88.198.65.183	80	1	GET	sternart.pl	/images/logo.png	http://sternart.pl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	8805	200	OK	-	-	-	(empty)	-	-	-	-	-	F60QAv2VsjLofEfmYb	image/png
+1346337558.605731	C0osb14w962nCI3Yb3	192.168.5.10	1032	50.28.53.157	80	1	GET	rexsanchez.com	/media/index.php	http://sternart.pl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1346337559.183406	C5KnCI3GmBZR1q8hN7	192.168.5.10	1033	67.222.98.231	80	1	GET	denrochelaw.ca	/32464247.html	http://sternart.pl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	12738	200	OK	-	-	-	(empty)	-	-	-	-	-	FBE4CvzUdryP5WUi8	text/html
+1346337565.36506	C5KnCI3GmBZR1q8hN7	192.168.5.10	1033	67.222.98.231	80	2	GET	denrochelaw.ca	/98765.pdf	http://denrochelaw.ca/32464247.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5353	200	OK	-	-	-	(empty)	-	-	-	-	-	F7Cbig3rjHTJaaexLg	application/pdf
+1346337572.14666	CiUs5I2ge6CtJ3Zdv	192.168.5.10	1038	67.222.98.231	80	1	GET	denrochelaw.ca	/88770.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1346337572.145272	C5iZSj4JGI8vwyoBR1	192.168.5.10	1039	67.222.98.231	80	1	GET	denrochelaw.ca	/33256.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12462	200	OK	-	-	-	(empty)	-	-	-	-	-	FsYAjU1dDDlDn7p9Jd	application/jar
+1346337580.304192	CiUs5I2ge6CtJ3Zdv	192.168.5.10	1038	67.222.98.231	80	2	GET	denrochelaw.ca	/88770.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1346337580.716188	CiUs5I2ge6CtJ3Zdv	192.168.5.10	1038	67.222.98.231	80	3	GET	denrochelaw.ca	/Ini.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	326	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FrMJT820eDjZCSz7d7	text/html
+1346337580.780041	CiUs5I2ge6CtJ3Zdv	192.168.5.10	1038	67.222.98.231	80	4	GET	denrochelaw.ca	/Ini/class.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	332	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FyRXdp20WyAOCuot9i	text/html
+1346337580.309591	C5iZSj4JGI8vwyoBR1	192.168.5.10	1039	67.222.98.231	80	2	GET	denrochelaw.ca	/33256.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12462	200	OK	-	-	-	(empty)	-	-	-	-	-	FpzUXQ2rsR6wbWA9ug	application/jar
+1346337581.567706	C5iZSj4JGI8vwyoBR1	192.168.5.10	1039	67.222.98.231	80	3	GET	denrochelaw.ca	/33256.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12462	200	OK	-	-	-	(empty)	-	-	-	-	-	FZgMRZ1IQYZ45u4mk9	application/jar
+1346337582.534207	C5iZSj4JGI8vwyoBR1	192.168.5.10	1039	67.222.98.231	80	4	GET	denrochelaw.ca	/33256.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12462	200	OK	-	-	-	(empty)	-	-	-	-	-	FxsrKm1XrZ8ygM1LFb	application/jar
+1346337583.091754	C5iZSj4JGI8vwyoBR1	192.168.5.10	1039	67.222.98.231	80	5	GET	denrochelaw.ca	/3.html	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18432	200	OK	-	-	-	(empty)	-	-	-	-	-	FMC2lB1KBhgRtP0ER4	application/x-dosexec
+1346337589.65972	Cd3DSYxCPGsaNev6e	192.168.5.10	1041	81.169.167.40	80	1	GET	kumst-haiger.de	/912591.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	296960	200	OK	-	-	-	(empty)	-	-	-	-	-	Fx7hqe10KIEJuwjVSf	binary
+1346337591.535025	Cd3DSYxCPGsaNev6e	192.168.5.10	1041	81.169.167.40	80	2	GET	kumst-haiger.de	/912591.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	390144	200	OK	-	-	-	(empty)	-	-	-	-	-	FHuC6A2Hjn7gCPuzVc	binary
+1346337594.076703	Cd3DSYxCPGsaNev6e	192.168.5.10	1041	81.169.167.40	80	3	GET	kumst-haiger.de	/912591.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	156672	200	OK	-	-	-	(empty)	-	-	-	-	-	Fc74wNtpmlddiZZIl	binary
+1346337594.839791	Cd3DSYxCPGsaNev6e	192.168.5.10	1041	81.169.167.40	80	4	GET	kumst-haiger.de	/912591.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	397775	200	OK	-	-	-	(empty)	-	-	-	-	-	FpMksFccsHSswgPpb	binary
+1346337596.620983	Cd3DSYxCPGsaNev6e	192.168.5.10	1041	81.169.167.40	80	5	GET	kumst-haiger.de	/912591.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	666	200	OK	-	-	-	(empty)	-	-	-	-	-	F284VW16NnJC9bP8Db	binary
+1346337605.476778	Cc1X5HQxkhlK9Ri2h	192.168.5.10	1042	175.41.28.156	80	1	GET	175.41.28.156	/api/urls/?ts=56dea277&affid=56300	-	(empty)	0	0	404	NOT FOUND	-	-	-	(empty)	-	-	-	-	-	-	-
+1346337622.949426	Cm39wB13adYK0DjhAe	192.168.5.10	1045	78.140.131.158	80	1	GET	megaupload.com	/file/id=BgBgAAEAH10BAAEFCAAAAAAAAAAAAAAAAAAAAABrDAgdCwAAAC3qiSrhEbDyrLhwgiZvmW-Pej9QAABVVVVVVVVVVVVVVVVVVVVV3obNAeATTqIfXQEAVXd1bXNtfWNvZXMzMmhnOGc4OAJGkzUK3f4TbwAAAAAAATRW&rt=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)	0	523	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FINO7W24pwUT6p9Tdf	text/html
+#close	2014-04-03-11-05-22

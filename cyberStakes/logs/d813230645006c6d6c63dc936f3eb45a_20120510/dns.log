@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-49-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1336688452.884797	CVwuhG2AWlN6MqgFwb	192.168.54.10	1029	4.2.2.3	53	udp	16269	9special.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.7.196.158	14374.000000	F
+1336688453.092149	CVwuhG2AWlN6MqgFwb	192.168.54.10	1029	4.2.2.3	53	udp	62860	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	680.000000,69.000000	F
+1336688453.296648	CVwuhG2AWlN6MqgFwb	192.168.54.10	1029	4.2.2.3	53	udp	38028	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,64.4.52.169	681.000000,370.000000	F
+1336688453.494599	CVwuhG2AWlN6MqgFwb	192.168.54.10	1029	4.2.2.3	53	udp	33679	webordermanager.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.124.198.1	3600.000000	F
+1336688453.621632	CVwuhG2AWlN6MqgFwb	192.168.54.10	1029	4.2.2.3	53	udp	26761	thesavvymillionaire.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	83.69.226.72	3600.000000	F
+1336688476.410826	Cjck2p4PxZgFQNO3ug	192.168.54.10	1029	4.2.2.3	53	udp	29577	palktikaljob.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.229.91.73	3600.000000	F
+#close	2014-04-03-10-49-25

@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-06-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1340907328.471183	CrsZNG1N8SXGcwM2l	192.168.11.10	1029	4.2.2.3	53	udp	9869	gewoonpiraten.nl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.17.4.81	876.000000	F
+1340907328.858026	CrsZNG1N8SXGcwM2l	192.168.11.10	1029	4.2.2.3	53	udp	62093	www.gewoonpiraten.nl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.17.4.81	900.000000	F
+1340907330.290836	CrsZNG1N8SXGcwM2l	192.168.11.10	1029	4.2.2.3	53	udp	30094	server-11.stream-server.nl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	83.96.145.30	900.000000	F
+1340907331.365	CrsZNG1N8SXGcwM2l	192.168.11.10	1029	4.2.2.3	53	udp	27279	www.internetpiraten.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.173.4.66	3600.000000	F
+1340907331.692358	CkNYkL248qmU6B5Gvl	192.168.11.10	1039	4.2.2.3	53	udp	39823	apis.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	plus.l.google.com,74.125.137.101,74.125.137.102,74.125.137.113,74.125.137.138,74.125.137.139,74.125.137.100	1700.000000,287.000000,287.000000,287.000000,287.000000,287.000000,287.000000	F
+1340907331.657758	CrsZNG1N8SXGcwM2l	192.168.11.10	1029	4.2.2.3	53	udp	28303	www.stream-server.nl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.231.87.3	900.000000	F
+1340907331.737091	CkNYkL248qmU6B5Gvl	192.168.11.10	1039	4.2.2.3	53	udp	58511	www.webhelpje.nl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.18.80.92	14400.000000	F
+1340907332.054782	CrsZNG1N8SXGcwM2l	192.168.11.10	1029	4.2.2.3	53	udp	24457	www.flatcast.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.51.180.142	43200.000000	F
+1340907332.29408	CrsZNG1N8SXGcwM2l	192.168.11.10	1029	4.2.2.3	53	udp	39049	www.belstat.nl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.213.240.131	8627.000000	F
+1340907332.55056	CrsZNG1N8SXGcwM2l	192.168.11.10	1029	4.2.2.3	53	udp	45194	www.flatcast.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.51.180.142	43200.000000	F
+1340907337.740798	CrsZNG1N8SXGcwM2l	192.168.11.10	1029	4.2.2.3	53	udp	16772	crl.globalsign.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.ops.cybertrust.com,194.7.155.82,194.7.155.81	265.000000,266.000000,266.000000	F
+1340907338.374543	CrsZNG1N8SXGcwM2l	192.168.11.10	1029	4.2.2.3	53	udp	9094	www.download.windowsupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.download.windowsupdate.nsatc.net,main.dl.wu.akadns.net,dom.dl.wu.akadns.net,dl.wu.ms.edgesuite.net,a26.ms.akamai.net,69.31.20.19,69.31.20.48	1838.000000,5.000000,5.000000,5.000000,2132.000000,16.000000,16.000000	F
+#close	2014-04-03-11-06-57

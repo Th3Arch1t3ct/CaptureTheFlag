@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-26-16
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1370877357.841552	Cs1WwP192MsqLMmq34	192.168.85.10	1029	4.2.2.3	53	udp	65163	al.a7e.pl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.185.119.233	21600.000000	F
+1370877361.519826	Cs1WwP192MsqLMmq34	192.168.85.10	1029	4.2.2.3	53	udp	18825	777blogz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.4.50.77	3600.000000	F
+1370877368.223864	Cs1WwP192MsqLMmq34	192.168.85.10	1029	4.2.2.3	53	udp	9096	delta.goforfiles.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.53.158.118	300.000000	F
+1370877370.690907	Cs1WwP192MsqLMmq34	192.168.85.10	1029	4.2.2.3	53	udp	64399	dn.goforfiles.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.79.65.217,199.189.106.174,199.195.196.182,208.53.158.118	300.000000,300.000000,300.000000,300.000000	F
+#close	2014-04-03-10-26-16

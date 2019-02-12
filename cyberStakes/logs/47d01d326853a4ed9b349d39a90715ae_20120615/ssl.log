@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-24-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1339775053.989511	CuiNze2ca3TXWzVA8a	192.168.100.10	1085	173.194.79.106	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=www.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Thawte SGC CA,O=Thawte Consulting (Pty) Ltd.,C=ZA	1319605200.000000	1380603599.000000	-	-	-	7d7c837f0a8d7508388b555552380c25	ok
+1339775054.538318	CoXRKAfJn848l1oBi	192.168.100.10	1090	74.125.127.155	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.g.doubleclick.net,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1339051065.000000	1370587665.000000	-	-	-	af454bdf7d07dbdeb17f54b4276b33a1	ok
+1339775054.914593	CQuUFP3vSVAeszK7za	192.168.100.10	1093	74.125.127.155	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	6e06bdf20a0176667a3fee58ed6bd80a8c0135a731d79a68dd59bba267789206	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-24-40

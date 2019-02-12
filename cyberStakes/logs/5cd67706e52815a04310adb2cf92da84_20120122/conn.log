@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-01-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1327256387.096097	CUEiMoN1dTbIkj7ze	192.168.53.10	1029	4.2.2.3	53	udp	dns	0.831395	75	411	SF	-	0	Dd	2	131	2	467	(empty)
+1327256370.686417	CASezQ20Ba6P7MHNq3	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000564	626	0	S0	-	0	D	2	682	0	0	(empty)
+1327256426.524421	ClN55i4triqRZgucx1	192.168.53.10	1036	176.34.179.106	80	tcp	http	1.663514	275	4639	SF	-	0	ShADadFf	7	563	7	4927	(empty)
+1327256431.10269	CtLkEEsW8Ec3u08Id	192.168.53.10	1039	95.57.120.104	443	tcp	ssl	5.154115	630	105493	SF	-	0	ShADadfF	51	3026	78	108633	(empty)
+1327256370.686633	CZ99AQ2L72MvOyybze	192.168.53.10	68	192.168.53.1	67	udp	dhcp	13.242578	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1327256426.069791	C06p6i4Te1LbrJeAo7	192.168.53.10	1029	4.2.2.3	53	udp	dns	5.750134	112	426	SF	-	0	Dd	3	196	3	510	(empty)
+1327256387.283729	CHk3NoWn3Byucd8Ai	192.168.53.10	1030	94.21.27.74	80	tcp	http	60.759474	297	456	RSTO	-	0	ShADadfR	6	545	4	624	(empty)
+1327256389.085544	C5l3AP1rRJeuV9xto7	192.168.53.10	1034	239.255.255.250	1900	udp	-	6.310388	399	0	S0	-	0	D	3	483	0	0	(empty)
+1327256387.928067	Ce7uBP1mMPwj7JleAi	192.168.53.10	1031	176.34.179.106	80	tcp	http	65.332068	1070	192165	S1	-	0	ShADad	92	4758	144	197933	(empty)
+1327256426.691271	CVzD7b3VKwOYEVBgx1	192.168.53.10	1037	176.34.179.106	80	tcp	http	23.384027	311	1700	S1	-	0	ShADad	4	479	4	1868	(empty)
+1327256428.326215	C4mS6b3QNAHWAIr4Id	192.168.53.10	1038	176.34.179.106	80	tcp	http	30.364414	764	948	S1	-	0	ShADad	8	1092	8	1276	(empty)
+1327256431.821444	Cc6sDEFdP74S2catk	192.168.53.10	1040	69.31.132.99	80	tcp	http	0.226769	480	47761	S1	-	0	ShADad	24	1448	37	50002	(empty)
+#close	2014-04-03-10-01-07

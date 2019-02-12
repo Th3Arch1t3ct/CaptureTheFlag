@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-04-19
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1319255696.690699	CtrHf64jOlHS9AEHr	192.168.15.10	1049	85.17.136.153	80	F3ECIkXcQ9hMU2jo3	application/x-dosexec	http://kaurum.com/i.php?f=54&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2011-10-22 20:16:14	https://www.virustotal.com/en/search/?query=3699c9a62983634614f767db63d46ba0d91a5f40	192.168.15.10	85.17.136.153	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1319255711.639522	CtrHf64jOlHS9AEHr	192.168.15.10	1049	85.17.136.153	80	F7qNRn4tBpJqUi8ZRe	application/x-dosexec	http://kaurum.com/i.php?f=54&e=6	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2011-10-22 20:16:14	https://www.virustotal.com/en/search/?query=3699c9a62983634614f767db63d46ba0d91a5f40	192.168.15.10	85.17.136.153	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1319255719.992896	CtrHf64jOlHS9AEHr	192.168.15.10	1049	85.17.136.153	80	FwPxZXsuA2O7kNK06	application/x-shockwave-flash	http://kaurum.com/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-01-20 21:34:20	https://www.virustotal.com/en/search/?query=1e83ab75426369f818eb42464133f9c9a7a92779	192.168.15.10	85.17.136.153	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-04-20

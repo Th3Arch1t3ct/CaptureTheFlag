@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-58-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1341618953.881093	Copgjt32amevywNvq7	192.168.79.10	1029	4.2.2.3	53	udp	57228	payrollservicesquote.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.116.97.96	14374.000000	F
+1341618954.678312	Copgjt32amevywNvq7	192.168.79.10	1029	4.2.2.3	53	udp	32909	www.payrollservicesquote.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	payrollservicesquote.com,50.116.97.96	14374.000000,14373.000000	F
+1341618954.840488	Copgjt32amevywNvq7	192.168.79.10	1029	4.2.2.3	53	udp	42639	www.paychex.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	141.123.220.76	30.000000	F
+1341618955.852608	Copgjt32amevywNvq7	192.168.79.10	1029	4.2.2.3	53	udp	34959	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.134.138,74.125.134.139,74.125.134.100,74.125.134.101,74.125.134.102,74.125.134.113	35960.000000,264.000000,264.000000,264.000000,264.000000,264.000000,264.000000	F
+1341618955.854158	CGeVBt4SFAqJgbgaj3	192.168.79.10	1034	4.2.2.3	53	udp	20616	privacy-policy.truste.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ne.edgecastcdn.net,72.21.81.253	226.000000,2775.000000	F
+1341618955.884781	Copgjt32amevywNvq7	192.168.79.10	1029	4.2.2.3	53	udp	6281	platform.twitter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ssl2.twitter.com.edgekey.net,e3826.g.akamaiedge.net,96.17.63.144	3.000000,8744.000000,10.000000	F
+1341618955.889147	CGeVBt4SFAqJgbgaj3	192.168.79.10	1034	4.2.2.3	53	udp	49290	vzmessagesgrovo.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.127.249.53	1800.000000	F
+1341618956.313101	Copgjt32amevywNvq7	192.168.79.10	1029	4.2.2.3	53	udp	61572	p.twitter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ssl2.twitter.com.edgekey.net,e3826.g.akamaiedge.net,96.17.63.144	1395.000000,8743.000000,9.000000	F
+1341618956.423315	Copgjt32amevywNvq7	192.168.79.10	1029	4.2.2.3	53	udp	43908	cdn.api.twitter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ssl2.twitter.com.edgekey.net,e3826.g.akamaiedge.net,96.17.63.144	3.000000,8743.000000,9.000000	F
+1341618988.198267	CbAoxY1NMjOcqxUD3b	192.168.79.10	1029	4.2.2.3	53	udp	53382	swupmf.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	swupmf.wip4.adobe.com,swupmf.adobe.com.edgesuite.net,a1137.g.akamai.net,192.204.4.34,192.204.4.43	9151.000000,600.000000,11400.000000,20.000000,20.000000	F
+1341618988.264574	CbAoxY1NMjOcqxUD3b	192.168.79.10	1029	4.2.2.3	53	udp	46726	crl.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.wip4.adobe.com,crl.adobe.com.edgesuite.net,a1180.g.akamai.net,192.204.4.26,192.204.4.10	9212.000000,300.000000,20012.000000,20.000000,20.000000	F
+#close	2014-04-03-10-58-13

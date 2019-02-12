@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-00-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1315280612.594284	CaSv0p4I4WGNlYnW5k	192.168.17.10	1041	193.105.154.136	80	FP69k425fwfFTlIIZj	application/x-shockwave-flash	http://ludicrouspl78.com/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 67%  Last seen: 2012-05-12 15:24:51	https://www.virustotal.com/en/search/?query=cece269fa4ad271d8f3ea6d30e32f6bd6c6e3849	192.168.17.10	193.105.154.136	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1315280619.362043	CzA0z23MVO55Ly33bg	192.168.17.10	1031	193.105.154.136	80	FFak0z3dTYnVGKmBPd	application/x-dosexec	http://ludicrouspl78.com/w.php?f=20&e=6	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 15%  Last seen: 2011-09-06 07:38:00	https://www.virustotal.com/en/search/?query=fd35ddd42a9d31382667371f7897344cb75ae77d	192.168.17.10	193.105.154.136	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-00-25

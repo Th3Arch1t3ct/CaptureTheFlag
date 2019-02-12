@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-11-05-15
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1329034217.385015	FQadTQ1hPBo8NzJtw3	199.30.91.102	192.168.63.10	CZca4x1YzXXOXOJS85	HTTP	0	MD5,SHA1	text/html	-	2.193015	-	F	110246	-	0	0	F	-	e3c81277c78da91bce1968b8615e9745	b26096684f3d1c59e0d88d0b4b7eb36f74a59f9c	-	-
+1329034229.598694	FfNYdy4w5KwqJ20Gig	199.30.91.102	192.168.63.10	CZca4x1YzXXOXOJS85	HTTP	0	MD5,SHA1	image/gif	-	0.181466	-	F	5895	5895	0	0	F	-	37c1204d6b36ed8568a642396fa0c278	7703909a24a54e5ccbf18ff921784cc08c0d32cc	-	-
+1329034229.734677	FMjesZ2LKak4puM0f5	95.215.0.153	192.168.63.10	C87cdM2VfvXVHF0EYl	HTTP	0	MD5,SHA1	application/x-dosexec	readme.exe	0.568826	-	F	42496	42496	0	0	F	-	b2a537545dafd9d32c92c38d6091afb4	8a4af6c899efcd5ea6191b2316167b8168bb76e7	-	-
+1329034231.791049	FXkC9B1vhX0SowtxC4	199.30.91.102	192.168.63.10	CYflxb2eHGjx1r9Jme	HTTP	0	MD5,SHA1	application/x-shockwave-flash	-	0.000000	-	F	1552	1552	0	0	F	-	da321a419d505090b2a5bd4acbbe9272	599e5ea3d889a28313d3b842fe1100eb26695e57	-	-
+1329034230.765664	Flq8fE2mAf2HZ4Rgnk	199.30.91.102	192.168.63.10	CZca4x1YzXXOXOJS85	HTTP	0	MD5,SHA1	application/pdf	2f962.pdf	1.454007	-	F	96776	96776	0	0	F	-	dc120f9685952c54cf95394b40bc4c86	f044058d535ed7205369f54bf44dcc3e16aca3e2	-	-
+1329034235.215282	F8Xafw2LGur1I5oAF9	192.168.63.10	176.31.157.88	CdMYOj4fbHCGdp02jb	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	T	66	66	0	0	F	-	8db0d008ce5c6a86ced1b6d5bf58279c	8e580801cc61665546e47d16ef8e7e6bd62944cb	-	-
+1329034235.360871	FfCauxvNTjR2dj5Si	176.31.157.88	192.168.63.10	CdMYOj4fbHCGdp02jb	HTTP	0	MD5,SHA1	binary	-	0.000000	-	F	9	9	0	0	F	-	7764d5e4ae6c2270248367a9348a4f63	74478887624397da207f874ef509bb3cfe8a0716	-	-
+1329034238.419028	FUEsj64Ct3ioT7Seud	69.31.75.161	192.168.63.10	Cm8awoFbjpImCiANa	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	1568	1568	0	0	F	-	765026efa59025d4653df14663bc2473	ce680d61d206050b096bb83ec1488f003560a5ff	-	-
+1329034238.694531	F1L2SA99TvRti0lV	199.30.91.102	192.168.63.10	CYflxb2eHGjx1r9Jme	HTTP	0	MD5,SHA1	application/x-shockwave-flash	-	0.179914	-	F	6904	6904	0	0	F	-	2f29542f0e037b3a710437f23bfdbd07	9eab76424ba9c45d7a1a32cb64a4a339d3240131	-	-
+1329034239.091819	Fcdynx2nyTTLKLRMY1	199.30.91.102	192.168.63.10	CoFkEu4Wa5E2UyqJE7	HTTP	0	MD5,SHA1	application/zip	-	0.000020	-	F	3880	3880	0	0	F	-	f69e6a3bdaace99f4a4444c765921dae	8d85d511a27cf40d59cfae4e14ff1223ff88b163	-	-
+#close	2014-04-03-11-05-16

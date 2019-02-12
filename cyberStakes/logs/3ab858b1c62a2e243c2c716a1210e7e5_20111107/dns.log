@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-32-51
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1320647001.706149	CTWtRC4hi7RoOsyq65	192.168.108.10	1029	4.2.2.3	53	udp	17807	theabc.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.236.82.74	3585.000000	F
+1320647001.908941	CTWtRC4hi7RoOsyq65	192.168.108.10	1029	4.2.2.3	53	udp	34959	klsite.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.236.82.76	3585.000000	F
+1320647009.473111	CTWtRC4hi7RoOsyq65	192.168.108.10	1029	4.2.2.3	53	udp	46735	getmilfs.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.202.163.8	3600.000000	F
+1320647010.504162	CTWtRC4hi7RoOsyq65	192.168.108.10	1029	4.2.2.3	53	udp	45967	fetishdreams.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.234.65.128	43200.000000	F
+1320647071.788926	C2wHpN1sDBft3UTmfe	192.168.108.10	1029	4.2.2.3	53	udp	60047	malware4download.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.54.81.21	43200.000000	F
+#close	2014-04-03-10-32-52

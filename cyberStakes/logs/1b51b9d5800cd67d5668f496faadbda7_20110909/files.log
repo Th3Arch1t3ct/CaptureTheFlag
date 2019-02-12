@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-09-59-15
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1315595583.265779	FyydhB3Pk6ubHJRKpj	184.154.58.130	192.168.12.10	CPDjTH1hB5nz5tdMsh	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	210	210	0	0	F	-	ac8ea58a6b75a02aee22d556b7321fab	7607b50e193f21920084d6d6ce1a0a772450a2fc	-	-
+1315595584.077166	FnvOYEhbnwUIX4lsa	68.168.222.122	192.168.12.10	CVCki6eyHkdcbe1Ji	HTTP	0	SHA1,MD5	text/html	-	0.505087	-	F	185196	-	0	0	F	-	6e33d1518c97a35def8e8426121eedbb	9a47fddf79ff33010335e6876eb3c3ed6ecdc414	-	-
+1315595586.030168	FV21rR1ASio6VIO3H9	68.168.222.122	192.168.12.10	CVCki6eyHkdcbe1Ji	HTTP	0	SHA1,MD5	application/pdf	96dcd.pdf	0.574105	-	F	125420	125420	0	0	F	-	701ce746fbd8855508f18139450ce0f9	f656680c63624049d7d570198a396a87b7928d1e	-	-
+1315595590.656156	Fki7mH3inCtMrC5Za	68.168.222.122	192.168.12.10	CVCki6eyHkdcbe1Ji	HTTP	0	SHA1,MD5	application/x-shockwave-flash	-	0.000000	-	F	1301	1301	0	0	F	-	47f53d14887a2bea1a90838dc6abbe8a	cece269fa4ad271d8f3ea6d30e32f6bd6c6e3849	-	-
+1315595601.178163	FzNUrH2uAjootnaXQf	68.168.222.122	192.168.12.10	CrfqIK2cji4c7K4b4	HTTP	0	SHA1,MD5	application/zip	-	0.020022	-	F	5244	5244	0	0	F	-	7bea176ae9a10085b854fa6f570417ff	b736ecbc51ba304b08d230827f3c9fcaeb5689b4	-	-
+1315595601.846778	F18f9hODh4GGAsRu6	68.168.222.122	192.168.12.10	CQNm1n6EgbzTpr4j6	HTTP	0	SHA1,MD5	application/x-dosexec	about.exe	0.505710	-	F	181760	181760	0	0	F	-	513b506a3a1ae179fb9dce0c040ed30f	c764faf39839781cb2f138ea8de20716a25dd15b	-	-
+1315595607.463765	F3sy8g4Bdk0NWOAkE6	68.168.222.122	192.168.12.10	CMLrjL2U6MVmNVoO51	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	172	172	0	0	F	-	9777eeb3b92bc9ed39dad06953817f6d	7697b3e98e255aed71f3d820b1abc81e80594f72	-	-
+1315595609.334135	FsXX5n18BqyoJQJZi3	74.125.115.99	192.168.12.10	CKclLR3b0zWj8zApcc	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	219	219	0	0	F	-	d4b691cd9d99117b2ea34586d3e7eeb8	c79f5572f672361bc097676cb5da9d4aa956c8b9	-	-
+1315595609.393456	FUcm6EFeKEAQw81Tc	74.125.91.99	192.168.12.10	CMPsMb1EngHcW1WCGd	HTTP	0	SHA1,MD5	text/html	-	0.000341	-	F	19355	-	0	0	F	-	634224d00d4f49d3ae2cd9a594daac91	aa9adbe47f9599de3bfc8791961ba0cd48cedbcb	-	-
+#close	2014-04-03-09-59-16

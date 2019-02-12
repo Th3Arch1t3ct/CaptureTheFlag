@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-46-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1327132849.628563	C2G0LY21WtEPI05ksi	192.168.19.10	1029	4.2.2.3	53	udp	dns	0.937309	68	404	SF	-	0	Dd	2	124	2	460	(empty)
+1327132849.795859	CW59n8N3sPtnMNCSf	192.168.19.10	1030	178.158.100.223	80	tcp	http	21.202872	293	453	RSTO	-	0	ShADadfR	6	541	4	621	(empty)
+1327132869.942395	C0vz783dtMUMErso4	192.168.19.10	1036	50.18.158.185	80	tcp	http	6.562235	272	4639	RSTO	-	0	ShADadR	6	520	6	4887	(empty)
+1327132870.537117	CGmlPP3DVjw3HHBpbe	192.168.19.10	1037	95.57.120.104	443	tcp	ssl	8.087904	630	105506	SF	-	0	ShADadfF	59	3190	78	108634	(empty)
+1327132865.079945	CE2eah9qFOQrcVEAa	192.168.19.10	1029	4.2.2.3	53	udp	dns	13.111535	172	668	SF	-	0	Dd	5	312	5	808	(empty)
+1327132834.004394	CllyEB3nDYYbcbPFaf	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000979	626	0	S0	-	0	D	2	682	0	0	(empty)
+1327132878.194035	CFUTmlDoxSYXT1iTe	192.168.19.10	1040	74.125.45.104	80	tcp	http	0.726005	1830	29511	S1	-	0	ShADad	21	2678	27	30599	(empty)
+1327132878.179983	CLeP0m3ztAQLJR1tMg	192.168.19.10	1039	74.125.45.99	80	tcp	http	0.226468	282	540	S1	-	0	ShADad	4	450	3	668	(empty)
+1327132850.566557	CNaXCV1RsrbecP51v2	192.168.19.10	1031	50.18.158.185	80	tcp	http	25.311684	1354	277179	S1	-	0	ShADad	132	6642	210	285587	(empty)
+1327132878.672817	CWXHIh2p0oo3MscDJ	192.168.19.10	1041	74.125.45.104	80	tcp	http	0.518498	1837	90439	S1	-	0	ShADad	43	3565	67	93127	(empty)
+1327132873.197965	CY4Bl827UFAjrRtXN8	192.168.19.10	1038	8.26.209.126	80	tcp	http	30.474503	480	47713	RSTO	-	0	ShADadfR	26	1528	38	49241	(empty)
+1327132834.004779	CnpxgM1xD0SlsZUJS9	192.168.19.10	68	192.168.19.1	67	udp	dhcp	12.494768	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1327132852.028852	CDo3sK33synvcJoB7j	192.168.19.10	1034	239.255.255.250	1900	udp	-	6.628456	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-10-46-27

@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-22-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1342780585.219254	Cr7iU22PftMgN2SbE4	192.168.116.10	1034	63.253.229.249	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.onecallnow.com,OU=Secure Link SSL Wildcard,OU=IT,O=MyTeam1 Corporation,street=726 Grant Street,L=Troy,ST=OH,postalCode=45373,C=US	CN=Network Solutions Certificate Authority,O=Network Solutions L.L.C.,C=US	1320991200.000000	1448258399.000000	-	-	-	430819a8f515724275ca541936d488eb	ok
+1342780585.235119	CKCbey2livDcr5gXpk	192.168.116.10	1035	63.253.229.249	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.onecallnow.com,OU=Secure Link SSL Wildcard,OU=IT,O=MyTeam1 Corporation,street=726 Grant Street,L=Troy,ST=OH,postalCode=45373,C=US	CN=Network Solutions Certificate Authority,O=Network Solutions L.L.C.,C=US	1320991200.000000	1448258399.000000	-	-	-	430819a8f515724275ca541936d488eb	ok
+1342780585.317987	Ce1ZBi3Ti2h5ot3iHf	192.168.116.10	1036	63.253.229.248	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.onecallnow.com,OU=Secure Link SSL Wildcard,OU=IT,O=MyTeam1 Corporation,street=726 Grant Street,L=Troy,ST=OH,postalCode=45373,C=US	CN=Network Solutions Certificate Authority,O=Network Solutions L.L.C.,C=US	1320991200.000000	1448258399.000000	-	-	-	430819a8f515724275ca541936d488eb	ok
+#close	2014-04-03-10-22-18

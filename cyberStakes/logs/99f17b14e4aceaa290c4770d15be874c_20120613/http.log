@@ -1,0 +1,45 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-52-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1339624863.001021	CtfaIz2sbgP9Wu3Y04	192.168.64.10	1030	65.99.205.93	80	1	GET	eliteinterco.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5531	200	OK	-	-	-	(empty)	-	-	-	-	-	Fz0BbV3qkdibLX51p7	text/html
+1339624863.233777	CtfaIz2sbgP9Wu3Y04	192.168.64.10	1030	65.99.205.93	80	2	GET	eliteinterco.com	/css/style.css	http://eliteinterco.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1636	200	OK	-	-	-	(empty)	-	-	-	-	-	Fn45oR221d9I42temk	text/x-c
+1339624863.440477	CvrlU32SN226tnsrjl	192.168.64.10	1031	50.22.126.97	80	1	GET	nikeeyb.com	/stats.php	http://eliteinterco.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1339624863.401903	CtfaIz2sbgP9Wu3Y04	192.168.64.10	1030	65.99.205.93	80	3	GET	eliteinterco.com	/images/banner.jpg	http://eliteinterco.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	52824	200	OK	-	-	-	(empty)	-	-	-	-	-	FyGE2A3nGUYAzNeuYh	image/jpeg
+1339624863.459141	C9h7D23PEhGdyfW6V2	192.168.64.10	1032	65.99.205.93	80	1	GET	eliteinterco.com	/images/roofing_house.jpg	http://eliteinterco.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	37118	200	OK	-	-	-	(empty)	-	-	-	-	-	FiUX9Q33ohIruGIFw8	image/jpeg
+1339624864.896181	CswB3CwYf9gR85Exe	192.168.64.10	1034	65.99.205.93	80	1	GET	eliteinterco.com	/images/bg.png	http://eliteinterco.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	221	200	OK	-	-	-	(empty)	-	-	-	-	-	Ff2hyg4KW4u0ZtRZnf	image/png
+1339624864.843325	CVLg183qisn0dJPNYa	192.168.64.10	1033	37.157.255.153	80	1	GET	buuaem.tk	/86203516.html	http://eliteinterco.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	277	200	OK	-	-	-	(empty)	-	-	-	-	-	F7pGy11s6oazN7JQml	text/html
+1339624864.991792	CswB3CwYf9gR85Exe	192.168.64.10	1034	65.99.205.93	80	2	GET	eliteinterco.com	/images/menubg.jpg	http://eliteinterco.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	329	200	OK	-	-	-	(empty)	-	-	-	-	-	F4aQcg8GMJ5eVJn7	image/jpeg
+1339624864.842124	C9h7D23PEhGdyfW6V2	192.168.64.10	1032	65.99.205.93	80	2	GET	eliteinterco.com	/images/roofing-materials-1.jpg	http://eliteinterco.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	26985	200	OK	-	-	-	(empty)	-	-	-	-	-	FyTTIntWBHYEwEe19	image/jpeg
+1339624865.082099	CswB3CwYf9gR85Exe	192.168.64.10	1034	65.99.205.93	80	3	GET	eliteinterco.com	/images/footer.jpg	http://eliteinterco.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	25833	200	OK	-	-	-	(empty)	-	-	-	-	-	FHUjBeOeDXTGBRn28	image/jpeg
+1339624866.823533	C4wlpPxmEExcWkDde	192.168.64.10	1039	37.157.255.153	80	1	GET	buuaem.tk	/33982.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	61226	200	OK	-	-	-	(empty)	-	-	-	-	-	FruDyI7web1dVl8bb	application/zip
+1339624867.360468	C4wlpPxmEExcWkDde	192.168.64.10	1039	37.157.255.153	80	2	GET	buuaem.tk	/33982.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	61226	200	OK	-	-	-	(empty)	-	-	-	-	-	FN5mVh4bY8VOi6H1q2	application/zip
+1339624867.864396	C4wlpPxmEExcWkDde	192.168.64.10	1039	37.157.255.153	80	3	GET	buuaem.tk	/33982.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	61226	200	OK	-	-	-	(empty)	-	-	-	-	-	FNortr2ldcYrz1FKYk	application/zip
+1339624868.757282	C4wlpPxmEExcWkDde	192.168.64.10	1039	37.157.255.153	80	4	GET	buuaem.tk	/1.html	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	71168	200	OK	-	-	-	(empty)	-	-	-	-	-	FJecpD2wTgAZOTlxVb	application/x-dosexec
+1339624876.662175	CeUCQB47bOOlr40mH7	192.168.64.10	1040	37.157.255.153	80	1	GET	37.157.255.153	/562681.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	187904	200	OK	-	-	-	(empty)	-	-	-	-	-	FUotRE381s5xPdbnJ2	binary
+1339624877.84637	CeUCQB47bOOlr40mH7	192.168.64.10	1040	37.157.255.153	80	2	GET	37.157.255.153	/562681.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	372736	200	OK	-	-	-	(empty)	-	-	-	-	-	FJGvhW3wVTNszWbbf1	binary
+1339624879.383798	CeUCQB47bOOlr40mH7	192.168.64.10	1040	37.157.255.153	80	3	GET	37.157.255.153	/562681.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	124928	200	OK	-	-	-	(empty)	-	-	-	-	-	Fn2NlCBfsqjZd1wF7	binary
+1339624879.875909	CeUCQB47bOOlr40mH7	192.168.64.10	1040	37.157.255.153	80	4	GET	37.157.255.153	/562681.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	167936	200	OK	-	-	-	(empty)	-	-	-	-	-	FE4vBd3ym0CLDp8Jl6	binary
+1339624880.564289	CeUCQB47bOOlr40mH7	192.168.64.10	1040	37.157.255.153	80	5	GET	37.157.255.153	/562681.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	338498	200	OK	-	-	-	(empty)	-	-	-	-	-	FmTfRy1jAZ3ytcG4C2	binary
+1339624881.588896	CeUCQB47bOOlr40mH7	192.168.64.10	1040	37.157.255.153	80	6	GET	37.157.255.153	/562681.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	79328	200	OK	-	-	-	(empty)	-	-	-	-	-	FndvdGvAzKFFz8xv2	binary
+1339624882.036293	CeUCQB47bOOlr40mH7	192.168.64.10	1040	37.157.255.153	80	7	GET	37.157.255.153	/562681.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	666	200	OK	-	-	-	(empty)	-	-	-	-	-	FGDTvMqKjS6zjsAb3	binary
+1339624882.560843	CUB5DP3McIr1WWqKk7	192.168.64.10	1042	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	29	200	OK	-	-	-	(empty)	-	-	-	-	-	FxvAle2yZgSNAhrld	text/plain
+1339624882.779121	CuLPxcuCOBQodOckb	192.168.64.10	1043	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339624882.806759	CwwKB1OX5dODfebOb	192.168.64.10	1049	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=4&d=7&s=1	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339624882.80702	CKFFvfnzEa7dkYArb	192.168.64.10	1051	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=5&d=7&s=20	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339624882.806891	C86iPN43M1PwcRKZd	192.168.64.10	1047	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=3&d=7&s=131	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339624882.806612	CaDCqI9nHj3NkoE5f	192.168.64.10	1045	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=2&d=7&s=121	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339624883.003595	Czhv4H1R66OpmRiKei	192.168.64.10	1057	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=7&d=7&s=30	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339624883.027393	C1AsZ92ro1sAYkHNSl	192.168.64.10	1059	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=8&d=7&s=31	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339624882.991007	CrVN9t18YWk0KRhoBi	192.168.64.10	1054	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=6&d=7&s=21	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339624891.675425	CHwM8o47uW2XoQfe25	192.168.64.10	1064	78.140.131.157	80	1	GET	megaupload.com	/file/id=BAAyAAEAN9wAAAEFBhcAAAAAAAAAAAAAAAAAAABrDAYKCwAAAFbBDh7hEZ21rLhwgiZvmW8AAFVVVVVVVVVVVVVVVVVVVVXRSc0BzkiGVefWAABVd3Vtc219Y29lczMyaGc4Zzg4AkaTNQrd_hNvAAAAAAA0VgAA&rt=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)	0	523	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FIqbnWO9yKB7ffLHb	text/html
+1339624891.381864	CzFfU21YopBUiqYqgf	192.168.64.10	1063	116.255.235.9	80	1	GET	116.255.235.9	/api/urls/?ts=3283fba3&affid=56300	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	0	404	NOT FOUND	-	-	-	(empty)	-	-	-	-	-	-	-
+1339624898.260694	CIQoLN1KkncAp01q8k	192.168.64.10	1067	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	29	200	OK	-	-	-	(empty)	-	-	-	-	-	FRLYMe18I8xPJVMoT4	text/plain
+1339624898.479511	CkSXE12tJaMH3LHQLj	192.168.64.10	1068	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=4191436836&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	429	200	OK	-	-	-	(empty)	-	-	-	-	-	FhOv9f9v5oPvOuXh6	binary
+1339624898.479669	CmJ1nf1Djh8ZP2rWzh	192.168.64.10	1070	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=4191436836&c=2&d=7&s=110	-	Opera/9 (Windows NT 5.1; US; x86)	0	541	200	OK	-	-	-	(empty)	-	-	-	-	-	FbBpgn1RR8uE9k4Kul	binary
+1339624898.479807	CmL2Mk1y7svs5HZ1ug	192.168.64.10	1072	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=4191436836&c=3&d=7&s=10	-	Opera/9 (Windows NT 5.1; US; x86)	0	542	200	OK	-	-	-	(empty)	-	-	-	-	-	F0jhcN38gYMilNj6c9	binary
+#close	2014-04-03-10-52-24

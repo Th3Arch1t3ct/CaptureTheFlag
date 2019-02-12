@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-11-00-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1355352259.201307	Ctil5txibcVYp4Qll	192.168.57.10	1030	93.170.52.31	80	tcp	http	0.282239	280	1106	SF	-	0	ShADadfF	5	488	5	1310	(empty)
+1355352261.254711	CQMQMf3l83PW8Abbad	192.168.57.10	1035	185.4.227.74	80	tcp	http	0.846228	368	27740	RSTO	-	0	ShADadFRRR	22	1256	22	28628	(empty)
+1355352261.253307	C2N1Ph4MlCpOdoS0Yi	192.168.57.10	1034	178.218.209.2	80	tcp	http	0.638406	278	524	SF	-	0	ShADadfF	5	486	5	728	(empty)
+1355352261.691605	CG1FVy2znqYUFd360e	192.168.57.10	1040	92.243.66.77	80	tcp	http	0.298224	287	251	SF	-	0	ShADadfF	5	495	5	459	(empty)
+1355352259.103171	C4zoCG1ig6hdZtaD1a	192.168.57.10	1029	4.2.2.3	53	udp	dns	2.587616	162	286	SF	-	0	Dd	5	302	5	426	(empty)
+1355352260.998322	CDuvqd3e62Z9Br27Cb	192.168.57.10	1033	4.2.2.3	53	udp	dns	-	-	-	S0	-	0	D	1	56	0	0	(empty)
+1355352262.054407	CrS4cM3IL6acBDmt44	192.168.57.10	1033	4.2.2.5	53	udp	dns	0.529786	28	44	SF	-	0	Dd	1	56	1	72	(empty)
+1355352242.294963	CWQbgS1AzQ3aAlR2K6	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000672	626	0	S0	-	0	D	2	682	0	0	(empty)
+1355352242.295277	C5QcJEzRNSdpFacf4	192.168.57.10	68	192.168.57.1	67	udp	dhcp	13.429458	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1355352261.292312	CPmc3t4sFKiSeY3WNj	192.168.57.10	1038	239.255.255.250	1900	udp	-	6.179446	399	0	S0	-	0	D	3	483	0	0	(empty)
+1355352260.518031	CexEAO3bXaWJ5QNHJg	192.168.57.10	1032	195.3.143.42	80	tcp	http	63.129695	321	506	RSTO	-	0	ShADadR	5	529	3	634	(empty)
+1355352260.080546	C5Z3cK2yuaZvc0Zeeg	192.168.57.10	1031	195.3.143.42	80	tcp	http	63.567574	641	1394	RSTO	-	0	ShADadR	7	929	4	1562	(empty)
+1355352262.585465	CFSybd1dW0aXk79Ea9	192.168.57.10	1041	195.3.143.42	80	tcp	http	66.122100	302	360	RSTO	-	0	ShADadR	5	510	3	488	(empty)
+#close	2014-04-03-11-00-30

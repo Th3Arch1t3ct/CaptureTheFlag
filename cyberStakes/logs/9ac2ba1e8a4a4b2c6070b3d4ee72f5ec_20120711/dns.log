@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-28-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1342021966.629185	CHfc9b1kn1EO7Y5SZh	192.168.113.10	1029	4.2.2.3	53	udp	65421	machadocinelli.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.192.170.208	14374.000000	F
+1342021966.82781	CHfc9b1kn1EO7Y5SZh	192.168.113.10	1029	4.2.2.3	53	udp	38028	ydabxag.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	190.192.176.12	0.000000	F
+1342021978.396036	C6g0PY1SjJkvZyApNl	192.168.113.10	1029	4.2.2.3	53	udp	13455	ygnens.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.96.237.146	10.000000	F
+1342021997.195941	C7toTR3T9paI0OACY2	192.168.113.10	1029	4.2.2.3	53	udp	15247	soqvaqo.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.159.140.144,89.75.56.44,188.237.31.220,46.43.203.223	300.000000,300.000000,300.000000,300.000000	F
+#close	2014-04-03-10-28-40

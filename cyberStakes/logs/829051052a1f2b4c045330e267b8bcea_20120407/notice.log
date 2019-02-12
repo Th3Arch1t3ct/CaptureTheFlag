@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-23-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1333840141.407203	C94EtK3jwxDxyVNicl	192.168.95.10	1065	89.208.48.70	80	FKOJOl40TXITB7gt6k	application/jar	http://qwer.kinnetix.com/showthread.php?t=83475	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2012-05-06 10:31:03	https://www.virustotal.com/en/search/?query=e0a99840609897fbdfd52aeeec91dd2bfcd5e572	192.168.95.10	89.208.48.70	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1333840143.090805	C94EtK3jwxDxyVNicl	192.168.95.10	1065	89.208.48.70	80	FNh4tf3Pvg2uSFqjm5	application/jar	http://qwer.kinnetix.com/showthread.php?t=83475	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2012-05-06 10:31:03	https://www.virustotal.com/en/search/?query=e0a99840609897fbdfd52aeeec91dd2bfcd5e572	192.168.95.10	89.208.48.70	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1333840151.013631	C94EtK3jwxDxyVNicl	192.168.95.10	1065	89.208.48.70	80	FCcm3SkU2VkurRHW6	application/jar	http://qwer.kinnetix.com/showthread.php?t=83475	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2012-05-06 10:31:03	https://www.virustotal.com/en/search/?query=e0a99840609897fbdfd52aeeec91dd2bfcd5e572	192.168.95.10	89.208.48.70	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1333840151.013631	C94EtK3jwxDxyVNicl	192.168.95.10	1065	89.208.48.70	80	Fi7gAPUs3iZrZOwGk	application/jar	http://qwer.kinnetix.com/showthread.php?t=83475	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2012-05-06 10:31:03	https://www.virustotal.com/en/search/?query=e0a99840609897fbdfd52aeeec91dd2bfcd5e572	192.168.95.10	89.208.48.70	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-23-07

@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-11-13-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1339443448.581478	C5TbUr3ULjHqnQtGg9	192.168.75.10	1051	69.192.162.110	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=s-static.ak.facebook.com,ST=California,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1311993164.000000	1343615564.000000	-	-	-	26d4cf1984232a07a57908abdaf2c53d	ok
+1339443454.212876	CND9XJESKybt1nLPj	192.168.75.10	1065	207.171.163.14	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.s3.amazonaws.com,O=Amazon.com Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1292392800.000000	1387432799.000000	-	-	-	e3cc103aacd8beea27f01fd08da597bd	ok
+1339443454.213066	C364n01jFFX3tYbWCk	192.168.75.10	1064	207.171.163.14	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.s3.amazonaws.com,O=Amazon.com Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1292392800.000000	1387432799.000000	-	-	-	e3cc103aacd8beea27f01fd08da597bd	ok
+1339443470.699315	CqZa9x2mvGyeqYEAA6	192.168.75.10	1085	69.192.173.177	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=s-static.ak.fbcdn.net,ST=CALIFORNIA,OU=s-static.ak.fbcdn.net,O=s-static.ak.fbcdn.net,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1312234016.000000	1343856416.000000	-	-	-	13ef8c4315fd282fdf7dbba3913e72c4	ok
+1339443470.717866	C4eSaJ25Mn77kQ65R7	192.168.75.10	1086	69.192.173.177	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=s-static.ak.fbcdn.net,ST=CALIFORNIA,OU=s-static.ak.fbcdn.net,O=s-static.ak.fbcdn.net,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1312234016.000000	1343856416.000000	-	-	-	13ef8c4315fd282fdf7dbba3913e72c4	ok
+1339443471.000658	C2hkmG27BCzfZIk7e7	192.168.75.10	1090	69.192.173.177	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	0fe234dc8d15de71a94e17f0bbee4b29ac627768f68886697fbee0b2afb4c6cc	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-11-13-12

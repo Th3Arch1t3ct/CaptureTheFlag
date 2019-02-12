@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-32-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1328734452.228525	CQsqWa3PTdtrFVMLsg	192.168.12.10	1035	209.135.132.62	80	FW2FHx3fwAbLkbOwdf	application/x-shockwave-flash	http://qw.regionredbirds.com/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-02-08 04:06:44	https://www.virustotal.com/en/search/?query=840804607cb115256533da3656e954a904da8f34	192.168.12.10	209.135.132.62	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328734453.57843	CQsqWa3PTdtrFVMLsg	192.168.12.10	1035	209.135.132.62	80	FWnvfNz0y74pMGtD4	application/x-dosexec	http://qw.regionredbirds.com/w.php?f=16&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-02-12 11:13:05	https://www.virustotal.com/en/search/?query=cbc49201f8d210c0d886961a78eb8182ec02f0f6	192.168.12.10	209.135.132.62	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328734453.57843	CQsqWa3PTdtrFVMLsg	192.168.12.10	1035	209.135.132.62	80	Fh5HMZ2KZxigEkFsab	application/x-dosexec	http://qw.regionredbirds.com/w.php?f=16&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-02-12 11:13:05	https://www.virustotal.com/en/search/?query=cbc49201f8d210c0d886961a78eb8182ec02f0f6	192.168.12.10	209.135.132.62	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328734471.354226	CsrjUQS2sHGsatea5	192.168.12.10	1053	209.135.132.62	80	FqAzbp1rGAjWTvkESl	application/x-dosexec	http://qw.regionredbirds.com/w.php?f=16&e=0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-02-12 11:13:05	https://www.virustotal.com/en/search/?query=cbc49201f8d210c0d886961a78eb8182ec02f0f6	192.168.12.10	209.135.132.62	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-32-29

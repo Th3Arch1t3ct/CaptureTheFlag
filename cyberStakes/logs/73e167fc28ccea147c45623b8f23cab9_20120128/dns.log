@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-55-41
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1327774477.939846	CTuZjy3GrI78DYlIab	192.168.77.10	1029	4.2.2.3	53	udp	14217	cukoret.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.241.191.181	3577.000000	F
+1327774478.993931	CTuZjy3GrI78DYlIab	192.168.77.10	1029	4.2.2.3	53	udp	52360	iyvstsymyfu.ddns.name	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.241.191.180	31.000000	F
+1327774479.002359	ClDXCC3hdLa1Y6ESqc	192.168.77.10	1032	4.2.2.3	53	udp	35466	counter.yadro.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	88.212.196.66,88.212.196.69,88.212.196.72,88.212.196.75,88.212.196.77,88.212.196.101,88.212.196.102,88.212.196.103,88.212.196.104,88.212.196.105	100.000000,100.000000,100.000000,100.000000,100.000000,100.000000,100.000000,100.000000,100.000000,100.000000	F
+#close	2014-04-03-09-55-42

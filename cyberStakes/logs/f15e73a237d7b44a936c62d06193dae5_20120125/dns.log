@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-46-52
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1327481358.275254	CQpLKL1OqYTs1RPLnf	192.168.110.10	1029	4.2.2.3	53	udp	45969	samoradesigns.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.71.34.55	14377.000000	F
+1327481358.939443	CQpLKL1OqYTs1RPLnf	192.168.110.10	1029	4.2.2.3	53	udp	15763	blood.cu.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.201.34	26404.000000	F
+1327481359.184036	CQpLKL1OqYTs1RPLnf	192.168.110.10	1029	4.2.2.3	53	udp	41619	sjkhj23788u8.erv39.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.184.192.57	3600.000000	F
+1327481380.883753	CwlH9j3Z75pvJP0mR8	192.168.110.10	1029	4.2.2.3	53	udp	35730	www.samoradesigns.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.71.34.55	14400.000000	F
+1327481382.963275	CwlH9j3Z75pvJP0mR8	192.168.110.10	1029	4.2.2.3	53	udp	20116	redlandying.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	88.80.12.22	600.000000	F
+1327481383.437891	CwlH9j3Z75pvJP0mR8	192.168.110.10	1029	4.2.2.3	53	udp	29335	craftineer.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.44.184.41	600.000000	F
+#close	2014-04-03-10-46-52

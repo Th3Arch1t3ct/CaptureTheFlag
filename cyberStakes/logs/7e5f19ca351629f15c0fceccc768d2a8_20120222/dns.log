@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-12-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1329936538.653492	Cvqdi8TCcySZYbXt1	192.168.84.10	1029	4.2.2.3	53	udp	23695	larardollan.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.230.74	1777.000000	F
+1329936538.944686	Cvqdi8TCcySZYbXt1	192.168.84.10	1029	4.2.2.3	53	udp	38798	kairemeth.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.149.227.159	1800.000000	F
+1329936541.547458	Cvqdi8TCcySZYbXt1	192.168.84.10	1029	4.2.2.3	53	udp	43405	zzzzz.spaid.hop.clickbank.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.63.153.63,74.63.153.62	900.000000,900.000000	F
+1329936541.551391	CATSpYDYUFFXQGITd	192.168.84.10	1037	4.2.2.3	53	udp	16524	1cedilyutra.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.192.45.75	1800.000000	F
+1329936541.698799	Cvqdi8TCcySZYbXt1	192.168.84.10	1029	4.2.2.3	53	udp	54923	www.surveyspaid.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	surveyspaid.com,72.52.139.12	300.000000,300.000000	F
+1329936542.152371	Cvqdi8TCcySZYbXt1	192.168.84.10	1029	4.2.2.3	53	udp	31627	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.45.95	1595.000000,262.000000	F
+1329936542.412479	Cvqdi8TCcySZYbXt1	192.168.84.10	1029	4.2.2.3	53	udp	37769	d1pr3sk5xr0dce.cloudfront.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.137.33.66,216.137.33.186,216.137.33.201,216.137.33.202,216.137.33.217,216.137.33.7,216.137.33.29,216.137.33.49	60.000000,60.000000,60.000000,60.000000,60.000000,60.000000,60.000000,60.000000	F
+1329936542.449159	Cvqdi8TCcySZYbXt1	192.168.84.10	1029	4.2.2.3	53	udp	2952	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.65.102,74.125.65.113,74.125.65.138,74.125.65.139,74.125.65.100,74.125.65.101	38480.000000,214.000000,214.000000,214.000000,214.000000,214.000000,214.000000	F
+1329936562.682673	CcCOiibA0lxH4duNi	192.168.84.10	1029	4.2.2.3	53	udp	18056	1cedilyutra.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.192.45.75	1779.000000	F
+#close	2014-04-03-10-12-55

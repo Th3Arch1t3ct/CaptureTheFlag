@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-11-12-32
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1331036597.928526	FB92ua2sjyDJT7wcUi	95.57.120.238	192.168.95.10	CPcUFh35JjBySXRFkb	HTTP	0	SHA1,MD5	text/html	-	0.199757	-	F	3620	-	0	0	F	-	76167de379204ce041b1bded29806cfe	d09469c4372786177f6c94d48202154beba926f7	-	-
+1331036598.32555	FC98tT2GozcqO4AW36	95.57.120.238	192.168.95.10	CPcUFh35JjBySXRFkb	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	893	893	0	0	F	-	4709f5f03895c93f17988dee72fc68f2	af0563d1018d2d3759bb5d8b3c09b4bcf13f5146	-	-
+1331036598.542581	FdbRg431b2UPqk0anb	95.57.120.238	192.168.95.10	CPcUFh35JjBySXRFkb	HTTP	0	SHA1,MD5	image/gif	-	0.190477	-	F	10655	10655	0	0	F	-	4ec55c200c05dccb0ada0183e365d202	5088acb7a0085ddbe3120005dadc6d7c7b645d9a	-	-
+1331036598.755559	FyH6K41Ec1aMeTudn6	95.57.120.238	192.168.95.10	CWfhQPOU3U9jbZIqk	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	854	854	0	0	F	-	fdbfa1d0e9b99bc085da7fc2985255ae	5c125183e3cc4a0e7e7d31c47ba323eaac0e5ea8	-	-
+1331036598.930985	FpZHCDLywzL5J9Qrb	95.57.120.238	192.168.95.10	CPcUFh35JjBySXRFkb	HTTP	0	SHA1,MD5	image/gif	-	0.000351	-	F	7901	7901	0	0	F	-	d24f4599e76a228ef70e62df88706a43	cbe8c1bd6a6689d0b8dd5954646670b13c62d828	-	-
+1331036598.96408	F7r15Z3gsx2vqeu841	95.57.120.238	192.168.95.10	CWfhQPOU3U9jbZIqk	HTTP	0	SHA1,MD5	text/plain	-	0.200454	-	F	2691	2691	0	0	F	-	3436855cf171b2fb51a4991a9520d67f	85d88d87f144a89dc9bd5d56364394411a52cc54	-	-
+1331036599.524862	FrWpvdOTxonQzInwf	95.57.120.238	192.168.95.10	CWfhQPOU3U9jbZIqk	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	1253	1253	0	0	F	-	a3f22328260170bc446a89cc12e79a9f	12b8975358ef86f669b57eb10de007220f2475ca	-	-
+1331036599.431268	F4qQar1vb44py4gypa	95.57.120.238	192.168.95.10	CPcUFh35JjBySXRFkb	HTTP	0	SHA1,MD5	image/jpeg	-	0.192816	-	F	15748	15748	0	0	F	-	889edeac55cedf4dca3b53cffb76b094	97d50e4a76c59027375160eebe66af624bff2077	-	-
+1331036604.830909	FWkWEvYLeKW0ctg95	95.57.120.238	192.168.95.10	CWfhQPOU3U9jbZIqk	HTTP	0	SHA1,MD5	application/x-dosexec	-	0.022908	-	F	4148	45056	0	0	F	-	1ad0836cdba6c2817ca7bbc5c75912f5	7401daefa57f2884268d16e353e18037315dee37	-	-
+#close	2014-04-03-11-12-32

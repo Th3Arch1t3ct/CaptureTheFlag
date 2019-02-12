@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-55-43
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1367218732.666036	CEMFNJ1WZ19B0MpvHl	192.168.87.10	1029	4.2.2.3	53	udp	46480	islamne.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.55.181.218	14374.000000	F
+1367218734.714904	CEMFNJ1WZ19B0MpvHl	192.168.87.10	1029	4.2.2.3	53	udp	35987	www.q8300.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	q8300.com,208.109.181.29	3600.000000,3600.000000	F
+#close	2014-04-03-10-55-43

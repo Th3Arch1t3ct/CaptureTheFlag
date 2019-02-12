@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-29-38
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1336326132.526661	CPoBZUPsyDsg6eBbf	192.168.87.10	1087	94.75.234.241	80	FxI2xc4DXD0J6BXtF2	application/x-dosexec	http://94.75.234.241/images.php?t=1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2012-05-08 03:54:45	https://www.virustotal.com/en/search/?query=cb003d105b3eee44708a03dccdb1fdaee06ba929	192.168.87.10	94.75.234.241	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336326133.785742	CCnYkXy6G8k4r1YBh	192.168.87.10	1098	37.59.198.59	80	FdwOJfiCmS0aa7sbf	application/x-dosexec	http://ghicat.org/?f7c6fc2ea4d6ae30d5c541282bf47ee0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-05-11 01:17:35	https://www.virustotal.com/en/search/?query=ed346a58cd9c77094a7a9ea94c8842010550e1b6	192.168.87.10	37.59.198.59	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336326134.546472	C3I3Ms1dgdlKOlSRFf	192.168.87.10	1100	37.59.198.59	80	FfTSaR2AHCcQsWGOR	application/x-dosexec	http://ghicat.org/?b9575ccd60029775d795e65c57cc72ad	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-05-11 01:17:35	https://www.virustotal.com/en/search/?query=ed346a58cd9c77094a7a9ea94c8842010550e1b6	192.168.87.10	37.59.198.59	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336326143.376962	CA6uVR1WrRSQGdg0Hd	192.168.87.10	1102	37.59.198.59	80	FR5Z4r1Wm70KqMKU8f	application/x-dosexec	http://ghicat.org/?8faa1e35d89b8fafbfba81276db9effe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-05-18 15:35:44	https://www.virustotal.com/en/search/?query=f60ef917513b96b30f1663fc14cb6542c019b727	192.168.87.10	37.59.198.59	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336326165.955336	CLHoti1Jkqh3KgArQg	192.168.87.10	1131	77.79.7.96	80	FkeXtv6rwnK4GOez4	application/x-dosexec	http://polyposhka.slx.nl/file/1.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-05-05 04:19:13	https://www.virustotal.com/en/search/?query=110f05ea6bbce82a74d64ac2c2e72d88ff0644fa	192.168.87.10	77.79.7.96	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-29-39

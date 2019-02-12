@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-00-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1360735415.29898	CUG5iO3Aez0YH2BZad	192.168.3.10	1030	87.106.112.220	80	1	GET	kai-groeger.de	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	302	200	OK	-	-	-	(empty)	-	-	-	-	-	FXDGFHMJDiz9GICnf	text/html
+1360735420.112742	CmFtWM2ZJx9xPXLj0g	192.168.3.10	1035	5.135.67.194	51123	1	GET	bigtimetcpip.org	/803bea5de220a1f6f3d34f33129bc16f.html	http://kai-groeger.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	341	200	OK	-	-	-	(empty)	-	-	-	-	-	Fc6W6a4QlPqPa5Haza	text/plain
+1360735421.617658	CCxz1Gt9uYoFCVUTi	192.168.3.10	1036	5.135.67.194	51123	1	GET	bigtimetcpip.org	/images/f318dc3d4744288557194d45bba976da/1360735307/4a05d27680cf8dbfed13ae085660cd46.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11193	200	OK	-	-	-	(empty)	-	-	-	-	-	FjyvP11ee31cy9QLLd	application/jar
+1360735421.884124	CCxz1Gt9uYoFCVUTi	192.168.3.10	1036	5.135.67.194	51123	2	GET	bigtimetcpip.org	/images/f318dc3d4744288557194d45bba976da/1360735307/4a05d27680cf8dbfed13ae085660cd46.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11193	200	OK	-	-	-	(empty)	-	-	-	-	-	Fd5rUV2VGxwonlA7v7	application/jar
+1360735422.18081	CCxz1Gt9uYoFCVUTi	192.168.3.10	1036	5.135.67.194	51123	3	GET	bigtimetcpip.org	/images/f318dc3d4744288557194d45bba976da/1360735307/4a05d27680cf8dbfed13ae085660cd46.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11193	200	OK	-	-	-	(empty)	-	-	-	-	-	FpOoQa42zh1vErwdy1	application/jar
+1360735427.082496	CCxz1Gt9uYoFCVUTi	192.168.3.10	1036	5.135.67.194	51123	4	GET	bigtimetcpip.org	/images/f318dc3d4744288557194d45bba976da/1360735307/4a05d27680cf8dbfed13ae085660cd46.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11193	200	OK	-	-	-	(empty)	-	-	-	-	-	FGwfcr2mweijexLlZj	application/jar
+1360735427.451019	CCxz1Gt9uYoFCVUTi	192.168.3.10	1036	5.135.67.194	51123	5	GET	bigtimetcpip.org	/f/1360735307/4a05d27680cf8dbfed13ae085660cd46/f318dc3d4744288557194d45bba976da/2	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	214016	200	OK	-	-	-	(empty)	-	-	-	-	-	FoFQ6epI2qdoP1aC	application/x-dosexec
+1360735430.503042	CCxz1Gt9uYoFCVUTi	192.168.3.10	1036	5.135.67.194	51123	6	GET	bigtimetcpip.org	/f/1360735307/4a05d27680cf8dbfed13ae085660cd46/f318dc3d4744288557194d45bba976da/2/2	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1360735447.478577	CcUItE4ysQsxZwvyH5	192.168.3.10	1038	79.174.78.17	80	1	POST	ilperetnow.ru	/undwer/config.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	77	40337	200	OK	-	-	-	(empty)	-	-	-	F5CSh43Kr0NgQ0J3m1	text/plain	Fu3GPD4vgxt3CSyCB8	binary
+1360735477.447069	CG7hW244qQFsrVoyUl	192.168.3.10	1039	79.174.78.17	80	1	POST	ilperetnow.ru	/undwer/redir.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	297	64	200	OK	-	-	-	(empty)	-	-	-	FiIN7k88Tp7lgoLY1	binary	F1q1uq2eanSRNTKWe9	binary
+#close	2014-04-03-10-00-16

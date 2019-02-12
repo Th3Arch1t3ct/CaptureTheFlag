@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-27-51
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1336502737.369209	CBtyqR26O4w6lPUgF	192.168.74.10	1055	37.59.198.60	80	FWObHz2EbaD6dnBBR8	application/x-dosexec	http://defforest.org/?89e32ea8965ec775b1fb090e002f2fec	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 39%  Last seen: 2012-05-30 06:45:22	https://www.virustotal.com/en/search/?query=26f3c9f9cd7034db11bd330e6bb6c4949e52ad11	192.168.74.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336502737.997661	C3oTbo1VboVEZLQsTh	192.168.74.10	1047	50.30.47.80	80	F5czMa2sXxV0ipoheg	application/x-dosexec	http://www.tioposia.in/1.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2012-05-16 00:07:43	https://www.virustotal.com/en/search/?query=0a3626c3afdd7585bb138e99ce2b1c6f760a0109	192.168.74.10	50.30.47.80	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336502738.000815	Cz5nhk4Nyk4YZEp1wf	192.168.74.10	1058	37.59.198.60	80	FphO9T3aDYfP7WUTKa	application/x-dosexec	http://defforest.org/?756f94d6396ebcd97292543958b2ca8d	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 39%  Last seen: 2012-05-30 06:45:22	https://www.virustotal.com/en/search/?query=26f3c9f9cd7034db11bd330e6bb6c4949e52ad11	192.168.74.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336502749.559048	CIwNDRTOpLJlWQGha	192.168.74.10	1060	37.59.198.60	80	FkNmOL2LX5XQgwAfY3	application/x-dosexec	http://defforest.org/?be30513108c563036e7b130597444123	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 21%  Last seen: 2012-05-10 09:14:47	https://www.virustotal.com/en/search/?query=4fcf683795112b69cea162d6d2e68c1a08af366f	192.168.74.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336502801.360784	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.74.10 scanned at least 25 unique hosts on port 34354/tcp in 0m40s	remote	192.168.74.10	-	34354	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-27-51

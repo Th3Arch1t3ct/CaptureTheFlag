@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-03-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1321424508.002011	COdFb92nWK799k0Axl	192.168.113.10	1092	91.217.153.36	80	FhZIAy2gD5tkHE4cZ1	application/jar	http://ciscoinnovation.com//images/938a99f1be85e19406438f9a572fdf71.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 45%  Last seen: 2012-12-01 03:46:02	https://www.virustotal.com/en/search/?query=719578f0fe8f67cf4864076deb4467ddedca73ad	192.168.113.10	91.217.153.36	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1321424509.594872	CmD3jTyKOIYbwHd92	192.168.113.10	1099	91.217.153.36	80	FrNyc3TorRqNFGpja	application/jar	http://ciscoinnovation.com//images/938a99f1be85e19406438f9a572fdf71.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 45%  Last seen: 2012-12-01 03:46:02	https://www.virustotal.com/en/search/?query=719578f0fe8f67cf4864076deb4467ddedca73ad	192.168.113.10	91.217.153.36	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1321424509.594872	C0aaVC1JUIyPdBzVti	192.168.113.10	1100	91.217.153.36	80	FL5xhn8TFXoU4PS95	application/jar	http://ciscoinnovation.com//images/938a99f1be85e19406438f9a572fdf71.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 45%  Last seen: 2012-12-01 03:46:02	https://www.virustotal.com/en/search/?query=719578f0fe8f67cf4864076deb4467ddedca73ad	192.168.113.10	91.217.153.36	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-03-36

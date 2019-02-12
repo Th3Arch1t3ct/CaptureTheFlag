@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-56-21
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1356641220.955416	Fcuqpe1A5FyqfEKlL1	93.170.52.31	192.168.124.10	CYvyPg27nHoR3W90Pd	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	1112	-	0	0	F	-	39faef4e7ce580d45d484bd4e22c4ef1	54f78846b23241b34ff463dcd888eeeea5ff08af	-	-
+1356641221.356317	FdXtDh3aQHGovpN5e2	74.125.228.46	192.168.124.10	C5yVMmf8V3jsizHI7	HTTP	0	MD5,SHA1	text/plain	-	0.015284	-	F	37362	-	0	0	F	-	f5592eabae33f8499d067344f1f42183	142a9875c4bd7e15ce6ac8b5bb181fb29ed08ba5	-	-
+1356641221.493012	FqR03r1xolbMuQHFsa	74.125.228.46	192.168.124.10	C5yVMmf8V3jsizHI7	HTTP	0	MD5,SHA1	image/gif	-	0.000000	-	F	35	35	0	0	F	-	28d6814f309ea289f847c69cf91194c6	0f4e929dd5bb2564f7ab9c76338e04e292a42ace	-	-
+1356641221.680015	FeqpS62PBmplpkI7zk	195.64.155.34	192.168.124.10	CDNE4l4fwSrPGoWXqg	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	160	160	0	0	F	-	ba15642bf39aaf293060036a89576904	da19c88713d84ae98eb1150372e218f76da447a6	-	-
+1356641222.186117	FqWPZV3sgBAmpgx8u4	195.3.143.42	192.168.124.10	CO99VbFCV2oq5EF86	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	161	-	0	0	F	-	82d7993071d80f9d273a9923a12a281f	a23eb4c5b4948136f5bb1e3d992d3ebd2403d77e	-	-
+1356641222.99562	FrkmMtwzBiN30fisg	195.3.143.42	192.168.124.10	C0OKpr4ZXoeDf10ji1	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	161	-	0	0	F	-	82d7993071d80f9d273a9923a12a281f	a23eb4c5b4948136f5bb1e3d992d3ebd2403d77e	-	-
+1356641223.288845	FYGhRcv5JmHgO5Iad	195.3.143.42	192.168.124.10	CO99VbFCV2oq5EF86	HTTP	0	MD5,SHA1	text/html	-	0.000023	-	F	3774	-	0	0	F	-	98b6dc7cddda492f0e1d96865fff2d27	f353c98099fdc1282e29426a38c67181d66dd517	-	-
+1356641223.462668	FYBve23rQyYp4vGSD5	24.143.197.41	192.168.124.10	CibI3H1skHJ58C7D7b	HTTP	0	MD5,SHA1	image/png	-	0.000000	-	F	2349	2349	0	0	F	-	ce404e2f475dbf547ee8195dac0eff0a	3eb3390ad49e78b3e872aaf154256496e132e9f3	-	-
+1356641223.513761	FVTEJv1yRea11UggTe	208.131.138.217	192.168.124.10	Cv9sYd1JUMOwvAH3v1	HTTP	0	MD5,SHA1	application/x-dosexec	IamSexyJPEG.exe	0.011867	-	F	13140	93555	0	0	F	-	51e7eabf90b298e1d068f2f7579177e1	f56220bdd6807f570ad59fd8a8a8559bfd2f0065	-	-
+1356641223.612518	FTrNYj1fYB5C4PW7jf	195.3.143.42	192.168.124.10	CD6HJXAZdF1bST5qa	HTTP	0	MD5,SHA1	image/gif	-	0.000000	-	F	120	120	0	0	F	-	ccc25d7f7a4ed54589c2623511b9d107	3b306f6a094b4067a00a7d16136afcd2b063c430	-	-
+#close	2014-04-03-10-56-21

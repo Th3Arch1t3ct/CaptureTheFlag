@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-52-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1336209251.060346	CnRmm62BnlIwCEXbg7	192.168.49.10	1039	94.75.234.145	80	Fr3Qim2vk7DgxYheXh	application/x-dosexec	http://www.vicroty.in/images.php?t=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 50%  Last seen: 2012-05-09 12:31:28	https://www.virustotal.com/en/search/?query=fe29edb002b09f997987d2f22843c96ffdd43a13	192.168.49.10	94.75.234.145	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336209255.678043	C505uP3HKSkMZejR3a	192.168.49.10	1040	94.75.234.145	80	FRf4794FpVq8e3LgPg	application/jar	http://www.vicroty.in/images.php?t=81234	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2012-05-07 16:16:05	https://www.virustotal.com/en/search/?query=ee7584a2e2c1decd0cb9cc0da9be94253799a550	192.168.49.10	94.75.234.145	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336209255.678043	C505uP3HKSkMZejR3a	192.168.49.10	1040	94.75.234.145	80	FagRJh26TusnHR6R8d	application/jar	http://www.vicroty.in/images.php?t=81234	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2012-05-07 16:16:05	https://www.virustotal.com/en/search/?query=ee7584a2e2c1decd0cb9cc0da9be94253799a550	192.168.49.10	94.75.234.145	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336209255.678043	C505uP3HKSkMZejR3a	192.168.49.10	1040	94.75.234.145	80	FSkT8GullTVGlsbI4	application/jar	http://www.vicroty.in/images.php?t=81234	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2012-05-07 16:16:05	https://www.virustotal.com/en/search/?query=ee7584a2e2c1decd0cb9cc0da9be94253799a550	192.168.49.10	94.75.234.145	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336209262.015002	CwYBMn3rRO1d3otzt2	192.168.49.10	1042	94.75.234.145	80	F6Sskf2he79vh2zAQi	application/jar	http://www.vicroty.in/images.php?t=81234	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2012-05-07 16:16:05	https://www.virustotal.com/en/search/?query=ee7584a2e2c1decd0cb9cc0da9be94253799a550	192.168.49.10	94.75.234.145	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336209262.282719	CwYBMn3rRO1d3otzt2	192.168.49.10	1042	94.75.234.145	80	F20GIs4ZMlKxOCJBCc	application/x-dosexec	http://www.vicroty.in/images.php?t=1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 50%  Last seen: 2012-05-09 12:31:28	https://www.virustotal.com/en/search/?query=fe29edb002b09f997987d2f22843c96ffdd43a13	192.168.49.10	94.75.234.145	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-52-07

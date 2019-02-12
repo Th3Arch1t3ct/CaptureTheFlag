@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-06-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1321735623.667594	CuUlkC17D14psfEYAa	192.168.69.10	1045	67.243.159.233	80	FBdeXc1ITdvVXn2v78	application/x-dosexec	http://haysttteeo.com/w.php?f=26&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2011-12-07 15:46:48	https://www.virustotal.com/en/search/?query=709515e4fed345056b6d90c1f819c498034a78c6	192.168.69.10	67.243.159.233	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1321735623.803805	C7XTiA2guFFnUQAria	192.168.69.10	1046	67.243.159.233	80	F22YUk3GYgMMv79d2	application/pdf	http://haysttteeo.com/content/2ddfp.php?f=26	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 40%  Last seen: 2011-11-20 09:47:49	https://www.virustotal.com/en/search/?query=c9922fca87e7f5c9aa2ef30859d65c36afda3258	192.168.69.10	67.243.159.233	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1321735631.258695	CAG3rM3yKXykMgS5nk	192.168.69.10	1057	186.4.71.187	80	FdRv7631S9kPBsLn29	application/x-dosexec	http://haysttteeo.com/w.php?f=26&e=0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2011-12-07 15:46:48	https://www.virustotal.com/en/search/?query=709515e4fed345056b6d90c1f819c498034a78c6	192.168.69.10	186.4.71.187	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1321735633.971055	C7eaHuXf9OwTBxEn6	192.168.69.10	1059	67.243.159.233	80	FOnyMZ2lT9QoQ6xS2b	application/x-dosexec	http://haysttteeo.com/w.php?f=26&e=6	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2011-12-07 15:46:48	https://www.virustotal.com/en/search/?query=709515e4fed345056b6d90c1f819c498034a78c6	192.168.69.10	67.243.159.233	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1321735636.489501	CbqmAf1jYO1gNlMXhf	192.168.69.10	1058	186.4.71.187	80	FmAtOd4urED74ka0di	application/x-dosexec	http://haysttteeo.com/w.php?f=26&e=1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2011-12-07 15:46:48	https://www.virustotal.com/en/search/?query=709515e4fed345056b6d90c1f819c498034a78c6	192.168.69.10	186.4.71.187	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-06-08

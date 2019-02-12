@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-44-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1312619204.760071	CtmB7Z1Wfcgj1T1Vv7	192.168.27.10	1048	91.193.72.70	80	FhULx51rweLsAuaMS3	application/x-java-applet	http://1539393606/GSearch.class	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 45%  Last seen: 2012-07-15 16:31:04	https://www.virustotal.com/en/search/?query=2eabf000aa6c55acd3e3950da4f6d5e0cb4cd242	192.168.27.10	91.193.72.70	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1312619215.970768	CpMahN3nOieY8ZVN0l	192.168.27.10	1062	122.224.4.134	80	Frj09X5D3fJz7246c	application/x-dosexec	http://122.224.4.134/2010.exe?affid=13100	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 42%  Last seen: 2012-02-21 12:38:12	https://www.virustotal.com/en/search/?query=7c792b8af8a8ec80077c165451a566cc00276a8f	192.168.27.10	122.224.4.134	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-44-23

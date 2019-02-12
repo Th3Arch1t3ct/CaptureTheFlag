@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-36-21
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1369893898.105907	Ckm5Be4Fil72d2kuW	192.168.49.10	1029	4.2.2.3	53	udp	63881	www.eurodent-belgrade.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	eurodent-belgrade.com,78.46.110.115	14374.000000,14374.000000	F
+1369893898.645529	Ckm5Be4Fil72d2kuW	192.168.49.10	1029	4.2.2.3	53	udp	22920	wwwimages.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wwwimages.wip4.adobe.com,wwwimages.adobe.com.edgesuite.net,wwwimages.adobe.com.edgesuite.net.globalredir.akadns.net,a1953.x.akamai.net,23.67.61.136,23.67.61.130	43.000000,75.000000,18683.000000,75.000000,20.000000,20.000000	F
+1369893899.181997	Ckm5Be4Fil72d2kuW	192.168.49.10	1029	4.2.2.3	53	udp	43912	www.headline.cl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.33.223.25	14400.000000	F
+1369893900.263198	Ckm5Be4Fil72d2kuW	192.168.49.10	1029	4.2.2.3	53	udp	37515	www.coloquiodesign.com.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	coloquiodesign.com.br,205.251.133.166	14400.000000,14400.000000	F
+1369893900.172914	CrctBM2xtDXK6HUL6a	192.168.49.10	1029	4.2.2.5	53	udp	43912	www.headline.cl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.33.223.25	14400.000000	F
+#close	2014-04-03-10-36-21

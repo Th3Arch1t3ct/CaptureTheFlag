@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-41-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1332356330.683433	ChURJS3NM8UXKm7IZa	192.168.120.10	1029	4.2.2.3	53	udp	35474	tech-tweet.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.224.120.72	14378.000000	F
+1332356330.784625	ChURJS3NM8UXKm7IZa	192.168.120.10	1029	4.2.2.3	53	udp	28305	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.65.95	3107.000000,223.000000	F
+1332356330.79029	ChURJS3NM8UXKm7IZa	192.168.120.10	1029	4.2.2.3	53	udp	49559	remananews.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.218.38.251	3600.000000	F
+1332356331.766681	ChURJS3NM8UXKm7IZa	192.168.120.10	1029	4.2.2.3	53	udp	30614	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	3122.000000,211.000000	F
+1332356332.435024	ChURJS3NM8UXKm7IZa	192.168.120.10	1029	4.2.2.3	53	udp	31126	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	602.000000,439.000000	F
+1332356355.453691	CNu2Cq1zJOXUBu17R9	192.168.120.10	1029	4.2.2.3	53	udp	18070	google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.125.130.138,74.125.130.139,74.125.130.100,74.125.130.101,74.125.130.102,74.125.130.113	270.000000,270.000000,270.000000,270.000000,270.000000,270.000000	F
+1332356355.618948	CNu2Cq1zJOXUBu17R9	192.168.120.10	1029	4.2.2.3	53	udp	9877	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.130.104,74.125.130.105,74.125.130.106,74.125.130.147,74.125.130.99,74.125.130.103	37814.000000,185.000000,185.000000,185.000000,185.000000,185.000000,185.000000	F
+#close	2014-04-03-10-41-45

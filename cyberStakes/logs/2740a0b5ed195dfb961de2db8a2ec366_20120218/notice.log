@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-51-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1329526053.205036	Cli74r24yskE4Xu08h	192.168.25.10	1039	208.98.33.168	80	FYvlvERFdfsfGX2d	application/jar	http://www.dnwsdk.com/ku/Gondad.jpg	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-03-01 11:34:31	https://www.virustotal.com/en/search/?query=f8ea5b6b419d52e3b62afd0b9e5c30cc7ee8c71a	192.168.25.10	208.98.33.168	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-51-39

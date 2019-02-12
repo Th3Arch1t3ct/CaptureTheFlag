@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-08-53
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1344025459.223172	F1jpU71ZD7qjyYMNFg	200.52.138.15	192.168.87.10	CtD9Se1wBibgZENuZ6	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	812	812	0	0	F	-	3f145af9d1d95e39ee15d4184d4791f3	e205d88535308c92c40959599663689b153b593c	-	-
+1344025459.669735	FDlb3s4k6GYJI3faZ1	200.52.138.15	192.168.87.10	CtD9Se1wBibgZENuZ6	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	1173	1173	0	0	F	-	ea181d8a33d86baada663409e1c8605c	572568c9eb48d2a181e385ea174a663f7d6f6ca5	-	-
+1344025460.401987	FGqbXjjCxDrDp6iAh	200.52.138.15	192.168.87.10	CtD9Se1wBibgZENuZ6	HTTP	0	SHA1,MD5	application/x-dosexec	-	12.633779	-	F	2723264	2723264	0	0	F	-	5c82be7ad1775b67916ee19c15b99331	7dfa98be78249921dd0eedb9a3dd809e7d215c8d	-	-
+1344025473.302	FaCojuwnEoGREUK7	192.204.4.66	192.168.87.10	CDOCUd1kTipjV8qxOe	HTTP	0	SHA1,MD5	binary	-	0.000000	-	F	558	558	0	0	F	-	3cc0012f96f8f44164c18d7de05023d9	c8feb560d751fe720c8bdb53f5e78aa92abb9a9e	-	-
+1344025473.524694	FWuscZ3G20YGSKVgb5	200.52.138.15	192.168.87.10	CtD9Se1wBibgZENuZ6	HTTP	0	SHA1,MD5	application/vnd.ms-cab-compressed	-	42.853994	-	F	2649652	2649652	0	0	F	-	76a746afcd608d3a56477dbd13d96587	33b642cd02e15538128d7e15e2aaa4c8083b61e6	-	-
+1344025516.665222	FeV6yxIuQWkjUT2Wl	199.7.48.190	192.168.87.10	Cd0avLCCDE3VYw38h	HTTP	0	SHA1,MD5	binary	-	0.000000	-	F	898	898	0	0	F	-	f7129bd2f205ed6146bb1342d12c903f	0a4280775e4719a34b7aebbc700b05cab54169f4	-	-
+1344025516.706652	F9uTIF30pjjSHcR1b7	199.7.48.190	192.168.87.10	Cpel082mKjAfivMg15	HTTP	0	SHA1,MD5	binary	-	0.047449	-	F	36268	36268	0	0	F	-	670f8929e1478bb445bbe0e2a53d4557	8a09c3c4a737c8a8320c2e523b5c43dffd4f51cf	-	-
+#close	2014-04-03-10-08-53

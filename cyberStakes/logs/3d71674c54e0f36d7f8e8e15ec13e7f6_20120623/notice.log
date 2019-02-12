@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-37-40
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1340426415.641005	CTaiHiKC5oA2anIT5	192.168.15.10	1043	194.50.116.64	80	FUVuP7z7lx01P5U28	application/x-dosexec	http://rustic-wedndesday.net/l/r.php?f=96ece&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2012-06-22 13:01:03	https://www.virustotal.com/en/search/?query=ea8d55fdf639d2377c0a0f097f5efe19a81a73ef	192.168.15.10	194.50.116.64	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1340426415.753433	CE8isa1CJHYL4gOLLb	192.168.15.10	1074	194.50.116.64	80	F3cpOdJiXJYWeE871	application/x-shockwave-flash	http://rustic-wedndesday.net/l/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 75%  Last seen: 2012-09-14 14:05:04	https://www.virustotal.com/en/search/?query=27474f210893b69a5204dcafb6d9fc12b743dc1f	192.168.15.10	194.50.116.64	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-37-40

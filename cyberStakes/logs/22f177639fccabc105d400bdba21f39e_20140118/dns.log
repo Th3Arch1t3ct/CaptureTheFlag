@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-21-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1390079890.672736	CB0mnw3WXeNWvf1di	192.168.95.10	1035	4.2.2.3	53	udp	41364	buzzdao.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	96.126.96.49	551.000000	F
+1390079891.03081	CB0mnw3WXeNWvf1di	192.168.95.10	1035	4.2.2.3	53	udp	42903	fonts.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.20.95	570.000000,37.000000	F
+1390079891.151726	CB0mnw3WXeNWvf1di	192.168.95.10	1035	4.2.2.3	53	udp	11158	themes.googleusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlehosted.l.googleusercontent.com,74.125.224.106,74.125.224.108,74.125.224.107	65664.000000,89.000000,89.000000,89.000000	F
+1390079891.27624	CB0mnw3WXeNWvf1di	192.168.95.10	1035	4.2.2.3	53	udp	54417	js.tongji.linezing.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	js.tongji.linezing.com.danuoyi.tbcache.com,taurus.danuoyi.tbcache.com,66.102.255.40	1800.000000,1800.000000,143.000000	F
+1390079892.007936	CB0mnw3WXeNWvf1di	192.168.95.10	1035	4.2.2.3	53	udp	51600	dt.tongji.linezing.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	110.75.80.118	135.000000	F
+1390079892.427301	CB0mnw3WXeNWvf1di	192.168.95.10	1035	4.2.2.3	53	udp	4752	hautepuppy.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.136.187.13	120.000000	F
+1390079966.700813	C04Kic4waj3K19zRh4	192.168.95.10	1035	4.2.2.3	53	udp	47763	jetcodefinancialservices.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.163.35.109	3600.000000	F
+1390079977.124693	CHzL7N0JPZ6VTmrYl	192.168.95.10	1035	4.2.2.3	53	udp	28306	sqwuxqrcnfgdui.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	185.20.227.220,185.20.227.220,185.20.227.220,81.17.140.104	300.000000,300.000000,300.000000,300.000000	F
+#close	2014-04-03-10-21-35

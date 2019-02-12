@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-15-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1368671863.436041	CWBqfh1FTINlVwrhPg	192.168.35.10	1029	4.2.2.3	53	udp	59018	diariodosertao.com.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	186.227.193.184	14374.000000	F
+1368671866.34583	CWBqfh1FTINlVwrhPg	192.168.35.10	1029	4.2.2.3	53	udp	8586	ssforce.herobo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.170.161.236	600.000000	F
+1368671866.580706	CWBqfh1FTINlVwrhPg	192.168.35.10	1029	4.2.2.3	53	udp	31880	whos.amung.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.202.94.94,67.202.94.86,67.202.94.93	43.000000,43.000000,43.000000	F
+1368671866.785645	CWBqfh1FTINlVwrhPg	192.168.35.10	1029	4.2.2.3	53	udp	60559	lalla.ma	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.254.28.40	7200.000000	F
+1368671872.390294	CWBqfh1FTINlVwrhPg	192.168.35.10	1029	4.2.2.3	53	udp	40846	wwwimages.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wwwimages.wip4.adobe.com,wwwimages.adobe.com.edgesuite.net,wwwimages.adobe.com.edgesuite.net.globalredir.akadns.net,a1953.x.akamai.net,a1953.x.akamai.net.0.1.cn.akamaitech.net,63.236.252.136,63.236.252.129	60.000000,737.000000,9238.000000,737.000000,20.000000,20.000000,20.000000	F
+1368671875.697722	CWBqfh1FTINlVwrhPg	192.168.35.10	1029	4.2.2.3	53	udp	49037	www.pm.pa.gov.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	200.164.100.224	3600.000000	F
+#close	2014-04-03-10-15-36

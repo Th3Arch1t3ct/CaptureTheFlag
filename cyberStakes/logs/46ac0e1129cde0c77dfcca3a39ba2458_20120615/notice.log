@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-24-51
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1339776166.500375	CMGfcE1j9cwihSuYe8	192.168.22.10	1041	69.65.42.35	80	F8jnAi11nGSfea9fKe	application/x-dosexec	http://largescalebuffer.ru/w.php?f=fe51a&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2012-07-26 18:27:10	https://www.virustotal.com/en/search/?query=d4b6b2c781ad0c9df32d184a4cb96562bc9f60d1	192.168.22.10	69.65.42.35	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1339776173.254352	CLhf3F3JrkUDs7xIYi	192.168.22.10	1044	69.65.42.35	80	FuWAgG3p1sU6h6n9m6	application/x-java-applet	http://largescalebuffer.ru/1.class	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-06-16 10:09:52	https://www.virustotal.com/en/search/?query=0ebc6f8351c1e1f3cef622521a4cfd3de33d47b1	192.168.22.10	69.65.42.35	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1339776177.450862	C2dFkd2xTWgoqmqgq8	192.168.22.10	1053	69.65.42.35	80	FAFfhbRsXA77EeKK8	application/x-dosexec	http://largescalebuffer.ru/w.php?f=fe51a&e=0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2012-07-26 18:27:10	https://www.virustotal.com/en/search/?query=d4b6b2c781ad0c9df32d184a4cb96562bc9f60d1	192.168.22.10	69.65.42.35	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-24-52

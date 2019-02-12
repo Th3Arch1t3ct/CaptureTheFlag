@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-34-52
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1371636439.912121	CfhqpY29qZ41xfjV3e	192.168.99.10	1047	74.125.137.101	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1370477383.000000	1383281999.000000	-	-	-	41046bb636c1c368bb96d0fc7e11581b	ok
+1371636441.787524	CRidyoh8IlFb9vDJ1	192.168.99.10	1066	72.21.91.42	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=s2.wac.edgecastcdn.net,OU=Ops,O=EdgeCast Networks\, Inc.,L=Santa Monica,ST=California,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1284699600.000000	1380042000.000000	-	-	-	e1faaa80e1e75db1fe4b8c624b3dffdb	ok
+#close	2014-04-03-10-34-53

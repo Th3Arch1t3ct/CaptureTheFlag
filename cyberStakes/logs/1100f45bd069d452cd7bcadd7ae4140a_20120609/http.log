@@ -1,0 +1,46 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-18-42
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1339269717.432286	CQhwC72vFtry3Vhv6f	192.168.59.10	1030	77.92.140.190	80	1	GET	static.kotusozluk.net	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2711	200	OK	-	-	-	(empty)	-	-	-	-	-	FKMUxXYek8B8xRlD9	text/html
+1339269717.966103	CMOeTy2rK8kik5mZw7	192.168.59.10	1031	94.229.73.98	80	1	GET	fredowm.net	/?3	http://static.kotusozluk.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1339269718.550772	CeKEi72rGBmFnSx99i	192.168.59.10	1032	178.73.210.237	80	1	GET	mmmoney1.net	/default.php	http://static.kotusozluk.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1339269719.26136	C3IE0x4hmgDAGM6ZH3	192.168.59.10	1033	37.157.255.148	80	1	GET	potuiams.tk	/17053879.html	http://static.kotusozluk.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	285	200	OK	-	-	-	(empty)	-	-	-	-	-	FtMf9U9gggbxddulb	text/html
+1339269720.964873	CMgMku2II5eqactQR7	192.168.59.10	1038	37.157.255.148	80	1	GET	potuiams.tk	/33982.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	65819	200	OK	-	-	-	(empty)	-	-	-	-	-	FD4Y1QcBFDsYik5H6	application/zip
+1339269721.352211	CMgMku2II5eqactQR7	192.168.59.10	1038	37.157.255.148	80	2	GET	potuiams.tk	/33982.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	65819	200	OK	-	-	-	(empty)	-	-	-	-	-	F1Juhw1pf3LR1sn0h4	application/zip
+1339269721.70016	CMgMku2II5eqactQR7	192.168.59.10	1038	37.157.255.148	80	3	GET	potuiams.tk	/33982.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	65819	200	OK	-	-	-	(empty)	-	-	-	-	-	FrAXiBgvPo0SJ9Yq2	application/zip
+1339269722.460134	CMgMku2II5eqactQR7	192.168.59.10	1038	37.157.255.148	80	4	GET	potuiams.tk	/1.html	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	35840	200	OK	-	-	-	(empty)	-	-	-	-	-	FDkReC2j0PheellUq4	application/x-dosexec
+1339269728.769011	CQje1l2mlGxDvFZCbj	192.168.59.10	1039	37.157.255.149	80	1	GET	37.157.255.149	/342122.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	187863	200	OK	-	-	-	(empty)	-	-	-	-	-	FGM8O31S2IZVjpNwl3	binary
+1339269729.606924	CQje1l2mlGxDvFZCbj	192.168.59.10	1039	37.157.255.149	80	2	GET	37.157.255.149	/342122.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	186368	200	OK	-	-	-	(empty)	-	-	-	-	-	F7x59Raiw0PRpfUp2	binary
+1339269729.98849	CQje1l2mlGxDvFZCbj	192.168.59.10	1039	37.157.255.149	80	3	GET	37.157.255.149	/342122.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	380928	200	OK	-	-	-	(empty)	-	-	-	-	-	FDwUdR1z91jgo2pvvj	binary
+1339269731.14582	CQje1l2mlGxDvFZCbj	192.168.59.10	1039	37.157.255.149	80	4	GET	37.157.255.149	/342122.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	139264	200	OK	-	-	-	(empty)	-	-	-	-	-	FFTSNd25Op7BI4xZTk	binary
+1339269731.498828	CQje1l2mlGxDvFZCbj	192.168.59.10	1039	37.157.255.149	80	5	GET	37.157.255.149	/342122.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	165888	200	OK	-	-	-	(empty)	-	-	-	-	-	FjjtoC3aXJLvVOrMT4	binary
+1339269731.96305	CQje1l2mlGxDvFZCbj	192.168.59.10	1039	37.157.255.149	80	6	GET	37.157.255.149	/342122.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	390656	200	OK	-	-	-	(empty)	-	-	-	-	-	FZXSZs2tTgprIn888b	binary
+1339269733.41005	CQje1l2mlGxDvFZCbj	192.168.59.10	1039	37.157.255.149	80	7	GET	37.157.255.149	/342122.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	79328	200	OK	-	-	-	(empty)	-	-	-	-	-	FnFNvu3pIVLzpLXoP9	binary
+1339269733.669807	CQje1l2mlGxDvFZCbj	192.168.59.10	1039	37.157.255.149	80	8	GET	37.157.255.149	/342122.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	666	200	OK	-	-	-	(empty)	-	-	-	-	-	FwNLN01ff5Uu5C4DKg	binary
+1339269735.493122	CFGdE3R6MLj5pt8aj	192.168.59.10	1040	207.204.12.126	80	1	GET	blueskyphotogallery.com	/index11.php?t=1	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1)	0	303392	200	OK	-	-	-	(empty)	-	-	-	-	-	FZPqiuvnwVDF7Asnb	binary
+1339269741.231117	ClD2bB4Hw5fjkPgCn3	192.168.59.10	1041	207.204.12.126	80	1	GET	blueskyphotogallery.com	/index11.php?t=10	-	Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.1)	0	9216	200	OK	-	-	-	(empty)	-	-	-	-	-	FqjQIIAVwGWBM3XZ6	binary
+1339269741.422959	ClD2bB4Hw5fjkPgCn3	192.168.59.10	1041	207.204.12.126	80	2	GET	blueskyphotogallery.com	/index11.php?t=11	-	Mozilla/5.1 (compatible; MSIE 8.0; Windows NT 6.1)	0	9728	200	OK	-	-	-	(empty)	-	-	-	-	-	F1Qicf1ldcSr8BPE4k	binary
+1339269743.283182	CCFL0u2b5jD9nocmT7	192.168.59.10	1043	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	28	200	OK	-	-	-	(empty)	-	-	-	-	-	FXoLVF2L2vue7sV2e1	text/plain
+1339269743.427683	CY5Hgl2wO68nwabAwh	192.168.59.10	1044	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339269743.656907	CFTDDieGhvZtrutaf	192.168.59.10	1046	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=2&d=7&s=121	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339269743.924489	CguLDZ1lLFcDEmlDbf	192.168.59.10	1048	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=3&d=7&s=131	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339269743.952195	CCbqoZ1teSQmakg5yh	192.168.59.10	1050	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=4&d=7&s=1	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339269744.07597	CZNLjiM2UM64oCWdg	192.168.59.10	1052	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=5&d=7&s=20	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339269748.393656	C7fPlb4oehjSFhSKO4	192.168.59.10	1056	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=6&d=7&s=21	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339269749.26621	CM5DlN2TyFgzScGLU5	192.168.59.10	1061	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=8&d=7&s=31	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339269749.266034	CX9P1b4nLPwZDTIgQ4	192.168.59.10	1059	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=7&d=7&s=30	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339269751.35541	CvrL0G3LAVBu7qqFL1	192.168.59.10	1065	78.140.131.157	80	1	GET	megaupload.com	/file/id=AwAtAAEA_9IAAAEFBRcAAAAAAAAAAAAAAAAAAAAjDAYICwAAAGLuTLzhEWWyrLhwgiZvmW8AAFVVVVVVVVVVVVVVVVVVVVWWRs0BSkO6cCrEAABVd3Vtc219Y29lczMyaGc4Zzg4AkaTNQrd_hNvAAAAADRW&rt=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)	0	523	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F1Zk992RUqxAK8gwNl	text/html
+1339269751.655568	CbMy5T5xJSSafBRnc	192.168.59.10	1066	116.255.247.93	80	1	GET	116.255.247.93	/api/urls/?ts=f9a126ae&affid=56300	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	59	200	OK	-	-	-	(empty)	-	-	-	-	-	F07hNf2QmkI2Kajz23	text/plain
+1339269757.371903	C5gT7B3zvRQmk8k482	192.168.59.10	1069	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	28	200	OK	-	-	-	(empty)	-	-	-	-	-	F0gUUt3fN17hqKKGzc	text/plain
+1339269757.596481	C95c371ghvFdZPyKij	192.168.59.10	1070	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=1052095754&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339269757.596745	CtfAN61wcU9UW9tiqd	192.168.59.10	1072	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=1052095754&c=2&d=7&s=110	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339269757.721241	CXWy4X3ZENiAuYxCZ	192.168.59.10	1074	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=1052095754&c=3&d=7&s=10	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339269757.509205	CARXXm3XQeKJBAzDB8	192.168.59.10	1067	195.210.47.109	80	1	GET	freshfrost.ipq.co	/f/1110.exe?ts=f9a126ae&affid=5630	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	196096	200	OK	-	-	-	(empty)	-	-	-	-	-	FkWAGU24yRWBhy3JO3	application/x-dosexec
+1339269766.98666	C7jZnEw9Rki2PP5hb	192.168.59.10	1080	74.125.137.104	80	1	GET	www.google.com	/webhp	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	23660	200	OK	-	-	-	(empty)	-	-	-	-	-	FU5kTHUgqmYZyjJg9	text/html
+1339269767.199891	CE6P0sEZ5f0U0C7Ug	192.168.59.10	1082	173.236.38.146	80	1	POST	huawei.stagingserver.com.au	/index1.php	-	Mozilla/5.1 (compatible; MSIE 8.0; Windows NT 6.1)	304	64	200	OK	-	-	-	(empty)	-	-	-	FAk7zh2Bz09uhESGF4	binary	FZFu0N2qJTIAKtCXFb	binary
+#close	2014-04-03-10-18-42

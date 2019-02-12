@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-32-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1336039390.887575	CrJ6FN2cJl3D8MdQ1f	192.168.61.10	1062	78.46.196.236	80	FymYiL20CzjFQLchC9	application/jar	http://xxxz.in/www/p_.jar?61d8e844	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 50%  Last seen: 2012-05-03 11:53:30	https://www.virustotal.com/en/search/?query=17e5c0af295503a9783630a568d592989eb55cc7	192.168.61.10	78.46.196.236	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336039407.948914	CKkffV1QJvpJsPZhR	192.168.61.10	1051	94.75.213.211	80	FhAaZh1h2qHK9sXVji	application/x-dosexec	http://xxx.leojan.in/images.php?t=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2012-05-05 21:57:14	https://www.virustotal.com/en/search/?query=ba95b44f3a3dc94f51455b8f389b4c5a38140381	192.168.61.10	94.75.213.211	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336039407.948914	CtHX0O1EK26b2UCU8	192.168.61.10	1063	94.75.213.211	80	FtlxKRJ0zcXXkcm0j	application/x-dosexec	http://xxx.leojan.in/images.php?t=1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2012-05-05 21:57:14	https://www.virustotal.com/en/search/?query=ba95b44f3a3dc94f51455b8f389b4c5a38140381	192.168.61.10	94.75.213.211	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-32-05

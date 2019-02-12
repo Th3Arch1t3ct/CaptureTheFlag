@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-09-51-12
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1339051169.564063	Ffihyx3pgGb69dsYL1	67.212.188.26	192.168.116.10	CzI35y1FafG6sXp7Ua	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	1788	-	0	0	F	-	26692e94fba9bdd070e9e866de95881c	7cd2a02cbf45541f11baa0b1ec91073e84f6a0b6	-	-
+1339051171.157871	FvUaxi1tPOrR2gFkgk	93.104.215.155	192.168.116.10	CXos6vCrwoLMTgkD3	HTTP	0	SHA1,MD5	text/html	-	0.077185	-	F	2891	-	0	0	F	-	24a6ef3e9e0141add59bfd29e014d7ae	a77cfb02292065dc0cf3490d22f34ff9afe9389e	-	-
+1339051171.538068	FPt1kx2tULGhde3Job	93.104.215.155	192.168.116.10	CfSyiS36yVQyUkzKe8	HTTP	0	SHA1,MD5	text/plain	-	0.335310	-	F	21969	21969	0	0	F	-	f96ff6b4ac204552e75d118c6a02caf3	ff0f1f1b2746184a2ef369071293d7c526aabe12	-	-
+1339051172.352407	FPgjwS2oN2YKIEOMJc	93.104.215.155	192.168.116.10	CMfwD51LgyopeebDU	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	290	-	0	0	F	-	349b62314fc17c1bea03278e307f6836	c0050fc9b122a1c418344fc6f1ff0df2653f49fd	-	-
+1339051172.941599	F0G6kz31UjrdykTs37	93.104.215.155	192.168.116.10	CyQYgs4quOZjCs5WBi	HTTP	0	SHA1,MD5	application/pdf	manual20100188.pdf	0.075408	-	F	2696	2696	0	0	F	-	7804ed06df4b41372c915ca038ac2a92	1b86c7083aadc0e0869b2c91f0bc6c34aab94361	-	-
+1339051176.890568	Fbl4lp3pozeIWsEOPc	93.104.215.155	192.168.116.10	CP0tIBWUPqo3jRmn1	HTTP	0	SHA1,MD5	application/x-dosexec	FlashUtil10f_Plugin.exe.exe	0.447857	-	F	34816	34816	0	0	F	-	08b255221014bce507494a822b490027	ef3e2dd8ca9e6a61d74fb7c4f976d1743730f59f	-	-
+1339051177.848693	FMaa0C40wYJPdWziTk	93.104.215.155	192.168.116.10	Cq0Vcs3ZzgRM1KyI9c	HTTP	0	SHA1,MD5	application/zip	-	0.000000	-	F	2327	2327	0	0	F	-	bca052471d50aa5b3e4d381ff1ac389d	4a8ab7e39e2e4f61dec638131cd228552b5fb7db	-	-
+1339051178.401055	FsPl5U237fzbOujGE7	93.104.215.155	192.168.116.10	CWGya82cQT6vZJtz6a	HTTP	0	SHA1,MD5	binary	-	0.000000	-	F	519	519	0	0	F	-	456ea8ea7abb7f5bdefca401c010905c	4146be1b0350a475f79946edea700e0d3fb336d4	-	-
+#close	2014-04-03-09-51-13

@@ -1,0 +1,30 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-54-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1320292579.933819	CtiaNkvaTDDhuSFd5	192.168.2.10	1030	95.168.165.225	80	1	GET	tube-satellite.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	244	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	F5CVeY1csVy0WkXNhl	text/html
+1320292580.140697	Cu9IOB1e3KYAh4POu1	192.168.2.10	1031	109.236.85.57	80	1	GET	eurothaimuackmuack.in	/?site=3	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1320292580.357531	CYViUe2PSlYBGwokh7	192.168.2.10	1032	95.168.163.76	80	1	GET	googleads2.in	/redir.html	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	349	200	OK	-	-	-	(empty)	-	-	-	-	-	FkjTvt1Bc6kvRJxGm3	text/html
+1320292580.623893	Ci9CW93sjotJu14gab	192.168.2.10	1036	95.168.163.76	80	1	GET	googleads2.in	/in.cgi?default	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	186	302	Found	-	-	-	(empty)	-	-	-	-	-	Fg6qyr2DOk7F1i4qHa	text/html
+1320292580.842729	C7lOJg48KweDVSt3l5	192.168.2.10	1037	109.236.85.57	80	1	GET	domain1for8.in	/?site=8	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	52091	200	OK	-	-	-	(empty)	-	-	-	-	-	FFbJ231FO63XwHsbL4	text/html
+1320292581.951899	CQlUBy1HYDZyarSyBa	192.168.2.10	1038	109.236.85.57	80	1	GET	eurothaimuackmuack.in	/dl/pdf_libtiff9.php	http://domain1for8.in/?site=8	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2649	200	OK	-	-	-	(empty)	-	-	-	-	-	FplFaPG1oB4b6W6f9	application/pdf
+1320292585.069966	C4xWz14dMIr4tSNL3l	192.168.2.10	1043	109.236.85.57	80	1	GET	eurothaimuackmuack.in	/dl/dl.php?6	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	386040	200	OK	-	-	-	(empty)	-	-	-	-	-	FOx13s1zWfmhQPJXAg	application/x-dosexec
+1320292586.062456	CiTNQeinzSXxoRa33	192.168.2.10	1048	109.236.85.57	80	1	GET	eurothaimuackmuack.in	/dl/jsm.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5930	200	OK	-	-	-	(empty)	-	-	-	-	-	F6Unwz1jPJzUUt6wS3	application/jar
+1320292586.059419	CRl19f3ae4p4Drhtgl	192.168.2.10	1051	109.236.85.57	80	1	GET	1844204857	/alpha.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14289	200	OK	-	-	-	(empty)	-	-	-	-	-	FWjAlG2kmfRqB3lMp8	application/x-java-applet
+1320292586.061588	CT9awk1CkXFU4ri9Id	192.168.2.10	1049	109.236.85.57	80	1	GET	1844204857	/alpha.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14289	200	OK	-	-	-	(empty)	-	-	-	-	-	Fw4ef73GUdiAT6cEh9	application/x-java-applet
+1320292586.063476	CFzvRT2lj8jM5loXi6	192.168.2.10	1044	109.236.85.57	80	1	GET	1844204857	/alpha.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14289	200	OK	-	-	-	(empty)	-	-	-	-	-	FQwQUc4YHs9f86WAZ5	application/x-java-applet
+1320292586.060207	CMrCGt49uxVoxCeJIi	192.168.2.10	1050	109.236.85.57	80	1	GET	1844204857	/alpha.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14289	200	OK	-	-	-	(empty)	-	-	-	-	-	FLILvt1ZMju37kCYhi	application/x-java-applet
+1320292586.068411	C4WOYC0qMqWIUG661	192.168.2.10	1046	109.236.85.57	80	1	GET	1844204857	/alpha.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14289	200	OK	-	-	-	(empty)	-	-	-	-	-	Fx1XGchS6La1Kf2na	application/x-java-applet
+1320292586.067564	CluTZT1p9VMfcKp1M8	192.168.2.10	1047	109.236.85.57	80	1	GET	1844204857	/alpha.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14289	200	OK	-	-	-	(empty)	-	-	-	-	-	FIi9q2kHX344np6D9	application/x-java-applet
+1320292586.058202	CRi8NR2XbErtDFYEhf	192.168.2.10	1045	109.236.85.57	80	1	GET	eurothaimuackmuack.in	/dl/apache.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	19279	200	OK	-	-	-	(empty)	-	-	-	-	-	F8OC9m2pjLC6LxNKk3	application/jar
+1320292586.636632	CuROAY3hzR4zIRgCd1	192.168.2.10	1053	109.236.85.57	80	1	GET	1844204857	/alpha.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14289	200	OK	-	-	-	(empty)	-	-	-	-	-	FkVK4J2SPVuqVY3hhi	application/x-java-applet
+1320292586.637331	CjcoLQ1KHPChbNX9u6	192.168.2.10	1054	109.236.85.57	80	1	GET	1844204857	/alpha.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14289	200	OK	-	-	-	(empty)	-	-	-	-	-	FMPsq82XwcIIMO5Fmd	application/x-java-applet
+1320292587.020904	CHVVHs2a84N9GFagZ6	192.168.2.10	1060	31.44.184.55	80	1	GET	dincputilub.com	/up.php?0Q9oBPXEN0uECUgzEJ95RQsbjjrvq1aG3F/29ZkNqwOd0A==	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1320292587.666455	Ccjv941ndxn73ct3N1	192.168.2.10	1061	31.44.184.58	80	1	GET	satoricalories.com	/uuica1/440-direct	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	570	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Fq0doW23tmXUhz7Gtd	text/html
+1320292588.081969	CjM5jl2KIa0QXWhtPa	192.168.2.10	1062	193.105.154.34	80	1	GET	player-158521.com	/uuica1/440-direct	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	570	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FCTDks4Zd1f3ycLEu	text/html
+1320292609.692734	CMYyyk4qnuDOLcacFg	192.168.2.10	1064	31.44.184.58	80	1	GET	satoricalories.com	/uuica1/440-direct	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	570	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FSIWsy1QKTCrI1CE4l	text/html
+#close	2014-04-03-10-54-08

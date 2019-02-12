@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-08-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1314538001.291358	CuLLCNhcBkhS7x8E2	192.168.62.10	1029	4.2.2.3	53	udp	53135	updateavailable.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.73.210.48	574.000000	F
+1314538001.516315	CuLLCNhcBkhS7x8E2	192.168.62.10	1029	4.2.2.3	53	udp	17548	www.stats3d.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	stats3d.com,50.22.131.188	14400.000000,14400.000000	F
+1314538002.036976	CuLLCNhcBkhS7x8E2	192.168.62.10	1029	4.2.2.3	53	udp	40844	www.winpalace.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	winpalace.com,72.52.4.35	3600.000000,3600.000000	F
+#close	2014-04-03-10-08-04

@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-14-28
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1359148460.084668	CA0vDX2PsZc0c7kEoc	192.168.15.10	1029	4.2.2.3	53	udp	8843	aycaramba.dk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	77.232.92.28	21581.000000	F
+1359148460.414924	CA0vDX2PsZc0c7kEoc	192.168.15.10	1029	4.2.2.3	53	udp	33162	www.ad-stat-network.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	83.69.236.138	3600.000000	F
+1359148472.88092	C09cLsaI6tDcGgUt3	192.168.15.10	1029	4.2.2.3	53	udp	54408	ald-facebook.me.uk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.188.102.126	600.000000	F
+1359148494.582673	CUqV0w25UyhK2xuaRf	192.168.15.10	1029	4.2.2.3	53	udp	55176	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	3247.000000,300.000000	F
+1359148494.815851	CUqV0w25UyhK2xuaRf	192.168.15.10	1029	4.2.2.3	53	udp	9096	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,64.4.52.169	3211.000000,211.000000	F
+#close	2014-04-03-10-14-29

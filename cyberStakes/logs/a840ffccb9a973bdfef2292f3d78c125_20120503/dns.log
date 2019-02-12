@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-10-19
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1336045584.707143	CjVclJ2bSfYCs8ptD	192.168.113.10	1029	4.2.2.3	53	udp	19855	voi6.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.220.215.219	14380.000000	F
+1336045585.93532	CjVclJ2bSfYCs8ptD	192.168.113.10	1029	4.2.2.3	53	udp	45199	www.voi6.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	voi6.com,74.220.215.219	14380.000000,14379.000000	F
+1336045588.43997	CjVclJ2bSfYCs8ptD	192.168.113.10	1029	4.2.2.3	53	udp	22924	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.137.139,74.125.137.100,74.125.137.101,74.125.137.102,74.125.137.113,74.125.137.138	14346.000000,166.000000,166.000000,166.000000,166.000000,166.000000,166.000000	F
+1336045589.026926	CjVclJ2bSfYCs8ptD	192.168.113.10	1029	4.2.2.3	53	udp	11917	ie7-js.googlecode.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlecode.l.googleusercontent.com,74.125.137.82	8879.000000,231.000000	F
+1336045590.395033	CjVclJ2bSfYCs8ptD	192.168.113.10	1029	4.2.2.3	53	udp	57229	www.sessioweb.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.75.213.211	28800.000000	F
+1336045590.39716	Cb4QIg2yViVCPv4zgg	192.168.113.10	1039	4.2.2.3	53	udp	30090	xxxz.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.46.196.236	14400.000000	F
+#close	2014-04-03-11-10-19

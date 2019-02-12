@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-17-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1318145129.283189	CZPNKb4ZPfvtOlPQW3	192.168.17.10	1029	4.2.2.3	53	udp	50573	billig-pc-hjaelp.dk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	212.45.115.63	43175.000000	F
+1318145129.918199	CZPNKb4ZPfvtOlPQW3	192.168.17.10	1029	4.2.2.3	53	udp	45196	www.billig-pc-hjaelp.dk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	billig-pc-hjaelp.dk,212.45.115.63	43200.000000,43174.000000	F
+1318145130.171396	CZPNKb4ZPfvtOlPQW3	192.168.17.10	1029	4.2.2.3	53	udp	18319	jjghui.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	146.185.248.3	600.000000	F
+1318145131.053685	CZPNKb4ZPfvtOlPQW3	192.168.17.10	1029	4.2.2.3	53	udp	27017	www3.smart-scanereq.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	75.102.21.121	28800.000000	F
+1318145131.279096	CZPNKb4ZPfvtOlPQW3	192.168.17.10	1029	4.2.2.3	53	udp	54921	www2.topnetworkgs.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.125	21600.000000	F
+1318145142.872259	CZPNKb4ZPfvtOlPQW3	192.168.17.10	1029	4.2.2.3	53	udp	37768	www2.personalixbchecker.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.23.11.219	21600.000000	F
+1318145177.912317	CdYlplsoHeyweerSi	192.168.17.10	1029	75.102.22.72	53	udp	17547	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	68.168.222.177	86400.000000	F
+1318145178.053177	CRnTLe11WIBZ6kn3Ve	192.168.17.10	1029	205.234.236.192	53	udp	46987	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	68.168.222.177	86400.000000	F
+1318145178.072694	CLYmT7mvRNG8Dw4Qh	192.168.17.10	1094	66.197.152.72	53	udp	57989	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	68.168.222.177	86400.000000	F
+1318145178.17809	CdYlplsoHeyweerSi	192.168.17.10	1029	75.102.22.72	53	udp	42629	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	68.168.222.177	86400.000000	F
+#close	2014-04-03-10-17-09

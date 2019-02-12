@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-22-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1323535305.995158	CHZBGG3skjCSjFvyo4	192.168.8.10	1057	85.25.151.138	80	FpF94S1RG0Ndqp9u4	application/jar	http://j28smcn.ozphone.net/images/r/d1bee2d96246acc65915c9c34df8d31f.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2011-12-13 04:01:05	https://www.virustotal.com/en/search/?query=9c991d7d39595e8e9c316b377c976a1caad359b0	192.168.8.10	85.25.151.138	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1323535307.169362	CLkk4z3muP4lwUMa1e	192.168.8.10	1060	85.25.151.138	80	F4zT231U35XHJSL2zg	application/jar	http://j28smcn.ozphone.net/images/r/d1bee2d96246acc65915c9c34df8d31f.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2011-12-13 04:01:05	https://www.virustotal.com/en/search/?query=9c991d7d39595e8e9c316b377c976a1caad359b0	192.168.8.10	85.25.151.138	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1323535307.169362	Cwk17FOyme9iRuMG7	192.168.8.10	1061	85.25.151.138	80	FNeiSz4GjDISLQIU5h	application/jar	http://j28smcn.ozphone.net/images/r/d1bee2d96246acc65915c9c34df8d31f.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2011-12-13 04:01:05	https://www.virustotal.com/en/search/?query=9c991d7d39595e8e9c316b377c976a1caad359b0	192.168.8.10	85.25.151.138	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-22-06

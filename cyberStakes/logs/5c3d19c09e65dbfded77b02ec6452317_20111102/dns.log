@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-15-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1320264101.613938	C25KHbt4XiRGhifE7	192.168.83.10	1029	4.2.2.3	53	udp	50572	analamateurcum.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.242.205	3582.000000	F
+1320264101.997805	C25KHbt4XiRGhifE7	192.168.83.10	1029	4.2.2.3	53	udp	6796	www.sextronix.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.55.136.132	14400.000000	F
+1320264102.35373	C25KHbt4XiRGhifE7	192.168.83.10	1029	4.2.2.3	53	udp	11916	counter.yadro.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	88.212.196.102,88.212.196.103,88.212.196.104,88.212.196.105,88.212.196.66,88.212.196.69,88.212.196.77,88.212.196.101	73.000000,73.000000,73.000000,73.000000,73.000000,73.000000,73.000000,73.000000	F
+1320264102.360621	C25KHbt4XiRGhifE7	192.168.83.10	1029	4.2.2.3	53	udp	49551	ufkz4i99.fcci.art.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.208.33.18	3600.000000	F
+1320264102.925775	C25KHbt4XiRGhifE7	192.168.83.10	1029	4.2.2.3	53	udp	18575	osftee.garmet.co.uk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.217.153.119	3600.000000	F
+1320264119.237293	C25KHbt4XiRGhifE7	192.168.83.10	1029	4.2.2.3	53	udp	62606	newlifen.com.tw	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.31.74.37	600.000000	F
+#close	2014-04-03-11-15-20

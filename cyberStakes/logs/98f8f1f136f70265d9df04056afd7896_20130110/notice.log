@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-12-57
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1357813486.586705	C0WQinIdK7KmNYRhf	192.168.34.10	1045	204.12.196.37	80	FydI3SUkdITN7nvki	application/x-shockwave-flash	http://1488swat.asia/associates/permit_group-justifying.php?jvi=1f:31:1n:1l:32&ariqgn=3b:3f:3l:3k&lixj=1i:31:32:1i:1f:1j:1m:33:1j:1o&hvf=dzpj	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2013-02-08 21:16:03	https://www.virustotal.com/en/search/?query=411194ca0084376e1293b3b4fbcaa027e38e78c8	192.168.34.10	204.12.196.37	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-12-57

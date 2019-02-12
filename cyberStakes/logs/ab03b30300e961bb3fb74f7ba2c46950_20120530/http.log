@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-05-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1338416445.424828	CR7MRUpKypziXuOL7	192.168.118.10	1030	95.168.187.94	80	1	GET	aglex70.in	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1006	200	OK	-	-	-	(empty)	-	-	-	-	-	FCo7Gj4VRTQc9S4WCb	text/html
+1338416446.112686	C79bHT1zdAkBkkQq39	192.168.118.10	1031	84.16.230.137	80	1	GET	josdjff01.in	/source/index.php?showtopic=343072	http://aglex70.in/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	837	200	OK	-	-	-	(empty)	-	-	-	-	-	FST0xO1KKsgJ4vjbCa	text/html
+1338416446.284404	C79bHT1zdAkBkkQq39	192.168.118.10	1031	84.16.230.137	80	2	GET	josdjff01.in	/source/detect/mm.js	http://josdjff01.in/source/index.php?showtopic=343072	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1950	200	OK	-	-	-	(empty)	-	-	-	-	-	FS27OE1aXG0JIp6Goh	text/plain
+1338416446.48251	C79bHT1zdAkBkkQq39	192.168.118.10	1031	84.16.230.137	80	3	GET	josdjff01.in	/source/getfile.php?i=3&key=1b74d905ac123c228e0cdf2d043c63aa	http://josdjff01.in/source/index.php?showtopic=343072	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4803	200	OK	-	-	-	(empty)	-	-	-	-	-	FD86oJ2MI9siIsAUHk	application/pdf
+1338416452.049903	Cq7Uxf292XDzQrkBY9	192.168.118.10	1036	84.16.230.137	80	1	GET	josdjff01.in	/source/getfile.php?i=4&key=d82635404d4079d6ec3b16338c5c0775	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	15684	200	OK	-	-	-	(empty)	-	-	-	-	-	FP4RWk3ie6xXFbj331	application/jar
+1338416453.18224	CxI60l1HbkvtIgnYc2	192.168.118.10	1037	84.16.230.137	80	1	GET	josdjff01.in	/source/load.php?showforum=ato	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	75776	200	OK	-	-	-	(empty)	-	-	-	-	-	FAoxyyBv9jRTUxoj2	application/x-dosexec
+1338416461.222623	C79bHT1zdAkBkkQq39	192.168.118.10	1031	84.16.230.137	80	4	GET	josdjff01.in	/source/load.php?showforum=lib	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	75776	200	OK	-	-	-	(empty)	-	-	-	-	-	FKGBKX8qmdbYN7dn2	application/x-dosexec
+#close	2014-04-03-11-05-33

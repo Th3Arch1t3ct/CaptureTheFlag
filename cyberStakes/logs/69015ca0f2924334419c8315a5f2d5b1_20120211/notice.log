@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-51-01
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1328998156.184191	C8TCMf91S7NN8mgSc	192.168.72.10	1036	95.215.0.153	8000	Ff9Ktu2FNjqQDsGfhh	application/x-dosexec	http://95.215.0.153:8000/tcp/stats/w.php?f=19&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 39%  Last seen: 2012-03-02 19:31:07	https://www.virustotal.com/en/search/?query=8a4af6c899efcd5ea6191b2316167b8168bb76e7	192.168.72.10	95.215.0.153	8000	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328998156.952484	CHm9gE1Uw0vj4V7u9l	192.168.72.10	1037	199.30.91.102	80	F1vwz04M6ujjUQt1Ib	application/x-shockwave-flash	http://jumptoinformer.com/stats/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 50%  Last seen: 2012-02-09 09:22:17	https://www.virustotal.com/en/search/?query=599e5ea3d889a28313d3b842fe1100eb26695e57	192.168.72.10	199.30.91.102	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328998156.955578	CjY1Rx1KrWaf7BNuyh	192.168.72.10	1031	199.30.91.102	80	FdOeRL3XzUI0M9mr1b	application/pdf	http://jumptoinformer.com/stats/content/fdp2.php?f=19	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 34%  Last seen: 2012-02-12 23:56:00	https://www.virustotal.com/en/search/?query=f044058d535ed7205369f54bf44dcc3e16aca3e2	192.168.72.10	199.30.91.102	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328998159.723833	CIpDmi4zNg1yGE1WG3	192.168.72.10	1043	67.210.244.40	80	FmjSs91ff7JeCPqlE1	application/x-dosexec	http://spenergy.com.co/888.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 66%  Last seen: 2013-01-10 19:21:48	https://www.virustotal.com/en/search/?query=235964da72a80425dfb74efc264fa0ba4d8189c7	192.168.72.10	67.210.244.40	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-51-01

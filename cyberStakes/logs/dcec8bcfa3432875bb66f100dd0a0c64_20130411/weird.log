@@ -1,0 +1,29 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-02-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1365721664.665488	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1365721676.533352	CTYfLg2F7Lz1TShZQ3	192.168.87.10	1052	23.62.111.179	80	SYN_after_reset	-	F	bro
+1365721691.715672	CTYfLg2F7Lz1TShZQ3	192.168.87.10	1052	23.62.111.179	80	data_after_reset	-	F	bro
+1365721691.717725	C823ec2zOYFrTN58P2	192.168.87.10	1081	60.195.249.159	80	unescaped_special_URI_char	-	F	bro
+1365721691.717894	CJuLar1alFP0NuX3j1	192.168.87.10	1082	60.195.249.159	80	unescaped_special_URI_char	-	F	bro
+1365721691.738442	Cl84V726Hxnlk0xn13	192.168.87.10	1193	119.253.51.7	80	unescaped_special_URI_char	-	F	bro
+1365721691.739447	CfHjsg3zMgD2QDRHGj	192.168.87.10	1199	61.158.236.30	80	unescaped_special_URI_char	-	F	bro
+1365721691.739955	Cdt1Gu30NyV08eCs4k	192.168.87.10	1201	119.253.55.7	80	unescaped_special_URI_char	-	F	bro
+1365721693.942906	CjMB3d27jqUziitI54	192.168.87.10	1191	60.191.141.146	80	unescaped_special_URI_char	-	F	bro
+1365721696.186652	CtwwaB1diMI2AYUz1	192.168.87.10	1255	60.195.249.159	80	unescaped_special_URI_char	-	F	bro
+1365721696.186922	CSzy312pGIIQ0IitB4	192.168.87.10	1256	60.195.249.159	80	unescaped_special_URI_char	-	F	bro
+1365721696.413542	CLOFeG14SbvFM8wf61	192.168.87.10	1257	122.226.169.141	80	above_hole_data_without_any_acks	-	F	bro
+1365721696.950455	CARHZqNTvzhEEHdz5	192.168.87.10	1268	119.253.52.148	80	unescaped_special_URI_char	-	F	bro
+1365721697.420542	C9vQBg3Eo9ZdlXT7E	192.168.87.10	1277	60.195.249.159	80	unescaped_special_URI_char	-	F	bro
+1365721697.420832	C7ZWeW110dn1xdYep5	192.168.87.10	1278	60.195.249.159	80	unescaped_special_URI_char	-	F	bro
+1365721697.509403	CQmMut1t896nJNgTW	192.168.87.10	1279	119.253.51.7	80	unescaped_special_URI_char	-	F	bro
+1365721697.9137	CNfoqV3IGmxQGKIdbc	192.168.87.10	1283	60.195.249.159	80	unescaped_special_URI_char	-	F	bro
+1365721697.91426	CydVma4DzYUJI8Mavf	192.168.87.10	1284	60.195.249.159	80	unescaped_special_URI_char	-	F	bro
+1365721698.397221	CYCkZJ3vuvmC98Nf2d	192.168.87.10	1287	60.195.249.159	80	unescaped_special_URI_char	-	F	bro
+1365721699.662187	CiTJzb3dyUCnGiUti	192.168.87.10	1297	1.82.191.82	80	unescaped_special_URI_char	-	F	bro
+#close	2014-04-03-10-02-35

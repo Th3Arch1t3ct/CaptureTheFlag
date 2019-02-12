@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-38-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1331257270.261151	C0M3fJ50v3AqJZxe5	192.168.38.10	1029	4.2.2.3	53	udp	23437	heritagechurchofgod.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.52.115.5	10777.000000	F
+1331257270.410765	C0M3fJ50v3AqJZxe5	192.168.38.10	1029	4.2.2.3	53	udp	42127	static.websimages.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.webs.com.edgesuite.net,a1129.g.akamai.net,192.204.3.40,192.204.3.41	802.000000,20602.000000,20.000000,20.000000	F
+1331257270.568819	C0M3fJ50v3AqJZxe5	192.168.38.10	1029	4.2.2.3	53	udp	50063	www.heritagechurchofgod.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	domains.freewebs.com,216.52.115.5	10800.000000,6739.000000	F
+1331257270.74321	C0M3fJ50v3AqJZxe5	192.168.38.10	1029	4.2.2.3	53	udp	40846	images.freewebs.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.websimages.com,static.webs.com.edgesuite.net,a1129.g.akamai.net,192.204.3.41,192.204.3.40	3778.000000,802.000000,20602.000000,20.000000,20.000000	F
+1331257270.746131	C0M3fJ50v3AqJZxe5	192.168.38.10	1029	4.2.2.3	53	udp	23694	www.freewebs.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.52.115.2	7179.000000	F
+1331257271.415235	C0M3fJ50v3AqJZxe5	192.168.38.10	1029	4.2.2.3	53	udp	54152	images.webs.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.websimages.com,static.webs.com.edgesuite.net,a1129.g.akamai.net,192.204.3.40,192.204.3.41	902.000000,801.000000,20601.000000,19.000000,19.000000	F
+#close	2014-04-03-10-38-09

@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-55-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1323545667.167136	CcDdtmbxpsHtcQh1	192.168.121.10	1030	65.98.101.162	80	1	GET	www.top-brandclub.us	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4021	200	OK	-	-	-	(empty)	-	-	-	-	-	FEiDfN3eaRnMgOHL05	text/html
+1323545667.203845	CcDdtmbxpsHtcQh1	192.168.121.10	1030	65.98.101.162	80	2	GET	www.top-brandclub.us	/css/reset.css	http://www.top-brandclub.us/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	991	200	OK	-	-	-	(empty)	-	-	-	-	-	FlqcBW29dlDv2TDWQa	text/plain
+1323545667.236915	CfUFUZc9YBw96ygaf	192.168.121.10	1031	65.98.101.162	80	1	GET	www.top-brandclub.us	/css/style.css	http://www.top-brandclub.us/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	694	200	OK	-	-	-	(empty)	-	-	-	-	-	FRsAk149b52yUrCg8l	text/plain
+1323545667.336827	CfUFUZc9YBw96ygaf	192.168.121.10	1031	65.98.101.162	80	2	GET	www.top-brandclub.us	/img/bg.gif	http://www.top-brandclub.us/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	73	200	OK	-	-	-	(empty)	-	-	-	-	-	FY2oxRmI08CXJovra	image/gif
+1323545667.333538	CcDdtmbxpsHtcQh1	192.168.121.10	1030	65.98.101.162	80	3	GET	www.top-brandclub.us	/img/bt.jpg	http://www.top-brandclub.us/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5918	200	OK	-	-	-	(empty)	-	-	-	-	-	FHkUMc1BAMcVysMzwh	image/jpeg
+1323545667.364451	CfUFUZc9YBw96ygaf	192.168.121.10	1031	65.98.101.162	80	3	GET	www.top-brandclub.us	/img/logo.png	http://www.top-brandclub.us/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	18753	200	OK	-	-	-	(empty)	-	-	-	-	-	FSnT2g3Kjti6ZH3Ye4	image/png
+1323545667.459138	CcDdtmbxpsHtcQh1	192.168.121.10	1030	65.98.101.162	80	4	GET	www.top-brandclub.us	/img/watch.gif	http://www.top-brandclub.us/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	14084	200	OK	-	-	-	(empty)	-	-	-	-	-	FXGrMj4zu3wWw0c5Uh	image/gif
+1323545667.487388	C8Pvhs2WoWhpz1sYf4	192.168.121.10	1032	188.127.228.44	80	1	GET	oopeeraare.in	/i/yula	http://www.top-brandclub.us/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2166	200	OK	-	-	-	(empty)	-	-	-	-	-	Fq3fExWU3Z81eVhh5	text/html
+1323545668.411734	CsTb98rNN9VbIvX4b	192.168.121.10	1033	188.127.228.44	80	1	GET	oopeeraare.in	/x/e97b4dd690709f460ccfc319ef0d6e57?pdf=9.1.0	http://oopeeraare.in/i/yula	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3135	200	OK	-	-	-	(empty)	-	-	-	-	-	F5df3P108n1adtPNb	text/plain
+1323545668.871832	CdDYzm3of5Lh8sWNvj	192.168.121.10	1034	188.127.228.44	80	1	GET	oopeeraare.in	/e/1/e97b4dd690709f460ccfc319ef0d6e57	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	834560	200	OK	-	-	-	(empty)	-	-	-	-	-	F1OCmH2LW9t8CP5Rtk	application/x-dosexec
+1323545672.939759	CwhD7R1nze7FClZK6i	192.168.121.10	1039	188.127.228.44	80	1	GET	oopeeraare.in	/p/e97b4dd690709f460ccfc319ef0d6e57	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	232	404	NOT FOUND	-	-	-	(empty)	-	-	-	-	-	FWejRj1mfQozi0j4A1	text/html
+1323545673.580256	C8Fcgb4sTeXhwEw4s8	192.168.121.10	1040	64.202.163.8	80	1	GET	getmilfs.com	/logo/go.php?id=51	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2	200	OK	-	-	-	(empty)	-	-	-	-	-	FMu3WQ9EAH0dM0fGd	text/plain
+1323545674.329931	CdFUhy1LTQUzloD776	192.168.121.10	1041	72.167.207.74	80	1	GET	oneathleticmom.com	/images/b.php?id=51	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2	200	OK	-	-	-	(empty)	-	-	-	-	-	FypKK43m6lpUstFoD3	text/plain
+1323545736.633892	Cr4KQa1ZIpU5aiqa0h	192.168.121.10	1043	194.54.81.21	80	1	GET	malware4download.com	/404.php?id=51	-	Mozilla	0	253	200	OK	-	-	-	(empty)	-	-	-	-	-	FHCuzA2IYgrdmW75m	text/plain
+#close	2014-04-03-09-55-33

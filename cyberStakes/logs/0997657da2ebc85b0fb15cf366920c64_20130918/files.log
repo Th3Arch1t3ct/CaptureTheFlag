@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-15-49
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1379546569.617146	FdRHbYq54tilOGUzb	192.185.5.140	192.168.47.10	CsXV4w26GCjtDsHIc8	HTTP	0	SHA1,MD5	text/html	-	0.000039	-	F	25302	-	0	0	F	-	f571e839d98a98e72717aa4fd3536256	961937ab9c57ff7ef1ca486f2af612cb1dc61c0a	-	-
+1379546570.069494	FOzpSn3IYjP5hNKDWg	192.185.5.140	192.168.47.10	CsXV4w26GCjtDsHIc8	HTTP	0	SHA1,MD5	text/plain	-	0.000099	-	F	14296	14296	0	0	F	-	429fcc77a219be73a9e515bfad3a65d3	277f04946b02ec71b6d7f8c0657fa26a383b6a66	-	-
+1379546570.471191	FSudDA4ic4E1cjAqw6	192.185.5.140	192.168.47.10	CsXV4w26GCjtDsHIc8	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	1718	1718	0	0	F	-	e5af05ce7035c3b83a2b42c3e1abed7d	4809340c43a82e38dbfdd3467bbe551e16fb8347	-	-
+1379546570.541882	FJjgLJRZbk0hTKWmd	192.185.5.140	192.168.47.10	C2gy1Br7jfNFdArV2	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	1004	-	0	0	F	-	032553851945ee43fa8e778c300ab177	5a0539e0f8e5ac150305201c49d3122cc2d540a9	-	-
+1379546570.998599	FrgPfymrcEPdB61v7	54.229.12.122	192.168.47.10	CdrWGMUBVlHHHeet3	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	270	270	0	0	F	-	ceaeace7b0f9286d0ea1b6e4dc49dedb	380f55406717165a361f99dddf10cc2ffe262ab2	-	-
+1379546571.275379	FtHMC04vp5EgJGM5K1	98.129.229.201	192.168.47.10	CFaJeB1HTbZiPI1IG6	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	2	2	0	0	F	-	d784fa8b6d98d27699781bd9a7cf19f0	dd122581c8cd44d0227f9c305581ffcb4b6f1b46	-	-
+1379546571.576041	FC0Q6W2Ve6Kdkef1bl	66.77.96.140	192.168.47.10	CVfHLVu6GFalU3L94	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	247	247	0	0	F	-	c94770d77df2b7d36bbcf304504d0b6d	1a3febd8191a9d2fa459a8b8f54a13c58dac18a7	-	-
+1379546571.766246	FmywdK3wQ9ZqEpp3zd	66.77.96.140	192.168.47.10	CVfHLVu6GFalU3L94	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	200	200	0	0	F	-	272c4191f7df35a27ae85b28a3d7a091	ffab67da3592248703d992bea74d18c0a1d022dc	-	-
+1379546571.867388	FPq3yB3IxRT3eMEOH7	208.111.148.7	192.168.47.10	CpG79s1orwRvQDkX86	HTTP	0	SHA1,MD5	application/x-dosexec	vioplayer2_d3993199.exe	0.132521	-	F	82691	1907792	0	0	F	-	fcd0c2a166b278b71cf164dcb8541602	0f06ff419ee650bd97e220070333964ee8eaee2a	-	-
+#close	2014-04-03-10-15-49

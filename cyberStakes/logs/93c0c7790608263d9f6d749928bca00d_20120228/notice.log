@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-50-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1330453234.170544	CbVJdB3HojLndL2cW2	192.168.9.10	1036	95.163.89.228	80	FicMut2pQSRJXRbwok	application/x-dosexec	http://connernesrior.info/jkasdh98768sa9hdjkashdi6iyhikusadhi68/w.php?f=bb769&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-03-03 00:03:00	https://www.virustotal.com/en/search/?query=379bf13517f891133ec87561cf69404ff834a351	192.168.9.10	95.163.89.228	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1330453252.638219	CXzAOSuY1PuAsXe12	192.168.9.10	1046	95.163.89.228	80	FR1GC22eTtD1PLMBmd	application/x-shockwave-flash	http://connernesrior.info/jkasdh98768sa9hdjkashdi6iyhikusadhi68/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 50%  Last seen: 2012-05-01 11:52:40	https://www.virustotal.com/en/search/?query=c7c06b1d8fb1812984bb3c6c7b67bb2247338c2a	192.168.9.10	95.163.89.228	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1330453283.897671	CXzAOSuY1PuAsXe12	192.168.9.10	1046	95.163.89.228	80	FCarkV2H8oBtrzchL9	application/x-shockwave-flash	http://connernesrior.info/jkasdh98768sa9hdjkashdi6iyhikusadhi68/content/score.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-04-19 10:30:20	https://www.virustotal.com/en/search/?query=057fe0f43767ddc6dc227513ad34de170f5c5b6c	192.168.9.10	95.163.89.228	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-50-33

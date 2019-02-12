@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-56-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1316552828.217557	CMsonC2PqA5YPV3rXg	192.168.73.10	1029	4.2.2.3	53	udp	19343	www.sttbotc.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.163.166.46	14373.000000	F
+1316552828.437456	CMsonC2PqA5YPV3rXg	192.168.73.10	1029	4.2.2.3	53	udp	57231	christmasmyspacegraphics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	70.86.154.50	14400.000000	F
+1316552828.665158	CMsonC2PqA5YPV3rXg	192.168.73.10	1029	4.2.2.3	53	udp	1677	grossewat.uni.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.226.213.50	3600.000000	F
+1316552829.363155	CMsonC2PqA5YPV3rXg	192.168.73.10	1029	4.2.2.3	53	udp	22669	zdcxz.myz.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.208.34.81	31.000000	F
+1316552834.151726	CMsonC2PqA5YPV3rXg	192.168.73.10	1029	4.2.2.3	53	udp	20106	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	1821.000000,188.000000	F
+1316552834.283914	CMsonC2PqA5YPV3rXg	192.168.73.10	1029	4.2.2.3	53	udp	12680	adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.150.16.117	27595.000000	F
+1316552834.332896	CMsonC2PqA5YPV3rXg	192.168.73.10	1029	4.2.2.3	53	udp	58505	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,64.4.52.169	1833.000000,483.000000	F
+1316552856.419033	ChHwlg4PhYz9E6wJDh	192.168.73.10	1029	4.2.2.3	53	udp	40326	odminco.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.220.0.23	600.000000	F
+1316552862.244683	ChHwlg4PhYz9E6wJDh	192.168.73.10	1029	4.2.2.3	53	udp	33671	cedept.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.210.98.165	14400.000000	F
+1316552862.52428	ChHwlg4PhYz9E6wJDh	192.168.73.10	1029	4.2.2.3	53	udp	11396	incestggmes.uni.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.228.133.56	3600.000000	F
+#close	2014-04-03-09-56-45

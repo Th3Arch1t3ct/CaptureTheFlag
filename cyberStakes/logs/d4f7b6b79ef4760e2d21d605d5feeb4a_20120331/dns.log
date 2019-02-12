@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-05-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1333179530.539848	CiD6VU31kHuTiT76oe	192.168.118.10	1029	4.2.2.3	53	udp	16269	souvenirpublishers.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.54.242.221	14377.000000	F
+1333179533.646971	CiD6VU31kHuTiT76oe	192.168.118.10	1029	4.2.2.3	53	udp	55949	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	2654.000000,273.000000	F
+1333179534.08309	CiD6VU31kHuTiT76oe	192.168.118.10	1029	4.2.2.3	53	udp	5772	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,64.72.65.214,64.72.65.216	18084.000000,35.000000,11018.000000,18.000000,18.000000	F
+1333179536.111668	CiD6VU31kHuTiT76oe	192.168.118.10	1029	4.2.2.3	53	udp	34700	aachristmas.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.109.53.70	3600.000000	F
+#close	2014-04-03-10-05-08

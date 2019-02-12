@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-29-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1348173400.763164	C3ymhJ2ko5UMogG1P	192.168.13.10	1029	4.2.2.3	53	udp	2955	woutersvc.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.44.154.11	14375.000000	F
+1348173405.389111	C3ymhJ2ko5UMogG1P	192.168.13.10	1029	4.2.2.3	53	udp	15499	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,204.93.42.201,204.93.42.154	26932.000000,109.000000,5449.000000,20.000000,20.000000	F
+1348173407.578939	C3ymhJ2ko5UMogG1P	192.168.13.10	1029	4.2.2.3	53	udp	53640	bergasecondhand.se	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.136.113.224	28800.000000	F
+1348173419.078717	C3ymhJ2ko5UMogG1P	192.168.13.10	1029	4.2.2.3	53	udp	11150	224.113.136.79.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	h-79-136-113-224.na.cust.bahnhof.se	14400.000000	F
+1348173419.601806	C3ymhJ2ko5UMogG1P	192.168.13.10	1029	4.2.2.3	53	udp	14990	h-79-136-113-224.na.cust.bahnhof.se	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.136.113.224	14400.000000	F
+1348173422.494362	C3ymhJ2ko5UMogG1P	192.168.13.10	1029	4.2.2.3	53	udp	7564	smulders.name	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.92.140.105	86400.000000	F
+1348173431.783789	C3ymhJ2ko5UMogG1P	192.168.13.10	1029	4.2.2.3	53	udp	32141	cmertholdeyakish293u.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.220.35.82	600.000000	F
+1348173437.058534	C3ymhJ2ko5UMogG1P	192.168.13.10	1029	4.2.2.3	53	udp	64397	kbvdz.herrws.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.17.58.87	60.000000	F
+1348173453.448987	CnJf6pFmBmxQ2wi5g	192.168.13.10	1050	4.2.2.3	53	udp	41364	11u5u0x.cdn107.fileetcnewhosting.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.131.140.158	3600.000000	F
+#close	2014-04-03-10-29-40

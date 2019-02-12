@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-58-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1321042443.847799	CcadX33LTwx7dKUpJ7	192.168.128.10	1029	4.2.2.3	53	udp	44432	groundintegrity.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.147.244.88	14379.000000	F
+1321042444.464212	CcadX33LTwx7dKUpJ7	192.168.128.10	1029	4.2.2.3	53	udp	52114	fonts.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.65.95	2953.000000,20.000000	F
+1321042444.89776	CcadX33LTwx7dKUpJ7	192.168.128.10	1029	4.2.2.3	53	udp	12693	themes.googleusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlehosted.l.googleusercontent.com,74.125.65.132	3056.000000,180.000000	F
+1321042445.463799	CcadX33LTwx7dKUpJ7	192.168.128.10	1029	4.2.2.3	53	udp	22679	ptpt.net.ms	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.201.29	3600.000000	F
+1321042445.928569	CcadX33LTwx7dKUpJ7	192.168.128.10	1029	4.2.2.3	53	udp	28057	t17.cz.tf	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.230.111.9	3600.000000	F
+1321042488.012453	C4os1O3bZvMdadbTk4	192.168.128.10	1029	4.2.2.3	53	udp	50072	oundtrackdown.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.228.111.7	494.000000	F
+1321042488.63498	C4os1O3bZvMdadbTk4	192.168.128.10	1029	4.2.2.3	53	udp	44187	hebreakfast.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	141.136.16.34	600.000000	F
+1321042510.525166	CNziwL3YSxij5WFf8d	192.168.128.10	1029	4.2.2.3	53	udp	2971	pubidviseron.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.105.154.34	600.000000	F
+#close	2014-04-03-09-58-57

@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-27-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1357460520.618452	CeICQb6SX4daJ26x5	192.168.5.10	1029	4.2.2.3	53	udp	52108	talcythickory.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.170.52.31,93.170.52.21	276.000000,276.000000	F
+1357460520.931792	CeICQb6SX4daJ26x5	192.168.5.10	1029	4.2.2.3	53	udp	19852	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,173.194.37.32,173.194.37.40,173.194.37.41,173.194.37.38,173.194.37.35,173.194.37.37,173.194.37.36,173.194.37.39,173.194.37.46,173.194.37.34,173.194.37.33	33752.000000,3.000000,3.000000,3.000000,3.000000,3.000000,3.000000,3.000000,3.000000,3.000000,3.000000,3.000000	F
+1357460520.936498	CeICQb6SX4daJ26x5	192.168.5.10	1029	4.2.2.3	53	udp	61583	afcg.lycexo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	urlforward.topdns.com,72.8.167.249,199.59.160.184	3600.000000,2017.000000,2017.000000	F
+1357460524.446615	CeICQb6SX4daJ26x5	192.168.5.10	1029	4.2.2.3	53	udp	10383	fbstatic-a.akamaihd.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fbstatic-a.akamaihd.net.edgesuite.net,a1168.dsw4.akamai.net,72.246.45.18,72.246.45.57	222.000000,44.000000,2.000000,2.000000	F
+#close	2014-04-03-10-27-48

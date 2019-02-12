@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-09-57-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1390252278.990684	CCFZZf39wrbW0Oxhc3	192.168.46.10	1051	74.125.239.135	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1386787754.000000	1397106000.000000	-	-	-	4b449ca6d1202610b1068be9460eff96	ok
+1390252281.182441	C88gcM2eDPqdkBLxk4	192.168.46.10	1058	74.125.28.84	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=accounts.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1386788253.000000	1397106000.000000	-	-	-	1d596fdf0c3b170abcf72996f220b868	ok
+1390252281.345481	C2Z1s33wVEiByxj9y1	192.168.46.10	1060	74.125.239.47	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1386786671.000000	1397106000.000000	-	-	-	52727373aecddd6beefdddddbe1e9d98	ok
+1390252281.395462	CcC3701v15C7GwaUUd	192.168.46.10	1061	162.159.242.34	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=ssl2187.cloudflare.com,O=CloudFlare\, Inc.,L=San Francisco,ST=CA,C=US	CN=GlobalSign Organization Validation CA - G2,O=GlobalSign nv-sa,C=BE	1390242041.000000	1476404426.000000	-	-	-	93ac75267d73503afb506000f0b4d670	ok
+1390252281.353453	Cb91Wp1Rne5Nb3Dcb	192.168.46.10	1059	74.125.224.76	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1386786403.000000	1397106000.000000	-	-	-	647b5de11d67865da5962f88269da406	ok
+#close	2014-04-03-09-57-49

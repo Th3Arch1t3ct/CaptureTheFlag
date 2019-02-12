@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-13-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1344568644.344958	CEnRa71UjgKIBiYwdk	192.168.75.10	1029	4.2.2.3	53	udp	2443	ineedajob.tv	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.23.12.215	3574.000000	F
+1344568644.573685	CEnRa71UjgKIBiYwdk	192.168.75.10	1029	4.2.2.3	53	udp	51336	dnsserviceupdate.dnsdynamic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.23.12.215	60.000000	F
+1344568681.608129	CniQyR2UEjV8yqvew6	192.168.75.10	1029	4.2.2.3	53	udp	14984	windowsupdate.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	windowsupdate.microsoft.nsatc.net,www.update.microsoft.com.nsatc.net,65.54.51.180	1464.000000,261.000000,266.000000	F
+1344568681.692689	CniQyR2UEjV8yqvew6	192.168.75.10	1029	4.2.2.3	53	udp	18312	www.qualitycocaine.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.23.12.215	3600.000000	F
+#close	2014-04-03-10-13-37

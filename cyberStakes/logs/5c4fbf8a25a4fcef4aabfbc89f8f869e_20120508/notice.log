@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-27-17
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1336484055.877856	CH2cyoVPehVtiPjva	192.168.39.10	1053	37.59.198.60	80	FB42Dr3CSrQ6leDV5e	application/x-dosexec	http://defmalta.info/?d47cb9cb7dab77cb1b886bf979daa95f	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-05-10 11:05:27	https://www.virustotal.com/en/search/?query=70f5695728f79f7b82fcaa4afef4185d4905a434	192.168.39.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336484056.170937	C2TBN6k7XwEsCex79	192.168.39.10	1055	37.59.198.60	80	FmsWXO3s7T24qwYLld	application/x-dosexec	http://defmalta.info/?3aa1a818faed5e5cc15fa80190c87476	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-05-10 11:05:27	https://www.virustotal.com/en/search/?query=70f5695728f79f7b82fcaa4afef4185d4905a434	192.168.39.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336484095.082158	CS65YT1epMxS4c4nH	192.168.39.10	1095	69.64.43.71	80	FMTP6PPAD1eO7XuL2	application/x-dosexec	http://www.xeriola.in/1.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2012-05-10 05:32:28	https://www.virustotal.com/en/search/?query=20d1b08427a0f111aec03b5c396bf1887129018e	192.168.39.10	69.64.43.71	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-27-18

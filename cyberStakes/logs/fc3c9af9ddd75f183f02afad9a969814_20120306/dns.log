@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-58-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1331011066.921157	CU8yJlhBKFD5lTwc4	192.168.28.10	1029	4.2.2.3	53	udp	38289	l4n.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.223.77.235	43177.000000	F
+1331011067.72533	CU8yJlhBKFD5lTwc4	192.168.28.10	1029	4.2.2.3	53	udp	55443	e-cameleon.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.223.77.233	300.000000	F
+1331011068.681665	CU8yJlhBKFD5lTwc4	192.168.28.10	1029	4.2.2.3	53	udp	16533	mylnk.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.163.71.39	28800.000000	F
+1331011069.162924	CU8yJlhBKFD5lTwc4	192.168.28.10	1029	4.2.2.3	53	udp	11156	go.trafking.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.163.71.38	28800.000000	F
+1331011070.116974	CU8yJlhBKFD5lTwc4	192.168.28.10	1029	4.2.2.3	53	udp	38551	lilikrot.myftp.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.193.140.50	60.000000	F
+1331011070.562493	CU8yJlhBKFD5lTwc4	192.168.28.10	1029	4.2.2.3	53	udp	34198	www3.topdusuite.25u.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.213.222.18	31.000000	F
+1331011070.650139	CU8yJlhBKFD5lTwc4	192.168.28.10	1029	4.2.2.3	53	udp	5016	www2.best-guardxa.de.gg	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	76.73.1.35	1016.000000	F
+1331011099.146726	C2DFUvVGaaXeCdDt5	192.168.28.10	1029	4.2.2.3	53	udp	12184	www1.bestmasterwrve.it.cx	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.249.35.83	3600.000000	F
+#close	2014-04-03-09-58-34

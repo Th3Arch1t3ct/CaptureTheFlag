@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-17-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1336178205.680167	CoghYp1Bg2JUpL3iw4	192.168.17.10	1096	82.113.101.134	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=www.o2seller.de,O=Telefonica o2 Germany GmbH und Co. OHG,L=Munich,ST=Bavaria,C=DE	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1307682000.000000	1339304399.000000	-	-	-	83647e3bf3a9ddaf558033e204a5514e	ok
+1336178205.680528	CWngDkDHpwBVQG66k	192.168.17.10	1097	82.113.101.134	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=www.o2seller.de,O=Telefonica o2 Germany GmbH und Co. OHG,L=Munich,ST=Bavaria,C=DE	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1307682000.000000	1339304399.000000	-	-	-	83647e3bf3a9ddaf558033e204a5514e	ok
+1336178205.62087	CtqWKx1bQbZbPT5jU3	192.168.17.10	1083	212.227.126.98	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=dsl.1und1.de,O=1 und 1 Internet AG,L=Montabaur,ST=Rheinland-Pfalz,C=DE	CN=Thawte SSL CA,O=Thawte\, Inc.,C=US	1320904800.000000	1353304799.000000	-	-	-	a5b1f22cc0dba3ac552129c44e05577e	ok
+1336178205.617994	Cu6IS11onnAYz950D5	192.168.17.10	1088	217.72.203.5	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=1und1.ivwbox.de,OU=Support,O=INFOnline GmbH,L=Bonn,ST=NRW,C=DE	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1294034400.000000	1358229599.000000	-	-	-	47503be3ffa47a4257733d8b6ae9a283	ok
+1336178205.698032	ChkRNH2sTRGqbuIOo2	192.168.17.10	1099	82.113.101.150	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=service.o2online.de,O=Telefonica Germany GmbH und Co. OHG,L=Munich,ST=Bavaria,C=DE	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1322373600.000000	1511762399.000000	-	-	-	d5b965713756b36ade5379dac9293ba0	ok
+1336178205.700181	Cy4fL71LtnYxGRvkT5	192.168.17.10	1100	82.113.101.150	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=service.o2online.de,O=Telefonica Germany GmbH und Co. OHG,L=Munich,ST=Bavaria,C=DE	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1322373600.000000	1511762399.000000	-	-	-	d5b965713756b36ade5379dac9293ba0	ok
+1336178206.764669	CKiElE2OKQbkGGFv2k	192.168.17.10	1134	217.72.203.5	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	0e67549e33bda0dc66bef6bf1d77e6198a016480c706b7fc830f304844f9cf1a	-	-	-	-	-	-	-	-	-
+1336178206.770565	CmNv874K0DS5HF5yad	192.168.17.10	1138	82.113.101.134	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=www.o2seller.de,O=Telefonica o2 Germany GmbH und Co. OHG,L=Munich,ST=Bavaria,C=DE	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1307682000.000000	1339304399.000000	-	-	-	83647e3bf3a9ddaf558033e204a5514e	ok
+1336178207.672183	CuyRLE1RhiFrJb1Z13	192.168.17.10	1162	82.113.101.150	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	8bad401c71e82cd1a11d0f76ea497bbc02654d0300e014c130bbb69c51857e45	-	-	-	-	-	-	-	-	-
+1336178207.715664	CdKdE83IkKrpew3K5i	192.168.17.10	1164	82.113.101.150	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	8bad401c71e82cd1a11d0f76ea497bbc02654d0300e014c130bbb69c51857e45	-	-	-	-	-	-	-	-	-
+1336178208.471503	CJ5Bai1o3H9iIWzZq5	192.168.17.10	1170	82.113.101.150	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	8bad401c71e82cd1a11d0f76ea497bbc02654d0300e014c130bbb69c51857e45	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-17-25

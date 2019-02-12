@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-42-27
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1355901963.972141	Cjiuk01ynzCU6iFT5i	192.168.10.10	1043	70.40.222.37	80	FYVMFD17gBvxKgaZeb	application/x-dosexec	http://yesterdayshome.com/33.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 45%  Last seen: 2013-01-24 02:13:32	https://www.virustotal.com/en/search/?query=462d26c38bc663a2bcb453c48a4d6f773eb9e24a	192.168.10.10	70.40.222.37	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1355901979.332642	C1n6en3NSNOK0eIaG2	192.168.10.10	1044	178.150.223.33	80	FyZdeS3YIwiTfI7KUd	application/x-dosexec	http://powosjec.ru/newavr5.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2012-12-21 04:04:40	https://www.virustotal.com/en/search/?query=abe2d986461f5aab47ea298106c6caad77f20e15	192.168.10.10	178.150.223.33	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-42-27

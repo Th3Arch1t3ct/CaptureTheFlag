@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-07-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1328554751.849355	CljHWVFfmvOuEo5O2	192.168.121.10	1042	95.142.170.44	80	FPb00M10Kqd98JRF92	application/x-dosexec	http://ad1.googleadservices15.in/x.php?f=46&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 45%  Last seen: 2012-05-06 19:43:06	https://www.virustotal.com/en/search/?query=dc42f90980b622f86357acd0baf94d51d54b8f98	192.168.121.10	95.142.170.44	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328554762.27832	CPuP8F3gt4OlRlLGh4	192.168.121.10	1043	95.142.170.44	80	FoHheAZ0sR2uFQhWf	application/x-dosexec	http://ad1.googleadservices15.in/x.php?f=46&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 45%  Last seen: 2012-05-06 19:43:06	https://www.virustotal.com/en/search/?query=dc42f90980b622f86357acd0baf94d51d54b8f98	192.168.121.10	95.142.170.44	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328554766.341303	C7nQJY3gVSnP8ARaqh	192.168.121.10	1045	95.142.170.44	80	FqpP7w2ArFDoOHXjy4	application/x-dosexec	http://ad1.googleadservices15.in/x.php?f=46&e=0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 45%  Last seen: 2012-05-06 19:43:06	https://www.virustotal.com/en/search/?query=dc42f90980b622f86357acd0baf94d51d54b8f98	192.168.121.10	95.142.170.44	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-07-08

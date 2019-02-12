@@ -1,0 +1,28 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-11-13-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1341765364.725426	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1341765407.272126	CPmjJF16hI3enidTXj	192.168.26.10	1047	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341765407.27229	CXcz082pA9cjrI4Cc6	192.168.26.10	1047	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341765407.30848	Cw2TtU1uDIk0fQhYe7	192.168.26.10	1049	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341765407.308664	CF98KF3AtBeQ8kFHUl	192.168.26.10	1049	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341765407.530651	CgSjHz3JbHn87lHawj	192.168.26.10	1051	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341765407.530843	C2bbRk2mawspk5BLN5	192.168.26.10	1051	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341765407.568699	ChnGNo48OUzqRx4mxh	192.168.26.10	1053	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341765407.568907	CcqRrt1abJnK0FSaF9	192.168.26.10	1053	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341765407.587133	CFFtWo1LFPqfaEyOVh	192.168.26.10	1055	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341765407.587329	C4rnno1gccLspzExC9	192.168.26.10	1055	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341765408.049919	C6Efnp44DT4m11n8L5	192.168.26.10	1061	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341765408.050066	CQzga64jMuQ05mdPyj	192.168.26.10	1061	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341765408.178149	CekEsO1m93E9h27Eh7	192.168.26.10	1063	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341765408.178322	CQFLaF3FIQlwNymgXk	192.168.26.10	1063	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341765408.185358	C7nwLS3KNO7aMbjgVj	192.168.26.10	1065	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341765408.185519	CY7kz82XkuY58MBB5h	192.168.26.10	1065	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341765411.768216	CMGcFp2yEwxH6UA3tg	192.168.26.10	1073	31.193.12.27	80	bad_HTTP_request	-	F	bro
+1341765426.170701	CvoGRs1ZUFHXeRoEU8	192.168.26.10	1077	31.193.12.27	80	bad_HTTP_request	-	F	bro
+#close	2014-04-03-11-13-59

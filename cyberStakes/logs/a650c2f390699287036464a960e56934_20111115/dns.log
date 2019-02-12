@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-55-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1321399197.606884	CB4uam3t5gPfyB7ue5	192.168.109.10	1029	4.2.2.3	53	udp	8845	bi-vent.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.165.106.62	10778.000000	F
+1321399197.998754	CB4uam3t5gPfyB7ue5	192.168.109.10	1029	4.2.2.3	53	udp	31374	aquarigger.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.106.174.219	2577.000000	F
+1321399198.335855	CB4uam3t5gPfyB7ue5	192.168.109.10	1029	4.2.2.3	53	udp	3215	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,64.72.65.216,64.72.65.214	17378.000000,119.000000,18213.000000,10.000000,10.000000	F
+#close	2014-04-03-10-55-15

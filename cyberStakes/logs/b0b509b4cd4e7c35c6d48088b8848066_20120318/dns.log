@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-31-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1332104047.407652	COhXpw3BkcVSgU3gt3	192.168.73.10	1029	4.2.2.3	53	udp	21649	webhosting.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.15.149.209	14384.000000	F
+1332104048.076448	COhXpw3BkcVSgU3gt3	192.168.73.10	1029	4.2.2.3	53	udp	28561	images.webhosting.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.15.149.209	14400.000000	F
+1332104048.104564	COhXpw3BkcVSgU3gt3	192.168.73.10	1029	4.2.2.3	53	udp	42641	ads.webhosting.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.15.149.206	14400.000000	F
+1332104048.506161	COhXpw3BkcVSgU3gt3	192.168.73.10	1029	4.2.2.3	53	udp	30355	tolula1.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.17.122.245	7734.000000	F
+1332104048.508345	CXmILzmasgiiY4iDi	192.168.73.10	1034	4.2.2.3	53	udp	24469	charting.webhosting.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.15.149.209	14400.000000	F
+1332104048.509025	COhXpw3BkcVSgU3gt3	192.168.73.10	1029	4.2.2.3	53	udp	12695	search.keywordblocks.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.58.197.14	300.000000	F
+1332104049.019444	CXmILzmasgiiY4iDi	192.168.73.10	1034	4.2.2.3	53	udp	61592	ashotakoe5.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	146.185.218.21	43200.000000	F
+1332104049.497745	CXmILzmasgiiY4iDi	192.168.73.10	1034	4.2.2.3	53	udp	58521	res.media.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	res.media.net.edgesuite.net,a1383.g.akamai.net,204.245.190.64,204.245.190.66	2719.000000,10196.000000,20.000000,20.000000	F
+1332104049.574637	CXmILzmasgiiY4iDi	192.168.73.10	1034	4.2.2.3	53	udp	10651	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.47.100,74.125.47.101,74.125.47.102,74.125.47.113,74.125.47.138,74.125.47.139	31002.000000,59.000000,59.000000,59.000000,59.000000,59.000000,59.000000	F
+1332104068.554446	CAd1fq1uhC5q2Rjude	192.168.73.10	1034	4.2.2.3	53	udp	15516	amigohello.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.226.212.131	3600.000000	F
+1332104098.747103	C8YBE37EBMY9lFWEd	192.168.73.10	1034	4.2.2.3	53	udp	62876	hellogringo.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.226.212.131	3600.000000	F
+#close	2014-04-03-10-31-35

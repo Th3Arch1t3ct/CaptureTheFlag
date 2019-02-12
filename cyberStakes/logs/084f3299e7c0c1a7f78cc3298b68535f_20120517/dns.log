@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-30-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1337274766.393244	CjVDho4wvN1LwNm9C5	192.168.84.10	1029	4.2.2.3	53	udp	52623	premierautosourceinc.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.98.50.166	1773.000000	F
+1337274767.088457	CjVDho4wvN1LwNm9C5	192.168.84.10	1029	4.2.2.3	53	udp	21644	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.71.95	2767.000000,60.000000	F
+1337274769.74278	CjVDho4wvN1LwNm9C5	192.168.84.10	1029	4.2.2.3	53	udp	33164	post.carsforsale.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.42.165.97	600.000000	F
+1337274769.997852	CjVDho4wvN1LwNm9C5	192.168.84.10	1029	4.2.2.3	53	udp	48010	www.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.wip4.adobe.com,192.150.16.64	7144.000000,8.000000	F
+1337274770.001564	CkZOhc4IiyEevSamu6	192.168.84.10	1039	4.2.2.3	53	udp	58507	cimages3.carsforsale.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cimages3.carsforsale.com.s3.amazonaws.com,s3-directional-w.amazonaws.com,s3-directional-w.geo.amazonaws.com,s3-2-w.amazonaws.com,207.171.189.81	600.000000,3359.000000,8023.000000,6160.000000,14.000000	F
+1337274770.074187	CjVDho4wvN1LwNm9C5	192.168.84.10	1029	4.2.2.3	53	udp	46728	dlstats.carsforsale.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.98.50.179	600.000000	F
+1337274770.130384	CjVDho4wvN1LwNm9C5	192.168.84.10	1029	4.2.2.3	53	udp	16774	wwwimages.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wwwimages.wip4.adobe.com,wwwimages.adobe.com.edgesuite.net,wwwimages.adobe.com.edgesuite.net.globalredir.akadns.net,a1953.x.akamai.net,63.146.70.9,63.146.70.27	60.000000,100.000000,12901.000000,100.000000,20.000000,20.000000	F
+1337274770.861416	CjVDho4wvN1LwNm9C5	192.168.84.10	1029	4.2.2.3	53	udp	49798	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,63.150.12.59,63.150.12.35	19272.000000,73.000000,17741.000000,16.000000,16.000000	F
+#close	2014-04-03-10-30-05

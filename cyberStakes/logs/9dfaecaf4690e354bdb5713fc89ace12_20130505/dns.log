@@ -1,0 +1,28 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-58-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1367748112.599902	CzIYTT1EvOmjquQ0N2	192.168.55.10	1029	4.2.2.3	53	udp	38288	ozelgaye.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.142.141.127	3575.000000	F
+1367748112.968022	CzIYTT1EvOmjquQ0N2	192.168.55.10	1029	4.2.2.3	53	udp	57489	web134.sv01.net-housting.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.248.244.11	86400.000000	F
+1367748113.643378	CzIYTT1EvOmjquQ0N2	192.168.55.10	1029	4.2.2.3	53	udp	19089	xv11.cadacasa.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.76.188.70	300.000000	F
+1367748115.379433	CzIYTT1EvOmjquQ0N2	192.168.55.10	1029	4.2.2.3	53	udp	61330	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	364.000000,300.000000	F
+1367748115.634571	CzIYTT1EvOmjquQ0N2	192.168.55.10	1029	4.2.2.3	53	udp	29843	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	630.000000,178.000000	F
+1367748141.324594	CDy39x2XmwnCAd8K3h	192.168.55.10	1029	4.2.2.3	53	udp	21908	www.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.wip4.adobe.com,192.150.16.64	3221.000000,5.000000	F
+1367748141.384855	CDy39x2XmwnCAd8K3h	192.168.55.10	1029	4.2.2.3	53	udp	29333	wwwimages.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wwwimages.wip4.adobe.com,wwwimages.adobe.com.edgesuite.net,wwwimages.adobe.com.edgesuite.net.globalredir.akadns.net,a1953.x.akamai.net,23.62.111.171,23.62.111.138	60.000000,11.000000,3649.000000,11.000000,20.000000,20.000000	F
+1367748142.554018	CDy39x2XmwnCAd8K3h	192.168.55.10	1029	4.2.2.3	53	udp	12438	use.typekit.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wac.0f88.edgecastcdn.net,gp1.wac.v2cdn.net,72.21.91.19	34171.000000,472.000000,1780.000000	F
+1367748143.85665	CDy39x2XmwnCAd8K3h	192.168.55.10	1029	4.2.2.3	53	udp	7064	api.demandbase.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	api.demandbase.akadns.net,api-east-failover.demandbase.akadns.net,east-api-778299167.us-east-1.elb.amazonaws.com,54.236.187.41	243.000000,299.000000,300.000000,60.000000	F
+1367748144.123569	CDy39x2XmwnCAd8K3h	192.168.55.10	1029	4.2.2.3	53	udp	64666	www.adobetag.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.adobetag.com.edgekey.net,e381.g.akamaiedge.net,184.29.129.169	6783.000000,580.000000,0.000000	F
+1367748144.058752	CaGSpcvIp9byyHU16	192.168.55.10	1048	4.2.2.3	53	udp	59545	stats.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	adobe.com.d1.sc.omtrdc.net,66.235.147.77	10800.000000,900.000000	F
+1367748144.264109	CaGSpcvIp9byyHU16	192.168.55.10	1048	4.2.2.3	53	udp	41885	fls.doubleclick.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	dart.l.doubleclick.net,74.125.229.251,74.125.229.252	23228.000000,172.000000,172.000000	F
+1367748144.184985	CDy39x2XmwnCAd8K3h	192.168.55.10	1029	4.2.2.3	53	udp	19611	atsmetrics.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	atsmicrosite.d1.sc.omtrdc.net,66.235.147.77	10800.000000,900.000000	F
+1367748144.777424	CaGSpcvIp9byyHU16	192.168.55.10	1048	4.2.2.3	53	udp	38047	adobe.demdex.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	gslb.demdex.net,usedcslb-1786103709.us-east-1.elb.amazonaws.com,23.21.207.156,54.225.220.92,54.243.243.51,54.243.89.226,54.243.32.162,54.243.110.66,54.225.220.29,54.243.68.206	1800.000000,460.000000,60.000000,60.000000,60.000000,60.000000,60.000000,60.000000,60.000000,60.000000	F
+1367748144.800254	CaGSpcvIp9byyHU16	192.168.55.10	1048	4.2.2.3	53	udp	36511	1295336.fls.doubleclick.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	dart.l.doubleclick.net,74.125.229.251,74.125.229.252	300.000000,172.000000,172.000000	F
+1367748145.091955	CaGSpcvIp9byyHU16	192.168.55.10	1048	4.2.2.3	53	udp	36736	secure.media6degrees.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	secure.dynectmedia6degrees.com,tc2-la.secure.dynectmedia6degrees.com,tc1-nj.secure.dynectmedia6degrees.com,38.126.130.197	900.000000,120.000000,30.000000,30.000000	F
+1367748146.951631	CaGSpcvIp9byyHU16	192.168.55.10	1048	4.2.2.3	53	udp	4736	verify.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	verify.adobe.com.edgekey.net,e935.g.akamaiedge.net,184.29.131.235	10800.000000,21600.000000,1.000000	F
+1367748147.539148	CaGSpcvIp9byyHU16	192.168.55.10	1048	4.2.2.3	53	udp	56705	l.betrad.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	log-2048315323.us-east-1.elb.amazonaws.com,107.20.209.197,54.243.74.249,50.17.205.223,54.225.181.237,54.225.245.91,184.72.239.46,54.235.213.82,50.17.214.94	23184.000000,40.000000,40.000000,40.000000,40.000000,40.000000,40.000000,40.000000,40.000000	F
+1367748147.911543	CaGSpcvIp9byyHU16	192.168.55.10	1048	4.2.2.3	53	udp	5505	fast.adobe.demdex.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cdn2.demdex.net.edgesuite.net,a1711.g.akamai.net,23.62.111.177,23.62.111.193	900.000000,5367.000000,20.000000,20.000000	F
+#close	2014-04-03-09-58-59

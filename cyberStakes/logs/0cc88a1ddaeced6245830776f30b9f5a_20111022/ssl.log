@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-54-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1319262711.226776	CSc5b3XXEC6gVLlSl	192.168.47.10	1081	209.235.237.166	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=web.memberclicks.com,OU=Product,O=MemberClicks Inc,L=Atlanta,ST=Georgia,C=US	CN=Thawte SSL CA,O=Thawte\, Inc.,C=US	1291183200.000000	1322805599.000000	-	-	-	bd64037a92ee34569feeeeeeeedca29e	ok
+#close	2014-04-03-10-54-33

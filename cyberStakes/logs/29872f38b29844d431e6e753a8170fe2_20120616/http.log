@@ -1,0 +1,34 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-36-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1339884586.836699	CDrHfE1JJ7QTnS9sjf	192.168.82.10	1030	66.7.210.170	80	1	GET	anthonysonthemon.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	10798	200	OK	-	-	-	(empty)	-	-	-	-	-	Fn6Ico23dl3Bt58z2a	text/html
+1339884587.166004	CbMVnn4v9nJXDXqfyj	192.168.82.10	1032	66.7.210.170	80	1	GET	anthonysonthemon.com	/images/bg.jpg	http://anthonysonthemon.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	273	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FfTJt840ChwCblssN1	text/html
+1339884587.087892	CAvoNo1B6FclFvrnt1	192.168.82.10	1031	66.7.210.170	80	1	GET	anthonysonthemon.com	/style.css	http://anthonysonthemon.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2012	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FXGbf8zA6cGT3QLH7	text/html
+1339884596.40396	CXhbFr3dNcvEbiz7mj	192.168.82.10	1038	98.124.199.1	80	1	GET	charityairsupport.org	/	http://anthonysonthemon.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	175	302	Object moved	-	-	-	(empty)	-	-	-	-	-	FMsPaP112JeiNBPW16	text/html
+1339884596.474177	C1PvKu31ogocSD6lF5	192.168.82.10	1037	66.7.210.170	80	1	GET	anthonysonthemon.com	/images/logo.jpg	http://anthonysonthemon.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	163532	200	OK	-	-	-	(empty)	-	-	-	-	-	FfKTNo1veNJtnyKxhf	image/jpeg
+1339884596.676446	CyX8Bz19s6pnXoQH1	192.168.82.10	1039	178.239.62.11	80	1	GET	trd.modulvec.com	/main.php?page=3081100e9fdaf127	http://anthonysonthemon.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	61696	200	OK	-	-	-	(empty)	-	-	-	-	-	F2NpZEKs0fGbnAWE8	text/html
+1339884599.998322	CyX8Bz19s6pnXoQH1	192.168.82.10	1039	178.239.62.11	80	2	GET	trd.modulvec.com	/w.php?f=97d19&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	31232	200	OK	-	-	-	(empty)	-	-	-	-	-	FGiIr64qKoYigVyfg6	application/x-dosexec
+1339884600.686104	CyX8Bz19s6pnXoQH1	192.168.82.10	1039	178.239.62.11	80	3	GET	trd.modulvec.com	/data/ap2.php	http://trd.modulvec.com/main.php?page=3081100e9fdaf127	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	23567	200	OK	-	-	-	(empty)	-	-	-	-	-	Fdj868K8SRumhfOjd	application/pdf
+1339884600.976153	CX5n0m4NwHygsIvY9f	192.168.82.10	1040	178.239.62.11	80	1	GET	trd.modulvec.com	/data/field.swf	http://anthonysonthemon.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1547	200	OK	-	-	-	(empty)	-	-	-	-	-	FPeudu3pPbuusetKe7	application/x-shockwave-flash
+1339884603.111587	COFLnr1bmmxYVtotke	192.168.82.10	1041	188.190.126.75	80	1	POST	WWWW.ACEBPSK9.COM	/vepof83/gw3t3s.php	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	390	16	200	OK	-	-	-	(empty)	-	-	-	F2fMGF3czxTEqsWNf	binary	FS2r0Q2PnztHoE6Dag	text/plain
+1339884603.718455	CzWiNC1bPSQuRA4Tt	192.168.82.10	1042	72.249.47.165	80	1	GET	tisdale.us	/pd.exe	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	0	188928	200	OK	-	-	-	(empty)	-	-	-	-	-	FrhDRC2m6jgYQ7rcYg	application/x-dosexec
+1339884604.820921	C3mQnaTCUzc9lOKf7	192.168.82.10	1044	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	29	200	OK	-	-	-	(empty)	-	-	-	-	-	FrjTZ74xRtWGVRhQT8	text/plain
+1339884605.021078	CGcHn73yP9AbxtnVRa	192.168.82.10	1045	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339884605.026341	ClXDAE0nnuchMVF44	192.168.82.10	1047	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=2&d=7&s=121	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339884605.055081	CDMNA52gxY8lK409gd	192.168.82.10	1049	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=3&d=7&s=131	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339884605.060134	CpKR7E3cs5TVGsmzth	192.168.82.10	1051	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=4&d=7&s=1	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339884605.060291	CPtmdL2S3OTGhB7a79	192.168.82.10	1053	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=5&d=7&s=20	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339884605.553955	CsJGY018FwjDGWkn85	192.168.82.10	1056	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=6&d=7&s=21	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339884605.56843	CqcctS1oZIQr4PaWfc	192.168.82.10	1059	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=7&d=7&s=30	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339884605.605209	CsCghS3KHOoLO7aQ9j	192.168.82.10	1061	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=8&d=7&s=31	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339884618.105811	CV5FKt3wsDOJj9Mxp7	192.168.82.10	1064	77.67.126.75	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1111	200	OK	-	-	-	(empty)	-	-	-	-	-	FJc3nq8gsImAwqgR7	text/plain
+1339884631.947244	C5NVGB3HL9VTnMnW4d	192.168.82.10	1068	178.239.62.11	80	1	GET	trd.modulvec.com	/REST.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	47700	200	OK	-	-	-	(empty)	-	-	-	-	-	FecAav1xMGBWYuQHsl	application/zip
+1339884651.379812	CxNNQz3QVxwchwjmAd	192.168.82.10	1075	77.67.126.64	80	1	GET	crl.adobe.com	/aum.crl	-	Adobe Update Manager 6	0	2819	200	OK	-	-	-	(empty)	-	-	-	-	-	FVlqpQzy70b9I7fD	binary
+1339884651.048069	CGufIUYIq3uhImgg5	192.168.82.10	1074	77.67.126.73	80	1	GET	swupmf.adobe.com	/manifest/60/win/reader9rdr-en_US.upd	-	Adobe Update Manager 6	0	192693	200	OK	-	-	-	(empty)	-	-	-	-	-	F1FgHj4MUrXSvh5s5k	binary
+1339884651.669023	CGufIUYIq3uhImgg5	192.168.82.10	1074	77.67.126.73	80	2	GET	swupmf.adobe.com	/manifest/60/win/AdobeUpdater.upd	-	Adobe Update Manager 6	0	3524	200	OK	-	-	-	(empty)	-	-	-	-	-	FDJFjDNpcQ6u0reul	binary
+#close	2014-04-03-10-36-12

@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-23-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1391716518.303875	CSqcJe1wlaptUnihMa	192.168.50.10	1033	4.2.2.3	53	udp	24472	beserhost.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.89.17.20	14400.000000	F
+1391716519.425949	CSqcJe1wlaptUnihMa	192.168.50.10	1033	4.2.2.3	53	udp	36763	www.beserhost.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.89.17.20	14400.000000	F
+1391716519.712046	CSqcJe1wlaptUnihMa	192.168.50.10	1033	4.2.2.3	53	udp	60314	fonts.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.20.95	2279.000000,268.000000	F
+1391716520.636115	CSqcJe1wlaptUnihMa	192.168.50.10	1033	4.2.2.3	53	udp	6813	themes.googleusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlehosted.l.googleusercontent.com,74.125.239.12,74.125.239.10,74.125.239.11	70535.000000,162.000000,162.000000,162.000000	F
+1391716520.974845	C9bUWm1luOF0Qjk5l7	192.168.50.10	1046	4.2.2.3	53	udp	20881	uws.premiumthemes.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.232.218.172	14400.000000	F
+1391716520.870724	CHaEH73lCQB9rAkAKc	192.168.50.10	1045	4.2.2.3	53	udp	65182	www.beserweb.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.89.17.20	14400.000000	F
+1391716520.861685	CSqcJe1wlaptUnihMa	192.168.50.10	1033	4.2.2.3	53	udp	48796	fallinshadow.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	180.86.163.234	600.000000	F
+1391716521.896961	CNaPMj4vz7GZUxyUli	192.168.50.10	1033	4.2.2.5	53	udp	48796	fallinshadow.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	180.86.163.234	600.000000	F
+1391716522.801173	C9bUWm1luOF0Qjk5l7	192.168.50.10	1046	4.2.2.3	53	udp	52368	faq-seo.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.236.87.219	3600.000000	F
+1391716523.75946	C9bUWm1luOF0Qjk5l7	192.168.50.10	1046	4.2.2.3	53	udp	43923	huatongchuye.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	128.134.244.74	600.000000	F
+1391716523.98785	CHaEH73lCQB9rAkAKc	192.168.50.10	1045	4.2.2.3	53	udp	12946	www.canliyardim.co	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.111.97.186	3600.000000	F
+1391716524.417744	C9bUWm1luOF0Qjk5l7	192.168.50.10	1046	4.2.2.3	53	udp	56466	4d2a17c.bfdbca.8f16cb5.890db1.db7f07.ufldagpxjyib.remainsfilled.pw	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.172.109.156	30.000000	F
+1391716535.388773	CHaEH73lCQB9rAkAKc	192.168.50.10	1045	4.2.2.3	53	udp	45714	rapidssl-aia.geotrust.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.ws.symantec.com.edgekey.net,e6845.ce.akamaiedge.net,23.7.133.163	900.000000,6746.000000,11.000000	F
+1391716536.086414	CHaEH73lCQB9rAkAKc	192.168.50.10	1045	4.2.2.3	53	udp	28564	www.download.windowsupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.download.windowsupdate.nsatc.net,main.dl.wu.akadns.net,dom.dl.wu.akadns.net,dl.wu.ms.edgesuite.net,a26.d.akamai.net,96.17.148.40,96.17.148.27	2497.000000,1.000000,45.000000,274.000000,6324.000000,5.000000,5.000000	F
+#close	2014-04-03-10-23-26

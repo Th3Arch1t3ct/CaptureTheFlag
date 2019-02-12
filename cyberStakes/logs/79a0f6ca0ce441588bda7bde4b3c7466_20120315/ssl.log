@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-11-07-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1331777332.887512	CJ4YHV3OMu3J0ePjF3	192.168.98.10	1046	173.194.37.32	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1330454974.000000	1362077974.000000	-	-	-	ba509ac5ce95eb239becf051fceeeeee	ok
+1331777335.613631	C9P3ZN7aQA5Q8iMTj	192.168.98.10	1061	72.14.204.95	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleapis.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1330454983.000000	1362077983.000000	-	-	-	1589da54e71a369bf51bc258369656b4	ok
+1331777336.431287	CfLV3mX0v2Svk6P99	192.168.98.10	1063	184.28.45.55	443	SSLv3	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=si0.twimg.com,OU=Akamai SAN SSL OV,OU=Twitter\, Inc,O=Twitter\, Inc,L=San Francisco,ST=CALIFORNIA,C=US	CN=USERTrust Legacy Secure Server CA,O=The USERTRUST Network,L=Salt Lake City,ST=UT,C=US	1325743200.000000	1345870799.000000	-	-	-	a88db1de99fc26694cbf27367ee132b6	ok
+1331777336.474986	CkQiCvPlbRh0oZU6d	192.168.98.10	1069	184.28.45.55	443	SSLv3	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=si0.twimg.com,OU=Akamai SAN SSL OV,OU=Twitter\, Inc,O=Twitter\, Inc,L=San Francisco,ST=CALIFORNIA,C=US	CN=USERTrust Legacy Secure Server CA,O=The USERTRUST Network,L=Salt Lake City,ST=UT,C=US	1325743200.000000	1345870799.000000	-	-	-	a88db1de99fc26694cbf27367ee132b6	ok
+1331777337.30167	C0BaLZ2MSvXZVzanu7	192.168.98.10	1070	184.28.45.55	443	SSLv3	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	af6c3eb983bc773430894ab2a919cf195e0da571d45d9f8d0145aa71fdad63b9	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-11-07-23

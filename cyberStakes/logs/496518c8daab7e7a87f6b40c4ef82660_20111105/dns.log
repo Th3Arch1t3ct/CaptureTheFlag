@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-00-41
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1320489552.981263	CiaYJR18lN9c01Ez13	192.168.31.10	1029	4.2.2.3	53	udp	34450	investmentartgallery.com.au	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	175.107.148.213	14378.000000	F
+1320489553.445028	CiaYJR18lN9c01Ez13	192.168.31.10	1029	4.2.2.3	53	udp	44178	lensesorganization.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.137.226.90	39321.000000	F
+1320489553.968671	CiaYJR18lN9c01Ez13	192.168.31.10	1029	4.2.2.3	53	udp	28562	depositconsulting.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.137.226.90	43200.000000	F
+1320489579.590375	CS9hvu3Qo2LPFyt8kl	192.168.31.10	1029	4.2.2.3	53	udp	2195	getmilfs.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.202.163.8	3600.000000	F
+1320489580.449192	CS9hvu3Qo2LPFyt8kl	192.168.31.10	1029	4.2.2.3	53	udp	27281	fetishdreams.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.234.65.128	43200.000000	F
+#close	2014-04-03-11-00-41

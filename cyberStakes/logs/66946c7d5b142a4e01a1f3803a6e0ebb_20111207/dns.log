@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-10-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1323281795.224289	CxWEw033CqdAxltgkk	192.168.128.10	1029	4.2.2.3	53	udp	65171	games68.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.168.165.224	4.000000	F
+1323281795.441992	CxWEw033CqdAxltgkk	192.168.128.10	1029	4.2.2.3	53	udp	23697	winter5.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	149.255.33.227	30.000000	F
+1323281795.549316	CxWEw033CqdAxltgkk	192.168.128.10	1029	4.2.2.3	53	udp	47505	googleads6.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.123.116.51	30.000000	F
+1323281801.024851	CxWEw033CqdAxltgkk	192.168.128.10	1029	4.2.2.3	53	udp	23191	getmilfs.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.202.163.8	3600.000000	F
+1323281801.685637	CxWEw033CqdAxltgkk	192.168.128.10	1029	4.2.2.3	53	udp	55191	oneathleticmom.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	72.167.207.74	3600.000000	F
+#close	2014-04-03-11-10-21

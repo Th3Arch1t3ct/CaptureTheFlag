@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-50-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1343540733.445917	C9sWam2xiguQUFAYNi	192.168.31.10	1029	4.2.2.3	53	udp	32395	technosysolutions.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	63.250.48.131	43174.000000	F
+1343540738.253194	C9sWam2xiguQUFAYNi	192.168.31.10	1029	4.2.2.3	53	udp	14984	zone.www1.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.184.237.39	31.000000	F
+1343540738.19477	C9sWam2xiguQUFAYNi	192.168.31.10	1029	4.2.2.3	53	udp	9864	banner01.www1.biz	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1343540738.19477	C9sWam2xiguQUFAYNi	192.168.31.10	1029	4.2.2.3	53	udp	9864	banner01.www1.biz	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1343540735.880528	C9sWam2xiguQUFAYNi	192.168.31.10	1029	4.2.2.3	53	udp	31114	newsus.www1.biz	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1343540733.558788	C9sWam2xiguQUFAYNi	192.168.31.10	1029	4.2.2.3	53	udp	16266	hotlog.my03.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1343540733.558788	C9sWam2xiguQUFAYNi	192.168.31.10	1029	4.2.2.3	53	udp	16266	hotlog.my03.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1343540759.403106	C1mIFsnyz29KoZuI	192.168.31.10	1029	4.2.2.3	53	udp	46216	aurestina.lt	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.61.36.93	600.000000	F
+1343540759.947167	C1mIFsnyz29KoZuI	192.168.31.10	1029	4.2.2.3	53	udp	29071	iokun.co.uk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.227.111.67	14400.000000	F
+1343540767.688563	C1mIFsnyz29KoZuI	192.168.31.10	1029	4.2.2.3	53	udp	17294	67.111.227.193.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1343540767.688563	C1mIFsnyz29KoZuI	192.168.31.10	1029	4.2.2.3	53	udp	17294	67.111.227.193.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1343540791.221959	CNbgCb3DvpERbMhc8c	192.168.31.10	1029	4.2.2.3	53	udp	5261	blumen-vergleich.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.13.137.156	3600.000000	F
+#close	2014-04-03-10-50-25

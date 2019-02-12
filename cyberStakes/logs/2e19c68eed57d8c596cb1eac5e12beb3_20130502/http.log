@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-42-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1367489360.837679	CQwI0i1MWlBrIn3L4	192.168.117.10	1030	37.143.13.157	80	1	GET	69cataloqs.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	92	200	OK	-	-	-	(empty)	-	-	-	-	-	FEHypr3Py7ZsuR0MA8	text/html
+1367489361.386012	CQwI0i1MWlBrIn3L4	192.168.117.10	1030	37.143.13.157	80	2	GET	69cataloqs.com	/betty.php	http://69cataloqs.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1367489362.844848	CHorDa1ulDQwWrdju6	192.168.117.10	1031	198.50.187.5	64784	1	GET	mishka.walutaer91.com	/f281b24923d9e3a82f40fa15c42dfd20.html	http://69cataloqs.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	60820	200	OK	-	-	-	(empty)	-	-	-	-	-	FrW95g35nMSpzoRj16	text/html
+1367489373.399391	ClOR9V1kBnGnsWSms2	192.168.117.10	1036	65.55.13.243	80	1	POST	activex.microsoft.com	/objects/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	FZ14Ff3O1yEjquoBGa	text/plain	Fz7vvd4tGDI1Mo8Bkl	text/plain
+1367489373.823867	CrDmKmDXDiJ3Rqbk2	192.168.117.10	1037	65.55.13.243	80	1	POST	codecs.microsoft.com	/isapi/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	FaGkyv3jBNJwoMy66	text/plain	FafUmd2JPm51juLvp1	text/plain
+1367489374.828961	CSo49mY84s9BkQaV8	192.168.117.10	1038	198.50.187.5	64784	1	GET	mishka.walutaer91.com	/3c52a8434ca1ea9063baf318c5904f2d/1367489283/6431f115ca3b29f6c8f9ded57645d58c.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12554	200	OK	-	-	-	(empty)	-	-	-	-	-	Fk2bLW15yVKHG1Cc0d	application/jar
+1367489375.049985	CSo49mY84s9BkQaV8	192.168.117.10	1038	198.50.187.5	64784	2	GET	mishka.walutaer91.com	/3c52a8434ca1ea9063baf318c5904f2d/1367489283/6431f115ca3b29f6c8f9ded57645d58c.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12554	200	OK	-	-	-	(empty)	-	-	-	-	-	FxS10qDhdFKCSRgWb	application/jar
+1367489375.416841	CSo49mY84s9BkQaV8	192.168.117.10	1038	198.50.187.5	64784	3	GET	mishka.walutaer91.com	/3c52a8434ca1ea9063baf318c5904f2d/1367489283/6431f115ca3b29f6c8f9ded57645d58c.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12554	200	OK	-	-	-	(empty)	-	-	-	-	-	FGKizONhy4s6s61N8	application/jar
+1367489375.850435	CSo49mY84s9BkQaV8	192.168.117.10	1038	198.50.187.5	64784	4	GET	mishka.walutaer91.com	/3c52a8434ca1ea9063baf318c5904f2d/1367489283/6431f115ca3b29f6c8f9ded57645d58c.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12554	200	OK	-	-	-	(empty)	-	-	-	-	-	FX55LS3AMKIBWmJKWb	application/jar
+1367489381.015414	CSo49mY84s9BkQaV8	192.168.117.10	1038	198.50.187.5	64784	5	GET	mishka.walutaer91.com	/3c52a8434ca1ea9063baf318c5904f2d/1367489283/6431f115ca3b29f6c8f9ded57645d58c.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12554	200	OK	-	-	-	(empty)	-	-	-	-	-	FFshs89z0uEqcBSVd	application/jar
+1367489381.377431	CSo49mY84s9BkQaV8	192.168.117.10	1038	198.50.187.5	64784	6	GET	mishka.walutaer91.com	/f/1367489283/6431f115ca3b29f6c8f9ded57645d58c/3c52a8434ca1ea9063baf318c5904f2d/2	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	182272	200	OK	-	-	-	(empty)	-	-	-	-	-	F7tXYw31LImGIQh12k	application/x-dosexec
+1367489382.473709	CSo49mY84s9BkQaV8	192.168.117.10	1038	198.50.187.5	64784	7	GET	mishka.walutaer91.com	/f/1367489283/6431f115ca3b29f6c8f9ded57645d58c/3c52a8434ca1ea9063baf318c5904f2d/2/2	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-10-42-40

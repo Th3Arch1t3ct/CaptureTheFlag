@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-00-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1363134088.947199	CxcRFM3LRWteVaLJ49	192.168.36.10	1059	121.127.6.214	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=www.prevencao.net,OU=Domain Control Validated - RapidSSL(R),OU=See www.rapidssl.com/resources/cps (c)13,OU=GT16838475,serialNumber=7aaFedsOvgCcDtfqol2/WfztF7OU8FAn	CN=RapidSSL CA,O=GeoTrust\, Inc.,C=US	1360645698.000000	1392411381.000000	-	-	-	1832f28eb37ffd059b20039ccceb6cf4	ok
+1363134095.303868	CPmX801E9Krs78u2ob	192.168.36.10	1062	121.127.6.214	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	b4cd36f1970b9aa12500f9fca9961d45180d5ce5bd1d4afeddc98e5081dbb269	-	-	-	-	-	-	-	-	-
+1363134097.062905	Cjvnxy2KKbJbsE84Q3	192.168.36.10	1063	121.127.6.214	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	b4cd36f1970b9aa12500f9fca9961d45180d5ce5bd1d4afeddc98e5081dbb269	-	-	-	-	-	-	-	-	-
+1363134098.805424	CcjuzEAYgscntyevc	192.168.36.10	1064	121.127.6.214	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	b4cd36f1970b9aa12500f9fca9961d45180d5ce5bd1d4afeddc98e5081dbb269	-	-	-	-	-	-	-	-	-
+1363134100.592052	CKLL6U2bVfz3x8A7nc	192.168.36.10	1065	121.127.6.214	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	b4cd36f1970b9aa12500f9fca9961d45180d5ce5bd1d4afeddc98e5081dbb269	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-00-37

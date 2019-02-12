@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-33-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1337117299.9047	CugKii46PB42cYTv7b	192.168.44.10	1039	74.125.71.132	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1335974835.000000	1367511435.000000	-	-	-	fce4da42478d2c1c24275386bc80d7b7	ok
+1337117299.912504	CkfaT93exrK3tzvam8	192.168.44.10	1040	74.125.71.132	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1335974835.000000	1367511435.000000	-	-	-	fce4da42478d2c1c24275386bc80d7b7	ok
+1337117300.835952	CL9e1s2vIR3YIQSwvk	192.168.44.10	1058	74.125.71.132	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	bbd3bd3b0384698aed802c71cb6ee45eaecc4a32f821d9f9f60490e96bc5aa19	-	-	-	-	-	-	-	-	-
+1337117300.836307	COmDgg4jJ0HL09Fcve	192.168.44.10	1057	74.125.71.132	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	bbd3bd3b0384698aed802c71cb6ee45eaecc4a32f821d9f9f60490e96bc5aa19	-	-	-	-	-	-	-	-	-
+1337117301.534295	CB45lp4tO6szit61nd	192.168.44.10	1066	74.125.71.132	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	bbd3bd3b0384698aed802c71cb6ee45eaecc4a32f821d9f9f60490e96bc5aa19	-	-	-	-	-	-	-	-	-
+1337117324.800124	CU9BlZ3SQRLvzwsBI1	192.168.44.10	1080	184.30.189.177	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=s-static.ak.fbcdn.net,ST=CALIFORNIA,OU=s-static.ak.fbcdn.net,O=s-static.ak.fbcdn.net,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1312234016.000000	1343856416.000000	-	-	-	13ef8c4315fd282fdf7dbba3913e72c4	ok
+1337117324.601241	CVIbuj3g2lHwAcBcej	192.168.44.10	1077	74.125.71.100	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1335974817.000000	1367511417.000000	-	-	-	70245e0e42a3c4bfbbcd38ad75cccccc	ok
+1337117326.357025	Cx14Pg366ENxR0yrGi	192.168.44.10	1085	184.30.242.110	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=s-static.ak.facebook.com,ST=California,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1311993164.000000	1343615564.000000	-	-	-	26d4cf1984232a07a57908abdaf2c53d	ok
+1337117327.836747	C1VANd2XxyREN6yoz6	192.168.44.10	1090	69.171.228.74	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=www.facebook.com,O=Facebook\, Inc.,L=Palo Alto,ST=California,C=US	OU=www.verisign.com/CPS Incorp.by Ref. LIABILITY LTD.(c)97 VeriSign,OU=VeriSign International Server CA - Class 3,OU=VeriSign\, Inc.,O=VeriSign Trust Network	1321509600.000000	1342241999.000000	-	-	-	d543c4e76843288fffa38081ea1ad092	ok
+1337117328.800927	C4PPlE3dqVfPl4poNe	192.168.44.10	1093	184.25.156.130	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.s-static.ak.fbcdn.net,ST=CALIFORNIA,OU=*.s-static.ak.fbcdn.net,O=*.s-static.ak.fbcdn.net,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1309327013.000000	1340949413.000000	-	-	-	e9a0777fbea67d6e9d3c85a112c51409	ok
+1337117329.052995	CRUwtk4Xsgziytz4Db	192.168.44.10	1094	208.46.163.32	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=a248.e.akamai.net,O=Akamai Technologies\, Inc.,C=US	CN=GTE CyberTrust Global Root,OU=GTE CyberTrust Solutions\, Inc.,O=GTE Corporation,C=US	1314919571.000000	1346455436.000000	-	-	-	4c0454a02700167a5916ad30765ff836	ok
+1337117329.053323	CSEPQm2fllcGdHrTBg	192.168.44.10	1095	208.46.163.32	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=a248.e.akamai.net,O=Akamai Technologies\, Inc.,C=US	CN=GTE CyberTrust Global Root,OU=GTE CyberTrust Solutions\, Inc.,O=GTE Corporation,C=US	1314919571.000000	1346455436.000000	-	-	-	4c0454a02700167a5916ad30765ff836	ok
+1337117329.206952	CsHRLm1fNyW5O5DcT2	192.168.44.10	1097	184.30.189.177	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	c8e935603bde2766848353c0ba30d11205f4049b5ca56eb285d0fdcbe08c9e78	-	-	-	-	-	-	-	-	-
+1337117329.197511	CXNty73b2ACSz8sKT8	192.168.44.10	1096	208.46.163.32	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	524b02de8bdb249546f4079bdb1b61a2661bb7df5a19d092fdf331e02e29483e	-	-	-	-	-	-	-	-	-
+1337117329.294615	C4vZleVxZ30HDYfq6	192.168.44.10	1098	184.25.156.130	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	1f21402a1eb8e0e698619f8c10ea15426ced013a49b4cda9eec132ccd3ccef05	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-33-46

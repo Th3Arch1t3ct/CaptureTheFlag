@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-02-17
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1340906983.136763	C8Mw9D3BsKRJ714Lu8	192.168.122.10	1032	195.149.90.13	80	F4MKEH1wCm7G2Et6F2	application/x-shockwave-flash	http://mazda.georgewkohn.com/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 50%  Last seen: 2012-07-01 09:24:37	https://www.virustotal.com/en/search/?query=1f5c1f1302e0b5c1dffc7b150bf26cfff6cc3b43	192.168.122.10	195.149.90.13	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1340907003.756049	C8Mw9D3BsKRJ714Lu8	192.168.122.10	1032	195.149.90.13	80	F70nzAnCBnfkH7hZ8	application/x-dosexec	http://mazda.georgewkohn.com/d.php?f=dd786&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 55%  Last seen: 2012-07-01 10:31:04	https://www.virustotal.com/en/search/?query=abef021811e82a9825246476fc2e13774c38494a	192.168.122.10	195.149.90.13	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1340907035.281842	ClfnqlEFYpcduqtI	192.168.122.10	1034	195.149.90.13	80	F1490b3zS0kCY8JUU4	application/x-shockwave-flash	http://nissan.georgekohndds.com/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 50%  Last seen: 2012-07-01 09:24:37	https://www.virustotal.com/en/search/?query=1f5c1f1302e0b5c1dffc7b150bf26cfff6cc3b43	192.168.122.10	195.149.90.13	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-02-17

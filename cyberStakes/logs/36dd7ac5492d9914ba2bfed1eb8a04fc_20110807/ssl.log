@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-09-52-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1312737055.374253	CXPuX33HY5K9BOjSAf	192.168.7.10	1077	75.101.163.212	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.briteverify.com,OU=Domain Control Validated,O=*.briteverify.com	serialNumber=07969287,CN=Go Daddy Secure Certification Authority,OU=http://certificates.godaddy.com/repository,O=GoDaddy.com\, Inc.,L=Scottsdale,ST=Arizona,C=US	1291513872.000000	1323391189.000000	-	-	-	5f3615e448e263b53b1b1c4bf9c9bbbe	ok
+1312737058.227855	CXZBNJ1q9XpmdyE7x6	192.168.7.10	1099	75.101.163.212	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	52a7f911753584d29419b18fef86c52780b30431d8ac9539371782b407265fd1	CN=*.briteverify.com,OU=Domain Control Validated,O=*.briteverify.com	serialNumber=07969287,CN=Go Daddy Secure Certification Authority,OU=http://certificates.godaddy.com/repository,O=GoDaddy.com\, Inc.,L=Scottsdale,ST=Arizona,C=US	1291513872.000000	1323391189.000000	-	-	-	5f3615e448e263b53b1b1c4bf9c9bbbe	ok
+1312737058.227532	CwQ2lbBlusUZ60S5l	192.168.7.10	1098	199.7.50.231	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=seal.verisign.com,OU=Production Security Services Trust Seal Edge,O=VeriSign\, Inc.,L=Mountain View,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G2,OU=Terms of use at https://www.verisign.com/rpa (c)09,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1278478800.000000	1404709199.000000	-	-	-	496ae4785aae2d1f3a60fd29e6bc4f5b	ok
+1312737058.229865	C311Ge424rdcrjFQdg	192.168.7.10	1100	75.101.163.212	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	52a7f911753584d29419b18fef86c52780b30431d8ac9539371782b407265fd1	CN=*.briteverify.com,OU=Domain Control Validated,O=*.briteverify.com	serialNumber=07969287,CN=Go Daddy Secure Certification Authority,OU=http://certificates.godaddy.com/repository,O=GoDaddy.com\, Inc.,L=Scottsdale,ST=Arizona,C=US	1291513872.000000	1323391189.000000	-	-	-	5f3615e448e263b53b1b1c4bf9c9bbbe	ok
+1312737059.936418	CGMSCw4913I4IDQ0Jj	192.168.7.10	1103	75.101.163.212	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	87c35cb5bffe435887a082e622dcd6230282f1f8c20c40fc0e3f3f4aa252ea3d	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-09-52-12

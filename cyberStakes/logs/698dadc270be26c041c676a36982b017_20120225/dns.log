@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-23-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1330136859.069047	COiMbw3SxrCqpwUJ0b	192.168.64.10	1029	4.2.2.3	53	udp	21647	mrzoetewey.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.163.249.239	14374.000000	F
+1330136908.997903	CgnD4n3oiYNAnIefKg	192.168.64.10	1029	4.2.2.3	53	udp	41613	www.mrzoetewey.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.163.249.239	14400.000000	F
+1330136910.192088	CgnD4n3oiYNAnIefKg	192.168.64.10	1029	4.2.2.3	53	udp	43917	fonts.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.45.95	1328.000000,99.000000	F
+1330136910.212562	CgnD4n3oiYNAnIefKg	192.168.64.10	1029	4.2.2.3	53	udp	33165	themes.googleusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlehosted.l.googleusercontent.com,74.125.45.132	13518.000000,85.000000	F
+1330136911.326444	CgnD4n3oiYNAnIefKg	192.168.64.10	1029	4.2.2.3	53	udp	5261	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.47.139,74.125.47.100,74.125.47.101,74.125.47.102,74.125.47.113,74.125.47.138	10914.000000,259.000000,259.000000,259.000000,259.000000,259.000000,259.000000	F
+1330136911.329356	CgnD4n3oiYNAnIefKg	192.168.64.10	1029	4.2.2.3	53	udp	64396	images.beachbody.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.93.83.8	300.000000	F
+1330136913.316634	CgnD4n3oiYNAnIefKg	192.168.64.10	1029	4.2.2.3	53	udp	45195	nwin54simpl.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.28.114.103	21600.000000	F
+1330136913.828824	CgnD4n3oiYNAnIefKg	192.168.64.10	1029	4.2.2.3	53	udp	19339	ttr92acte.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.28.114.103	1386.000000	F
+1330136914.191403	CgnD4n3oiYNAnIefKg	192.168.64.10	1029	4.2.2.3	53	udp	37770	www3.hard-ecleaner.de.lv	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.157.82.19	3600.000000	F
+1330136914.808652	CgnD4n3oiYNAnIefKg	192.168.64.10	1029	4.2.2.3	53	udp	22410	www2.savezqnetwork.de.lv	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.23.8.121	3600.000000	F
+1330136925.955787	CgnD4n3oiYNAnIefKg	192.168.64.10	1029	4.2.2.3	53	udp	8841	www1.personalsqusoft.uni.me	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.142.217	43200.000000	F
+#close	2014-04-03-10-23-32

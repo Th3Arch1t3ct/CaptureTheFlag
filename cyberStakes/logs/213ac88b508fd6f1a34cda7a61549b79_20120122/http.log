@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-03-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1327204618.746493	Ci8hPm2sKjkufwMe6i	192.168.53.10	1030	62.149.128.154	80	1	GET	albopretorioonline.it	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	241	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FLISIE4C5qq1xpGWbi	text/html
+1327204619.004303	CbhePI1w2jnFwofMu9	192.168.53.10	1031	62.149.131.175	80	1	GET	www.albopretorioonline.it	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	611	200	OK	-	-	-	(empty)	-	-	-	-	-	FnhZlS1SKWWyDsFBG8	text/html
+1327204620.085764	CJvf194wRPPJexfElc	192.168.53.10	1032	193.111.11.3	80	1	GET	www.sheroz.tj	/swfobject.js	http://www.albopretorioonline.it/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	329	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FzldvX30r4KXqEMEs1	text/html
+1327204620.608399	CspWu3GMb4cqmTLq4	192.168.53.10	1033	66.199.240.210	80	1	GET	opbvhdjehh.biz	/index.php?tp=89c9473171a1c848	http://www.albopretorioonline.it/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	81048	200	OK	-	-	-	(empty)	-	-	-	-	-	Fu6EWf2MfgTBGSQy89	text/html
+1327204629.94164	C6y3vl3KN9wPjapQwb	192.168.53.10	1038	66.199.240.210	80	1	GET	opbvhdjehh.biz	/w.php?f=142&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	94208	200	OK	-	-	-	(empty)	-	-	-	-	-	FeydTL1BAgkViyYskl	application/x-dosexec
+1327204630.982004	CK5EXbGOH15AmFiQ8	192.168.53.10	1039	66.199.240.210	80	1	GET	opbvhdjehh.biz	/content/2ddfp.php?f=142	http://opbvhdjehh.biz/index.php?tp=89c9473171a1c848	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	25	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F1nK61qlmIO7UtsQ	text/plain
+1327204634.327891	CpyOGj4Syv1PoKrgPi	192.168.53.10	1040	66.199.240.210	80	1	GET	opbvhdjehh.biz	/content/field.swf	http://www.albopretorioonline.it/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	529	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F2NxMR12irHFb3N91h	text/html
+1327204635.225383	C3QToB1FezDxXpOBl	192.168.53.10	1041	66.199.240.210	80	1	GET	opbvhdjehh.biz	/content/v1.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4408	200	OK	-	-	-	(empty)	-	-	-	-	-	F0HHAi2XiRpMdlxl15	application/zip
+1327204636.075647	C3apLU3lLXzmoLupGj	192.168.53.10	1044	66.199.240.210	80	1	GET	opbvhdjehh.biz	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	169	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FmgWd3FigaIE91TI6	text/html
+1327204636.37053	CrtUOV1fCMqvlk7xzc	192.168.53.10	1045	66.199.240.210	80	1	GET	opbvhdjehh.biz	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	169	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FsRChjwtIz82H31o7	text/html
+1327204636.663582	CaOjQyhjn7UjVp4Y3	192.168.53.10	1046	66.199.240.210	80	1	GET	opbvhdjehh.biz	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	169	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FYDiwW3vm4l9BeDt04	text/html
+1327204636.953761	CSHi2Z2Jkg0vZsfcOh	192.168.53.10	1047	66.199.240.210	80	1	GET	opbvhdjehh.biz	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	169	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F31lxO1sB5A7bqOzZh	text/html
+1327204637.393648	C3tGRe1vTqehQXIjT9	192.168.53.10	1048	66.199.240.210	80	1	GET	opbvhdjehh.biz	/w.php?f=142&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1327204635.853489	CshaDXF3ZKQdHK1E7	192.168.53.10	1043	128.204.199.37	80	1	POST	igraqwertytrio.com	/search?fr=altavista&itag=ody&q=Tb05HG2P=jPbFaQF0I,d5fa8ff57ad763fe&kgs=1&kls=0	-	-	444	732160	200	OK	-	-	-	(empty)	-	-	-	FougPt2PYPpyTRp0zf	text/plain	F1K9OL2HREsXU72EY4	binary
+1327204649.767467	CshaDXF3ZKQdHK1E7	192.168.53.10	1043	128.204.199.37	80	2	POST	igraqwertytrio.com	/search?fr=altavista&itag=ody&q=Tb05HG2P=jPbFaQF0I,d5fa8ff57ad763fe,7JFOdC3055&kgs=1&kls=0&p=1000	-	-	33	0	200	OK	-	-	-	(empty)	-	-	-	FKxotE2QWZrX1JAkT9	text/plain	-	-
+#close	2014-04-03-10-03-51

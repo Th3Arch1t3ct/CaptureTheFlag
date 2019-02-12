@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-08-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1356496162.674808	CRnNPJ5krizgvibu5	192.168.42.10	1029	4.2.2.3	53	udp	16269	gigabase.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.9.25.112	3600.000000	F
+1356496167.881817	CRnNPJ5krizgvibu5	192.168.42.10	1029	4.2.2.3	53	udp	18828	www.download.windowsupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.download.windowsupdate.nsatc.net,download.windowsupdate.com.fp.nsatc.net,download.windowsupdate.com.c.footprint.net,4.27.255.126,8.254.56.254,8.26.208.125	332.000000,171.000000,3171.000000,95.000000,95.000000,95.000000	F
+1356496168.039836	CRnNPJ5krizgvibu5	192.168.42.10	1029	4.2.2.3	53	udp	62607	crl.thawte.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.71.190	732.000000,1.000000	F
+1356496168.466179	CRnNPJ5krizgvibu5	192.168.42.10	1029	4.2.2.3	53	udp	25481	cs-g2-crl.thawte.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.71.190	900.000000,1.000000	F
+#close	2014-04-03-11-08-16

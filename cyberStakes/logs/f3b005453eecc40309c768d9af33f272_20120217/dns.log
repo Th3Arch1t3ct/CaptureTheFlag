@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-00-42
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1329469443.963394	CNsgAS1U49bNVckBg1	192.168.2.10	1029	4.2.2.3	53	udp	16269	c-s-homes.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	68.142.213.151	1178.000000	F
+1329469444.564072	CNsgAS1U49bNVckBg1	192.168.2.10	1029	4.2.2.3	53	udp	5260	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.157.95	228.000000,178.000000	F
+1329469444.568067	CNsgAS1U49bNVckBg1	192.168.2.10	1029	4.2.2.3	53	udp	655	l.yimg.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	geoycs-l.gy1.b.yahoodns.net,fo-anyycs-l.ay1.b.yahoodns.net,98.137.80.49,98.137.80.50,98.137.80.31,98.137.80.32,98.137.80.33,98.137.80.34	3610.000000,198.000000,290.000000,290.000000,290.000000,290.000000,290.000000,290.000000	F
+1329469444.73808	CNsgAS1U49bNVckBg1	192.168.2.10	1029	4.2.2.3	53	udp	38286	visit.webhosting.yahoo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pvisit1.geo.vip.bf1.yahoo.com,98.139.206.151	93.000000,114.000000	F
+1329469445.444582	CNsgAS1U49bNVckBg1	192.168.2.10	1029	4.2.2.3	53	udp	8841	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.75.218,69.31.75.203	15340.000000,183.000000,16065.000000,8.000000,8.000000	F
+1329469445.85003	CNsgAS1U49bNVckBg1	192.168.2.10	1029	4.2.2.3	53	udp	10377	api.twitter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.59.150.9,199.59.148.20,199.59.149.200,199.59.149.232	21.000000,21.000000,21.000000,21.000000	F
+1329469447.144823	CNsgAS1U49bNVckBg1	192.168.2.10	1029	4.2.2.3	53	udp	56200	eoltirmhotewc.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	149.172.208.243,78.97.115.244	1.000000,1.000000	F
+1329469468.925428	Co80YB3AnsQtzzDMRe	192.168.2.10	1029	4.2.2.3	53	udp	13194	eoltirmhotewc.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.192.70.19,84.27.227.249	1.000000,1.000000	F
+1329469478.562726	Co80YB3AnsQtzzDMRe	192.168.2.10	1029	4.2.2.3	53	udp	24196	gretabraters.eu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	77.95.231.87	3600.000000	F
+1329469487.048968	Co80YB3AnsQtzzDMRe	192.168.2.10	1029	4.2.2.3	53	udp	8071	eoltirmhotewc.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	68.144.70.171,82.119.25.79	1.000000,1.000000	F
+#close	2014-04-03-11-00-43

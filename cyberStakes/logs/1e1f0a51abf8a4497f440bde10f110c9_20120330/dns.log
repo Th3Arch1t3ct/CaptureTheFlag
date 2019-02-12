@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-15-03
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1333086453.350676	CRu8176b7NUP6Susj	192.168.12.10	1029	4.2.2.3	53	udp	15245	nxsx.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	204.74.217.189	3577.000000	F
+1333086453.576545	CRu8176b7NUP6Susj	192.168.12.10	1029	4.2.2.3	53	udp	24204	fcx.uglyas.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	58.64.179.27	21600.000000	F
+1333086454.18626	CRu8176b7NUP6Susj	192.168.12.10	1029	4.2.2.3	53	udp	62607	jdn.ns02.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	60.190.174.171	31.000000	F
+1333086454.738512	CRu8176b7NUP6Susj	192.168.12.10	1029	4.2.2.3	53	udp	41097	js.tongji.linezing.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	img.gslb.tbcache.com,58.221.57.240,58.221.57.250,118.123.202.110,222.186.60.240,58.216.16.240,58.216.16.250,58.216.17.240,58.216.17.250	809.000000,300.000000,300.000000,300.000000,300.000000,300.000000,300.000000,300.000000,300.000000	F
+#close	2014-04-03-10-15-04

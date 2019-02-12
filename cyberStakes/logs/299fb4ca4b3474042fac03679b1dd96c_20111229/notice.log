@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-50-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1325196171.370488	CCi0BoGG1HKfZ0l4k	192.168.124.10	1040	145.100.126.74	80	F8MzwY2Ovh6xMjcgVc	application/x-dosexec	http://ichkclmditp.com/w.php?f=26&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 39%  Last seen: 2012-01-15 11:24:05	https://www.virustotal.com/en/search/?query=7a6b5b93e3a4102f723eb0e347306f5bb9b450c3	192.168.124.10	145.100.126.74	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1325196180.971326	CnlRnf1SV6N3UTGD2e	192.168.124.10	1041	145.100.126.74	80	Fe2SLa3uzpRqPUhKb	application/pdf	http://ichkclmditp.com/content/2ddfp.php?f=26	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-01-15 04:42:44	https://www.virustotal.com/en/search/?query=10716fab3fa5fb89c56b10299016445b88f5a271	192.168.124.10	145.100.126.74	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1325196197.093983	CMqmht4G607Mq4VPF1	192.168.124.10	1051	82.75.115.130	80	Fn1dIg4JHoOzbkR1sg	application/x-dosexec	http://ichkclmditp.com/w.php?f=26&e=0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 39%  Last seen: 2012-01-15 11:24:05	https://www.virustotal.com/en/search/?query=7a6b5b93e3a4102f723eb0e347306f5bb9b450c3	192.168.124.10	82.75.115.130	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-50-55

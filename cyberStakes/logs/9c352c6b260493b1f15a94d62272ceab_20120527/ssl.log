@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-32-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1338145369.769124	CuQ1AgThDCs59ST0h	192.168.78.10	1034	173.194.37.69	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1337173627.000000	1368710227.000000	-	-	-	d5a7ebedfb2ebbbbbbbbbbbbbbbbbdc4	ok
+1338145373.12305	CZLFWb1ogYXpvwFCde	192.168.78.10	1071	209.172.57.82	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=www.adstatistics.net,OU=PositiveSSL,OU=Domain Control Validated	CN=PositiveSSL CA,O=Comodo CA Limited,L=Salford,ST=Greater Manchester,C=GB	1312866000.000000	1344488399.000000	-	-	-	a3709380004c67e8e8f19dd695822a65	ok
+1338145394.354588	ChMB1brGKA0sth65a	192.168.78.10	1143	96.17.45.177	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=s-static.ak.fbcdn.net,ST=CALIFORNIA,OU=s-static.ak.fbcdn.net,O=s-static.ak.fbcdn.net,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1312234016.000000	1343856416.000000	-	-	-	13ef8c4315fd282fdf7dbba3913e72c4	ok
+1338145394.365982	CdpcDr0ud8x2fgRHl	192.168.78.10	1144	96.17.34.110	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=s-static.ak.facebook.com,ST=California,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1311993164.000000	1343615564.000000	-	-	-	26d4cf1984232a07a57908abdaf2c53d	ok
+1338145394.507334	C4kjHF2JLl0WBnwGmk	192.168.78.10	1145	69.171.228.74	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=www.facebook.com,O=Facebook\, Inc.,L=Palo Alto,ST=California,C=US	OU=www.verisign.com/CPS Incorp.by Ref. LIABILITY LTD.(c)97 VeriSign,OU=VeriSign International Server CA - Class 3,OU=VeriSign\, Inc.,O=VeriSign Trust Network	1321509600.000000	1342241999.000000	-	-	-	d543c4e76843288fffa38081ea1ad092	ok
+#close	2014-04-03-10-32-48

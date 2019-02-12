@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-34-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1329950664.060277	CNX13Z3WwwuVnos8Cf	192.168.128.10	1049	82.103.142.217	80	FWP31j1ZgUmorm2xIl	application/x-dosexec	http://www1.save-uusentinel.de.lv/?3588esmea=V5ilnKLY5cqH6MraomKrpaiL4ujVq5WdZmpxa5isnpfEmdXpol6op6yeo6Senp2Sn6h1aZWjpIvC1cPoon/JwJnV19imoYvfVw==&t=31	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2012-03-15 02:53:55	https://www.virustotal.com/en/search/?query=f05dee9f695faff0e307cad37be98bb019abbe36	192.168.128.10	82.103.142.217	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1329950667.354644	Ckphkm1dyzS8PtSgh3	192.168.128.10	1055	82.103.142.34	80	FVrcgj3ZiiMl7NCu3i	application/x-dosexec	http://www1.smartcheckerio.com/?gzioojaj=i93W06zP2c+Z4srWsZielZiR2ebVrJernKSonZSjpJ/EmOjWpZaWnZ6rnp+cqqGV292em6OdmJjVxcrXoL25vY/f0N6mopXdhQ==&t=15	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-02-29 05:58:49	https://www.virustotal.com/en/search/?query=c4c855a286350266f058bbb4180dde675584ee80	192.168.128.10	82.103.142.34	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-34-02

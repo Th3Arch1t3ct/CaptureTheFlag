@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-50-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1332041669.708065	Cj7iEW1iHk8fDNhDl	192.168.59.10	1029	4.2.2.3	53	udp	62609	thetaxmon.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	161.58.148.79	43180.000000	F
+1332041669.820969	Cj7iEW1iHk8fDNhDl	192.168.59.10	1029	4.2.2.3	53	udp	40849	labs.verio.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	161.58.46.76	14400.000000	F
+1332041669.909174	Cj7iEW1iHk8fDNhDl	192.168.59.10	1029	4.2.2.3	53	udp	2450	adserver01.verio.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	204.202.20.41	14400.000000	F
+1332041670.206669	Cj7iEW1iHk8fDNhDl	192.168.59.10	1029	4.2.2.3	53	udp	23956	intezasanpaolo.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.17.122.245	24792.000000	F
+1332041670.252086	Cj7iEW1iHk8fDNhDl	192.168.59.10	1029	4.2.2.3	53	udp	41109	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.47.138,74.125.47.139,74.125.47.100,74.125.47.101,74.125.47.102,74.125.47.113	6978.000000,55.000000,55.000000,55.000000,55.000000,55.000000,55.000000	F
+1332041670.459046	Cj7iEW1iHk8fDNhDl	192.168.59.10	1029	4.2.2.3	53	udp	59798	shoeshe3.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	146.185.218.21	43200.000000	F
+1332041706.525132	Cz75e1UuZY7guSphh	192.168.59.10	1029	4.2.2.3	53	udp	29080	amigohello.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.226.212.131	3600.000000	F
+1332041736.587981	C1u7FL1yeWrib4FFe5	192.168.59.10	1029	4.2.2.3	53	udp	33945	hellogringo.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.226.212.131	3600.000000	F
+#close	2014-04-03-10-50-12

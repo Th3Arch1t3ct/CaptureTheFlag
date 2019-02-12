@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-16-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1326935065.668375	CGQuGP2ZdCv9R7iF0c	192.168.6.10	1029	4.2.2.3	53	udp	27793	acornwarehousestorage.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.103.226.1	43177.000000	F
+1326935065.816776	CGQuGP2ZdCv9R7iF0c	192.168.6.10	1029	4.2.2.3	53	udp	60306	alias.jjbworks.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	68.68.20.114	43200.000000	F
+1326935065.880094	CGQuGP2ZdCv9R7iF0c	192.168.6.10	1029	4.2.2.3	53	udp	41363	emails.surreyhill2.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.229.116.172	3600.000000	F
+1326935067.03817	CGQuGP2ZdCv9R7iF0c	192.168.6.10	1029	4.2.2.3	53	udp	23701	saleholiday.residentialexcavations.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.212.238.219	3600.000000	F
+1326935065.98181	CGQuGP2ZdCv9R7iF0c	192.168.6.10	1029	4.2.2.3	53	udp	56980	addonrock.ru	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1326935065.98181	CGQuGP2ZdCv9R7iF0c	192.168.6.10	1029	4.2.2.3	53	udp	56980	addonrock.ru	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1326935086.446131	C7Civ42z4oEgyTBph8	192.168.6.10	1029	4.2.2.3	53	udp	34711	server1.lsmpp.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.82.169.106	43200.000000	F
+1326935087.636873	C7Civ42z4oEgyTBph8	192.168.6.10	1029	4.2.2.3	53	udp	43671	server3.ss2.name	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.82.169.106	43200.000000	F
+1326935097.723161	CZSRRabLFAgu2h082	192.168.6.10	1029	4.2.2.3	53	udp	48279	server33.ss2.name	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.212.248.66	43200.000000	F
+#close	2014-04-03-10-16-36

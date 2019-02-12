@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-02-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1389034568.985358	CLV47WnX4IXwH1pkk	192.168.88.10	1028	4.2.2.3	53	udp	924	photos.gwatkin-williams.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.174.149.224	86400.000000	F
+1389034571.554495	CLV47WnX4IXwH1pkk	192.168.88.10	1028	4.2.2.3	53	udp	15261	www3.x9u3adh0.4pu.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.116.34.246	30.000000	F
+1389034572.018926	CLV47WnX4IXwH1pkk	192.168.88.10	1028	4.2.2.3	53	udp	59800	www1.k9s8u1l3vxf5.4pu.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.116.34.246	30.000000	F
+1389034571.566249	C5Llg921hvuTY4VKEe	192.168.88.10	1039	4.2.2.3	53	udp	49567	ohbeekef.northwebr.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	212.83.187.251	3600.000000	F
+1389034572.998746	CLV47WnX4IXwH1pkk	192.168.88.10	1028	4.2.2.3	53	udp	31385	l.yimg.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fd-geoycs-l.gy1.b.yahoodns.net,ds-fo-anyycs-l.ay1.b.yahoodns.net,216.115.97.236	5769.000000,236.000000,68.000000	F
+1389034584.773289	CLV47WnX4IXwH1pkk	192.168.88.10	1028	4.2.2.3	53	udp	46997	www2.po2oh84hflaj4.jvvg.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.116.34.246	86400.000000	F
+1389034578.880253	CLV47WnX4IXwH1pkk	192.168.88.10	1028	4.2.2.3	53	udp	9371	246.34.116.188.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-11-02-31

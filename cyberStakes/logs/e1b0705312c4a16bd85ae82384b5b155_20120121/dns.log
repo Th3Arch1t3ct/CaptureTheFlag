@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-09-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1327113204.439822	CuGani4UD2PdJ7PF75	192.168.110.10	1029	4.2.2.3	53	udp	23437	furnishings.it	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.188.136.56	576.000000	F
+1327113205.451877	CuGani4UD2PdJ7PF75	192.168.110.10	1029	4.2.2.3	53	udp	20876	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.47.95	406.000000,243.000000	F
+1327113206.736885	CuGani4UD2PdJ7PF75	192.168.110.10	1029	4.2.2.3	53	udp	17804	api.twitter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.59.149.200,199.59.149.232,199.59.148.20,199.59.148.87	15.000000,15.000000,15.000000,15.000000	F
+1327113207.996869	CuGani4UD2PdJ7PF75	192.168.110.10	1029	4.2.2.3	53	udp	28303	rmoanosuyp.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.149.59.65,202.10.83.20	1.000000,1.000000	F
+1327113227.30678	CZJo91rXl1Q3pBjSh	192.168.110.10	1029	4.2.2.3	53	udp	52873	rmoanosuyp.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	186.23.166.22,190.17.254.86	1.000000,1.000000	F
+1327113227.528328	CZJo91rXl1Q3pBjSh	192.168.110.10	1029	4.2.2.3	53	udp	9097	igraqwertytrio.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	108.59.12.38,128.204.199.37,184.172.129.254	3600.000000,3600.000000,3600.000000	F
+#close	2014-04-03-11-09-08

@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-38-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1337114089.941842	Cgmx4p1ssaVIERVnU6	192.168.87.10	1029	4.2.2.3	53	udp	63384	viajanteurbano.com.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.236.241.147	14374.000000	F
+1337114089.983293	Cgmx4p1ssaVIERVnU6	192.168.87.10	1029	4.2.2.3	53	udp	27544	www.viajanteurbano.com.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.236.241.147	14374.000000	F
+1337114093.33261	Cgmx4p1ssaVIERVnU6	192.168.87.10	1029	4.2.2.3	53	udp	1434	platform.twitter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ssl2.twitter.com.edgekey.net,e5237.g.akamaiedge.net,184.25.151.55	8.000000,5128.000000,6.000000	F
+1337114093.698793	Cgmx4p1ssaVIERVnU6	192.168.87.10	1029	4.2.2.3	53	udp	9627	j.maxmind.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.86.64.162	14356.000000	F
+1337114093.702265	Cgmx4p1ssaVIERVnU6	192.168.87.10	1029	4.2.2.3	53	udp	17564	static.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.g.akamai.net,63.151.119.72,63.151.119.65	5271.000000,4976.000000,5.000000,5.000000	F
+1337114093.736782	Cgmx4p1ssaVIERVnU6	192.168.87.10	1029	4.2.2.3	53	udp	48030	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.71.113,74.125.71.138,74.125.71.139,74.125.71.100,74.125.71.101,74.125.71.102	26548.000000,228.000000,228.000000,228.000000,228.000000,228.000000,228.000000	F
+1337114094.631434	Cgmx4p1ssaVIERVnU6	192.168.87.10	1029	4.2.2.3	53	udp	31646	sweepstakesandcontestsdo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.28.115.150	43200.000000	F
+1337114099.178262	Cgmx4p1ssaVIERVnU6	192.168.87.10	1029	4.2.2.3	53	udp	17311	www3.personalwzarmy.dnset.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.238.106	31.000000	F
+1337114099.517676	Cgmx4p1ssaVIERVnU6	192.168.87.10	1029	4.2.2.3	53	udp	47760	www1.hardpnscaner.dnset.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.108	31.000000	F
+1337114131.216356	CmxOXq1G3oAGinIt57	192.168.87.10	1029	4.2.2.3	53	udp	12176	www1.hardpnscaner.dnset.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.108	31.000000	F
+1337114132.427736	CmxOXq1G3oAGinIt57	192.168.87.10	1029	4.2.2.3	53	udp	17553	www1.bestvcsoft.it.cx	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.142.166	3600.000000	F
+#close	2014-04-03-10-38-11

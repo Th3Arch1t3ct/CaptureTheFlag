@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-53-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1356380699.867111	CzP5YxPoPi0maW1Ac	192.168.66.10	1029	4.2.2.3	53	udp	57995	selectedporn.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	212.95.58.89	7.000000	F
+1356380700.105677	CzP5YxPoPi0maW1Ac	192.168.66.10	1029	4.2.2.3	53	udp	30601	tnll.h22bragansilon.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.165.24.210	30.000000	F
+1356380708.918261	CzP5YxPoPi0maW1Ac	192.168.66.10	1029	4.2.2.3	53	udp	49289	ighklplong.redcolorpen.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.135.177.100	86400.000000	F
+1356380729.211586	CEWtCtLzhEGYY8CPc	192.168.66.10	1054	4.2.2.3	53	udp	4411	11uydd7.cdn66.filesetcbesthosting.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.131.140.158	3600.000000	F
+#close	2014-04-03-10-53-12

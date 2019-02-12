@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-44-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1320258075.592902	C1P2ae47iikcDXoaE5	192.168.61.10	1029	4.2.2.3	53	udp	56463	www.williamstontheatre.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.119.74.68	3582.000000	F
+1320258078.642707	CnlVJSskgotTHNlYc	192.168.61.10	1036	4.2.2.3	53	udp	36749	www.paypal.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.211.169.74,173.0.84.2,173.0.84.34,173.0.88.2,173.0.88.34,66.211.169.2,66.211.169.14,66.211.169.65	213.000000,213.000000,213.000000,213.000000,213.000000,213.000000,213.000000,213.000000	F
+1320258078.685942	CnlVJSskgotTHNlYc	192.168.61.10	1036	4.2.2.3	53	udp	50571	www.goodsearch.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	goodsearch.com,174.143.36.250	19674.000000,36780.000000	F
+1320258078.639834	C1P2ae47iikcDXoaE5	192.168.61.10	1029	4.2.2.3	53	udp	12686	www.williamstontheatre.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.119.74.68	3600.000000	F
+1320258078.695494	CnlVJSskgotTHNlYc	192.168.61.10	1036	4.2.2.3	53	udp	649	cdn.info.ms	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.201.29	3600.000000	F
+1320258079.278851	C1P2ae47iikcDXoaE5	192.168.61.10	1029	4.2.2.3	53	udp	48008	t05.fr.mn	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.228.132.52	2643.000000	F
+1320258106.879703	Cvhp6x2kWeVVSWbKsa	192.168.61.10	1029	4.2.2.3	53	udp	1159	hazelprint.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.228.111.4	600.000000	F
+1320258107.665962	Cvhp6x2kWeVVSWbKsa	192.168.61.10	1029	4.2.2.3	53	udp	28293	mix-668882.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	141.136.16.34	600.000000	F
+1320258129.206598	CGpWPE4szbne1zdnF7	192.168.61.10	1029	4.2.2.3	53	udp	5252	start-258527.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.105.154.34	11.000000	F
+#close	2014-04-03-10-44-06

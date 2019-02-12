@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-11-08-38
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1339042403.562787	CiDlqO2fJfxW4I4j13	192.168.109.10	1047	173.194.37.44	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1337692168.000000	1369228768.000000	-	-	-	2cc9dfa2ffbc8e465ce4add5d02eb085	ok
+1339042403.563182	ClqOkc24mLyL5ceHH1	192.168.109.10	1046	173.194.37.44	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1337692168.000000	1369228768.000000	-	-	-	2cc9dfa2ffbc8e465ce4add5d02eb085	ok
+1339042403.65803	CFkGYb3gTqr4KgwKXg	192.168.109.10	1054	173.194.37.44	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	5540573a66e7697c746ea0c4370c2b9fefb53dfaf2046f2993a2a672ad92eb4b	-	-	-	-	-	-	-	-	-
+1339042403.661977	C4UZCs1pBWxubUmJ4l	192.168.109.10	1055	173.194.37.44	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	5540573a66e7697c746ea0c4370c2b9fefb53dfaf2046f2993a2a672ad92eb4b	-	-	-	-	-	-	-	-	-
+1339042403.6957	CbbVrk20uGmkMMttN1	192.168.109.10	1056	173.194.37.44	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	5540573a66e7697c746ea0c4370c2b9fefb53dfaf2046f2993a2a672ad92eb4b	-	-	-	-	-	-	-	-	-
+1339042403.696028	CUsgcU2IQZgp06U6M2	192.168.109.10	1057	173.194.37.44	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	5540573a66e7697c746ea0c4370c2b9fefb53dfaf2046f2993a2a672ad92eb4b	-	-	-	-	-	-	-	-	-
+1339042403.714623	CWGZ573D0dc6cy7RDg	192.168.109.10	1058	173.194.37.44	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	5540573a66e7697c746ea0c4370c2b9fefb53dfaf2046f2993a2a672ad92eb4b	-	-	-	-	-	-	-	-	-
+1339042403.715903	CPgUQn1qW0MWcsUSHk	192.168.109.10	1059	173.194.37.44	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	5540573a66e7697c746ea0c4370c2b9fefb53dfaf2046f2993a2a672ad92eb4b	-	-	-	-	-	-	-	-	-
+1339042403.747137	Cm8bbg2hstpNUnY7r1	192.168.109.10	1060	173.194.37.44	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	5540573a66e7697c746ea0c4370c2b9fefb53dfaf2046f2993a2a672ad92eb4b	-	-	-	-	-	-	-	-	-
+1339042403.748493	CHYIXP24PVLRXJjVx5	192.168.109.10	1061	173.194.37.44	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	5540573a66e7697c746ea0c4370c2b9fefb53dfaf2046f2993a2a672ad92eb4b	-	-	-	-	-	-	-	-	-
+1339042404.038708	CGZgvvTI8XSTdHEE9	192.168.109.10	1064	173.194.37.52	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=www.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Thawte SGC CA,O=Thawte Consulting (Pty) Ltd.,C=ZA	1319605200.000000	1380603599.000000	-	-	-	7d7c837f0a8d7508388b555552380c25	ok
+1339042404.038967	CxSbcN801tBkcM3xc	192.168.109.10	1063	173.194.37.52	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=www.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Thawte SGC CA,O=Thawte Consulting (Pty) Ltd.,C=ZA	1319605200.000000	1380603599.000000	-	-	-	7d7c837f0a8d7508388b555552380c25	ok
+1339042404.06042	CwZ1uRTTZgW4B0SQc	192.168.109.10	1067	173.194.37.45	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.g.doubleclick.net,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1337692150.000000	1369228750.000000	-	-	-	fcb0e4d08df840e6157a767b55aa4ec0	ok
+1339042404.104457	CniggAcRXo8MvfDY9	192.168.109.10	1068	173.194.37.52	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	e7944061c6ec5fd880c51dc01c499289f73fd9cbbeeba1df718fbd9ad89d2132	-	-	-	-	-	-	-	-	-
+1339042404.106285	CmwzWE4gCobRgZdNWc	192.168.109.10	1069	173.194.37.45	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.g.doubleclick.net,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1337692150.000000	1369228750.000000	-	-	-	fcb0e4d08df840e6157a767b55aa4ec0	ok
+#close	2014-04-03-11-08-38

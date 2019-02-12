@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-00-40
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1384461859.601099	CXmA3k2yeu5VaHxNCa	192.168.1.10	1035	4.2.2.3	53	udp	8845	www.assisments.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.43.161.215	3600.000000	F
+1384461860.142042	CXmA3k2yeu5VaHxNCa	192.168.1.10	1035	4.2.2.3	53	udp	27279	b.zeroredirect1.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	54.204.33.63	600.000000	F
+1384461860.518017	CXmA3k2yeu5VaHxNCa	192.168.1.10	1035	4.2.2.3	53	udp	9608	b.zeroredirect2.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	54.204.33.63	600.000000	F
+1384461860.754051	CXmA3k2yeu5VaHxNCa	192.168.1.10	1035	4.2.2.3	53	udp	37000	track.vocliq.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	dqzhm.trackvoluum.com,23.23.166.128	10181.000000,60.000000	F
+1384461860.936812	CXmA3k2yeu5VaHxNCa	192.168.1.10	1035	4.2.2.3	53	udp	39561	worldtrack.co	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	54.200.47.49	600.000000	F
+1384461861.11473	CXmA3k2yeu5VaHxNCa	192.168.1.10	1035	4.2.2.3	53	udp	9099	urgentpcdownloads.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	54.200.40.74	600.000000	F
+1384461861.220624	CXmA3k2yeu5VaHxNCa	192.168.1.10	1035	4.2.2.3	53	udp	57739	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.28.95	876.000000,75.000000	F
+1384461861.228954	CxfAIu3zJj2eFnuD8g	192.168.1.10	1045	4.2.2.3	53	udp	23428	wtta4363587.s3.amazonaws.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	s3-1-w.amazonaws.com,176.32.100.64	1781.000000,53.000000	F
+1384461862.079141	CXmA3k2yeu5VaHxNCa	192.168.1.10	1035	4.2.2.3	53	udp	39045	js-agent.newrelic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	newrelic-003.inscname.net,ins-011.inscname.net,192.33.31.101	67663.000000,7.000000,2022.000000	F
+1384461862.124367	CXmA3k2yeu5VaHxNCa	192.168.1.10	1035	4.2.2.3	53	udp	63623	beacon-2.newrelic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.31.164.172	19276.000000	F
+1384461866.085942	CXmA3k2yeu5VaHxNCa	192.168.1.10	1035	4.2.2.3	53	udp	47751	secure.oi-installer7.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	23.21.98.30	30.000000	F
+#close	2014-04-03-10-00-40

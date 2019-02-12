@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-22-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1340622404.188399	CtqXk54oXdyHKkwXic	192.168.15.10	1039	178.162.167.136	80	FbUV8OKXAcGkOWo87	application/x-dosexec	http://178.162.167.136/1.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 38%  Last seen: 2012-07-03 12:45:40	https://www.virustotal.com/en/search/?query=75f61baebe2a552bdf042c0613054aa992dd87c7	192.168.15.10	178.162.167.136	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1340622426.938724	CpjT4Q3qkY5tpayiYa	192.168.15.10	1034	178.162.167.136	80	F4AcA72bWEEKyKQY5l	application/x-dosexec	http://178.162.167.136/2.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 38%  Last seen: 2012-07-03 12:45:40	https://www.virustotal.com/en/search/?query=75f61baebe2a552bdf042c0613054aa992dd87c7	192.168.15.10	178.162.167.136	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1340622445.371514	CyIQ881ke6asmR89p9	192.168.15.10	1042	85.17.94.178	80	FgomQo46bVvjyik3Cj	application/x-dosexec	http://businesscreditcard.ru/1.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 34%  Last seen: 2012-06-30 00:02:57	https://www.virustotal.com/en/search/?query=2b1645fbdaa6581a0bd57f97a4ecd57091038f24	192.168.15.10	85.17.94.178	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-22-14

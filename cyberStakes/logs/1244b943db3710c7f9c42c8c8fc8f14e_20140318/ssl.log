@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-00-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1395104622.084902	CDnzQd3TY2LXzBl1rf	192.168.70.10	1045	173.194.72.101	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1393363158.000000	1401080400.000000	-	-	-	7af07aca6d5c65086ca4f9cdc767cf5e	ok
+1395104628.962611	CbcdOe3q6fgW9jcMb	192.168.70.10	1114	23.196.224.173	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=s-static.ak.facebook.com,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,ST=California,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1390645446.000000	1422181446.000000	-	-	-	e4ac22f763a41b0087e6f48d59584004	ok
+#close	2014-04-03-10-01-00

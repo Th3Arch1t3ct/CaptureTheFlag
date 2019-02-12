@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-09-54-52
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1384544970.544973	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1384544977.135295	CM2pBH1G2EqeB4Wihl	192.168.72.10	1108	66.70.125.98	80	unescaped_special_URI_char	-	F	bro
+1384544997.608558	CRFNjA3YHDbtLWAm19	192.168.72.10	1239	208.71.121.1	80	unescaped_special_URI_char	-	F	bro
+1384544998.433417	Ccd9M84G2aXzjOQNLf	192.168.72.10	1250	208.71.121.1	80	unescaped_special_URI_char	-	F	bro
+1384544999.791063	CNU1l426k1jQl7dk0h	192.168.72.10	1253	74.217.78.168	80	unescaped_special_URI_char	-	F	bro
+1384545000.859564	CSlLMq1i5fx72hx8n2	192.168.72.10	1264	65.171.135.52	80	unescaped_special_URI_char	-	F	bro
+1384545033.680282	CXoUtA2SuYOwOHRvo3	192.168.72.10	1284	68.67.128.75	80	unescaped_special_URI_char	-	F	bro
+1384545036.675534	CgNovl2eu0jeZ2S2K4	192.168.72.10	1304	50.23.86.233	80	unescaped_special_URI_char	-	F	bro
+1384545036.691511	CYIYMgWjouXZQanQ7	192.168.72.10	1313	107.20.204.0	80	unescaped_special_URI_char	-	F	bro
+1384545036.692107	CIUHKN2PnFIWpIeUyh	192.168.72.10	1303	216.178.47.79	80	unescaped_special_URI_char	-	F	bro
+1384545036.706131	C4B2hg2jEEeB7b0tX3	192.168.72.10	1305	207.198.110.38	80	unescaped_special_URI_char	-	F	bro
+1384545036.707246	CdrohT2IOkgkd0LOG3	192.168.72.10	1308	50.22.188.101	80	unescaped_special_URI_char	-	F	bro
+1384545036.707585	CtZICE1IaoBOXrDuli	192.168.72.10	1302	54.219.42.128	80	unescaped_special_URI_char	-	F	bro
+1384545036.724373	CnduFk2Nz5JB6veKOd	192.168.72.10	1310	74.125.224.141	80	unescaped_special_URI_char	-	F	bro
+1384545036.725239	CpRR8S1bNYfAghn3s4	192.168.72.10	1309	50.16.142.59	8004	unescaped_special_URI_char	-	F	bro
+1384545036.731805	CdrohT2IOkgkd0LOG3	192.168.72.10	1308	50.22.188.101	80	HTTP_version_mismatch	-	F	bro
+1384545036.747145	CdoR8g49189Rnf2Ed8	192.168.72.10	1316	205.168.236.81	80	unescaped_special_URI_char	-	F	bro
+#close	2014-04-03-09-54-55

@@ -1,0 +1,42 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-01-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1337374999.606777	Cjx9OZ24IG3aJLymzb	192.168.124.10	1030	188.190.98.231	80	1	GET	klaunfickeninarsh.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	946	200	OK	-	-	-	(empty)	-	-	-	-	-	FBkW2A4qZcSPOPCtdb	text/html
+1337374999.912146	CAoVPlABYsov4vrt5	192.168.124.10	1031	188.190.98.231	80	1	GET	klaunfickeninarsh.com	/config.php	http://klaunfickeninarsh.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1337375000.340294	CZUuh73WNDkSmuvXca	192.168.124.10	1032	178.162.170.51	80	1	GET	178.162.170.51	/54212959.html	http://klaunfickeninarsh.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	232	200	OK	-	-	-	(empty)	-	-	-	-	-	FwogwT2SUtNMNjf2Kd	text/html
+1337374999.756505	Cjx9OZ24IG3aJLymzb	192.168.124.10	1030	188.190.98.231	80	2	GET	klaunfickeninarsh.com	/logo.jpg	http://klaunfickeninarsh.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13954	200	OK	-	-	-	(empty)	-	-	-	-	-	FlDKlC3xK9NWwlrKr5	image/jpeg
+1337375002.357437	CpoMhE1RZilKEbcn1	192.168.124.10	1037	178.162.170.51	80	1	GET	178.162.170.51	/24842.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	102795	200	OK	-	-	-	(empty)	-	-	-	-	-	Fmor8Q1SIRAOBXztOj	application/zip
+1337375003.263691	CpoMhE1RZilKEbcn1	192.168.124.10	1037	178.162.170.51	80	2	GET	178.162.170.51	/24842.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	102795	200	OK	-	-	-	(empty)	-	-	-	-	-	FR9QDZCHhAfZaz1ia	application/zip
+1337375003.759268	CpoMhE1RZilKEbcn1	192.168.124.10	1037	178.162.170.51	80	3	GET	178.162.170.51	/24842.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	102795	200	OK	-	-	-	(empty)	-	-	-	-	-	FUOzBC1BzjzQHor0w8	application/zip
+1337375004.174503	CpoMhE1RZilKEbcn1	192.168.124.10	1037	178.162.170.51	80	4	GET	178.162.170.51	/1.html	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	52224	200	OK	-	-	-	(empty)	-	-	-	-	-	FB1juhaG6VmzdFwQd	application/x-dosexec
+1337375014.925212	CSw71K2zBdO758q8Uf	192.168.124.10	1038	178.162.157.242	80	1	GET	178.162.157.242	/492246.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	62976	200	OK	-	-	-	(empty)	-	-	-	-	-	F9jbO0397myro1xkre	binary
+1337375015.775135	CSw71K2zBdO758q8Uf	192.168.124.10	1038	178.162.157.242	80	2	GET	178.162.157.242	/492246.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	161280	200	OK	-	-	-	(empty)	-	-	-	-	-	FIa1l33IDYdnKNaX3a	binary
+1337375016.288995	CSw71K2zBdO758q8Uf	192.168.124.10	1038	178.162.157.242	80	3	GET	178.162.157.242	/492246.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	434176	200	OK	-	-	-	(empty)	-	-	-	-	-	FOGSIOMxmsrs16gz	binary
+1337375017.179321	CSw71K2zBdO758q8Uf	192.168.124.10	1038	178.162.157.242	80	4	GET	178.162.157.242	/492246.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	109568	200	OK	-	-	-	(empty)	-	-	-	-	-	FE9jWhmZ1iQkZUMl	binary
+1337375017.519476	CSw71K2zBdO758q8Uf	192.168.124.10	1038	178.162.157.242	80	5	GET	178.162.157.242	/492246.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	28640	200	OK	-	-	-	(empty)	-	-	-	-	-	F3aadn4q7jKKwD08Q9	binary
+1337375017.711437	CSw71K2zBdO758q8Uf	192.168.124.10	1038	178.162.157.242	80	6	GET	178.162.157.242	/492246.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	388674	200	OK	-	-	-	(empty)	-	-	-	-	-	FNkjCM1rqa901PLi2i	binary
+1337375018.571246	CSw71K2zBdO758q8Uf	192.168.124.10	1038	178.162.157.242	80	7	GET	178.162.157.242	/492246.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	156672	200	OK	-	-	-	(empty)	-	-	-	-	-	FdkBur1EoHBEVXY8Ie	binary
+1337375019.000066	CSw71K2zBdO758q8Uf	192.168.124.10	1038	178.162.157.242	80	8	GET	178.162.157.242	/492246.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	666	200	OK	-	-	-	(empty)	-	-	-	-	-	FdS4Sd3Ty8COB8C2qi	binary
+1337375028.250496	CUHHjR1RqNOZwjTTi6	192.168.124.10	1040	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	28	200	OK	-	-	-	(empty)	-	-	-	-	-	Fv56M83gQWyEB2cXnf	text/plain
+1337375028.447907	C8PrGY1NFP0SrXxIz5	192.168.124.10	1041	78.140.131.157	80	1	GET	11t3bgw.cdn35.downloadsconsulting.com	/file/id=AgAgAAEALtMAAAEFCBcAAAAAAAAAAAAAAAAAAAAjDAUSCwAAAGdDO2jhESehrLhvgiZvmW8AAFVVVVVVVVVVVVVVVVVVVVVaNc0BgkZK91_QAABVd3Vtc219Y29lczMyaGc4Zzg4AkaTNQrd_hNvNFYA&rt=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1337375028.739777	CltQTT3jR1rUG0PxQ	192.168.124.10	1042	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	298	200	OK	-	-	-	(empty)	-	-	-	-	-	Fr6K6h4NNCA45nRkeg	image/gif
+1337375028.938288	CZxv9GLhwNOt9AdO2	192.168.124.10	1044	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=2&d=7&s=121	-	Opera/9 (Windows NT 5.1; US; x86)	0	688	200	OK	-	-	-	(empty)	-	-	-	-	-	F2tGDYnj60d0beG36	image/gif
+1337375029.22017	CvRSVdj1Zzu6EukUh	192.168.124.10	1046	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=3&d=7&s=130	-	Opera/9 (Windows NT 5.1; US; x86)	0	700	200	OK	-	-	-	(empty)	-	-	-	-	-	Fpb3ktYWJRWvkGv27	image/gif
+1337375029.297783	CD1tAC4bsQSvi2XiDi	192.168.124.10	1048	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=4&d=7&s=131	-	Opera/9 (Windows NT 5.1; US; x86)	0	2085	200	OK	-	-	-	(empty)	-	-	-	-	-	FDqorp3BO1drVYXrj5	image/gif
+1337375029.328623	CBktgv4nqKE7ldi4x3	192.168.124.10	1050	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=5&d=7&s=1	-	Opera/9 (Windows NT 5.1; US; x86)	0	1485	200	OK	-	-	-	(empty)	-	-	-	-	-	FAzTHrP43FhMHqUMf	image/gif
+1337375029.377739	CBixD6aBLbIAZ1Cc8	192.168.124.10	1052	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=6&d=7&s=20	-	Opera/9 (Windows NT 5.1; US; x86)	0	570	200	OK	-	-	-	(empty)	-	-	-	-	-	Fq2uJ82MzykNRYkCXi	image/gif
+1337375029.7721	CDch57263RxewlHS4f	192.168.124.10	1054	220.164.140.246	80	1	GET	220.164.140.246	/api/urls/?ts=ec128b51&affid=56300	220.164.140.246	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	0	404	NOT FOUND	-	-	-	(empty)	-	-	-	-	-	-	-
+1337375031.923218	CUDULWmFubhk9hgG2	192.168.124.10	1058	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=7&d=7&s=21	-	Opera/9 (Windows NT 5.1; US; x86)	0	1034	200	OK	-	-	-	(empty)	-	-	-	-	-	Fs65R3GirLEDXJ3rg	image/gif
+1337375031.228493	CdhV9p2uw1QciahSge	192.168.124.10	1056	220.164.140.246	80	1	GET	220.164.140.246	/api/stats/install/?ts=ec128b51&affid=56300&ver=3040003&group=sf	220.164.140.246	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1337375032.310436	CgPBsA38kBveJ2oywk	192.168.124.10	1061	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=8&d=7&s=30	-	Opera/9 (Windows NT 5.1; US; x86)	0	2163	200	OK	-	-	-	(empty)	-	-	-	-	-	Ffbrttt4aEmiCX7fc	image/gif
+1337375032.326437	CuqOmg3F3PmYbV0ow9	192.168.124.10	1064	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=9&d=7&s=31	-	Opera/9 (Windows NT 5.1; US; x86)	0	608	200	OK	-	-	-	(empty)	-	-	-	-	-	FHQJui1heXvdbw9PL3	image/gif
+1337375033.124172	CZl2or4XWUGTixf76j	192.168.124.10	1067	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	28	200	OK	-	-	-	(empty)	-	-	-	-	-	FsPodK3Mbs2DkYYNph	text/plain
+1337375033.210403	CAv8Mn17rkJoA3ADZc	192.168.124.10	1068	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=2071543651&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	289	200	OK	-	-	-	(empty)	-	-	-	-	-	FOt5hALWseguqcO4	image/gif
+1337375033.210539	C6kN3r3SOLLaOlBIoj	192.168.124.10	1070	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=2071543651&c=2&d=7&s=110	-	Opera/9 (Windows NT 5.1; US; x86)	0	401	200	OK	-	-	-	(empty)	-	-	-	-	-	FyQQDIFPUUxQgHRua	image/gif
+1337375033.321179	CLh61q2w8shHNHETue	192.168.124.10	1072	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=2071543651&c=3&d=7&s=10	-	Opera/9 (Windows NT 5.1; US; x86)	0	402	200	OK	-	-	-	(empty)	-	-	-	-	-	FznhqC1zDlpDkVy1V3	image/gif
+#close	2014-04-03-10-01-44

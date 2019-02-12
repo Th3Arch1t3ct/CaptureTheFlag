@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-11-57
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1340988996.959427	CtkId44fi8m7Tc5jKh	192.168.124.10	1029	4.2.2.3	53	udp	20367	movefitness.com.au	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	203.170.86.89	14377.000000	F
+1340989002.767391	CtkId44fi8m7Tc5jKh	192.168.124.10	1029	4.2.2.3	53	udp	54925	www.lastsolutions.com.au	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	203.123.59.225	900.000000	F
+1340989004.780632	CtkId44fi8m7Tc5jKh	192.168.124.10	1029	4.2.2.3	53	udp	41611	mazda.georgewkohn.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.149.90.13	3600.000000	F
+1340989006.196053	CtkId44fi8m7Tc5jKh	192.168.124.10	1029	4.2.2.3	53	udp	9608	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,209.170.118.17	6430.000000,96.000000,6449.000000,16.000000	F
+#close	2014-04-03-11-11-57

@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-03-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1340910818.311402	CuG5ht36A0SJkW2wW	192.168.82.10	1036	173.194.37.79	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1339674211.000000	1370652207.000000	-	-	-	3b9ad89c91b07a3caf4969a06a495125	ok
+1340910821.322076	CWl6gf1nl7l41CRTN4	192.168.82.10	1047	96.17.47.139	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=connect.facebook.net,ST=CALIFORNIA,OU=connect.facebook.net,O=Facebook,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1325623715.000000	1357246115.000000	-	-	-	2ae743fc530ecdbe75c5e60048cccccc	ok
+1340910822.713176	CCBCb62N2xnpE6h67	192.168.82.10	1058	96.17.34.110	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=s-static.ak.facebook.com,ST=California,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1340068319.000000	1368334740.000000	-	-	-	9e5e608717b1f05d5ef57491557c1e52	ok
+1340910823.980071	CL5vf547iRJRrvrPX8	192.168.82.10	1059	96.17.45.177	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=s-static.ak.fbcdn.net,ST=CALIFORNIA,OU=s-static.ak.fbcdn.net,O=s-static.ak.fbcdn.net,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1340151336.000000	1368334740.000000	-	-	-	4c5b7e57d0c02f57661229baf9866f5b	ok
+#close	2014-04-03-10-03-31

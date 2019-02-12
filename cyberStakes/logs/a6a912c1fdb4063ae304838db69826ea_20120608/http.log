@@ -1,0 +1,43 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-57-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1339153654.179514	CpuYF8370MXi8IB4li	192.168.99.10	1030	62.109.23.206	80	1	GET	meta-tv.ru	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	434	200	OK	-	-	-	(empty)	-	-	-	-	-	FQDnXt1roXOwo1v9aj	text/plain
+1339153654.854847	CpuYF8370MXi8IB4li	192.168.99.10	1030	62.109.23.206	80	2	GET	meta-tv.ru	/index/default1.php?url=aHR0cDovLzg4LjE5OC4yOC4zOC9hcGkucGhwP2FjdGlvbj1saW5rJmFpZD0xNSZmaWQ9Mzc4NiZoYXNoPWNiODIwNGY4Mjk4NTRiZDZiMWYxNzQ0MmRkYzAzMGM3Y2JmY2E4Y2U=	http://meta-tv.ru/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1339153654.956416	CNRgCN1CDIxJAFdW1	192.168.99.10	1031	77.72.133.184	80	1	GET	xmpoccupy.in	/svs/drkvfzcsd2.php?n=aafojwbrh	http://meta-tv.ru/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5505	200	OK	-	-	-	(empty)	-	-	-	-	-	FRspiOWY2bNJ0Vgd	text/html
+1339153655.517843	Csndfg47ABWXXhD37h	192.168.99.10	1032	77.72.133.184	80	1	GET	xmpoccupy.in	/svs/kufzcpfngsxndq.pdf	http://xmpoccupy.in/svs/drkvfzcsd2.php?n=aafojwbrh	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13047	200	OK	-	-	-	(empty)	-	-	-	-	-	Fy9IgV7W0I15mYwd5	application/pdf
+1339153656.133621	CuFvmA4hJbSHvhCtLe	192.168.99.10	1033	37.157.255.149	80	1	GET	potusaer.tk	/82403786.html	http://meta-tv.ru/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	285	200	OK	-	-	-	(empty)	-	-	-	-	-	F7Vfew46EmyUB2pDO8	text/html
+1339153656.293687	Cjwvrz1z1BZ6O3BF09	192.168.99.10	1034	77.72.133.184	80	1	GET	77.72.133.184	/svs/hvf6.php?i=15	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	129536	200	OK	-	-	-	(empty)	-	-	-	-	-	Fw7bhw2MLTygUwcsif	application/x-dosexec
+1339153663.58806	CjJpJi1bH9jbasIEua	192.168.99.10	1039	77.72.133.184	80	1	GET	xmpoccupy.in	/svs/bmxmkmashtbpy.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	9722	200	OK	-	-	-	(empty)	-	-	-	-	-	FBwmx622fGnHOuOln4	application/zip
+1339153663.592867	CmkVt5nJdiT8ypsY4	192.168.99.10	1041	37.157.255.149	80	1	GET	potusaer.tk	/33982.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	65819	200	OK	-	-	-	(empty)	-	-	-	-	-	FVaJl73WXYZKvfmgu1	application/zip
+1339153663.591341	CcekXp2hLFVbAGoXxl	192.168.99.10	1040	77.72.133.184	80	1	GET	xmpoccupy.in	/svs/iphshvksfvjtdp.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18799	200	OK	-	-	-	(empty)	-	-	-	-	-	Ftuh7q1R8pBaZ0Vd5l	application/zip
+1339153663.994616	CmkVt5nJdiT8ypsY4	192.168.99.10	1041	37.157.255.149	80	2	GET	potusaer.tk	/33982.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	65819	200	OK	-	-	-	(empty)	-	-	-	-	-	Fa9DRKTOxgatRenY	application/zip
+1339153665.728495	CmkVt5nJdiT8ypsY4	192.168.99.10	1041	37.157.255.149	80	3	GET	potusaer.tk	/33982.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	65819	200	OK	-	-	-	(empty)	-	-	-	-	-	FTfYOruWbgtOIM7Kc	application/zip
+1339153665.599741	CtXeVE3htLOEPCkZVj	192.168.99.10	1042	77.72.133.184	80	1	GET	77.72.133.184	/svs/hvf6.php?i=8	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	129536	200	OK	-	-	-	(empty)	-	-	-	-	-	FJiksg2zdj8zQHsb2f	application/x-dosexec
+1339153666.511449	CmkVt5nJdiT8ypsY4	192.168.99.10	1041	37.157.255.149	80	4	GET	potusaer.tk	/1.html	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	37376	200	OK	-	-	-	(empty)	-	-	-	-	-	FL9g8W2rDWsNYPmeSa	application/x-dosexec
+1339153666.136635	CKPo6pDD1MpNgZ6I3	192.168.99.10	1043	77.72.133.184	80	1	GET	77.72.133.184	/svs/hvf6.php?i=6&f=c0af9&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	129536	200	OK	-	-	-	(empty)	-	-	-	-	-	FgGjL62y4Cbklzmhc	application/x-dosexec
+1339153673.097508	CPX8mU2cCBkNkwyV4e	192.168.99.10	1045	37.157.255.40	80	1	GET	37.157.255.40	/902767.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	254976	200	OK	-	-	-	(empty)	-	-	-	-	-	FR4E4J3dVpAStWOkAg	binary
+1339153674.165968	CPX8mU2cCBkNkwyV4e	192.168.99.10	1045	37.157.255.40	80	2	GET	37.157.255.40	/902767.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	186880	200	OK	-	-	-	(empty)	-	-	-	-	-	FF06j01emqAOvrS49	binary
+1339153674.552475	CPX8mU2cCBkNkwyV4e	192.168.99.10	1045	37.157.255.40	80	3	GET	37.157.255.40	/902767.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	409600	200	OK	-	-	-	(empty)	-	-	-	-	-	FLRJge1dK5bkXRr1B6	binary
+1339153675.374978	CPX8mU2cCBkNkwyV4e	192.168.99.10	1045	37.157.255.40	80	4	GET	37.157.255.40	/902767.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	134656	200	OK	-	-	-	(empty)	-	-	-	-	-	Fpjth516Xe5SejIYa5	binary
+1339153675.741255	CPX8mU2cCBkNkwyV4e	192.168.99.10	1045	37.157.255.40	80	5	GET	37.157.255.40	/902767.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	165376	200	OK	-	-	-	(empty)	-	-	-	-	-	FcbUYT3xvDnaZ3xIua	binary
+1339153676.127673	CPX8mU2cCBkNkwyV4e	192.168.99.10	1045	37.157.255.40	80	6	GET	37.157.255.40	/902767.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	390656	200	OK	-	-	-	(empty)	-	-	-	-	-	FfUcp24Y2rKL7reR0h	binary
+1339153676.943672	CPX8mU2cCBkNkwyV4e	192.168.99.10	1045	37.157.255.40	80	7	GET	37.157.255.40	/902767.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	79328	200	OK	-	-	-	(empty)	-	-	-	-	-	FlXwNc3X7TrFmwtNIc	binary
+1339153677.21143	CPX8mU2cCBkNkwyV4e	192.168.99.10	1045	37.157.255.40	80	8	GET	37.157.255.40	/902767.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	666	200	OK	-	-	-	(empty)	-	-	-	-	-	FBFsvNIVzCV9DXi7	binary
+1339153689.292405	C3202z24gHJ9T2hidf	192.168.99.10	1047	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	28	200	OK	-	-	-	(empty)	-	-	-	-	-	F8J8xu3woPYm024MT	text/plain
+1339153690.207321	CSq4Or1OG4baTYvPh4	192.168.99.10	1048	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339153690.298868	CdgGzeAZAiQxNQt13	192.168.99.10	1050	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=2&d=7&s=121	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339153691.252614	CX4fcyCI7cBud0xP6	192.168.99.10	1052	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=3&d=7&s=131	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339153691.280575	C3bGf62k5DeNIdgT08	192.168.99.10	1054	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=4&d=7&s=1	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339153691.443912	CNr7zL1uoma1F5kQC2	192.168.99.10	1056	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=5&d=7&s=20	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339153694.853347	C6yMaUNmYVSyaTDAi	192.168.99.10	1061	78.140.131.157	80	1	GET	megaupload.com	/file/id=AwAtAAEAD_oAAAEFBRcAAAAAAAAAAAAAAAAAAAAjDAYGCwAAAOrIRwvhEVWxrLhwgiZvmW8AAFVVVVVVVVVVVVVVVVVVVVWIRc0B4qodO9ThAABVd3Vtc219Y29lczMyaGc4Zzg4AkaTNQrd_hNvAAAAADRW&rt=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1339153695.598547	C87fSH5R2cGO7Xqm2	192.168.99.10	1062	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=6&d=7&s=21	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339153694.902713	CrmUgr4EiwmM2JXFNh	192.168.99.10	1060	122.115.57.96	80	1	GET	122.115.57.96	/api/urls/?ts=5fae653&affid=56300	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	0	404	NOT FOUND	-	-	-	(empty)	-	-	-	-	-	-	-
+1339153696.578872	C42lwXLgeX5wqqsN	192.168.99.10	1064	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=7&d=7&s=30	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339153696.60677	C3IOPb2nK33FxtbEo6	192.168.99.10	1066	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=8&d=7&s=31	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339153700.08789	CPuTTQ2FktbMm2yRsf	192.168.99.10	1076	122.115.57.96	80	1	GET	122.115.57.96	/api/stats/install/?ts=5fae653&affid=56300&ver=3050001&group=liv	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-09-57-11

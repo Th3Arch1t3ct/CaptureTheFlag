@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-18-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1330237417.640515	C4f7oxTs1RYFLhKCa	192.168.13.10	1029	4.2.2.3	53	udp	54417	teresagiudise.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.201.246.1	3577.000000	F
+1330237418.365316	C4f7oxTs1RYFLhKCa	192.168.13.10	1029	4.2.2.3	53	udp	27282	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.47.95	3328.000000,132.000000	F
+1330237420.220249	C4f7oxTs1RYFLhKCa	192.168.13.10	1029	4.2.2.3	53	udp	31122	www.googletagservices.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	partnerad.l.doubleclick.net,74.125.65.157,74.125.65.154,74.125.65.155,74.125.65.156	76.000000,75.000000,75.000000,75.000000,75.000000	F
+1330237426.441198	C4f7oxTs1RYFLhKCa	192.168.13.10	1029	4.2.2.3	53	udp	10386	partner.googleadservices.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	partnerad.l.doubleclick.net,74.125.65.156,74.125.65.157,74.125.65.154,74.125.65.155	69.000000,69.000000,69.000000,69.000000,69.000000	F
+1330237426.467729	C4f7oxTs1RYFLhKCa	192.168.13.10	1029	4.2.2.3	53	udp	59538	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.65.113,74.125.65.138,74.125.65.139,74.125.65.100,74.125.65.101,74.125.65.102	40001.000000,265.000000,265.000000,265.000000,265.000000,265.000000,265.000000	F
+1330237428.423656	C4f7oxTs1RYFLhKCa	192.168.13.10	1029	4.2.2.3	53	udp	6292	csi.gstatic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	72.14.204.120	5.000000	F
+#close	2014-04-03-10-18-36

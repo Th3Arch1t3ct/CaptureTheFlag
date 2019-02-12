@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-32-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1324062758.004175	C3HEEDCneqV1F2n8h	192.168.119.10	1029	4.2.2.3	53	udp	32145	www.amnesty.org.uk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	80.168.39.46	278.000000	F
+1324062758.890812	C3HEEDCneqV1F2n8h	192.168.119.10	1029	4.2.2.3	53	udp	144	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.157.95	84.000000,271.000000	F
+1324062759.989099	Cs3a6O2MiF25Qfy0Fa	192.168.119.10	1033	4.2.2.3	53	udp	43411	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.45.139,74.125.45.100,74.125.45.101,74.125.45.102,74.125.45.113,74.125.45.138	42224.000000,19.000000,19.000000,19.000000,19.000000,19.000000,19.000000	F
+1324062759.987193	C3HEEDCneqV1F2n8h	192.168.119.10	1029	4.2.2.3	53	udp	16784	3max.com.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.126.254.177	3600.000000	F
+1324062760.962836	Cs3a6O2MiF25Qfy0Fa	192.168.119.10	1033	4.2.2.3	53	udp	20626	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,209.107.220.57,209.107.220.24	6491.000000,176.000000,12500.000000,19.000000,19.000000	F
+1324062768.005226	Cs3a6O2MiF25Qfy0Fa	192.168.119.10	1033	4.2.2.3	53	udp	46228	glogin.ddns.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.40.98.173	31.000000	F
+1324062800.735193	CJqDru29vqslALQPo9	192.168.119.10	1033	4.2.2.3	53	udp	52887	glogin.ddns.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.40.98.173	31.000000	F
+#close	2014-04-03-10-32-22

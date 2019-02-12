@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-00-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1394912131.317459	CrFVJp1UmN8YQF2Mt7	192.168.18.10	1086	157.56.67.168	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.atdmt.com,OU=Atlas,O=Microsoft,L=Redmond,ST=WA,C=US	CN=MSIT Machine Auth CA 2,DC=redmond,DC=corp,DC=microsoft,DC=com	1382654286.000000	1445726286.000000	-	-	-	69b8da14ea5c5effdcb79927394bd6e0	ok
+1394912136.989153	CvoDHqVnsSxifAUb1	192.168.18.10	1093	23.196.193.146	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.voicefive.com,OU=OSE,O=TMRG,L=Reston,ST=VIRGINIA,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1392581973.000000	1424117973.000000	-	-	-	1481f8adbf9f471b5364c5a2bb789e04	ok
+1394912137.147733	CwJYZv4eOt0DYngRSj	192.168.18.10	1094	77.67.127.33	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=a248.e.akamai.net,O=Akamai Technologies\, Inc.,L=Cambridge,ST=MA,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1374052540.000000	1405588540.000000	-	-	-	d1880a3900fe7baf2222276d095226e7	ok
+1394912139.286971	CFIa580IpCax5pSw2	192.168.18.10	1101	23.196.219.11	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.scorecardresearch.com,OU=OSE,O=TMRG,L=Reston,ST=VIRGINIA,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1392072505.000000	1423608505.000000	-	-	-	4a4b545fc357a756b0525c694f9e175d	ok
+1394912139.610622	CwYj9d4V8EYu8KSTcl	192.168.18.10	1102	23.196.219.11	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.scorecardresearch.com,OU=OSE,O=TMRG,L=Reston,ST=VIRGINIA,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1392072505.000000	1423608505.000000	-	-	-	4a4b545fc357a756b0525c694f9e175d	ok
+1394912139.782452	CyNPbe5aj5bD6ODT1	192.168.18.10	1103	4.30.14.114	443	TLSv10	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=*.scorecardresearch.com,OU=COMODO SSL Wildcard,OU=Domain Control Validated	CN=COMODO SSL CA,O=COMODO CA Limited,L=Salford,ST=Greater Manchester,C=GB	1381813200.000000	1418363999.000000	-	-	-	de725103bf2a54aaaaaaaaaaa63a57b6	ok
+1394912141.391441	C6sesO27RiUxc8Pijb	192.168.18.10	1105	23.196.219.11	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	054844f88beb2303bf04b097c82d99436d65a9d8c377344231bcbd2cbf86ab0e	-	-	-	-	-	-	-	-	-
+1394912144.785122	Cb6szI19xmpmd1KO96	192.168.18.10	1109	4.26.66.171	443	TLSv10	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=*.voicefive.com,OU=COMODO SSL Wildcard,OU=Domain Control Validated	CN=COMODO SSL CA,O=COMODO CA Limited,L=Salford,ST=Greater Manchester,C=GB	1391752800.000000	1427864399.000000	-	-	-	96fe52c05d08ef7dccc90558e323476c	ok
+#close	2014-04-03-10-00-13

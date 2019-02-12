@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-16-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1337150832.741303	CpASD83bY9Ccs925T2	192.168.104.10	1035	83.69.226.72	80	FVjhpm36b0e7vWDNtj	application/x-dosexec	http://designbyallison.com/w.php?f=97d19&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 39%  Last seen: 2012-06-07 05:15:28	https://www.virustotal.com/en/search/?query=82952253706d3a2001b19cf3406a37ef90043594	192.168.104.10	83.69.226.72	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1337150833.718801	CZZ7RH1seMyUhx8txi	192.168.104.10	1040	83.69.226.72	80	FclUpA2TWOGfP0Hjrk	application/x-shockwave-flash	http://designbyallison.com/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 60%  Last seen: 2012-05-01 04:03:58	https://www.virustotal.com/en/search/?query=d6aa7a1009c86a0fa55f74ecdd04dee1d6000730	192.168.104.10	83.69.226.72	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-16-32

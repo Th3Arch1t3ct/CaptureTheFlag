@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-51-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1367953701.074373	CCbbsW1hJoMVcVDRd7	192.168.17.10	1038	128.204.198.7	8888	FnP6Y63GcGDACVHYa7	application/x-dosexec	http://joselouize.com:8888/tcp/mOVAi80d9NN0I5Ba0z7Ro03vto0QUHd00Pbh0vPoy0nICg0cRG80HceF0X4vO0uTt40fmUO17f110ATAf0TrQJ0pI4Y060nZ0Ar5K175mp0ZK0m09FV10ukuS0sm5O0h8Tj0IUtp0puv70lAze0RGIS0qVOp13Yq208FRi0iUiR16qNI18mu60jjG00ewdV0tZJd0zKNg0cAzU01RpB/MDtkKGdIoo.exe?0tSulCDNH=p63tvbG&h=11	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 38%  Last seen: 2013-05-28 12:20:54	https://www.virustotal.com/en/search/?query=9dacbd5584ea59b955dd1cc728f929716db7402f	192.168.17.10	128.204.198.7	8888	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-51-58

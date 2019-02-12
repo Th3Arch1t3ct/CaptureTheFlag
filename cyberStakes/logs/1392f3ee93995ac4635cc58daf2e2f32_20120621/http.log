@@ -1,0 +1,43 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-46-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1340318091.145155	CMBbCC1VTHJ7fwrhee	192.168.86.10	1030	174.121.34.162	80	1	GET	johnnygetsmoney.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	666	200	OK	-	-	-	(empty)	-	-	-	-	-	FW4sM12oBKwa8GOhM7	text/html
+1340318091.969116	C1G93C1fUtAwyaxALb	192.168.86.10	1031	92.38.226.13	80	1	GET	armacentr.ru	/photo.php	http://johnnygetsmoney.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1340318092.38655	CvGNu82y4NzZJhjTxl	192.168.86.10	1032	37.157.255.200	80	1	GET	37.157.255.200	/87454020.html	http://johnnygetsmoney.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	12218	200	OK	-	-	-	(empty)	-	-	-	-	-	FTNZpB4w8etbZzU11j	text/html
+1340318092.992405	CvGNu82y4NzZJhjTxl	192.168.86.10	1032	37.157.255.200	80	2	GET	37.157.255.200	/98765.pdf	http://37.157.255.200/87454020.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	41346	200	OK	-	-	-	(empty)	-	-	-	-	-	FbYPFV1yRqBLE4OsSj	application/pdf
+1340318097.000914	CELDVNIERt0cudD78	192.168.86.10	1037	37.157.255.200	80	1	GET	37.157.255.200	/55993.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	76321	200	OK	-	-	-	(empty)	-	-	-	-	-	FUHwOe1Wxg6WHDHN4i	application/zip
+1340318097.786196	CELDVNIERt0cudD78	192.168.86.10	1037	37.157.255.200	80	2	GET	37.157.255.200	/55993.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	76321	200	OK	-	-	-	(empty)	-	-	-	-	-	F4Y2881t40xtCL5K2h	application/zip
+1340318099.331886	CELDVNIERt0cudD78	192.168.86.10	1037	37.157.255.200	80	3	GET	37.157.255.200	/55993.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	76321	200	OK	-	-	-	(empty)	-	-	-	-	-	FZDCet2uHlSRMQWAHc	application/zip
+1340318099.888036	CELDVNIERt0cudD78	192.168.86.10	1037	37.157.255.200	80	4	GET	37.157.255.200	/1.html	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	34304	200	OK	-	-	-	(empty)	-	-	-	-	-	FAVNyY2lNNeQFxEoo7	application/x-dosexec
+1340318104.479495	CvGNu82y4NzZJhjTxl	192.168.86.10	1032	37.157.255.200	80	3	GET	37.157.255.200	/2.html	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	34304	200	OK	-	-	-	(empty)	-	-	-	-	-	FEEQ8j3rNNp7l7pNu8	application/x-dosexec
+1340318106.960541	ChRclZ24SpFLUssSN9	192.168.86.10	1038	31.184.244.55	80	1	GET	31.184.244.55	/download.php?id=565&key=796445af71ac6868	http://johnnygetsmoney.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	71	200	OK	-	-	-	(empty)	-	-	-	-	-	FmDlSp2d1dzM3Hv17c	text/plain
+1340318112.406535	CHD51D2rnvhYyCJK9	192.168.86.10	1039	37.157.255.200	80	1	GET	37.157.255.200	/552921.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	188416	200	OK	-	-	-	(empty)	-	-	-	-	-	FBR3oH6AljNFtS005	binary
+1340318113.253101	CHD51D2rnvhYyCJK9	192.168.86.10	1039	37.157.255.200	80	2	GET	37.157.255.200	/552921.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	192000	200	OK	-	-	-	(empty)	-	-	-	-	-	FaGEXeyRW1PcCoHi8	binary
+1340318113.646777	CHD51D2rnvhYyCJK9	192.168.86.10	1039	37.157.255.200	80	3	GET	37.157.255.200	/552921.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	397312	200	OK	-	-	-	(empty)	-	-	-	-	-	FjxSqq4BkBmV3EdUGl	binary
+1340318114.86463	CHD51D2rnvhYyCJK9	192.168.86.10	1039	37.157.255.200	80	4	GET	37.157.255.200	/552921.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	126464	200	OK	-	-	-	(empty)	-	-	-	-	-	Fcr5Hlqf2HH8lmzNd	binary
+1340318115.416264	CHD51D2rnvhYyCJK9	192.168.86.10	1039	37.157.255.200	80	5	GET	37.157.255.200	/552921.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	169984	200	OK	-	-	-	(empty)	-	-	-	-	-	FQ8SZ2kqfs8PA8W96	binary
+1340318115.943764	CHD51D2rnvhYyCJK9	192.168.86.10	1039	37.157.255.200	80	6	GET	37.157.255.200	/552921.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	365568	200	OK	-	-	-	(empty)	-	-	-	-	-	F3LaDo37HJ8W8Z0pDa	binary
+1340318116.659824	CHD51D2rnvhYyCJK9	192.168.86.10	1039	37.157.255.200	80	7	GET	37.157.255.200	/552921.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	79328	200	OK	-	-	-	(empty)	-	-	-	-	-	F4n5Xy3CjUqbYBRIY9	binary
+1340318116.922116	CHD51D2rnvhYyCJK9	192.168.86.10	1039	37.157.255.200	80	8	GET	37.157.255.200	/552921.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	666	200	OK	-	-	-	(empty)	-	-	-	-	-	FJOzJiJv7oAc2f4ud	binary
+1340318117.500971	CYMv8P3cQFBQqyoIW3	192.168.86.10	1041	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	28	200	OK	-	-	-	(empty)	-	-	-	-	-	FIAgTl4JwABlbKEyQd	text/plain
+1340318117.579472	CXeFyO3mdOfQUaN77	192.168.86.10	1042	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=565&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340318117.590296	CSOarC2Xph7rV5XZ48	192.168.86.10	1044	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=565&c=2&d=7&s=121	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340318117.602018	CwmrXSjWB359fsRlj	192.168.86.10	1048	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=565&c=4&d=7&s=1	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340318117.603865	CJMM7wmO4P09KsECh	192.168.86.10	1050	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=565&c=5&d=7&s=20	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340318117.602134	Cx4Qe228BZOCbMd3kg	192.168.86.10	1046	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=565&c=3&d=7&s=131	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340318117.753729	Cgem5e1hNTzFFrzqxc	192.168.86.10	1053	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=565&c=6&d=7&s=21	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340318117.773343	CnisKe4tI2GaqZdBF4	192.168.86.10	1056	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=565&c=7&d=7&s=30	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340318117.781789	Ceg14n3iDkmH5l3U19	192.168.86.10	1058	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=565&c=8&d=7&s=31	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340318127.92648	Ceedej1NydEqBaZakh	192.168.86.10	1062	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	28	200	OK	-	-	-	(empty)	-	-	-	-	-	F6sjJ34zB1JT3v4DDj	text/plain
+1340318128.188365	C9R47sn84L0m5REp9	192.168.86.10	1063	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=31198720&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340318128.283014	CHjtJa4BpTHSRytJD2	192.168.86.10	1067	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=31198720&c=3&d=7&s=10	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340318128.282071	C6dBcs3YLQPS6us6n4	192.168.86.10	1065	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=31198720&c=2&d=7&s=110	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340318130.588954	CQIXxG1l8WxbBlk57c	192.168.86.10	1070	116.255.235.9	80	1	GET	116.255.235.9	/api/urls/?ts=428991f6&affid=56300	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	62	200	OK	-	-	-	(empty)	-	-	-	-	-	FEajv910gJaz3FgXda	text/plain
+1340318131.997523	C55BrSVkoWrndkb6i	192.168.86.10	1071	195.210.47.239	80	1	GET	kifggapoes.ipq.co	/f/notepad.exe?ts=428991f6&affid=5630	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	211456	200	OK	-	-	-	(empty)	-	-	-	-	-	F2ph2364nWmhKfuW7	application/x-dosexec
+1340318145.981207	Ce67R33gVvzMPV5i9a	192.168.86.10	1078	78.140.131.157	80	1	GET	megaupload.com	/file/id=BAAyAAEAszIBAAEFBhcAAAAAAAAAAAAAAAAAAAAjDAYUCwAAAImP1svhEem7rLhwgiZvmW8AAFVVVVVVVVVVVVVVVVVVVVUfUM0BhDa-ZpTpAABVd3Vtc219Y29lczMyaGc4Zzg4AkaTNQrd_hNvAAAAAAA0VgAA&rt=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)	0	523	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F8tRAv4RQsxNePR171	text/html
+#close	2014-04-03-10-46-29

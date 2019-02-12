@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-07-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1318965010.074706	CLlMgt109RKp9Mz06h	192.168.36.10	1028	4.2.2.3	53	udp	17029	promptdesigners.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	97.74.144.111	3579.000000	F
+1318965011.954169	CLlMgt109RKp9Mz06h	192.168.36.10	1028	4.2.2.3	53	udp	14213	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.65.95	117.000000,72.000000	F
+1318965012.020675	CLlMgt109RKp9Mz06h	192.168.36.10	1028	4.2.2.3	53	udp	25990	download.skype.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	download.skype-dld.akadns.net,213.146.168.243	271.000000,55.000000	F
+1318965012.480006	CLlMgt109RKp9Mz06h	192.168.36.10	1028	4.2.2.3	53	udp	62598	mystatus.skype.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	204.9.163.163	300.000000	F
+1318965013.476462	CsVdhW1dsILxwV2GRl	192.168.36.10	1042	4.2.2.3	53	udp	23424	www.yourinspirationweb.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	87.76.29.53	300.000000	F
+1318965013.41862	CLlMgt109RKp9Mz06h	192.168.36.10	1028	4.2.2.3	53	udp	17799	fiberastat.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.31.74.239	3600.000000	F
+1318965013.63068	CsVdhW1dsILxwV2GRl	192.168.36.10	1042	4.2.2.3	53	udp	28801	api.skype.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	clientapi.skype.akadns.net,204.9.163.156	269.000000,269.000000	F
+1318965013.9564	CsVdhW1dsILxwV2GRl	192.168.36.10	1042	4.2.2.3	53	udp	62081	m-e.crossfitharlem.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.211.160.73	3600.000000	F
+1318965014.060522	CsVdhW1dsILxwV2GRl	192.168.36.10	1042	4.2.2.3	53	udp	56706	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,209.18.41.40,209.18.41.73	2026.000000,3.000000,7871.000000,18.000000,18.000000	F
+#close	2014-04-03-11-07-46

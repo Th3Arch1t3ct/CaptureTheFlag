@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-34-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1323929107.919457	CbPqP13OLSDcBAknsa	192.168.58.10	1029	4.2.2.3	53	udp	8845	java1.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.237.138.44	10781.000000	F
+1323929108.302646	CbPqP13OLSDcBAknsa	192.168.58.10	1029	4.2.2.3	53	udp	39311	www.java1.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.237.138.44	10780.000000	F
+1323929115.978927	CbPqP13OLSDcBAknsa	192.168.58.10	1029	4.2.2.3	53	udp	14991	pagead2.googlesyndication.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pagead.l.doubleclick.net,74.125.157.156,74.125.157.154,74.125.157.155	288.000000,198.000000,198.000000,198.000000	F
+1323929116.22619	CbPqP13OLSDcBAknsa	192.168.58.10	1029	4.2.2.3	53	udp	44937	googleads.g.doubleclick.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pagead.l.doubleclick.net,74.125.157.155,74.125.157.156,74.125.157.154	3254.000000,197.000000,197.000000,197.000000	F
+1323929116.233102	CFIRVC8vk1D3m6TSl	192.168.58.10	1059	4.2.2.3	53	udp	20361	dl.javafx.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	137.254.16.78	58.000000	F
+1323929138.909445	CvrhY12BTQehYn2cjf	192.168.58.10	1029	4.2.2.3	53	udp	53387	google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.125.159.147,74.125.159.99,74.125.159.103,74.125.159.104,74.125.159.105,74.125.159.106	71.000000,71.000000,71.000000,71.000000,71.000000,71.000000	F
+1323929140.119021	CvrhY12BTQehYn2cjf	192.168.58.10	1029	4.2.2.3	53	udp	2443	dlc-cdn.sun.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	dlc.sun.com.edgesuite.net,a665.d.akamai.net,69.31.72.115,69.31.72.82	900.000000,5904.000000,20.000000,20.000000	F
+1323929154.132483	C6Miod48ugLeTroP15	192.168.58.10	1029	4.2.2.3	53	udp	7812	onsite-ocsp.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	onsite-ocsp.verisign.net,69.58.181.87	60.000000,900.000000	F
+1323929154.501821	C6Miod48ugLeTroP15	192.168.58.10	1029	4.2.2.3	53	udp	40069	crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.52.190	719.000000,1.000000	F
+1323929154.686184	C6Miod48ugLeTroP15	192.168.58.10	1029	4.2.2.3	53	udp	42886	onsitecrl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	onsite-crl-ilg.verisign.net,69.58.181.88	60.000000,900.000000	F
+#close	2014-04-03-10-34-30

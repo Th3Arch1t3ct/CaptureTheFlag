@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-36-38
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1356819216.755274	CIMvYN1rZRcFEAwxF5	192.168.126.10	1029	4.2.2.3	53	udp	37776	p.17kuxun.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	p.000dn.com,59.57.13.172,59.57.13.173,59.57.13.174,61.130.144.180,61.164.173.225,222.87.128.25,124.232.160.81,61.130.144.241,116.28.65.204,113.106.17.121,117.25.129.242,122.224.249.102,122.224.249.168,125.77.197.139,125.77.197.83,218.93.202.29,218.93.205.113,220.166.180.108,220.166.180.100,220.166.180.107	590.000000,290.000000,290.000000,290.000000,290.000000,290.000000,0.000000,0.000000,590.000000,590.000000,290.000000,290.000000,290.000000,290.000000,290.000000,290.000000,290.000000,290.000000,290.000000,290.000000,290.000000	F
+1356819218.737764	CIMvYN1rZRcFEAwxF5	192.168.126.10	1029	4.2.2.3	53	udp	21651	kwcdn.ggmm777.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fwcdn.ggmm777.com.cloudcdn.net,c06.i01.fwcdn.net,c06.i01.arnic.fwdns.net,113.31.36.8	600.000000,801.000000,194.000000,89.000000	F
+1356819220.207205	CIMvYN1rZRcFEAwxF5	192.168.126.10	1029	4.2.2.3	53	udp	11667	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.d.akamai.net,23.15.5.199,23.15.5.198	27981.000000,225.000000,11068.000000,19.000000,19.000000	F
+1356819220.691104	CIMvYN1rZRcFEAwxF5	192.168.126.10	1029	4.2.2.3	53	udp	36501	app.lhzs.37wan.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	61.130.144.248	600.000000	F
+#close	2014-04-03-10-36-39

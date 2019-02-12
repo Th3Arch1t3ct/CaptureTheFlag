@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-55-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1336253994.502505	CJdIrW2WNd4cnVqJZk	192.168.61.10	1029	4.2.2.3	53	udp	46222	ikusopumizab.1sthost.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.190.85.14	43178.000000	F
+1336253994.607154	CJdIrW2WNd4cnVqJZk	192.168.61.10	1029	4.2.2.3	53	udp	1677	static.dealer.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.dealer.com.edgekey.net,e1200.g.akamaiedge.net,96.17.37.12	22785.000000,300.000000,20.000000	F
+1336253994.645233	CJdIrW2WNd4cnVqJZk	192.168.61.10	1029	4.2.2.3	53	udp	10379	ed4eecaa99.dyndns-web.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.149.236.70	14400.000000	F
+1336253995.106948	CJdIrW2WNd4cnVqJZk	192.168.61.10	1029	4.2.2.3	53	udp	35465	www3.poweras-soft.dnset.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.238.106	31.000000	F
+1336253995.4168	CJdIrW2WNd4cnVqJZk	192.168.61.10	1029	4.2.2.3	53	udp	44936	www1.bestjsoft.dnset.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.109	31.000000	F
+1336254000.553738	CJdIrW2WNd4cnVqJZk	192.168.61.10	1029	4.2.2.3	53	udp	62854	www2.savexkchecker.it.cx	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.142.166	3600.000000	F
+1336254036.855952	C3T4To4PiORpa8GfC4	192.168.61.10	1029	208.115.221.125	53	udp	36997	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	85.114.143.154	7200.000000	F
+1336254036.957707	CRcbfN1kHycfBzgfk1	192.168.61.10	1029	80.90.48.91	53	udp	55683	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	85.114.143.154	7200.000000	F
+#close	2014-04-03-09-55-25

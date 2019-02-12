@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-03-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1327204618.621284	CyfYm7153DIxpTrfa1	192.168.53.10	1029	4.2.2.3	53	udp	56716	albopretorioonline.it	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.149.128.154,62.149.128.157,62.149.128.160,62.149.128.163,62.149.128.166,62.149.128.72,62.149.128.74,62.149.128.151	21575.000000,21575.000000,21575.000000,21575.000000,21575.000000,21575.000000,21575.000000,21575.000000	F
+1327204618.879128	CyfYm7153DIxpTrfa1	192.168.53.10	1029	4.2.2.3	53	udp	50317	www.albopretorioonline.it	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.149.131.175	21576.000000	F
+1327204619.135352	CyfYm7153DIxpTrfa1	192.168.53.10	1029	4.2.2.3	53	udp	59277	www.sheroz.tj	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	web.sheroz.tj,193.111.11.3	43200.000000,43200.000000	F
+1327204620.390039	CyfYm7153DIxpTrfa1	192.168.53.10	1029	4.2.2.3	53	udp	46478	opbvhdjehh.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.199.240.210	3600.000000	F
+1327204635.39282	CyJakv2fZg9rQ2wUOf	192.168.53.10	1029	4.2.2.3	53	udp	43663	igraqwertytrio.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	128.204.199.37	3600.000000	F
+#close	2014-04-03-10-03-51

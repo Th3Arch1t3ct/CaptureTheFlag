@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-01-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1324714417.53556	CkFxosbMT9k98uXd8	192.168.79.10	1029	4.2.2.3	53	udp	32141	cride.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.170.161.14	43179.000000	F
+1324714417.620792	CkFxosbMT9k98uXd8	192.168.79.10	1029	4.2.2.3	53	udp	9868	trioks.ipy.lt	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.135.230.125	14400.000000	F
+1324714418.248224	CkFxosbMT9k98uXd8	192.168.79.10	1029	4.2.2.3	53	udp	7311	juncgasiridi.hopto.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.217.153.188	60.000000	F
+1324714420.794117	CkFxosbMT9k98uXd8	192.168.79.10	1029	4.2.2.3	53	udp	2696	www.000webhost.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	000webhost.com,208.43.173.207	14400.000000,600.000000	F
+1324714420.81535	CkFxosbMT9k98uXd8	192.168.79.10	1029	4.2.2.3	53	udp	62859	analytics.hosting24.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.170.160.65	595.000000	F
+1324714418.391411	CebES54Y7EfqsCdcad	192.168.79.10	1029	4.2.2.5	53	udp	45710	tutsbox.com	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1324714418.272462	CkFxosbMT9k98uXd8	192.168.79.10	1029	4.2.2.3	53	udp	45710	tutsbox.com	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1324714418.272462	CkFxosbMT9k98uXd8	192.168.79.10	1029	4.2.2.3	53	udp	45710	tutsbox.com	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1324714418.272462	CkFxosbMT9k98uXd8	192.168.79.10	1029	4.2.2.3	53	udp	45710	tutsbox.com	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+#close	2014-04-03-10-01-30

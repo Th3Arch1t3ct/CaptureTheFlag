@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-50-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1328638502.488821	Ci65Mk3fhfB212Mtm7	192.168.95.10	1029	4.2.2.3	53	udp	34450	8teengayboy.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	146.185.18.50	17.000000	F
+1328638502.805945	Ci65Mk3fhfB212Mtm7	192.168.95.10	1029	4.2.2.3	53	udp	60819	abcfunny.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.159.105.120	18.000000	F
+1328638515.594369	C8gZ9V2mQVc67vDZe5	192.168.95.10	1029	4.2.2.3	53	udp	58512	tilenigotec.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.17.24.90	600.000000	F
+1328638516.280587	C8gZ9V2mQVc67vDZe5	192.168.95.10	1029	4.2.2.3	53	udp	42390	wirelescefard.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.44.184.49	600.000000	F
+#close	2014-04-03-09-50-59

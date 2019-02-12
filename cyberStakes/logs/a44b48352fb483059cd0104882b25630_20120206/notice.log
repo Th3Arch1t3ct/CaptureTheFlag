@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-03-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1328565363.736073	C13uhM1FKcW4tLlHDh	192.168.38.10	1063	78.159.105.120	80	Fovkp0353AtVBwMHya	application/x-dosexec	http://ghjlove.info/?90c132d2c78dcecbf056d5195f22c641	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 55%  Last seen: 2012-12-21 09:19:53	https://www.virustotal.com/en/search/?query=016beaa6eae4664cde038770e3a58ee3121ce610	192.168.38.10	78.159.105.120	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328565363.736073	CiXa3Z1dFbwhVO99vg	192.168.38.10	1067	78.159.105.120	80	FbW4NW2rdgpjeS1ro3	application/x-dosexec	http://ghjlove.info/?56a1187d5ba099c24730323e57002362	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 55%  Last seen: 2012-12-21 09:19:53	https://www.virustotal.com/en/search/?query=016beaa6eae4664cde038770e3a58ee3121ce610	192.168.38.10	78.159.105.120	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-03-44

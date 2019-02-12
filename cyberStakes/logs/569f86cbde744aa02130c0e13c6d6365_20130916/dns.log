@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-15-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1379371943.61158	C6kbaw4r0Hi7q07C16	192.168.117.10	1030	4.2.2.3	53	udp	38291	narutoshippudenepisode.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.185.5.140	600.000000	F
+1379371945.418154	C6kbaw4r0Hi7q07C16	192.168.117.10	1030	4.2.2.3	53	udp	18576	track.cmllk1.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cashmylinks.go2cloud.org,50.18.211.52	3600.000000,60.000000	F
+1379371945.671801	C6kbaw4r0Hi7q07C16	192.168.117.10	1030	4.2.2.3	53	udp	9878	www.cml1234.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.129.229.201	3600.000000	F
+1379371945.861207	C6kbaw4r0Hi7q07C16	192.168.117.10	1030	4.2.2.3	53	udp	51606	dl.installiq.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.77.96.140	300.000000	F
+1379371946.174469	C6kbaw4r0Hi7q07C16	192.168.117.10	1030	4.2.2.3	53	udp	65430	dl8.iq8download.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cs107.wpc.edgecastcdn.net,72.21.81.128	300.000000,3600.000000	F
+#close	2014-04-03-10-15-49

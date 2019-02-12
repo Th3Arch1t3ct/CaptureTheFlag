@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-16-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1363216292.15005	CCSiuf2xGC4zDR1sW5	192.168.99.10	1043	81.177.6.214	80	FKhoc344j664A7J8S6	application/x-dosexec	http://shtoridekor.ru/catalog/view/javascript/jquery/fancybox/jquery.fancybox-1.3.4-iefix.js	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2013-03-15 05:45:12	https://www.virustotal.com/en/search/?query=312e2cd2f49f2d6cf032161981fb22fd31633a6e	192.168.99.10	81.177.6.214	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-16-25

@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-56-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1314383518.146039	C6s4M91Nk6Y2lFiVi9	192.168.1.10	1029	4.2.2.3	53	udp	39571	argofutty.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.108.92.60	91.000000	F
+1314383538.079222	CZ6wyf1BA0hpZmu7Ek	192.168.1.10	1029	4.2.2.3	53	udp	62354	extensadv.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.208.75.226	120.000000	F
+1314383539.25542	CZ6wyf1BA0hpZmu7Ek	192.168.1.10	1029	4.2.2.3	53	udp	45200	www.download.windowsupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.download.windowsupdate.nsatc.net,download.windowsupdate.com.fp.nsatc.net,download.windowsupdate.com.c.footprint.net,209.84.29.126,4.23.58.126,209.84.24.126	697.000000,237.000000,3237.000000,75.000000,75.000000,75.000000	F
+1314383540.780363	CZ6wyf1BA0hpZmu7Ek	192.168.1.10	1029	4.2.2.3	53	udp	36496	topbeat.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.177.170.135	120.000000	F
+1314383542.222373	CZ6wyf1BA0hpZmu7Ek	192.168.1.10	1029	4.2.2.3	53	udp	19862	brainsphere.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	88.198.50.147	120.000000	F
+#close	2014-04-03-10-56-02

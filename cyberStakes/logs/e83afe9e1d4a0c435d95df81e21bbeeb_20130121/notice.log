@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-50-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1358803291.010574	CCVYnh4gP6ZoAo8Gqb	192.168.12.10	1063	194.44.49.43	80	Fug8Aa34mO5XUQFe0h	application/x-dosexec	http://info.vanderfoguel.com.ar/op/fageject.php?	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 34%  Last seen: 2013-04-25 00:55:54	https://www.virustotal.com/en/search/?query=9a6259198414bb782288fa5f8bb2fb8eb464bb2d	192.168.12.10	194.44.49.43	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1358803291.010574	CCVYnh4gP6ZoAo8Gqb	192.168.12.10	1063	194.44.49.43	80	FSrnZK3dNvklNHfWk	application/x-dosexec	http://info.vanderfoguel.com.ar/op/fageject.php?;1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 34%  Last seen: 2013-04-25 00:55:54	https://www.virustotal.com/en/search/?query=9a6259198414bb782288fa5f8bb2fb8eb464bb2d	192.168.12.10	194.44.49.43	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1358803348.402344	CSYDet3tHmzc0d5EGj	192.168.12.10	1065	194.44.49.43	80	FwuYS94pEu01mcXDZ5	application/x-dosexec	http://info.vanderfoguel.com.ar/op/leevagil.php	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 34%  Last seen: 2013-04-25 00:55:54	https://www.virustotal.com/en/search/?query=9a6259198414bb782288fa5f8bb2fb8eb464bb2d	192.168.12.10	194.44.49.43	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-50-44

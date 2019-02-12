@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-20-38
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1339693226.507113	CDRtl63mS62AItL8aa	192.168.91.10	1030	50.116.66.238	80	1	GET	getpowersearch.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2337	200	OK	-	-	-	(empty)	-	-	-	-	-	Fuex5YE6z6bsKRaDi	text/html
+1339693226.638911	CDRtl63mS62AItL8aa	192.168.91.10	1030	50.116.66.238	80	2	GET	getpowersearch.com	/images/fb_icon_mini.jpg	http://getpowersearch.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1941	200	OK	-	-	-	(empty)	-	-	-	-	-	FhUaNI2gpieYVqOOWl	image/jpeg
+1339693226.693205	CDRtl63mS62AItL8aa	192.168.91.10	1030	50.116.66.238	80	3	GET	getpowersearch.com	/images/m1.jpg	http://getpowersearch.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	16718	200	OK	-	-	-	(empty)	-	-	-	-	-	FhHCuF18xNJBGmMWcd	image/jpeg
+1339693226.691094	CF8NDo1S2nLZ9Toqud	192.168.91.10	1031	50.116.66.238	80	1	GET	getpowersearch.com	/images/g1.jpg	http://getpowersearch.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	14908	200	OK	-	-	-	(empty)	-	-	-	-	-	FsPuph1I5HTlf7SXT6	image/jpeg
+1339693226.729427	CE1oF33yGChn7RdmX2	192.168.91.10	1032	50.116.66.238	80	1	GET	www.getpowersearch.com	/download.php?id=SITE_Automatic	http://getpowersearch.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1339693226.815607	CF8NDo1S2nLZ9Toqud	192.168.91.10	1031	50.116.66.238	80	2	GET	getpowersearch.com	/images/mov1.jpg	http://getpowersearch.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	18375	200	OK	-	-	-	(empty)	-	-	-	-	-	FyOUpn1ZOPuMUDtXX8	image/jpeg
+1339693226.81526	CDRtl63mS62AItL8aa	192.168.91.10	1030	50.116.66.238	80	4	GET	getpowersearch.com	/images/f1.jpg	http://getpowersearch.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	18955	200	OK	-	-	-	(empty)	-	-	-	-	-	FpH6o02hdfnhzRWJ71	image/jpeg
+1339693226.827933	CE1oF33yGChn7RdmX2	192.168.91.10	1032	50.116.66.238	80	2	GET	www.getpowersearch.com	/PowerSearch.exe	http://getpowersearch.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	65415	200	OK	-	-	-	(empty)	-	-	-	-	-	FfXK9W212iNQ5W9S38	application/x-dosexec
+#close	2014-04-03-10-20-38

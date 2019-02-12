@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-09-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1340920889.473036	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1340920894.329405	CllArp4TL1OP20FKXf	192.168.106.10	1039	96.17.109.114	80	SYN_after_reset	-	F	bro
+1340920894.348615	CllArp4TL1OP20FKXf	192.168.106.10	1039	96.17.109.114	80	data_after_reset	-	F	bro
+1340920894.79622	CWVPQ63TXhNvpsG1k	192.168.106.10	1045	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1340920896.210376	CNiMjj4l682kExM6Wd	192.168.106.10	1047	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1340920896.278123	Cw0X5W2QpmKgRPRXf7	192.168.106.10	1049	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1340920896.280043	C1pTtA1wjqpqY6CcI2	192.168.106.10	1051	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1340920896.282423	CUJbHxhmERQidKTX	192.168.106.10	1053	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1340920898.666549	CeOvJatOdIyUs9nw5	192.168.106.10	1056	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1340920898.738794	C7KTnd1KepN1I2kHFf	192.168.106.10	1059	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1340920898.782698	CI0Zbj3qANDvir9ZLl	192.168.106.10	1062	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1340920918.595899	CiTXTw2ZnrVebUP0Gb	192.168.106.10	1077	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1340920918.643038	Cb3zhx3t5kI4y2nqKg	192.168.106.10	1079	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1340920918.675148	CBiUC32xMoAFZZFKO9	192.168.106.10	1081	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1340920922.137319	CV7gWY3j93Zx6mwgPi	192.168.106.10	1088	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1340920922.138227	CyZJ4S6edZDQxoCU3	192.168.106.10	1090	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1340920922.13911	CdWpkQ1khx61QXiIN8	192.168.106.10	1092	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+#close	2014-04-03-10-09-55

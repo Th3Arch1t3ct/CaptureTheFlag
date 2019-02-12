@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-05-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1374464778.866647	C74nHb1kcQhRzZFX81	192.168.111.10	1054	74.125.224.229	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1373637630.000000	1383281999.000000	-	-	-	726e408b9b0855cc789ae3b5fb13859c	ok
+1374464780.030534	CFvSa8OdLepAIZHLe	192.168.111.10	1061	74.125.224.207	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1373637541.000000	1383281999.000000	-	-	-	48da016aaaa5087edde929222d7eaaaa	ok
+1374464789.670691	CKFoch46tMRniMoMI5	192.168.111.10	1149	81.0.212.199	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.hit.gemius.pl,O=Gemius SA,L=Warszawa,ST=mazowieckie,C=PL	CN=Thawte SSL CA,O=Thawte\, Inc.,C=US	1347339600.000000	1384927199.000000	-	-	-	ef855112c9a2810aaedceba563f8753a	ok
+#close	2014-04-03-10-05-09

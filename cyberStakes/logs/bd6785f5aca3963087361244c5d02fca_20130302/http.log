@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-54-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1362213953.470472	CW86A523399oArwENb	192.168.56.10	1030	173.45.119.122	80	1	GET	sapphirerebellion.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3603	200	OK	-	-	-	(empty)	-	-	-	-	-	FxdDNl1RhN35uPI6N2	text/html
+1362213953.894287	CaTrn51LWVF0LgzWM7	192.168.56.10	1031	92.63.105.23	80	1	GET	awdnrrgdl.myfw.us	/ad/feed.php	http://sapphirerebellion.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1362213954.48583	C6ek7g4c9IpwrPV2o6	192.168.56.10	1032	92.63.105.23	80	1	GET	shqxfcrfcx.otzo.com	/xlawr/next/acquires-board.php	http://sapphirerebellion.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	123800	200	OK	-	-	-	(empty)	-	-	-	-	-	FM9tK91cKExlLvM09f	text/html
+1362213963.27947	CPQ5rNXz13pFqbzc9	192.168.56.10	1037	64.4.52.169	80	1	POST	activex.microsoft.com	/objects/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	FWgc362LT3j1E14Vhl	text/plain	Fp0GlO42hE8x1Fdc3	text/plain
+1362213963.508787	CxwstY3bE3PJekQBSf	192.168.56.10	1038	65.55.13.243	80	1	POST	codecs.microsoft.com	/isapi/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	FoOpIQ33oXLVvukKe5	text/plain	FF4N7139PWJpSXnNH8	text/plain
+1362213964.042471	C7MNkcsdQPj9f61re	192.168.56.10	1039	92.63.105.23	80	1	GET	shqxfcrfcx.otzo.com	/xlawr/next/acquires-board.php?siuqyhp=hqavu&esip=ouzftb	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	22339	200	OK	-	-	-	(empty)	-	-	-	-	-	FNVHWd5h0uQZ9bmAj	application/jar
+1362213968.976798	CKeX6H3zcBBdEJJml4	192.168.56.10	1041	92.63.105.23	80	1	GET	shqxfcrfcx.otzo.com	/xlawr/next/acquires-board.php?qzm=1f:31:1n:1l:32&mlz=37:3h:30:3n&apwfenq=1o:33:31:31:1g:1m:1m:33:1f:33&zqsffme=iugjxh	http://sapphirerebellion.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1030	200	OK	-	-	-	(empty)	-	-	-	-	-	Fegoux38c75qXzcwVj	application/x-shockwave-flash
+1362213968.80026	C6ek7g4c9IpwrPV2o6	192.168.56.10	1032	92.63.105.23	80	2	GET	shqxfcrfcx.otzo.com	/xlawr/next/acquires-board.php?asttbuf=1f:31:1n:1l:32&mpgh=35&qcfuv=1o:33:31:31:1g:1m:1m:33:1f:33&xosnawi=1o:1d:1g:1d:1f:1d:1f	http://shqxfcrfcx.otzo.com/xlawr/next/acquires-board.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	10876	200	OK	-	-	-	(empty)	-	-	-	-	-	FhLhWI258yCc8vJKu4	application/pdf
+1362213965.471935	CCvpwt8CS2ANbtFDa	192.168.56.10	1040	92.63.105.23	80	1	GET	shqxfcrfcx.otzo.com	/xlawr/next/acquires-board.php?ff=1f:31:1n:1l:32&ue=1o:33:31:31:1g:1m:1m:33:1f:33&v=1f&rg=q&je=q&jopa=5849616	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	167424	200	OK	-	-	-	(empty)	-	-	-	-	-	Fo9FjQ1yvzi68OQy1f	binary
+1362213978.739271	C6ek7g4c9IpwrPV2o6	192.168.56.10	1032	92.63.105.23	80	3	GET	shqxfcrfcx.otzo.com	/xlawr/next/acquires-board.php?rxrwctg=1f:31:1n:1l:32&fhqw=1o:33:31:31:1g:1m:1m:33:1f:33&tcdqv=1i&fxk=mewv&ewzl=pnisiio	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	167424	200	OK	-	-	-	(empty)	-	-	-	-	-	F6P04iMpAuSSD1Gob	application/x-dosexec
+1362213991.207947	CnYWnH1dBQJKQoCXf5	192.168.56.10	1044	50.22.196.70	80	1	GET	j.maxmind.com	/app/geoip.js	-	-	0	502	200	OK	-	-	-	(empty)	-	-	-	-	-	FpX2sF1eOD4kkDIrG	text/plain
+1362214001.978809	CbGPDj6HC4gRCkwF9	192.168.56.10	1066	23.45.65.27	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1206	200	OK	-	-	-	(empty)	-	-	-	-	-	FqBz29KGKxxaJUb3d	text/plain
+1362214012.733742	CMCPtB1fYUq6tiVLF4	192.168.56.10	1075	83.133.120.16	80	1	GET	xlotxdxtorwfmvuzfuvtspel.com	/WfQ7J7VRymbEdj0xLjEmaWQ9MzM3MDIzMzUzMiZhaWQ9MzA1NDUmc2lkPTAmb3M9NS4xLTMywvewUx6K	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2	200	OK	-	-	-	(empty)	-	-	-	-	-	FBOsov3D1cOgAB2xni	text/plain
+#close	2014-04-03-10-54-09

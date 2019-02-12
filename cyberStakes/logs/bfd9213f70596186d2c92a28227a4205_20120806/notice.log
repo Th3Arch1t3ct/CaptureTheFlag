@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-59-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1344268557.833933	ChFAgl3ukYqEWRX4th	192.168.18.10	1052	187.61.61.167	80	F2j6dq2hgYqDW6mauf	application/x-dosexec	http://lojastelefrio.com.br/3.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2012-08-07 01:46:06	https://www.virustotal.com/en/search/?query=83ae00ccfb92557c8d6e50e66f998014981a18e0	192.168.18.10	187.61.61.167	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1344268557.833933	ClwEpa2WM4R1o0EnRa	192.168.18.10	1053	187.61.61.167	80	FC4M8b42gEM8uxhpNa	application/x-dosexec	http://lojastelefrio.com.br/2.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2012-08-07 01:46:06	https://www.virustotal.com/en/search/?query=83ae00ccfb92557c8d6e50e66f998014981a18e0	192.168.18.10	187.61.61.167	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-59-20

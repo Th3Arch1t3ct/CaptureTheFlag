@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-00-38
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1323610502.765375	CPbgQF4p3Ntprq7Tch	192.168.113.10	1056	200.98.197.82	80	F8eROJ2ZsA8uy4r4v2	application/x-dosexec	http://esquadraointerativo.com/wp-content/uploads/2010/10/nggg.gif	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 39%  Last seen: 2012-01-02 11:19:19	https://www.virustotal.com/en/search/?query=df30ce619121eec1bc59e30a70e9b95f36b5c363	192.168.113.10	200.98.197.82	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1323610521.211473	CsSCMA4nALwwlJmqGh	192.168.113.10	1058	187.17.98.39	80	F0PaTc3EecmFsgcZD1	application/x-dosexec	http://psnsoft.com.br/.jsm/Plug.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 42%  Last seen: 2011-12-22 11:35:42	https://www.virustotal.com/en/search/?query=31ccfb17d51fbf7ae50367822dbb511902364bae	192.168.113.10	187.17.98.39	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-00-39

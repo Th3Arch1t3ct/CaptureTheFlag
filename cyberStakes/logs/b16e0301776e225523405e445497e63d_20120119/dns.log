@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-35-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1326936010.487911	CEhjQx3NVw6yb6Vsih	192.168.17.10	1029	4.2.2.3	53	udp	57748	blowinsmoke.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.200.249.149	14379.000000	F
+1326936010.604057	CEhjQx3NVw6yb6Vsih	192.168.17.10	1029	4.2.2.3	53	udp	39317	meissa.lunarservers.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.200.249.149	1779.000000	F
+1326936011.001163	CEhjQx3NVw6yb6Vsih	192.168.17.10	1029	4.2.2.3	53	udp	8597	www.blowinsmoke.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	blowinsmoke.net,209.200.249.149	14400.000000,14378.000000	F
+1326936012.184824	CEhjQx3NVw6yb6Vsih	192.168.17.10	1029	4.2.2.3	53	udp	29334	unclesammm.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.63.141.211	43200.000000	F
+1326936013.118141	CEhjQx3NVw6yb6Vsih	192.168.17.10	1029	4.2.2.3	53	udp	7575	tjzgvtp.h1x.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.7.62.154	31.000000	F
+1326936017.003997	CEhjQx3NVw6yb6Vsih	192.168.17.10	1029	4.2.2.3	53	udp	22935	germangmayner.1dumb.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.7.62.154	31.000000	F
+1326936040.647115	CYhYIDSpfBRe4I0Md	192.168.17.10	1064	4.2.2.3	53	udp	59538	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.65.105,74.125.65.106,74.125.65.147,74.125.65.99,74.125.65.103,74.125.65.104	14919.000000,286.000000,286.000000,286.000000,286.000000,286.000000,286.000000	F
+1326936040.629016	CYCsMs1198QacoJh66	192.168.17.10	1029	4.2.2.3	53	udp	49041	wwidow.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.7.62.154	43200.000000	F
+#close	2014-04-03-10-35-28

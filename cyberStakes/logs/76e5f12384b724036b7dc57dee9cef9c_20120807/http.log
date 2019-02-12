@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-29-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1344378036.992559	Cll8ax9jmqevU7wl4	192.168.40.10	1030	74.220.207.132	80	1	GET	articles99.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3733	200	OK	-	-	-	(empty)	-	-	-	-	-	FLBVTU3fMr9cTzS6Id	text/html
+1344378037.073925	Cll8ax9jmqevU7wl4	192.168.40.10	1030	74.220.207.132	80	2	GET	articles99.com	/index/images/style.htm	http://articles99.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	403	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FxSxKu1CkdarSMv1Ne	text/html
+1344378037.220044	CBGzzc4VCaUjfHydZ8	192.168.40.10	1031	74.220.207.132	80	1	GET	articles99.com	/index.html/images/injection_graph_func.js	http://articles99.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	422	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F7UtUr2p9x3qn8ygMi	text/html
+1344378037.327375	Cll8ax9jmqevU7wl4	192.168.40.10	1030	74.220.207.132	80	3	GET	articles99.com	/images/top.gif	http://articles99.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	248	200	OK	-	-	-	(empty)	-	-	-	-	-	FOCUP24RqrmEVYq6fl	image/gif
+1344378037.411822	Cll8ax9jmqevU7wl4	192.168.40.10	1030	74.220.207.132	80	4	GET	articles99.com	/images/bottom.gif	http://articles99.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	439	200	OK	-	-	-	(empty)	-	-	-	-	-	FVQiDk2n9NTSAaayTd	image/gif
+1344378037.327713	CBGzzc4VCaUjfHydZ8	192.168.40.10	1031	74.220.207.132	80	2	GET	articles99.com	/images/animated-messages-small2.gif	http://articles99.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	14785	200	OK	-	-	-	(empty)	-	-	-	-	-	F6qNjq2W991v2CW7Jk	image/gif
+1344378037.878202	C23onv35Y8XtnBwWig	192.168.40.10	1032	209.200.37.141	80	1	GET	www.vip-bzr.com	/download/t.php	http://articles99.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1344378038.192957	CFT0BW1t5as1hpLpUj	192.168.40.10	1033	91.121.37.142	80	1	GET	humourr.com	/25964247.html	http://articles99.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	12326	200	OK	-	-	-	(empty)	-	-	-	-	-	FgfW3u4rZKg4gx9N95	text/html
+1344378038.875779	CFT0BW1t5as1hpLpUj	192.168.40.10	1033	91.121.37.142	80	2	GET	humourr.com	/98765.pdf	http://humourr.com/25964247.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5299	200	OK	-	-	-	(empty)	-	-	-	-	-	FtHWKr3ht4nRIg7ZC1	application/pdf
+1344378045.192552	CmPZ372cJYYkfZC0Sl	192.168.40.10	1038	91.121.37.142	80	1	GET	humourr.com	/33256.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12275	200	OK	-	-	-	(empty)	-	-	-	-	-	FcrguL2pfTOEiNhrg4	application/jar
+1344378045.395712	CmPZ372cJYYkfZC0Sl	192.168.40.10	1038	91.121.37.142	80	2	GET	humourr.com	/33256.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12275	200	OK	-	-	-	(empty)	-	-	-	-	-	F8Ig0gXD61f1O8vna	application/jar
+1344378045.676886	CmPZ372cJYYkfZC0Sl	192.168.40.10	1038	91.121.37.142	80	3	GET	humourr.com	/33256.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12275	200	OK	-	-	-	(empty)	-	-	-	-	-	Fe91BXQ37UeDI3nCd	application/jar
+1344378050.624206	CI3tiC4cat0wpPDCM9	192.168.40.10	1039	91.121.37.142	80	1	GET	humourr.com	/33256.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12275	200	OK	-	-	-	(empty)	-	-	-	-	-	FoizQN2ceoJYCPYGCd	application/jar
+1344378050.815733	CI3tiC4cat0wpPDCM9	192.168.40.10	1039	91.121.37.142	80	2	GET	humourr.com	/3.html	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	251904	200	OK	-	-	-	(empty)	-	-	-	-	-	Fv11kZ2EMfeSh1Ez9e	application/x-dosexec
+1344378055.495666	C5g4aJ1l7R8m2ebOai	192.168.40.10	1040	91.121.37.142	80	1	GET	humourr.com	/2.html	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	251904	200	OK	-	-	-	(empty)	-	-	-	-	-	FkiyIU3NRmI56cmbgk	application/x-dosexec
+#close	2014-04-03-10-29-34

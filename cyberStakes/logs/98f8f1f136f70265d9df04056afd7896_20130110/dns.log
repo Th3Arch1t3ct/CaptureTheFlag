@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-12-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1357813461.558982	CaHrs82mGfGWUXv4f3	192.168.34.10	1028	4.2.2.3	53	udp	49797	rochemining.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	111.118.213.216	14383.000000	F
+1357813462.522375	CaHrs82mGfGWUXv4f3	192.168.34.10	1028	4.2.2.3	53	udp	49286	1488swat.asia	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	204.12.196.37	600.000000	F
+1357813463.517968	CXJ9Qi3HI0Y0n176M3	192.168.34.10	1028	4.2.2.5	53	udp	49286	1488swat.asia	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1357813475.106611	CaHrs82mGfGWUXv4f3	192.168.34.10	1028	4.2.2.3	53	udp	12166	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	2738.000000,232.000000	F
+1357813475.475453	CaHrs82mGfGWUXv4f3	192.168.34.10	1028	4.2.2.3	53	udp	28807	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,64.4.52.169	776.000000,360.000000	F
+1357813476.620721	CaHrs82mGfGWUXv4f3	192.168.34.10	1028	4.2.2.3	53	udp	3457	rochemining.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	111.118.213.216	14368.000000	F
+1357813464.531942	CaHrs82mGfGWUXv4f3	192.168.34.10	1028	4.2.2.3	53	udp	49286	1488swat.asia	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1357813464.531942	CaHrs82mGfGWUXv4f3	192.168.34.10	1028	4.2.2.3	53	udp	49286	1488swat.asia	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1357813464.531942	CaHrs82mGfGWUXv4f3	192.168.34.10	1028	4.2.2.3	53	udp	49286	1488swat.asia	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1357813534.702328	CUpscq17MeeUfhd4t2	192.168.34.10	1028	4.2.2.3	53	udp	50562	windowsupdate.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	windowsupdate.microsoft.nsatc.net,www.update.microsoft.com.nsatc.net,65.55.185.26	176.000000,293.000000,222.000000	F
+#close	2014-04-03-10-12-57

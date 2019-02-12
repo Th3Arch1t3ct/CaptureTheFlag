@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-10-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1340234228.889619	Cs5ZmC46dvOln5EtFe	192.168.27.10	1029	4.2.2.3	53	udp	19855	cssglobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.94.76.27	5775.000000	F
+1340234230.18277	CT6whu4DpokhZ9dsQ2	192.168.27.10	1032	4.2.2.3	53	udp	44429	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,173.194.37.70,173.194.37.71,173.194.37.72,173.194.37.73,173.194.37.78,173.194.37.64,173.194.37.65,173.194.37.66,173.194.37.67,173.194.37.68,173.194.37.69	16139.000000,162.000000,162.000000,162.000000,162.000000,162.000000,162.000000,162.000000,162.000000,162.000000,162.000000,162.000000	F
+1340234230.199475	CT6whu4DpokhZ9dsQ2	192.168.27.10	1032	4.2.2.3	53	udp	28555	www.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.220.149.94	80.000000	F
+1340234230.179956	Cs5ZmC46dvOln5EtFe	192.168.27.10	1029	4.2.2.3	53	udp	4748	olrlcmvnhvuyaooq.co.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	83.69.233.14	43200.000000	F
+1340234230.677189	CT6whu4DpokhZ9dsQ2	192.168.27.10	1032	4.2.2.3	53	udp	15496	b.static.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.dsw4.akamai.net,63.217.184.9,63.217.184.81	7172.000000,166.000000,8.000000,8.000000	F
+1340234230.706093	CT6whu4DpokhZ9dsQ2	192.168.27.10	1032	4.2.2.3	53	udp	57480	static.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.dsw4.akamai.net,63.217.184.81,63.217.184.9	3067.000000,166.000000,8.000000,8.000000	F
+1340234245.678263	CZ0p7RxFbBo2peHK3	192.168.27.10	1032	4.2.2.3	53	udp	51593	mokhoto.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.50.116.223	43200.000000	F
+1340234278.899876	C0VBGK2O71EQqP6Rxg	192.168.27.10	1032	4.2.2.3	53	udp	63110	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,63.217.184.67,63.217.184.56	11086.000000,2.000000,7342.000000,20.000000,20.000000	F
+1340234280.147963	C0VBGK2O71EQqP6Rxg	192.168.27.10	1032	4.2.2.3	53	udp	11655	profile.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	profile.ak.facebook.com.edgesuite.net,a1725.dspl.akamai.net,72.247.242.17,72.247.242.19,72.247.242.26,72.247.242.67,72.247.242.74,72.247.242.9,72.247.242.10,72.247.242.11,72.247.242.16	3090.000000,328.000000,13.000000,13.000000,13.000000,13.000000,13.000000,13.000000,13.000000,13.000000,13.000000	F
+#close	2014-04-03-10-10-33

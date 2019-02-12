@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-53-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1315322777.32263	CMtimT21B1xJ42e1le	192.168.90.10	1039	95.163.66.184	80	FgbvNJ1zRH90bGJoCi	application/jar	http://genecullen.start.tl/showthread.php?t=101347113	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 68%  Last seen: 2012-12-01 04:31:09	https://www.virustotal.com/en/search/?query=ca641aeaf0578efb0bdd96bb8fac350d348f7221	192.168.90.10	95.163.66.184	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1315322778.7939	CMtimT21B1xJ42e1le	192.168.90.10	1039	95.163.66.184	80	FSGQ8S3TFtj0PpzPja	application/jar	http://genecullen.start.tl/showthread.php?t=101347113	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 68%  Last seen: 2012-12-01 04:31:09	https://www.virustotal.com/en/search/?query=ca641aeaf0578efb0bdd96bb8fac350d348f7221	192.168.90.10	95.163.66.184	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1315322780.255162	CMtimT21B1xJ42e1le	192.168.90.10	1039	95.163.66.184	80	FxLsBz2d9GfU4dlqK4	application/jar	http://genecullen.start.tl/showthread.php?t=101347113	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 68%  Last seen: 2012-12-01 04:31:09	https://www.virustotal.com/en/search/?query=ca641aeaf0578efb0bdd96bb8fac350d348f7221	192.168.90.10	95.163.66.184	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-53-36

@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-14-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1341669403.025372	ChaRlB1lQClIgWMLz9	192.168.70.10	1058	178.162.241.199	1342	FD2Ij54hVUYK5Y16tk	application/x-dosexec	http://twitter.goldpavement.com:1342/tcp/f/670852650/3e7b9eebb3dcfdeca719da7c91f0822e/7a1011a6fded5d291f30c9474ec14f82/3	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 55%  Last seen: 2012-07-15 02:46:16	https://www.virustotal.com/en/search/?query=39a9710ae8c98eb1d1a7e41c2751f0963d858806	192.168.70.10	178.162.241.199	1342	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-14-05

@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-15-01
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1322734490.182221	CM8yVC3EPBp94iGx25	192.168.59.10	1029	4.2.2.3	53	udp	41877	heartbeats-radio.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.109.181.118	3581.000000	F
+1322734490.388299	CM8yVC3EPBp94iGx25	192.168.59.10	1029	4.2.2.3	53	udp	7319	www.flatcast.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	flatcast.com,92.51.180.143	10800.000000,10800.000000	F
+1322734491.655283	CM8yVC3EPBp94iGx25	192.168.59.10	1029	4.2.2.3	53	udp	43159	download.flatcast.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.51.137.94	43200.000000	F
+1322734499.239145	CM8yVC3EPBp94iGx25	192.168.59.10	1029	4.2.2.3	53	udp	18577	crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.48.190	434.000000,1.000000	F
+1322734499.331838	CM8yVC3EPBp94iGx25	192.168.59.10	1029	4.2.2.3	53	udp	20881	csc3-2004-crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.48.190	84.000000,1.000000	F
+#close	2014-04-03-10-15-02

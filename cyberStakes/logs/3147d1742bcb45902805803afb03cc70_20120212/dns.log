@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-22-41
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1329035627.987553	CM8d0q1VXVrPAZeg3c	192.168.77.10	1029	4.2.2.3	53	udp	51084	scarlett-ohara.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	146.185.18.50	14858.000000	F
+1329035628.276715	CM8d0q1VXVrPAZeg3c	192.168.77.10	1029	4.2.2.3	53	udp	31628	abonny.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.168.173.235	9.000000	F
+1329035641.158565	CPKup94jZa5NL333wh	192.168.77.10	1029	4.2.2.3	53	udp	57743	getmaxatasar.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.246.89.182	600.000000	F
+1329035641.913748	CPKup94jZa5NL333wh	192.168.77.10	1029	4.2.2.3	53	udp	35982	acardogobse.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	141.136.16.62	600.000000	F
+1329035663.412616	CnsWZe3KUn3iZWILrh	192.168.77.10	1029	4.2.2.3	53	udp	56456	halmarkardcre.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.44.184.49	600.000000	F
+#close	2014-04-03-10-22-42

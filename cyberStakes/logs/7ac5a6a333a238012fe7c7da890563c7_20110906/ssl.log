@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-27-21
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1315289442.194402	CVjZiS3HFGRntookPf	192.168.97.10	1037	74.125.65.132	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1313138969.000000	1344761969.000000	-	-	-	711e23cd3b1cf1934cdbe3b85738088f	ok
+1315289442.363485	Cj2gL84zv3MZrjpi9	192.168.97.10	1041	74.125.65.132	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1313138969.000000	1344761969.000000	-	-	-	711e23cd3b1cf1934cdbe3b85738088f	ok
+1315289442.36382	CB053f3FrgD0F9MVW6	192.168.97.10	1042	74.125.65.132	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1313138969.000000	1344761969.000000	-	-	-	711e23cd3b1cf1934cdbe3b85738088f	ok
+1315289442.38593	CxV5251djaIwQWhclh	192.168.97.10	1044	74.125.65.132	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1313138969.000000	1344761969.000000	-	-	-	711e23cd3b1cf1934cdbe3b85738088f	ok
+1315289442.385542	CZQ8SA2UkXUotndYLj	192.168.97.10	1043	74.125.65.132	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1313138969.000000	1344761969.000000	-	-	-	711e23cd3b1cf1934cdbe3b85738088f	ok
+1315289442.38626	Co5PrnQoFEqrbCQVa	192.168.97.10	1045	74.125.65.132	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1313138969.000000	1344761969.000000	-	-	-	711e23cd3b1cf1934cdbe3b85738088f	ok
+1315289442.423524	CWlVWX24eczxjIZqpb	192.168.97.10	1046	74.125.229.164	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1313138942.000000	1344761942.000000	-	-	-	ecf20c910daa48e8e1736835f2fe587d	ok
+1315289443.098286	C74AS4eHEw9r24zA9	192.168.97.10	1053	74.125.229.95	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1313139060.000000	1344762060.000000	-	-	-	f7473d885ecd3d7fa7f0a41f4e2f5cb9	ok
+1315289443.475551	C1QyVS1z8HZ1cE2Kj6	192.168.97.10	1058	74.125.65.132	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	95dcb9ac75da1dcb78cdf24f03b9b7f4f7b3e318dab53e91196a2fbb1f220b88	-	-	-	-	-	-	-	-	-
+1315289452.905282	CNpq7619PnEcp35QR6	192.168.97.10	1106	74.86.61.18	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=hardad.com,OU=Domain Control Validated - RapidSSL(R),OU=See www.rapidssl.com/resources/cps (c)11,OU=GT61302467,O=hardad.com,C=CN,serialNumber=MqBg5WBqn5nJ2w6hZfAc238XItctkZyl	CN=RapidSSL CA,O=GeoTrust\, Inc.,C=US	1314260833.000000	1346055269.000000	-	-	-	e6e4ff42df9c302e4d70c9182073c1c0	ok
+#close	2014-04-03-10-27-23

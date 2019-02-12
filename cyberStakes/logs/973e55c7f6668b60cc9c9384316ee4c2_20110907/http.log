@@ -1,0 +1,36 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-59-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1315421236.601327	CijIWg15N2a8nDq2ld	192.168.111.10	1030	122.224.18.76	80	1	GET	client.ups-track.org	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	368	200	OK	-	-	-	(empty)	-	-	-	-	-	FxK9V74pwbSdtr42Sb	text/html
+1315421248.429177	CdEzPI1E6F5WYPwCge	192.168.111.10	1036	89.208.34.84	80	1	GET	ups-track.net	/content/worms.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5238	200	OK	-	-	-	(empty)	-	-	-	-	-	F7Lr2D1TpG9RSay0l5	application/zip
+1315421237.38763	C5acWO17h2Qm0sYHx3	192.168.111.10	1031	89.208.34.84	80	1	GET	ups-track.net	/track.php?page=b9c0969935c4daf4	http://client.ups-track.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	179079	200	OK	-	-	-	(empty)	-	-	-	-	-	FHFnYI1Dpnwu1gps25	text/html
+1315421257.50373	CwMNcA2gwNAOIYF54a	192.168.111.10	1043	95.163.66.188	80	1	GET	1604534972	/GWeather.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6195	200	OK	-	-	-	(empty)	-	-	-	-	-	FiAkya18vvqjxl85N4	application/x-java-applet
+1315421257.504931	CVxU4t2fThOCYDrNAh	192.168.111.10	1044	95.163.66.188	80	1	GET	1604534972	/GWeather.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6195	200	OK	-	-	-	(empty)	-	-	-	-	-	FMUxpUKawq4yXW3i7	application/x-java-applet
+1315421257.534246	CuHjme3zz5IVZZkful	192.168.111.10	1045	95.163.66.188	80	1	GET	1604534972	/GWeather.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6195	200	OK	-	-	-	(empty)	-	-	-	-	-	FNAThe1E93pGBe7E9	application/x-java-applet
+1315421257.537849	CDlWw9143tItDbk56h	192.168.111.10	1046	95.163.66.188	80	1	GET	1604534972	/GWeather.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6195	200	OK	-	-	-	(empty)	-	-	-	-	-	FTQqh8417sQucmNT0d	application/x-java-applet
+1315421257.542173	CHEbar3uZf2tYnaRN5	192.168.111.10	1048	95.163.66.188	80	1	GET	1604534972	/GWeather.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6195	200	OK	-	-	-	(empty)	-	-	-	-	-	FkYSUp2wS63MhgQOy9	application/x-java-applet
+1315421257.54328	CU3pWXbgXa1EwaXc6	192.168.111.10	1047	95.163.66.188	80	1	GET	1604534972	/GWeather.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6195	200	OK	-	-	-	(empty)	-	-	-	-	-	FRxlev4lmlv7i2K0h	application/x-java-applet
+1315421257.164211	C5acWO17h2Qm0sYHx3	192.168.111.10	1031	89.208.34.84	80	2	GET	ups-track.net	/content/2fdp.php?f=21	http://ups-track.net/track.php?page=b9c0969935c4daf4	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	31311	200	OK	-	-	-	(empty)	-	-	-	-	-	FZZ3XJFLYmomgE9mf	application/pdf
+1315421259.240591	C3JSb933Et5ghCo6c7	192.168.111.10	1056	153.2.224.50	80	1	GET	www.ups.com	/tracking/invoices/download.aspx?invoice_id=8DD720784D59E2F4</	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	220	302	Found	-	-	-	(empty)	-	-	-	-	-	FjNtxcbk93WLYK694	text/html
+1315421259.279057	C3JSb933Et5ghCo6c7	192.168.111.10	1056	153.2.224.50	80	2	GET	www.ups.com	/content/not_there	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	31050	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FBt8l11JrHRbjM5wd4	text/html
+1315421259.379479	CErOOV2ymRR0MnVMB9	192.168.111.10	1057	153.2.224.50	80	1	GET	www.ups.com	/assets/framework/jquery/jquery-obf-1.4.2.cache.js	http://www.ups.com/content/not_there	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	72174	200	OK	-	-	-	(empty)	-	-	-	-	-	Fx9ota3g3hgjmoaf58	text/plain
+1315421259.288962	CjFrL22kKBSSnfTWi	192.168.111.10	1051	89.208.34.84	80	1	GET	ups-track.net	/content/field.swf	http://client.ups-track.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1301	200	OK	-	-	-	(empty)	-	-	-	-	-	F1E2BN2O6iA4GkdEY5	application/x-shockwave-flash
+1315421259.318333	CjCnHkYaMaPbGnxy7	192.168.111.10	1055	89.208.34.84	80	1	GET	ups-track.net	/w.php?f=21&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	198656	200	OK	-	-	-	(empty)	-	-	-	-	-	FZ2RH93NdBKQ2tl461	application/x-dosexec
+1315421259.31552	Cu9Vrtz37MPDSM8oj	192.168.111.10	1054	89.208.34.84	80	1	GET	ups-track.net	/w.php?f=21&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	198656	200	OK	-	-	-	(empty)	-	-	-	-	-	FpfJHp1WM7FdHJ7D39	application/x-dosexec
+1315421249.504158	Csrbuz1HpeBdWknJJ2	192.168.111.10	1037	89.208.34.84	80	1	GET	ups-track.net	/w.php?f=21&e=1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	198656	200	OK	-	-	-	(empty)	-	-	-	-	-	FtQDVJ2fUA1KW2KeS5	application/x-dosexec
+1315421269.258748	CsjslM2WTQ1AXj2s3j	192.168.111.10	1059	204.245.190.8	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1639	200	OK	-	-	-	(empty)	-	-	-	-	-	FgfS6O2jQdTGkLBOK6	text/html
+1315421269.206215	CjFrL22kKBSSnfTWi	192.168.111.10	1051	89.208.34.84	80	2	GET	ups-track.net	/content/score.swf	http://ups-track.net/content/field.swf	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6648	200	OK	-	-	-	(empty)	-	-	-	-	-	FaEuUl42QAq15F3Bv5	application/x-shockwave-flash
+1315421259.29483	CZMnUK2iiqDI1vW96k	192.168.111.10	1049	89.208.34.84	80	1	GET	ups-track.net	/w.php?f=21&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	198656	200	OK	-	-	-	(empty)	-	-	-	-	-	FCHLM74IgRSquhhRMi	application/x-dosexec
+1315421272.678909	CpBIWGEzxUXauuhF7	192.168.111.10	1060	89.46.251.167	80	1	GET	mysybackups.com	/product-specs-41.html	-	ALAN-1FD4B27F5D_B4DF7611589EFB9C	0	3854	200	OK	-	-	-	(empty)	-	-	-	-	-	FiKWmo15NN2eQiXzo7	binary
+1315421259.295398	CdPLJR1ghXf8n8Qui	192.168.111.10	1050	89.208.34.84	80	1	GET	ups-track.net	/w.php?f=21&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	198656	200	OK	-	-	-	(empty)	-	-	-	-	-	FIlBuz3b1f4BL2Relc	application/x-dosexec
+1315421278.905815	CUlQK73VO5PtUlMc57	192.168.111.10	1061	89.208.34.116	80	1	OPTIONS	89.208.34.116	/	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	166	405	Not Allowed	-	-	-	(empty)	-	-	-	-	-	FqSWNa3SrYoGTssCA2	text/html
+1315421259.293757	CUltBS2F3clmh3nQH8	192.168.111.10	1053	89.208.34.84	80	1	GET	ups-track.net	/w.php?f=21&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	85687	200	OK	-	-	-	(empty)	-	-	-	-	-	F4ZDng2WIVQLjA3u8k	application/x-dosexec
+1315421259.295949	Cql2AFAe5cCw1tTu9	192.168.111.10	1052	89.208.34.84	80	1	GET	ups-track.net	/w.php?f=21&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	96604	200	OK	-	-	-	(empty)	-	-	-	-	-	FNexdgVSxj2HXixY6	application/x-dosexec
+1315421298.979045	CP0h5shZQQTsSPzhj	192.168.111.10	1062	65.121.208.162	80	1	GET	www.bing.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	30633	200	OK	-	-	-	(empty)	-	-	-	-	-	Fi70wS33odJ4QYIaCf	text/html
+1315421299.251908	CKxk6m9NRGGulIxEh	192.168.111.10	1063	89.46.251.167	80	1	POST	mysybackups.com	/chrome83.php	-	ALAN-1FD4B27F5D_B4DF7611589EFB9C	274	64	200	OK	-	-	-	(empty)	-	-	-	Fnx2j82j99iwA0KRA7	binary	FZkISV1jERKaKAO0s3	binary
+#close	2014-04-03-10-59-40

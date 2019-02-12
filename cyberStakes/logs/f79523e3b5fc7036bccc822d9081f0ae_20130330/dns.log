@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-57-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1364672719.108736	Cks5RA3xdQkLlkLIS	192.168.29.10	1029	4.2.2.3	53	udp	15245	forexmac.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	176.31.50.189	86400.000000	F
+1364672719.819073	Cks5RA3xdQkLlkLIS	192.168.29.10	1029	4.2.2.3	53	udp	21388	code.jquery.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wac.1257.edgecastcdn.net,neb1.wac.v2cdn.net,93.184.216.119	531728.000000,2763.000000,2763.000000	F
+1364672720.154592	Cks5RA3xdQkLlkLIS	192.168.29.10	1029	4.2.2.3	53	udp	54668	www.forex-trading-guru.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	forex-trading-guru.info,66.39.142.8	3600.000000,3600.000000	F
+1364672720.473225	Cks5RA3xdQkLlkLIS	192.168.29.10	1029	4.2.2.3	53	udp	33166	theusaforward.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	176.31.50.187	3600.000000	F
+1364672721.110138	Cks5RA3xdQkLlkLIS	192.168.29.10	1029	4.2.2.3	53	udp	51598	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	3600.000000,300.000000	F
+1364672721.699578	Cks5RA3xdQkLlkLIS	192.168.29.10	1029	4.2.2.3	53	udp	137	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	3600.000000,600.000000	F
+1364672731.209661	Cks5RA3xdQkLlkLIS	192.168.29.10	1029	4.2.2.3	53	udp	19593	187.50.31.176.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1364672731.209661	Cks5RA3xdQkLlkLIS	192.168.29.10	1029	4.2.2.3	53	udp	19593	187.50.31.176.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1364672731.209661	Cks5RA3xdQkLlkLIS	192.168.29.10	1029	4.2.2.3	53	udp	19593	187.50.31.176.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1364672731.209661	Cks5RA3xdQkLlkLIS	192.168.29.10	1029	4.2.2.3	53	udp	19593	187.50.31.176.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-09-57-54

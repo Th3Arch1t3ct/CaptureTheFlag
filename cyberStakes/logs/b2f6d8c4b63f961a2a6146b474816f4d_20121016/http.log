@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-01-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1350378374.12269	CArHIm4TIChUL0xEf	192.168.20.10	1030	149.13.65.154	80	1	GET	download-manage.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6334	200	OK	-	-	-	(empty)	-	-	-	-	-	FhKzUt23gmbCKy5xP6	text/html
+1350378374.277206	Ccsndg1XQwuRXduoRe	192.168.20.10	1032	72.21.91.19	80	1	GET	code.jquery.com	/jquery.min.js	http://download-manage.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	93436	200	OK	-	-	-	(empty)	-	-	-	-	-	FC48RFRn68n93htE3	text/plain
+1350378374.273223	CArHIm4TIChUL0xEf	192.168.20.10	1030	149.13.65.154	80	2	GET	download-manage.com	/index.css	http://download-manage.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6334	200	OK	-	-	-	(empty)	-	-	-	-	-	F9Al4u1ax7D7ybQOKk	text/html
+1350378374.388951	CArHIm4TIChUL0xEf	192.168.20.10	1030	149.13.65.154	80	3	GET	download-manage.com	/v2.css	http://download-manage.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2236	200	OK	-	-	-	(empty)	-	-	-	-	-	FZEbG82OBBWypZ3J6d	text/plain
+1350378374.385569	Cj6PKJ2I94KVIACaai	192.168.20.10	1031	149.13.65.154	80	1	GET	download-manage.com	/style.css	http://download-manage.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	19795	200	OK	-	-	-	(empty)	-	-	-	-	-	FoPclL0Vo4zqr6Qrk	text/plain
+1350378374.707459	C9Msk41sdNoHl9EyGa	192.168.20.10	1033	74.125.134.102	80	1	GET	www.google-analytics.com	/ga.js	http://download-manage.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	37227	200	OK	-	-	-	(empty)	-	-	-	-	-	FkhNJB10ghWqlwkoce	text/plain
+1350378374.692872	Cj6PKJ2I94KVIACaai	192.168.20.10	1031	149.13.65.154	80	2	GET	download-manage.com	/v2/logo.gif	http://download-manage.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5148	200	OK	-	-	-	(empty)	-	-	-	-	-	FKIeN43R62V0Dev5x3	image/gif
+1350378374.691975	CArHIm4TIChUL0xEf	192.168.20.10	1030	149.13.65.154	80	4	GET	download-manage.com	/v2/d0.png	http://download-manage.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	11370	200	OK	-	-	-	(empty)	-	-	-	-	-	FNzH6Z1oaW3kTj4K1e	image/png
+1350378374.87151	C9Msk41sdNoHl9EyGa	192.168.20.10	1033	74.125.134.102	80	2	GET	www.google-analytics.com	/__utm.gif?utmwv=5.3.6&utms=1&utmn=1068519419&utmhn=download-manage.com&utmcs=utf-8&utmsr=800x600&utmvp=780x459&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=10.0 r32&utmdt=Fast Download Manager - Free Download&utmhid=1198159093&utmr=-&utmp=/&utmac=UA-35435936-1&utmcc=__utma=169282740.938042100.1350392657.1350392657.1350392657.1;+__utmz=169282740.1350392657.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);&utmu=q~	http://download-manage.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	35	200	OK	-	-	-	(empty)	-	-	-	-	-	FRoZDv1Jq2hu8VdQ46	image/gif
+1350378374.808593	Cj6PKJ2I94KVIACaai	192.168.20.10	1031	149.13.65.154	80	3	GET	download-manage.com	/images/bodyBg.png	http://download-manage.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3103	200	OK	-	-	-	(empty)	-	-	-	-	-	FL4AX61SxmKKwPV98f	image/png
+1350378374.808857	CArHIm4TIChUL0xEf	192.168.20.10	1030	149.13.65.154	80	5	GET	download-manage.com	/images/mainContainerTop.png	http://download-manage.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	409	200	OK	-	-	-	(empty)	-	-	-	-	-	Fbh5pj36HaUZXh3i3i	image/png
+1350378375.144171	Cj6PKJ2I94KVIACaai	192.168.20.10	1031	149.13.65.154	80	4	GET	download-manage.com	/v2/ti.png	http://download-manage.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	35096	200	OK	-	-	-	(empty)	-	-	-	-	-	FAKC4v3HzdSalGF2o9	image/png
+1350378375.14451	CArHIm4TIChUL0xEf	192.168.20.10	1030	149.13.65.154	80	6	GET	download-manage.com	/v2/v.png	http://download-manage.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4503	200	OK	-	-	-	(empty)	-	-	-	-	-	FOU3pQ1eLyfjH5jco1	image/png
+1350378382.123655	Cgo9y9IrdJNlWRJJ6	192.168.20.10	1038	5.9.104.22	80	1	GET	dn.download-manage.com	/?u=http://downtango.com/download/DownTangoSetup.exe&n=Fast+Download+Manager	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4140	200	OK	-	-	-	(empty)	-	-	-	-	-	FgMqVN3eMGgkwqA3ck	application/x-dosexec
+#close	2014-04-03-10-01-54

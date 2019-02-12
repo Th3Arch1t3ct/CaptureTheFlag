@@ -1,0 +1,44 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-16-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1339785879.456408	C32FEz48LLlvhtlHvh	192.168.71.10	1030	199.85.212.184	80	1	GET	sensitech.co	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	90606	200	OK	-	-	-	(empty)	-	-	-	-	-	FBIUbg4cyjRibjx9v5	text/html
+1339785879.533309	CViN1u4VkOj4SBSnZa	192.168.71.10	1031	199.85.212.184	80	1	GET	sensitech.co	/index_files/image323.gif	http://sensitech.co/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1302	200	OK	-	-	-	(empty)	-	-	-	-	-	FfRPzG2IyOgs5PJJhl	image/gif
+1339785879.668984	CNrfxi1tRQCg9tscj4	192.168.71.10	1033	199.85.212.184	80	1	GET	sensitech.co	/index_files/image405.wmz	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	884	200	OK	-	-	-	(empty)	-	-	-	-	-	FFz0lV29Uczcogh3e3	application/x-gzip
+1339785879.711964	CVUqSexNJKpNTDWS7	192.168.71.10	1034	199.85.212.184	80	1	GET	sensitech.co	/index_files/image449.jpg	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6521	200	OK	-	-	-	(empty)	-	-	-	-	-	F5DsUokzaPYbRQWBe	image/jpeg
+1339785879.754274	CYJnCQ1oqMLl4ofao1	192.168.71.10	1035	199.85.212.184	80	1	GET	sensitech.co	/index_files/image417.jpg	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1428	200	OK	-	-	-	(empty)	-	-	-	-	-	FjnqAX3JOlCULIfKm3	image/jpeg
+1339785879.711709	C3E53v3SfD1JCvNcsa	192.168.71.10	1032	50.22.126.97	80	1	GET	nikeeyb.com	/stats.php	http://sensitech.co/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1339785881.201693	CKVUKD2UuwlbbqgrEj	192.168.71.10	1038	199.85.212.184	80	1	GET	sensitech.co	/index_files/image298.jpg	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2875	200	OK	-	-	-	(empty)	-	-	-	-	-	F1unaBRw9crJ9jkL9	image/jpeg
+1339785881.201487	CSSjvS2lhsN5aazT1f	192.168.71.10	1037	199.85.212.184	80	1	GET	sensitech.co	/index_files/image407.jpg	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4470	200	OK	-	-	-	(empty)	-	-	-	-	-	FjsunN11wY8yfFVAk5	image/jpeg
+1339785881.284071	C65pQV3IDYg02szYUd	192.168.71.10	1036	37.157.255.169	80	1	GET	vaieer.tk	/70623516.html	http://sensitech.co/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	277	200	OK	-	-	-	(empty)	-	-	-	-	-	FfKGU82RQJfVhHKvkj	text/html
+1339785883.198657	CIhmECMNk1OrAtes7	192.168.71.10	1043	37.157.255.169	80	1	GET	vaieer.tk	/33982.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	67852	200	OK	-	-	-	(empty)	-	-	-	-	-	F0gEdh44kjtzZp4wtb	application/zip
+1339785883.602526	CIhmECMNk1OrAtes7	192.168.71.10	1043	37.157.255.169	80	2	GET	vaieer.tk	/33982.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	67852	200	OK	-	-	-	(empty)	-	-	-	-	-	FXbIl41tdRKzP3Ncfd	application/zip
+1339785883.947076	CIhmECMNk1OrAtes7	192.168.71.10	1043	37.157.255.169	80	3	GET	vaieer.tk	/33982.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	67852	200	OK	-	-	-	(empty)	-	-	-	-	-	FbBcLD4uKNDLDAsoIe	application/zip
+1339785884.266359	CIhmECMNk1OrAtes7	192.168.71.10	1043	37.157.255.169	80	4	GET	vaieer.tk	/1.html	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	35328	200	OK	-	-	-	(empty)	-	-	-	-	-	FgFe1E2E01QYA4AKa4	application/x-dosexec
+1339785890.377262	CwkvlW1ZXMbz3X1ty9	192.168.71.10	1044	37.157.255.170	80	1	GET	37.157.255.170	/522269.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	188928	200	OK	-	-	-	(empty)	-	-	-	-	-	FCXYIC2kcUgTDhoBG1	binary
+1339785891.040563	CwkvlW1ZXMbz3X1ty9	192.168.71.10	1044	37.157.255.170	80	2	GET	37.157.255.170	/522269.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	385024	200	OK	-	-	-	(empty)	-	-	-	-	-	FGYGpw31VLJ9uGLylb	binary
+1339785892.568477	CwkvlW1ZXMbz3X1ty9	192.168.71.10	1044	37.157.255.170	80	3	GET	37.157.255.170	/522269.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	122880	200	OK	-	-	-	(empty)	-	-	-	-	-	FCqLFC1BtGQ7kwBqUi	binary
+1339785892.94112	CwkvlW1ZXMbz3X1ty9	192.168.71.10	1044	37.157.255.170	80	4	GET	37.157.255.170	/522269.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	167936	200	OK	-	-	-	(empty)	-	-	-	-	-	FKpqKS2koE2bqWvID1	binary
+1339785893.31987	CwkvlW1ZXMbz3X1ty9	192.168.71.10	1044	37.157.255.170	80	5	GET	37.157.255.170	/522269.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	338498	200	OK	-	-	-	(empty)	-	-	-	-	-	FtPWOlZRjpFajeOMd	binary
+1339785894.027898	CwkvlW1ZXMbz3X1ty9	192.168.71.10	1044	37.157.255.170	80	6	GET	37.157.255.170	/522269.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	79328	200	OK	-	-	-	(empty)	-	-	-	-	-	FVW4A9cP2lxxvg078	binary
+1339785894.288452	CwkvlW1ZXMbz3X1ty9	192.168.71.10	1044	37.157.255.170	80	7	GET	37.157.255.170	/522269.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	666	200	OK	-	-	-	(empty)	-	-	-	-	-	FNnzUi4XLidQPDloTc	binary
+1339785894.604889	C1ZBivPbg2Uq0WY0j	192.168.71.10	1046	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	28	200	OK	-	-	-	(empty)	-	-	-	-	-	FGggmd3qVbnbFKCLU	text/plain
+1339785894.716186	CDmQY846Owgwzk7jVc	192.168.71.10	1047	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339785894.732341	CNznY03EiZSCK7MvTh	192.168.71.10	1049	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=2&d=7&s=121	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339785894.751482	CKUQVs2Rln4MHxUqOk	192.168.71.10	1055	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=5&d=7&s=20	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339785894.751098	CBYFFp68NObG4SZq8	192.168.71.10	1051	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=3&d=7&s=131	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339785894.753828	Cwe5CX9O48W2szCw5	192.168.71.10	1053	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=4&d=7&s=1	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339785894.974191	CUWgY52tdPC0FKVlz	192.168.71.10	1061	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=7&d=7&s=30	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339785894.973959	CC4Njw3FC4qbmIbevf	192.168.71.10	1058	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=6&d=7&s=21	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339785895.023993	CRineD12hQmRyE4CW3	192.168.71.10	1063	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=8&d=7&s=31	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339785904.534296	CMMRFo2YMjHy1X9AQ5	192.168.71.10	1068	78.140.131.157	80	1	GET	megaupload.com	/file/id=BAAyAAEAJb0AAAEFBhcAAAAAAAAAAAAAAAAAAABrDAYOCwAAALvzJGThERK3rLhwgiZvmW8AAFVVVVVVVVVVVVVVVVVVVVVIS80BDgZ0OI62AABVd3Vtc219Y29lczMyaGc4Zzg4AkaTNQrd_hNvAAAAAAA0VgAA&rt=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)	0	523	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F0OIEi3x9BccRN7EJi	text/html
+1339785904.599553	CWDLzA3mSGuwqowo8l	192.168.71.10	1067	116.255.235.9	80	1	GET	116.255.235.9	/api/urls/?ts=4fd2d95&affid=56300	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	0	404	NOT FOUND	-	-	-	(empty)	-	-	-	-	-	-	-
+1339785906.868483	CTN6Nq3xD81wzYVEPh	192.168.71.10	1071	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	28	200	OK	-	-	-	(empty)	-	-	-	-	-	FahO2J2BQofSueXTXe	text/plain
+1339785906.971392	CBxCcp40nlfo0PuyIg	192.168.71.10	1072	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=1975213520&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339785906.973474	CxuLV4tD5q2tcUB57	192.168.71.10	1076	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=1975213520&c=3&d=7&s=10	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1339785906.975108	Ctvq6l3caNg8NcY3F9	192.168.71.10	1074	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=1975213520&c=2&d=7&s=110	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-10-16-46

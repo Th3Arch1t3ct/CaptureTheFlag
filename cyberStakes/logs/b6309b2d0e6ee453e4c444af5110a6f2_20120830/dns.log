@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-12-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1346285128.044806	CNhGBj3CGPUbPc9mA3	192.168.94.10	1029	4.2.2.3	53	udp	64908	windf.ge	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	212.58.116.71	14377.000000	F
+1346285128.693897	CNhGBj3CGPUbPc9mA3	192.168.94.10	1029	4.2.2.3	53	udp	1420	wggpoefchpfdijfw.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.40.204.64	600.000000	F
+1346285129.016826	CNhGBj3CGPUbPc9mA3	192.168.94.10	1029	4.2.2.3	53	udp	58253	qccbsifhi.almostmy.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.40.204.87	31.000000	F
+1346285139.098529	CpsslT12fQ3P0VhWAl	192.168.94.10	1029	4.2.2.3	53	udp	37005	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	3600.000000,300.000000	F
+1346285139.465589	CpsslT12fQ3P0VhWAl	192.168.94.10	1029	4.2.2.3	53	udp	44175	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	1052.000000,112.000000	F
+1346285141.228444	CpsslT12fQ3P0VhWAl	192.168.94.10	1029	4.2.2.3	53	udp	46472	xxx-xxx.pro	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.40.204.64	28800.000000	F
+1346285142.014885	CpsslT12fQ3P0VhWAl	192.168.94.10	1029	4.2.2.3	53	udp	32392	www-www.pro	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.40.204.64	28800.000000	F
+#close	2014-04-03-10-12-25

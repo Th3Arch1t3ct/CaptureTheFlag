@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-45-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1338612373.265053	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1338612414.333074	CRAm3juipuBdWqB34	192.168.103.10	1070	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338612414.334771	CajXS83bj4DqR4TDIc	192.168.103.10	1072	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338612414.336587	COFwCk1FZxu7pFMWea	192.168.103.10	1074	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338612414.347455	C5epEs4Im25zVWIDwh	192.168.103.10	1076	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338612414.363618	Cfkj6m4ZvDoVHWg94i	192.168.103.10	1078	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338612414.396139	C2ArhA1mvo0BXtJY09	192.168.103.10	1080	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338612414.43008	Cq4lzk3iUL9t5sEDSb	192.168.103.10	1083	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338612414.432305	CVLMtgVwDsL2nf9d4	192.168.103.10	1085	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338612414.451925	CHPbSA36Q8z8VzgdCl	192.168.103.10	1087	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338612414.525606	CAKbnk2vZo8oXKFey5	192.168.103.10	1090	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338612414.543834	C8UnrR2TOOyWZ9HS3e	192.168.103.10	1092	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338612421.737185	Cecgaj2MWZCRq9JdD5	192.168.103.10	1104	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338612421.773173	C1lTdC37SgbLkrATxl	192.168.103.10	1106	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338612422.422833	CL3VR04On3b7TAfyDj	192.168.103.10	1108	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338612422.470146	CezqpL1Vlrmw92u1e8	192.168.103.10	1110	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338612432.219446	C1b5pkpfa9JSHFhZ3	192.168.103.10	1114	31.193.12.27	80	bad_HTTP_request	-	F	bro
+#close	2014-04-03-10-45-48

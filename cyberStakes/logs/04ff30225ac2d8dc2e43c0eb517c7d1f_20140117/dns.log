@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-26-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1389989372.951255	CllVrb1AKQQepyejH1	192.168.30.10	1035	4.2.2.3	53	udp	9374	morozov-art.com.ua	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.200.40.32	60.000000	F
+1389989376.104539	COmKHjjPgTC7uwyx6	192.168.30.10	1042	4.2.2.3	53	udp	20381	www.meteoprog.ua	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.244.10.66	3600.000000	F
+1389989376.058221	CllVrb1AKQQepyejH1	192.168.30.10	1035	4.2.2.3	53	udp	37534	maloyaroslavets-tv.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	212.59.117.31	3600.000000	F
+1389989376.963568	COmKHjjPgTC7uwyx6	192.168.30.10	1042	4.2.2.3	53	udp	31645	ssmammadituttinoi.it	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.133.100.48	3600.000000	F
+1389989377.837544	CllVrb1AKQQepyejH1	192.168.30.10	1035	4.2.2.3	53	udp	31642	146.multiswipe.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.3.145.90	600.000000	F
+1389989377.836473	COmKHjjPgTC7uwyx6	192.168.30.10	1042	4.2.2.3	53	udp	37532	5327.multiswipe.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.3.145.90	600.000000	F
+1389989378.972204	CllVrb1AKQQepyejH1	192.168.30.10	1035	4.2.2.3	53	udp	56474	www3.trf5loz3qi7bjurfb08.4pu.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.116.34.246	30.000000	F
+1389989379.465813	CllVrb1AKQQepyejH1	192.168.30.10	1035	4.2.2.3	53	udp	47002	www1.hzzi8y65iaimk9kt0q7.4pu.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.116.34.246	30.000000	F
+1389989379.568701	CllVrb1AKQQepyejH1	192.168.30.10	1035	4.2.2.3	53	udp	64665	find-and-go.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.47.4.178	300.000000	F
+1389989380.066927	CllVrb1AKQQepyejH1	192.168.30.10	1035	4.2.2.3	53	udp	11160	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.d.akamai.net,96.17.148.33,96.17.148.41	20460.000000,224.000000,14334.000000,20.000000,20.000000	F
+1389989385.17932	CllVrb1AKQQepyejH1	192.168.30.10	1035	4.2.2.3	53	udp	4502	www2.qc302um06cqk0sw6lj3.jvvg.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.116.34.246	86400.000000	F
+1389989431.059912	Clm5qS36LTOaBItGLf	192.168.30.10	1035	64.79.80.221	53	udp	7061	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	209.190.46.199	86400.000000	F
+#close	2014-04-03-10-26-55

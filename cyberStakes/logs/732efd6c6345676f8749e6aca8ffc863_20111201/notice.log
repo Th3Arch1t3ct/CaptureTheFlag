@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-51-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1322703358.235781	Cw0Wf94kH5FSMyvU2c	192.168.45.10	1050	149.255.33.229	80	FvzptF4Ma2FADki42d	application/x-dosexec	http://bestfilms1.in/?c237b5086eeb8b8d437132f91ebcec2f	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2011-12-14 07:24:06	https://www.virustotal.com/en/search/?query=0612b243ebe9c0ad26e0d9aa3590e326ef437582	192.168.45.10	149.255.33.229	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1322703419.359811	CSV58I2pbWMigtzsr8	192.168.45.10	1051	149.255.33.229	80	F6JEXF8E7JYvFMLGg	application/x-dosexec	http://bestfilms1.in/?317e54fb954d641c6a5b7efc64885b19	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 69%  Last seen: 2012-08-08 15:31:38	https://www.virustotal.com/en/search/?query=ae96df530701c39443999d6cfa4a68b9e8d34268	192.168.45.10	149.255.33.229	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-51-04

@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-24-41
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1338522867.860873	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1338522895.325827	CyHp6S1VmLc1LAAjN5	192.168.96.10	1047	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338522895.327274	CV97H83EAmpcsUdCyk	192.168.96.10	1049	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338522895.330851	CUrMz8Kg2UggtVzW2	192.168.96.10	1051	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338522895.337874	CBQP9I3QqD6OkObk2	192.168.96.10	1053	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338522895.351762	CXab5g4o3sHadl12Dh	192.168.96.10	1055	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338522895.480513	CYmIMGtvpwu57tJn8	192.168.96.10	1059	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338522895.490674	CxI8Xv2ZAcinv01NOe	192.168.96.10	1061	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338522895.491869	CAV2Ef1rHmPcsicwia	192.168.96.10	1063	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338522895.519189	C1sIAU2NjS6j2rMk2g	192.168.96.10	1065	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338522895.525995	CsH9lv1Q92aZFVUhU1	192.168.96.10	1067	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338522895.555271	CRxGfF42FFz91t8KNi	192.168.96.10	1069	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338522902.867536	CbUENs3s0XwIZ9sogh	192.168.96.10	1074	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338522902.909018	CQZVwCITQ2jhYagm	192.168.96.10	1076	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338522903.237777	C9wHUk4LEWIYOKONue	192.168.96.10	1078	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338522903.484735	CAQcPa17D6KWKR6lK8	192.168.96.10	1080	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338522905.694275	COw1hN1C94imNvuyg3	192.168.96.10	1083	31.193.12.27	80	bad_HTTP_request	-	F	bro
+#close	2014-04-03-10-24-41

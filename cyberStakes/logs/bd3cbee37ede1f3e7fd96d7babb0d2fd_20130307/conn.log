@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-11-05-52
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1362694626.422975	CUgrL64RaV1bkioMz6	192.168.61.10	1038	178.216.168.121	80	tcp	http	1.112414	313	15270	SF	-	0	ShADadFf	11	761	14	15838	(empty)
+1362694629.100512	CKAjo91RsYspbV32Kb	192.168.61.10	1039	178.216.168.121	80	tcp	http	1.690738	219	115107	SF	-	0	ShADadFf	46	2067	82	118395	(empty)
+1362694617.573535	CygSqw45tjX1V4qdJ7	192.168.61.10	1029	4.2.2.3	53	udp	dns	8.521180	164	325	SF	-	0	Dd	4	276	4	437	(empty)
+1362694640.434984	CfciHA47OGpzM4tcp7	192.168.61.10	1041	66.197.215.165	80	tcp	-	3.302477	455	1344704	SF	-	0	ShADdaFf	564	23023	1001	1384752	(empty)
+1362694600.819052	CxeH6k4hQEtB2Scaz5	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.027668	626	0	S0	-	0	D	2	682	0	0	(empty)
+1362694600.8193	ClvCuVh6x5OXKgqnb	192.168.61.10	68	192.168.61.1	67	udp	dhcp	13.563713	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1362694676.425777	CMcDQgD9ZIdlvFfVd	192.168.61.10	1043	66.197.215.165	80	tcp	-	0.713817	153	40	SF	-	0	ShADdaFf	10	561	9	408	(empty)
+1362694618.54513	Cp4QV2FYP5PCBVvYe	192.168.61.10	1031	178.216.168.121	80	tcp	http	40.095814	1540	267915	S1	-	0	ShADad	138	7212	204	293603	(empty)
+1362694643.188865	CHzL9FHMFLsdqbFHa	192.168.61.10	1042	66.197.215.165	443	tcp	-	8.010557	1654	290	S1	-	0	ShADda	11	2102	10	698	(empty)
+1362694626.10851	Cw6eID3rGjojXFPHxc	192.168.61.10	1037	64.4.52.169	80	tcp	http	0.364781	476	239	S1	-	0	ShADd	4	644	2	327	(empty)
+1362694625.800631	COsUzrPiDoHQeQNvf	192.168.61.10	1036	64.4.52.169	80	tcp	http	0.374062	479	239	S1	-	0	ShADd	4	647	2	327	(empty)
+1362694617.698287	CwYVXJ30KMR4198H9	192.168.61.10	1030	217.23.12.215	80	tcp	http	66.319243	769	1251	RSTO	-	0	ShADadR	6	1017	5	1455	(empty)
+1362694625.563609	CVrBS143xBOfbfmg79	192.168.61.10	1034	239.255.255.250	1900	udp	-	6.592861	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-11-05-52

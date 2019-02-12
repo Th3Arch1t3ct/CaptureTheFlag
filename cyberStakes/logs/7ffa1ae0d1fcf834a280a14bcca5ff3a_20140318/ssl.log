@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-11-11-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1395180076.612218	CdnJUG2SNYu5GFAaug	192.168.56.10	1067	173.194.33.173	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.g.doubleclick.net,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1393362512.000000	1401080400.000000	-	-	-	10c1d2e24309bdf82985ef005c2a5511	ok
+1395180195.129387	CZe0os3zIcH94TM5Ka	192.168.56.10	1113	12.129.210.71	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=bs.serving-sys.com,OU=US,O=Digital Generation\, Inc.,L=Irving,ST=Texas,C=US	CN=Thawte SSL CA,O=Thawte\, Inc.,C=US	1376456400.000000	1502686799.000000	-	-	-	92b0490ae416a07d7970d000409bb510	ok
+#close	2014-04-03-11-11-02

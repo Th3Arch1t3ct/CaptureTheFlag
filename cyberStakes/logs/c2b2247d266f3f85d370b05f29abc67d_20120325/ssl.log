@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-14-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1332702654.257755	CU83LW20SUxvzR32dh	192.168.53.10	1041	74.125.45.139	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1331217831.000000	1362754431.000000	-	-	-	266d0253fc5f3f88fab45a4bf3f1c389	ok
+1332702654.317432	CuuHysIQpKSMk4iAa	192.168.53.10	1042	74.125.45.139	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1331217831.000000	1362754431.000000	-	-	-	266d0253fc5f3f88fab45a4bf3f1c389	ok
+1332702655.027264	CaP3MGmJVKDPBHt8	192.168.53.10	1044	74.125.45.139	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	69b8b336e4fe5d7da3c928662f17bd2a14af21db0f90a5c24239385f5a46424a	-	-	-	-	-	-	-	-	-
+1332702655.040325	C7761E23hyynAedVdk	192.168.53.10	1047	74.125.45.139	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	69b8b336e4fe5d7da3c928662f17bd2a14af21db0f90a5c24239385f5a46424a	-	-	-	-	-	-	-	-	-
+1332702655.105179	CNZSFw2bW4uydMdimj	192.168.53.10	1049	74.125.45.139	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	69b8b336e4fe5d7da3c928662f17bd2a14af21db0f90a5c24239385f5a46424a	-	-	-	-	-	-	-	-	-
+1332702655.196573	CBbOOo2BY8jtePjfnl	192.168.53.10	1051	74.125.45.139	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	69b8b336e4fe5d7da3c928662f17bd2a14af21db0f90a5c24239385f5a46424a	-	-	-	-	-	-	-	-	-
+1332702676.317357	CTalki1EMoj8w3L6Y3	192.168.53.10	1055	74.125.45.100	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	69b8b336e4fe5d7da3c928662f17bd2a14af21db0f90a5c24239385f5a46424a	-	-	-	-	-	-	-	-	-
+1332702676.369032	C3bc1G4uXXkC5MKKtd	192.168.53.10	1056	74.125.45.100	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	69b8b336e4fe5d7da3c928662f17bd2a14af21db0f90a5c24239385f5a46424a	-	-	-	-	-	-	-	-	-
+1332702676.542311	Chp6Eo10Le5RBNvxM4	192.168.53.10	1057	74.125.45.100	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	69b8b336e4fe5d7da3c928662f17bd2a14af21db0f90a5c24239385f5a46424a	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-14-59

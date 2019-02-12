@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-16-16
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1389734927.994483	CeRHl32poSKfKUprJ1	192.168.60.10	1035	4.2.2.3	53	udp	42881	www.mhwf.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	mhwf.org,212.83.154.199	14373.000000,14376.000000	F
+1389734929.357966	CeRHl32poSKfKUprJ1	192.168.60.10	1035	4.2.2.3	53	udp	48769	twitter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.59.149.230,199.59.150.7,199.59.149.198	17.000000,17.000000,17.000000	F
+1389734930.302001	CeRHl32poSKfKUprJ1	192.168.60.10	1035	4.2.2.3	53	udp	39555	evsecure-crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.ws.symantec.com.edgekey.net,e6845.ce.akamaiedge.net,23.5.5.163	232.000000,1119.000000,3.000000	F
+1389734930.303632	C66eJn3EbElPmPwKWi	192.168.60.10	1051	4.2.2.3	53	udp	2946	evsecure-crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.ws.symantec.com.edgekey.net,e6845.ce.akamaiedge.net,23.5.5.163	4.000000,1024.000000,11.000000	F
+1389734931.79402	CeRHl32poSKfKUprJ1	192.168.60.10	1035	4.2.2.3	53	udp	33668	lms.heryerokul.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	75.119.204.155	14400.000000	F
+1389735012.075729	CEKOzP0GbaWJ2WOi6	192.168.60.10	1035	4.2.2.3	53	udp	19335	is-plus.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	162.243.233.96	3600.000000	F
+1389735021.58506	CEKOzP0GbaWJ2WOi6	192.168.60.10	1035	4.2.2.3	53	udp	4999	immokfiqmakoo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	185.20.227.220,81.17.140.104,81.17.140.104,185.20.227.220	78.000000,78.000000,78.000000,78.000000	F
+#close	2014-04-03-11-16-16

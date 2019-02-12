@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-00-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1338695993.551372	CraJNlVfUDi22DWga	192.168.12.10	1029	4.2.2.3	53	udp	54414	ariseheadsets.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.120.5.195	14373.000000	F
+1338695993.742018	CraJNlVfUDi22DWga	192.168.12.10	1029	4.2.2.3	53	udp	56974	ineed.co.nz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	119.47.120.52	600.000000	F
+1338695994.013733	CraJNlVfUDi22DWga	192.168.12.10	1029	4.2.2.3	53	udp	45709	www.paypalobjects.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.paypalobjects.com.akadns.net,www.paypalobjects.com.edgekey.net,e4517.g.akamaiedge.net,173.222.162.85	293.000000,293.000000,293.000000,13.000000	F
+1338696007.70687	C0eGRG3oEU4aE5r4Re	192.168.12.10	1029	4.2.2.3	53	udp	57740	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,173.194.37.49,173.194.37.50,173.194.37.51,173.194.37.52,173.194.37.48	42310.000000,65.000000,65.000000,65.000000,65.000000,65.000000	F
+1338696031.389591	C5UZIT1nygZYmFAry	192.168.12.10	1029	4.2.2.3	53	udp	16523	clients1.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	clients.l.google.com,173.194.37.35,173.194.37.36,173.194.37.37,173.194.37.38,173.194.37.39,173.194.37.40,173.194.37.41,173.194.37.46,173.194.37.32,173.194.37.33,173.194.37.34	160.000000,122.000000,122.000000,122.000000,122.000000,122.000000,122.000000,122.000000,122.000000,122.000000,122.000000,122.000000	F
+#close	2014-04-03-11-00-44

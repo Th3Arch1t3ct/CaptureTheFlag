@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-11-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1328725471.89336	CUZsWl20y0GXa7uuT1	192.168.44.10	1041	46.249.35.81	80	FNUtJLBadE72xu4Ij	application/x-dosexec	http://www1.firstdefenseio.82i.net/?p9zxlh8kd=lJzn3KnNsNCK29LWsKyUmpaL4ufRptWhnK/bn51vzZydj+bmsZWYmJ2lpZqbqKVf5uupmWibm4zK1NXmoaa8uLOZ1dLTrWyg65A=&t=31	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2012-02-12 17:34:11	https://www.virustotal.com/en/search/?query=5e0269dc484ebe5216dabe0881183366c7297009	192.168.44.10	46.249.35.81	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328725471.89336	CMDQub1bhOEdScZMni	192.168.44.10	1043	46.249.35.81	80	FL7dj44t2nQ2Yp2olf	application/x-dosexec	http://www1.firstdefenseio.82i.net/?3gz2n3=V8rnlquY3s6Y6N3Iop6Vo6OL3eOfpOBj0WjJnKeq1pycjNnhsJacoWuerGegbJuP3uaxlZWWnJTUx8vhcKjQhbNZ1tLWsKeK2Io=&t=15	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2012-02-12 17:34:11	https://www.virustotal.com/en/search/?query=5e0269dc484ebe5216dabe0881183366c7297009	192.168.44.10	46.249.35.81	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-11-13

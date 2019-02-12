@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-55-39
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1357974248.572184	FKUBkC1b9kvKIuKn0k	93.170.52.21	192.168.55.10	CaAUItPcYVJMx0Zlh	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	1109	-	0	0	F	-	77467ba82781f40660c8cb5cbc7cfb7c	7a15714c4d7ac3f2ec4f0a71d761a23515fc7097	-	-
+1357974248.678411	FIfycvj45SlNSxm31	74.125.139.101	192.168.55.10	C6AMCE1tZl3KuphnSb	HTTP	0	SHA1,MD5	text/plain	-	0.002158	-	F	37362	-	0	0	F	-	f5592eabae33f8499d067344f1f42183	142a9875c4bd7e15ce6ac8b5bb181fb29ed08ba5	-	-
+1357974248.797585	Ffwucw1xDOQj8M73D1	72.8.167.249	192.168.55.10	C1uLCtPHSjIsVRVui	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	568	568	0	0	F	-	e797d0d89e485222f201245cb503af71	d722caa9c7f8dbbac15058999ea3992ed0640449	-	-
+1357974248.830951	FfeWj6Z47D3JyBOAd	74.125.139.101	192.168.55.10	C6AMCE1tZl3KuphnSb	HTTP	0	SHA1,MD5	image/gif	-	0.000000	-	F	35	35	0	0	F	-	28d6814f309ea289f847c69cf91194c6	0f4e929dd5bb2564f7ab9c76338e04e292a42ace	-	-
+1357974248.945596	FTkZkK3a9MgopPNVf6	208.131.138.217	192.168.55.10	C8u7Ri1rlUAuNF3PXc	HTTP	0	SHA1,MD5	text/html	-	0.000018	-	F	3239	3239	0	0	F	-	9d7bfaa15fde84c92293297f6887feeb	be62ec9f5915900c5c21abb4b518a9eb01a0cd4c	-	-
+1357974249.091254	Fow5lC18bGwSBds3P	208.131.138.217	192.168.55.10	CdPof80nJbfH1H685	HTTP	0	SHA1,MD5	application/x-dosexec	MeBitchGIF.exe	0.070329	-	F	33580	167936	0	0	F	-	d4050772fd78fd4267f1bc196d74dac5	dd1f1715499242455f151d5e3ac2195e264d081d	-	-
+#close	2014-04-03-10-55-39

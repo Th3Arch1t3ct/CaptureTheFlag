@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-04-50
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1350609861.617306	FkwWyw1ITpaeIR3tfa	5.9.35.139	192.168.40.10	CLyYg94x4xhbTwV8y7	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	232	-	0	0	F	-	980b2b556b466c1229cad8fe3718bb83	25fb8cefbdb63ea9cf08e70e4214643e3e6562ed	-	-
+1350609862.177698	FzYcjjFx98sNsZbz5	46.165.206.16	192.168.40.10	CbCIAX3c7iLqD4H9Ui	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	226	-	0	0	F	-	fb975b6121bf7f11984f3c7909c412d9	94ac0110d5d2b5abfb0ad4621f829a9b98458ea8	-	-
+1350609862.669483	FtiTe6OqIfsNAMzsh	85.17.200.167	192.168.40.10	C4U5Rw1cwaTlY7SIB2	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	588	-	0	0	F	-	dfdfb94aeac87875e81b1a5de9077f0d	93666a3421adf0923e245511f55ef6c7bf86455e	-	-
+1350609862.892761	Ff7ugL3FRWzBkbqMbe	85.17.200.167	192.168.40.10	C4U5Rw1cwaTlY7SIB2	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	897	-	0	0	F	-	e7419b72ff085f23810068fc33260297	6b3efe7d1d9013477d29f9d2d93599a68c5251b5	-	-
+1350609863.221591	FTvX8M1TZJK4DZNk5k	46.165.206.16	192.168.40.10	CbYoCF2Lq3MgXRBBQc	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	366	-	0	0	F	-	f1c9f2fddc750f78813783c26118ba3c	727e491ac536d5012c0ca83bdc574ecdb6f09168	-	-
+1350609863.647461	FXDRFn4FID6XhoCanl	91.229.56.19	192.168.40.10	CK9YCtO92Wa7sxdr	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	173	-	0	0	F	-	3b99a84e9dfc59eaa4dd7cf226c10d07	7eb3b7a6fa683068a838195598f5d4e7add04a62	-	-
+1350609863.964265	Fi9e73QaFsvBFRDRi	85.17.200.167	192.168.40.10	C4U5Rw1cwaTlY7SIB2	HTTP	0	MD5,SHA1	application/pdf	4467.pdf	0.099677	-	F	6036	6036	0	0	F	-	013314c07d8da06bd7cec91d2648856d	88098c1b8ea1e5d2e8bceaf2dca8d192afcb9452	-	-
+1350609881.119507	FU1LcU3OH94yZslg2i	85.17.200.167	192.168.40.10	C4U5Rw1cwaTlY7SIB2	HTTP	0	MD5,SHA1	application/x-dosexec	load/153.exe	0.399466	-	F	47616	47616	0	0	F	-	2fc5c2f13e05b20693f3289a878ab776	f3818429cf105455d1a7c4643de5593f5b757fb8	-	-
+1350609883.828325	FJTLUB4pbE7aHmb7Gj	85.17.200.167	192.168.40.10	C8Z2A1FoSoARbyvz6	HTTP	0	MD5,SHA1	application/jar	-	0.201017	-	F	14085	14085	0	0	F	-	f7e2d29f5893c331d067032bc23c2f04	9e027bac7997c779c006c22376c91dfbe5a6c84b	-	-
+#close	2014-04-03-10-04-50

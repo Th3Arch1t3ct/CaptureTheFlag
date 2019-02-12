@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-44-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1338607382.431034	Cqdw131VthgWOaKgoi	192.168.24.10	1055	208.76.26.52	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.infusionsoft.com,OU=Domain Control Validated - RapidSSL(R),OU=See www.rapidssl.com/resources/cps (c)10,OU=1160287461,O=*.infusionsoft.com,C=US,serialNumber=NKGOsGdC50A2wZ6PSnQ2o4b7r2FaJwu0	OU=Equifax Secure Certificate Authority,O=Equifax,C=US	1276391152.000000	1344921804.000000	-	-	-	61d900be0fa25e557a64773e26bf50d9	ok
+1338607383.43065	CaHYsl1mGqIfuUh6Y8	192.168.24.10	1058	208.76.26.52	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	46cc00ba84e142e8fc402fbc343d85579650d1151c00164c8a7a912f6cd521d7	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-44-25

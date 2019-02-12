@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-11-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1318596168.559109	CBXAVt24ehYDyqvQD5	192.168.7.10	1061	91.217.153.87	80	Fkcygc27DfgrQNu8l4	application/jar	http://egrousmeca.myftp.org//images/938a99f1be85e19406438f9a572fdf71.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2011-10-26 20:31:04	https://www.virustotal.com/en/search/?query=e62f148fcc5b8c9f866dc69ae001cff776caf8aa	192.168.7.10	91.217.153.87	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1318596169.29333	CqGQDfXOAL0hK10vi	192.168.7.10	1064	91.217.153.87	80	Fg5qNE1eDNEETZ1Ufc	application/jar	http://egrousmeca.myftp.org//images/938a99f1be85e19406438f9a572fdf71.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2011-10-26 20:31:04	https://www.virustotal.com/en/search/?query=e62f148fcc5b8c9f866dc69ae001cff776caf8aa	192.168.7.10	91.217.153.87	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1318596169.662324	CqGQDfXOAL0hK10vi	192.168.7.10	1064	91.217.153.87	80	Fl5Liu1pJ6dkhMr9m2	application/jar	http://egrousmeca.myftp.org//images/938a99f1be85e19406438f9a572fdf71.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2011-10-26 20:31:04	https://www.virustotal.com/en/search/?query=e62f148fcc5b8c9f866dc69ae001cff776caf8aa	192.168.7.10	91.217.153.87	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-11-14

@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-20-16
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1325012494.376951	CaCxvh20tOfJX6fqgc	192.168.35.10	1041	91.211.119.22	80	FDNkgE4ZwlgcqLWs0c	application/x-shockwave-flash	http://91.211.119.22/flash/yviuktepjzavc.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 67%  Last seen: 2011-12-28 08:24:45	https://www.virustotal.com/en/search/?query=5954de600c7c6e63cc427c2e7a18fbefc6f1a9b0	192.168.35.10	91.211.119.22	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1325012494.765387	CLc3tB2ozE1E8oUIt	192.168.35.10	1042	91.211.119.22	80	FpE57k3OQMMyYcllY7	application/pdf	http://91.211.119.22/flash/irhqelxnkoemhpa.pdf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 75%  Last seen: 2011-12-28 09:20:55	https://www.virustotal.com/en/search/?query=c146ca01a7bd8e932f095b092cabc6f857364fd7	192.168.35.10	91.211.119.22	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1325012506.205094	CDq16I2Vei69jJpZSc	192.168.35.10	1058	91.211.119.22	80	FPdDUaFKmjkfhSuy3	application/pdf	http://91.211.119.22/flash/drxtaubojmcth.pdf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 67%  Last seen: 2011-12-28 09:41:16	https://www.virustotal.com/en/search/?query=34319495451d19935e0dba0305439a929f0d2a53	192.168.35.10	91.211.119.22	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1325012508.812082	C6jtpO3fobkrBZrCD5	192.168.35.10	1061	91.211.119.22	80	FZ73Yb3rHadbfjy6Vl	application/jar	http://91.211.119.22/flash/ftxqgnjngvbt.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 55%  Last seen: 2013-04-21 00:46:07	https://www.virustotal.com/en/search/?query=81a274046b2f3fc90c967a6ba26add941cd8ba41	192.168.35.10	91.211.119.22	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1325012508.853197	Ccz96c1WH6NNxfD0of	192.168.35.10	1062	91.211.119.22	80	FlGlFR35efXsRUy7B5	application/jar	http://91.211.119.22/flash/frhmenengrdz.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 14%  Last seen: 2011-12-14 08:31:09	https://www.virustotal.com/en/search/?query=ccded41a7eae60999686b668fd4e4e8bd50b7aa5	192.168.35.10	91.211.119.22	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-20-18

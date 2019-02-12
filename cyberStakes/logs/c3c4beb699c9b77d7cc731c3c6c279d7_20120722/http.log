@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-52-40
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1342932560.048033	C6I22D2r7bYqMMC7fa	192.168.124.10	1030	193.202.110.211	80	1	GET	topnice.dk	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3864	200	OK	-	-	-	(empty)	-	-	-	-	-	F7iknI1FD65HDfWUl2	text/html
+1342932560.342793	C0rJFleNZiTjDMace	192.168.124.10	1031	193.202.110.211	80	1	GET	topnice.dk	/img/photo.jpg	http://topnice.dk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	205645	200	OK	-	-	-	(empty)	-	-	-	-	-	FNUbXfV71lleOUTe9	image/jpeg
+1342932561.181541	Cvwlgx3d2QKWSWUCO4	192.168.124.10	1032	71.18.7.196	80	1	GET	michaelmazur.net	/xml.php	http://topnice.dk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1342932565.311992	CF58SG1w8KFHdPxW5k	192.168.124.10	1033	82.98.144.31	80	1	GET	em-publicaciones.com	/88973516.html	http://topnice.dk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	12416	200	OK	-	-	-	(empty)	-	-	-	-	-	FBpikw4VcS2KwZlfd2	text/html
+1342932575.324579	CF58SG1w8KFHdPxW5k	192.168.124.10	1033	82.98.144.31	80	2	GET	em-publicaciones.com	/98765.pdf	http://em-publicaciones.com/88973516.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5190	200	OK	-	-	-	(empty)	-	-	-	-	-	FO3Vfr3tNGvAFqYOH7	application/pdf
+1342932576.282654	CY5t7B1Gs3bRjJcGjj	192.168.124.10	1038	82.98.144.31	80	1	GET	em-publicaciones.com	/33256.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11531	200	OK	-	-	-	(empty)	-	-	-	-	-	FCueTR2x1CAv3CJvpd	application/jar
+1342932581.725122	CY5t7B1Gs3bRjJcGjj	192.168.124.10	1038	82.98.144.31	80	2	GET	em-publicaciones.com	/33256.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11531	200	OK	-	-	-	(empty)	-	-	-	-	-	FmioKnKqrk8XqJBkb	application/jar
+1342932582.253621	CY5t7B1Gs3bRjJcGjj	192.168.124.10	1038	82.98.144.31	80	3	GET	em-publicaciones.com	/33256.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11531	200	OK	-	-	-	(empty)	-	-	-	-	-	FqPWNR13C0WH4aweX8	application/jar
+1342932583.61402	CY5t7B1Gs3bRjJcGjj	192.168.124.10	1038	82.98.144.31	80	4	GET	em-publicaciones.com	/33256.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11531	200	OK	-	-	-	(empty)	-	-	-	-	-	FyhjWG1e56wSze8RZk	application/jar
+1342932584.253538	CY5t7B1Gs3bRjJcGjj	192.168.124.10	1038	82.98.144.31	80	5	GET	em-publicaciones.com	/3.html	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	1536	200	OK	-	-	-	(empty)	-	-	-	-	-	FR82YN2GICdGmMxIwj	application/x-dosexec
+1342932581.794659	C30akr2FXjgoOZCnFa	192.168.124.10	1039	82.98.144.31	80	1	GET	em-publicaciones.com	/2.html	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1536	200	OK	-	-	-	(empty)	-	-	-	-	-	F0dwBzokDJQjtzT34	application/x-dosexec
+#close	2014-04-03-09-52-40

@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-39-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1361731786.270828	ClrlJq1xA0Y5YcnaZ6	192.168.110.10	1049	37.9.53.92	8888	FiWF9V3RmMgm85Lr8f	application/x-dosexec	http://trouth-nast.com:8888/tcp/2ti5jL0jiSD0JfIN0jSMz0Rdvz16fOl0cI5P08aBY0DMlV0iEwv12HGp0bd1R0ipIH055Wr0GPGY072kt0cPOw0NGfP0gNBC16d7C0teR30S1PD10hGy16rfb05okH0T0Nt0Yt0b0M4ZD04ywK0KHtk15Yuw0Cmzr14xkz0BBdB0jTwi187200E8Rs0TqOl0gt54/50c47G4h1V.exe?o=1&h=11	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 28%  Last seen: 2013-02-28 23:53:10	https://www.virustotal.com/en/search/?query=7d477e8486a1cdf352b545f48f74aa24cc75d05d	192.168.110.10	37.9.53.92	8888	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-39-23

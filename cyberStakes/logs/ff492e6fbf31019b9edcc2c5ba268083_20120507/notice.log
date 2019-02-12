@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-22-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1336359168.435903	CjyaLH2YEVHFkB4de5	192.168.69.10	1067	37.59.198.59	80	FcIiF90Pda709QlQb	application/x-dosexec	http://stucat.org/?835b6d714ed5e2f5135a583d17ea022b	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-05-11 01:17:35	https://www.virustotal.com/en/search/?query=ed346a58cd9c77094a7a9ea94c8842010550e1b6	192.168.69.10	37.59.198.59	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336359170.843543	CoyIWj2taACcx3pt1i	192.168.69.10	1071	37.59.198.59	80	FXfqRC1h4pzCpm6vC9	application/x-dosexec	http://stucat.org/?8c057f7df2ffa0464120ef9d6dbbc8b4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-05-11 01:17:35	https://www.virustotal.com/en/search/?query=ed346a58cd9c77094a7a9ea94c8842010550e1b6	192.168.69.10	37.59.198.59	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336359173.970248	CvqwyU2ARdhbonqB9j	192.168.69.10	1073	37.59.198.59	80	F0IGoM17x2tcLicob9	application/x-dosexec	http://stucat.org/?97b2016e23bff05f696caa0aedb9f21d	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-05-17 14:30:04	https://www.virustotal.com/en/search/?query=b4dcfb8c0d5d0c0c8a380e1c44e93d2c51378873	192.168.69.10	37.59.198.59	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336359192.360249	CsP6D63JX1Oa2MqCy	192.168.69.10	1237	77.79.7.96	80	FlVtvK1Nw0AY3iqsre	application/x-dosexec	http://polyposhka.slx.nl/file/1.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-05-05 04:19:13	https://www.virustotal.com/en/search/?query=110f05ea6bbce82a74d64ac2c2e72d88ff0644fa	192.168.69.10	77.79.7.96	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336359220.672368	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.69.10 scanned at least 25 unique hosts on port 34354/tcp in 0m37s	remote	192.168.69.10	-	34354	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-22-49

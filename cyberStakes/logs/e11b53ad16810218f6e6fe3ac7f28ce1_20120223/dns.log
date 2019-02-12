@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-08-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1330034075.613777	COAiJN3IIu1Xx41wDd	192.168.39.10	1029	4.2.2.3	53	udp	19343	xn--mobilewerbetrger-7nb.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.165.115.85	10776.000000	F
+1330034077.701823	COAiJN3IIu1Xx41wDd	192.168.39.10	1029	4.2.2.3	53	udp	32653	karenbrowntx.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.124.199.1	1800.000000	F
+1330034078.006584	COAiJN3IIu1Xx41wDd	192.168.39.10	1029	4.2.2.3	53	udp	28042	ww.turningsbyterry.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	83.69.236.17	3600.000000	F
+1330034078.42687	COAiJN3IIu1Xx41wDd	192.168.39.10	1029	4.2.2.3	53	udp	9099	itpw.org.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.171.105.43	300.000000	F
+1330034086.941593	COAiJN3IIu1Xx41wDd	192.168.39.10	1029	4.2.2.3	53	udp	45448	bober.net.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.171.105.43	300.000000	F
+#close	2014-04-03-10-08-49

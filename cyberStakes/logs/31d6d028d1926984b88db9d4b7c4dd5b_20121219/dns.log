@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-52-19
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1355878887.775007	C6wHcGJKQkwX49VJf	192.168.43.10	1029	4.2.2.3	53	udp	50572	jomo-catering.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	80.237.133.13	86400.000000	F
+1355878888.403291	C6wHcGJKQkwX49VJf	192.168.43.10	1029	4.2.2.3	53	udp	26255	fonts.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.137.95	2411.000000,130.000000	F
+1355878889.272734	C6wHcGJKQkwX49VJf	192.168.43.10	1029	4.2.2.3	53	udp	12686	themes.googleusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlehosted.l.googleusercontent.com,173.194.37.107,173.194.37.108,173.194.37.106	60885.000000,139.000000,139.000000,139.000000	F
+1355878889.644035	C6wHcGJKQkwX49VJf	192.168.43.10	1029	4.2.2.3	53	udp	29577	diakmbf.freewww.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.208.76.159	31.000000	F
+1355878889.962171	C6wHcGJKQkwX49VJf	192.168.43.10	1029	4.2.2.3	53	udp	28297	dqfedj.wikaba.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.208.80.185	31.000000	F
+1355878897.730649	C6wHcGJKQkwX49VJf	192.168.43.10	1029	4.2.2.3	53	udp	50827	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	2181.000000,262.000000	F
+1355878898.286424	C6wHcGJKQkwX49VJf	192.168.43.10	1029	4.2.2.3	53	udp	7562	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	2885.000000,600.000000	F
+1355878898.860807	C6wHcGJKQkwX49VJf	192.168.43.10	1029	4.2.2.3	53	udp	24452	www.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.wip4.adobe.com,192.150.16.64	835.000000,15.000000	F
+1355878898.928263	C6wHcGJKQkwX49VJf	192.168.43.10	1029	4.2.2.3	53	udp	16516	wwwimages.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wwwimages.wip4.adobe.com,wwwimages.adobe.com.edgesuite.net,wwwimages.adobe.com.edgesuite.net.globalredir.akadns.net,a1953.x.akamai.net,192.204.82.120,192.204.82.146	28.000000,325.000000,10089.000000,325.000000,13.000000,13.000000	F
+1355878899.895656	C6wHcGJKQkwX49VJf	192.168.43.10	1029	4.2.2.3	53	udp	45446	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.d.akamai.net,65.120.60.65,65.120.60.59	15589.000000,60.000000,19861.000000,20.000000,20.000000	F
+1355878903.362625	CB7E8N2irkzGLHnmAh	192.168.43.10	1029	4.2.2.5	53	udp	32641	reliabilitytedium.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.20.141.85	600.000000	F
+1355878904.61324	CB7E8N2irkzGLHnmAh	192.168.43.10	1029	4.2.2.5	53	udp	64896	bufferlumia.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.20.141.23	600.000000	F
+1355878902.255426	C6wHcGJKQkwX49VJf	192.168.43.10	1029	4.2.2.3	53	udp	32641	reliabilitytedium.info	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1355878931.826489	CHxbjC2XcYrfb16gKi	192.168.43.10	1029	4.2.2.3	53	udp	32641	-	-	-	-	-	0	NOERROR	F	F	F	T	0	195.20.141.85	600.000000	F
+#close	2014-04-03-09-52-19

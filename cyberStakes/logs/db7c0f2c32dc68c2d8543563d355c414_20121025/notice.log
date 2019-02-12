@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-00-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1351199427.227471	COsB3p3O5aYaXHis47	192.168.9.10	1033	46.235.8.175	80	Fcif9cPRYLAx6n6i8	application/x-dosexec	http://sdcwpnsua.ddns.info/k/causes/uses_project.php?uqblgybp=02360a0837&fmeuxtg=02023303070402083504&ggxe=04&iwywwdcp=lmnk&bfqwjjlc=agxsyf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 34%  Last seen: 2012-10-28 06:58:11	https://www.virustotal.com/en/search/?query=dc6431d122eb97df53f9eeeeaa313726eb360465	192.168.9.10	46.235.8.175	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1351199427.227471	CLXGVryU0ZuYdoNU	192.168.9.10	1041	46.235.8.175	80	FVFiya3KpFzVHFFUff	application/x-dosexec	http://sdcwpnsua.ddns.info/k/causes/uses_project.php?szcc=02360a0837&fmiapo=02023303070402083504&lgpceg=03&wvr=sexdv&ximivpoe=kimjel	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 34%  Last seen: 2012-10-28 06:58:11	https://www.virustotal.com/en/search/?query=dc6431d122eb97df53f9eeeeaa313726eb360465	192.168.9.10	46.235.8.175	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1351199548.391253	Cv6lgPmGB3pKjPSXl	192.168.9.10	1044	46.235.8.175	80	F1Iwmq2SvORzbQdIGa	application/x-dosexec	http://sdcwpnsua.ddns.info/k/causes/uses_project.php?ff=02360a0837&be=02023303070402083504&h=02&so=m&rw=w	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 34%  Last seen: 2012-10-28 06:58:11	https://www.virustotal.com/en/search/?query=dc6431d122eb97df53f9eeeeaa313726eb360465	192.168.9.10	46.235.8.175	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-00-49

@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-22-27
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1358884723.632537	CBYwzM1UWQ33QuAPbj	192.168.5.10	1130	194.44.49.45	80	FBdUHz28VzLgg9XKR5	application/x-dosexec	http://info.imagenesandinas.com.ar/op/fageject.php?	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 85%  Last seen: 2013-11-04 14:29:23	https://www.virustotal.com/en/search/?query=57b99aa8f9bdc45ce93060baf41b193ab56bafd6	192.168.5.10	194.44.49.45	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1358884726.408433	CvszU3ABR0EgNEuK4	192.168.5.10	1151	194.44.49.45	80	FrXSSJ3OwuP6R8c8pa	application/x-dosexec	http://info.imagenesandinas.com.ar/op/fageject.php?;1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 85%  Last seen: 2013-11-04 14:29:23	https://www.virustotal.com/en/search/?query=57b99aa8f9bdc45ce93060baf41b193ab56bafd6	192.168.5.10	194.44.49.45	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1358884773.294517	Cir3EzT0uZ5nUzjGg	192.168.5.10	1158	194.44.49.45	80	FhNmntTmsHTrYo926	application/x-dosexec	http://info.imagenesandinas.com.ar/op/leevagil.php	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 85%  Last seen: 2013-11-04 14:29:23	https://www.virustotal.com/en/search/?query=57b99aa8f9bdc45ce93060baf41b193ab56bafd6	192.168.5.10	194.44.49.45	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-22-28

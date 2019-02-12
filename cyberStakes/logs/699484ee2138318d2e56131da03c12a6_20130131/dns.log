@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-33-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1359602287.970552	CQv4Ak2GJejSdP5r5	192.168.104.10	1029	4.2.2.3	53	udp	56970	szulikowski.pl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.96.37.198	3600.000000	F
+1359602291.857754	CQv4Ak2GJejSdP5r5	192.168.104.10	1029	4.2.2.3	53	udp	46987	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.137.138,74.125.137.100,74.125.137.113,74.125.137.101,74.125.137.139,74.125.137.102	47299.000000,184.000000,184.000000,184.000000,184.000000,184.000000,184.000000	F
+1359602292.174037	CQv4Ak2GJejSdP5r5	192.168.104.10	1029	4.2.2.3	53	udp	29832	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.d.akamai.net,184.51.126.65,184.51.126.25	22486.000000,255.000000,6280.000000,20.000000,20.000000	F
+1359602291.859635	CIGBrM1W3VNhHJmtF2	192.168.104.10	1036	4.2.2.3	53	udp	16011	www.szulikowski.pl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	szulikowski.pl,79.96.37.198	3600.000000,3583.000000	F
+1359602320.255702	CC9fH42nsvLtllW3i1	192.168.104.10	1029	4.2.2.3	53	udp	65417	shopforza.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.122.33.17	300.000000	F
+1359602320.575673	CC9fH42nsvLtllW3i1	192.168.104.10	1029	4.2.2.3	53	udp	4494	www.designbeautifulnails.be	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.94.105.178	38400.000000	F
+1359602322.143988	CC9fH42nsvLtllW3i1	192.168.104.10	1029	4.2.2.3	53	udp	54415	adf.ly	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.39.239.7	300.000000	F
+1359602322.273743	CC9fH42nsvLtllW3i1	192.168.104.10	1029	4.2.2.3	53	udp	6543	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.140.95	1914.000000,177.000000	F
+1359602322.496771	CC9fH42nsvLtllW3i1	192.168.104.10	1029	4.2.2.3	53	udp	33421	cdn.adf.ly	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	141.101.116.44,141.101.117.44	300.000000,300.000000	F
+1359602322.639451	CC9fH42nsvLtllW3i1	192.168.104.10	1029	4.2.2.3	53	udp	17549	www.ravo.colegiosaopedro.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.71.40.49	14400.000000	F
+1359602323.026085	CC9fH42nsvLtllW3i1	192.168.104.10	1029	4.2.2.3	53	udp	49027	www.fand.elementfx.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fand.elementfx.com,198.91.81.3	86400.000000,86400.000000	F
+1359602328.338342	CC9fH42nsvLtllW3i1	192.168.104.10	1029	4.2.2.3	53	udp	57728	abomm2.mine.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.192.216.118	60.000000	F
+#close	2014-04-03-10-33-31

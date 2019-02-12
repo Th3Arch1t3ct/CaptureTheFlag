@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-23-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1341605131.902684	CFQ4OzfMMSZaJ7Tyg	192.168.59.10	1029	4.2.2.3	53	udp	57228	eshopcoco.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.232.101.194	14377.000000	F
+1341605132.747111	CFQ4OzfMMSZaJ7Tyg	192.168.59.10	1029	4.2.2.3	53	udp	17037	s16.cnzz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	c.cnzz.com,c.split.cnzz.com,42.120.59.24	300.000000,300.000000,30.000000	F
+1341605137.057692	CFQ4OzfMMSZaJ7Tyg	192.168.59.10	1029	4.2.2.3	53	udp	60815	tansaction.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	58.64.149.206	28800.000000	F
+1341605140.932629	CFQ4OzfMMSZaJ7Tyg	192.168.59.10	1029	4.2.2.3	53	udp	52872	apemx.eicp.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	0.0.0.0	60.000000	F
+1341605143.759386	CFQ4OzfMMSZaJ7Tyg	192.168.59.10	1029	4.2.2.3	53	udp	3720	c.cnzz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	c.split.cnzz.com,42.120.59.24	289.000000,20.000000	F
+1341605143.760547	CR72Yc1lXkKyYMyvvg	192.168.59.10	1074	4.2.2.3	53	udp	8329	hzs16.cnzz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	110.75.187.111,110.75.187.112,110.75.187.113,110.75.187.110	300.000000,300.000000,300.000000,300.000000	F
+1341605144.34063	CFQ4OzfMMSZaJ7Tyg	192.168.59.10	1029	4.2.2.3	53	udp	63115	icon.cnzz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	img.gslb.tbcache.com,182.140.130.240,122.228.242.250,122.228.243.240,122.228.243.250,124.232.159.240,124.232.159.250,182.131.17.240,182.131.17.250	300.000000,46.000000,46.000000,46.000000,46.000000,46.000000,46.000000,46.000000,46.000000	F
+#close	2014-04-03-10-23-16

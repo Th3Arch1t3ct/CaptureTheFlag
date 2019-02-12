@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-28-19
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1344074930.745516	FSCskm1hD9VFeULQAg	204.13.162.123	192.168.68.10	CPwI57o0TCE0vq2a	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	1765	-	0	0	F	-	8b0a21bff86f8df3eacb41d9f2749253	4f810b563169ac6a00b1faff2a416f9c92abefb4	-	-
+1344074930.930022	Fff2UF1l2yDJXuQhR	204.13.162.127	192.168.68.10	C4ygpfPiZUF163muc	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	44	44	0	0	F	-	187f8fc9a7342f1d4fe5b57d09e57124	b57001f0f06b6b43f10228b3fed6ad130478e806	-	-
+1344074932.190637	FhAduH8qruDr7ahK	204.13.162.123	192.168.68.10	CPwI57o0TCE0vq2a	HTTP	0	MD5,SHA1	text/html	-	0.000017	-	F	2482	2482	0	0	F	-	5e05e49e3d58e5101b33327b94f7205e	f1790b728174c181c95abeba882e54cf5d389782	-	-
+1344074932.295457	FgNeHxjB9SwYDUxyj	204.13.162.127	192.168.68.10	C4ygpfPiZUF163muc	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	1287	1287	0	0	F	-	06a5549060d840a6c550ddfb16311f78	fb99953b7b69bd6bb5c89b9f315e336ecdc1d7ba	-	-
+1344074932.668592	FIgWy62g4IK9SjxyZc	64.66.156.27	192.168.68.10	CV7WiS2eFvSGLp4Nj4	HTTP	0	MD5,SHA1	text/html	-	0.063960	-	F	15163	-	0	0	F	-	44ea9a0265cbadbaef323398b595d547	d4e442b645b5dfce46b64e1df89f7de4dbf70aab	-	-
+1344074932.748231	FuM3UqowT3Ozgfm2i	64.66.156.27	192.168.68.10	C065F81DiH85C4bKYd	HTTP	0	MD5,SHA1	image/gif	-	0.000000	-	F	1986	1986	0	0	F	-	f7e399ffdab1f8d5a905d17b42effaff	8edcab091038b866e02801bbe7c1b041738652dc	-	-
+1344074932.803736	FHlYrR80RBBaudiOf	64.66.156.27	192.168.68.10	CV7WiS2eFvSGLp4Nj4	HTTP	0	MD5,SHA1	image/gif	-	0.000000	-	F	1892	1892	0	0	F	-	43cf7dd1bd07b4f5939075147104ddf2	5f44be8f9b1f4fe1ac11aaaceb5866301c080afa	-	-
+1344074932.805591	FxlNdR37woOs6hqN32	64.66.156.27	192.168.68.10	C065F81DiH85C4bKYd	HTTP	0	MD5,SHA1	image/gif	-	0.000000	-	F	2608	2608	0	0	F	-	a689146795b3ee839172d05e5420ef7b	a13ccc8c97fcb5a9f9c4c26561075517dd3ed729	-	-
+1344074933.172724	Fe0pc41fQmwv03e4H9	64.111.214.157	192.168.68.10	C6imhg3TBYXPsOpa14	HTTP	0	MD5,SHA1	text/html	-	0.000012	-	F	3187	3187	0	0	F	-	9889d2e68fe661d6573d11b9761ab0d4	79e99185b7b9fb5b354b1349ea027747e3ae2e95	-	-
+1344074933.33232	FmrYDZ1jtgg8I7CyTc	72.21.211.168	192.168.68.10	CJQJQw2h96EoA15ZQ5	HTTP	0	MD5,SHA1	application/x-dosexec	InternetTurboSetup__513-466935.exe	0.017851	-	F	11237	2819976	0	0	F	-	ea48be854260814a2452c47add15075e	28f4c6bad08e139168ace3f57b667dae0c924758	-	-
+#close	2014-04-03-10-28-19

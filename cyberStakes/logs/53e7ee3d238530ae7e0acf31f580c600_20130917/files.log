@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-08-25
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1379381874.545526	FHQCWI3wmwzXx94Vla	192.185.5.140	192.168.23.10	CdG3IF1YNOQf1tR7H1	HTTP	0	SHA1,MD5	text/html	-	0.092832	-	F	24840	-	0	0	F	-	429b032f56e93119a567520bf5c3073f	b496da94ed63d1dace18a89eb1d4101a358eece4	-	-
+1379381875.044175	FcrmnF4f4ZnxT9ilfk	192.185.5.140	192.168.23.10	CdG3IF1YNOQf1tR7H1	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	2436	2436	0	0	F	-	8494a27ba3a5e34c32718e0a58995bf5	be1be0a54bdfbb64028379fa253690cf5839c525	-	-
+1379381876.320392	FqLXmbeTInxt0Je93	107.23.222.212	192.168.23.10	CUkZF718hbwKHsdRx	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	270	270	0	0	F	-	6717a74f38ed4e96d5a561a6b19d6c4b	8c977e09a808584793d140ef7608cede65b9e2a0	-	-
+1379381876.635517	F0XybO1fpQlRhMWsSc	98.129.229.201	192.168.23.10	CcG7BjsVyK73j1YK9	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	2	2	0	0	F	-	d784fa8b6d98d27699781bd9a7cf19f0	dd122581c8cd44d0227f9c305581ffcb4b6f1b46	-	-
+1379381876.929163	FJssGg2TnQcpxvTp8b	66.77.96.140	192.168.23.10	CDp0DS1JqCyMI1aU28	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	247	247	0	0	F	-	c94770d77df2b7d36bbcf304504d0b6d	1a3febd8191a9d2fa459a8b8f54a13c58dac18a7	-	-
+1379381876.99281	FPbPNO2NdIFVhQ8mLa	66.77.96.140	192.168.23.10	CDp0DS1JqCyMI1aU28	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	200	200	0	0	F	-	272c4191f7df35a27ae85b28a3d7a091	ffab67da3592248703d992bea74d18c0a1d022dc	-	-
+1379381877.149134	FThiOQ1ox38E8JD7s2	208.111.148.7	192.168.23.10	CjtxKm1hydiRo4m7d6	HTTP	0	SHA1,MD5	application/x-dosexec	vioplayer2_d3993199.exe	0.080017	-	F	94300	1907792	0	0	F	-	d4b494d3deb3130804bf35afd9620c84	e7127628a0d13c15c9f761868d574e2afa359ea4	-	-
+#close	2014-04-03-10-08-25

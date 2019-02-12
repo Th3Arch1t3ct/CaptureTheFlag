@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-20-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1386279025.905529	CQyAKMVBGaoSG3RN3	192.168.49.10	1035	4.2.2.3	53	udp	43429	www.expressiontravels.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	expressiontravels.com,50.63.32.1	3600.000000,600.000000	F
+1386279027.147525	CQyAKMVBGaoSG3RN3	192.168.49.10	1035	4.2.2.3	53	udp	12197	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.239.1,74.125.239.0,74.125.239.2,74.125.239.5,74.125.239.14,74.125.239.9,74.125.239.3,74.125.239.7,74.125.239.8,74.125.239.4,74.125.239.6	64605.000000,171.000000,171.000000,171.000000,171.000000,171.000000,171.000000,171.000000,171.000000,171.000000,171.000000,171.000000	F
+1386279029.314392	CQyAKMVBGaoSG3RN3	192.168.49.10	1035	4.2.2.3	53	udp	46247	wwwimages.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wwwimages.wip4.adobe.com,wwwimages.adobe.com.edgesuite.net,wwwimages.adobe.com.edgesuite.net.globalredir.akadns.net,a1953.x.akamai.net,184.84.222.122,184.84.222.89	60.000000,518.000000,1249.000000,2674.000000,2.000000,2.000000	F
+1386279029.997093	CQyAKMVBGaoSG3RN3	192.168.49.10	1035	4.2.2.3	53	udp	40615	whos.amung.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.202.94.93,67.202.94.94,67.202.94.86	215.000000,215.000000,215.000000	F
+1386279030.343543	CQyAKMVBGaoSG3RN3	192.168.49.10	1035	4.2.2.3	53	udp	928	jogosescolares.esportes.mg.gov.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	200.198.49.27	86400.000000	F
+#close	2014-04-03-10-20-15

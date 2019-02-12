@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-54-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1379018350.95239	CNOKHe43SW6xCraDRi	192.168.116.10	1041	208.111.148.7	80	tcp	http	2.243350	351	8304	SF	-	0	ShADadFf	8	679	10	8712	(empty)
+1379018345.58522	C8ZGsu4yyqdxMm9H8f	192.168.116.10	1031	192.185.5.140	80	tcp	http	12.618530	930	48796	RSTO	-	0	ShADadfR	34	2382	40	50404	(empty)
+1379018347.095672	CeGrNz2xl3JdE9aIgk	192.168.116.10	1036	192.185.5.140	80	tcp	http	11.108585	638	81186	RSTO	-	0	ShADadfR	50	2886	61	83634	(empty)
+1379018347.108368	CuLTCN2Xl4L5rcxi5e	192.168.116.10	1037	192.185.5.140	80	tcp	http	11.096263	611	19537	RSTO	-	0	ShADadfR	17	1299	19	20305	(empty)
+1379018345.574749	ClqbZs3WEhKV86pA8b	192.168.116.10	1030	4.2.2.3	53	udp	dns	5.369112	180	348	SF	-	0	Dd	5	320	5	488	(empty)
+1379018350.371305	CMIJoq3eQDLJ6IfHFb	192.168.116.10	1039	98.129.229.201	80	tcp	http	12.865987	350	350	RSTO	-	0	ShADadfR	6	598	4	518	(empty)
+1379018327.93386	Cmx6z74zoMLRquEp3j	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.001170	626	0	S0	-	0	D	2	682	0	0	(empty)
+1379018327.934459	CP8JW53YQcNij5nljh	192.168.116.10	68	192.168.116.1	67	udp	dhcp	13.237747	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1379018346.355209	CvnTgB32dxCyOctsjl	192.168.116.10	1034	239.255.255.250	1900	udp	-	6.029441	399	0	S0	-	0	D	3	483	0	0	(empty)
+1379018349.889924	CF5mfP3sGWlKQocNQh	192.168.116.10	1038	54.246.131.211	80	tcp	http	63.471484	322	1020	RSTO	-	0	ShADadfR	6	570	4	1188	(empty)
+1379018350.660011	CDcAWr4xy6PZiEUSFc	192.168.116.10	1040	66.77.96.140	80	tcp	http	62.700816	944	1451	RSTO	-	0	ShADdR	6	1192	3	1575	(empty)
+#close	2014-04-03-10-54-00

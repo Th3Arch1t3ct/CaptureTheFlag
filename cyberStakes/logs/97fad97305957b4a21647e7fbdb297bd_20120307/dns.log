@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-30-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1331100824.485784	CZPJX63roXhoF0wWVl	192.168.60.10	1029	4.2.2.3	53	udp	19343	evrospez.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.111.185.220	3579.000000	F
+1331100825.235608	CZPJX63roXhoF0wWVl	192.168.60.10	1029	4.2.2.3	53	udp	13196	newhacker.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.64.52.196	43200.000000	F
+1331100828.497761	CZPJX63roXhoF0wWVl	192.168.60.10	1029	4.2.2.3	53	udp	22669	196.52.64.69.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	colossus757.startdedicated.com	43200.000000	F
+1331100828.526331	CZPJX63roXhoF0wWVl	192.168.60.10	1029	4.2.2.3	53	udp	58762	colossus757.startdedicated.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.64.52.196	43200.000000	F
+#close	2014-04-03-10-30-37

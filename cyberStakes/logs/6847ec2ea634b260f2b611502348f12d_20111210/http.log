@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-08-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1323505169.114886	Cq0tNpobIPsEw3er6	192.168.78.10	1030	80.92.65.144	80	1	GET	mixyer.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	-	-
+1323505169.365997	C7382l4gKL5bJfuPha	192.168.78.10	1031	213.133.103.204	80	1	GET	map.worldredirect.com	/rd/mixyer.com	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	172	302	Found	-	-	-	(empty)	-	-	-	-	-	Fw1uz11Vnfov7NU7nk	text/html
+1323505169.639022	CkIvjO3bRpArPw75cc	192.168.78.10	1032	213.133.103.204	80	1	GET	track.worldredirect.com	/tracking202/redirect/dl.php?t202kw=mixyer.com&t202id=504984119167335937	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1323505169.856211	C3LvELrGWZBZmc1mf	192.168.78.10	1033	173.192.198.225	80	1	GET	aff.ringtonepartner.com	/geo/preset/2494/3/0/21373251	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1421	200	OK	-	-	-	(empty)	-	-	-	-	-	F3UKE83iEubNn9cyK3	text/html
+1323505170.042388	CsM92o5P0Bi58Fupk	192.168.78.10	1034	74.125.47.113	80	1	GET	www.google-analytics.com	/ga.js	http://aff.ringtonepartner.com/geo/preset/2494/3/0/21373251	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	32614	200	OK	-	-	-	(empty)	-	-	-	-	-	FK3ZCx2pTjB6DuDDQj	text/plain
+1323505170.089703	Chv1nm1h6eJIn4NNYh	192.168.78.10	1035	173.192.198.231	80	1	GET	aff.adjmps.com	/conversion/visit?xx=99-8720&zz=1312102113_df9dbf_6_226_4ee3159c_4ad92462_0_0_0	http://aff.ringtonepartner.com/geo/preset/2494/3/0/21373251	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	43	200	OK	-	-	-	(empty)	-	-	-	-	-	FLhVBY1yBKFAEk7iXc	image/gif
+1323505170.149178	CsM92o5P0Bi58Fupk	192.168.78.10	1034	74.125.47.113	80	2	GET	www.google-analytics.com	/__utm.gif?utmwv=5.2.2&utms=1&utmn=859054541&utmhn=aff.ringtonepartner.com&utmcs=windows-1252&utmsr=800x600&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=10.0 r32&utmhid=1892422732&utmr=-&utmp=/geo/preset/2494/3/0/21373251&utmac=UA-1672790-3&utmcc=__utma=128574867.1205005351.1323519452.1323519452.1323519452.1;+__utmz=128574867.1323519452.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);&utmu=qB~	http://aff.ringtonepartner.com/geo/preset/2494/3/0/21373251	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	35	200	OK	-	-	-	(empty)	-	-	-	-	-	FlvnvBHqRO2OoPFuh	image/gif
+1323505170.235941	CDYGFC2acO0IdquxK1	192.168.78.10	1037	207.232.22.144	80	1	GET	stats.ilivid.com	/tracking202/redirect/dl_byappid.php?t202id=31721&appid=254&context=1312102113_df9dbf_6_226_4ee3159c_4ad92462_0_0_0	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1323505170.557649	CofhUh3KDDSEdQFPrk	192.168.78.10	1038	24.143.193.25	80	1	GET	download.cdn.ilivid.com	/cdn/r/254/iLividSetupV1.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	84374	200	OK	-	-	-	(empty)	-	-	-	-	-	FGPPhR02bI9mOR0N5	application/x-dosexec
+#close	2014-04-03-10-08-34

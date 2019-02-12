@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-49-51
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1340509054.404039	C0eEhu0kRV6LtltEh	192.168.30.10	1032	109.235.50.216	80	Fu1XWxwMuUxBDS35g	application/x-dosexec	http://qqq.confeccioneschurata.com/w.php?f=97d19&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 55%  Last seen: 2012-06-27 05:31:03	https://www.virustotal.com/en/search/?query=b4beaa61aec00b53b96f79b42de3f71b3a0df8e9	192.168.30.10	109.235.50.216	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1340509059.34955	CFEYZkYlcYP4lvrPj	192.168.30.10	1037	109.235.50.216	80	Ffa7nN3cESDzKgqvn3	application/x-shockwave-flash	http://qqq.confeccioneschurata.com/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 75%  Last seen: 2012-09-14 14:05:04	https://www.virustotal.com/en/search/?query=27474f210893b69a5204dcafb6d9fc12b743dc1f	192.168.30.10	109.235.50.216	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1340509062.500212	C7EKP213NaeAeUKKrk	192.168.30.10	1039	210.116.112.75	80	FpsCEi4yCOqRKtegye	application/x-dosexec	http://arc1.co.kr/pd.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 73%  Last seen: 2013-05-12 01:01:02	https://www.virustotal.com/en/search/?query=1b2cf8d1649681a992aee4ba54018a415689c9f8	192.168.30.10	210.116.112.75	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1340509063.594033	CORCUq4onoMn98yzV3	192.168.30.10	1040	210.116.112.75	80	FlSAU73ukLlMSgBDs9	application/x-dosexec	http://arc1.co.kr/1689.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 77%  Last seen: 2013-05-12 00:46:03	https://www.virustotal.com/en/search/?query=50ff26ee9b8d56463218c308b7c8463fe550c5ef	192.168.30.10	210.116.112.75	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1340509086.853779	CmFQ7hxibA3hygRDh	192.168.30.10	1070	210.116.112.75	80	F6cQ3z4L4z891eZ8Hk	application/x-dosexec	http://arc1.co.kr/pd.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 73%  Last seen: 2013-05-12 01:01:02	https://www.virustotal.com/en/search/?query=1b2cf8d1649681a992aee4ba54018a415689c9f8	192.168.30.10	210.116.112.75	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1340509088.644871	CkCL7Z3psISRRjpnx	192.168.30.10	1072	210.116.112.75	80	FCG87DkCoRCMAKtZ7	application/x-dosexec	http://arc1.co.kr/1689.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 77%  Last seen: 2013-05-12 00:46:03	https://www.virustotal.com/en/search/?query=50ff26ee9b8d56463218c308b7c8463fe550c5ef	192.168.30.10	210.116.112.75	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-49-52

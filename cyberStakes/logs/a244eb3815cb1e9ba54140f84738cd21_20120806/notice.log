@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-43-40
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1344213061.479066	Chehlh2bolG3kAUGxa	192.168.28.10	1039	69.16.244.216	80	FIsXmCiguOCaCqaSg	application/x-dosexec	http://parkersexeculink.com/2.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 31%  Last seen: 2012-08-07 08:24:27	https://www.virustotal.com/en/search/?query=69a9b4ffe580cf2fab65942abbf957f9c73cd017	192.168.28.10	69.16.244.216	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1344213066.715861	CVYRl94SNZgl7eHai4	192.168.28.10	1040	69.16.244.216	80	FB1Q4v40dbxMmGXQQ4	application/x-dosexec	http://parkersexeculink.com/3.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 31%  Last seen: 2012-08-07 08:24:27	https://www.virustotal.com/en/search/?query=69a9b4ffe580cf2fab65942abbf957f9c73cd017	192.168.28.10	69.16.244.216	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1344213098.653559	Cp7TZ12NtVgf1lx8X8	192.168.28.10	1071	195.210.47.239	80	FTnEcNSK4dKrKqxUf	application/x-dosexec	http://erse.oplipsies.com/f/notepad.exe?ts=5aabe57b&affid=5630	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 32%  Last seen: 2012-08-04 18:46:02	https://www.virustotal.com/en/search/?query=e8b939cb9af164e91b4a2f041aa48dc859b55f0b	192.168.28.10	195.210.47.239	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-43-40

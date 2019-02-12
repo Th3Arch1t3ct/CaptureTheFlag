@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-07-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1313785022.88877	COku8s22q0VNwRfIi	192.168.9.10	1029	4.2.2.3	53	udp	19855	teamelitebaseball.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.89.31.107	14373.000000	F
+1313785023.948426	COku8s22q0VNwRfIi	192.168.9.10	1029	4.2.2.3	53	udp	7565	oiubenlh.co.tv	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.223.89.98	43200.000000	F
+1313785025.091908	COku8s22q0VNwRfIi	192.168.9.10	1029	4.2.2.3	53	udp	19597	gaqvjgq.dns1.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.66.179	31.000000	F
+1313785045.336012	CbjEua3INmZnxlIu82	192.168.9.10	1029	4.2.2.3	53	udp	25997	funnyteens.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.53.28.98	14400.000000	F
+1313785046.106135	CbjEua3INmZnxlIu82	192.168.9.10	1029	4.2.2.3	53	udp	17546	yazminx.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	205.234.129.135	14400.000000	F
+#close	2014-04-03-11-07-13

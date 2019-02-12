@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-51-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1368654992.517165	CHletLiI1HgJfdlj5	192.168.46.10	1029	4.2.2.3	53	udp	64655	winflashplayer.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	54.244.236.137	1800.000000	F
+1368654992.702471	CHletLiI1HgJfdlj5	192.168.46.10	1029	4.2.2.3	53	udp	18061	www.winflashplayer.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	winflashplayer.com,54.244.236.137	275.000000,1800.000000	F
+1368654992.904812	CHletLiI1HgJfdlj5	192.168.46.10	1029	4.2.2.3	53	udp	3469	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,173.194.37.98,173.194.37.103,173.194.37.99,173.194.37.101,173.194.37.110,173.194.37.102,173.194.37.100,173.194.37.97,173.194.37.104,173.194.37.96,173.194.37.105	66305.000000,278.000000,278.000000,278.000000,278.000000,278.000000,278.000000,278.000000,278.000000,278.000000,278.000000,278.000000	F
+1368654992.908135	CHletLiI1HgJfdlj5	192.168.46.10	1029	4.2.2.3	53	udp	57741	fonts.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.137.95	442.000000,58.000000	F
+1368654992.910526	CHletLiI1HgJfdlj5	192.168.46.10	1029	4.2.2.3	53	udp	17036	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.137.95	3551.000000,58.000000	F
+1368655014.237146	CEmOBKo2zeCPDnjf5	192.168.46.10	1029	4.2.2.3	53	udp	31883	newplayerupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.165.132.106	604800.000000	F
+1368655014.239071	C1quxjNP4MLzJOor	192.168.46.10	1042	4.2.2.3	53	udp	15498	reports.amonetize.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	76.9.4.18	1800.000000	F
+1368655014.53223	CEmOBKo2zeCPDnjf5	192.168.46.10	1029	4.2.2.3	53	udp	48010	www.newplayerupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.165.132.106	604800.000000	F
+1368655017.284076	CEmOBKo2zeCPDnjf5	192.168.46.10	1029	4.2.2.3	53	udp	55944	www.amoninst.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ils-front-balancer-1422728235.us-east-1.elb.amazonaws.com,23.21.40.49	1087.000000,60.000000	F
+1368655017.415072	CEmOBKo2zeCPDnjf5	192.168.46.10	1029	4.2.2.3	53	udp	38024	bs-self.s3.amazonaws.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	s3-1-w.amazonaws.com,205.251.242.39	2400.000000,6.000000	F
+#close	2014-04-03-10-51-36

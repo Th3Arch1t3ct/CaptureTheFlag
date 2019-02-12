@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-57-52
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1323474536.352336	Cl3BGE5n23VrS1J36	192.168.81.10	1048	91.217.153.97	80	FXm6Nz3AC8BiWIlvG2	application/x-dosexec	http://kupilkoprodb.in/f/5d4779bc7d66135b507d0bc3fdb6468e/5	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2011-12-21 05:40:46	https://www.virustotal.com/en/search/?query=24a87cb504fec148e6ea6f0681d728508c0fbb18	192.168.81.10	91.217.153.97	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1323474540.9452	CqbJZb2mRAFhok0yQh	192.168.81.10	1052	91.217.153.97	80	FC5vb84hQ81CQMdgm1	application/jar	http://kupilkoprodb.in/images/r/5d4779bc7d66135b507d0bc3fdb6468e.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2011-12-13 04:01:05	https://www.virustotal.com/en/search/?query=9c991d7d39595e8e9c316b377c976a1caad359b0	192.168.81.10	91.217.153.97	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1323474541.328207	CqbJZb2mRAFhok0yQh	192.168.81.10	1052	91.217.153.97	80	FR4hpT4deOcIxYqE8	application/jar	http://kupilkoprodb.in/images/r/5d4779bc7d66135b507d0bc3fdb6468e.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2011-12-13 04:01:05	https://www.virustotal.com/en/search/?query=9c991d7d39595e8e9c316b377c976a1caad359b0	192.168.81.10	91.217.153.97	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1323474553.144673	Ciz0jr2RHopUFlsOg5	192.168.81.10	1056	91.217.153.97	80	F255pX1erSMOJDgxA	application/jar	http://kupilkoprodb.in/images/r/5d4779bc7d66135b507d0bc3fdb6468e.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2011-12-13 04:01:05	https://www.virustotal.com/en/search/?query=9c991d7d39595e8e9c316b377c976a1caad359b0	192.168.81.10	91.217.153.97	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1323474559.94576	CMXfrbN6ODxG79cj	192.168.81.10	1059	91.217.153.97	80	FZbRM14GDR8tDAR7K1	application/x-dosexec	http://kupilkoprodb.in/f/5d4779bc7d66135b507d0bc3fdb6468e/3	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2011-12-21 05:40:46	https://www.virustotal.com/en/search/?query=24a87cb504fec148e6ea6f0681d728508c0fbb18	192.168.81.10	91.217.153.97	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-57-52

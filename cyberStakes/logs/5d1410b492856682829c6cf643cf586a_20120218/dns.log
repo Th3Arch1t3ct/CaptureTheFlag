@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-02-19
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1329596561.155779	CRbJcS2YsZKsAQd132	192.168.68.10	1029	4.2.2.3	53	udp	17807	sabooman.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.184.52.23	43178.000000	F
+1329596563.61446	CRbJcS2YsZKsAQd132	192.168.68.10	1029	4.2.2.3	53	udp	26764	storylootybuz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.190.98.79	3600.000000	F
+1329596575.714676	CRbJcS2YsZKsAQd132	192.168.68.10	1029	4.2.2.3	53	udp	2957	tripslokabucks.su	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	218.12.4.254,60.19.30.135,91.197.237.80,217.24.246.7	300.000000,300.000000,300.000000,300.000000	F
+1329596576.860447	CFMQ8o3QNYaPT58oj4	192.168.68.10	1029	4.2.2.5	53	udp	2957	tripslokabucks.su	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.24.246.7,218.12.4.254,60.19.30.135,91.197.237.80	300.000000,300.000000,300.000000,300.000000	F
+1329596605.910245	CzdnBw2egPNXJriGe	192.168.68.10	1029	4.2.2.3	53	udp	29837	wertubublersco.su	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	60.19.30.135,209.141.60.202,217.162.224.66,218.12.4.254	300.000000,300.000000,300.000000,300.000000	F
+#close	2014-04-03-11-02-19

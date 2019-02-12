@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-06-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1318596755.165133	CMvVMl2Lhi0rtd7bgd	192.168.18.10	1034	95.163.66.209	80	FCBYYE0dlJRteB39h	application/x-dosexec	http://equal-pomegranate.aelita.fr/showthread.php?t=1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2011-10-21 00:06:54	https://www.virustotal.com/en/search/?query=32907a87e6ee35a35ebbcf52df1bb6076b6f6bac	192.168.18.10	95.163.66.209	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1318596757.637959	CMNtpt4knNvnohEdTj	192.168.18.10	1044	95.163.66.209	80	FEfa0s4lc1DEG1FkPl	application/x-dosexec	http://equal-pomegranate.aelita.fr/showthread.php?t=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2011-10-21 00:06:54	https://www.virustotal.com/en/search/?query=32907a87e6ee35a35ebbcf52df1bb6076b6f6bac	192.168.18.10	95.163.66.209	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1318596757.808511	CWnHDB3WR93e3Migf4	192.168.18.10	1047	95.163.66.209	80	FCv24k3SmrEiLfWqTc	application/x-dosexec	http://equal-pomegranate.aelita.fr/showthread.php?t=122357	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2011-10-27 15:36:58	https://www.virustotal.com/en/search/?query=45764788b904eb38d001322bdcb376fa72a367b9	192.168.18.10	95.163.66.209	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1318596764.300481	C2zptE2AO03PHnntH8	192.168.18.10	1180	95.163.66.209	80	Fp2VrC1ufvcwkoKSo	application/x-dosexec	http://equal-pomegranate.aelita.fr/showthread.php?t=122357	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2011-10-20 21:05:18	https://www.virustotal.com/en/search/?query=0da7c61f7acb3751c74caf18342ad01f63c5d040	192.168.18.10	95.163.66.209	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1318596769.232013	CWnHDB3WR93e3Migf4	192.168.18.10	1047	95.163.66.209	80	FYwPjy2ixogT3ELcyg	application/x-dosexec	http://equal-pomegranate.aelita.fr/showthread.php?t=122357	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2011-10-29 19:27:38	https://www.virustotal.com/en/search/?query=c4066f351fa88b8b485990b7fdbb96c2fe5ddf4d	192.168.18.10	95.163.66.209	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-06-40

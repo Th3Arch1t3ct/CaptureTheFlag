@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-09-54-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1338933003.560965	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1338933023.91078	CNAY6634JGmYMfKZ07	192.168.77.10	1051	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338933023.912229	CPjrdf4sF89ulOD9Bk	192.168.77.10	1053	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338933023.913889	COl1ED1YMe65xGcjPd	192.168.77.10	1055	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338933023.919041	Cep4zqDiFAifoR0qh	192.168.77.10	1057	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338933023.935415	CN9kqh25eEVTSOMKkb	192.168.77.10	1059	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338933023.99657	CVRagVMehDC7vBl21	192.168.77.10	1062	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338933024.277403	CJobKp3y6SVjm9XrK5	192.168.77.10	1065	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338933024.278965	C31SJt4z19EU6g5Rw3	192.168.77.10	1067	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338933024.290926	CMdz3V21jq2eLZMxV8	192.168.77.10	1069	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338933024.296773	C8F3YP3LcD8qhsPDGi	192.168.77.10	1071	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338933024.304871	CXwNS22zZrasokQkZc	192.168.77.10	1073	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338933032.027094	CrnIYu3Jk9ryEJhgO	192.168.77.10	1078	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338933032.077726	CsxfMT3KkDwiRf9Rs8	192.168.77.10	1080	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338933032.284489	CcTCVO2O93fgZMXKO3	192.168.77.10	1082	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338933032.352191	Cxuzc24wtGz7dGk7a3	192.168.77.10	1084	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338933034.543279	CkLRAm3qcwYuxhhbKh	192.168.77.10	1088	31.193.12.27	80	bad_HTTP_request	-	F	bro
+#close	2014-04-03-09-54-15

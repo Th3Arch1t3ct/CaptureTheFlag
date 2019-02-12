@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-11-08-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1329603156.188359	ChKuPi48A9ppzIdYJk	192.168.7.10	1029	4.2.2.5	53	udp	dns	0.830216	37	53	SF	-	0	Dd	1	65	1	81	(empty)
+1329603152.967441	CcqbEA4qflLhNBCOX2	192.168.7.10	1029	4.2.2.3	53	udp	dns	3.929855	89	137	SF	-	0	Dd	3	173	3	221	(empty)
+1329603152.970972	CFbEW12SLyGSzAJpJ6	192.168.7.10	1030	85.214.250.242	80	tcp	http	16.250226	278	562	RSTO	-	0	ShADadfR	6	526	4	730	(empty)
+1329603173.147594	CPbsIw3jmBVELWhY62	192.168.7.10	1039	95.142.170.44	80	tcp	http	0.695418	281	5581	SF	-	0	ShADadFf	8	609	8	5909	(empty)
+1329603153.439592	CpqQFK2hY8znKKMEo4	192.168.7.10	1032	85.214.250.242	80	tcp	http	24.280182	1953	166006	RSTO	-	0	ShADadfR	86	5401	120	170814	(empty)
+1329603153.201052	CQnJk2uitYKvn8wJi	192.168.7.10	1031	85.214.250.242	80	tcp	http	24.518959	2018	203061	RSTO	-	0	ShADadfR	99	5986	146	208909	(empty)
+1329603177.034465	C1V5I11TRCaUSHWafj	192.168.7.10	1041	95.142.170.44	80	tcp	http	1.359434	172	158121	RSTO	-	0	ShADadR	64	2740	111	162569	(empty)
+1329603173.966382	CKM9vy15X9J8ey0YZ9	192.168.7.10	1040	95.142.170.44	80	tcp	http	9.984475	784	1240	SF	-	0	ShADadFf	11	1428	8	1878	(empty)
+1329603136.181741	Cwkbhu2nXioSWNAfe8	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000708	626	0	S0	-	0	D	2	682	0	0	(empty)
+1329603136.182067	CVz2qmyqy6Nu5OgHf	192.168.7.10	68	192.168.7.1	67	udp	dhcp	13.494732	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1329603156.898657	C9yiFt3ABIfkUrENJ8	192.168.7.10	1037	95.142.170.44	80	tcp	http	61.117885	1128	411585	RSTO	-	0	ShADadfR	199	9096	291	423233	(empty)
+1329603172.299831	CMXYjLXRF9yEhRj5c	192.168.7.10	1038	95.142.170.44	80	tcp	http	45.716927	282	1773	RSTO	-	0	ShADadfR	7	570	6	2021	(empty)
+1329603155.537015	CoNZBk2VPNfllzw4ne	192.168.7.10	1035	239.255.255.250	1900	udp	-	6.542243	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-11-08-53

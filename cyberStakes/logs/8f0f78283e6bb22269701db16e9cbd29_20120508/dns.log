@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-02-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1336493919.503725	C8CmIv1RDELWHkPoPi	192.168.109.10	1029	4.2.2.3	53	udp	25229	varak.ca	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.7.221.11	14374.000000	F
+1336493919.654311	C8CmIv1RDELWHkPoPi	192.168.109.10	1029	4.2.2.3	53	udp	25997	csepros.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.124.198.1	1800.000000	F
+1336493919.812179	C8CmIv1RDELWHkPoPi	192.168.109.10	1029	4.2.2.3	53	udp	49805	thesavvymillionaire.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	83.69.226.72	3600.000000	F
+1336493937.097175	CxKN001M4xjBkSi0y1	192.168.109.10	1029	4.2.2.3	53	udp	37518	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,63.217.184.67,63.217.184.56	7246.000000,70.000000,412.000000,15.000000,15.000000	F
+1336493944.132921	CxKN001M4xjBkSi0y1	192.168.109.10	1029	4.2.2.3	53	udp	31624	palktikaljob.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.201.4.75	3600.000000	F
+#close	2014-04-03-10-02-29

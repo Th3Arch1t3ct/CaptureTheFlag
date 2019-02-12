@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-08-25
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1379556073.269094	FOUFAf2fZxdarQNAB6	192.185.5.140	192.168.111.10	CmmagV27ff5u0h4zqi	HTTP	0	MD5,SHA1	text/html	-	0.092426	-	F	24840	-	0	0	F	-	1ba44a21bec8281d34f5ced694d9f656	b55d7de04a115e4314b92c3224dacf40a676fddc	-	-
+1379556073.853771	FHhVx12sMYhDTHmgeb	192.185.5.140	192.168.111.10	CmmagV27ff5u0h4zqi	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	2436	2436	0	0	F	-	8494a27ba3a5e34c32718e0a58995bf5	be1be0a54bdfbb64028379fa253690cf5839c525	-	-
+1379556074.448154	FcJiaRTUNgeQ58zLg	50.18.211.52	192.168.111.10	CVo6zL1fL0oIbOOZyj	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	270	270	0	0	F	-	ceaeace7b0f9286d0ea1b6e4dc49dedb	380f55406717165a361f99dddf10cc2ffe262ab2	-	-
+1379556074.739548	FOcjEt2OUIQBHBpc43	98.129.229.201	192.168.111.10	Cpicy91muaeJVNtSPb	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	2	2	0	0	F	-	d784fa8b6d98d27699781bd9a7cf19f0	dd122581c8cd44d0227f9c305581ffcb4b6f1b46	-	-
+1379556074.897058	FQAyiP1NB6ehBPl7N5	66.77.96.140	192.168.111.10	CcSTLy1T7L1axr6Wm1	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	247	247	0	0	F	-	c94770d77df2b7d36bbcf304504d0b6d	1a3febd8191a9d2fa459a8b8f54a13c58dac18a7	-	-
+1379556074.960484	FYmwyzA4soz0Z1y76	66.77.96.140	192.168.111.10	CcSTLy1T7L1axr6Wm1	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	200	200	0	0	F	-	272c4191f7df35a27ae85b28a3d7a091	ffab67da3592248703d992bea74d18c0a1d022dc	-	-
+1379556074.989742	FpOF4l4AQpiPjmcVx2	208.111.148.6	192.168.111.10	CIneER38VCGTKwMQJ8	HTTP	0	MD5,SHA1	application/x-dosexec	vioplayer2_d3993199.exe	0.077505	-	F	139583	1907792	0	0	F	-	3b63c4a5ffa76905ac5f7aae0f47006c	bdd7f44a72d1671976718068cc016a1f783f04e5	-	-
+1379556073.870024	FW6BdS2y8Y6JoLozV7	192.185.5.140	192.168.111.10	CUWDDbAfSUvw4wVbg	HTTP	0	MD5,SHA1	text/plain	-	5.209434	-	F	5598	57539	0	0	F	-	823bbfded1574b64c8d7fcca9da72760	065203d91e41bb79dc28b11b84cf105a5abdcb70	-	-
+#close	2014-04-03-10-08-25

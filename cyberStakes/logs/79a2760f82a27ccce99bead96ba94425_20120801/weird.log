@@ -1,0 +1,28 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-38-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1343824857.894717	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1343824878.703297	C18SrPpu3Xfka4Ckb	192.168.22.10	1047	96.17.109.107	80	SYN_after_reset	-	F	bro
+1343824878.717751	C18SrPpu3Xfka4Ckb	192.168.22.10	1047	96.17.109.107	80	data_after_reset	-	F	bro
+1343824896.986239	CwiwMh1voWQfKOLPZj	192.168.22.10	1064	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1343824896.986445	CITEElogyAE2cCUUi	192.168.22.10	1064	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1343824897.142564	CkoJw62rUxlVGKQpQg	192.168.22.10	1066	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1343824897.142792	CGYfra1dmtPFE68Utc	192.168.22.10	1066	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1343824897.659584	CGLKHXGNgSuncjXed	192.168.22.10	1068	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1343824897.659777	CO2g0N1HlxYn9XQrsi	192.168.22.10	1068	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1343824897.730641	Cyy1ae2I6u5KMArY1k	192.168.22.10	1070	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1343824897.730843	CErjclE7Mc9kG3P8g	192.168.22.10	1070	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1343824897.738186	C46wvK1cLNgaTacTul	192.168.22.10	1072	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1343824897.738371	COBWP1WjLxKSZsx2f	192.168.22.10	1072	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1343824898.918591	C8tzlc2IhIxH1DfYqi	192.168.22.10	1077	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1343824898.918752	C8qpnPlvOsplvkNld	192.168.22.10	1077	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1343824898.944779	CmBinYk37KmVxr3rc	192.168.22.10	1080	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1343824898.944939	Cmr9EX1yB0Vpc86yXg	192.168.22.10	1080	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1343824898.968041	C0ceV62rmsRcx1z23j	192.168.22.10	1083	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1343824898.968218	CG8WfHyxw8WCqyVZ	192.168.22.10	1083	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+#close	2014-04-03-10-38-53

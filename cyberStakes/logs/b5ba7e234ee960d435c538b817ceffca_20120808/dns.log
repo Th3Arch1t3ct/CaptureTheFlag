@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-51-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1344403258.444864	Cavplg1rGyFVSKQ0k3	192.168.44.10	1029	4.2.2.3	53	udp	4233	pb-collection.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.160.85.79	275.000000	F
+1344403260.478735	Cavplg1rGyFVSKQ0k3	192.168.44.10	1029	4.2.2.3	53	udp	60811	storage.ie6countdown.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ie6countdown.blob.core.windows.net,blob.sn1prody.store.core.windows.net,70.37.127.174	2354.000000,2354.000000,1676.000000	F
+1344403263.872542	Cavplg1rGyFVSKQ0k3	192.168.44.10	1029	4.2.2.3	53	udp	16269	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.137.100,74.125.137.101,74.125.137.102,74.125.137.113,74.125.137.138,74.125.137.139	6658.000000,58.000000,58.000000,58.000000,58.000000,58.000000,58.000000	F
+1344403271.219745	Cavplg1rGyFVSKQ0k3	192.168.44.10	1029	4.2.2.3	53	udp	37263	www.steigerhoutstunter.be.p.supercp.nl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	83.137.192.73	900.000000	F
+1344403260.656767	Cavplg1rGyFVSKQ0k3	192.168.44.10	1029	4.2.2.3	53	udp	46220	pbcollection.webentwicklungsserver.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1344403260.656767	Cavplg1rGyFVSKQ0k3	192.168.44.10	1029	4.2.2.3	53	udp	46220	pbcollection.webentwicklungsserver.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1344403294.473075	CD0ky33qFG5kRlLZVg	192.168.44.10	1029	4.2.2.3	53	udp	56448	mefistoffuck.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.217.162.165	600.000000	F
+1344403295.101931	CD0ky33qFG5kRlLZVg	192.168.44.10	1029	4.2.2.3	53	udp	35970	73.192.137.83.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	webcluster.hix.nl	900.000000	F
+1344403295.577785	CD0ky33qFG5kRlLZVg	192.168.44.10	1029	4.2.2.3	53	udp	60291	webcluster.hix.nl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	83.137.192.73	900.000000	F
+#close	2014-04-03-09-51-45

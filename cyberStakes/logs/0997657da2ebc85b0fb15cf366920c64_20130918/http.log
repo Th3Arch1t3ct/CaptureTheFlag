@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-15-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1379546568.988891	CsXV4w26GCjtDsHIc8	192.168.47.10	1031	192.185.5.140	80	1	GET	narutoshippudenepisode.org	/	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	25302	200	OK	-	-	-	(empty)	-	-	-	-	-	FdRHbYq54tilOGUzb	text/html
+1379546569.637302	CsXV4w26GCjtDsHIc8	192.168.47.10	1031	192.185.5.140	80	2	GET	narutoshippudenepisode.org	/wp-content/themes/sprachkonstrukt2/style.css	http://narutoshippudenepisode.org/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	14296	200	OK	-	-	-	(empty)	-	-	-	-	-	FOzpSn3IYjP5hNKDWg	text/plain
+1379546570.078843	CsXV4w26GCjtDsHIc8	192.168.47.10	1031	192.185.5.140	80	3	GET	narutoshippudenepisode.org	/wp-content/themes/sprachkonstrukt2/reset.css	http://narutoshippudenepisode.org/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	1718	200	OK	-	-	-	(empty)	-	-	-	-	-	FSudDA4ic4E1cjAqw6	text/plain
+1379546569.730037	C2gy1Br7jfNFdArV2	192.168.47.10	1032	192.185.5.140	80	1	GET	narutoshippudenepisode.org	/wp-content/themes/sprachkonstrukt2/js/modernizr.custom.23499.js	http://narutoshippudenepisode.org/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	8504	200	OK	-	-	-	(empty)	-	-	-	-	-	FUgb3A1Klkd6DS2ylc	text/plain
+1379546570.80777	CdrWGMUBVlHHHeet3	192.168.47.10	1037	54.229.12.122	80	1	GET	track.cmllk1.info	/aff_c?offer_id=18&aff_id=7106	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	270	302	Found	-	-	-	(empty)	-	-	-	-	-	FrgPfymrcEPdB61v7	text/html
+1379546571.177744	CFaJeB1HTbZiPI1IG6	192.168.47.10	1038	98.129.229.201	80	1	GET	www.cml1234.com	/downloadprem.php?tn=1020c2234d79746a51906f197c39f4&aff=7106	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	2	302	Found	-	-	-	(empty)	-	-	-	-	-	FtHMC04vp5EgJGM5K1	text/plain
+1379546571.474813	CVfHLVu6GFalU3L94	192.168.47.10	1039	66.77.96.140	80	1	GET	dl.installiq.com	/download/downloadpop.aspx?shortname=vioplayer2&a=13749&f=vioplayersearch-7106	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	247	302	Found	-	-	-	(empty)	-	-	-	-	-	FC0Q6W2Ve6Kdkef1bl	text/html
+1379546571.579137	CVfHLVu6GFalU3L94	192.168.47.10	1039	66.77.96.140	80	2	GET	dl.installiq.com	/download/getdynamicpath.aspx?shortname=vioplayer2&a=13749&f=vioplayersearch-7106&VersionId=-1&key=standarddefault	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	200	302	Found	-	-	-	(empty)	-	-	-	-	-	FmywdK3wQ9ZqEpp3zd	text/html
+1379546571.855639	CpG79s1orwRvQDkX86	192.168.47.10	1040	208.111.148.7	80	1	GET	dl7.iq8download.com	/dynamic/standard/standarddefault/vioplayer2_d3993199.exe	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	82691	200	OK	-	-	-	(empty)	-	-	-	-	-	FPq3yB3IxRT3eMEOH7	application/x-dosexec
+1379546570.247836	C2gy1Br7jfNFdArV2	192.168.47.10	1032	192.185.5.140	80	2	GET	narutoshippudenepisode.org	/wp-content/themes/sprachkonstrukt2/images/bg_binary2.png	http://narutoshippudenepisode.org/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	FJjgLJRZbk0hTKWmd	text/plain
+#close	2014-04-03-10-15-49

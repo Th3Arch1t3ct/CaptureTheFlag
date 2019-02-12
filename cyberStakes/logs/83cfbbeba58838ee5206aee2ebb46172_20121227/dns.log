@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-55-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1356643299.712317	C9wwVX3xQbmoFnRrxd	192.168.4.10	1029	4.2.2.3	53	udp	39570	lauraztalk.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.170.52.21,93.170.52.31	300.000000,300.000000	F
+1356643300.261767	C9wwVX3xQbmoFnRrxd	192.168.4.10	1029	4.2.2.3	53	udp	51089	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.134.102,74.125.134.138,74.125.134.113,74.125.134.139,74.125.134.101,74.125.134.100	73345.000000,288.000000,288.000000,288.000000,288.000000,288.000000,288.000000	F
+1356643300.266963	C9wwVX3xQbmoFnRrxd	192.168.4.10	1029	4.2.2.3	53	udp	4496	funpics.in.ua	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fw.ukrnames.com,195.64.155.34	10.000000,1.000000	F
+1356643300.991562	C9wwVX3xQbmoFnRrxd	192.168.4.10	1029	4.2.2.3	53	udp	20880	facebookpic.makewap.kz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	makewap.kz,195.3.143.42	21600.000000,17316.000000	F
+1356643301.610265	C9wwVX3xQbmoFnRrxd	192.168.4.10	1029	4.2.2.3	53	udp	7319	facebookpic.makewap.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	makewap.ru,195.3.143.42	21599.000000,17315.000000	F
+1356643302.625683	C9FIcg3xASUyo8v1el	192.168.4.10	1029	4.2.2.5	53	udp	7319	facebookpic.makewap.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	makewap.ru,195.3.143.42	21600.000000,17176.000000	F
+1356643303.151019	C9wwVX3xQbmoFnRrxd	192.168.4.10	1029	4.2.2.3	53	udp	918	fbstatic-a.akamaihd.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fbstatic-a.akamaihd.net.edgesuite.net,a1168.dsw4.akamai.net,107.14.43.208,107.14.43.187	237.000000,168.000000,13.000000,13.000000	F
+1356643303.153722	C9wwVX3xQbmoFnRrxd	192.168.4.10	1029	4.2.2.3	53	udp	660	makewap.kz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.3.143.42	17314.000000	F
+1356643303.156088	C9wwVX3xQbmoFnRrxd	192.168.4.10	1029	4.2.2.3	53	udp	62619	wapstatistic.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.243.66.77	3600.000000	F
+1356643303.152808	Cis6or34AC91u30NEl	192.168.4.10	1040	4.2.2.3	53	udp	6549	c.waplog.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.218.209.2	1800.000000	F
+#close	2014-04-03-10-55-48

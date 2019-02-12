@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-56-03
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1355314425.053	CNJtSW3o3MWfSjZ4af	192.168.59.10	1044	178.18.129.48	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	emailAddress=webmaster@localhost,CN=localhost,OU=none,O=none,L=Sometown,ST=Someprovince,C=US	emailAddress=webmaster@localhost,CN=localhost,OU=none,O=none,L=Sometown,ST=Someprovince,C=US	1338902947.000000	2.202820e+09	-	-	-	c8485d78bb74bbbbbbbbbbbbbbbbb816	self signed certificate
+1355314432.618894	C3EwXM1oEe4rBZbSy	192.168.59.10	1046	212.227.197.162	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=www.cutter-messer.de,OU=Domain Control Validated - QuickSSL(R) Premium,OU=See www.geotrust.com/resources/cps (c)11,OU=GT68184505,O=www.cutter-messer.de,C=DE,serialNumber=52NYBTNE19WVXktmbuwKOnDcQJUvNIEv	CN=GeoTrust DV SSL CA,OU=Domain Validated SSL,O=GeoTrust Inc.,C=US	1314420074.000000	1472405181.000000	-	-	-	7b2c3870cb79c57d3cd555555555555b	ok
+#close	2014-04-03-10-56-03

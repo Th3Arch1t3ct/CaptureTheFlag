@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-52-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1328208939.51961	C7AQI82s68qswveSM4	192.168.38.10	1029	4.2.2.3	53	udp	25229	java2s.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.109.186.6	43178.000000	F
+1328208939.654741	C7AQI82s68qswveSM4	192.168.38.10	1029	4.2.2.3	53	udp	3471	www.java2s.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	java2s.com,208.109.186.6	43200.000000,43178.000000	F
+1328208939.908521	C7AQI82s68qswveSM4	192.168.38.10	1029	4.2.2.3	53	udp	2440	page6.google-syndication.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.15.236.24,203.170.193.102	14400.000000,14400.000000	F
+#close	2014-04-03-09-52-26

@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-09-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1317842079.432695	CXO6On4UfUakemLyI	192.168.100.10	1030	67.195.140.36	80	1	GET	muscletroop.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4366	200	OK	-	-	-	(empty)	-	-	-	-	-	FU3Uj11FP3W6aaFHZ8	text/html
+1317842079.710185	Ctlstv3FGG5i9cl8y2	192.168.100.10	1032	98.137.80.33	80	1	GET	l.yimg.com	/d/lib/smb/js/hosting/cp/js_source/whv2_001.js	http://muscletroop.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	669	200	OK	-	-	-	(empty)	-	-	-	-	-	FOBLlS3QkTIib7K2o2	text/plain
+1317842079.81957	CFXqHg3vSfH2Q3Chs	192.168.100.10	1033	68.180.221.254	80	1	GET	visit.webhosting.yahoo.com	/visit.gif?&r=&b=Microsoft Internet Explorer 4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)&s=800x600&o=Win32&c=24&j=true&v=1.2	http://muscletroop.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	85	200	OK	-	-	-	(empty)	-	-	-	-	-	FSIAJj3L5fSCM8levi	image/gif
+1317842079.976549	CUjU543YgptXGpJ2r1	192.168.100.10	1031	194.219.29.139	80	1	GET	brightnix.com	/main.php?page=8d61d1f0c962e13e	http://muscletroop.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	93981	200	OK	-	-	-	(empty)	-	-	-	-	-	Fe7HdR2G4EtKZFURo1	text/html
+1317842089.18464	CUjU543YgptXGpJ2r1	192.168.100.10	1031	194.219.29.139	80	2	GET	brightnix.com	/w.php?f=21&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	197120	200	OK	-	-	-	(empty)	-	-	-	-	-	Fz1jb3GT6B8HFGxO9	application/x-dosexec
+1317842091.643729	CUjU543YgptXGpJ2r1	192.168.100.10	1031	194.219.29.139	80	3	GET	brightnix.com	/content/2fdp.php?f=21	http://brightnix.com/main.php?page=8d61d1f0c962e13e	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	18989	200	OK	-	-	-	(empty)	-	-	-	-	-	FWGZtS2oFTxN1udN77	application/pdf
+1317842110.769736	COiUed1fbIhPh3Za5l	192.168.100.10	1052	95.163.88.209	80	1	OPTIONS	95.163.88.209	/	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	166	405	Not Allowed	-	-	-	(empty)	-	-	-	-	-	FQKOhe3ipUKcYKQf1d	text/html
+#close	2014-04-03-11-09-06

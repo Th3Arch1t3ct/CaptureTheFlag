@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dpd
+#open	2014-04-03-10-16-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	analyzer	failure_reason
+#types	time	string	addr	port	addr	port	enum	string	string
+1331872320.341172	CVU55v23ieJy5aQg9f	192.168.57.10	1108	119.59.99.184	8769	tcp	IRC	invalid reply number
+#close	2014-04-03-10-16-26

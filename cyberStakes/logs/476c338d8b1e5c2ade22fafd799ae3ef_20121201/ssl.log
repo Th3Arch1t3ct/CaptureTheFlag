@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-09-55-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1354401123.914925	C1yQ7h3aTDnxRXRl6k	192.168.4.10	1035	74.125.229.163	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1353514144.000000	1370652207.000000	-	-	-	f35f1f944e752d360f7b22e64ebbbffa	ok
+1354401123.914226	CjmUUx1OcatyoKYSSl	192.168.4.10	1034	23.64.31.139	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=connect.facebook.net,ST=CALIFORNIA,OU=connect.facebook.net,O=Facebook,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1353912311.000000	1368334740.000000	-	-	-	71207ac4f04c3567fc21e7e16503556d	ok
+1354401128.090034	CGo6m42ys0Q3Jkvzxd	192.168.4.10	1056	23.64.31.144	443	SSLv3	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=si0.twimg.com,OU=Akamai SAN SSL OV,OU=Akamai SAN SSL OV,O=Twitter,L=San Francisco,ST=CALIFORNIA,C=US	CN=USERTrust Legacy Secure Server CA,O=The USERTRUST Network,L=Salt Lake City,ST=UT,C=US	1347598800.000000	1362117599.000000	-	-	-	7132f325320c1af69c2d07ea7d4eb469	ok
+1354401129.044442	CkvtdC3mJjwCwxNfOi	192.168.4.10	1058	96.17.34.110	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=s-static.ak.facebook.com,ST=California,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1340068319.000000	1368334740.000000	-	-	-	9e5e608717b1f05d5ef57491557c1e52	ok
+#close	2014-04-03-09-55-05

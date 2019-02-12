@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-53-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1315597983.188437	CUoZCo3gWjd9QIobE6	192.168.81.10	1030	98.129.229.188	80	1	GET	3g-ny.org	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	74	200	OK	-	-	-	(empty)	-	-	-	-	-	FKd3Da1IEBEaK3VUX2	text/plain
+1315597985.201232	CbMXOV2HYhyK2xkd8c	192.168.81.10	1031	188.247.135.29	80	1	GET	bvwzjezcbd.cz.cc	/?go=1	http://3g-ny.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1315597986.130942	CHubCSlbnJe9eRyw2	192.168.81.10	1036	195.184.86.38	80	1	GET	gqvkiccg.cz.cc	/main.php?page=80bee0d740c5aceb	http://3g-ny.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	154	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	F1GdBX3RvuoLS0rscg	text/html
+1315597986.967658	CdTlFo4628ANyIZBNf	192.168.81.10	1037	178.239.51.3	80	1	GET	ggtirign.org.in	/index.php?src=58&surl=gqvkiccg.cz.cc&sport=80&suri=/main.php?page=80bee0d740c5aceb	http://3g-ny.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1205	200	OK	-	-	-	(empty)	-	-	-	-	-	Fvgrkc1kQDVr0JO5l1	text/html
+1315597987.59656	CdTlFo4628ANyIZBNf	192.168.81.10	1037	178.239.51.3	80	2	GET	ggtirign.org.in	/index2.php?src=58&gpr=11&tkr=09091951418151526&tkri=4ad9246240f00620fcd9d3495ebfe780&tkrb=c2f6195774364a07288d8b4a7a392199&inframe=1	http://3g-ny.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4864	200	OK	-	-	-	(empty)	-	-	-	-	-	FyAXvMHFSmwl5goKh	text/html
+1315597987.815447	CdTlFo4628ANyIZBNf	192.168.81.10	1037	178.239.51.3	80	3	GET	ggtirign.org.in	/index5.php?src=58&gpr=11&tkr=09091951418151526&tkri=4ad9246240f00620fcd9d3495ebfe780&tkrb=c2f6195774364a07288d8b4a7a392199	http://ggtirign.org.in/index2.php?src=58&gpr=11&tkr=09091951418151526&tkri=4ad9246240f00620fcd9d3495ebfe780&tkrb=c2f6195774364a07288d8b4a7a392199&inframe=1	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	16903	200	OK	-	-	-	(empty)	-	-	-	-	-	FqzvNzQY2pGkfeGv	text/html
+1315597988.069694	CdTlFo4628ANyIZBNf	192.168.81.10	1037	178.239.51.3	80	4	GET	ggtirign.org.in	/index6.php?b=0&src=58&gpr=11&tkr=09091951418151526&tkri=4ad9246240f00620fcd9d3495ebfe780&tkrb=c2f6195774364a07288d8b4a7a392199&e=3	http://ggtirign.org.in/index5.php?src=58&gpr=11&tkr=09091951418151526&tkri=4ad9246240f00620fcd9d3495ebfe780&tkrb=c2f6195774364a07288d8b4a7a392199	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3207	200	OK	-	-	-	(empty)	-	-	-	-	-	F7xQ6I3zp2P6RDMrL8	text/plain
+1315597988.182479	CdTlFo4628ANyIZBNf	192.168.81.10	1037	178.239.51.3	80	5	GET	ggtirign.org.in	/index4.php?src=58&gpr=11&tkr=09091951418151526&tkri=4ad9246240f00620fcd9d3495ebfe780&e=10&	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	22528	200	OK	-	-	-	(empty)	-	-	-	-	-	FpA62y9pwfZ5RQVzi	application/x-dosexec
+1315597990.5988	CWDPIJ2WmY1hLFlXr3	192.168.81.10	1038	178.239.51.6	80	1	GET	rubop.in	http://rubop.in/e581.cit	-	Mozilla/4.0 (compatible; 2600.xpsp_sp2_rtm.040803-2158; uid=157c0000640500006e9d0850; MSIE 6.0.2900.2180;)	0	149000	200	OK	-	-	-	(empty)	-	-	-	-	-	FCaajg8izWIr4PYDk	binary
+1315597993.808357	CyzqeC3HNUNT1kYdVj	192.168.81.10	1039	178.239.51.6	80	1	GET	rubop.in	http://rubop.in/count.php?u=351&e=581&r=1&sz=148992	-	Mozilla/4.0 (compatible; 2600.xpsp_sp2_rtm.040803-2158; uid=157c0000640500006e9d0850; MSIE 6.0.2900.2180;)	0	19	200	OK	-	-	-	(empty)	-	-	-	-	-	FpZ0YeI3AGFZq0cgg	text/plain
+#close	2014-04-03-09-53-58

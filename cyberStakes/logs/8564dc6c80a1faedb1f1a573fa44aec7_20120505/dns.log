@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-18-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1336190737.663029	C8CiLT2h9l9rGqNUs9	192.168.90.10	1029	4.2.2.3	53	udp	39570	livingtowin.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	97.74.215.143	3576.000000	F
+1336190741.825717	C8CiLT2h9l9rGqNUs9	192.168.90.10	1029	4.2.2.3	53	udp	7058	s44.sitemeter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.80.46.76	13424.000000	F
+1336190742.182712	C8CiLT2h9l9rGqNUs9	192.168.90.10	1029	4.2.2.3	53	udp	13456	dg.specificclick.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	mpp.specificclick.net,207.38.101.14	1671.000000,74.000000	F
+1336190742.36027	C8CiLT2h9l9rGqNUs9	192.168.90.10	1029	4.2.2.3	53	udp	59281	b.scorecardresearch.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	b.scorecardresearch.com.edgesuite.net,a1294.w20.akamai.net,23.62.62.67,23.62.62.40	41977.000000,3074.000000,9.000000,9.000000	F
+1336190742.460633	C8CiLT2h9l9rGqNUs9	192.168.90.10	1029	4.2.2.3	53	udp	60310	www.jidera.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.75.213.213	26833.000000	F
+1336190742.464535	CYnU0n1biGgZqH8F3	192.168.90.10	1041	4.2.2.3	53	udp	65175	abigtree.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.213.72	12.000000	F
+1336190750.795407	C8CiLT2h9l9rGqNUs9	192.168.90.10	1029	4.2.2.3	53	udp	43924	stujuice.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.59.198.59	30.000000	F
+1336190792.708397	CdzIiX32Z6TcK1Nur3	192.168.90.10	1070	8.8.8.8	53	udp	13107	promos.fling.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.91.207.10	200.000000	F
+1336190794.003717	CS87g61cctVmkwcEf	192.168.90.10	1073	94.242.250.64	53	udp	62350	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336190794.126814	CFfuLr4HpVMjKSA1nk	192.168.90.10	1075	94.242.250.64	53	udp	62350	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336190794.535208	C7ipjx4HnDZiZvr54	192.168.90.10	1077	94.242.250.64	53	udp	62350	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+#close	2014-04-03-10-18-12

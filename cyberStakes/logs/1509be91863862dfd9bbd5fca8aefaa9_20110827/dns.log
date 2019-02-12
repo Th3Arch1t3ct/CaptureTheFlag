@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-20-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1314485541.88345	CTDIDE2yEIBSpUe8Y9	192.168.33.10	1029	4.2.2.3	53	udp	15757	treetops-llc.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.220.219.114	14374.000000	F
+1314485542.086622	CTDIDE2yEIBSpUe8Y9	192.168.33.10	1029	4.2.2.3	53	udp	50575	www.bluehost.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	bluehost.com,74.220.195.50	4350.000000,4350.000000	F
+1314485542.166598	CTDIDE2yEIBSpUe8Y9	192.168.33.10	1029	4.2.2.3	53	udp	39561	toolbarqueries12-google.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.214.209.19	3600.000000	F
+1314485542.882654	CTDIDE2yEIBSpUe8Y9	192.168.33.10	1029	4.2.2.3	53	udp	21641	keliminog-stat.cz.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.95.227.32	3600.000000	F
+#close	2014-04-03-10-20-13

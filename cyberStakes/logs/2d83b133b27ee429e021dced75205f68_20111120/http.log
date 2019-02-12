@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-05-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1321761884.460108	CKchH14y23Id1Mjkg1	192.168.107.10	1030	196.30.132.234	80	1	GET	hyundaiadmin.co.za	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	8047	200	OK	-	-	-	(empty)	-	-	-	-	-	FGq2xc3kXRspADdp6c	text/html
+1321761885.07212	CKchH14y23Id1Mjkg1	192.168.107.10	1030	196.30.132.234	80	2	GET	hyundaiadmin.co.za	/Style.css	http://hyundaiadmin.co.za/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2845	200	OK	-	-	-	(empty)	-	-	-	-	-	FPfAJQ2w43WqZ21699	text/plain
+1321761885.521116	CKchH14y23Id1Mjkg1	192.168.107.10	1030	196.30.132.234	80	3	GET	hyundaiadmin.co.za	/images/head_01.gif	http://hyundaiadmin.co.za/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7469	200	OK	-	-	-	(empty)	-	-	-	-	-	Fp0mk91NoufyEuNOZf	image/gif
+1321761885.824243	C7wNIv2TheF44P2Xu4	192.168.107.10	1031	196.30.132.234	80	1	GET	hyundaiadmin.co.za	/images/pin_down.gif	http://hyundaiadmin.co.za/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	459	200	OK	-	-	-	(empty)	-	-	-	-	-	F3rG4n4VBYersFC0od	image/gif
+1321761885.842855	CKchH14y23Id1Mjkg1	192.168.107.10	1030	196.30.132.234	80	4	GET	hyundaiadmin.co.za	/behave/tablet.htc	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	10009	200	OK	-	-	-	(empty)	-	-	-	-	-	FCvwNz2PxN8yQkmITg	text/html
+1321761886.135638	C7wNIv2TheF44P2Xu4	192.168.107.10	1031	196.30.132.234	80	2	GET	hyundaiadmin.co.za	/Behave/calendar.htc	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	918	200	OK	-	-	-	(empty)	-	-	-	-	-	F95H9v25uYFpqOeLl6	text/html
+1321761886.452725	C7wNIv2TheF44P2Xu4	192.168.107.10	1031	196.30.132.234	80	3	GET	hyundaiadmin.co.za	/behave/tablet.htc	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	10009	200	OK	-	-	-	(empty)	-	-	-	-	-	FzmSQv23kHrKV895Wg	text/html
+1321761887.069122	C7wNIv2TheF44P2Xu4	192.168.107.10	1031	196.30.132.234	80	4	GET	hyundaiadmin.co.za	/Behave/calendar.htc	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	304	Not Modified	-	-	-	(empty)	-	-	-	-	-	-	-
+1321761887.37266	C7wNIv2TheF44P2Xu4	192.168.107.10	1031	196.30.132.234	80	5	GET	hyundaiadmin.co.za	/images/head_02.gif	http://hyundaiadmin.co.za/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	54	200	OK	-	-	-	(empty)	-	-	-	-	-	FArOq01va9drU9klab	image/gif
+1321761886.483777	ChKwki3SIyqIjRKGx2	192.168.107.10	1032	196.30.132.234	80	1	GET	hyundaiadmin.co.za	/mscal.ocx	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	111544	200	OK	-	-	-	(empty)	-	-	-	-	-	F4tUpT2XMNs6akGjJ6	application/x-dosexec
+1321761888.843684	C7wNIv2TheF44P2Xu4	192.168.107.10	1031	196.30.132.234	80	6	GET	hyundaiadmin.co.za	/reallogin.asp	http://hyundaiadmin.co.za/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1562	200	OK	-	-	-	(empty)	-	-	-	-	-	FUenO74y72axZOGVu2	text/html
+#close	2014-04-03-11-05-20

@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-09-59-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1337851558.101	CWhPPv1DafmKL3sb19	192.168.23.10	1040	184.28.191.55	443	SSLv3	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=si0.twimg.com,OU=Akamai SAN SSL OV,OU=Twitter\, Inc,O=Twitter\, Inc,L=San Francisco,ST=CALIFORNIA,C=US	CN=USERTrust Legacy Secure Server CA,O=The USERTRUST Network,L=Salt Lake City,ST=UT,C=US	1325743200.000000	1345870799.000000	-	-	-	a88db1de99fc26694cbf27367ee132b6	ok
+1337851562.241874	CVuaha3A4jhVA1ie0d	192.168.23.10	1042	96.17.63.139	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=connect.facebook.net,ST=CALIFORNIA,OU=connect.facebook.net,O=Facebook,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1325623715.000000	1357246115.000000	-	-	-	2ae743fc530ecdbe75c5e60048cccccc	ok
+1337851562.769132	CARX084UwiWwHj6OMi	192.168.23.10	1043	173.194.37.66	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1336635986.000000	1368172586.000000	-	-	-	e57db83567af40226957c000e41dbf10	ok
+1337851563.06917	CFfLdyyWrzrAInRd3	192.168.23.10	1045	184.28.190.239	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.linkedin.com,ST=CALIFORNIA,OU=Production Operations Group,O=Linkedin Corporation,L=Mountain View,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1312912936.000000	1344535336.000000	-	-	-	5ca960615839e9bfb3e6d4470feeeeee	ok
+#close	2014-04-03-10-00-00

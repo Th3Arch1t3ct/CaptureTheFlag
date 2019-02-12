@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-59-40
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1342743959.043285	CkmTcv1u55wd42X8E3	192.168.54.10	1040	85.13.133.131	80	FYL5w14G3e5bU8XX1a	application/x-dosexec	http://topdf.de/3.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-07-19 19:31:09	https://www.virustotal.com/en/search/?query=ce0390e9964573cc95ba3d08ca1bc1276ee10988	192.168.54.10	85.13.133.131	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1342743959.043285	CkzYos4KEr9OOppfA6	192.168.54.10	1041	85.13.133.131	80	FcJ4I2qQ59JgC8ld5	application/x-dosexec	http://topdf.de/2.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-07-19 19:31:09	https://www.virustotal.com/en/search/?query=ce0390e9964573cc95ba3d08ca1bc1276ee10988	192.168.54.10	85.13.133.131	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-59-40

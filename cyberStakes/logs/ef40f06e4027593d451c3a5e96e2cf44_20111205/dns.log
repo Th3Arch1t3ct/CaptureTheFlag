@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-51-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1323124739.029034	CV34Nr2FQUzcMs6u1c	192.168.55.10	1029	4.2.2.3	53	udp	41879	pnetworkwa.eu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	87.255.73.15	28776.000000	F
+1323124739.554603	CV34Nr2FQUzcMs6u1c	192.168.55.10	1029	4.2.2.3	53	udp	33429	owlstore.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	87.255.73.18	3600.000000	F
+1323124757.294782	C0OMWE2a3LB5esEM4g	192.168.55.10	1029	4.2.2.3	53	udp	8595	blogaboutyou.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.241.161.40	14400.000000	F
+1323124762.550305	C0OMWE2a3LB5esEM4g	192.168.55.10	1029	4.2.2.3	53	udp	16272	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.74.8,69.31.74.80	22510.000000,14.000000,21184.000000,13.000000,13.000000	F
+#close	2014-04-03-10-51-24

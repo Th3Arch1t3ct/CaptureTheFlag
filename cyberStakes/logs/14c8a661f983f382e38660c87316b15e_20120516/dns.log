@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-11-42
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1337135966.657235	CA2n8y3TYsc37s7OU7	192.168.80.10	1029	4.2.2.3	53	udp	54414	gograbbit.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.139.135.22,98.139.135.21	1173.000000,1173.000000	F
+1337135966.879705	CA2n8y3TYsc37s7OU7	192.168.80.10	1029	4.2.2.3	53	udp	35983	terjet.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.139.135.22,98.139.135.21	1200.000000,1200.000000	F
+1337135983.32585	Ce53bCZyOj7MjEXA9	192.168.80.10	1029	4.2.2.3	53	udp	43149	stopwell.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.162.10.19	600.000000	F
+1337136013.367634	CXwuuE1KJwnS51ui8h	192.168.80.10	1029	4.2.2.3	53	udp	64138	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.71.104,74.125.71.105,74.125.71.106,74.125.71.147,74.125.71.99,74.125.71.103	4586.000000,121.000000,121.000000,121.000000,121.000000,121.000000,121.000000	F
+#close	2014-04-03-11-11-42

@@ -1,0 +1,154 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-49-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1384573566.901605	CJR6ih31GrOqXKKE2	192.168.11.10	1058	74.125.224.194	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1383768723.000000	1394085600.000000	-	-	-	7c3bfc196fd195cb1af5555555555ffc	ok
+1384573568.075495	CgsoHh1j0tte5FoPxl	192.168.11.10	1064	54.230.84.231	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.cloudfront.net,O=Amazon.com Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1366174800.000000	1461258000.000000	-	-	-	b416f6edd9ff31ac84fffffffff181af	ok
+1384573568.294757	CrVikCemMKw4HDRAc	192.168.11.10	1066	74.125.224.194	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	5d59d9d0f5d7b0920f4c5e69d566a6af02052609d769caf9d2b86405a1cba283	-	-	-	-	-	-	-	-	-
+1384573568.627916	C825ul1TwJ4EfWPfT8	192.168.11.10	1068	74.125.28.84	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=accounts.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1383769765.000000	1394085600.000000	-	-	-	7b2103cd51b1e5d712817019ebfd295d	ok
+1384573568.889884	Cq5qQNRkhRZUBPUFk	192.168.11.10	1071	74.125.224.143	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1383767882.000000	1394085600.000000	-	-	-	d5ddef34131db2a576ebbbbbb1e51ebe	ok
+1384573569.087197	CATJbjrDwOVfeXXuh	192.168.11.10	1073	74.125.224.143	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	5049c8795ee3795d6f879b388232f6718a2dfad4ac073c06379d38e6e6ef2131	-	-	-	-	-	-	-	-	-
+1384573569.098477	CCpVto4d9pwuUlxHW7	192.168.11.10	1074	74.125.239.11	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1383768177.000000	1394085600.000000	-	-	-	7e8f120cde8efb7f55e7f8f6e30552d8	ok
+1384573569.184267	CULi262jWPODikZpEg	192.168.11.10	1078	54.230.84.162	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.cloudfront.net,O=Amazon.com Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1366174800.000000	1461258000.000000	-	-	-	b416f6edd9ff31ac84fffffffff181af	ok
+1384573570.161767	CsJv6x3NWFdCfJeTvk	192.168.11.10	1084	74.125.224.68	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1383768723.000000	1394085600.000000	-	-	-	7c3bfc196fd195cb1af5555555555ffc	ok
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	close_notify	-	-	-	-
+1384573590.193674	CjAJmj4huhxE1u0a94	192.168.11.10	1101	74.125.224.194	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1383768723.000000	1394085600.000000	-	-	-	7c3bfc196fd195cb1af5555555555ffc	ok
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	-	-	-	-	-	-	-	-	-	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-38533	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-49698	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-49698	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-49698	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-38533	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-49698	-	-	-	-
+1384573590.850543	CBIk8n5xhaS2TJU05	192.168.11.10	1102	74.125.28.84	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=accounts.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1383769765.000000	1394085600.000000	-	-	-	7b2103cd51b1e5d712817019ebfd295d	ok
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-45690	-	-	-	-
+1384573591.009295	CTBaZ92NO8RgAMuYRe	192.168.11.10	1104	74.125.224.143	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1383767882.000000	1394085600.000000	-	-	-	d5ddef34131db2a576ebbbbbb1e51ebe	ok
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-49698	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-45690	-	-	-	-
+1384573591.097319	CXqEFv2w5iuSZhVR19	192.168.11.10	1105	74.125.239.11	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1383768177.000000	1394085600.000000	-	-	-	7e8f120cde8efb7f55e7f8f6e30552d8	ok
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-45690	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-49698	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-49698	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-45690	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-45690	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-29806	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-49698	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-29806	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-29806	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-49698	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-29806	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-24041	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-30909	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-24041	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-24041	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-49901	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-49901	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-24041	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-49901	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-24041	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-24041	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-26478	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-28216	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-28216	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-35453	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-1028	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-1028	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-35453	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-36028	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-35453	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-36028	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-35453	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-36028	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-36028	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-35453	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-35453	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-45041	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-45041	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-64064	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-45041	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-45041	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-64064	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-64064	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-45041	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-45041	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-64064	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-21696	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-45041	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-45041	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-3102	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-51858	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-51858	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-51858	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-3102	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-3102	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-51858	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-51858	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-36396	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-36616	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-36616	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-64600	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-64600	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-36616	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-36616	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-36616	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-64600	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-5498	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-5498	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-5498	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-63146	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-63146	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-5498	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-63146	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-5498	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-63146	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-64099	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-16477	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-41332	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-16477	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-41332	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-41332	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-41332	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-41332	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-22482	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-22482	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-54867	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-54867	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-22482	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-33757	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-9262	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-9262	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-33757	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-33757	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-9262	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-33757	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-9262	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-9262	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-9262	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-9262	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-61737	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-9262	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-9262	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-9262	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-9262	-	-	-	-
+1384573589.962376	CxxCLgkWdwkl66AO2	192.168.11.10	1092	46.165.220.180	443	-	-	-	-	-	-	-	-	unknown-61737	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-9262	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-41332	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-41332	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-41332	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-41332	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-41332	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-22482	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-13489	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-13489	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-13489	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-13489	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-13489	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-13489	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-27690	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-27690	-	-	-	-
+1384573590.285505	C4zay59ZHKUgkjudj	192.168.11.10	1093	46.165.220.180	443	unknown-33383	unknown-11647723	-	-	-	-	-	-	unknown-27690	-	-	-	-
+#close	2014-04-03-10-49-31

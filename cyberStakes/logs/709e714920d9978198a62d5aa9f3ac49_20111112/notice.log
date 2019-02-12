@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-09-57
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1321072791.617135	CBR8Fz38AJAIdd1tFi	192.168.90.10	1035	193.106.174.219	80	F2DqfPBdquDnwd9xe	application/pdf	http://aquarigger.com/content/2ddfp.php?f=40	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2011-12-02 21:46:57	https://www.virustotal.com/en/search/?query=46c736b83424a79040c5d2e75e870cf40e0be8da	192.168.90.10	193.106.174.219	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1321072796.963056	CBR8Fz38AJAIdd1tFi	192.168.90.10	1035	193.106.174.219	80	FqTnKS1MSbaW3jOE6j	application/x-shockwave-flash	http://aquarigger.com/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 26%  Last seen: 2011-11-14 01:21:00	https://www.virustotal.com/en/search/?query=dc592aca72b525b0783064ff77317a0836f235f8	192.168.90.10	193.106.174.219	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-09-58

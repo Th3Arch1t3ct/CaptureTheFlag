@@ -1,0 +1,28 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-03-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1344707003.216295	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1344707054.205266	CGow5X1VzOixhOedS1	192.168.8.10	1048	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344707054.205415	CcAuCF3V6S4qqq96Db	192.168.8.10	1048	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344707054.235884	CSBvCx4DJB9iaeeFuc	192.168.8.10	1050	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344707054.236075	CTe0so14oQYpcjGep4	192.168.8.10	1050	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344707054.348333	CpgwF44vczwOB9QDyd	192.168.8.10	1053	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344707054.348631	CGQeXa1K4wjVV2Znq5	192.168.8.10	1053	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344707054.370771	C6AEn32NqAsATFkbj1	192.168.8.10	1055	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344707054.371191	Cyd0uR3hssBCtadYed	192.168.8.10	1055	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344707054.372654	CqPklc4Oo6l8rVLsCe	192.168.8.10	1057	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344707054.372801	Cm8s8c2FzzaumQVHJ	192.168.8.10	1057	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344707055.132271	Cf4heo1ML7xGD95wv4	192.168.8.10	1061	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344707055.132396	C3JXKg4QacX0QhSBge	192.168.8.10	1061	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344707055.142567	CrJ0OY3UwFX6VzGubf	192.168.8.10	1063	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344707055.14269	CEDWg02v5lEAm8mSx1	192.168.8.10	1063	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344707055.158535	CqWqBH12adz3VVFmX2	192.168.8.10	1066	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344707055.158664	CaJ6wG4uQsV3fYhBcg	192.168.8.10	1066	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344707058.072809	Crj7l7OYoZREJ5foa	192.168.8.10	1070	46.102.74.114	80	bad_HTTP_request	-	F	bro
+1344707058.072809	Crj7l7OYoZREJ5foa	192.168.8.10	1070	46.102.74.114	80	line_terminated_with_single_CR	-	F	bro
+#close	2014-04-03-10-03-33

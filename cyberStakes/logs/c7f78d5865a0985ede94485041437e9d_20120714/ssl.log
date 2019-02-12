@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-43-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1342278366.835421	CCLZKD4RksE1FDLn3g	192.168.77.10	1034	173.0.88.2	443	SSLv3	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=www.paypal.com,OU=PayPal Production,O=PayPal\, Inc.,street=2211 N 1st St,L=San Jose,ST=California,postalCode=95131-2021,C=US,serialNumber=3014267,businessCategory=Private Organization,1.3.6.1.4.1.311.60.2.1.2=#130844656C6177617265,1.3.6.1.4.1.311.60.2.	1.3=#13025553CN=VeriSign Class 3 Extended Validation SSL CA,OU=Terms of use at https://www.verisign.com/rpa (c)06,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1300856400.000000	1364878799.000000	-	-	-	bf47cecad861e3d05ee433333d1ee903	ok
+1342278366.825809	CXpM4GSN0B6oHeGxc	192.168.77.10	1033	173.0.88.2	443	SSLv3	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=www.paypal.com,OU=PayPal Production,O=PayPal\, Inc.,street=2211 N 1st St,L=San Jose,ST=California,postalCode=95131-2021,C=US,serialNumber=3014267,businessCategory=Private Organization,1.3.6.1.4.1.311.60.2.1.2=#130844656C6177617265,1.3.6.1.4.1.311.60.2.	1.3=#13025553CN=VeriSign Class 3 Extended Validation SSL CA,OU=Terms of use at https://www.verisign.com/rpa (c)06,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1300856400.000000	1364878799.000000	-	-	-	bf47cecad861e3d05ee433333d1ee903	ok
+#close	2014-04-03-10-43-25

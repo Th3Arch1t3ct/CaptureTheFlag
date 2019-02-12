@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-37-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1330473317.465868	CTOXxn45gLi2Pesi9	192.168.63.10	1030	84.32.116.230	80	1	GET	mv-bowling.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	645	200	OK	-	-	-	(empty)	-	-	-	-	-	FYaWZ8361BzSQtiHd2	text/html
+1330473318.267872	CKPCwI3qr7Z7MHsslb	192.168.63.10	1031	213.229.86.30	80	1	GET	free-contract-mobile-phones.co.uk	/mltools.js	http://mv-bowling.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2908	200	OK	-	-	-	(empty)	-	-	-	-	-	Fqku6l4kEOTbrZ7Ztj	text/plain
+1330473321.986155	CaxubEbmgf6BQ5Gm7	192.168.63.10	1032	91.217.153.153	80	1	GET	computetxpsm.monbe.be	//index.php?cd9da894e96fba0e27ed10fe995646fd	http://mv-bowling.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	44609	200	OK	-	-	-	(empty)	-	-	-	-	-	Fdlis12et3BFatUNT5	text/html
+1330473323.546539	CkOYwuqXleqO3TIP1	192.168.63.10	1037	91.217.153.153	80	1	GET	computetxpsm.monbe.be	/server_privileges.php?1a4a72cf1b9a0f26000310ba545434ca=1	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	20960	200	OK	-	-	-	(empty)	-	-	-	-	-	FOPOpR1ISxNUfyVeO6	application/x-dosexec
+1330473324.33857	CkOYwuqXleqO3TIP1	192.168.63.10	1037	91.217.153.153	80	2	GET	computetxpsm.monbe.be	//.$pdfurl.	http://computetxpsm.monbe.be//index.php?cd9da894e96fba0e27ed10fe995646fd	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	399	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FZTBOr4jxIea8pKlS3	text/html
+1330473326.245916	Cv4Leg3IBalA3rOJJl	192.168.63.10	1038	91.217.153.153	80	1	GET	computetxpsm.monbe.be	//images/r/938a99f1be85e19406438f9a572fdf71.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3348	200	OK	-	-	-	(empty)	-	-	-	-	-	FU96xejWO9sv7NJDd	application/jar
+1330473326.256281	CZN2HE1XB3Kg7d2PQ3	192.168.63.10	1039	91.217.153.153	80	1	GET	computetxpsm.monbe.be	//images/938a99f1be85e19406438f9a572fdf71.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5177	200	OK	-	-	-	(empty)	-	-	-	-	-	F0989N2NObj7R8SQ2c	application/jar
+1330473326.544186	Cv4Leg3IBalA3rOJJl	192.168.63.10	1038	91.217.153.153	80	2	GET	computetxpsm.monbe.be	//images/r/938a99f1be85e19406438f9a572fdf71.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3348	200	OK	-	-	-	(empty)	-	-	-	-	-	FQH8D44UFfALy4ihZg	application/jar
+1330473326.541057	CZN2HE1XB3Kg7d2PQ3	192.168.63.10	1039	91.217.153.153	80	2	GET	computetxpsm.monbe.be	//images/938a99f1be85e19406438f9a572fdf71.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5177	200	OK	-	-	-	(empty)	-	-	-	-	-	FDIz862sBpTvns48M9	application/jar
+1330473326.783476	Cv4Leg3IBalA3rOJJl	192.168.63.10	1038	91.217.153.153	80	3	GET	computetxpsm.monbe.be	//images/r/938a99f1be85e19406438f9a572fdf71.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3348	200	OK	-	-	-	(empty)	-	-	-	-	-	FZoAXs18Vb8bxiSZ92	application/jar
+1330473327.232404	Cv4Leg3IBalA3rOJJl	192.168.63.10	1038	91.217.153.153	80	4	GET	computetxpsm.monbe.be	//images/938a99f1be85e19406438f9a572fdf71.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5177	200	OK	-	-	-	(empty)	-	-	-	-	-	FbbgXc2MH70PpoUh1d	application/jar
+1330473327.239769	CZN2HE1XB3Kg7d2PQ3	192.168.63.10	1039	91.217.153.153	80	3	GET	computetxpsm.monbe.be	//com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	399	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F4W87nDganWIM4NPk	text/html
+1330473327.430277	CZN2HE1XB3Kg7d2PQ3	192.168.63.10	1039	91.217.153.153	80	4	GET	computetxpsm.monbe.be	//edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	399	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FyJ1mO39HlTs3RUK04	text/html
+1330473327.567019	CZN2HE1XB3Kg7d2PQ3	192.168.63.10	1039	91.217.153.153	80	5	GET	computetxpsm.monbe.be	//net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	399	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FXdxBEK2Uu8fNmsgf	text/html
+1330473327.700903	CZN2HE1XB3Kg7d2PQ3	192.168.63.10	1039	91.217.153.153	80	6	GET	computetxpsm.monbe.be	//org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	399	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FhpTrT1S7nawqEqcGh	text/html
+1330473327.51235	Cv4Leg3IBalA3rOJJl	192.168.63.10	1038	91.217.153.153	80	5	GET	computetxpsm.monbe.be	/server_privileges.php?1a4a72cf1b9a0f26000310ba545434ca=2	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	20960	200	OK	-	-	-	(empty)	-	-	-	-	-	FAM6c83W3QlqQUS8yk	application/x-dosexec
+1330473327.896281	CZN2HE1XB3Kg7d2PQ3	192.168.63.10	1039	91.217.153.153	80	7	GET	computetxpsm.monbe.be	/server_privileges.php?1a4a72cf1b9a0f26000310ba545434ca=3	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	20960	200	OK	-	-	-	(empty)	-	-	-	-	-	F1DOSrWYzNW5wF6Fa	application/x-dosexec
+#close	2014-04-03-10-37-49

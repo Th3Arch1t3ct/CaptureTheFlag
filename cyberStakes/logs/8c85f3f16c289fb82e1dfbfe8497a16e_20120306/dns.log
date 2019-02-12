@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-23-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1331057927.080066	ClJtssrhtgeIrWr4c	192.168.89.10	1029	4.2.2.3	53	udp	59018	21centurytube.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	176.65.162.217	9.000000	F
+1331057927.32072	ClJtssrhtgeIrWr4c	192.168.89.10	1029	4.2.2.3	53	udp	46730	eeeblue.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	204.27.57.101	30.000000	F
+1331057933.271497	ClJtssrhtgeIrWr4c	192.168.89.10	1029	4.2.2.3	53	udp	22154	search.yahoo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	search.ystg1.b.yahoo.com,m1.search.ysta1.b.yahoo.com,74.6.238.254	1743.000000,1522.000000,44.000000	F
+1331057933.431751	ClJtssrhtgeIrWr4c	192.168.89.10	1029	4.2.2.3	53	udp	17289	search.yahoo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	search.ystg1.b.yahoo.com,m1.search.ysta1.b.yahoo.com,74.6.238.254	1743.000000,1522.000000,44.000000	F
+1331057933.975429	ClJtssrhtgeIrWr4c	192.168.89.10	1029	4.2.2.3	53	udp	63887	search.yahoo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	search.ystg1.b.yahoo.com,m1.search.ysta1.b.yahoo.com,74.6.238.254	1743.000000,1522.000000,44.000000	F
+#close	2014-04-03-10-23-12

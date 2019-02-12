@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-19-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1336968517.019681	Crnk8ARmUTXrALsWh	192.168.126.10	1030	174.121.3.58	80	1	GET	camisetas-personalizadas.org	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	19188	200	OK	-	-	-	(empty)	-	-	-	-	-	FvgiPM14nUqGs7ADaa	text/html
+1336968517.117191	CxVVcBvLla9PColk	192.168.126.10	1031	174.121.3.58	80	1	GET	camisetas-personalizadas.org	/js/jquery-1.3.2.min.js	http://camisetas-personalizadas.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	417	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FhsFlxO9y5Ko8SQzl	text/html
+1336968517.178374	CxVVcBvLla9PColk	192.168.126.10	1031	174.121.3.58	80	2	GET	camisetas-personalizadas.org	/js/functions.js	http://camisetas-personalizadas.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	410	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Fs7RV31iZu7gu3v2gd	text/html
+1336968517.178032	Crnk8ARmUTXrALsWh	192.168.126.10	1030	174.121.3.58	80	2	GET	camisetas-personalizadas.org	/styles/nyroModal.full.css	http://camisetas-personalizadas.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	420	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FHJ8E14nSeirflqkWi	text/html
+1336968517.235807	CxVVcBvLla9PColk	192.168.126.10	1031	174.121.3.58	80	3	GET	camisetas-personalizadas.org	/js/jquery.pngFix.pack.js	http://camisetas-personalizadas.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	419	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FybbPx2X2VofhgBmR7	text/html
+1336968517.298278	Crnk8ARmUTXrALsWh	192.168.126.10	1030	174.121.3.58	80	3	GET	camisetas-personalizadas.org	/js/jquery.nyroModal-1.5.5.pack.js	http://camisetas-personalizadas.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	428	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FiUv5h3RTqVUUh4bAj	text/html
+1336968517.407728	CxVVcBvLla9PColk	192.168.126.10	1031	174.121.3.58	80	4	GET	camisetas-personalizadas.org	/foto camiseta personalizada.jpg	http://camisetas-personalizadas.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	245592	200	OK	-	-	-	(empty)	-	-	-	-	-	F67EMJ3BXcyj5WW8R3	image/jpeg
+1336968522.911001	CJCCAb1jaW8GpbcILe	192.168.126.10	1036	65.55.13.243	80	1	POST	activex.microsoft.com	/objects/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	F82feewUmhwzarZy5	text/plain	FnyRNs2d9vlTCHaada	text/plain
+1336968522.971564	CxVVcBvLla9PColk	192.168.126.10	1031	174.121.3.58	80	5	GET	camisetas-personalizadas.org	/zcv.gif	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	78336	200	OK	-	-	-	(empty)	-	-	-	-	-	FdFXpl1DxR9rcJbzu8	application/x-dosexec
+1336968528.740893	CNA3Kh2DaR7o9tf494	192.168.126.10	1038	208.109.53.70	80	1	GET	aachristmas.com	/images/led/tr.php	-	-	0	3837	200	OK	-	-	-	(empty)	-	-	-	-	-	FntnZw1gVDuVZQ2Gj6	text/html
+#close	2014-04-03-10-19-46

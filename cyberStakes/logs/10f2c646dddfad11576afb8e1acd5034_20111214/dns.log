@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-34-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1323878519.777916	CUaZ9r4ccpHFs5X11	192.168.36.10	1029	4.2.2.3	53	udp	39571	neurontinsideeffects.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.163.169.109	14375.000000	F
+1323878519.913846	CUaZ9r4ccpHFs5X11	192.168.36.10	1029	4.2.2.3	53	udp	31633	www.neurontinsideeffects.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.163.169.109	14375.000000	F
+1323878530.808213	CcqSUD4lbojkMO1Sx9	192.168.36.10	1029	4.2.2.3	53	udp	56976	pagead2.googlesyndication.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pagead.l.doubleclick.net,74.125.229.57,74.125.229.58	233.000000,214.000000,214.000000	F
+1323878531.535588	CcqSUD4lbojkMO1Sx9	192.168.36.10	1029	4.2.2.3	53	udp	42896	googleads.g.doubleclick.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pagead.l.doubleclick.net,74.125.229.57,74.125.229.58	10066.000000,213.000000,213.000000	F
+1323878531.959866	CiNCKgoAQiRFZ1rCb	192.168.36.10	1040	4.2.2.3	53	udp	49815	google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.125.47.99,74.125.47.103,74.125.47.104,74.125.47.105,74.125.47.106,74.125.47.147	230.000000,230.000000,230.000000,230.000000,230.000000,230.000000	F
+1323878531.554662	CcqSUD4lbojkMO1Sx9	192.168.36.10	1029	4.2.2.3	53	udp	6295	sweepstakesandcontestsnow.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.28.114.102	43200.000000	F
+1323878532.47273	CiNCKgoAQiRFZ1rCb	192.168.36.10	1040	4.2.2.3	53	udp	62871	tionpa52tientte.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.28.114.102	21600.000000	F
+1323878532.854993	CiNCKgoAQiRFZ1rCb	192.168.36.10	1040	4.2.2.3	53	udp	6037	www3.hard-securityi.kwik.to	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.238.105	21600.000000	F
+1323878533.082752	CiNCKgoAQiRFZ1rCb	192.168.36.10	1040	4.2.2.3	53	udp	46485	www1.strongueanetwork.kwik.to	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.110	21600.000000	F
+1323878574.650268	Cl1pspqAiBoMd7Lzj	192.168.36.10	1040	4.2.2.3	53	udp	36763	www2.personalarmyr.kwik.to	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.142.217	21600.000000	F
+#close	2014-04-03-10-34-24

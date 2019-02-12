@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-10-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1315330182.869899	CUY6Yw1QhjZwXAPGy5	192.168.106.10	1030	64.13.232.130	80	1	GET	worldxover.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1587	200	OK	-	-	-	(empty)	-	-	-	-	-	FFxPNE3XHNsGYTvsyh	text/html
+1315330182.956846	CUY6Yw1QhjZwXAPGy5	192.168.106.10	1030	64.13.232.130	80	2	GET	worldxover.com	/img/worldxover_66.gif	http://worldxover.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	41525	200	OK	-	-	-	(empty)	-	-	-	-	-	FnLzQZ8IhwldmZUSk	image/gif
+1315330183.47299	CWhYrQ32skojbE9bBg	192.168.106.10	1031	188.247.135.29	80	1	GET	cswtkdvfsh.cz.cc	/?go=1	http://worldxover.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1315330184.321623	CWInVw1YLLqIeYvYz5	192.168.106.10	1032	89.208.34.84	80	1	GET	acdmyjsu.cz.cc	/main.php?page=80bee0d740c5aceb	http://worldxover.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	179066	200	OK	-	-	-	(empty)	-	-	-	-	-	FX2Ezm1YosYFKEgaIc	text/html
+1315330189.368112	Cz4WBosJa8VdJ94B	192.168.106.10	1047	89.208.34.84	80	1	GET	acdmyjsu.cz.cc	/content/field.swf	http://worldxover.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1301	200	OK	-	-	-	(empty)	-	-	-	-	-	F6K8AZ10n3NXcFSSYk	application/x-shockwave-flash
+1315330189.278566	CSVje8meXEQFS57A	192.168.106.10	1045	95.163.66.188	80	1	GET	1604534972	/GWeather.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6195	200	OK	-	-	-	(empty)	-	-	-	-	-	FG5F9j2eYIOl3cuchc	application/x-java-applet
+1315330189.281747	C6hROs28CPLzhFToSc	192.168.106.10	1044	95.163.66.188	80	1	GET	1604534972	/GWeather.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6195	200	OK	-	-	-	(empty)	-	-	-	-	-	FVf4fD39XUUfMx3Hy3	application/x-java-applet
+1315330189.280453	C6OdX7aTbvT2OPkK1	192.168.106.10	1043	95.163.66.188	80	1	GET	1604534972	/GWeather.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6195	200	OK	-	-	-	(empty)	-	-	-	-	-	Fr6nv33Im0AUjqaSbc	application/x-java-applet
+1315330189.285102	CHow5I2SiPZT00GUCb	192.168.106.10	1046	95.163.66.188	80	1	GET	1604534972	/GWeather.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6195	200	OK	-	-	-	(empty)	-	-	-	-	-	FqvBneo0VcBTXkAS8	application/x-java-applet
+1315330189.38432	CnHNuos1biyjcmIn	192.168.106.10	1049	95.163.66.188	80	1	GET	1604534972	/GWeather.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6195	200	OK	-	-	-	(empty)	-	-	-	-	-	FvqZ112NdJnNlZuHD5	application/x-java-applet
+1315330189.387934	Cz11hI2srBSD2E5iCb	192.168.106.10	1048	95.163.66.188	80	1	GET	1604534972	/GWeather.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6195	200	OK	-	-	-	(empty)	-	-	-	-	-	FdbNbw3oifhWKjotzk	application/x-java-applet
+1315330186.769678	CWInVw1YLLqIeYvYz5	192.168.106.10	1032	89.208.34.84	80	2	GET	acdmyjsu.cz.cc	/content/2fdp.php?f=19	http://acdmyjsu.cz.cc/main.php?page=80bee0d740c5aceb	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	95765	200	OK	-	-	-	(empty)	-	-	-	-	-	FuusfZDFO0RPNNeTa	application/pdf
+1315330205.667554	C4JZUK2yS7da60USub	192.168.106.10	1050	209.170.75.240	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1639	200	OK	-	-	-	(empty)	-	-	-	-	-	FHyAsB4JWmaKQQHgW5	text/html
+1315330205.728773	Cqhw7L2yMp0LijNlub	192.168.106.10	1037	89.208.34.84	80	1	GET	acdmyjsu.cz.cc	/content/worms.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5111	200	OK	-	-	-	(empty)	-	-	-	-	-	FrYWb01seKTXhQ9px3	application/zip
+1315330209.318091	CiO2kqAGVhIQO9BX1	192.168.106.10	1051	89.208.34.116	80	1	OPTIONS	89.208.34.116	/	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	166	405	Not Allowed	-	-	-	(empty)	-	-	-	-	-	FEDfVf33SG9z8o5Ld8	text/html
+1315330209.919433	CNUnZp2aV9OAtPFq0d	192.168.106.10	1052	89.208.34.84	80	1	GET	acdmyjsu.cz.cc	/w.php?f=19&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	879104	200	OK	-	-	-	(empty)	-	-	-	-	-	F8KpnFNikXx2h1DG4	application/x-dosexec
+1315330210.304464	Cdadw6UAmzW1GATX1	192.168.106.10	1053	89.208.34.84	80	1	GET	acdmyjsu.cz.cc	/w.php?f=19&e=1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	879104	200	OK	-	-	-	(empty)	-	-	-	-	-	FTPi1b2cZ8QZCZvW27	application/x-dosexec
+#close	2014-04-03-11-10-31

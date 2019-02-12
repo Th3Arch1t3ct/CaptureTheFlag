@@ -1,0 +1,36 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-35-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1368912976.942455	CCTxTm1gWqP9g1onGe	192.168.22.10	1038	199.21.148.98	80	unescaped_special_URI_char	-	F	bro
+1368912977.929531	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1368912980.099476	CcaidA4MvQgT2C6SWc	192.168.22.10	1047	199.21.148.98	80	unescaped_special_URI_char	-	F	bro
+1368912986.670968	CTCX1F35yjGq3xUAIe	192.168.22.10	1069	195.93.85.9	80	unescaped_special_URI_char	-	F	bro
+1368912990.626059	CwgQfi3cPcBbwMmi37	192.168.22.10	1075	23.67.61.48	80	SYN_after_reset	-	F	bro
+1368912990.648466	CwgQfi3cPcBbwMmi37	192.168.22.10	1075	23.67.61.48	80	data_after_reset	-	F	bro
+1368912991.154864	CVby8G4hsLe74TsSJ3	192.168.22.10	1090	96.17.54.8	80	unescaped_special_URI_char	-	F	bro
+1368912992.672582	Ci9e7h4u3nTS2WUwK	192.168.22.10	1099	208.71.125.129	80	window_recision	-	F	bro
+1368912992.693596	Cewpv53n43SE2MyKi6	192.168.22.10	1107	208.71.124.125	80	unescaped_special_URI_char	-	F	bro
+1368912992.699351	CAKSNM1KqsueBpmsAf	192.168.22.10	1102	208.71.125.129	80	window_recision	-	F	bro
+1368912992.735579	C4w24HHzjwYazn4xh	192.168.22.10	1111	208.71.124.125	80	unescaped_special_URI_char	-	F	bro
+1368912992.786911	C4uazxxvGFWt343jh	192.168.22.10	1112	107.23.52.137	80	unescaped_special_URI_char	-	F	bro
+1368912992.78713	CETzwrHhdFTeNvm1a	192.168.22.10	1113	107.23.52.137	80	unescaped_special_URI_char	-	F	bro
+1368912992.795911	C5BGq13FTLIAknTVH9	192.168.22.10	1114	208.71.124.125	80	unescaped_special_URI_char	-	F	bro
+1368912992.835045	C92svW2HBeK8axzEC5	192.168.22.10	1115	208.71.124.125	80	unescaped_special_URI_char	-	F	bro
+1368912994.408747	CQIDH24DaCJbRFeDy4	192.168.22.10	1144	50.116.194.23	80	unescaped_special_URI_char	-	F	bro
+1368912994.930319	CeDd1Z1TmhWY11Zz4	192.168.22.10	1150	199.233.57.41	80	unescaped_special_URI_char	-	F	bro
+1368912995.022705	CsjVpM10vR6u2ZN4b1	192.168.22.10	1165	208.71.124.125	80	unescaped_special_URI_char	-	F	bro
+1368912995.843524	CIeKeokaNFy5qNGsa	192.168.22.10	1193	208.71.125.129	443	window_recision	-	F	bro
+1368912995.885335	CqRU2T2iUgy5v44ok6	192.168.22.10	1196	208.71.125.129	443	window_recision	-	F	bro
+1368912996.222585	CQIDH24DaCJbRFeDy4	192.168.22.10	1144	50.116.194.23	80	window_recision	-	F	bro
+1368912996.271717	C7PwKD1f6CYduc4qPf	192.168.22.10	1147	69.194.244.14	80	window_recision	-	F	bro
+1368912996.5217	Cmo8Za4JU8niwKyav	192.168.22.10	1211	107.6.106.10	80	unescaped_special_URI_char	-	F	bro
+1368913040.249351	CrcnmN1yOLZuUkvaDf	192.168.22.10	1910	74.117.199.102	80	HTTP_version_mismatch	-	F	bro
+1368913040.276747	Cmph0pVWvDokceJEg	192.168.22.10	1908	74.117.199.102	80	HTTP_version_mismatch	-	F	bro
+1368913040.336394	CHLTLT16rH7Dr8QRX	192.168.22.10	1911	98.139.225.42	80	unescaped_special_URI_char	-	F	bro
+1368913041.169043	CrMgP23uIBnOByFtph	192.168.22.10	1954	108.170.194.161	80	unmatched_HTTP_reply	-	F	bro
+#close	2014-04-03-10-35-52

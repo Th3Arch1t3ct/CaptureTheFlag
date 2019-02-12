@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-37-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1369907620.82445	C3l8Q51ZBdO16xHCQb	192.168.27.10	1029	4.2.2.3	53	udp	57994	www.mcafeeseal.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.216.49.245	900.000000	F
+1369907621.327958	C3l8Q51ZBdO16xHCQb	192.168.27.10	1029	4.2.2.3	53	udp	62858	hyves.org.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	149.154.68.153	3577.000000	F
+#close	2014-04-03-10-37-20

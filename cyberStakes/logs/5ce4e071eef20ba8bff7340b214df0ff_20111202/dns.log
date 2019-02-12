@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-56-03
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1322843423.865924	CHfjaD3RDAcr7Accke	192.168.51.10	1029	4.2.2.3	53	udp	60561	buylink.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.172.190.92	14377.000000	F
+1322843424.373327	CHfjaD3RDAcr7Accke	192.168.51.10	1029	4.2.2.3	53	udp	11667	www.buylink.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	buylink.biz,184.172.190.92	14377.000000,14376.000000	F
+1322843424.813051	CHfjaD3RDAcr7Accke	192.168.51.10	1029	4.2.2.3	53	udp	41620	update-java.kit.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	201.7.184.2	10800.000000	F
+1322843425.296084	CHfjaD3RDAcr7Accke	192.168.51.10	1029	4.2.2.3	53	udp	8598	treinar.com.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	187.17.98.39	1800.000000	F
+1322843427.539334	CHfjaD3RDAcr7Accke	192.168.51.10	1029	4.2.2.3	53	udp	20119	pagead2.googlesyndication.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pagead.l.google.com,74.125.229.188	159.000000,159.000000	F
+1322843434.066292	CHfjaD3RDAcr7Accke	192.168.51.10	1029	4.2.2.3	53	udp	11928	c.statcounter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.215.253.139,67.215.253.140	178.000000,178.000000	F
+1322843434.860035	CHfjaD3RDAcr7Accke	192.168.51.10	1029	4.2.2.3	53	udp	20121	croral.com.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	187.73.33.30	3600.000000	F
+1322843436.033548	CHfjaD3RDAcr7Accke	192.168.51.10	1029	4.2.2.3	53	udp	10138	esquadraointerativo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	200.98.197.82	1800.000000	F
+#close	2014-04-03-09-56-04

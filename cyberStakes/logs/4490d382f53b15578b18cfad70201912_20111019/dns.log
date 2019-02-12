@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-43-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1319048644.524523	C3k2rb2jWFdfZqRox6	192.168.38.10	1029	4.2.2.3	53	udp	56462	www.beachesboozebus.com.au	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	beachesboozebus.com.au,122.252.9.214	14377.000000,14378.000000	F
+1319048644.968312	C3k2rb2jWFdfZqRox6	192.168.38.10	1029	4.2.2.3	53	udp	6799	www.snbt.com.au	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	122.252.9.214	14379.000000	F
+1319048647.586539	C3k2rb2jWFdfZqRox6	192.168.38.10	1029	4.2.2.3	53	udp	40844	heartofpole.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.175.106.89	14400.000000	F
+1319048647.786819	C3k2rb2jWFdfZqRox6	192.168.38.10	1029	4.2.2.3	53	udp	54411	moviedatabasesrv.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.127.228.44	3600.000000	F
+1319048648.068923	C3k2rb2jWFdfZqRox6	192.168.38.10	1029	4.2.2.3	53	udp	18827	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,63.130.161.152,63.130.161.162	4868.000000,49.000000,10914.000000,3.000000,3.000000	F
+1319048647.588762	Ct23Iq4BLOMmlfjLRa	192.168.38.10	1037	4.2.2.3	53	udp	3213	www.cvtech.com.au	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	202.124.241.200	3600.000000	F
+1319048651.274784	C3k2rb2jWFdfZqRox6	192.168.38.10	1029	4.2.2.3	53	udp	29067	fstyles.w67.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.127.228.44	600.000000	F
+1319048653.919509	C3k2rb2jWFdfZqRox6	192.168.38.10	1029	4.2.2.3	53	udp	23176	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.45.104,74.125.45.105,74.125.45.106,74.125.45.147,74.125.45.99,74.125.45.103	1206.000000,289.000000,289.000000,289.000000,289.000000,289.000000,289.000000	F
+1319048653.957522	C3k2rb2jWFdfZqRox6	192.168.38.10	1029	4.2.2.3	53	udp	29577	pgdigital.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.208.141.134	3600.000000	F
+1319048668.464627	CrZoyj3S6tMZihG6ec	192.168.38.10	1029	4.2.2.3	53	udp	43655	bookiemonster.co.nz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.72.218.66	43200.000000	F
+1319048675.517511	CrZoyj3S6tMZihG6ec	192.168.38.10	1029	4.2.2.3	53	udp	28804	www.wiiusers.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wiiusers.net,216.246.28.140	14400.000000,14400.000000	F
+1319048682.035313	CrZoyj3S6tMZihG6ec	192.168.38.10	1029	4.2.2.3	53	udp	55426	swupmf.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	swupmf.wip4.adobe.com,swupmf.adobe.com.edgesuite.net,a1137.g.akamai.net,209.170.75.225,209.170.75.138	2286.000000,600.000000,2957.000000,20.000000,20.000000	F
+1319048682.16206	CrZoyj3S6tMZihG6ec	192.168.38.10	1029	4.2.2.3	53	udp	49792	crl.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.wip4.adobe.com,crl.adobe.com.edgesuite.net,a1180.g.akamai.net,209.170.95.88,209.170.95.80	9389.000000,300.000000,14253.000000,20.000000,20.000000	F
+1319048706.189666	Cghpll3Wxgq3CJGrUa	192.168.38.10	1029	4.2.2.3	53	udp	42624	globalwebanalytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.208.141.134	3600.000000	F
+#close	2014-04-03-10-43-44

@@ -1,0 +1,28 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-11-06-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1337465927.879516	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1337465959.875917	CrkwaM2jEXxGlRgwT3	192.168.80.10	1087	64.72.65.214	80	SYN_after_reset	-	F	bro
+1337465959.904217	CrkwaM2jEXxGlRgwT3	192.168.80.10	1087	64.72.65.214	80	data_after_reset	-	F	bro
+1337465960.951155	CSQl1YWTPIbtgd1b6	192.168.80.10	1092	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337465960.957515	CwagMR3eIki0Cf7PJd	192.168.80.10	1094	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337465960.976949	CVv6Dul0y97fnSj59	192.168.80.10	1096	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337465960.980889	C2VgPIpmSskg9AQe7	192.168.80.10	1098	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337465960.98682	CNFs0n4wJC7N66fvwd	192.168.80.10	1100	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337465961.008374	C96ZnDXBjyeRfxl07	192.168.80.10	1102	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337465961.135696	Cofxgj4kp3UZsQ8I4d	192.168.80.10	1106	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337465961.145964	CROBZV3OMRBUEmZxee	192.168.80.10	1108	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337465961.183521	Cy8Ypz9sVv3GK5oh9	192.168.80.10	1110	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337465970.281925	CnMeF02D5GrCouNsE2	192.168.80.10	1116	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337465970.626598	CQHjS41SjtBsub2sXe	192.168.80.10	1118	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337465970.822722	CWDq134d5lpY84k6V8	192.168.80.10	1120	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337465975.113841	CyP4ng20sAe61vKpJ	192.168.80.10	1124	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337465975.116341	CDuHCh18gWxkNBtjy4	192.168.80.10	1126	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337465975.13868	COLFrD2dV0kqrEXZHl	192.168.80.10	1128	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337465978.626371	CWt3ez1dh8yU3iTUj2	192.168.80.10	1138	31.193.12.27	80	bad_HTTP_request	-	F	bro
+#close	2014-04-03-11-06-03

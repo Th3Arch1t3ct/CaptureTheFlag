@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-09-49-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1355448395.296266	CfcfMv4G1p1uCfPt1	192.168.106.10	1086	207.171.163.142	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.s3.amazonaws.com,O=Amazon.com Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1292392800.000000	1387432799.000000	-	-	-	e3cc103aacd8beea27f01fd08da597bd	ok
+1355448395.253896	CMLkTB4ql6SLC4MjJk	192.168.106.10	1084	207.171.163.142	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.s3.amazonaws.com,O=Amazon.com Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1292392800.000000	1387432799.000000	-	-	-	e3cc103aacd8beea27f01fd08da597bd	ok
+1355448395.340766	CwGcnBfXXF6nSTlD3	192.168.106.10	1088	184.31.255.144	443	SSLv3	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=si0.twimg.com,OU=Akamai SAN SSL OV,OU=Akamai SAN SSL OV,O=Twitter,L=San Francisco,ST=CALIFORNIA,C=US	CN=USERTrust Legacy Secure Server CA,O=The USERTRUST Network,L=Salt Lake City,ST=UT,C=US	1347598800.000000	1362117599.000000	-	-	-	7132f325320c1af69c2d07ea7d4eb469	ok
+1355448396.057216	Cuh72t2yQzfnfO4ii9	192.168.106.10	1089	207.171.163.142	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	d2d519b491e0576129c8f4971fa92b78a473c2543948fb69c05cc971863c7656	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-09-49-40

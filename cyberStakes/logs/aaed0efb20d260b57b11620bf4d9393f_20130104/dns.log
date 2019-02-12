@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-38-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1357291620.761405	ClnNpNCZa4Rlbyp1	192.168.86.10	1029	4.2.2.3	53	udp	38289	pfswc-sms.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.170.52.31,93.170.52.21	280.000000,280.000000	F
+1357291621.086553	ClnNpNCZa4Rlbyp1	192.168.86.10	1029	4.2.2.3	53	udp	24464	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.137.113,74.125.137.101,74.125.137.102,74.125.137.100,74.125.137.138,74.125.137.139	29837.000000,169.000000,169.000000,169.000000,169.000000,169.000000,169.000000	F
+1357291621.100811	ClnNpNCZa4Rlbyp1	192.168.86.10	1029	4.2.2.3	53	udp	2448	zlqc.umesiq.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	urlforward.topdns.com,72.8.167.249,199.59.160.184	3600.000000,3600.000000,3600.000000	F
+1357291621.554085	ClnNpNCZa4Rlbyp1	192.168.86.10	1029	4.2.2.3	53	udp	54160	fbstatic-a.akamaihd.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fbstatic-a.akamaihd.net.edgesuite.net,a1168.dsw4.akamai.net,107.14.43.138,107.14.43.248	272.000000,60.000000,20.000000,20.000000	F
+#close	2014-04-03-10-38-09

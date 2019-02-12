@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-15-19
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1355477067.539247	CxTepLz9R5giaq7o8	192.168.79.10	1029	4.2.2.3	53	udp	46480	magicpoloplast.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.219.2.65	3600.000000	F
+1355477070.129399	CxTepLz9R5giaq7o8	192.168.79.10	1029	4.2.2.3	53	udp	1683	go2.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	maingo.dl.sl.akadns.net,a1902.g.akamai.net,208.46.17.155,208.46.17.58	3600.000000,7200.000000,20.000000,20.000000	F
+1355477070.74698	CxTepLz9R5giaq7o8	192.168.79.10	1029	4.2.2.3	53	udp	27795	www.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	toggle.www.ms.akadns.net,g.www.ms.akadns.net,lb1.www.ms.akadns.net,65.55.57.27	1852.000000,117.000000,157.000000,239.000000	F
+1355477070.895084	CxTepLz9R5giaq7o8	192.168.79.10	1029	4.2.2.3	53	udp	12178	go.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.go.microsoft.akadns.net,65.55.58.195	715.000000,71.000000	F
+1355477071.045419	CxTepLz9R5giaq7o8	192.168.79.10	1029	4.2.2.3	53	udp	32661	silverlight.dlservice.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	silverlight.dlservice.microsoft.nsatc.net,main.dl.sl.akadns.net,a1900.ms.akamai.net,65.112.54.67,65.112.54.18	3600.000000,900.000000,7200.000000,20.000000,20.000000	F
+#close	2014-04-03-11-15-19

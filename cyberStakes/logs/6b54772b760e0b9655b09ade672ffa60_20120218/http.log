@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-09-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1329605486.877336	CIeryTos0wHMak7Pf	192.168.74.10	1031	190.98.199.167	80	1	GET	ictdesign.cl	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6039	200	OK	-	-	-	(empty)	-	-	-	-	-	F0b9nz2oAheUVYroV5	text/html
+1329605487.146532	Cw5Ugm4KTF4lojnci7	192.168.74.10	1032	74.125.45.100	80	1	GET	www.google-analytics.com	/ga.js	http://ictdesign.cl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	33408	200	OK	-	-	-	(empty)	-	-	-	-	-	FIQScf25vTIijvHx6j	text/plain
+1329605487.343584	Cw5Ugm4KTF4lojnci7	192.168.74.10	1032	74.125.45.100	80	2	GET	www.google-analytics.com	/__utm.gif?utmwv=5.2.4&utms=1&utmn=639549620&utmhn=ictdesign.cl&utmcs=iso-8859-1&utmsr=800x600&utmvp=780x459&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=10.0 r32&utmdt=Ice tea dise\xc3\xb1o y publicidad&utmhid=1016428042&utmr=-&utmp=/&utmac=UA-26910817-1&utmcc=__utma=214963983.1671415401.1329619769.1329619769.1329619769.1;+__utmz=214963983.1329619769.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);&utmu=q~	http://ictdesign.cl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	35	200	OK	-	-	-	(empty)	-	-	-	-	-	FGGfTV2R9E6mIJ9wdi	image/gif
+1329605487.697165	CjCYGQL4ujRMpb0g	192.168.74.10	1034	80.12.192.137	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1568	200	OK	-	-	-	(empty)	-	-	-	-	-	FqcrWs2AQB1hwOhcYc	text/html
+1329605487.350117	C1c813kxOTY7rNUr7	192.168.74.10	1033	188.190.98.79	80	1	GET	storylootybuz.com	/main.php?page=6eb5b7677d651df4	http://ictdesign.cl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	81714	200	OK	-	-	-	(empty)	-	-	-	-	-	F0ETTuhbAYPyy3vu6	text/html
+1329605487.306452	CIeryTos0wHMak7Pf	192.168.74.10	1031	190.98.199.167	80	2	GET	ictdesign.cl	/index.swf	http://ictdesign.cl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	412008	200	OK	-	-	-	(empty)	-	-	-	-	-	FsJ54sI7ClY3SjZ28	application/x-shockwave-flash
+1329605494.083705	Cy5Cek4GiQ5sT31EJ9	192.168.74.10	1035	188.190.98.79	80	1	GET	storylootybuz.com	/w.php?f=47&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	193024	200	OK	-	-	-	(empty)	-	-	-	-	-	FK9b244kgh2lOexM95	application/x-dosexec
+1329605495.155143	C53TbJ3OvofEW1EmJd	192.168.74.10	1040	188.190.98.79	80	1	GET	storylootybuz.com	/content/adp2.php?f=47	http://storylootybuz.com/main.php?page=6eb5b7677d651df4	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13071	200	OK	-	-	-	(empty)	-	-	-	-	-	FoXlCTMl8N4UL1yY1	application/pdf
+1329605501.314949	CQx23GhsUE7bqPGUe	192.168.74.10	1042	217.24.246.7	80	1	POST	tripslokabucks.su	/drh/knmbf.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	75	6700	200	OK	-	-	-	(empty)	-	-	-	FfbaX658hLo1UNfRb	binary	FkZmBN1py1qMVy8qTd	binary
+1329605514.021329	CC7o2C4Jo0uSjaNqA5	192.168.74.10	1043	188.190.98.79	80	1	GET	storylootybuz.com	/w.php?f=47&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	193024	200	OK	-	-	-	(empty)	-	-	-	-	-	FK4gBi37nqlQozk5si	application/x-dosexec
+1329605516.851493	Cl1Dsqjg07eqMflL5	192.168.74.10	1044	188.190.98.79	80	1	GET	storylootybuz.com	/content/field.swf	http://ictdesign.cl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1543	200	OK	-	-	-	(empty)	-	-	-	-	-	F8dCYdaPQAyYvw8L2	application/x-shockwave-flash
+1329605517.848989	C5AZnoJXuYfdyxf4f	192.168.74.10	1045	188.190.98.79	80	1	GET	storylootybuz.com	/content/jav.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5356	200	OK	-	-	-	(empty)	-	-	-	-	-	FDQB7o1sUJnSwFa4oe	application/zip
+1329605519.955941	CGaUFz4Yb2pdEzNWkf	192.168.74.10	1046	188.190.98.79	80	1	GET	storylootybuz.com	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	290	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Fpaefm3YZX7JBRdCPb	text/html
+1329605520.265079	CpcKZb4Ajnz1fMts48	192.168.74.10	1047	188.190.98.79	80	1	GET	storylootybuz.com	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	290	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FZfrSPzAN0APijZ9f	text/html
+1329605520.570303	Ckrsv9k2tCtm6aIU7	192.168.74.10	1048	188.190.98.79	80	1	GET	storylootybuz.com	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	290	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FdyZrr1QW5orzCi1y5	text/html
+1329605523.975164	CyZsPbIm4yuUgjT9f	192.168.74.10	1049	188.190.98.79	80	1	GET	storylootybuz.com	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	290	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FEtDVr2BtsQMYxA92h	text/html
+1329605525.161965	C1ls2e4bdaZWd6wZt9	192.168.74.10	1050	188.190.98.79	80	1	GET	storylootybuz.com	/w.php?f=47&e=0	-	Java/1.6.0_10	0	193024	200	OK	-	-	-	(empty)	-	-	-	-	-	FDb9BV3I7PLRUcVmRe	application/x-dosexec
+1329605535.357737	CABelT3LWuARGI014b	192.168.74.10	1051	218.12.4.254	80	1	POST	wertubublersco.su	/wef/ghnfgh.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	297	64	200	OK	-	-	-	(empty)	-	-	-	FOdClj1f2W5kM4czhd	binary	FVD1O41jjIifqmo9X7	binary
+#close	2014-04-03-10-09-46

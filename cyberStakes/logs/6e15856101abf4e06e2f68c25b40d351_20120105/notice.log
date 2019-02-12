@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-29-28
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1325802522.586106	Ch6NJ14Rudt4drbv63	192.168.79.10	1038	91.217.153.36	80	FJnKWJ4mzBzVMNGQ5	application/x-dosexec	http://bombasazzka.info/ttc1/server_privileges.php?5cf9a58f74078ffd7aec88d853453b7a=1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-01-21 14:29:22	https://www.virustotal.com/en/search/?query=1f61c50cda26d46ce240672d98c4329b28a12759	192.168.79.10	91.217.153.36	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-29-29

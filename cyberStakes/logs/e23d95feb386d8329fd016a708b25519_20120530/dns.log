@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-57-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1338411672.408339	C6OcBo1MijgNZQLYMk	192.168.76.10	1029	4.2.2.3	53	udp	19855	sma-technology.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.13.38.113	3578.000000	F
+1338411672.989934	C6OcBo1MijgNZQLYMk	192.168.76.10	1029	4.2.2.3	53	udp	57996	ie7-js.googlecode.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlecode.l.googleusercontent.com,74.125.134.82	10501.000000,165.000000	F
+1338411673.217045	C6OcBo1MijgNZQLYMk	192.168.76.10	1029	4.2.2.3	53	udp	14733	www.sma-technology.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	sma-technology.com,173.13.38.113	3600.000000,3577.000000	F
+1338411673.830071	C6OcBo1MijgNZQLYMk	192.168.76.10	1029	4.2.2.3	53	udp	3466	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.139.102,74.125.139.113,74.125.139.138,74.125.139.139,74.125.139.100,74.125.139.101	24284.000000,48.000000,48.000000,48.000000,48.000000,48.000000,48.000000	F
+1338411674.238715	C6OcBo1MijgNZQLYMk	192.168.76.10	1029	4.2.2.3	53	udp	33162	loopedbizfinity.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.236.80.88	31734.000000	F
+1338411674.651373	C6OcBo1MijgNZQLYMk	192.168.76.10	1029	4.2.2.3	53	udp	46218	placeholderslightly.firm.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.59.188.165	38400.000000	F
+1338411699.888251	CyeRcmodbimFdSOVe	192.168.76.10	1029	4.2.2.3	53	udp	11147	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,63.217.115.33,63.217.115.65	12750.000000,37.000000,12641.000000,6.000000,6.000000	F
+#close	2014-04-03-10-57-55

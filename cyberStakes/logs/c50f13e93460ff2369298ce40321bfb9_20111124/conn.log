@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-18-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1322135903.411284	CCDioh26kNFdm3JQ47	192.168.36.10	1030	70.84.87.146	80	tcp	http	7.653153	1536	22998	RSTO	-	0	ShADadfR	20	2344	24	23966	(empty)
+1322135904.581876	CcS7xoUcyL57fFBq4	192.168.36.10	1033	70.84.87.146	80	tcp	http	6.482800	1284	74048	RSTO	-	0	ShADadfR	42	2972	57	76336	(empty)
+1322135903.512908	Cvg0Ki1auiC4nj8Hk8	192.168.36.10	1031	91.230.111.41	80	tcp	http	13.388766	539	26806	RSTO	-	0	ShADadfR	19	1307	23	27734	(empty)
+1322135903.408979	CzZMIs1EVNIvcVIM59	192.168.36.10	1029	4.2.2.3	53	udp	dns	1.173488	110	442	SF	-	0	Dd	3	194	3	526	(empty)
+1322135930.565719	CjG9pL26v1JcJDZ4cf	192.168.36.10	1044	24.143.193.33	80	tcp	-	3.201220	0	0	S0	-	0	S	2	96	0	0	(empty)
+1322135930.502008	CrXxww4S5zotNBVxib	192.168.36.10	1029	4.2.2.3	53	udp	dns	0.002287	44	195	SF	-	0	Dd	1	72	1	223	(empty)
+1322135940.157411	CioI023u3DG4g3MTXb	192.168.36.10	1044	24.143.193.33	80	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+1322135887.769825	Cmi0mxezHtKcr0k65	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000734	626	0	S0	-	0	D	2	682	0	0	(empty)
+1322135952.736896	ClMasT2ipGW7LYFqNf	192.168.36.10	1045	24.143.193.16	80	tcp	-	3.233179	0	0	S0	-	0	S	2	96	0	0	(empty)
+1322135887.770137	C7wdeQKY6bhzy9WL7	192.168.36.10	68	192.168.36.1	67	udp	dhcp	12.532787	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1322135962.40647	C0moUa3cfdmFkuhTHi	192.168.36.10	1045	24.143.193.16	80	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+1322135904.503585	CeMag82gSMnMHcY75	192.168.36.10	1032	188.247.232.179	80	tcp	http	26.293697	1494	647486	S1	-	0	ShADad	290	13102	454	665654	(empty)
+1322135904.586776	CF0hgIKUYMyyZj6Xh	192.168.36.10	1034	74.125.229.197	80	tcp	http	0.275376	917	13667	S1	-	0	ShADad	12	1405	13	14195	(empty)
+1322135906.018404	CAIN2B3or61TasiArj	192.168.36.10	1037	239.255.255.250	1900	udp	-	6.845694	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-10-18-18

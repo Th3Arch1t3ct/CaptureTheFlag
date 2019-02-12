@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-49-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1315160700.456567	C5YnlS2zO5DtjAM045	192.168.42.10	1156	188.247.135.76	80	FPhrZD4LtcWppSnCX2	application/x-dosexec	http://7733.in/fp3.php?i=15	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 42%  Last seen: 2012-01-12 17:42:09	https://www.virustotal.com/en/search/?query=16d20a3ee55b8bc2f10f8790105bec46bf37fa91	192.168.42.10	188.247.135.76	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1315160701.109223	Cjexgx2xZTFcCrImig	192.168.42.10	1183	188.247.135.76	80	Ffs7rZ2y3AeFG6SaB1	application/jar	http://7733.in/dnkqdvgqduytjuy.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2011-10-21 13:31:02	https://www.virustotal.com/en/search/?query=82961301732e8af889bdb1b7e50197c8b433bc5b	192.168.42.10	188.247.135.76	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1315160703.451635	CQhNY12HouqmsYzsgh	192.168.42.10	1193	188.247.135.76	80	Fl9mW33oUQwV6Ll7pk	application/x-dosexec	http://7733.in/fp3.php?i=13	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 42%  Last seen: 2012-01-12 17:42:09	https://www.virustotal.com/en/search/?query=16d20a3ee55b8bc2f10f8790105bec46bf37fa91	192.168.42.10	188.247.135.76	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1315160704.031334	Crun0v4F8axWXsXLJg	192.168.42.10	1194	188.247.135.76	80	FyLcFfz0IJCxw3mJd	application/x-dosexec	http://7733.in/fp3.php?i=1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 42%  Last seen: 2012-01-12 17:42:09	https://www.virustotal.com/en/search/?query=16d20a3ee55b8bc2f10f8790105bec46bf37fa91	192.168.42.10	188.247.135.76	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-49-01

@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-20-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1389238793.739481	C2j8Oi27IQV83Xwky9	192.168.27.10	1035	4.2.2.3	53	udp	40336	fixcomputer1d.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.198.115.2	14400.000000	F
+1389238795.220622	C2j8Oi27IQV83Xwky9	192.168.27.10	1035	4.2.2.3	53	udp	63891	www.statcounter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	g1.panthercdn.com,174.35.24.79,174.35.24.139	4398.000000,20.000000,20.000000	F
+1389238795.32881	C2j8Oi27IQV83Xwky9	192.168.27.10	1035	4.2.2.3	53	udp	33685	c.statcounter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.59.38.124,67.215.253.140,67.215.253.139,216.59.38.123	618.000000,618.000000,618.000000,618.000000	F
+1389238810.634057	Cgyuhr1RsyGXSmQKb1	192.168.27.10	1035	4.2.2.3	53	udp	24469	trx625.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	8.29.155.184	14400.000000	F
+1389238811.385537	Cgyuhr1RsyGXSmQKb1	192.168.27.10	1035	4.2.2.3	53	udp	58263	signup09.speedypc.revenuewire.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.139.253.25	86400.000000	F
+1389238811.616934	Cgyuhr1RsyGXSmQKb1	192.168.27.10	1035	4.2.2.3	53	udp	43926	signup09.speedypc.safecart.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.139.253.23	86400.000000	F
+1389238811.893025	Cgyuhr1RsyGXSmQKb1	192.168.27.10	1035	4.2.2.3	53	udp	40344	www.speedypc.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	139.142.105.83	86400.000000	F
+1389238812.255088	Cgyuhr1RsyGXSmQKb1	192.168.27.10	1035	4.2.2.3	53	udp	49563	dlc2.speedypc.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	dlc2.speedypc.com.cdngc.net,174.35.24.143,174.35.24.136	86400.000000,20.000000,20.000000	F
+#close	2014-04-03-10-20-45

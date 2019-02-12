@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-00-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1314735430.686681	Ccyg98Gn47NkPpaRf	192.168.29.10	1030	88.208.58.134	80	1	GET	sexworldmovies.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	771	200	OK	-	-	-	(empty)	-	-	-	-	-	FQdJBB1ANtVV8UH9Tb	text/html
+1314735430.831126	Ccyg98Gn47NkPpaRf	192.168.29.10	1030	88.208.58.134	80	2	POST	sexworldmovies.com	/	http://sexworldmovies.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	5	54744	302	Found	-	-	-	(empty)	-	-	-	FE87mo1XVxgrcnba66	text/plain	FcXee899hlqWenFfd	text/html
+1314735432.427642	CKnBe2CKiRsbvMVbk	192.168.29.10	1031	178.170.147.6	80	1	GET	lifepokerstarson.com	/main.php?page=bd35ed9ec63a07cf	http://sexworldmovies.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	94591	200	OK	-	-	-	(empty)	-	-	-	-	-	FxTbWn2ASunAxAS4cj	text/html
+1314735439.448591	CKnBe2CKiRsbvMVbk	192.168.29.10	1031	178.170.147.6	80	2	GET	lifepokerstarson.com	/content/2fdp.php?f=19	http://lifepokerstarson.com/main.php?page=bd35ed9ec63a07cf	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	114641	200	OK	-	-	-	(empty)	-	-	-	-	-	FjjvXe3geETmUF64mg	application/pdf
+1314735443.689708	CKnBe2CKiRsbvMVbk	192.168.29.10	1031	178.170.147.6	80	3	GET	lifepokerstarson.com	/content/field.swf	http://lifepokerstarson.com/main.php?page=bd35ed9ec63a07cf	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1289	200	OK	-	-	-	(empty)	-	-	-	-	-	F5A9AZ9npYrYVXgkg	application/x-shockwave-flash
+1314735449.824863	CKnBe2CKiRsbvMVbk	192.168.29.10	1031	178.170.147.6	80	4	GET	lifepokerstarson.com	/w.php?f=19&e=6	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	66048	200	OK	-	-	-	(empty)	-	-	-	-	-	FsGhJv1Lx8njDunWt5	application/x-dosexec
+1314735451.295055	C4R3Ev19EC6M594Fr3	192.168.29.10	1041	178.170.147.6	80	1	GET	lifepokerstarson.com	/content/worms.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5019	200	OK	-	-	-	(empty)	-	-	-	-	-	FjqcLcxNHmdzZvr7k	application/zip
+1314735451.383052	Clg26F2FlseJ9VP5Ca	192.168.29.10	1043	95.163.66.179	80	1	GET	1604534963	/RAW.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6063	200	OK	-	-	-	(empty)	-	-	-	-	-	FyQCnq1xGqB9ObtBra	application/x-java-applet
+1314735451.384914	CRF5jz3InAYK6wgNLa	192.168.29.10	1045	95.163.66.179	80	1	GET	1604534963	/RAW.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6063	200	OK	-	-	-	(empty)	-	-	-	-	-	FNvNXi3SmxpYcYjyjc	application/x-java-applet
+1314735451.384557	Cnky7rjFtn9agRHZe	192.168.29.10	1042	95.163.66.179	80	1	GET	1604534963	/RAW.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6063	200	OK	-	-	-	(empty)	-	-	-	-	-	F0n1TpLZ2Y06ts9Vg	application/x-java-applet
+1314735451.415115	CT1DJd1AbntAcj8oDl	192.168.29.10	1046	95.163.66.179	80	1	GET	1604534963	/RAW.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6063	200	OK	-	-	-	(empty)	-	-	-	-	-	FvuGov3fpptkAJAv7d	application/x-java-applet
+1314735451.4163	CbeXOA3u761yjtgZ14	192.168.29.10	1047	95.163.66.179	80	1	GET	1604534963	/RAW.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6063	200	OK	-	-	-	(empty)	-	-	-	-	-	FvJ7Qj0moZYWoVGdh	application/x-java-applet
+1314735451.420862	C7PFDf1hfK9o814BJl	192.168.29.10	1044	95.163.66.179	80	1	GET	1604534963	/RAW.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6063	200	OK	-	-	-	(empty)	-	-	-	-	-	F679Yu3k0r8tFmsEy1	application/x-java-applet
+1314735452.808886	CjqFxjkw0Bo6P9Sse	192.168.29.10	1048	178.170.147.6	80	1	GET	lifepokerstarson.com	/w.php?f=19&e=1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	66048	200	OK	-	-	-	(empty)	-	-	-	-	-	FdBSPW2dXFpNVYYZJc	application/x-dosexec
+1314735461.213705	CvVJhM23rSvks7wZz6	192.168.29.10	1049	178.170.147.6	80	1	OPTIONS	178.170.147.6	/	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	166	405	Not Allowed	-	-	-	(empty)	-	-	-	-	-	FT1XGt3hgvKo6TvHll	text/html
+#close	2014-04-03-11-00-19

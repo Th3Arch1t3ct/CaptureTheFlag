@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-11-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1354360784.175779	CHbLiYFM3kyAlI4we	192.168.13.10	1033	173.194.37.37	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1353514144.000000	1370652207.000000	-	-	-	f35f1f944e752d360f7b22e64ebbbffa	ok
+1354360787.914583	C9CeNJ21DJtzcT3AO	192.168.13.10	1085	50.116.194.21	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=r.turn.com,OU=r.turn.com,O=Turn Inc.,L=Redwood City,ST=California,C=US,serialNumber=Nlm5QkYs3JrgHlj5Hw-KsSCXT1ZndiAF	CN=GeoTrust SSL CA,O=GeoTrust\, Inc.,C=US	1328428994.000000	1368121371.000000	-	-	-	6648d4a04a164450ccc6083b84d7669c	ok
+1354360794.508879	CLaRrr3VhfFG4ifqo9	192.168.13.10	1171	184.29.143.139	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=connect.facebook.net,ST=CALIFORNIA,OU=connect.facebook.net,O=Facebook,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1353912311.000000	1368334740.000000	-	-	-	71207ac4f04c3567fc21e7e16503556d	ok
+1354360808.417082	C4kevQUZLJWae8Cif	192.168.13.10	1180	184.29.130.110	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=s-static.ak.facebook.com,ST=California,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1340068319.000000	1368334740.000000	-	-	-	9e5e608717b1f05d5ef57491557c1e52	ok
+#close	2014-04-03-10-11-05

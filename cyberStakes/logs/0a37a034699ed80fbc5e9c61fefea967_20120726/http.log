@@ -1,0 +1,36 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-57-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1343303148.685772	CSJj5m3j2SUZPBt0bl	192.168.20.10	1030	69.163.128.148	80	1	GET	eliteflash.info	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	11664	200	OK	-	-	-	(empty)	-	-	-	-	-	Fl9NDj41Im98lZ9ds1	text/html
+1343303148.710732	CSJj5m3j2SUZPBt0bl	192.168.20.10	1030	69.163.128.148	80	2	GET	eliteflash.info	/img.jpg	http://eliteflash.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	16215	200	OK	-	-	-	(empty)	-	-	-	-	-	F1yIA46V1VfeqFwFj	image/jpeg
+1343303148.726028	Cey57a37o0HySptDK6	192.168.20.10	1031	69.163.128.148	80	1	GET	eliteflash.info	/fn38	http://eliteflash.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	236	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FRr3kq1XYmOvkhjumj	text/html
+1343303148.738592	CSJj5m3j2SUZPBt0bl	192.168.20.10	1030	69.163.128.148	80	3	GET	eliteflash.info	/fn38/	http://eliteflash.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2779	200	OK	-	-	-	(empty)	-	-	-	-	-	FYm7nd1nA3TWKtwehj	text/html
+1343303148.761919	Cey57a37o0HySptDK6	192.168.20.10	1031	69.163.128.148	80	2	GET	eliteflash.info	/fn38/include/PluginDetect.js	http://eliteflash.info/fn38/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	21475	200	OK	-	-	-	(empty)	-	-	-	-	-	FxcDzu3QRo6aEAh2Ji	text/plain
+1343303148.861424	CSJj5m3j2SUZPBt0bl	192.168.20.10	1030	69.163.128.148	80	4	GET	eliteflash.info	/fn38/add_visitor.php?referrer=http://eliteflash.info/	http://eliteflash.info/fn38/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1343303148.931421	Cey57a37o0HySptDK6	192.168.20.10	1031	69.163.128.148	80	3	GET	eliteflash.info	/fn38/load_module.php?e=Java-2010-0842	http://eliteflash.info/fn38/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	257	200	OK	-	-	-	(empty)	-	-	-	-	-	F2IVUXiAOjOEldsK3	text/plain
+1343303148.854079	CCncwndAt5TrrJLF4	192.168.20.10	1032	96.17.109.106	80	1	GET	www.microsofttranslator.com	/ajax/v2/widget.aspx?mode=auto&widget=none&from=en&layout=ts	http://eliteflash.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1343303149.887125	Cgg14Z19KdD86FCvec	192.168.20.10	1033	69.163.128.148	80	1	GET	eliteflash.info	/fn38/modules/helpers/Java-2010-0842.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	2327	200	OK	-	-	-	(empty)	-	-	-	-	-	F2GKkP15Ci6ZIwToJ7	application/zip
+1343303150.234358	CiezbT3NtZrUylWVPa	192.168.20.10	1034	69.163.128.148	80	1	GET	eliteflash.info	/fn38/modules/helpers/Java-2010-0842Helper.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	504	200	OK	-	-	-	(empty)	-	-	-	-	-	Ff3TdO1sqS2zmyM4Ra	binary
+1343303153.970392	CrDyiR2tcGDppWe3og	192.168.20.10	1039	69.163.128.148	80	1	GET	eliteflash.info	/fn38/load_module.php?e=Adobe-90-2010-0188	http://eliteflash.info/fn38/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2680	200	OK	-	-	-	(empty)	-	-	-	-	-	FJ1tBe2zTjPWBdxYE3	application/pdf
+1343303157.137019	CvpLWb4v1Acyo8dTA	192.168.20.10	1040	69.163.128.148	80	1	GET	eliteflash.info	/fn38/download_file.php?e=Adobe-90-2010-0188	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1022980	200	OK	-	-	-	(empty)	-	-	-	-	-	FYNwhC3ACJDnhtjsY4	application/x-dosexec
+1343303186.832815	C5H6BF494LCfX0kz2j	192.168.20.10	1043	74.209.160.12	80	1	GET	speedtest.net	/	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)	0	11139	200	OK	-	-	-	(empty)	-	-	-	-	-	FHa3Zp3FGiK83eLpWj	text/html
+1343303186.966973	CBNyfu25wkAofdLKJ8	192.168.20.10	1044	188.165.212.84	80	1	POST	illili.in	/	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)	218	109076	200	OK	-	-	-	(empty)	-	-	-	FmpPky4eaPlhvU30Jk	text/plain	FWdm1R3npuMT9J0lT2	binary
+1343303188.156475	CH9Dta1bGo1FPP5wii	192.168.20.10	1046	75.119.197.148	80	1	GET	jamieprosser.co.uk	/jquery.exe	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)	0	5291520	200	OK	-	-	-	(empty)	-	-	-	-	-	F7cT8D2zXSy1mbRPw9	application/x-dosexec
+1343303196.753918	CwPaAC2p1WNc07t9n9	192.168.20.10	1047	74.209.160.12	80	1	GET	speedtest.net	/	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)	0	2379	200	OK	-	-	-	(empty)	-	-	-	-	-	FvlETt1tyKzbQSuG3l	text/html
+1343303196.804568	CGyqsx4NpS4nzIBZCf	192.168.20.10	1050	74.209.160.12	80	1	GET	speedtest.net	/	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)	0	6759	200	OK	-	-	-	(empty)	-	-	-	-	-	FcR8FT2uUBh4IMGJC6	text/html
+1343303196.871628	CQNjtx1Hpc3iq44sca	192.168.20.10	1052	74.209.160.12	80	1	GET	speedtest.net	/	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)	0	2498	200	OK	-	-	-	(empty)	-	-	-	-	-	FD8PqB2mxagGi78Z01	text/html
+1343303196.92055	Ci4aPOd6ErvQvkbLh	192.168.20.10	1054	74.209.160.12	80	1	GET	speedtest.net	/	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)	0	11139	200	OK	-	-	-	(empty)	-	-	-	-	-	FRBhSJ2VzDLDkc6vf	text/html
+1343303196.997622	C0el4k4XiMxUGjjDc1	192.168.20.10	1051	188.165.212.84	80	1	POST	illili.in	/	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)	218	109076	200	OK	-	-	-	(empty)	-	-	-	F45bGR21NRI138TA31	text/plain	F6J8ZC3ayl45n4JJeg	binary
+1343303197.06108	CEkRWI2tDdk8T9Lfn5	192.168.20.10	1055	188.165.212.84	80	1	POST	illili.in	/	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)	218	109076	200	OK	-	-	-	(empty)	-	-	-	FnDLVLX4siD0f8cmj	text/plain	F3XPNc6rD4OPiMQ78	binary
+1343303196.931086	C8WZJs1VuTHIQV91We	192.168.20.10	1049	188.165.212.84	80	1	POST	illili.in	/	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)	218	109076	200	OK	-	-	-	(empty)	-	-	-	FuPhTmiTPdukDB9Q1	text/plain	FWGewjmBDjlCxAasd	binary
+1343303196.930844	CGB1J01hgGoBBpvWS1	192.168.20.10	1048	188.165.212.84	80	1	POST	illili.in	/	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)	218	109076	200	OK	-	-	-	(empty)	-	-	-	FBlixZ2ui8Lyh3tNe1	text/plain	F9DZl14Od5K15VkKa5	binary
+1343303198.125884	CbuEz03bzaqYLHyf26	192.168.20.10	1061	75.119.197.148	80	1	GET	jamieprosser.co.uk	/jquery.exe	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)	0	5291520	200	OK	-	-	-	(empty)	-	-	-	-	-	FSaudr1uJm8THjUild	application/x-dosexec
+1343303198.123919	C5ndo24V6uGC4OSoPl	192.168.20.10	1059	75.119.197.148	80	1	GET	jamieprosser.co.uk	/jquery.exe	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)	0	5291520	200	OK	-	-	-	(empty)	-	-	-	-	-	FBj8Zc0ZU9DsOeXBl	application/x-dosexec
+1343303198.061762	CPnY8Q153X0w5X6myb	192.168.20.10	1057	75.119.197.148	80	1	GET	jamieprosser.co.uk	/jquery.exe	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)	0	5291520	200	OK	-	-	-	(empty)	-	-	-	-	-	FRVogI6wlSGGZbWea	application/x-dosexec
+1343303198.128902	CLbQcw5lQGSetVL28	192.168.20.10	1063	75.119.197.148	80	1	GET	jamieprosser.co.uk	/jquery.exe	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)	0	5291520	200	OK	-	-	-	(empty)	-	-	-	-	-	F65WNd15Z8Xvq5HQP	application/x-dosexec
+#close	2014-04-03-10-57-47

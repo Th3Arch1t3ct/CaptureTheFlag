@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-51-47
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1339567786.085369	CDWeEP3bK9o9QVPbB	192.168.34.10	1029	4.2.2.3	53	udp	52623	askthepharmacist.com.au	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.7.215.38	14373.000000	F
+1339567786.351374	CDWeEP3bK9o9QVPbB	192.168.34.10	1029	4.2.2.3	53	udp	62604	ww2.myjobresumeonline.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.171.133.163	3600.000000	F
+1339567786.731035	CDWeEP3bK9o9QVPbB	192.168.34.10	1029	4.2.2.3	53	udp	33420	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.127.101,74.125.127.102,74.125.127.113,74.125.127.138,74.125.127.139,74.125.127.100	35290.000000,55.000000,55.000000,55.000000,55.000000,55.000000,55.000000	F
+1339567786.912311	CDWeEP3bK9o9QVPbB	192.168.34.10	1029	4.2.2.3	53	udp	23434	pagead2.googlesyndication.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pagead46.l.doubleclick.net,173.194.79.155,173.194.79.156,173.194.79.157,173.194.79.154	300.000000,219.000000,219.000000,219.000000,219.000000	F
+1339567787.151704	CDWeEP3bK9o9QVPbB	192.168.34.10	1029	4.2.2.3	53	udp	12426	googleads.g.doubleclick.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pagead.l.doubleclick.net,173.194.79.156,173.194.79.157,173.194.79.154,173.194.79.155	164.000000,235.000000,235.000000,235.000000,235.000000	F
+1339567793.010568	CDWeEP3bK9o9QVPbB	192.168.34.10	1029	4.2.2.3	53	udp	64650	willowcreekcompany.mobi	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.50.116.224	3600.000000	F
+1339567809.903103	CdwvfAxFL3Ap8FKRb	192.168.34.10	1029	4.2.2.3	53	udp	51339	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,204.2.133.59,204.2.133.17	14990.000000,123.000000,1956.000000,3.000000,3.000000	F
+#close	2014-04-03-10-51-47

@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-01-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1355858835.631822	CqRCBL1qVNkMTHW8T9	192.168.8.10	1029	4.2.2.3	53	udp	23695	allcitygardening.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.255.130.82	14400.000000	F
+1355858836.914427	CqRCBL1qVNkMTHW8T9	192.168.8.10	1029	4.2.2.3	53	udp	57998	ywgquk.freewww.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.242.238.207	31.000000	F
+1355858839.34537	CqRCBL1qVNkMTHW8T9	192.168.8.10	1029	4.2.2.3	53	udp	8076	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	2992.000000,66.000000	F
+1355858839.716484	CqRCBL1qVNkMTHW8T9	192.168.8.10	1029	4.2.2.3	53	udp	47756	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,64.4.52.169	3285.000000,255.000000	F
+1355858843.255804	CqRCBL1qVNkMTHW8T9	192.168.8.10	1029	4.2.2.3	53	udp	38027	reliabilitytedium.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.20.141.85	600.000000	F
+1355858844.2847	CzMDnS3dcbkop3OJIa	192.168.8.10	1029	4.2.2.5	53	udp	38027	reliabilitytedium.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.20.141.85	600.000000	F
+1355858850.158307	CqRCBL1qVNkMTHW8T9	192.168.8.10	1029	4.2.2.3	53	udp	5258	tracklessactivedisk.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.20.141.23	600.000000	F
+1355858847.344231	CzMDnS3dcbkop3OJIa	192.168.8.10	1029	4.2.2.5	53	udp	38027	reliabilitytedium.info	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1355858845.283021	CqRCBL1qVNkMTHW8T9	192.168.8.10	1029	4.2.2.3	53	udp	38027	reliabilitytedium.info	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1355858847.343994	CqRCBL1qVNkMTHW8T9	192.168.8.10	1029	4.2.2.3	53	udp	38027	reliabilitytedium.info	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+#close	2014-04-03-11-01-58

@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-55-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1354841504.28725	CxBRgV1iKQssKO1bJ5	192.168.57.10	1029	4.2.2.3	53	udp	8845	vitragi-kiev.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.169.188.64	14400.000000	F
+1354841505.678439	CxBRgV1iKQssKO1bJ5	192.168.57.10	1029	4.2.2.3	53	udp	32142	passiv-lan.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.218.230.245	300.000000	F
+1354841506.160213	CxBRgV1iKQssKO1bJ5	192.168.57.10	1029	4.2.2.3	53	udp	20367	stok.posidelkino.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.199.175.35	3600.000000	F
+1354841509.719221	CxBRgV1iKQssKO1bJ5	192.168.57.10	1029	4.2.2.3	53	udp	14472	35.175.199.5.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	hst-175-35.digital-forex.net	3600.000000	F
+1354841510.91994	CxBRgV1iKQssKO1bJ5	192.168.57.10	1029	4.2.2.3	53	udp	21899	pamelaanderson.rental-mobil.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.199.175.35	3600.000000	F
+1354841515.013222	CxBRgV1iKQssKO1bJ5	192.168.57.10	1029	4.2.2.3	53	udp	26763	google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.125.140.101,74.125.140.113,74.125.140.139,74.125.140.138,74.125.140.102,74.125.140.100	17.000000,17.000000,17.000000,17.000000,17.000000,17.000000	F
+1354841515.088457	CxBRgV1iKQssKO1bJ5	192.168.57.10	1029	4.2.2.3	53	udp	4740	pc-for.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.218.230.245	300.000000	F
+1354841519.803175	CxBRgV1iKQssKO1bJ5	192.168.57.10	1029	4.2.2.3	53	udp	20613	cont.phoneit.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.218.230.245	300.000000	F
+1354841510.343626	CxBRgV1iKQssKO1bJ5	192.168.57.10	1029	4.2.2.3	53	udp	40074	hst-175-35.digital-forex.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1354841510.343626	CxBRgV1iKQssKO1bJ5	192.168.57.10	1029	4.2.2.3	53	udp	40074	hst-175-35.digital-forex.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-09-55-08

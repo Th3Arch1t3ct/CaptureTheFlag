@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-46-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1337905252.700655	CijTL7UIyJAIW0wl8	192.168.34.10	1029	4.2.2.3	53	udp	37779	getfutons.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.191.27.77	14374.000000	F
+1337905252.818985	CijTL7UIyJAIW0wl8	192.168.34.10	1029	4.2.2.3	53	udp	17552	rec-creations.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.223.51.238	3600.000000	F
+1337905252.881445	CijTL7UIyJAIW0wl8	192.168.34.10	1029	4.2.2.3	53	udp	65168	www.getfutons.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	getfutons.com,64.191.27.77	14400.000000,14374.000000	F
+1337905252.945675	CijTL7UIyJAIW0wl8	192.168.34.10	1029	4.2.2.3	53	udp	53393	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.134.113,74.125.134.138,74.125.134.139,74.125.134.100,74.125.134.101,74.125.134.102	12295.000000,268.000000,268.000000,268.000000,268.000000,268.000000,268.000000	F
+1337905296.185858	Cy7Ntc45IEJ7LhBScb	192.168.34.10	1029	4.2.2.3	53	udp	20887	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.137.104,74.125.137.105,74.125.137.106,74.125.137.147,74.125.137.99,74.125.137.103	12217.000000,178.000000,178.000000,178.000000,178.000000,178.000000,178.000000	F
+#close	2014-04-03-10-46-14

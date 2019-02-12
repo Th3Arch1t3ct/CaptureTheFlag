@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-01-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1357158628.748191	CATIwx2mud7KvKtxMb	192.168.51.10	1029	4.2.2.3	53	udp	28563	beemp3s.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.204.12	30.000000	F
+1357158629.136616	CATIwx2mud7KvKtxMb	192.168.51.10	1029	4.2.2.3	53	udp	31888	hcn.1lafestoni.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.23.76.187	30.000000	F
+1357158643.594673	CKSvGc39qHzicBdIcj	192.168.51.10	1029	4.2.2.3	53	udp	42128	ighklplong.musicorange.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.17.136.97	86400.000000	F
+1357158669.60023	Clsl1WjLAhd3XD6H5	192.168.51.10	1054	4.2.2.3	53	udp	30574	11v230a.cdn66.etchostingupload.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.131.140.158	3600.000000	F
+#close	2014-04-03-11-01-04

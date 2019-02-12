@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-53-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1332470683.337957	CPFEMF2ncIcv4HLsM6	192.168.70.10	1029	4.2.2.3	53	udp	35477	secureonlinetaxpreparation.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.46.240.15	3578.000000	F
+1332470684.223643	CPFEMF2ncIcv4HLsM6	192.168.70.10	1029	4.2.2.3	53	udp	12439	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.45.139,74.125.45.100,74.125.45.101,74.125.45.102,74.125.45.113,74.125.45.138	9970.000000,21.000000,21.000000,21.000000,21.000000,21.000000,21.000000	F
+1332470684.410557	CPFEMF2ncIcv4HLsM6	192.168.70.10	1029	4.2.2.3	53	udp	57239	go.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.go.microsoft.akadns.net,65.55.57.251	485.000000,15.000000	F
+1332470684.412836	CDkKN33UwGeGgHK8Da	192.168.70.10	1033	4.2.2.3	53	udp	38807	www.w3.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	128.30.52.37	180.000000	F
+1332470684.470676	CPFEMF2ncIcv4HLsM6	192.168.70.10	1029	4.2.2.3	53	udp	28560	seal.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.7.59.231	1.000000	F
+1332470684.58038	CPFEMF2ncIcv4HLsM6	192.168.70.10	1029	4.2.2.3	53	udp	18833	www.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	toggle.www.ms.akadns.net,g.www.ms.akadns.net,lb1.www.ms.akadns.net,207.46.19.254	2672.000000,108.000000,108.000000,259.000000	F
+1332470688.878315	CPFEMF2ncIcv4HLsM6	192.168.70.10	1029	4.2.2.3	53	udp	1681	silverlight.dlservice.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	silverlight.dlservice.microsoft.nsatc.net,main.dl.sl.akadns.net,a1900.ms.akamai.net,80.150.133.43,80.150.133.40	754.000000,214.000000,6514.000000,20.000000,20.000000	F
+#close	2014-04-03-10-53-06

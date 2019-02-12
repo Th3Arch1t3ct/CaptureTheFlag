@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-11-04-22
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1329620005.05525	FNB31A18lVnThjHAoa	206.212.243.114	192.168.119.10	CrkNct2AvfppHSvhY4	HTTP	0	SHA1,MD5	text/html	-	0.000018	-	F	2872	2872	0	0	F	-	ca7e92e518ebdff1f1d04bb4856846e2	0ca13ee3424153a443bf963eb3a2b923ca2ac5c2	-	-
+1329620005.806708	FfqGzF4dqLyA8o83Qj	206.212.243.114	192.168.119.10	C0Xx7Z389WJAFqWlda	HTTP	0	SHA1,MD5	text/plain	-	0.099590	-	F	21969	21969	0	0	F	-	f96ff6b4ac204552e75d118c6a02caf3	ff0f1f1b2746184a2ef369071293d7c526aabe12	-	-
+1329620006.507065	F4WQMJ29O7WOS26yof	206.212.243.114	192.168.119.10	Ctp6mg3a5zQyhfWqw2	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	254	254	0	0	F	-	d431bed8f0ad6377cdca23ab03c75e94	b14626f6ed97ce04b8ff94b281095f149b3bfb3a	-	-
+1329620007.708236	FanAzm1pW6SPYTlNte	206.212.243.114	192.168.119.10	CGTApP2BzyGltv6Sy4	HTTP	0	SHA1,MD5	application/zip	-	0.000000	-	F	2327	2327	0	0	F	-	bca052471d50aa5b3e4d381ff1ac389d	4a8ab7e39e2e4f61dec638131cd228552b5fb7db	-	-
+1329620011.080805	FLdW181ZMd0HtbkEyl	206.212.243.114	192.168.119.10	CE8WiU39coK4KAV5w1	HTTP	0	SHA1,MD5	binary	-	0.000000	-	F	501	501	0	0	F	-	128cb985a336273423640a73c1cd65af	ff387430d995d6475ee1e9f36e9f32d9f2cc65f9	-	-
+1329620014.079504	F1Huon3CoEGZlxmH7j	206.212.243.114	192.168.119.10	Cj3jDq4PhVPU7Nvf88	HTTP	0	SHA1,MD5	application/pdf	manual20100188.pdf	0.000017	-	F	2680	2680	0	0	F	-	934919bbaa67071a05c03787a4a689bb	e2882236fad1c772e6d5a6e158e16f086c5ad07a	-	-
+1329620018.298128	FZ0wwlnf8khm5hqr9	206.212.243.114	192.168.119.10	CPz4Pu3BOUh9l18ma	HTTP	0	SHA1,MD5	application/x-dosexec	payload.exe.exe	0.133718	-	F	39424	39424	0	0	F	-	ead213ceb60e77902433e9d072ab4553	7aae2627961ce1933f54302004090393405cc8ac	-	-
+1329620019.300154	Fakk4A1LSAraCtIJa2	199.15.234.7	192.168.119.10	CHD4VB3YdoIqwsczBh	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	18	18	0	0	F	-	dfbdf2086e55da5c5fcc02aac66c86f4	a46c74e7b1204def66e710fb07f8b11ec1b619c1	-	-
+#close	2014-04-03-11-04-22

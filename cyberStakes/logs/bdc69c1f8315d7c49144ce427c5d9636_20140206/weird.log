@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-11-08-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1391716470.852344	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1391716478.125464	CiXvQuopQ95jrb7Za	192.168.72.10	1057	204.2.168.41	80	SYN_after_reset	-	F	bro
+1391716478.12566	C2oM2TSOWwU1h1LGb	192.168.72.10	1058	204.2.168.41	80	SYN_after_reset	-	F	bro
+1391716478.125717	CGoRGE3DFCpgrhgb2e	192.168.72.10	1059	204.2.168.41	80	SYN_after_reset	-	F	bro
+1391716478.125818	COv23l4xuIWs0XDIL8	192.168.72.10	1060	204.2.168.41	80	SYN_after_reset	-	F	bro
+1391716478.136069	COv23l4xuIWs0XDIL8	192.168.72.10	1060	204.2.168.41	80	data_after_reset	-	F	bro
+1391716478.136809	CiXvQuopQ95jrb7Za	192.168.72.10	1057	204.2.168.41	80	data_after_reset	-	F	bro
+1391716478.13708	C2oM2TSOWwU1h1LGb	192.168.72.10	1058	204.2.168.41	80	data_after_reset	-	F	bro
+1391716478.137363	CGoRGE3DFCpgrhgb2e	192.168.72.10	1059	204.2.168.41	80	data_after_reset	-	F	bro
+1391716482.328866	CrjzOZ2HDK9DFJXOo2	192.168.72.10	1077	23.7.133.163	80	SYN_after_reset	-	F	bro
+1391716482.454785	CrjzOZ2HDK9DFJXOo2	192.168.72.10	1077	23.7.133.163	80	data_after_reset	-	F	bro
+#close	2014-04-03-11-08-13

@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-11-03-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1340772304.168096	CVtZGX3v1rggiyFq52	192.168.112.10	1066	173.230.154.199	443	SSLv3	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=John Doe,OU=Office_1,O=Security Reaserch WWEB Group\, LLC,L=FarAway,ST=NoState,C=SI	CN=John Doe,OU=Office_1,O=Security Reaserch WWEB Group\, LLC,L=FarAway,ST=NoState,C=SI	1336269958.000000	1367805958.000000	-	-	-	97552025b76abcb53f9cccccccc1adbc	self signed certificate
+1340772326.371989	Ceq5xB2zffH1dvJwJ6	192.168.112.10	1085	173.230.154.199	443	SSLv3	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	17b5751853118834f5a37183276d51cce850660d11d7e25571f673dcf8013d24	CN=John Doe,OU=Office_1,O=Security Reaserch WWEB Group\, LLC,L=FarAway,ST=NoState,C=SI	CN=John Doe,OU=Office_1,O=Security Reaserch WWEB Group\, LLC,L=FarAway,ST=NoState,C=SI	1336269958.000000	1367805958.000000	-	-	-	97552025b76abcb53f9cccccccc1adbc	self signed certificate
+1340772329.732856	CMiBYc2JT4oBEA0rQf	192.168.112.10	1096	173.230.154.199	443	SSLv3	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	50b29cd41ba1023e7095776090a81ef2458bdaaca231a9484349e4861084b1e5	CN=John Doe,OU=Office_1,O=Security Reaserch WWEB Group\, LLC,L=FarAway,ST=NoState,C=SI	CN=John Doe,OU=Office_1,O=Security Reaserch WWEB Group\, LLC,L=FarAway,ST=NoState,C=SI	1336269958.000000	1367805958.000000	-	-	-	97552025b76abcb53f9cccccccc1adbc	self signed certificate
+#close	2014-04-03-11-03-12

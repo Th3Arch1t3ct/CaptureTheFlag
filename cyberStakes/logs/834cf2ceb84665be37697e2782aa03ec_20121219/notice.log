@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-03-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1355878178.510487	CRwZnYCdiBaFpFej9	192.168.86.10	1059	5.39.71.117	82	FZooBF3U1GFxxOmfpi	application/jar	http://rest.ls333.com:82/tcp/forum/olya.php?kva=li&key=b693e2995e93e331ae16c3a4843a191c	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2013-10-09 14:16:02	https://www.virustotal.com/en/search/?query=70f6392ce98d63697c98d4ab44b4b63de0b36709	192.168.86.10	5.39.71.117	82	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1355878178.910007	CrjHRj3RqwOo52ewgk	192.168.86.10	1061	195.68.223.204	443	-	-	-	tcp	SSL::Invalid_Server_Cert	SSL certificate validation failed with (self signed certificate)	emailAddress=webmaster@localhost,CN=localhost,OU=none,O=none,L=Sometown,ST=Someprovince,C=US	192.168.86.10	195.68.223.204	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-03-55

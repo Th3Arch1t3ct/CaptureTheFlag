@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-43-07
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1340149682.029053	FTpvV9nviR7jPcAy9	195.16.89.193	192.168.79.10	CBAsDtKAXg4eGaZY1	HTTP	0	MD5,SHA1	text/html	-	0.742034	-	F	58917	-	0	0	F	-	94b4108ef0134da374fd03e76e793c20	a3d20bebcf0feb7a1619502eecf74613d6a03c02	-	-
+1340149685.138531	F0WbuA4954Rlrm4xo6	195.16.89.193	192.168.79.10	CBAsDtKAXg4eGaZY1	HTTP	0	MD5,SHA1	application/x-dosexec	contacts.exe	0.573296	-	F	43008	43008	0	0	F	-	5603c3e9278e0aeb42377a21ed4d5a2b	3cc2a2f476a0c6e0564451e9b2648ad33f4564d0	-	-
+1340149685.925802	FhHP0p3Dc97macx8wb	195.16.89.193	192.168.79.10	CBAsDtKAXg4eGaZY1	HTTP	0	MD5,SHA1	application/pdf	2d52b.pdf	0.151020	-	F	47540	47540	0	0	F	-	fb7f03a1cfd313464b86818164609c8a	11d03dd9706034d6f096515b80d63d048c1b11e3	-	-
+1340149686.319094	FknBKy1qXKYrdStN1j	195.16.89.193	192.168.79.10	C9ZgUHzJ1oQKizrK3	HTTP	0	MD5,SHA1	application/x-shockwave-flash	-	0.000000	-	F	1547	1547	0	0	F	-	c31b916255086a790acd3db2af449346	27474f210893b69a5204dcafb6d9fc12b743dc1f	-	-
+1340149703.505984	FQVfeC1Ra3CQrNjoej	63.148.207.127	192.168.79.10	Cs8btE429u5ogP4RRk	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	1111	1111	0	0	F	-	6d7ff6610b57ee56510415e1c19eec06	8d90b14d4ae46314077e934c4afe3a9f4de600f9	-	-
+1340149708.636982	FX6eOT1eAlOadd9Wn7	195.16.89.193	192.168.79.10	CZKWwz3fncV2pVrLPk	HTTP	0	MD5,SHA1	application/zip	-	0.444943	-	F	20868	20868	0	0	F	-	a7dcaf718b162f04b38ac95bb27edb12	f8fa431db89b1ea34499b45ca636d5559460f13d	-	-
+1340149711.421453	FDqXVF1vnp5Eqfm3P5	195.16.89.193	192.168.79.10	C9ZgUHzJ1oQKizrK3	HTTP	0	MD5,SHA1	application/x-dosexec	readme.exe	0.623504	-	F	43008	43008	0	0	F	-	5603c3e9278e0aeb42377a21ed4d5a2b	3cc2a2f476a0c6e0564451e9b2648ad33f4564d0	-	-
+1340149711.939326	F4yvNr3PgqJkb6UsF8	195.16.89.193	192.168.79.10	CGqZYy31rvDHtcDbPh	HTTP	0	MD5,SHA1	application/x-dosexec	calc.exe	0.742374	-	F	43008	43008	0	0	F	-	5603c3e9278e0aeb42377a21ed4d5a2b	3cc2a2f476a0c6e0564451e9b2648ad33f4564d0	-	-
+#close	2014-04-03-10-43-08

@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-24-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1316544625.337533	CLt5Zb1dx0JJW4FK0d	192.168.77.10	1029	4.2.2.3	53	udp	64908	legionbeatworks.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.163.248.119	14374.000000	F
+1316544625.463134	CLt5Zb1dx0JJW4FK0d	192.168.77.10	1029	4.2.2.3	53	udp	22924	www.legionbeatworks.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.163.248.119	14375.000000	F
+1316544625.886213	CLt5Zb1dx0JJW4FK0d	192.168.77.10	1029	4.2.2.3	53	udp	63117	sweepstakesandcontestsnow.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.220.0.30	43200.000000	F
+1316544627.050193	CLt5Zb1dx0JJW4FK0d	192.168.77.10	1029	4.2.2.3	53	udp	52110	www3.simplefndefense.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	75.102.21.121	28800.000000	F
+1316544627.330274	CLt5Zb1dx0JJW4FK0d	192.168.77.10	1029	4.2.2.3	53	udp	36238	www1.hardsoftvas.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.122	21600.000000	F
+1316544716.520753	CKNTIK1RGYamXtnpNb	192.168.77.10	1029	4.2.2.3	53	udp	29839	www1.tallvesafe.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.23.11.219	21600.000000	F
+#close	2014-04-03-10-24-05

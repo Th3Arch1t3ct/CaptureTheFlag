@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-00-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1321052972.65818	CpdH8M2doXnaNWN4Wg	192.168.12.10	1029	4.2.2.3	53	udp	46992	bmdiesel.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	117.58.251.12	14374.000000	F
+1321052973.885271	CpdH8M2doXnaNWN4Wg	192.168.12.10	1029	4.2.2.3	53	udp	22160	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.229.207,74.125.229.192,74.125.229.193,74.125.229.194,74.125.229.195,74.125.229.196,74.125.229.197,74.125.229.198,74.125.229.199,74.125.229.200,74.125.229.201,74.125.229.202,74.125.229.203,74.125.229.204,74.125.229.205,74.125.229.206	27340.000000,200.000000,200.000000,200.000000,200.000000,200.000000,200.000000,200.000000,200.000000,200.000000,200.000000,200.000000,200.000000,200.000000,200.000000,200.000000,200.000000	F
+1321052975.943606	CpdH8M2doXnaNWN4Wg	192.168.12.10	1029	4.2.2.3	53	udp	64914	aquarigger.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.106.174.219	4039.000000	F
+1321053013.059472	Csjd5BqboMfyqzPQ1	192.168.12.10	1029	4.2.2.3	53	udp	6803	xzczxczxcz.coom.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.208.142.55	3600.000000	F
+1321053034.840542	C3Ks7Hqsz1J728cr1	192.168.12.10	1029	4.2.2.3	53	udp	64149	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	162.000000,185.000000	F
+#close	2014-04-03-11-00-55

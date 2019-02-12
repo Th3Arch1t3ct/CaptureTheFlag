@@ -1,0 +1,30 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-21-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1313526954.965278	CUK8znRGEhLIuCboi	192.168.48.10	1031	205.178.132.179	80	1	GET	www.nrmcorp.com	/SpryAssets/SpryMenuBar.js	http://www.nrmcorp.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	10064	200	OK	-	-	-	(empty)	-	-	-	-	-	FLYrBs445GRlxvYdk3	text/plain
+1313526954.916012	CoXAgG1remWkFkLVhd	192.168.48.10	1030	205.178.132.179	80	1	GET	www.nrmcorp.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5487	200	OK	-	-	-	(empty)	-	-	-	-	-	F3Vrzwf4aU6LJF6le	text/html
+1313526955.066926	CUK8znRGEhLIuCboi	192.168.48.10	1031	205.178.132.179	80	2	GET	www.nrmcorp.com	/SpryAssets/SpryMenuBarHorizontal.css	http://www.nrmcorp.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5619	200	OK	-	-	-	(empty)	-	-	-	-	-	FUzKF52mf96fKMXhqf	text/plain
+1313526955.144215	CoXAgG1remWkFkLVhd	192.168.48.10	1030	205.178.132.179	80	2	GET	www.nrmcorp.com	/SpryAssets/SpryMenuBarVertical.css	http://www.nrmcorp.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4612	200	OK	-	-	-	(empty)	-	-	-	-	-	FtpMCS1yx7IkOddOo1	text/plain
+1313526955.144516	CUK8znRGEhLIuCboi	192.168.48.10	1031	205.178.132.179	80	3	GET	www.nrmcorp.com	/images/header.png	http://www.nrmcorp.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	142736	200	OK	-	-	-	(empty)	-	-	-	-	-	F7DeB3yg77UawsKll	image/png
+1313526955.352233	CUK8znRGEhLIuCboi	192.168.48.10	1031	205.178.132.179	80	4	GET	www.nrmcorp.com	/images/T long.png	http://www.nrmcorp.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1089	200	OK	-	-	-	(empty)	-	-	-	-	-	FMJo7B1sM2GO1FAYRj	image/png
+1313526955.583924	CUK8znRGEhLIuCboi	192.168.48.10	1031	205.178.132.179	80	5	GET	www.nrmcorp.com	/images/L.png	http://www.nrmcorp.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	537	200	OK	-	-	-	(empty)	-	-	-	-	-	FqJ0bK21RAUl9lJAih	image/png
+1313526955.612226	CUK8znRGEhLIuCboi	192.168.48.10	1031	205.178.132.179	80	6	GET	www.nrmcorp.com	/images/R.png	http://www.nrmcorp.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	532	200	OK	-	-	-	(empty)	-	-	-	-	-	FTN2Mh1I4MjuMrAQs4	image/png
+1313526955.332896	CoXAgG1remWkFkLVhd	192.168.48.10	1030	205.178.132.179	80	3	GET	www.nrmcorp.com	/images/flowers.png	http://www.nrmcorp.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	262224	200	OK	-	-	-	(empty)	-	-	-	-	-	FVO29q2gXPiDy0Swnl	image/png
+1313526955.701807	CoXAgG1remWkFkLVhd	192.168.48.10	1030	205.178.132.179	80	4	GET	www.nrmcorp.com	/SpryAssets/SpryMenuBarRightHover.gif	http://www.nrmcorp.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	55	200	OK	-	-	-	(empty)	-	-	-	-	-	FCaMG2Nd4tp0FPzcb	image/gif
+1313526955.731857	CoXAgG1remWkFkLVhd	192.168.48.10	1030	205.178.132.179	80	5	GET	www.nrmcorp.com	/SpryAssets/SpryMenuBarRight.gif	http://www.nrmcorp.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	55	200	OK	-	-	-	(empty)	-	-	-	-	-	FjzeYh1d1lrmAIL8Kh	image/gif
+1313526955.657791	CUK8znRGEhLIuCboi	192.168.48.10	1031	205.178.132.179	80	7	GET	www.nrmcorp.com	/images/B long.png	http://www.nrmcorp.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1288	200	OK	-	-	-	(empty)	-	-	-	-	-	FUTT0t164khZOoCIS1	image/png
+1313526955.735516	Cuf6bC1sElIKZVLFpi	192.168.48.10	1032	178.17.163.92	80	1	GET	zirycatum.com	/k985ytv.htm	http://www.nrmcorp.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1313526956.07105	CqLmqC1CIsaM7eZogd	192.168.48.10	1033	69.50.202.74	80	1	GET	rprlpb.com	/i87yta.htm	http://www.nrmcorp.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	46368	200	OK	-	-	-	(empty)	-	-	-	-	-	FvSkYi3ebzK02sbeRe	text/html
+1313526959.039092	CqLmqC1CIsaM7eZogd	192.168.48.10	1033	69.50.202.74	80	2	GET	rprlpb.com	/games/java_trust.php?f=22	http://rprlpb.com/i87yta.htm	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3453	200	OK	-	-	-	(empty)	-	-	-	-	-	F4cjCM1UYBdyh36z1e	text/html
+1313526959.189087	C4KkjnpOxb6Nwvyxd	192.168.48.10	1040	69.50.202.74	80	1	GET	rprlpb.com	/i87yta.htm?f=22&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1313526960.177982	CD6scK1yY7QMh5mIWh	192.168.48.10	1044	69.50.202.74	80	1	GET	rprlpb.com	/games/worms.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4872	200	OK	-	-	-	(empty)	-	-	-	-	-	FoyxIT2QRb13LSE7o8	application/zip
+1313526960.639832	ChBTFmSE7ddi4hz6i	192.168.48.10	1046	69.50.202.74	80	1	GET	rprlpb.com	/i87yta.htm?f=22&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1313526960.286168	CzUfSJ1WZA98OiZHyd	192.168.48.10	1045	91.193.72.70	80	1	GET	1539393606	/GSearch.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13172	200	OK	-	-	-	(empty)	-	-	-	-	-	Fs8ZCg3IkUDah42ya3	application/x-java-applet
+1313526960.923433	ChBTFmSE7ddi4hz6i	192.168.48.10	1046	69.50.202.74	80	2	GET	rprlpb.com	/d.php?f=22&e=1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	421888	200	OK	-	-	-	(empty)	-	-	-	-	-	FPwt5t3PaKVur2GUA4	application/x-dosexec
+1313526968.410819	Cmgwrs2aCDpYhhMdk1	192.168.48.10	1099	204.45.120.75	80	1	GET	zozerymiz.com	/1016000112	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)	0	2	200	OK	-	-	-	(empty)	-	-	-	-	-	FbM3QZDhClRjztDQe	text/plain
+#close	2014-04-03-10-21-35

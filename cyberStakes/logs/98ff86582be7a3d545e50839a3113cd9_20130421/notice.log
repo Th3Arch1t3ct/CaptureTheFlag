@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-43-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1366518589.133957	CiAJke1lkehdtFmDQb	192.168.20.10	1043	62.76.43.123	80	FVmTDBE8HqR5mTAyl	application/x-dosexec	http://62.76.43.123/a220213k/burgui180413/load.php?e=E&ip=Ep88l11cEP	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2013-05-13 07:06:02	https://www.virustotal.com/en/search/?query=a9aea96f5ef57802fd1c6982f391a89f9e42e1f3	192.168.20.10	62.76.43.123	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1366518605.467708	CFFAYb2XDPNPOZpJsf	192.168.20.10	1046	95.211.111.40	80	Fp9cQjeI59G5cOiWc	application/x-dosexec	http://marcus.fi/tmp/np.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 45%  Last seen: 2013-04-16 05:46:05	https://www.virustotal.com/en/search/?query=9b58acf0872115fe2f74bbc9b8a0d1a4bdc7e176	192.168.20.10	95.211.111.40	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-43-54

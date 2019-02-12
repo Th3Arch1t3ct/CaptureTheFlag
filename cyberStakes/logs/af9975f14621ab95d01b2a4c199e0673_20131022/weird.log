@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-12-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1382401517.391529	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1382401525.260264	CAa7fl438pl9v5SqIf	192.168.58.10	1037	203.149.30.7	80	unescaped_special_URI_char	-	F	bro
+1382401533.344612	CaAV0L1NZd2Wl4rgh9	192.168.58.10	1064	12.129.210.71	80	unescaped_special_URI_char	-	F	bro
+1382401541.621891	C7DzuH2ruaobUBlrjh	192.168.58.10	1093	12.129.210.71	80	unescaped_special_URI_char	-	F	bro
+1382401548.824221	CefB8m3s1XlEVNf9ok	192.168.58.10	1125	12.129.210.71	80	unescaped_special_URI_char	-	F	bro
+1382401548.848451	CK3D2M1dUnQfSnYVn5	192.168.58.10	1130	12.129.210.71	80	unescaped_special_URI_char	-	F	bro
+1382401559.72424	CbN1gc2f72hWpgHYV2	192.168.58.10	1137	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1382401559.744945	CFHpoE4aE1v8c6M93e	192.168.58.10	1138	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1382401559.810685	CyRfkh2pVK5gw1H2i3	192.168.58.10	1139	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1382401559.816971	C0j3jz4AQDIH6EJWWb	192.168.58.10	1140	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1382401559.819005	CC4wny1LRtqVV8IPg1	192.168.58.10	1141	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1382401559.820816	CqFfrP3Kk2QXePUGic	192.168.58.10	1142	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1382401559.823118	C3Cwvt1TselAXex0V	192.168.58.10	1143	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1382401559.847654	C14biU3paUYDW0mEIe	192.168.58.10	1144	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1382401559.888119	CwC4r82EA7TMehEIZ3	192.168.58.10	1145	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1382401559.913094	CwBW1q4tv3Jg86aP1f	192.168.58.10	1146	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1382401559.915534	Cl0u942CYpurBUPCG3	192.168.58.10	1147	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+#close	2014-04-03-10-12-45

@@ -1,0 +1,30 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-38-03
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1326339549.809393	CxBtrX26V77ZjmqSPj	192.168.27.10	1030	122.155.17.183	80	1	GET	goodpremiums.net	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2411	200	OK	-	-	-	(empty)	-	-	-	-	-	Fe3bDh35M1SnOgu23a	text/html
+1326339550.252828	CiFcJVIeFT15VgArk	192.168.27.10	1031	72.10.168.202	80	1	GET	resadeal.com	/jstools.js	http://goodpremiums.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3014	200	OK	-	-	-	(empty)	-	-	-	-	-	FpqFGcNHo0LczjPZ2	text/plain
+1326339550.517006	C30GFX2FiKXNGSkgq7	192.168.27.10	1034	74.125.65.95	80	1	GET	ajax.googleapis.com	/ajax/libs/jquery/1.4.2/jquery.min.js	http://goodpremiums.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	72174	200	OK	-	-	-	(empty)	-	-	-	-	-	F0xjAI1iBjFneyjOi5	text/plain
+1326339550.822231	Caz2N53SndxVOu8OX9	192.168.27.10	1033	122.155.17.183	80	1	GET	goodpremiums.net	/css/style.css	http://goodpremiums.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7370	200	OK	-	-	-	(empty)	-	-	-	-	-	FKbKRA1cNWuVkvxP35	text/plain
+1326339550.657645	CHO8561izZChpm3FKa	192.168.27.10	1032	91.217.153.188	80	1	GET	ticketptmw.aelita.fr	//index.php?94bde3460bf5c13d6e7255d3bcf63cf7	http://goodpremiums.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	43972	200	OK	-	-	-	(empty)	-	-	-	-	-	FW55R43tH2JCEzVsef	text/html
+1326339551.550759	CjyHsp2nBJgLijhxb8	192.168.27.10	1035	122.155.17.183	80	1	GET	goodpremiums.net	/flash/index.swf	-	contype	0	6998	200	OK	-	-	-	(empty)	-	-	-	-	-	F46FSf2dE8OKtRYzE3	application/x-shockwave-flash
+1326339553.814084	CUQU0jtCjvacYevo7	192.168.27.10	1041	91.217.153.188	80	1	GET	ticketptmw.aelita.fr	/server_privileges.php?1c16f489604e9abff05ff55771debaf1=1	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	16384	200	OK	-	-	-	(empty)	-	-	-	-	-	F1Svze4XBqzg2fIwEl	application/x-dosexec
+1326339555.786384	CcsmEx2bDerftO9gwh	192.168.27.10	1042	91.217.153.188	80	1	GET	ticketptmw.aelita.fr	//images/r/938a99f1be85e19406438f9a572fdf71.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	2578	200	OK	-	-	-	(empty)	-	-	-	-	-	FOYtgo2c4oQZREmo56	application/jar
+1326339555.790067	CjgYPp231EUyGFMX98	192.168.27.10	1043	91.217.153.188	80	1	GET	ticketptmw.aelita.fr	//images/938a99f1be85e19406438f9a572fdf71.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5468	200	OK	-	-	-	(empty)	-	-	-	-	-	FpIimO1wrKdbjBPvsc	application/jar
+1326339555.993396	CcsmEx2bDerftO9gwh	192.168.27.10	1042	91.217.153.188	80	2	GET	ticketptmw.aelita.fr	//images/r/938a99f1be85e19406438f9a572fdf71.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	2578	200	OK	-	-	-	(empty)	-	-	-	-	-	FRPjFE3kl1BQoTnIs4	application/jar
+1326339556.325566	CjgYPp231EUyGFMX98	192.168.27.10	1043	91.217.153.188	80	2	GET	ticketptmw.aelita.fr	//images/r/938a99f1be85e19406438f9a572fdf71.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	2578	200	OK	-	-	-	(empty)	-	-	-	-	-	FPKscB3TbX5i0C0ewh	application/jar
+1326339556.300627	CcsmEx2bDerftO9gwh	192.168.27.10	1042	91.217.153.188	80	3	GET	ticketptmw.aelita.fr	//images/938a99f1be85e19406438f9a572fdf71.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5468	200	OK	-	-	-	(empty)	-	-	-	-	-	F6YX8t34KntJ5iJsu4	application/jar
+1326339556.55188	CjgYPp231EUyGFMX98	192.168.27.10	1043	91.217.153.188	80	3	GET	ticketptmw.aelita.fr	//com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	398	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F7RxH71YoTuptKjBjb	text/html
+1326339556.819337	CjgYPp231EUyGFMX98	192.168.27.10	1043	91.217.153.188	80	4	GET	ticketptmw.aelita.fr	//edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	398	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Fvpjgz1F25kabqpPAg	text/html
+1326339556.961695	CjgYPp231EUyGFMX98	192.168.27.10	1043	91.217.153.188	80	5	GET	ticketptmw.aelita.fr	//net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	398	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Fsf0Kp4dCXMwlnQ8Ed	text/html
+1326339556.972255	CcsmEx2bDerftO9gwh	192.168.27.10	1042	91.217.153.188	80	4	GET	ticketptmw.aelita.fr	//images/938a99f1be85e19406438f9a572fdf71.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5468	200	OK	-	-	-	(empty)	-	-	-	-	-	FYr3jU1svhwILUYhgh	application/jar
+1326339557.107105	CjgYPp231EUyGFMX98	192.168.27.10	1043	91.217.153.188	80	6	GET	ticketptmw.aelita.fr	//org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	398	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FY2kUj4mZlymNVj8f8	text/html
+1326339557.49261	CjgYPp231EUyGFMX98	192.168.27.10	1043	91.217.153.188	80	7	GET	ticketptmw.aelita.fr	/server_privileges.php?1c16f489604e9abff05ff55771debaf1=2	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	16384	200	OK	-	-	-	(empty)	-	-	-	-	-	FbB9Je2HVjMGKPspgc	application/x-dosexec
+1326339557.756979	CcsmEx2bDerftO9gwh	192.168.27.10	1042	91.217.153.188	80	5	GET	ticketptmw.aelita.fr	/server_privileges.php?1c16f489604e9abff05ff55771debaf1=3	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	16384	200	OK	-	-	-	(empty)	-	-	-	-	-	FVAoz04q1jsCMHNS8k	application/x-dosexec
+1326339552.575236	CPgX1tle42sVxTRWg	192.168.27.10	1040	122.155.17.183	80	1	GET	goodpremiums.net	/flash/index.swf	http://goodpremiums.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2410964	200	OK	-	-	-	(empty)	-	-	-	-	-	FM0VE31GjeE9MOwvg9	application/x-shockwave-flash
+1326339566.108266	Ceh7djkwuav8F58ec	192.168.27.10	1044	69.31.75.203	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1568	200	OK	-	-	-	(empty)	-	-	-	-	-	FC20Di3IL4Nw2MKJN8	text/html
+#close	2014-04-03-10-38-04

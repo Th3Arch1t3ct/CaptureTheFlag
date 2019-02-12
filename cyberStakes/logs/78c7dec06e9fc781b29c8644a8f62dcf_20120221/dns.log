@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-03-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1329848042.78874	Cz9ij12ujZ2RTT9cU7	192.168.80.10	1029	4.2.2.3	53	udp	2443	updatesearch.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.154.77.11	578.000000	F
+1329848043.448167	Cz9ij12ujZ2RTT9cU7	192.168.80.10	1029	4.2.2.3	53	udp	52872	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.47.101,74.125.47.102,74.125.47.113,74.125.47.138,74.125.47.139,74.125.47.100	40560.000000,31.000000,31.000000,31.000000,31.000000,31.000000,31.000000	F
+1329848048.660901	Cz9ij12ujZ2RTT9cU7	192.168.80.10	1029	4.2.2.3	53	udp	57225	install.freedownloadsoft.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.150.14.65	30.000000	F
+1329848048.938172	Cz9ij12ujZ2RTT9cU7	192.168.80.10	1029	4.2.2.3	53	udp	7054	cfgi.5millionfriends.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.150.14.46	30.000000	F
+1329848049.173856	Cz9ij12ujZ2RTT9cU7	192.168.80.10	1029	4.2.2.3	53	udp	19343	origin-ics.fivemillionfriends.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.150.14.87	30.000000	F
+#close	2014-04-03-11-03-34

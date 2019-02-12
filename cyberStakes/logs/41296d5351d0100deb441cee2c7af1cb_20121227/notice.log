@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-15-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1356638496.792336	CsJWVC2wg2INM6wxNl	192.168.95.10	1083	85.25.104.56	80	Fm7YFG2ZJgSpBJt2Mc	application/x-dosexec	http://50dc99e25ac8a.cafe-transilvania.de/news/Uncle/Regional6.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 14%  Last seen: 2012-12-27 17:31:04	https://www.virustotal.com/en/search/?query=75079041672e56ee6198c82da76165dbc47d00f0	192.168.95.10	85.25.104.56	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1356638504.949563	C8Ej3V1vX3GTsFs6i2	192.168.95.10	1094	80.72.46.52	80	FZQeV9owGKuVjd5T1	application/x-dosexec	http://50dc9297858e9.tawea.com/news/Uncle/Regional.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 14%  Last seen: 2012-12-27 17:31:04	https://www.virustotal.com/en/search/?query=75079041672e56ee6198c82da76165dbc47d00f0	192.168.95.10	80.72.46.52	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-15-06

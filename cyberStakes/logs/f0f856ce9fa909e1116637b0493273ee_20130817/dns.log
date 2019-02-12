@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-54-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1376774897.470348	CkzzIK3vIAqhqCad43	192.168.99.10	1030	4.2.2.3	53	udp	41364	lp.shoppingchip.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	141.101.117.130,141.101.116.130	271.000000,271.000000	F
+1376774898.088018	CkzzIK3vIAqhqCad43	192.168.99.10	1030	4.2.2.3	53	udp	20631	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.224.134,74.125.224.128,74.125.224.135,74.125.224.142,74.125.224.136,74.125.224.137,74.125.224.129,74.125.224.133,74.125.224.132,74.125.224.131,74.125.224.130	68148.000000,255.000000,255.000000,255.000000,255.000000,255.000000,255.000000,255.000000,255.000000,255.000000,255.000000,255.000000	F
+1376774898.444843	CkzzIK3vIAqhqCad43	192.168.99.10	1030	4.2.2.3	53	udp	36497	installer.shoppingchip.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	141.101.117.130,141.101.116.130	300.000000,300.000000	F
+#close	2014-04-03-10-54-12

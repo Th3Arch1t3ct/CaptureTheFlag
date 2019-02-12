@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-12-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1323588848.985827	C99Qlie9ugxIqxd2d	192.168.100.10	1043	91.217.153.87	80	FN0FGI2dWO4fmNhzX2	application/x-dosexec	http://benefitngs.aelita.fr/server_privileges.php?89f7c1edebfdea34c18f8d79515a68f6=5	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 39%  Last seen: 2011-12-24 14:19:33	https://www.virustotal.com/en/search/?query=ab8ef6bc274a9c1378eb7fd435ee67b552464d55	192.168.100.10	91.217.153.87	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1323588854.688762	CYyGmI25VyPXW5EOd	192.168.100.10	1057	91.217.153.87	80	F1D2qYapteF4Xukvh	application/jar	http://benefitngs.aelita.fr//images/a03cb4b8e5bb148134a57a2c87ddacd9.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2011-10-26 20:31:04	https://www.virustotal.com/en/search/?query=e62f148fcc5b8c9f866dc69ae001cff776caf8aa	192.168.100.10	91.217.153.87	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1323588866.110991	CdCxEW1QyexIf9aSrh	192.168.100.10	1062	91.217.153.87	80	Fm4Rqq1YSXanLRzeq	application/x-dosexec	http://benefitngs.aelita.fr/server_privileges.php?89f7c1edebfdea34c18f8d79515a68f6=1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 39%  Last seen: 2011-12-24 14:19:33	https://www.virustotal.com/en/search/?query=ab8ef6bc274a9c1378eb7fd435ee67b552464d55	192.168.100.10	91.217.153.87	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1323588898.126406	CCC1gg4HGbM6lj3ey9	192.168.100.10	1067	91.217.153.87	80	FSQCW21rqXUnBeeyph	application/jar	http://benefitngs.aelita.fr//images/a03cb4b8e5bb148134a57a2c87ddacd9.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2011-10-26 20:31:04	https://www.virustotal.com/en/search/?query=e62f148fcc5b8c9f866dc69ae001cff776caf8aa	192.168.100.10	91.217.153.87	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1323588898.126406	C5Zrdn30xcro3xlna2	192.168.100.10	1068	91.217.153.87	80	F2SgZ426fus6FM79p5	application/jar	http://benefitngs.aelita.fr//images/a03cb4b8e5bb148134a57a2c87ddacd9.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2011-10-26 20:31:04	https://www.virustotal.com/en/search/?query=e62f148fcc5b8c9f866dc69ae001cff776caf8aa	192.168.100.10	91.217.153.87	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-12-34

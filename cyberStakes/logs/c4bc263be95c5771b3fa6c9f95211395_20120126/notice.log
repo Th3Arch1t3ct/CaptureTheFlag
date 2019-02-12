@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-17-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1327539768.35044	C73sQx3ycUpke9OJHd	192.168.103.10	1034	64.34.154.74	80	F8SCsh4fhN7OTeIH14	application/x-dosexec	http://i.d2f3.com/oops/server_privileges.php?6e973055ca2c946ef80a7baf6229c188=1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 55%  Last seen: 2012-11-22 00:42:50	https://www.virustotal.com/en/search/?query=fd81121f77f26b90353c6f6b14d08cdd596dabbe	192.168.103.10	64.34.154.74	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1327539769.491816	CZfH23cCmPZGxuWdg	192.168.103.10	1050	64.34.154.74	80	FczKHkXijdTJRWMv9	application/x-dosexec	http://i.d2f3.com/oops/server_privileges.php?6e973055ca2c946ef80a7baf6229c188=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 55%  Last seen: 2012-11-22 00:42:50	https://www.virustotal.com/en/search/?query=fd81121f77f26b90353c6f6b14d08cdd596dabbe	192.168.103.10	64.34.154.74	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1327539778.165773	CWBDQnt3HQo8mMYHe	192.168.103.10	1052	64.34.154.74	80	FjRdk83h9xhiyibf7j	application/x-dosexec	http://i.d2f3.com/oops/server_privileges.php?6e973055ca2c946ef80a7baf6229c188=3	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 55%  Last seen: 2012-11-22 00:42:50	https://www.virustotal.com/en/search/?query=fd81121f77f26b90353c6f6b14d08cdd596dabbe	192.168.103.10	64.34.154.74	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-17-39

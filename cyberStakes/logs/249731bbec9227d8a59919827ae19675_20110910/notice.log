@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-13-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1315693946.943196	C07ruv1M0aFO4XrfD5	192.168.64.10	1040	95.163.66.184	80	FAFVc13iv8Rhy8Qiec	application/jar	http://gfdhdnn.cz.cc/showthread.php?t=531971809	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 68%  Last seen: 2012-12-01 04:31:09	https://www.virustotal.com/en/search/?query=ca641aeaf0578efb0bdd96bb8fac350d348f7221	192.168.64.10	95.163.66.184	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1315693947.726773	C07ruv1M0aFO4XrfD5	192.168.64.10	1040	95.163.66.184	80	F97kjE2uXTR7UIUSMk	application/jar	http://gfdhdnn.cz.cc/showthread.php?t=531971809	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 68%  Last seen: 2012-12-01 04:31:09	https://www.virustotal.com/en/search/?query=ca641aeaf0578efb0bdd96bb8fac350d348f7221	192.168.64.10	95.163.66.184	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1315693948.107326	C07ruv1M0aFO4XrfD5	192.168.64.10	1040	95.163.66.184	80	Fkwgx421BlEaIh6og4	application/jar	http://gfdhdnn.cz.cc/showthread.php?t=531971809	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 68%  Last seen: 2012-12-01 04:31:09	https://www.virustotal.com/en/search/?query=ca641aeaf0578efb0bdd96bb8fac350d348f7221	192.168.64.10	95.163.66.184	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1315693954.932593	C07ruv1M0aFO4XrfD5	192.168.64.10	1040	95.163.66.184	80	FWgWuH3It98e9XIMC5	application/x-dosexec	http://gfdhdnn.cz.cc/showthread.php?t=101176	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2011-09-14 06:58:14	https://www.virustotal.com/en/search/?query=f8457bcf0ff704ff0016df2345a3ad4675ef15ff	192.168.64.10	95.163.66.184	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1315693955.365932	C1FK3N23quh0Vzfql2	192.168.64.10	1060	173.212.192.228	80	FhM6Kf4F4Zu3k8eLpg	application/x-dosexec	http://vueiaaui.cn/go.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 21%  Last seen: 2011-09-13 03:07:28	https://www.virustotal.com/en/search/?query=b040b1c34dcc61fc7c26625765d0b7cbf8313100	192.168.64.10	173.212.192.228	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-13-49

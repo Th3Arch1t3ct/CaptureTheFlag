@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-24-19
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1318964485.094352	C8lZsf2cFE1PyDK0t6	192.168.94.10	1030	66.186.38.90	80	1	GET	connects.titleedge.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1318964485.253231	C8lZsf2cFE1PyDK0t6	192.168.94.10	1030	66.186.38.90	80	2	GET	connects.titleedge.com	/edge/sign_on.cfm	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	20448	200	OK	-	-	-	(empty)	-	-	-	-	-	FhIXxr1goa1y3vt66d	text/html
+1318964485.58869	C8lZsf2cFE1PyDK0t6	192.168.94.10	1030	66.186.38.90	80	3	GET	connects.titleedge.com	/application.css	http://connects.titleedge.com/edge/sign_on.cfm	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	9062	200	OK	-	-	-	(empty)	-	-	-	-	-	F2HVGz45whe9qh86Og	text/plain
+1318964485.652548	C8lZsf2cFE1PyDK0t6	192.168.94.10	1030	66.186.38.90	80	4	GET	connects.titleedge.com	/images/pixel.gif	http://connects.titleedge.com/edge/sign_on.cfm	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	43	200	OK	-	-	-	(empty)	-	-	-	-	-	FrN0Yf1j0VFhTTpvk	image/gif
+1318964485.714981	C8lZsf2cFE1PyDK0t6	192.168.94.10	1030	66.186.38.90	80	5	GET	connects.titleedge.com	/images/line.gif	http://connects.titleedge.com/edge/sign_on.cfm	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	80	200	OK	-	-	-	(empty)	-	-	-	-	-	FfPRIE90pweiWambc	image/gif
+1318964485.653454	CvSzM82gNhyPHKzLe2	192.168.94.10	1031	66.186.38.90	80	1	GET	connects.titleedge.com	/images/design/nextace(r).gif	http://connects.titleedge.com/edge/sign_on.cfm	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3202	200	OK	-	-	-	(empty)	-	-	-	-	-	FKwxCM38Nyi9eET4xl	image/gif
+1318964485.778161	C8lZsf2cFE1PyDK0t6	192.168.94.10	1030	66.186.38.90	80	6	GET	connects.titleedge.com	/edge/application.css	http://connects.titleedge.com/edge/sign_on.cfm	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	9348	200	OK	-	-	-	(empty)	-	-	-	-	-	FXCCIl2BBoqneRUBij	text/plain
+1318964485.867511	CvSzM82gNhyPHKzLe2	192.168.94.10	1031	66.186.38.90	80	2	GET	connects.titleedge.com	/edge/includes/AxPViewCtl.dll	http://connects.titleedge.com/edge/sign_on.cfm	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5280	200	OK	-	-	-	(empty)	-	-	-	-	-	FjdLDC2j5bQSFsEPNk	application/x-dosexec
+#close	2014-04-03-10-24-20

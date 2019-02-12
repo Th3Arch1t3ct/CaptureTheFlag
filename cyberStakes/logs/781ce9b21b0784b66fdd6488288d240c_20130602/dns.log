@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-42-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1370183943.763205	CeUcYZ3txE6i2xhvke	192.168.74.10	1029	4.2.2.3	53	udp	41364	www.kalamazooklash.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	kalamazooklash.org,50.87.114.18	14376.000000,14376.000000	F
+1370183944.029351	CeUcYZ3txE6i2xhvke	192.168.74.10	1029	4.2.2.3	53	udp	6548	wwwimages.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wwwimages.wip4.adobe.com,wwwimages.adobe.com.edgesuite.net,wwwimages.adobe.com.edgesuite.net.globalredir.akadns.net,a1953.x.akamai.net,23.67.61.130,23.67.61.136	60.000000,345.000000,12753.000000,345.000000,20.000000,20.000000	F
+1370183944.544509	CeUcYZ3txE6i2xhvke	192.168.74.10	1029	4.2.2.3	53	udp	42903	www.headline.cl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.33.223.25	14400.000000	F
+1370183944.685894	CeUcYZ3txE6i2xhvke	192.168.74.10	1029	4.2.2.3	53	udp	45206	www.coloquiodesign.com.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	coloquiodesign.com.br,205.251.133.166	14400.000000,14400.000000	F
+#close	2014-04-03-10-42-36

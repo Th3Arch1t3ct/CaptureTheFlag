@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-13-42
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1320974782.604512	C21fCV1wPYZPkAQuMj	192.168.126.10	1029	4.2.2.3	53	udp	37777	gnarticles.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.154.141.90	14376.000000	F
+1320974783.621383	C21fCV1wPYZPkAQuMj	192.168.126.10	1029	4.2.2.3	53	udp	50064	fonts.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.45.95	2115.000000,30.000000	F
+1320974783.891356	C21fCV1wPYZPkAQuMj	192.168.126.10	1029	4.2.2.3	53	udp	49296	themes.googleusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlehosted.l.googleusercontent.com,74.125.47.132	27925.000000,145.000000	F
+1320974797.113278	C21fCV1wPYZPkAQuMj	192.168.126.10	1029	4.2.2.3	53	udp	2706	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.45.95	3370.000000,16.000000	F
+1320974802.298834	C21fCV1wPYZPkAQuMj	192.168.126.10	1029	4.2.2.3	53	udp	23189	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.229.200,74.125.229.201,74.125.229.202,74.125.229.203,74.125.229.204,74.125.229.205,74.125.229.206,74.125.229.207,74.125.229.192,74.125.229.193,74.125.229.194,74.125.229.195,74.125.229.196,74.125.229.197,74.125.229.198,74.125.229.199	19111.000000,71.000000,71.000000,71.000000,71.000000,71.000000,71.000000,71.000000,71.000000,71.000000,71.000000,71.000000,71.000000,71.000000,71.000000,71.000000,71.000000	F
+1320974808.908055	C21fCV1wPYZPkAQuMj	192.168.126.10	1029	4.2.2.3	53	udp	35477	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.74.123,69.31.74.88	9605.000000,10.000000,10309.000000,20.000000,20.000000	F
+1320974808.910274	CetWGh32lapUzc7ab5	192.168.126.10	1070	4.2.2.3	53	udp	35988	hxftghf.coom.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.208.142.55	3600.000000	F
+1320974828.007618	CnHatal3NP9iq3F9j	192.168.126.10	1029	4.2.2.3	53	udp	50839	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	1430.000000,190.000000	F
+1320974828.179649	CnHatal3NP9iq3F9j	192.168.126.10	1029	4.2.2.3	53	udp	21657	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	861.000000,454.000000	F
+#close	2014-04-03-11-13-43

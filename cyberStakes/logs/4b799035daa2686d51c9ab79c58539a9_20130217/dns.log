@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-40-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1361070540.191462	C4pa788e3AtwykPk	192.168.123.10	1029	4.2.2.3	53	udp	56717	wepurchaseusediphones.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.31.186.144	1777.000000	F
+1361070562.438389	CGHJfnEYLOquxMiA1	192.168.123.10	1029	4.2.2.3	53	udp	54668	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,64.4.52.169	2109.000000,102.000000	F
+1361070562.656985	CGHJfnEYLOquxMiA1	192.168.123.10	1029	4.2.2.3	53	udp	49548	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	2110.000000,402.000000	F
+1361070578.298773	CZDSTJ14s6jxZX1tS7	192.168.123.10	1029	4.2.2.3	53	udp	52876	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.d.akamai.net,165.254.33.24,165.254.32.248	18354.000000,105.000000,11245.000000,20.000000,20.000000	F
+#close	2014-04-03-10-40-34

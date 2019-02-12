@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-11-12-25
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1352455885.352455	Fwc19h1qMmJfqG8e98	204.13.161.100	192.168.74.10	CvznpRHJrXsA32G3k	HTTP	0	SHA1,MD5	text/html	-	0.000019	-	F	1825	-	0	0	F	-	c8cf6f270672bbd304ec2e4beb081a31	c287a11162332a7c82ba8e52e9d8999ec603897b	-	-
+1352455885.530996	F0scPLQWmn2X0yr2d	204.13.162.127	192.168.74.10	CZPlGU3Ok1P8oz3tui	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	45	45	0	0	F	-	d216fa5669447579f8943fb0454946c9	d95d66046eb4dbaf071c926c573e8c0c6c0abee3	-	-
+1352455886.213036	F8c2ADpFKtcZ2mVia	204.13.161.100	192.168.74.10	CvznpRHJrXsA32G3k	HTTP	0	SHA1,MD5	text/html	-	0.000011	-	F	2212	2212	0	0	F	-	c0fd8f9e4a119b69c2a18c690bf63a88	5f6dea70b2518db1cdb0de848294613de69b7c6d	-	-
+1352455886.479939	FIRPmo42YJFuGOBRYi	64.26.28.146	192.168.74.10	C9rEdkf3nnEvSguxd	HTTP	0	SHA1,MD5	text/html	-	0.017632	-	F	7703	7703	0	0	F	-	b2194186dc11673e4faee6fbd737cf35	934ddd1edffc3e38a0192a9b85148f1b086298f3	-	-
+1352455887.116976	FiFSrX1zRmBQ0JAq6c	64.111.214.157	192.168.74.10	CPP5FR1QLUPIY2DZ1e	HTTP	0	SHA1,MD5	text/html	-	0.000014	-	F	3291	3291	0	0	F	-	07b79130f1042a85c65fdddde4663dd3	010b9a2dc50875ed9fff8c50b01bff7838f97342	-	-
+1352455887.181913	FUGGZY3wRYSydcYRj1	74.125.137.113	192.168.74.10	CZVXZU20BWW2yPRhg3	HTTP	0	SHA1,MD5	text/plain	-	0.002844	-	F	37105	-	0	0	F	-	6b15c927630d65240d0a38dd640f228e	3d01b19258bab858afdcc994c9b26dc989b12018	-	-
+1352455887.283065	FYA2TR3GI3waGcmWcj	74.125.137.113	192.168.74.10	CZVXZU20BWW2yPRhg3	HTTP	0	SHA1,MD5	image/gif	-	0.000000	-	F	35	35	0	0	F	-	28d6814f309ea289f847c69cf91194c6	0f4e929dd5bb2564f7ab9c76338e04e292a42ace	-	-
+1352455887.320793	Fj4ach4ZtFddmaO4S8	74.125.137.113	192.168.74.10	CZVXZU20BWW2yPRhg3	HTTP	0	SHA1,MD5	image/gif	-	0.000000	-	F	35	35	0	0	F	-	28d6814f309ea289f847c69cf91194c6	0f4e929dd5bb2564f7ab9c76338e04e292a42ace	-	-
+1352455887.441644	FtT4Xp35jNES0Ekg99	207.171.163.196	192.168.74.10	CYSUQFRDQibmaBMga	HTTP	0	SHA1,MD5	application/x-dosexec	InternetTurboSetup__516-2405901.exe	0.017222	-	F	10017	442560	0	0	F	-	44140dc96628f3108224736c2030613a	cf32e49989fbe79b337946f407dd029a7f46e66b	-	-
+#close	2014-04-03-11-12-25

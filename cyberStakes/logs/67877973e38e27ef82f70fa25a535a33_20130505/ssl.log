@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-11-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1367727596.197476	CqHMIZ18yIhqSB6hj7	192.168.91.10	1061	173.194.37.156	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.doubleclick.net,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1366833952.000000	1388437552.000000	-	-	-	a031a01ee663fd4cc10ffffffffff456	ok
+1367727596.497414	CSrxHT32h1hASvP1M2	192.168.91.10	1062	173.194.37.156	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.doubleclick.net,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1366833952.000000	1388437552.000000	-	-	-	a031a01ee663fd4cc10ffffffffff456	ok
+1367727596.651095	CA87tX2iAj2YizPy4d	192.168.91.10	1063	38.126.130.199	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.media6degrees.com,OU=Domain Control Validated,O=*.media6degrees.com	serialNumber=07969287,CN=Go Daddy Secure Certification Authority,OU=http://certificates.godaddy.com/repository,O=GoDaddy.com\, Inc.,L=Scottsdale,ST=Arizona,C=US	1292464876.000000	1450231276.000000	-	-	-	de4cca48c1258a00a390d6a28ae8b2b4	ok
+#close	2014-04-03-10-11-11

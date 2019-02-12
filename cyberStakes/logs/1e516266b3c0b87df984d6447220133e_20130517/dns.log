@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-08-01
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1368826104.671095	Cmhzm94n42VdQnXtzk	192.168.121.10	1029	4.2.2.3	53	udp	56716	loschenitas.cl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.7.198.92	14375.000000	F
+1368826105.013716	Cmhzm94n42VdQnXtzk	192.168.121.10	1029	4.2.2.3	53	udp	46733	www.loschenitas.cl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	loschenitas.cl,66.7.198.92	14374.000000,14374.000000	F
+1368826105.717732	Cmhzm94n42VdQnXtzk	192.168.121.10	1029	4.2.2.3	53	udp	32141	ow.ly	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	204.15.172.228,204.15.172.246,204.15.172.215	300.000000,300.000000,300.000000	F
+1368826106.121152	Cmhzm94n42VdQnXtzk	192.168.121.10	1029	4.2.2.3	53	udp	45967	gabinety-lucka.pl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.229.151.194	900.000000	F
+1368826116.445152	Cmhzm94n42VdQnXtzk	192.168.121.10	1029	4.2.2.3	53	udp	58248	fisioequality.com.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	200.234.196.243	3600.000000	F
+1368826122.121221	Cmhzm94n42VdQnXtzk	192.168.121.10	1029	4.2.2.3	53	udp	21896	grupopedras.com.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	187.45.195.183	3600.000000	F
+#close	2014-04-03-10-08-01

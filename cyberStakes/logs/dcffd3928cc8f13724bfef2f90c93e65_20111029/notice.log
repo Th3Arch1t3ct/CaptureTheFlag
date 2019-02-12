@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-37-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1319928442.253396	CAkIs84kzHWwqF9aC1	192.168.102.10	1046	91.217.153.87	80	FWQJavlfBHci93qb	application/x-dosexec	http://nettercdragsa.aelita.fr/server_privileges.php?0e39ec23dac1ba27eff4ec899b224229=5	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2011-11-17 03:22:20	https://www.virustotal.com/en/search/?query=4f33f304fdfc55ed13b24117543557ca3cbbb582	192.168.102.10	91.217.153.87	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1319928458.959517	COBoj10W6ToSSsXC9	192.168.102.10	1083	91.217.153.87	80	FLLmS52oMei2S19EC5	application/x-dosexec	http://nettercdragsa.aelita.fr/server_privileges.php?0e39ec23dac1ba27eff4ec899b224229=1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2011-11-17 03:22:20	https://www.virustotal.com/en/search/?query=4f33f304fdfc55ed13b24117543557ca3cbbb582	192.168.102.10	91.217.153.87	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1319928459.259174	CPFk8o4i9fWVh6gmCd	192.168.102.10	1092	91.217.153.87	80	Fnors61EmFF3GxBUQ5	application/jar	http://nettercdragsa.aelita.fr//images/a03cb4b8e5bb148134a57a2c87ddacd9.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2011-10-26 20:31:04	https://www.virustotal.com/en/search/?query=e62f148fcc5b8c9f866dc69ae001cff776caf8aa	192.168.102.10	91.217.153.87	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1319928459.95785	CyRAQN2kGu8mg0t0Q8	192.168.102.10	1094	91.217.153.87	80	FQ8HNa4Opks0yWk7Ge	application/jar	http://nettercdragsa.aelita.fr//images/a03cb4b8e5bb148134a57a2c87ddacd9.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2011-10-26 20:31:04	https://www.virustotal.com/en/search/?query=e62f148fcc5b8c9f866dc69ae001cff776caf8aa	192.168.102.10	91.217.153.87	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1319928462.998241	CyRAQN2kGu8mg0t0Q8	192.168.102.10	1094	91.217.153.87	80	FOUgJZ1iwPXZygAo02	application/jar	http://nettercdragsa.aelita.fr//images/a03cb4b8e5bb148134a57a2c87ddacd9.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2011-10-26 20:31:04	https://www.virustotal.com/en/search/?query=e62f148fcc5b8c9f866dc69ae001cff776caf8aa	192.168.102.10	91.217.153.87	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-37-55

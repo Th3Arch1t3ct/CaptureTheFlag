@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-40-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1360362832.143264	Cj0LL61MjuN8ga62Yc	192.168.39.10	1029	4.2.2.3	53	udp	44177	thoitrangbb.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.89.31.226	14400.000000	F
+1360362832.930587	Cj0LL61MjuN8ga62Yc	192.168.39.10	1029	4.2.2.3	53	udp	31378	fonts.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.140.95	3294.000000,234.000000	F
+1360362832.950286	Cj0LL61MjuN8ga62Yc	192.168.39.10	1029	4.2.2.3	53	udp	6547	themes.googleusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlehosted.l.googleusercontent.com,74.125.137.132	8605.000000,275.000000	F
+1360362834.272488	Cj0LL61MjuN8ga62Yc	192.168.39.10	1029	4.2.2.3	53	udp	5779	bb.dovevn.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.89.31.226	14400.000000	F
+1360362834.273972	CEDzb43ZRhXFEOX6Uj	192.168.39.10	1034	4.2.2.3	53	udp	32403	shkololo.zapto.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.230.251.120	60.000000	F
+1360362837.97126	Cj0LL61MjuN8ga62Yc	192.168.39.10	1029	4.2.2.3	53	udp	3220	estohota.dnsdojo.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.76.43.33	60.000000	F
+1360362839.126241	Cj0LL61MjuN8ga62Yc	192.168.39.10	1029	4.2.2.3	53	udp	34197	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,64.4.52.169	2860.000000,21.000000	F
+1360362839.57665	Cj0LL61MjuN8ga62Yc	192.168.39.10	1029	4.2.2.3	53	udp	55958	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	1927.000000,600.000000	F
+#close	2014-04-03-10-40-00

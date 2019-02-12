@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-53-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1357375757.431226	CKdzC63qPaOW4Qr0R	192.168.30.10	1030	93.170.52.31	80	1	GET	sqadn-network.tk	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1122	200	OK	-	-	-	(empty)	-	-	-	-	-	FLg6gr1kZw3MfbXU7i	text/html
+1357375758.141014	CCorkP2c38GRxGE2al	192.168.30.10	1031	74.125.139.113	80	1	GET	www.google-analytics.com	/ga.js	http://sqadn-network.tk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	37362	200	OK	-	-	-	(empty)	-	-	-	-	-	FlyrHU3RMKeGnboCKc	text/plain
+1357375758.385976	CyuhGR1TuAPTrdydi9	192.168.30.10	1032	199.59.160.184	80	1	GET	beit.lycexo.com	/	http://sqadn-network.tk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	568	200	OK	-	-	-	(empty)	-	-	-	-	-	FnXWgj3axaO6yES006	text/html
+1357375758.472732	CCorkP2c38GRxGE2al	192.168.30.10	1031	74.125.139.113	80	2	GET	www.google-analytics.com	/__utm.gif?utmwv=5.3.8&utms=1&utmn=1269600704&utmhn=sqadn-network.tk&utmcs=utf-8&utmsr=800x600&utmvp=796x475&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=10.0 r32&utmdt=sqadn-network.tk&utmhid=717041640&utmr=-&utmp=/&utmac=UA-23441223-3&utmcc=__utma=1.176393393.1357390039.1357390039.1357390039.1;+__utmz=1.1357390039.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);&utmu=qh~	http://sqadn-network.tk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	35	200	OK	-	-	-	(empty)	-	-	-	-	-	FBUksO2drUxqM2Nv1h	image/gif
+1357375758.589486	C0H0wG4P3jayDOtFGc	192.168.30.10	1033	208.131.138.217	80	1	GET	208.131.138.217	/208.html	http://beit.lycexo.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3239	200	OK	-	-	-	(empty)	-	-	-	-	-	FXw52w23twC3JNnB05	text/html
+1357375758.697814	Co17o5PIjdSXOHVg	192.168.30.10	1034	208.131.138.217	80	1	GET	208.131.138.217	/imagedl11.php	http://208.131.138.217/208.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	36500	200	OK	-	-	-	(empty)	-	-	-	-	-	FD5fCVw9nejVdjpkg	application/x-dosexec
+#close	2014-04-03-10-53-07

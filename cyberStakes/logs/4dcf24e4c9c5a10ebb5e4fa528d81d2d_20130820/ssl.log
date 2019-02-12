@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-07-03
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1377030515.896918	CSTRSX2oAsygIKhmB1	192.168.9.10	1039	74.125.224.192	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1375290094.000000	1406826094.000000	-	-	-	229988daea9089af35346ab64661a865	ok
+1377030518.208235	CwoNAA2RjlwiacagAe	192.168.9.10	1056	74.125.224.111	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1375288823.000000	1383281999.000000	-	-	-	787467026b3de3b943e2207bffeeeeee	ok
+1377030520.584334	C5JBdL1L5DVZnL8kT5	192.168.9.10	1073	74.125.224.141	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.g.doubleclick.net,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1375288815.000000	1383281999.000000	-	-	-	d4ab5f3cf9d92d5ef02aa406a1222222	ok
+1377030524.806056	CEf0ga3MoLT8WhZsHb	192.168.9.10	1087	199.59.148.82	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=twitter.com,OU=Twitter Security,O=Twitter\, Inc.,street=795 Folsom St\, Suite 600,L=San Francisco,ST=California,postalCode=94107,C=US,serialNumber=4337446,businessCategory=Private Organization,1.3.6.1.4.1.311.60.2.1.2=#130844656C6177617265,1.3.6.1.4.1.	311.60.2.1.3=#13025553CN=VeriSign Class 3 Extended Validation SSL CA,OU=Terms of use at https://www.verisign.com/rpa (c)06,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1334034000.000000	1399784399.000000	-	-	-	27741b9b80ad6aeccdc45e181a48a140	ok
+#close	2014-04-03-10-07-04

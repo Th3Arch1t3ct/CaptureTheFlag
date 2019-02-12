@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-30-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1332696226.46017	Cw7U3OV1oGbB5LLGb	192.168.103.10	1029	4.2.2.3	53	udp	23949	gamerlove.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	206.212.243.114	14378.000000	F
+1332696229.018192	Cw7U3OV1oGbB5LLGb	192.168.103.10	1029	4.2.2.3	53	udp	64909	114.243.212.206.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	bear.xdns2.net	600.000000	F
+1332696229.063104	Cw7U3OV1oGbB5LLGb	192.168.103.10	1029	4.2.2.3	53	udp	44428	bear.xdns2.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	206.212.243.114	14400.000000	F
+1332696237.084458	Cw7U3OV1oGbB5LLGb	192.168.103.10	1029	4.2.2.3	53	udp	34703	g.dns107.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.140.168.192	300.000000	F
+#close	2014-04-03-10-30-25

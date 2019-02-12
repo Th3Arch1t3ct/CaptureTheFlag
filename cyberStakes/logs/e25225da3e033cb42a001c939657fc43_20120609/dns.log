@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-58-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1339275725.717634	CbvAPsDd3EpmZ2xFi	192.168.7.10	1029	4.2.2.3	53	udp	45968	863area.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	65.254.248.148	3573.000000	F
+1339275726.114875	CbvAPsDd3EpmZ2xFi	192.168.7.10	1029	4.2.2.3	53	udp	25489	www.863area.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	65.254.248.148	3572.000000	F
+1339275729.960658	CbvAPsDd3EpmZ2xFi	192.168.7.10	1029	4.2.2.3	53	udp	44435	cdn.jquerytools.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	jquerytools.flowplayer.netdna-cdn.com,67.201.31.64	535.000000,23.000000	F
+1339275730.093403	CbvAPsDd3EpmZ2xFi	192.168.7.10	1029	4.2.2.3	53	udp	27028	apis.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	plus.l.google.com,173.194.79.102,173.194.79.113,173.194.79.138,173.194.79.139,173.194.79.100,173.194.79.101	24886.000000,7.000000,7.000000,7.000000,7.000000,7.000000,7.000000	F
+1339275730.533905	CbvAPsDd3EpmZ2xFi	192.168.7.10	1029	4.2.2.3	53	udp	63126	affiliates.mypcbackup.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.154.150.131	1800.000000	F
+1339275730.543324	CbvAPsDd3EpmZ2xFi	192.168.7.10	1029	4.2.2.3	53	udp	21143	aliasbloger.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.75.239.97	42614.000000	F
+1339275730.55637	CbvAPsDd3EpmZ2xFi	192.168.7.10	1029	4.2.2.3	53	udp	3481	www.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.171.228.74	35.000000	F
+1339275730.683697	CbvAPsDd3EpmZ2xFi	192.168.7.10	1029	4.2.2.3	53	udp	16793	static.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.dsw4.akamai.net,63.146.70.19,63.146.70.25	3485.000000,34.000000,10.000000,10.000000	F
+1339275730.966277	CbvAPsDd3EpmZ2xFi	192.168.7.10	1029	4.2.2.3	53	udp	58267	rdjsufdnc.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.157.255.148	10.000000	F
+#close	2014-04-03-09-58-10

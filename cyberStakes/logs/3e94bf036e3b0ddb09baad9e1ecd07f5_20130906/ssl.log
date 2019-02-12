@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-07-52
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1378427903.617794	C5Eiph1DvOWCBvYRY4	192.168.54.10	1041	65.18.127.140	443	TLSv10	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=*.r.worldssl.net,O=OnApp SDN.BHD.,OU=OnApp CDN,L=Kuala Lumpur,ST=Wilayah Persekutuan,C=MY	CN=GlobalSign Organization Validation CA - G2,O=GlobalSign nv-sa,C=BE	1378110246.000000	1407835389.000000	-	-	-	a99c619a42bc8474dcaf556f93e0a89e	ok
+1378427905.31824	COA36t31DozN6xmtHg	192.168.54.10	1051	74.125.224.108	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1377797879.000000	1409333879.000000	-	-	-	982bad56654c13262c1728b5ba6f3060	ok
+1378427907.886997	CLWAh77bfZTsyflra	192.168.54.10	1067	74.125.224.96	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1377796666.000000	1409332666.000000	-	-	-	9810d3ea59ecb75fbca459fa4b71e6e6	ok
+1378427908.279126	CHKNEi335oS2ty9K0j	192.168.54.10	1086	74.125.224.111	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1377799481.000000	1409335481.000000	-	-	-	f08cb6d2c0762a75f3555645470856a1	ok
+#close	2014-04-03-10-07-53

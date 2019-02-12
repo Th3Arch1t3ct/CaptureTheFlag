@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-15-19
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1355477067.737749	CQ8jyp4FtYpaevqVub	192.168.79.10	1030	62.219.2.65	80	1	GET	magicpoloplast.biz	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	10647	200	OK	-	-	-	(empty)	-	-	-	-	-	Fn5pSDR0Jg7SI09A6	text/html
+1355477068.253615	CpazvnMOxt08YrKX7	192.168.79.10	1031	62.219.2.65	80	1	GET	magicpoloplast.biz	/Silverlight.js	http://magicpoloplast.biz/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7678	200	OK	-	-	-	(empty)	-	-	-	-	-	FnCQgD32TDDHY8IGFb	text/plain
+1355477068.870049	CQ8jyp4FtYpaevqVub	192.168.79.10	1030	62.219.2.65	80	2	GET	magicpoloplast.biz	/silverlight/Priority_silverlight.js	http://magicpoloplast.biz/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	49382	200	OK	-	-	-	(empty)	-	-	-	-	-	Fwudcd4j6G6Br2q8Og	text/plain
+1355477069.635164	CQ8jyp4FtYpaevqVub	192.168.79.10	1030	62.219.2.65	80	3	GET	magicpoloplast.biz	/silverlight/Pri15_Logo.jpg	http://magicpoloplast.biz/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	20633	200	OK	-	-	-	(empty)	-	-	-	-	-	FskAVH3MH4wO69VEp6	image/jpeg
+1355477069.634784	CpazvnMOxt08YrKX7	192.168.79.10	1031	62.219.2.65	80	2	GET	magicpoloplast.biz	/Silverlight/button214.jpg	http://magicpoloplast.biz/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	14121	200	OK	-	-	-	(empty)	-	-	-	-	-	FVnWlO3FrJPv4Xht41	image/jpeg
+1355477069.882633	CQ8jyp4FtYpaevqVub	192.168.79.10	1030	62.219.2.65	80	4	GET	magicpoloplast.biz	/silverlight/installsl-heb.png	http://magicpoloplast.biz/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	16603	200	OK	-	-	-	(empty)	-	-	-	-	-	FXAeO1SEgZnqsXgKf	image/png
+1355477070.120064	CpazvnMOxt08YrKX7	192.168.79.10	1031	62.219.2.65	80	3	GET	magicpoloplast.biz	/Silverlight/button217.jpg	http://magicpoloplast.biz/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	14285	200	OK	-	-	-	(empty)	-	-	-	-	-	FSPxpd3TjvfRGnLgra	image/jpeg
+1355477070.121938	CQ8jyp4FtYpaevqVub	192.168.79.10	1030	62.219.2.65	80	5	GET	magicpoloplast.biz	/Silverlight/button218.jpg	http://magicpoloplast.biz/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13658	200	OK	-	-	-	(empty)	-	-	-	-	-	FGiWjR37e5HrCLKUO9	image/jpeg
+1355477070.30734	CpazvnMOxt08YrKX7	192.168.79.10	1031	62.219.2.65	80	4	GET	magicpoloplast.biz	/silverlight/Silverlight-Logo64.png	http://magicpoloplast.biz/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	8523	200	OK	-	-	-	(empty)	-	-	-	-	-	F3vx3D3rbrQTRdWUm2	image/png
+1355477070.6621	C0n22t2PEN5gPXRuKh	192.168.79.10	1036	208.46.17.155	80	1	GET	go2.microsoft.com	/fwlink/?LinkID=149156&v=4.0	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	191	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	FQMgWd2OagmGv6o3p9	text/html
+1355477070.817159	Cl0BSK1whOjCuql68h	192.168.79.10	1037	65.55.57.27	80	1	GET	www.microsoft.com	/getsilverlight/handlers/getsilverlight.ashx?v=4.0	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	162	302	Found	-	-	-	(empty)	-	-	-	-	-	F0HamN1UeiDJqBkntd	text/html
+1355477070.963113	CGYaAA1TJpOCeMs7D2	192.168.79.10	1038	65.55.58.195	80	1	GET	go.microsoft.com	/fwlink/?LinkID=185927	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	244	302	Found	-	-	-	(empty)	-	-	-	-	-	F0r89no3jQ6d6CyS4	text/html
+1355477071.352723	CbfzuD2VWPTUd6txn7	192.168.79.10	1039	65.112.54.67	80	1	GET	silverlight.dlservice.microsoft.com	/download/6/A/1/6A13C54D-3F35-4082-977A-27F30ECE0F34/10329.00/runtime/Silverlight.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	139899	200	OK	-	-	-	(empty)	-	-	-	-	-	F9jZeU3xsfBBN9Hkbb	application/x-dosexec
+#close	2014-04-03-11-15-19

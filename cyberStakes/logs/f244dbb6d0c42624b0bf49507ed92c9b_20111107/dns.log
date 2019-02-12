@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-02-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1320651398.3018	CJNz2q2qAa8tK29m47	192.168.27.10	1029	4.2.2.3	53	udp	60817	changeofseasonnyc.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.96.160.157	3576.000000	F
+1320651399.127225	CJNz2q2qAa8tK29m47	192.168.27.10	1029	4.2.2.3	53	udp	39313	adv.co.at.vc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.201.34	3600.000000	F
+1320651399.901014	CJNz2q2qAa8tK29m47	192.168.27.10	1029	4.2.2.3	53	udp	19859	t00.us.mn	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.228.132.52	3600.000000	F
+1320651452.817248	Cs6zhN1dovMxf0zTJg	192.168.27.10	1029	4.2.2.3	53	udp	6291	thegreatgrub.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.44.184.241	600.000000	F
+1320651454.163619	Cs6zhN1dovMxf0zTJg	192.168.27.10	1029	4.2.2.3	53	udp	31122	quick-169404.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	141.136.16.34	600.000000	F
+1320651461.929213	Cs6zhN1dovMxf0zTJg	192.168.27.10	1029	4.2.2.3	53	udp	36501	yorkspogreat.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.247.232.73	600.000000	F
+#close	2014-04-03-10-02-36

@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-42-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1339804758.181979	CtDrVj2dQ3BFbj4zAg	192.168.111.10	1029	4.2.2.3	53	udp	8845	sexystat.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.168.187.94	3573.000000	F
+1339804758.428093	CtDrVj2dQ3BFbj4zAg	192.168.111.10	1029	4.2.2.3	53	udp	37773	spodlfg34.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.168.187.97	1800.000000	F
+1339804764.580169	CtDrVj2dQ3BFbj4zAg	192.168.111.10	1029	4.2.2.3	53	udp	40846	vemixservb15.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	176.9.171.220	3600.000000	F
+1339804794.667142	C3nUlxQdDIt3iHCha	192.168.111.10	1029	4.2.2.3	53	udp	11663	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.45.103,74.125.45.104,74.125.45.105,74.125.45.106,74.125.45.147,74.125.45.99	13522.000000,166.000000,166.000000,166.000000,166.000000,166.000000,166.000000	F
+1339804794.685063	C28TvD1t0r6y6kljNj	192.168.111.10	1039	4.2.2.3	53	udp	59279	vemixservb93.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	176.9.171.220	3600.000000	F
+#close	2014-04-03-10-42-46

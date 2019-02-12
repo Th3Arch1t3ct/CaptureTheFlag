@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-09-56-34
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1334452965.10801	F3DENE3JmVZfdEMrYk	37.26.106.43	192.168.44.10	CTO6q71267LKui9jY1	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	102	102	0	0	F	-	afea531decc8833cb26d441acba42805	f4cd4acb5607bf402ac6e8654aada1b3069fc030	-	-
+1334452965.705346	FAXCnM1jjhVWxvwLNl	65.77.129.14	192.168.44.10	CPCcV52rbxvq2ydEhj	HTTP	0	SHA1,MD5	text/html	-	0.621426	-	F	22235	-	0	0	F	-	0e6d7229bd3b5e24efe81967a383c1f1	1b3e0cf7b264e7fb0375051be7f6d12f0a6ff163	-	-
+1334452967.798741	FKI5ol4vCBL9wAWGbf	65.77.129.14	192.168.44.10	CdSNUp2MVO7ucEDEV9	HTTP	0	SHA1,MD5	application/x-dosexec	about.exe	2.491174	-	F	300032	300032	0	0	F	-	34e7ff95af8d01b917c4ba0dc3b0c196	d948e94d2a0dee0f05609853fd587c260253451d	-	-
+1334452970.69607	F54OEw28bmwqvtm3md	65.77.129.14	192.168.44.10	CGadS745B98QyS2UMf	HTTP	0	SHA1,MD5	application/pdf	61a74.pdf	0.172823	-	F	21961	21961	0	0	F	-	82f5d8d46fe37975960ddb19ea501ace	026445f1ace5af0b80b54e940e63a2fa21cf7472	-	-
+1334452971.221614	FY2a2L2JIJJlR2AOAj	65.77.129.14	192.168.44.10	ClkD4S3YcaH49jmHC5	HTTP	0	SHA1,MD5	application/zip	-	0.371228	-	F	15719	15719	0	0	F	-	26720f0252eb91bb7a326375313651f9	0c6d2c2656c08d71969e495b3645332096b229e1	-	-
+1334452973.187587	FQG4YCtSn4wQqFqSj	65.77.129.14	192.168.44.10	CnEz6GXiN0z8Okz5i	HTTP	0	SHA1,MD5	application/x-dosexec	about.exe	1.865573	-	F	300032	300032	0	0	F	-	34e7ff95af8d01b917c4ba0dc3b0c196	d948e94d2a0dee0f05609853fd587c260253451d	-	-
+1334452985.707457	FOD44M15EUomxpncUi	65.77.129.14	192.168.44.10	CugMNk3c4zYfTvcY93	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	509	509	0	0	F	-	7923f9d5ef57ab249c3d36cd8b4a34df	036315f80e9a9feaa4cdaadc805496974e5c913c	-	-
+1334452986.79088	FM9urO2TQtafmMvGZc	65.77.129.14	192.168.44.10	CidVYa11LfaRSk2Ke9	HTTP	0	SHA1,MD5	application/x-shockwave-flash	-	0.000000	-	F	1499	1499	0	0	F	-	bc59f307b33315848d83e907b69c18c4	d6aa7a1009c86a0fa55f74ecdd04dee1d6000730	-	-
+#close	2014-04-03-09-56-34

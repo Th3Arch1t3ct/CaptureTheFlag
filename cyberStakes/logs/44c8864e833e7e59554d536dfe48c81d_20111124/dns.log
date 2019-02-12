@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-54-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1322179133.769429	CYS0bXaf1mJ8rYen5	192.168.105.10	1029	4.2.2.3	53	udp	52623	thenxt.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.222.43.214	14377.000000	F
+1322179134.39055	CYS0bXaf1mJ8rYen5	192.168.105.10	1029	4.2.2.3	53	udp	47759	ok56gpnu99o.ce.ms	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.223.89.92	43200.000000	F
+1322179134.709972	CYS0bXaf1mJ8rYen5	192.168.105.10	1029	4.2.2.3	53	udp	11917	mooohttpc12.mooo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.89.199	3600.000000	F
+1322179151.501998	CsZVaE1P5phF5SLka7	192.168.105.10	1029	4.2.2.3	53	udp	50061	getmilfs.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.202.163.8	3600.000000	F
+1322179153.856741	CsZVaE1P5phF5SLka7	192.168.105.10	1029	4.2.2.3	53	udp	20875	oneathleticmom.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	72.167.207.74	3600.000000	F
+#close	2014-04-03-10-54-10

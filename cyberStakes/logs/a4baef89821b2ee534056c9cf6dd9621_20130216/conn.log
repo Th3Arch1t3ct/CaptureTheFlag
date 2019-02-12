@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-04-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1361018634.827262	C3wz2e4jZuC2LK1Dje	192.168.40.10	1029	4.2.2.3	53	udp	dns	10.043797	73	105	SF	-	0	Dd	2	129	2	161	(empty)
+1361018645.354577	CPhEZ31ycG6NQQsPta	192.168.40.10	1038	188.40.221.155	80	tcp	-	0.112852	0	0	RSTO	-	0	ShR	2	88	1	48	(empty)
+1361018635.848987	Cd2ygr1XbUbAeQrDf1	192.168.40.10	1031	188.40.221.155	80	tcp	http	9.590427	10158	667740	RSTO	-	0	ShADadR	355	24534	510	688148	(empty)
+1361018645.362847	CAxLLFi3ZqN83zlE8	192.168.40.10	1040	188.40.221.155	80	tcp	http	1.564087	3535	1260	S1	-	0	ShADad	13	4063	11	1708	(empty)
+1361018645.368525	ChkF6H4j3duplnIEh	192.168.40.10	1041	188.40.221.155	80	tcp	http	0.983266	1981	700	RSTO	-	0	ShADadR	10	2389	7	988	(empty)
+1361018634.946307	CuJEmf4VN119Wicpl1	192.168.40.10	1030	188.40.221.155	80	tcp	http	10.494376	11627	865810	RSTO	-	0	ShADadR	464	30483	663	892338	(empty)
+1361018645.357149	C62s851ILM0YKmKRK8	192.168.40.10	1039	188.40.221.155	80	tcp	-	0.113282	0	0	RSTO	-	0	ShR	2	88	1	48	(empty)
+1361018644.985482	CCIC9t1zSK2W81tzo1	192.168.40.10	1036	195.22.25.155	80	tcp	http	0.355065	366	11680	RSTO	-	0	ShADadR	11	814	10	12088	(empty)
+1361018646.246738	CAgBEz2UAdBx2gx0zh	192.168.40.10	1042	188.40.221.155	80	tcp	http	0.680302	1183	420	S1	-	0	ShADad	6	1431	5	628	(empty)
+1361018645.350626	C7Nwuu1gIpsK6FeBza	192.168.40.10	1037	188.40.221.155	80	tcp	-	0.110547	0	0	RSTO	-	0	ShR	2	88	1	48	(empty)
+1361018619.053547	C726Sy4JxNKjiqCfqe	192.168.40.10	68	192.168.40.1	67	udp	dhcp	12.531225	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1361018619.052922	CsyUHx4Zv7xw5mDUNf	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.001005	626	0	S0	-	0	D	2	682	0	0	(empty)
+1361018637.128949	CK2mps1rLXh9C6D5v1	192.168.40.10	1034	239.255.255.250	1900	udp	-	6.143723	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-10-04-31

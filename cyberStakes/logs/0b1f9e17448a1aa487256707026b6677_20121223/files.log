@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-10-49
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1356291038.592824	FeA0hP1zjFVTXY6S57	195.66.79.29	192.168.2.10	Cx5SFT2X082PrQblnc	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	2891	-	0	0	F	-	d55820c4ba1ada1fb2f9df60318b2cba	565181f3c940e7b9ae78bdb88a807b0eee61a5de	-	-
+1356291038.730927	FhBk29jrOd1XWelVf	195.66.79.29	192.168.2.10	Cx5SFT2X082PrQblnc	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	1502	1502	0	0	F	-	0d4e40e4bddabc987e8c43792e3a886b	fd9c96db0e67ac48c019b05c9d6fdce273f3df57	-	-
+1356291038.854848	F80U3J1nfv5JlJAx62	195.66.79.29	192.168.2.10	CKvwWe4bDv2NU6jzHi	HTTP	0	SHA1,MD5	text/plain	-	0.639918	-	F	93434	93434	0	0	F	-	1d14cd3798bc4d6aaf65dd625870723f	0809f9f5caa2642b9dea8bf59133180bfd7c1d6f	-	-
+1356291039.684477	FDllG01wIqTcfgj7i3	195.66.79.29	192.168.2.10	Cx5SFT2X082PrQblnc	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	1941	1941	0	0	F	-	3291194034b434bb51afaa5aabd2313a	ee31f8edef296efe486218e3b434e816612ef848	-	-
+1356291039.815846	Fx2lqqY5DNwPzD2ak	195.66.79.29	192.168.2.10	CKvwWe4bDv2NU6jzHi	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	1194	1194	0	0	F	-	0ac1f6392239931218e3515616506fe5	9b6de38a5fac5ef787623cd5fd14e60130076ea7	-	-
+1356291039.976168	F9BuWa3Hjs76eB5D3k	195.66.79.29	192.168.2.10	Cx5SFT2X082PrQblnc	HTTP	0	SHA1,MD5	text/plain	-	0.271225	-	F	16372	16372	0	0	F	-	d536e96918b5c88edf4d54982c77503b	485badbe98a0140c4621cc6cf17803ec541ff818	-	-
+1356291040.55386	FGsuM53Yhfusmd3x4g	195.66.79.29	192.168.2.10	CKvwWe4bDv2NU6jzHi	HTTP	0	SHA1,MD5	image/gif	-	0.001756	-	F	8392	8392	0	0	F	-	25c59b44491c470dbb37a2758e3a3d45	ba40fb935cc9016b10b82215fc58563b76fa6da9	-	-
+1356291040.539317	FlZePA7WytMtvuFO5	72.8.141.92	192.168.2.10	CHpYXW3KSfm3gbjrh1	HTTP	0	SHA1,MD5	text/plain	-	0.114520	-	F	21548	21548	0	0	F	-	71fc848887b176debd9a8ebb7c83e7cb	26e9e0e4bbb5a548a471cb8de6b77439ed687ca9	-	-
+1356291040.878615	Fd4NUT3oE87MGY92Cl	72.8.141.92	192.168.2.10	CHpYXW3KSfm3gbjrh1	HTTP	0	SHA1,MD5	image/gif	-	0.000000	-	F	43	-	0	0	F	-	df3e567d6f16d040326c7a0ea29a4f41	ea7df583983133b62712b5e73bffbcd45cc53736	-	-
+1356291041.588401	F6ZyKk3bT7hgvAG6M9	72.8.141.92	192.168.2.10	CaMaKd2n33rKtGaTea	HTTP	0	SHA1,MD5	image/gif	-	0.000000	-	F	43	43	0	0	F	-	325472601571f31e1bf00674c368d335	2daeaa8b5f19f0bc209d976c02bd6acb51b00b0a	-	-
+1356291050.096816	FfmCUT28NIHzrrlcLl	195.66.79.29	192.168.2.10	Cx5SFT2X082PrQblnc	HTTP	0	SHA1,MD5	application/x-dosexec	Downloader.exe	0.021362	-	F	4013	3018696	0	0	F	-	e0d6fb733e79d4f7f2239cfdb4c9ffa4	c03897edb63c7079b31aa3e08316dfb7640f1eab	-	-
+#close	2014-04-03-10-10-49

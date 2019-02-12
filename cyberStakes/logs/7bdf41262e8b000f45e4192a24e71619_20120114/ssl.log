@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-09-53-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1326582635.176949	CX69pa4FtaUoNvmRh	192.168.26.10	1073	74.125.229.207	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1325788334.000000	1357411334.000000	-	-	-	c7453080a65ff6ba783bbbbbb4974cb4	ok
+1326582635.471297	CXljhspZJAry9lHWf	192.168.26.10	1077	74.125.229.175	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1325788334.000000	1357411334.000000	-	-	-	c7453080a65ff6ba783bbbbbb4974cb4	ok
+1326582684.317382	CmDmQ42yCxn9Jr0YVf	192.168.26.10	1093	212.48.121.167	25456	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	OU=IRCd,O=IRC geeks,ST=New York,C=US	OU=IRCd,O=IRC geeks,ST=New York,C=US	1319837209.000000	1351373209.000000	no_certificate	-	-	7590b19c8dee967593eeeeeeeeec70de	self signed certificate
+#close	2014-04-03-09-53-50

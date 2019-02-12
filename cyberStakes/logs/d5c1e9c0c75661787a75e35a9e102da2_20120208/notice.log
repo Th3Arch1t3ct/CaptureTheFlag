@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-00-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1328737991.517416	C2hgXA2KqlOdztZE4i	192.168.16.10	1041	178.162.184.176	80	FmaXax3FjUxoqXdxHl	application/pdf	http://www.arcot.be/bognxvawdteqfsx.pdf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2012-02-27 22:38:38	https://www.virustotal.com/en/search/?query=64c9769f52f8b7b9f808d779d67a81a84d7d2417	192.168.16.10	178.162.184.176	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328738020.599689	CIGJHi2Y344ONDQXNc	192.168.16.10	1049	178.162.184.176	80	Fccd1q2H5yDrUTFcU9	application/jar	http://www.arcot.be/ktdmxphvaujn.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 60%  Last seen: 2012-04-01 10:27:21	https://www.virustotal.com/en/search/?query=5fb9daad45ca1187bdaaf8eef0da0a3c5d2848d2	192.168.16.10	178.162.184.176	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328738020.90094	Cj4vUE2ercUz5yiXIh	192.168.16.10	1066	178.162.184.176	80	FtjHa2pJq9lCdcyIb	application/jar	http://www.arcot.be/klfqxmftcwgny.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 67%  Last seen: 2012-04-01 12:20:51	https://www.virustotal.com/en/search/?query=e03749957b7749c2e5a9263153f6058fe9c387e3	192.168.16.10	178.162.184.176	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328738021.615512	CVeedfO10aw9HLp37	192.168.16.10	1063	178.162.184.176	80	FRqSRp3XTrtJbfVSPi	application/pdf	http://www.arcot.be/etcwcujocsjla.pdf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 39%  Last seen: 2012-02-20 22:31:08	https://www.virustotal.com/en/search/?query=33235650f50d50e09f71c91dfc3cf761ffaf11f9	192.168.16.10	178.162.184.176	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-01-00

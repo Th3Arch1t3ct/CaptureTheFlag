@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-31-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1325715492.681419	CfxBN11d69UHvkTaU	192.168.36.10	1029	4.2.2.3	53	udp	50572	wd40.pt	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.10.156.122	43180.000000	F
+1325715493.498672	CfxBN11d69UHvkTaU	192.168.36.10	1029	4.2.2.3	53	udp	35468	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.65.102,74.125.65.113,74.125.65.138,74.125.65.139,74.125.65.100,74.125.65.101	23931.000000,110.000000,110.000000,110.000000,110.000000,110.000000,110.000000	F
+1325715500.376588	CfxBN11d69UHvkTaU	192.168.36.10	1029	4.2.2.3	53	udp	46220	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.65.95	3020.000000,15.000000	F
+1325715504.140223	CfxBN11d69UHvkTaU	192.168.36.10	1029	4.2.2.3	53	udp	55438	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,23.33.186.41,23.33.186.18	13405.000000,227.000000,4187.000000,16.000000,16.000000	F
+1325715504.523078	CfxBN11d69UHvkTaU	192.168.36.10	1029	4.2.2.3	53	udp	40073	www.turntool.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.195.177.94	43200.000000	F
+1325715507.523717	CfxBN11d69UHvkTaU	192.168.36.10	1029	4.2.2.3	53	udp	64904	crl.thawte.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.51.190	319.000000,1.000000	F
+1325715509.618869	CfxBN11d69UHvkTaU	192.168.36.10	1029	4.2.2.3	53	udp	27531	www.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.171.229.14	28.000000	F
+1325715513.273017	CfxBN11d69UHvkTaU	192.168.36.10	1029	4.2.2.3	53	udp	13963	b.static.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.g.akamai.net,23.33.186.19,23.33.186.35,23.33.186.43,23.33.186.48,23.33.186.51,23.33.186.72,23.33.186.90,23.33.186.16	1440.000000,2330.000000,18.000000,18.000000,18.000000,18.000000,18.000000,18.000000,18.000000,18.000000	F
+1325715513.27556	CVqTHF3LzspNsloKtl	192.168.36.10	1046	4.2.2.3	53	udp	17546	static.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.g.akamai.net,23.33.186.16,23.33.186.19,23.33.186.35,23.33.186.43,23.33.186.48,23.33.186.51,23.33.186.72,23.33.186.90	2365.000000,2330.000000,18.000000,18.000000,18.000000,18.000000,18.000000,18.000000,18.000000,18.000000	F
+#close	2014-04-03-10-31-10

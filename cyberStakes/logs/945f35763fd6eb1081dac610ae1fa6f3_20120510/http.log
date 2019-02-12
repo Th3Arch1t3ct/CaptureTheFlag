@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-00-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1336638645.716694	C3JtMS2xAeyEGmhnPk	192.168.6.10	1030	66.7.221.143	80	1	GET	forsakenplaces.co.uk	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	9860	200	OK	-	-	-	(empty)	-	-	-	-	-	FOUKps2d8W07Q3IqIg	text/html
+1336638645.975587	C25vmi1IV2kR3F3m1b	192.168.6.10	1034	69.65.43.176	80	1	GET	cb.amazingcounters.com	/counter.php?i=2471646&c=7415251	http://forsakenplaces.co.uk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2026	200	OK	-	-	-	(empty)	-	-	-	-	-	FMoXtIu9dAtXfAXoi	image/png
+1336638645.975356	CJyQJd3slRZaiVwwn2	192.168.6.10	1032	98.124.198.1	80	1	GET	webordermanager.com	/	http://forsakenplaces.co.uk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	182	302	Object moved	-	-	-	(empty)	-	-	-	-	-	FKbJTK2D2zNoGo7VK6	text/html
+1336638645.99231	CBoCfZcTcr6t4rkY8	192.168.6.10	1035	174.35.32.99	80	1	GET	www.statcounter.com	/counter/counter.js	http://forsakenplaces.co.uk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	9068	200	OK	-	-	-	(empty)	-	-	-	-	-	FUrvOE4PUDTlPrSQn8	text/plain
+1336638645.762037	CKnkEi1pi8u48xhVg2	192.168.6.10	1031	66.7.221.143	80	1	GET	forsakenplaces.co.uk	/Urbexreports/bg2.jpg	http://forsakenplaces.co.uk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	326941	200	OK	-	-	-	(empty)	-	-	-	-	-	Fye1Sv4kqzoGeiUBKf	image/jpeg
+1336638645.974437	ClwQIb3W6NpZNSBgTk	192.168.6.10	1033	66.7.221.143	80	1	GET	forsakenplaces.co.uk	/forsakenbannerbucket.jpg	http://forsakenplaces.co.uk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	62870	200	OK	-	-	-	(empty)	-	-	-	-	-	FsSQ9c1vkBjho0NGe6	image/jpeg
+1336638646.217454	CGlZvm4nGlK4qP0Qnf	192.168.6.10	1039	216.59.38.123	80	1	GET	c.statcounter.com	/t.php?sc_project=4494253&resolution=800&h=600&camefrom=&u=http://forsakenplaces.co.uk/&t=Forsaken Places&java=1&security=b4f4b354&sc_random=0.09847202654278925&sc_snum=1&p=0&invisible=1	http://forsakenplaces.co.uk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	49	200	OK	-	-	-	(empty)	-	-	-	-	-	FRd2Q12CLE6zcWUZZ5	image/gif
+1336638646.209018	Cwu7M24haPIIp0vj8b	192.168.6.10	1037	66.7.221.143	80	1	GET	forsakenplaces.co.uk	/new22.gif	http://forsakenplaces.co.uk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1319	200	OK	-	-	-	(empty)	-	-	-	-	-	FnaSZX34zGLUdQlWi3	image/gif
+1336638646.21417	CNUmjXXSVewkJzLS7	192.168.6.10	1038	66.7.221.143	80	1	GET	forsakenplaces.co.uk	/RIPDF.jpg	http://forsakenplaces.co.uk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	65109	200	OK	-	-	-	(empty)	-	-	-	-	-	FfAucgzMsHtOFsAFg	image/jpeg
+1336638646.21392	C0M9034JgwgE9qsv29	192.168.6.10	1036	83.69.226.72	80	1	GET	thesavvymillionaire.com	/main.php?page=5e0cdb0ca7f86ed0	http://forsakenplaces.co.uk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	21408	200	OK	-	-	-	(empty)	-	-	-	-	-	FuUF6E3vDdyIUydEIb	binary
+1336638648.466938	CnBDq8yRYohpOFFJ7	192.168.6.10	1044	83.69.226.72	80	1	GET	thesavvymillionaire.com	/Cal.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	20087	200	OK	-	-	-	(empty)	-	-	-	-	-	FIXOoM2E3eALLt3pml	application/zip
+1336638649.611105	Ci3ZZn49qrehTaiO36	192.168.6.10	1045	83.69.226.72	80	1	GET	thesavvymillionaire.com	/w.php?f=97d19&e=0	-	Java/1.6.0_10	0	67072	200	OK	-	-	-	(empty)	-	-	-	-	-	FophiK2WmlWf56Dt89	application/x-dosexec
+1336638671.188867	CvGtHv4lxmtCIoj5f	192.168.6.10	1046	91.229.91.73	80	1	POST	palktikaljob.ru	/mtm/in/	-	Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)	109	302199	200	OK	-	-	-	(empty)	-	-	-	Fcuajen4T7lfTEf46	binary	FB963N1sETcgRJHMD4	binary
+#close	2014-04-03-11-00-39

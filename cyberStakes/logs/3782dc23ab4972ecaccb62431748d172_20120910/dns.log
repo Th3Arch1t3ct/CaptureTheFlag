@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-14-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1347245940.489046	CgXamm4M6N1EktjOh2	192.168.23.10	1029	4.2.2.3	53	udp	2443	kvihosting.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.109.205.138	7175.000000	F
+1347245940.700626	CgXamm4M6N1EktjOh2	192.168.23.10	1029	4.2.2.3	53	udp	52107	www.paypal.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.paypal.com.akadns.net,wlb.paypal.com.akadns.net,www.paypal.com.edgekey.net,e6166.b.akamaiedge.net,23.4.34.234	251.000000,0.000000,0.000000,570.000000,20.000000	F
+1347245941.140564	CgXamm4M6N1EktjOh2	192.168.23.10	1029	4.2.2.3	53	udp	58763	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,204.93.63.67,204.93.63.34	3171.000000,155.000000,4076.000000,20.000000,20.000000	F
+#close	2014-04-03-11-14-58

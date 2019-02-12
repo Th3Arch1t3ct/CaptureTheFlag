@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-42-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1359240331.572043	C0ty4k3SVHBf0iZKS5	192.168.76.10	1029	4.2.2.3	53	udp	44435	nightpartyrentals.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.139.135.21,98.139.135.22	1200.000000,1200.000000	F
+1359240331.909865	C0ty4k3SVHBf0iZKS5	192.168.76.10	1029	4.2.2.3	53	udp	23697	customburton.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.139.135.22,98.139.135.21	1200.000000,1200.000000	F
+1359240332.043805	C0ty4k3SVHBf0iZKS5	192.168.76.10	1029	4.2.2.3	53	udp	43670	l.yimg.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fd-geoycs-l.gy1.b.yahoodns.net,ds-geoycs-l.gy1.b.yahoodns.net,ds-fo-anyycs-l.ay1.b.yahoodns.net,98.137.80.32,98.137.80.33,206.190.56.190,98.137.80.31,206.190.56.191,98.137.80.34,98.137.80.50,98.137.80.49	848.000000,53.000000,3052.000000,35.000000,35.000000,35.000000,35.000000,35.000000,35.000000,35.000000,35.000000	F
+1359240332.138563	C0ty4k3SVHBf0iZKS5	192.168.76.10	1029	4.2.2.3	53	udp	28823	visit.webhosting.yahoo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pvisit1.geo.vip.bf1.yahoo.com,98.139.206.151	300.000000,1178.000000	F
+1359240335.26997	C0ty4k3SVHBf0iZKS5	192.168.76.10	1029	4.2.2.3	53	udp	41623	22.135.139.98.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	sbsfe-b.geo.vip.bf1.yahoo.com	1800.000000	F
+1359240335.486284	C0ty4k3SVHBf0iZKS5	192.168.76.10	1029	4.2.2.3	53	udp	61589	sbsfe-b.geo.vip.bf1.yahoo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.139.135.22	1800.000000	F
+#close	2014-04-03-10-42-09

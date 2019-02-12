@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-43-03
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1354054520.323093	CUJJ0Z3vOU0ekOhnyj	192.168.41.10	1042	37.143.9.50	80	F2BJmW0GlEhtWhq82	application/x-shockwave-flash	http://jgu777ygi.c8.biz/links/buffer_recall_bothers.php?gawaned=1f:31:1n:1l:32&ane=3f:31:3m:2w&dont=1m:31:33:30:1h:1j:1o:1o:1j:1m&wwthac=jqbefhm	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2012-12-09 22:31:02	https://www.virustotal.com/en/search/?query=73d118bed01f76d0c241d5036f39e3de1d8f9456	192.168.41.10	37.143.9.50	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-43-03

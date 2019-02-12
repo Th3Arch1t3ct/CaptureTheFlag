@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-37-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1317604576.465086	CdXYDm4l4vTnySrihf	192.168.128.10	1029	4.2.2.3	53	udp	56970	amadeusfunding.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.154.38.234	14374.000000	F
+1317604581.935515	CdXYDm4l4vTnySrihf	192.168.128.10	1029	4.2.2.3	53	udp	31882	www.amadeusfunding.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	amadeusfunding.com,184.154.38.234	14374.000000,14369.000000	F
+1317604584.601937	CdXYDm4l4vTnySrihf	192.168.128.10	1029	4.2.2.3	53	udp	11403	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.229.192,74.125.229.193,74.125.229.194,74.125.229.195,74.125.229.196,74.125.229.197,74.125.229.198,74.125.229.199,74.125.229.200,74.125.229.201,74.125.229.202,74.125.229.203,74.125.229.204,74.125.229.205,74.125.229.206,74.125.229.207	19695.000000,80.000000,80.000000,80.000000,80.000000,80.000000,80.000000,80.000000,80.000000,80.000000,80.000000,80.000000,80.000000,80.000000,80.000000,80.000000,80.000000	F
+1317604584.693774	CdXYDm4l4vTnySrihf	192.168.128.10	1029	4.2.2.3	53	udp	32649	www.twitter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	twitter.com,199.59.148.10,199.59.149.198,199.59.149.230	536.000000,5.000000,5.000000,5.000000	F
+1317604586.422343	CdXYDm4l4vTnySrihf	192.168.128.10	1029	4.2.2.3	53	udp	53902	tuge.myz.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.66.209	31.000000	F
+1317604591.488803	CdXYDm4l4vTnySrihf	192.168.128.10	1029	4.2.2.3	53	udp	26511	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	1465.000000,49.000000	F
+1317604592.710265	CdXYDm4l4vTnySrihf	192.168.128.10	1029	4.2.2.3	53	udp	6287	adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.150.16.117	3515.000000	F
+#close	2014-04-03-10-37-12

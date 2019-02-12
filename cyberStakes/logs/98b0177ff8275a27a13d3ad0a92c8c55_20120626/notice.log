@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-09-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1340731122.140274	CyLYsp2yWxVytzp5S8	192.168.23.10	1040	194.50.116.64	80	FycC1Q96sMO3Ujsfl	application/x-dosexec	http://flyhighhavefun.com/l/r.php?f=182b5&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 28%  Last seen: 2012-06-28 10:16:00	https://www.virustotal.com/en/search/?query=4457079da26241cb87919dcb0075309a66347b95	192.168.23.10	194.50.116.64	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1340731122.392697	CyLYsp2yWxVytzp5S8	192.168.23.10	1040	194.50.116.64	80	FylOLs3OjXZjfqkwx9	application/x-dosexec	http://flyhighhavefun.com/l/r.php?f=96ece&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 21%  Last seen: 2012-06-27 11:57:47	https://www.virustotal.com/en/search/?query=29af99dece5c37437bedde147c91e3c9c0b6c0e6	192.168.23.10	194.50.116.64	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1340731127.524985	CJHflQ6wDKk2caCD8	192.168.23.10	1048	194.50.116.64	80	FqhMZx35rJUpiYNayd	application/x-shockwave-flash	http://flyhighhavefun.com/l/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 75%  Last seen: 2012-09-14 14:05:04	https://www.virustotal.com/en/search/?query=27474f210893b69a5204dcafb6d9fc12b743dc1f	192.168.23.10	194.50.116.64	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1340731145.792043	CyLYsp2yWxVytzp5S8	192.168.23.10	1040	194.50.116.64	80	F2yhpn1o6zdTH7XiKg	application/x-dosexec	http://flyhighhavefun.com/l/r.php?f=182b5&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 28%  Last seen: 2012-06-28 10:16:00	https://www.virustotal.com/en/search/?query=4457079da26241cb87919dcb0075309a66347b95	192.168.23.10	194.50.116.64	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1340731158.923881	CyLYsp2yWxVytzp5S8	192.168.23.10	1040	194.50.116.64	80	FFNSPPRH7igqHA1K7	application/x-dosexec	http://flyhighhavefun.com/l/r.php?f=96ece&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 21%  Last seen: 2012-06-27 11:57:47	https://www.virustotal.com/en/search/?query=29af99dece5c37437bedde147c91e3c9c0b6c0e6	192.168.23.10	194.50.116.64	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-09-27

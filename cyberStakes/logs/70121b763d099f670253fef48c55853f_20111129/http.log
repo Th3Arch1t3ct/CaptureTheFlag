@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-56-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1322608049.100062	CRSJZl3afAOjgsgeDj	192.168.104.10	1030	205.178.132.70	80	1	GET	bvstbernard.org	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6137	200	OK	-	-	-	(empty)	-	-	-	-	-	FIjLVSRQaNws1qf9h	text/html
+1322608049.45936	CZNzUolQhtWPs9aJ5	192.168.104.10	1031	91.230.111.41	80	1	GET	a.doubleadserver.com	/?campaignid=135324812&type=tracking	http://bvstbernard.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	240294	200	OK	-	-	-	(empty)	-	-	-	-	-	FscYuA4fgDlTLXvwIg	text/plain
+1322608082.39462	CIlJKD43d7Niq5aJBe	192.168.104.10	1036	91.230.111.41	80	1	GET	a.doubleadserver.com	/counterjs.php?id=135324812	http://bvstbernard.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1322608082.552942	CzTRTv1hx9sJ0nJQv	192.168.104.10	1039	206.72.124.36	80	1	GET	www.mychurchevents.com	/calendar/views/listview.aspx?ci=L6F0N8I3F0K5O9L6I3&list_by=dayspan&DayCount=7&select_by=all_interest_groups&igd=	http://bvstbernard.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	39209	200	OK	-	-	-	(empty)	-	-	-	-	-	FN1mQu4FK4nnrfuag5	text/html
+1322608082.685446	CzTRTv1hx9sJ0nJQv	192.168.104.10	1039	206.72.124.36	80	2	GET	www.mychurchevents.com	/Calendar/images/spacer.gif	http://www.mychurchevents.com/calendar/views/listview.aspx?ci=L6F0N8I3F0K5O9L6I3&list_by=dayspan&DayCount=7&select_by=all_interest_groups&igd=	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	43	200	OK	-	-	-	(empty)	-	-	-	-	-	FyczfB43b9tfGhbz62	image/gif
+1322608082.394308	Cwg0op3R3wRPEonEnk	192.168.104.10	1038	205.178.132.70	80	1	GET	bvstbernard.org	/images/Picture2.png	http://bvstbernard.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	141755	200	OK	-	-	-	(empty)	-	-	-	-	-	FuHAo31RYxyyLJpUe	image/png
+1322608082.411426	CLSARF1uKgCBwBtzt6	192.168.104.10	1037	188.247.232.181	80	1	GET	188.247.232.181	/main.php?page=bef408d29cc74f3c	http://bvstbernard.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	130879	200	OK	-	-	-	(empty)	-	-	-	-	-	FhFYCi3nuwQrMQmDU7	text/html
+1322608090.716156	CLSARF1uKgCBwBtzt6	192.168.104.10	1037	188.247.232.181	80	2	GET	188.247.232.181	/w.php?f=19&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	489472	200	OK	-	-	-	(empty)	-	-	-	-	-	Fv5Sb31kP4yYKOxjd5	application/x-dosexec
+1322608092.486527	CLSARF1uKgCBwBtzt6	192.168.104.10	1037	188.247.232.181	80	3	GET	188.247.232.181	/content/2ddfp.php?f=19	http://188.247.232.181/main.php?page=bef408d29cc74f3c	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	52133	200	OK	-	-	-	(empty)	-	-	-	-	-	FYJUEy4inEjEi2mwMj	application/pdf
+1322608094.016383	CLSARF1uKgCBwBtzt6	192.168.104.10	1037	188.247.232.181	80	4	GET	188.247.232.181	/content/field.swf	http://bvstbernard.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1379	200	OK	-	-	-	(empty)	-	-	-	-	-	FVZMCG4nHayQtUyD1d	application/x-shockwave-flash
+1322608108.688373	CLSARF1uKgCBwBtzt6	192.168.104.10	1037	188.247.232.181	80	5	GET	188.247.232.181	/content/score.swf	http://188.247.232.181/content/field.swf	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6754	200	OK	-	-	-	(empty)	-	-	-	-	-	FQhMyv35cd8u4RXis4	application/x-shockwave-flash
+1322608109.191334	C4HA6A1kdZDDDAMj6	192.168.104.10	1045	69.31.74.137	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1568	200	OK	-	-	-	(empty)	-	-	-	-	-	FibliE121IdIU2mq96	text/html
+#close	2014-04-03-10-57-00

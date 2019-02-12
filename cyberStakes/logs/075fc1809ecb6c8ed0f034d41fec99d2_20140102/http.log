@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-36-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1388621735.524841	CaSvIw1nZ6oQ8T9g4f	192.168.30.10	1035	71.82.213.202	80	1	GET	3926545186.wattboxdns.com	/	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	812	200	OK	-	-	-	(empty)	-	-	-	-	-	FqBvzA381PrFdaYuU5	text/html
+1388621735.655471	CaSvIw1nZ6oQ8T9g4f	192.168.30.10	1035	71.82.213.202	80	2	GET	3926545186.wattboxdns.com	/ie.htm	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	1174	200	OK	-	-	-	(empty)	-	-	-	-	-	F5fz901FXbHZYDJJ6d	text/html
+1388621735.76261	CaSvIw1nZ6oQ8T9g4f	192.168.30.10	1035	71.82.213.202	80	3	GET	3926545186.wattboxdns.com	/vcredist_x86.exe	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	2723264	200	OK	-	-	-	(empty)	-	-	-	-	-	Ff5sfFXJ6q29byyF1	application/x-dosexec
+1388621743.881231	CfgPR3fjhNz4WGYad	192.168.30.10	1039	165.254.134.154	80	1	GET	crl.microsoft.com	/pki/crl/products/CodeSignPCA2.crl	-	Microsoft-CryptoAPI/5.131.2600.2180	0	558	200	OK	-	-	-	(empty)	-	-	-	-	-	Ff99Nz3iiLa3ZVMIHg	binary
+1388621743.935613	CaSvIw1nZ6oQ8T9g4f	192.168.30.10	1035	71.82.213.202	80	4	GET	3926545186.wattboxdns.com	/IEPlugin.cab	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	2656969	200	OK	-	-	-	(empty)	-	-	-	-	-	Fg76Yi2WMk9ZLSwMOa	application/vnd.ms-cab-compressed
+1388621751.424796	CAigPj4EgiutLEF766	192.168.30.10	1040	108.162.232.201	80	1	GET	crl.globalsign.net	/root.crl	-	Microsoft-CryptoAPI/5.131.2600.2180	0	469	200	OK	-	-	-	(empty)	-	-	-	-	-	FA88bA4CijkC27qm28	binary
+1388621751.498715	CgbKOYXRUIvpzVPv5	192.168.30.10	1041	108.162.232.207	80	1	GET	crl.globalsign.com	/gs/gscodesigng2.crl	-	Microsoft-CryptoAPI/5.131.2600.2180	0	3319	200	OK	-	-	-	(empty)	-	-	-	-	-	FpjDNA4wAewm2ndYKe	binary
+1388621751.76103	CaSvIw1nZ6oQ8T9g4f	192.168.30.10	1035	71.82.213.202	80	5	GET	3926545186.wattboxdns.com	/favicon.ico	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	153	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FyEw8v5AgFu6rSiuh	text/html
+#close	2014-04-03-10-36-50

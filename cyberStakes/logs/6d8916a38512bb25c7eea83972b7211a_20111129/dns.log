@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-09-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1322597402.511599	CQNQ6vMjJniH9kDEj	192.168.3.10	1029	4.2.2.3	53	udp	17807	lostcitystudios.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	175.41.43.70	96.000000	F
+1322597405.052258	CQNQ6vMjJniH9kDEj	192.168.3.10	1029	4.2.2.3	53	udp	8077	www.cvtech.com.au	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	202.124.241.200	3600.000000	F
+1322597408.100187	CQNQ6vMjJniH9kDEj	192.168.3.10	1029	4.2.2.3	53	udp	16013	gohitscnt.h2oz.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.127.228.44	600.000000	F
+1322597414.076152	CQNQ6vMjJniH9kDEj	192.168.3.10	1029	4.2.2.3	53	udp	10381	www.kwalai.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	87.106.62.204	43200.000000	F
+1322597414.245976	CQNQ6vMjJniH9kDEj	192.168.3.10	1029	4.2.2.3	53	udp	59789	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.75.17,69.31.75.27	653.000000,107.000000,9126.000000,13.000000,13.000000	F
+1322597442.415215	CvE82k1rdEh7fHBdQ	192.168.3.10	1029	4.2.2.3	53	udp	23947	swupmf.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	swupmf.wip4.adobe.com,swupmf.adobe.com.edgesuite.net,a1137.g.akamai.net,69.31.75.9,69.31.75.35	5572.000000,42.000000,3287.000000,20.000000,20.000000	F
+1322597445.061207	CvE82k1rdEh7fHBdQ	192.168.3.10	1029	4.2.2.3	53	udp	48520	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.65.147,74.125.65.99,74.125.65.103,74.125.65.104,74.125.65.105,74.125.65.106	38023.000000,87.000000,87.000000,87.000000,87.000000,87.000000,87.000000	F
+1322597445.0955	CvE82k1rdEh7fHBdQ	192.168.3.10	1029	4.2.2.3	53	udp	12934	dev.simulinux.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.137.226.89	2932.000000	F
+1322597457.779826	CTXsfv4ybYdA4mojT	192.168.3.10	1029	4.2.2.3	53	udp	58246	crl.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.wip4.adobe.com,crl.adobe.com.edgesuite.net,a1180.g.akamai.net,69.31.75.33,69.31.74.211	7952.000000,298.000000,7241.000000,18.000000,18.000000	F
+#close	2014-04-03-10-09-07

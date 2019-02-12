@@ -1,0 +1,36 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-41-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1341443476.319417	CsnjWQ3qRJcanY7Pg9	192.168.75.10	1029	4.2.2.3	53	udp	41364	chrisfarrellmembership.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.200.198.27	43177.000000	F
+1341443476.573206	CsnjWQ3qRJcanY7Pg9	192.168.75.10	1029	4.2.2.3	53	udp	33941	www.chrisfarrellmembership.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	chrisfarrellmembership.com,74.200.198.27	43200.000000,43177.000000	F
+1341443477.206933	CsnjWQ3qRJcanY7Pg9	192.168.75.10	1029	4.2.2.3	53	udp	22167	smarticon.geotrust.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	geotrust-smarticon-ilg.verisign.net,69.58.183.142	60.000000,300.000000	F
+1341443477.378715	CsnjWQ3qRJcanY7Pg9	192.168.75.10	1029	4.2.2.3	53	udp	32663	chrisfarrell.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.167.46.147	14400.000000	F
+1341443477.933623	CsnjWQ3qRJcanY7Pg9	192.168.75.10	1029	4.2.2.3	53	udp	45712	connect.facebook.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	connect.facebook.net.edgekey.net,e3821.dspe1.akamaiedge.net,96.17.47.139	99.000000,248.000000,6.000000	F
+1341443478.620621	CX5ET44PkE4fiDVgR8	192.168.75.10	1039	4.2.2.3	53	udp	36498	analytics.aweber.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	207.106.239.79	40391.000000	F
+1341443478.600134	CsnjWQ3qRJcanY7Pg9	192.168.75.10	1029	4.2.2.3	53	udp	59280	www.createyourfirstwebsite.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	createyourfirstwebsite.com,64.64.18.32	14400.000000,14400.000000	F
+1341443478.825641	CX5ET44PkE4fiDVgR8	192.168.75.10	1039	4.2.2.3	53	udp	44691	forms.aweber.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	207.106.239.74	36930.000000	F
+1341443478.854281	CX5ET44PkE4fiDVgR8	192.168.75.10	1039	4.2.2.3	53	udp	61084	www.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.171.234.21	11.000000	F
+1341443478.873755	CX5ET44PkE4fiDVgR8	192.168.75.10	1039	4.2.2.3	53	udp	20893	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,173.194.37.70,173.194.37.71,173.194.37.72,173.194.37.73,173.194.37.78,173.194.37.64,173.194.37.65,173.194.37.66,173.194.37.67,173.194.37.68,173.194.37.69	28786.000000,69.000000,69.000000,69.000000,69.000000,69.000000,69.000000,69.000000,69.000000,69.000000,69.000000,69.000000	F
+1341443479.128127	CX5ET44PkE4fiDVgR8	192.168.75.10	1039	4.2.2.3	53	udp	26525	www.divorce-infos.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	205.209.149.225	1800.000000	F
+1341443479.462724	CX5ET44PkE4fiDVgR8	192.168.75.10	1039	4.2.2.3	53	udp	55199	static.ak.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.dsw4.akamai.net,192.204.4.65,192.204.4.51	122.000000,47.000000,11.000000,11.000000	F
+1341443479.463143	CsnjWQ3qRJcanY7Pg9	192.168.75.10	1029	4.2.2.3	53	udp	30623	s-static.ak.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	s-static.ak.facebook.com.edgekey.net,e566.dspe1.akamaiedge.net,96.17.34.110	66.000000,112.000000,2.000000	F
+1341443479.645136	CsnjWQ3qRJcanY7Pg9	192.168.75.10	1029	4.2.2.3	53	udp	59545	static.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.dsw4.akamai.net,192.204.4.51,192.204.4.65	3.000000,47.000000,11.000000,11.000000	F
+1341443479.644819	CX5ET44PkE4fiDVgR8	192.168.75.10	1039	4.2.2.3	53	udp	54169	sex.findcreditcards.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.185.81.123	1800.000000	F
+1341443481.024961	CsnjWQ3qRJcanY7Pg9	192.168.75.10	1029	4.2.2.3	53	udp	62362	b.s-static.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wildcard.s-static.ak.fbcdn.net.edgekey.net,e5059.e1.akamaiedge.net,184.28.212.130	1901.000000,360.000000,20.000000	F
+1341443477.172998	CsnjWQ3qRJcanY7Pg9	192.168.75.10	1029	4.2.2.3	53	udp	51094	www.chrisfarrellmebership.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1341443477.172998	CsnjWQ3qRJcanY7Pg9	192.168.75.10	1029	4.2.2.3	53	udp	51094	www.chrisfarrellmebership.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1341443477.172998	CsnjWQ3qRJcanY7Pg9	192.168.75.10	1029	4.2.2.3	53	udp	51094	www.chrisfarrellmebership.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1341443477.172998	CsnjWQ3qRJcanY7Pg9	192.168.75.10	1029	4.2.2.3	53	udp	51094	www.chrisfarrellmebership.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1341443477.172998	CsnjWQ3qRJcanY7Pg9	192.168.75.10	1029	4.2.2.3	53	udp	51094	www.chrisfarrellmebership.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1341443477.172998	CsnjWQ3qRJcanY7Pg9	192.168.75.10	1029	4.2.2.3	53	udp	51094	www.chrisfarrellmebership.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1341443477.172998	CsnjWQ3qRJcanY7Pg9	192.168.75.10	1029	4.2.2.3	53	udp	51094	www.chrisfarrellmebership.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1341443477.172998	CsnjWQ3qRJcanY7Pg9	192.168.75.10	1029	4.2.2.3	53	udp	51094	www.chrisfarrellmebership.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1341443477.172998	CsnjWQ3qRJcanY7Pg9	192.168.75.10	1029	4.2.2.3	53	udp	51094	www.chrisfarrellmebership.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1341443477.172998	CsnjWQ3qRJcanY7Pg9	192.168.75.10	1029	4.2.2.3	53	udp	51094	www.chrisfarrellmebership.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1341443517.082732	C2OHdf2etntRF1xvQh	192.168.75.10	1029	4.2.2.3	53	udp	54683	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,64.72.65.215,64.72.65.214	14449.000000,133.000000,7419.000000,13.000000,13.000000	F
+#close	2014-04-03-10-41-24

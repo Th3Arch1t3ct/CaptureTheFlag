@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-19-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1389122209.47036	CaVG0D3jnA9cweFoT4	192.168.93.10	1036	75.87.188.28	80	1	GET	kcfullservice2.com	/	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	4472	200	Ok	-	-	-	(empty)	-	-	-	-	-	FDOUNT2Qa88DIu60q4	text/html
+1389122210.923764	CUNOWMCOPbmrtA883	192.168.93.10	1037	75.87.188.28	80	1	GET	kcfullservice2.com	/play.html	http://kcfullservice2.com/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	6295	200	Ok	-	-	-	(empty)	-	-	-	-	-	Fl15sk46mhsaM7vcp1	text/html
+1389122210.929754	CxdA811ET3h3XA0Oy2	192.168.93.10	1038	75.87.188.28	80	1	GET	kcfullservice2.com	/favicon.ico	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	130	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Frentt2IdeHtceGH7c	text/html
+1389122211.260909	Cn0x8gBm9VwGqV17	192.168.93.10	1039	75.87.188.28	80	1	GET	kcfullservice2.com	/NetDvrPlugin.exe	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	827674	200	Ok	-	-	-	(empty)	-	-	-	-	-	FP6Rc04yLs1NlXZZ42	application/x-dosexec
+1389122218.825656	Cggk4w2QOCYS3mhCvb	192.168.93.10	1043	205.168.236.58	80	1	GET	aia.startssl.com	/certs/ca.crt	-	Microsoft-CryptoAPI/5.131.2600.2180	0	1997	200	OK	-	-	-	(empty)	-	-	-	-	-	FoFHoa17MLy0kgSNEf	binary
+1389122218.913689	CNuPfK2q1i6Qy7mCsg	192.168.93.10	1044	23.62.228.33	80	1	GET	www.download.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/authrootseq.txt	-	Microsoft-CryptoAPI/5.131.2600.2180	0	18	200	OK	-	-	-	(empty)	-	-	-	-	-	F1JPSL28xc87yX3rA8	text/plain
+1389122218.926069	CNuPfK2q1i6Qy7mCsg	192.168.93.10	1044	23.62.228.33	80	2	GET	www.download.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/authrootstl.cab	-	Microsoft-CryptoAPI/5.131.2600.2180	0	54009	200	OK	-	-	-	(empty)	-	-	-	-	-	FBzc3b19jmRF1XZK8h	application/vnd.ms-cab-compressed
+1389122219.307998	CfBSH933M0PgHXCR0e	192.168.93.10	1045	205.168.236.58	80	1	GET	crl.startssl.com	/sfsca.crl	-	Microsoft-CryptoAPI/5.131.2600.2180	0	955	200	OK	-	-	-	(empty)	-	-	-	-	-	Fj4Res2zalNOM7ooga	binary
+1389122219.727753	CQMsNe3hm9pEr97rH6	192.168.93.10	1046	123.125.161.216	80	1	GET	crls.wosign.com	/ca.crl	-	Microsoft-CryptoAPI/5.131.2600.2180	0	712	200	OK	-	-	-	(empty)	-	-	-	-	-	FTB7hF1pX92QQJLQQ9	binary
+1389122219.969561	CQMsNe3hm9pEr97rH6	192.168.93.10	1046	123.125.161.216	80	2	GET	crls.wosign.com	/code-3.crl	-	Microsoft-CryptoAPI/5.131.2600.2180	0	2874	200	OK	-	-	-	(empty)	-	-	-	-	-	Fqrowv2tXX7zyYz3V6	binary
+#close	2014-04-03-10-19-11

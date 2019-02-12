@@ -1,0 +1,31 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-10-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1323281795.333454	CEVFsd4usAT0p0ZL3e	192.168.128.10	1030	95.168.165.224	80	1	GET	games68.biz	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	234	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	Fd9g031q7Gcxm4gBsc	text/html
+1323281795.511915	CHFlb63Gg19zO3OQnj	192.168.128.10	1031	149.255.33.227	80	1	GET	winter5.in	/?site=15	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1323281795.826406	C645aj4UGbhtMced6c	192.168.128.10	1032	109.123.116.51	80	1	GET	googleads6.in	/redir.html	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	349	200	OK	-	-	-	(empty)	-	-	-	-	-	FGDJlv2uAW3dE0sOCg	text/html
+1323281796.06342	C1OYc22MrMLJfC7GJ	192.168.128.10	1036	109.123.116.51	80	1	GET	googleads6.in	/in.cgi?default	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	178	302	Found	-	-	-	(empty)	-	-	-	-	-	FSb14O15mItllXcW1l	text/html
+1323281796.207365	C6avl2w5Bwn6I28p6	192.168.128.10	1037	149.255.33.227	80	1	GET	winter5.in	/?site=8	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	444	200	OK	-	-	-	(empty)	-	-	-	-	-	FjtCe93gZgIIw7P7J	text/html
+1323281797.772697	CpYqwp1D988ANSr5F3	192.168.128.10	1043	149.255.33.227	80	1	GET	winter5.in	/?42cf11229f92b660424246402b0c67b9	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13337	200	OK	-	-	-	(empty)	-	-	-	-	-	FdleX5FVEaFbV8KBf	application/jar
+1323281797.775606	CMBc9hjyb04GKoV86	192.168.128.10	1042	149.255.33.227	80	1	GET	winter5.in	/?4f967561785d9698cd44ea5e07bbfb21	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13889	200	OK	-	-	-	(empty)	-	-	-	-	-	FRNWLQ9Kyi41pMxwh	application/jar
+1323281797.856351	CCuWwALNKhgoiF3Z8	192.168.128.10	1044	149.255.33.227	80	1	GET	winter5.in	/?42cf11229f92b660424246402b0c67b9	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13337	200	OK	-	-	-	(empty)	-	-	-	-	-	F79ltq42WFMPaJ7Pgj	application/jar
+1323281797.867122	CnPpqN1TzC1nxCf0Ta	192.168.128.10	1045	149.255.33.227	80	1	GET	winter5.in	/?4f967561785d9698cd44ea5e07bbfb21	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13889	200	OK	-	-	-	(empty)	-	-	-	-	-	FZzjtrRhDtsKcl1X6	application/jar
+1323281798.051189	C4Wu282h8ABbBcHnd5	192.168.128.10	1046	149.255.33.227	80	1	GET	winter5.in	/?42cf11229f92b660424246402b0c67b9	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13337	200	OK	-	-	-	(empty)	-	-	-	-	-	F9uXzUxMVyKymG99a	application/jar
+1323281798.17946	CPIpCZDk4pj568m27	192.168.128.10	1047	149.255.33.227	80	1	GET	winter5.in	/?4f967561785d9698cd44ea5e07bbfb21	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13889	200	OK	-	-	-	(empty)	-	-	-	-	-	FwKyK53JwdBobPQ4Z2	application/jar
+1323281798.265197	Csy7SF1ZPiA6nY0gI1	192.168.128.10	1048	149.255.33.227	80	1	GET	winter5.in	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FUsEa82sb4AehP55d6	text/html
+1323281798.358465	C5fFTswLJccX08LY7	192.168.128.10	1049	149.255.33.227	80	1	GET	winter5.in	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FVoj192BXpIrRLw4B9	text/html
+1323281798.443654	C6fRaA1s9JGxZXTWE2	192.168.128.10	1050	149.255.33.227	80	1	GET	winter5.in	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Fuk3Lg1B3szZQKBIQf	text/html
+1323281798.5185	CTg7fnIgJAZwA3eW9	192.168.128.10	1051	149.255.33.227	80	1	GET	winter5.in	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FsvvOt3JGTP0FpXAf	text/html
+1323281798.645742	CKHUFd2Cr6OiqE14h4	192.168.128.10	1052	149.255.33.227	80	1	GET	winter5.in	/?e514c0738b8e29084785a0c44d317f1d	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	26624	200	OK	-	-	-	(empty)	-	-	-	-	-	FmYxti2vKnKRzahD9e	application/x-dosexec
+1323281798.893857	CbuOk51kU8J2LEPSAi	192.168.128.10	1053	149.255.33.227	80	1	GET	winter5.in	/?5b56424bed84f518d6944c2fe789181b	-	-	0	845312	200	OK	-	-	-	(empty)	-	-	-	-	-	FdQEiY2fFlrpTRhf7	application/x-dosexec
+1323281799.629885	CdXvwQ3WxvMg60UVgd	192.168.128.10	1054	149.255.33.227	80	1	GET	winter5.in	/?47635baf0e77dad886483b1cabf30e71	-	-	0	23040	200	OK	-	-	-	(empty)	-	-	-	-	-	FGdaZZ2AC9RXTRQQE4	application/x-dosexec
+1323281799.897273	CTEeqD4sxWqGliC6Bf	192.168.128.10	1056	149.255.33.227	80	1	GET	winter5.in	/?32e2dda44e164fce854cced1b8e40571	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	26624	200	OK	-	-	-	(empty)	-	-	-	-	-	FmBN4H4F63gPTh6K	application/x-dosexec
+1323281799.762835	CyBLCD2oVjzUAPi7gl	192.168.128.10	1055	149.255.33.227	80	1	GET	winter5.in	/?e86cfd43dc747a5dcb1c4d689b4fb0b9	-	-	0	330752	200	OK	-	-	-	(empty)	-	-	-	-	-	Fujmwd2p6qIqUJFk2l	application/x-dosexec
+1323281800.209965	Canh3v3j0OGp1Vjjwl	192.168.128.10	1057	149.255.33.227	80	1	GET	winter5.in	/?f6a6dbe44bc249c7e614827a03267e35	-	-	0	157184	200	OK	-	-	-	(empty)	-	-	-	-	-	FtOYsP28J9RKT7Gj1l	application/x-dosexec
+1323281801.103366	CTsEHo4jw2pmD37QQf	192.168.128.10	1058	64.202.163.8	80	1	GET	getmilfs.com	/logo/go.php?id=95	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2	200	OK	-	-	-	(empty)	-	-	-	-	-	F5Wg7540y9TuH40LAa	text/plain
+#close	2014-04-03-11-10-21

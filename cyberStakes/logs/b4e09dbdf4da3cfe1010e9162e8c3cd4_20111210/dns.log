@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-13-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1323513171.725048	CBnreV3SW1h1dkTj2k	192.168.108.10	1029	4.2.2.3	53	udp	31629	gruppoaversente.it	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.149.199.41	7177.000000	F
+1323513172.022208	CBnreV3SW1h1dkTj2k	192.168.108.10	1029	4.2.2.3	53	udp	22925	sh1090.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.176.236.12	10800.000000	F
+1323513172.492678	CBnreV3SW1h1dkTj2k	192.168.108.10	1029	4.2.2.3	53	udp	42636	kupilkoprodb.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.217.153.97	3600.000000	F
+1323513172.566764	CBnreV3SW1h1dkTj2k	192.168.108.10	1029	4.2.2.3	53	udp	49804	niceteenporn.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1323513182.69867	Cg19hR3q1z6t3U9Qza	192.168.108.10	1029	4.2.2.3	53	udp	5007	reimetersdo.nightmail.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ftp.nightmail.ru,194.186.88.59	60.000000,60.000000	F
+1323513183.418611	Cg19hR3q1z6t3U9Qza	192.168.108.10	1029	4.2.2.3	53	udp	7055	qip.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.239.111.97,195.239.111.119,195.239.111.75	60.000000,60.000000,60.000000	F
+1323513182.439334	Cg19hR3q1z6t3U9Qza	192.168.108.10	1029	4.2.2.3	53	udp	15756	97.153.217.91.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1323513182.439334	Cg19hR3q1z6t3U9Qza	192.168.108.10	1029	4.2.2.3	53	udp	15756	97.153.217.91.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1323513182.439334	Cg19hR3q1z6t3U9Qza	192.168.108.10	1029	4.2.2.3	53	udp	15756	97.153.217.91.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-13-23

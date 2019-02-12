@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-08-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1331675175.114238	CFy5hL1PT5JXMc15Be	192.168.4.10	1028	4.2.2.3	53	udp	55174	enixus.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.241.38.134	43188.000000	F
+1331675175.427435	CFy5hL1PT5JXMc15Be	192.168.4.10	1028	4.2.2.3	53	udp	12679	www.enixus.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.241.38.134	43188.000000	F
+1331675177.005994	CFy5hL1PT5JXMc15Be	192.168.4.10	1028	4.2.2.3	53	udp	33159	photosmile.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.75.244.113	3600.000000	F
+1331675177.343068	CFy5hL1PT5JXMc15Be	192.168.4.10	1028	4.2.2.3	53	udp	19333	mysalamalam.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.218.38.251	3600.000000	F
+1331675186.066871	CFy5hL1PT5JXMc15Be	192.168.4.10	1028	4.2.2.3	53	udp	51842	mysalamalam.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.218.38.251	3591.000000	F
+1331675192.464267	CFy5hL1PT5JXMc15Be	192.168.4.10	1028	4.2.2.3	53	udp	35971	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.75.17,69.31.75.27	708.000000,230.000000,1002.000000,2.000000,2.000000	F
+#close	2014-04-03-10-08-49

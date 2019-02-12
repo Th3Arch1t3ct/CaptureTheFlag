@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-24-28
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1340949512.994284	CAtHVh2ohau5ZR40F5	192.168.53.10	1070	50.23.135.190	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=longpin.net,OU=Domain Control Validated,O=longpin.net	serialNumber=10688435,CN=Starfield Secure Certification Authority,OU=http://certificates.starfieldtech.com/repository,O=Starfield Technologies\, Inc.,L=Scottsdale,ST=Arizona,C=US	1313498624.000000	1345121024.000000	-	-	-	362f3cd13faa94499b2f9e96b23f5ea2	ok
+1340949513.401749	C4BQ08aL2PXodyBh	192.168.53.10	1072	50.23.135.190	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	d4c7934ce95570e0d11c660bbfc7d7e9366f9efc096b35585a6d8d87e8b8f35f	-	-	-	-	-	-	-	-	-
+1340949513.401487	CJz8G23sW0EL982Kij	192.168.53.10	1071	50.23.135.190	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	d4c7934ce95570e0d11c660bbfc7d7e9366f9efc096b35585a6d8d87e8b8f35f	-	-	-	-	-	-	-	-	-
+1340949514.096616	CGqBwb4UVvnQTaxAWd	192.168.53.10	1073	50.23.135.190	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	d4c7934ce95570e0d11c660bbfc7d7e9366f9efc096b35585a6d8d87e8b8f35f	-	-	-	-	-	-	-	-	-
+1340949514.153648	CdL4L91RotCqT5W1k	192.168.53.10	1086	50.23.135.190	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	d4c7934ce95570e0d11c660bbfc7d7e9366f9efc096b35585a6d8d87e8b8f35f	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-24-28

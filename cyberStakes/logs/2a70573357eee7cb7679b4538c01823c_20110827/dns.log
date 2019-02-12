@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-11-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1314436071.293369	CZgTMY2pIFFqYEGnr1	192.168.87.10	1029	4.2.2.3	53	udp	8843	surveysmoney.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.89.31.168	14374.000000	F
+1314436128.788433	Cga8cJ1JZwrjEYacdg	192.168.87.10	1029	4.2.2.3	53	udp	28043	emmqqyfqo.co.tv	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.223.89.98	43200.000000	F
+1314436129.130919	Cga8cJ1JZwrjEYacdg	192.168.87.10	1029	4.2.2.3	53	udp	4489	hsgawtn.dns1.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.66.179	31.000000	F
+#close	2014-04-03-10-11-10

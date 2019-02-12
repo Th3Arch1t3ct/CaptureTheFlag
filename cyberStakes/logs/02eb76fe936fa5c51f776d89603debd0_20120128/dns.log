@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-02-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1327778128.052521	C2x5yo4Sq7LivREQ1g	192.168.104.10	1029	4.2.2.3	53	udp	57229	4coljlrztfofos.l91.me	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.64.123.45	1782.000000	F
+1327778128.334433	C2x5yo4Sq7LivREQ1g	192.168.104.10	1029	4.2.2.3	53	udp	26255	fasttrackonlinesurveys.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.34.154.74	43182.000000	F
+1327778128.445243	C2x5yo4Sq7LivREQ1g	192.168.104.10	1029	4.2.2.3	53	udp	12687	leaked.private-videos-taken.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	private-videos-taken.com,64.34.154.74	43182.000000,43182.000000	F
+1327778128.586768	C2x5yo4Sq7LivREQ1g	192.168.104.10	1029	4.2.2.3	53	udp	17038	i35.tinypic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.17.74.150	1200.000000	F
+1327778129.419033	C2x5yo4Sq7LivREQ1g	192.168.104.10	1029	4.2.2.3	53	udp	34441	i.d2f3.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	d2f3.com,64.34.154.74	43200.000000,2610.000000	F
+1327778133.155591	C2x5yo4Sq7LivREQ1g	192.168.104.10	1029	4.2.2.3	53	udp	14728	network.stripthere.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	65.39.172.126	43200.000000	F
+#close	2014-04-03-10-02-13

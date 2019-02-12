@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-00-17
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1336394988.705158	CrRlBz2z6N1paW7IY5	192.168.108.10	1066	37.59.198.60	80	Fbje614oVNDP7Cmds3	application/x-dosexec	http://deftower.org/?b0cbcb3acb78177a22b05e45215b5702	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-05-07 21:01:01	https://www.virustotal.com/en/search/?query=667751b8df9a123d1ddea70accf933c6e0c877dd	192.168.108.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336394989.270106	CeyDN73h51nMGEMVJ8	192.168.108.10	1068	37.59.198.60	80	FKjA6K2gyt6Eq7yQRk	application/x-dosexec	http://deftower.org/?099bb3b7ebd15c8d14b36a58ac36a941	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-05-07 21:01:01	https://www.virustotal.com/en/search/?query=667751b8df9a123d1ddea70accf933c6e0c877dd	192.168.108.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336395033.656659	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.108.10 scanned at least 25 unique hosts on port 34354/tcp in 0m26s	remote	192.168.108.10	-	34354	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-00-18

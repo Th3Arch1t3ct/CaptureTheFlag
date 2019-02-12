@@ -1,0 +1,29 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-56-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1331407345.362341	CTPy2D3ZI7Hf4wZzBh	192.168.94.10	1030	69.16.243.49	80	1	GET	klassiksystems.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	16766	200	OK	-	-	-	(empty)	-	-	-	-	-	FECnvUbf8suktzEMc	text/html
+1331407345.516626	CBnhFj276hXgid48fl	192.168.94.10	1031	69.16.243.49	80	1	GET	klassiksystems.com	/style/style.css	http://klassiksystems.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5809	200	OK	-	-	-	(empty)	-	-	-	-	-	FkN5nj47U4R7DDJMX8	text/x-c
+1331407345.526317	CTPy2D3ZI7Hf4wZzBh	192.168.94.10	1030	69.16.243.49	80	2	GET	klassiksystems.com	/js/jquery-1.3.2.min.js	http://klassiksystems.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	57254	200	OK	-	-	-	(empty)	-	-	-	-	-	Flylfx2CYmSGxV9Cml	text/plain
+1331407346.027862	CBnhFj276hXgid48fl	192.168.94.10	1031	69.16.243.49	80	2	GET	klassiksystems.com	/js/dyntx.js	http://klassiksystems.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	535	200	OK	-	-	-	(empty)	-	-	-	-	-	FE5cE1utsruVH8eT7	text/plain
+1331407349.071357	CBnhFj276hXgid48fl	192.168.94.10	1031	69.16.243.49	80	3	GET	klassiksystems.com	/images/footer_bg.gif	http://klassiksystems.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1109	200	OK	-	-	-	(empty)	-	-	-	-	-	FjwkAI10CNPHlEug64	image/png
+1331407349.071098	CTPy2D3ZI7Hf4wZzBh	192.168.94.10	1030	69.16.243.49	80	3	GET	klassiksystems.com	/images/orange.gif	http://klassiksystems.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	516990	200	OK	-	-	-	(empty)	-	-	-	-	-	FK4Eev1FNcszNlwSOk	image/x-ms-bmp
+1331407349.303555	CJzRrY1goo8S6Opata	192.168.94.10	1036	190.172.153.80	80	1	GET	tylcaqo.in	/count28.php	http://klassiksystems.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	(empty)	-	-	-	(empty)	-	-	-	-	-	-	-
+1331407352.772288	CgSWPH3KcCUNHfLIN5	192.168.94.10	1037	95.168.161.125	80	1	GET	fypejiv.eu	/in.php?a=QQkFBwcFBgcNAwQAEkcJBQcHBQYBAQcBDA==	http://klassiksystems.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3445	200	OK	-	-	-	(empty)	-	-	-	-	-	Fknoeh2kX0BYj6aEd8	text/html
+1331407352.89865	CgSWPH3KcCUNHfLIN5	192.168.94.10	1037	95.168.161.125	80	2	GET	fypejiv.eu	/prototype.js	http://fypejiv.eu/in.php?a=QQkFBwcFBgcNAwQAEkcJBQcHBQYBAQcBDA==	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	38	200	OK	-	-	-	(empty)	-	-	-	-	-	F1T4HU13aBYbpZm3Pl	text/plain
+1331407356.179664	CSmJyo4IPT2hQszRr7	192.168.94.10	1038	95.168.161.125	80	1	GET	fypejiv.eu	/bodun2.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12920	200	OK	-	-	-	(empty)	-	-	-	-	-	FwYRWG3rfkvewO5gaf	application/zip
+1331407357.1154	Cq0hqc4cmRRPFqaik9	192.168.94.10	1039	95.168.161.125	80	1	GET	fypejiv.eu	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1331407357.235569	Cq0hqc4cmRRPFqaik9	192.168.94.10	1039	95.168.161.125	80	2	GET	fypejiv.eu	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1331407357.351568	Cq0hqc4cmRRPFqaik9	192.168.94.10	1039	95.168.161.125	80	3	GET	fypejiv.eu	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1331407357.465276	Cq0hqc4cmRRPFqaik9	192.168.94.10	1039	95.168.161.125	80	4	GET	fypejiv.eu	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1331407358.106731	Ck8et543WOeZ8xl8di	192.168.94.10	1040	95.168.161.125	80	1	GET	torpedoman.in	/out.php?a=QQkFBwcFBgcNAwQAEkcJBQcHBQYBAQcBDA==&p=9	-	Java/1.6.0_10	0	46592	200	OK	-	-	-	(empty)	-	-	-	-	-	FiaGoHfEXIzLLXmn2	application/x-dosexec
+1331407359.510948	CKQAxT1FOV0Adr4wtk	192.168.94.10	1041	217.11.251.173	80	1	GET	ejywqem.eu	/reldo24.exe	-	-	0	93	403	Forbidden	-	-	-	(empty)	-	-	-	-	-	F7fe9V2d7ghDcQ1mfh	text/html
+1331407385.702621	Ca47o625wP5S9C5Urf	192.168.94.10	1043	69.31.74.211	80	1	GET	crl.adobe.com	/aum.crl	-	Adobe Update Manager 6	0	2819	200	OK	-	-	-	(empty)	-	-	-	-	-	FTQGMG1ztrMlGl19Xj	binary
+1331407385.531893	CSZyyk1PuzX0j0XYAg	192.168.94.10	1042	69.31.75.35	80	1	GET	swupmf.adobe.com	/manifest/60/win/reader9rdr-en_US.upd	-	Adobe Update Manager 6	0	192693	200	OK	-	-	-	(empty)	-	-	-	-	-	FZfk2d1XS5LwPnr3wh	binary
+1331407385.924252	CSZyyk1PuzX0j0XYAg	192.168.94.10	1042	69.31.75.35	80	2	GET	swupmf.adobe.com	/manifest/60/win/AdobeUpdater.upd	-	Adobe Update Manager 6	0	3524	200	OK	-	-	-	(empty)	-	-	-	-	-	FKpzxN3g1iRqnahoPh	binary
+1331407353.595068	CgSWPH3KcCUNHfLIN5	192.168.94.10	1037	95.168.161.125	80	3	GET	fypejiv.eu	/105f1d.pdf	http://fypejiv.eu/in.php?a=QQkFBwcFBgcNAwQAEkcJBQcHBQYBAQcBDA==	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	99115	200	OK	-	-	-	(empty)	-	-	-	-	-	FpnS9q1mhATZdGvdBb	application/pdf
+#close	2014-04-03-09-56-30

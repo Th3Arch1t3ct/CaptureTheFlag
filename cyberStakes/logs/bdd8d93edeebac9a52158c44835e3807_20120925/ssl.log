@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-07-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1348607452.658844	CRTHnj2zNedEOsNHx9	192.168.9.10	1035	74.125.134.95	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleapis.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1347555321.000000	1370652207.000000	-	-	-	f5b706d0a967ab840bd6e03b4f4113a9	ok
+1348607453.870531	CTdBsA1oqt8kQ1rf4	192.168.9.10	1037	65.54.93.94	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.sharepointonline.com,CN=*.manage.microsoft.com,CN=*.cmsresources.windowsphone.com,CN=*.windowsphone.com,CN=*.windowsphone-int.com,CN=*.live-int.net,CN=*.s-msn.com,CN=*.partner-df.windowsphone-int.com,CN=*.hotmail.com,CN=*.aspnetcdn.com,CN=*.c3scs.jp.	msn.com,CN=*.jp.msn.com,CN=images.partner.windowsphone.com,CN=images.partner.windowsphone-int.com,CN=*.wlxrsu-int.com,CN=*.cmsresources.windowsphone-int.com,CN=*.stb.s-msn.com,CN=*.st.s-msn.com,CN=*.wlxrs-int.com,CN=*.wlxrs.com,CN=*.live-int.com,CN=*.live	1339126371.000000	1400556210.000000	-	-	-	ed86f60b88172708fc6c1a685ba6ec52	ok
+1348607457.97033	CeYktL3QjT3G6hX4Xi	192.168.9.10	1066	74.125.139.100	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1347555314.000000	1370652207.000000	-	-	-	4c16bcd9881726279850666665f704c6	ok
+1348607463.963966	CBcQFc1P4CkVdg7xh1	192.168.9.10	1071	72.21.214.200	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.s3.amazonaws.com,O=Amazon.com Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1292392800.000000	1387432799.000000	-	-	-	e3cc103aacd8beea27f01fd08da597bd	ok
+1348607463.987428	CBLYPzjpEDO55JP16	192.168.9.10	1073	72.21.214.200	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.s3.amazonaws.com,O=Amazon.com Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1292392800.000000	1387432799.000000	-	-	-	e3cc103aacd8beea27f01fd08da597bd	ok
+1348607464.001187	CtLAbB1VGPD7FFQ262	192.168.9.10	1075	96.17.63.144	443	SSLv3	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=si0.twimg.com,OU=Akamai SAN SSL OV,OU=Akamai SAN SSL OV,O=Twitter,L=San Francisco,ST=CALIFORNIA,C=US	CN=USERTrust Legacy Secure Server CA,O=The USERTRUST Network,L=Salt Lake City,ST=UT,C=US	1347598800.000000	1362117599.000000	-	-	-	7132f325320c1af69c2d07ea7d4eb469	ok
+#close	2014-04-03-10-07-34

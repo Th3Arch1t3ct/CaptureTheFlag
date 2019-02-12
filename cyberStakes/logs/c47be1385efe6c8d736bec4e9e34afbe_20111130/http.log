@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-49-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1322690838.253474	C8Vlgk1fZtHmnRDxb3	192.168.116.10	1030	109.236.82.78	80	1	GET	tempdom3.info	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	237	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FpOLgB1G8UIekFNJm2	text/html
+1322690838.457929	Cf4tz44q6C94mkDeM6	192.168.116.10	1031	109.236.82.79	80	1	GET	softportal1.in	/?site=3	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	154	200	OK	-	-	-	(empty)	-	-	-	-	-	FrJT4x2MgSihizRzK3	text/html
+1322690840.213389	CQsKyA8Ny103J4zaf	192.168.116.10	1036	109.236.82.79	80	1	GET	softportal1.in	/?ea3429b1bec9424d9413283eedd2261a	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3980	200	OK	-	-	-	(empty)	-	-	-	-	-	FShudK2gVp47OPRH0e	application/jar
+1322690840.49281	CYnC8o1ROOmSmqyG0e	192.168.116.10	1037	109.236.82.79	80	1	GET	softportal1.in	/?ea3429b1bec9424d9413283eedd2261a	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3980	200	OK	-	-	-	(empty)	-	-	-	-	-	F8maIj2ostHbIsPjh	application/jar
+1322690840.788796	ChIrkC1yAtTRORNbfh	192.168.116.10	1038	109.236.82.79	80	1	GET	softportal1.in	/?ea3429b1bec9424d9413283eedd2261a	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3980	200	OK	-	-	-	(empty)	-	-	-	-	-	FYPEFi20fmPd3qx9Da	application/jar
+1322690841.055722	CPMzHWNWTvxTdTp18	192.168.116.10	1039	109.236.82.79	80	1	GET	softportal1.in	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F5cMOg1vsjeXimcqw9	text/html
+1322690841.25637	CCMFB2366XXrWEaHG4	192.168.116.10	1040	109.236.82.79	80	1	GET	softportal1.in	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F4fQIr4IB0oVQy4agh	text/html
+1322690841.464311	C4m6QL3ZZMbjXgsVMd	192.168.116.10	1041	109.236.82.79	80	1	GET	softportal1.in	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FccIMN3adXy7WUHQU3	text/html
+1322690841.668222	CFkOoG1kOX9OP1UWsh	192.168.116.10	1042	109.236.82.79	80	1	GET	softportal1.in	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FoMY2p2Ycfmwx5SRAj	text/html
+1322690842.036358	CzadDShbCau43fW88	192.168.116.10	1043	109.236.82.79	80	1	GET	softportal1.in	/?a862c74238551fef2d68c0f83cae2ae7	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	463872	200	OK	-	-	-	(empty)	-	-	-	-	-	FgEQLWW59utmlFAe7	application/x-dosexec
+#close	2014-04-03-09-49-26

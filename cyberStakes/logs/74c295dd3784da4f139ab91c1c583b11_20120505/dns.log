@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-09-52
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1336179953.127466	CzL71A322La0dBhZ1	192.168.121.10	1029	4.2.2.3	53	udp	34450	leonardstowing.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.23.226.87	14374.000000	F
+1336179954.437747	CzL71A322La0dBhZ1	192.168.121.10	1029	4.2.2.3	53	udp	658	szynlwo.igg.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	146.185.255.235	60.000000	F
+1336179955.371917	CzL71A322La0dBhZ1	192.168.121.10	1029	4.2.2.3	53	udp	28050	videoflyover.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.124.198.1	1800.000000	F
+1336179955.466214	CzL71A322La0dBhZ1	192.168.121.10	1029	4.2.2.3	53	udp	12945	quinnwealth.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	83.69.226.72	3600.000000	F
+1336179991.926759	C4II3B4t6qXkUDBGyi	192.168.121.10	1029	4.2.2.3	53	udp	61840	palktikaljob.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.201.4.71	3600.000000	F
+#close	2014-04-03-10-09-52

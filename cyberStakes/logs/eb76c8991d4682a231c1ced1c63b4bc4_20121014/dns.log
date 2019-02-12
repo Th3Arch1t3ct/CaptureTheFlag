@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-09-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1350173163.602673	Czc4tP2lQ3Ev3sjOPj	192.168.56.10	1029	4.2.2.3	53	udp	19343	modelproje.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.89.224.69	3575.000000	F
+1350173173.764784	CMRjax1zJkvmc3WyY3	192.168.56.10	1029	4.2.2.3	53	udp	14733	jsnjl.jkvuhw.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.17.58.87	60.000000	F
+#close	2014-04-03-11-09-36

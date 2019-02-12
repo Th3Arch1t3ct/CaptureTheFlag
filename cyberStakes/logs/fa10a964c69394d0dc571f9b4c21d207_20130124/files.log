@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-53-43
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1359017143.268081	FHmxaT2PjUP6nXRb2h	72.8.167.249	192.168.37.10	C3IH3m22AUvQh1M4o5	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	588	588	0	0	F	-	459889ae387adab4ce667666d52a425f	96baf06ca3c860788763e0189745827d9b0ac63d	-	-
+1359017143.377039	Fls33k2OCBdQUcga48	208.131.138.218	192.168.37.10	Citwhv2ZLYdJAghikg	HTTP	0	SHA1,MD5	text/html	-	0.000010	-	F	3239	3239	0	0	F	-	9d7bfaa15fde84c92293297f6887feeb	be62ec9f5915900c5c21abb4b518a9eb01a0cd4c	-	-
+1359017143.557388	FwmGLA20htqBf7dru	24.143.197.9	192.168.37.10	CwCuJfN4P5xN9i955	HTTP	0	SHA1,MD5	image/png	-	0.000000	-	F	2349	2349	0	0	F	-	ce404e2f475dbf547ee8195dac0eff0a	3eb3390ad49e78b3e872aaf154256496e132e9f3	-	-
+1359017143.569496	F6OE3wPyGk3BZqpqg	208.131.138.217	192.168.37.10	CXzBh9eTeszp3RW7g	HTTP	0	SHA1,MD5	application/x-dosexec	MeNiceJPG.exe	0.056055	-	F	33580	156160	0	0	F	-	3090357574d1d799c9bbfa69b3fe8574	46466781b608e219d63dfa4fe2a51a1bdf29e476	-	-
+#close	2014-04-03-10-53-43

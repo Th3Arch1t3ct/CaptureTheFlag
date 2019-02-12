@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-24-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1327177488.941579	CggAA11Mki4kRY4xnb	192.168.23.10	1029	4.2.2.3	53	udp	54414	isunbmwbq.leaningmenchu.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.8.66.221,95.221.179.200,109.169.161.143,111.255.46.208,175.182.119.221,178.158.75.153,178.164.137.252,188.0.156.156,188.140.61.149,188.235.6.223,189.159.220.74,189.195.122.150,190.64.163.66,190.163.109.96,190.235.209.19,210.203.200.199,212.40.251.23,79.24.39.128,86.61.127.96,88.242.157.255	20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000	F
+1327177497.536689	CggAA11Mki4kRY4xnb	192.168.23.10	1029	4.2.2.3	53	udp	3725	egg8.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	176.34.179.106	43170.000000	F
+1327177519.130033	CLv4Kc3Vpyw6ss7OF1	192.168.23.10	1029	4.2.2.3	53	udp	5772	volondoko.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.57.120.104	600.000000	F
+1327177522.697986	CLv4Kc3Vpyw6ss7OF1	192.168.23.10	1029	4.2.2.3	53	udp	41099	www.download.windowsupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.download.windowsupdate.nsatc.net,download.windowsupdate.com.fp.nsatc.net,download.windowsupdate.com.c.footprint.net,8.26.206.126,8.26.210.126,8.12.223.125	657.000000,202.000000,3202.000000,121.000000,121.000000,121.000000	F
+1327177513.276547	CLv4Kc3Vpyw6ss7OF1	192.168.23.10	1029	4.2.2.3	53	udp	62860	jahramainso.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-24-47

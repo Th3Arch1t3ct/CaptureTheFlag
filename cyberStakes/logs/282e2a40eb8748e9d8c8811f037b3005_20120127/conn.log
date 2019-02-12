@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-33-38
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1327655810.260374	CbjzOr1uqVbOBbi2G9	192.168.68.10	1029	4.2.2.3	53	udp	dns	1.106437	74	410	SF	-	0	Dd	2	130	2	466	(empty)
+1327655831.816925	CWpxkd2XwqpWqOxB76	192.168.68.10	1037	50.18.253.58	80	tcp	http	3.389920	281	4622	SF	-	0	ShADadFf	7	569	7	4910	(empty)
+1327655810.497589	C1n4vzVyV35w125Dc	192.168.68.10	1030	188.191.194.38	80	tcp	http	27.634946	292	463	RSTO	-	0	ShADadfR	6	540	4	631	(empty)
+1327655793.972213	CBR5qw44KzUa950Mhh	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.173505	626	0	S0	-	0	D	2	682	0	0	(empty)
+1327655849.687156	CKCrbKCL1VCNV9a1f	192.168.68.10	1038	95.57.120.104	443	tcp	-	3.080351	0	0	S0	-	0	S	2	96	0	0	(empty)
+1327655831.169514	CYbklg1mQMsq01zNwa	192.168.68.10	1029	4.2.2.3	53	udp	dns	17.168449	124	359	SF	-	0	Dd	4	236	4	471	(empty)
+1327655858.816593	C2VGYE20Jg9CnRsNu2	192.168.68.10	1038	95.57.120.104	443	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+1327655811.367433	CAQr7D4kMgnRRc9oLg	192.168.68.10	1031	50.18.253.58	80	tcp	http	46.548805	1091	195045	S1	-	0	ShADad	100	5099	148	200973	(empty)
+1327655831.780364	CCxogogPLIYU7YIY1	192.168.68.10	1036	50.18.253.58	80	tcp	http	1.189878	319	1726	S1	-	0	ShADad	4	487	4	1894	(empty)
+1327655849.82666	C0XEdx3xSHPJJafHRl	192.168.68.10	1039	50.18.253.58	80	tcp	http	11.993531	980	81530	SF	-	0	ShADadFf	41	2628	70	84338	(empty)
+1327655812.367541	Cwro8a3pRzDtOeWPG3	192.168.68.10	1034	239.255.255.250	1900	udp	-	6.230742	399	0	S0	-	0	D	3	483	0	0	(empty)
+1327655793.972536	C7J0d33NNlrep5G8P2	192.168.68.10	68	192.168.68.1	67	udp	dhcp	12.589841	314	900	SF	-	0	dD	1	342	3	984	(empty)
+#close	2014-04-03-10-33-38

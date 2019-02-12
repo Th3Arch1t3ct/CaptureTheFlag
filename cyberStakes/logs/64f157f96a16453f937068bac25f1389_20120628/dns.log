@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-51-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1340872261.257118	CZ0rxQDyZTX9Re1He	192.168.115.10	1029	4.2.2.3	53	udp	29585	davidtmurton.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.4.57.189	7172.000000	F
+1340872261.60012	CZ0rxQDyZTX9Re1He	192.168.115.10	1029	4.2.2.3	53	udp	17043	www.ginotrack.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	207.226.174.229	1172.000000	F
+#close	2014-04-03-10-51-32

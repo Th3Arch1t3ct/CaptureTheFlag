@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-35-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1385938767.355512	Cvjavn4m5J3r7OjwAk	192.168.41.10	1035	4.2.2.3	53	udp	43427	blog.defensemk.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.208.154.187	86341.000000	F
+1385938767.514162	Cvjavn4m5J3r7OjwAk	192.168.41.10	1035	4.2.2.3	53	udp	28067	espaceformation.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.28.98.70	841.000000	F
+1385938770.433378	Cvjavn4m5J3r7OjwAk	192.168.41.10	1035	4.2.2.3	53	udp	8610	fonts.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.20.95	1996.000000,49.000000	F
+1385938770.502216	Cvjavn4m5J3r7OjwAk	192.168.41.10	1035	4.2.2.3	53	udp	5537	themes.googleusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlehosted.l.googleusercontent.com,74.125.239.12,74.125.239.11,74.125.239.10	59369.000000,169.000000,169.000000,169.000000	F
+1385938771.481903	Cvjavn4m5J3r7OjwAk	192.168.41.10	1035	4.2.2.3	53	udp	11680	404.imingo.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.28.98.75	900.000000	F
+1385938771.489571	Ci1aYP2olPiGKrrg0j	192.168.41.10	1042	4.2.2.3	53	udp	1191	www3.grooveplus.kjyg.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.116.34.246	86400.000000	F
+1385938772.137878	Cvjavn4m5J3r7OjwAk	192.168.41.10	1035	4.2.2.3	53	udp	53413	www1.ebefeuetfqm2g1.4pu.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.199.250.148	30.000000	F
+1385938772.629758	Cvjavn4m5J3r7OjwAk	192.168.41.10	1035	4.2.2.3	53	udp	40619	l.yimg.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fd-geoycs-l.gy1.b.yahoodns.net,ds-fo-anyycs-l.ay1.b.yahoodns.net,216.115.97.236	3435.000000,191.000000,300.000000	F
+1385938778.200288	Cvjavn4m5J3r7OjwAk	192.168.41.10	1035	4.2.2.3	53	udp	5035	148.250.199.66.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	66-199-250-148.reverse.ezzi.net	3600.000000	F
+1385938778.682739	Cvjavn4m5J3r7OjwAk	192.168.41.10	1035	4.2.2.3	53	udp	62121	www2.q43kioj474s4a447.apfi.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	65.98.83.119	86400.000000	F
+1385938778.363637	Cvjavn4m5J3r7OjwAk	192.168.41.10	1035	4.2.2.3	53	udp	31914	66-199-250-148.reverse.ezzi.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1385938778.363637	Cvjavn4m5J3r7OjwAk	192.168.41.10	1035	4.2.2.3	53	udp	31914	66-199-250-148.reverse.ezzi.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1385938778.363637	Cvjavn4m5J3r7OjwAk	192.168.41.10	1035	4.2.2.3	53	udp	31914	66-199-250-148.reverse.ezzi.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1385938778.363637	Cvjavn4m5J3r7OjwAk	192.168.41.10	1035	4.2.2.3	53	udp	31914	66-199-250-148.reverse.ezzi.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1385938778.363637	Cvjavn4m5J3r7OjwAk	192.168.41.10	1035	4.2.2.3	53	udp	31914	66-199-250-148.reverse.ezzi.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1385938816.809884	CQ2g584EeWDBszO5lj	192.168.41.10	1035	208.115.221.125	53	udp	14248	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	50.31.74.56	7200.000000	F
+#close	2014-04-03-10-35-46

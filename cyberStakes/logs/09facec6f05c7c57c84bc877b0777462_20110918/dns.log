@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-04-19
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1316366778.117636	CpSnPc1ZmCQAEejsld	192.168.76.10	1029	4.2.2.3	53	udp	8845	spinnerschool.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.96.160.131	3573.000000	F
+1316366780.979572	CpSnPc1ZmCQAEejsld	192.168.76.10	1029	4.2.2.3	53	udp	22414	havhavkopek.cx.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.208.34.81	3188.000000	F
+1316366785.745676	CpSnPc1ZmCQAEejsld	192.168.76.10	1029	4.2.2.3	53	udp	1928	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	1447.000000,189.000000	F
+1316366785.847944	CpSnPc1ZmCQAEejsld	192.168.76.10	1029	4.2.2.3	53	udp	16264	i43.photobucket.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cdn.photobucket.com.c.footprint.net,192.221.96.126,206.33.44.126,207.123.55.126	300.000000,111.000000,111.000000,111.000000	F
+1316366785.934918	CpSnPc1ZmCQAEejsld	192.168.76.10	1029	4.2.2.3	53	udp	50313	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,64.4.52.169	2141.000000,227.000000	F
+1316366785.949005	CmSRx81AoKweaQppDj	192.168.76.10	1044	4.2.2.3	53	udp	32393	adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.150.16.117	25446.000000	F
+1316366791.881582	ChLDMj2cmwqkNWNy6	192.168.76.10	1065	4.2.2.3	53	udp	13107	a-softwareupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.212.192.228	3600.000000	F
+1316366791.881767	ClbBFP2qiBC9KmyBv5	192.168.76.10	1065	4.2.2.5	53	udp	13107	a-softwareupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.212.192.228	3600.000000	F
+1316366814.070403	CVj7on3x0mkEFtobHj	192.168.76.10	1029	4.2.2.3	53	udp	17803	cedept.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.210.98.165	14400.000000	F
+1316366816.127686	CVj7on3x0mkEFtobHj	192.168.76.10	1029	4.2.2.3	53	udp	22155	www.yahotigo.co.tv	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.228.133.56	43200.000000	F
+1316366835.025875	CoCrb63EmuQH2UodYk	192.168.76.10	1029	4.2.2.3	53	udp	44165	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.45.104,74.125.45.105,74.125.45.106,74.125.45.147,74.125.45.99,74.125.45.103	43156.000000,231.000000,231.000000,231.000000,231.000000,231.000000,231.000000	F
+#close	2014-04-03-10-04-20

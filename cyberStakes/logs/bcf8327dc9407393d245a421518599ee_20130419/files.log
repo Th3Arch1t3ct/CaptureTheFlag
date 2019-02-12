@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-41-29
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1366397679.265692	FQRKGQTj2A7RWdwfe	68.15.0.244	192.168.122.10	CdQhiN19dUCBU0wcmd	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	812	812	0	0	F	-	3f145af9d1d95e39ee15d4184d4791f3	e205d88535308c92c40959599663689b153b593c	-	-
+1366397679.574482	FL0Gy64lxIpNDg8dIa	68.15.0.244	192.168.122.10	CdQhiN19dUCBU0wcmd	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	1174	1174	0	0	F	-	71bc1af6047ff6f2d8843bd04b81c6ab	e04774ec7e16937d2b6986cc3c2d965a8618f935	-	-
+1366397680.056178	FAbsm92CYkibdcpzKe	68.15.0.244	192.168.122.10	CdQhiN19dUCBU0wcmd	HTTP	0	MD5,SHA1	application/x-dosexec	-	56.514272	-	F	2723264	2723264	0	0	F	-	5c82be7ad1775b67916ee19c15b99331	7dfa98be78249921dd0eedb9a3dd809e7d215c8d	-	-
+1366397736.864569	FMrYyL3F3F3dhkWRc	23.67.61.176	192.168.122.10	CDZ3zP1FE0fsRxBp62	HTTP	0	MD5,SHA1	binary	-	0.000000	-	F	558	558	0	0	F	-	3cc0012f96f8f44164c18d7de05023d9	c8feb560d751fe720c8bdb53f5e78aa92abb9a9e	-	-
+1366397737.326456	FOkfFw2EIjke7eWRLi	68.15.0.244	192.168.122.10	CdQhiN19dUCBU0wcmd	HTTP	0	MD5,SHA1	application/vnd.ms-cab-compressed	-	10.225472	-	F	503700	2656969	0	0	F	-	dca5c0824f31ca89c5f09ca0fe69dace	9c0cb91cddb6d522a3f72430b4b34f6ce4448071	-	-
+#close	2014-04-03-10-41-30

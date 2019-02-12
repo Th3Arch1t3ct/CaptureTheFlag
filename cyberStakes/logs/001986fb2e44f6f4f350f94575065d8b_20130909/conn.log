@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-50-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1378732644.213554	CqLh581Ror6Gzr4jt4	192.168.85.10	1034	195.66.79.29	80	tcp	http	2.457159	975	170369	RSTO	-	0	ShADadR	94	4743	120	175177	(empty)
+1378732643.650357	C8RG8K1YnrQ8lsn2r7	192.168.85.10	1030	4.2.2.3	53	udp	dns	1.634995	74	141	SF	-	0	Dd	2	130	2	197	(empty)
+1378732645.219029	CJNVuk18Q4iyrxRcX8	192.168.85.10	1040	4.2.2.3	53	udp	dns	0.217451	41	57	SF	-	0	Dd	1	69	1	85	(empty)
+1378732644.199186	CXEDPn4eK7Cllqlw2	192.168.85.10	1032	195.66.79.29	80	tcp	http	12.855146	1159	64537	RSTO	-	0	ShADadR	42	2847	47	66425	(empty)
+1378732626.273868	CdWawa2vaKsZll5AYa	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.001132	626	0	S0	-	0	D	2	682	0	0	(empty)
+1378732626.274433	Ch24E013U09N6IWC22	192.168.85.10	68	192.168.85.1	67	udp	dhcp	13.085141	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1378732644.368479	CwmMQh27fMuh63VcA5	192.168.85.10	1037	239.255.255.250	1900	udp	-	6.347957	399	0	S0	-	0	D	3	483	0	0	(empty)
+1378732645.286174	CcGV9BXT3rUKB0Lw3	192.168.85.10	1041	176.121.11.24	80	tcp	http	61.792615	283	405	RSTO	-	0	ShADadR	5	491	3	533	(empty)
+1378732644.20757	C3yXfz1MA8ndm93p4a	192.168.85.10	1033	195.66.79.29	80	tcp	http	62.872547	842	4816	RSTO	-	0	ShADadR	9	1210	7	5104	(empty)
+1378732643.659998	CO8oxyJOmPSfinVT7	192.168.85.10	1031	195.66.79.29	80	tcp	http	63.419783	1136	174982	RSTO	-	0	ShADadR	87	4624	125	179990	(empty)
+1378732645.213508	CjWnlbEcwzLmrQY1	192.168.85.10	1039	195.66.79.29	80	tcp	http	61.865927	282	27603	RSTO	-	0	ShADadR	19	1050	21	28451	(empty)
+1378732645.45305	CwkccN1QNoyjV73g33	192.168.85.10	1042	176.121.11.24	80	tcp	http	66.625996	802	22073	RSTO	-	0	ShADadfR	16	1450	20	22881	(empty)
+#close	2014-04-03-10-50-00

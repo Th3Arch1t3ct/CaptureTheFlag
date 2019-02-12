@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-02-41
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1340860106.284028	CxUpPH2BnhR29goGRd	192.168.82.10	1030	119.205.194.151	80	1	GET	noteshopping.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	279	302	Found	-	-	-	(empty)	-	-	-	-	-	FKujEN3ZPQ7e9BvWuh	text/html
+1340860107.702005	C7YZG42vQz4STQWIPh	192.168.82.10	1031	119.205.194.11	80	1	GET	www.danawa.com	/DSecurity/DSecurity.js	http://noteshopping.com/main/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	977	200	OK	-	-	-	(empty)	-	-	-	-	-	F6YpVf39babTA84A19	text/plain
+1340860106.483296	CxUpPH2BnhR29goGRd	192.168.82.10	1030	119.205.194.151	80	2	GET	noteshopping.com	/main/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	39177	200	OK	-	-	-	(empty)	-	-	-	-	-	F4R7Qc1cQbzZb5J2jd	text/html
+1340860107.988699	C7YZG42vQz4STQWIPh	192.168.82.10	1031	119.205.194.11	80	2	GET	www.danawa.com	/DSecurity/setup.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3561912	200	OK	-	-	-	(empty)	-	-	-	-	-	F0nady2Hxzdp6rebhe	application/x-dosexec
+1340860126.691015	CBHsxO1jHtcs8f1z7e	192.168.82.10	1036	204.160.105.254	80	1	GET	www.download.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/authrootseq.txt	-	Microsoft-CryptoAPI/5.131.2600.2180	0	18	200	OK	-	-	-	(empty)	-	-	-	-	-	FTTpzU2V4h9WtarUVb	text/plain
+1340860126.712296	CBHsxO1jHtcs8f1z7e	192.168.82.10	1036	204.160.105.254	80	2	GET	www.download.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/authrootstl.cab	-	Microsoft-CryptoAPI/5.131.2600.2180	0	48483	200	OK	-	-	-	(empty)	-	-	-	-	-	F292bR1kvuTAeDXQAc	application/vnd.ms-cab-compressed
+1340860126.889271	CsYpr82pyl7TydFJmh	192.168.82.10	1037	199.7.48.190	80	1	GET	crl.thawte.com	/ThawtePCA.crl	-	Microsoft-CryptoAPI/5.131.2600.2180	0	500	200	OK	-	-	-	(empty)	-	-	-	-	-	FVy5pk29dF7uLROIal	binary
+1340860126.954193	C9eTdu8cyz7rvwNxi	192.168.82.10	1038	199.7.48.190	80	1	GET	cs-g2-crl.thawte.com	/ThawteCSG2.crl	-	Microsoft-CryptoAPI/5.131.2600.2180	0	106012	200	OK	-	-	-	(empty)	-	-	-	-	-	FC714v1VesjudmlbVi	binary
+#close	2014-04-03-10-02-41

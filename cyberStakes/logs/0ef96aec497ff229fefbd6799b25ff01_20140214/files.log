@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-38-26
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1392417885.133998	FmpOEIIUlhC9ZWLll	58.218.211.146	192.168.53.10	CkzW8E3f8hprDY6d08	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	802	802	0	0	F	-	0ba5e42facde4268958fdf171fea0273	d5894325bbc857bcdab9130cd4fc234cd8eebffd	-	-
+1392417885.315089	FohqNpX9qs1nyijfh	58.218.211.146	192.168.53.10	CkzW8E3f8hprDY6d08	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	1340	1340	0	0	F	-	77b77a17dc22f64ea4f8b5f6ace560c6	ad446c718edf74e007b07a50e68d909fee3edcbc	-	-
+1392417885.174637	FFoFU92svB3gp5Pm1a	58.218.211.146	192.168.53.10	Cc84b31wnJRgliidu9	HTTP	0	MD5,SHA1	text/plain	-	0.185220	-	F	6107	6107	0	0	F	-	3e7d57ba6a0c82546c8b3adfa86ee5fe	2a9d082d1a6c0cb19c3aec604fa69bdabe5eed88	-	-
+1392417885.178632	FL7xfKDmVxCJLCPC3	58.218.211.146	192.168.53.10	CD7GHt4FxsvQ1lA22e	HTTP	0	MD5,SHA1	text/plain	-	0.187546	-	F	3359	3359	0	0	F	-	ae56d02f42b582e11647155fef36ceda	0042f7798243c5258a68fdec9c311690275c4711	-	-
+1392417885.376123	FDbjUn4ryxBWoIASsh	115.28.9.205	192.168.53.10	CHKTfo3G3jSieTxw13	HTTP	0	MD5,SHA1	application/x-dosexec	gy.exe	0.000045	-	F	5312	5312	0	0	F	-	7a41ea4592d19cb9b8d7f04e8f0bf78a	f417d2ee06773d53678339c72666fdcc37ac43da	-	-
+1392417884.634109	FJr87H0SyoR7qLScb	58.218.211.146	192.168.53.10	CPzDxceofQ1ZlYHqc	HTTP	0	MD5,SHA1	text/html	-	0.823573	-	F	32363	32363	0	0	F	-	bae42f283f634935c41f0b54d1308a29	cb2a8938b75635be2994eb595f65b307eb5a475f	-	-
+1392417885.13683	FjDuajeFemFyhRwvg	58.218.211.146	192.168.53.10	Cj2hlcxYi2oz9I2vk	HTTP	0	MD5,SHA1	text/plain	-	0.324842	-	F	6178	6178	0	0	F	-	062be222903d08387822e8b7d3f1c56e	6f54a5607fefcec2213a8dea5d0c48ef41ee100f	-	-
+1392417885.154521	FPempb4Ex1BpKXG0ah	58.218.211.146	192.168.53.10	CdqY3j1ndo7LPouUp1	HTTP	0	MD5,SHA1	text/plain	-	0.324216	-	F	8480	8480	0	0	F	-	88fbea0c545ed01525ea2a52daafdf38	6fa41a81196a9641d19028b0589fe0aad9dc7b0d	-	-
+1392417885.491527	FzjQt14c86PRsbUq9	58.218.211.146	192.168.53.10	CkzW8E3f8hprDY6d08	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	989	989	0	0	F	-	2856a3128561645c7ca990b80a5dba61	d78863cb1d1b9655d9c44796f0876fc8fe3a4077	-	-
+#close	2014-04-03-10-38-27

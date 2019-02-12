@@ -1,0 +1,43 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-04-42
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1338093764.560202	Co21Ob45qxw6c0ivll	192.168.23.10	1030	184.173.124.66	80	1	GET	deannimmer.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2462	200	OK	-	-	-	(empty)	-	-	-	-	-	FaMXx8cU1wfeFuza8	text/html
+1338093765.178306	Co21Ob45qxw6c0ivll	192.168.23.10	1030	184.173.124.66	80	2	GET	deannimmer.com	/styles_dn.css	http://deannimmer.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5170	200	OK	-	-	-	(empty)	-	-	-	-	-	F9F6ON3Clhdh3wiGPb	text/plain
+1338093765.432199	ClXgm04zyxsRBKnip5	192.168.23.10	1031	188.72.248.220	80	1	GET	wareself.com	/13913773.html	http://deannimmer.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	12150	200	OK	-	-	-	(empty)	-	-	-	-	-	FCCPXi1ihKAMBqNsL4	text/html
+1338093765.241525	CzKvNw82gtJn5PBU3	192.168.23.10	1032	184.173.124.66	80	1	GET	deannimmer.com	/js/scripts.js	http://deannimmer.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1857	200	OK	-	-	-	(empty)	-	-	-	-	-	FzyGnY29TivnoutjLk	text/plain
+1338093766.523927	CzKvNw82gtJn5PBU3	192.168.23.10	1032	184.173.124.66	80	2	GET	deannimmer.com	/images/logo_home.gif	http://deannimmer.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	8412	200	OK	-	-	-	(empty)	-	-	-	-	-	Fpr4I4fG9Y560fM64	image/gif
+1338093766.514071	Co21Ob45qxw6c0ivll	192.168.23.10	1030	184.173.124.66	80	3	GET	deannimmer.com	/upload/content/Untitled-344-w.jpg	http://deannimmer.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	121613	200	OK	-	-	-	(empty)	-	-	-	-	-	FZhSg11SD6rupNjSik	image/jpeg
+1338093766.512733	ClXgm04zyxsRBKnip5	192.168.23.10	1031	188.72.248.220	80	2	GET	wareself.com	/28629.pdf	http://wareself.com/13913773.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	41358	200	OK	-	-	-	(empty)	-	-	-	-	-	FQq6pA1q7g6XJAmam5	application/pdf
+1338093771.573001	CVnz9H3ulbSDIlD8eg	192.168.23.10	1037	188.72.248.220	80	1	GET	wareself.com	/24842.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	58622	200	OK	-	-	-	(empty)	-	-	-	-	-	FdhrSh4z5KLPiuCic1	application/zip
+1338093774.09661	CVnz9H3ulbSDIlD8eg	192.168.23.10	1037	188.72.248.220	80	2	GET	wareself.com	/24842.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	58622	200	OK	-	-	-	(empty)	-	-	-	-	-	Fi50AX3brXlmQmo33k	application/zip
+1338093775.233714	CVnz9H3ulbSDIlD8eg	192.168.23.10	1037	188.72.248.220	80	3	GET	wareself.com	/24842.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	58622	200	OK	-	-	-	(empty)	-	-	-	-	-	FigFZg3PbrPZP1xRQ9	application/zip
+1338093777.196289	ClXgm04zyxsRBKnip5	192.168.23.10	1031	188.72.248.220	80	3	GET	wareself.com	/2.html	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	31744	200	OK	-	-	-	(empty)	-	-	-	-	-	FQByywS7SRPEV7F49	application/x-dosexec
+1338093777.293745	CVnz9H3ulbSDIlD8eg	192.168.23.10	1037	188.72.248.220	80	4	GET	wareself.com	/1.html	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	31744	200	OK	-	-	-	(empty)	-	-	-	-	-	FN78OXHWmRyg16MMg	application/x-dosexec
+1338093784.768025	CN56EU22WgDRGFiCAa	192.168.23.10	1038	178.162.167.60	80	1	GET	178.162.167.60	/112687.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	272384	200	OK	-	-	-	(empty)	-	-	-	-	-	Fl2O6NLxM0yJ3HcKc	binary
+1338093790.141488	CN56EU22WgDRGFiCAa	192.168.23.10	1038	178.162.167.60	80	2	GET	178.162.167.60	/112687.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	162304	200	OK	-	-	-	(empty)	-	-	-	-	-	FAtLWg2fJhqVMZ8VM	binary
+1338093792.6861	CN56EU22WgDRGFiCAa	192.168.23.10	1038	178.162.167.60	80	3	GET	178.162.167.60	/112687.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	520192	200	OK	-	-	-	(empty)	-	-	-	-	-	FhVo9g1XkgzBIIlqCi	binary
+1338093800.738946	CN56EU22WgDRGFiCAa	192.168.23.10	1038	178.162.167.60	80	4	GET	178.162.167.60	/112687.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	161792	200	OK	-	-	-	(empty)	-	-	-	-	-	FfJavF3K48eDObM6x1	binary
+1338093802.09274	CN56EU22WgDRGFiCAa	192.168.23.10	1038	178.162.167.60	80	5	GET	178.162.167.60	/112687.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	79328	200	OK	-	-	-	(empty)	-	-	-	-	-	FJYEG04X88HGpajtCh	binary
+1338093802.972607	CN56EU22WgDRGFiCAa	192.168.23.10	1038	178.162.167.60	80	6	GET	178.162.167.60	/112687.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	484930	200	OK	-	-	-	(empty)	-	-	-	-	-	Fo5a2L1Ju44Y7ta9ba	binary
+1338093808.758517	CN56EU22WgDRGFiCAa	192.168.23.10	1038	178.162.167.60	80	7	GET	178.162.167.60	/112687.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	159744	200	OK	-	-	-	(empty)	-	-	-	-	-	F6FZiX3edvsSw71aH8	binary
+1338093810.140407	CN56EU22WgDRGFiCAa	192.168.23.10	1038	178.162.167.60	80	8	GET	178.162.167.60	/112687.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	666	200	OK	-	-	-	(empty)	-	-	-	-	-	FVLKK83nDWvjIFOOMg	binary
+1338093811.758241	C7eQcm11XP7OTl2qYe	192.168.23.10	1039	85.17.103.30	80	1	POST	uplvstreamline.com	/ssl/strong/encryption/lvl.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	118	83792	200	OK	-	-	-	(empty)	-	-	-	F9fWn31OHax6nr9sG3	binary	FIO3v5H4IKMO7ecG5	binary
+1338093821.141523	CaBUdg3Ci4Wo7N9Gp7	192.168.23.10	1041	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	29	200	OK	-	-	-	(empty)	-	-	-	-	-	F3AJ8PoDXT43x5q98	text/plain
+1338093821.409133	CGpR082xUvghNqcpW5	192.168.23.10	1042	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	302	200	OK	-	-	-	(empty)	-	-	-	-	-	FDVt88ZVzT9BrPsbe	image/gif
+1338093821.454453	CUyTjX2lW4lqhaAC5f	192.168.23.10	1044	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=2&d=7&s=121	-	Opera/9 (Windows NT 5.1; US; x86)	0	668	200	OK	-	-	-	(empty)	-	-	-	-	-	FInMm03fEdrr7gijYa	image/gif
+1338093822.316566	CxjHXC1K696q4kmhcg	192.168.23.10	1046	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=3&d=7&s=130	-	Opera/9 (Windows NT 5.1; US; x86)	0	677	200	OK	-	-	-	(empty)	-	-	-	-	-	FQefYi36TNUgkQpk51	image/gif
+1338093822.403783	CISpDW29n4ifEFNaT5	192.168.23.10	1048	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=4&d=7&s=131	-	Opera/9 (Windows NT 5.1; US; x86)	0	2085	200	OK	-	-	-	(empty)	-	-	-	-	-	FLAzFTWC4ahbdx7g	image/gif
+1338093822.511094	CWpMS92u62Pthl8nvc	192.168.23.10	1050	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=5&d=7&s=1	-	Opera/9 (Windows NT 5.1; US; x86)	0	1496	200	OK	-	-	-	(empty)	-	-	-	-	-	F1OojU2fb89W3uH8j1	image/gif
+1338093822.546261	CAa9zc4MXr3XfOGA6	192.168.23.10	1052	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=6&d=7&s=20	-	Opera/9 (Windows NT 5.1; US; x86)	0	573	200	OK	-	-	-	(empty)	-	-	-	-	-	FuTWlk1lzsshevUon6	image/gif
+1338093824.452005	Co2pQS5F1i2j08Kci	192.168.23.10	1054	220.164.140.246	80	1	GET	220.164.140.246	/api/urls/?ts=d05e4a4a&affid=56300	220.164.140.246	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	56	200	OK	-	-	-	(empty)	-	-	-	-	-	FKwdkW2rHhbH6nRpK	text/plain
+1338093826.469686	CUmIov4kSxqkiKkC7k	192.168.23.10	1057	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=7&d=7&s=21	-	Opera/9 (Windows NT 5.1; US; x86)	0	1023	200	OK	-	-	-	(empty)	-	-	-	-	-	Fe5V5i3uNy7FZOXtcl	image/gif
+1338093826.973596	Cjo93gP5bK6DTm3r5	192.168.23.10	1060	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=8&d=7&s=30	-	Opera/9 (Windows NT 5.1; US; x86)	0	2140	200	OK	-	-	-	(empty)	-	-	-	-	-	FJgbc92voBVV9wpbkb	image/gif
+1338093827.061398	C6MZPM1a6mJxfgZzub	192.168.23.10	1063	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=526&c=9&d=7&s=31	-	Opera/9 (Windows NT 5.1; US; x86)	0	607	200	OK	-	-	-	(empty)	-	-	-	-	-	FbeUfd4xTjCWsCcVF7	image/gif
+1338093827.552019	Camjv62cIg1NJytdu9	192.168.23.10	1066	220.164.140.246	80	1	GET	220.164.140.246	/api/stats/install/?ts=d05e4a4a&affid=56300&ver=3040003&group=sf	220.164.140.246	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1338093827.174278	CrQMJ04GbJ8HbAViN5	192.168.23.10	1061	195.210.47.109	80	1	GET	navozmi.ipq.co	/f/1100.exe?ts=d05e4a4a&affid=5630	navozmi.ipq.co	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	194560	200	OK	-	-	-	(empty)	-	-	-	-	-	F54zBy3fWyxqnRzwQ3	application/x-dosexec
+#close	2014-04-03-10-04-42

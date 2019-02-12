@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-56-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1336951093.345241	CXAUXD1Vam2Htq47Tb	192.168.35.10	1031	67.192.1.13	80	1	GET	www.websitesettings.com	/resources/images/tile.png	http://bigblue007.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	-	-
+1336951093.167365	C6gX1tlZiVEH0Ytob	192.168.35.10	1030	174.143.122.196	80	1	GET	bigblue007.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	17357	200	OK	-	-	-	(empty)	-	-	-	-	-	FS7Rqo4mop6fTPwMjk	text/html
+1336951095.780732	CE2twq3bWRnUJ60NY8	192.168.35.10	1036	98.124.199.1	80	1	GET	karenbrowntx.com	/	http://bigblue007.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1336951095.786051	C6Nizk3d6p68J4gXq6	192.168.35.10	1037	98.124.199.1	80	1	GET	karenbrowntx.com	/WlcaT/	http://bigblue007.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1336951095.793915	CWl42M2LeWjnme1YQ5	192.168.35.10	1038	98.124.199.1	80	1	GET	karenbrowntx.com	/	http://bigblue007.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	178	302	Object moved	-	-	-	(empty)	-	-	-	-	-	FGPkmu3su1rdp2suy9	text/html
+1336951096.127042	CCb72O25fTluKgxBqe	192.168.35.10	1039	83.69.226.72	80	1	GET	designbyallison.com	/main.php?page=5e0cdb0ca7f86ed0	http://bigblue007.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	20839	200	OK	-	-	-	(empty)	-	-	-	-	-	FQkvrpDy8T1POwBQa	binary
+1336951097.384315	CCb72O25fTluKgxBqe	192.168.35.10	1039	83.69.226.72	80	2	GET	designbyallison.com	/w.php?f=97d19&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	67072	200	OK	-	-	-	(empty)	-	-	-	-	-	FHtu3Y13WIeWZtVBVl	application/x-dosexec
+1336951098.176499	CCb72O25fTluKgxBqe	192.168.35.10	1039	83.69.226.72	80	3	GET	designbyallison.com	/data/ap2.php	http://designbyallison.com/main.php?page=5e0cdb0ca7f86ed0	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	32468	200	OK	-	-	-	(empty)	-	-	-	-	-	FHYWbi4XFHI375nSxi	application/pdf
+1336951098.542038	CLiKi92THHGKL6e1ke	192.168.35.10	1040	83.69.226.72	80	1	GET	designbyallison.com	/data/field.swf	http://bigblue007.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1499	200	OK	-	-	-	(empty)	-	-	-	-	-	FSv00c3MLrGBgSgqS6	application/x-shockwave-flash
+1336951106.79216	Cdf0og2stOxlVpFcNj	192.168.35.10	1041	198.87.51.33	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1759	200	OK	-	-	-	(empty)	-	-	-	-	-	Fno0wm4MO8PEaYmno6	text/html
+1336951106.779414	CLiKi92THHGKL6e1ke	192.168.35.10	1040	83.69.226.72	80	2	GET	designbyallison.com	/data/score.swf	http://designbyallison.com/data/field.swf	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6972	200	OK	-	-	-	(empty)	-	-	-	-	-	F8yO1In0jWHJj9Ho3	application/x-shockwave-flash
+#close	2014-04-03-09-56-30

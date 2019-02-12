@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-46-01
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1314384305.454956	CjvNtOcmWJugBpGWb	192.168.15.10	1043	199.59.149.232	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=api.twitter.com,OU=Twitter Platform,O=Twitter\, Inc.,L=San Francisco,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G2,OU=Terms of use at https://www.verisign.com/rpa (c)09,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1274158800.000000	1337317199.000000	-	-	-	345f951d303da2d8d0b13fd0cdb8ec32	ok
+1314384307.531722	CT88SS3YnX1pa4TBU9	192.168.15.10	1047	72.21.214.42	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.s3.amazonaws.com,O=Amazon.com Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1292392800.000000	1387432799.000000	-	-	-	e3cc103aacd8beea27f01fd08da597bd	ok
+1314384307.845292	C8JXIc5Q0aJdF4ge7	192.168.15.10	1050	74.125.47.95	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleapis.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1313138953.000000	1344761953.000000	-	-	-	af9d1313158662446780f33e710d6a2a	ok
+#close	2014-04-03-10-46-01

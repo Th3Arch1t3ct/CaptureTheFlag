@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-57-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1375141240.692007	CrzJCsM7xf5OSbXce	192.168.119.10	1030	4.2.2.3	53	udp	3484	chenyikm.88ka.cn	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	gjserver-hz2.kalegou.com,60.184.66.137	569.000000,570.000000	F
+1375141243.682322	CrzJCsM7xf5OSbXce	192.168.119.10	1030	4.2.2.3	53	udp	53919	www.download.windowsupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.download.windowsupdate.nsatc.net,main.dl.wu.akadns.net,dom.dl.wu.akadns.net,dl.wu.ms.edgesuite.net,a26.d.akamai.net,96.17.148.18,96.17.148.40	2368.000000,148.000000,166.000000,295.000000,17259.000000,11.000000,11.000000	F
+1375141243.763648	CrzJCsM7xf5OSbXce	192.168.119.10	1030	4.2.2.3	53	udp	26777	crl.startssl.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.startssl.com.edgesuite.net,a1603.g1.akamai.net,63.234.226.17,63.234.226.33	64393.000000,6307.000000,20.000000,20.000000	F
+1375141243.80141	CrzJCsM7xf5OSbXce	192.168.119.10	1030	4.2.2.3	53	udp	48792	crls.wosign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	123.125.161.216,122.152.175.8	300.000000,300.000000	F
+1375141245.815834	CrzJCsM7xf5OSbXce	192.168.119.10	1030	4.2.2.3	53	udp	18075	wpa.qq.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	webproxy-sz.qplus.com,103.7.28.63,103.7.28.64,103.7.28.62	300.000000,65.000000,65.000000,65.000000	F
+1375141246.883618	CrzJCsM7xf5OSbXce	192.168.119.10	1030	4.2.2.3	53	udp	29595	pub.idqqimg.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	qplus.tc.qq.com,qplus.tcdn.qq.com,61.158.251.8,61.158.251.9,119.167.141.44,119.167.141.45,119.167.195.45,113.207.16.48,113.207.16.49,119.190.4.51,60.210.9.51,119.188.94.51,119.190.4.52,60.210.9.52,119.188.94.52,119.190.4.53,60.210.9.53,119.188.94.53	65.000000,3365.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000	F
+#close	2014-04-03-09-57-37

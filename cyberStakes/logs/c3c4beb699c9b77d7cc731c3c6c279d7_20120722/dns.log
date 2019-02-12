@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-52-40
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1342932559.919522	CXM2iI1VhvD3jjyffk	192.168.124.10	1029	4.2.2.3	53	udp	2955	topnice.dk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.202.110.211	10775.000000	F
+1342932561.133462	CXM2iI1VhvD3jjyffk	192.168.124.10	1029	4.2.2.3	53	udp	48779	michaelmazur.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	71.18.7.196	13445.000000	F
+1342932561.286077	CXM2iI1VhvD3jjyffk	192.168.124.10	1029	4.2.2.3	53	udp	16520	em-publicaciones.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.98.144.31	300.000000	F
+1342932582.522892	CPcBhrAhReMCDTLXe	192.168.124.10	1029	4.2.2.3	53	udp	7566	31.144.98.82.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	hl89.dinaserver.com	300.000000	F
+1342932582.664906	CPcBhrAhReMCDTLXe	192.168.124.10	1029	4.2.2.3	53	udp	46222	hl89.dinaserver.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.98.144.31	300.000000	F
+#close	2014-04-03-09-52-40

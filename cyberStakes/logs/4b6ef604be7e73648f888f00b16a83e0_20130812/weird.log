@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-25-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1376329609.404497	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1376329618.557061	CRn6IECFajP2DAoC1	192.168.66.10	1091	69.172.216.55	80	unescaped_special_URI_char	-	F	bro
+1376329621.255336	CVnFuA1t2A3dgdZ5U8	192.168.66.10	1105	69.172.216.55	80	unescaped_special_URI_char	-	F	bro
+1376329621.272115	CyGgts1cVRAfrl5Hma	192.168.66.10	1106	69.172.216.55	80	unescaped_special_URI_char	-	F	bro
+1376329622.263607	CAkVAt1h7D9RdM3Vn8	192.168.66.10	1107	69.172.216.55	80	unescaped_special_URI_char	-	F	bro
+1376329632.290398	C2PSAY3Z1a0E4Rx7sk	192.168.66.10	1122	69.172.216.55	80	unescaped_special_URI_char	-	F	bro
+1376329636.288923	C0FyaY2DIhUK0ivq06	192.168.66.10	1132	69.172.216.55	80	unescaped_special_URI_char	-	F	bro
+1376329643.084559	CVmIqGqaFXERuYjK1	192.168.66.10	1135	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1376329643.090394	Cs8st61c2JwutW7FQi	192.168.66.10	1136	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1376329643.116707	C3VyAs4f10TBEWlVHg	192.168.66.10	1137	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1376329643.119192	CqrXii4CAXoDv4Yx1j	192.168.66.10	1138	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1376329643.120723	CgrbOu4Nz6mfwajaSg	192.168.66.10	1139	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1376329643.122078	CVv7Fk4LhMSjquStY	192.168.66.10	1140	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1376329643.123638	CMph4EOfy1E4UQpz1	192.168.66.10	1141	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1376329643.144016	CxL6g41uZZO2ydIQji	192.168.66.10	1142	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1376329643.169815	CQh5MD41Ao79I0yhyh	192.168.66.10	1143	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1376329643.239369	CF58kb4zwZt1s3uqj	192.168.66.10	1144	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1376329643.240018	CO8CBNMPpdEDQfdi2	192.168.66.10	1145	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+#close	2014-04-03-10-25-34

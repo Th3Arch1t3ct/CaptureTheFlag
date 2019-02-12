@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-51-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1361496534.7823	Cq645p4PuzNjzvYiIf	192.168.45.10	1029	4.2.2.3	53	udp	11917	acecone.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	119.18.57.67	14382.000000	F
+1361496537.928449	Cq645p4PuzNjzvYiIf	192.168.45.10	1029	4.2.2.3	53	udp	2191	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.140.100,74.125.140.139,74.125.140.113,74.125.140.101,74.125.140.138,74.125.140.102	84359.000000,202.000000,202.000000,202.000000,202.000000,202.000000,202.000000	F
+1361496538.426378	CmnP2a369ae1T1UAyi	192.168.45.10	1038	4.2.2.3	53	udp	7817	hits.informer.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.228.22.210	37416.000000	F
+1361496538.46557	CmnP2a369ae1T1UAyi	192.168.45.10	1038	4.2.2.3	53	udp	27786	download.skype.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	download-akm.skype.com.edgesuite.net,a1306.cl.akamai.net,72.246.45.59,72.246.45.72	62.000000,20229.000000,20.000000,20.000000	F
+1361496538.37945	Cq645p4PuzNjzvYiIf	192.168.45.10	1029	4.2.2.3	53	udp	61576	secure.leadforensics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.94.198.5	3600.000000	F
+1361496538.680167	CmnP2a369ae1T1UAyi	192.168.45.10	1038	4.2.2.3	53	udp	37002	www.linkedin.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	la.linkedin.com,216.52.242.80	40.000000,8.000000	F
+1361496538.737981	CmnP2a369ae1T1UAyi	192.168.45.10	1038	4.2.2.3	53	udp	33931	apis.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	plus.l.google.com,74.125.134.100,74.125.134.138,74.125.134.102,74.125.134.139,74.125.134.101,74.125.134.113	603063.000000,45.000000,45.000000,45.000000,45.000000,45.000000,45.000000	F
+1361496539.024966	CmnP2a369ae1T1UAyi	192.168.45.10	1038	4.2.2.3	53	udp	61317	www.download.windowsupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.download.windowsupdate.nsatc.net,main.dl.wu.akadns.net,dom.dl.wu.akadns.net,dl.wu.ms.edgesuite.net,a26.d.akamai.net,72.246.45.27,72.246.45.58,72.246.45.49,72.246.45.32	1178.000000,232.000000,233.000000,177.000000,19969.000000,3.000000,3.000000,3.000000,3.000000	F
+1361496568.089834	C3dg252zdb9IIZpqE4	192.168.45.10	1038	4.2.2.3	53	udp	7046	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,64.4.52.169	1856.000000,300.000000	F
+1361496568.316859	C3dg252zdb9IIZpqE4	192.168.45.10	1038	4.2.2.3	53	udp	34951	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	512.000000,600.000000	F
+1361496568.704326	C3dg252zdb9IIZpqE4	192.168.45.10	1038	4.2.2.3	53	udp	39296	api.skype.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	clientapi.skype.akadns.net,91.190.218.17	283.000000,284.000000	F
+#close	2014-04-03-10-51-13

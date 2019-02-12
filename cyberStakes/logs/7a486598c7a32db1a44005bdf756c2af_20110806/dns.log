@@ -1,0 +1,52 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-28-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1312651098.298887	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	31887	jmmodels.com.ar	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	200.49.153.52	273.000000	F
+1312651099.451023	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	5005	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,209.170.118.17	7668.000000,193.000000,16176.000000,12.000000	F
+1312651100.860232	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	22156	sausagesments.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.226.78.49	3600.000000	F
+1312651152.459048	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	34951	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651154.469158	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	34951	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651156.469269	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	34951	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651160.534479	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	34951	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651152.459048	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	34951	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651154.469158	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	34951	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651156.469269	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	34951	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651160.534479	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	34951	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651131.226768	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	7049	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651133.267873	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	7049	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651135.297212	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	7049	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651139.316338	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	7049	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651131.226768	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	7049	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651133.267873	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	7049	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651135.297212	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	7049	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651139.316338	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	7049	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651167.66491	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	56710	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651169.781714	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	56710	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651171.78279	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	56710	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651175.782129	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	56710	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651167.66491	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	56710	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651169.781714	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	56710	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651171.78279	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	56710	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651175.782129	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	56710	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651115.277753	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	25739	linkschooners.com	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1312651117.359566	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	25739	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651119.40006	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	25739	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651123.970307	Cm9DBh3TrmVCyoKWZb	192.168.121.10	1029	4.2.2.3	53	udp	25739	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651153.454306	Cb5Fy23mv6589dHqcf	192.168.121.10	1029	4.2.2.5	53	udp	34951	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651156.469406	Cb5Fy23mv6589dHqcf	192.168.121.10	1029	4.2.2.5	53	udp	34951	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651160.534619	Cb5Fy23mv6589dHqcf	192.168.121.10	1029	4.2.2.5	53	udp	34951	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651132.219983	Cb5Fy23mv6589dHqcf	192.168.121.10	1029	4.2.2.5	53	udp	7049	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651135.297336	Cb5Fy23mv6589dHqcf	192.168.121.10	1029	4.2.2.5	53	udp	7049	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651139.316516	Cb5Fy23mv6589dHqcf	192.168.121.10	1029	4.2.2.5	53	udp	7049	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651168.666256	Cb5Fy23mv6589dHqcf	192.168.121.10	1029	4.2.2.5	53	udp	56710	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651171.782929	Cb5Fy23mv6589dHqcf	192.168.121.10	1029	4.2.2.5	53	udp	56710	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651175.782286	Cb5Fy23mv6589dHqcf	192.168.121.10	1029	4.2.2.5	53	udp	56710	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651116.268381	Cb5Fy23mv6589dHqcf	192.168.121.10	1029	4.2.2.5	53	udp	25739	linkschooners.com	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1312651119.401687	Cb5Fy23mv6589dHqcf	192.168.121.10	1029	4.2.2.5	53	udp	25739	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1312651123.970496	Cb5Fy23mv6589dHqcf	192.168.121.10	1029	4.2.2.5	53	udp	25739	linkschooners.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-28-31

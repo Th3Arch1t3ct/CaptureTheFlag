@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-40-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1340843365.874771	C7qJKj2Gp5A5OdYdhi	192.168.58.10	1030	82.165.213.220	80	1	GET	chronik-olderup.de	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6976	200	OK	-	-	-	(empty)	-	-	-	-	-	FYeSLON19EUs5ltr6	text/html
+1340843366.244624	CFHHwh3kYdE4lz9VI9	192.168.58.10	1031	50.22.126.97	80	1	GET	nikeeyb.com	/stats.php	http://chronik-olderup.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1340843366.451446	CZdpA12Yuzcfs7TFN7	192.168.58.10	1034	178.162.137.64	80	1	GET	178.162.137.64	/63693516.html	http://chronik-olderup.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	12218	200	OK	-	-	-	(empty)	-	-	-	-	-	Fk6YS9CPh7KJZojY6	text/html
+1340843366.351039	CyzPKI3IhAULzAl6N	192.168.58.10	1033	87.106.255.91	80	1	GET	www.netzaehler.de	/counter.php?i=10233&r=&n=Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)&p=Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)&sd=24&sw=800x600	http://chronik-olderup.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	166	200	OK	-	-	-	(empty)	-	-	-	-	-	F4G9ol2wbN1uz2Chl8	image/png
+1340843366.181462	C7qJKj2Gp5A5OdYdhi	192.168.58.10	1030	82.165.213.220	80	2	GET	chronik-olderup.de	/Dorfeingang.JPG	http://chronik-olderup.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	523794	200	OK	-	-	-	(empty)	-	-	-	-	-	F2v5qA1Kmjrg5z0IFk	image/jpeg
+1340843367.180477	CZdpA12Yuzcfs7TFN7	192.168.58.10	1034	178.162.137.64	80	2	GET	178.162.137.64	/98765.pdf	http://178.162.137.64/63693516.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	41367	200	OK	-	-	-	(empty)	-	-	-	-	-	FPDIkp2YSTKdSS3jo3	application/pdf
+1340843366.291555	CseAYpYhFxtJajKOe	192.168.58.10	1032	82.165.213.220	80	1	GET	chronik-olderup.de	/Olderup-Wap.jpg	http://chronik-olderup.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	132618	200	OK	-	-	-	(empty)	-	-	-	-	-	FxzjSy1q4MAbJ8TTb	image/jpeg
+1340843388.32721	CZdpA12Yuzcfs7TFN7	192.168.58.10	1034	178.162.137.64	80	3	GET	178.162.137.64	/2.html	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	29696	200	OK	-	-	-	(empty)	-	-	-	-	-	F6Be1e38GBlGjdhIb9	application/x-dosexec
+1340843425.269186	C1lzxN2Cg4C8XAQjY2	192.168.58.10	1039	178.162.137.64	80	1	GET	178.162.137.64	/55993.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	76321	200	OK	-	-	-	(empty)	-	-	-	-	-	FsViDL2ByRqxvqmKve	application/zip
+1340843426.012987	C1lzxN2Cg4C8XAQjY2	192.168.58.10	1039	178.162.137.64	80	2	GET	178.162.137.64	/55993.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	76321	200	OK	-	-	-	(empty)	-	-	-	-	-	FA6vHR25fcnt1BOox3	application/zip
+1340843426.550698	C1lzxN2Cg4C8XAQjY2	192.168.58.10	1039	178.162.137.64	80	3	GET	178.162.137.64	/55993.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	76321	200	OK	-	-	-	(empty)	-	-	-	-	-	FVhqRa2YgZp14GiWUc	application/zip
+1340843427.070952	C1lzxN2Cg4C8XAQjY2	192.168.58.10	1039	178.162.137.64	80	4	GET	178.162.137.64	/1.html	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	29696	200	OK	-	-	-	(empty)	-	-	-	-	-	FStyzl4pYvkuYBo2Fc	application/x-dosexec
+1340843431.65216	C5lGmg1OmPJqyjgCAb	192.168.58.10	1040	37.157.255.26	80	1	GET	37.157.255.26	/322517.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	192000	200	OK	-	-	-	(empty)	-	-	-	-	-	FFN96u14nEligxhKKg	binary
+1340843432.359632	C5lGmg1OmPJqyjgCAb	192.168.58.10	1040	37.157.255.26	80	2	GET	37.157.255.26	/322517.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	323866	200	OK	-	-	-	(empty)	-	-	-	-	-	F6ig0s1PCfae2MsWd2	binary
+#close	2014-04-03-10-40-04

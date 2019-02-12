@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-35-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1370238282.402738	CDsWKk3qMLdzMZGoS7	192.168.27.10	1031	46.246.94.198	80	tcp	http	0.226356	288	1482	SF	-	0	ShADadfF	6	536	6	1730	(empty)
+1370238282.657021	CGtNxV34K9cDjPuv75	192.168.27.10	1035	199.83.134.103	80	tcp	http	0.156324	335	1272	SF	-	0	ShADadfF	6	583	6	1520	(empty)
+1370238282.935704	CJjDVk34lp7PsGAAR7	192.168.27.10	1037	173.194.37.99	80	tcp	-	0.014827	0	0	RSTO	-	0	ShR	2	88	1	48	(empty)
+1370238282.83268	CVCiYw445SzpCftpwa	192.168.27.10	1036	69.16.175.10	80	tcp	http	0.123773	369	137689	RSTO	-	0	ShADadR	53	2497	97	141577	(empty)
+1370238282.142932	Cf82Y63WVGCmdyBUQ5	192.168.27.10	1029	4.2.2.3	53	udp	dns	0.792085	281	1128	SF	-	0	Dd	8	505	8	1352	(empty)
+1370238266.212407	CgIs7H3wzG7MUGA063	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000735	626	0	S0	-	0	D	2	682	0	0	(empty)
+1370238282.145776	COCoxv2cVoZrGD5Bxa	192.168.27.10	1030	108.162.197.21	80	tcp	http	51.089178	291	406	RSTO	-	0	ShADadfR	6	539	4	574	(empty)
+1370238266.212671	Cnfmhg48OKwA34VnG8	192.168.27.10	68	192.168.27.1	67	udp	dhcp	12.731377	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1370238282.654353	CtCSEw4ooawrcOO2i2	192.168.27.10	1034	74.125.229.201	80	tcp	http	60.628128	356	3461	RSTO	-	0	ShADadR	6	604	5	3669	(empty)
+1370238282.651943	Coce9V3g0zXt3UJm95	192.168.27.10	1033	74.125.229.170	80	tcp	http	60.630789	308	69428	RSTO	-	0	ShADadR	38	1836	51	71476	(empty)
+1370238282.649488	CS0awL26vqLFgDSvj2	192.168.27.10	1032	173.194.37.96	80	tcp	http	65.647673	1117	16527	RSTO	-	0	ShADadR	14	1685	16	17551	(empty)
+1370238284.337655	CkpSLL2I2t1kjlueI8	192.168.27.10	1040	239.255.255.250	1900	udp	-	6.069025	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-10-35-00

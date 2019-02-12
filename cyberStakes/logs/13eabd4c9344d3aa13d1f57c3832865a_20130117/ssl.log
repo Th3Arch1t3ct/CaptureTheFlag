@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-27-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1358454376.36347	CdtM0N31Nk5PtZbfK7	192.168.40.10	1083	72.21.194.16	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.s3.amazonaws.com,O=Amazon.com Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1292392800.000000	1387432799.000000	-	-	-	e3cc103aacd8beea27f01fd08da597bd	ok
+1358454376.454399	C7IWWNRLJvmDXPWa4	192.168.40.10	1084	72.21.194.16	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.s3.amazonaws.com,O=Amazon.com Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1292392800.000000	1387432799.000000	-	-	-	e3cc103aacd8beea27f01fd08da597bd	ok
+1358454378.873148	Ci0r2G2JTaL3Cd36B	192.168.40.10	1099	93.184.216.139	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=si0.twimg.com,OU=Network Engineering,O=Twitter Inc.,L=San Francisco,ST=California,C=US,serialNumber=Q2Q6BmtG0uLidCylZJsS3uaXNgPzlavY	CN=GeoTrust SSL CA,O=GeoTrust\, Inc.,C=US	1358144513.000000	1414453041.000000	-	-	-	de5277dfb943a1daaaaaaaaa50a611c3	ok
+1358454379.183503	CkvRQA4ADZ4JNrFjs9	192.168.40.10	1105	93.184.216.139	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	42b0a602ee810aeb173beb234b8fb171f11c2befc7280eb933d1bf1ee77b9654	CN=si0.twimg.com,OU=Network Engineering,O=Twitter Inc.,L=San Francisco,ST=California,C=US,serialNumber=Q2Q6BmtG0uLidCylZJsS3uaXNgPzlavY	CN=GeoTrust SSL CA,O=GeoTrust\, Inc.,C=US	1358144513.000000	1414453041.000000	-	-	-	de5277dfb943a1daaaaaaaaa50a611c3	ok
+1358454380.364963	CuyaZG20pp4WlCaJF	192.168.40.10	1109	93.184.216.139	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	026261d7e067f892b3fcc589899ae19d90995d03f7c6f928e9a163a9fa4534bb	CN=si0.twimg.com,OU=Network Engineering,O=Twitter Inc.,L=San Francisco,ST=California,C=US,serialNumber=Q2Q6BmtG0uLidCylZJsS3uaXNgPzlavY	CN=GeoTrust SSL CA,O=GeoTrust\, Inc.,C=US	1358144513.000000	1414453041.000000	-	-	-	de5277dfb943a1daaaaaaaaa50a611c3	ok
+1358454398.414003	C3tpYoWpKdn1CqS5b	192.168.40.10	1121	199.59.150.12	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=r.twimg.com,OU=Twitter Security,O=Twitter\, Inc.,L=San Francisco,ST=CA,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1328076000.000000	1423159200.000000	-	-	-	2a206be52330bed2ccc2ddb61038d78c	ok
+1358454398.767727	CF8oCp4UEBcbDPnnek	192.168.40.10	1122	199.59.150.12	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	e1e5db75a002d1cd96786096bcbf4f74c1c45dbdca65fdb4f72d87876c493715	-	-	-	-	-	-	-	-	-
+1358454399.033387	CtJIhP2YoXwdZtaXf1	192.168.40.10	1123	199.59.150.12	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	e1e5db75a002d1cd96786096bcbf4f74c1c45dbdca65fdb4f72d87876c493715	-	-	-	-	-	-	-	-	-
+1358454399.244861	CtZFDk2uSPxqDg4KBd	192.168.40.10	1124	199.59.150.12	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	e1e5db75a002d1cd96786096bcbf4f74c1c45dbdca65fdb4f72d87876c493715	-	-	-	-	-	-	-	-	-
+1358454400.410385	CjApFn4COEkzQocoBa	192.168.40.10	1125	199.59.150.12	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	e1e5db75a002d1cd96786096bcbf4f74c1c45dbdca65fdb4f72d87876c493715	CN=r.twimg.com,OU=Twitter Security,O=Twitter\, Inc.,L=San Francisco,ST=CA,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1328076000.000000	1423159200.000000	-	-	-	2a206be52330bed2ccc2ddb61038d78c	ok
+#close	2014-04-03-10-27-15

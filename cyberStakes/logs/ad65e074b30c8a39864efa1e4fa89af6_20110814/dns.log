@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-57-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1313304283.790455	CLWsIO3nWGU5DowdEc	192.168.95.10	1029	4.2.2.3	53	udp	12423	goeaglegreens.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	75.119.192.70	14375.000000	F
+1313304283.925666	CLWsIO3nWGU5DowdEc	192.168.95.10	1029	4.2.2.3	53	udp	4742	www.goeaglegreens.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	75.119.192.70	14375.000000	F
+1313304284.346373	CLWsIO3nWGU5DowdEc	192.168.95.10	1029	4.2.2.3	53	udp	15493	qnidnrsql.co.tv	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.223.89.98	43200.000000	F
+1313304285.569428	CLWsIO3nWGU5DowdEc	192.168.95.10	1029	4.2.2.3	53	udp	54403	ctaflkiwrr.ddns.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.66.179	31.000000	F
+1313304286.695255	CLWsIO3nWGU5DowdEc	192.168.95.10	1029	4.2.2.3	53	udp	32387	lite.piclens.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.211.172.40	38015.000000	F
+1313304298.672252	CLWsIO3nWGU5DowdEc	192.168.95.10	1029	4.2.2.3	53	udp	46465	funnyteens.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.53.28.98	14400.000000	F
+1313304300.327718	CLWsIO3nWGU5DowdEc	192.168.95.10	1029	4.2.2.3	53	udp	20352	yazminx.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	205.234.129.135	14400.000000	F
+1313304304.335946	CLWsIO3nWGU5DowdEc	192.168.95.10	1029	4.2.2.3	53	udp	62351	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,24.143.201.35,24.143.201.43	2397.000000,160.000000,2751.000000,17.000000,17.000000	F
+#close	2014-04-03-10-57-11

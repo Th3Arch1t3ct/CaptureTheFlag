@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-32-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1330150226.620641	CVESL74ovKib1M3ckb	192.168.59.10	1030	208.109.181.115	80	1	GET	histateofmind.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	434	200	OK	-	-	-	(empty)	-	-	-	-	-	FuVUlo2soWntgjNrrc	text/html
+1330150227.549014	CoKqs1P9tpZcNeQSk	192.168.59.10	1031	94.75.255.86	80	1	GET	modernyearssuccess.com	/in.cgi?6	http://histateofmind.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	318	302	Found	-	-	-	(empty)	-	-	-	-	-	FXLDrc4aiFIWCsDmGk	text/html
+1330150227.946439	CgTdj52d5RdruZK1r2	192.168.59.10	1032	95.163.89.228	80	1	GET	malinckeartchm.info	/jkasdh98768sa9hdjkashdi6iyhikusadhi68/main.php?page=416e1c7e35d6bd76	http://histateofmind.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	48192	200	OK	-	-	-	(empty)	-	-	-	-	-	F0qazgQ2D66er5Hpg	text/html
+1330150230.002523	CgTdj52d5RdruZK1r2	192.168.59.10	1032	95.163.89.228	80	2	GET	malinckeartchm.info	/jkasdh98768sa9hdjkashdi6iyhikusadhi68/w.php?f=58d4f&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	210932	200	OK	-	-	-	(empty)	-	-	-	-	-	FCK4Q21YHnzKmMFeyc	application/x-dosexec
+1330150232.111906	CRj2Cm4br8QKhbz4q5	192.168.59.10	1037	95.163.89.228	80	1	GET	malinckeartchm.info	/jkasdh98768sa9hdjkashdi6iyhikusadhi68/content/field.swf	http://histateofmind.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1541	200	OK	-	-	-	(empty)	-	-	-	-	-	FlGSzZ27s12WgRHPZ1	application/x-shockwave-flash
+1330150231.828853	CgTdj52d5RdruZK1r2	192.168.59.10	1032	95.163.89.228	80	3	GET	malinckeartchm.info	/jkasdh98768sa9hdjkashdi6iyhikusadhi68/content/ap2.php?f=58d4f	http://malinckeartchm.info/jkasdh98768sa9hdjkashdi6iyhikusadhi68/main.php?page=416e1c7e35d6bd76	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13434	200	OK	-	-	-	(empty)	-	-	-	-	-	F1zaoJ2UC9gYDrlmV6	application/pdf
+1330150241.476919	C046QCHMNri4qrrSh	192.168.59.10	1040	204.2.254.129	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1568	200	OK	-	-	-	(empty)	-	-	-	-	-	FsXzS13qlZJzOyQN17	text/html
+1330150241.459586	CRj2Cm4br8QKhbz4q5	192.168.59.10	1037	95.163.89.228	80	2	GET	malinckeartchm.info	/jkasdh98768sa9hdjkashdi6iyhikusadhi68/content/score.swf	http://malinckeartchm.info/jkasdh98768sa9hdjkashdi6iyhikusadhi68/content/field.swf	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6909	200	OK	-	-	-	(empty)	-	-	-	-	-	FeonqT3G2lueObkrmd	application/x-shockwave-flash
+1330150241.512794	CJb1XK3Ycfjh47aPMd	192.168.59.10	1039	78.111.51.124	80	1	POST	bryandsighter.com	/25/index.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	75	414405	200	OK	-	-	-	(empty)	-	-	-	FLoEwI1lrAMilZpsN6	binary	Fa5JeA1MCWk5Xz2eCf	binary
+1330150245.555689	CEv8Ov1FfR54zQRv84	192.168.59.10	1041	78.111.51.124	80	1	POST	bryandsighter.com	/25/index.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	75	414405	200	OK	-	-	-	(empty)	-	-	-	FhMb582vICPhN8tJV8	binary	FF0IFx4NJ8jFFd1m2f	binary
+1330150270.593737	CJNHKg3MinSScOuTx5	192.168.59.10	1042	78.111.51.124	80	1	POST	bryandsighter.com	/1/redir.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	298	464	200	OK	-	-	-	(empty)	-	-	-	F7Ev2n20npsbrz6ODd	binary	FCBQLB33ehCYSKDhMa	binary
+1330150271.272576	Cp4rwy3AJKx87U3i4f	192.168.59.10	1043	78.111.51.124	80	1	POST	bryandsighter.com	/1/redir.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	211	64	200	OK	-	-	-	(empty)	-	-	-	FZ7yVX13vl4RORRHAl	binary	FlBAtj3n9wWLefba4f	binary
+1330150271.880777	C45xgPFaUijcIsZ9j	192.168.59.10	1044	78.111.51.124	80	1	POST	bryandsighter.com	/1/redir.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	211	64	200	OK	-	-	-	(empty)	-	-	-	Fy5jMi1sV432XYJ9rh	binary	FmM2gQ3G14p5F46ME8	binary
+1330150272.477563	CWVtdI17h6zMyvGrLh	192.168.59.10	1045	78.111.51.124	80	1	POST	bryandsighter.com	/1/redir.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	211	64	200	OK	-	-	-	(empty)	-	-	-	FW8NK42vfmoPs4JTQ4	binary	F4QsIC3XKSunubft4	binary
+#close	2014-04-03-10-32-45

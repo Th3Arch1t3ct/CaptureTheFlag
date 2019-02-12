@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-32-27
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1387913113.81573	C0bc1EBSJEaKUMUhf	192.168.47.10	1028	4.2.2.3	53	udp	36044	wordsad.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	103.31.186.103	86310.000000	F
+1387913116.75954	C0bc1EBSJEaKUMUhf	192.168.47.10	1028	4.2.2.3	53	udp	13773	mourad.co	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	103.31.186.103	600.000000	F
+1387913116.793681	C0bc1EBSJEaKUMUhf	192.168.47.10	1028	4.2.2.3	53	udp	44751	mc.yandex.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	87.250.251.119,93.158.134.119,213.180.193.119,87.250.250.119	190.000000,190.000000,190.000000,190.000000	F
+1387913116.788583	Ca3Xnz2nEb21ChrWv2	192.168.47.10	1044	4.2.2.3	53	udp	18383	www9.addfreestats.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.118.145.32	3600.000000	F
+1387913116.780056	CXfC0Y2V5seB8ZuIo4	192.168.47.10	1043	4.2.2.3	53	udp	61646	img.mail.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	128.140.168.119	60.000000	F
+1387913117.508756	C0bc1EBSJEaKUMUhf	192.168.47.10	1028	4.2.2.3	53	udp	26056	201118.io.nikkxfhg.figuresbodies.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.169.245.68	30.000000	F
+#close	2014-04-03-10-32-27

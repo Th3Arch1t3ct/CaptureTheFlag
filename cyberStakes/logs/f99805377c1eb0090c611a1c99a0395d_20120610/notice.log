@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-53-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1339331164.091237	C0gNi92sBnJD4VNG3	192.168.22.10	1040	31.171.133.163	80	FWdpC42ujQCxaCaUK6	application/x-shockwave-flash	http://smallvilleycoordinates.ru/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 75%  Last seen: 2012-09-14 14:05:04	https://www.virustotal.com/en/search/?query=27474f210893b69a5204dcafb6d9fc12b743dc1f	192.168.22.10	31.171.133.163	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1339331165.393906	CxCv9S1rNlbuph9smg	192.168.22.10	1034	31.171.133.163	80	FDzt7n2FjM06LBapUc	application/x-dosexec	http://smallvilleycoordinates.ru/w.php?f=97d19&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 38%  Last seen: 2012-07-25 12:00:26	https://www.virustotal.com/en/search/?query=2ac0b557f1424ac8b561b61a7bd9b36049c9b677	192.168.22.10	31.171.133.163	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1339331170.429941	C0gNi92sBnJD4VNG3	192.168.22.10	1040	31.171.133.163	80	FGAef43DO6WaVtwHd5	application/x-shockwave-flash	http://smallvilleycoordinates.ru/data/score.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 50%  Last seen: 2012-09-14 14:05:04	https://www.virustotal.com/en/search/?query=6c81c4f1d16468b4169256972e30622e6956f7cc	192.168.22.10	31.171.133.163	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-53-05

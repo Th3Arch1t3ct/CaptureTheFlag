@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-57-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1361048752.503018	ClBJBt29O2miTBZJZc	192.168.42.10	1029	4.2.2.3	53	udp	44435	4s.downtango.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	149.13.65.188,149.13.65.189	578.000000,578.000000	F
+1361048752.771919	ClBJBt29O2miTBZJZc	192.168.42.10	1029	4.2.2.3	53	udp	28816	code.jquery.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wac.1257.edgecastcdn.net,neb1.wac.v2cdn.net,93.184.216.119	533196.000000,298.000000,2645.000000	F
+1361048753.302623	ClBJBt29O2miTBZJZc	192.168.42.10	1029	4.2.2.3	53	udp	24721	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.225.0,74.125.225.7,74.125.225.2,74.125.225.8,74.125.225.6,74.125.225.4,74.125.225.1,74.125.225.14,74.125.225.5,74.125.225.9,74.125.225.3	11774.000000,29.000000,29.000000,29.000000,29.000000,29.000000,29.000000,29.000000,29.000000,29.000000,29.000000,29.000000	F
+1361048760.636873	ClBJBt29O2miTBZJZc	192.168.42.10	1029	4.2.2.3	53	udp	17041	www.dtinstaller.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	dtinstaller.com,62.219.199.213	3600.000000,3600.000000	F
+#close	2014-04-03-10-57-44

@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-00-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1331429682.934792	CVDAVO1UtkiaABcz1f	192.168.102.10	1143	178.162.191.11	80	FrYs2i4oFMaANh1s8b	application/x-dosexec	http://westernlight.info/w.php?f=47bca&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-03-14 11:39:31	https://www.virustotal.com/en/search/?query=036b80a0cba1187c39df74624796665010ed70ed	192.168.102.10	178.162.191.11	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1331429684.250757	CyMisg1ICkn4fp6GB9	192.168.102.10	1144	178.162.191.11	80	FUDwKs2OgiKs78ojsj	application/x-shockwave-flash	http://westernlight.info/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2012-05-03 02:10:28	https://www.virustotal.com/en/search/?query=fd27252b95d0cd83d0f17290ffa0a09557a59286	192.168.102.10	178.162.191.11	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-00-05

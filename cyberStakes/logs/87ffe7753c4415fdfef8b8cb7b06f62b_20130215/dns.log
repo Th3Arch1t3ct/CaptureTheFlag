@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-36-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1360915739.775109	C16Doi4NXcJNxylM4l	192.168.16.10	1029	4.2.2.3	53	udp	56717	852.dk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.221.196.253	43200.000000	F
+1360915740.128699	C16Doi4NXcJNxylM4l	192.168.16.10	1029	4.2.2.3	53	udp	43917	iadvice.dk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	86.58.154.6	43200.000000	F
+#close	2014-04-03-10-36-33

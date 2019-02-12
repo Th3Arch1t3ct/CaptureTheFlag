@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-38-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1326655852.336359	CMKXgj1UlAGuUJ17Y	192.168.15.10	1037	184.169.73.33	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=si0.twimg.com,OU=Unified Communications,OU=Hosted by Cotendo,O=Twitter\, Inc.,street=795 Folsom Street,street=Suite 600,L=San Francisco,ST=California,postalCode=94107,C=US	CN=USERTrust Legacy Secure Server CA,O=The USERTRUST Network,L=Salt Lake City,ST=UT,C=US	1320382800.000000	1383544799.000000	-	-	-	4f51e193893b96557066e68e69a4b55f	ok
+1326655852.337081	C61SGU3OmPoKUZOaTj	192.168.15.10	1038	184.169.73.33	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=si0.twimg.com,OU=Unified Communications,OU=Hosted by Cotendo,O=Twitter\, Inc.,street=795 Folsom Street,street=Suite 600,L=San Francisco,ST=California,postalCode=94107,C=US	CN=USERTrust Legacy Secure Server CA,O=The USERTRUST Network,L=Salt Lake City,ST=UT,C=US	1320382800.000000	1383544799.000000	-	-	-	4f51e193893b96557066e68e69a4b55f	ok
+1326655853.729181	C3nQPPL52QtlHjKI2	192.168.15.10	1047	184.28.191.55	443	SSLv3	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=si0.twimg.com,OU=Akamai SAN SSL OV,OU=Twitter\, Inc,O=Twitter\, Inc,L=San Francisco,ST=CALIFORNIA,C=US	CN=USERTrust Legacy Secure Server CA,O=The USERTRUST Network,L=Salt Lake City,ST=UT,C=US	1325743200.000000	1345870799.000000	-	-	-	a88db1de99fc26694cbf27367ee132b6	ok
+1326655853.729795	CBzAIw1NYDtKFgUXke	192.168.15.10	1048	184.28.190.239	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.linkedin.com,ST=CALIFORNIA,OU=Production Operations Group,O=Linkedin Corporation,L=Mountain View,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1312912936.000000	1344535336.000000	-	-	-	5ca960615839e9bfb3e6d4470feeeeee	ok
+1326655853.728193	CzZeuv3rzdlEOB6dTk	192.168.15.10	1045	74.125.229.230	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1325788334.000000	1357411334.000000	-	-	-	c7453080a65ff6ba783bbbbbb4974cb4	ok
+1326655879.857863	CJZPTA3i9WQ9D47TIb	192.168.15.10	1059	74.125.229.171	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1325788334.000000	1357411334.000000	-	-	-	c7453080a65ff6ba783bbbbbb4974cb4	ok
+1326655879.857189	C9MGNh2EE0WSYZ7L84	192.168.15.10	1057	205.251.242.133	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.s3.amazonaws.com,O=Amazon.com Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1292392800.000000	1387432799.000000	-	-	-	e3cc103aacd8beea27f01fd08da597bd	ok
+#close	2014-04-03-10-38-45

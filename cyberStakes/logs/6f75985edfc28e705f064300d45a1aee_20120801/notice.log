@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-21-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1343836156.509026	Cyr09K328tZfnMuUUh	192.168.112.10	1057	193.202.110.25	80	FAmzaW1kB6poduxPde	application/x-dosexec	http://exilregeringen.se/2.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 38%  Last seen: 2012-08-03 22:24:16	https://www.virustotal.com/en/search/?query=a62fb6d002aa5bd8e2bd3516aa92cc8263f9ca0d	192.168.112.10	193.202.110.25	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1343836160.801254	CcQIMT3vxzlI1Mlpna	192.168.112.10	1062	193.202.110.25	80	FkdkOL3cIwJwfiJJHf	application/x-dosexec	http://exilregeringen.se/3.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 38%  Last seen: 2012-08-03 22:24:16	https://www.virustotal.com/en/search/?query=a62fb6d002aa5bd8e2bd3516aa92cc8263f9ca0d	192.168.112.10	193.202.110.25	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-21-19

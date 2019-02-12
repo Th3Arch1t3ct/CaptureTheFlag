@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-04-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1327464991.073843	Cu4ph11ThhbFc2KBH3	192.168.69.10	1029	4.2.2.3	53	udp	61069	zetta21.com.ar	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	190.228.29.85	3579.000000	F
+1327464991.388029	Cu4ph11ThhbFc2KBH3	192.168.69.10	1029	4.2.2.3	53	udp	1166	analytics.rebel5.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	88.198.119.127	3600.000000	F
+1327464993.987096	Cu4ph11ThhbFc2KBH3	192.168.69.10	1029	4.2.2.3	53	udp	45448	yahoo.trackbookmark.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.212.238.219	3600.000000	F
+1327464991.420718	Cu4ph11ThhbFc2KBH3	192.168.69.10	1029	4.2.2.3	53	udp	14991	manitou.ayz.pl	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1327464991.420718	Cu4ph11ThhbFc2KBH3	192.168.69.10	1029	4.2.2.3	53	udp	14991	manitou.ayz.pl	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1327464991.420718	Cu4ph11ThhbFc2KBH3	192.168.69.10	1029	4.2.2.3	53	udp	14991	manitou.ayz.pl	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-11-04-27

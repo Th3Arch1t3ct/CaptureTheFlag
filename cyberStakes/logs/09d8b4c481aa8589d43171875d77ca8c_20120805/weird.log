@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-09-57-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1344131684.27426	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1344131691.206781	CJpq6E1YiurTui3R5f	192.168.39.10	1075	66.148.112.152	80	unescaped_%_in_URI	-	F	bro
+1344131728.785977	CtAAHT1VszLRvDqYuc	192.168.39.10	1108	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344131728.786169	CsoRgW1RrtLLZILkp1	192.168.39.10	1108	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344131728.878719	C7mswd4kSkNuAG7kEf	192.168.39.10	1110	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344131728.878893	CJCbMq1v82BisZjINf	192.168.39.10	1110	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344131730.495076	CodQJx3U3z4o0zSwM4	192.168.39.10	1112	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344131730.495266	CRVWWN31IS4bDjnZvb	192.168.39.10	1112	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344131730.543135	CVhXi32wgar39ZQ7P	192.168.39.10	1114	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344131730.543332	CNs1Dq49xIbIr2hRF	192.168.39.10	1114	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344131730.5517	CAxRDB1e3nkyugTiUd	192.168.39.10	1116	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344131730.551864	CR1WDD1EvOx4eZ5lK2	192.168.39.10	1116	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344131732.234997	CSBLOcYga1kCVN8R9	192.168.39.10	1121	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344131732.235154	CWkrux2N5xNKfsuSGa	192.168.39.10	1121	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344131732.315268	Cdi1DOa7J1f7JCWLi	192.168.39.10	1124	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344131732.315434	C8YOwDaUjSC37P9Q7	192.168.39.10	1124	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344131732.333786	Cvm6Ta307FIxIseqCj	192.168.39.10	1127	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344131732.333983	CU9iVwPHJpR68XB9k	192.168.39.10	1127	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+#close	2014-04-03-09-57-21

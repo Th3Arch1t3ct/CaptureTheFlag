@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-52-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1384993988.137164	CeQiXF1NFMPi5GwWB	192.168.93.10	1076	74.208.237.60	80	FCNXut3hbOdsSkAa59	application/x-dosexec	http://www.vancouverphotoworkshops.com/blog/wp-content/themes/twentyeleven/images/0d3854fb6a/?f=sm_main.mp3&k=2394220266053420	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 79%  Last seen: 2014-02-15 04:11:53	https://www.virustotal.com/en/search/?query=bcda4d1a952020500bc461fe4d49306e16712c2e	192.168.93.10	74.208.237.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1384993988.137164	C1ZVxg1xI5UjADhP38	192.168.93.10	1077	74.208.237.60	80	FN9XN02PKjRbTac9c8	application/x-dosexec	http://www.vancouverphotoworkshops.com/blog/wp-content/themes/twentyeleven/images/0d3854fb6a/?f=sm_main.mp3&k=2394220266053420	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 79%  Last seen: 2014-02-15 04:11:53	https://www.virustotal.com/en/search/?query=bcda4d1a952020500bc461fe4d49306e16712c2e	192.168.93.10	74.208.237.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-52-13

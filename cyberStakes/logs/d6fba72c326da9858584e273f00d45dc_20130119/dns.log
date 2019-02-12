@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-15-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1358569827.944354	C81Iyy1lmSZTQ6bye8	192.168.90.10	1029	4.2.2.3	53	udp	23437	republicbyomar.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.116.215.39	86400.000000	F
+1358569830.212156	C81Iyy1lmSZTQ6bye8	192.168.90.10	1029	4.2.2.3	53	udp	20109	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.d.akamai.net,107.14.41.211,107.14.41.163	18719.000000,54.000000,4235.000000,20.000000,20.000000	F
+#close	2014-04-03-11-15-56

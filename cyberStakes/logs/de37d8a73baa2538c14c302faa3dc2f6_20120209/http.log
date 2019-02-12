@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-55-42
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1328768257.151111	Cfm2a5407ERMXJWUye	192.168.82.10	1031	64.202.189.170	80	1	GET	bonzii.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	371	200	OK	-	-	-	(empty)	-	-	-	-	-	FMqdjfC9YK6OuaYpl	text/html
+1328768257.387275	CEnGpM2lSk0SXdV4q	192.168.82.10	1032	64.13.192.132	80	1	GET	stdenis.ca	/mik/bonzii/index.html	http://bonzii.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1255	200	OK	-	-	-	(empty)	-	-	-	-	-	FSuE3uHah3XKi9wE	text/html
+1328768257.470844	CEnGpM2lSk0SXdV4q	192.168.82.10	1032	64.13.192.132	80	2	GET	stdenis.ca	/mik/bonzii/ComingSoon.jpg	http://stdenis.ca/mik/bonzii/index.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	39385	200	OK	-	-	-	(empty)	-	-	-	-	-	FfiEOs16ZB0G3ynWL9	image/jpeg
+1328768257.911841	CvmUx41Wutx4CVIjSe	192.168.82.10	1033	209.135.132.62	80	1	GET	analytic-google.com	/track.php?id=11a2dc1f53e109b6	http://stdenis.ca/mik/bonzii/index.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	80970	200	OK	-	-	-	(empty)	-	-	-	-	-	FPaJb12FlJD9zTaJEe	text/html
+1328768269.827696	CvmUx41Wutx4CVIjSe	192.168.82.10	1033	209.135.132.62	80	2	GET	analytic-google.com	/w.php?f=25&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	194640	200	OK	-	-	-	(empty)	-	-	-	-	-	FclLvp32ScpZrSF8T6	application/x-dosexec
+1328768271.131305	CvmUx41Wutx4CVIjSe	192.168.82.10	1033	209.135.132.62	80	3	GET	analytic-google.com	/content/adp2.php?f=25	http://analytic-google.com/track.php?id=11a2dc1f53e109b6	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13056	200	OK	-	-	-	(empty)	-	-	-	-	-	Fayesr36xpfA2bOBCj	application/pdf
+1328768274.488336	CMurSwJRfhtixomlc	192.168.82.10	1038	92.241.191.177	80	1	GET	analyticdns.org	/staticie.html	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	941	200	OK	-	-	-	(empty)	-	-	-	-	-	FHWgPP2ckdcqKRxVM6	binary
+1328768282.089493	Cn78Lf3OToYJEdyvi3	192.168.82.10	1039	209.135.132.62	80	1	GET	analytic-google.com	/content/field.swf	http://bonzii.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1552	200	OK	-	-	-	(empty)	-	-	-	-	-	FBW3FqlKl7sKoB3Pb	application/x-shockwave-flash
+1328768281.061707	CvmUx41Wutx4CVIjSe	192.168.82.10	1033	209.135.132.62	80	4	GET	analytic-google.com	/w.php?f=25&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	194640	200	OK	-	-	-	(empty)	-	-	-	-	-	FMmBRETJgBpZTDRbb	application/x-dosexec
+1328768293.546169	CfdrkrlVzNePpuQWb	192.168.82.10	1040	209.135.132.62	80	1	GET	analytic-google.com	/content/rin.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3880	200	OK	-	-	-	(empty)	-	-	-	-	-	FgNVGL2KqpwKeW78F9	application/zip
+1328768304.841218	CjvZDC4E7ix5TnNny9	192.168.82.10	1041	74.125.47.147	80	1	GET	www.google.com	/webhp	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	21030	200	OK	-	-	-	(empty)	-	-	-	-	-	FJ5x6aCRfZ325X3g2	text/html
+1328768305.029807	CQGgcu1tyIYpv8HP4h	192.168.82.10	1042	92.241.191.177	80	1	POST	analyticdns.org	/xml.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	296	64	200	OK	-	-	-	(empty)	-	-	-	FpwkEh1awvbN0IcOLb	binary	FQnBa04iXQgjQ7Knb1	binary
+#close	2014-04-03-09-55-43

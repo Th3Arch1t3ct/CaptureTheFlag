@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-05-23
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1387498372.169581	CR70Mk4s0fSwSLmQl6	192.168.58.10	1035	81.169.145.223	80	1	GET	www.schlereth-net.de	/	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	3239	200	OK	-	-	-	(empty)	-	-	-	-	-	FONhVp2HDnWL3mPBG7	text/html
+1387498372.509152	CR70Mk4s0fSwSLmQl6	192.168.58.10	1035	81.169.145.223	80	2	GET	www.schlereth-net.de	/cgi-std/count.pl?c=3	http://www.schlereth-net.de/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	256	200	OK	-	-	-	(empty)	-	-	-	-	-	Fr2s7M1eUNPiSg1d81	image/png
+1387498372.843068	CDW5VU1IbPMCobkNri	192.168.58.10	1038	212.19.62.76	80	1	GET	www.wieistmeineip.de	/script/	http://www.schlereth-net.de/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	15759	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FBlFe11wZNK1EXqsFc	text/html
+1387498372.694501	CRzeH62yi2JUm4QzCh	192.168.58.10	1036	81.169.145.223	80	1	GET	www.schlereth-net.de	/Bilder/back.gif	http://www.schlereth-net.de/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	3956	200	OK	-	-	-	(empty)	-	-	-	-	-	FGdb7i1gTgH0YdkFX2	image/gif
+1387498372.938819	C8rrXj4W6h0iEVhD03	192.168.58.10	1039	90.156.201.15	80	1	GET	previous.maxick.ru	/sentstats.php?id=4085659	http://www.schlereth-net.de/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1387498372.755663	CR70Mk4s0fSwSLmQl6	192.168.58.10	1035	81.169.145.223	80	3	GET	www.schlereth-net.de	/logo.gif	http://www.schlereth-net.de/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	22505	200	OK	-	-	-	(empty)	-	-	-	-	-	FMTHkD1FiyOt3uXO45	image/gif
+1387498373.576232	C8ZwrtU66KLX7cFoe	192.168.58.10	1040	193.169.245.64	80	1	GET	201219.jqzk.unix.pvg.oew.kmc.xcgqrcinrn.cardjunk.in	/	http://www.schlereth-net.de/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	788	200	OK	-	-	-	(empty)	-	-	-	-	-	F2vt9uk8AtdrAuen5	text/html
+1387498374.932469	CX2GCS26SrP66H4JR4	192.168.58.10	1041	193.169.245.64	80	1	GET	201219.jqzk.unix.pvg.oew.kmc.xcgqrcinrn.cardjunk.in	/5c8bba2/a_8a_8a_b15/28/ef_6_56f407f11614/6066_a90/920b_929_b2d/4/cbe_818b0/c4_447e	http://201219.jqzk.unix.pvg.oew.kmc.xcgqrcinrn.cardjunk.in/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	12325	200	OK	-	-	-	(empty)	-	-	-	-	-	FvTZ4L3X1ryxCQSSGf	text/html
+1387498376.534617	CCsmC2kOSExjFN79g	192.168.58.10	1042	193.169.245.64	80	1	GET	193.169.245.64	/?87afabe67b1705e696d0efda71e870af	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1387498376.861339	CbAHLs0bbBxjkLale	192.168.58.10	1046	193.169.245.64	80	1	GET	193.169.245.64	/?8db96a43991fc3760ca1fad8ce700047	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1387498377.184235	CgfriT2ggVgaW0hzO4	192.168.58.10	1047	193.169.245.64	80	1	GET	193.169.245.64	/?19bcf3d3ad16a55281f85e70e1951aa1	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1387498377.503534	CZrwm3oDWkfWhVhcg	192.168.58.10	1048	193.169.245.64	80	1	GET	193.169.245.64	/?bfa3cdcc8933df99a025d1a643f4f91e	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	221184	200	OK	-	-	-	(empty)	-	-	-	-	-	F0CyUp3WfrWKXQQgXj	application/x-dosexec
+1387498381.267461	CmQyts2QyXU3sZOhZh	192.168.58.10	1049	74.125.239.145	80	1	GET	www.google.com	/	-	-	0	45283	200	OK	-	-	-	(empty)	-	-	-	-	-	FGbkF64Z4XRQAbbfWb	text/html
+1387498381.579357	CKhjZ22Wb7gTJbY0mh	192.168.58.10	1051	74.125.239.145	80	1	GET	www.google.com	/	-	-	0	19557	200	OK	-	-	-	(empty)	-	-	-	-	-	FDTRlJ32dsN8rxxx1j	text/html
+1387498381.480652	Cr3Bgj4wtXvuwW7Ej7	192.168.58.10	1050	72.225.139.217	80	1	POST	skmymmeiaoooigke.org	/	-	-	128	0	-	-	-	-	-	(empty)	-	-	-	Fserd34rCP4rLIMvr4	binary	-	-
+1387498409.124641	ChQUmp46CzAA4YYnK6	192.168.58.10	1052	193.169.245.64	80	1	GET	193.169.245.64	/?ce41ab3b6bf9a2c098b0b3f8a38b3f69	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1387498409.442439	CQo5f82IvSA772RMXh	192.168.58.10	1053	193.169.245.64	80	1	GET	193.169.245.64	/?a5bc48a98435981b6440f9f1e840c021	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	258048	200	OK	-	-	-	(empty)	-	-	-	-	-	FRF5iO3049wdsqpQ82	application/x-dosexec
+#close	2014-04-03-10-05-23

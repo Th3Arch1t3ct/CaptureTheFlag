@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-18-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1386373363.874047	CDUVLd3ZtnVD4Vcarf	192.168.5.10	1039	74.125.129.82	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googlecode.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1384980719.000000	1395291600.000000	-	-	-	2085610c856116abcecde6aab9dcf08a	ok
+#close	2014-04-03-10-18-00

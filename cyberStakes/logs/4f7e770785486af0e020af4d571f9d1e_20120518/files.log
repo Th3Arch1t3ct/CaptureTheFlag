@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-23-36
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1337380250.438018	FMu6Xk1v63uvVyVQrd	76.163.12.2	192.168.1.10	C1B4Dk2ZrdvllCQYXl	HTTP	0	SHA1,MD5	text/html	-	0.030748	-	F	2781	2781	0	0	F	-	d4639c326550c5c7cb458619b267cecd	04b88ad89456a9c7f5e23b36dd95eb2eff816186	-	-
+1337380250.889403	Fey01P1fJyqpr8B6ef	76.163.12.2	192.168.1.10	C1B4Dk2ZrdvllCQYXl	HTTP	0	SHA1,MD5	image/jpeg	-	0.288344	-	F	264085	264085	0	0	F	-	61caf09ad98019894e6170b01d23f2c0	a74ea36e76cfef27c087dc9127ee12e137afefcc	-	-
+1337380251.565062	FLbRV74Ff5I9syUEl4	193.238.18.55	192.168.1.10	CK26U214Idzybj45a	HTTP	0	SHA1,MD5	text/html	-	1.560314	-	F	65299	-	0	0	F	-	19ac591c6eb238ab451a5eb64d20defd	a7e8816e8fd7050f6c6557dd85cea7cdac9cd8bd	-	-
+1337380255.347084	FHQ9Il2L29B1DBCAKd	193.238.18.55	192.168.1.10	CK26U214Idzybj45a	HTTP	0	SHA1,MD5	application/x-dosexec	info.exe	1.576059	-	F	61952	61952	0	0	F	-	f1a55a2b2b133e0e87fd0f2f1ce1b036	7b84e1edef6a9c89a00fe9d095772393ac7ec6ea	-	-
+1337380257.471042	FdfmyH2qYeRaOlK5H4	193.238.18.55	192.168.1.10	CSjXqp1NAmo48Pvr35	HTTP	0	SHA1,MD5	application/x-shockwave-flash	-	0.000000	-	F	1547	1547	0	0	F	-	c31b916255086a790acd3db2af449346	27474f210893b69a5204dcafb6d9fc12b743dc1f	-	-
+1337380257.309435	F2TfjL35tInD1bjejc	193.238.18.55	192.168.1.10	CK26U214Idzybj45a	HTTP	0	SHA1,MD5	application/pdf	d4341.pdf	0.733033	-	F	33340	33340	0	0	F	-	c9fbba43c98b069eb7fc1f55b127a583	fa331368934cb3f7335722086bfc9d10f54ee0c7	-	-
+1337380265.952648	Fsah7u3No5FpZpXRP8	193.238.18.55	192.168.1.10	CSjXqp1NAmo48Pvr35	HTTP	0	SHA1,MD5	application/x-dosexec	contacts.exe	1.241525	-	F	61952	61952	0	0	F	-	f1a55a2b2b133e0e87fd0f2f1ce1b036	7b84e1edef6a9c89a00fe9d095772393ac7ec6ea	-	-
+1337380274.195787	FohtX11qm3WJZU5Ha1	193.238.18.55	192.168.1.10	CLgHJE3hV0J6Rosq4i	HTTP	0	SHA1,MD5	application/zip	-	0.540729	-	F	19585	19585	0	0	F	-	4b22a872becf282a7d5133f57193dcd5	4111405d12b50ceb296b541b6e20a58d0c1a02b2	-	-
+1337380275.843096	FTOzjf16Q1GoCSnJng	193.238.18.55	192.168.1.10	CAj8zR3dTMdhnTIC7	HTTP	0	SHA1,MD5	application/x-dosexec	readme.exe	1.671208	-	F	61952	61952	0	0	F	-	f1a55a2b2b133e0e87fd0f2f1ce1b036	7b84e1edef6a9c89a00fe9d095772393ac7ec6ea	-	-
+#close	2014-04-03-10-23-36

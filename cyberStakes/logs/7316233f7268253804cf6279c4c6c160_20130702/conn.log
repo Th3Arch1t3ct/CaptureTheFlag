@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-09-55-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1372723883.272992	CoNArB2iZNRkEN7ilg	192.168.35.10	1040	65.55.13.243	80	tcp	-	0.023836	0	0	RSTO	-	0	ShR	2	88	1	48	(empty)
+1372723882.079196	CQV8Xc25xlEdRlCig6	192.168.35.10	1036	4.2.2.3	53	udp	dns	0.181600	34	50	SF	-	0	Dd	1	62	1	78	(empty)
+1372723884.870727	Cqb2wB2UxqyL4sO082	192.168.35.10	1041	5.2.16.238	80	tcp	http	7.497872	1544	41661	SF	-	0	ShADadFf	23	2472	35	43069	(empty)
+1372723872.504219	CrbuXR2s6uJNWCegS	192.168.35.10	1030	93.170.13.134	80	tcp	http	20.007666	284	6832	RSTO	-	0	ShADadfR	8	612	8	7160	(empty)
+1372723882.263729	C9aJHK3OcIQqRqfjkg	192.168.35.10	1039	93.170.13.134	80	tcp	http	10.406606	506	21429	RSTO	-	0	ShADadfR	15	1114	19	22197	(empty)
+1372723891.745513	C2molKyzhSxtwtG72	192.168.35.10	1042	5.2.16.238	80	tcp	http	1.790364	1017	91751	SF	-	0	ShADdaFf	52	3333	67	94439	(empty)
+1372723872.491993	Cjwd2S2Utx3ZsQ2VOe	192.168.35.10	1029	4.2.2.3	53	udp	dns	14.638296	190	604	SF	-	0	Dd	5	330	5	744	(empty)
+1372723855.514303	CmGOC443saS3nNxgrk	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.016494	626	0	S0	-	0	D	2	682	0	0	(empty)
+1372723882.261961	CBvrcK3Z4UZLq2ElIl	192.168.35.10	1038	93.170.13.134	80	tcp	http	29.676029	4810	114492	RSTO	-	0	ShADadfR	72	7698	96	118340	(empty)
+1372723892.681657	CUwX7KzI5L7WRNGL7	192.168.35.10	1043	93.170.13.134	80	tcp	http	24.272264	3973	66736	RSTO	-	0	ShADadfR	47	5861	61	69184	(empty)
+1372723855.514811	CwUM744O32u454zSPe	192.168.35.10	68	192.168.35.1	67	udp	dhcp	13.385898	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1372723874.39427	CzS2341iOazV1amzS	192.168.35.10	1033	239.255.255.250	1900	udp	-	6.107821	399	0	S0	-	0	D	3	483	0	0	(empty)
+1372723882.224908	Cazbjd2FpdtwskZHGl	192.168.35.10	1037	5.2.16.238	80	tcp	http	65.026264	2397	14828	RSTO	-	0	ShADadR	13	2925	18	15556	(empty)
+1372723882.058151	CNMJg41j5gmom9fZd6	192.168.35.10	1035	74.125.224.164	80	tcp	http	65.193413	977	16364	RSTO	-	0	ShADadR	15	1585	15	16972	(empty)
+#close	2014-04-03-09-55-32

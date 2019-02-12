@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-44-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1353635140.189036	CBIeU22ruwUQC1yOTh	192.168.49.10	1029	4.2.2.5	53	udp	57997	made2advertise.se	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.202.110.183	10800.000000	F
+1353635141.108396	CBIeU22ruwUQC1yOTh	192.168.49.10	1029	4.2.2.5	53	udp	33678	fcaseiyv.longmusic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.235.8.175	31.000000	F
+1353635144.829146	CBIeU22ruwUQC1yOTh	192.168.49.10	1029	4.2.2.5	53	udp	50063	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	3599.000000,300.000000	F
+1353635145.182602	CBIeU22ruwUQC1yOTh	192.168.49.10	1029	4.2.2.5	53	udp	46479	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	2378.000000,315.000000	F
+1353635139.189407	C9rRUw2HyC27IYztYa	192.168.49.10	1029	4.2.2.3	53	udp	57997	made2advertise.se	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1353635166.579707	C4S0EU2u6xJHiG1ub9	192.168.49.10	1039	8.8.8.8	53	udp	13107	j.maxmind.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.22.196.70	1989.000000	F
+1353635166.636454	CLpP9U3DcB2VVMzIN2	192.168.49.10	1042	83.133.123.20	53	udp	27972	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1353635166.637873	CzgKhTiSBfZnKKiS1	192.168.49.10	1044	83.133.123.20	53	udp	27972	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1353635166.649654	C3DFz6vGXd64AwuCk	192.168.49.10	1046	83.133.123.20	53	udp	27972	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1353635166.652039	CdpkB64967HiyOd7gd	192.168.49.10	1048	83.133.123.20	53	udp	27972	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1353635166.658352	CsNr7x2Clsq0PHyLWa	192.168.49.10	1050	83.133.123.20	53	udp	27972	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1353635166.66138	CcYEH22bXwfn8LJdr6	192.168.49.10	1052	83.133.123.20	53	udp	27972	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1353635166.806607	CgBueF16vY1c1wyI1f	192.168.49.10	1056	83.133.123.20	53	udp	27972	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1353635166.822595	CMINYu306zGY5jQl3	192.168.49.10	1058	83.133.123.20	53	udp	27972	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1353635166.868734	C1ZuXi75k86jfbMGj	192.168.49.10	1061	83.133.123.20	53	udp	27972	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1353635185.189999	CfvnQK2sV3wEIBJfy8	192.168.49.10	1067	8.8.8.8	53	udp	13107	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.194.37.84,173.194.37.80,173.194.37.83,173.194.37.82,173.194.37.81	300.000000,300.000000,300.000000,300.000000,300.000000	F
+#close	2014-04-03-10-44-36

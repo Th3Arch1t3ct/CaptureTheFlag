@@ -1,0 +1,29 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-09-53-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1374909409.496604	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1374909413.879189	CGuvW7j2qowN1pfy6	192.168.29.10	1081	74.125.224.187	80	unescaped_special_URI_char	-	F	bro
+1374909414.690201	Czb9Gl2VRz8uRxuUph	192.168.29.10	1089	208.71.122.128	80	unescaped_special_URI_char	-	F	bro
+1374909414.864982	Ci0w1D1MntUoQ3idJ1	192.168.29.10	1094	208.71.122.128	80	unescaped_special_URI_char	-	F	bro
+1374909414.86818	Cdp1OktVrXBp26HD7	192.168.29.10	1095	208.71.122.128	80	unescaped_special_URI_char	-	F	bro
+1374909415.093581	C7rFFY2ZPotgNiT9Vj	192.168.29.10	1097	208.71.122.128	80	unescaped_special_URI_char	-	F	bro
+1374909419.607737	ChLOjTxF3q5EuqRta	192.168.29.10	1105	72.21.91.187	80	unescaped_special_URI_char	-	F	bro
+1374909467.370284	CHm36e25fTd8AyQLn4	192.168.29.10	1117	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1374909467.374325	CTElIYaYXZE7b9Lpk	192.168.29.10	1118	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1374909467.421854	CbDE343NW7jvLxhLek	192.168.29.10	1120	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1374909467.427145	C86B0m4CHqeaHv0Wme	192.168.29.10	1121	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1374909467.429096	CYE1UW2vRFu80R2OTl	192.168.29.10	1122	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1374909467.432376	C9Az9z48Eg5ELWP3rf	192.168.29.10	1123	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1374909467.434054	Cbz6lk3IruwIRZOypl	192.168.29.10	1124	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1374909467.446274	CcWMBF43iiovkPRqBf	192.168.29.10	1125	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1374909467.49916	Cu9P7i3CwPvKNUs8e9	192.168.29.10	1126	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1374909467.729067	CY3GOZ1fUPDRjf1Yo3	192.168.29.10	1127	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1374909467.736604	CEzFpCP9ZdBnrDnm9	192.168.29.10	1128	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1374909509.644621	ClDgDr2qptZrx9jzMh	192.168.29.10	1148	77.120.238.11	80	bad_HTTP_request	-	F	bro
+1374909509.644621	ClDgDr2qptZrx9jzMh	192.168.29.10	1148	77.120.238.11	80	line_terminated_with_single_CR	-	F	bro
+#close	2014-04-03-09-53-26

@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-22-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1357986417.453061	CKAlro3NIxPv9A0Tvb	192.168.16.10	1029	4.2.2.3	53	udp	44177	dlulzuninhabitablera.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.170.52.21,93.170.52.31	277.000000,277.000000	F
+1357986417.784098	CKAlro3NIxPv9A0Tvb	192.168.16.10	1029	4.2.2.3	53	udp	38802	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.140.101,74.125.140.139,74.125.140.113,74.125.140.102,74.125.140.100,74.125.140.138	80261.000000,156.000000,156.000000,156.000000,156.000000,156.000000,156.000000	F
+1357986417.807469	CKAlro3NIxPv9A0Tvb	192.168.16.10	1029	4.2.2.3	53	udp	21140	zanphk.ozyxe.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	urlforward.topdns.com,199.59.160.184,72.8.167.249	3600.000000,841.000000,841.000000	F
+1357986418.381654	CKAlro3NIxPv9A0Tvb	192.168.16.10	1029	4.2.2.3	53	udp	65429	fbstatic-a.akamaihd.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fbstatic-a.akamaihd.net.edgesuite.net,a1168.dsw4.akamai.net,204.93.38.136,204.93.38.128	300.000000,299.000000,20.000000,20.000000	F
+#close	2014-04-03-10-22-49

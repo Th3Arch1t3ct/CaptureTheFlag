@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-46-03
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1320830182.459885	CXgxB31bb59JLUjbtk	192.168.111.10	1029	4.2.2.3	53	udp	54414	xnoid.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	75.126.150.82	3577.000000	F
+1320830182.510852	CXgxB31bb59JLUjbtk	192.168.111.10	1029	4.2.2.3	53	udp	32397	realblimp.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.4.103.119	28777.000000	F
+1320830184.313559	CXgxB31bb59JLUjbtk	192.168.111.10	1029	4.2.2.3	53	udp	40588	www3.firstdefensebzt.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	75.102.21.121	21576.000000	F
+1320830184.399182	CXgxB31bb59JLUjbtk	192.168.111.10	1029	4.2.2.3	53	udp	18827	www2.topspscanner.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.123	21576.000000	F
+1320830199.988044	CXgxB31bb59JLUjbtk	192.168.111.10	1029	4.2.2.3	53	udp	28298	www1.simple-defensens.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.142.166	21600.000000	F
+1320830237.286167	ChybovA1wSvvbOawh	192.168.111.10	1029	75.102.22.72	53	udp	11402	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	69.72.227.42	86400.000000	F
+1320830237.385739	CGRrcIwLh9RLSkaVb	192.168.111.10	1029	205.234.236.192	53	udp	36233	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	69.72.227.42	86400.000000	F
+1320830237.495827	CCo97I15YROf2dbDRj	192.168.111.10	1029	4.2.2.3	53	udp	36232	update1.gdh45gdfgdf435.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.127.81.212	300.000000	F
+1320830240.158022	CCo97I15YROf2dbDRj	192.168.111.10	1029	4.2.2.3	53	udp	52358	secure1.buy-video-bestcodec.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.212.150.58	300.000000	F
+#close	2014-04-03-10-46-03

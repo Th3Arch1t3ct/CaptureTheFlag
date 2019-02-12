@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-36-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1340212963.060401	C1aVGE4cAnyXNvoPgi	192.168.82.10	1030	98.124.198.1	80	tcp	http	0.046046	283	452	SF	-	0	ShADdfFa	5	491	4	620	(empty)
+1340212963.044949	C7p1RF2BcZq6UsSS5g	192.168.82.10	1029	4.2.2.3	53	udp	dns	0.115335	65	45	SF	-	0	Dd	2	121	1	73	(empty)
+1340212964.159217	CaMkEF2jHzKTUjw7Qf	192.168.82.10	1029	4.2.2.5	53	udp	dns	0.140663	36	52	SF	-	0	Dd	1	64	1	80	(empty)
+1340212974.42247	CNqgKk1vvyc9ZyFQS6	192.168.82.10	1036	38.99.229.235	80	tcp	http	0.423076	1520	35816	RSTO	-	0	ShADdR	24	2604	28	36944	(empty)
+1340212980.867889	C2g1Ld2hVnMzSdY3Hj	192.168.82.10	1029	4.2.2.5	53	udp	dns	0.568892	39	39	SF	-	0	Dd	1	67	1	67	(empty)
+1340212981.437083	CnzI1W2ENVnBc1HlMb	192.168.82.10	1029	4.2.2.3	53	udp	dns	0.219105	77	206	SF	-	0	Dd	2	133	2	262	(empty)
+1340212980.835795	C4trRnqNOkfsiaob5	192.168.82.10	1037	38.99.229.235	80	tcp	http	2.055589	9053	108288	S1	-	0	ShADd	68	11781	85	111696	(empty)
+1340212981.45215	Cp86DJ3Vv8JIWfrlNj	192.168.82.10	1038	65.55.13.243	80	tcp	http	1.206420	958	478	S1	-	0	ShADd	6	1206	3	606	(empty)
+1340212964.308688	CWkQ3E4a8y8JFHM4n8	192.168.82.10	1031	38.99.229.235	80	tcp	http	18.642486	15988	225723	RSTO	-	0	ShADdaR	132	21276	178	232851	(empty)
+1340212981.65707	CiEAOZ2AhaoBLsXCUb	192.168.82.10	1039	65.55.13.243	80	tcp	http	1.001406	952	478	S1	-	0	ShADd	6	1200	3	606	(empty)
+1340212946.835652	CsNRfn1SDWjgqusgti	192.168.82.10	68	192.168.82.1	67	udp	dhcp	12.756133	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1340212965.258858	CzDOEFZlkL3mqSBb1	192.168.82.10	1034	239.255.255.250	1900	udp	-	6.087657	399	0	S0	-	0	D	3	483	0	0	(empty)
+1340212946.835321	C24PAIdfXjcaZhed1	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000771	626	0	S0	-	0	D	2	682	0	0	(empty)
+#close	2014-04-03-10-36-21

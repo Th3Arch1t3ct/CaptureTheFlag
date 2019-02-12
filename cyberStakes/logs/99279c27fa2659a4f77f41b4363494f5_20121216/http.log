@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-35-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1355630005.563779	C9f0AyLbPQSmaepXf	192.168.124.10	1030	74.220.219.133	80	1	GET	seal-and-save.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4751	200	OK	-	-	-	(empty)	-	-	-	-	-	FdvQOd2yxOX4uxnzjl	text/html
+1355630006.542659	CLRfB838vLR8gjJN6e	192.168.124.10	1032	142.0.34.55	80	1	GET	goldclick.pro	/might/planned_products.php	http://seal-and-save.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	94411	200	OK	-	-	-	(empty)	-	-	-	-	-	F39fGC39gcTNwledIi	text/html
+1355630008.798268	CvVNmj18dmFPXAUPi7	192.168.124.10	1033	65.55.13.243	80	1	POST	activex.microsoft.com	/objects/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	FodsO64TwOqkbCEer	text/plain	FqIcdk12KLdKYGKGGb	text/plain
+1355630009.034679	Cbwwfx5NhpyOdfUm1	192.168.124.10	1038	64.4.52.169	80	1	POST	codecs.microsoft.com	/isapi/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	FDF5le1vSw2nn4Wed8	text/plain	FVK8TBjAfEzs98lT1	text/plain
+1355630006.297643	CdkioE1RAGMUpaHme6	192.168.124.10	1031	142.0.34.55	80	1	GET	goldclick.pro	/might/planned_products.php	http://seal-and-save.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+1355630014.424127	CLW3Yj46fnumRaHCvj	192.168.124.10	1039	142.0.34.55	80	1	GET	goldclick.pro	/might/planned_products.php?hgyyfgg=1f:31:1n:1l:32&igpb=3l:3i:3h:3b&bqzvja=2v:1f:1f:1j:1o:1l:1h:32:1j:1o&bycneccq=orxx	http://seal-and-save.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	912	200	OK	-	-	-	(empty)	-	-	-	-	-	FAtEDK17T0yByzKbo2	application/x-shockwave-flash
+1355630014.369629	CLRfB838vLR8gjJN6e	192.168.124.10	1032	142.0.34.55	80	2	GET	goldclick.pro	/might/planned_products.php?egll=1f:31:1n:1l:32&jkukxqh=3e&rorbkg=2v:1f:1f:1j:1o:1l:1h:32:1j:1o&yvcx=1o:1d:1g:1d:1f:1d:1f	http://goldclick.pro/might/planned_products.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	14498	200	OK	-	-	-	(empty)	-	-	-	-	-	FnG4g32XHFT1BSetwk	application/pdf
+1355630036.950431	CLRfB838vLR8gjJN6e	192.168.124.10	1032	142.0.34.55	80	3	GET	goldclick.pro	/might/planned_products.php?yutgrxq=1f:31:1n:1l:32&jfgbkbaj=2v:1f:1f:1j:1o:1l:1h:32:1j:1o&ebsjqdz=1i&vqtrzu=ior&ninucod=jrspku	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	38352	200	OK	-	-	-	(empty)	-	-	-	-	-	FtZnsWYugLWn9E4xc	application/x-dosexec
+#close	2014-04-03-10-35-30

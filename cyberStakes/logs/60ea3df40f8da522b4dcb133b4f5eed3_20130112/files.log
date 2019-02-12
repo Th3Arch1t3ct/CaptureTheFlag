@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-22-49
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1357986417.758484	Fktwd34ntXkD4zdEwj	93.170.52.21	192.168.16.10	Cr1uIU2v9XbhbtCX97	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	1138	-	0	0	F	-	a665824d2fb80181f3d80a8354e43a03	06c183fdc1fae707885643c613437ad215e9505e	-	-
+1357986418.006273	FOM4aB1inEOl4dUzi2	74.125.140.101	192.168.16.10	Cp8wnm1x0ZWxs7Sk3a	HTTP	0	MD5,SHA1	text/plain	-	0.009393	-	F	37362	-	0	0	F	-	f5592eabae33f8499d067344f1f42183	142a9875c4bd7e15ce6ac8b5bb181fb29ed08ba5	-	-
+1357986418.130024	F1BTzU26zldy4UJZO2	199.59.160.184	192.168.16.10	CGo8PY1YWXETcwcQOg	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	568	568	0	0	F	-	e8011fad0506f6a1b0e30037a900671a	da82b532f376ab35fa034476d16d4589e2bf1b15	-	-
+1357986418.241964	Fk2dXS3O2zFcK4qj63	74.125.140.101	192.168.16.10	Cp8wnm1x0ZWxs7Sk3a	HTTP	0	MD5,SHA1	image/gif	-	0.000000	-	F	35	35	0	0	F	-	28d6814f309ea289f847c69cf91194c6	0f4e929dd5bb2564f7ab9c76338e04e292a42ace	-	-
+1357986418.360248	FRkUNK1ApQEjzc3vRa	208.131.138.217	192.168.16.10	C0Osv04WxuyMEMu2Ij	HTTP	0	MD5,SHA1	text/html	-	0.000017	-	F	3194	3194	0	0	F	-	0a7498591c88d6360288dd0ff763d991	6d8c8d51a49038b63f661a46b557a37f35705d10	-	-
+1357986418.674183	FugY4XHsk5KJkW5Ya	204.93.38.136	192.168.16.10	CtBnay8SttgE3IAR2	HTTP	0	MD5,SHA1	image/png	-	0.000000	-	F	2349	2349	0	0	F	-	ce404e2f475dbf547ee8195dac0eff0a	3eb3390ad49e78b3e872aaf154256496e132e9f3	-	-
+1357986418.638871	FanuApgVPIVP8Fb33	208.131.138.217	192.168.16.10	C3qCQC4aRlxGBAoWB	HTTP	0	MD5,SHA1	application/x-dosexec	MeFunnyGIF.exe	0.052240	-	F	36500	167936	0	0	F	-	41e9aee0d7be3127d5e264033f6f583c	1bf5cdcd3ad5ea8b62d5f38ffcf602cc462c786d	-	-
+#close	2014-04-03-10-22-49

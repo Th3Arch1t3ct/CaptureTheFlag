@@ -1,0 +1,28 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-01-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1344602817.967666	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1344602857.144966	CdzALj148EWracHqNh	192.168.100.10	1048	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344602857.145164	COHuzR2jJsDlmCufze	192.168.100.10	1048	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344602857.175159	CcnzmRDDLuJ0ARAHa	192.168.100.10	1050	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344602857.175361	CXhVWRwcbmjaYzuue	192.168.100.10	1050	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344602858.042415	CPizoS2eZjuvxdy5g2	192.168.100.10	1052	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344602858.042617	Ck60sl11Tm5uQxu6e2	192.168.100.10	1052	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344602858.046664	CnsPeU23oHh2S3hsIe	192.168.100.10	1054	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344602858.046811	CQRfTx48VKj0ha5eUa	192.168.100.10	1054	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344602858.050052	CweUJr47JOu8MWqT5a	192.168.100.10	1056	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344602858.050191	CVRIYHGnVsltRdrF1	192.168.100.10	1056	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344602858.931169	C0xf4f1S8aNqAVhe9a	192.168.100.10	1065	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344602858.931306	Czgb8G5XMtkIog5Wd	192.168.100.10	1065	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344602859.041571	CBeCbI2q2fyXpXAWSg	192.168.100.10	1062	94.189.199.2	80	bad_HTTP_request	-	F	bro
+1344602859.041571	CBeCbI2q2fyXpXAWSg	192.168.100.10	1062	94.189.199.2	80	line_terminated_with_single_CR	-	F	bro
+1344602859.051315	Cngnvo4jK7etDjD3fa	192.168.100.10	1067	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344602859.051461	C2dQiFkpBUpf52hw1	192.168.100.10	1067	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344602859.189503	C459qL2Chs4v4zUm2h	192.168.100.10	1069	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344602859.189704	CM3TzJ2rV9tGe85gy1	192.168.100.10	1069	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+#close	2014-04-03-10-01-06

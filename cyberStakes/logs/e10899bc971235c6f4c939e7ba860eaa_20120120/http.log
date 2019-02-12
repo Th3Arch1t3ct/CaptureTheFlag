@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-52-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1327036774.863931	C1KFXt4Y8r2ELI0J31	192.168.7.10	1030	194.213.126.103	80	1	GET	stemfoort.nl	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1697	200	OK	-	-	-	(empty)	-	-	-	-	-	FY1VlY2XnXHwZZXD82	text/html
+1327036775.068965	CRr88f17KbS9IvmdRh	192.168.7.10	1031	194.213.126.103	80	1	GET	stemfoort.nl	/fd.gif	http://stemfoort.nl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3832	200	OK	-	-	-	(empty)	-	-	-	-	-	F7npZf1t5S50rwzEak	image/gif
+1327036775.069175	CMdmlV2A39cyYgR8Me	192.168.7.10	1032	194.213.126.103	80	1	GET	stemfoort.nl	/stemfoortlogo.jpg	http://stemfoort.nl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6730	200	OK	-	-	-	(empty)	-	-	-	-	-	FXPBSe1LDQpTlek8Bk	image/jpeg
+1327036775.292833	CohLBa1KCQeozLmObc	192.168.7.10	1034	194.213.126.103	80	1	GET	stemfoort.nl	/info.jpg	http://stemfoort.nl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1328	200	OK	-	-	-	(empty)	-	-	-	-	-	Fenz8O17tUQT63Oz35	image/jpeg
+1327036775.060758	CzQyua4HxzhLcI8CD9	192.168.7.10	1033	74.82.222.241	80	1	GET	overfackc.info	/jkasdh98768sa9hdjkashdi6iyhikusadhi68/main.php?page=22f97a4c7bd9e5da	http://stemfoort.nl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	95683	200	OK	-	-	-	(empty)	-	-	-	-	-	FZpIAV2ngUlrCt1B6h	text/html
+1327036780.620933	CzQyua4HxzhLcI8CD9	192.168.7.10	1033	74.82.222.241	80	2	GET	overfackc.info	/jkasdh98768sa9hdjkashdi6iyhikusadhi68/w.php?f=66&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	83464	200	OK	-	-	-	(empty)	-	-	-	-	-	FstQ1S2GT7hV74V5Vj	application/x-dosexec
+1327036781.760186	CzQyua4HxzhLcI8CD9	192.168.7.10	1033	74.82.222.241	80	3	GET	overfackc.info	/jkasdh98768sa9hdjkashdi6iyhikusadhi68/content/fdp2.php?f=66	http://overfackc.info/jkasdh98768sa9hdjkashdi6iyhikusadhi68/main.php?page=22f97a4c7bd9e5da	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	98467	200	OK	-	-	-	(empty)	-	-	-	-	-	FDjBV93wevyX0qw32e	application/pdf
+1327036792.576626	CzQyua4HxzhLcI8CD9	192.168.7.10	1033	74.82.222.241	80	4	GET	overfackc.info	/jkasdh98768sa9hdjkashdi6iyhikusadhi68/w.php?f=66&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1327036793.494622	CzQyua4HxzhLcI8CD9	192.168.7.10	1033	74.82.222.241	80	5	GET	overfackc.info	/jkasdh98768sa9hdjkashdi6iyhikusadhi68/content/field.swf	http://stemfoort.nl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1464	200	OK	-	-	-	(empty)	-	-	-	-	-	FTv7FL12spPdUNkOz	application/x-shockwave-flash
+1327036800.022058	C0QXkN1nkEtVXx0vLk	192.168.7.10	1042	74.82.222.241	80	1	GET	overfackc.info	/jkasdh98768sa9hdjkashdi6iyhikusadhi68/content/v1.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4270	200	OK	-	-	-	(empty)	-	-	-	-	-	FSNvSW1lxRdof4zE1l	application/zip
+#close	2014-04-03-10-52-36

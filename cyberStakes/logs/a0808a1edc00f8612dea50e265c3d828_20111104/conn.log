@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-43-28
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1320407536.000141	CDO8Yq4r007vLVQGYe	192.168.92.10	1062	69.31.132.42	80	tcp	-	0.000596	0	0	RSTO	-	0	fR	1	40	1	40	(empty)
+1320407538.999889	CPsjA95hXMv9jVxs	192.168.92.10	1061	69.31.132.42	80	tcp	-	0.000359	0	0	RSTO	-	0	fR	1	40	1	40	(empty)
+1320407539.023051	CRyhtZ2NzUOAgp3nTl	192.168.92.10	1029	4.2.2.3	53	udp	dns	0.878225	70	116	SF	-	0	Dd	2	126	2	172	(empty)
+1320407539.901912	CTMrcu2pZpXBv2hQQi	192.168.92.10	1031	80.93.214.170	80	tcp	http	6.197777	267	677	RSTO	-	0	ShADadfR	6	515	4	845	(empty)
+1320407539.902429	CfcSzi21cvtASVGAik	192.168.92.10	1032	80.93.214.170	80	tcp	http	6.199217	263	26547	RSTO	-	0	ShADadfR	21	1227	22	27435	(empty)
+1320407553.09575	C9VKT12vDqKdRNnZl4	192.168.92.10	1037	65.55.13.243	80	tcp	-	0.068011	0	0	RSTO	-	0	ShR	2	88	1	48	(empty)
+1320407539.025364	CFST4D1RhXmrEcZQT2	192.168.92.10	1030	80.93.214.170	80	tcp	http	14.169932	287	16683	SF	-	0	ShADadfF	14	855	16	17331	(empty)
+1320407553.079991	CfDt1e3RMQzZURRlfh	192.168.92.10	1029	4.2.2.3	53	udp	dns	3.201183	142	281	SF	-	0	Dd	3	226	3	365	(empty)
+1320407553.196096	CFBNSI2TLP2MIkcubd	192.168.92.10	1038	80.93.214.170	80	tcp	http	6.211398	186	72605	RSTO	-	0	ShADadfR	38	1714	53	74733	(empty)
+1320407556.284796	CduUba1xu5r5sNiiz8	192.168.92.10	1041	208.109.53.70	80	tcp	http	0.217330	196	1259	S1	-	0	ShADd	4	364	2	1347	(empty)
+1320407522.715338	CT3eYO9ThPFGsg2e7	192.168.92.10	68	192.168.92.1	67	udp	dhcp	13.288463	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1320407522.714999	CdUeNV3bE83hySOhVb	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000722	626	0	S0	-	0	D	2	682	0	0	(empty)
+1320407542.335321	CLt5ym1DTWZ8nbd3U1	192.168.92.10	1035	239.255.255.250	1900	udp	-	6.160265	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-10-43-28

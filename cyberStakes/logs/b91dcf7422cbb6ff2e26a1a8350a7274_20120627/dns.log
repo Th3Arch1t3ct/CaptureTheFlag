@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-58-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1340807418.264021	C7eNZzeo4WszcUH9i	192.168.76.10	1029	4.2.2.3	53	udp	41365	blackspeaker.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.59.2.60	3571.000000	F
+1340807418.829929	C7eNZzeo4WszcUH9i	192.168.76.10	1029	4.2.2.3	53	udp	48276	pskit.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.107.34.91	190.000000	F
+1340807450.065757	C9x7DuzlOQ94dmud7	192.168.76.10	1043	4.2.2.3	53	udp	3662	11tf90d.cdn35.filesoneetc.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.131.140.158	3600.000000	F
+1340807451.59733	C4Ak603O6lv314EFx9	192.168.76.10	1044	8.8.8.8	53	udp	13107	promos.fling.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.91.207.10	23.000000	F
+1340807452.440048	Cok7LW3UgEovNT4Hl2	192.168.76.10	1047	66.85.130.234	53	udp	46190	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340807452.535232	CNjREU3qA9QWWbfyb2	192.168.76.10	1049	66.85.130.234	53	udp	46190	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340807452.815581	CQGsnZ1Dxj3clbUDzd	192.168.76.10	1052	66.85.130.234	53	udp	46190	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340807452.817779	CLkf2w1Hz4rzReEeq2	192.168.76.10	1054	66.85.130.234	53	udp	46190	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340807452.848733	CpP0gP3J1aIuC312A2	192.168.76.10	1056	66.85.130.234	53	udp	46190	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340807457.13163	CkIzqR3llTYwXYFtpd	192.168.76.10	1060	66.85.130.234	53	udp	46190	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340807457.938742	CQkPWt1G7N3BPetIH7	192.168.76.10	1062	66.85.130.234	53	udp	46190	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340807457.971626	C5FMFJ2gaaD4IIpXQi	192.168.76.10	1064	66.85.130.234	53	udp	46190	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340807470.970172	CYgpKKmH0CnCZrpU8	192.168.76.10	1029	4.2.2.3	53	udp	50582	secondfatman.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.193.12.27	275.000000	F
+1340807478.313401	C7ezlX3hhsSBydMYM1	192.168.76.10	1073	8.8.8.8	53	udp	13107	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.224.148,74.125.224.144,74.125.224.146,74.125.224.145,74.125.224.147	86399.000000,299.000000,299.000000,299.000000,299.000000,299.000000	F
+#close	2014-04-03-10-58-13

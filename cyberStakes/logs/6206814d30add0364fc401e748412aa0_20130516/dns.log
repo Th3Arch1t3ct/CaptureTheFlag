@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-50-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1368707329.512325	CTH2Y03O9d5wMYDCHd	192.168.13.10	1029	4.2.2.3	53	udp	51084	gilweb-enterprises.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.129.229.224	3600.000000	F
+1368707329.643188	CTH2Y03O9d5wMYDCHd	192.168.13.10	1029	4.2.2.3	53	udp	399	www.websitesettings.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	websitesettings.com,67.192.1.13	86400.000000,86400.000000	F
+1368707330.118664	CTH2Y03O9d5wMYDCHd	192.168.13.10	1029	4.2.2.3	53	udp	19081	mysafefloridahomelife.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.95.51.123	3600.000000	F
+1368707346.320446	CS1ZkTa5ZYXPttsZ	192.168.13.10	1029	4.2.2.3	53	udp	28043	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	999.000000,300.000000	F
+1368707346.672283	CS1ZkTa5ZYXPttsZ	192.168.13.10	1029	4.2.2.3	53	udp	2698	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	1896.000000,317.000000	F
+1368707351.713444	CS1ZkTa5ZYXPttsZ	192.168.13.10	1029	4.2.2.3	53	udp	65157	mail.yaklasim.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	212.58.4.13	86400.000000	F
+1368707352.782016	CS1ZkTa5ZYXPttsZ	192.168.13.10	1029	4.2.2.3	53	udp	47237	khnautomationsystems.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.167.190.8	86400.000000	F
+#close	2014-04-03-09-50-27

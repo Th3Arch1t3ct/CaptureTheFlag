@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-11-16-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1312665913.889012	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1312665922.064366	CKjo6l3X82WkZVwqhk	192.168.102.10	1057	72.21.206.169	80	window_recision	-	F	bro
+#close	2014-04-03-11-16-09

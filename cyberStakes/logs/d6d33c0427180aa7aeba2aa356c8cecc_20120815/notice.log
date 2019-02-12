@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-22-23
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1345033619.236197	ChHQHb2PMaEZBnpq9	192.168.97.10	1044	213.186.33.87	80	FM4P0cv2iOMurSKI9	application/x-dosexec	http://aubergedelachaite.com/3.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 48%  Last seen: 2012-11-02 20:32:16	https://www.virustotal.com/en/search/?query=e9d265ff883549a51b8b8308229b204698faea73	192.168.97.10	213.186.33.87	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1345033634.451272	CLcjaC4XsPxUKvMzYd	192.168.97.10	1070	194.219.29.235	80	F3SZqV1xxdRqp6ycv1	application/x-dosexec	http://jimi.kopoese.com/f/notepad.exe?ts=bcaad2f0&affid=5630	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 31%  Last seen: 2012-08-21 19:22:17	https://www.virustotal.com/en/search/?query=b633aa440ab04289c5bd58891c9143a0904c94c2	192.168.97.10	194.219.29.235	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-22-24

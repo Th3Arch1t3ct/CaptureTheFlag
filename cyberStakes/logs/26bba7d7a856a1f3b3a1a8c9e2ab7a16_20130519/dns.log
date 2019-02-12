@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-10-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1368960715.512927	CGoZFd3oiACXKFUuc5	192.168.30.10	1029	4.2.2.3	53	udp	2443	18542home.is-by.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	65.13.54.33	60.000000	F
+1368960745.343207	CQjOf635jTAXFq3fZ4	192.168.30.10	1029	4.2.2.3	53	udp	13448	crl.globalsign.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	108.162.232.7,108.162.232.4,108.162.232.6,108.162.232.5,108.162.232.8,108.162.232.9	300.000000,300.000000,300.000000,300.000000,300.000000,300.000000	F
+1368960745.388844	CQjOf635jTAXFq3fZ4	192.168.30.10	1029	4.2.2.3	53	udp	5001	crl.globalsign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	108.162.232.7,108.162.232.9,108.162.232.6,108.162.232.4,108.162.232.8,108.162.232.5	300.000000,300.000000,300.000000,300.000000,300.000000,300.000000	F
+#close	2014-04-03-11-10-54

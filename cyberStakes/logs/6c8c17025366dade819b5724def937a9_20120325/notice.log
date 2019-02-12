@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-13-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1332691838.777635	CnrwPm2fWLu3lue0sl	192.168.6.10	1041	85.192.45.84	80	Fi7HHMIBoK4RaTZe7	application/x-shockwave-flash	http://hihgrihiiih.org/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 50%  Last seen: 2012-03-31 23:10:35	https://www.virustotal.com/en/search/?query=359244f0038e3bf78449217915ead1d70c733a16	192.168.6.10	85.192.45.84	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1332691839.060355	CnrwPm2fWLu3lue0sl	192.168.6.10	1041	85.192.45.84	80	FWBfQp1qiWIo1bTStl	application/x-dosexec	http://hihgrihiiih.org/w.php?f=a2e1a&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 15%  Last seen: 2012-03-25 19:31:00	https://www.virustotal.com/en/search/?query=5963906815c9acb0f5797e297f1e938fee614e82	192.168.6.10	85.192.45.84	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1332691844.132967	CnrwPm2fWLu3lue0sl	192.168.6.10	1041	85.192.45.84	80	Fcmini1ve2JphfIDpg	application/x-dosexec	http://hihgrihiiih.org/w.php?f=a2e1a&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 15%  Last seen: 2012-03-25 19:31:00	https://www.virustotal.com/en/search/?query=5963906815c9acb0f5797e297f1e938fee614e82	192.168.6.10	85.192.45.84	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1332691867.400858	CnrwPm2fWLu3lue0sl	192.168.6.10	1041	85.192.45.84	80	FnmqvI1fj7utmqrS96	application/x-dosexec	http://hihgrihiiih.org/w.php?f=a2e1a&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 15%  Last seen: 2012-03-25 19:31:00	https://www.virustotal.com/en/search/?query=5963906815c9acb0f5797e297f1e938fee614e82	192.168.6.10	85.192.45.84	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1332691869.818925	CiNCfM1qU5NsHb1YVd	192.168.6.10	1042	85.192.45.84	80	F4t3xA2jgyuMUB7Pcl	application/x-dosexec	http://hihgrihiiih.org/w.php?f=a2e1a&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 15%  Last seen: 2012-03-25 19:31:00	https://www.virustotal.com/en/search/?query=5963906815c9acb0f5797e297f1e938fee614e82	192.168.6.10	85.192.45.84	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-13-58

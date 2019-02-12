@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-51-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1327480915.507879	CmyZ2Z1enrpsfTyjtd	192.168.78.10	1029	4.2.2.3	53	udp	38291	eddiehicks.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.147.242.85	14378.000000	F
+1327480915.960414	CmyZ2Z1enrpsfTyjtd	192.168.78.10	1029	4.2.2.3	53	udp	5521	www.eddiehicks.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	eddiehicks.com,66.147.242.85	14381.000000,14378.000000	F
+1327480916.87123	CmyZ2Z1enrpsfTyjtd	192.168.78.10	1029	4.2.2.3	53	udp	31638	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,173.194.37.11,173.194.37.12,173.194.37.13,173.194.37.14,173.194.37.15,173.194.37.0,173.194.37.1,173.194.37.2,173.194.37.3,173.194.37.4,173.194.37.5,173.194.37.6,173.194.37.7,173.194.37.8,173.194.37.9,173.194.37.10	31661.000000,74.000000,74.000000,74.000000,74.000000,74.000000,74.000000,74.000000,74.000000,74.000000,74.000000,74.000000,74.000000,74.000000,74.000000,74.000000,74.000000	F
+1327480918.419842	CmyZ2Z1enrpsfTyjtd	192.168.78.10	1029	4.2.2.3	53	udp	41367	blood1.cu.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.201.35	40895.000000	F
+1327480918.650594	CmyZ2Z1enrpsfTyjtd	192.168.78.10	1029	4.2.2.3	53	udp	60311	sjkhj23788u8.erv39.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.184.192.57	3600.000000	F
+1327480949.534961	C2gCvG2i86cTUPJ4q8	192.168.78.10	1029	4.2.2.3	53	udp	54679	cijorom.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.210.120.14	600.000000	F
+1327480950.442486	C2gCvG2i86cTUPJ4q8	192.168.78.10	1029	4.2.2.3	53	udp	19605	plastafionoker.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	141.136.16.62	600.000000	F
+1327480971.78487	CwukFa1iEmJXCxDyaf	192.168.78.10	1029	4.2.2.3	53	udp	2714	craftineer.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.44.184.41	600.000000	F
+#close	2014-04-03-10-51-30

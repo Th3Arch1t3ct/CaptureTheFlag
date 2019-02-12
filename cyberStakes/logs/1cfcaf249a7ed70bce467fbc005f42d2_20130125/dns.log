@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-00-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1359080326.91964	C8wbhb1x0v1RaDjnE8	192.168.100.10	1028	4.2.2.3	53	udp	52869	electracard.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	14.140.42.84	3600.000000	F
+1359080327.667689	C8wbhb1x0v1RaDjnE8	192.168.100.10	1028	4.2.2.3	53	udp	63621	www.electracard.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	electracard.com,14.140.42.84	3600.000000,3599.000000	F
+1359080332.20793	C8wbhb1x0v1RaDjnE8	192.168.100.10	1028	4.2.2.3	53	udp	39046	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,173.194.68.102,173.194.68.100,173.194.68.113,173.194.68.139,173.194.68.101,173.194.68.138	81322.000000,125.000000,125.000000,125.000000,125.000000,125.000000,125.000000	F
+1359080333.818058	C8wbhb1x0v1RaDjnE8	192.168.100.10	1028	4.2.2.3	53	udp	53127	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.d.akamai.net,23.15.5.199,23.15.5.198	23915.000000,281.000000,16749.000000,1.000000,1.000000	F
+1359080353.434419	CfTAcf3P32Z6p64DPc	192.168.100.10	1028	4.2.2.3	53	udp	48000	vukolip.homedns.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.76.44.88	60.000000	F
+1359080354.637415	CfTAcf3P32Z6p64DPc	192.168.100.10	1028	4.2.2.3	53	udp	31873	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	1135.000000,300.000000	F
+1359080355.112451	CfTAcf3P32Z6p64DPc	192.168.100.10	1028	4.2.2.3	53	udp	7811	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	2349.000000,600.000000	F
+1359080364.651858	Ck4qdy1T7B6LAWqhc5	192.168.100.10	1028	4.2.2.3	53	udp	54669	nixseo.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.190.45.197	60.000000	F
+1359080389.695863	CeBW7sQu7c6cvDtmf	192.168.100.10	1028	4.2.2.3	53	udp	47247	swupmf.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	swupmf.wip4.adobe.com,swupmf.adobe.com.edgesuite.net,a1137.g.akamai.net,72.246.45.59,72.246.45.10	9655.000000,420.000000,17890.000000,20.000000,20.000000	F
+1359080389.756059	CeBW7sQu7c6cvDtmf	192.168.100.10	1028	4.2.2.3	53	udp	55183	crl.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.wip4.adobe.com,crl.adobe.com.edgesuite.net,a1180.g.akamai.net,72.246.45.57,72.246.45.65	7744.000000,300.000000,9792.000000,20.000000,20.000000	F
+1359080397.209898	CeBW7sQu7c6cvDtmf	192.168.100.10	1028	4.2.2.3	53	udp	32143	zalivalka.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.161.33.4	3600.000000	F
+1359080397.7011	CeBW7sQu7c6cvDtmf	192.168.100.10	1028	4.2.2.3	53	udp	61576	s2.zalivalka.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.2.240.124	3600.000000	F
+#close	2014-04-03-10-00-57

@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-28-19
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1344074930.604738	CiNA2L289oFz7EqOS	192.168.68.10	1029	4.2.2.3	53	udp	2955	2673.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	204.13.162.123	3575.000000	F
+1344074930.772617	CiNA2L289oFz7EqOS	192.168.68.10	1029	4.2.2.3	53	udp	19339	dsparking.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	204.13.162.127	3600.000000	F
+1344074932.442723	CiNA2L289oFz7EqOS	192.168.68.10	1029	4.2.2.3	53	udp	24456	40359.accuratesearchsite.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.66.156.27	3600.000000	F
+1344074932.911079	CiNA2L289oFz7EqOS	192.168.68.10	1029	4.2.2.3	53	udp	17289	ck.ads.affinity.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.36.248.143	3600.000000	F
+1344074933.062333	CiNA2L289oFz7EqOS	192.168.68.10	1029	4.2.2.3	53	udp	42383	www.internet-turbo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	internet-turbo.com,64.111.214.157	1800.000000,1800.000000	F
+1344074933.183278	CiNA2L289oFz7EqOS	192.168.68.10	1029	4.2.2.3	53	udp	34189	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.130.139,74.125.130.100,74.125.130.101,74.125.130.102,74.125.130.113,74.125.130.138	32580.000000,52.000000,52.000000,52.000000,52.000000,52.000000,52.000000	F
+1344074933.189096	CzhgrD5PiNXFBPYc3	192.168.68.10	1041	4.2.2.3	53	udp	35725	reports.amonetize.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	76.9.4.18	1800.000000	F
+1344074933.212725	CiNA2L289oFz7EqOS	192.168.68.10	1029	4.2.2.3	53	udp	41357	free-sw.s3.amazonaws.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	s3-1-w.amazonaws.com,72.21.211.168	2400.000000,3.000000	F
+#close	2014-04-03-10-28-19

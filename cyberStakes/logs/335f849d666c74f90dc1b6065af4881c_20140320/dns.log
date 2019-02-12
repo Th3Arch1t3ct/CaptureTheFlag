@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-32-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1395279521.039323	CbFRN21wnl3XgRAIub	192.168.9.10	1035	4.2.2.3	53	udp	9374	politay.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.173.183.91	14347.000000	F
+1395279523.675442	CbFRN21wnl3XgRAIub	192.168.9.10	1035	4.2.2.3	53	udp	7327	www.politay.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	politay.net,95.173.183.91	14400.000000,14345.000000	F
+1395279527.413798	CcIN9HMgrLKHZE2T9	192.168.9.10	1050	4.2.2.3	53	udp	20380	www.elegantthemes.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	elegantthemes.com,208.79.232.91	2286.000000,2286.000000	F
+1395279527.398032	CbFRN21wnl3XgRAIub	192.168.9.10	1035	4.2.2.3	53	udp	13471	gilaki.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	144.76.161.34	30.000000	F
+1395279527.967231	CcIN9HMgrLKHZE2T9	192.168.9.10	1050	4.2.2.3	53	udp	47772	v3cnn.mistressjump.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.105.139.31	3600.000000	F
+#close	2014-04-03-10-32-07

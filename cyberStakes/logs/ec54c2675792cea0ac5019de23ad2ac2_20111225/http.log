@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-59-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1324852500.867142	CVTV374PgYEJisM1a9	192.168.51.10	1030	85.9.47.230	80	1	GET	xposemedia.ro	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3117	200	OK	-	-	-	(empty)	-	-	-	-	-	F2DQS61HeHJzcQWDGi	text/html
+1324852501.771499	C0JuJX1vehTkfyVFEe	192.168.51.10	1031	69.59.25.33	80	1	GET	nyskiffintabout.com	/index.php?tp=712de25a88001416	http://xposemedia.ro/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	93560	200	OK	-	-	-	(empty)	-	-	-	-	-	FHU36Q2vcltuAsN5y6	text/html
+1324852516.142833	CqqWn83Kqbh87LgE2e	192.168.51.10	1032	69.59.25.33	80	1	GET	nyskiffintabout.com	/w.php?f=144&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	77824	200	OK	-	-	-	(empty)	-	-	-	-	-	Fg8zeG2GdzdBkanpG2	application/x-dosexec
+1324852517.115537	CEOJlN1iAO4zN9BxCa	192.168.51.10	1037	69.59.25.33	80	1	GET	nyskiffintabout.com	/content/2ddfp.php?f=144	http://nyskiffintabout.com/index.php?tp=712de25a88001416	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	114605	200	OK	-	-	-	(empty)	-	-	-	-	-	FOrn1mLXH6TztU8g5	application/pdf
+1324852519.027351	CeOkLe2SWPeARxA97g	192.168.51.10	1038	69.59.25.33	80	1	GET	nyskiffintabout.com	/content/field.swf	http://xposemedia.ro/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	529	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FUshTos3bLkQYnw2	text/html
+1324852524.177305	Cmwnqp3pR00kEl2wkf	192.168.51.10	1039	69.59.25.33	80	1	GET	nyskiffintabout.com	/content/v1.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3543	200	OK	-	-	-	(empty)	-	-	-	-	-	FGXJyN3ouRYmGS9yr8	application/zip
+1324852524.781379	CgYXE62RSzhh1C0snl	192.168.51.10	1041	69.59.25.33	80	1	GET	nyskiffintabout.com	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	169	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FZLMyQryFKVNgTZb8	text/html
+1324852525.056248	Cbbca21Qi0qrpJYj84	192.168.51.10	1043	69.59.25.33	80	1	GET	nyskiffintabout.com	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	169	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FZdF4R1JLgMLAKh5m6	text/html
+1324852525.330566	Cri5nU0myo5qQJgCk	192.168.51.10	1044	69.59.25.33	80	1	GET	nyskiffintabout.com	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	169	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FJL0rO3T4bLLlWUEFh	text/html
+1324852525.602801	C91Hmq4tAed3mYxtTi	192.168.51.10	1045	69.59.25.33	80	1	GET	nyskiffintabout.com	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	169	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FyhcLc4JCigaexLaDe	text/html
+1324852526.326438	CIOoA3498UQtxbWwp2	192.168.51.10	1046	69.59.25.33	80	1	GET	nyskiffintabout.com	/w.php?f=144&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1324852524.960277	CPVj9y45cjHui2lsT4	192.168.51.10	1042	128.204.195.85	80	1	POST	tqweytgbf32g.com	/search?fr=altavista&itag=ody&q=CJaa-PQS1=cE9=EhT=,d5fa8ff57ad763fe&kgs=1&kls=0	-	-	444	512000	200	OK	-	-	-	(empty)	-	-	-	FN6ATl39zBBqhtDdFe	text/plain	FnuEKf1eZCQkotRbu9	binary
+1324852538.90862	CPVj9y45cjHui2lsT4	192.168.51.10	1042	128.204.195.85	80	2	POST	tqweytgbf32g.com	/search?fr=altavista&itag=ody&q=CJaa-PQS1=cE9=EhT=,d5fa8ff57ad763fe,bE0jGAgTSA&kgs=1&kls=0&p=1000	-	-	33	0	200	OK	-	-	-	(empty)	-	-	-	FQkQZR2Bff9Cv4msI7	text/plain	-	-
+1324852546.716943	ChzinB2ioftW2z83yb	192.168.51.10	1031	50.23.131.221	80	1	POST	sxshdbtk.net	/	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; SV1; .NET CLR 1.1.4322)	240	243502	200	OK	-	-	-	(empty)	-	-	-	FLFD6b0fOxwf6EPLc	binary	FTYYEn3TrMJkhjQyy6	binary
+1324852549.076035	C7Hvit2E1RM74D2p36	192.168.51.10	1032	207.46.197.32	80	1	GET	microsoft.com	/	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; SV1; .NET CLR 1.1.4322)	0	23	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FE8GmDDdGjwVadkoc	text/plain
+1324852554.550622	CPVj9y45cjHui2lsT4	192.168.51.10	1042	128.204.195.85	80	3	POST	tqweytgbf32g.com	/search?fr=altavista&itag=ody&q=CJaa-PQS1=cE9=EhT=,d5fa8ff57ad763fe,bE0jGAgTSA&kgs=1&kls=0&p=1000	-	-	157	0	200	OK	-	-	-	(empty)	-	-	-	FNV0XY16i5qAedW0N3	text/plain	-	-
+1324852569.766921	CPVj9y45cjHui2lsT4	192.168.51.10	1042	128.204.195.85	80	4	POST	tqweytgbf32g.com	/search?fr=altavista&itag=ody&q=CJaa-PQS1=cE9=EhT=,d5fa8ff57ad763fe,bE0jGAgTSA&kgs=1&kls=0&p=1000	-	-	3	0	200	OK	-	-	-	(empty)	-	-	-	F4Moqr2qs6eMAGbcIh	text/plain	-	-
+#close	2014-04-03-10-59-04

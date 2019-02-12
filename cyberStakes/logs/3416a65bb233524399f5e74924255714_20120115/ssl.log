@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-35-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1326590034.322483	CLEFTUrhcZgCG2tH	192.168.31.10	1033	74.125.47.95	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleapis.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1325788340.000000	1357411340.000000	-	-	-	055f27fbb43e5e4c0e647194e4c16fbc	ok
+1326590035.591948	C66eAs2QCjDh7b7US7	192.168.31.10	1044	74.125.229.173	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1325788334.000000	1357411334.000000	-	-	-	c7453080a65ff6ba783bbbbbb4974cb4	ok
+1326590035.847724	CcmjeZMNXXecjBeYi	192.168.31.10	1048	216.137.33.229	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.cloudfront.net,O=Amazon.com\, Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1289368800.000000	1384408799.000000	-	-	-	5976df54f8265193d61c127af8b6f710	ok
+1326590035.971384	Co9dKU18duoqhfEm7b	192.168.31.10	1053	74.125.45.132	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1325788346.000000	1357411346.000000	-	-	-	d0e7b046e49c96b10ccf08782e1f052a	ok
+1326590036.067474	CtSb7n2wAsVuLoSxU7	192.168.31.10	1056	216.137.33.47	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.cloudfront.net,O=Amazon.com\, Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1289368800.000000	1384408799.000000	-	-	-	5976df54f8265193d61c127af8b6f710	ok
+1326590045.524274	Cvvvuf1nITE1NLrRo1	192.168.31.10	1145	207.171.163.162	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.s3.amazonaws.com,O=Amazon.com Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1292392800.000000	1387432799.000000	-	-	-	e3cc103aacd8beea27f01fd08da597bd	ok
+1326590072.935047	CtsjQQ12Ca0RKHTe2c	192.168.31.10	1193	107.20.213.192	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.truste.com,OU=Terms of use at www.verisign.com/rpa (c)05,OU=Engineering,O=True Ultimate Standards Everywhere\, Inc.,L=San Francisco,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1298872800.000000	1330495199.000000	-	-	-	2cd5430144cc15388c01edfb1ef6177b	ok
+1326590074.042016	CSeZN2tRUEbC2r4dj	192.168.31.10	1196	107.20.213.192	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	2d75a2ae6a40b815add40db0f24ebbf481c3fee8af96c2678f5473f7dcf61aa9	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-35-33

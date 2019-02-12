@@ -1,0 +1,28 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-32-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1342889133.037274	CAQ0qc4gAD1PhSgTd5	192.168.10.10	1029	4.2.2.3	53	udp	31113	phnedenvideo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.213.29	4.000000	F
+1342889133.806113	CAQ0qc4gAD1PhSgTd5	192.168.10.10	1029	4.2.2.3	53	udp	8843	nopsock.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	176.31.16.224	30.000000	F
+1342889142.37947	C60pXD1qWMvIfToS0b	192.168.10.10	1042	8.8.8.8	53	udp	13107	promos.fling.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.91.207.10	172.000000	F
+1342889142.478028	CV0l2NxxrCF4I7dk6	192.168.10.10	1045	83.133.123.20	53	udp	51392	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1342889142.484973	CRXQGD2rwe2ITvX0ne	192.168.10.10	1047	83.133.123.20	53	udp	51392	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1342889142.495681	CACc5k2KAjOlZKbH9k	192.168.10.10	1049	83.133.123.20	53	udp	51392	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1342889142.497471	CxSLcWKA7Ne07pwl	192.168.10.10	1051	83.133.123.20	53	udp	51392	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1342889142.498969	Co9Cy34OpmqXibAFQf	192.168.10.10	1053	83.133.123.20	53	udp	51392	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1342889142.570524	C7oMzm1CAfApNWonh	192.168.10.10	1058	83.133.123.20	53	udp	51392	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1342889142.582234	C6WT2J1Wtb6gJtIDEb	192.168.10.10	1060	83.133.123.20	53	udp	51392	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1342889142.598238	CT5Hre3WvgPtvRVd19	192.168.10.10	1062	83.133.123.20	53	udp	51392	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1342889136.0193	CAQ0qc4gAD1PhSgTd5	192.168.10.10	1029	4.2.2.3	53	udp	13450	224.16.31.176.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1342889136.0193	CAQ0qc4gAD1PhSgTd5	192.168.10.10	1029	4.2.2.3	53	udp	13450	224.16.31.176.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1342889136.0193	CAQ0qc4gAD1PhSgTd5	192.168.10.10	1029	4.2.2.3	53	udp	13450	224.16.31.176.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1342889165.344795	CvrefL1q2kiRzE9Kv7	192.168.10.10	1077	4.2.2.3	53	udp	64329	11tmh88.cdn66.hostingbestupload.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.131.140.158	3600.000000	F
+1342889175.441061	CVq7rm2dlewXx8OkG7	192.168.10.10	1084	8.8.8.8	53	udp	13107	fpdownload.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload.wip4.adobe.com,fpdownload.macromedia.com.edgekey.net,e526.d.akamaiedge.net,173.223.178.70	28782.000000,282.000000,282.000000,2.000000	F
+1342889175.597375	CFPwZ51XQOssrTc9rj	192.168.10.10	1086	8.8.8.8	53	udp	13107	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,63.80.138.8,63.80.138.40	2249.000000,112.000000,5784.000000,10.000000,10.000000	F
+1342889175.89148	CKfb3U3lhi3pPobq51	192.168.10.10	1087	8.8.8.8	53	udp	13107	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.45.106,74.125.45.105,74.125.45.147,74.125.45.104,74.125.45.103,74.125.45.99	86399.000000,299.000000,299.000000,299.000000,299.000000,299.000000,299.000000	F
+1342889176.259883	C5MgcN2CuE1iMtgjA5	192.168.10.10	1029	4.2.2.3	53	udp	5002	fpdownload.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload.wip4.adobe.com,fpdownload.macromedia.com.edgekey.net,e526.d.akamaiedge.net,96.17.34.70	9874.000000,237.000000,237.000000,20.000000	F
+#close	2014-04-03-10-32-35

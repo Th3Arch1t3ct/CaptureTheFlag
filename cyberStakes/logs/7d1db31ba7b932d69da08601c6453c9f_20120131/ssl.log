@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-39-38
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1328039591.042694	CEIZJv3cZ9vAHE81Le	192.168.128.10	1036	208.43.107.45	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=www.advpoints.com,OU=Domain Control Validated - RapidSSL(R),OU=See www.rapidssl.com/resources/cps (c)11,OU=GT49380531,O=www.advpoints.com,C=US,serialNumber=-Z-iduYrr9rjjnGPo0OtlIutVA-8HbFV	CN=RapidSSL CA,O=GeoTrust\, Inc.,C=US	1313885239.000000	1345668265.000000	-	-	-	a14b16ce1f33957ae782f02a8d7c6f5d	ok
+1328039591.564684	CwtgIr1L9K9zHpqlJh	192.168.128.10	1037	208.43.107.45	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	15d7c0373b608d2331aaa97b4405077a8a5013519836e1d55d2aa3cde962559a	-	-	-	-	-	-	-	-	-
+1328039591.902822	CKJpkK2APY2wfAFe12	192.168.128.10	1049	208.43.107.45	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	15d7c0373b608d2331aaa97b4405077a8a5013519836e1d55d2aa3cde962559a	-	-	-	-	-	-	-	-	-
+1328039591.903408	CPZils4f96dRo7gAE4	192.168.128.10	1050	208.43.107.45	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	15d7c0373b608d2331aaa97b4405077a8a5013519836e1d55d2aa3cde962559a	-	-	-	-	-	-	-	-	-
+1328039645.765856	CnncIw4iVNdPNPlXba	192.168.128.10	1497	74.125.157.155	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.g.doubleclick.net,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1326965943.000000	1358588943.000000	-	-	-	1cfa4463830ab7dde39e6a62faa94a1d	ok
+#close	2014-04-03-10-39-43

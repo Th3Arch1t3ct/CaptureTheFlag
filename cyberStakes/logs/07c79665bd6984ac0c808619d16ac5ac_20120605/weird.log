@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-03-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1338933944.649005	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1338933961.788251	CzEoj63Z4YvP6MQC8k	192.168.70.10	1054	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338933961.790298	C56cPX3zyqDgAsrold	192.168.70.10	1056	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338933961.792132	CHN89R17yjCd6tVqj3	192.168.70.10	1058	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338933961.800235	Cf1mEgJi27K86QHD6	192.168.70.10	1060	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338933961.811355	C9m4xh3BSUYA9ZfbFk	192.168.70.10	1062	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338933962.055513	CltZYy3fYHdXqhZn6b	192.168.70.10	1066	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338933962.063955	Crqewk27yOYqVWpgd5	192.168.70.10	1068	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338933962.064844	CM3HmuggIerXK7lF7	192.168.70.10	1070	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338933962.080419	CQZRZ338CBa8JXG3Dj	192.168.70.10	1072	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338933962.08468	CwmaMV3Ses99FSVzOc	192.168.70.10	1074	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338933962.091029	C2ZDTX1MDEGyIuBxu3	192.168.70.10	1076	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338933970.097715	CphAQEegZAQvjyrZd	192.168.70.10	1088	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338933970.15831	CoGdu74CANeDPGVDF2	192.168.70.10	1090	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338933970.517395	CkEf0f1B6YcwqbqF	192.168.70.10	1092	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338933970.548685	CS5tEE4PxMrJVTBcig	192.168.70.10	1094	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338933980.687659	C5D5FB1YM5cytOMyJ1	192.168.70.10	1098	31.193.12.27	80	bad_HTTP_request	-	F	bro
+#close	2014-04-03-10-03-06

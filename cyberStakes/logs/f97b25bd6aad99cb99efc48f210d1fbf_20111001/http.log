@@ -1,0 +1,33 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-53-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1317503007.457864	CoT7e92c0DzXdy6yTd	192.168.37.10	1030	46.4.115.74	80	1	GET	spitard.in	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1077	200	OK	-	-	-	(empty)	-	-	-	-	-	F8v9j618uwT2MLkjB2	text/html
+1317503007.706044	CTVUa7SSj1nukdg6d	192.168.37.10	1031	46.4.115.74	80	1	GET	spitard.in	/in.cgi?2	http://spitard.in/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	201	200	OK	-	-	-	(empty)	-	-	-	-	-	Fqs30j4dOoCFrI0qSa	text/html
+1317503008.035326	CyAdC910FMTWsslbfd	192.168.37.10	1032	91.217.153.109	80	1	GET	fowlpiz.in	/t/4aca953a9b116caabc0c48a6a68c39ac	http://spitard.in/in.cgi?2	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	53065	200	OK	-	-	-	(empty)	-	-	-	-	-	FufFip1DiTbQq8c3Pj	text/html
+1317503009.794468	CnKRa81skPjSKL3OZd	192.168.37.10	1033	91.217.153.109	80	1	GET	fowlpiz.in	/f/bc16b5942791a2cc92b1c8dc94c37a3b/5	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	91648	200	OK	-	-	-	(empty)	-	-	-	-	-	FtHXBl1LikBrRi4hee	application/x-dosexec
+1317503012.284369	CRgJKo4KNalNDVcww9	192.168.37.10	1038	91.217.153.109	80	1	GET	fowlpiz.in	/images/t/bc16b5942791a2cc92b1c8dc94c37a3b.html	http://fowlpiz.in/t/4aca953a9b116caabc0c48a6a68c39ac	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	884	200	OK	-	-	-	(empty)	-	-	-	-	-	Fq0K663i5FD2J2n08g	text/html
+1317503014.313816	CY7nLG3I0aEEURGOh9	192.168.37.10	1044	91.217.153.109	80	1	GET	fowlpiz.in	/images/np/bc16b5942791a2cc92b1c8dc94c37a3b.pdf	http://fowlpiz.in/t/4aca953a9b116caabc0c48a6a68c39ac	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4096	200	OK	-	-	-	(empty)	-	-	-	-	-	F8aLgh2qr0iQyXJgM3	application/pdf
+1317503016.949345	CBdYdJ3KUh3AtT4Mk7	192.168.37.10	1045	91.217.153.109	80	1	GET	fowlpiz.in	/images/np/bc16b5942791a2cc92b1c8dc94c37a3b.pdf	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4080	200	OK	-	-	-	(empty)	-	-	-	-	-	FjkSrD3W2KU8nnpUI1	application/pdf
+1317503027.512073	CRoFJp3TKEZ95H0p93	192.168.37.10	1047	31.31.74.37	80	1	POST	willbefine.com.tw	/admin/cmd	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	64	0	200	OK	-	-	-	(empty)	-	-	-	FqjNzA3m6X1RvcH1n1	text/plain	-	-
+1317503027.880403	COyFuq1ZDEwLhOF0bd	192.168.37.10	1051	91.217.153.95	80	1	GET	1540987231	/fbere3.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3742	200	OK	-	-	-	(empty)	-	-	-	-	-	FlxaBVaPP31K20rB	application/x-java-applet
+1317503027.891407	C0J31p24TKBp9pYoYj	192.168.37.10	1055	91.217.153.95	80	1	GET	1540987231	/fbere3.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3742	200	OK	-	-	-	(empty)	-	-	-	-	-	FrbJM1k1Sd1ooW8Wl	application/x-java-applet
+1317503027.884773	CbfXu82amcG67Cv98k	192.168.37.10	1052	91.217.153.95	80	1	GET	1540987231	/fbere3.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3742	200	OK	-	-	-	(empty)	-	-	-	-	-	FmiNaw2paUKXCLUnp3	application/x-java-applet
+1317503027.883756	CGVita2wanj7t67l8i	192.168.37.10	1053	91.217.153.109	80	1	GET	fowlpiz.in	/images/ee06ec51b98ed1628c0dd44cc4c0fcfa.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5373	200	OK	-	-	-	(empty)	-	-	-	-	-	FzVlEP3F3GWsFwA0t2	application/jar
+1317503027.885903	C2gCK8T1P5Rgnd3Zd	192.168.37.10	1049	91.217.153.95	80	1	GET	1540987231	/fbere3.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3742	200	OK	-	-	-	(empty)	-	-	-	-	-	FeWIp9PAN3WAp7U65	application/x-java-applet
+1317503027.88625	CrzHu91rX3WyOinYKd	192.168.37.10	1050	91.217.153.95	80	1	GET	1540987231	/fbere3.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3742	200	OK	-	-	-	(empty)	-	-	-	-	-	FzsPom4jVb5xmQsRs1	application/x-java-applet
+1317503027.886965	Cp9RTr1kWeOGLOqf1i	192.168.37.10	1054	91.217.153.95	80	1	GET	1540987231	/fbere3.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3742	200	OK	-	-	-	(empty)	-	-	-	-	-	FsbceS25EnOrj9K2Ce	application/x-java-applet
+1317503027.908165	CRoFJp3TKEZ95H0p93	192.168.37.10	1047	31.31.74.37	80	2	POST	willbefine.com.tw	/admin/data	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	712	3	200	OK	-	-	-	(empty)	-	-	-	F84QVV1WGMBqh1wupj,FPopmj4LLHLJStZtEd,FNTDLm3FM2rLCZp26f,FQiiUY1ZKJ1sBkegNg	text/plain,text/plain,text/plain,text/plain	FhTE923ILIotJNaKTk	text/plain
+1317503028.187455	CGVita2wanj7t67l8i	192.168.37.10	1053	91.217.153.109	80	2	GET	fowlpiz.in	/images/ee06ec51b98ed1628c0dd44cc4c0fcfa.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5373	200	OK	-	-	-	(empty)	-	-	-	-	-	F6KbUkXu4O9VX5Pn9	application/jar
+1317503027.512261	Cid4Dn39WE3izYkvz2	192.168.37.10	1048	31.31.74.37	80	1	POST	willbefine.com.tw	/admin/alive	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	64	40659	200	OK	-	-	-	(empty)	-	-	-	FTpx1V3Mlbz3PGsUO8	text/plain	FFGXhy3ZW26M68xj7a	binary
+1317503028.698266	CGVita2wanj7t67l8i	192.168.37.10	1053	91.217.153.109	80	3	GET	fowlpiz.in	/images/ee06ec51b98ed1628c0dd44cc4c0fcfa.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5373	200	OK	-	-	-	(empty)	-	-	-	-	-	FC7JjC3o9YCzCBv2pd	application/jar
+1317503027.017456	CEIyMr413STPFcIri3	192.168.37.10	1046	91.217.153.109	80	1	GET	fowlpiz.in	/f/bc16b5942791a2cc92b1c8dc94c37a3b/1	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	91648	200	OK	-	-	-	(empty)	-	-	-	-	-	FCLMCE1HQNkZCFmOCe	application/x-dosexec
+1317503028.880073	CGVita2wanj7t67l8i	192.168.37.10	1053	91.217.153.109	80	4	GET	fowlpiz.in	/f/bc16b5942791a2cc92b1c8dc94c37a3b/3	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	91648	200	OK	-	-	-	(empty)	-	-	-	-	-	Fe2wHSRgOqGLr2dz5	application/x-dosexec
+1317503034.345092	CpxF86D6nQyEhlqmd	192.168.37.10	1056	91.217.153.68	80	1	OPTIONS	91.217.153.68	/	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317503034.467737	CpxF86D6nQyEhlqmd	192.168.37.10	1056	91.217.153.68	80	2	PROPFIND	91.217.153.68	/smb	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	408	405	Method Not Allowed	-	-	-	(empty)	-	-	-	-	-	Fq6AYW3ruPufzfnD1k	text/html
+1317503012.095738	CnKRa81skPjSKL3OZd	192.168.37.10	1033	91.217.153.109	80	2	GET	fowlpiz.in	/images/t/bc16b5942791a2cc92b1c8dc94c37a3b.html	http://fowlpiz.in/t/4aca953a9b116caabc0c48a6a68c39ac	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-09-53-13

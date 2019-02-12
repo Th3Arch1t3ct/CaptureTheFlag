@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-30-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1391030878.374322	CoG5ir2X06KFdspZXg	192.168.54.10	1078	74.125.224.186	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.g.doubleclick.net,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1389821212.000000	1400130000.000000	-	-	-	3fc330bc681a559288fed3b52f2883df	ok
+1391030878.746086	CHIkgu3U28jwcn4hY1	192.168.54.10	1079	74.125.224.186	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	0eb5fa015afcacfd16278a6c405cfb9429af7ad830d506c08c33936b7e9451c3	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-30-29

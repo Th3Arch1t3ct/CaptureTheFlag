@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-41-57
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1320439293.003244	Cv9l6C3v5upjmkUsxc	192.168.38.10	1030	4.2.2.3	53	udp	dns	0.530761	71	103	SF	-	0	Dd	2	127	2	159	(empty)
+1320439293.005221	CuDMUE2HUzyqWHgyee	192.168.38.10	1031	213.186.33.87	80	tcp	http	9.573271	573	1909	RSTO	-	0	ShADadfR	8	901	6	2157	(empty)
+1320439293.535113	CqlkB33bcFW8xj5UJk	192.168.38.10	1032	91.230.111.44	80	tcp	http	14.235278	1204	53703	RSTO	-	0	ShADadfR	35	2612	43	55431	(empty)
+1320439295.361118	Ctchur45WYP17Q0dL2	192.168.38.10	1033	188.247.232.176	80	tcp	http	21.486169	921	513339	RSTO	-	0	ShADadR	235	10329	357	527627	(empty)
+1320439296.635119	Cuf1qb2ekf2ksYFBo7	192.168.38.10	1038	188.247.232.176	80	tcp	http	20.212368	387	96235	RSTO	-	0	ShADadR	48	2315	74	99203	(empty)
+1320439317.083943	CF9vs1QqtnIXC7abi	192.168.38.10	1044	92.114.94.195	80	tcp	-	2.978863	0	0	S0	-	0	S	2	96	0	0	(empty)
+1320439316.816447	CGgMBy1KUxAyHWq9d	192.168.38.10	1030	4.2.2.3	53	udp	dns	0.189616	33	49	SF	-	0	Dd	1	61	1	77	(empty)
+1320439326.251487	CLipeP3cyV2t0ZxTDb	192.168.38.10	1044	92.114.94.195	80	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+1320439277.143265	Cutqgb1fgPcOQbMf32	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.190817	626	0	S0	-	0	D	2	682	0	0	(empty)
+1320439338.42353	CW0BEq2eSLQndOqL8f	192.168.38.10	1030	4.2.2.3	53	udp	dns	0.616597	67	99	SF	-	0	Dd	2	123	2	155	(empty)
+1320439338.425847	CiA1Jh3UFEnX8EyHzj	192.168.38.10	1045	31.44.184.55	80	tcp	http	2.169301	190	159	RSTO	-	0	ShADadR	5	398	3	287	(empty)
+1320439339.040917	Clxfve4YqiMtrIJZB4	192.168.38.10	1046	193.105.154.34	80	tcp	http	1.554397	153	344297	RSTO	-	0	ShADadR	160	6561	238	353825	(empty)
+1320439295.871676	CvzpRDZ2Gf8WicUZ9	192.168.38.10	1036	239.255.255.250	1900	udp	-	6.784935	399	0	S0	-	0	D	3	483	0	0	(empty)
+1320439277.143617	CtuJFnxCssemBYD1h	192.168.38.10	68	192.168.38.1	67	udp	dhcp	12.586565	314	900	SF	-	0	dD	1	342	3	984	(empty)
+#close	2014-04-03-10-41-57

@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-56-01
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1355044078.050869	C9YgyP1zMvfud847hk	192.168.50.10	1029	4.2.2.3	53	udp	25492	luvto.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.170.52.31,93.170.52.21	300.000000,300.000000	F
+1355044078.426795	C9YgyP1zMvfud847hk	192.168.50.10	1029	4.2.2.3	53	udp	54420	isityou.poltava.ua	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fw.ukrnames.com,195.64.155.34	10.000000,1.000000	F
+1355044078.948166	C9YgyP1zMvfud847hk	192.168.50.10	1029	4.2.2.3	53	udp	60311	q522z.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.170.52.21,93.170.52.31	300.000000,300.000000	F
+1355044079.937052	C9YgyP1zMvfud847hk	192.168.50.10	1029	4.2.2.3	53	udp	29590	itislol.makewap.kz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	makewap.kz,195.3.143.42	21600.000000,21600.000000	F
+1355044080.673978	C9YgyP1zMvfud847hk	192.168.50.10	1029	4.2.2.3	53	udp	61585	itislol.makewap.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	makewap.ru,195.3.143.42	21599.000000,21600.000000	F
+1355044081.497621	CJyN9N3aH9W3dHtZxk	192.168.50.10	1039	4.2.2.3	53	udp	21906	makewap.kz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.3.143.42	21599.000000	F
+1355044081.495955	C9YgyP1zMvfud847hk	192.168.50.10	1029	4.2.2.3	53	udp	4240	c.waplog.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.218.209.2	1800.000000	F
+1355044081.501097	CJyN9N3aH9W3dHtZxk	192.168.50.10	1039	4.2.2.3	53	udp	38813	wapstatistic.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.243.66.77	3600.000000	F
+#close	2014-04-03-10-56-02

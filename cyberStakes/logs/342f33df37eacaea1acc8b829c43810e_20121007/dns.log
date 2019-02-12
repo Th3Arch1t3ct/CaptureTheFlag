@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-07-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1349605959.570029	Czl9lZiLNilIBjCGc	192.168.42.10	1029	4.2.2.3	53	udp	38288	grlgames.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.206.89.176	14400.000000	F
+1349605960.480358	Czl9lZiLNilIBjCGc	192.168.42.10	1029	4.2.2.3	53	udp	21904	giantrobotlizard.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.242.120.16	600.000000	F
+1349605979.099807	CqJXCugo8v6HsoRpg	192.168.42.10	1029	4.2.2.3	53	udp	10899	www.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.171.234.37	93.000000	F
+1349605979.542259	CqJXCugo8v6HsoRpg	192.168.42.10	1029	4.2.2.3	53	udp	5010	static.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.dsw4.akamai.net,64.145.88.58,64.145.88.72	6992.000000,331.000000,20.000000,20.000000	F
+1349605981.229081	CqJXCugo8v6HsoRpg	192.168.42.10	1029	4.2.2.3	53	udp	42900	16.120.242.173.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-07-13

@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-17-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1356652125.82387	Cscilw3GJr1nSJ2mE1	192.168.116.10	1029	4.2.2.3	53	udp	54414	tawnerpantiesj.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.170.52.31,93.170.52.21	300.000000,300.000000	F
+1356652126.629636	Cscilw3GJr1nSJ2mE1	192.168.116.10	1029	4.2.2.3	53	udp	10382	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,173.194.43.5,173.194.43.2,173.194.43.6,173.194.43.7,173.194.43.9,173.194.43.3,173.194.43.14,173.194.43.4,173.194.43.8,173.194.43.1,173.194.43.0	64357.000000,196.000000,196.000000,196.000000,196.000000,196.000000,196.000000,196.000000,196.000000,196.000000,196.000000,196.000000	F
+1356652126.633472	Cscilw3GJr1nSJ2mE1	192.168.116.10	1029	4.2.2.3	53	udp	48525	ifacebook.com.ua	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fw.ukrnames.com,195.64.155.34	10.000000,1.000000	F
+1356652127.296412	Cscilw3GJr1nSJ2mE1	192.168.116.10	1029	4.2.2.3	53	udp	31884	facebookimg.makewap.kz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	makewap.kz,195.3.143.42	21600.000000,21600.000000	F
+1356652127.964381	Cscilw3GJr1nSJ2mE1	192.168.116.10	1029	4.2.2.3	53	udp	20108	facebookimg.makewap.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	makewap.ru,195.3.143.42	21600.000000,21600.000000	F
+1356652128.837014	Cscilw3GJr1nSJ2mE1	192.168.116.10	1029	4.2.2.3	53	udp	63114	fbstatic-a.akamaihd.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fbstatic-a.akamaihd.net.edgesuite.net,a1168.dsw4.akamai.net,107.14.43.208,107.14.43.187	189.000000,52.000000,6.000000,6.000000	F
+1356652128.838285	CtjBcx1lHzioka0Y2b	192.168.116.10	1040	4.2.2.3	53	udp	30601	c.waplog.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.218.209.2	374.000000	F
+1356652128.839914	Cscilw3GJr1nSJ2mE1	192.168.116.10	1029	4.2.2.3	53	udp	57735	makewap.kz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.3.143.42	21599.000000	F
+1356652128.840778	CtjBcx1lHzioka0Y2b	192.168.116.10	1040	4.2.2.3	53	udp	25734	wapstatistic.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.243.66.77	2447.000000	F
+#close	2014-04-03-10-17-04

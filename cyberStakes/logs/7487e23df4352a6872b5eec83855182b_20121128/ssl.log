@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-34-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1354089740.309201	Cuaggv4P11oavTw1F4	192.168.90.10	1041	204.246.175.242	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.cloudfront.net,O=Amazon.com\, Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1289368800.000000	1384408799.000000	-	-	-	5976df54f8265193d61c127af8b6f710	ok
+1354089740.536625	C1B6sP23GhPWX9Dau5	192.168.90.10	1042	216.137.33.193	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.cloudfront.net,O=Amazon.com\, Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1289368800.000000	1384408799.000000	-	-	-	5976df54f8265193d61c127af8b6f710	ok
+#close	2014-04-03-10-34-51

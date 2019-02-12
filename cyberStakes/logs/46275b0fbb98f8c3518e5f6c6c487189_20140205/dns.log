@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-47-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1391626542.139749	CQlqmv2yXEDaOxk6v2	192.168.21.10	1035	4.2.2.3	53	udp	9374	tayhatower.vn	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	123.30.50.110	60.000000	F
+1391626545.564285	CQlqmv2yXEDaOxk6v2	192.168.21.10	1035	4.2.2.3	53	udp	43677	fonts.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.28.95	3043.000000,289.000000	F
+1391626547.149355	CQlqmv2yXEDaOxk6v2	192.168.21.10	1035	4.2.2.3	53	udp	18844	themes.googleusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlehosted.l.googleusercontent.com,74.125.224.202,74.125.224.203,74.125.224.204	74267.000000,151.000000,151.000000,151.000000	F
+1391626548.038838	CQlqmv2yXEDaOxk6v2	192.168.21.10	1035	4.2.2.3	53	udp	39835	lindhextend.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.74.38.177	3600.000000	F
+1391626548.958041	CQlqmv2yXEDaOxk6v2	192.168.21.10	1035	4.2.2.3	53	udp	19353	faq-seo.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.236.87.219	3600.000000	F
+1391626548.980824	Cz3N1mq6yO42pWLfi	192.168.21.10	1045	4.2.2.3	53	udp	14745	xuanmaitower.datxanhmienbac.vn	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	112.78.7.43	360.000000	F
+1391626548.970723	C67Szg20fRiaAB9Frk	192.168.21.10	1046	4.2.2.3	53	udp	33433	ct6.viglaceraland.vn	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	123.30.183.151	3600.000000	F
+1391626549.309085	C67Szg20fRiaAB9Frk	192.168.21.10	1046	4.2.2.3	53	udp	16789	demo.balimechanicweb.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.154.143.208	300.000000	F
+1391626549.282294	CQlqmv2yXEDaOxk6v2	192.168.21.10	1035	4.2.2.3	53	udp	2711	xuanphuong.batdongsang5.vn	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	103.28.38.184	360.000000	F
+1391626554.698215	C67Szg20fRiaAB9Frk	192.168.21.10	1046	4.2.2.3	53	udp	10132	huatongchuye.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	128.134.244.74	600.000000	F
+1391626555.309412	C67Szg20fRiaAB9Frk	192.168.21.10	1046	4.2.2.3	53	udp	7826	f29.07f.ba3460.b7c3a1.e309.55ae.7f96ca.phhhbceiheg.droveslip.pw	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.172.109.155	30.000000	F
+#close	2014-04-03-10-47-51

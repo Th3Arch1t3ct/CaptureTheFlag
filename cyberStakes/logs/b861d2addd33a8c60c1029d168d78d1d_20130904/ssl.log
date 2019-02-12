@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-09-53-43
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1378285754.803008	CHQtu71f880Uar1P8h	192.168.55.10	1064	74.125.224.235	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1376536658.000000	1408072658.000000	-	-	-	e9cb7a1b46b152121cad7552afb52e8a	ok
+1378285754.80264	CSlewf4GnVT7ms7g73	192.168.55.10	1063	74.125.224.235	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1376536658.000000	1408072658.000000	-	-	-	e9cb7a1b46b152121cad7552afb52e8a	ok
+1378285754.810067	CV9ozd3g1juGEJ6Jk	192.168.55.10	1065	74.125.224.235	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1376536658.000000	1408072658.000000	-	-	-	e9cb7a1b46b152121cad7552afb52e8a	ok
+1378285755.269796	CmRQhM3wiXrr860Vw4	192.168.55.10	1073	74.125.224.235	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	d9f0c8d035df4e7aa599060b78b52f66c4f6c49a4a647a459d456904dfae6144	-	-	-	-	-	-	-	-	-
+1378285755.27551	C5fwcvyos5UQZR0df	192.168.55.10	1074	74.125.224.235	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	d9f0c8d035df4e7aa599060b78b52f66c4f6c49a4a647a459d456904dfae6144	-	-	-	-	-	-	-	-	-
+1378285757.252764	CgLHqi2t8Vt8EPSmc2	192.168.55.10	1078	74.125.224.217	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.g.doubleclick.net,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1376537550.000000	1408073550.000000	-	-	-	ef83a4d97a056b04f5b3df2e5a7a2e53	ok
+1378285758.202649	CQVUJ94HBe6DV7B244	192.168.55.10	1080	74.125.224.217	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	0f9778791d5d322b38e14198d3e93305fc6bc555c2dc352f03affba42b243d01	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-09-53-43

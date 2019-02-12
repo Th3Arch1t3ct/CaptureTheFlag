@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-57-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1340640341.356214	CiTjS5bcCSNUwb3Dl	192.168.113.10	1128	194.50.116.43	80	F4uqxp1rfh7sIjEzU3	application/jar	http://ads.loveme77.com/ads/roadbout/zagoeave.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 14%  Last seen: 2012-07-02 10:52:55	https://www.virustotal.com/en/search/?query=2e4b436b760c193d5b839b5f892fc6578c9de111	192.168.113.10	194.50.116.43	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-57-12

@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-40-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1394575964.657594	CfQ4GElQHpkikvBrj	192.168.64.10	1067	204.27.57.194	80	FXurZz37YFyqbhzDxj	application/x-dosexec	http://etgsdf.noonecanstopme-xd.info/WcLyBChoVsGiB/soft_1.exe&h=11	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 32%  Last seen: 2014-03-14 05:03:19	https://www.virustotal.com/en/search/?query=f6528999368d6d108894ea9a1081864581cf1e33	192.168.64.10	204.27.57.194	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-40-26

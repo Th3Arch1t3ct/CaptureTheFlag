@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-12-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1345464547.101791	Cs2Zhd2BnFyc3cAb6k	192.168.35.10	1038	69.174.52.42	80	FlMb624I5XPKEcx6bc	application/x-dosexec	http://keithmattox.com/2.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-08-20 18:31:01	https://www.virustotal.com/en/search/?query=bc40bfeb9825c1ff4aead63507b62bec9f367389	192.168.35.10	69.174.52.42	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1345464548.855856	CHEN9P3ScI72FJwxue	192.168.35.10	1039	69.174.52.42	80	FjHh5F2MSOEwjl5Jre	application/x-dosexec	http://keithmattox.com/3.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-08-20 18:31:01	https://www.virustotal.com/en/search/?query=bc40bfeb9825c1ff4aead63507b62bec9f367389	192.168.35.10	69.174.52.42	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1345464575.423039	C7XoCj3BnFiJYOG29	192.168.35.10	1058	194.219.29.235	80	FSe1GH2bd3SHeZOpt9	application/x-dosexec	http://jimi.kopoese.com/f/notepad.exe?ts=c6f6cd34&affid=5630	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 34%  Last seen: 2012-08-23 17:44:13	https://www.virustotal.com/en/search/?query=51d6695bb44706120b5091528352f79f9879ca90	192.168.35.10	194.219.29.235	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-12-06

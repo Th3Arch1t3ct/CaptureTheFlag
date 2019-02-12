@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-39-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1367993235.48954	Cvt11F24bSzCeRuCbe	192.168.40.10	1077	198.15.91.205	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=www.sslname.com,OU=Domain Control Validated - RapidSSL(R),OU=See www.rapidssl.com/resources/cps (c)13,OU=GT51722373,serialNumber=jRJvmZkiutjtntV5llnQWWxl3j8TYDi5	CN=RapidSSL CA,O=GeoTrust\, Inc.,C=US	1367354213.000000	1399114930.000000	-	-	-	a07509689902f242c6f151beb83e25a2	ok
+1367993235.492939	C3RzVbLTs2ARzyn4b	192.168.40.10	1078	198.15.91.205	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=www.sslname.com,OU=Domain Control Validated - RapidSSL(R),OU=See www.rapidssl.com/resources/cps (c)13,OU=GT51722373,serialNumber=jRJvmZkiutjtntV5llnQWWxl3j8TYDi5	CN=RapidSSL CA,O=GeoTrust\, Inc.,C=US	1367354213.000000	1399114930.000000	-	-	-	a07509689902f242c6f151beb83e25a2	ok
+1367993236.308425	C84QyjrrECQNGMezf	192.168.40.10	1081	198.15.91.205	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	3c190000c1e90b916926c02d9107672b4839725920a28be90f113452ea60d068	-	-	-	-	-	-	-	-	-
+1367993236.308777	CPZ9zuK4z7qfGKFpc	192.168.40.10	1082	198.15.91.205	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	3c190000c1e90b916926c02d9107672b4839725920a28be90f113452ea60d068	-	-	-	-	-	-	-	-	-
+1367993236.521477	CpKrH919SlRQx2ICWb	192.168.40.10	1083	198.15.91.205	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	3c190000c1e90b916926c02d9107672b4839725920a28be90f113452ea60d068	-	-	-	-	-	-	-	-	-
+1367993236.538922	C6vvzFi8713lJJ91f	192.168.40.10	1084	198.15.91.205	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	3c190000c1e90b916926c02d9107672b4839725920a28be90f113452ea60d068	-	-	-	-	-	-	-	-	-
+1367993236.725622	CgYEu1ymfxHINTiz4	192.168.40.10	1085	198.15.91.205	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	3c190000c1e90b916926c02d9107672b4839725920a28be90f113452ea60d068	-	-	-	-	-	-	-	-	-
+1367993236.725989	C299sP2JAQitJ3Rfs1	192.168.40.10	1086	198.15.91.205	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	3c190000c1e90b916926c02d9107672b4839725920a28be90f113452ea60d068	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-39-34

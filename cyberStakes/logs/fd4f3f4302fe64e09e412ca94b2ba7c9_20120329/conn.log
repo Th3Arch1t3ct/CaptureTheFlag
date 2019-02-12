@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-08-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1333045646.144376	CznPKe1KubuGHU9YCh	192.168.94.10	1033	204.16.173.14	80	tcp	http	0.102059	345	1736	SF	-	0	ShADdfFa	6	593	5	1940	(empty)
+1333045645.374719	CDbhHR2p84VIXBsS99	192.168.94.10	1030	4.2.2.3	53	udp	dns	0.938083	206	286	SF	-	0	Dd	5	346	5	426	(empty)
+1333045645.78892	CRJxNr11Ea3hOVGVTf	192.168.94.10	1032	81.169.145.71	80	tcp	http	9.620246	256	462	RSTO	-	0	ShADadfR	6	504	4	630	(empty)
+1333045645.37911	CLYVyD2TG9O1VochBf	192.168.94.10	1031	81.169.145.71	80	tcp	http	10.030297	540	20834	RSTO	-	0	ShADadfR	16	1188	21	21682	(empty)
+1333045629.98069	Ceaejb4wqxRbYGFoz1	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000903	626	0	S0	-	0	D	2	682	0	0	(empty)
+1333045629.98104	Cuz3tg4fm3HXebYBL8	192.168.94.10	68	192.168.94.1	67	udp	dhcp	12.265915	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1333045647.540843	CWsS9g1cNExa61aFmf	192.168.94.10	1038	239.255.255.250	1900	udp	-	6.100332	399	0	S0	-	0	D	3	483	0	0	(empty)
+1333045646.314545	CEJ8x51CpY8HSp7Rlg	192.168.94.10	1035	204.16.170.100	80	tcp	http	64.484437	639	2771	RSTO	-	0	ShADdR	7	927	4	2935	(empty)
+1333045651.712182	C8W69k1N0tn5h2H23h	192.168.94.10	1040	95.163.67.189	80	tcp	http	59.840083	1334	105609	SF	-	0	ShADadFf	66	4351	84	110349	(empty)
+1333045715.445075	CForm61jc2HaLDQOlh	192.168.94.10	1030	4.2.2.3	53	udp	dns	0.037113	35	51	SF	-	0	Dd	1	63	1	79	(empty)
+1333045715.486569	CfiikTnbfSziIIQN1	192.168.94.10	1041	85.192.45.69	80	tcp	http	4.291961	426	557275	S1	-	0	ShADad	210	8834	412	573763	(empty)
+1333045646.255887	Cy3nx11OTtwYrO1UDg	192.168.94.10	1034	95.163.67.189	80	tcp	http	69.635056	380	553	RSTO	-	0	ShADadfR	8	716	5	769	(empty)
+#close	2014-04-03-10-08-10

@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-54-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1373681153.517013	CVLvzH3sP1YcpMHu7d	192.168.55.10	1037	199.59.150.7	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=twitter.com,OU=Twitter Security,O=Twitter\, Inc.,street=795 Folsom St\, Suite 600,L=San Francisco,ST=California,postalCode=94107,C=US,serialNumber=4337446,businessCategory=Private Organization,1.3.6.1.4.1.311.60.2.1.2=#130844656C6177617265,1.3.6.1.4.1.	311.60.2.1.3=#13025553CN=VeriSign Class 3 Extended Validation SSL CA,OU=Terms of use at https://www.verisign.com/rpa (c)06,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1334034000.000000	1399784399.000000	-	-	-	27741b9b80ad6aeccdc45e181a48a140	ok
+1373681154.452655	Cu7X9MpoUjCtHcBlc	192.168.55.10	1044	74.125.129.95	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleapis.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1372794032.000000	1383281999.000000	-	-	-	5f47f74f70e5d5b2a33b4fd0d106c90e	ok
+1373681160.794254	CsNZOB2dphEkBn09Pf	192.168.55.10	1114	31.13.77.49	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.facebook.com,O=Facebook\, Inc.,L=Palo Alto,ST=California,C=US	OU=www.verisign.com/CPS Incorp.by Ref. LIABILITY LTD.(c)97 VeriSign,OU=VeriSign International Server CA - Class 3,OU=VeriSign\, Inc.,O=VeriSign Trust Network	1340254800.000000	1388555999.000000	-	-	-	f10b4102a78b5894231109d6d3fbeeb5	ok
+#close	2014-04-03-10-54-49

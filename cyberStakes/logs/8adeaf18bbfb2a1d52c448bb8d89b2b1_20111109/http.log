@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-13-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1320816739.994827	CDq2Bi1g4sWcO8we43	192.168.107.10	1030	93.170.52.30	80	1	GET	img095.tk	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1046	200	OK	-	-	-	(empty)	-	-	-	-	-	FDHvud3WzrX1bi8iM1	text/html
+1320816740.25203	CdmIW73fPeAKpgWFuc	192.168.107.10	1031	74.125.229.101	80	1	GET	www.google-analytics.com	/ga.js	http://img095.tk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	31665	200	OK	-	-	-	(empty)	-	-	-	-	-	F2tAV62v7DHrSIItLl	text/plain
+1320816740.395404	CdmIW73fPeAKpgWFuc	192.168.107.10	1031	74.125.229.101	80	2	GET	www.google-analytics.com	/__utm.gif?utmwv=5.2.0&utms=1&utmn=2055115946&utmhn=img095.tk&utmcs=utf-8&utmsr=800x600&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=10.0 r32&utmdt=img095.tk&utmhid=323082507&utmr=-&utmp=/&utmac=UA-23441223-3&utmcc=__utma=1.751310773.1320831022.1320831022.1320831022.1;+__utmz=1.1320831022.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);&utmu=qh~	http://img095.tk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	35	200	OK	-	-	-	(empty)	-	-	-	-	-	Frh4ko4pjUBYQWyMd	image/gif
+1320816740.269609	CwbqgsqAvV8fAHWl1	192.168.107.10	1032	173.246.103.149	80	1	GET	www.myupload01.info	/FACEBOOK-DSC0000897643227711011.jpg.exe	http://img095.tk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	109186	200	OK	-	-	-	(empty)	-	-	-	-	-	FI4T5g3VxDRnFJNsWa	application/x-dosexec
+#close	2014-04-03-11-13-10

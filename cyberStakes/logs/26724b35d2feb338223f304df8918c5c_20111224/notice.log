@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-01-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1324709494.703364	CJw1UV32sGnR889ZTe	192.168.85.10	1033	58.221.36.196	8832	F9T1TF4TpWKzuC6ZNj	application/x-shockwave-flash	http://stat2.8866.org:8832/tcp/ZH01/nb.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 12%  Last seen: 2011-12-04 06:13:47	https://www.virustotal.com/en/search/?query=52a1126bdf66c3f2dab3904f9be0f58e90c26a46	192.168.85.10	58.221.36.196	8832	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1324709508.835035	CDhLIm2w8beiMhfHSi	192.168.85.10	1043	58.221.36.196	8832	FbntBg1rPAozkcsOA5	application/x-dosexec	http://x.z.qxoz.info:8832/tcp/xx/zh01.css	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 58%  Last seen: 2012-01-24 09:36:24	https://www.virustotal.com/en/search/?query=422ad685082febacdd83e5d0170cda94364e0b20	192.168.85.10	58.221.36.196	8832	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1324709514.248699	CG05NUQ1rnvDc1ut2	192.168.85.10	1047	121.14.152.152	76	FukXti1spaKEahuyn5	application/x-dosexec	http://al.Sdflt.Com:76/tcp/Le02.js	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 42%  Last seen: 2011-12-28 20:31:42	https://www.virustotal.com/en/search/?query=a08ababd629ef5959bdb992113a81a75d654a453	192.168.85.10	121.14.152.152	76	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1324709519.689713	CG05NUQ1rnvDc1ut2	192.168.85.10	1047	121.14.152.152	76	Fu1gdF2Qx1TfNga0z6	application/x-dosexec	http://al.Sdflt.Com:76/tcp/Le03.js	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 42%  Last seen: 2011-12-27 07:31:53	https://www.virustotal.com/en/search/?query=f42b72df28521285171644e350684dd8fa84e8e1	192.168.85.10	121.14.152.152	76	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-01-39

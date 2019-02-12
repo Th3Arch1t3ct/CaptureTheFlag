@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-08-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1337429009.785242	CNg44v1CPOQurygZ99	192.168.105.10	1029	4.2.2.3	53	udp	40594	businesstravelonline.ie	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.69.38.185	14372.000000	F
+1337429010.185184	CNg44v1CPOQurygZ99	192.168.105.10	1029	4.2.2.3	53	udp	27282	koklik.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.210.100.242	120.000000	F
+1337429010.806931	CNg44v1CPOQurygZ99	192.168.105.10	1029	4.2.2.3	53	udp	52115	www3.powerholdergw.dnset.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.238.106	31.000000	F
+1337429011.145019	CNg44v1CPOQurygZ99	192.168.105.10	1029	4.2.2.3	53	udp	55955	www1.smartcheckertg.dnset.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.108	31.000000	F
+1337429028.936239	Cfjm191xNnTcu1VTu	192.168.105.10	1029	4.2.2.3	53	udp	2451	www2.thebestksoft.it.cx	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.142.166	3600.000000	F
+1337429070.766019	CpyCTb1ai5kx3RAcva	192.168.105.10	1029	208.115.221.125	53	udp	8080	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	87.236.195.139	7200.000000	F
+#close	2014-04-03-10-08-00

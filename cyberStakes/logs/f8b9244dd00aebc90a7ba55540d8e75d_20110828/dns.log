@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-07-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1314544897.273979	CZgJYe3tN800MZms	192.168.30.10	1029	4.2.2.3	53	udp	52623	tedmarakademi.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	77.79.101.179	10774.000000	F
+1314544898.092836	CZgJYe3tN800MZms	192.168.30.10	1029	4.2.2.3	53	udp	53644	www.tedmarakademi.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	77.79.101.179	10800.000000	F
+#close	2014-04-03-11-07-39

@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-04-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1350609861.392843	C2FPzV1Zq8ozp603n9	192.168.40.10	1029	4.2.2.3	53	udp	dns	2.038727	224	304	SF	-	0	Dd	5	364	5	444	(empty)
+1350609863.432267	CK9YCtO92Wa7sxdr	192.168.40.10	1034	91.229.56.19	80	tcp	http	15.825875	437	332	RSTO	-	0	ShADadfR	6	685	4	500	(empty)
+1350609862.938592	CbYoCF2Lq3MgXRBBQc	192.168.40.10	1033	46.165.206.16	80	tcp	http	16.321440	348	670	RSTO	-	0	ShADadfR	6	596	4	838	(empty)
+1350609861.946606	CbCIAX3c7iLqD4H9Ui	192.168.40.10	1031	46.165.206.16	80	tcp	http	17.313959	292	559	RSTO	-	0	ShADadfR	6	540	4	727	(empty)
+1350609881.464411	C8Z2A1FoSoARbyvz6	192.168.40.10	1039	85.17.200.167	80	tcp	http	2.786398	329	14417	SF	-	0	ShADadFf	11	777	14	14985	(empty)
+1350609884.325294	CdsMCz3yuhETK3UL6h	192.168.40.10	1029	4.2.2.3	53	udp	dns	0.294941	84	136	SF	-	0	Dd	2	140	2	192	(empty)
+1350609861.395332	CLyYg94x4xhbTwV8y7	192.168.40.10	1030	5.9.35.139	80	tcp	http	0.340589	285	470	S1	-	0	ShADad	4	453	3	598	(empty)
+1350609862.439502	C4U5Rw1cwaTlY7SIB2	192.168.40.10	1032	85.17.200.167	80	tcp	http	19.297288	1338	55392	S1	-	0	ShADad	33	2666	45	57200	(empty)
+1350609884.628055	CqUEQk18f1RcitwKLl	192.168.40.10	1040	85.17.200.167	80	tcp	http	9.705772	212	225	SF	-	0	ShADadFf	6	460	4	393	(empty)
+1350609844.800245	CZlNa830xN8bZRufPj	192.168.40.10	68	192.168.40.1	67	udp	dhcp	13.092250	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1350609844.79989	CWR6cBoQSjqUf9x93	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000725	626	0	S0	-	0	D	2	682	0	0	(empty)
+1350609864.195653	C7Rlpx2N9TDLuzhqgc	192.168.40.10	1037	239.255.255.250	1900	udp	-	6.382792	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-10-04-50

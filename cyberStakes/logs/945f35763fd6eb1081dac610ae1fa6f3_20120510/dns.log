@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-00-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1336638645.687222	CkuLv92B9CUoJz9Jv3	192.168.6.10	1029	4.2.2.3	53	udp	26251	forsakenplaces.co.uk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.7.221.143	14374.000000	F
+1336638645.772098	CkuLv92B9CUoJz9Jv3	192.168.6.10	1029	4.2.2.3	53	udp	44169	webordermanager.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.124.198.1	3600.000000	F
+1336638645.940053	CkuLv92B9CUoJz9Jv3	192.168.6.10	1029	4.2.2.3	53	udp	18312	cb.amazingcounters.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.65.43.176	1978.000000	F
+1336638645.955803	CkuLv92B9CUoJz9Jv3	192.168.6.10	1029	4.2.2.3	53	udp	46223	www.statcounter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	g1.panthercdn.com,174.35.32.99,174.35.32.107	9997.000000,20.000000,20.000000	F
+1336638646.005859	CkuLv92B9CUoJz9Jv3	192.168.6.10	1029	4.2.2.3	53	udp	62863	thesavvymillionaire.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	83.69.226.72	3600.000000	F
+1336638646.194239	CkuLv92B9CUoJz9Jv3	192.168.6.10	1029	4.2.2.3	53	udp	63118	c.statcounter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.59.38.123,216.59.38.124,67.215.253.139,67.215.253.140	695.000000,695.000000,695.000000,695.000000	F
+1336638670.731444	CkJrWr433opnjgtIYe	192.168.6.10	1029	4.2.2.3	53	udp	3725	palktikaljob.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.229.91.73	3600.000000	F
+#close	2014-04-03-11-00-39

@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-07-52
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1326514230.257522	CBBoozqkFD2aLZHxi	192.168.111.10	1040	95.163.89.226	8000	Fk42IB4rxIOXrOSwq7	application/x-dosexec	http://95.163.89.226:8000/tcp/w.php?f=21&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 39%  Last seen: 2012-02-04 13:26:02	https://www.virustotal.com/en/search/?query=6d499c34b6e95b48f76998d563c37461c0f0eae9	192.168.111.10	95.163.89.226	8000	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1326514231.642982	CKcly72FbMrXJWhtH8	192.168.111.10	1041	173.255.199.165	80	FVoICyQqBwOiMsuca	application/x-shockwave-flash	http://financialtalksmedias.com/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 25%  Last seen: 2012-01-10 09:34:00	https://www.virustotal.com/en/search/?query=d4cb0f78157e943d5650045932724b44390d6d4e	192.168.111.10	173.255.199.165	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1326514267.353745	CKcly72FbMrXJWhtH8	192.168.111.10	1041	173.255.199.165	80	Fb0qfg3DfVMAKGCfl1	application/x-shockwave-flash	http://financialtalksmedias.com/content/score.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2012-01-11 05:01:01	https://www.virustotal.com/en/search/?query=a310e752e5e05c6855656f53b13028ec10e8ddb7	192.168.111.10	173.255.199.165	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-07-53

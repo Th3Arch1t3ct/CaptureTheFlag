@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-44-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1327225446.067719	C9uXDC48yQBEuZd9ia	192.168.1.10	1029	4.2.2.3	53	udp	44949	kayakobrasil.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	75.119.216.225	14375.000000	F
+1327225446.608901	C9uXDC48yQBEuZd9ia	192.168.1.10	1029	4.2.2.3	53	udp	29591	webtags.com.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	75.119.219.227	14381.000000	F
+1327225446.717352	C9uXDC48yQBEuZd9ia	192.168.1.10	1029	4.2.2.3	53	udp	38550	onclicklook.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.67.190	43182.000000	F
+1327225447.242826	C9uXDC48yQBEuZd9ia	192.168.1.10	1029	4.2.2.3	53	udp	50832	nusgo-bomko.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.67.190	43200.000000	F
+1327225459.138058	CcgX9v1H6kxCsqKNpa	192.168.1.10	1029	4.2.2.3	53	udp	64403	ujin.org.in	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1327225475.36744	COW3ib1TUq05RYCFMl	192.168.1.10	1029	4.2.2.3	53	udp	40594	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,24.143.193.16,24.143.193.33	9828.000000,102.000000,7542.000000,20.000000,20.000000	F
+#close	2014-04-03-10-44-56

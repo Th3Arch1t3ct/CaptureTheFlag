@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-03-40
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1336462092.856259	C79itw3QJYP8lzZ738	192.168.2.10	1030	64.37.52.211	80	1	GET	zerotolerancelive.co.uk	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5718	200	OK	-	-	-	(empty)	-	-	-	-	-	Fk2ad14ZdTCuvWgy2f	text/html
+1336462093.024039	Cpo2Dz3nJ291xkpsTi	192.168.2.10	1031	64.37.52.211	80	1	GET	zerotolerancelive.co.uk	/graphics/lefthandside.jpg	http://zerotolerancelive.co.uk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	14148	200	OK	-	-	-	(empty)	-	-	-	-	-	FgdaJS1voAooGO5IN7	image/jpeg
+1336462093.185379	CVDqot4jvpfkx8Sbdk	192.168.2.10	1033	69.65.43.176	80	1	GET	cb.amazingcounters.com	/counter.php?i=2352967&c=7059214	http://zerotolerancelive.co.uk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	491	200	OK	-	-	-	(empty)	-	-	-	-	-	FiSLXdUUZWerrCPH4	image/png
+1336462093.204249	CZqbw926X9NkG5QA0d	192.168.2.10	1034	98.124.198.1	80	1	GET	csepros.com	/	http://zerotolerancelive.co.uk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	182	302	Object moved	-	-	-	(empty)	-	-	-	-	-	FvB5P54MRYsz17C98j	text/html
+1336462093.024211	C998Xd1A3kUv89P5a9	192.168.2.10	1032	64.37.52.211	80	1	GET	zerotolerancelive.co.uk	/graphics/introtop.jpg	http://zerotolerancelive.co.uk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	59040	200	OK	-	-	-	(empty)	-	-	-	-	-	FS8dT418qi250mGjZh	image/jpeg
+1336462093.275521	CuoMIanyEQG1pfMU1	192.168.2.10	1035	64.37.52.211	80	1	GET	zerotolerancelive.co.uk	/graphics/righthandside.jpg	http://zerotolerancelive.co.uk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	20408	200	OK	-	-	-	(empty)	-	-	-	-	-	F0I4F01R5Z8dZqaO03	image/jpeg
+1336462093.308481	CU03s81JtrG7rN3BQ2	192.168.2.10	1037	64.37.52.211	80	1	GET	zerotolerancelive.co.uk	/graphics/enter.jpg	http://zerotolerancelive.co.uk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	15906	200	OK	-	-	-	(empty)	-	-	-	-	-	Fs9WR21tNzCH4oUar9	image/jpeg
+1336462093.441264	CeOp2s3L80gm8uX13e	192.168.2.10	1039	64.37.52.211	80	1	GET	zerotolerancelive.co.uk	/graphics/visitors.jpg	http://zerotolerancelive.co.uk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1679	200	OK	-	-	-	(empty)	-	-	-	-	-	FJa4S64wGn3pbdgePd	image/jpeg
+1336462093.380047	CkzTPv3qpIDa6ngqX2	192.168.2.10	1038	64.37.52.211	80	1	GET	zerotolerancelive.co.uk	/graphics/bottom.jpg	http://zerotolerancelive.co.uk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	17295	200	OK	-	-	-	(empty)	-	-	-	-	-	FTKe5q3VCgvHarwu51	image/jpeg
+1336462093.427754	C0at9v2ajNLhdVSSOd	192.168.2.10	1036	83.69.226.72	80	1	GET	thesavvymillionaire.com	/main.php?page=5e0cdb0ca7f86ed0	http://zerotolerancelive.co.uk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	20728	200	OK	-	-	-	(empty)	-	-	-	-	-	Fsic6m18povHBHwwqa	binary
+1336462094.380911	C0at9v2ajNLhdVSSOd	192.168.2.10	1036	83.69.226.72	80	2	GET	thesavvymillionaire.com	/w.php?f=97d19&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	67072	200	OK	-	-	-	(empty)	-	-	-	-	-	Fz57Ir1oLIkonxPyme	application/x-dosexec
+1336462094.976357	C0at9v2ajNLhdVSSOd	192.168.2.10	1036	83.69.226.72	80	3	GET	thesavvymillionaire.com	/data/ap2.php	http://thesavvymillionaire.com/main.php?page=5e0cdb0ca7f86ed0	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	32628	200	OK	-	-	-	(empty)	-	-	-	-	-	FVXesZ1OM1bpHbeOv3	application/pdf
+1336462095.351486	CAgnD710s5u8H53XN1	192.168.2.10	1040	83.69.226.72	80	1	GET	thesavvymillionaire.com	/data/field.swf	http://zerotolerancelive.co.uk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1499	200	OK	-	-	-	(empty)	-	-	-	-	-	Ff9fYwTdx4NdMLBGd	application/x-shockwave-flash
+1336462132.929805	C79Umn1m5YqYwb2vd7	192.168.2.10	1045	91.201.4.75	80	1	POST	palktikaljob.ru	/mtm/in/	-	Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)	109	302183	200	OK	-	-	-	(empty)	-	-	-	FyEsAC3DyiPGy1t7t3	binary	FAXmDb1A8AzKMm0Fdb	binary
+#close	2014-04-03-10-03-40

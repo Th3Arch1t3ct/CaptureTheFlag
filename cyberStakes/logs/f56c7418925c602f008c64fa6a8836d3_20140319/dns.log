@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-53-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1395268865.128525	C24rB73uqzOT7QcRad	192.168.81.10	1035	4.2.2.3	53	udp	3979	www.piratestreamingdownloader.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.18.174.205	60.000000	F
+1395268865.19903	C24rB73uqzOT7QcRad	192.168.81.10	1035	4.2.2.3	53	udp	13449	s1.piratestreamingdownloader.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	s1piratestreamingdownloadercom.maynemyltf.netdna-cdn.com,108.161.189.6	300.000000,300.000000	F
+1395268865.246607	C24rB73uqzOT7QcRad	192.168.81.10	1035	4.2.2.3	53	udp	10377	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.128.101,74.125.128.139,74.125.128.100,74.125.128.102,74.125.128.113,74.125.128.138	46345.000000,288.000000,288.000000,288.000000,288.000000,288.000000,288.000000	F
+1395268865.312422	C24rB73uqzOT7QcRad	192.168.81.10	1035	4.2.2.3	53	udp	56713	s1torntvxom.maynemyltf.netdna-cdn.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	108.161.189.5	300.000000	F
+#close	2014-04-03-09-53-14

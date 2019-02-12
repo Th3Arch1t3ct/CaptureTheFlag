@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-11-10-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1338635743.041441	CYym3b3u9h97kzDce8	192.168.6.10	1030	80.237.132.193	80	tcp	http	0.337115	555	3749	RSTO	-	0	ShADadR	7	843	6	3997	(empty)
+1338635743.026474	C67orx2xGodkzPiYU8	192.168.6.10	1029	4.2.2.3	53	udp	dns	0.626081	73	105	SF	-	0	Dd	2	129	2	161	(empty)
+1338635764.851222	C7ZPYD2PPbv2hUq8Da	192.168.6.10	1038	46.17.97.50	80	tcp	http	1.098495	179	5695	SF	-	0	ShADadfF	7	467	7	5983	(empty)
+1338635743.653249	CpM8ZJ28rWjVvbC3oa	192.168.6.10	1031	79.137.213.158	80	tcp	http	25.198403	944	251332	RSTO	-	0	ShADadR	123	5872	189	258900	(empty)
+1338635764.114499	CdS27m3ZnuJTJ6q8J7	192.168.6.10	1037	96.17.162.81	80	tcp	http	4.737346	299	2003	RSTO	-	0	ShADadR	5	507	4	2171	(empty)
+1338635749.170168	C5BtdH2Az66bd4sZOa	192.168.6.10	1036	79.137.213.158	80	tcp	http	19.681799	599	9015	RSTO	-	0	ShADdR	10	1007	9	9383	(empty)
+1338635764.098925	CjO4Oi3ZSfP5Scz8Ka	192.168.6.10	1029	4.2.2.3	53	udp	dns	0.734453	77	244	SF	-	0	Dd	2	133	2	300	(empty)
+1338635726.760702	CYpnmz2n5JYeVxmIk8	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.008068	626	0	S0	-	0	D	2	682	0	0	(empty)
+1338635794.56823	CZhFNf3LAfHwRJdMY7	192.168.6.10	1029	4.2.2.3	53	udp	dns	0.013831	32	132	SF	-	0	Dd	1	60	1	160	(empty)
+1338635794.583718	Cv4m0L2aATxqQ1btE8	192.168.6.10	1039	173.194.37.50	80	tcp	http	0.029269	171	24223	SF	-	0	ShADadfF	16	819	21	25071	(empty)
+1338635794.614331	CCkOic3ESosCYLYBP5	192.168.6.10	1040	46.17.97.50	80	tcp	http	0.464700	496	225	S1	-	0	ShADad	4	664	3	353	(empty)
+1338635748.632643	CZchKg36xg7vG2RBE7	192.168.6.10	1034	239.255.255.250	1900	udp	-	7.466142	399	0	S0	-	0	D	3	483	0	0	(empty)
+1338635726.765843	Cst7I83TKfdiGNxMy5	192.168.6.10	68	192.168.6.1	67	udp	dhcp	12.949893	314	900	SF	-	0	dD	1	342	3	984	(empty)
+#close	2014-04-03-11-10-11

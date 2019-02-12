@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-07-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1341643217.397585	CZNWMe4PIjPobxIr2e	192.168.49.10	1029	4.2.2.3	53	udp	63376	trajanoalmeida.com.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.107.201.82	14376.000000	F
+1341643219.472949	CZNWMe4PIjPobxIr2e	192.168.49.10	1029	4.2.2.3	53	udp	34448	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,173.194.37.69,173.194.37.70,173.194.37.71,173.194.37.72,173.194.37.73,173.194.37.78,173.194.37.64,173.194.37.65,173.194.37.66,173.194.37.67,173.194.37.68	1849.000000,222.000000,222.000000,222.000000,222.000000,222.000000,222.000000,222.000000,222.000000,222.000000,222.000000,222.000000	F
+1341643223.348944	CZNWMe4PIjPobxIr2e	192.168.49.10	1029	4.2.2.3	53	udp	53906	jailmas.dominiotemporario.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	187.17.98.152	1800.000000	F
+#close	2014-04-03-11-07-31

@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-47-43
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1337218972.425853	Cdj8o210LnfFMxLnm9	192.168.85.10	1029	4.2.2.3	53	udp	38288	anbotocloud.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	212.142.237.195	273.000000	F
+1337218978.034919	Cdj8o210LnfFMxLnm9	192.168.85.10	1029	4.2.2.3	53	udp	50832	www.anbotogroup.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.30.0.194	300.000000	F
+1337218980.200796	Cdj8o210LnfFMxLnm9	192.168.85.10	1029	4.2.2.3	53	udp	59537	icecreamandpizza9.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.211.239.235	3600.000000	F
+1337218988.006871	Cdj8o210LnfFMxLnm9	192.168.85.10	1029	4.2.2.3	53	udp	45714	connect.facebook.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	connect.facebook.net.edgekey.net,e3821.dspe1.akamaiedge.net,184.24.239.139	2051.000000,195.000000,19.000000	F
+1337218993.135295	Cdj8o210LnfFMxLnm9	192.168.85.10	1029	4.2.2.3	53	udp	14995	s-static.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	s-static.ak.fbcdn.net.edgekey.net,e3353.dspe1.akamaiedge.net,184.24.237.177	1143.000000,279.000000,20.000000	F
+1337218993.228983	Cdj8o210LnfFMxLnm9	192.168.85.10	1029	4.2.2.3	53	udp	58773	static.ak.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.dsw4.akamai.net,198.87.51.27,198.87.51.35	1201.000000,184.000000,19.000000,19.000000	F
+1337218993.258621	Cdj8o210LnfFMxLnm9	192.168.85.10	1029	4.2.2.3	53	udp	5525	s-static.ak.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	s-static.ak.facebook.com.edgekey.net,e566.dspe1.akamaiedge.net,184.24.226.110	1136.000000,260.000000,17.000000	F
+1337218993.571067	Cdj8o210LnfFMxLnm9	192.168.85.10	1029	4.2.2.3	53	udp	19094	www.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.171.224.37	104.000000	F
+1337219004.019456	Cq0RefG1Ohdhnemei	192.168.85.10	1029	4.2.2.3	53	udp	21911	riffoptic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.160.65.2	300.000000	F
+1337219004.504109	Cq0RefG1Ohdhnemei	192.168.85.10	1029	4.2.2.3	53	udp	24472	235.239.211.188.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1337219016.410366	CZbPtS3tGPzrF57Cxb	192.168.85.10	1029	4.2.2.3	53	udp	35738	flipcable.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.160.65.2	300.000000	F
+1337219034.033841	ChoZaK1dXNBp42RsW	192.168.85.10	1029	4.2.2.3	53	udp	10651	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.71.99,74.125.71.103,74.125.71.104,74.125.71.105,74.125.71.106,74.125.71.147	7969.000000,200.000000,200.000000,200.000000,200.000000,200.000000,200.000000	F
+#close	2014-04-03-10-47-43

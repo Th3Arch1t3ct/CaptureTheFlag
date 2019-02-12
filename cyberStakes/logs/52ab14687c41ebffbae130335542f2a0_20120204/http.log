@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-28-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1328327120.290023	Cvskh43QQrY73kcIEb	192.168.40.10	1030	85.17.77.148	80	1	GET	magicportal2.net	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	238	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	Ffc83L1mwJ6lhObwz3	text/html
+1328327120.48603	CCceFm3VtUhIwBz9nb	192.168.40.10	1031	85.17.77.149	80	1	GET	abcthepower.net	/?site=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	276	200	OK	-	-	-	(empty)	-	-	-	-	-	Fv2s6e1NaiuCELIWI2	text/html
+1328327122.126835	CRIaA24S8eTMzgzswk	192.168.40.10	1036	85.17.77.149	80	1	GET	abcthepower.net	/?7a56d4a7d5fbe5f04b8e666bdd02d392	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3035	200	OK	-	-	-	(empty)	-	-	-	-	-	FlRRH5oQeOxEe8qFd	application/zip
+1328327122.129616	CSy6g54EEe7yZ27hac	192.168.40.10	1037	85.17.77.149	80	1	GET	abcthepower.net	/?ae33f3ee9411d813643c5d42d7f12758	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3737	200	OK	-	-	-	(empty)	-	-	-	-	-	Fcdfmb3GuhrdH3bLv4	application/zip
+1328327122.352838	Cihynt35Jz0dDZ9bcc	192.168.40.10	1038	85.17.77.149	80	1	GET	abcthepower.net	/?ae33f3ee9411d813643c5d42d7f12758	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3737	200	OK	-	-	-	(empty)	-	-	-	-	-	FXLhWR3LMx1EX06hv1	application/zip
+1328327122.355195	CxXRMt37zumST3UoOj	192.168.40.10	1039	85.17.77.149	80	1	GET	abcthepower.net	/?7a56d4a7d5fbe5f04b8e666bdd02d392	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3035	200	OK	-	-	-	(empty)	-	-	-	-	-	FtEfOf1uIwBaEH6NF8	application/zip
+1328327122.685783	C3wKQV32EzDFTD7wHj	192.168.40.10	1040	85.17.77.149	80	1	GET	abcthepower.net	/?7a56d4a7d5fbe5f04b8e666bdd02d392	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3035	200	OK	-	-	-	(empty)	-	-	-	-	-	Fakf9K3y7hdKnCFEbi	application/zip
+1328327122.738588	CcQinU3qrHTIuzi23l	192.168.40.10	1041	85.17.77.149	80	1	GET	abcthepower.net	/?ae33f3ee9411d813643c5d42d7f12758	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3737	200	OK	-	-	-	(empty)	-	-	-	-	-	F8bGvdGQ7AUQHn7c7	application/zip
+1328327122.976324	CFaiRB39DVhr30aBal	192.168.40.10	1042	85.17.77.149	80	1	GET	abcthepower.net	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FidNe33YeORAPxa5I4	text/html
+1328327123.187121	CKalYb3Ybsss41oqyd	192.168.40.10	1044	85.17.77.149	80	1	GET	abcthepower.net	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FeW0eU1NbruVsXOGN8	text/html
+1328327123.385104	CNu3qb3UP4YgoFGz96	192.168.40.10	1045	85.17.77.149	80	1	GET	abcthepower.net	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FB9afT1OxifVWGnun5	text/html
+1328327123.602985	CavMSb2dyrdLY15nQ5	192.168.40.10	1046	85.17.77.149	80	1	GET	abcthepower.net	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F0dHMf2v0rQdRIF6Y3	text/html
+1328327123.007336	CekrtD3F4iStSxbZAd	192.168.40.10	1043	85.17.77.149	80	1	GET	abcthepower.net	/?60ca541961504f71bd42cc50c28aa1f2	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	227328	200	OK	-	-	-	(empty)	-	-	-	-	-	FcQjGB40eyBsT99ft1	application/x-dosexec
+1328327123.845624	CHoGM723SxDbgxlLQ3	192.168.40.10	1047	85.17.77.149	80	1	GET	abcthepower.net	/?9faa3a8c8d6c456676197c77d00cca0c	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	227328	200	OK	-	-	-	(empty)	-	-	-	-	-	F5mf1c2J9NGKyudoN3	application/x-dosexec
+1328327144.271052	CtXwKwwoBVfc6Gi44	192.168.40.10	1048	85.17.77.149	80	1	GET	abcthepower.net	/?9faa3a8c8d6c456676197c77d00cca0c	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	81402	200	OK	-	-	-	(empty)	-	-	-	-	-	FioL34P0v3kQtk1xd	application/x-dosexec
+#close	2014-04-03-10-28-08

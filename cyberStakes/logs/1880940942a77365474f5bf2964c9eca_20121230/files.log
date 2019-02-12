@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-23-05
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1356907541.798826	FCMNZn1uKnEnlrRk8j	93.170.52.21	192.168.24.10	CrgeW3FITOdKPCdj1	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	1139	-	0	0	F	-	52418868dff6e27b4eef2a9bce2bfd2f	90f28c3218fa833b499a66c71b27942c38920e9c	-	-
+1356907542.363451	F99UHt4Cl9SQqrzIN3	74.125.228.66	192.168.24.10	CO333C2R9amuFCxg8f	HTTP	0	MD5,SHA1	text/plain	-	0.018013	-	F	37362	-	0	0	F	-	f5592eabae33f8499d067344f1f42183	142a9875c4bd7e15ce6ac8b5bb181fb29ed08ba5	-	-
+1356907542.641235	FjlLcs175ci0j1xRue	195.64.155.34	192.168.24.10	CeZZtUJIQn9IoIyia	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	157	157	0	0	F	-	0a967daa9bee923435af66a5fb6145ba	afe862c5596a11efee2738579fce42624cf02970	-	-
+1356907543.174911	FJXjto4yT00YsDCbRd	74.125.228.66	192.168.24.10	CO333C2R9amuFCxg8f	HTTP	0	MD5,SHA1	image/gif	-	0.000000	-	F	35	35	0	0	F	-	28d6814f309ea289f847c69cf91194c6	0f4e929dd5bb2564f7ab9c76338e04e292a42ace	-	-
+1356907543.751423	F5z7T84QBDSaCkHHBd	188.95.50.114	192.168.24.10	CGp3nv4Np5Dh7DlBfh	HTTP	0	MD5,SHA1	text/html	-	0.000020	-	F	3968	-	0	0	F	-	9a8aa2d680c2fed61a1031ca1983a518	5246c2163319104bb9a0715b91125a5912d9e39b	-	-
+1356907543.778496	FnygyGjsXTgPPwEj9	107.14.43.187	192.168.24.10	CDgVrb1GAOuhVpg7B	HTTP	0	MD5,SHA1	image/png	-	0.000000	-	F	2349	2349	0	0	F	-	ce404e2f475dbf547ee8195dac0eff0a	3eb3390ad49e78b3e872aaf154256496e132e9f3	-	-
+1356907543.871086	FN6WAC2yFxbKOwU3I	98.139.225.43	192.168.24.10	CzKYht2a5zCGxgJ3Yf	HTTP	0	MD5,SHA1	text/html	-	0.000335	-	F	4190	-	0	0	F	-	9cd4da3cb8e15e8ee19bc90b98edd2fe	80ade9a7167d57a04c3d750a4ae510773382fa7a	-	-
+1356907543.859488	FtqEaG3i3TvDPb3NJe	208.131.138.217	192.168.24.10	CZt2lG4U0FOsCVGUAg	HTTP	0	MD5,SHA1	application/x-dosexec	YouNakedPNG.exe	0.024199	-	F	13140	73580	0	0	F	-	c8ed9a0d37f5373889541f1ab9e3097e	df9b8b74ca894007b08b75cb6a0dcb165cbf55bb	-	-
+#close	2014-04-03-10-23-05

@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-06-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1341526397.433693	Cbg1rD4603wvBVadBb	192.168.40.10	1035	72.52.108.162	443	SSLv3	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=*.relestar.com,OU=Domain Control Validated,O=*.relestar.com	serialNumber=07969287,CN=Go Daddy Secure Certification Authority,OU=http://certificates.godaddy.com/repository,O=GoDaddy.com\, Inc.,L=Scottsdale,ST=Arizona,C=US	1304493931.000000	1367652331.000000	-	-	-	403d2f011294c8bee3c89592989f0338	ok
+#close	2014-04-03-10-06-32

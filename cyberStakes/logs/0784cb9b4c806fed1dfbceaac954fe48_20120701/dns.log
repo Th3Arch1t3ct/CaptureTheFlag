@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-23-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1341169974.528366	C8Hyiu3h21NywhDBWk	192.168.111.10	1028	4.2.2.3	53	udp	11141	cpv.pilpelmedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.231.157.203	43176.000000	F
+1341169974.916665	C8Hyiu3h21NywhDBWk	192.168.111.10	1028	4.2.2.3	53	udp	46468	network.adsmarket.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.169.104.1	11353.000000	F
+1341169975.370633	C8Hyiu3h21NywhDBWk	192.168.111.10	1028	4.2.2.3	53	udp	32388	install.goosebumpcontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.150.14.67	30.000000	F
+1341169975.638215	C8Hyiu3h21NywhDBWk	192.168.111.10	1028	4.2.2.3	53	udp	16007	b.ficklebox.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.150.14.48	30.000000	F
+1341169976.583787	C8Hyiu3h21NywhDBWk	192.168.111.10	1028	4.2.2.3	53	udp	13190	a.ficklebox.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.150.14.116	30.000000	F
+#close	2014-04-03-10-23-10

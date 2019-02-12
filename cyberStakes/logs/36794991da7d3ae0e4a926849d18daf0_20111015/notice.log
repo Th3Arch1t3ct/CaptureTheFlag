@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-58-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1318641418.766287	CFoGA81f2Eo0jqnSzk	192.168.104.10	1045	95.163.66.209	80	FqKAbik7B1QFYiWIg	application/x-dosexec	http://broken-chicken.xe.cx/showthread.php?t=1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2011-10-24 03:41:40	https://www.virustotal.com/en/search/?query=1bc875ded1080ba329ab4c04ec155df9425aff8e	192.168.104.10	95.163.66.209	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1318641421.613653	C5K32T1BnND36L5eU2	192.168.104.10	1051	95.163.66.209	80	FSPp3H3GSaRJMGBfHe	application/x-dosexec	http://broken-chicken.xe.cx/showthread.php?t=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2011-10-24 03:41:40	https://www.virustotal.com/en/search/?query=1bc875ded1080ba329ab4c04ec155df9425aff8e	192.168.104.10	95.163.66.209	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1318641427.429696	ChT1e3mDRwPLbJBaf	192.168.104.10	1204	95.163.66.209	80	FPO6Ow4fuV9c1b4Jl4	application/x-dosexec	http://broken-chicken.xe.cx/showthread.php?t=502265	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2011-10-20 21:05:18	https://www.virustotal.com/en/search/?query=0da7c61f7acb3751c74caf18342ad01f63c5d040	192.168.104.10	95.163.66.209	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-58-05

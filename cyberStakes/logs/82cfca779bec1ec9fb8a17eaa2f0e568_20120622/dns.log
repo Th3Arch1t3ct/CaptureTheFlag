@@ -1,0 +1,33 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-44-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1340400237.122589	CZx1n51Bmddswfkf7b	192.168.35.10	1029	4.2.2.3	53	udp	23695	ovencraft.co.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	206.183.108.208	3576.000000	F
+1340400237.613716	CZx1n51Bmddswfkf7b	192.168.35.10	1029	4.2.2.3	53	udp	9614	connect.facebook.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	connect.facebook.net.edgekey.net,e3821.dspe1.akamaiedge.net,96.17.47.139	2935.000000,353.000000,13.000000	F
+1340400238.246306	CZx1n51Bmddswfkf7b	192.168.35.10	1029	4.2.2.3	53	udp	10125	static.ak.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.dsw4.akamai.net,96.17.162.57,96.17.162.26	3261.000000,16.000000,1.000000,1.000000	F
+1340400238.249339	CTtYsA23rkjBy5TcEb	192.168.35.10	1034	4.2.2.3	53	udp	16012	s-static.ak.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	s-static.ak.facebook.com.edgekey.net,e566.dspe1.akamaiedge.net,96.17.50.110	1255.000000,224.000000,7.000000	F
+1340400238.262517	CZx1n51Bmddswfkf7b	192.168.35.10	1029	4.2.2.3	53	udp	2699	atsihkcljrqlzvku.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.211.27.206	3600.000000	F
+1340400238.464235	CTtYsA23rkjBy5TcEb	192.168.35.10	1034	4.2.2.3	53	udp	7051	s-static.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	s-static.ak.fbcdn.net.edgekey.net,e3353.dspe1.akamaiedge.net,96.17.61.177	3762.000000,164.000000,3.000000	F
+1340400238.658922	CZx1n51Bmddswfkf7b	192.168.35.10	1029	4.2.2.3	53	udp	15498	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,80.12.96.59,80.12.96.56	17974.000000,24.000000,14200.000000,6.000000,6.000000	F
+1340400238.882467	CZx1n51Bmddswfkf7b	192.168.35.10	1029	4.2.2.3	53	udp	62857	moneyold.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.17.94.154	43200.000000	F
+1340400239.572264	CZx1n51Bmddswfkf7b	192.168.35.10	1029	4.2.2.3	53	udp	32648	jbuhaaed.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.157.255.35	10.000000	F
+1340400273.889583	CfyfZtKliQB2MD4Ld	192.168.35.10	1029	4.2.2.3	53	udp	46728	www.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.220.149.94	119.000000	F
+1340400274.156239	CfyfZtKliQB2MD4Ld	192.168.35.10	1029	4.2.2.3	53	udp	9094	static.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.dsw4.akamai.net,80.12.96.10,80.12.96.82	2647.000000,341.000000,6.000000,6.000000	F
+1340400286.884566	CaR6y51dtPvoBpXp6b	192.168.35.10	1029	4.2.2.3	53	udp	10630	herbal2pharmacy.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.75.199.209	21068.000000	F
+1340400296.839469	CNXQA4trMrKMAryK4	192.168.35.10	1054	8.8.8.8	53	udp	13107	promos.fling.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.91.207.10	254.000000	F
+1340400300.805721	CbA03a2zg4A0DgLFwh	192.168.35.10	1029	4.2.2.3	53	udp	8325	kifggapoes.ipq.co	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.210.47.239	3600.000000	F
+1340400303.095448	CaDky12oQ3Pq8hDqgi	192.168.35.10	1078	4.2.2.3	53	udp	59846	11tdtgx.cdn35.freeuploadpics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.131.140.157	3600.000000	F
+1340400303.539439	CbA03a2zg4A0DgLFwh	192.168.35.10	1029	4.2.2.3	53	udp	4485	secondfatman.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.193.12.27	600.000000	F
+1340400297.018789	Cfh39g3zbrnlYDdkH	192.168.35.10	1057	83.133.123.20	53	udp	5415	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340400297.054764	CUOgss1j7Uf9q5tO4l	192.168.35.10	1059	83.133.123.20	53	udp	5415	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340400297.611152	Cq3gTA18goGzmwuBmk	192.168.35.10	1061	83.133.123.20	53	udp	5415	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340400297.705094	CjRny44CWt33QzzJB8	192.168.35.10	1063	83.133.123.20	53	udp	5415	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340400297.829453	Cf12ND3BZ0inXhdbJa	192.168.35.10	1065	83.133.123.20	53	udp	5415	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340400301.847519	Cyzvql11nuMTAy4eua	192.168.35.10	1070	83.133.123.20	53	udp	5415	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340400301.857229	CTnE3w3AN7AzurLJs8	192.168.35.10	1072	83.133.123.20	53	udp	5415	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340400301.887398	CbRM5Y3RHEwvwaKYTk	192.168.35.10	1075	83.133.123.20	53	udp	5415	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+#close	2014-04-03-10-44-12

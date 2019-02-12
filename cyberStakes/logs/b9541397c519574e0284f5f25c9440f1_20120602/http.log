@@ -1,0 +1,29 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-10-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1338600092.497896	C4qoom4597mamD36ug	192.168.18.10	1030	94.75.225.91	80	1	GET	brokerperfect.pl	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	12059	200	OK	-	-	-	(empty)	-	-	-	-	-	FiFjcU1pJQEyvJRaVk	text/html
+1338600094.771632	C4qoom4597mamD36ug	192.168.18.10	1030	94.75.225.91	80	2	GET	brokerperfect.pl	/media/system/js/mootools.js	http://brokerperfect.pl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	74503	200	OK	-	-	-	(empty)	-	-	-	-	-	FfTdfc1kZtuUSWtag	text/plain
+1338600095.286707	C4qoom4597mamD36ug	192.168.18.10	1030	94.75.225.91	80	3	GET	brokerperfect.pl	/media/system/js/caption.js	http://brokerperfect.pl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1781	200	OK	-	-	-	(empty)	-	-	-	-	-	FtgVy829GKDScYfjB2	text/plain
+1338600095.47038	C4qoom4597mamD36ug	192.168.18.10	1030	94.75.225.91	80	4	GET	brokerperfect.pl	//modules/mod_djmenu/ieHover.js	http://brokerperfect.pl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1616	200	OK	-	-	-	(empty)	-	-	-	-	-	FFgnkp2EaMhj8sZpd9	text/plain
+1338600095.692543	C4qoom4597mamD36ug	192.168.18.10	1030	94.75.225.91	80	5	GET	brokerperfect.pl	/templates/dj-computers001/css/ie6.css	http://brokerperfect.pl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	316	200	OK	-	-	-	(empty)	-	-	-	-	-	FqCYhb2uteJW8nFBFa	text/plain
+1338600100.019535	COMLSr3MTmoyrH2i8	192.168.18.10	1037	50.95.95.2	80	1	GET	rolyjyl.ru	/count30.php	http://brokerperfect.pl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	(empty)	-	-	-	(empty)	-	-	-	-	-	-	-
+1338600131.774569	CNobmr1M60ZytZK5H4	192.168.18.10	1038	188.72.248.205	80	1	GET	188.72.248.205	/24760006.html	http://brokerperfect.pl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	382	200	OK	-	-	-	(empty)	-	-	-	-	-	FV2i4sB5NDpSHDnU3	text/html
+1338600133.314514	C6UY1uOASki3Ldq5d	192.168.18.10	1039	188.72.248.205	80	1	GET	188.72.248.205	/24842.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	44194	200	OK	-	-	-	(empty)	-	-	-	-	-	Fn8Hrb2XtTwT2RlcDc	application/zip
+1338600134.181347	C6UY1uOASki3Ldq5d	192.168.18.10	1039	188.72.248.205	80	2	GET	188.72.248.205	/24842.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	44194	200	OK	-	-	-	(empty)	-	-	-	-	-	FttfIc37id3N22JID2	application/zip
+1338600134.668717	C6UY1uOASki3Ldq5d	192.168.18.10	1039	188.72.248.205	80	3	GET	188.72.248.205	/24842.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	44194	200	OK	-	-	-	(empty)	-	-	-	-	-	FPj2X84DJS3fYu2F4j	application/zip
+1338600135.131425	C6UY1uOASki3Ldq5d	192.168.18.10	1039	188.72.248.205	80	4	GET	188.72.248.205	/1.html	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	41472	200	OK	-	-	-	(empty)	-	-	-	-	-	FINim04xW1S1sn1aT1	application/x-dosexec
+1338600151.232536	CHxK8j3POokdfJ5Nab	192.168.18.10	1040	188.72.248.168	80	1	GET	188.72.248.168	/852724.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	18432	200	OK	-	-	-	(empty)	-	-	-	-	-	FTrzJd2On5qcaUKfa8	binary
+1338600151.762951	CHxK8j3POokdfJ5Nab	192.168.18.10	1040	188.72.248.168	80	2	GET	188.72.248.168	/852724.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	174592	200	OK	-	-	-	(empty)	-	-	-	-	-	Ffsp602KdTwkBHlRVl	binary
+1338600152.802903	CHxK8j3POokdfJ5Nab	192.168.18.10	1040	188.72.248.168	80	3	GET	188.72.248.168	/852724.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	335872	200	OK	-	-	-	(empty)	-	-	-	-	-	FMOwlo3j3fa8d2nayd	binary
+1338600153.882556	CHxK8j3POokdfJ5Nab	192.168.18.10	1040	188.72.248.168	80	4	GET	188.72.248.168	/852724.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	132096	200	OK	-	-	-	(empty)	-	-	-	-	-	FrAXPG3HPlyHWfM0nb	binary
+1338600154.448271	CHxK8j3POokdfJ5Nab	192.168.18.10	1040	188.72.248.168	80	5	GET	188.72.248.168	/852724.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	164352	200	OK	-	-	-	(empty)	-	-	-	-	-	Fd4Oid4W9iPpD41Ooj	binary
+1338600155.055714	CHxK8j3POokdfJ5Nab	192.168.18.10	1040	188.72.248.168	80	6	GET	188.72.248.168	/852724.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	491074	200	OK	-	-	-	(empty)	-	-	-	-	-	FcaZH5Hn2UerX6K9	binary
+1338600156.491382	CHxK8j3POokdfJ5Nab	192.168.18.10	1040	188.72.248.168	80	7	GET	188.72.248.168	/852724.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	79328	200	OK	-	-	-	(empty)	-	-	-	-	-	FkA35DnBipDrKcLyk	binary
+1338600156.897217	CHxK8j3POokdfJ5Nab	192.168.18.10	1040	188.72.248.168	80	8	GET	188.72.248.168	/852724.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	666	200	OK	-	-	-	(empty)	-	-	-	-	-	Fx1kCoyq9fhaaz8I6	binary
+1338600160.936977	Cwspoy1Cuyb1MAwUri	192.168.18.10	1041	119.77.234.116	80	1	GET	lucypek.ru	/newm001.exe	-	-	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-11-10-15

@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-53-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1355362877.403816	CRFdxd454SxgJm5px2	192.168.79.10	1061	95.211.155.47	80	FOAI3N13ccJGvRmnWk	application/x-shockwave-flash	http://ultrasitezaza.eu/banner/055c43213455ed8d4d0a3a5bd50905b1.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-12-13 15:46:06	https://www.virustotal.com/en/search/?query=f1fa310796f8933f725d21c82ae7b2c7c3caea79	192.168.79.10	95.211.155.47	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-53-05

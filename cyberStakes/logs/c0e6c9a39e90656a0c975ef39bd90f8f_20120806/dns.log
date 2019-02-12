@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-13-28
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1344296915.41198	CuL1Jd3AtIGMIuOcg3	192.168.91.10	1029	4.2.2.3	53	udp	53135	cmheong.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	60.50.236.159	39.000000	F
+1344296980.915997	Cn6H0HOZzeph276S4	192.168.91.10	1029	4.2.2.3	53	udp	21644	crl.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.www.ms.akadns.net,a1363.g.akamai.net,204.93.62.121,204.93.62.120	465.000000,125.000000,18.000000,18.000000	F
+#close	2014-04-03-10-13-28

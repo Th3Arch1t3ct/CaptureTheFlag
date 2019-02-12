@@ -1,0 +1,28 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-55-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1340579004.458938	ClGrbu2HFxgvF3sfrd	192.168.2.10	1029	4.2.2.3	53	udp	24203	wineconsult.be	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.198.165.11	3574.000000	F
+1340579005.462141	ClGrbu2HFxgvF3sfrd	192.168.2.10	1029	4.2.2.3	53	udp	62091	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.74.80,69.31.74.8	7380.000000,225.000000,14426.000000,19.000000,19.000000	F
+1340579005.537696	ClGrbu2HFxgvF3sfrd	192.168.2.10	1029	4.2.2.3	53	udp	42890	yrxysfyekjfooere.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.211.27.206	3600.000000	F
+1340579005.963441	ClGrbu2HFxgvF3sfrd	192.168.2.10	1029	4.2.2.3	53	udp	7305	oldsert.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.17.94.154	43200.000000	F
+1340579040.005653	ChJYVwb87NsSAxlx	192.168.2.10	1029	4.2.2.3	53	udp	59273	herbal2pharmacy.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.75.199.209	28800.000000	F
+1340579043.444988	C7ISPx1HTgg5DYYvG8	192.168.2.10	1044	8.8.8.8	53	udp	13107	promos.fling.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.91.207.10	47.000000	F
+1340579047.377904	ChJYVwb87NsSAxlx	192.168.2.10	1029	4.2.2.3	53	udp	64392	secondfatman.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.193.12.27	600.000000	F
+1340579048.672679	C13ljF4ryb2EU39THj	192.168.2.10	1072	8.8.8.8	53	udp	13107	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.139.106,74.125.139.104,74.125.139.103,74.125.139.105,74.125.139.147,74.125.139.99	86399.000000,299.000000,299.000000,299.000000,299.000000,299.000000,299.000000	F
+1340579050.415952	Cj8hh52gy2jiaECw99	192.168.2.10	1074	8.8.8.8	53	udp	13107	fpdownload.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload.wip4.adobe.com,fpdownload.macromedia.com.edgekey.net,e526.d.akamaiedge.net,184.87.2.70	16640.000000,91.000000,92.000000,19.000000	F
+1340579050.487019	CSc2DT3R3STNF02OOh	192.168.2.10	1076	8.8.8.8	53	udp	13107	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,208.44.23.34,208.44.23.8	26826.000000,60.000000,19849.000000,4.000000,4.000000	F
+1340579050.611295	ChJYVwb87NsSAxlx	192.168.2.10	1029	4.2.2.3	53	udp	52360	fpdownload.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload.wip4.adobe.com,fpdownload.macromedia.com.edgekey.net,e526.d.akamaiedge.net,184.87.2.70	5327.000000,50.000000,50.000000,20.000000	F
+1340579043.896452	CCy1s01FTWanE3nBN3	192.168.2.10	1047	83.133.123.20	53	udp	16608	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340579043.928866	CbNi5V1ZtdX0Zw8tV9	192.168.2.10	1049	83.133.123.20	53	udp	16608	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340579043.984266	CybxPL3a5Pk1niPQqi	192.168.2.10	1051	83.133.123.20	53	udp	16608	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340579044.000864	CW2P2B1Uzt3NLOF4z6	192.168.2.10	1053	83.133.123.20	53	udp	16608	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340579044.042011	CtDJWq4RkUQNkqqs2k	192.168.2.10	1055	83.133.123.20	53	udp	16608	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340579044.686244	CPviAc1Xausx0Rn2Yl	192.168.2.10	1059	83.133.123.20	53	udp	16608	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340579044.89448	C4y1Bb4FJihnkx8qE4	192.168.2.10	1062	83.133.123.20	53	udp	16608	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340579044.900301	CNQPzPu7fEDZECJDc	192.168.2.10	1064	83.133.123.20	53	udp	16608	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+#close	2014-04-03-10-55-07

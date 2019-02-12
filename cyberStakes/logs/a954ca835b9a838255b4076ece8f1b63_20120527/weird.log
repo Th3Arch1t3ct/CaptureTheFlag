@@ -1,0 +1,28 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-12-51
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1338161550.324572	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1338161576.762684	CsUoU6P1vICG9jWt6	192.168.46.10	1086	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338161576.764604	CloLs52VOr4W3GKR72	192.168.46.10	1088	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338161576.768809	CVn1LBOYsOrgcTWh9	192.168.46.10	1090	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338161576.77657	CHnakz1AlrY0i1gLr5	192.168.46.10	1092	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338161576.808997	C5NwS7S9tWAY4Int6	192.168.46.10	1094	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338161576.912441	C22Cr62gABHKdABq42	192.168.46.10	1097	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338161576.936378	CYwbcCkhNQsRTBJK4	192.168.46.10	1100	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338161576.938986	CKtARgaKtNATvrPA8	192.168.46.10	1102	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338161576.951864	CamZhI1Isw8wmLLnn1	192.168.46.10	1104	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338161576.957001	CToubL0Q42gzG4fM5	192.168.46.10	1106	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338161576.987163	CDbGpf2P9UvssN4g5l	192.168.46.10	1108	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338161578.424	COJQJOZJEI7AtdSO1	192.168.46.10	1113	192.204.3.32	80	unescaped_special_URI_char	-	F	bro
+1338161585.64234	Cnhm1r249wCjB4BDHc	192.168.46.10	1125	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338161585.673837	CThtz73Af4DgeBxZxg	192.168.46.10	1127	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338161585.964204	ChtUYy4O73WZBTNIvf	192.168.46.10	1129	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338161586.051464	CMTOgA2gAdqf2TAvUj	192.168.46.10	1131	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338161586.115482	C0Mry44FeEcw1xoaY6	192.168.46.10	1133	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338161595.293435	CqBn7S31bMAyJsxTak	192.168.46.10	1137	31.193.12.27	80	bad_HTTP_request	-	F	bro
+#close	2014-04-03-10-12-51

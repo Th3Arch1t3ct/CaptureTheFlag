@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-11-13-17
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1356648579.75572	FE9VRtM72A1OsnRd5	93.170.52.21	192.168.35.10	CDdQ9Kp688kGeWS6l	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	1119	-	0	0	F	-	e4df6d4df14b98e61398e6c632b61624	f9e0bf03dd829f6301ec31790f37b2cb63adef8a	-	-
+1356648581.118979	FPYfI84T61zB6k64Lc	74.125.225.226	192.168.35.10	C1OmrE2nntPAuDx6qa	HTTP	0	SHA1,MD5	text/plain	-	0.022065	-	F	37362	-	0	0	F	-	f5592eabae33f8499d067344f1f42183	142a9875c4bd7e15ce6ac8b5bb181fb29ed08ba5	-	-
+1356648581.30352	FGak5e5f6rPvF7eY1	74.125.225.226	192.168.35.10	C1OmrE2nntPAuDx6qa	HTTP	0	SHA1,MD5	image/gif	-	0.000000	-	F	35	35	0	0	F	-	28d6814f309ea289f847c69cf91194c6	0f4e929dd5bb2564f7ab9c76338e04e292a42ace	-	-
+1356648581.385207	FGczRq3hi28hKxNJK7	195.64.155.34	192.168.35.10	CcTX7F42XuXA2dYLY1	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	160	160	0	0	F	-	15681a6e59658d5cd3a40d9c18874b6b	d0dc44975b7abf4c2b092b3dba45c25f102b89f4	-	-
+1356648582.20064	FoO58t1JTzWruIw8ma	195.3.143.42	192.168.35.10	CFOVz52PSG7UOrUlya	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	161	-	0	0	F	-	82d7993071d80f9d273a9923a12a281f	a23eb4c5b4948136f5bb1e3d992d3ebd2403d77e	-	-
+1356648583.805041	FO8Fi51utWJ9eUAv79	195.3.143.42	192.168.35.10	CZ1ubA36qYywGVG9l	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	161	-	0	0	F	-	82d7993071d80f9d273a9923a12a281f	a23eb4c5b4948136f5bb1e3d992d3ebd2403d77e	-	-
+1356648584.074464	FhZtmz1Xa4582W7oP9	195.3.143.42	192.168.35.10	CFOVz52PSG7UOrUlya	HTTP	0	SHA1,MD5	text/html	-	0.000023	-	F	3737	-	0	0	F	-	bbeb6964db1908fee13e04210cf77f12	b82a05fffdc043183beda7236d68874a719f6734	-	-
+1356648584.481205	FTlnxG2Rxozq3eSep2	107.14.43.187	192.168.35.10	CphSrD4RfGItOSDwM2	HTTP	0	SHA1,MD5	image/png	-	0.000000	-	F	2349	2349	0	0	F	-	ce404e2f475dbf547ee8195dac0eff0a	3eb3390ad49e78b3e872aaf154256496e132e9f3	-	-
+1356648584.516659	Fgncxxo0gEdY6s2W9	208.131.138.217	192.168.35.10	CMIajH2EFWmf3uBML1	HTTP	0	SHA1,MD5	application/x-dosexec	MeSexyGIF.exe	0.033777	-	F	13140	93555	0	0	F	-	51e7eabf90b298e1d068f2f7579177e1	f56220bdd6807f570ad59fd8a8a8559bfd2f0065	-	-
+#close	2014-04-03-11-13-17

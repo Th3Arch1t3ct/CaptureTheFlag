@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-54-00
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1379193763.720063	FAvNYt4ZScnl7fRbh3	192.185.5.140	192.168.123.10	CJRbXu1rtaDsJw3D86	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	1293	1293	0	0	F	-	f775c5dcee73b5b1171d52b6490185f4	5917b4305f2e8e730629422d333be807b6d89989	-	-
+1379193764.840402	Favr0o4GBNaaF4xT1a	192.185.5.140	192.168.123.10	CJRbXu1rtaDsJw3D86	HTTP	0	MD5,SHA1	text/plain	-	1.953511	-	F	68456	68456	0	0	F	-	83f9bb57f7d7d58b5f70603280bd1b12	a0061f59d2bf918d6abfbad244f405d91aabe96b	-	-
+1379193767.307809	F0yZAO1L0FXpIBO9Ya	107.23.222.212	192.168.123.10	C1hMhD1Xgbhqm7xe3g	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	270	270	0	0	F	-	916e7f71ac3ab170a7b164d4652a3605	314e155aa34978702674dbcbed47ed5b276bf0a7	-	-
+1379193767.50199	FZwcRs4WZPRyhdAicd	98.129.229.201	192.168.123.10	CIPYNHfE9yb2gNKO4	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	2	2	0	0	F	-	d784fa8b6d98d27699781bd9a7cf19f0	dd122581c8cd44d0227f9c305581ffcb4b6f1b46	-	-
+1379193767.712008	FGUGJ91CfuW5XqUPlg	66.77.96.140	192.168.123.10	C842y03ec2H4zYgThf	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	247	247	0	0	F	-	c94770d77df2b7d36bbcf304504d0b6d	1a3febd8191a9d2fa459a8b8f54a13c58dac18a7	-	-
+1379193767.787074	FgVX7919t0nqe3okmj	66.77.96.140	192.168.123.10	C842y03ec2H4zYgThf	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	200	200	0	0	F	-	9ac54336289507208c0ac5f43fd74f77	dce6d55c3c47c7a447ac31c667fb486732c3fab3	-	-
+1379193767.978283	FEU0JumMq9dv7z3N2	72.21.81.128	192.168.123.10	CaGgNQ89PFSAudJb4	HTTP	0	MD5,SHA1	application/x-dosexec	vioplayer2_d3993199.exe	0.079984	-	F	141070	1907792	0	0	F	-	5d96767eea4716a25446fd5d6eeddddd	f61cf40ebad14dc60cbcb323c3ef3581ab4d7125	-	-
+1379193769.359025	FLYO5L2YmhRX6JfP4	192.185.5.140	192.168.123.10	C3Vru8cC07QDasJO6	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	1174	-	0	0	F	-	8deb13d053cf64d38e2e53e823c3d205	3c681094a81af31e3d6353092c434111cb924d84	-	-
+#close	2014-04-03-10-54-01

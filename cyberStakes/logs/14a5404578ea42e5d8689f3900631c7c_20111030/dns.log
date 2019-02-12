@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-47-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1319961087.383724	CUOLRZ3D8dTtOEu1Ul	192.168.127.10	1030	4.2.2.3	53	udp	8845	therst.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.236.82.74	3578.000000	F
+1319961087.599526	CUOLRZ3D8dTtOEu1Ul	192.168.127.10	1030	4.2.2.3	53	udp	57997	cyberef.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.236.82.61	3578.000000	F
+1319961090.788947	CUOLRZ3D8dTtOEu1Ul	192.168.127.10	1030	4.2.2.3	53	udp	16270	61.82.236.109.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	customer.worldstream.nl	1000.000000	F
+1319961091.112269	CUOLRZ3D8dTtOEu1Ul	192.168.127.10	1030	4.2.2.3	53	udp	12430	customer.worldstream.nl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	127.0.0.1	3600.000000	F
+1319961110.014572	CYlvYo4iTWpqHm20ji	192.168.127.10	1030	4.2.2.3	53	udp	64910	www.windowsupdateres.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	205.209.149.193	1800.000000	F
+#close	2014-04-03-10-47-38

@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-02-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1358192502.117686	CLnbXq3KEqeL3dbFX6	192.168.116.10	1066	91.213.126.205	80	F2oJ741KY3vOqk4CZ1	application/x-dosexec	http://6ag6f.surgablog.com/for/valve6.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 31%  Last seen: 2013-01-17 06:40:59	https://www.virustotal.com/en/search/?query=8ebb2f9d0ffc81c9e0d8c5ed888d9b50057b4b6b	192.168.116.10	91.213.126.205	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1358192509.848368	CRkxlk4PtJgS8lteA	192.168.116.10	1086	108.60.151.28	80	FAkA5wE8Jyn6s4ara	application/jar	http://50f448669c3d4.activebodyconnections.com/news/chin.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 45%  Last seen: 2013-04-03 09:01:06	https://www.virustotal.com/en/search/?query=6f1936811c802c658c099d398058c7f3205955af	192.168.116.10	108.60.151.28	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1358192511.653587	CT2ArMdBRR2Ct6uPa	192.168.116.10	1089	91.213.126.205	80	FMHnmo3bfnAmgPvwae	application/jar	http://6ag6f.surgablog.com/for/valve.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 45%  Last seen: 2013-04-03 09:01:06	https://www.virustotal.com/en/search/?query=6f1936811c802c658c099d398058c7f3205955af	192.168.116.10	91.213.126.205	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-02-04

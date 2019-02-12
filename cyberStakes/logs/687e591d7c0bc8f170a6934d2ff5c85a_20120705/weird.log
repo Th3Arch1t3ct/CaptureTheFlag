@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-00-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1341487569.833664	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1341487611.861466	CUkJyu3xptzSmtFg24	192.168.7.10	1048	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341487611.861668	COy00b4q8aAtV1Cqmb	192.168.7.10	1048	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341487612.003001	CJBzSogo3KdY1t5Yl	192.168.7.10	1050	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341487612.003188	CsuM9Y3NjGgWsfIbe	192.168.7.10	1050	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341487612.285591	CzFUJB3B2xmLyNEOg7	192.168.7.10	1052	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341487612.285781	C7YvhV2J7oGQYZcpP9	192.168.7.10	1052	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341487612.2924	CCwABa41t6toztgaib	192.168.7.10	1054	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341487612.292586	Czdvok12Ep4Z2013Ei	192.168.7.10	1054	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341487612.295066	CARx761CRXZ6S1nfCe	192.168.7.10	1056	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341487612.295228	CEYDwM15KsKq8x5I5	192.168.7.10	1056	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341487613.591898	C8ns4l3dNislDlcfq3	192.168.7.10	1060	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341487613.592059	CAW8Qk4eE5vZMz7a4c	192.168.7.10	1060	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341487613.608142	CZyk9xOjuI0i34Xdl	192.168.7.10	1063	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341487613.608281	CIFDg61l6ln5skacUe	192.168.7.10	1063	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341487613.645945	CtrKHL3lMWqytrzVV7	192.168.7.10	1065	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341487613.646117	CpG8XL21jFbUxpfTwa	192.168.7.10	1065	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341487616.73033	CPetVi4AFHpf7zITwa	192.168.7.10	1073	31.193.12.27	80	bad_HTTP_request	-	F	bro
+#close	2014-04-03-10-00-37

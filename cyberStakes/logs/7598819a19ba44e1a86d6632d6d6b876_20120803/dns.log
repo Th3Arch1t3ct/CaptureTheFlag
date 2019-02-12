@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-40-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1344003082.705801	CxOatd3kzQ9nwJyH7h	192.168.4.10	1029	4.2.2.3	53	udp	37776	huntthething.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.120.22.8	14374.000000	F
+1344003082.792868	CxOatd3kzQ9nwJyH7h	192.168.4.10	1029	4.2.2.3	53	udp	56209	html5shiv.googlecode.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlecode.l.googleusercontent.com,74.125.137.82	6158.000000,103.000000	F
+1344003082.895957	CxOatd3kzQ9nwJyH7h	192.168.4.10	1029	4.2.2.3	53	udp	56466	cdn.jquerytools.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	jquerytools.flowplayer.netdna-cdn.com,108.161.187.32	152.000000,227.000000	F
+1344003083.205952	CxOatd3kzQ9nwJyH7h	192.168.4.10	1029	4.2.2.3	53	udp	43666	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,173.194.37.65,173.194.37.66,173.194.37.67,173.194.37.68,173.194.37.69,173.194.37.70,173.194.37.71,173.194.37.72,173.194.37.73,173.194.37.78,173.194.37.64	22393.000000,168.000000,168.000000,168.000000,168.000000,168.000000,168.000000,168.000000,168.000000,168.000000,168.000000,168.000000	F
+1344003084.422971	CxOatd3kzQ9nwJyH7h	192.168.4.10	1029	4.2.2.3	53	udp	55443	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.132.66,69.31.132.41	3221.000000,263.000000,19345.000000,20.000000,20.000000	F
+1344003089.363882	CxOatd3kzQ9nwJyH7h	192.168.4.10	1029	4.2.2.3	53	udp	26259	install.entropiauniverse.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.31.61.33	300.000000	F
+#close	2014-04-03-10-40-06

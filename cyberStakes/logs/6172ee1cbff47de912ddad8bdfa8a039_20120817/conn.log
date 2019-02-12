@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-21-41
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1345184102.714974	CKpXPqCAp3od7p3C5	192.168.66.10	1031	221.143.43.236	80	tcp	http	1.697758	330	232	SF	-	0	ShADadfF	5	538	5	440	(empty)
+1345184104.454498	CPW56J225YywlZRiPi	192.168.66.10	1032	67.205.89.151	80	tcp	http	0.440081	336	12707	SF	-	0	ShADadfF	10	744	12	13195	(empty)
+1345184105.689554	CEwVO73SEMptuIzS6	192.168.66.10	1038	67.205.89.151	80	tcp	http	0.443623	276	12660	SF	-	0	ShADadfF	9	644	12	13148	(empty)
+1345184106.145345	CpbvMr2Vaoa4fnoulh	192.168.66.10	1039	67.205.89.151	80	tcp	http	0.437810	233	12660	SF	-	0	ShADadfF	9	601	12	13148	(empty)
+1345184106.643713	C1tiNz3zxanFtV2i6	192.168.66.10	1040	67.205.89.151	80	tcp	http	0.433474	276	12660	SF	-	0	ShADadfF	9	644	12	13148	(empty)
+1345184107.723839	CGDM1S2QiPLJ2a6nZa	192.168.66.10	1041	67.205.89.151	80	tcp	http	0.450075	276	12660	SF	-	0	ShADadfF	9	644	12	13148	(empty)
+1345184108.185467	CkKk8z1Mwss2CQ4zh	192.168.66.10	1042	67.205.89.151	80	tcp	http	0.569529	194	18819	SF	-	0	ShADadfF	13	722	16	19467	(empty)
+1345184102.388541	CaJv454qs3gp7TBCFg	192.168.66.10	1030	95.211.81.213	80	tcp	http	7.815420	523	1508	RSTO	-	0	ShADadfR	7	811	5	1716	(empty)
+1345184102.386216	CnyllI1jSJU7Hf5KY	192.168.66.10	1029	4.2.2.3	53	udp	dns	14.075188	178	297	SF	-	0	Dd	5	318	5	437	(empty)
+1345184116.464053	C9HQPV3qOrM1rn2vad	192.168.66.10	1043	188.40.40.189	80	tcp	http	4.366385	774	1410047	RSTO	-	0	ShADadR	503	20902	975	1449055	(empty)
+1345184105.080213	CoW9IA23GZ47sNfr9i	192.168.66.10	1037	67.205.89.151	80	tcp	http	16.282674	353	439	RSTO	-	0	ShADadfR	5	561	4	607	(empty)
+1345184087.194094	C3wpwE3d7kSg1PPFGb	192.168.66.10	68	192.168.66.1	67	udp	dhcp	12.200599	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1345184087.193745	Cog97g1Vi2AvdfF4y1	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000811	626	0	S0	-	0	D	2	682	0	0	(empty)
+1345184104.77282	CNveMgE0Ppm3W3zy7	192.168.66.10	1035	239.255.255.250	1900	udp	-	6.102793	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-10-21-41

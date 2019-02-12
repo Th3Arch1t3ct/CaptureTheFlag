@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-55-35
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1331029319.752175	FVeoK03UHuDJKZn1Vk	194.50.176.6	192.168.123.10	CacpaHPbxvVIknLBh	HTTP	0	MD5,SHA1	text/html	-	0.121938	-	F	3232	3232	0	0	F	-	35c7ba7a8f227ff7951ee5e41fbc5e58	29f62cbe1cd2a3e40c6d547e4360e30c32c1f9c0	-	-
+1331029320.007141	FoZQ6r2excjOaXN1G1	194.50.176.6	192.168.123.10	CacpaHPbxvVIknLBh	HTTP	0	MD5,SHA1	text/x-asm	-	0.000000	-	F	2388	2388	0	0	F	-	f0e86be02407eaffa1eb7b45fa822941	8afd278c3ce1925b4407b54f14fe3c023438fa9e	-	-
+1331029320.144716	F6H0lM3S5YQ5HDJ6wi	194.50.176.6	192.168.123.10	CQNwEg2WT64GR95Noh	HTTP	0	MD5,SHA1	image/gif	-	0.000000	-	F	992	992	0	0	F	-	0a5b3efad3879f9479bc6e920801b63c	c556e162d65b0e084360839b2dfc64a6f60311e0	-	-
+1331029320.273949	FJ5ndT1GoUl9iPJS0a	194.50.176.6	192.168.123.10	CQNwEg2WT64GR95Noh	HTTP	0	MD5,SHA1	image/jpeg	-	0.000000	-	F	474	474	0	0	F	-	ae3e8811fcbe5b6c36acbe53d5222840	12e64eec5b17764421437de3e2870a159f6e1e92	-	-
+1331029320.398323	FVYdZE3gF92enxsYZ9	194.50.176.6	192.168.123.10	CQNwEg2WT64GR95Noh	HTTP	0	MD5,SHA1	image/jpeg	-	0.000000	-	F	1821	1821	0	0	F	-	9a9dbdbb3be264733d26a98393bd8365	1c0eca50e59e3c3dd022ef169f4a52bcd77bf2b2	-	-
+1331029320.268598	FoUOMe4bwfXoUVeJq6	194.209.60.30	192.168.123.10	Cgqq9h2NMtDnsG4m56	HTTP	0	MD5,SHA1	application/x-dosexec	-	0.131109	-	F	7030	739328	0	0	F	-	069811ea19ed08dd39699687c8d1a90a	17831f3be1ac4c6c1d341f74e894b938c58931a8	-	-
+1331029320.534119	FOPYSjZiDhzL4e0p7	194.50.176.6	192.168.123.10	CQNwEg2WT64GR95Noh	HTTP	0	MD5,SHA1	image/jpeg	-	0.000000	-	F	1709	1709	0	0	F	-	13dc5d04c7c5cfc5ee95f61387d2cb38	79f8719966c8057dc8f1e7c325efb175cf1082f0	-	-
+1331029320.144306	Fgufk93azSPnc1Clr	194.50.176.6	192.168.123.10	CacpaHPbxvVIknLBh	HTTP	0	MD5,SHA1	image/jpeg	-	0.498564	-	F	48284	48284	0	0	F	-	ffd28d517a06d6ab4abb6c7d5cd4e3c1	dc5ccfc72a9038591f0aabe787bffd4ae5eb90f4	-	-
+1331029320.669075	FfeqoFZxBcRIX6339	194.50.176.6	192.168.123.10	CQNwEg2WT64GR95Noh	HTTP	0	MD5,SHA1	image/jpeg	-	0.000000	-	F	1644	1644	0	0	F	-	f927e40135ba5643aabe877a07b820a9	d57ef1d328181e8e3197cf5de6942149eeb5b2c2	-	-
+#close	2014-04-03-10-55-35

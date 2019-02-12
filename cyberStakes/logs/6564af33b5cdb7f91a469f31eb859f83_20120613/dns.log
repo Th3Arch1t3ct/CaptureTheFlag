@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-57-27
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1339578911.773432	Co9VvT3PuETLMoK9R1	192.168.114.10	1029	4.2.2.3	53	udp	18317	restauranteelzocalo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.7.196.158	43176.000000	F
+1339578911.876291	Co9VvT3PuETLMoK9R1	192.168.114.10	1029	4.2.2.3	53	udp	48783	ww2.myjobresumeonline.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.171.133.163	3600.000000	F
+1339578913.343674	Co9VvT3PuETLMoK9R1	192.168.114.10	1029	4.2.2.3	53	udp	57230	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,64.72.65.214,64.72.65.215	3711.000000,242.000000,14477.000000,9.000000,9.000000	F
+1339578917.477647	Co9VvT3PuETLMoK9R1	192.168.114.10	1029	4.2.2.3	53	udp	21897	willowcreekcompany.mobi	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.50.116.224	3600.000000	F
+#close	2014-04-03-09-57-27

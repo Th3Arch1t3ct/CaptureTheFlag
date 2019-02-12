@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-10-18
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1313448413.03002	FjMgKx1iADHC94ogci	216.167.161.5	192.168.118.10	Cd8fOj4SUyzgF0XRV7	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	744	744	0	0	F	-	5b374683a723e6aa8554d1b8f4a0e218	8a47496e435317ecf105d67c503f00263300fe00	-	-
+1313448414.001912	FEM0rc136m4KMewI1a	69.50.202.74	192.168.118.10	CRoshi2HaLrfkWATXe	HTTP	0	MD5,SHA1	text/html	-	0.299229	-	F	66438	-	0	0	F	-	0b0c9f9fb7fbbafb4ccabd1d258eccfb	261ca8aa87679c697a510535f920d0a5777bec52	-	-
+1313448416.436984	FNtC4E29TRe9sNAPUb	69.50.202.74	192.168.118.10	CRoshi2HaLrfkWATXe	HTTP	0	MD5,SHA1	text/html	-	0.058359	-	F	4072	-	0	0	F	-	c67dc18766cf7804e501ce7a3857d39a	0039123e605a8a923ace4fc4c9087c932762f104	-	-
+1313448417.334665	FjDkbP2bMuNwSYCb03	69.50.202.74	192.168.118.10	CIZ7Mw3110Iyt8VLG1	HTTP	0	MD5,SHA1	application/zip	-	0.000317	-	F	4935	4935	0	0	F	-	1d045c84e88e25b05d6a12be5baabdb5	f0943aa1f4fd9be4a51a46037dfb1deaa8b1c9b0	-	-
+1313448417.60031	FUb5LM2jzve5kLV8Pe	91.193.72.70	192.168.118.10	CiXQrfT8ZLh583OP3	HTTP	0	MD5,SHA1	application/x-java-applet	-	0.422667	-	F	13172	13172	0	0	F	-	340eccd48494e55f6e71cf2ce5c45196	296ba8a895bb7c3662bc745400d120c8043669c4	-	-
+1313448418.099116	FT5pgQ1sC3xrXTmDQe	69.50.202.74	192.168.118.10	CyIviG4mEolngycV6j	HTTP	0	MD5,SHA1	application/x-dosexec	calc.exe	0.669251	-	F	378368	378368	0	0	F	-	d5bbde5dac21944af3978a4824863bed	a2b617ebf3acaf83482ec45f9a6f8dcba17deedb	-	-
+1313448425.085685	FwFuuy1s67tcriElPb	46.165.192.177	192.168.118.10	CMbk42Ti7yEyCed6i	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	2	2	0	0	F	-	e0aa021e21dddbd6d8cecec71e9cf564	9ce3bd4224c8c1780db56b4125ecf3f24bf748b7	-	-
+#close	2014-04-03-10-10-18

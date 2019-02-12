@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-11-47
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1392151187.803649	Cwde0f3tkyC4ociPOd	192.168.95.10	1031	4.2.2.3	53	udp	18582	www.serramel.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	eagle.netsigma.pt,78.46.169.148	3541.000000,3541.000000	F
+1392151190.692285	Cwde0f3tkyC4ociPOd	192.168.95.10	1031	4.2.2.3	53	udp	2710	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.224.128,74.125.224.137,74.125.224.136,74.125.224.129,74.125.224.134,74.125.224.132,74.125.224.133,74.125.224.131,74.125.224.142,74.125.224.130,74.125.224.135	67671.000000,126.000000,126.000000,126.000000,126.000000,126.000000,126.000000,126.000000,126.000000,126.000000,126.000000,126.000000	F
+#close	2014-04-03-11-11-47

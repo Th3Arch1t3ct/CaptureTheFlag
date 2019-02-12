@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-03-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1340769455.262541	CtyrHT1aufX23ODQHi	192.168.108.10	1029	4.2.2.3	53	udp	19343	2012km.88ka.cn	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	id2022com.kalegou.com,115.238.237.213	573.000000,575.000000	F
+1340769460.814066	CtyrHT1aufX23ODQHi	192.168.108.10	1029	4.2.2.3	53	udp	46223	crl.usertrust.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.255.83.2	1159.000000	F
+1340769460.98915	CtyrHT1aufX23ODQHi	192.168.108.10	1029	4.2.2.3	53	udp	31372	crl.wosign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.comodo.net,178.255.83.2	300.000000,1200.000000	F
+1340769462.134249	CtyrHT1aufX23ODQHi	192.168.108.10	1029	4.2.2.3	53	udp	45197	wpa.qq.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	112.90.141.82	62.000000	F
+1340769470.019351	CtyrHT1aufX23ODQHi	192.168.108.10	1029	4.2.2.3	53	udp	42378	cache.kalegou.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	115.238.237.204	600.000000	F
+1340769471.742502	CtyrHT1aufX23ODQHi	192.168.108.10	1029	4.2.2.3	53	udp	36490	webscan.360.cn	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	webscan-b.360.cn,220.181.158.71,220.181.158.217	300.000000,300.000000,300.000000	F
+#close	2014-04-03-10-03-00

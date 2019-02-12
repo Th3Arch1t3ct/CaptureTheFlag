@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-40-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1324870260.415976	CIZHv53L7aVMCiATIl	192.168.124.10	1049	98.139.225.42	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=ad.yieldmanager.com,OU=Yahoo,O=Yahoo! Inc.,L=Santa Clara,ST=California,C=US,serialNumber=0NSEGMnaWBhooWm4N1LPHFPkruk8q6A0	OU=Equifax Secure Certificate Authority,O=Equifax,C=US	1261485438.000000	1424548837.000000	-	-	-	bedc36195b23530aba00d994f9fb1339	ok
+1324870260.416368	Cr2DZh1FXQdg8n1Iuf	192.168.124.10	1048	98.139.225.42	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=ad.yieldmanager.com,OU=Yahoo,O=Yahoo! Inc.,L=Santa Clara,ST=California,C=US,serialNumber=0NSEGMnaWBhooWm4N1LPHFPkruk8q6A0	OU=Equifax Secure Certificate Authority,O=Equifax,C=US	1261485438.000000	1424548837.000000	-	-	-	bedc36195b23530aba00d994f9fb1339	ok
+1324870261.700563	CO9LLE2eP9gRY5Ykv8	192.168.124.10	1064	98.139.225.42	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	47de751c3af676844a2adfb99a40779beb8eb3402fd572bf6317db764f1c62c1	CN=ad.yieldmanager.com,OU=Yahoo,O=Yahoo! Inc.,L=Santa Clara,ST=California,C=US,serialNumber=0NSEGMnaWBhooWm4N1LPHFPkruk8q6A0	OU=Equifax Secure Certificate Authority,O=Equifax,C=US	1261485438.000000	1424548837.000000	-	-	-	bedc36195b23530aba00d994f9fb1339	ok
+1324870262.818155	CFO7mb2u7JYLiRV8rb	192.168.124.10	1068	98.139.225.42	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	c930603d9b66f5d4eda22765fc230905f4386a37d19646e024f46662528c3700	CN=ad.yieldmanager.com,OU=Yahoo,O=Yahoo! Inc.,L=Santa Clara,ST=California,C=US,serialNumber=0NSEGMnaWBhooWm4N1LPHFPkruk8q6A0	OU=Equifax Secure Certificate Authority,O=Equifax,C=US	1261485438.000000	1424548837.000000	-	-	-	bedc36195b23530aba00d994f9fb1339	ok
+#close	2014-04-03-10-40-13

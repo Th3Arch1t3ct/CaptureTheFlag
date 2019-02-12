@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-36-38
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1355648757.062776	CUbwiF1W5gDKizCyt8	192.168.107.10	1035	142.0.34.55	80	FhSR7tRAzuPQN9aQa	application/x-dosexec	http://goldclick.pro/might/planned_products.php?gdq=1f:31:1n:1l:32&vwpewez=2v:1f:1f:1j:1o:1l:1h:32:1j:1o&grnqjm=1i&axf=ahqz&xfnx=dqcxhd	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 21%  Last seen: 2012-12-17 04:49:04	https://www.virustotal.com/en/search/?query=d44879c8491ec844108c6159a9e8667192640854	192.168.107.10	142.0.34.55	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-36-38

@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-15-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1339911812.053187	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1339911827.350051	CszKXjFRSqci5hoyi	192.168.11.10	1083	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1339911827.352143	Cxb38k2uBy1ayB8aBl	192.168.11.10	1085	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1339911827.354053	CHqk8I1kbjCyRUmOMc	192.168.11.10	1087	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1339911827.361583	CqAxUUm2NyczO381i	192.168.11.10	1089	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1339911827.372415	Chlokb2MUUfys6jgng	192.168.11.10	1091	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1339911827.396783	CsV1DreM19OyLugi3	192.168.11.10	1093	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1339911827.456859	CyDl7m2sqVF4v2RMh6	192.168.11.10	1096	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1339911827.477073	C7H2jo4Y0vSD97bk21	192.168.11.10	1098	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1339911827.506958	C6Hk883SyP5SQi9jx8	192.168.11.10	1100	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1339911827.511597	C5wxnC335rybovBSz5	192.168.11.10	1103	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1339911827.520889	C1EAed4niobngiHu54	192.168.11.10	1105	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1339911834.93619	CTrttBl6zsCyBUzFb	192.168.11.10	1117	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1339911834.958434	CGvs0r1xxLSFcNfOXj	192.168.11.10	1119	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1339911835.077456	CjzePcrKg53gc5jUe	192.168.11.10	1121	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1339911835.080268	C2tdKP11oaYHptxFIg	192.168.11.10	1123	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1339911838.142814	Cl38VpOeeBJIAP8Gc	192.168.11.10	1127	31.193.12.27	80	bad_HTTP_request	-	F	bro
+#close	2014-04-03-10-16-00

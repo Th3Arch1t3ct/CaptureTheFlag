@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-14-40
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1391287297.319319	Cy9VRC2drWZhufda11	192.168.68.10	1036	206.72.195.132	80	1	GET	aa.biotx.biz	/	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	617	200	OK	-	-	-	(empty)	-	-	-	-	-	FhXdoC43nmD3uNXA1	text/html
+1391287298.425304	CJJxbX3KJYQ5m2Yzn2	192.168.68.10	1037	206.72.195.132	80	1	GET	celebsnews.biz	/ads/snoreless-pillow.swf	http://aa.biotx.biz/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	33441	200	OK	-	-	-	(empty)	-	-	-	-	-	F10XGq2bsXfPq1GM1i	application/x-shockwave-flash
+1391287301.815308	C2hPBE3Wu1kBbno7e7	192.168.68.10	1038	23.62.228.51	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	1382	200	OK	-	-	-	(empty)	-	-	-	-	-	FVr0DR29YQd3MarA1f	text/plain
+1391287301.75896	Cy9VRC2drWZhufda11	192.168.68.10	1036	206.72.195.132	80	2	GET	aa.biotx.biz	/favicon.ico	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	502	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F0oag51cKZNPHuuuD	text/html
+1391287301.715895	CJJxbX3KJYQ5m2Yzn2	192.168.68.10	1037	206.72.195.132	80	2	GET	celebsnews.biz	/ads/snoreless-pillow.php?id=312e362e302e3130	http://aa.biotx.biz/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	439	200	OK	-	-	-	(empty)	-	-	-	-	-	FuhnJp1Q5skLtZc472	text/plain
+1391287303.667423	ClGOqu2zXXRZ6QCxR5	192.168.68.10	1039	178.32.189.104	80	1	GET	363.3c.0b2417.c4e.15e0.e015d2.f1.c6cc45.uppeitevaz.bucketlinks.pw	/	http://aa.biotx.biz/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	1682	200	OK	-	-	-	(empty)	-	-	-	-	-	FNosx83eKRNEUOKoag	text/html
+1391287305.364028	C0eQKq2WY1nYNM2ee6	192.168.68.10	1043	178.32.189.104	80	1	GET	363.3c.0b2417.c4e.15e0.e015d2.f1.c6cc45.uppeitevaz.bucketlinks.pw	/8_dc51/0/a/ba5b/6/97/e51bf3f2_3abbeea26b/7/6f/5/d_907a4a6d_6_0/6087f4/7/3/b43/59c426	http://363.3c.0b2417.c4e.15e0.e015d2.f1.c6cc45.uppeitevaz.bucketlinks.pw/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	12440	200	OK	-	-	-	(empty)	-	-	-	-	-	F1Lm7CStBzruT3lfc	text/html
+1391287311.31685	CdFjLI2u3UcLkY5MB	192.168.68.10	1044	178.32.189.104	80	1	GET	178.32.189.104	/?88764bc1ddfbb29b3e99b9918d7b1835	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	273920	200	OK	-	-	-	(empty)	-	-	-	-	-	F7Atm12viRs83WsZVi	application/x-dosexec
+1391287319.813087	CT3qQI3dhvaGnI9PR6	192.168.68.10	1046	178.32.189.104	80	1	GET	178.32.189.104	/?56a1c4f60b080ef2753c91c6582a53f7	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1391287320.130654	CwthQH2IGnOaCzoUc8	192.168.68.10	1047	178.32.189.104	80	1	GET	178.32.189.104	/?df1b467812325e4e8d6e320c2619f2f8	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1391287320.444614	CDZ9yp2Yrxblrdarn1	192.168.68.10	1048	178.32.189.104	80	1	GET	178.32.189.104	/?9dac392b3d3c96f7839d5b5a380f60f0	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1391287320.760935	CoQNLJ39m7zZkLUb2	192.168.68.10	1049	178.32.189.104	80	1	GET	178.32.189.104	/?ea00eeb86f70cf949932e60ee1f18945	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1391287321.075973	Cva3624cayEk0v82vj	192.168.68.10	1050	178.32.189.104	80	1	GET	178.32.189.104	/?596fe00e7c149a15543d1bfb2878e184	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-10-14-40

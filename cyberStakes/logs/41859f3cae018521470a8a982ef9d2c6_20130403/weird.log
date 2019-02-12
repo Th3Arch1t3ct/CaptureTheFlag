@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-09-51-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1365017616.458199	CBVsoB42McyU2WIpB6	192.168.28.10	1037	199.21.148.98	80	unescaped_special_URI_char	-	F	bro
+1365017618.059438	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1365017638.226334	CtuMxg06gPsV2JMy4	192.168.28.10	1042	98.139.225.42	80	unescaped_special_URI_char	-	F	bro
+1365017639.080998	CXXTYa3FWJpbSNLEi2	192.168.28.10	1045	98.139.225.42	80	unescaped_special_URI_char	-	F	bro
+1365017640.008614	ChOgwT3wTaMWWOriwk	192.168.28.10	1050	69.172.216.156	80	double_%_in_URI	-	F	bro
+1365017640.008614	ChOgwT3wTaMWWOriwk	192.168.28.10	1050	69.172.216.156	80	unescaped_%_in_URI	-	F	bro
+1365017640.008614	ChOgwT3wTaMWWOriwk	192.168.28.10	1050	69.172.216.156	80	illegal_%_at_end_of_URI	-	F	bro
+1365017640.086514	CZqQO8250D4822UxLg	192.168.28.10	1051	69.172.216.156	80	double_%_in_URI	-	F	bro
+1365017640.086514	CZqQO8250D4822UxLg	192.168.28.10	1051	69.172.216.156	80	unescaped_%_in_URI	-	F	bro
+1365017640.329359	CYOKb02MheIDEyhLMi	192.168.28.10	1057	69.172.216.156	80	unescaped_special_URI_char	-	F	bro
+1365017640.783127	C5ERml4qDkjAlKz3M7	192.168.28.10	1085	199.233.57.41	80	unescaped_special_URI_char	-	F	bro
+1365017640.784196	C5WH7J2tP4noKXMY2f	192.168.28.10	1090	50.116.194.23	80	unescaped_special_URI_char	-	F	bro
+1365017640.786341	CT2KFL1TZXLk8lZSf1	192.168.28.10	1096	208.71.124.125	80	unescaped_special_URI_char	-	F	bro
+1365017641.168095	C2uBw04od2ZRDmbWn9	192.168.28.10	1113	208.71.124.125	80	unescaped_special_URI_char	-	F	bro
+1365017641.482821	CIovQnGzTlUDlt0Yd	192.168.28.10	1125	69.172.216.156	80	unescaped_special_URI_char	-	F	bro
+1365017645.30531	C6bbcN3wLb0jRjMPla	192.168.28.10	1149	69.172.216.156	80	unescaped_special_URI_char	-	F	bro
+1365017660.186263	CC3yu22ilcL2IHdh7	192.168.28.10	1151	69.172.216.156	80	unescaped_special_URI_char	-	F	bro
+1365017660.887436	CykozP2LuI7rVA7SR3	192.168.28.10	1153	93.171.216.27	80	above_hole_data_without_any_acks	-	F	bro
+#close	2014-04-03-09-51-36

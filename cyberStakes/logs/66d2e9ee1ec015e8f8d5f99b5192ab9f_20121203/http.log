@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-28-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1354513592.88411	CpX7ddv3RJOrsBhPf	192.168.49.10	1030	62.149.128.166	80	1	GET	supremodesk.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	235	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FsTXYxAkTDmzFqXFe	text/html
+1354513593.136631	CiCR9Q1UmdmIQe30Kd	192.168.49.10	1031	62.149.131.245	80	1	GET	www.supremodesk.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2541	200	OK	-	-	-	(empty)	-	-	-	-	-	FazeW812px8qX7Y2x5	text/html
+1354513593.268944	CiCR9Q1UmdmIQe30Kd	192.168.49.10	1031	62.149.131.245	80	2	GET	www.supremodesk.com	/images/download.jpg	http://www.supremodesk.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	9933	200	OK	-	-	-	(empty)	-	-	-	-	-	FA467pL6Gz1Ztbzye	image/jpeg
+1354513594.58126	CiCR9Q1UmdmIQe30Kd	192.168.49.10	1031	62.149.131.245	80	3	GET	www.supremodesk.com	/supremo.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	9934	200	OK	-	-	-	(empty)	-	-	-	-	-	FOuPox2LNzzn7j3wpd	application/x-dosexec
+#close	2014-04-03-10-28-29

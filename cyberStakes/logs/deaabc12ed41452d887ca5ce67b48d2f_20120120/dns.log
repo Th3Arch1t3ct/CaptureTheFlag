@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-12-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1327026846.436659	CADpDhGp8XaXzceyk	192.168.56.10	1029	4.2.2.3	53	udp	15757	radiogioiosamarina.it	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.149.128.157,62.149.128.160,62.149.128.163,62.149.128.166,62.149.128.72,62.149.128.74,62.149.128.151,62.149.128.154	1775.000000,1775.000000,1775.000000,1775.000000,1775.000000,1775.000000,1775.000000,1775.000000	F
+1327026846.706831	CADpDhGp8XaXzceyk	192.168.56.10	1029	4.2.2.3	53	udp	911	www.radiogioiosamarina.it	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.149.130.49	1776.000000	F
+1327026846.973119	CADpDhGp8XaXzceyk	192.168.56.10	1029	4.2.2.3	53	udp	56718	ysuj4cfghd.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.199.240.210	3600.000000	F
+1327026856.583302	C10WzV1rCUKRHYA5Pb	192.168.56.10	1029	4.2.2.3	53	udp	13705	jiutsjitsers2.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	128.204.199.37,184.172.129.254,108.59.12.38	3600.000000,3600.000000,3600.000000	F
+#close	2014-04-03-10-12-09

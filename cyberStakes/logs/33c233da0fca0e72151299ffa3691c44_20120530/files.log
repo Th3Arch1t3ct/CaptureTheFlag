@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-45-45
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1338408075.99766	FDlkWX1feMB9Bg9uE1	195.16.91.141	192.168.66.10	C7WQShi0rXJpjbyF6	HTTP	0	MD5,SHA1	text/html	-	0.774464	-	F	58837	-	0	0	F	-	fa8cf9076a9d40e5ca4aa6bea6f35fb6	cff2cd04437198a48c433da0961779b38a0fabd3	-	-
+1338408080.003658	FWVJMcxMah8ieTYd6	195.16.91.141	192.168.66.10	C7WQShi0rXJpjbyF6	HTTP	0	MD5,SHA1	application/x-dosexec	readme.exe	0.620305	-	F	44032	44032	0	0	F	-	3dd1883f0297755f85a6b922d9cf3d2e	d2bf527fd82686c431cced254519b1fc2bab6a82	-	-
+1338408081.307046	F3Ir6e1w6Krl5dbNDb	195.16.91.141	192.168.66.10	CZRFDH2pD4Z1amGV0i	HTTP	0	MD5,SHA1	application/x-shockwave-flash	-	0.000000	-	F	1547	1547	0	0	F	-	c31b916255086a790acd3db2af449346	27474f210893b69a5204dcafb6d9fc12b743dc1f	-	-
+1338408088.498478	FWhtzQ2jiuDCIrKoo3	204.245.190.27	192.168.66.10	Ca9k0jWwtpE8RAJ67	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	1759	1759	0	0	F	-	4a5693fabfd4e15039896b105c9058db	350a25b622e7a75e82ec6783bcf7a2367239aa61	-	-
+1338408088.749435	FmcLDk1kPfsLxXe7o2	195.16.91.141	192.168.66.10	C7WQShi0rXJpjbyF6	HTTP	0	MD5,SHA1	application/x-shockwave-flash	-	0.154963	-	F	6996	6996	0	0	F	-	9dcdbd0b9ea48da04479355954995d0c	6c81c4f1d16468b4169256972e30622e6956f7cc	-	-
+#close	2014-04-03-10-45-45

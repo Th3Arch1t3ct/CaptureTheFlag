@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-28-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1336506297.4566	CIsEEV2pNtYML8M3o2	192.168.65.10	1029	4.2.2.3	53	udp	38288	isolationtransformer.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.7.215.221	14379.000000	F
+1336506297.742155	CIsEEV2pNtYML8M3o2	192.168.65.10	1029	4.2.2.3	53	udp	44944	webordermanager.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.124.198.1	3600.000000	F
+1336506297.991318	CIsEEV2pNtYML8M3o2	192.168.65.10	1029	4.2.2.3	53	udp	27536	thesavvymillionaire.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	83.69.226.72	3600.000000	F
+1336506320.540597	Cbbshi1bdDX66hpDq1	192.168.65.10	1029	4.2.2.3	53	udp	47507	palktikaljob.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.201.4.75	3048.000000	F
+#close	2014-04-03-10-28-16

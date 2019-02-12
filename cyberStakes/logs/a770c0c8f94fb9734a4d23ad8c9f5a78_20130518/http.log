@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-11-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1368916458.031054	C3LPVi2xTBulrsclB4	192.168.101.10	1030	85.153.28.147	80	1	GET	www.yeniflashplayer.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4001	200	OK	-	-	-	(empty)	-	-	-	-	-	Fflfij2iMnxX8UheBd	text/html
+1368916458.450094	C8zSBy2dNmuV3F7omj	192.168.101.10	1032	85.153.28.147	80	1	GET	www.yeniflashplayer.com	/css/isot.css	http://www.yeniflashplayer.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3594	200	OK	-	-	-	(empty)	-	-	-	-	-	F22qpD4uQbfM4HVCsk	text/plain
+1368916458.431771	CfhVJa3oMvMMjVYnF1	192.168.101.10	1031	85.153.28.147	80	1	GET	www.yeniflashplayer.com	/css/reset.css	http://www.yeniflashplayer.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	8687	200	OK	-	-	-	(empty)	-	-	-	-	-	FeT2zv4FhcnQBCadb2	text/plain
+1368916458.613749	C8zSBy2dNmuV3F7omj	192.168.101.10	1032	85.153.28.147	80	2	GET	www.yeniflashplayer.com	/files/jquery.min.js	http://www.yeniflashplayer.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	92629	200	OK	-	-	-	(empty)	-	-	-	-	-	FscOjy1uQ031nnxile	text/plain
+1368916459.595375	CfhVJa3oMvMMjVYnF1	192.168.101.10	1031	85.153.28.147	80	2	GET	www.yeniflashplayer.com	/css/theme/flash_128.jpg	http://www.yeniflashplayer.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	16137	200	OK	-	-	-	(empty)	-	-	-	-	-	Fc10zj1gwUfNdxyZAk	image/jpeg
+1368916459.799738	CCr1Od2osGfM2OZI7h	192.168.101.10	1033	85.153.28.147	80	1	GET	www.yeniflashplayer.com	/css/theme/windowfrost.png	http://www.yeniflashplayer.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	24251	200	OK	-	-	-	(empty)	-	-	-	-	-	FTL8wv4s1Gu9iqSk8i	image/png
+1368916469.398562	CfhVJa3oMvMMjVYnF1	192.168.101.10	1031	85.153.28.147	80	3	GET	www.yeniflashplayer.com	/css/theme/content-body-shadow.png	http://www.yeniflashplayer.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	145	200	OK	-	-	-	(empty)	-	-	-	-	-	FPQEDH2QcE5XA14Buf	image/png
+1368916469.600431	CCr1Od2osGfM2OZI7h	192.168.101.10	1033	85.153.28.147	80	2	GET	www.yeniflashplayer.com	/css/theme/contentHeader_topshadow.png	http://www.yeniflashplayer.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	974	200	OK	-	-	-	(empty)	-	-	-	-	-	F5YJsD3fJvr8nCxg7k	image/png
+1368916469.773009	CfhVJa3oMvMMjVYnF1	192.168.101.10	1031	85.153.28.147	80	4	GET	www.yeniflashplayer.com	/css/theme/downloadbutton_bg.png	http://www.yeniflashplayer.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	494	200	OK	-	-	-	(empty)	-	-	-	-	-	FyHb4pQlFEL5Em5pl	image/png
+1368916470.149815	CCr1Od2osGfM2OZI7h	192.168.101.10	1033	85.153.28.147	80	3	GET	www.yeniflashplayer.com	/css/theme/tile.png	http://www.yeniflashplayer.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1125	200	OK	-	-	-	(empty)	-	-	-	-	-	Fqsb3o2FeABy7DXQG1	image/png
+1368916488.564901	Caqp5e3B3ilTQfIVc1	192.168.101.10	1038	85.153.28.147	80	1	POST	www.yeniflashplayer.com	/download.php	http://www.yeniflashplayer.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	3	162	200	OK	-	-	-	(empty)	-	-	-	FY8CqY1kyiGD4ezr41	text/plain	F8C0Qu1mwXbjxLYr64	text/html
+1368916493.264713	Cjr3eL2CraAO74OEIl	192.168.101.10	1039	85.153.28.147	80	1	GET	www.yeniflashplayer.com	/d/flashplayer_setup_40.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7039	200	OK	-	-	-	(empty)	-	-	-	-	-	FKxbXy3zmd7JHe3vme	application/x-dosexec
+#close	2014-04-03-10-11-11

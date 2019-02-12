@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-22-47
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1343243917.900174	CqHcZ92q1kOnILMHS6	192.168.19.10	1053	91.218.37.248	80	FZMyT84OuiQPgG0tSd	application/x-dosexec	http://septimus-manus.com/w.php?f=97d19&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2012-08-12 05:04:51	https://www.virustotal.com/en/search/?query=9c60b57eb817aa0d4b7500bb40d7285873ef9d94	192.168.19.10	91.218.37.248	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1343243920.330192	CqHcZ92q1kOnILMHS6	192.168.19.10	1053	91.218.37.248	80	FpIhoz3LJRXQA78YOl	application/x-dosexec	http://septimus-manus.com/w.php?f=97d19&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2012-08-12 05:04:51	https://www.virustotal.com/en/search/?query=9c60b57eb817aa0d4b7500bb40d7285873ef9d94	192.168.19.10	91.218.37.248	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1343243928.172745	C2HcWryD42yXtLKn5	192.168.19.10	1057	91.218.37.248	80	FIlDWP2laPJd7Gvj4b	application/x-dosexec	http://septimus-manus.com/w.php?f=97d19&e=0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2012-08-12 05:04:51	https://www.virustotal.com/en/search/?query=9c60b57eb817aa0d4b7500bb40d7285873ef9d94	192.168.19.10	91.218.37.248	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-22-47

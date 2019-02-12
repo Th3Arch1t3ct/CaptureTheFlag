@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-16-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1312575414.539665	CY1V5rXuc3rEas3Wa	192.168.123.10	1029	4.2.2.3	53	udp	57995	vipteenclub.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.23.11.78	42803.000000	F
+1312575414.75864	CY1V5rXuc3rEas3Wa	192.168.123.10	1029	4.2.2.3	53	udp	26505	b.extreme-pleasure.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.212.204.52	3576.000000	F
+1312575415.782111	CY1V5rXuc3rEas3Wa	192.168.123.10	1029	4.2.2.3	53	udp	3208	a.after-hours-toy-chest.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.212.204.52	3600.000000	F
+1312575416.683473	CY1V5rXuc3rEas3Wa	192.168.123.10	1029	4.2.2.3	53	udp	25999	52.204.212.173.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	server50.myviphosting.com	43200.000000	F
+1312575416.716054	CY1V5rXuc3rEas3Wa	192.168.123.10	1029	4.2.2.3	53	udp	40335	server50.myviphosting.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.93.193.84	300.000000	F
+1312575417.008583	CY1V5rXuc3rEas3Wa	192.168.123.10	1029	4.2.2.3	53	udp	38799	ikea.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.71.68.7	43200.000000	F
+1312575417.132653	CY1V5rXuc3rEas3Wa	192.168.123.10	1029	4.2.2.3	53	udp	3982	sitesell.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.43.48.39	32124.000000	F
+1312575417.154915	CY1V5rXuc3rEas3Wa	192.168.123.10	1029	4.2.2.3	53	udp	30349	google.ae	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.125.113.147,74.125.113.99,74.125.113.103,74.125.113.104,74.125.113.105,74.125.113.106	297.000000,297.000000,297.000000,297.000000,297.000000,297.000000	F
+1312575418.050315	CY1V5rXuc3rEas3Wa	192.168.123.10	1029	4.2.2.3	53	udp	16269	myriffster.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	87.255.51.229	57.000000	F
+#close	2014-04-03-10-16-33

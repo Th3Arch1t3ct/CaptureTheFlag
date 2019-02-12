@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-50-40
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1325840946.13471	CbwwU73iDvoQWx2kE5	192.168.38.10	1032	91.213.8.118	80	FauzUc3BSw3gv1Yu1d	application/x-dosexec	http://parahole.ru/w.php?f=37&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 39%  Last seen: 2012-02-10 15:31:58	https://www.virustotal.com/en/search/?query=6266c1dd5d7008a9322a253c56e5b42850d7a664	192.168.38.10	91.213.8.118	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1325840961.68924	CbwwU73iDvoQWx2kE5	192.168.38.10	1032	91.213.8.118	80	FQBSgK2M2rUc34PJ8k	application/x-shockwave-flash	http://parahole.ru/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-04-20 01:36:29	https://www.virustotal.com/en/search/?query=3fe400ccb6dbff831b544f5fc64c4c8228f65ec6	192.168.38.10	91.213.8.118	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-50-40

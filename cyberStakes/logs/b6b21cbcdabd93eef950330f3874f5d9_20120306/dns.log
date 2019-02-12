@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-03-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1331039639.936045	Ct1QLyHFXbkxmt8Uf	192.168.41.10	1028	4.2.2.3	53	udp	15241	newvision.hk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.7.216.224	14380.000000	F
+1331039640.053114	Ct1QLyHFXbkxmt8Uf	192.168.41.10	1028	4.2.2.3	53	udp	39819	webordermanager.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.124.199.1	3600.000000	F
+1331039640.573123	Ct1QLyHFXbkxmt8Uf	192.168.41.10	1028	4.2.2.3	53	udp	26250	ww.turningsbyterry.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.37.188.14	3600.000000	F
+1331039640.940401	Ct1QLyHFXbkxmt8Uf	192.168.41.10	1028	4.2.2.3	53	udp	26509	tnum.org.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.171.105.43	300.000000	F
+1331039646.990577	Ct1QLyHFXbkxmt8Uf	192.168.41.10	1028	4.2.2.3	53	udp	42383	ww.turningsbyterry.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.37.188.14	3594.000000	F
+1331039652.641167	Ct1QLyHFXbkxmt8Uf	192.168.41.10	1028	4.2.2.3	53	udp	18574	tablepack.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.24.246.7,218.12.4.254,60.19.30.135,124.133.228.122	300.000000,300.000000,300.000000,300.000000	F
+1331039682.322889	CeluzESbbbVKFsLmb	192.168.41.10	1028	4.2.2.3	53	udp	6030	brainrace.ru	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-03-37

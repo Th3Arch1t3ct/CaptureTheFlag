@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-22-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1311848778.066283	CeXBcf4qDy9uU1S8Mb	192.168.3.10	1038	91.208.142.55	80	F3hXvl1u86KuJjULDb	application/x-dosexec	http://domainshould.com/k.php?f=23&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 15%  Last seen: 2011-07-31 05:58:24	https://www.virustotal.com/en/search/?query=8ac822df6666c759f59f2e79a860158cad1257ae	192.168.3.10	91.208.142.55	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1311848784.241607	CeXBcf4qDy9uU1S8Mb	192.168.3.10	1038	91.208.142.55	80	FKeiYo44AHgPxJfwAd	application/x-dosexec	http://domainshould.com/k.php?f=23&e=6	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 15%  Last seen: 2011-07-31 05:58:24	https://www.virustotal.com/en/search/?query=8ac822df6666c759f59f2e79a860158cad1257ae	192.168.3.10	91.208.142.55	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1311848784.817265	CVcj0LsoVddrsmWTg	192.168.3.10	1050	91.208.142.55	80	FwPe1X2Iuy1gM9smTl	application/x-dosexec	http://domainshould.com/k.php?f=23&e=1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 15%  Last seen: 2011-07-31 05:58:24	https://www.virustotal.com/en/search/?query=8ac822df6666c759f59f2e79a860158cad1257ae	192.168.3.10	91.208.142.55	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1311848839.352452	CAgOPhRDoaAqznXl8	192.168.3.10	1051	91.208.142.55	80	F9GGts2chCC9juATzj	application/x-dosexec	http://domainshould.com/k.php?f=23&e=0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 15%  Last seen: 2011-07-31 05:58:24	https://www.virustotal.com/en/search/?query=8ac822df6666c759f59f2e79a860158cad1257ae	192.168.3.10	91.208.142.55	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-22-10

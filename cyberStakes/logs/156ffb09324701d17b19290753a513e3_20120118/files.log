@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-09-49-43
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1326930376.525954	FYSYz63DJLnmZTdBch	188.121.45.32	192.168.121.10	C20gyk2OXGRzBEElyk	HTTP	0	MD5,SHA1	text/html	-	0.096564	-	F	22602	-	0	0	F	-	9907263e8b52ec82b6b9fba53c07f1bd	82b3ed70c4c2bd4edd782f1fb5716ca65da8c847	-	-
+1326930376.952521	F08YIAJXPZhFF9MNi	188.121.45.32	192.168.121.10	C20gyk2OXGRzBEElyk	HTTP	0	MD5,SHA1	application/x-dosexec	-	0.018344	-	F	8495	552448	0	0	F	-	e39d01e9f3c346abd770ed9c56dbd150	bc461800391ff15129601b1af7e8f1293fd0f021	-	-
+1326930377.197745	FbRmzF1eMdas7gL7Ll	188.121.45.32	192.168.121.10	CCIRS5OrcKDWdccBh	HTTP	0	MD5,SHA1	image/png	-	0.200287	-	F	8906	8906	0	0	F	-	5df12591ce9d8cfbfc64901926ed2a42	8990b15e58f369cff3a8ca5a4cfa737d830b4c3f	-	-
+1326930376.890961	FHPJPL2fgtQIj3a2I3	188.121.45.32	192.168.121.10	CWI7r5D6AmMs9AIBh	HTTP	0	MD5,SHA1	image/png	-	0.603847	-	F	187310	187310	0	0	F	-	52c37dd4f06fb331d31646917fb3e8cb	0f4ad15756366ad4d5cb8ea8e67ceb6e7ba4e695	-	-
+1326930380.325489	Fmh3LK26VjH8sp7G8e	188.121.45.32	192.168.121.10	Cv79XHtRKAZGr0ytk	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	368	-	0	0	F	-	4f059bfbab42af2326ce7624d84e4f44	b377dcb9d2680689fcd79f659c1523fa3ed10535	-	-
+1326930380.52501	FKb0uh1ndnGF9VuREk	188.121.45.32	192.168.121.10	Cv79XHtRKAZGr0ytk	HTTP	0	MD5,SHA1	image/gif	-	0.000000	-	F	193	193	0	0	F	-	bbb0142ab81e996217e0cd7a79b6bee3	3b2c47f300dec8546837fafd0415934d0cdc3935	-	-
+1326930380.611978	Fo3xxg4Dx5nEd2tbJ8	188.121.45.32	192.168.121.10	Cgtueg43h3sRlHcQR2	HTTP	0	MD5,SHA1	image/gif	-	0.000000	-	F	194	194	0	0	F	-	fd7b310ad7e654b29f3afa89cc889a07	00e96f9a616dca60399f4ee0302f5bdc38b28ad9	-	-
+1326930380.644126	FBh0Ow4LVMv8dpcqH8	188.121.45.32	192.168.121.10	Cv79XHtRKAZGr0ytk	HTTP	0	MD5,SHA1	image/gif	-	0.000000	-	F	169	169	0	0	F	-	ff265e15c7a29e3011c0a00b22fb198d	f1a8a137af617b892b7a3b1c3e33589dd1852437	-	-
+#close	2014-04-03-09-49-43

@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-02-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1320915654.203805	CGJnug3XwJvZ69XBge	192.168.80.10	1029	4.2.2.3	53	udp	36499	kmcreations.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.53.172.46	43175.000000	F
+1320915654.274771	CGJnug3XwJvZ69XBge	192.168.80.10	1029	4.2.2.3	53	udp	34706	www.kmcreations.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	kmcreations.biz,208.53.172.46	43175.000000,43175.000000	F
+1320915654.463263	CGJnug3XwJvZ69XBge	192.168.80.10	1029	4.2.2.3	53	udp	32144	info.template-help.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.65.23.117	3600.000000	F
+1320915657.648327	CGJnug3XwJvZ69XBge	192.168.80.10	1029	4.2.2.3	53	udp	14231	aleba.com.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	96.47.227.2	600.000000	F
+1320915657.864861	CGJnug3XwJvZ69XBge	192.168.80.10	1029	4.2.2.3	53	udp	36246	bolchetrafa.orge.pl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	182.18.185.82	3600.000000	F
+1320915659.679142	CPRTx7MBhFbevDId6	192.168.80.10	1041	4.2.2.3	53	udp	49045	counter.yadro.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	88.212.196.104,88.212.196.105,88.212.196.66,88.212.196.69,88.212.196.77,88.212.196.101,88.212.196.102,88.212.196.103	78.000000,78.000000,78.000000,78.000000,78.000000,78.000000,78.000000,78.000000	F
+1320915659.673696	CGJnug3XwJvZ69XBge	192.168.80.10	1029	4.2.2.3	53	udp	14485	chupagabra.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.17.136.171	43200.000000	F
+#close	2014-04-03-11-02-55

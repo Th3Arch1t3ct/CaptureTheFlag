@@ -1,0 +1,29 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-00-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1342029496.807309	C5nhLR2djx7bf2ukAh	192.168.115.10	1032	62.149.15.143	80	1	GET	baffalo.biz	/	http://delopouloskyr.gr/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1342029496.110096	C41v6V2L62wnxSchUb	192.168.115.10	1030	194.219.97.34	80	1	GET	delopouloskyr.gr	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	106311	200	OK	-	-	-	(empty)	-	-	-	-	-	FDWWJS3oIH3MeCRAyj	text/html
+1342029497.353315	Che1y04G2pMGfJkoIj	192.168.115.10	1034	95.168.173.91	80	1	GET	akeyboard.info	/	http://delopouloskyr.gr/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	18294	200	OK	-	-	-	(empty)	-	-	-	-	-	FqM2cO1t4KoFXXalb6	text/html
+1342029498.085139	CZ8X3u24QlGlIiyLuc	192.168.115.10	1035	95.168.173.91	80	1	GET	akeyboard.info	/?828054b1ed952978a934dc963c45c1e3=1.6.0.10	http://delopouloskyr.gr/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1342029497.758783	C41v6V2L62wnxSchUb	192.168.115.10	1030	194.219.97.34	80	2	GET	delopouloskyr.gr	/bio-foto-1.jpg	http://delopouloskyr.gr/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	65994	200	OK	-	-	-	(empty)	-	-	-	-	-	Fzrww63DIVLbNCNQVi	image/jpeg
+1342029498.292042	C41v6V2L62wnxSchUb	192.168.115.10	1030	194.219.97.34	80	3	GET	delopouloskyr.gr	/bio-foto-3.jpg	http://delopouloskyr.gr/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	42028	200	OK	-	-	-	(empty)	-	-	-	-	-	FaeoRp4dJVXFv0pqob	image/jpeg
+1342029498.570989	C1lz5y3iZW1Zkj2kxi	192.168.115.10	1040	37.59.198.62	80	1	GET	nopearth.info	/?ba784cd000231fbcb399827eece58508=21&f79de0eab0f3b944384063214d43a70a=unprgalati.ro&828054b1ed952978a934dc963c45c1e3	http://delopouloskyr.gr/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	709	200	OK	-	-	-	(empty)	-	-	-	-	-	Ftq2894I7UayaVYW1i	text/html
+1342029497.27046	CVLEpc31KxKAUvsHSf	192.168.115.10	1033	194.219.97.34	80	1	GET	delopouloskyr.gr	/Top.jpg	http://delopouloskyr.gr/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	128926	200	OK	-	-	-	(empty)	-	-	-	-	-	Fe07m53rtispxqC0hi	image/jpeg
+1342029498.563084	C41v6V2L62wnxSchUb	192.168.115.10	1030	194.219.97.34	80	4	GET	delopouloskyr.gr	/bio-foto-2.jpg	http://delopouloskyr.gr/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	66379	200	OK	-	-	-	(empty)	-	-	-	-	-	FfKFOF4LWkBD2j9W5	image/jpeg
+1342029500.159951	CB6MDk3zF6HL6PyVNd	192.168.115.10	1041	37.59.198.62	80	1	GET	nopearth.info	/?5a558d4370129b3aa269574886289578	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18534	200	OK	-	-	-	(empty)	-	-	-	-	-	Fm57h82kl87z4hYyZ9	application/jar
+1342029500.612121	CQjqez3tLH4xz00ehi	192.168.115.10	1042	37.59.198.62	80	1	GET	nopearth.info	/?5a558d4370129b3aa269574886289578	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18534	200	OK	-	-	-	(empty)	-	-	-	-	-	Fp0MwWfN6AKGuLqrd	application/jar
+1342029501.125326	Cu7jIl3ZI5CXAsGQNj	192.168.115.10	1043	37.59.198.62	80	1	GET	nopearth.info	/?5a558d4370129b3aa269574886289578	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18534	200	OK	-	-	-	(empty)	-	-	-	-	-	FnxQrb4k4tTk1m79Qg	application/jar
+1342029506.267845	CeTHIq2HoMfWZNUSzc	192.168.115.10	1044	37.59.198.62	80	1	GET	nopearth.info	/?5a558d4370129b3aa269574886289578	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18534	200	OK	-	-	-	(empty)	-	-	-	-	-	FZZW14G28tbGYt6c2	application/jar
+1342029506.724828	COcnap4wz2c1UepD9k	192.168.115.10	1045	37.59.198.62	80	1	GET	nopearth.info	/?58a200c6bedf596ac76fd8cf7e567a65	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	43136	200	OK	-	-	-	(empty)	-	-	-	-	-	FCObF8189oa4MpGb4e	application/x-dosexec
+1342029507.351904	CnOOmv2yhwj0oWXUDd	192.168.115.10	1046	37.59.198.62	80	1	GET	nopearth.info	/?82b113975263f6275c46ad1cb0de463d	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	51519	200	OK	-	-	-	(empty)	-	-	-	-	-	F3npl343BLmNTFtW3c	application/x-dosexec
+1342029508.001369	CZaEfD447tAkRHCYOe	192.168.115.10	1047	37.59.198.62	80	1	GET	nopearth.info	/?c6b9aadb4033452c73b9dac7596aac78	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	68817	200	OK	-	-	-	(empty)	-	-	-	-	-	FpjlAv4z9KwmicH9Ed	application/x-dosexec
+1342029508.694922	CNIeGM3yPlkOm4ZGAi	192.168.115.10	1048	37.59.198.62	80	1	GET	nopearth.info	/?e16f1b14ae594a5fb80960019b67c884	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	369664	200	OK	-	-	-	(empty)	-	-	-	-	-	FEKfmM1j5Y9yMSdd57	application/x-dosexec
+1342029528.999753	CL4ltU3ftlWEjci3Pk	192.168.115.10	1060	72.64.146.71	80	1	GET	1.gc.1e400.net	/?net=gnutella2&get=1&client=RAZA2.5.0.0	-	Shareaza	0	1280	200	OK	-	-	-	(empty)	-	-	-	-	-	Fj35Oh1xU4a3jr5fTe	text/plain
+1342029531.630966	CgYuxy2sGs58hYPXSi	192.168.115.10	1074	89.144.61.139	80	1	GET	89.144.61.139	/data.html	-	Mozilla/5.0 (Windows NT 5.1; rv:10.0.2) Gecko/20100101 Firefox/10.0.2	0	7	200	OK	-	-	-	(empty)	-	-	-	-	-	F1q5qW3gOnpbJwrVu3	text/plain
+1342029555.18356	CreEP1pSlW7PGzi17	192.168.115.10	1121	67.198.145.218	80	1	GET	67.198.145.218	/index.html	-	-	0	107	200	OK	-	-	-	(empty)	-	-	PROXY-CONNECTION -> Keep-Alive	-	-	Fb9Nx32e7OCEZ3nfh3	text/html
+#close	2014-04-03-11-00-47

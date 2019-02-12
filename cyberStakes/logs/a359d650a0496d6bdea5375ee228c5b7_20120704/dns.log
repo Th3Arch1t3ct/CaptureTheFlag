@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-53-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1341364565.424725	CQhyUCDOxZ11teKK8	192.168.58.10	1029	4.2.2.3	53	udp	53656	designprestashop.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.116.97.139	14372.000000	F
+1341364565.800749	CQhyUCDOxZ11teKK8	192.168.58.10	1029	4.2.2.3	53	udp	11672	www.designprestashop.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	designprestashop.com,50.116.97.139	14373.000000,14372.000000	F
+1341364567.271261	CPIb4hRGgAZ7B69f6	192.168.58.10	1033	4.2.2.3	53	udp	46746	feeds.feedburner.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www4.l.google.com,173.194.79.118	186.000000,44.000000	F
+1341364568.033118	CPIb4hRGgAZ7B69f6	192.168.58.10	1033	4.2.2.3	53	udp	37275	authentication.myvnc.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.33.88.93	60.000000	F
+1341364567.268813	CQhyUCDOxZ11teKK8	192.168.58.10	1029	4.2.2.3	53	udp	28057	eggthemes.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	80.86.87.250	300.000000	F
+1341364568.811623	CPIb4hRGgAZ7B69f6	192.168.58.10	1033	4.2.2.3	53	udp	56732	auth-validation.redirectme.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	83.69.226.189	60.000000	F
+#close	2014-04-03-09-53-49

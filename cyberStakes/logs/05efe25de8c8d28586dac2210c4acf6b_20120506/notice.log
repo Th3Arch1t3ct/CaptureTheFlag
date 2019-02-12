@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-14-38
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1336348153.080511	CVJUpV2fZrxDcCYgog	192.168.33.10	1068	37.59.198.59	80	FyLR3P1sjwunxdzceb	application/x-dosexec	http://pqrcat.org/?26cf0016834f42712bd56e7b72958b7a	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-05-11 01:17:35	https://www.virustotal.com/en/search/?query=ed346a58cd9c77094a7a9ea94c8842010550e1b6	192.168.33.10	37.59.198.59	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336348155.365886	CrMMTO2gXACmHTjm4g	192.168.33.10	1070	37.59.198.59	80	FF30K0276646IZyMAk	application/x-dosexec	http://pqrcat.org/?40a9405c6fad5c0e6c74e861120d6dab	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-05-20 00:49:17	https://www.virustotal.com/en/search/?query=630b6a9dbdc6cb7aaaf5dbd94de9477de569ae1d	192.168.33.10	37.59.198.59	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336348175.813712	CSx7Ta1rXqvjDouBMg	192.168.33.10	1107	77.79.7.96	80	FYVahb27cWBqBhczva	application/x-dosexec	http://polyposhka.slx.nl/file/1.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-05-05 04:19:13	https://www.virustotal.com/en/search/?query=110f05ea6bbce82a74d64ac2c2e72d88ff0644fa	192.168.33.10	77.79.7.96	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336348207.31542	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.33.10 scanned at least 25 unique hosts on port 34354/tcp in 0m28s	remote	192.168.33.10	-	34354	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-14-38

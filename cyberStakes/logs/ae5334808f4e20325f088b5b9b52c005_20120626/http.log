@@ -1,0 +1,47 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-54-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1340683157.634685	ConIWc83GzI6xR0D4	192.168.14.10	1030	72.249.47.165	80	1	GET	tisdale.us	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	81096	200	OK	-	-	-	(empty)	-	-	-	-	-	FVNrZh1Wd4LgCtzsRk	text/html
+1340683158.294267	CQbgNP1PbDBb1JW0Lf	192.168.14.10	1033	98.124.198.1	80	1	GET	webordermanager.com	/	http://tisdale.us/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	177	302	Object moved	-	-	-	(empty)	-	-	-	-	-	FbljzvZ4pJmZmb4c2	text/html
+1340683158.311202	C1NnzI1HaKsNQH3Ay9	192.168.14.10	1034	98.124.198.1	80	1	GET	csepros.com	/	http://tisdale.us/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	177	302	Object moved	-	-	-	(empty)	-	-	-	-	-	FPBOMj2Ry0wecdMrB6	text/html
+1340683158.293758	Cy98264mk7ugu9Da21	192.168.14.10	1031	98.124.199.1	80	1	GET	ventergy.com	/	http://tisdale.us/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	193	302	Object moved	-	-	-	(empty)	-	-	-	-	-	F3XZLT1JyttIKBLLp6	text/html
+1340683158.53422	CO2W1r2tdJeP4EKyr7	192.168.14.10	1035	109.235.50.216	80	1	GET	wwww.betterbrainsneurofeedback.com	/main.php?page=3081100e9fdaf127	http://tisdale.us/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	78444	200	OK	-	-	-	(empty)	-	-	-	-	-	FwqDPk2WzmGSSX3JIj	text/html
+1340683161.443807	CO2W1r2tdJeP4EKyr7	192.168.14.10	1035	109.235.50.216	80	2	GET	wwww.betterbrainsneurofeedback.com	/w.php?f=97d19&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	31232	200	OK	-	-	-	(empty)	-	-	-	-	-	FiE9Fu3mXRAVhGZ7mh	application/x-dosexec
+1340683161.941868	CO2W1r2tdJeP4EKyr7	192.168.14.10	1035	109.235.50.216	80	3	GET	wwww.betterbrainsneurofeedback.com	/data/ap2.php	http://wwww.betterbrainsneurofeedback.com/main.php?page=3081100e9fdaf127	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	23135	200	OK	-	-	-	(empty)	-	-	-	-	-	FxqndCc0loqJaNPm	application/pdf
+1340683162.129168	CEa1Y814WVhSagxCmk	192.168.14.10	1040	109.235.50.216	80	1	GET	wwww.betterbrainsneurofeedback.com	/data/field.swf	http://tisdale.us/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1547	200	OK	-	-	-	(empty)	-	-	-	-	-	FJ6EVH3jdppbIq5Idj	application/x-shockwave-flash
+1340683164.306771	Cpqmo8Rum8ojSveY4	192.168.14.10	1041	188.190.126.75	80	1	POST	qqq.bbnt.info	/vepof83/gw3t3s.php	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	387	16	200	OK	-	-	-	(empty)	-	-	-	FJffWk1TEgL4hY5syg	binary	FUauzo1NopgNr7nvDd	text/plain
+1340683165.365263	C3K8qS3H5OeCb27h	192.168.14.10	1042	210.116.112.75	80	1	GET	arc1.co.kr	/pd.exe	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	0	191488	200	OK	-	-	-	(empty)	-	-	-	-	-	F5ip2rvF2Ib7HEcG7	application/x-dosexec
+1340683168.568866	CEYnXu17FStVwhXCUa	192.168.14.10	1045	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	28	200	OK	-	-	-	(empty)	-	-	-	-	-	FZzpmJ2TmNoEkUoNkg	text/plain
+1340683168.647779	CT9uvJ2njvEpARyL56	192.168.14.10	1046	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340683168.653224	CV579Rq4dqJeUrkLl	192.168.14.10	1048	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=2&d=7&s=121	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340683168.68068	CAixtA3Dmgd879fzo1	192.168.14.10	1050	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=3&d=7&s=131	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340683168.684884	CUDqLc2qxY6V7YemKe	192.168.14.10	1052	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=4&d=7&s=1	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340683168.692184	CaIM2O2shL99d8U7r6	192.168.14.10	1054	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=5&d=7&s=20	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340683169.055358	CoaGvDpa6TAKHbtJk	192.168.14.10	1057	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=6&d=7&s=21	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340683169.086857	Cv6G6O3gmrIu0zmnq2	192.168.14.10	1060	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=7&d=7&s=30	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340683169.111368	C77Fe823mBaLnyc3pe	192.168.14.10	1062	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=8&d=7&s=31	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340683168.212451	Cm0x5i42mfxSrKHgcb	192.168.14.10	1043	210.116.112.75	80	1	GET	arc1.co.kr	/1689.exe	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	0	133120	200	OK	-	-	-	(empty)	-	-	-	-	-	FlhY502Px2TG7jXgX8	application/x-dosexec
+1340683183.655634	CdhTCUzJNR8JzyAj1	192.168.14.10	1069	23.62.62.151	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1111	200	OK	-	-	-	(empty)	-	-	-	-	-	FGg2jW3zKMxl6Jae42	text/plain
+1340683197.096298	CEa1Y814WVhSagxCmk	192.168.14.10	1040	109.235.50.216	80	2	GET	wwww.betterbrainsneurofeedback.com	/w.php?f=97d19&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	31232	200	OK	-	-	-	(empty)	-	-	-	-	-	FUpvaa3iUUioZf0xs	application/x-dosexec
+1340683198.399992	Cquwgz4GQnPYJN1qah	192.168.14.10	1078	109.235.50.216	80	1	GET	wwww.betterbrainsneurofeedback.com	/Kort.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	50102	200	OK	-	-	-	(empty)	-	-	-	-	-	FRa6KhM9mggDztMHl	application/zip
+1340683199.160192	C3xY0nh0z8MCnoqGa	192.168.14.10	1079	188.190.126.75	80	1	POST	qqq.bbnt.info	/vepof83/gw3t3s.php	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	387	16	200	OK	-	-	-	(empty)	-	-	-	FHQiR34Q2baJxbq78j	binary	Fpta9W2nz84o4SLsr8	text/plain
+1340683200.089527	CLoayd3jcYMwfFBmvd	192.168.14.10	1081	109.235.50.216	80	1	GET	wwww.betterbrainsneurofeedback.com	/w.php?f=97d19&e=0	-	Java/1.6.0_10	0	31232	200	OK	-	-	-	(empty)	-	-	-	-	-	FxcFT62chRAnMHpt2i	application/x-dosexec
+1340683199.669419	C26JtK2lcgLPf9qqY5	192.168.14.10	1080	210.116.112.75	80	1	GET	arc1.co.kr	/pd.exe	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	0	191488	200	OK	-	-	-	(empty)	-	-	-	-	-	FgwPrY1HW0IKcVt04	application/x-dosexec
+1340683201.309951	Ci8Idb21ND9jbHpw8e	192.168.14.10	1082	188.190.126.75	80	1	POST	qqq.bbnt.info	/vepof83/gw3t3s.php	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	387	16	200	OK	-	-	-	(empty)	-	-	-	FrtHjd1fCjT8BTY05b	binary	FwsUol4R13XnhIKBnc	text/plain
+1340683201.807254	C99ZbCDbT6HL2KwMk	192.168.14.10	1086	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	28	200	OK	-	-	-	(empty)	-	-	-	-	-	Fd7VI6oSvkrfZJjJ	text/plain
+1340683201.88662	C8FMyrKO7NGupGwE9	192.168.14.10	1087	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340683201.892622	CoYkWZ21gGXvBhCz6c	192.168.14.10	1089	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=2&d=7&s=110	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340683201.893817	CutwwJ1iKhscpv3cG4	192.168.14.10	1091	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=3&d=7&s=10	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340683201.757098	CXgxGr18GZ15wsWtk3	192.168.14.10	1083	210.116.112.75	80	1	GET	arc1.co.kr	/1689.exe	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	0	133120	200	OK	-	-	-	(empty)	-	-	-	-	-	F28KQS2TaXbtxl0jV9	application/x-dosexec
+1340683201.826629	CUG6kK3ifteAQ2DZF2	192.168.14.10	1084	210.116.112.75	80	1	GET	arc1.co.kr	/pd.exe	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	0	191488	200	OK	-	-	-	(empty)	-	-	-	-	-	FpXb1xv4nehwhZrk6	application/x-dosexec
+1340683204.020046	CdSp79YCRolB1Njg8	192.168.14.10	1095	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	28	200	OK	-	-	-	(empty)	-	-	-	-	-	F7tvhs1602QuuAnSyc	text/plain
+1340683204.105016	CsLm9x2IGz7BscLhI7	192.168.14.10	1096	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340683204.118239	C0LLRX16wnRdJf3fSf	192.168.14.10	1098	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=2&d=7&s=110	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340683204.12158	CGzB5P3HPlFyJLO0i	192.168.14.10	1100	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=587&c=3&d=7&s=10	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340683203.90179	CcXBfc4X4VhYYwkCRi	192.168.14.10	1093	210.116.112.75	80	1	GET	arc1.co.kr	/1689.exe	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	0	133120	200	OK	-	-	-	(empty)	-	-	-	-	-	FMzsMc3nxGginHTvUj	application/x-dosexec
+#close	2014-04-03-10-54-06

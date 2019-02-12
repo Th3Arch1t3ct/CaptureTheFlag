@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-49-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1330237068.763041	CU8LoE4y5o7weW1PH9	192.168.113.10	1029	4.2.2.3	53	udp	46222	wirbleibenwir.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.25.144.118	43178.000000	F
+1330237069.006478	CU8LoE4y5o7weW1PH9	192.168.113.10	1029	4.2.2.3	53	udp	44942	www.wirbleibenwir.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.25.144.118	43200.000000	F
+1330237069.116497	CU8LoE4y5o7weW1PH9	192.168.113.10	1029	4.2.2.3	53	udp	6030	www.meds-help.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.165.79.48	43200.000000	F
+1330237069.200555	CU8LoE4y5o7weW1PH9	192.168.113.10	1029	4.2.2.3	53	udp	52365	www.flatcast.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.51.180.142	43200.000000	F
+1330237069.324307	CU8LoE4y5o7weW1PH9	192.168.113.10	1029	4.2.2.3	53	udp	25484	www.webradio-toplist.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.252.22.51	3600.000000	F
+1330237069.451659	CU8LoE4y5o7weW1PH9	192.168.113.10	1029	4.2.2.3	53	udp	5258	www.kostenlose-browsergames.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.252.22.51	3600.000000	F
+1330237069.6818	CU8LoE4y5o7weW1PH9	192.168.113.10	1029	4.2.2.3	53	udp	52617	www.flatcast.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.51.180.142	43200.000000	F
+1330237071.015135	CU8LoE4y5o7weW1PH9	192.168.113.10	1029	4.2.2.3	53	udp	393	download.flatcast.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.51.137.94	43200.000000	F
+1330237083.464376	CU8LoE4y5o7weW1PH9	192.168.113.10	1029	4.2.2.3	53	udp	41608	crl.globalsign.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.ops.cybertrust.com,194.7.155.82,194.7.155.81	146.000000,146.000000,146.000000	F
+1330237084.095376	CU8LoE4y5o7weW1PH9	192.168.113.10	1029	4.2.2.3	53	udp	41095	www.download.windowsupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.download.windowsupdate.nsatc.net,main.dl.wu.akadns.net,dom.dl.wu.akadns.net,dl.wu.ms.edgesuite.net,a26.ms.akamai.net,63.217.184.40,63.217.184.75	3123.000000,295.000000,33.000000,33.000000,4313.000000,20.000000,20.000000	F
+#close	2014-04-03-10-49-40

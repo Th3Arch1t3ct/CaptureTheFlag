@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-40-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1361070540.191462	C4pa788e3AtwykPk	192.168.123.10	1029	4.2.2.3	53	udp	dns	0.017508	43	59	SF	-	0	Dd	1	71	1	87	(empty)
+1361070562.890415	C2sder1PfdCT0Gkte6	192.168.123.10	1038	46.183.217.137	80	tcp	http	0.683818	315	14167	SF	-	0	ShADadFf	10	723	14	14735	(empty)
+1361070563.539358	CIvTRn4O1wiYxXeRek	192.168.123.10	1039	46.183.217.137	80	tcp	http	1.112593	278	76653	SF	-	0	ShADadFf	38	1950	57	78941	(empty)
+1361070562.438389	CGHJfnEYLOquxMiA1	192.168.123.10	1029	4.2.2.3	53	udp	dns	0.236033	77	206	SF	-	0	Dd	2	133	2	262	(empty)
+1361070523.999935	CF4YG6HfdrMrEqb6	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000815	626	0	S0	-	0	D	2	682	0	0	(empty)
+1361070524.000299	CW0Vk33HFCm4ZogWNd	192.168.123.10	68	192.168.123.1	67	udp	dhcp	12.774035	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1361070578.298773	CZDSTJ14s6jxZX1tS7	192.168.123.10	1029	4.2.2.3	53	udp	dns	0.095695	44	195	SF	-	0	Dd	1	72	1	223	(empty)
+1361070562.463241	CKvpdk3ZyRVfIguTdf	192.168.123.10	1032	64.4.52.169	80	tcp	http	0.271490	479	239	S1	-	0	ShADd	4	647	2	327	(empty)
+1361070540.215462	Chegd03HJNTYekVYq1	192.168.123.10	1030	192.31.186.144	80	tcp	http	65.170090	297	949	RSTO	-	0	ShAaDdRf	6	545	4	1113	(empty)
+1361070568.253383	CxITFo13p5kljYNLml	192.168.123.10	1040	46.183.217.137	80	tcp	http	0.404464	394	1216	S1	-	0	ShADad	4	562	3	1344	(empty)
+1361070578.396651	CKbYjC4W1NB63I1qtl	192.168.123.10	1041	165.254.33.24	80	tcp	http	0.666391	299	1450	S1	-	0	ShADad	4	467	3	1578	(empty)
+1361070540.420507	CHwFcm3w0FwdY81Tpf	192.168.123.10	1031	46.183.217.137	80	tcp	http	37.008849	1136	212843	S1	-	0	ShADad	97	5024	154	219011	(empty)
+1361070562.675204	CVPkOpibLq2ROULn6	192.168.123.10	1033	65.55.13.243	80	tcp	http	0.278342	476	239	S1	-	0	ShADd	4	644	2	327	(empty)
+1361070562.82061	CdeUSl4jNw20Q11T2k	192.168.123.10	1036	239.255.255.250	1900	udp	-	6.195348	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-10-40-34

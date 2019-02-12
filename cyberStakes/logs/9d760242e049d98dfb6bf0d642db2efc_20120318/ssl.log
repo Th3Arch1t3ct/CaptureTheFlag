@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-40-23
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1332052185.757436	Clv3LF4aADyEpLPYOa	192.168.35.10	1032	205.216.29.139	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=www.amsservices.com,OU=cll-amswebsvc  -  www.amsservices.com,O=Vertafore,L=College Station,ST=Texas,C=US	CN=VeriSign Class 3 International Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1301547600.000000	1333169999.000000	-	-	-	8b3438f47e71385a777f88888bb20c68	ok
+#close	2014-04-03-10-40-23

@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-11-02-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1363837220.54232	CNjAp52ia1RHI1PJC2	192.168.25.10	1082	173.252.101.26	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.facebook.com,O=Facebook\, Inc.,L=Palo Alto,ST=California,C=US	OU=www.verisign.com/CPS Incorp.by Ref. LIABILITY LTD.(c)97 VeriSign,OU=VeriSign International Server CA - Class 3,OU=VeriSign\, Inc.,O=VeriSign Trust Network	1340254800.000000	1388555999.000000	-	-	-	f10b4102a78b5894231109d6d3fbeeb5	ok
+1363837228.783472	CTMybDWr2UzOW0mih	192.168.25.10	1201	174.35.32.96	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=ssl.cdngc.net,O=CDNetworks Inc.,L=San Jose,ST=California,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1326780000.000000	1393351200.000000	-	-	-	a4090061cabf8555555587d3a5dc8a35	ok
+1363837229.506845	CzfxKr1oKdgKlZwpM2	192.168.25.10	1214	75.101.151.221	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.truste.com,O=True Ultimate Standards Everywhere\, Inc.,L=San Francisco,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1327298400.000000	1422079199.000000	-	-	-	75c6308ffb77ea6550ef41d826eeeeee	ok
+1363837229.650181	CPPSfMeRUqqUR1NBg	192.168.25.10	1217	174.35.32.96	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	514a80b73ebd6347a5d98714d0e045ea48e89540b360dbbf6bcb927a228df400	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-11-02-17

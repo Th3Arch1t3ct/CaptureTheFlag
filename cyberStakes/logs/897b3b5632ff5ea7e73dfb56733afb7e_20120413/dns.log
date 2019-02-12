@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-52-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1334343479.474913	CXUOgu3CaQurueCIhe	192.168.51.10	1029	4.2.2.3	53	udp	21647	andrieskeukens.be	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.208.35.59	43176.000000	F
+1334343479.995231	CXUOgu3CaQurueCIhe	192.168.51.10	1029	4.2.2.3	53	udp	43917	j2e5g7efwgd6d.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	176.9.145.46	14400.000000	F
+1334343480.321031	CXUOgu3CaQurueCIhe	192.168.51.10	1029	4.2.2.3	53	udp	56461	anonym.to	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.203.216.114	1800.000000	F
+1334343481.08527	CXUOgu3CaQurueCIhe	192.168.51.10	1029	4.2.2.3	53	udp	43403	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.45.113,74.125.45.138,74.125.45.139,74.125.45.100,74.125.45.101,74.125.45.102	34905.000000,21.000000,21.000000,21.000000,21.000000,21.000000,21.000000	F
+1334343482.332896	CXUOgu3CaQurueCIhe	192.168.51.10	1029	4.2.2.3	53	udp	25739	doptops.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.4.19.13	28800.000000	F
+1334343487.718425	CXUOgu3CaQurueCIhe	192.168.51.10	1029	4.2.2.3	53	udp	55178	setworld931233.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.4.19.13	28800.000000	F
+1334343517.864867	CmZ12m4QGXXwv72m6l	192.168.51.10	1029	4.2.2.3	53	udp	29834	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.45.105,74.125.45.106,74.125.45.147,74.125.45.99,74.125.45.103,74.125.45.104	34849.000000,167.000000,167.000000,167.000000,167.000000,167.000000,167.000000	F
+1334343517.892168	CmZ12m4QGXXwv72m6l	192.168.51.10	1029	4.2.2.3	53	udp	60041	en.wikipedia.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wikipedia-lb.wikimedia.org,wikipedia-lb.eqiad.wikimedia.org,208.80.154.225	835.000000,323.000000,387.000000	F
+#close	2014-04-03-10-52-11

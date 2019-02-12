@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-59-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1327460334.587482	CVCK894Zj143JeSMfa	192.168.69.10	1029	4.2.2.3	53	udp	15245	ozboluorman.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.169.84.188	43179.000000	F
+1327460337.232192	CVCK894Zj143JeSMfa	192.168.69.10	1029	4.2.2.3	53	udp	2700	www2.mcgregart.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.4.179.82	43200.000000	F
+1327460337.299857	CBNSyw4DaN8Oq6DJig	192.168.69.10	1037	4.2.2.3	53	udp	11401	android.womenthemanual.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.229.116.172	3600.000000	F
+1327460337.292633	CVCK894Zj143JeSMfa	192.168.69.10	1029	4.2.2.3	53	udp	3214	pop3.bbzassociates.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.229.116.172	3600.000000	F
+1327460337.340741	CBNSyw4DaN8Oq6DJig	192.168.69.10	1037	4.2.2.3	53	udp	27784	analytics.rebel5.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	88.198.119.127	3600.000000	F
+1327460337.532754	CVCK894Zj143JeSMfa	192.168.69.10	1029	4.2.2.3	53	udp	35208	yahoo.trackbookmark.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.212.238.219	3600.000000	F
+1327460337.247131	CBNSyw4DaN8Oq6DJig	192.168.69.10	1037	4.2.2.3	53	udp	58255	www2.mcri-us.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1327460337.247131	CBNSyw4DaN8Oq6DJig	192.168.69.10	1037	4.2.2.3	53	udp	58255	www2.mcri-us.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1327460355.930916	Cy7CDE239ftYUCatl	192.168.69.10	1029	4.2.2.3	53	udp	6539	storage.ie6countdown.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ie6countdown.blob.core.windows.net,blob.sn1prody.store.core.windows.net,70.37.127.174	2016.000000,2016.000000,1398.000000	F
+1327460356.196868	Cy7CDE239ftYUCatl	192.168.69.10	1029	4.2.2.3	53	udp	48266	aylaberenjian.osa.pl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.67.189	3600.000000	F
+1327460356.780178	Cy7CDE239ftYUCatl	192.168.69.10	1029	4.2.2.3	53	udp	48522	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.132.27,69.31.132.73	10312.000000,232.000000,11316.000000,2.000000,2.000000	F
+#close	2014-04-03-10-59-05

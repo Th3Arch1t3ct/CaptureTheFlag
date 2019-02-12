@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-42-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1383073762.015453	CC6q7j2DacSyfwqEwf	192.168.13.10	1037	108.161.187.43	80	tcp	http	5.111392	267	38502	RSTO	-	0	ShADadfR	22	1155	8	38830	(empty)
+1383073762.320013	CmM6Fj2Tb9PhM0k05k	192.168.13.10	1038	4.2.2.3	53	udp	dns	0.907199	113	161	SF	-	0	Dd	3	197	3	245	(empty)
+1383073762.483734	CkjfXDWd6T0bBskLg	192.168.13.10	1040	78.46.255.51	80	tcp	http	9.706255	259	6842	RSTO	-	0	ShADadfR	8	587	5	7050	(empty)
+1383073761.441452	Cr2XRE4E2hiocYgStf	192.168.13.10	1034	78.46.255.51	80	tcp	http	10.748901	1363	3783	RSTO	-	0	ShADadfR	12	1851	8	4111	(empty)
+1383073761.374232	C3yyoF4EotIaYMJUt4	192.168.13.10	1032	4.2.2.3	53	udp	dns	1.093476	95	196	SF	-	0	Dd	3	179	3	280	(empty)
+1383073762.478964	CGA1zEEdUt9NlFx2k	192.168.13.10	1039	92.39.50.189	80	tcp	http	19.511571	301	221	RSTO	-	0	ShADdfR	8	629	5	429	(empty)
+1383073777.669445	C3O01T3Nijlaz0oIC2	192.168.13.10	1038	4.2.2.3	53	udp	dns	0.101194	42	102	SF	-	0	Dd	1	70	1	130	(empty)
+1383073770.604761	CIl7xx1yS7trbpDfA2	192.168.13.10	1046	142.4.194.0	51423	tcp	http	16.804382	1049	38394	SF	-	0	ShADadFf	22	1937	22	39282	(empty)
+1383073745.950985	CnwnsZ29A4X5qOcD39	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000928	626	0	S0	-	0	D	2	682	0	0	(empty)
+1383073745.951414	CBD4303DsGiawc8Mw4	192.168.13.10	68	192.168.13.1	67	udp	dhcp	2.140488	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1383073792.211944	CJlOCT3rakrwpOGdO5	192.168.13.10	1047	142.4.194.0	51423	tcp	http	11.824065	958	99362	SF	-	0	ShADadFf	46	2806	39	100930	(empty)
+1383073762.711101	C8fTlaVLKpqGXMbOg	192.168.13.10	1041	46.165.248.137	80	tcp	http	65.346669	340	731	RSTO	-	0	ShADadRf	6	588	4	899	(empty)
+1383073763.228323	CWStSaT9etRs2jbEd	192.168.13.10	1042	142.4.194.0	51423	tcp	http	29.192802	1987	145697	S1	-	0	ShADad	79	5155	55	147905	(empty)
+1383073768.554475	C8BN7y1eokku1ztDBd	192.168.13.10	1044	239.255.255.250	1900	udp	-	6.165059	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-10-42-50

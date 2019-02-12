@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-57-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1325803980.522503	C2gumxp2CYOf3ZLTj	192.168.69.10	1029	4.2.2.3	53	udp	7049	shemzlitway.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	96.30.36.136	14377.000000	F
+1325803981.089411	C2gumxp2CYOf3ZLTj	192.168.69.10	1029	4.2.2.3	53	udp	34953	api.htmlobfuscator.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.64.170.17	3600.000000	F
+1325803981.192233	C2gumxp2CYOf3ZLTj	192.168.69.10	1029	4.2.2.3	53	udp	18056	uiyhritbldsufgygkgmgjmegq.nl.ai	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.249.37.22	3600.000000	F
+1325803981.700506	C2gumxp2CYOf3ZLTj	192.168.69.10	1029	4.2.2.3	53	udp	29323	syyw.org.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.168.183.82	900.000000	F
+1325804005.19273	CQL3LZ3hXj7zgYUEN2	192.168.69.10	1029	4.2.2.3	53	udp	47499	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.72.155,69.31.72.147	11586.000000,113.000000,2146.000000,4.000000,4.000000	F
+1325804012.870876	CQL3LZ3hXj7zgYUEN2	192.168.69.10	1029	4.2.2.3	53	udp	62602	microbase-update.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.63.149.40	14400.000000	F
+#close	2014-04-03-10-57-34

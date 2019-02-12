@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-52-27
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1358586077.72756	Cxi6pbk2BI1bxBaO4	192.168.80.10	1038	75.127.0.27	80	F76af732xBNhWTrUk3	application/x-shockwave-flash	http://libocai.com/directly/persuades-output_compiler.php?dmclg=1h:1k:1i:1f:31&drwm=2v:3d:3e:33&pjwvd=2w:1l:30:1k:1h:32:2v:33:1g:31&coglo=ojkdnyz	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2013-02-08 21:16:03	https://www.virustotal.com/en/search/?query=411194ca0084376e1293b3b4fbcaa027e38e78c8	192.168.80.10	75.127.0.27	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-52-27

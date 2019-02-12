@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-11-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1360373147.115709	CExnGO34kCw5AWybsf	192.168.30.10	1055	62.76.43.33	80	FshnY64BffBCeL1Ya9	application/x-dosexec	http://jibio.dnsdojo.net/f310113b/acolore/load.php?e=Java6&token=default&	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 21%  Last seen: 2013-02-11 09:24:56	https://www.virustotal.com/en/search/?query=410a114a422c19eef69796408f53b0ebb1b9c539	192.168.30.10	62.76.43.33	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-11-05

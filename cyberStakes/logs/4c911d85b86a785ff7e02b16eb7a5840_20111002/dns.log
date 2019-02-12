@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-50-03
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1317569940.126265	CQ2Enq2CaNn3XyLjEe	192.168.21.10	1029	4.2.2.3	53	udp	56204	cjscottage.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	204.10.137.5	14373.000000	F
+1317569940.417417	CQ2Enq2CaNn3XyLjEe	192.168.21.10	1029	4.2.2.3	53	udp	31885	www.cjscottage.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cjscottage.com,204.10.137.5	14400.000000,14373.000000	F
+1317569940.54553	CQ2Enq2CaNn3XyLjEe	192.168.21.10	1029	4.2.2.3	53	udp	43919	sitewat.ch	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	204.236.195.202	14400.000000	F
+1317569940.621042	CQ2Enq2CaNn3XyLjEe	192.168.21.10	1029	4.2.2.3	53	udp	27279	awug.dk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	80.160.75.230	3600.000000	F
+1317569941.050537	CQ2Enq2CaNn3XyLjEe	192.168.21.10	1029	4.2.2.3	53	udp	28809	zurab.cx.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.66.208	3600.000000	F
+#close	2014-04-03-10-50-04

@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-15-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1391207883.439317	CRCvNqjd9Xiv1yki9	192.168.34.10	1035	4.2.2.3	53	udp	41364	csdownload.me	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.187.64.131	1800.000000	F
+1391207884.513981	CRCvNqjd9Xiv1yki9	192.168.34.10	1035	4.2.2.3	53	udp	22679	connect.facebook.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	connect.facebook.net.edgekey.net,e3821.dspe1.akamaiedge.net,23.212.45.22	3350.000000,336.000000,18.000000	F
+1391207884.538266	CRCvNqjd9Xiv1yki9	192.168.34.10	1035	4.2.2.3	53	udp	5009	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.224.96,74.125.224.97,74.125.224.98,74.125.224.102,74.125.224.103,74.125.224.101,74.125.224.104,74.125.224.99,74.125.224.105,74.125.224.100,74.125.224.110	60605.000000,36.000000,36.000000,36.000000,36.000000,36.000000,36.000000,36.000000,36.000000,36.000000,36.000000,36.000000	F
+1391207884.542824	CUxP6Ikwur08gDM9d	192.168.34.10	1039	4.2.2.3	53	udp	46736	media.steampowered.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	valve.vo.llnwd.net,68.142.79.70,68.142.79.69	1532.000000,213.000000,213.000000	F
+1391207884.953007	CRCvNqjd9Xiv1yki9	192.168.34.10	1035	4.2.2.3	53	udp	147	www.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	star.c10r.facebook.com,31.13.70.81	2136.000000,30.000000	F
+1391207885.784252	CUxP6Ikwur08gDM9d	192.168.34.10	1039	4.2.2.3	53	udp	31133	crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.ws.symantec.com.edgekey.net,e6845.ce.akamaiedge.net,23.5.5.163	326.000000,9976.000000,17.000000	F
+1391207885.743633	CRCvNqjd9Xiv1yki9	192.168.34.10	1035	4.2.2.3	53	udp	44434	host10.csdownload.me	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.165.223.225	600.000000	F
+1391207885.844629	CUxP6Ikwur08gDM9d	192.168.34.10	1039	4.2.2.3	53	udp	25500	svrsecure-g3-crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.ws.symantec.com.edgekey.net,e6845.ce.akamaiedge.net,23.5.5.163	113.000000,9976.000000,17.000000	F
+#close	2014-04-03-10-15-04

@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-59-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1386095556.751556	CLIOZzmwTwc8Lsif3	192.168.66.10	1028	4.2.2.3	53	udp	52907	gerdefopo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.172.56.31	14400.000000	F
+1386095557.144532	CLIOZzmwTwc8Lsif3	192.168.66.10	1028	4.2.2.3	53	udp	15784	fresrtopo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.172.56.31	14400.000000	F
+1386095557.434001	CLIOZzmwTwc8Lsif3	192.168.66.10	1028	4.2.2.3	53	udp	31144	bewemofesero.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.239.238.222	14400.000000	F
+1386095576.105008	CtTheG23DTJwgzUjqe	192.168.66.10	1028	4.2.2.3	53	udp	12462	ruelintensive.ru	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-09-59-22

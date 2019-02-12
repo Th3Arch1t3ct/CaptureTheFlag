@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-08-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1330459491.188526	CBKB4u1Od63JCLkk1	192.168.39.10	1067	109.235.49.23	80	FiLBdC3PhWRptFaPx	application/x-dosexec	http://qedracik.eu.tc/w.php?f=5e91c&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2012-03-03 11:51:44	https://www.virustotal.com/en/search/?query=fd665f299efe5c2b43fdb8aaf9e2a6f202e1a36b	192.168.39.10	109.235.49.23	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1330459494.433238	CBKB4u1Od63JCLkk1	192.168.39.10	1067	109.235.49.23	80	FS7s3k4rMALYPgYKYc	application/x-dosexec	http://qedracik.eu.tc/w.php?f=5e91c&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2012-03-03 11:51:44	https://www.virustotal.com/en/search/?query=fd665f299efe5c2b43fdb8aaf9e2a6f202e1a36b	192.168.39.10	109.235.49.23	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1330459497.341606	CBKB4u1Od63JCLkk1	192.168.39.10	1067	109.235.49.23	80	FsLA1b351fJOOV8Rmi	application/x-shockwave-flash	http://qedracik.eu.tc/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 50%  Last seen: 2012-05-01 11:52:40	https://www.virustotal.com/en/search/?query=c7c06b1d8fb1812984bb3c6c7b67bb2247338c2a	192.168.39.10	109.235.49.23	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1330459505.070431	C2QljD13gXVlmQSDAh	192.168.39.10	1072	109.235.49.23	80	Fl2LWM2loXhmPzUMMd	application/x-dosexec	http://qedracik.eu.tc/w.php?f=5e91c&e=0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2012-03-03 11:51:44	https://www.virustotal.com/en/search/?query=fd665f299efe5c2b43fdb8aaf9e2a6f202e1a36b	192.168.39.10	109.235.49.23	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-08-38

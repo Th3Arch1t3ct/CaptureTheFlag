@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-57-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1344788438.458402	CU5H3j4INu9HV3wuci	192.168.121.10	1029	4.2.2.3	53	udp	2443	zurlinde.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.137.212.46	2534.000000	F
+1344788439.878387	CU5H3j4INu9HV3wuci	192.168.121.10	1029	4.2.2.3	53	udp	65163	noqzuukouyfuyrmd.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.40.204.73	60.000000	F
+1344788440.645287	CU5H3j4INu9HV3wuci	192.168.121.10	1029	4.2.2.3	53	udp	5256	king-profit.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.168.7.68	43200.000000	F
+1344788441.246788	CU5H3j4INu9HV3wuci	192.168.121.10	1029	4.2.2.3	53	udp	37256	voqtypeqm.jungleheart.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.168.7.67	31.000000	F
+1344788451.446214	Cr9Ss62fih4ZD9OFf4	192.168.121.10	1029	4.2.2.3	53	udp	61576	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	2496.000000,300.000000	F
+1344788451.614807	Cr9Ss62fih4ZD9OFf4	192.168.121.10	1029	4.2.2.3	53	udp	1166	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,64.4.52.169	104.000000,178.000000	F
+1344788454.28018	Cr9Ss62fih4ZD9OFf4	192.168.121.10	1029	4.2.2.3	53	udp	910	deks.oplipsies.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	112.121.178.189	38400.000000	F
+1344788455.718404	Cr9Ss62fih4ZD9OFf4	192.168.121.10	1029	4.2.2.3	53	udp	57231	erse.oplipsies.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.210.47.239	38400.000000	F
+#close	2014-04-03-10-57-08

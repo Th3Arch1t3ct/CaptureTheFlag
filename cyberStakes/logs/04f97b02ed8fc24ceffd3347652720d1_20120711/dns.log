@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-24-21
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1342026249.57656	C36Mpl47JPm8iKPRTj	192.168.20.10	1029	4.2.2.3	53	udp	58261	casavidraceiroemarmorista.com.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	189.38.86.3	3574.000000	F
+1342026250.254837	C36Mpl47JPm8iKPRTj	192.168.20.10	1029	4.2.2.3	53	udp	3735	baffalo.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.149.15.143	16910.000000	F
+1342026250.739839	C36Mpl47JPm8iKPRTj	192.168.20.10	1029	4.2.2.3	53	udp	42134	akeyboard.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.168.173.91	30.000000	F
+1342026252.00711	C36Mpl47JPm8iKPRTj	192.168.20.10	1029	4.2.2.3	53	udp	7313	nopearth.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.59.198.62	30.000000	F
+1342026255.457821	C36Mpl47JPm8iKPRTj	192.168.20.10	1029	4.2.2.3	53	udp	53649	62.198.59.37.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1342026274.316156	Cyl5ke7ujkLvWaKN4	192.168.20.10	1029	4.2.2.3	53	udp	23699	s5vsrnb1.en0so1ck11go.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.139.9.18	1366.000000	F
+1342026283.22186	Cyl5ke7ujkLvWaKN4	192.168.20.10	1029	4.2.2.3	53	udp	8338	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.127.106,74.125.127.147,74.125.127.99,74.125.127.103,74.125.127.104,74.125.127.105	11118.000000,22.000000,22.000000,22.000000,22.000000,22.000000,22.000000	F
+1342026283.254735	Cyl5ke7ujkLvWaKN4	192.168.20.10	1029	4.2.2.3	53	udp	58770	cache2.bazookanetworks.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.163.248.145	7623.000000	F
+1342026283.428717	Cyl5ke7ujkLvWaKN4	192.168.20.10	1029	4.2.2.3	53	udp	43423	1.gc.1e400.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	8.gc.nonexiste.net,72.64.146.71	35902.000000,60.000000	F
+1342026283.398248	Cyl5ke7ujkLvWaKN4	192.168.20.10	1029	4.2.2.3	53	udp	7068	gwc.marksieklucki.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1342026283.398248	Cyl5ke7ujkLvWaKN4	192.168.20.10	1029	4.2.2.3	53	udp	7068	gwc.marksieklucki.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1342026283.398248	Cyl5ke7ujkLvWaKN4	192.168.20.10	1029	4.2.2.3	53	udp	7068	gwc.marksieklucki.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-24-22

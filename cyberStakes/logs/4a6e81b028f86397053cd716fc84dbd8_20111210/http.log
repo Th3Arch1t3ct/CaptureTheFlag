@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-39-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1323521130.286958	CRo1Q14CTYulyx07k7	192.168.43.10	1030	74.52.124.227	80	1	GET	estateagentsinmumbai.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	41029	200	OK	-	-	-	(empty)	-	-	-	-	-	FXuIup3RPtApip3GL	text/html
+1323521130.499255	C2I8DA3XG0NKmsC1wj	192.168.43.10	1031	74.52.124.227	80	1	GET	estateagentsinmumbai.com	/buy.GIF	http://estateagentsinmumbai.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3991	200	OK	-	-	-	(empty)	-	-	-	-	-	FUwwVv4AClAnw0NBR7	image/gif
+1323521130.527517	CRo1Q14CTYulyx07k7	192.168.43.10	1030	74.52.124.227	80	2	GET	estateagentsinmumbai.com	/sell.GIF	http://estateagentsinmumbai.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4277	200	OK	-	-	-	(empty)	-	-	-	-	-	FDIHWI3LLuNl4ltAR8	image/gif
+1323521130.686065	CRo1Q14CTYulyx07k7	192.168.43.10	1030	74.52.124.227	80	3	GET	estateagentsinmumbai.com	/rentout.GIF	http://estateagentsinmumbai.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4476	200	OK	-	-	-	(empty)	-	-	-	-	-	FwzIYT11G83Em52JW5	image/gif
+1323521130.685751	C2I8DA3XG0NKmsC1wj	192.168.43.10	1031	74.52.124.227	80	2	GET	estateagentsinmumbai.com	/rentin.GIF	http://estateagentsinmumbai.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4520	200	OK	-	-	-	(empty)	-	-	-	-	-	F023bYWoXqEH5Hwxl	image/gif
+1323521130.744574	C2I8DA3XG0NKmsC1wj	192.168.43.10	1031	74.52.124.227	80	3	GET	estateagentsinmumbai.com	/calc_form_bottom.gif	http://estateagentsinmumbai.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	453	200	OK	-	-	-	(empty)	-	-	-	-	-	FfvwHS2yBXdGqJ2r3e	image/gif
+1323521130.73601	CRo1Q14CTYulyx07k7	192.168.43.10	1030	74.52.124.227	80	4	GET	estateagentsinmumbai.com	/contact-hdr.gif	http://estateagentsinmumbai.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5970	200	OK	-	-	-	(empty)	-	-	-	-	-	F9Opc5JtwRzxBdVte	image/gif
+1323521130.784799	C2I8DA3XG0NKmsC1wj	192.168.43.10	1031	74.52.124.227	80	4	GET	estateagentsinmumbai.com	/calc_form_bg.gif	http://estateagentsinmumbai.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	159	200	OK	-	-	-	(empty)	-	-	-	-	-	Fx9u4c2jO4E7Tsa2Za	image/gif
+1323521130.868528	CXKNt52V4dvfmosDk1	192.168.43.10	1032	79.137.237.67	80	1	GET	htpcapital.com	/main.php?page=98d3bf6d08596d13	http://estateagentsinmumbai.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	92013	200	OK	-	-	-	(empty)	-	-	-	-	-	FEz7wm2RaLUqLeYPdc	text/html
+1323521136.200043	CXKNt52V4dvfmosDk1	192.168.43.10	1032	79.137.237.67	80	2	GET	htpcapital.com	/w.php?f=16&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	197632	200	OK	-	-	-	(empty)	-	-	-	-	-	FbSo5ZRdsRw3pgnq7	application/x-dosexec
+1323521138.463881	CXKNt52V4dvfmosDk1	192.168.43.10	1032	79.137.237.67	80	3	GET	htpcapital.com	/content/fdp2.php?f=16	http://htpcapital.com/main.php?page=98d3bf6d08596d13	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	106600	200	OK	-	-	-	(empty)	-	-	-	-	-	Fxi8Q81fdnOknt2Da4	application/pdf
+1323521139.776341	CaTJgK19uYZZ7yRUh	192.168.43.10	1037	79.137.237.67	80	1	GET	htpcapital.com	/content/field.swf	http://estateagentsinmumbai.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1397	200	OK	-	-	-	(empty)	-	-	-	-	-	FFw2MlPCZrNrWSYY	application/x-shockwave-flash
+1323521151.924265	C12jOuVwHcpw4Wtb5	192.168.43.10	1039	24.143.193.33	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1568	200	OK	-	-	-	(empty)	-	-	-	-	-	FIdcIA2aspuGejbhKl	text/html
+1323521151.899517	CXKNt52V4dvfmosDk1	192.168.43.10	1032	79.137.237.67	80	4	GET	htpcapital.com	/content/score.swf	http://htpcapital.com/content/field.swf	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6792	200	OK	-	-	-	(empty)	-	-	-	-	-	FjEKpMoldm4SEBrnj	application/x-shockwave-flash
+1323521146.010081	CxNBxx4E9ZvhihV4Tb	192.168.43.10	1038	58.128.228.1	80	1	POST	vampkeys.ru	/funkysoul.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	73	33898	200	OK	-	-	-	(empty)	-	-	-	Ft8qpgND44PFUmvDj	text/plain	F87CK61L13SLE3rtUi	binary
+1323521174.949773	Cov6G3c9UX3W5KoSa	192.168.43.10	1041	74.125.47.103	80	1	GET	www.google.com	/webhp	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	18909	200	OK	-	-	-	(empty)	-	-	-	-	-	FEtfbj4Z4t3ClodmE4	text/html
+1323521175.344687	CanJoo4xQPOjBPqfeh	192.168.43.10	1042	60.19.30.135	80	1	POST	pighair.ru	/bitcome91.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	293	64	200	OK	-	-	-	(empty)	-	-	-	FgRwn5WzcyBYIrzxj	binary	FwpjaUxFNkyom7A2d	binary
+#close	2014-04-03-10-39-25

@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-03-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1321381719.863314	CUQViK8UbjCjILyJ2	192.168.94.10	1038	91.230.111.9	80	FJVPD729fv396rkyo	application/x-dosexec	http://t13.eu.mn/w.php?f=23&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2011-12-04 16:20:08	https://www.virustotal.com/en/search/?query=36306c8131e1627e0f6648c0c6240200ff401510	192.168.94.10	91.230.111.9	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1321381722.463754	CUQViK8UbjCjILyJ2	192.168.94.10	1038	91.230.111.9	80	F7Lm9h4qwaea4q9Qb9	application/x-shockwave-flash	http://t13.eu.mn/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 14%  Last seen: 2011-11-18 00:31:04	https://www.virustotal.com/en/search/?query=151a35804d95a76bcbb6aa066d91e9ab6e6b23a2	192.168.94.10	91.230.111.9	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1321381728.472058	CUQViK8UbjCjILyJ2	192.168.94.10	1038	91.230.111.9	80	FGit0WbqI9N9UwBxc	application/x-dosexec	http://t13.eu.mn/w.php?f=23&e=6	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2011-12-04 16:20:08	https://www.virustotal.com/en/search/?query=36306c8131e1627e0f6648c0c6240200ff401510	192.168.94.10	91.230.111.9	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-03-13

@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-02-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1346864951.298036	C8yUl51pHYNL2J1C3a	192.168.20.10	1065	194.44.4.59	80	F1N4Aa3ZXZyb8w3k86	application/jar	http://umbrelladisagree.net/forum/create.php?i=1&key=fca6de6ec342b935639e09bbc65d1e70	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 32%  Last seen: 2012-09-14 08:46:04	https://www.virustotal.com/en/search/?query=556583fbd10b3b7a88e42c6c50dd3056da295cbe	192.168.20.10	194.44.4.59	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-02-50

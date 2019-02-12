@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-28-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1364942265.559199	ClbC0X3LkgjyFKo2ea	192.168.22.10	1029	4.2.2.3	53	udp	17807	www.anyfiledownloader.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	3.webfilesdownloader.com,195.66.79.29	586.000000,587.000000	F
+1364942268.007309	CTBMhx3c7yWazqEqp8	192.168.22.10	1036	4.2.2.3	53	udp	54668	stat.freemediastats.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	176.121.11.24	600.000000	F
+1364942268.005297	ClbC0X3LkgjyFKo2ea	192.168.22.10	1029	4.2.2.3	53	udp	39052	freemediastats.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	176.121.11.24	600.000000	F
+#close	2014-04-03-10-28-24

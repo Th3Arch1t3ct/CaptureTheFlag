@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-22-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1378939807.086479	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1378939847.148963	CdbuZ523ZbOtHekYPk	192.168.33.10	1133	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1378939847.155702	CMzNeq4YHwGdQZTCUf	192.168.33.10	1134	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1378939847.227104	CvRpDp35kdtBWS4n25	192.168.33.10	1135	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1378939847.239409	CgY8m318vtjPngihgd	192.168.33.10	1136	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1378939847.241464	CIcw1O27VPTaPFt3c2	192.168.33.10	1137	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1378939847.242732	Cp4NiueGq6uFbyPc7	192.168.33.10	1138	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1378939847.247173	Cq2tKt1VYzc8snshRh	192.168.33.10	1139	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1378939847.263932	CHMUPR34DTo5UNbxG9	192.168.33.10	1140	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1378939847.308226	CPG8D72N6gnhkz1fSk	192.168.33.10	1141	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1378939847.385378	CgJuCo4yfS2jwMpHie	192.168.33.10	1142	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1378939847.386043	CbKn6237wbYhIT8Yc3	192.168.33.10	1143	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1378939880.430942	CvjK6D1cJhsto6odHi	192.168.33.10	1162	188.190.5.82	80	bad_HTTP_request	-	F	bro
+1378939880.430942	CvjK6D1cJhsto6odHi	192.168.33.10	1162	188.190.5.82	80	line_terminated_with_single_CR	-	F	bro
+1378940094.491055	CIl8y34hffAsQyjv08	192.168.33.10	1500	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1378940094.491739	ClDBgJ10oNlnjbEFW1	192.168.33.10	1501	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+1378940094.492593	Csy9vobcSROH6R5Pc	192.168.33.10	1502	85.114.128.127	53	DNS_Conn_count_too_large	-	F	bro
+#close	2014-04-03-10-22-47

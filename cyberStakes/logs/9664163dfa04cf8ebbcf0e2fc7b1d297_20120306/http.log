@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-38-57
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1331020885.712915	Ccanvh1gkuS5Xg9MZd	192.168.56.10	1030	95.57.120.238	80	1	GET	6d1tube.c01.at	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3621	200	OK	-	-	-	(empty)	-	-	-	-	-	FYxjJ94KpmZ19J9oE4	text/html
+1331020886.111917	Ccanvh1gkuS5Xg9MZd	192.168.56.10	1030	95.57.120.238	80	2	GET	6d1tube.c01.at	/css/rotator.js	http://6d1tube.c01.at/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	893	200	OK	-	-	-	(empty)	-	-	-	-	-	FW4oAB6nLxvz2LbE6	text/plain
+1331020886.319986	Ccanvh1gkuS5Xg9MZd	192.168.56.10	1030	95.57.120.238	80	3	GET	6d1tube.c01.at	/css/header3.gif	http://6d1tube.c01.at/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	10655	200	OK	-	-	-	(empty)	-	-	-	-	-	FPeHAU1gUpSaaAgxoe	image/gif
+1331020886.52466	CyB31kBdKmwPxFyq2	192.168.56.10	1031	95.57.120.238	80	1	GET	6d1tube.c01.at	/css/css.css	http://6d1tube.c01.at/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	854	200	OK	-	-	-	(empty)	-	-	-	-	-	FYfJHIqgWdKJN2e57	text/plain
+1331020886.713991	Ccanvh1gkuS5Xg9MZd	192.168.56.10	1030	95.57.120.238	80	4	GET	6d1tube.c01.at	/images/movie.gif	http://6d1tube.c01.at/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7901	200	OK	-	-	-	(empty)	-	-	-	-	-	FlaO6OodFINLfQKa3	image/gif
+1331020886.916084	Ccanvh1gkuS5Xg9MZd	192.168.56.10	1030	95.57.120.238	80	5	GET	6d1tube.c01.at	/css/reset.css	http://6d1tube.c01.at/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1331020886.732788	CyB31kBdKmwPxFyq2	192.168.56.10	1031	95.57.120.238	80	2	GET	6d1tube.c01.at	/css/1.js	http://6d1tube.c01.at/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2691	200	OK	-	-	-	(empty)	-	-	-	-	-	F7z1uA3NrTSXPEx2Y6	text/plain
+1331020887.284092	CyB31kBdKmwPxFyq2	192.168.56.10	1031	95.57.120.238	80	3	GET	6d1tube.c01.at	/css/2.js	http://6d1tube.c01.at/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1253	200	OK	-	-	-	(empty)	-	-	-	-	-	FRls8SU2aHadkqFs	text/plain
+1331020887.200879	Ccanvh1gkuS5Xg9MZd	192.168.56.10	1030	95.57.120.238	80	6	GET	6d1tube.c01.at	/images/x.jpg	http://6d1tube.c01.at/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	15748	200	OK	-	-	-	(empty)	-	-	-	-	-	F3yhLD2hwMcusMkBh	image/jpeg
+1331020892.535818	CyB31kBdKmwPxFyq2	192.168.56.10	1031	95.57.120.238	80	4	GET	6d1tube.c01.at	/flash_player.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4148	200	OK	-	-	-	(empty)	-	-	-	-	-	F2xad64h2WlyBjhwBc	application/x-dosexec
+#close	2014-04-03-10-38-58

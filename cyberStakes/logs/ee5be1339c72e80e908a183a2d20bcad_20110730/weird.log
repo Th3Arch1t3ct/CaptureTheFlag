@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-18-03
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1312036807.013355	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1312036808.883661	C2XyjXnYpG7ltpubh	192.168.68.10	1074	205.188.93.197	80	window_recision	-	F	bro
+1312036809.151688	Ch8qPf2s1aJdEx2YOi	192.168.68.10	1100	50.22.198.84	80	unmatched_HTTP_reply	-	F	bro
+1312036809.398869	C1codp3EJWkCrORca3	192.168.68.10	1105	89.151.99.85	80	unmatched_HTTP_reply	-	F	bro
+1312036810.300966	CYpweu2LhWkzQrxm92	192.168.68.10	1155	174.129.26.204	80	unescaped_special_URI_char	-	F	bro
+1312036810.30148	CuMscLmdDCSG7xcOb	192.168.68.10	1156	74.121.137.107	80	unescaped_special_URI_char	-	F	bro
+1312036810.922131	CsLmIo4XRSqVM4vLS6	192.168.68.10	1172	50.22.198.84	80	unmatched_HTTP_reply	-	F	bro
+1312036868.368126	CbenlmiIwhCAQcwqf	192.168.68.10	1231	121.178.13.132	80	bad_HTTP_request	-	F	bro
+1312036868.368126	CbenlmiIwhCAQcwqf	192.168.68.10	1231	121.178.13.132	80	line_terminated_with_single_CR	-	F	bro
+#close	2014-04-03-10-18-04

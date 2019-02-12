@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-21-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1365630871.567597	C3zly22AYUTBUwIB55	192.168.120.10	1080	192.111.144.13	2390	FrnyE61HMpNFGD7SZ7	application/jar	http://holybible.hexorcist.com:2390/tcp/log/gp/djhyL	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2013-05-16 16:46:07	https://www.virustotal.com/en/search/?query=c1c4cb4d5835a4f81b6a861fb75c3bfb4af362e5	192.168.120.10	192.111.144.13	2390	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-21-59

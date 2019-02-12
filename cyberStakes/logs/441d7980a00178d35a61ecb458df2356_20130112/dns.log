@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-43-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1358021920.90439	CTjiii2zqQDtCGkO8d	192.168.75.10	1029	4.2.2.3	53	udp	39571	declivitysbitch.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.170.52.21,93.170.52.31	300.000000,300.000000	F
+1358021921.40058	CTjiii2zqQDtCGkO8d	192.168.75.10	1029	4.2.2.3	53	udp	22674	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,173.194.37.99,173.194.37.96,173.194.37.100,173.194.37.103,173.194.37.105,173.194.37.97,173.194.37.101,173.194.37.104,173.194.37.110,173.194.37.98,173.194.37.102	77503.000000,293.000000,293.000000,293.000000,293.000000,293.000000,293.000000,293.000000,293.000000,293.000000,293.000000,293.000000	F
+1358021921.412134	CTjiii2zqQDtCGkO8d	192.168.75.10	1029	4.2.2.3	53	udp	26513	twgjl.zumefe.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	urlforward.topdns.com,199.59.160.184,72.8.167.249	3600.000000,3600.000000,3600.000000	F
+1358021922.06153	CTjiii2zqQDtCGkO8d	192.168.75.10	1029	4.2.2.3	53	udp	39056	fbstatic-a.akamaihd.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fbstatic-a.akamaihd.net.edgesuite.net,a1168.dsw4.akamai.net,69.31.74.138,69.31.74.185,69.31.74.144	44.000000,127.000000,14.000000,14.000000,14.000000	F
+#close	2014-04-03-10-43-53

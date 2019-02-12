@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-48-43
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1343260246.853811	CQaxsHnevLaj1Szke	192.168.22.10	1053	78.159.97.236	80	FuSfvY2toy1M5BSWL4	application/x-dosexec	http://groundixp.com/forum/load.php?sh=lb	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2012-07-28 11:54:19	https://www.virustotal.com/en/search/?query=f9c24090dce50e71dbb6cd7e11c725006600b620	192.168.22.10	78.159.97.236	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1343260246.853811	C0UcwW3VmAWYVJSRNf	192.168.22.10	1055	78.159.97.236	80	FqYAXi3vduFGQK3Lof	application/x-dosexec	http://groundixp.com/forum/load.php?sh=at	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2012-07-28 11:54:19	https://www.virustotal.com/en/search/?query=f9c24090dce50e71dbb6cd7e11c725006600b620	192.168.22.10	78.159.97.236	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-48-43

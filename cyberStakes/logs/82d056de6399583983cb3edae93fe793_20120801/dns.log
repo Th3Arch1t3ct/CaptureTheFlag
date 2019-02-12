@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-43-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1343824058.302481	CLPrue3z1ciE8JhRa5	192.168.75.10	1029	4.2.2.3	53	udp	56716	streetdogs.co.za	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	196.33.227.169	7238.000000	F
+1343824061.245628	CLPrue3z1ciE8JhRa5	192.168.75.10	1029	4.2.2.3	53	udp	5773	xinthesidersdown.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.28.115.150	600.000000	F
+1343824062.020395	CLPrue3z1ciE8JhRa5	192.168.75.10	1029	4.2.2.3	53	udp	28302	egrayc39rowded.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.28.115.150	21600.000000	F
+1343824062.384378	CLPrue3z1ciE8JhRa5	192.168.75.10	1029	4.2.2.3	53	udp	58767	www3.p-1lq9tdr.kein.hk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	75.102.21.118	3600.000000	F
+1343824062.486776	CLPrue3z1ciE8JhRa5	192.168.75.10	1029	4.2.2.3	53	udp	52872	www1.d-51mr9.kein.hk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.52	3600.000000	F
+1343824071.1571	CLPrue3z1ciE8JhRa5	192.168.75.10	1029	4.2.2.3	53	udp	34185	www2.x-fvekuy4.dnset.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.129.82	31.000000	F
+1343824072.809804	CLPrue3z1ciE8JhRa5	192.168.75.10	1029	4.2.2.3	53	udp	59275	52.196.133.79.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	mail.netcustomercare.net	43200.000000	F
+1343824073.099029	CLPrue3z1ciE8JhRa5	192.168.75.10	1029	4.2.2.3	53	udp	34436	mail.netcustomercare.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1343824073.099029	CLPrue3z1ciE8JhRa5	192.168.75.10	1029	4.2.2.3	53	udp	34436	mail.netcustomercare.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1343824073.099029	CLPrue3z1ciE8JhRa5	192.168.75.10	1029	4.2.2.3	53	udp	34436	mail.netcustomercare.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1343824073.099029	CLPrue3z1ciE8JhRa5	192.168.75.10	1029	4.2.2.3	53	udp	34436	mail.netcustomercare.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1343824073.099029	CLPrue3z1ciE8JhRa5	192.168.75.10	1029	4.2.2.3	53	udp	34436	mail.netcustomercare.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1343824073.099029	CLPrue3z1ciE8JhRa5	192.168.75.10	1029	4.2.2.3	53	udp	34436	mail.netcustomercare.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1343824073.099029	CLPrue3z1ciE8JhRa5	192.168.75.10	1029	4.2.2.3	53	udp	34436	mail.netcustomercare.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1343824073.099029	CLPrue3z1ciE8JhRa5	192.168.75.10	1029	4.2.2.3	53	udp	34436	mail.netcustomercare.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1343824117.700539	Cq9i08lJY81FYrx0c	192.168.75.10	1029	208.115.221.125	53	udp	2181	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	50.31.74.56	7200.000000	F
+1343824119.911481	ChSYPXIna6yeokqPf	192.168.75.10	1029	80.90.48.91	53	udp	47494	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	F	0	50.31.74.56	7200.000000	F
+#close	2014-04-03-10-43-15

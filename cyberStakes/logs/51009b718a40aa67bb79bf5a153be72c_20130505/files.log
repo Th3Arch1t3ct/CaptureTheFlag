@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-30-40
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1367726904.068401	FAf9HK3K4dPOFRwrX9	65.111.175.200	192.168.109.10	CXqeF43kF9AbpNtHW2	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	878	878	0	0	F	-	53e2a2b55a18f1e3e57a97ebbed8d6cc	669284c08b9c4f6c17789679b23401621507737f	-	-
+1367726904.089172	Fy2adT3r0DppU83BEf	65.111.175.200	192.168.109.10	CXqeF43kF9AbpNtHW2	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	335	335	0	0	F	-	52a5d4c69ae69774a5764b67966766a7	76f6b42945683d75c4d31caf40e3d7ac1c5e3e3e	-	-
+1367726904.111296	FnP2WS1yDbigrEmfEc	65.111.175.200	192.168.109.10	CTja1c3tPTNiK9pkaj	HTTP	0	MD5,SHA1	text/html	-	0.129019	-	F	93871	93871	0	0	F	-	db2cccefedcc741a45a582e91a5afe8d	d1e1f3f0828fa66fb5744f42bc912694e06300f9	-	-
+1367726904.337013	FEkczZ1qmQsIS4B5X1	65.111.175.200	192.168.109.10	CXqeF43kF9AbpNtHW2	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	1155	1155	0	0	F	-	8d7811fab8a3b48d7914555dfa183c1b	8295bc7429625ddce5e5bb92d41fe76d589fc9f0	-	-
+1367726904.364035	FaApuM3k08caapVM1i	65.111.175.200	192.168.109.10	CTja1c3tPTNiK9pkaj	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	508	508	0	0	F	-	7b66ba792e44cd55ff67f2d047447be4	aed01efe046e32d973c52abd533dee7e71bfe129	-	-
+1367726904.421135	Fe0sG13PIpD9rLYtri	65.111.175.200	192.168.109.10	CXqeF43kF9AbpNtHW2	HTTP	0	MD5,SHA1	image/png	-	0.000102	-	F	3992	3992	0	0	F	-	c38bd91ad03903ed0801c3e4645e5b17	15331a9ff0794ed60203a606a4b52c56ce4864b3	-	-
+1367726904.602387	FlWOUq3jXBZy76usNe	65.111.175.200	192.168.109.10	CXqeF43kF9AbpNtHW2	HTTP	0	MD5,SHA1	image/png	-	0.033013	-	F	22982	22982	0	0	F	-	4fcbcb354fa478f813b88b1bb361464d	6d9b65f84891c2683f3ab7d2f202645a05951dc4	-	-
+1367726904.421613	FuF8DI2Vq8hHBXKIJc	65.111.175.200	192.168.109.10	CTja1c3tPTNiK9pkaj	HTTP	0	MD5,SHA1	application/x-dosexec	-	0.223631	-	F	136924	920576	0	0	F	-	5f97debee0569a12612e82e959437386	09d0738ee9b62b7f92729361dd790f9d218b5b98	-	-
+#close	2014-04-03-10-30-40

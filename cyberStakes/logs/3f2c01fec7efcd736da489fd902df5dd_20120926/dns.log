@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-12-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1348629510.017459	ClSeoZ21EdhLudQdwh	192.168.23.10	1029	4.2.2.3	53	udp	2443	feedurbrain.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.163.71.215	274.000000	F
+1348629510.217434	ClSeoZ21EdhLudQdwh	192.168.23.10	1029	4.2.2.3	53	udp	40584	www.feedurbrain.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.163.71.215	275.000000	F
+1348629510.623154	ClSeoZ21EdhLudQdwh	192.168.23.10	1029	4.2.2.3	53	udp	57224	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.137.95	544.000000,141.000000	F
+1348629513.090986	ClSeoZ21EdhLudQdwh	192.168.23.10	1029	4.2.2.3	53	udp	17288	i.imgur.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wpc.4220.edgecastcdn.net,gs1.wpc.edgecastcdn.net,72.21.81.253	125.000000,740.000000,16.000000	F
+1348629513.182265	ClSeoZ21EdhLudQdwh	192.168.23.10	1029	4.2.2.3	53	udp	393	i48.tinypic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.17.68.209	13051.000000	F
+1348629513.220766	ClSeoZ21EdhLudQdwh	192.168.23.10	1029	4.2.2.3	53	udp	14222	frank.zapoll.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	220.77.243.248	1800.000000	F
+1348629513.757051	ClSeoZ21EdhLudQdwh	192.168.23.10	1029	4.2.2.3	53	udp	5775	sophossrod.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.236.80.100	600.000000	F
+1348629513.999661	ClSeoZ21EdhLudQdwh	192.168.23.10	1029	4.2.2.3	53	udp	31375	communicatingradiosity.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.121.248.187	600.000000	F
+1348629520.82116	ClSeoZ21EdhLudQdwh	192.168.23.10	1029	4.2.2.3	53	udp	42380	logicalinvalid.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	87.255.51.229	60.000000	F
+1348629533.549639	CGFKXENCOKybmfDs6	192.168.23.10	1029	4.2.2.3	53	udp	58252	rcenewsreel.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.190.13.130	38400.000000	F
+#close	2014-04-03-10-12-24

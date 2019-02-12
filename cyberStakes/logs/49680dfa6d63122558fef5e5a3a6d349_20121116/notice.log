@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-43-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1353034347.969684	CcfvSl3LjmueIIAmw6	192.168.98.10	1213	62.109.31.36	80	FLLHPj48aElBrGOlS1	application/x-shockwave-flash	http://win8searcherscom.com/publicity/wills_signs_hall.php?medesqq=1h:1k:1i:1f:31&ecrdeb=3d:30:34:3n&cxcbjrov=2v:30:1k:1k:1f:33:1m:1m:2v:2v&qyickzc=frqg	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2012-12-09 22:31:02	https://www.virustotal.com/en/search/?query=73d118bed01f76d0c241d5036f39e3de1d8f9456	192.168.98.10	62.109.31.36	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-43-36

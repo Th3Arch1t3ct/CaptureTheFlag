@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-03-03
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1312701146.800549	CJ22no1kE1dzAtBOm4	192.168.72.10	1029	4.2.2.3	53	udp	34450	breatheqi.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	70.39.249.136	14373.000000	F
+1312701147.045067	CJ22no1kE1dzAtBOm4	192.168.72.10	1029	4.2.2.3	53	udp	44947	www.lduhtrp.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	track.cj.akadns.net,216.34.207.62	1310.000000,289.000000	F
+1312701147.120363	CJ22no1kE1dzAtBOm4	192.168.72.10	1029	4.2.2.3	53	udp	1936	toolbarqueries-google.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.214.209.19	3600.000000	F
+1312701147.624597	CJ22no1kE1dzAtBOm4	192.168.72.10	1029	4.2.2.3	53	udp	36246	www.yceml.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	mirror.cj.edgesuite.net,a1257.g.akamai.net,24.143.197.8,24.143.197.17	424.000000,7041.000000,13.000000,13.000000	F
+1312701147.824853	CJ22no1kE1dzAtBOm4	192.168.72.10	1029	4.2.2.3	53	udp	59542	niksteam.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.175.39.138	14400.000000	F
+1312701151.349806	CJ22no1kE1dzAtBOm4	192.168.72.10	1029	4.2.2.3	53	udp	56983	tolbarqueries-google.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.226.177.186	3600.000000	F
+1312701181.748028	CLQWWl24wkiH77eyQl	192.168.72.10	1029	4.2.2.3	53	udp	26007	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.115.106,74.125.115.147,74.125.115.99,74.125.115.103,74.125.115.104,74.125.115.105	38181.000000,172.000000,172.000000,172.000000,172.000000,172.000000,172.000000	F
+1312701181.778615	CLQWWl24wkiH77eyQl	192.168.72.10	1029	4.2.2.3	53	udp	19860	kunluv.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.201.28.32	7200.000000	F
+#close	2014-04-03-10-03-03

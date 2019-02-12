@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-23-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1383957366.216532	CO2Qb6ykQqC6wYJmb	192.168.88.10	1060	137.254.56.26	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=netbeans.org,OU=Terms of use at www.verisign.com/rpa (c)05,OU=Global IT,O=Oracle Corporation,L=Redwood Shores,ST=California,C=US	CN=VeriSign Class 3 International Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1377752400.000000	1411966799.000000	-	-	-	b765e15a77ff165b285ffa43d37476c3	ok
+1383957366.872725	Ci5jQe2FWOJ2ZP3cDc	192.168.88.10	1065	137.254.56.26	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	68f37452bb44a5bdf5f69972c002ce3ae8cfa6816c9c498f0605ba021f80c166	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-23-24

@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-39-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1347329195.573248	CGrvm74vtqqVqwCew7	192.168.94.10	1042	187.45.210.88	80	FvcKffCRFM9hvRe5h	application/x-dosexec	http://novastudio.com.br/2.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 59%  Last seen: 2012-09-17 09:31:14	https://www.virustotal.com/en/search/?query=cf83514e80a09f4f8ce407e0b59a8245d4b16d40	192.168.94.10	187.45.210.88	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1347329202.068733	CBh2lG2ik9JX7ZAfg3	192.168.94.10	1049	187.45.210.88	80	FdxYU62DdeWHyzat3j	application/x-dosexec	http://novastudio.com.br/3.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 59%  Last seen: 2012-09-17 09:31:14	https://www.virustotal.com/en/search/?query=cf83514e80a09f4f8ce407e0b59a8245d4b16d40	192.168.94.10	187.45.210.88	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-39-47

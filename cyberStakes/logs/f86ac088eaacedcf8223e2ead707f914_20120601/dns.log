@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-58-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1338532294.559537	C8oDXz1v74B9i5esN7	192.168.75.10	1029	4.2.2.3	53	udp	40595	mcsi-projects.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.208.87.164	10767.000000	F
+1338532294.729283	C8oDXz1v74B9i5esN7	192.168.75.10	1029	4.2.2.3	53	udp	7825	www.milestoneconstruction.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.120.180.241	7200.000000	F
+1338532295.851917	C8oDXz1v74B9i5esN7	192.168.75.10	1029	4.2.2.3	53	udp	14737	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.71.113,74.125.71.138,74.125.71.139,74.125.71.100,74.125.71.101,74.125.71.102	1797.000000,85.000000,85.000000,85.000000,85.000000,85.000000,85.000000	F
+1338532295.85556	CQFtyv1UwuIaWSKo98	192.168.75.10	1033	4.2.2.3	53	udp	57232	ineed.co.nz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	119.47.120.52	600.000000	F
+1338532297.147134	C8oDXz1v74B9i5esN7	192.168.75.10	1029	4.2.2.3	53	udp	16535	twitter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.59.149.198,199.59.149.230,199.59.148.82	25.000000,25.000000,25.000000	F
+1338532297.185909	C8oDXz1v74B9i5esN7	192.168.75.10	1029	4.2.2.3	53	udp	58519	potrioaw.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.248.168	10.000000	F
+1338532311.261141	C8oDXz1v74B9i5esN7	192.168.75.10	1029	4.2.2.3	53	udp	2453	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.71.147,74.125.71.99,74.125.71.103,74.125.71.104,74.125.71.105,74.125.71.106	1695.000000,247.000000,247.000000,247.000000,247.000000,247.000000,247.000000	F
+#close	2014-04-03-09-58-37

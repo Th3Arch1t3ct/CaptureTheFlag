@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-59-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1361043750.441264	C0H2ni1oZvRJKlHlh4	192.168.101.10	1029	4.2.2.3	53	udp	37776	emc2studios.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.136.23.44	86374.000000	F
+1361043750.527706	C0H2ni1oZvRJKlHlh4	192.168.101.10	1029	4.2.2.3	53	udp	58258	www.emc2studios.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	emc2studios.com,174.136.23.44	86375.000000,86374.000000	F
+1361043750.79111	C0H2ni1oZvRJKlHlh4	192.168.101.10	1029	4.2.2.3	53	udp	10130	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.137.95	2833.000000,19.000000	F
+1361043750.991438	C0H2ni1oZvRJKlHlh4	192.168.101.10	1029	4.2.2.3	53	udp	38804	media.hypersites.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.136.23.42	86400.000000	F
+1361043753.318184	C0H2ni1oZvRJKlHlh4	192.168.101.10	1029	4.2.2.3	53	udp	11668	hypercache.h5i.s3.amazonaws.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	s3-directional-w.amazonaws.com,s3-directional-w.a-geo.amazonaws.com,s3-1-w.amazonaws.com,72.21.215.165	7519.000000,86.000000,161.000000,59.000000	F
+1361043752.125759	CnIsnL2v4lQiOhmsjl	192.168.101.10	1029	4.2.2.5	53	udp	38804	media.hypersites.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.136.23.42	86400.000000	F
+1361043753.156938	C0H2ni1oZvRJKlHlh4	192.168.101.10	1029	4.2.2.3	53	udp	38804	media.hypersites.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+#close	2014-04-03-09-59-14

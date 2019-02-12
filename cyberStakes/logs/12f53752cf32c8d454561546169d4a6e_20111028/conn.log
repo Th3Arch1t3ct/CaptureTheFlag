@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-19-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1319838180.145253	CPmCvbjyiwlHtgmz6	192.168.123.10	1054	206.41.8.70	80	tcp	-	-	-	-	SHR	-	0	f	0	0	1	40	(empty)
+1319838194.28365	Cqyy5bTMgOvBye11	192.168.123.10	1031	207.226.174.234	80	tcp	http	0.418658	1708	126202	RSTO	-	0	ShADdR	74	5280	90	129810	(empty)
+1319838196.927573	C6WgyM2Jeg0ax8crYh	192.168.123.10	1040	206.41.8.70	80	tcp	-	0.000221	0	0	RSTO	-	0	fR	1	40	1	40	(empty)
+1319838194.005306	CYNQsIe2prvEcXvO6	192.168.123.10	1029	4.2.2.3	53	udp	dns	0.276917	62	94	SF	-	0	Dd	2	118	2	150	(empty)
+1319838208.307506	CLQCgq3tv0BB7e3Xmf	192.168.123.10	1102	216.137.47.156	80	tcp	-	0.000235	0	0	RSTO	-	0	fR	1	40	1	40	(empty)
+1319838194.007307	Cp59NFjn5TYfePRr8	192.168.123.10	1030	70.39.97.254	80	tcp	http	20.853601	283	1376	RSTO	-	0	ShADdfR	6	531	3	1504	(empty)
+1319838217.993788	CvbKZX32D7UFnMuhzd	192.168.123.10	1107	96.17.63.139	80	tcp	-	0.000213	0	0	RSTO	-	0	fR	1	40	1	40	(empty)
+1319838194.374497	Cg0gcY12JOOnvm0MS3	192.168.123.10	1032	207.226.174.234	80	tcp	http	25.501958	524	260242	RSTO	-	0	ShADdfR	109	4892	181	267490	(empty)
+1319838221.994738	CE2GTu4zBMVvumkByd	192.168.123.10	1058	184.28.191.55	80	tcp	-	0.000255	0	0	RSTO	-	0	fR	1	40	1	40	(empty)
+1319838224.702052	CB6rCv4C8CHrpRpxbf	192.168.123.10	1064	208.68.110.117	80	tcp	-	0.000213	0	0	RSTO	-	0	fR	1	40	1	40	(empty)
+1319838224.74466	CUyl014mPmJFBFnH5i	192.168.123.10	1061	208.68.110.117	80	tcp	-	0.000215	0	0	RSTO	-	0	fR	1	40	1	40	(empty)
+1319838177.80031	CWhFQg1KQQ6JXtyqk	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000796	626	0	S0	-	0	D	2	682	0	0	(empty)
+1319838245.892367	CANP8o3FbTl1fZm2Xl	192.168.123.10	1095	216.52.242.80	80	tcp	-	0.000177	0	0	RSTO	-	0	fR	1	40	1	40	(empty)
+1319838177.800587	C5MjCU1GXltyL6ihn8	192.168.123.10	68	192.168.123.1	67	udp	dhcp	13.079603	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1319838196.429913	CFcL8i1i4d5MHQ1dFl	192.168.123.10	1035	239.255.255.250	1900	udp	-	6.072163	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-10-19-25

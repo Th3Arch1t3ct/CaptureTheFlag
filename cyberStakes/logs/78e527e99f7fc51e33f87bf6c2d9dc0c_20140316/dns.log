@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-08-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1394999918.683361	CnLTE71Dzy8kFHT716	192.168.73.10	1035	4.2.2.3	53	udp	52127	pcspywarescancnet.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.114.217.203	14400.000000	F
+1394999919.267924	CnLTE71Dzy8kFHT716	192.168.73.10	1035	4.2.2.3	53	udp	48031	www.statcounter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	g1.panthercdn.com,174.35.24.139,174.35.24.198	267.000000,20.000000,20.000000	F
+1394999919.382142	CnLTE71Dzy8kFHT716	192.168.73.10	1035	4.2.2.3	53	udp	40350	c.statcounter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.215.253.140,216.59.38.123,216.59.38.124,67.215.253.139	197.000000,197.000000,197.000000,197.000000	F
+1394999929.600865	CvQVHH2dPQJrBx2s1e	192.168.73.10	1035	4.2.2.3	53	udp	59037	trx625.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	8.29.155.184	12026.000000	F
+1394999930.0983	CvQVHH2dPQJrBx2s1e	192.168.73.10	1035	4.2.2.3	53	udp	49564	signup09.enigma.revenuewire.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	zzzkj.x.incapdns.net,192.230.66.157	86400.000000,300.000000	F
+1394999930.579491	CvQVHH2dPQJrBx2s1e	192.168.73.10	1035	4.2.2.3	53	udp	15772	signup09.enigma.safecart.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ke7ga.x.incapdns.net,192.230.66.189	86400.000000,300.000000	F
+1394999931.535881	CvQVHH2dPQJrBx2s1e	192.168.73.10	1035	4.2.2.3	53	udp	3483	www.enigmasoftware.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	esg-442907136.us-west-1.elb.amazonaws.com,54.241.4.147,50.18.169.70	300.000000,60.000000,60.000000	F
+#close	2014-04-03-11-08-15

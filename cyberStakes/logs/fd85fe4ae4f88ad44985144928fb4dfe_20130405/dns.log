@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-39-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1365126788.370915	Ckcmdv4cRl2agXoNjj	192.168.111.10	1029	4.2.2.3	53	udp	39571	pcb-peru.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	205.234.136.4	43178.000000	F
+1365126790.88894	Ckcmdv4cRl2agXoNjj	192.168.111.10	1029	4.2.2.3	53	udp	42385	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.d.akamai.net,23.62.111.10,23.62.111.51	18051.000000,136.000000,17310.000000,12.000000,12.000000	F
+1365126818.481447	CpoMrKqkHKIq9fpsh	192.168.111.10	1029	4.2.2.3	53	udp	56464	bluehost-dz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	141.101.117.87,141.101.116.87	300.000000,300.000000	F
+1365126820.747706	CpoMrKqkHKIq9fpsh	192.168.111.10	1029	4.2.2.3	53	udp	61591	fosseberget.no	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	176.9.98.250	14400.000000	F
+1365126822.441808	CpoMrKqkHKIq9fpsh	192.168.111.10	1029	4.2.2.3	53	udp	47253	4dd537b9.linkbucks.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	lex-in.linkbucks.com,199.59.167.109	150.000000,63.000000	F
+1365126822.676639	CpoMrKqkHKIq9fpsh	192.168.111.10	1029	4.2.2.3	53	udp	25748	static.linkbucks.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wac.45ee.edgecastcdn.net,gs1.wac.v4cdn.net,93.184.216.169	4.000000,2526.000000,2254.000000	F
+1365126822.77384	CpoMrKqkHKIq9fpsh	192.168.111.10	1029	4.2.2.3	53	udp	17307	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.137.101,74.125.137.138,74.125.137.113,74.125.137.100,74.125.137.139,74.125.137.102	77980.000000,101.000000,101.000000,101.000000,101.000000,101.000000,101.000000	F
+1365126822.77529	CpoMrKqkHKIq9fpsh	192.168.111.10	1029	4.2.2.3	53	udp	44954	www.linkbucksmedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.59.167.109	300.000000	F
+1365126822.991448	CpoMrKqkHKIq9fpsh	192.168.111.10	1029	4.2.2.3	53	udp	48282	www.down1oads.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	down1oads.com,78.138.127.87	1800.000000,1800.000000	F
+1365126823.454584	CpoMrKqkHKIq9fpsh	192.168.111.10	1029	4.2.2.3	53	udp	18328	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.140.95	437.000000,71.000000	F
+1365126830.655331	CpoMrKqkHKIq9fpsh	192.168.111.10	1029	4.2.2.3	53	udp	18591	download.softiglu.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.138.127.87	393.000000	F
+1365126830.896464	CpoMrKqkHKIq9fpsh	192.168.111.10	1029	4.2.2.3	53	udp	16799	static.bicdn.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	download.betterinstaller.com,betterinstaller.com,78.138.97.8	600.000000,364.000000,351.000000	F
+#close	2014-04-03-10-39-35

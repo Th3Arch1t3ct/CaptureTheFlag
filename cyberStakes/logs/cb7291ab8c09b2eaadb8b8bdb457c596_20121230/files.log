@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-42-59
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1356856718.263152	FxklyKTp9tUQttFpg	46.183.219.86	192.168.120.10	CgDMR96tFhjiwHxU1	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	388	388	0	0	F	-	26be1036a97e2692f95750b72316b3e5	7c454b77ae2db482d9c61940e766eedbacad6811	-	-
+1356856719.140322	FgYM6b2YtFHe6E0WLc	46.183.219.86	192.168.120.10	CH7Ep4agzgSIUc336	HTTP	0	MD5,SHA1	text/troff	-	0.000000	-	F	2414	2414	0	0	F	-	5fb51768e9d9ef9cb0827d2238a536db	94cf6e553d223cde87978eced403d2dd9ca2083a	-	-
+1356856718.836008	FeNBtN3f4PMsUBRqI	46.183.219.86	192.168.120.10	CnodJP25DkTxvsQfjc	HTTP	0	MD5,SHA1	text/html	-	0.422731	-	F	41917	-	0	0	F	-	d9ed91b3e2f7c4fefa588a52f1f63f3e	782b0ced0c3d20cf44f882d1c21d86317e77583c	-	-
+1356856719.382456	F0bAmt3LrbehWaR6Fd	46.183.219.86	192.168.120.10	CH7Ep4agzgSIUc336	HTTP	0	MD5,SHA1	image/gif	-	0.000000	-	F	1166	1166	0	0	F	-	6988646715889f716355b03cffffd7a2	f033126cb3549b3505928b79ea94472ec41e5dab	-	-
+1356856719.743438	FTwHrb4sbOpqOhIpJc	46.183.219.86	192.168.120.10	CH7Ep4agzgSIUc336	HTTP	0	MD5,SHA1	text/html	-	0.001864	-	F	2356	-	0	0	F	-	8f140337e5ea8167eaf5912f25427317	60b66ddc9a992d940c7e604e327fd27208414914	-	-
+1356856720.080854	FQ41NSyWDDLxVWVqi	46.183.219.86	192.168.120.10	CH7Ep4agzgSIUc336	HTTP	0	MD5,SHA1	image/jpeg	-	0.193382	-	F	25889	37878	0	0	F	-	4ca0021c20ddd85caba3b6efc55d8813	9247f84af41d8dc2692f5502a7dd75a16592ef9b	-	-
+1356856720.012602	FibA8a15MwDOBnenN9	46.183.219.86	192.168.120.10	CnodJP25DkTxvsQfjc	HTTP	0	MD5,SHA1	application/x-dosexec	xxx_video_enkf.avi.exe	0.296381	-	F	59428	199680	0	0	F	-	e2e0afa0a7394d35dece4d14daba0f34	c779181183ae57183f83ae2a322ab6b3bd1b481e	-	-
+#close	2014-04-03-10-42-59

@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-12-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1364586131.554923	Cc5UAg2fB8ebeKgUxj	192.168.93.10	1087	74.125.139.95	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleapis.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1363200721.000000	1370652207.000000	-	-	-	d8a7f4daae88b8d469aeed2ac07de0b1	ok
+1364586180.756174	CCuv8OPKg6hu2AWtf	192.168.93.10	1720	23.11.107.32	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.voicefive.com,ST=VIRGINIA,OU=OSE,O=TMRG,L=Reston,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1343783920.000000	1368334740.000000	-	-	-	f6a8840b22d798956287d15f4d2adcf3	ok
+1364586180.836962	CYspCp2zDIrCVinAn2	192.168.93.10	1722	74.125.130.149	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.doubleclick.net,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1362688065.000000	1370652207.000000	-	-	-	bcb05445e833e447ffea9b66f307d076	ok
+#close	2014-04-03-10-12-27

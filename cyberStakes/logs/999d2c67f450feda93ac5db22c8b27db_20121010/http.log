@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-18-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1349836031.413262	C0yBPlV2t0pVlFY0a	192.168.29.10	1030	91.106.201.45	80	1	GET	11jjii.ru	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3176	200	OK	-	-	-	(empty)	-	-	-	-	-	FY8mpL2SbR6qdezRTk	text/html
+1349836032.202651	CgnjEw3LHGZecA3mvh	192.168.29.10	1031	93.170.128.150	80	1	GET	afge4re.biz.tm	/links/underneath-entitle_fewest.php	http://11jjii.ru/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	29978	200	OK	-	-	-	(empty)	-	-	-	-	-	FDz7Sn4VEju8ShQV1b	text/html
+1349836033.950492	CgnjEw3LHGZecA3mvh	192.168.29.10	1031	93.170.128.150	80	2	GET	afge4re.biz.tm	/links/underneath-entitle_fewest.php?wesob=0407050236&cuybroq=3b&gqmr=030237030907350a0234&eyqeemud=0b000300020002	http://afge4re.biz.tm/links/underneath-entitle_fewest.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13358	200	OK	-	-	-	(empty)	-	-	-	-	-	FvQ7DG493hiWIdF6l9	application/pdf
+1349836034.205767	CmrNLJ2p8wXgf8L4Ed	192.168.29.10	1036	93.170.128.150	80	1	GET	afge4re.biz.tm	/links/underneath-entitle_fewest.php?ldawasyd=0407050236&vwslzmzv=030237030907350a0234&jbmjn=04&qoydc=myvprz&nhut=yxgsny	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	237568	200	OK	-	-	-	(empty)	-	-	-	-	-	FReXNI0YLOBUIQFFk	application/x-dosexec
+1349836045.663733	CHS5bF2N7DsqknY1ed	192.168.29.10	1040	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	28	200	OK	-	-	-	(empty)	-	-	-	-	-	FXOSmG4jbg6N5ZSOyl	text/plain
+1349836044.975544	CmrNLJ2p8wXgf8L4Ed	192.168.29.10	1036	93.170.128.150	80	2	GET	afge4re.biz.tm	/links/underneath-entitle_fewest.php?pxnvcoi=0407050236&khbdmx=030237030907350a0234&gegrxlaa=03&rwcrnqpe=nue&ibwa=qmyzb	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	237568	200	OK	-	-	-	(empty)	-	-	-	-	-	FAsatC2bsGywNFRf7d	application/x-dosexec
+1349836056.317425	CLZb8pDNcWAmNK9w2	192.168.29.10	1066	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	30	200	OK	-	-	-	(empty)	-	-	-	-	-	FTuffY1CybePJbc191	text/plain
+1349836056.290846	COAysQtPkqu9fuVD9	192.168.29.10	1041	93.170.128.150	80	1	GET	afge4re.biz.tm	/links/underneath-entitle_fewest.php?yqmyd=0407050236&ymnkqpt=3d3b&rvqgok=isvcki&ekh=svitqttt	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	20972	200	OK	-	-	-	(empty)	-	-	-	-	-	FXPnUbvQGHydvtwa1	application/zip
+1349836057.482975	COAysQtPkqu9fuVD9	192.168.29.10	1041	93.170.128.150	80	2	GET	afge4re.biz.tm	/links/underneath-entitle_fewest.php?yqmyd=0407050236&ymnkqpt=3d3b&rvqgok=isvcki&ekh=svitqttt	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	20972	200	OK	-	-	-	(empty)	-	-	-	-	-	FLnXN43tvckORHAtr8	application/zip
+1349836058.740492	COAysQtPkqu9fuVD9	192.168.29.10	1041	93.170.128.150	80	3	GET	afge4re.biz.tm	/links/underneath-entitle_fewest.php?yqmyd=0407050236&ymnkqpt=3d3b&rvqgok=isvcki&ekh=svitqttt	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	20972	200	OK	-	-	-	(empty)	-	-	-	-	-	FeYa8d2yoTYjOfE0wk	application/zip
+1349836064.881082	COAysQtPkqu9fuVD9	192.168.29.10	1041	93.170.128.150	80	4	GET	afge4re.biz.tm	/links/underneath-entitle_fewest.php?yqmyd=0407050236&ymnkqpt=3d3b&rvqgok=isvcki&ekh=svitqttt	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	20972	200	OK	-	-	-	(empty)	-	-	-	-	-	Fw9LpK14UGCRgeEM0d	application/zip
+1349836066.217789	COAysQtPkqu9fuVD9	192.168.29.10	1041	93.170.128.150	80	5	GET	afge4re.biz.tm	/links/underneath-entitle_fewest.php?yqmyd=0407050236&ymnkqpt=3d3b&rvqgok=isvcki&ekh=svitqttt	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	20972	200	OK	-	-	-	(empty)	-	-	-	-	-	FjqxdA1B6haQWfeBU6	application/zip
+1349836067.945111	C8siyG3f9TaP6EaGYc	192.168.29.10	1080	93.170.128.150	80	1	GET	afge4re.biz.tm	/links/underneath-entitle_fewest.php?qf=0407050236&ie=030237030907350a0234&o=02&dx=e&ca=j	-	Java/1.6.0_10	0	237568	200	OK	-	-	-	(empty)	-	-	-	-	-	FdZmYO3CkyByxNP2j6	application/x-dosexec
+1349836074.428022	CMIaaX2z3Ss8WyloUl	192.168.29.10	1084	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	30	200	OK	-	-	-	(empty)	-	-	-	-	-	FQKy7d6sxnimPaBTi	text/plain
+#close	2014-04-03-10-18-25

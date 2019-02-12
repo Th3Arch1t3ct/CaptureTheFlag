@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-43-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1366518608.33021	CHFIzV3PRlTBlaB4m8	192.168.20.10	1092	74.125.139.149	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.doubleclick.net,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1365702649.000000	1388527130.000000	-	-	-	16a5cd664dd6e2f561641f675712b325	ok
+1366518609.093267	CoR5zY2I1GWujUkvs3	192.168.20.10	1096	74.125.139.149	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.doubleclick.net,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1365702649.000000	1388527130.000000	-	-	-	16a5cd664dd6e2f561641f675712b325	ok
+1366518609.278423	CAbYY74w7Pq85ZmwY2	192.168.20.10	1097	174.129.245.200	443	SSLv3	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=*.adroll.com,OU=Domain Control Validated - RapidSSL(R),OU=See www.rapidssl.com/resources/cps (c)12,OU=GT33995341,serialNumber=0WzqQ1NmIA6/uJzl497Z30iMtE8qnKzN	CN=RapidSSL CA,O=GeoTrust\, Inc.,C=US	1345731873.000000	1414218611.000000	-	-	-	55622de7e56d2086f71e0a28f49dd229	ok
+1366518609.432446	CkbmXa1KB9G36ShMNb	192.168.20.10	1098	173.252.101.26	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.facebook.com,O=Facebook\, Inc.,L=Palo Alto,ST=California,C=US	OU=www.verisign.com/CPS Incorp.by Ref. LIABILITY LTD.(c)97 VeriSign,OU=VeriSign International Server CA - Class 3,OU=VeriSign\, Inc.,O=VeriSign Trust Network	1340254800.000000	1388555999.000000	-	-	-	f10b4102a78b5894231109d6d3fbeeb5	ok
+1366518615.420608	CdyVLR2rNR3KeqFZl7	192.168.20.10	1101	23.64.19.235	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.adobe.com,OU=IS,O=Adobe Systems Incorporated,L=San Jose,ST=California,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1363047885.000000	1394583885.000000	-	-	-	4939ca11ece8e52f90d63048da6519d9	ok
+#close	2014-04-03-10-43-54

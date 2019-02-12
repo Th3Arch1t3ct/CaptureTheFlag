@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-25-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1376329612.841247	CdTgYMGcVkZiBTcf2	192.168.66.10	1063	74.125.224.35	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1375288834.000000	1383281999.000000	-	-	-	d74e5a5b79fb5fb85553dd342ef5bb7e	ok
+1376329618.755687	Cuyg1k4XlsmYcJWpOj	192.168.66.10	1094	205.251.203.55	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.cloudfront.net,O=Amazon.com\, Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1289368800.000000	1384408799.000000	-	-	-	5976df54f8265193d61c127af8b6f710	ok
+1376329619.980199	CB604yFYQ5iKsqk24	192.168.66.10	1099	54.230.87.49	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.cloudfront.net,O=Amazon.com\, Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1289368800.000000	1384408799.000000	-	-	-	5976df54f8265193d61c127af8b6f710	ok
+1376329622.76835	CoSADs2IsRlHS4CgKf	192.168.66.10	1109	74.125.224.141	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.g.doubleclick.net,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1375288815.000000	1383281999.000000	-	-	-	d4ab5f3cf9d92d5ef02aa406a1222222	ok
+1376329622.925913	CSlbhC112igFXTFH29	192.168.66.10	1111	96.7.130.110	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=s-static.ak.facebook.com,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,ST=California,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1363150837.000000	1394686837.000000	-	-	-	8072f767b362050ff6b5555555555554	ok
+1376329623.649879	CbN12M2nThUFhtCPMd	192.168.66.10	1114	31.13.77.65	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.facebook.com,O=Facebook\, Inc.,L=Palo Alto,ST=California,C=US	OU=www.verisign.com/CPS Incorp.by Ref. LIABILITY LTD.(c)97 VeriSign,OU=VeriSign International Server CA - Class 3,OU=VeriSign\, Inc.,O=VeriSign Trust Network	1340254800.000000	1388555999.000000	-	-	-	f10b4102a78b5894231109d6d3fbeeb5	ok
+1376329630.77571	CjfH5qvkR6XoiXRq3	192.168.66.10	1119	199.59.148.82	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=twitter.com,OU=Twitter Security,O=Twitter\, Inc.,street=795 Folsom St\, Suite 600,L=San Francisco,ST=California,postalCode=94107,C=US,serialNumber=4337446,businessCategory=Private Organization,1.3.6.1.4.1.311.60.2.1.2=#130844656C6177617265,1.3.6.1.4.1.	311.60.2.1.3=#13025553CN=VeriSign Class 3 Extended Validation SSL CA,OU=Terms of use at https://www.verisign.com/rpa (c)06,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1334034000.000000	1399784399.000000	-	-	-	27741b9b80ad6aeccdc45e181a48a140	ok
+1376329632.581934	CZtqs54cAwQVavjgT4	192.168.66.10	1124	93.184.216.139	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=si0.twimg.com,O=Twitter\, Inc.,L=San Francisco,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1367384400.000000	1402462799.000000	-	-	-	c913837c64ad7bbc9cbd40896c4c2e37	ok
+#close	2014-04-03-10-25-34

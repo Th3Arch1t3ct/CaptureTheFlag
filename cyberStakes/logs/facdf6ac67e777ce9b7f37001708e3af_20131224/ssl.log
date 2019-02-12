@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-11-14-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1387915708.785719	CGJNPa2OfNSg3I2Vv6	192.168.82.10	1043	74.125.224.133	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1386787754.000000	1397106000.000000	-	-	-	4b449ca6d1202610b1068be9460eff96	ok
+1387915711.558213	CRO9qO2tY2lxAvRgIa	192.168.82.10	1050	74.125.25.84	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=accounts.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1386788253.000000	1397106000.000000	-	-	-	1d596fdf0c3b170abcf72996f220b868	ok
+1387915712.740328	CiLEfD4yJ31ZQQfDc2	192.168.82.10	1054	74.125.224.133	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	5ef03d45e44781cab752a81dd4b477daf766ea4a6599d909b875263a9cd5eb61	-	-	-	-	-	-	-	-	-
+1387915713.020371	C1RMN01vTFP7DIjW1i	192.168.82.10	1058	74.125.224.79	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1386786671.000000	1397106000.000000	-	-	-	52727373aecddd6beefdddddbe1e9d98	ok
+1387915713.020826	CBULYf1EorqjK3yo4	192.168.82.10	1059	74.125.224.79	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1386786671.000000	1397106000.000000	-	-	-	52727373aecddd6beefdddddbe1e9d98	ok
+1387915713.100529	C9WMwn4NN5OnTlncx9	192.168.82.10	1060	74.125.224.140	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1386786403.000000	1397106000.000000	-	-	-	647b5de11d67865da5962f88269da406	ok
+1387915713.165414	CcJwgh31dMOqTMeFcc	192.168.82.10	1061	74.125.224.79	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	8e7518b9b1bf2de39a651212f0453e7cea2c5145513da36cd976fdeb606dbe83	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-11-14-35

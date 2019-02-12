@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-49-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1325712112.962839	CXN6On427tvi373zc7	192.168.59.10	1040	95.163.89.228	80	FbCk2445q98y82sqC9	application/x-shockwave-flash	http://leworknews.com/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 71%  Last seen: 2014-03-08 00:33:38	https://www.virustotal.com/en/search/?query=405b0348b4bf4d873434ed20c5045b5f09de8936	192.168.59.10	95.163.89.228	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1325712113.831219	C3vOjx4MVSOuRPvz0c	192.168.59.10	1036	95.163.89.228	80	FlGRGXvskJFmASJbb	application/x-dosexec	http://leworknews.com/w.php?f=18&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 42%  Last seen: 2012-05-12 10:03:36	https://www.virustotal.com/en/search/?query=b23eeeb3f6af8d004d29acb33dc3b4cabc64d771	192.168.59.10	95.163.89.228	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1325712125.970604	CXN6On427tvi373zc7	192.168.59.10	1040	95.163.89.228	80	FPYU4X3aljS4PMXqxe	application/x-shockwave-flash	http://leworknews.com/content/score.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-02-10 16:15:06	https://www.virustotal.com/en/search/?query=71e3363f331ebcaebb636c09c9def9de9ff29850	192.168.59.10	95.163.89.228	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-49-27

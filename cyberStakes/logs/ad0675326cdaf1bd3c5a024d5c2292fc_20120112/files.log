@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-18-31
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1326346477.813524	F95EvK3cKMSJLdRlR9	60.190.174.174	192.168.71.10	CqR5eUo1TorGEaFal	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	571	571	0	0	F	-	0e85a77d86043bbdf2f4d65928cd218c	2959ef2d67650aa984599f059840b19b6038527e	-	-
+1326346477.289141	FIypvXkUfnAux8Vif	222.208.183.165	192.168.71.10	C1BwJf49PKkpx1i6s6	HTTP	0	MD5,SHA1	text/html	-	1.211717	-	F	50214	50214	0	0	F	-	45383ba5dac7ff1634bfed8de98cd23c	49af3227b1e9c4c5bd88dc146f279254aec41d94	-	-
+1326346478.57788	FBfvE74zTvS4vi9Jb7	121.22.6.39	192.168.71.10	CLHJOI4MfdkDsGxb8	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	933	933	0	0	F	-	0dfaf1c7fba0ad8de2d5ab2899a9806d	3f26e3704d83dbf132bfee7f5d2828d15a58e3c5	-	-
+1326346478.885212	F7vzCF4FtfnySUg1Ab	121.22.6.39	192.168.71.10	CLHJOI4MfdkDsGxb8	HTTP	0	MD5,SHA1	text/html	-	0.000010	-	F	3684	3684	0	0	F	-	82960fc148f2d34b2cf1d8cd109fd642	cf8bb7bfe867d5d17c44c061526bb1ea0ea1acd9	-	-
+1326346479.173721	FKNNtG2yYPE8vCFLDc	121.22.6.39	192.168.71.10	CLHJOI4MfdkDsGxb8	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	257	257	0	0	F	-	79b614da495558829e76e209e196fcfb	7d1c4030a81cf658217648623c8a2b991ebc1d70	-	-
+1326346479.469025	Fg1DIV3FHtCWzLsb08	121.22.6.39	192.168.71.10	CLHJOI4MfdkDsGxb8	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	521	521	0	0	F	-	56f2ffeb56bdd10eefa7fb00ae8fa951	c0ba415c032a82a6b0430b956e85026f46390451	-	-
+1326346479.644696	FLVCz123kNeP1Wtuw9	122.225.34.250	192.168.71.10	CfEl3C2atl6J0wB1k6	HTTP	0	MD5,SHA1	text/plain	-	0.666301	-	F	12963	12963	0	0	F	-	6a49b266d5c885e9dd611e9835dd42ae	647ba9caaeb018dd74c861ed4efdc1fa2e5eafd4	-	-
+1326346506.111875	FdSomI2eeYxqfCDNi8	121.22.6.39	192.168.71.10	CLHJOI4MfdkDsGxb8	HTTP	0	MD5,SHA1	application/x-dosexec	-	0.558987	-	F	30325	30325	0	0	F	-	adcd41d70166242aee0465e017d1e2b1	347767954df051a8b012df7f86aecaf13fe341d6	-	-
+#close	2014-04-03-10-18-31

@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-45-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1349736227.273136	CkHpzF3SNdZwgnjUff	192.168.48.10	1028	4.2.2.3	53	udp	65417	fmozgur.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.182.222.77	14377.000000	F
+1349736227.571446	CkHpzF3SNdZwgnjUff	192.168.48.10	1028	4.2.2.3	53	udp	40840	www.fmozgur.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fmozgur.com,195.182.222.77	14377.000000,14377.000000	F
+1349736227.870899	CkHpzF3SNdZwgnjUff	192.168.48.10	1028	4.2.2.3	53	udp	7307	www.flatcast.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	flatcast.com,92.51.180.143	10800.000000,10800.000000	F
+1349736228.130099	CkHpzF3SNdZwgnjUff	192.168.48.10	1028	4.2.2.3	53	udp	36490	www8.agame.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cdn.spillgroup.com.c.footprint.net,mea.apac.b.c.footprint.net,8.12.223.125,4.27.12.253,8.26.210.126	390340.000000,300.000000,16.000000,16.000000,16.000000	F
+1349736228.217242	CkHpzF3SNdZwgnjUff	192.168.48.10	1028	4.2.2.3	53	udp	43404	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.74.8,69.31.74.27,69.31.74.35,69.31.74.26,69.31.74.58,69.31.74.80,69.31.74.82	19650.000000,132.000000,21291.000000,2.000000,2.000000,2.000000,2.000000,2.000000,2.000000,2.000000	F
+1349736228.846699	CkHpzF3SNdZwgnjUff	192.168.48.10	1028	4.2.2.3	53	udp	54926	download.flatcast.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.51.180.142	86400.000000	F
+1349736233.356734	CkHpzF3SNdZwgnjUff	192.168.48.10	1028	4.2.2.3	53	udp	37518	crl.globalsign.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.globalsign.net.cdn.cloudflare.net,173.245.61.175,173.245.60.6,173.245.60.190,199.27.134.72,173.245.60.187	234.000000,244.000000,244.000000,244.000000,244.000000,244.000000	F
+1349736233.594583	CkHpzF3SNdZwgnjUff	192.168.48.10	1028	4.2.2.3	53	udp	27520	www.download.windowsupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.download.windowsupdate.nsatc.net,main.dl.wu.akadns.net,dom.dl.wu.akadns.net,dl.wu.ms.edgesuite.net,a26.d.akamai.net,23.15.5.198,23.15.5.205	2703.000000,62.000000,126.000000,126.000000,9050.000000,20.000000,20.000000	F
+#close	2014-04-03-10-45-09

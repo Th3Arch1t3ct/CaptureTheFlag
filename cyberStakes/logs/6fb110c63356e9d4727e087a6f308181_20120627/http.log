@@ -1,0 +1,41 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-37-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1340756974.589607	C21Mo43w3S3K0NnJ5b	192.168.5.10	1030	173.214.173.86	80	1	GET	infinicastonline.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7430	200	OK	-	-	-	(empty)	-	-	-	-	-	Fa7Bfm4pWu4emebL57	text/html
+1340756975.213597	C21Mo43w3S3K0NnJ5b	192.168.5.10	1030	173.214.173.86	80	2	GET	infinicastonline.com	/wp-content/themes/responsive/style.css?ver=1.5.9	http://infinicastonline.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	49319	200	OK	-	-	-	(empty)	-	-	-	-	-	FJRAzM2oOQeDkmPsxc	text/plain
+1340756975.233426	CA4I084V4gU3yrJpf2	192.168.5.10	1031	173.214.173.86	80	1	GET	infinicastonline.com	/wp-includes/js/jquery/jquery.js?ver=1.7.2	http://infinicastonline.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	94861	200	OK	-	-	-	(empty)	-	-	-	-	-	FA0RPl1sbZjVeBhD2l	text/html
+1340756975.394649	C21Mo43w3S3K0NnJ5b	192.168.5.10	1030	173.214.173.86	80	3	GET	infinicastonline.com	/wp-content/themes/responsive/js/responsive-modernizr.js?ver=2.5.3	http://infinicastonline.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	15273	200	OK	-	-	-	(empty)	-	-	-	-	-	FImJ1z3IeGLPusr9C2	text/plain
+1340756975.458919	C21Mo43w3S3K0NnJ5b	192.168.5.10	1030	173.214.173.86	80	4	GET	infinicastonline.com	/wp-content/themes/responsive/js/responsive-scripts.js?ver=1.1.1	http://infinicastonline.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	8302	200	OK	-	-	-	(empty)	-	-	-	-	-	FnmU1b2Gq4kqpBu671	text/html
+1340756975.458563	CA4I084V4gU3yrJpf2	192.168.5.10	1031	173.214.173.86	80	2	GET	infinicastonline.com	/wp-content/themes/responsive/images/featured-image.png	http://infinicastonline.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	40511	200	OK	-	-	-	(empty)	-	-	-	-	-	FVJhN3ZUGqklKDLs	image/png
+1340756975.725582	CA4I084V4gU3yrJpf2	192.168.5.10	1031	173.214.173.86	80	3	GET	infinicastonline.com	/wp-content/themes/responsive/js/responsive-plugins.js?ver=1.1.0	http://infinicastonline.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1070	200	OK	-	-	-	(empty)	-	-	-	-	-	FS65P71geLcVK2RYI9	text/plain
+1340756976.025493	Cy3x3f2Re8BUQX3CE	192.168.5.10	1032	178.162.167.136	80	1	GET	178.162.167.136	/45763094.html	http://infinicastonline.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	12229	200	OK	-	-	-	(empty)	-	-	-	-	-	FaRbUa2hBYBcLLHbje	text/html
+1340756976.683342	Cy3x3f2Re8BUQX3CE	192.168.5.10	1032	178.162.167.136	80	2	GET	178.162.167.136	/98765.pdf	http://178.162.167.136/45763094.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	41360	200	OK	-	-	-	(empty)	-	-	-	-	-	FPXPltoChkCgmeLSk	application/pdf
+1340756998.42	Cy3x3f2Re8BUQX3CE	192.168.5.10	1032	178.162.167.136	80	3	GET	178.162.167.136	/2.html	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	31744	200	OK	-	-	-	(empty)	-	-	-	-	-	FKqASq2TFQWUHyeQCl	application/x-dosexec
+1340757002.199322	CUajaD4s4K2gq5wExi	192.168.5.10	1037	178.162.167.136	80	1	GET	178.162.167.136	/55993.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	76321	200	OK	-	-	-	(empty)	-	-	-	-	-	FyVWI44FvBIrRtdxJk	application/zip
+1340757002.997905	CUajaD4s4K2gq5wExi	192.168.5.10	1037	178.162.167.136	80	2	GET	178.162.167.136	/55993.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	76321	200	OK	-	-	-	(empty)	-	-	-	-	-	F1458j4d6tmmdQlKEi	application/zip
+1340757003.542545	CUajaD4s4K2gq5wExi	192.168.5.10	1037	178.162.167.136	80	3	GET	178.162.167.136	/55993.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	76321	200	OK	-	-	-	(empty)	-	-	-	-	-	F2hRcx38nIu1UoOR12	application/zip
+1340757004.076109	CUajaD4s4K2gq5wExi	192.168.5.10	1037	178.162.167.136	80	4	GET	178.162.167.136	/1.html	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	31744	200	OK	-	-	-	(empty)	-	-	-	-	-	Fd7BkM2pQJqyVgcJGe	application/x-dosexec
+1340757007.172715	CnwFzm3Z9PWwqZWIB6	192.168.5.10	1038	37.157.255.37	80	1	GET	37.157.255.37	/862641.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	389120	200	OK	-	-	-	(empty)	-	-	-	-	-	FXvLKd1d7CC9eAiXOj	binary
+1340757008.168154	CnwFzm3Z9PWwqZWIB6	192.168.5.10	1038	37.157.255.37	80	2	GET	37.157.255.37	/862641.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	196608	200	OK	-	-	-	(empty)	-	-	-	-	-	F6JRyc2LxB6UNElYG2	binary
+1340757008.620889	CnwFzm3Z9PWwqZWIB6	192.168.5.10	1038	37.157.255.37	80	3	GET	37.157.255.37	/862641.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	196608	200	OK	-	-	-	(empty)	-	-	-	-	-	FrfenAhmtvniyIQA8	binary
+1340757009.09766	CnwFzm3Z9PWwqZWIB6	192.168.5.10	1038	37.157.255.37	80	4	GET	37.157.255.37	/862641.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	171520	200	OK	-	-	-	(empty)	-	-	-	-	-	FV6V8y2CgTjtjLG1B1	binary
+1340757009.476732	CnwFzm3Z9PWwqZWIB6	192.168.5.10	1038	37.157.255.37	80	5	GET	37.157.255.37	/862641.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	171520	200	OK	-	-	-	(empty)	-	-	-	-	-	FhJR8L1GuyGHhzCbo5	binary
+1340757009.852281	CnwFzm3Z9PWwqZWIB6	192.168.5.10	1038	37.157.255.37	80	6	GET	37.157.255.37	/862641.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	363008	200	OK	-	-	-	(empty)	-	-	-	-	-	F0wzGL1FHOrojkaVMd	binary
+1340757010.543543	CnwFzm3Z9PWwqZWIB6	192.168.5.10	1038	37.157.255.37	80	7	GET	37.157.255.37	/862641.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	79328	200	OK	-	-	-	(empty)	-	-	-	-	-	FX0sEN1WR3M79bOtw1	binary
+1340757010.801054	CnwFzm3Z9PWwqZWIB6	192.168.5.10	1038	37.157.255.37	80	8	GET	37.157.255.37	/862641.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	666	200	OK	-	-	-	(empty)	-	-	-	-	-	FbMW6z4ICiCNQPdGjl	binary
+1340757012.078995	CnY2KOr6ic2kxSkZ6	192.168.5.10	1039	116.255.235.9	80	1	GET	116.255.235.9	/api/urls/?ts=6dfefe17&affid=59800	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	0	404	NOT FOUND	-	-	-	(empty)	-	-	-	-	-	-	-
+1340757023.195284	CJvQa73z7cBqoivy4c	192.168.5.10	1041	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	28	200	OK	-	-	-	(empty)	-	-	-	-	-	FxAZPJgv6cmp0cblf	text/plain
+1340757023.455408	C76wZk4OmEajRfXO12	192.168.5.10	1042	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=603&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340757023.549232	CXgSTW1z3uFqNdXQsc	192.168.5.10	1044	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=603&c=2&d=7&s=121	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340757024.31306	CdUhWe21hzCqcq665b	192.168.5.10	1046	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=603&c=3&d=7&s=131	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340757024.360477	CHNW1D4KNLnYLqb4E	192.168.5.10	1048	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=603&c=4&d=7&s=1	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340757024.445046	Cv5juBOgyydk8U2Ki	192.168.5.10	1050	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=603&c=5&d=7&s=20	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340757025.547321	CHzrh43TfeGPARXiY7	192.168.5.10	1053	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=603&c=6&d=7&s=21	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340757025.562269	Cwly3q4TIKYKJBBFR	192.168.5.10	1058	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=603&c=8&d=7&s=31	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340757025.560802	CYDy1c2kuBIbRxF14c	192.168.5.10	1056	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=603&c=7&d=7&s=30	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-10-37-59

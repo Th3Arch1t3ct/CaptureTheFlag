@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-06-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1319985368.361807	CqWmQ4kPTYP8Jp29i	192.168.78.10	1029	4.2.2.3	53	udp	46480	worldcupsoon.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.168.185.31	43177.000000	F
+1319985369.473045	CqWmQ4kPTYP8Jp29i	192.168.78.10	1029	4.2.2.3	53	udp	52882	ofinipofyly.dyndns-work.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.168.183.87	14400.000000	F
+1319985369.830511	CqWmQ4kPTYP8Jp29i	192.168.78.10	1029	4.2.2.3	53	udp	37269	www3.powerqb-checker.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	75.102.21.121	21600.000000	F
+1319985370.128012	CqWmQ4kPTYP8Jp29i	192.168.78.10	1029	4.2.2.3	53	udp	149	www1.thebest-xlscanner.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.123	21600.000000	F
+1319985385.782312	Cz2lWE3MjW1I2Mvss1	192.168.78.10	1029	4.2.2.3	53	udp	53396	www1.simpleti-holder.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.142.166	21600.000000	F
+#close	2014-04-03-11-06-11

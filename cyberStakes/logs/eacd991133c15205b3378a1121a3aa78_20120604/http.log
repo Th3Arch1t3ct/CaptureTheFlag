@@ -1,0 +1,39 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-58-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1338771847.960083	CRyHnH3J04KuENmz9i	192.168.34.10	1030	208.91.198.206	80	1	GET	greenlabgroup.net	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1846	200	OK	-	-	-	(empty)	-	-	-	-	-	F3wfqc46AXIzDex6Ic	text/html
+1338771848.49236	CRyHnH3J04KuENmz9i	192.168.34.10	1030	208.91.198.206	80	2	GET	greenlabgroup.net	/server-error.png	http://greenlabgroup.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2840	200	OK	-	-	-	(empty)	-	-	-	-	-	FWh2P31uIyFiiRCiv6	image/png
+1338771848.575293	C0ujPsHL7pN1toC27	192.168.34.10	1031	96.31.86.178	80	1	GET	drbolivar.com	/stats.php	http://greenlabgroup.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1338771848.86451	CCxZEM27HLVN4sVap1	192.168.34.10	1032	89.149.226.216	80	1	GET	89.149.226.216	/53393516.html	http://greenlabgroup.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	382	200	OK	-	-	-	(empty)	-	-	-	-	-	FhQVOX3TaBQ87aGoq4	text/html
+1338771851.326928	CewxlF1KoAmjGLYx7j	192.168.34.10	1037	89.149.226.216	80	1	GET	89.149.226.216	/24842.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	44582	200	OK	-	-	-	(empty)	-	-	-	-	-	FpKlpxMA5Q9jvgYI5	application/zip
+1338771852.203024	CewxlF1KoAmjGLYx7j	192.168.34.10	1037	89.149.226.216	80	2	GET	89.149.226.216	/24842.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	44582	200	OK	-	-	-	(empty)	-	-	-	-	-	Fm7RhecGK9rOYxxB4	application/zip
+1338771852.751472	CewxlF1KoAmjGLYx7j	192.168.34.10	1037	89.149.226.216	80	3	GET	89.149.226.216	/24842.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	44582	200	OK	-	-	-	(empty)	-	-	-	-	-	FuYmaRGYzGHCxHXd9	application/zip
+1338771853.22607	CewxlF1KoAmjGLYx7j	192.168.34.10	1037	89.149.226.216	80	4	GET	89.149.226.216	/1.html	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	35840	200	OK	-	-	-	(empty)	-	-	-	-	-	FeMS344nII1j7l7lSd	application/x-dosexec
+1338771859.450338	C3POtnuQZbARe4Ud8	192.168.34.10	1038	89.149.226.216	80	1	GET	89.149.226.216	/872503.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	190464	200	OK	-	-	-	(empty)	-	-	-	-	-	FyWMLf1grue2ZBp3Ok	binary
+1338771860.963056	C3POtnuQZbARe4Ud8	192.168.34.10	1038	89.149.226.216	80	2	GET	89.149.226.216	/872503.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	397312	200	OK	-	-	-	(empty)	-	-	-	-	-	F8N2AYQA9xAAnFeNj	binary
+1338771862.351702	C3POtnuQZbARe4Ud8	192.168.34.10	1038	89.149.226.216	80	3	GET	89.149.226.216	/872503.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	134656	200	OK	-	-	-	(empty)	-	-	-	-	-	FwMOge3ydeUsaiosvl	binary
+1338771863.05117	C3POtnuQZbARe4Ud8	192.168.34.10	1038	89.149.226.216	80	4	GET	89.149.226.216	/872503.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	165888	200	OK	-	-	-	(empty)	-	-	-	-	-	FZzEyf1ModYng6u1J8	binary
+1338771863.803288	C3POtnuQZbARe4Ud8	192.168.34.10	1038	89.149.226.216	80	5	GET	89.149.226.216	/872503.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	390656	200	OK	-	-	-	(empty)	-	-	-	-	-	FNFDKG14dcdWC6U1p1	binary
+1338771865.057835	C3POtnuQZbARe4Ud8	192.168.34.10	1038	89.149.226.216	80	6	GET	89.149.226.216	/872503.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	79328	200	OK	-	-	-	(empty)	-	-	-	-	-	F0U9rL32jY3Q1GS2k7	binary
+1338771865.467671	C3POtnuQZbARe4Ud8	192.168.34.10	1038	89.149.226.216	80	7	GET	89.149.226.216	/872503.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	666	200	OK	-	-	-	(empty)	-	-	-	-	-	FPQQ6o2EAM9XinKFqa	binary
+1338771866.058236	CLidWW3Y7dvixXs1td	192.168.34.10	1040	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	29	200	OK	-	-	-	(empty)	-	-	-	-	-	FYNGmE4xXz0vmaMkM6	text/plain
+1338771866.274475	CyoUw5NG7Pt9eVP4c	192.168.34.10	1043	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=2&d=7&s=121	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1338771866.274323	CpR2xA1hqFVpuu1oQ6	192.168.34.10	1041	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1338771866.289095	CcFn9JmKS9PsgjOn5	192.168.34.10	1049	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=5&d=7&s=20	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1338771866.28981	Ci1pNb4Rantdokeek9	192.168.34.10	1047	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=4&d=7&s=1	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1338771866.289678	CuzyQE3tIglQvbMh5f	192.168.34.10	1045	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=3&d=7&s=131	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1338771866.414451	CFbkM92CYrpbVkl5Ml	192.168.34.10	1052	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=6&d=7&s=21	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1338771866.442351	CJIHwl3dwxjkXUE2q4	192.168.34.10	1055	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=7&d=7&s=30	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1338771866.457485	CwdSnc2t41rqbKWPDk	192.168.34.10	1057	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=8&d=7&s=31	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1338771876.001989	CFhX6I1OoEK717urT1	192.168.34.10	1066	78.140.131.157	80	1	GET	11t86dy.cdn107.downloadsconsulting.com	/file/id=AgArAAEAb9AAAAEFBRcAAAAAAAAAAAAAAAAAAABrDAYBCwAAAMbxz3_hEd-trLhwgiZvmW8AAFVVVVVVVVVVVVVVVVVVVVUPQs0BsNQoQQDLAABVd3Vtc219Y29lczMyaGc4Zzg4AkaTNQrd_hNvNFYA&rt=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1338771876.420429	CIoCrp1teur2bBN3Xg	192.168.34.10	1065	113.10.173.15	65243	1	GET	113.10.173.15	/api/urls/?ts=cf323132&affid=56300	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	0	404	NOT FOUND	-	-	-	(empty)	-	-	-	-	-	-	-
+1338771878.166708	C7Rvhz8L0swoNyHfa	192.168.34.10	1068	113.10.173.15	65243	1	GET	113.10.173.15	/api/stats/install/?ts=cf323132&affid=56300&ver=3050001&group=liv	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1338771886.720149	CdtTxW2OgTltbKPJu3	192.168.34.10	1070	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	29	200	OK	-	-	-	(empty)	-	-	-	-	-	FDl3HT1ML0gXvDj948	text/plain
+1338771887.104694	C2CnHr4NbcBGl0Ojm9	192.168.34.10	1075	209.208.79.128	80	1	GET	livecounter.co	/count.php?id=3054706860&c=3&d=7&s=10	-	Opera/9 (Windows NT 5.1; US; x86)	0	402	200	OK	-	-	-	(empty)	-	-	-	-	-	F9mISh33AUXs7Q4HRi	image/gif
+1338771906.664521	CGF5qw223H5b5bz0Ig	192.168.34.10	1077	78.140.131.157	80	1	GET	11t86e4.cdn107.downloadsconsulting.com	/file/id=AgArAAEAVkwBAAEFBRcAAAB2AAAAAAAAAAAAAABrDAYBCwAAAMbxz3_hEd-trLhwgiZvmW8BAFVVVVVVVVVVVVVVVVVVVVUPQs0BsNQoQQDLAABVd3Vtc219Y29lczMyaGc4Zzg4AkaTNQrd_hNvNFYA&rt=yAAAAAAAAAAAAHYAAAAAAAAAAAAAADB1AAAAAAAAAAAAAAAAAAAAAAAA	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-10-58-13

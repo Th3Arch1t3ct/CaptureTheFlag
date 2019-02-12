@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-43-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1329978552.307875	Cq1m574y9cKE9FsdAk	192.168.86.10	1029	4.2.2.3	53	udp	36499	our-cloud.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.208.138.156	10780.000000	F
+1329978552.443866	Cq1m574y9cKE9FsdAk	192.168.86.10	1029	4.2.2.3	53	udp	50834	qimultabannortim.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.67.194	593.000000	F
+1329978552.949605	Cq1m574y9cKE9FsdAk	192.168.86.10	1029	4.2.2.3	53	udp	3216	www4.personalmxrdsoft.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.213.222.19	28800.000000	F
+1329978553.154075	Cq1m574y9cKE9FsdAk	192.168.86.10	1029	4.2.2.3	53	udp	30608	www1.smartjcchecker.de.gg	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.213.222.19	3600.000000	F
+1329978583.974851	C8FMdF3sEQRaKi2s95	192.168.86.10	1029	4.2.2.3	53	udp	64919	www2.thebestdusuite.it.cx	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.249.35.84	3600.000000	F
+#close	2014-04-03-10-43-06

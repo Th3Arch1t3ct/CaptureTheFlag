@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-41-34
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1358067388.538294	FsBFHf4CJWjmyZPjma	93.170.52.31	192.168.110.10	CBpSpX3DQRwq2FGg36	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	1121	-	0	0	F	-	fb5c553ca84dc283c36b03c657759fe9	42384184ffa6ae8ba03b9cd19be9c5d4f971e6b6	-	-
+1358067388.627566	FR2nL6MdTWU54HFhf	74.125.229.168	192.168.110.10	CuwFrZgZ3VqTAoeV	HTTP	0	SHA1,MD5	text/plain	-	0.015091	-	F	37362	-	0	0	F	-	f5592eabae33f8499d067344f1f42183	142a9875c4bd7e15ce6ac8b5bb181fb29ed08ba5	-	-
+1358067388.767488	FpAWR83juMdqR9NF6	74.125.229.168	192.168.110.10	CuwFrZgZ3VqTAoeV	HTTP	0	SHA1,MD5	image/gif	-	0.000000	-	F	35	35	0	0	F	-	28d6814f309ea289f847c69cf91194c6	0f4e929dd5bb2564f7ab9c76338e04e292a42ace	-	-
+1358067388.885889	FbT20d2J8obUsYtHdc	72.8.167.249	192.168.110.10	CF9Ief2F8uedTErjU5	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	568	568	0	0	F	-	e8011fad0506f6a1b0e30037a900671a	da82b532f376ab35fa034476d16d4589e2bf1b15	-	-
+1358067388.994232	FH9xH21fJAERjov71i	208.131.138.217	192.168.110.10	CDM6PXo65JQaB2TI	HTTP	0	SHA1,MD5	text/html	-	0.000012	-	F	3194	3194	0	0	F	-	0a7498591c88d6360288dd0ff763d991	6d8c8d51a49038b63f661a46b557a37f35705d10	-	-
+1358067389.025867	FtpHJC3rKIbohrN8Re	107.14.43.138	192.168.110.10	CYnckNCFbwJEsr422	HTTP	0	SHA1,MD5	image/png	-	0.000000	-	F	2349	2349	0	0	F	-	ce404e2f475dbf547ee8195dac0eff0a	3eb3390ad49e78b3e872aaf154256496e132e9f3	-	-
+1358067389.102216	FQvKMC43h6hyZfQa42	208.131.138.217	192.168.110.10	CYlAjc2v9JHpAbOJO7	HTTP	0	SHA1,MD5	application/x-dosexec	MeWhoreGIF.exe	0.091636	-	F	33580	184320	0	0	F	-	041a73c1f7b60221c07001096015658c	9b3d61df697506d5455082427ecece45d3ca5dc3	-	-
+#close	2014-04-03-10-41-34

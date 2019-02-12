@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-01-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1327256387.418556	CHk3NoWn3Byucd8Ai	192.168.53.10	1030	94.21.27.74	80	1	GET	r1wmyjijr.eightyfizzes.ru	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1327256388.03365	Ce7uBP1mMPwj7JleAi	192.168.53.10	1031	176.34.179.106	80	1	GET	new-themes.net	/main.php?page=ce57441e61ae2f12	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	80667	200	OK	-	-	-	(empty)	-	-	-	-	-	Fxq5we4op5zvCPExO4	text/html
+1327256401.53244	Ce7uBP1mMPwj7JleAi	192.168.53.10	1031	176.34.179.106	80	2	GET	new-themes.net	/w.php?f=19&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	79872	200	OK	-	-	-	(empty)	-	-	-	-	-	FNIX4j1o729SRamep8	application/x-dosexec
+1327256426.733267	ClN55i4triqRZgucx1	192.168.53.10	1036	176.34.179.106	80	1	GET	new-themes.net	/content/v1.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4408	200	OK	-	-	-	(empty)	-	-	-	-	-	FfbU3T3hRqa6Dfzzi7	application/zip
+1327256428.435392	C4mS6b3QNAHWAIr4Id	192.168.53.10	1038	176.34.179.106	80	1	GET	new-themes.net	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	162	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FLxvhe1BppOnoZsCLl	text/html
+1327256431.822541	Cc6sDEFdP74S2catk	192.168.53.10	1040	69.31.132.99	80	1	GET	www.download.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/authrootseq.txt	-	Microsoft-CryptoAPI/5.131.2600.2180	0	18	200	OK	-	-	-	(empty)	-	-	-	-	-	FXanuIcTYexj3BS9a	text/plain
+1327256431.828631	Cc6sDEFdP74S2catk	192.168.53.10	1040	69.31.132.99	80	2	GET	www.download.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/authrootstl.cab	-	Microsoft-CryptoAPI/5.131.2600.2180	0	47186	200	OK	-	-	-	(empty)	-	-	-	-	-	FNpvNo2Bighyn2ySSj	application/vnd.ms-cab-compressed
+1327256425.601019	Ce7uBP1mMPwj7JleAi	192.168.53.10	1031	176.34.179.106	80	3	GET	new-themes.net	/content/fdp2.php?f=19	http://new-themes.net/main.php?page=ce57441e61ae2f12	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	90872	200	OK	-	-	-	(empty)	-	-	-	-	-	FxbnTl3TAyYfcGg7p9	application/pdf
+1327256426.799379	CVzD7b3VKwOYEVBgx1	192.168.53.10	1037	176.34.179.106	80	1	GET	new-themes.net	/content/field.swf	http://new-themes.net/main.php?page=ce57441e61ae2f12	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1464	200	OK	-	-	-	(empty)	-	-	-	-	-	FQwiW149lRlZezrxR	application/x-shockwave-flash
+1327256429.639643	C4mS6b3QNAHWAIr4Id	192.168.53.10	1038	176.34.179.106	80	2	GET	new-themes.net	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	162	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FFK4jQ1jyMvkAH0jjb	text/html
+1327256456.420245	C4mS6b3QNAHWAIr4Id	192.168.53.10	1038	176.34.179.106	80	3	GET	new-themes.net	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	162	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FBah1b1QWhLEvTyBr9	text/html
+1327256453.154659	Ce7uBP1mMPwj7JleAi	192.168.53.10	1031	176.34.179.106	80	4	GET	new-themes.net	/w.php?f=19&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+1327256458.586401	C4mS6b3QNAHWAIr4Id	192.168.53.10	1038	176.34.179.106	80	4	GET	new-themes.net	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-10-01-07

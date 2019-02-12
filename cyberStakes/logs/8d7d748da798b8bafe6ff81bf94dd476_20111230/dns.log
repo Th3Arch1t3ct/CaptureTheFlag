@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-14-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1325228530.029535	CmaWpG4gFjT9QRqJC8	192.168.68.10	1029	4.2.2.3	53	udp	16269	gportal7.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.165.3.30	6.000000	F
+1325228530.234137	CmaWpG4gFjT9QRqJC8	192.168.68.10	1029	4.2.2.3	53	udp	17548	whitecat3.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.23.148.66	6.000000	F
+1325228540.907744	CY4Bl61CwVXsPgEUne	192.168.68.10	1029	4.2.2.5	53	udp	55439	cantst0pmenever.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.64.155.106	14400.000000	F
+1325228539.877194	CmaWpG4gFjT9QRqJC8	192.168.68.10	1029	4.2.2.3	53	udp	55439	cantst0pmenever.net	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1325228541.906605	CmaWpG4gFjT9QRqJC8	192.168.68.10	1029	4.2.2.3	53	udp	55439	cantst0pmenever.net	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1325228552.704283	CfsqPG3Rn3VrsEjOWa	192.168.68.10	1029	4.2.2.3	53	udp	55439	-	-	-	-	-	2	SERVFAIL	F	F	F	F	0	-	-	T
+#close	2014-04-03-10-14-12

@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-56-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1323985519.010405	C8x6llMjLnjKEa6pj	192.168.51.10	1030	208.109.138.215	80	1	GET	starwolffsdomain.net	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	20740	200	OK	-	-	-	(empty)	-	-	-	-	-	FVPpw72J1ynTwl6Pra	text/html
+1323985519.181076	C8x6llMjLnjKEa6pj	192.168.51.10	1030	208.109.138.215	80	2	GET	starwolffsdomain.net	/SWD~_SYS.RES/SWD~Watermark-TR-x.js	http://starwolffsdomain.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4573	200	OK	-	-	-	(empty)	-	-	-	-	-	FxO7iC1evnanl46nWk	text/plain
+1323985519.190543	C9UKkB3iXyxEfs2G1a	192.168.51.10	1031	208.109.138.215	80	1	GET	starwolffsdomain.net	/SWD~_SYS.RES/SWD~bg-stars.gif	http://starwolffsdomain.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3186	200	OK	-	-	-	(empty)	-	-	-	-	-	F3KKOd24ovloy08ktj	image/gif
+1323985519.246585	C8x6llMjLnjKEa6pj	192.168.51.10	1030	208.109.138.215	80	3	GET	starwolffsdomain.net	/SWD~_SYS.RES/SWD~Watermark.gif	http://starwolffsdomain.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	535	200	OK	-	-	-	(empty)	-	-	-	-	-	FQivJi84floGFJwb7	image/gif
+1323985519.311861	C8x6llMjLnjKEa6pj	192.168.51.10	1030	208.109.138.215	80	4	GET	starwolffsdomain.net	/SWD~_SYS.RES/SWD~lo-wolf-ani.gif	http://starwolffsdomain.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1715	200	OK	-	-	-	(empty)	-	-	-	-	-	FNkXnxDVZplzyuxL	image/gif
+1323985519.379567	C8x6llMjLnjKEa6pj	192.168.51.10	1030	208.109.138.215	80	5	GET	starwolffsdomain.net	/SWD~_SYS.RES/PF-ComfortablyNumb.mid	-	contype	0	23207	200	OK	-	-	-	(empty)	-	-	-	-	-	FJRrwO2haOaEPPX1pk	audio/midi
+1323985519.286916	C9UKkB3iXyxEfs2G1a	192.168.51.10	1031	208.109.138.215	80	2	GET	starwolffsdomain.net	/SWD~_SYS.RES/STARWOLFFsDOMAIN~Banner~400x68.jpg	http://starwolffsdomain.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	32221	200	OK	-	-	-	(empty)	-	-	-	-	-	FxRQO22S6XY1BPIvdf	image/jpeg
+1323985519.472442	CW0IEv18xRstL3TFu5	192.168.51.10	1032	208.109.138.215	80	1	GET	starwolffsdomain.net	/SWD~_SYS/SWD~CGI-BIN/Counter.exe?key=index.htm~Splash	http://starwolffsdomain.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6631	200	OK	-	-	-	(empty)	-	-	-	-	-	FLq0jF34SADb1Lfojf	application/x-dosexec
+1323985519.832869	C9UKkB3iXyxEfs2G1a	192.168.51.10	1031	208.109.138.215	80	3	GET	starwolffsdomain.net	/SWD~_SYS.RES/SWD~Watermark.gif	http://starwolffsdomain.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	304	Not Modified	-	-	-	(empty)	-	-	-	-	-	-	-
+1323985519.926931	ChPoCS1IWe7LMBMqri	192.168.51.10	1033	208.109.138.215	80	1	GET	starwolffsdomain.net	/SWD~_SYS.RES/PF-ComfortablyNumb.mid	-	Windows-Media-Player/9.00.00.3250	0	6598	206	Partial Content	-	-	-	(empty)	-	-	-	-	-	FgEh9S1GkEQCylpMLk	audio/midi
+1323985520.045532	C9UKkB3iXyxEfs2G1a	192.168.51.10	1031	208.109.138.215	80	4	GET	starwolffsdomain.net	/SWD~_SYS.RES/PF-ComfortablyNumb.mid	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	23526	206	Partial Content	-	-	-	(empty)	-	-	-	-	-	FgEh9S1GkEQCylpMLk,FgEh9S1GkEQCylpMLk	audio/midi,binary
+#close	2014-04-03-10-56-04

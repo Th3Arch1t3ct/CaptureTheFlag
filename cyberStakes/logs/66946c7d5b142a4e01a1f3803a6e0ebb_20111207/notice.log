@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-10-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1323281799.672389	CKHUFd2Cr6OiqE14h4	192.168.128.10	1052	149.255.33.227	80	FmYxti2vKnKRzahD9e	application/x-dosexec	http://winter5.in/?e514c0738b8e29084785a0c44d317f1d	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 64%  Last seen: 2011-12-22 21:46:24	https://www.virustotal.com/en/search/?query=e6f577af222f66412c07ba1ef1df53a07a34779c	192.168.128.10	149.255.33.227	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1323281799.762409	CbuOk51kU8J2LEPSAi	192.168.128.10	1053	149.255.33.227	80	FdQEiY2fFlrpTRhf7	application/x-dosexec	http://winter5.in/?5b56424bed84f518d6944c2fe789181b	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2011-12-20 04:23:41	https://www.virustotal.com/en/search/?query=5457c95fb353d034370de934f2213486b6014f24	192.168.128.10	149.255.33.227	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1323281799.972799	CdXvwQ3WxvMg60UVgd	192.168.128.10	1054	149.255.33.227	80	FGdaZZ2AC9RXTRQQE4	application/x-dosexec	http://winter5.in/?47635baf0e77dad886483b1cabf30e71	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 48%  Last seen: 2012-01-31 00:48:46	https://www.virustotal.com/en/search/?query=13c1c7ac94380bab81dfd517fff328c5d6790872	192.168.128.10	149.255.33.227	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1323281800.001888	CTEeqD4sxWqGliC6Bf	192.168.128.10	1056	149.255.33.227	80	FmBN4H4F63gPTh6K	application/x-dosexec	http://winter5.in/?32e2dda44e164fce854cced1b8e40571	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 64%  Last seen: 2011-12-22 21:46:24	https://www.virustotal.com/en/search/?query=e6f577af222f66412c07ba1ef1df53a07a34779c	192.168.128.10	149.255.33.227	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-10-21

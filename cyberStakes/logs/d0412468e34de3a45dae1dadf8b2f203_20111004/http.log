@@ -1,0 +1,37 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-16-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1317732557.267261	Cm7bb01LPIKKHJ3Aha	192.168.34.10	1030	212.85.121.16	80	1	GET	glossarium.pl	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5744	200	OK	-	-	-	(empty)	-	-	-	-	-	FQi88x4ur4IXBJ8Ktc	text/html
+1317732557.699556	Clom664vGbyFlrwnlh	192.168.34.10	1031	173.212.192.228	80	1	GET	rebotstat.com	/temp/stat.php	http://glossarium.pl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4328	200	OK	-	-	-	(empty)	-	-	-	-	-	FNPQYi16sTVM4cpDlb	text/html
+1317732558.163433	CSdDo8kaM6SinxD26	192.168.34.10	1033	95.163.66.209	80	1	GET	hgfh.ns3.name	/showthread.php?t=82651514	http://rebotstat.com/temp/stat.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	40264	200	OK	-	-	-	(empty)	-	-	-	-	-	FjlETq313Weo4kRM8d	text/html
+1317732559.170333	CSdDo8kaM6SinxD26	192.168.34.10	1033	95.163.66.209	80	2	GET	hgfh.ns3.name	/showthread.php?t=19538	http://hgfh.ns3.name/showthread.php?t=82651514	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	18467	200	OK	-	-	-	(empty)	-	-	-	-	-	FLWZ3s2u2MM7zDD6Bh	text/plain
+1317732560.20139	CSdDo8kaM6SinxD26	192.168.34.10	1033	95.163.66.209	80	3	GET	hgfh.ns3.name	/showthread.php?s=240.800.600.24&jv=1.6.0.10&ua=Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	http://hgfh.ns3.name/showthread.php?t=82651514	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317732560.410459	Cm7bb01LPIKKHJ3Aha	192.168.34.10	1030	212.85.121.16	80	2	GET	glossarium.pl	/index.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	9250	200	OK	-	-	-	(empty)	-	-	-	-	-	F94bQ81xIbGQpqqb4f	text/html
+1317732561.736119	C1NlbtqYuAUVh2dq9	192.168.34.10	1041	95.163.66.209	80	1	GET	hgfh.ns3.name	/showthread.php?t=1	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	52736	200	OK	-	-	-	(empty)	-	-	-	-	-	FxD6Gr4WmvFiTNGSB	application/x-dosexec
+1317732563.936884	CVzJc45Qq1FfXMZI5	192.168.34.10	1052	192.150.16.117	80	1	POST	adobe.com	/geo/productid.php	-	Opera/10.60 Pesto/2.2.30	20	246	301	Moved Permanently	-	-	-	(empty)	-	-	-	FDBJLI1wdwrtQX5Q8h	text/plain	Fnacqo1MrQDRN2rTr3	text/html
+1317732563.971959	CoDyfu3uZhPriGscKe	192.168.34.10	1051	212.85.121.16	80	1	GET	glossarium.pl	/images/logo.gif	http://glossarium.pl/index.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4778	200	OK	-	-	-	(empty)	-	-	-	-	-	FrX7FB3ZImweOILC74	image/gif
+1317732563.971319	CJRYjB1O0LKmw13KV1	192.168.34.10	1050	212.85.121.16	80	1	GET	glossarium.pl	/stylesheet.css	http://glossarium.pl/index.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	15173	200	OK	-	-	-	(empty)	-	-	-	-	-	FcDkxb3TBHGVIRln0c	text/plain
+1317732564.103337	CoDyfu3uZhPriGscKe	192.168.34.10	1051	212.85.121.16	80	2	GET	glossarium.pl	/images/p1.jpg	http://glossarium.pl/index.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	683	200	OK	-	-	-	(empty)	-	-	-	-	-	FNjKfd4VJ9wR9hDNm1	image/jpeg
+1317732564.228691	CJRYjB1O0LKmw13KV1	192.168.34.10	1050	212.85.121.16	80	2	GET	glossarium.pl	/images/p2.jpg	http://glossarium.pl/index.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	490	200	OK	-	-	-	(empty)	-	-	-	-	-	FLvdSv2714qB0yy0bh	image/jpeg
+1317732564.232959	CoDyfu3uZhPriGscKe	192.168.34.10	1051	212.85.121.16	80	3	GET	glossarium.pl	/images/koszyk.gif	http://glossarium.pl/index.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	152	200	OK	-	-	-	(empty)	-	-	-	-	-	FelyPFZ1iRnmABwk1	image/gif
+1317732564.317521	CWobwi4BdMXzUk7QV7	192.168.34.10	1053	95.163.66.209	80	1	GET	hgfh.ns3.name	/showthread.php?t=912329	-	User-Agent: Opera/10.60 Presto/2.2.30	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317732564.61894	CWobwi4BdMXzUk7QV7	192.168.34.10	1053	95.163.66.209	80	2	GET	hgfh.ns3.name	/showthread.php?t=912329	-	User-Agent: Opera/10.60 Presto/2.2.30	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317732564.147575	CwPCM04ZLx2gRQaIVl	192.168.34.10	1049	95.163.66.209	80	1	GET	hgfh.ns3.name	/showthread.php?t=82651514	http://glossarium.pl/index.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	40263	200	OK	-	-	-	(empty)	-	-	-	-	-	FsigUM2th7MbIWLQ13	text/html
+1317732564.931738	CWobwi4BdMXzUk7QV7	192.168.34.10	1053	95.163.66.209	80	3	GET	hgfh.ns3.name	/showthread.php?t=912329	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317732565.565308	CaXlEl1ccSBmS2cm1d	192.168.34.10	1057	95.163.66.209	80	1	GET	hgfh.ns3.name	/showthread.php?t=912329	-	User-Agent: Opera/10.60 Presto/2.2.30	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317732565.084724	CwPCM04ZLx2gRQaIVl	192.168.34.10	1049	95.163.66.209	80	2	GET	hgfh.ns3.name	/showthread.php?t=19538	http://hgfh.ns3.name/showthread.php?t=82651514	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	18467	200	OK	-	-	-	(empty)	-	-	-	-	-	Fuw9Uw3lUn5yQWaFY9	text/plain
+1317732565.892511	CWobwi4BdMXzUk7QV7	192.168.34.10	1053	95.163.66.209	80	4	GET	hgfh.ns3.name	/showthread.php?t=912329	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317732566.072261	CwPCM04ZLx2gRQaIVl	192.168.34.10	1049	95.163.66.209	80	3	GET	hgfh.ns3.name	/showthread.php?s=240.800.600.24&jv=1.6.0.10&ua=Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	http://hgfh.ns3.name/showthread.php?t=82651514	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317732566.206134	CaXlEl1ccSBmS2cm1d	192.168.34.10	1057	95.163.66.209	80	2	GET	hgfh.ns3.name	/showthread.php?t=912329	-	User-Agent: Opera/10.60 Presto/2.2.30	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317732567.103454	CwPCM04ZLx2gRQaIVl	192.168.34.10	1049	95.163.66.209	80	4	GET	hgfh.ns3.name	/showthread.php?t=1	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317732563.788621	C1NlbtqYuAUVh2dq9	192.168.34.10	1041	95.163.66.209	80	2	GET	hgfh.ns3.name	/showthread.php?t=82651514	http://glossarium.pl/index.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+1317732567.915733	CC20EF3Mfgh0ENNMNb	192.168.34.10	1064	95.163.66.209	80	1	GET	hgfh.ns3.name	/showthread.php?t=49281	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18417	200	OK	-	-	-	(empty)	-	-	-	-	-	FXuQVO3TjgeIZgr8r1	application/jar
+1317732569.242815	CC20EF3Mfgh0ENNMNb	192.168.34.10	1064	95.163.66.209	80	2	GET	hgfh.ns3.name	/showthread.php?t=49281	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18417	200	OK	-	-	-	(empty)	-	-	-	-	-	FWQ2nJHX7pRSB7J0c	application/jar
+1317732570.005835	CC20EF3Mfgh0ENNMNb	192.168.34.10	1064	95.163.66.209	80	3	GET	hgfh.ns3.name	/showthread.php?t=49281	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18417	200	OK	-	-	-	(empty)	-	-	-	-	-	FqKn5KZq80zSBSPJa	application/jar
+1317732570.685585	CC20EF3Mfgh0ENNMNb	192.168.34.10	1064	95.163.66.209	80	4	GET	hgfh.ns3.name	/showthread.php?t=2	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-11-16-21

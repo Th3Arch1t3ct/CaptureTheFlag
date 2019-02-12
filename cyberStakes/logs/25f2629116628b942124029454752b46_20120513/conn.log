@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-09-56-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1336951095.778372	CE2twq3bWRnUJ60NY8	192.168.35.10	1036	98.124.199.1	80	tcp	http	0.005064	321	103	SF	-	0	ShADfFa	5	529	3	227	(empty)
+1336951095.783991	C6Nizk3d6p68J4gXq6	192.168.35.10	1037	98.124.199.1	80	tcp	http	0.006117	327	97	SF	-	0	ShADfFa	5	535	3	221	(empty)
+1336951095.790737	CWl42M2LeWjnme1YQ5	192.168.35.10	1038	98.124.199.1	80	tcp	http	0.011557	321	498	SF	-	0	ShADdfFa	5	529	4	666	(empty)
+1336951093.109097	C6gX1tlZiVEH0Ytob	192.168.35.10	1030	174.143.122.196	80	tcp	http	11.174384	286	17684	RSTO	-	0	ShADadfR	13	814	16	18332	(empty)
+1336951093.1048	CgjRtqGPQcuc2a6Ug	192.168.35.10	1029	4.2.2.3	53	udp	dns	13.683056	220	522	SF	-	0	Dd	6	388	6	690	(empty)
+1336951106.789929	Cdf0og2stOxlVpFcNj	192.168.35.10	1041	198.87.51.33	80	tcp	http	0.004269	299	2003	S1	-	0	ShADad	4	467	4	2171	(empty)
+1336951095.917827	CCb72O25fTluKgxBqe	192.168.35.10	1039	83.69.226.72	80	tcp	http	27.818276	925	121332	S3	-	0	ShADadf	64	3493	96	125180	(empty)
+1336951098.315046	CLiKi92THHGKL6e1ke	192.168.35.10	1040	83.69.226.72	80	tcp	http	33.836661	585	8943	S3	-	0	ShADadf	10	993	12	9431	(empty)
+1336951093.289696	CXAUXD1Vam2Htq47Tb	192.168.35.10	1031	67.192.1.13	80	tcp	http	13.109810	269	208	S3	-	0	ShADadf	5	477	4	376	(empty)
+1336951095.045181	CZh3QA1bV5ZJO8gPM8	192.168.35.10	1034	239.255.255.250	1900	udp	-	6.239815	399	0	S0	-	0	D	3	483	0	0	(empty)
+1336951076.686837	CT3HXu4Ahs9t0avng3	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.001438	626	0	S0	-	0	D	2	682	0	0	(empty)
+1336951076.687326	CPNCuB4kzhOz5wK1mh	192.168.35.10	68	192.168.35.1	67	udp	dhcp	12.667513	314	900	SF	-	0	dD	1	342	3	984	(empty)
+#close	2014-04-03-09-56-30

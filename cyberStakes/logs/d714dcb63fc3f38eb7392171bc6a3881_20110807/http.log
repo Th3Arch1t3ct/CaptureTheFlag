@@ -1,0 +1,60 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-40-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1312739066.188848	CJeqlhegB3iQF8kY	192.168.112.10	1030	206.51.236.188	80	1	GET	italinvest.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	20142	200	OK	-	-	-	(empty)	-	-	-	-	-	FwPDF82SMJtXItoZAe	text/html
+1312739066.307652	CJeqlhegB3iQF8kY	192.168.112.10	1030	206.51.236.188	80	2	GET	italinvest.com	/style.css	http://italinvest.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5640	200	OK	-	-	-	(empty)	-	-	-	-	-	FUytDJcgQUCr2Egia	text/plain
+1312739066.349005	CJeqlhegB3iQF8kY	192.168.112.10	1030	206.51.236.188	80	3	GET	italinvest.com	/images/isha1.gif	http://italinvest.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	10750	200	OK	-	-	-	(empty)	-	-	-	-	-	FKS60VK1ZoniEmsv	image/gif
+1312739066.330533	C4zdIy4nmg6IMTxbXl	192.168.112.10	1031	206.51.236.188	80	1	GET	italinvest.com	/images/isha.gif	http://italinvest.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	11169	200	OK	-	-	-	(empty)	-	-	-	-	-	Fg1QSo4UrGoh34OSCi	image/gif
+1312739067.179285	CtGJHdJRmforoED57	192.168.112.10	1032	77.79.4.5	80	1	GET	gpj5jd912hjhr42oo.ipq.co	/go.php?sid=3	http://italinvest.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	99	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	FL86pm4ZQVq9oLnXGl	text/plain
+1312739067.617904	CTfI4X2M51vO5lwaie	192.168.112.10	1033	77.79.4.4	8080	1	GET	gootkit-fdymb.ipq.co	/theiaim/cmxsaldtyuiubnbtjldw.php	http://italinvest.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3259	200	OK	-	-	-	(empty)	-	-	-	-	-	Fy0WNn4rTninOZduUc	text/html
+1312739068.058583	CTfI4X2M51vO5lwaie	192.168.112.10	1033	77.79.4.4	8080	2	GET	gootkit-fdymb.ipq.co	/theiaim/uebani.js	http://gootkit-fdymb.ipq.co:8080/theiaim/cmxsaldtyuiubnbtjldw.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	521	200	OK	-	-	-	(empty)	-	-	-	-	-	Fw0GPo3a2ekScCIt0a	text/plain
+1312739071.596365	CBX1W641hBIbQtNUTj	192.168.112.10	1043	77.79.4.4	8080	1	GET	77.79.4.4	/theiaim/ju.php?i=15	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	200704	200	OK	-	-	-	(empty)	-	-	-	-	-	F2tUsO3AkpIR7Xj0fb	application/x-dosexec
+1312739074.614167	CTfI4X2M51vO5lwaie	192.168.112.10	1033	77.79.4.4	8080	3	GET	gootkit-fdymb.ipq.co	/theiaim/hmcnkwxlbvbw.html	http://gootkit-fdymb.ipq.co:8080/theiaim/cmxsaldtyuiubnbtjldw.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4790	200	OK	-	-	-	(empty)	-	-	-	-	-	FP7rVf1FggYjUNpiDl	text/html
+1312739078.480492	CAE6XG3OrYINKDZqYc	192.168.112.10	1064	77.79.4.4	8080	1	GET	1297024004	/ahjuoxo/mamba.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13860	200	OK	-	-	-	(empty)	-	-	-	-	-	FGo60b26T2T23arPGd	application/x-java-applet
+1312739078.474761	CQqcqI3ZQmPKvIGfLh	192.168.112.10	1060	77.79.4.4	8080	1	GET	1297024004	/ahjuoxo/mamba.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13860	200	OK	-	-	-	(empty)	-	-	-	-	-	FRHGvS1NmyX31BqG09	application/x-java-applet
+1312739078.481561	CLEiXD2ES4uPt9vsk9	192.168.112.10	1062	77.79.4.4	8080	1	GET	1297024004	/ahjuoxo/mamba.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13860	200	OK	-	-	-	(empty)	-	-	-	-	-	FgNGLe3ok31ZcNIIj6	application/x-java-applet
+1312739078.477998	C3Gew81dg6FNJgNiV4	192.168.112.10	1061	77.79.4.4	8080	1	GET	1297024004	/ahjuoxo/mamba.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13860	200	OK	-	-	-	(empty)	-	-	-	-	-	FrVLDt3T5IemXZEBRg	application/x-java-applet
+1312739078.477174	CCdzyU2frNoSDaQr4d	192.168.112.10	1066	77.79.4.4	8080	1	GET	1297024004	/ahjuoxo/mamba.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13860	200	OK	-	-	-	(empty)	-	-	-	-	-	FgLRb5jBSjaiZIbL1	application/x-java-applet
+1312739078.476371	Cs2y9Q1lcGPktFWez8	192.168.112.10	1065	77.79.4.4	8080	1	GET	gootkit-fdymb.ipq.co	/theiaim/bnhoimjzhocqiv.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18043	200	OK	-	-	-	(empty)	-	-	-	-	-	FxCUXI2AvRbvpRGe9	application/jar
+1312739078.486427	ChD8A71UGSxPuoQ3Z4	192.168.112.10	1063	77.79.4.4	8080	1	GET	1297024004	/ahjuoxo/mamba.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	13860	200	OK	-	-	-	(empty)	-	-	-	-	-	F3Tpel1SIEHzmVnts1	application/x-java-applet
+1312739077.264188	CQKPjp3Rd03ev3qTfg	192.168.112.10	1046	213.180.204.11	80	1	POST	yandex.ru	/	-	WinHttpClient	29610	0	-	-	-	-	-	(empty)	-	-	-	FT2rSd10T9ZmZZXslh	text/plain	-	-
+1312739079.892604	CCjObUt8YRHDYt1C9	192.168.112.10	1071	77.79.4.4	8080	1	GET	77.79.4.4	/theiaim/ju.php?i=1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	200704	200	OK	-	-	-	(empty)	-	-	-	-	-	FfDcug20kIxcd44tHg	application/x-dosexec
+1312739078.034736	CsCMkqr5JDi0zqeqi	192.168.112.10	1049	213.180.204.11	80	1	POST	yandex.ru	/	-	WinHttpClient	31020	0	-	-	-	-	-	(empty)	-	-	-	FBF9HX3eV23ZVSqKUg	text/plain	-	-
+1312739078.734123	CZ3rGD34Q0DPaiC4Cg	192.168.112.10	1068	213.180.204.11	80	1	POST	yandex.ru	/	-	WinHttpClient	25380	0	-	-	-	-	-	(empty)	-	-	-	Fj3tjQ1LjP74y2m13b	text/plain	-	-
+1312739079.609184	CQ2jXUQISXbBwiEE4	192.168.112.10	1069	213.180.204.11	80	1	POST	yandex.ru	/	-	WinHttpClient	23970	0	-	-	-	-	-	(empty)	-	-	-	F83OJ22G1QbjQ4WIQ3	text/plain	-	-
+1312739080.337062	C2vuuR2WBNkmVg8wjd	192.168.112.10	1072	213.180.204.11	80	1	POST	yandex.ru	/	-	WinHttpClient	31020	0	-	-	-	-	-	(empty)	-	-	-	F0UDFp3YsEDKnOUb9	text/plain	-	-
+1312739082.222466	Cd0ZAKDfX34wJvqga	192.168.112.10	1075	77.79.4.4	8080	1	GET	77.79.4.4	/theiaim/ju.php?i=13	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	200704	200	OK	-	-	-	(empty)	-	-	-	-	-	FhpXzD3fs80qlWbd28	application/x-dosexec
+1312739081.060936	CdhSVU1Yg6oKYUssY3	192.168.112.10	1073	213.180.204.11	80	1	POST	yandex.ru	/	-	WinHttpClient	31020	0	-	-	-	-	-	(empty)	-	-	-	FzcqSArQqCPIj0Fug	text/plain	-	-
+1312739082.708472	CfyxjC33Ta6tIdW7Jg	192.168.112.10	1070	77.79.4.4	8080	1	GET	77.79.4.4	/theiaim/ju.php?i=13	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	200704	200	OK	-	-	-	(empty)	-	-	-	-	-	FrA4so34XTdGLpBr51	application/x-dosexec
+1312739082.16686	CQ1ZW34hIRlSxDOJLi	192.168.112.10	1074	213.180.204.11	80	1	POST	yandex.ru	/	-	WinHttpClient	31020	0	-	-	-	-	-	(empty)	-	-	-	FOMpQF3H94P9cwqVSk	text/plain	-	-
+1312739082.890002	CNiA2q2MCgD42dGmhb	192.168.112.10	1076	213.180.204.11	80	1	POST	yandex.ru	/	-	WinHttpClient	23970	0	-	-	-	-	-	(empty)	-	-	-	FquySi2fzhweNZIIC6	text/plain	-	-
+1312739083.609223	CcDx342WLWGcl9q12a	192.168.112.10	1077	213.180.204.11	80	1	POST	yandex.ru	/	-	WinHttpClient	23970	0	-	-	-	-	-	(empty)	-	-	-	FeQIFW217hJF8Gxxi4	text/plain	-	-
+1312739086.17541	ClpLBrozuYZmKxvF2	192.168.112.10	1082	213.180.204.11	80	1	POST	yandex.ru	/	-	WinHttpClient	36660	0	-	-	-	-	-	(empty)	-	-	-	FKot9113CxsHVTP0tg	text/plain	-	-
+1312739086.900618	CBIc4E1TmirrXUsJ78	192.168.112.10	1097	213.180.204.11	80	1	POST	yandex.ru	/	-	WinHttpClient	25380	0	-	-	-	-	-	(empty)	-	-	-	FrFxUg3zmqa6RKn564	text/plain	-	-
+1312739087.631579	CrDyTYIBXUadIGUm4	192.168.112.10	1099	213.180.204.11	80	1	POST	yandex.ru	/	-	WinHttpClient	29610	0	-	-	-	-	-	(empty)	-	-	-	F2j6FM3srkVelAqfya	text/plain	-	-
+1312739093.063974	CR7n2u1BoNhRny1ip7	192.168.112.10	1132	77.79.4.4	80	1	OPTIONS	77.79.4.4	/	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	3	200	OK	-	-	-	(empty)	-	-	-	-	-	FhdXt44o2leTvKLbV8	text/plain
+1312739093.211337	CR7n2u1BoNhRny1ip7	192.168.112.10	1132	77.79.4.4	80	2	PROPFIND	77.79.4.4	/smb	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	20	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FIZDbt1LNm726uULw1	text/plain
+1312739088.271118	CpW9dN21Hntc1VHFrd	192.168.112.10	1102	213.180.204.11	80	1	POST	yandex.ru	/	-	WinHttpClient	31020	0	-	-	-	-	-	(empty)	-	-	-	FDme5FUDgStDFXpz3	text/plain	-	-
+1312739088.528171	CbOxpb2KQyRRac7gC9	192.168.112.10	1107	213.180.204.11	80	1	POST	yandex.ru	/	-	WinHttpClient	35250	0	-	-	-	-	-	(empty)	-	-	-	FN1xBS2dEIeqCOEJ0h	text/plain	-	-
+1312739088.991961	Csx3Gf3Iwz5liotAHf	192.168.112.10	1120	213.180.204.11	80	1	POST	yandex.ru	/	-	WinHttpClient	28200	0	-	-	-	-	-	(empty)	-	-	-	FcOsPZ621MUL2YVJ8	text/plain	-	-
+1312739089.254587	CVMuGg16pZV6a9qXj	192.168.112.10	1121	213.180.204.11	80	1	POST	yandex.ru	/	-	WinHttpClient	31020	0	-	-	-	-	-	(empty)	-	-	-	F09WHN1GgYW2IAA3V9	text/plain	-	-
+1312739089.705056	CwmWAo49aBrC0i1vel	192.168.112.10	1122	213.180.204.11	80	1	POST	yandex.ru	/	-	WinHttpClient	31020	0	-	-	-	-	-	(empty)	-	-	-	F7xJva4F8G8sVb84N3	text/plain	-	-
+1312739089.964013	CX6ZD5DvsuIgOxFL7	192.168.112.10	1123	213.180.204.11	80	1	POST	yandex.ru	/	-	WinHttpClient	32430	0	-	-	-	-	-	(empty)	-	-	-	FjYsXk3fjOuG4C4bbi	text/plain	-	-
+1312739090.426917	CZvYP63wgIvg1fZbZe	192.168.112.10	1124	213.180.204.11	80	1	POST	yandex.ru	/	-	WinHttpClient	31020	0	-	-	-	-	-	(empty)	-	-	-	FEz5bK397c6Wdu336c	text/plain	-	-
+1312739090.690869	Cy3NQH1wOXxSxKaCE7	192.168.112.10	1125	213.180.204.11	80	1	POST	yandex.ru	/	-	WinHttpClient	23970	0	-	-	-	-	-	(empty)	-	-	-	FEoUJ13ZrIcUfMiEh2	text/plain	-	-
+1312739091.133537	CTauB73nBzLfyKVXUe	192.168.112.10	1126	213.180.204.11	80	1	POST	yandex.ru	/	-	WinHttpClient	31020	0	-	-	-	-	-	(empty)	-	-	-	FQVnTx4T4Ji81XkzL	text/plain	-	-
+1312739091.408502	CIeHdJ19o2fqHU4T4	192.168.112.10	1127	213.180.204.11	80	1	POST	yandex.ru	/	-	WinHttpClient	36660	0	-	-	-	-	-	(empty)	-	-	-	FOYRhO2rsMkPYNSqg	text/plain	-	-
+1312739091.848488	CwK1cs484khXr6YVWk	192.168.112.10	1128	213.180.204.11	80	1	POST	yandex.ru	/	-	WinHttpClient	35250	0	-	-	-	-	-	(empty)	-	-	-	Fzhiq33gli2w58jqN6	text/plain	-	-
+1312739092.131982	CXu4I8d8FbTthZcAl	192.168.112.10	1129	213.180.204.11	80	1	POST	yandex.ru	/	-	WinHttpClient	23970	0	-	-	-	-	-	(empty)	-	-	-	FIEh7z2kG48ObJFUN	text/plain	-	-
+1312739092.583616	CanBZ980cwtlgrIk1	192.168.112.10	1130	213.180.204.11	80	1	POST	yandex.ru	/	-	WinHttpClient	31020	0	-	-	-	-	-	(empty)	-	-	-	Fx8NXoq0cGP8PHtQe	text/plain	-	-
+1312739093.345558	CAQEl23Z8PCli5V0Ud	192.168.112.10	1133	213.180.204.11	80	1	POST	yandex.ru	/	-	WinHttpClient	29610	0	-	-	-	-	-	(empty)	-	-	-	FCYytM1xxPoET53ioj	text/plain	-	-
+1312739094.070248	CXesvv1EEGZDVPk2j7	192.168.112.10	1134	213.180.204.11	80	1	POST	yandex.ru	/	-	WinHttpClient	31020	0	-	-	-	-	-	(empty)	-	-	-	FCRXd74tEJKxLjaKS4	text/plain	-	-
+1312739101.707591	CleeAu3uXyXl0WkMfj	192.168.112.10	1138	209.18.41.16	80	1	GET	crl.adobe.com	/aum.crl	-	Adobe Update Manager 6	0	2819	200	OK	-	-	-	(empty)	-	-	-	-	-	FKKG244qQeGR0FdzG	binary
+1312739101.603939	CBdY2G49iz8juknxVf	192.168.112.10	1136	209.18.41.11	80	1	GET	swupmf.adobe.com	/manifest/60/win/reader9rdr-en_US.upd	-	Adobe Update Manager 6	0	192693	200	OK	-	-	-	(empty)	-	-	-	-	-	FKLoDo2eFofKGxr221	binary
+1312739101.937027	CBdY2G49iz8juknxVf	192.168.112.10	1136	209.18.41.11	80	2	GET	swupmf.adobe.com	/manifest/60/win/AdobeUpdater.upd	-	Adobe Update Manager 6	0	3524	200	OK	-	-	-	(empty)	-	-	-	-	-	FReTDz3TQuEQV5QwDk	binary
+#close	2014-04-03-10-40-45

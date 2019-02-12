@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-22-21
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1337843338.437261	CPab1bul1tHXd8pDl	192.168.109.10	1029	4.2.2.3	53	udp	56463	billfoat.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	204.13.162.123	3573.000000	F
+1337843338.529781	CPab1bul1tHXd8pDl	192.168.109.10	1029	4.2.2.3	53	udp	46222	dsparking.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	204.13.162.127	4751.000000	F
+1337843339.100053	CPab1bul1tHXd8pDl	192.168.109.10	1029	4.2.2.3	53	udp	8332	bestcontentfind.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.36.248.227	300.000000	F
+1337843339.512079	CPab1bul1tHXd8pDl	192.168.109.10	1029	4.2.2.3	53	udp	16267	ck.ads.affinity.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.36.248.143	3600.000000	F
+1337843339.828078	CPab1bul1tHXd8pDl	192.168.109.10	1029	4.2.2.3	53	udp	42123	amazecell.go2jump.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.18.156.27	60.000000	F
+1337843339.851151	CPab1bul1tHXd8pDl	192.168.109.10	1029	4.2.2.3	53	udp	11658	www.mktrack.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	mktrack.com,67.208.131.198	2646.000000,2646.000000	F
+1337843339.923737	CPab1bul1tHXd8pDl	192.168.109.10	1029	4.2.2.3	53	udp	31369	install.onlinedl.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.150.14.66	30.000000	F
+1337843340.034306	CPab1bul1tHXd8pDl	192.168.109.10	1029	4.2.2.3	53	udp	392	b.broadbeamedhull.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.150.14.48	30.000000	F
+1337843340.100304	CPab1bul1tHXd8pDl	192.168.109.10	1029	4.2.2.3	53	udp	36231	a.broadbeamedhull.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.150.14.115	30.000000	F
+#close	2014-04-03-10-22-21

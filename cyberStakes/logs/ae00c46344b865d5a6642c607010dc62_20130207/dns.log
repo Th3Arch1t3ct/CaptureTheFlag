@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-26-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1360218729.650934	CBAk3y1URsLOWQmBf9	192.168.77.10	1029	4.2.2.3	53	udp	23437	nodestatics.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.23.149.148	14378.000000	F
+1360218730.016478	CBAk3y1URsLOWQmBf9	192.168.77.10	1029	4.2.2.3	53	udp	59020	2kthirteen.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.31.186.145	1800.000000	F
+1360218730.355438	CBAk3y1URsLOWQmBf9	192.168.77.10	1029	4.2.2.3	53	udp	652	www.2kthirteen.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.31.186.145	1800.000000	F
+1360218731.565172	CBAk3y1URsLOWQmBf9	192.168.77.10	1029	4.2.2.3	53	udp	26764	2-k-13.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.183.217.137	1800.000000	F
+1360218753.548478	CAybQC2yAUuiuMsPpj	192.168.77.10	1029	4.2.2.3	53	udp	14991	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,64.4.52.169	3567.000000,267.000000	F
+1360218753.687911	CAybQC2yAUuiuMsPpj	192.168.77.10	1029	4.2.2.3	53	udp	31118	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	1729.000000,567.000000	F
+1360218760.00896	CAybQC2yAUuiuMsPpj	192.168.77.10	1029	4.2.2.3	53	udp	24974	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.d.akamai.net,184.51.126.82,184.51.126.107	13987.000000,269.000000,491.000000,5.000000,5.000000	F
+1360218783.050581	C0wSYA11jhyWmmX3Y8	192.168.77.10	1029	4.2.2.3	53	udp	12169	windowsupdate.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	windowsupdate.microsoft.nsatc.net,www.update.microsoft.com.nsatc.net,65.55.13.90	1463.000000,248.000000,270.000000	F
+1360218783.381683	C0wSYA11jhyWmmX3Y8	192.168.77.10	1029	4.2.2.3	53	udp	52616	madr1gal.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.221.160.44	600.000000	F
+#close	2014-04-03-10-26-49

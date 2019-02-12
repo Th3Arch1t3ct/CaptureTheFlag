@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-01-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1357763423.282954	CgJm6X1HVnpzJTnhqh	192.168.80.10	1030	212.95.58.89	80	1	GET	tubewhite.info	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1357763423.65988	C5XaDBarPv9ES70B5	192.168.80.10	1031	109.206.168.0	80	1	GET	zly.24felivofree.info	/?38f1e9baa0541205c799317a643349c8=15&7cf7199fbcab32d5275f6ca3cb7fc8fc=	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	521	200	OK	-	-	-	(empty)	-	-	-	-	-	Fs9hcC4c5l49InDYPl	text/html
+1357763423.849803	CBou283akQtQWxLCL3	192.168.80.10	1032	109.206.168.0	80	1	GET	zly.24felivofree.info	/9ca075d4fb8229793c9630ce39ebfb70.eot	http://zly.24felivofree.info/?38f1e9baa0541205c799317a643349c8=15&7cf7199fbcab32d5275f6ca3cb7fc8fc=	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4193	200	OK	-	-	-	(empty)	-	-	-	-	-	F2lUxz4dj38PQQCjOf	application/vnd.ms-fontobject
+1357763424.315146	CxSBew37uvRDJRwmKd	192.168.80.10	1034	109.206.168.0	80	1	GET	109.206.168.0	/?917e075535843bfd83672e449d6b3b30	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	83456	200	OK	-	-	-	(empty)	-	-	-	-	-	FJZ9HC4Bh0xqkqb3pk	application/x-dosexec
+1357763430.056691	CqukXWVFKxMl5AYc7	192.168.80.10	1039	109.206.168.0	80	1	GET	zly.24felivofree.info	/b10b675ede983ed48f40b94a163c6835/f7f7d5759d911b99b43be18f0e8904be.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	9644	200	OK	-	-	-	(empty)	-	-	-	-	-	Fy6Y2n4rYcYMZreny4	application/jar
+1357763430.231895	C25t7n3n1GZ7qz2kU4	192.168.80.10	1040	109.206.168.0	80	1	GET	zly.24felivofree.info	/b10b675ede983ed48f40b94a163c6835/f7f7d5759d911b99b43be18f0e8904be.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	9644	200	OK	-	-	-	(empty)	-	-	-	-	-	FpqzXv1nCOe30Dltqa	application/jar
+1357763430.492697	CePKyR342Oz7wQWkmf	192.168.80.10	1041	109.206.168.0	80	1	GET	zly.24felivofree.info	/b10b675ede983ed48f40b94a163c6835/f7f7d5759d911b99b43be18f0e8904be.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	9644	200	OK	-	-	-	(empty)	-	-	-	-	-	F4OXgG2Z4EXPDpD4p5	application/jar
+1357763430.724486	CWiHkD1v9cphzDswpl	192.168.80.10	1042	109.206.168.0	80	1	GET	zly.24felivofree.info	/b10b675ede983ed48f40b94a163c6835/0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	83456	200	OK	-	-	-	(empty)	-	-	-	-	-	Fvk7Ry12RdIh3Yiyh6	binary
+1357763435.507332	Cv44Gc2osW2Ymg8Fa9	192.168.80.10	1046	199.71.233.218	80	1	GET	ighklplong.mineralclean.info	/get.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FSsyzPyUNiWF43JFe	text/html
+1357763435.518537	CX7GCs47eze3TsBgGc	192.168.80.10	1045	109.206.168.0	80	1	GET	zly.24felivofree.info	/b10b675ede983ed48f40b94a163c6835/1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	62464	200	OK	-	-	-	(empty)	-	-	-	-	-	FOe1ak1WOefWe0ty2c	binary
+1357763440.175918	CELVccpb9r8bbZZZb	192.168.80.10	1049	199.71.233.218	80	1	GET	ighklplong.mineralclean.info	/get.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FSZFFVMeSfZJZ7gNc	text/html
+1357763440.260233	CO0s5L1KqwymaZP9	192.168.80.10	1050	109.206.168.0	80	1	GET	zly.24felivofree.info	/b10b675ede983ed48f40b94a163c6835/2	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F2z9laQK55frnvmel	text/html
+1357763440.46177	CMksKj413xUrbOM7u6	192.168.80.10	1051	109.206.168.0	80	1	GET	zly.24felivofree.info	/b10b675ede983ed48f40b94a163c6835/3	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F92pBmXBB4x2H3l78	text/html
+1357763440.640131	CDPS4W2ETQEwv5dxvg	192.168.80.10	1052	109.206.168.0	80	1	GET	zly.24felivofree.info	/b10b675ede983ed48f40b94a163c6835/4	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Fv5p7v42WrqV9s3tE1	text/html
+#close	2014-04-03-11-01-16

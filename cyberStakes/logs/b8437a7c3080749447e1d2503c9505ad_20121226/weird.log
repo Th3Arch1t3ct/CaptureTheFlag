@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-48-21
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1356483101.643277	C3qmNF22rpDLZckvsl	192.168.122.10	1038	98.139.225.42	80	unescaped_special_URI_char	-	F	bro
+1356483101.643638	CtHZR429VjDTTXSZCj	192.168.122.10	1039	98.139.225.42	80	unescaped_special_URI_char	-	F	bro
+1356483102.784019	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1356483105.222496	CIUe6V1iMQ1JKNL7Ti	192.168.122.10	1057	199.21.148.89	80	unescaped_special_URI_char	-	F	bro
+1356483123.267821	CTBaBI1ncSSAcRMK77	192.168.122.10	1066	199.21.148.89	80	unescaped_special_URI_char	-	F	bro
+1356483133.523481	CvoUR14OA7ptBoQzh6	192.168.122.10	1094	195.93.85.9	80	unescaped_special_URI_char	-	F	bro
+1356483165.424127	CJ4Nb8zDUEdqHEDxc	192.168.122.10	1111	199.255.236.252	80	line_terminated_with_single_CR	-	F	bro
+1356483170.974846	CJ4Nb8zDUEdqHEDxc	192.168.122.10	1111	199.255.236.252	80	bad_HTTP_request	-	F	bro
+#close	2014-04-03-10-48-22

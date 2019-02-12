@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-54-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1331098869.286691	C73Jvt4KjKHHm11kgd	192.168.27.10	1044	81.94.43.146	80	FUQspI3syzwApvxlSb	application/x-shockwave-flash	http://shashlik.in/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2012-05-03 02:10:28	https://www.virustotal.com/en/search/?query=fd27252b95d0cd83d0f17290ffa0a09557a59286	192.168.27.10	81.94.43.146	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1331098873.416061	C73Jvt4KjKHHm11kgd	192.168.27.10	1044	81.94.43.146	80	F7rzIx4Jb9Zy6A9lt7	application/x-shockwave-flash	http://shashlik.in/content/score.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 50%  Last seen: 2012-03-05 11:10:58	https://www.virustotal.com/en/search/?query=84f378c8bebafece2464d7fee3b39d2a6e683494	192.168.27.10	81.94.43.146	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1331098923.985304	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.27.10 scanned at least 25 unique hosts on port 22292/tcp in 0m26s	remote	192.168.27.10	-	22292	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-54-29

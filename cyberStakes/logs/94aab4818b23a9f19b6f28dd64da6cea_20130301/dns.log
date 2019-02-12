@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-22-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1362134312.479159	Crexv62dy48CEgtd1e	192.168.49.10	1029	4.2.2.3	53	udp	21649	srisubikshambuilders.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	75.125.2.11	38379.000000	F
+1362134312.876433	Crexv62dy48CEgtd1e	192.168.49.10	1029	4.2.2.3	53	udp	19090	jancoral.ierealtysite.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.89.31.243	14400.000000	F
+1362134313.431661	Crexv62dy48CEgtd1e	192.168.49.10	1029	4.2.2.3	53	udp	44947	skylightgallerynyc.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.43.241.2	14400.000000	F
+1362134322.120676	Crexv62dy48CEgtd1e	192.168.49.10	1029	4.2.2.3	53	udp	33940	2.241.43.208.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	208.43.241.2-static.reverse.softlayer.com	3600.000000	F
+1362134322.152105	Crexv62dy48CEgtd1e	192.168.49.10	1029	4.2.2.3	53	udp	64917	208.43.241.2-static.reverse.softlayer.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.43.241.2	86400.000000	F
+1362134332.74421	Crexv62dy48CEgtd1e	192.168.49.10	1029	4.2.2.3	53	udp	49813	cafekili.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	70.85.228.40	14400.000000	F
+1362134336.972266	Crexv62dy48CEgtd1e	192.168.49.10	1029	4.2.2.3	53	udp	49558	habeshahub.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.168.205.1	3600.000000	F
+1362134339.101295	Crexv62dy48CEgtd1e	192.168.49.10	1029	4.2.2.3	53	udp	24216	lancaster-designs.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	70.85.228.40	14400.000000	F
+1362134346.200494	Crexv62dy48CEgtd1e	192.168.49.10	1029	4.2.2.3	53	udp	665	gtpbr.inetuni.chickenkiller.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.104.106.56	60.000000	F
+1362134354.574481	CGe4bX3Yg92oqlLgli	192.168.49.10	1048	4.2.2.3	53	udp	28526	11vjd94.cdn144.uploadfilesetc.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.131.140.158	3600.000000	F
+#close	2014-04-03-10-22-11

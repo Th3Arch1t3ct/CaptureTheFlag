@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-39-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1342401714.093063	CTUwG92ElsVpTGro2f	192.168.29.10	1030	206.248.147.18	80	1	GET	beachburg.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	432	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FNmd4s5lMZJIqYEo5	text/html
+1342401714.218576	CajqEdpplGmbTQxF1	192.168.29.10	1031	206.248.147.18	80	1	GET	www.beachburg.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	21437	200	OK	-	-	-	(empty)	-	-	-	-	-	FGLEhE2lPlYRiq6ihd	text/html
+1342401714.388061	CajqEdpplGmbTQxF1	192.168.29.10	1031	206.248.147.18	80	2	GET	www.beachburg.com	/images/beachburg_street_1.jpg	http://www.beachburg.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	37977	200	OK	-	-	-	(empty)	-	-	-	-	-	Fc1MKD4WZ2NN49TXuc	image/jpeg
+1342401714.349105	CUUZfe3lxnc8HcBtch	192.168.29.10	1032	206.248.147.18	80	1	GET	www.beachburg.com	/images/beachburg_sign.jpg	http://www.beachburg.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	31066	200	OK	-	-	-	(empty)	-	-	-	-	-	F0NRAu4NCYi6MN4lJf	image/jpeg
+1342401714.498345	CajqEdpplGmbTQxF1	192.168.29.10	1031	206.248.147.18	80	3	GET	www.beachburg.com	/images/beachburg_map_sm.jpg	http://www.beachburg.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	37632	200	OK	-	-	-	(empty)	-	-	-	-	-	Fg5GzF3FDxZoigHrEd	image/jpeg
+1342401714.560207	CUUZfe3lxnc8HcBtch	192.168.29.10	1032	206.248.147.18	80	2	GET	www.beachburg.com	/images/pennypincher_horiz_banner.jpg	http://www.beachburg.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	31221	200	OK	-	-	-	(empty)	-	-	-	-	-	Fa5zCw1ktb2WBYot51	image/jpeg
+1342401715.668671	CX4W0Y14jRMuQAdxX9	192.168.29.10	1033	78.46.11.101	80	1	GET	fmacqvmqafqwmebl.ru	/runforestrun?sid=botnet_scan	http://www.beachburg.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	108	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	FiElR1AuaFEOJbP8b	text/html
+1342401716.461158	C3G5kW3tw1uY8SgmO6	192.168.29.10	1034	95.211.26.184	80	1	GET	oxo2xox.ru	/in.cgi?7	http://www.beachburg.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	186	302	Found	-	-	-	(empty)	-	-	-	-	-	FjOwQz360c26gca1Rg	text/html
+1342401716.792535	CnR52t1KvQlDYxOKr3	192.168.29.10	1039	95.215.60.128	80	1	GET	videostruct.org	/fav	http://www.beachburg.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7025	200	OK	-	-	-	(empty)	-	-	-	-	-	FudMvA4nQDLF4zhexj	text/html
+1342401717.489379	CwD7Qx2DtYFWSFnaKc	192.168.29.10	1040	95.215.60.128	80	1	GET	videostruct.org	/LakuIJDw/dRC84zVYBf?oe=28RsM12YQQ2_M__2Q2	http://videostruct.org/fav	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6323	200	OK	-	-	-	(empty)	-	-	-	-	-	FvVM9EOxxzntg1mVb	text/plain
+1342401717.901966	CWUxR01iRL9pIwVJpk	192.168.29.10	1041	95.215.60.128	80	1	GET	videostruct.org	/P1akuIJDw/dRC84zVYBf	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	360448	200	OK	-	-	-	(empty)	-	-	-	-	-	FMfd8xBQqB6wOGL6	application/x-dosexec
+1342401720.362156	CNE3Ar1rTNiHcnO907	192.168.29.10	1042	95.215.60.128	80	1	GET	videostruct.org	/TakuIJDw/dRC84zVYBf	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5888	200	OK	-	-	-	(empty)	-	-	-	-	-	F3YTLcXU6ziK1xld7	application/pdf
+1342401722.489751	CJitBr4LLX3nC9dqUb	192.168.29.10	1043	95.215.60.128	80	1	GET	videostruct.org	/SakuIJDw/dRC84zVYBf	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	15423	200	OK	-	-	-	(empty)	-	-	-	-	-	FbdIypSS97LwDkZ56	application/zip
+1342401723.237031	CYDhdLwylNgizU6I4	192.168.29.10	1044	95.215.60.128	80	1	GET	videostruct.org	/P4akuIJDw/dRC84zVYBf	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	360448	200	OK	-	-	-	(empty)	-	-	-	-	-	FoLEx23BmlSup47xy3	binary
+1342401748.618721	C5h5Bs2mKL6AmUi6Ql	192.168.29.10	1046	23.62.62.50	80	1	GET	crl.adobe.com	/aum.crl	-	Adobe Update Manager 6	0	2819	200	OK	-	-	-	(empty)	-	-	-	-	-	FhkJJE3vRQ0O5HsJ65	binary
+1342401748.478587	C1vt841sjtv9I7Cuc3	192.168.29.10	1045	23.62.62.57	80	1	GET	swupmf.adobe.com	/manifest/60/win/reader9rdr-en_US.upd	-	Adobe Update Manager 6	0	192693	200	OK	-	-	-	(empty)	-	-	-	-	-	FQHPXP3O9S8eTnXHTi	binary
+1342401748.835889	C1vt841sjtv9I7Cuc3	192.168.29.10	1045	23.62.62.57	80	2	GET	swupmf.adobe.com	/manifest/60/win/AdobeUpdater.upd	-	Adobe Update Manager 6	0	3524	200	OK	-	-	-	(empty)	-	-	-	-	-	FM1mPy2DcxPKWXLdS3	binary
+#close	2014-04-03-10-39-13

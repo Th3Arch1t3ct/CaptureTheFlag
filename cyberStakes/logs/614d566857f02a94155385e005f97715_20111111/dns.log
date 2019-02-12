@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-10-41
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1321012160.745309	C3NSuU2b61l0O2oMn9	192.168.98.10	1029	4.2.2.3	53	udp	18317	jumbo-zoomarkt.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.101.39.1	43178.000000	F
+1321012161.171488	C3NSuU2b61l0O2oMn9	192.168.98.10	1029	4.2.2.3	53	udp	56460	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.159.95	176.000000,267.000000	F
+1321012161.395401	C3NSuU2b61l0O2oMn9	192.168.98.10	1029	4.2.2.3	53	udp	18831	api.twitter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.59.148.87,199.59.149.200,199.59.149.232,199.59.148.20	11.000000,11.000000,11.000000,11.000000	F
+1321012163.870284	C3NSuU2b61l0O2oMn9	192.168.98.10	1029	4.2.2.3	53	udp	11662	pdeqfrhpncz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.227.204.203	3506.000000	F
+1321012199.656087	CNxaGd4zpH9EWu71S1	192.168.98.10	1029	4.2.2.3	53	udp	17806	isys673ghdftsg.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.22.239.250	3527.000000	F
+1321012229.188426	CsI9fo2h6j0mZXf1Lf	192.168.98.10	1029	4.2.2.3	53	udp	39817	hdjsa7y3hjdg.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.149.1.146,76.235.33.251	1.000000,1.000000	F
+#close	2014-04-03-11-10-42

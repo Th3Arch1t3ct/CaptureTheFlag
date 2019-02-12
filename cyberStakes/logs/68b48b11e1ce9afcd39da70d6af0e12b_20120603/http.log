@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-10-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1338694122.582368	CSB8rf56IpZQYQBU3	192.168.65.10	1030	178.33.236.61	80	1	GET	creamosjuegos6.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4099	200	OK	-	-	-	(empty)	-	-	-	-	-	FAR72W2Nzb2F3Bqwq2	text/html
+1338694127.215933	CDeKf34rk8nquW8S3k	192.168.65.10	1035	71.156.52.3	80	1	GET	xakruaq.ru	/count27.php	http://creamosjuegos6.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	(empty)	-	-	-	(empty)	-	-	-	-	-	-	-
+1338694137.814844	CKfhac3HzZMc33bbT1	192.168.65.10	1036	89.149.226.216	80	1	GET	89.149.226.216	/58590006.html	http://creamosjuegos6.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	382	200	OK	-	-	-	(empty)	-	-	-	-	-	FsdO3e2C75BG4FOmth	text/html
+1338694139.429057	C9Oo8u16ofeVc93FJ8	192.168.65.10	1037	89.149.226.216	80	1	GET	89.149.226.216	/24842.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	44433	200	OK	-	-	-	(empty)	-	-	-	-	-	Fz7cOl2dgl9Datpr14	application/zip
+1338694140.311635	C9Oo8u16ofeVc93FJ8	192.168.65.10	1037	89.149.226.216	80	2	GET	89.149.226.216	/24842.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	44433	200	OK	-	-	-	(empty)	-	-	-	-	-	Fgzl5ZI8sBlSvf8Fh	application/zip
+1338694140.806617	C9Oo8u16ofeVc93FJ8	192.168.65.10	1037	89.149.226.216	80	3	GET	89.149.226.216	/24842.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	44433	200	OK	-	-	-	(empty)	-	-	-	-	-	FjPB2f3HP8wPZAViI5	application/zip
+1338694141.279409	C9Oo8u16ofeVc93FJ8	192.168.65.10	1037	89.149.226.216	80	4	GET	89.149.226.216	/1.html	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	52059	200	OK	-	-	-	(empty)	-	-	-	-	-	FccHMZ2CYVCBIQmh1	application/x-dosexec
+#close	2014-04-03-11-10-26

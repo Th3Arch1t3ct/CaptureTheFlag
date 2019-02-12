@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-05-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1325216128.110862	CR0rlv2s303ajujg9d	192.168.56.10	1029	4.2.2.3	53	udp	2441	fullfastreview.org.uk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.186.30.11	577.000000	F
+1325216131.162732	CR0rlv2s303ajujg9d	192.168.56.10	1029	4.2.2.3	53	udp	14472	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.65.95	2926.000000,35.000000	F
+1325216131.16937	CR0rlv2s303ajujg9d	192.168.56.10	1029	4.2.2.3	53	udp	10379	menozacinfo.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.52.141.210	14400.000000	F
+1325216133.976403	CR0rlv2s303ajujg9d	192.168.56.10	1029	4.2.2.3	53	udp	4747	www.statcounter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	g1.panthercdn.com,66.114.51.72,66.114.51.100	3970.000000,14.000000,14.000000	F
+1325216134.070157	CR0rlv2s303ajujg9d	192.168.56.10	1029	4.2.2.3	53	udp	40586	c.statcounter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.215.253.140,67.215.253.139	415.000000,415.000000	F
+1325216134.290136	CR0rlv2s303ajujg9d	192.168.56.10	1029	4.2.2.3	53	udp	11917	api.twitter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.59.148.87,199.59.149.200,199.59.149.232,199.59.148.20	16.000000,16.000000,16.000000,16.000000	F
+1325216135.937844	CR0rlv2s303ajujg9d	192.168.56.10	1029	4.2.2.3	53	udp	22412	stvdoweicoop.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.208.228.168,85.69.21.43	1.000000,1.000000	F
+1325216164.783614	CQvhc236i7cV7AICCe	192.168.56.10	1029	4.2.2.3	53	udp	12942	stvdoweicoop.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	76.16.124.10,145.100.126.74	1.000000,1.000000	F
+1325216165.543681	CQvhc236i7cV7AICCe	192.168.56.10	1029	4.2.2.3	53	udp	19598	tqweytgbf32g.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	128.204.195.85	37810.000000	F
+#close	2014-04-03-11-05-54

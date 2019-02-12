@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-04-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1344934669.234195	CrsauDO7IjB3Bppzb	192.168.113.10	1043	188.64.188.41	80	FsLlDg2sAsHsfffWN2	application/x-dosexec	http://qmg2.com/3.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 59%  Last seen: 2012-08-20 12:46:06	https://www.virustotal.com/en/search/?query=58d0584e9be7087e7c50f1b22ecadb94e63e7514	192.168.113.10	188.64.188.41	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-04-08

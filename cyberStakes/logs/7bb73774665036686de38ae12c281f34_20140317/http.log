@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-22-51
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1395081599.556719	CC6bAO2LynxZfKyi7g	192.168.71.10	1036	69.197.18.187	80	1	GET	pets.petslogger.com	/	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	770	200	OK	-	-	-	(empty)	-	-	-	-	-	FmmTR61Sw1USXud0qd	text/html
+1395081599.783361	CcXCFo3GzJY7U42bRk	192.168.71.10	1037	67.23.226.179	80	1	GET	67.23.226.179	/~soxxusa1/	http://pets.petslogger.com/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	459	200	OK	-	-	-	(empty)	-	-	-	-	-	Ft0N5j3kyFZ0FMg9Tj	text/html
+1395081600.213289	CC6bAO2LynxZfKyi7g	192.168.71.10	1036	69.197.18.187	80	2	GET	pets.petslogger.com	/favicon.ico	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	803	200	OK	-	-	-	(empty)	-	-	-	-	-	FTSbG24Yj0LrSNdM3a	text/html
+1395081600.30743	CWn3mp4H0TfutYqCj2	192.168.71.10	1038	67.23.226.179	80	1	GET	67.23.226.179	/~soxxusa1/March-Photos-2014.scr	http://67.23.226.179/~soxxusa1/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	17311	200	OK	-	-	-	(empty)	-	-	-	-	-	Fx7tQl1SwVnY9ngJ7i	application/x-dosexec
+#close	2014-04-03-10-22-51

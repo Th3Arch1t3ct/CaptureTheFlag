@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-44-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1340523993.938646	CkCDDO2GTQAushz5Vi	192.168.125.10	1052	178.162.167.136	80	F3OUfv16L2hvXSu8Yf	application/x-dosexec	http://178.162.167.136/1.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 89%  Last seen: 2014-01-03 16:41:14	https://www.virustotal.com/en/search/?query=2c9d98d26d95fde90c3936c398f8810e9f1c4e55	192.168.125.10	178.162.167.136	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1340524022.381412	C6s9YV3P6qOWZ48QEc	192.168.125.10	1084	195.210.47.239	80	FYeqgu40woh5ReJXw5	application/x-dosexec	http://ferfis.ipq.co/f/it1.exe?ts=9d7915e7&affid=5630	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2012-07-03 07:06:17	https://www.virustotal.com/en/search/?query=c765fbfda0ee9b528e7d550eb2cd9ce2c28772a7	192.168.125.10	195.210.47.239	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1340524022.545938	C3FSYW29eTRFap77nf	192.168.125.10	1057	94.75.199.209	80	F8iD7trQ6U7MHwP4j	application/x-dosexec	http://herbal2pharmacy.com/1.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 64%  Last seen: 2012-07-15 17:31:12	https://www.virustotal.com/en/search/?query=28ed80b0bc41c25df331676d13edaa23951ee396	192.168.125.10	94.75.199.209	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-44-26

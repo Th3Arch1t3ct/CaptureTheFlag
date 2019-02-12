@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-13-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1316358417.734059	C2ye0Y3jwsUH9ej1F	192.168.86.10	1030	64.22.81.98	80	1	GET	mrpatterson.org	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1240	200	OK	-	-	-	(empty)	-	-	-	-	-	FJ4keU3fW6N1h60TCd	text/html
+1316358418.927257	CAdZAS3V51KAWpv471	192.168.86.10	1032	188.229.88.82	80	1	GET	3169146962	/a.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	2245	200	OK	-	-	-	(empty)	-	-	-	-	-	FJUVOx22ia1zgu97aa	application/x-java-applet
+1316358418.929053	CfUQ6L2LiVfIR4v8K5	192.168.86.10	1031	188.229.88.82	80	1	GET	3169146962	/a.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	2245	200	OK	-	-	-	(empty)	-	-	-	-	-	FRvdc71B2zvzaTsi2e	application/x-java-applet
+1316358419.683354	CAdZAS3V51KAWpv471	192.168.86.10	1032	188.229.88.82	80	2	GET	3169146962	/options.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3394	200	OK	-	-	-	(empty)	-	-	-	-	-	FSU5WR1YnkKnBW79v8	application/x-java-applet
+1316358420.098647	Ci83os1uEIDn5Kmhpc	192.168.86.10	1037	188.229.88.82	80	1	GET	3169146962	/g.gif	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	74752	200	OK	-	-	-	(empty)	-	-	-	-	-	FVqlb71z3D9UptiI5a	application/x-dosexec
+1316358420.100733	C5p7J1qul2f2rsfmi	192.168.86.10	1038	188.229.88.82	80	1	GET	3169146962	/g.gif	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	74752	200	OK	-	-	-	(empty)	-	-	-	-	-	FpkcvC4jvmy4zZOFDi	application/x-dosexec
+1316358424.58729	CYzS9g1szI6r8e8end	192.168.86.10	1039	188.229.88.82	80	1	GET	3169146962	/crossdomain.xml	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	169	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FVVuAt41yxOPlDXnSh	text/html
+#close	2014-04-03-11-13-56

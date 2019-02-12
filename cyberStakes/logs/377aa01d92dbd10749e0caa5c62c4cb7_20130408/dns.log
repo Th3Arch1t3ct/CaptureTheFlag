@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-40-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1365455941.192295	CQn3C43Fr59TPjS5G1	192.168.65.10	1029	4.2.2.3	53	udp	8843	rexing.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.4.22.155	582.000000	F
+1365455941.429369	CQn3C43Fr59TPjS5G1	192.168.65.10	1029	4.2.2.3	53	udp	50313	www.rexing.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.4.22.155	600.000000	F
+1365455957.312345	CpI9Sp1qib6qmoiu81	192.168.65.10	1029	4.2.2.3	53	udp	41359	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.134.101,74.125.134.100,74.125.134.113,74.125.134.138,74.125.134.139,74.125.134.102	8017.000000,153.000000,153.000000,153.000000,153.000000,153.000000,153.000000	F
+1365455983.194086	CXCupo3GLY3IAoLqz6	192.168.65.10	1029	4.2.2.3	53	udp	61838	fcbarcelonadodocom.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	108.162.198.226,108.162.199.226	300.000000,300.000000	F
+1365455983.627212	CXCupo3GLY3IAoLqz6	192.168.65.10	1029	4.2.2.3	53	udp	1677	ingeacustic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	77.72.201.6	86400.000000	F
+1365455986.033998	CXCupo3GLY3IAoLqz6	192.168.65.10	1029	4.2.2.3	53	udp	908	bf72a8df.linkbucks.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	lex-in.linkbucks.com,199.59.167.109	150.000000,9.000000	F
+1365455986.225083	CXCupo3GLY3IAoLqz6	192.168.65.10	1029	4.2.2.3	53	udp	50050	static.linkbucks.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wac.45ee.edgecastcdn.net,gs1.wac.v4cdn.net,93.184.216.169	60.000000,277.000000,1959.000000	F
+1365455986.376671	CXCupo3GLY3IAoLqz6	192.168.65.10	1029	4.2.2.3	53	udp	14722	www.linkbucksmedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.59.167.109	300.000000	F
+1365455986.479239	CXCupo3GLY3IAoLqz6	192.168.65.10	1029	4.2.2.3	53	udp	1153	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.d.akamai.net,23.67.61.72,23.67.61.35	11102.000000,224.000000,15544.000000,13.000000,13.000000	F
+1365455986.53948	CXCupo3GLY3IAoLqz6	192.168.65.10	1029	4.2.2.3	53	udp	4224	www.down1oads.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	down1oads.com,78.138.127.87	1800.000000,1129.000000	F
+1365455986.816908	CXCupo3GLY3IAoLqz6	192.168.65.10	1029	4.2.2.3	53	udp	22656	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.140.95	2588.000000,267.000000	F
+1365455994.059765	CXCupo3GLY3IAoLqz6	192.168.65.10	1029	4.2.2.3	53	udp	64902	download.softiglu.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.138.127.87	1800.000000	F
+1365455994.402429	CXCupo3GLY3IAoLqz6	192.168.65.10	1029	4.2.2.3	53	udp	61573	static.bicdn.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	download.betterinstaller.com,betterinstaller.com,78.138.97.8	600.000000,600.000000,600.000000	F
+#close	2014-04-03-10-40-54

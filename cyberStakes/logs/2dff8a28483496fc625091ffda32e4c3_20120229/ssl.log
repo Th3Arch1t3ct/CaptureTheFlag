@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-09-52-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1330500704.353234	CYQmrtA8im9oOT6x9	192.168.91.10	1043	173.204.169.22	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=bongosecure.com,OU=Domain Control Validated,O=bongosecure.com	serialNumber=07969287,CN=Go Daddy Secure Certification Authority,OU=http://certificates.godaddy.com/repository,O=GoDaddy.com\, Inc.,L=Scottsdale,ST=Arizona,C=US	1315947555.000000	1347844952.000000	-	-	-	ccabdd2761a79958fc7c8256b794489a	ok
+1330500705.839642	CAmVx52coMK3PJKiLe	192.168.91.10	1049	207.171.163.24	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.s3.amazonaws.com,O=Amazon.com Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1292392800.000000	1387432799.000000	-	-	-	e3cc103aacd8beea27f01fd08da597bd	ok
+1330500705.868622	CqZajN28eJvnrC1esk	192.168.91.10	1050	207.171.163.24	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.s3.amazonaws.com,O=Amazon.com Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1292392800.000000	1387432799.000000	-	-	-	e3cc103aacd8beea27f01fd08da597bd	ok
+1330500707.068348	CkAvhs4KtetHJQCEp	192.168.91.10	1053	173.204.169.22	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	dc76a96e2ffe6ee3c7b0da8f71cef108c4127e2626fec484c78c5da2e1ef6add	-	-	-	-	-	-	-	-	-
+1330500713.248882	CSJLc71psDYZZUdgm6	192.168.91.10	1082	68.142.205.139	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.store.yahoo.net,OU=Yahoo,O=Yahoo! Inc.,L=Santa Clara,ST=California,C=US	OU=Equifax Secure Certificate Authority,O=Equifax,C=US	1183685848.000000	1341452248.000000	-	-	-	90308772abd1e5eaa200000000085fff	ok
+1330500713.250353	CY1fHd2snOUVbmptU2	192.168.91.10	1083	68.142.205.139	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.store.yahoo.net,OU=Yahoo,O=Yahoo! Inc.,L=Santa Clara,ST=California,C=US	OU=Equifax Secure Certificate Authority,O=Equifax,C=US	1183685848.000000	1341452248.000000	-	-	-	90308772abd1e5eaa200000000085fff	ok
+1330500713.552258	CDp0RH2tKlGEPuA3Gj	192.168.91.10	1086	68.142.205.139	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	b127d3c0ad8fc422806a7ae6cf77785445078c8a222dfea50f74db5cd84260a2	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-09-52-20

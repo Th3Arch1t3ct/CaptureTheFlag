@@ -1,0 +1,37 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-10-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1338589115.741099	CmpRXn2n2mXX14Adnl	192.168.40.10	1030	188.72.213.72	80	1	GET	fsportal.info	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	18505	200	OK	-	-	-	(empty)	-	-	-	-	-	FnpbC816YiMMrcHP1l	text/html
+1338589116.769982	C7UguN1dSTH6Qzo5Wf	192.168.40.10	1031	37.59.198.61	80	1	GET	abccrowns.net	/?0ad32fe595f70dbb30466dc44b51f49f=16&fb214e6f262141a0b1f5fe011195493f=1.6.0.10&882b125510e013ee5ce72626932d2872=	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1583	200	OK	-	-	-	(empty)	-	-	-	-	-	FU7gsb21gNSwbhEL13	text/html
+1338589118.774315	CFK1Os32vmGu3AciO8	192.168.40.10	1036	37.59.198.61	80	1	GET	abccrowns.net	/?d80f6857b371ece206a5acb2de9f57e8	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3553	200	OK	-	-	-	(empty)	-	-	-	-	-	FfQzyh1KUWswV608z	application/jar
+1338589118.777056	CbyQzC4FXdu5j2vDE8	192.168.40.10	1037	37.59.198.61	80	1	GET	abccrowns.net	/?daea6e205fbaf89b68ca25437909be5f	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	9066	200	OK	-	-	-	(empty)	-	-	-	-	-	FcKdGO1FpmZozZaZck	application/jar
+1338589119.306184	CZb0vE4r73LG2CiKd3	192.168.40.10	1038	37.59.198.61	80	1	GET	abccrowns.net	/?d80f6857b371ece206a5acb2de9f57e8	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3553	200	OK	-	-	-	(empty)	-	-	-	-	-	F6fFXv32sCv3t8inY7	application/jar
+1338589119.307332	CPBE9v3Qb0yq4S7L7g	192.168.40.10	1039	37.59.198.61	80	1	GET	abccrowns.net	/?daea6e205fbaf89b68ca25437909be5f	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	9066	200	OK	-	-	-	(empty)	-	-	-	-	-	FaTs4QGufWmTo6zA4	application/jar
+1338589119.672697	CvzizBwkaZTZKlzvl	192.168.40.10	1040	37.59.198.61	80	1	GET	abccrowns.net	/?daea6e205fbaf89b68ca25437909be5f	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	9066	200	OK	-	-	-	(empty)	-	-	-	-	-	F6b3Es25IdAbl5OL4	application/jar
+1338589119.683025	CvoIhL1LAq56doZcj2	192.168.40.10	1041	37.59.198.61	80	1	GET	abccrowns.net	/?d80f6857b371ece206a5acb2de9f57e8	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3553	200	OK	-	-	-	(empty)	-	-	-	-	-	FMyymA2lyCJXxjHLb7	application/jar
+1338589120.245568	CaZqtl2tey5CKAS4S7	192.168.40.10	1042	37.59.198.61	80	1	GET	abccrowns.net	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FA6WlG1MxKTLj32CC6	text/html
+1338589120.558832	C2OK0K10cw0GARoiob	192.168.40.10	1044	37.59.198.61	80	1	GET	abccrowns.net	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FQZY1F4WUvIFSemnBj	text/html
+1338589120.86629	CufGAypXfw7QFHZpg	192.168.40.10	1045	37.59.198.61	80	1	GET	abccrowns.net	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F0hAco2eUorEuO5Haf	text/html
+1338589121.19227	CxPi7HROeGBVludQl	192.168.40.10	1046	37.59.198.61	80	1	GET	abccrowns.net	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Fi2AZ93mnE511eV2o6	text/html
+1338589120.353596	CamQEx3CwIXn0ynpZg	192.168.40.10	1043	37.59.198.61	80	1	GET	abccrowns.net	/?42a51b958cdbf7330122abea515fc836	-	Java/1.6.0_10	0	164864	200	OK	-	-	-	(empty)	-	-	-	-	-	FOBHub4DICHcPMeA69	application/x-dosexec
+1338589121.929738	C3jiXA4CDCAD3BPQR2	192.168.40.10	1048	37.59.198.61	80	1	GET	abccrowns.net	/?16a6a85a3ce4b14dc51721941df8809f	-	Java/1.6.0_10	0	36352	200	OK	-	-	-	(empty)	-	-	-	-	-	FBKqu8mizRalxloyh	application/x-dosexec
+1338589121.709889	CbHOjQ1a4frgR3tkg8	192.168.40.10	1047	37.59.198.61	80	1	GET	abccrowns.net	/?e345ff7030e517e9c668d1d6a48149fc	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	164864	200	OK	-	-	-	(empty)	-	-	-	-	-	FR57Pj1oVzm9z2glne	application/x-dosexec
+1338589122.559017	CJN26r3xnZn8Rvmwzg	192.168.40.10	1049	37.59.198.61	80	1	GET	abccrowns.net	/?4aa717d5a649169749852c4d10c792c9	-	Java/1.6.0_10	0	96736	200	OK	-	-	-	(empty)	-	-	-	-	-	FoDZ983bz6aEYJWCzc	application/x-dosexec
+1338589127.67187	CKO8Nq2KdZDVSDZDb8	192.168.40.10	1050	37.59.198.61	80	1	GET	abccrowns.net	/?bad688c2715f05b900000c23b637187d	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	36352	200	OK	-	-	-	(empty)	-	-	-	-	-	FgHrW5nigsnyKUOs9	application/x-dosexec
+1338589135.967865	CkLpZs2eYtXj16gXab	192.168.40.10	1053	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	29	200	OK	-	-	-	(empty)	-	-	-	-	-	FlJ6Er2vbRbZk9wLBh	text/plain
+1338589137.11487	CdhQSIddVL8tHkUz8	192.168.40.10	1059	192.166.218.218	80	1	POST	192.166.218.218	/lee/data.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	74	4	200	OK	-	-	-	(empty)	-	-	-	FR51Nl3WmbyPc8cQqb	binary	FDzuDc14H8x8Gw9sBf	binary
+1338589138.092617	CHsCWw39em6kdPC8l2	192.168.40.10	1068	37.59.198.61	80	1	GET	abccrowns.net	/?a4ab25de89212ea5148cae03d71c885b	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	96736	200	OK	-	-	-	(empty)	-	-	-	-	-	FvClX92jannk7WwLc4	application/x-dosexec
+1338589136.955707	CD7Tby462IYXAcLUDl	192.168.40.10	1058	50.95.95.2	80	1	GET	zynxuih.ru	/ivanp53.exe	-	-	0	792576	200	Ok	-	-	-	(empty)	-	-	-	-	-	FplAlinrmH9z5JDg7	application/x-dosexec
+1338589127.773029	CG53mC3fgj49xy5208	192.168.40.10	1051	74.122.94.99	80	1	GET	zynxuih.ru	/ivanp53.exe	-	-	0	792576	200	Ok	-	-	-	(empty)	-	-	-	-	-	F93lxIa7xYDRyjTk5	application/x-dosexec
+1338589149.158165	CUoHsO30eOJcDMtRgi	192.168.40.10	1084	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	29	200	OK	-	-	-	(empty)	-	-	-	-	-	FPMmaP3Az6sobjzew3	text/plain
+1338589155.315788	C2J7A01UVrDsbujcjk	192.168.40.10	1097	37.59.198.61	80	1	GET	abccrowns.net	/?e345ff7030e517e9c668d1d6a48149fc	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	164864	200	OK	-	-	-	(empty)	-	-	-	-	-	FCs2hn1gqLxCGkv5j9	application/x-dosexec
+1338589162.456282	C2xo742i8BE8nmGIHe	192.168.40.10	1098	37.59.198.61	80	1	GET	abccrowns.net	/?bad688c2715f05b900000c23b637187d	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	36352	200	OK	-	-	-	(empty)	-	-	-	-	-	FvjceX34eGVhTxK6Ri	application/x-dosexec
+1338589164.820154	CQW4b626h6zZZHpg9a	192.168.40.10	1107	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	29	200	OK	-	-	-	(empty)	-	-	-	-	-	Fw06Bb1GJQwvaKnVVl	text/plain
+1338589166.094286	C16ADU5bUcHemQFs6	192.168.40.10	1117	37.59.198.61	80	1	GET	abccrowns.net	/?a4ab25de89212ea5148cae03d71c885b	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	96736	200	OK	-	-	-	(empty)	-	-	-	-	-	Fkq0Oz3NxppMd9onQ7	application/x-dosexec
+1338589168.892105	Cs54Es1tpVF5DWs7uk	192.168.40.10	1120	95.57.215.50	80	1	GET	zynxuih.ru	/ivanp53.exe	-	-	0	792576	200	Ok	-	-	-	(empty)	-	-	-	-	-	FVE2PK2YFSgYnZhFCf	application/x-dosexec
+#close	2014-04-03-11-10-50

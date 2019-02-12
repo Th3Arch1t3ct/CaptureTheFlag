@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-42-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1329157183.667876	CIIKad3bmi9txPGAre	192.168.29.10	1029	4.2.2.3	53	udp	8843	www.souseikai.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	203.180.140.108	28779.000000	F
+1329157184.073585	CIIKad3bmi9txPGAre	192.168.29.10	1029	4.2.2.3	53	udp	32650	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.65.138,74.125.65.139,74.125.65.100,74.125.65.101,74.125.65.102,74.125.65.113	40225.000000,289.000000,289.000000,289.000000,289.000000,289.000000,289.000000	F
+1329157184.920114	CIIKad3bmi9txPGAre	192.168.29.10	1029	4.2.2.3	53	udp	2442	maps.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	maps.l.google.com,74.125.45.100,74.125.45.101,74.125.45.102,74.125.45.113,74.125.45.138,74.125.45.139	40515.000000,79.000000,79.000000,79.000000,79.000000,79.000000,79.000000	F
+1329157184.9555	CIIKad3bmi9txPGAre	192.168.29.10	1029	4.2.2.3	53	udp	62345	maps.gstatic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.125.45.120	300.000000	F
+1329157190.649281	CIIKad3bmi9txPGAre	192.168.29.10	1029	4.2.2.3	53	udp	39560	w1ndows.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	83.69.233.139	38400.000000	F
+1329157191.64385	CIIKad3bmi9txPGAre	192.168.29.10	1029	4.2.2.3	53	udp	48783	qopz.org.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.212.128.31	900.000000	F
+1329157194.134125	CIIKad3bmi9txPGAre	192.168.29.10	1029	4.2.2.3	53	udp	22158	maps.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.157.95	2175.000000,278.000000	F
+1329157198.270669	CIIKad3bmi9txPGAre	192.168.29.10	1029	4.2.2.3	53	udp	38796	bober.net.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.212.128.31	900.000000	F
+#close	2014-04-03-10-42-46

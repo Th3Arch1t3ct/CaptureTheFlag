@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-12-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1321568142.592801	ColhDB1GmCkHvXoMA3	192.168.43.10	1048	109.236.82.76	80	FtFKAjl1k4APnIr8b	application/x-dosexec	http://mp5storage.in/dl/dl.php?4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2011-12-15 19:53:13	https://www.virustotal.com/en/search/?query=3788a74056800bbe3796a1829f26aebd9f42652b	192.168.43.10	109.236.82.76	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1321568153.581872	CSdNTN3fCaG0h30lP9	192.168.43.10	1050	205.209.141.137	80	F8Vp20136oP6BKeEk1	application/x-dosexec	http://www.webreiseinfo.com/1433.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 14%  Last seen: 2011-11-16 21:31:04	https://www.virustotal.com/en/search/?query=d072b3aa139f34409491dbc92b8b42873679d3fe	192.168.43.10	205.209.141.137	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-12-11

@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-04-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1358287672.139757	CSbcCd1Engk5eerEbe	192.168.126.10	1029	4.2.2.3	53	udp	51350	mikaelasptjallden.se	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	212.97.132.158	86400.000000	F
+1358287682.301781	CCpxmi2GG4cxfpLChd	192.168.126.10	1029	4.2.2.5	53	udp	14231	earing-debasededit.hk.ms	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.138.88.212	3600.000000	F
+1358287681.287206	CSbcCd1Engk5eerEbe	192.168.126.10	1029	4.2.2.3	53	udp	14231	earing-debasededit.hk.ms	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.138.88.212	3600.000000	F
+1358287682.829142	CCpxmi2GG4cxfpLChd	192.168.126.10	1029	4.2.2.5	53	udp	61333	50f5c0a88ed91.broadwaybooking.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.40.199.98	1800.000000	F
+1358287706.167788	CtVNMM2D7l4sTQB8Za	192.168.126.10	1029	4.2.2.5	53	udp	43922	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	3341.000000,41.000000	F
+1358287706.33289	CtVNMM2D7l4sTQB8Za	192.168.126.10	1029	4.2.2.5	53	udp	6803	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,64.4.52.169	3342.000000,9.000000	F
+1358287715.093193	CtVNMM2D7l4sTQB8Za	192.168.126.10	1029	4.2.2.5	53	udp	22416	98.199.40.188.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	static.98.199.40.188.clients.your-server.de	86400.000000	F
+1358287715.20351	CtVNMM2D7l4sTQB8Za	192.168.126.10	1029	4.2.2.5	53	udp	1694	static.98.199.40.188.clients.your-server.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.40.199.98	600.000000	F
+#close	2014-04-03-10-04-02

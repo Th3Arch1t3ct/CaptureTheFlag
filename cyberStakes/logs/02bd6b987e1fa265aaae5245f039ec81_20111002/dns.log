@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-27-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1317590455.772907	CojjBF1WGX9XrgAFvj	192.168.107.10	1029	4.2.2.3	53	udp	2955	bux-oren.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.239.198.111	14375.000000	F
+1317590457.661159	CojjBF1WGX9XrgAFvj	192.168.107.10	1029	4.2.2.3	53	udp	19848	profitcentr.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.46.47.71	14400.000000	F
+1317590458.110275	CojjBF1WGX9XrgAFvj	192.168.107.10	1029	4.2.2.3	53	udp	27785	www.seosprint.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.133.109.73	3600.000000	F
+1317590458.248414	CojjBF1WGX9XrgAFvj	192.168.107.10	1029	4.2.2.3	53	udp	3471	counter.yadro.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	88.212.196.69,88.212.196.77,88.212.196.101,88.212.196.102,88.212.196.103,88.212.196.104,88.212.196.105,88.212.196.66	95.000000,95.000000,95.000000,95.000000,95.000000,95.000000,95.000000,95.000000	F
+1317590458.25258	Cg9SeW3x2aPGT1LUy9	192.168.107.10	1044	4.2.2.3	53	udp	49292	liveinternet.ddns.name	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.66.202	31.000000	F
+1317590472.950632	CojjBF1WGX9XrgAFvj	192.168.107.10	1029	4.2.2.3	53	udp	37773	n9usfpnidvcn9sruhvidn.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.228.133.51	3600.000000	F
+1317590472.796097	CojjBF1WGX9XrgAFvj	192.168.107.10	1029	4.2.2.3	53	udp	51852	n9euwfhcsn9uhsficd.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	F	0	-	-	F
+1317590472.796097	CojjBF1WGX9XrgAFvj	192.168.107.10	1029	4.2.2.3	53	udp	51852	n9euwfhcsn9uhsficd.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-27-31

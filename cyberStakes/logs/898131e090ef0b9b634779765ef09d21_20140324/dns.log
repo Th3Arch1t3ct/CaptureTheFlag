@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-08-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1395635705.562282	CyfCuf4BadlVj39725	192.168.13.10	1035	4.2.2.3	53	udp	12425	www.isletonchamber.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	isletonchamber.com,216.113.194.129	3568.000000,3568.000000	F
+1395635708.268387	CyfCuf4BadlVj39725	192.168.13.10	1035	4.2.2.3	53	udp	19337	weathersticker.wunderground.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	banners.wunderground.com,38.102.136.101	300.000000,300.000000	F
+1395635711.315573	CyfCuf4BadlVj39725	192.168.13.10	1035	4.2.2.3	53	udp	3210	www.wuzr.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wuzr.com,173.199.189.184	3600.000000,3600.000000	F
+1395635713.470321	CyfCuf4BadlVj39725	192.168.13.10	1035	4.2.2.3	53	udp	59275	2mi105zv80s6927-g6yn.karlity.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	198.50.185.82	3600.000000	F
+1395635714.470182	CBFOzi1hsjXbRHheJc	192.168.13.10	1035	4.2.2.5	53	udp	59275	2mi105zv80s6927-g6yn.karlity.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	198.50.185.82	3600.000000	F
+1395635715.469297	CyfCuf4BadlVj39725	192.168.13.10	1035	4.2.2.3	53	udp	59275	2mi105zv80s6927-g6yn.karlity.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	198.50.185.82	3600.000000	F
+1395635720.622772	CyfCuf4BadlVj39725	192.168.13.10	1035	4.2.2.3	53	udp	39564	2738439018-6.karlity.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	198.50.185.82	3600.000000	F
+1395635723.043376	CyfCuf4BadlVj39725	192.168.13.10	1035	4.2.2.3	53	udp	48525	82.185.50.198.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1395635723.043376	CyfCuf4BadlVj39725	192.168.13.10	1035	4.2.2.3	53	udp	48525	82.185.50.198.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1395635723.043376	CyfCuf4BadlVj39725	192.168.13.10	1035	4.2.2.3	53	udp	48525	82.185.50.198.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1395635723.043376	CyfCuf4BadlVj39725	192.168.13.10	1035	4.2.2.3	53	udp	48525	82.185.50.198.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1395635723.043376	CyfCuf4BadlVj39725	192.168.13.10	1035	4.2.2.3	53	udp	48525	82.185.50.198.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-08-08

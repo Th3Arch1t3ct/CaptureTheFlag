@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-14-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1320495334.855387	Caz8jR23Rqb2bE0MSi	192.168.14.10	1029	4.2.2.3	53	udp	9869	sport6.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.82.11.29	575.000000	F
+1320495334.902934	Caz8jR23Rqb2bE0MSi	192.168.14.10	1029	4.2.2.3	53	udp	33422	www.sport6.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.82.11.29	576.000000	F
+1320495335.733463	Caz8jR23Rqb2bE0MSi	192.168.14.10	1029	4.2.2.3	53	udp	18831	s7.addthis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wildcard.addthis.com.edgekey.net,e2943.c.akamaiedge.net,72.246.228.20	229.000000,3031.000000,11.000000	F
+1320495336.220004	Caz8jR23Rqb2bE0MSi	192.168.14.10	1029	4.2.2.3	53	udp	59279	s23.cnzz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cache.cnzz.com,a.cnzz.com.lxdns.com,4399.ecoma.glb0.lxdns.com,183.60.136.65	7200.000000,7200.000000,225.000000,120.000000	F
+1320495359.020689	CB2U0q1IzvdS9TrdT	192.168.14.10	1029	4.2.2.3	53	udp	32137	api-public.addthis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wildcard.addthis.com.edgekey.net,e2943.c.akamaiedge.net,72.246.228.20	108.000000,3007.000000,7.000000	F
+#close	2014-04-03-11-14-35

@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-03-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1328150186.545278	C7D2cNvEiEQ1gds44	192.168.3.10	1029	4.2.2.3	53	udp	25229	jmsschildersbedrijf.nl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.129.139.183	43179.000000	F
+1328150186.847064	C7D2cNvEiEQ1gds44	192.168.3.10	1029	4.2.2.3	53	udp	31630	www.jmsschildersbedrijf.nl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.129.139.183	43200.000000	F
+1328150188.619872	CPrbjm4JmUGwjqRvki	192.168.3.10	1039	4.2.2.3	53	udp	30856	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.65.113,74.125.65.138,74.125.65.139,74.125.65.100,74.125.65.101,74.125.65.102	10390.000000,94.000000,94.000000,94.000000,94.000000,94.000000,94.000000	F
+1328150188.48606	C7D2cNvEiEQ1gds44	192.168.3.10	1029	4.2.2.3	53	udp	10632	hnmgsr6r.nenaborba.com.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.208.33.18	3600.000000	F
+1328150189.697665	CPrbjm4JmUGwjqRvki	192.168.3.10	1039	4.2.2.3	53	udp	11913	magicportal2.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.17.77.148	30.000000	F
+1328150190.023163	CPrbjm4JmUGwjqRvki	192.168.3.10	1039	4.2.2.3	53	udp	16009	abcthepower.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.17.77.149	30.000000	F
+#close	2014-04-03-11-03-48

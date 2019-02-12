@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-14-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1340153518.491394	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1340153559.467207	Cas1301NU3t2IHgxAh	192.168.65.10	1080	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1340153559.468682	CjuOGg2KCXCyxxoo2f	192.168.65.10	1082	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1340153559.478652	CPC4orDryLkPVZ7rj	192.168.65.10	1084	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1340153559.486236	COCKRy1d7eHlKB3bWc	192.168.65.10	1086	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1340153559.534094	CsbP3CwUKzqdcvYSi	192.168.65.10	1088	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1340153559.650227	CTewwZ1ZjzbWfMSDNf	192.168.65.10	1091	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1340153559.763549	CTkBihKZc2IZ95z3l	192.168.65.10	1094	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1340153559.764649	CaeXrd1RMjeiQo0JB5	192.168.65.10	1096	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1340153559.78611	CxzdLv4KAWIgGTvs21	192.168.65.10	1098	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1340153559.790595	C4RJvq37bj942HYIB9	192.168.65.10	1100	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1340153559.80589	C497eY36SanIEIQpY2	192.168.65.10	1102	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1340153566.960415	CNFbwgzQ8d8CuICWf	192.168.65.10	1107	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1340153566.965553	CABkWe1Ier6UEPRT1l	192.168.65.10	1109	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1340153567.102442	CeNm662UTCIJiCeYXg	192.168.65.10	1111	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1340153567.103835	CpoHua1T7n7YdjiUKb	192.168.65.10	1113	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1340153571.066462	CfPk513Nrm1wR9hl88	192.168.65.10	1115	31.193.12.27	80	bad_HTTP_request	-	F	bro
+1340153581.670343	C92QnDYMhS6xzLdCi	192.168.65.10	1121	71.75.157.250	16471	above_hole_data_without_any_acks	-	F	bro
+#close	2014-04-03-10-14-32

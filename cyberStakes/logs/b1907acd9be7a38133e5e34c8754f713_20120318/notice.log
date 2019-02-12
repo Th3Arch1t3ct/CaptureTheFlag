@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-57-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1332037143.007834	CoVLwB4tYzjA0JbEj4	192.168.50.10	1031	178.162.149.198	80	F6gxKb2DIYRYbFUD7f	application/x-dosexec	http://renuatsosd.info/w.php?f=00f49&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-03-20 03:07:34	https://www.virustotal.com/en/search/?query=758b7a8395df73d2430b7bc0bfed9bdee6a70fda	192.168.50.10	178.162.149.198	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1332037191.985981	CaCSF644I9mlhoIPy3	192.168.50.10	1036	178.162.149.198	80	FmPxNp2D2het0U7pvf	application/x-shockwave-flash	http://renuatsosd.info/content/score.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-03-15 10:05:29	https://www.virustotal.com/en/search/?query=4e3aecfc3f3669a2e76504285d9d076c8e76857c	192.168.50.10	178.162.149.198	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-57-07

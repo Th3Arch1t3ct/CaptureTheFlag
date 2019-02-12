@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-05-51
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1345282564.195741	CVxtBn25JyGXWjJB1c	192.168.74.10	1076	213.186.33.19	80	FM7aMH3BtAJP0Gzeul	application/x-dosexec	http://keurgui-lamaison.com/2.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 34%  Last seen: 2012-08-25 12:55:09	https://www.virustotal.com/en/search/?query=a5a514030ef0d73bfc5ecfc654f80561dc66bcd7	192.168.74.10	213.186.33.19	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1345282569.623004	CDJScE1xcJs29IZY92	192.168.74.10	1059	213.186.33.19	80	FgFfIW3FXNagvWDOE9	application/x-dosexec	http://keurgui-lamaison.com/3.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 34%  Last seen: 2012-08-25 12:55:09	https://www.virustotal.com/en/search/?query=a5a514030ef0d73bfc5ecfc654f80561dc66bcd7	192.168.74.10	213.186.33.19	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1345282602.656399	Ccn88y3Bo5bkeQzQc3	192.168.74.10	1144	194.219.29.235	80	FAV3St4tJRgYtWBmPl	application/x-dosexec	http://jimi.kopoese.com/f/notepad.exe?ts=1e8d647c&affid=5630	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 31%  Last seen: 2012-08-21 07:38:23	https://www.virustotal.com/en/search/?query=d324e2023bcb1b5c17c5a3a6c46f81b0267abea5	192.168.74.10	194.219.29.235	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-05-53

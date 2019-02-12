@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-46-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1337377598.556668	Czz2BF1pagU9zgi6X4	192.168.96.10	1029	4.2.2.3	53	udp	17807	iransalamat.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.142.240.98	43178.000000	F
+1337377598.839236	Czz2BF1pagU9zgi6X4	192.168.96.10	1029	4.2.2.3	53	udp	51599	www.iransalamat.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	iransalamat.com,174.142.240.98	43200.000000,43178.000000	F
+1337377599.462538	Czz2BF1pagU9zgi6X4	192.168.96.10	1029	4.2.2.3	53	udp	50828	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.137.138,74.125.137.139,74.125.137.100,74.125.137.101,74.125.137.102,74.125.137.113	21541.000000,277.000000,277.000000,277.000000,277.000000,277.000000,277.000000	F
+1337377599.481036	Czz2BF1pagU9zgi6X4	192.168.96.10	1029	4.2.2.3	53	udp	61325	www.webgozar.ir	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.160.40.17	2433.000000	F
+1337377599.969689	Czz2BF1pagU9zgi6X4	192.168.96.10	1029	4.2.2.3	53	udp	58762	engine.webgozar.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.148.112.188	27975.000000	F
+1337377599.97317	CjKbCnD3oEi0vsv9a	192.168.96.10	1049	4.2.2.3	53	udp	2696	img197.imagshacks.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.107.16.23	3600.000000	F
+1337377600.25765	Czz2BF1pagU9zgi6X4	192.168.96.10	1029	4.2.2.3	53	udp	21640	webgozar.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.160.40.17	38383.000000	F
+1337377604.303477	Czz2BF1pagU9zgi6X4	192.168.96.10	1029	4.2.2.3	53	udp	56200	windows-updatez2013.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.162.209.216	600.000000	F
+#close	2014-04-03-10-46-34

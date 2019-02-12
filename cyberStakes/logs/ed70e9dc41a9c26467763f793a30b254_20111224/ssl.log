@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-11-12-27
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1324769103.595643	C1Eqho2NVhyL49yzM3	192.168.66.10	1039	96.45.180.170	443	-	-	-	-	-	-	-	-	unknown-26002	-	-	-	-
+1324769103.595643	C1Eqho2NVhyL49yzM3	192.168.66.10	1039	96.45.180.170	443	-	-	-	-	-	-	-	-	unknown-62733	-	-	-	-
+1324769103.595643	C1Eqho2NVhyL49yzM3	192.168.66.10	1039	96.45.180.170	443	-	-	-	-	-	-	-	-	unknown-62733	-	-	-	-
+1324769103.595643	C1Eqho2NVhyL49yzM3	192.168.66.10	1039	96.45.180.170	443	-	-	-	-	-	-	-	-	unknown-7550	-	-	-	-
+1324769103.595643	C1Eqho2NVhyL49yzM3	192.168.66.10	1039	96.45.180.170	443	-	-	-	-	-	-	-	-	unknown-7550	-	-	-	-
+1324769103.595643	C1Eqho2NVhyL49yzM3	192.168.66.10	1039	96.45.180.170	443	-	-	-	-	-	-	-	-	unknown-7550	-	-	-	-
+1324769103.595643	C1Eqho2NVhyL49yzM3	192.168.66.10	1039	96.45.180.170	443	-	-	-	-	-	-	-	-	unknown-7550	-	-	-	-
+1324769103.595643	C1Eqho2NVhyL49yzM3	192.168.66.10	1039	96.45.180.170	443	-	-	-	-	-	-	-	-	unknown-7550	-	-	-	-
+1324769103.595643	C1Eqho2NVhyL49yzM3	192.168.66.10	1039	96.45.180.170	443	-	-	-	-	-	-	-	-	unknown-7550	-	-	-	-
+#close	2014-04-03-11-12-28

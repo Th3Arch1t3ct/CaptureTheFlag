@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-27-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1342035172.588249	Cx7kYT3jLaL4Udp7X2	192.168.118.10	1029	4.2.2.3	53	udp	4231	futurstep.ma	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.50.119.77	14380.000000	F
+1342035172.685093	Cx7kYT3jLaL4Udp7X2	192.168.118.10	1029	4.2.2.3	53	udp	15494	baffalo.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.149.15.143	43200.000000	F
+1342035173.155116	Cx7kYT3jLaL4Udp7X2	192.168.118.10	1029	4.2.2.3	53	udp	10629	akeyboard.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.168.173.91	30.000000	F
+1342035173.944223	Cx7kYT3jLaL4Udp7X2	192.168.118.10	1029	4.2.2.3	53	udp	39556	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,192.204.4.81,192.204.4.25,192.204.4.40,192.204.4.73	27817.000000,188.000000,20949.000000,17.000000,17.000000,17.000000,17.000000	F
+1342035174.085531	Cx7kYT3jLaL4Udp7X2	192.168.118.10	1029	4.2.2.3	53	udp	64131	nopearth.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.59.198.62	30.000000	F
+1342035179.28087	Cx7kYT3jLaL4Udp7X2	192.168.118.10	1029	4.2.2.3	53	udp	26498	62.198.59.37.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1342035179.28087	Cx7kYT3jLaL4Udp7X2	192.168.118.10	1029	4.2.2.3	53	udp	26498	62.198.59.37.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1342035179.28087	Cx7kYT3jLaL4Udp7X2	192.168.118.10	1029	4.2.2.3	53	udp	26498	62.198.59.37.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1342035179.28087	Cx7kYT3jLaL4Udp7X2	192.168.118.10	1029	4.2.2.3	53	udp	26498	62.198.59.37.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1342035179.28087	Cx7kYT3jLaL4Udp7X2	192.168.118.10	1029	4.2.2.3	53	udp	26498	62.198.59.37.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1342035179.28087	Cx7kYT3jLaL4Udp7X2	192.168.118.10	1029	4.2.2.3	53	udp	26498	62.198.59.37.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-27-14

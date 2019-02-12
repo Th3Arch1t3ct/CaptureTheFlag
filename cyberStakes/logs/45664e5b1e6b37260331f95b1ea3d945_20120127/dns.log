@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-03-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1327688588.475211	CwCuZW15m0QGLjYquh	192.168.106.10	1029	4.2.2.3	53	udp	64397	livelabor.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.124.199.1	3580.000000	F
+1327688588.653629	CwCuZW15m0QGLjYquh	192.168.106.10	1029	4.2.2.3	53	udp	33420	srichco.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.19.242.198	3580.000000	F
+1327688610.332683	CWBUQ223c5FO00TrJh	192.168.106.10	1029	4.2.2.3	53	udp	22414	legcold.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	60.19.30.135,118.212.168.131,210.212.58.161,220.195.24.9	300.000000,300.000000,300.000000,300.000000	F
+1327688611.329616	CZHkjdov0R8wscvA1	192.168.106.10	1029	4.2.2.5	53	udp	22414	legcold.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	210.212.58.161,220.195.24.9,60.19.30.135,118.212.168.131	300.000000,300.000000,300.000000,300.000000	F
+1327688640.792516	C3tP0R3qVMcBH4QXV9	192.168.106.10	1029	4.2.2.3	53	udp	20105	noseclan.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	210.212.58.161,220.195.24.9,60.19.30.135,118.212.168.131	300.000000,300.000000,300.000000,300.000000	F
+#close	2014-04-03-10-03-03

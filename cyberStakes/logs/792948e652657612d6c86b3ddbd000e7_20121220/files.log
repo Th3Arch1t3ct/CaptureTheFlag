@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-11-09-33
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1356004336.829492	FwR1uT1PmXdme6f3ad	93.170.52.21	192.168.42.10	CLOPCJ2FJ3OytM7Abi	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	842	-	0	0	F	-	e40c8fd5208e5750fb9169aac37cef41	f2b8ea344d6ea7248eae5a9f3c7cbbb1e43cd58d	-	-
+1356004336.953143	FlwEIt3Ngqa5V8cDJl	72.8.167.249	192.168.42.10	Chr7DE2tGIT3iomxQj	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	624	624	0	0	F	-	cd8a3a612919ae543096a6ec1d41abbb	c9501b739f22bde83f70be6f632649994d9dea60	-	-
+1356004337.703289	FbZgzt3LP253tFLcwd	195.64.155.34	192.168.42.10	C52He030dWp0myiN7e	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	155	155	0	0	F	-	ad9591c110617fb36cfd029595b9ecd1	0e6f39c94779e0d5c8c305e5d86b692d2e7118c4	-	-
+1356004338.588506	FzwYLh1md8bRQ54X8b	195.3.143.42	192.168.42.10	CnvzWR3hmnHfsernfh	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	161	-	0	0	F	-	82d7993071d80f9d273a9923a12a281f	a23eb4c5b4948136f5bb1e3d992d3ebd2403d77e	-	-
+1356004339.332587	FBJiyz4oYFTeuE9xNl	195.3.143.42	192.168.42.10	CoJbJy29tbdDhXN2El	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	161	-	0	0	F	-	82d7993071d80f9d273a9923a12a281f	a23eb4c5b4948136f5bb1e3d992d3ebd2403d77e	-	-
+1356004340.753715	FYVI9h4w3MkllDooBe	195.3.143.42	192.168.42.10	CnvzWR3hmnHfsernfh	HTTP	0	MD5,SHA1	text/html	-	0.000022	-	F	3671	-	0	0	F	-	8ae199857e27ab92a4f569e740f23429	6a48347a79552154a5cb0d78d47ed68874a83e07	-	-
+1356004340.938923	F7CM9l4HlUVRLJjcU8	208.46.17.169	192.168.42.10	CY6wxF3gNj7w029lgc	HTTP	0	MD5,SHA1	image/png	-	0.000000	-	F	2349	2349	0	0	F	-	ce404e2f475dbf547ee8195dac0eff0a	3eb3390ad49e78b3e872aaf154256496e132e9f3	-	-
+1356004341.072551	F0exrx4Hx9vNxSamj9	195.3.143.42	192.168.42.10	CGJESL3saej75Z13Zf	HTTP	0	MD5,SHA1	image/gif	-	0.000000	-	F	120	120	0	0	F	-	ccc25d7f7a4ed54589c2623511b9d107	3b306f6a094b4067a00a7d16136afcd2b063c430	-	-
+1356004341.224213	Fac0N40wYlOsZTFBa	178.218.209.2	192.168.42.10	Ci6JJy4hlakcz4Dcql	HTTP	0	MD5,SHA1	image/gif	-	0.000000	-	F	207	207	0	0	F	-	681f0bd979491fefec96736f1b12c9ae	1f78f0446386475975d3ff3ef38d12fd087a75a6	-	-
+1356004341.424437	FUh53y3w444TQYfq83	92.243.66.77	192.168.42.10	CIGSXp3jJFxSMnjNDh	HTTP	0	MD5,SHA1	image/gif	-	0.000000	-	F	74	74	0	0	F	-	416b4770f0cc0b2e480ef9cd02a25ce7	cd57284a13c681e2c09cea164a6cacb559fff970	-	-
+1356004342.4233	F7vFaqCY1hropHV8a	185.4.227.75	192.168.42.10	C6vm6v3CXtEzg0Frsg	HTTP	0	MD5,SHA1	application/x-dosexec	MeWhoreBMP.exe	0.014451	-	F	4380	57408	0	0	F	-	d31280abccaa2082e6b3f385769d6c9d	8f56e5f33a22502d952888037ebe596d47d81d3f	-	-
+#close	2014-04-03-11-09-33

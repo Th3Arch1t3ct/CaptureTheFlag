@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-47-38
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1350307284.440115	CykUOo2ceiUJAubwR6	192.168.54.10	1029	4.2.2.3	53	udp	11917	naturalcountryimages.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.201.97.128	3573.000000	F
+1350307284.786102	CykUOo2ceiUJAubwR6	192.168.54.10	1029	4.2.2.3	53	udp	58253	cfhlua.portrelay.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.83.177.242	31.000000	F
+1350307284.941065	CykUOo2ceiUJAubwR6	192.168.54.10	1029	4.2.2.3	53	udp	23439	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.137.113,74.125.137.139,74.125.137.138,74.125.137.102,74.125.137.101,74.125.137.100	50957.000000,268.000000,268.000000,268.000000,268.000000,268.000000,268.000000	F
+1350307285.481451	CykUOo2ceiUJAubwR6	192.168.54.10	1029	4.2.2.3	53	udp	50824	ebgrjlzom.faqserv.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.83.177.242	31.000000	F
+1350307286.111949	CykUOo2ceiUJAubwR6	192.168.54.10	1029	4.2.2.3	53	udp	7561	1.gravatar.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cs91.wac.edgecastcdn.net,72.21.91.121	11764.000000,1230.000000	F
+1350307286.189111	CykUOo2ceiUJAubwR6	192.168.54.10	1029	4.2.2.3	53	udp	34185	0.gravatar.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cs91.wac.edgecastcdn.net,72.21.91.121	12737.000000,1230.000000	F
+1350307286.282895	CykUOo2ceiUJAubwR6	192.168.54.10	1029	4.2.2.3	53	udp	28298	i0.wp.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cs82.wac.edgecastcdn.net,72.21.91.111	841.000000,825.000000	F
+1350307309.016908	CjMLwr4uttkzE4Fxl5	192.168.54.10	1029	4.2.2.3	53	udp	5764	s0.wp.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cs82.wac.edgecastcdn.net,72.21.91.111	13026.000000,802.000000	F
+1350307327.514665	CjMLwr4uttkzE4Fxl5	192.168.54.10	1029	4.2.2.3	53	udp	64389	ebgrjlzom.faqserv.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.83.177.242	31.000000	F
+1350307315.431404	CjMLwr4uttkzE4Fxl5	192.168.54.10	1029	4.2.2.3	53	udp	38532	242.177.83.78.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	T
+1350307315.431404	CjMLwr4uttkzE4Fxl5	192.168.54.10	1029	4.2.2.3	53	udp	38532	242.177.83.78.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	T
+1350307315.431404	CjMLwr4uttkzE4Fxl5	192.168.54.10	1029	4.2.2.3	53	udp	38532	242.177.83.78.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	T
+#close	2014-04-03-10-47-38

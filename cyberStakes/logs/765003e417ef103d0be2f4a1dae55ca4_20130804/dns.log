@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-58-23
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1375613830.605742	Cbwomk1g52qVqKF8sf	192.168.60.10	1030	4.2.2.3	53	udp	28568	zentrale-deutscher-kliniken.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.93.5.226	86369.000000	F
+1375613833.987921	Cbwomk1g52qVqKF8sf	192.168.60.10	1030	4.2.2.3	53	udp	60824	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.239.5,74.125.239.14,74.125.239.7,74.125.239.1,74.125.239.9,74.125.239.8,74.125.239.3,74.125.239.6,74.125.239.4,74.125.239.2,74.125.239.0	19598.000000,263.000000,263.000000,263.000000,263.000000,263.000000,263.000000,263.000000,263.000000,263.000000,263.000000,263.000000	F
+1375613834.014027	Cbwomk1g52qVqKF8sf	192.168.60.10	1030	4.2.2.3	53	udp	31387	milena-wein.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.186.151.131	7200.000000	F
+1375613835.123776	Cbwomk1g52qVqKF8sf	192.168.60.10	1030	4.2.2.3	53	udp	40091	akjznlo.cameraproperties.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	198.50.139.105	3600.000000	F
+1375613851.999989	Cbwomk1g52qVqKF8sf	192.168.60.10	1030	4.2.2.3	53	udp	50845	xxsasweswedws.su	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.47.243.165	3600.000000	F
+1375613844.035935	Cbwomk1g52qVqKF8sf	192.168.60.10	1030	4.2.2.3	53	udp	64666	105.139.50.198.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1375613844.035935	Cbwomk1g52qVqKF8sf	192.168.60.10	1030	4.2.2.3	53	udp	64666	105.139.50.198.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-09-58-24

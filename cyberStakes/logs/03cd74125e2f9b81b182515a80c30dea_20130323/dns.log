@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-10-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1364080245.267233	CQMxxM2i9sAZGFlzD6	192.168.65.10	1029	4.2.2.3	53	udp	50573	businesscataloge.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.120.142.43	14400.000000	F
+1364080245.392101	CQMxxM2i9sAZGFlzD6	192.168.65.10	1029	4.2.2.3	53	udp	32399	utiputi.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.120.137.37	14400.000000	F
+1364080245.520546	CQMxxM2i9sAZGFlzD6	192.168.65.10	1029	4.2.2.3	53	udp	47502	art.tamgu.com.ar	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.44.49.52	3600.000000	F
+1364080246.551172	CQMxxM2i9sAZGFlzD6	192.168.65.10	1029	4.2.2.3	53	udp	59528	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,64.4.52.169	1026.000000,300.000000	F
+1364080246.783167	CQMxxM2i9sAZGFlzD6	192.168.65.10	1029	4.2.2.3	53	udp	8843	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	2709.000000,228.000000	F
+1364080248.689377	CQMxxM2i9sAZGFlzD6	192.168.65.10	1029	4.2.2.3	53	udp	50315	52.49.44.194.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1364080248.689377	CQMxxM2i9sAZGFlzD6	192.168.65.10	1029	4.2.2.3	53	udp	50315	52.49.44.194.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-10-24

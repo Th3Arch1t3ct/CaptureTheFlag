@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-57-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1369198402.855162	CXP56h1rzBaekKF595	192.168.34.10	1029	4.2.2.3	53	udp	16269	www.winflashplayer.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	winflashplayer.com,54.244.118.222	273.000000,60.000000	F
+1369198403.076198	CXP56h1rzBaekKF595	192.168.34.10	1029	4.2.2.3	53	udp	38028	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,173.194.37.46,173.194.37.35,173.194.37.34,173.194.37.37,173.194.37.39,173.194.37.32,173.194.37.33,173.194.37.38,173.194.37.36,173.194.37.41,173.194.37.40	41302.000000,137.000000,137.000000,137.000000,137.000000,137.000000,137.000000,137.000000,137.000000,137.000000,137.000000,137.000000	F
+1369198403.080892	CXP56h1rzBaekKF595	192.168.34.10	1029	4.2.2.3	53	udp	654	fonts.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.130.95	2797.000000,51.000000	F
+1369198403.083258	CXP56h1rzBaekKF595	192.168.34.10	1029	4.2.2.3	53	udp	59785	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.130.95	922.000000,51.000000	F
+1369198403.294855	CXP56h1rzBaekKF595	192.168.34.10	1029	4.2.2.3	53	udp	43401	themes.googleusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlehosted.l.googleusercontent.com,173.194.37.43,173.194.37.42,173.194.37.44	41528.000000,202.000000,202.000000,202.000000	F
+1369198403.352253	CXP56h1rzBaekKF595	192.168.34.10	1029	4.2.2.3	53	udp	10632	newplayerupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.165.132.106	604800.000000	F
+1369198403.563212	CXP56h1rzBaekKF595	192.168.34.10	1029	4.2.2.3	53	udp	62859	reports.amonetize.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	76.9.4.18	1800.000000	F
+1369198403.793587	CXP56h1rzBaekKF595	192.168.34.10	1029	4.2.2.3	53	udp	17802	www.newplayerupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.165.132.106	604800.000000	F
+1369198406.438686	CXP56h1rzBaekKF595	192.168.34.10	1029	4.2.2.3	53	udp	42378	www.amoninst.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ils-front-balancer-1422728235.us-east-1.elb.amazonaws.com,23.21.40.49	1800.000000,51.000000	F
+1369198406.531622	CXP56h1rzBaekKF595	192.168.34.10	1029	4.2.2.3	53	udp	25732	bs-self.s3.amazonaws.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	s3-1-w.amazonaws.com,205.251.242.180	2400.000000,58.000000	F
+#close	2014-04-03-10-57-25

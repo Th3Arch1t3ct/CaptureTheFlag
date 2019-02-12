@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-18-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1326914880.302623	CjnhwtMVcsNYEPGJc	192.168.102.10	1029	4.2.2.3	53	udp	dns	9.262653	111	159	SF	-	0	Dd	3	195	3	243	(empty)
+1326914880.305191	CCTole1NMSyB11XwXj	192.168.102.10	1030	178.33.156.113	80	tcp	http	8.166421	2417	95070	RSTO	-	0	ShADadfR	58	4745	73	97998	(empty)
+1326914880.525913	Cs3dE91ZSuJL01ltlf	192.168.102.10	1031	178.33.156.113	80	tcp	http	7.945965	1855	146946	RSTO	-	0	ShADadfR	82	5143	107	151234	(empty)
+1326914889.566155	CQLbGJ9YHjA0xwAde	192.168.102.10	1038	184.72.230.192	80	tcp	http	0.107741	348	26595	RSTO	-	0	ShADadR	18	1076	21	27443	(empty)
+1326914863.748751	CMgD7w4Y2n5dPkg6za	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000960	626	0	S0	-	0	D	2	682	0	0	(empty)
+1326914863.749133	CzfmO936mxxnGvyHJh	192.168.102.10	68	192.168.102.1	67	udp	dhcp	13.209418	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1326914882.194382	CNfVwO3zkG89JPkb48	192.168.102.10	1033	69.65.23.117	80	tcp	http	63.289049	861	19205	RSTO	-	0	ShADadR	14	1429	18	19933	(empty)
+1326914882.070288	C9hlDR11BzLOfhKnC	192.168.102.10	1032	69.65.23.117	80	tcp	http	63.412745	1441	26489	RSTO	-	0	ShADadR	20	2249	27	27577	(empty)
+1326914882.99356	CIzqkx2HRLMKDgZgVl	192.168.102.10	1036	239.255.255.250	1900	udp	-	6.154198	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-10-18-20

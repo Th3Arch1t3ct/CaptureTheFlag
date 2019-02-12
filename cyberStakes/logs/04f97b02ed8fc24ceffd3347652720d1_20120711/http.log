@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-24-21
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1342026249.811667	Cl76wp1s2edoyaJPw	192.168.20.10	1030	189.38.86.3	80	1	GET	casavidraceiroemarmorista.com.br	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2707	200	OK	-	-	-	(empty)	-	-	-	-	-	FgqKCx38Ni1s1vYRke	text/html
+1342026250.47484	CLFYma31jkO28436ie	192.168.20.10	1031	62.149.15.143	80	1	GET	baffalo.biz	/	http://casavidraceiroemarmorista.com.br/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1342026251.075593	CLZSoeZUY4HvXgmN4	192.168.20.10	1032	95.168.173.91	80	1	GET	akeyboard.info	/	http://casavidraceiroemarmorista.com.br/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	18294	200	OK	-	-	-	(empty)	-	-	-	-	-	F1Pw46KPaS8Ohe1Ni	text/html
+1342026251.838952	CdtzhS2G45hhe0zs0d	192.168.20.10	1033	95.168.173.91	80	1	GET	akeyboard.info	/?828054b1ed952978a934dc963c45c1e3=1.6.0.10	http://casavidraceiroemarmorista.com.br/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1342026252.32547	Cz5vFC2TixRxNBXXtb	192.168.20.10	1038	37.59.198.62	80	1	GET	nopearth.info	/?ba784cd000231fbcb399827eece58508=21&f79de0eab0f3b944384063214d43a70a=unprgalati.ro&828054b1ed952978a934dc963c45c1e3	http://casavidraceiroemarmorista.com.br/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	620	200	OK	-	-	-	(empty)	-	-	-	-	-	FcHW062ytdvUds0eI9	text/html
+1342026254.11799	CpWktRPnP3XfOUFK1	192.168.20.10	1039	37.59.198.62	80	1	GET	nopearth.info	/?5a558d4370129b3aa269574886289578	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18534	200	OK	-	-	-	(empty)	-	-	-	-	-	Fo5VA6361ZfDhKhZaa	application/jar
+1342026254.580739	CT4mwu3y4aZO9pghtf	192.168.20.10	1040	37.59.198.62	80	1	GET	nopearth.info	/?5a558d4370129b3aa269574886289578	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18534	200	OK	-	-	-	(empty)	-	-	-	-	-	FOfYLO397AHIGgigzb	application/jar
+1342026255.110939	Czct7z9tJfp5pwNm7	192.168.20.10	1041	37.59.198.62	80	1	GET	nopearth.info	/?5a558d4370129b3aa269574886289578	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18534	200	OK	-	-	-	(empty)	-	-	-	-	-	FKnEG9mh6He0kphZh	application/jar
+1342026260.12431	ChCqzF4G14Sa8Hk45l	192.168.20.10	1042	37.59.198.62	80	1	GET	nopearth.info	/?5a558d4370129b3aa269574886289578	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18534	200	OK	-	-	-	(empty)	-	-	-	-	-	FudLDj2Jcm5u9UigTf	application/jar
+1342026260.588808	CfrXeK1ykhkqQZS6B8	192.168.20.10	1043	37.59.198.62	80	1	GET	nopearth.info	/?58a200c6bedf596ac76fd8cf7e567a65	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	43136	200	OK	-	-	-	(empty)	-	-	-	-	-	Fa2UrO2s8QR2yn9K7d	application/x-dosexec
+1342026261.235502	C17J1N377DvtuvXRRg	192.168.20.10	1044	37.59.198.62	80	1	GET	nopearth.info	/?82b113975263f6275c46ad1cb0de463d	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	51519	200	OK	-	-	-	(empty)	-	-	-	-	-	FTRBNF481qD1xylBCh	application/x-dosexec
+1342026261.853967	C1rlC12sHjwrQk6tw	192.168.20.10	1045	37.59.198.62	80	1	GET	nopearth.info	/?c6b9aadb4033452c73b9dac7596aac78	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	68817	200	OK	-	-	-	(empty)	-	-	-	-	-	FaOibCDdfmcEFlT7k	application/x-dosexec
+1342026262.574894	CM2m9a35Wc4lPJi4he	192.168.20.10	1046	37.59.198.62	80	1	GET	nopearth.info	/?e16f1b14ae594a5fb80960019b67c884	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	369664	200	OK	-	-	-	(empty)	-	-	-	-	-	FPDS8e1dyeUlJqJ0hl	application/x-dosexec
+1342026283.268034	CkwgIh2IMrRULkDi96	192.168.20.10	1050	69.163.248.145	80	1	GET	cache2.bazookanetworks.com	/g2/bazooka.php?net=gnutella2&get=1&client=RAZA2.5.0.0	-	Shareaza	0	179	200	OK	-	-	-	(empty)	-	-	-	-	-	F7wtWDfUqXozKy4Xh	text/plain
+1342026283.340097	C2eoDl4B96LfiJCTUj	192.168.20.10	1051	69.163.248.145	80	1	GET	cache2.bazookanetworks.com	/g2/bazooka.php?net=gnutella2&get=1&client=RAZA2.5.0.0	-	Shareaza	0	179	200	OK	-	-	-	(empty)	-	-	-	-	-	FovlhWAhkDzQlCl46	text/plain
+1342026283.61706	CugUAp1zPta5J0rbn7	192.168.20.10	1052	72.64.146.71	80	1	GET	1.gc.1e400.net	/?net=gnutella2&get=1&client=RAZA2.5.0.0	-	Shareaza	0	1277	200	OK	-	-	-	(empty)	-	-	-	-	-	FOjtIN1hJiGP3EH4x8	text/plain
+1342026283.782278	Co62kK1YahDsVMgKA8	192.168.20.10	1054	74.125.127.106	80	1	GET	www.google.com	/	-	Mozilla/5.0 (Windows; U; Windows NT 5.1; en; rv:1.9.0.8) Gecko/2009032609 Firefox/3.0.8	0	91114	200	OK	-	-	-	(empty)	-	-	-	-	-	F8sTf53XrnIyHoag5k	text/html
+1342026285.712247	CPExIq3TQIv13bcf0b	192.168.20.10	1062	89.144.61.139	80	1	GET	89.144.61.139	/data.html	-	Mozilla/5.0 (Windows NT 5.1; rv:10.0.2) Gecko/20100101 Firefox/10.0.2	0	7	200	OK	-	-	-	(empty)	-	-	-	-	-	FeLjY63ZzZitCVQMU6	text/plain
+#close	2014-04-03-10-24-22

@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-00-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1351199410.29995	CahiM920veJtgNIkBd	192.168.9.10	1031	46.235.8.175	80	1	GET	gaswljdh.qpoe.com	/counter/main.php	http://thenoisyhouse.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1351199409.632783	CVn7AB10A8vRpVH4Y5	192.168.9.10	1030	69.89.31.169	80	1	GET	thenoisyhouse.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3273	200	OK	-	-	-	(empty)	-	-	-	-	-	FOx5lp38gYgLDrx814	text/html
+1351199410.93543	Cf2jPb38nW6h9Pa2Pb	192.168.9.10	1032	46.235.8.175	80	1	GET	sdcwpnsua.ddns.info	/k/causes/uses_project.php	http://thenoisyhouse.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	29797	200	OK	-	-	-	(empty)	-	-	-	-	-	FoGRli4diu5Sy14l0f	text/html
+1351199412.017154	Cf2jPb38nW6h9Pa2Pb	192.168.9.10	1032	46.235.8.175	80	2	GET	sdcwpnsua.ddns.info	/k/causes/uses_project.php?unsqd=02360a0837&ocstesq=46&ztx=02023303070402083504&wtotb=0b000300020002	http://sdcwpnsua.ddns.info/k/causes/uses_project.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13360	200	OK	-	-	-	(empty)	-	-	-	-	-	FsjR843reZXeWWHTK2	application/pdf
+1351199412.267143	COsB3p3O5aYaXHis47	192.168.9.10	1033	46.235.8.175	80	1	GET	sdcwpnsua.ddns.info	/k/causes/uses_project.php?uqblgybp=02360a0837&fmeuxtg=02023303070402083504&ggxe=04&iwywwdcp=lmnk&bfqwjjlc=agxsyf	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	336896	200	OK	-	-	-	(empty)	-	-	-	-	-	Fcif9cPRYLAx6n6i8	application/x-dosexec
+1351199420.348745	CcEXjhgi1Mv4ZVSEj	192.168.9.10	1038	46.235.8.175	80	1	GET	sdcwpnsua.ddns.info	/k/causes/uses_project.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	16157	200	OK	-	-	-	(empty)	-	-	-	-	-	FW78GKl5TdBTAncIl	application/zip
+1351199421.299351	CzCqsT3mT85YPAhfSk	192.168.9.10	1039	46.235.8.175	80	1	GET	sdcwpnsua.ddns.info	/k/causes/uses_project.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	16157	200	OK	-	-	-	(empty)	-	-	-	-	-	FhEDIFyxjqqMbzQm2	application/zip
+1351199422.598876	CGykUz3YhcjUI0mav3	192.168.9.10	1040	46.235.8.175	80	1	GET	sdcwpnsua.ddns.info	/k/causes/uses_project.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	16157	200	OK	-	-	-	(empty)	-	-	-	-	-	FTzr8dCQnULY0Scvi	application/zip
+1351199425.365945	CDP6z742nJgD6Bsb3h	192.168.9.10	1042	46.235.8.175	80	1	GET	sdcwpnsua.ddns.info	/k/causes/uses_project.php?asd=12gqw	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	210	200	OK	-	-	-	(empty)	-	-	-	-	-	FbOZW5THaSTuReO87	text/plain
+1351199425.615595	CDP6z742nJgD6Bsb3h	192.168.9.10	1042	46.235.8.175	80	2	GET	sdcwpnsua.ddns.info	/k/causes/uses_project.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	16157	200	OK	-	-	-	(empty)	-	-	-	-	-	FQbdD32u9vJJ75xND	application/zip
+1351199424.351991	CLXGVryU0ZuYdoNU	192.168.9.10	1041	46.235.8.175	80	1	GET	sdcwpnsua.ddns.info	/k/causes/uses_project.php?szcc=02360a0837&fmiapo=02023303070402083504&lgpceg=03&wvr=sexdv&ximivpoe=kimjel	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	336896	200	OK	-	-	-	(empty)	-	-	-	-	-	FVFiya3KpFzVHFFUff	application/x-dosexec
+1351199426.543784	C8K7ew4YvtBUc2tLw2	192.168.9.10	1043	46.235.8.175	80	1	GET	sdcwpnsua.ddns.info	/k/causes/uses_project.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	16157	200	OK	-	-	-	(empty)	-	-	-	-	-	FldQpw1xurIorLUSr2	application/zip
+1351199427.661123	Cv6lgPmGB3pKjPSXl	192.168.9.10	1044	46.235.8.175	80	1	GET	sdcwpnsua.ddns.info	/k/causes/uses_project.php?ff=02360a0837&be=02023303070402083504&h=02&so=m&rw=w	-	Java/1.6.0_10	0	336896	200	OK	-	-	-	(empty)	-	-	-	-	-	F1Iwmq2SvORzbQdIGa	application/x-dosexec
+1351199548.014982	CBI1f4QpRhUd9mXUj	192.168.9.10	1046	31.184.192.85	80	1	GET	traitogal.com	/p.php?0Q9oBPXEN0uECUgzEJ95RQsaiD/vq1aG3F/2qZgf/0bU2mKa1w==	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) trident.4	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-11-00-49

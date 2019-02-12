@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-15-03
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1344233193.212727	CWiDlo1KIfiwAJ3T3l	192.168.113.10	1049	195.210.47.239	80	FL4g0V1m7TNk1xRQXl	application/x-dosexec	http://erse.oplipsies.com/f/notepad.exe?ts=f7e64edd&affid=6420	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 32%  Last seen: 2012-08-04 18:46:02	https://www.virustotal.com/en/search/?query=e8b939cb9af164e91b4a2f041aa48dc859b55f0b	192.168.113.10	195.210.47.239	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1344233194.643071	CDlT54qjkmA62L72g	192.168.113.10	1040	202.67.216.87	80	FTby4w4hOPCVkwlhN2	application/x-dosexec	http://averylc.com/2.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 32%  Last seen: 2012-08-07 02:46:04	https://www.virustotal.com/en/search/?query=e5ff42b7a8f11c57ba474f544468199a66a277af	192.168.113.10	202.67.216.87	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1344233194.643071	C59cSt3bVP2Xl4Aia7	192.168.113.10	1041	202.67.216.87	80	FqNjln4cMi42RLElEi	application/x-dosexec	http://averylc.com/3.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 32%  Last seen: 2012-08-07 02:46:04	https://www.virustotal.com/en/search/?query=e5ff42b7a8f11c57ba474f544468199a66a277af	192.168.113.10	202.67.216.87	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-15-03

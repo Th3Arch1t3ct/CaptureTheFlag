@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-26-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1330193682.285214	ChLH8C2skj6tfxGtWg	192.168.73.10	1029	4.2.2.3	53	udp	8073	gwilared.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.149.227.159	1786.000000	F
+1330193682.586496	ChLH8C2skj6tfxGtWg	192.168.73.10	1029	4.2.2.3	53	udp	35208	kedian.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.149.227.159	30.000000	F
+1330193685.206202	ChLH8C2skj6tfxGtWg	192.168.73.10	1029	4.2.2.3	53	udp	14730	zzzzz.rigjobs.hop.clickbank.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.63.153.62,74.63.153.63	900.000000,900.000000	F
+1330193685.210154	CgguXT1HdTirN3dlwe	192.168.73.10	1037	4.2.2.3	53	udp	28813	m6lk.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.229.210.191	300.000000	F
+1330193685.370112	ChLH8C2skj6tfxGtWg	192.168.73.10	1029	4.2.2.3	53	udp	55437	www.rigworker.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	bilva.ukisp.net,212.87.81.145	43200.000000,43200.000000	F
+1330193686.876645	CgguXT1HdTirN3dlwe	192.168.73.10	1037	4.2.2.3	53	udp	27020	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.75.27,69.31.75.17	11725.000000,256.000000,9061.000000,20.000000,20.000000	F
+#close	2014-04-03-10-26-30

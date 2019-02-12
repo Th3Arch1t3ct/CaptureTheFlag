@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-09-59-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1338404240.022837	CNWeEI319fIKCWbYU9	192.168.84.10	1029	4.2.2.3	53	udp	dns	6.212259	259	524	SF	-	0	Dd	7	455	7	720	(empty)
+1338404245.358433	CGj1IZ2Vaj12QYVsk2	192.168.84.10	1038	137.254.16.64	80	tcp	http	0.091931	128	449	SF	-	0	ShADdfFa	5	336	4	617	(empty)
+1338404240.467634	CinmXw1m8eSR1dxbbk	192.168.84.10	1031	217.111.179.113	80	tcp	http	18.315352	3882	42854	RSTO	-	0	ShADadfR	32	5170	39	44422	(empty)
+1338404240.042413	CRsKzq4BKRgJMzVL1i	192.168.84.10	1030	217.111.179.113	80	tcp	http	18.740957	5556	50074	RSTO	-	0	ShADadfR	40	7164	45	51882	(empty)
+1338404243.703865	CDPngc2Mvd0ZmINExg	192.168.84.10	1036	137.254.16.66	80	tcp	http	30.171836	100	5980	RSTO	-	0	ShADdfR	8	428	7	6268	(empty)
+1338404245.213552	C1Sa1e1sJuIQq5f3U2	192.168.84.10	1037	192.9.162.55	80	tcp	http	33.662285	126	202	RSTO	-	0	ShADadfR	6	374	4	366	(empty)
+1338404224.184271	CCzBV64lJ0VL2R6jz7	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000958	626	0	S0	-	0	D	2	682	0	0	(empty)
+1338404224.184619	C61I204upvMjTms5j6	192.168.84.10	68	192.168.84.1	67	udp	dhcp	12.607001	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1338404303.603263	CenIUi6VYWyUnZlqe	192.168.84.10	1042	217.111.179.113	80	tcp	http	0.412975	440	1156	S1	-	0	ShADad	4	608	3	1284	(empty)
+1338404245.467129	C8cyhO2gFjNnvwbBT	192.168.84.10	1039	23.33.186.146	80	tcp	http	63.471790	331	892729	RSTO	-	0	ShADadR	390	16455	614	917297	(empty)
+1338404246.23717	CLBn5h3VVY0fngreCc	192.168.84.10	1041	199.7.54.190	80	tcp	http	0.321432	198	36647	S1	-	0	ShADd	17	886	27	37731	(empty)
+1338404246.067336	CFuhCu2fj60YwARba4	192.168.84.10	1040	199.7.54.190	80	tcp	http	0.340203	179	1286	S1	-	0	ShADd	4	347	2	1370	(empty)
+1338404303.614853	CUAO4MdBR3tge9yUf	192.168.84.10	1043	217.111.179.113	80	tcp	http	0.401539	554	184	S1	-	0	ShADad	4	722	3	312	(empty)
+1338404242.939588	CWZRzV1fJyBL9WGJul	192.168.84.10	1034	239.255.255.250	1900	udp	-	6.141272	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-09-59-59

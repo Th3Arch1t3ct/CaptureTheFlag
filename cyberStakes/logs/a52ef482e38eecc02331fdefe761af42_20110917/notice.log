@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-05-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1316285478.378954	CAt3xefafBbV6i49k	192.168.124.10	1044	89.201.174.28	80	Frunl74wcpqD8ISoMd	application/jar	http://maripisa.cx.cc/showthread.php?t=444105606	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 68%  Last seen: 2012-12-01 04:31:09	https://www.virustotal.com/en/search/?query=ca641aeaf0578efb0bdd96bb8fac350d348f7221	192.168.124.10	89.201.174.28	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1316285478.783702	CAt3xefafBbV6i49k	192.168.124.10	1044	89.201.174.28	80	FPAaPh1Fshbic4tVsf	application/jar	http://maripisa.cx.cc/showthread.php?t=444105606	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 68%  Last seen: 2012-12-01 04:31:09	https://www.virustotal.com/en/search/?query=ca641aeaf0578efb0bdd96bb8fac350d348f7221	192.168.124.10	89.201.174.28	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1316285479.566801	CAt3xefafBbV6i49k	192.168.124.10	1044	89.201.174.28	80	FB99ul3Msap2phfCj8	application/jar	http://maripisa.cx.cc/showthread.php?t=444105606	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 68%  Last seen: 2012-12-01 04:31:09	https://www.virustotal.com/en/search/?query=ca641aeaf0578efb0bdd96bb8fac350d348f7221	192.168.124.10	89.201.174.28	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1316285483.532524	CdROb8374qVR2278E6	192.168.124.10	1065	173.212.192.228	80	FLXbO73OpStLmW8Fkg	application/x-dosexec	http://umcjlphc.cn/go.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2011-09-19 11:46:04	https://www.virustotal.com/en/search/?query=edd1730480c15d8cdafd889c9deed37a2f20b5fe	192.168.124.10	173.212.192.228	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1316285497.453861	C8Qth544KfZyln8UV4	192.168.124.10	1046	89.201.174.28	80	F9uCQ02rUh6Ji8SXX6	application/x-dosexec	http://maripisa.cx.cc/showthread.php?t=182714	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2011-09-22 02:53:54	https://www.virustotal.com/en/search/?query=4fe78ed882d9d939534bbaabd6b63cad084e22a8	192.168.124.10	89.201.174.28	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1316285527.656685	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.124.10 scanned at least 25 unique hosts on port 22292/tcp in 0m30s	remote	192.168.124.10	-	22292	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-05-47

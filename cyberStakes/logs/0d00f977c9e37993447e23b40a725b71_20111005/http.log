@@ -1,0 +1,36 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-21-01
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1317843687.001634	CStMx62usISxZ1R94i	192.168.24.10	1030	74.220.207.76	80	1	GET	craftsbygary.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5268	200	OK	-	-	-	(empty)	-	-	-	-	-	FTsIMq23SNyES3Uuqc	text/html
+1317843687.97693	Cr30oE24HtQqxWwWKb	192.168.24.10	1031	95.211.160.73	80	1	GET	more.harlemcrossfit.com	/z/st1	http://craftsbygary.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2174	200	OK	-	-	-	(empty)	-	-	-	-	-	FX5Oq32H9ySeIg5Hyi	text/html
+1317843688.164279	CWD4GH3O1Qi8wZaDLa	192.168.24.10	1032	213.136.96.12	80	1	GET	chantier.ci	/js/	http://craftsbygary.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	419	200	OK	-	-	-	(empty)	-	-	-	-	-	FhtW833e1PMPwHIY2i	text/html
+1317843688.245144	C3Wnta1WJ50lBtIxq3	192.168.24.10	1033	213.136.96.12	80	1	GET	chantier.ci	/js/	http://craftsbygary.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	419	200	OK	-	-	-	(empty)	-	-	-	-	-	FWTAbx3FSXtyAkQGh1	text/html
+1317843688.591074	CWD4GH3O1Qi8wZaDLa	192.168.24.10	1032	213.136.96.12	80	2	GET	chantier.ci	/js/	http://craftsbygary.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	419	200	OK	-	-	-	(empty)	-	-	-	-	-	FJ0dSMwjBgqPKqqw2	text/html
+1317843688.673689	CAhA3R1EiEoTZDa50j	192.168.24.10	1034	95.211.160.73	80	1	GET	more.harlemcrossfit.com	/a/95b4fe90a23a707c08c640fa3e3330bbeee7985604f9670089c5adb9f4770a30?java=42&pdf=9.1.0	http://more.harlemcrossfit.com/z/st1	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4242	200	OK	-	-	-	(empty)	-	-	-	-	-	FeCZqp4QmbkezQA6L6	text/plain
+1317843689.072133	CSXezV20sOesQvNZEb	192.168.24.10	1035	95.211.160.73	80	1	GET	more.harlemcrossfit.com	/b/1/95b4fe90a23a707c08c640fa3e3330bbeee7985604f9670089c5adb9f4770a30	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	259584	200	OK	-	-	-	(empty)	-	-	-	-	-	Fsmvmi4cXQtlv9o997	application/x-dosexec
+1317843691.421476	C0nNAT20jbTN6Sev3	192.168.24.10	1040	95.211.160.73	80	1	GET	more.harlemcrossfit.com	/g/95b4fe90a23a707c08c640fa3e3330bbeee7985604f9670089c5adb9f4770a30	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	264	404	NOT FOUND	-	-	-	(empty)	-	-	-	-	-	F5x4UI2LnmxOt9tLgi	text/html
+1317843692.262881	CnQQSW1aKxT99nDwqh	192.168.24.10	1041	193.105.154.210	80	1	GET	vweeefzv.cn	/stat2.php?w=73&i=3365dd4c64badd4c9261942ac2393b55&a=13	-	Opera/6 (Windows NT 5.1; U; LangID=409; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317843693.91559	Cn7bJU2MxMGzfsw3Bb	192.168.24.10	1170	193.105.154.210	80	1	GET	vweeefzv.cn	/stat2.php?w=73&i=3365dd4c64badd4c9261942ac2393b55&a=1	-	Opera/6 (Windows NT 5.1; U; LangID=409; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317843713.487143	CrWbEZ3i8rRZ90CpFg	192.168.24.10	1173	193.105.154.210	80	1	GET	vweeefzv.cn	/stat2.php?w=73&i=3365dd4c64badd4c9261942ac2393b55&a=5	-	Opera/6 (Windows NT 5.1; U; LangID=409; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317843713.487035	C1hUcD2caVne6oDCM4	192.168.24.10	1172	193.105.154.210	80	1	GET	vweeefzv.cn	/stat2.php?w=73&i=3365dd4c64badd4c9261942ac2393b55&a=4	-	Opera/6 (Windows NT 5.1; U; LangID=409; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317843713.486898	C6p3Ge2OoGJzCFcdq8	192.168.24.10	1171	193.105.154.210	80	1	GET	vweeefzv.cn	/stat2.php?w=73&i=3365dd4c64badd4c9261942ac2393b55&a=21	-	Opera/6 (Windows NT 5.1; U; LangID=409; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317843713.595189	Cnsf502kTTihPCM75a	192.168.24.10	1175	193.105.154.210	80	1	GET	vweeefzv.cn	/stat2.php?w=73&i=3365dd4c64badd4c9261942ac2393b55&a=7	-	Opera/6 (Windows NT 5.1; U; LangID=409; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317843713.595065	C2kuM11qJRdhanjnhc	192.168.24.10	1174	193.105.154.210	80	1	GET	vweeefzv.cn	/stat2.php?w=73&i=3365dd4c64badd4c9261942ac2393b55&a=6	-	Opera/6 (Windows NT 5.1; U; LangID=409; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317843714.088962	CH1fxf2MMfszbZleu8	192.168.24.10	1176	193.105.154.210	80	1	GET	vweeefzv.cn	/stat2.php?w=73&i=3365dd4c64badd4c9261942ac2393b55&a=8	-	Opera/6 (Windows NT 5.1; U; LangID=409; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317843714.967094	C9pCJl2exoJzfaRIO2	192.168.24.10	1177	193.105.154.210	80	1	GET	vweeefzv.cn	/stat2.php?w=73&i=3365dd4c64badd4c9261942ac2393b55&a=23	-	Opera/6 (Windows NT 5.1; U; LangID=409; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317843715.283182	C5iAxM2ocke9jeNrec	192.168.24.10	1178	193.105.154.210	80	1	GET	vweeefzv.cn	/stat2.php?w=73&i=3365dd4c64badd4c9261942ac2393b55&a=24	-	Opera/6 (Windows NT 5.1; U; LangID=409; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317843716.199655	C8Z7vn2MMSG7brsHH4	192.168.24.10	1179	193.105.154.210	80	1	GET	vweeefzv.cn	/stat2.php?w=73&i=3365dd4c64badd4c9261942ac2393b55&a=25	-	Opera/6 (Windows NT 5.1; U; LangID=409; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317843734.643718	C96mig2GTzpNmfBuy8	192.168.24.10	1259	69.31.21.50	80	1	GET	crl.adobe.com	/aum.crl	-	Adobe Update Manager 6	0	2819	200	OK	-	-	-	(empty)	-	-	-	-	-	FLdrmF4XdcOn4n5qh9	binary
+1317843734.534785	C3C6Gm2I1f8GBeHED4	192.168.24.10	1258	69.31.21.9	80	1	GET	swupmf.adobe.com	/manifest/60/win/reader9rdr-en_US.upd	-	Adobe Update Manager 6	0	192693	200	OK	-	-	-	(empty)	-	-	-	-	-	FS8i5dByK5cbtu8k2	binary
+1317843734.625484	CYCUu82sZswS23SLj9	192.168.24.10	1180	193.105.154.210	80	1	GET	vweeefzv.cn	/stat2.php?w=73&i=3365dd4c64badd4c9261942ac2393b55&a=26	-	Opera/6 (Windows NT 5.1; U; LangID=409; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317843734.8173	C3C6Gm2I1f8GBeHED4	192.168.24.10	1258	69.31.21.9	80	2	GET	swupmf.adobe.com	/manifest/60/win/AdobeUpdater.upd	-	Adobe Update Manager 6	0	3524	200	OK	-	-	-	(empty)	-	-	-	-	-	F85LhsrBqLvtgGppg	binary
+1317843734.752405	C7shTY1Q7GSHgipzX9	192.168.24.10	1182	193.105.154.210	80	1	GET	vweeefzv.cn	/stat2.php?w=73&i=3365dd4c64badd4c9261942ac2393b55&a=11	-	Opera/6 (Windows NT 5.1; U; LangID=409; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317843734.737175	C4gMxB0M32AX9eQ7b	192.168.24.10	1181	193.105.154.210	80	1	GET	vweeefzv.cn	/stat2.php?w=73&i=3365dd4c64badd4c9261942ac2393b55&a=27	-	Opera/6 (Windows NT 5.1; U; LangID=409; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1317843735.172652	CR03zh2icVRTfYAsth	192.168.24.10	1183	193.105.154.210	80	1	GET	vweeefzv.cn	/bad.php?w=73&fail=0&i=3365dd4c64badd4c9261942ac2393b55	-	Opera/6 (Windows NT 5.1; U; LangID=409; x86)	0	34	200	OK	-	-	-	(empty)	-	-	-	-	-	FL827NBFagJyrexRh	text/plain
+1317843736.183509	CKyuGP1SYLm3mZWf7i	192.168.24.10	1261	173.212.192.228	80	1	GET	vweeefzv.cn	/go.exe	-	NSIS_Inetc (Mozilla)	0	706560	200	OK	-	-	-	(empty)	-	-	-	-	-	FpBfFh1CT6i0MrrCR	application/x-dosexec
+#close	2014-04-03-10-21-01

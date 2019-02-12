@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-55-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1338034205.353753	Cbn5WI18xi9xm2hfp9	192.168.27.10	1029	4.2.2.3	53	udp	48270	bbk-joeckel.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	87.106.168.11	10773.000000	F
+1338034205.924054	Cbn5WI18xi9xm2hfp9	192.168.27.10	1029	4.2.2.3	53	udp	1678	www.bbk-joeckel.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	87.106.168.11	10773.000000	F
+1338034211.30036	Cbn5WI18xi9xm2hfp9	192.168.27.10	1029	4.2.2.3	53	udp	49293	klaunfickeninarsh.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.190.98.231	14400.000000	F
+1338034211.730173	Cbn5WI18xi9xm2hfp9	192.168.27.10	1029	4.2.2.3	53	udp	42125	myonlinecruzzz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.190.98.231	14400.000000	F
+1338034212.327529	Cbn5WI18xi9xm2hfp9	192.168.27.10	1029	4.2.2.3	53	udp	11405	sergilasr.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.162.167.59	10.000000	F
+1338034223.616787	Cbn5WI18xi9xm2hfp9	192.168.27.10	1029	4.2.2.3	53	udp	8074	sergilasr.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.162.167.59	10.000000	F
+1338034210.154495	Cbn5WI18xi9xm2hfp9	192.168.27.10	1029	4.2.2.3	53	udp	15500	brunno.in	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1338034210.154495	Cbn5WI18xi9xm2hfp9	192.168.27.10	1029	4.2.2.3	53	udp	15500	brunno.in	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1338034210.154495	Cbn5WI18xi9xm2hfp9	192.168.27.10	1029	4.2.2.3	53	udp	15500	brunno.in	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1338034213.414844	Cbn5WI18xi9xm2hfp9	192.168.27.10	1029	4.2.2.3	53	udp	19850	madalicana2.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1338034213.414844	Cbn5WI18xi9xm2hfp9	192.168.27.10	1029	4.2.2.3	53	udp	19850	madalicana2.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1338034213.414844	Cbn5WI18xi9xm2hfp9	192.168.27.10	1029	4.2.2.3	53	udp	19850	madalicana2.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-55-09

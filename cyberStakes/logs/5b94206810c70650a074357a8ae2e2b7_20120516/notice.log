@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-07-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1337200672.110347	CUnE0b48Uf1RZr2g2c	192.168.31.10	1051	37.59.188.164	80	FkWPF32P8ischl7X13	application/x-shockwave-flash	http://bizforallpeople.in/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 75%  Last seen: 2012-09-14 14:05:04	https://www.virustotal.com/en/search/?query=27474f210893b69a5204dcafb6d9fc12b743dc1f	192.168.31.10	37.59.188.164	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1337200672.439595	CCj8dK1upgHz4JuOK4	192.168.31.10	1049	37.59.188.164	80	FzcwS527NryeOzHhX4	application/x-dosexec	http://bizforallpeople.in/w.php?f=80945&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 38%  Last seen: 2012-07-06 19:55:44	https://www.virustotal.com/en/search/?query=53403b612bfaa47e68018049cf9a55a29d23a755	192.168.31.10	37.59.188.164	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-07-16

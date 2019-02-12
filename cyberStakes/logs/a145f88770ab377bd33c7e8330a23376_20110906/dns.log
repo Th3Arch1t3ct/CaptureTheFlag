@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-43-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1315279068.452446	CRrtNz4tstok8k0aJl	192.168.64.10	1029	4.2.2.3	53	udp	2443	szlakromanski.pl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	87.98.239.48	43174.000000	F
+1315279069.597985	CRrtNz4tstok8k0aJl	192.168.64.10	1029	4.2.2.3	53	udp	54667	17daohang.start.tl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.66.184	2593.000000	F
+1315279075.793129	CRrtNz4tstok8k0aJl	192.168.64.10	1029	4.2.2.3	53	udp	22921	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	2261.000000,113.000000	F
+1315279075.881661	CRrtNz4tstok8k0aJl	192.168.64.10	1029	4.2.2.3	53	udp	48270	adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.150.16.117	7598.000000	F
+1315279075.964102	CRrtNz4tstok8k0aJl	192.168.64.10	1029	4.2.2.3	53	udp	27535	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	122.000000,600.000000	F
+1315279091.296728	CD1b952X162YatAjef	192.168.64.10	1029	4.2.2.3	53	udp	3724	rebeccajessop.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.249.137.9	14400.000000	F
+1315279092.389892	CD1b952X162YatAjef	192.168.64.10	1029	4.2.2.3	53	udp	43661	mistykatz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	205.134.252.251	14400.000000	F
+1315279126.958795	CSpd3Y2NiwcxmGDN4	192.168.64.10	1029	4.2.2.3	53	udp	20866	070607db0910.einfoupgrade.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	202.150.208.68	3600.000000	F
+#close	2014-04-03-10-43-12

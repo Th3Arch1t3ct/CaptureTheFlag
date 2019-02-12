@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-07-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1377004816.070372	CbZ18m1056hMNUzG77	192.168.74.10	1036	74.125.28.141	80	1	GET	updateplayer.appspot.com	/	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	2771	200	OK	-	-	-	(empty)	-	-	-	-	-	F4Gvyz3rW2kr5BIqa9	text/html
+1377004816.22847	C5sPRq4KsmnEdvWHG3	192.168.74.10	1037	74.125.224.134	80	1	GET	www.google-analytics.com	/analytics.js	http://updateplayer.appspot.com/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	20379	200	OK	-	-	-	(empty)	-	-	-	-	-	F3mb2k2BdMYsJCrgMd	text/plain
+1377004816.254754	CbZ18m1056hMNUzG77	192.168.74.10	1036	74.125.28.141	80	2	GET	updateplayer.appspot.com	/favicon.ico	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	288	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FxkhYluuTSL8DRcf	text/html
+1377004816.3176	Cby1Ow2OHAy89bEuHa	192.168.74.10	1038	74.125.28.141	80	1	GET	updateplayer.appspot.com	/www/lp1/page.html	http://updateplayer.appspot.com/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	3078	200	OK	-	-	-	(empty)	-	-	-	-	-	FOJkfq4HTpdZAIW5y1	text/html
+1377004816.342046	Crbi724UWwv8l6QNo	192.168.74.10	1039	74.125.28.141	80	1	GET	quercus-redirect.appspot.com	/?id=eT2QmzjMIWuXeToaKOjMIWuXeTbQmG-0N-0N&&dv5=lp1-noalert	http://updateplayer.appspot.com/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	220	200	OK	-	-	-	(empty)	-	-	-	-	-	FNbeTw4yNVHVjHHs9g	text/html
+1377004817.532393	CbZ18m1056hMNUzG77	192.168.74.10	1036	74.125.28.141	80	3	GET	updateplayer.appspot.com	/www/lp1/style.css	http://updateplayer.appspot.com/www/lp1/page.html	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	2899	200	OK	-	-	-	(empty)	-	-	-	-	-	FLprvF1v36ZaB347Og	text/plain
+1377004817.901354	CZrIv03PfPrHjAS0Ee	192.168.74.10	1040	107.23.222.204	80	1	GET	flv.hs5dmr.com	/aff_c?offer_id=44&aff_id=1002&url_id=38&aff_sub=1933892092	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	276	302	Found	-	-	-	(empty)	-	-	-	-	-	FDOeAQ1vu3nJPRJbfd	text/html
+1377004817.91463	Cby1Ow2OHAy89bEuHa	192.168.74.10	1038	74.125.28.141	80	2	GET	updateplayer.appspot.com	/www/lp1/icon.png	http://updateplayer.appspot.com/www/lp1/page.html	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	4953	200	OK	-	-	-	(empty)	-	-	-	-	-	F48op51t77joRa8fhe	image/png
+1377004817.948139	CbZ18m1056hMNUzG77	192.168.74.10	1036	74.125.28.141	80	4	GET	updateplayer.appspot.com	/www/lp1/li.png	http://updateplayer.appspot.com/www/lp1/page.html	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	1005	200	OK	-	-	-	(empty)	-	-	-	-	-	FWVyIV2Pigg0ucHU0e	image/png
+1377004818.168041	CeafTbpYmWMNUkZ4i	192.168.74.10	1041	107.23.222.204	80	1	GET	flv.hs1dmr.com	/aff_c?offer_id=44&aff_id=1002&url_id=38&aff_sub=1933892092	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	289	302	Found	-	-	-	(empty)	-	-	-	-	-	FzHjmn2H0z2lKnTYt6	text/html
+1377004818.581807	COX4X52L2qknnyVQob	192.168.74.10	1042	95.211.134.97	80	1	GET	dl.down324.com	/n/88593b14-d4e3-11e2-a752-00259033c1da/Setup.exe?tid=1020ec726d30fc00115f3d2efe1d16	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1377004818.895302	CsLP2FHcWL9yJAxHl	192.168.74.10	1043	95.211.134.97	80	1	GET	dl.down324.com	/n/3.0.17.6/8923535/Setup.exe?tid=1020ec726d30fc00115f3d2efe1d16	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	14192	200	OK	-	-	-	(empty)	-	-	-	-	-	FL6wXnj39OpIXBr36	application/x-dosexec
+#close	2014-04-03-11-07-15

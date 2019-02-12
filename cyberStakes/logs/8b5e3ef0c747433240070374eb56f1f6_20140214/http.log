@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-30-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1392403612.905503	C9Redt23j05xQXUFrk	192.168.4.10	1036	67.196.49.182	80	1	GET	musicfm43.org	/	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1392403613.197313	C5cmlz1yUJld7U9Go5	192.168.4.10	1037	66.55.157.200	80	1	GET	33428e.fbafbae.c7fc0b.859794.905eecb.wgqcxsnadh.tellshospital.pw	/	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	1555	200	OK	-	-	-	(empty)	-	-	-	-	-	FwAuTR3YuPFIHbC2b2	text/html
+1392403616.067128	CvWAjr2iQ0O1yJ6Q98	192.168.4.10	1038	66.55.157.200	80	1	GET	33428e.fbafbae.c7fc0b.859794.905eecb.wgqcxsnadh.tellshospital.pw	/a759a960a563bb646c5872235231750c/0269f2a3a8f71ea3460940a953b7f04b	http://33428e.fbafbae.c7fc0b.859794.905eecb.wgqcxsnadh.tellshospital.pw/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	12625	200	OK	-	-	-	(empty)	-	-	-	-	-	FgLNSC1XKJZySALcef	text/html
+1392403623.489383	CQU9uXeSeHRVTgGl6	192.168.4.10	1042	66.55.157.200	80	1	GET	66.55.157.200	/?3fa8092287f9344df22d05f794517751	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	73216	200	OK	-	-	-	(empty)	-	-	-	-	-	F2xDZKDbrC1rvRE2c	application/x-dosexec
+1392403625.359368	COTngr4DnqvVXXyF8d	192.168.4.10	1043	66.55.157.200	80	1	GET	66.55.157.200	/?be3c00e1578e5fd5031469a4516443a5	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	80597	200	OK	-	-	-	(empty)	-	-	-	-	-	Fkmfl63G5OfiCcxUze	application/x-dosexec
+#close	2014-04-03-10-30-13

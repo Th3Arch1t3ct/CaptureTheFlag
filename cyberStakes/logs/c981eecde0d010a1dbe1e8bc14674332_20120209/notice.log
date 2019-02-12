@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-56-41
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1328822551.13026	C1gz3Z6GUzqMaOGE3	192.168.107.10	1229	149.154.71.190	80	FIVw1r4Up07nt1pxAf	application/x-dosexec	http://149.154.71.190/y/jqd.php?i=15	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2012-02-13 14:30:16	https://www.virustotal.com/en/search/?query=17c19af180fc401d1b81a874b56b72a368f6ff7f	192.168.107.10	149.154.71.190	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328822564.206132	CSag0u1B6nnylD6K57	192.168.107.10	1233	149.154.71.190	80	FkhpIP3Z2zl1dM9Gle	application/jar	http://bannerreach.biz/y/kmaokqducmgryq1.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 60%  Last seen: 2012-04-01 10:27:21	https://www.virustotal.com/en/search/?query=5fb9daad45ca1187bdaaf8eef0da0a3c5d2848d2	192.168.107.10	149.154.71.190	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328822564.211458	CEHUyKNzuzFjnq9F4	192.168.107.10	1237	149.154.71.190	80	FbmuLXrwkf2lfvY44	application/jar	http://bannerreach.biz/y/jrgvxzgnjqgv3.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 67%  Last seen: 2012-04-01 12:20:51	https://www.virustotal.com/en/search/?query=e03749957b7749c2e5a9263153f6058fe9c387e3	192.168.107.10	149.154.71.190	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-56-41

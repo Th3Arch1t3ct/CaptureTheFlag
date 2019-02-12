@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-09-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1338502904.900833	C5gplU3BefaisjMPpd	192.168.82.10	1030	4.2.2.3	53	udp	22678	putyourfile.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.90.39.65	14371.000000	F
+1338502904.929712	C5gplU3BefaisjMPpd	192.168.82.10	1030	4.2.2.3	53	udp	33684	www.putyourfile.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.putyourfile.in.cdn.cloudflare.net,cf-ssl11605-protected-www.putyourfile.in.cdn.cloudflare.net,108.162.200.70,108.162.201.70	271.000000,571.000000,271.000000,271.000000	F
+1338502905.156186	C5gplU3BefaisjMPpd	192.168.82.10	1030	4.2.2.3	53	udp	49555	virusmafia.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	206.212.243.114	14400.000000	F
+1338502907.104557	C5gplU3BefaisjMPpd	192.168.82.10	1030	4.2.2.3	53	udp	17555	theonekids.no-ip.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.90.39.65	60.000000	F
+1338502907.187135	C5gplU3BefaisjMPpd	192.168.82.10	1030	4.2.2.3	53	udp	30866	api.wipmania.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.15.234.7	1621.000000	F
+#close	2014-04-03-10-09-48

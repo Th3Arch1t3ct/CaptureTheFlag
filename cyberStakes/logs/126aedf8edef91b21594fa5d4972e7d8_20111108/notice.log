@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-08-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1320796949.585778	CwgoS22a9U1hIzgNki	192.168.30.10	1053	46.4.74.43	80	FMv50i16m08UJBzWX5	application/x-dosexec	http://46.4.74.43/w.php?f=19&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2011-12-03 00:34:40	https://www.virustotal.com/en/search/?query=86cfd17fef86f4544d17354179bc2deaede5a9ba	192.168.30.10	46.4.74.43	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1320796949.585778	CQeBpn4oqOxbwYDeV2	192.168.30.10	1060	46.4.74.43	80	FkTVMq2DVESuaBsaE5	application/x-dosexec	http://46.4.74.43/w.php?f=19&e=6	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2011-12-03 00:34:40	https://www.virustotal.com/en/search/?query=86cfd17fef86f4544d17354179bc2deaede5a9ba	192.168.30.10	46.4.74.43	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1320796963.630658	CMsNOcG98jKjntgef	192.168.30.10	1061	46.4.74.43	80	FxcPDT2kWNnp54Pso4	application/x-shockwave-flash	http://46.4.74.43/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 26%  Last seen: 2011-11-14 01:21:00	https://www.virustotal.com/en/search/?query=dc592aca72b525b0783064ff77317a0836f235f8	192.168.30.10	46.4.74.43	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-08-32

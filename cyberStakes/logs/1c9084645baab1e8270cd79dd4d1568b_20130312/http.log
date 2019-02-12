@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-03-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1363113865.519181	CljmaFeF1NfZDxzm3	192.168.97.10	1030	50.63.221.1	80	1	GET	ultradecor.ca	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13331	200	OK	-	-	-	(empty)	-	-	-	-	-	Fjt2gl16uFCeVlqLi	text/html
+1363113865.631854	CljmaFeF1NfZDxzm3	192.168.97.10	1030	50.63.221.1	80	2	GET	ultradecor.ca	/index_fichiers/image310.jpg	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	54751	200	OK	-	-	-	(empty)	-	-	-	-	-	FDYKqK1f2VoRNXy3hh	image/jpeg
+1363113866.276328	CZcgHo1ckqEAgaVHtg	192.168.97.10	1031	50.63.221.1	80	1	GET	ultradecor.ca	/index_fichiers/image313.png	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13196	200	OK	-	-	-	(empty)	-	-	-	-	-	FDdWRK1XtCJj1S5UD1	image/png
+1363113866.27959	CljmaFeF1NfZDxzm3	192.168.97.10	1030	50.63.221.1	80	3	GET	ultradecor.ca	/index_fichiers/image314.png	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	33446	200	OK	-	-	-	(empty)	-	-	-	-	-	Fcyajb3XcXlmD43kz5	image/png
+1363113866.392432	CvCciT3I1DGlYu2o8j	192.168.97.10	1032	217.11.242.226	80	1	GET	ftp.opjablonica.sk	/dtd.php	http://ultradecor.ca/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1363113866.787243	CwFlak3cfrv2YqUU16	192.168.97.10	1033	91.213.8.211	80	1	GET	visockis.thebeamerseries.com	/world/northern-unlikely_incline_sharply.htm	http://ultradecor.ca/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	142731	200	OK	-	-	-	(empty)	-	-	-	-	-	F5XJbV1WWBSrIjuxH8	text/html
+1363113874.668414	CEuvrs4JAi9HIiYo4	192.168.97.10	1038	65.55.13.243	80	1	POST	activex.microsoft.com	/objects/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	Fyjpgn3DST1Bc9k3G3	text/plain	FMgYDd3YcTPwkhFc99	text/plain
+1363113874.815587	CnWfac7e4sIMLp0ol	192.168.97.10	1040	65.55.13.243	80	1	POST	codecs.microsoft.com	/isapi/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	F2VTf44M0C1F4iwBwd	text/plain	FBzOgu3RBUPvVxkpoi	text/plain
+1363113874.881382	CUfdeY1hByMxm2Ioo8	192.168.97.10	1039	91.213.8.211	80	1	GET	visockis.thebeamerseries.com	/world/horn-apology-vicar-heroin.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	9016	200	OK	-	-	-	(empty)	-	-	-	-	-	FoFKvb1SDAWznCm8A8	application/zip
+1363113877.315232	C3BKeG2Xr50wy6OXrc	192.168.97.10	1041	91.213.8.211	80	1	GET	visockis.thebeamerseries.com	/world/4453006	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	112128	200	OK	-	-	-	(empty)	-	-	-	-	-	Fw0rJj4mWFTAg32alh	binary
+1363113889.679151	CwFlak3cfrv2YqUU16	192.168.97.10	1033	91.213.8.211	80	2	GET	visockis.thebeamerseries.com	/world/console_villager_bridge_wheat.pdf	http://visockis.thebeamerseries.com/world/northern-unlikely_incline_sharply.htm	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	9134	200	OK	-	-	-	(empty)	-	-	-	-	-	Fw8T9q1DLtWBrggHNh	application/pdf
+1363113901.556239	CwFlak3cfrv2YqUU16	192.168.97.10	1033	91.213.8.211	80	3	GET	visockis.thebeamerseries.com	/world/horn-apology-vicar-heroin.txt?e=3	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	112128	200	OK	-	-	-	(empty)	-	-	-	-	-	FBWP7A4c7pJ1ifLhqk	application/x-dosexec
+1363113905.488295	CwFlak3cfrv2YqUU16	192.168.97.10	1033	91.213.8.211	80	4	GET	visockis.thebeamerseries.com	/world/rich-example_borough_hereafter.swf	http://ultradecor.ca/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-11-03-13

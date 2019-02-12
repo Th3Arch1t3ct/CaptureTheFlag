@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-50-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1339416951.18882	Cqa6XZ2MjgSy71Ugh8	192.168.54.10	1030	173.201.233.128	80	1	GET	square9support.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1856	200	OK	-	-	-	(empty)	-	-	-	-	-	F7FBvq3dxSTajPpeVb	text/html
+1339416955.802684	Cqa6XZ2MjgSy71Ugh8	192.168.54.10	1030	173.201.233.128	80	2	GET	square9support.com	/style.css	http://square9support.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1357	200	OK	-	-	-	(empty)	-	-	-	-	-	FDkBX74bAf9jpcr5Si	text/plain
+1339416955.849567	CtEmyL3Y2YUeOCPogc	192.168.54.10	1035	141.101.124.232	80	1	GET	static.getclicky.com	/js	http://square9support.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	10295	200	OK	-	-	-	(empty)	-	-	-	-	-	FFg3pl1QvAFUurGpRe	text/plain
+1339416955.862501	Cqa6XZ2MjgSy71Ugh8	192.168.54.10	1030	173.201.233.128	80	3	GET	square9support.com	/fonts/quicksand_book-webfont.eot?	http://square9support.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	21559	200	OK	-	-	-	(empty)	-	-	-	-	-	FmXpTj1aJHJO0Flvsi	application/vnd.ms-fontobject
+1339416956.037212	CTUWKDy5wHxY3dKxc	192.168.54.10	1037	204.13.8.64	80	1	GET	in.getclicky.com	/in.php?site_id=66595576&res=800x600&lang=en&type=pageview&href=/&title=Square 9 Support Portal&ref=&jsuid=3610734532&mime=js&x=0.5427234869551187	http://square9support.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7	200	OK	-	-	-	(empty)	-	-	-	-	-	F7XMFJ1UkkYBzfMY4c	text/plain
+1339416955.926561	CdRiJ62AsnML8tgY8j	192.168.54.10	1036	173.201.233.128	80	1	GET	square9support.com	/images/Square.jpg	http://square9support.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	56417	200	OK	-	-	-	(empty)	-	-	-	-	-	F7i3a71iCoHTd804kc	image/jpeg
+1339416956.08794	Cqa6XZ2MjgSy71Ugh8	192.168.54.10	1030	173.201.233.128	80	4	GET	square9support.com	/images/facebook.png	http://square9support.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1031	200	OK	-	-	-	(empty)	-	-	-	-	-	FOyJGb4naHlrIFuTS7	image/png
+1339416961.284027	CdRiJ62AsnML8tgY8j	192.168.54.10	1036	173.201.233.128	80	2	GET	square9support.com	/Square9Support.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	55214	200	OK	-	-	-	(empty)	-	-	-	-	-	FIadhM1RKijJ0hAPYj	application/x-dosexec
+#close	2014-04-03-10-50-00

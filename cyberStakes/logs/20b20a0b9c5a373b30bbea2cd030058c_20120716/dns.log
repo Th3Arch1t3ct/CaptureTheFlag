@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-02-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1342413133.515453	C5oHpX3i01aQPj3aA7	192.168.12.10	1029	4.2.2.3	53	udp	65163	yidakm.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	server-zj2.kalegou.com,115.238.237.213	3574.000000,575.000000	F
+1342413140.247013	C5oHpX3i01aQPj3aA7	192.168.12.10	1029	4.2.2.3	53	udp	49291	www.download.windowsupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.download.windowsupdate.nsatc.net,main.dl.wu.akadns.net,dom.dl.wu.akadns.net,dl.wu.ms.edgesuite.net,a26.ms.akamai.net,192.204.4.57,192.204.4.74	2129.000000,41.000000,43.000000,43.000000,14381.000000,10.000000,10.000000	F
+1342413140.334142	C5oHpX3i01aQPj3aA7	192.168.12.10	1029	4.2.2.3	53	udp	17546	crl.startssl.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.startssl.com.cdn.cloudflare.net,108.162.207.91,141.101.127.91,108.162.200.92,108.162.201.92,108.162.202.92	43200.000000,300.000000,300.000000,300.000000,300.000000,300.000000	F
+1342413140.569355	C5oHpX3i01aQPj3aA7	192.168.12.10	1029	4.2.2.3	53	udp	64649	crls.wosign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	211.151.122.88,58.68.225.88,122.152.175.3	300.000000,300.000000,300.000000	F
+1342413142.759199	C5oHpX3i01aQPj3aA7	192.168.12.10	1029	4.2.2.3	53	udp	39561	wpa.qq.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	112.90.141.82	300.000000	F
+1342413153.739389	CVqXRiVfDcwRpYkrc	192.168.12.10	1029	4.2.2.3	53	udp	10383	cache.kalegou.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	115.238.237.204	600.000000	F
+1342413154.847324	CVqXRiVfDcwRpYkrc	192.168.12.10	1029	4.2.2.3	53	udp	20109	webscan.360.cn	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	webscan-b.360.cn,220.181.158.217,220.181.158.71	300.000000,300.000000,300.000000	F
+#close	2014-04-03-10-02-18

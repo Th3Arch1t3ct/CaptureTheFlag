@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-03-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1343949500.100593	Cqzvrx0inTPhjVDq4	192.168.109.10	1038	95.215.60.181	80	tcp	http	0.311442	329	2437	SF	-	0	ShADadfF	6	577	6	2685	(empty)
+1343949500.992278	CobwDU2FHP6ymo3Jta	192.168.109.10	1039	95.215.60.181	80	tcp	http	0.270767	290	4137	SF	-	0	ShADadfF	7	578	7	4425	(empty)
+1343949501.30053	CDEZBV3W1GLJ6eV9kl	192.168.109.10	1040	95.215.60.181	80	tcp	http	2.380398	202	422173	SF	-	0	ShADadfF	203	8846	293	433901	(empty)
+1343949495.845969	CzRM6u3XiUdmoxmZV5	192.168.109.10	1030	188.165.192.58	80	tcp	http	8.296790	2738	61984	RSTO	-	0	ShADdR	38	4266	47	63872	(empty)
+1343949496.278492	CYJxgh4G1uhEAlLS6h	192.168.109.10	1031	188.165.192.58	80	tcp	http	7.864482	1480	32473	RSTO	-	0	ShADdR	23	2408	26	33521	(empty)
+1343949498.605057	CLdq0DCxzs6oT2G51	192.168.109.10	1036	78.46.153.78	80	tcp	http	5.538133	347	309	RSTO	-	0	ShADadR	6	595	4	477	(empty)
+1343949499.470709	CvufUV2boP6Ffz6fhf	192.168.109.10	1037	178.168.7.67	80	tcp	http	4.672595	329	505	RSTO	-	0	ShADadR	5	537	3	633	(empty)
+1343949495.843904	Cf4vn61EFvLaN5rfC1	192.168.109.10	1029	4.2.2.3	53	udp	dns	9.718360	212	308	SF	-	0	Dd	6	380	6	476	(empty)
+1343949504.381377	CpEMny19SYUOjjNF4f	192.168.109.10	1041	112.121.178.189	80	tcp	http	1.247609	159	244	S1	-	0	ShADad	4	327	3	372	(empty)
+1343949505.563186	CIrwv34t6P5zqGKW3	192.168.109.10	1042	195.210.47.239	80	tcp	http	30.986688	162	211690	RSTO	-	0	ShADadfR	99	4130	150	217698	(empty)
+1343949479.633889	CYSijx4GqN3hKXR3Ei	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.005228	626	0	S0	-	0	D	2	682	0	0	(empty)
+1343949498.398361	CuRUoY1pRym6ph8pgc	192.168.109.10	1034	239.255.255.250	1900	udp	-	6.254627	399	0	S0	-	0	D	3	483	0	0	(empty)
+1343949479.634245	CUtdC921u6MRSGgnqc	192.168.109.10	68	192.168.109.1	67	udp	dhcp	13.157106	314	900	SF	-	0	dD	1	342	3	984	(empty)
+#close	2014-04-03-10-03-09

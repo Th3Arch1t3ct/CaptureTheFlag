@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-23-17
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1355624338.905487	CSHKXi4apYpPiLUwp6	192.168.102.10	1029	4.2.2.3	53	udp	2443	ohyesblog.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.172.169.35	14400.000000	F
+1355624339.147694	CSHKXi4apYpPiLUwp6	192.168.102.10	1029	4.2.2.3	53	udp	63880	goldclick.pro	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	142.0.34.55	375.000000	F
+1355624340.81825	CSHKXi4apYpPiLUwp6	192.168.102.10	1029	4.2.2.3	53	udp	61577	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	459.000000,76.000000	F
+1355624341.147093	CSHKXi4apYpPiLUwp6	192.168.102.10	1029	4.2.2.3	53	udp	2441	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,64.4.52.169	3375.000000,375.000000	F
+1355624396.720391	C3kVtE2diLNPLTLe9g	192.168.102.10	1029	4.2.2.3	53	udp	28302	smtp.live.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	smtp.hot.glbdns.microsoft.com,65.55.172.254	279.000000,30.000000	F
+#close	2014-04-03-10-23-17

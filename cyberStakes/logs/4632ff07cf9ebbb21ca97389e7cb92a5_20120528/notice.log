@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-07-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1338229528.096089	CdNNFNe71lj09Bsu9	192.168.55.10	1085	178.162.170.183	80	FoHWkT1ZcsesTr6Ji8	application/x-dosexec	http://prisnssas.tk/1.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-06-01 12:02:21	https://www.virustotal.com/en/search/?query=f48ad4799afa144a0e040af23f1b319bd62c4aea	192.168.55.10	178.162.170.183	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1338229537.436709	C0Ayk81XaN5kR3hDfe	192.168.55.10	1093	195.210.47.109	80	FK2zYR2x27JXVyhrb9	application/x-dosexec	http://navozmi.ipq.co/f/1100.exe?ts=6e5b2bc6&affid=4780	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-06-01 16:00:56	https://www.virustotal.com/en/search/?query=85bc2cc86e7c49ef4b35dbc7e118715cb82cde2f	192.168.55.10	195.210.47.109	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-07-44

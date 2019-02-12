@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-16-36
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1326935065.716091	F17Bhh28Q6rGQiRBjd	209.103.226.1	192.168.6.10	CW9rSI1fN9hjOrhbml	HTTP	0	MD5,SHA1	text/html	-	0.155424	-	F	94055	94055	0	0	F	-	50a7e6b335528c99b815ab77e107bb39	9580e6b2f1fdc5d0d287813a65ada13fbefaa572	-	-
+1326935067.036514	FkEwfSAWmC7AAyR25	213.229.116.172	192.168.6.10	CPUCeh4m0IWh6l59O9	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	185	185	0	0	F	-	b88280c6eeac673329b75d90c8a5057d	2e42f4db138753d07dbdce1a023b4a8329560864	-	-
+1326935067.488667	FvhkE6192C1rlJKx44	173.212.238.219	192.168.6.10	C40eWB4KjlPmBVEp8k	HTTP	0	MD5,SHA1	text/html	-	0.446499	-	F	81121	-	0	0	F	-	d73b10e0633ef20520e341c3049fb5de	258819d923d2f0c227769b09966b700d26da41f4	-	-
+1326935077.213081	FYln4P39IsG1Vf8BMf	173.212.238.219	192.168.6.10	C40eWB4KjlPmBVEp8k	HTTP	0	MD5,SHA1	application/x-dosexec	contacts.exe	0.516307	-	F	153600	153600	0	0	F	-	75a68523d17cbc1707a60a6de204dbe3	5fade6d6c12174b7a9db94f6760e6c71c8796e08	-	-
+1326935078.063416	FXS8Nj119lMdL8SsA9	173.212.238.219	192.168.6.10	C40eWB4KjlPmBVEp8k	HTTP	0	MD5,SHA1	application/pdf	fba1e.pdf	0.538493	-	F	92911	92911	0	0	F	-	b59b82f0fe31f669fca01526e3105429	e28c92ba20005c79815da384260de0a4779eae9e	-	-
+1326935104.169306	FcQIBp4xOJf33ZzCEi	173.212.238.219	192.168.6.10	C40eWB4KjlPmBVEp8k	HTTP	0	MD5,SHA1	application/x-dosexec	info.exe	0.536859	-	F	153600	153600	0	0	F	-	75a68523d17cbc1707a60a6de204dbe3	5fade6d6c12174b7a9db94f6760e6c71c8796e08	-	-
+1326935106.387318	F5syAA26u45cZI5Wc6	173.212.238.219	192.168.6.10	C40eWB4KjlPmBVEp8k	HTTP	0	MD5,SHA1	application/x-shockwave-flash	-	0.000000	-	F	1464	1464	0	0	F	-	11006a85a8e8c14aef5d91bac66535a4	6b882671281f472684777fec6903363f50a7d6c2	-	-
+1326935106.586083	FQ4kaADOXfstid32a	173.212.238.219	192.168.6.10	CN19mz1lqWP0EQRDU5	HTTP	0	MD5,SHA1	application/zip	-	0.022140	-	F	4118	4118	0	0	F	-	e544255b2e81ed0d5ca5f504fed4be3f	50e2cbbc52d992d7b854d48b7651b7ba1da74ef9	-	-
+#close	2014-04-03-10-16-36

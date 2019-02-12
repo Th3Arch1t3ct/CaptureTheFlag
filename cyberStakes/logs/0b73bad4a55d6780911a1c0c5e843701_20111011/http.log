@@ -1,0 +1,31 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-02-01
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1318359479.487158	C9tpkc350GBgz3Fsnc	192.168.32.10	1030	98.139.135.22	80	1	GET	monetechnica.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4439	200	OK	-	-	-	(empty)	-	-	-	-	-	FPXRT248nbB1iDUQB2	text/html
+1318359479.934147	CY7mXL3mFo7J0aGZhj	192.168.32.10	1032	98.137.80.49	80	1	GET	l.yimg.com	/d/lib/smb/js/hosting/cp/js_source/whv2_001.js	http://monetechnica.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	669	200	OK	-	-	-	(empty)	-	-	-	-	-	FU5qXy3vUDENHHKxPj	text/plain
+1318359480.071627	Ci6Ki231I7SQgEAiDl	192.168.32.10	1033	68.180.221.254	80	1	GET	visit.webhosting.yahoo.com	/visit.gif?&r=&b=Microsoft Internet Explorer 4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)&s=800x600&o=Win32&c=24&j=true&v=1.2	http://monetechnica.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	85	200	OK	-	-	-	(empty)	-	-	-	-	-	FbbqZm1whRBNYJ6MNa	image/gif
+1318359480.028363	CXZffU3k0W0R0arpYb	192.168.32.10	1031	94.23.116.30	80	1	GET	molbideneoil.com	/main.php?page=123fe339b1d20f49	http://monetechnica.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	127887	200	OK	-	-	-	(empty)	-	-	-	-	-	FjhxOh4tjQbySmZXx5	text/html
+1318359486.569542	CXZffU3k0W0R0arpYb	192.168.32.10	1031	94.23.116.30	80	2	GET	molbideneoil.com	/w.php?f=29&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	196096	200	OK	-	-	-	(empty)	-	-	-	-	-	FrlIU14Se5Fgb09lRi	application/x-dosexec
+1318359492.511319	C4Mfvb4XiWKByHHG1g	192.168.32.10	1043	94.23.116.30	80	1	GET	molbideneoil.com	/content/field.swf	http://monetechnica.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1320	200	OK	-	-	-	(empty)	-	-	-	-	-	FCi7PT2s9laOVn7Pr6	application/x-shockwave-flash
+1318359492.552898	Ch34vG4ltRgWHfy4Zh	192.168.32.10	1044	94.23.116.30	80	1	GET	molbideneoil.com	/content/rabbits.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5649	200	OK	-	-	-	(empty)	-	-	-	-	-	FUoBoq1QShAot6xn19	application/zip
+1318359492.7347	Cp9Z5I2mCZfgcc8emh	192.168.32.10	1045	195.184.86.63	80	1	GET	3283637823	/Main.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5488	200	OK	-	-	-	(empty)	-	-	-	-	-	FGe4WT3NWpLDhktM8j	application/x-java-applet
+1318359492.73954	CSMOOt4XW2C1CSZODe	192.168.32.10	1048	195.184.86.63	80	1	GET	3283637823	/Main.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5488	200	OK	-	-	-	(empty)	-	-	-	-	-	FWvrmq17x4R1rAlCO8	application/x-java-applet
+1318359492.740388	CUoQKC2CASQdX9BFgf	192.168.32.10	1047	195.184.86.63	80	1	GET	3283637823	/Main.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5488	200	OK	-	-	-	(empty)	-	-	-	-	-	FtCVpqInELOHsLjxl	application/x-java-applet
+1318359492.745071	CxaEto4BhtxZdq0dBg	192.168.32.10	1049	195.184.86.63	80	1	GET	3283637823	/Main.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5488	200	OK	-	-	-	(empty)	-	-	-	-	-	FAs4hR3NooVjStiab8	application/x-java-applet
+1318359492.745888	CNoB4q2SibLT20AIIi	192.168.32.10	1050	195.184.86.63	80	1	GET	3283637823	/Main.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5488	200	OK	-	-	-	(empty)	-	-	-	-	-	FcrKy12KjBBJd6Pmf9	application/x-java-applet
+1318359492.830125	CAhn4V2wbb4TKACYI1	192.168.32.10	1046	195.184.86.63	80	1	GET	3283637823	/Main.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5488	200	OK	-	-	-	(empty)	-	-	-	-	-	FmLDAEUKi4SRraNFd	application/x-java-applet
+1318359493.741898	C7cf9c1XmONxgfaiH2	192.168.32.10	1055	94.23.116.30	80	1	GET	molbideneoil.com	/w.php?f=29&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	196096	200	OK	-	-	-	(empty)	-	-	-	-	-	FUjM7331cjObm94cml	application/x-dosexec
+1318359493.386525	CJ4Msu1nYWv24qCqj1	192.168.32.10	1051	94.23.116.30	80	1	GET	molbideneoil.com	/w.php?f=29&e=1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	196096	200	OK	-	-	-	(empty)	-	-	-	-	-	F7Rwho2GRj2X4k3FG7	application/x-dosexec
+1318359493.759391	CcgTiE1r2EJwRw1n1a	192.168.32.10	1056	94.23.116.30	80	1	GET	molbideneoil.com	/w.php?f=29&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	196096	200	OK	-	-	-	(empty)	-	-	-	-	-	F8UBow2k7wUDEBkof3	application/x-dosexec
+1318359493.74281	CkrkwCsZRoImVrjYa	192.168.32.10	1053	94.23.116.30	80	1	GET	molbideneoil.com	/w.php?f=29&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	196096	200	OK	-	-	-	(empty)	-	-	-	-	-	FPRQEA2yVlLR3IRgi2	application/x-dosexec
+1318359493.722869	CEvvhm1Jnex1fIjvD8	192.168.32.10	1052	94.23.116.30	80	1	GET	molbideneoil.com	/w.php?f=29&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	196096	200	OK	-	-	-	(empty)	-	-	-	-	-	FrQ7TZZ8810pOusK4	application/x-dosexec
+1318359493.740377	CPT0G41SUo2YbNaum	192.168.32.10	1054	94.23.116.30	80	1	GET	molbideneoil.com	/w.php?f=29&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	196096	200	OK	-	-	-	(empty)	-	-	-	-	-	F7yT3y3OvGfme1IvS	application/x-dosexec
+1318359493.784029	C0kKxU0B4ivn8QOB9	192.168.32.10	1057	94.23.116.30	80	1	GET	molbideneoil.com	/w.php?f=29&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	196096	200	OK	-	-	-	(empty)	-	-	-	-	-	FK02qm17EFpxDbhD0j	application/x-dosexec
+1318359508.517883	CAXMQ32SdU6MKbdI04	192.168.32.10	1061	95.163.88.209	80	1	OPTIONS	95.163.88.209	/	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	166	405	Not Allowed	-	-	-	(empty)	-	-	-	-	-	FF8VEE2b1Y6TsxlGo7	text/html
+1318359490.943434	CXZffU3k0W0R0arpYb	192.168.32.10	1031	94.23.116.30	80	3	GET	molbideneoil.com	/content/2dfp.php?f=29	http://molbideneoil.com/main.php?page=123fe339b1d20f49	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-11-02-03

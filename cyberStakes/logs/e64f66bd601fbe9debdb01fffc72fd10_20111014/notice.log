@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-18-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1318565671.802287	CBZ5IT1gnFV4cPFWne	192.168.26.10	1035	89.208.34.116	80	FEbiQe3VWlNr7cXdt	application/x-dosexec	http://microgaftnoipfack.ce.ms/w.php?f=23&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 60%  Last seen: 2011-10-18 22:03:12	https://www.virustotal.com/en/search/?query=9fcde531902ddc849c0a565c41e780bfcca00707	192.168.26.10	89.208.34.116	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1318565688.106755	CDLOGG2wK554Bpmx77	192.168.26.10	1048	89.208.34.116	80	FicguJ1MSgABRW65Gl	application/x-shockwave-flash	http://microgaftnoipfack.ce.ms/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 25%  Last seen: 2011-11-05 13:18:54	https://www.virustotal.com/en/search/?query=5250a8eca99443a3047fe3c68d957b0a70e98025	192.168.26.10	89.208.34.116	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1318565691.715822	CBZ5IT1gnFV4cPFWne	192.168.26.10	1035	89.208.34.116	80	FPMZLu3Jan8rbuuUa6	application/x-dosexec	http://microgaftnoipfack.ce.ms/w.php?f=23&e=6	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 60%  Last seen: 2011-10-18 22:03:12	https://www.virustotal.com/en/search/?query=9fcde531902ddc849c0a565c41e780bfcca00707	192.168.26.10	89.208.34.116	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1318565712.026075	C7Zanmb1kpvOs4Fma	192.168.26.10	1054	89.208.34.116	80	Fcfuzj41JoEuw7GAa9	application/x-dosexec	http://microgaftnoipfack.ce.ms/w.php?f=23&e=1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 60%  Last seen: 2011-10-18 22:03:12	https://www.virustotal.com/en/search/?query=9fcde531902ddc849c0a565c41e780bfcca00707	192.168.26.10	89.208.34.116	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-18-07

@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-11-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1337556846.467922	CQGC2s3nBq05dd9hI6	192.168.8.10	1065	37.59.198.60	80	F3TQYv2itOH6h7TyY	application/x-dosexec	http://ghjbank.info/?0c8126dfdd697e18a1e17fbeddf67916	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-05-24 00:39:50	https://www.virustotal.com/en/search/?query=415e756299dbf81ce3f6c8304171fa2b2350ce4c	192.168.8.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1337556849.815504	CqGHzHC3VmJRp3V22	192.168.8.10	1071	37.59.198.60	80	FIhYdI2XmA4gvgFOZi	application/x-dosexec	http://ghjbank.info/?edb6f8937e0dd878645c66a389135072	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 21%  Last seen: 2012-05-22 09:17:03	https://www.virustotal.com/en/search/?query=dd7cc1814e9b48b6001cd508acae99b6f0df3a6b	192.168.8.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1337556871.213054	CFqKBV3huB9IVDbaRi	192.168.8.10	1072	37.59.198.60	80	FCY1aclrR7lTGBYs3	application/x-dosexec	http://ghjbank.info/?9fa6eacce8fb659214172d7c6e2a91c8	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-05-23 05:51:04	https://www.virustotal.com/en/search/?query=f54353ab8fcbb94b88ceba06bb8dc8e217c914d3	192.168.8.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-11-24

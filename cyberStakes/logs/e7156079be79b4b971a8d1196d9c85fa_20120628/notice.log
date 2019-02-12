@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-52-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1340897653.311008	C8oLxA6q2Px3cvwuj	192.168.114.10	1037	178.162.137.64	80	F5lPMv2YkbatOsSpQ5	application/x-dosexec	http://178.162.137.64/2.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 38%  Last seen: 2012-07-14 14:12:47	https://www.virustotal.com/en/search/?query=cd6b80e13c17747365bb6c5a7ffbb201e6915ecd	192.168.114.10	178.162.137.64	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1340897660.669937	C8wNbz3g2v2hFl9kr7	192.168.114.10	1044	178.162.137.64	80	Fb5Xd34BlgmkO3a1gf	application/x-dosexec	http://178.162.137.64/1.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 38%  Last seen: 2012-07-14 14:12:47	https://www.virustotal.com/en/search/?query=cd6b80e13c17747365bb6c5a7ffbb201e6915ecd	192.168.114.10	178.162.137.64	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-52-36

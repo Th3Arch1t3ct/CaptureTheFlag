@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-14-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1331442487.087281	CLZMt64HYnkB7NIGCk	192.168.91.10	1050	188.165.3.22	80	FDH8Mi34LW6LTYLeQf	application/x-dosexec	http://nnnorange.info/?20fdaef5c1fb7a5575c04595e89fed66	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 55%  Last seen: 2012-11-22 05:55:09	https://www.virustotal.com/en/search/?query=d4a91c0d9607309a2d14ef7f273a63c5b8ec74f8	192.168.91.10	188.165.3.22	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1331442487.087281	C7EiWy2EO41x338Pnd	192.168.91.10	1052	188.165.3.22	80	Fys7Tq3ijopRWuZ4ui	application/x-dosexec	http://nnnorange.info/?b3948b14d080d72509972df1cf730b71	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 55%  Last seen: 2012-11-22 05:55:09	https://www.virustotal.com/en/search/?query=d4a91c0d9607309a2d14ef7f273a63c5b8ec74f8	192.168.91.10	188.165.3.22	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1331442489.323881	COJLRB3A2mqJg5UPii	192.168.91.10	1053	188.165.3.22	80	FqiExI1AzK3WBCbGfc	application/x-dosexec	http://nnnorange.info/?1b6e4cc1a9205a5d04644d211f77c6e3	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-03-15 00:29:44	https://www.virustotal.com/en/search/?query=cbc999d2e9a090d6d35f8a2da2f4af5d8a7248dc	192.168.91.10	188.165.3.22	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-14-06

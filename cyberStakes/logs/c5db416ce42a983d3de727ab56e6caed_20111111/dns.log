@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-57-42
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1321053044.310048	Ct5Wk94dqCxvynFDxb	192.168.70.10	1029	4.2.2.3	53	udp	44435	cancri.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.120.5.90	14378.000000	F
+1321053044.388454	Ct5Wk94dqCxvynFDxb	192.168.70.10	1029	4.2.2.3	53	udp	38035	html5shim.googlecode.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlecode.l.google.com,74.125.45.82	4187.000000,92.000000	F
+1321053045.644238	Ct5Wk94dqCxvynFDxb	192.168.70.10	1029	4.2.2.3	53	udp	61584	aquarigger.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.106.174.219	3969.000000	F
+1321053046.533852	Ct5Wk94dqCxvynFDxb	192.168.70.10	1029	4.2.2.3	53	udp	48785	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.132.27,69.31.132.73	17817.000000,194.000000,18493.000000,15.000000,15.000000	F
+1321053096.455884	CUBmVa3AAujC0ZHEX6	192.168.70.10	1029	4.2.2.3	53	udp	42134	xzczxczxcz.coom.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.208.142.55	3517.000000	F
+#close	2014-04-03-09-57-43

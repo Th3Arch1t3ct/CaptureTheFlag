@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-00-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1315280601.642804	Co53Rc3ZD6qwzQ7jza	192.168.17.10	1030	193.105.154.222	80	1	GET	obscurehu1.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	447	200	OK	-	-	-	(empty)	-	-	-	-	-	FJV5RfpdqUAFZ9w3h	text/html
+1315280601.758967	Co53Rc3ZD6qwzQ7jza	192.168.17.10	1030	193.105.154.222	80	2	GET	obscurehu1.com	/images/wwf.jpeg	http://obscurehu1.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13187	200	OK	-	-	-	(empty)	-	-	-	-	-	F83zv829263Bd1Mw2k	image/jpeg
+1315280602.071272	CzA0z23MVO55Ly33bg	192.168.17.10	1031	193.105.154.136	80	1	GET	ludicrouspl78.com	/main.php?page=2ee237496cce8124	http://obscurehu1.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	179208	200	OK	-	-	-	(empty)	-	-	-	-	-	FxecjxVEwlJauoTG2	text/html
+1315280603.479623	CzA0z23MVO55Ly33bg	192.168.17.10	1031	193.105.154.136	80	2	GET	ludicrouspl78.com	/content/2fdp.php?f=20	http://ludicrouspl78.com/main.php?page=2ee237496cce8124	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	96138	200	OK	-	-	-	(empty)	-	-	-	-	-	FC5iU6MgoM4AdpkEe	application/pdf
+1315280612.401325	CaSv0p4I4WGNlYnW5k	192.168.17.10	1041	193.105.154.136	80	1	GET	ludicrouspl78.com	/content/field.swf	http://obscurehu1.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1301	200	OK	-	-	-	(empty)	-	-	-	-	-	FP69k425fwfFTlIIZj	application/x-shockwave-flash
+1315280611.820652	CzA0z23MVO55Ly33bg	192.168.17.10	1031	193.105.154.136	80	3	GET	ludicrouspl78.com	/w.php?f=20&e=6	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	241152	200	OK	-	-	-	(empty)	-	-	-	-	-	FFak0z3dTYnVGKmBPd	application/x-dosexec
+1315280612.497949	CiJ4n71yLReg51q31k	192.168.17.10	1047	193.105.154.136	80	1	GET	ludicrouspl78.com	/content/worms.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5111	200	OK	-	-	-	(empty)	-	-	-	-	-	FyKzLJ35Nz4kTGtRl	application/zip
+1315280618.841078	C5ey1Y18lQVYYFt8o3	192.168.17.10	1045	95.163.66.188	80	1	GET	1604534972	/GWeather.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3891	200	OK	-	-	-	(empty)	-	-	-	-	-	FzGGcj2RJOTf18mg0l	application/x-java-applet
+1315280618.900726	CDtlds4ayf7Y3Ckaqg	192.168.17.10	1044	95.163.66.188	80	1	GET	1604534972	/GWeather.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3891	200	OK	-	-	-	(empty)	-	-	-	-	-	FsxQ9I1lPNC0ogSXS8	application/x-java-applet
+1315280618.90584	CTf6eX7TIdTS9cpY3	192.168.17.10	1048	95.163.66.188	80	1	GET	1604534972	/GWeather.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3891	200	OK	-	-	-	(empty)	-	-	-	-	-	FETXIf3r4feglKN4Ia	application/x-java-applet
+1315280618.760406	C0ZfA01mJsXxbvr4I9	192.168.17.10	1042	95.163.66.188	80	1	GET	1604534972	/GWeather.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3891	200	OK	-	-	-	(empty)	-	-	-	-	-	FpHWTa3U72zB9Hxtmd	application/x-java-applet
+1315280618.951894	C9IKn93vHn9aH1HgFf	192.168.17.10	1043	95.163.66.188	80	1	GET	1604534972	/GWeather.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3891	200	OK	-	-	-	(empty)	-	-	-	-	-	Fus9wi3N808Ts9ldJk	application/x-java-applet
+1315280618.944017	CA28nA4tnuVMV69Oej	192.168.17.10	1046	95.163.66.188	80	1	GET	1604534972	/GWeather.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3876	200	OK	-	-	-	(empty)	-	-	-	-	-	FqCXJC3dq48SPa627h	application/x-java-applet
+1315280624.251229	CqrFAN17Sm40pqxEja	192.168.17.10	1049	193.105.154.136	80	1	OPTIONS	193.105.154.136	/	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	166	405	Not Allowed	-	-	-	(empty)	-	-	-	-	-	Fsbp9w1X0kxQcZXGhc	text/html
+1315280663.1221	CFGQva2efgE0gczsh9	192.168.17.10	1051	65.55.12.249	80	1	GET	www.microsoft.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	142	302	Found	-	-	-	(empty)	-	-	-	-	-	FeAaGlipFFYFemJP8	text/html
+1315280663.19376	CFGQva2efgE0gczsh9	192.168.17.10	1051	65.55.12.249	80	2	GET	www.microsoft.com	/en/us/default.aspx	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	166	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	F65Kon2dRC7CJaell7	text/html
+1315280663.329779	CVUF3f3RJ65uVNXaJl	192.168.17.10	1052	65.55.12.249	80	1	GET	www.microsoft.com	/en-us/default.aspx	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	205985	200	OK	-	-	-	(empty)	-	-	-	-	-	FRnpDy4apWth9igHx9	text/html
+#close	2014-04-03-10-00-25

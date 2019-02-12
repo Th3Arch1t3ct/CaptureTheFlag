@@ -1,0 +1,49 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-48-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1340985335.475997	CQkghH2OyZYGQc5B55	192.168.65.10	1030	95.211.38.5	80	1	GET	blowjobdelight.org	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1340985335.863413	C7wHac2kSmcyONOy99	192.168.65.10	1031	31.210.110.35	80	1	GET	memomp.com	/info.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	220	200	OK	-	-	-	(empty)	-	-	-	-	-	FXZ3uCSJCXA1xzvVc	text/plain
+1340985337.033569	C9KmpHCVyG7npPEV9	192.168.65.10	1032	31.210.110.35	80	1	GET	rivilly.com	/main.php?page=2f4cf7244894e919	http://memomp.com/info.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	49049	200	OK	-	-	-	(empty)	-	-	-	-	-	FIVaRN1IkKg5Dh3Zd5	text/html
+1340985337.039506	CLqDA914l1iTprFzX2	192.168.65.10	1033	31.210.110.35	80	1	GET	rivilly.com	/main.php?page=2f4cf7244894e919	http://memomp.com/info.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	49049	200	OK	-	-	-	(empty)	-	-	-	-	-	FRQeYw3NgjfLXiEvNg	text/html
+1340985338.467446	C9KmpHCVyG7npPEV9	192.168.65.10	1032	31.210.110.35	80	2	GET	rivilly.com	/data/ap2.php	http://rivilly.com/main.php?page=2f4cf7244894e919	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	23039	200	OK	-	-	-	(empty)	-	-	-	-	-	FoZhgPT6GMvqKWXU5	application/pdf
+1340985340.353378	CLqDA914l1iTprFzX2	192.168.65.10	1033	31.210.110.35	80	2	GET	rivilly.com	/data/ap2.php	http://rivilly.com/main.php?page=2f4cf7244894e919	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	23039	200	OK	-	-	-	(empty)	-	-	-	-	-	Fslk3s1RWm0TrOJunh	application/pdf
+1340985340.733674	C9KmpHCVyG7npPEV9	192.168.65.10	1032	31.210.110.35	80	3	GET	rivilly.com	/data/ap2.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	23039	200	OK	-	-	-	(empty)	-	-	-	-	-	FuRUog7Fr2UoWiRk8	application/pdf
+1340985340.7465	CLqDA914l1iTprFzX2	192.168.65.10	1033	31.210.110.35	80	3	GET	rivilly.com	/data/ap2.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	23039	200	OK	-	-	-	(empty)	-	-	-	-	-	FjhAjE1ndNL8hKZTYc	application/pdf
+1340985348.290763	C9KmpHCVyG7npPEV9	192.168.65.10	1032	31.210.110.35	80	4	GET	rivilly.com	/w.php?f=af45e&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	196609	200	OK	-	-	-	(empty)	-	-	-	-	-	FGsFwR38Ohm0RpmTrf	application/x-dosexec
+1340985352.075891	CmAdh61MBI4QkyOoR2	192.168.65.10	1038	31.210.110.35	80	1	GET	rivilly.com	/Raik.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	51601	200	OK	-	-	-	(empty)	-	-	-	-	-	FVEnB53XWqcNdRqgH5	application/zip
+1340985353.887218	CIS7R02eOKZHZdNbQ4	192.168.65.10	1039	31.210.110.35	80	1	GET	rivilly.com	/w.php?f=af45e&e=0	-	Java/1.6.0_10	0	196609	200	OK	-	-	-	(empty)	-	-	-	-	-	FDCt6yWW0WiW9mVD7	application/x-dosexec
+1340985360.186964	CmFf6GY62RIrcOK6c	192.168.65.10	1040	65.54.51.180	80	1	GET	windowsupdate.microsoft.com	/	-	Mozilla/4.0	0	151	302	Object moved	-	-	-	(empty)	-	-	-	-	-	FZEELK1r1qlhc3SIE	text/html
+1340985360.540856	CB7oUx3UlpaLoBxHXi	192.168.65.10	1041	91.238.180.58	80	1	POST	swellclub.com	/stats/index.php	-	Mozilla/4.0	26	420356	200	OK	-	-	-	(empty)	-	-	-	FFhgFE3U5TPJQqFodb	text/plain	F5S1V4NwO2HzRcDh3	binary
+1340985362.324444	CT3O2E2ie497wkLtZg	192.168.65.10	1042	91.238.180.58	80	1	POST	swellclub.com	/stats/index.php	-	Mozilla/4.0	61	0	200	OK	-	-	-	(empty)	-	-	-	FwFKy2VXSsOtg4EKi	text/plain	-	-
+1340985364.662824	CJdCTv2elWoyVgU3Jc	192.168.65.10	1043	91.238.180.58	80	1	POST	swellclub.com	/stats/index.php	-	Mozilla/4.0	30	7684	200	OK	-	-	-	(empty)	-	-	-	FqYfnU3jkPsHOL48Ud	text/plain	FwsryOwTSuCIDooki	binary
+1340985364.995997	CVGgVX3ANYFqmmybI4	192.168.65.10	1044	91.238.180.58	80	1	POST	swellclub.com	/stats/index.php	-	Mozilla/4.0	92	0	200	OK	-	-	-	(empty)	-	-	-	FsJvwg4moMTDdKpmf7	text/plain	-	-
+1340985366.757128	CDK1Oe2kicD2ZUPiR8	192.168.65.10	1045	91.238.180.58	80	1	POST	swellclub.com	/stats/index.php	-	Mozilla/4.0	104	0	200	OK	-	-	-	(empty)	-	-	-	FGZ5cr43KgZ5QmzMs3	text/plain	-	-
+1340985366.992396	Cv57uNAWDt3Q3cQOa	192.168.65.10	1046	91.238.180.58	80	1	POST	swellclub.com	/stats/index.php	-	Mozilla/4.0	120	4	200	OK	-	-	-	(empty)	-	-	-	Fpj4n4kNdN1JAcpyc	text/plain	FFNGxV2df2TFyteZG6	text/plain
+1340985367.320373	CDOKuVYX8OiCpXy64	192.168.65.10	1047	91.238.180.58	80	1	POST	swellclub.com	/stats/index.php	-	Mozilla/4.0	128	0	200	OK	-	-	-	(empty)	-	-	-	Fwxcee2x9ogQMZ1sc5	text/plain	-	-
+1340985368.647105	CheGVO1uW1GVu7HJsh	192.168.65.10	1048	91.238.180.58	80	1	POST	swellclub.com	/stats/index.php	-	Mozilla/4.0	128	471040	200	OK	-	-	-	(empty)	-	-	-	FETWnL1s8FgTsFiRdd	text/plain	FEK1Jk2N6oIG1kbSvj	application/x-dosexec
+1340985370.613209	CQnJbu2e7nobaPgGhd	192.168.65.10	1049	91.238.180.58	80	1	POST	swellclub.com	/stats/index.php	-	Mozilla/4.0	138	0	200	OK	-	-	-	(empty)	-	-	-	Fk6D8G2lqRwReIWCa1	text/plain	-	-
+1340985371.955192	CIqz5V3SRBs1L1Ncib	192.168.65.10	1050	91.238.180.58	80	1	POST	swellclub.com	/stats/index.php	-	Mozilla/4.0	128	166912	200	OK	-	-	-	(empty)	-	-	-	Fjb70c2yhZRGDsAUrc	text/plain	Fr3VdB255kO7NMUZX7	application/x-dosexec
+1340985373.010726	CMj1fN3s5SLK2q4N3i	192.168.65.10	1051	91.238.180.58	80	1	POST	swellclub.com	/stats/index.php	-	Mozilla/4.0	138	0	200	OK	-	-	-	(empty)	-	-	-	FrKpy43x0Jp6j60lUk	text/plain	-	-
+1340985374.354205	CSpfvU2cu2gkCmXK2b	192.168.65.10	1052	91.238.180.58	80	1	POST	swellclub.com	/stats/index.php	-	Mozilla/4.0	132	0	200	OK	-	-	-	(empty)	-	-	-	FUfoM035rii2TzzqOg	text/plain	-	-
+1340985374.692073	C9QFcT2Qlx58FC35ch	192.168.65.10	1054	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	29	200	OK	-	-	-	(empty)	-	-	-	-	-	FTH9Ho2gKJLJD2stNa	text/plain
+1340985374.910522	Cz6SSq24gwA87gNsbd	192.168.65.10	1055	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=878135261&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340985374.913577	COcySd2Olaqq8liWA8	192.168.65.10	1059	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=878135261&c=3&d=7&s=20	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340985374.913752	CEl2gUWu0swcHiuR3	192.168.65.10	1057	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=878135261&c=2&d=7&s=1	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340985374.927582	Csc8cR2RZZT2fPIG6b	192.168.65.10	1061	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=878135261&c=4&d=7&s=21	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340985374.941417	CwAGMT3Zct66xxVCih	192.168.65.10	1063	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=878135261&c=5&d=7&s=22	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340985374.980783	ChQmPM1dpAVNBIJYIa	192.168.65.10	1065	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=878135261&c=6&d=7&s=23	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340985375.019187	CpYd7L1MnWmuzq5t4	192.168.65.10	1068	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=878135261&c=7&d=7&s=24	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340985376.516242	CynH2M3FxQpCLYrJ4	192.168.65.10	1071	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=878135261&c=8&d=7&s=25	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340985376.564447	CQa54O1BxgR462p3Ya	192.168.65.10	1073	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=878135261&c=9&d=7&s=26	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340985376.578417	CXJx5X3jHR6ULJpQoh	192.168.65.10	1075	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=878135261&c=10&d=7&s=30	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340985376.59537	CRcfOU2B5jhIGxeCbb	192.168.65.10	1077	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=878135261&c=11&d=7&s=31	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340985377.68083	CZcAQY1fcJAboxpTI9	192.168.65.10	1079	91.238.180.58	80	1	POST	swellclub.com	/stats/index.php	-	Mozilla/4.0	128	0	200	OK	-	-	-	(empty)	-	-	-	FBMzfF4PWkSAMQIdL2	text/plain	-	-
+1340985397.994886	C2Czkl2Y5TfdSSmQD3	192.168.65.10	1089	23.14.34.70	80	1	GET	fpdownload.macromedia.com	/pub/shockwave/cabs/flash/swflash.cab	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Win64; x64; Trident/4.0)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1340985398.042273	CSqHz01kwArjvyxpEd	192.168.65.10	1089	63.80.138.17	80	1	GET	fpdownload2.macromedia.com	/pub/shockwave/cabs/flash/swflash.cab	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Win64; x64; Trident/4.0)	0	77448	200	OK	-	-	-	(empty)	-	-	-	-	-	F6RBDK3NeorUlMQc3g	application/vnd.ms-cab-compressed
+1340985398.2382	Czmc7o2Yff1XOQu8xi	192.168.65.10	1091	23.0.2.70	80	1	GET	fpdownload.macromedia.com	/get/flashplayer/update/current/install/install_all_win_cab_ax_sgn.z	-	Flash Player Seed/3.0	0	9228659	200	OK	-	-	-	(empty)	-	-	-	-	-	FCNbizPc5WimLoFLl	binary
+#close	2014-04-03-10-48-09

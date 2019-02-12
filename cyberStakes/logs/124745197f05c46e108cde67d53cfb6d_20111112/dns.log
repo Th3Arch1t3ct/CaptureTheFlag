@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-27-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1321091245.653194	C8d7a64KwEM6owjhZ2	192.168.4.10	1029	4.2.2.3	53	udp	54415	advancedserve.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	97.74.215.39	3577.000000	F
+1321091245.963125	C8d7a64KwEM6owjhZ2	192.168.4.10	1029	4.2.2.3	53	udp	41615	aquarigger.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.106.174.219	7200.000000	F
+1321091246.430672	C8d7a64KwEM6owjhZ2	192.168.4.10	1029	4.2.2.3	53	udp	50061	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.132.27,69.31.132.73	8420.000000,259.000000,1901.000000,17.000000,17.000000	F
+1321091293.810554	CsEtMn1mNk6phPu8Tf	192.168.4.10	1029	4.2.2.3	53	udp	23179	xzczxczxcz.coom.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.208.142.55	3600.000000	F
+1321091310.155901	CgU80H2vAdiyGEWzr9	192.168.4.10	1029	4.2.2.3	53	udp	39562	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	2243.000000,68.000000	F
+1321091314.514982	CgU80H2vAdiyGEWzr9	192.168.4.10	1029	4.2.2.3	53	udp	17800	bnmbwwer.c0m.li	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.208.142.55	3600.000000	F
+#close	2014-04-03-10-28-00

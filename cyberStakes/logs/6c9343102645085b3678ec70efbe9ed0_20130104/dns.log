@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-23-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1357294131.531163	CkS5aiwKq4dHK1nxk	192.168.93.10	1029	4.2.2.3	53	udp	23697	51zpd.yxe-boobs.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	yxe-boobs.tk,93.170.52.31,93.170.52.21	279.000000,279.000000,279.000000	F
+1357294131.905064	CkS5aiwKq4dHK1nxk	192.168.93.10	1029	4.2.2.3	53	udp	12178	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.137.102,74.125.137.113,74.125.137.101,74.125.137.138,74.125.137.139,74.125.137.100	27327.000000,77.000000,77.000000,77.000000,77.000000,77.000000,77.000000	F
+1357294131.909642	CkS5aiwKq4dHK1nxk	192.168.93.10	1029	4.2.2.3	53	udp	403	lcrq.hedoiway.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	urlforward.topdns.com,72.8.167.249,199.59.160.184	3600.000000,1090.000000,1090.000000	F
+1357294132.285466	CkS5aiwKq4dHK1nxk	192.168.93.10	1029	4.2.2.3	53	udp	25235	fbstatic-a.akamaihd.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fbstatic-a.akamaihd.net.edgesuite.net,a1168.dsw4.akamai.net,192.204.4.82,192.204.4.65	282.000000,161.000000,12.000000,12.000000	F
+#close	2014-04-03-10-23-24

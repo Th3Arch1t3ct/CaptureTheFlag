@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-45-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1345030786.224021	C5UmLy4TaHDX169g58	192.168.24.10	1041	178.168.26.15	80	Fakkx83VjFUahJksx7	application/x-dosexec	http://lujmyvo.ru/newm002.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 38%  Last seen: 2012-08-30 02:25:07	https://www.virustotal.com/en/search/?query=1ec7f5ba67e65bbca2882866eb431db7674f172e	192.168.24.10	178.168.26.15	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1345030796.42551	Ce5y3x3gmFMqKsVAG8	192.168.24.10	1067	194.219.29.235	80	Fkuh7I3wToBDF9UWOi	application/x-dosexec	http://jimi.kopoese.com/f/notepad.exe?ts=252653ae&affid=5630	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 31%  Last seen: 2012-08-21 19:22:17	https://www.virustotal.com/en/search/?query=b633aa440ab04289c5bd58891c9143a0904c94c2	192.168.24.10	194.219.29.235	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-45-46

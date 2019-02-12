@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-28-42
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1358042352.271283	FU32Gt35y3vMXeWMBh	93.170.52.21	192.168.31.10	Cdd1iv32jar7p0K2p5	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	1122	-	0	0	F	-	372bac84b7b2aac4bb8b648ce1a88891	09fb472d36c8c282fdc42bba8837e9765b5d8e4d	-	-
+1358042352.522362	FA5jnO3SAp7CPDJSGd	74.125.229.199	192.168.31.10	CyMd931SQUINxv2A0a	HTTP	0	SHA1,MD5	text/plain	-	0.015179	-	F	37362	-	0	0	F	-	f5592eabae33f8499d067344f1f42183	142a9875c4bd7e15ce6ac8b5bb181fb29ed08ba5	-	-
+1358042352.628388	FKcagC1cwjkt98bC02	72.8.167.249	192.168.31.10	CDO2B62RBa25c2KlZk	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	568	568	0	0	F	-	e797d0d89e485222f201245cb503af71	d722caa9c7f8dbbac15058999ea3992ed0640449	-	-
+1358042352.637852	F2p4vxVphR1tNItla	74.125.229.199	192.168.31.10	CyMd931SQUINxv2A0a	HTTP	0	SHA1,MD5	image/gif	-	0.000000	-	F	35	35	0	0	F	-	28d6814f309ea289f847c69cf91194c6	0f4e929dd5bb2564f7ab9c76338e04e292a42ace	-	-
+1358042352.805781	FqW74sMYLYkS5oIof	208.131.138.217	192.168.31.10	CvgvWs4ZYLGuiuw0kg	HTTP	0	SHA1,MD5	text/html	-	0.000012	-	F	3239	3239	0	0	F	-	9d7bfaa15fde84c92293297f6887feeb	be62ec9f5915900c5c21abb4b518a9eb01a0cd4c	-	-
+1358042352.969005	Fcgdbh3Q9h8UcMR9q3	65.112.54.57	192.168.31.10	CtrihedYeJHn1c9C5	HTTP	0	SHA1,MD5	image/png	-	0.000000	-	F	2349	2349	0	0	F	-	ce404e2f475dbf547ee8195dac0eff0a	3eb3390ad49e78b3e872aaf154256496e132e9f3	-	-
+1358042353.016138	Fw6gi33uUbyeUTIso9	208.131.138.217	192.168.31.10	C6cmGo39FIu2dOeCW	HTTP	0	SHA1,MD5	application/x-dosexec	IamBitchJPEG.exe	0.293388	-	F	97820	176128	0	0	F	-	01979e9df3bda62ace7dae328cabefc8	5f24712c4a5c1f1da6d237067f61eac4ca3ee794	-	-
+#close	2014-04-03-10-28-42

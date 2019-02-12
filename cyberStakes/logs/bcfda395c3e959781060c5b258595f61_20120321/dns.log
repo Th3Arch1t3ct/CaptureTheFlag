@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-16-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1332364078.166612	Ch2kwV2GZfpBL2zwJc	192.168.108.10	1029	4.2.2.3	53	udp	48529	goeike.be	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	84.243.235.68	14379.000000	F
+1332364078.498584	Ch2kwV2GZfpBL2zwJc	192.168.108.10	1029	4.2.2.3	53	udp	19603	fecorom.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.220.90.34	100.000000	F
+1332364078.54368	Ch2kwV2GZfpBL2zwJc	192.168.108.10	1029	4.2.2.3	53	udp	21651	tr3.4voip.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.75.255.89	43200.000000	F
+1332364083.044482	Ch2kwV2GZfpBL2zwJc	192.168.108.10	1029	4.2.2.3	53	udp	21907	gaphiet.eu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	83.69.226.219	3600.000000	F
+1332364083.690804	Ch2kwV2GZfpBL2zwJc	192.168.108.10	1029	4.2.2.3	53	udp	12690	wmjj.org.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	205.134.165.142	300.000000	F
+1332364087.363891	Ch2kwV2GZfpBL2zwJc	192.168.108.10	1029	4.2.2.3	53	udp	30613	bober.net.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	205.134.165.142	300.000000	F
+#close	2014-04-03-10-16-46

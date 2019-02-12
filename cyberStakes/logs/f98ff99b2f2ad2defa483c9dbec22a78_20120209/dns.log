@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-12-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1328787931.66821	CMPsU53CBsNooPRmHd	192.168.118.10	1029	4.2.2.3	53	udp	17805	stdenis.ca	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.13.192.132	23526.000000	F
+1328787932.154064	CMPsU53CBsNooPRmHd	192.168.118.10	1029	4.2.2.3	53	udp	31628	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.157.102,74.125.157.100,74.125.157.101	20674.000000,142.000000,142.000000,142.000000	F
+1328787932.287631	CMPsU53CBsNooPRmHd	192.168.118.10	1029	4.2.2.3	53	udp	42126	analytic-google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.135.132.62	3600.000000	F
+1328787932.979057	CMPsU53CBsNooPRmHd	192.168.118.10	1029	4.2.2.3	53	udp	24969	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.75.203,69.31.75.161	4900.000000,276.000000,4546.000000,4.000000,4.000000	F
+1328787952.456758	C7pClu1GEzbcVRgfwa	192.168.118.10	1029	4.2.2.3	53	udp	9099	analyticdns.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.241.191.177	600.000000	F
+#close	2014-04-03-11-12-14

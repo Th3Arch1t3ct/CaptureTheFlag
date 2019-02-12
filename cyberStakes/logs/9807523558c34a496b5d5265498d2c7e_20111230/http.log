@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-58-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1325233706.945521	CEJMk72XiP7bcJUBba	192.168.44.10	1030	180.242.2.39	80	1	GET	1z562.paddockbarratt.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1325233741.534186	CF4fh64xVmUJVexCV3	192.168.44.10	1036	95.163.89.226	80	1	GET	aboutweapons.in	/content/field.swf	http://aboutweapons.in/main.php?id=937c853a11d42875	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1416	200	OK	-	-	-	(empty)	-	-	-	-	-	FG65eRtMK7JECRff7	application/x-shockwave-flash
+1325233741.534522	CLBdB72vPZWp80s999	192.168.44.10	1037	79.137.226.91	80	1	POST	onlinesecurytytests.ru	/mev/in/	-	Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)	109	249496	200	OK	-	-	-	(empty)	-	-	-	FubyLh31U2TmdlbcH6	binary	FqhzeK1M0i4WiAfQih	binary
+1325233745.888948	Cj2IOXS8prGajaNyd	192.168.44.10	1038	69.31.75.218	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1568	200	OK	-	-	-	(empty)	-	-	-	-	-	FKxxxH2JB3UKqxJnw3	text/html
+1325233745.824969	CF4fh64xVmUJVexCV3	192.168.44.10	1036	95.163.89.226	80	2	GET	aboutweapons.in	/content/score.swf	http://aboutweapons.in/content/field.swf	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6804	200	OK	-	-	-	(empty)	-	-	-	-	-	FlGyE34jfWdNdbQKM5	application/x-shockwave-flash
+1325233713.215225	CipKT22ieUtdMLf73h	192.168.44.10	1035	95.163.89.226	80	1	GET	aboutweapons.in	/main.php?id=937c853a11d42875	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+1325233728.939452	CipKT22ieUtdMLf73h	192.168.44.10	1035	95.163.89.226	80	2	GET	aboutweapons.in	/w.php?f=18&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+1325233739.492457	CipKT22ieUtdMLf73h	192.168.44.10	1035	95.163.89.226	80	3	GET	aboutweapons.in	/content/fdp2.php?f=18	http://aboutweapons.in/main.php?id=937c853a11d42875	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-09-58-31

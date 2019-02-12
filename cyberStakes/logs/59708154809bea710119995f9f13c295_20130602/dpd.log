@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dpd
+#open	2014-04-03-09-53-52
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	analyzer	failure_reason
+#types	time	string	addr	port	addr	port	enum	string	string
+1370193657.39831	CVj7BLILlYUeY5vQb	192.168.86.10	1176	183.129.206.50	80	tcp	HTTP	not a http reply line
+#close	2014-04-03-09-53-53

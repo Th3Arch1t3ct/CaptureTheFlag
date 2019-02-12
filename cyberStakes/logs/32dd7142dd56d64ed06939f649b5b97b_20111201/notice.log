@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-59-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1322730959.721873	CTqj3246CkPthpmFhk	192.168.77.10	1040	91.217.153.119	80	FoS7bs3jBaEzHWrsIf	application/x-dosexec	http://aibop7.miracleloops.com/f/9855693c3979fd35c24df19ed7512268/5	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2011-12-14 19:28:50	https://www.virustotal.com/en/search/?query=7097826c72e3310f87a13a1e07c2949230fd9374	192.168.77.10	91.217.153.119	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1322730961.606014	CewJMv2WIPF6AXXx2a	192.168.77.10	1047	91.217.153.119	80	F6eBO33JzaIYpQgYgg	application/x-dosexec	http://aibop7.miracleloops.com/f/9855693c3979fd35c24df19ed7512268/1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2011-12-14 19:28:50	https://www.virustotal.com/en/search/?query=7097826c72e3310f87a13a1e07c2949230fd9374	192.168.77.10	91.217.153.119	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1322730975.407947	CmuRz8271jVn3KXPT5	192.168.77.10	1054	91.217.153.119	80	F5Kfhf3aoCso0GHJ2e	application/x-dosexec	http://aibop7.miracleloops.com/f/9855693c3979fd35c24df19ed7512268/3	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2011-12-14 19:28:50	https://www.virustotal.com/en/search/?query=7097826c72e3310f87a13a1e07c2949230fd9374	192.168.77.10	91.217.153.119	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1322731007.344696	CcPwKu4e68JErE3WH	192.168.77.10	1053	91.217.153.119	80	FznkAZ2ybZPUywQrN5	application/x-dosexec	http://aibop7.miracleloops.com/f/9855693c3979fd35c24df19ed7512268/4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2011-12-14 19:28:50	https://www.virustotal.com/en/search/?query=7097826c72e3310f87a13a1e07c2949230fd9374	192.168.77.10	91.217.153.119	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-59-09

@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-33-38
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1323299228.611996	CJyaTZ1Tp7NAhGzH7g	192.168.50.10	1029	4.2.2.3	53	udp	64657	abitaspringselementary.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.43.161.182	3575.000000	F
+1323299229.275562	CJyaTZ1Tp7NAhGzH7g	192.168.50.10	1029	4.2.2.3	53	udp	16786	ww2.abitaspringselementary.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ahth2aey.dsgeneration.com,208.73.210.128	3582.000000,7062.000000	F
+1323299229.453791	CJyaTZ1Tp7NAhGzH7g	192.168.50.10	1029	4.2.2.3	53	udp	5779	dsnextgen.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.73.210.128	5739.000000	F
+1323299230.89892	CJyaTZ1Tp7NAhGzH7g	192.168.50.10	1029	4.2.2.3	53	udp	1428	clicks.fastlookupnow.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.36.248.40	8402.000000	F
+1323299231.027646	CJyaTZ1Tp7NAhGzH7g	192.168.50.10	1029	4.2.2.3	53	udp	45717	p.chango.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	p.chango.com.edgesuite.net,a733.g.akamai.net,69.31.74.98,69.31.74.96	242.000000,6022.000000,20.000000,20.000000	F
+1323299231.290448	CJyaTZ1Tp7NAhGzH7g	192.168.50.10	1029	4.2.2.3	53	udp	52886	ck.ads.affinity.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.36.248.143	3600.000000	F
+1323299231.435806	CJyaTZ1Tp7NAhGzH7g	192.168.50.10	1029	4.2.2.3	53	udp	35991	verdienen2011.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.120.214.83	14400.000000	F
+1323299231.613099	CJyaTZ1Tp7NAhGzH7g	192.168.50.10	1029	4.2.2.3	53	udp	42135	www.ginotrack.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	207.226.174.234	1200.000000	F
+#close	2014-04-03-10-33-38

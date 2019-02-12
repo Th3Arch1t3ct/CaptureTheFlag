@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-26-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1321433935.218034	Ct91oCKk5tSIKLb17	192.168.98.10	1031	173.205.124.151	80	1	GET	caninecastlekennels.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	11311	200	OK	-	-	-	(empty)	-	-	-	-	-	FnzLGm1j8ykwciUHm	text/html
+1321433935.568141	CEUPgkuVMgyFO6q13	192.168.98.10	1032	91.217.153.36	80	1	GET	cloud-ventures.com	//index.php?75643b0d126b535f7afdd69c6dc748b7	http://caninecastlekennels.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	53566	200	OK	-	-	-	(empty)	-	-	-	-	-	Fxlaca4G5MAjwB3Q4j	text/html
+1321433937.884699	Cel3CO1rOOrtvxUwZ	192.168.98.10	1033	91.217.153.36	80	1	GET	cloud-ventures.com	/server_privileges.php?70b4f010f4d47dc8bd5d5d51afa1a6df=5	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	146708	200	OK	-	-	-	(empty)	-	-	-	-	-	Fz11I42lKnD8ce6WId	application/x-dosexec
+1321433939.787685	CcwX8317I4KwyySrL7	192.168.98.10	1038	91.217.153.36	80	1	GET	cloud-ventures.com	//images/t/70b4f010f4d47dc8bd5d5d51afa1a6df.html	http://cloud-ventures.com//index.php?75643b0d126b535f7afdd69c6dc748b7	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	918	200	OK	-	-	-	(empty)	-	-	-	-	-	F2z0Jf2zEVCAwiW1h	text/html
+1321433940.205086	CzCnZtR4JIXChZIt3	192.168.98.10	1044	91.217.153.36	80	1	GET	cloud-ventures.com	//images/np/70b4f010f4d47dc8bd5d5d51afa1a6df/938a99f1be85e19406438f9a572fdf71.pdf	http://cloud-ventures.com//index.php?75643b0d126b535f7afdd69c6dc748b7	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4155	200	OK	-	-	-	(empty)	-	-	-	-	-	FOreUQ08ZZzftN3E8	application/pdf
+1321433952.077768	CUMOeMFJnzIRiwSi4	192.168.98.10	1052	91.217.153.37	80	1	GET	1540987173	/dsfsdrr.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3747	200	OK	-	-	-	(empty)	-	-	-	-	-	FTp4aT2in0FDpDreYg	application/x-java-applet
+1321433952.079397	Cv05Qa1E2EiSjxDYQ9	192.168.98.10	1050	91.217.153.37	80	1	GET	1540987173	/dsfsdrr.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3747	200	OK	-	-	-	(empty)	-	-	-	-	-	F4A4Lz2CFC0ARVoWb1	application/x-java-applet
+1321433952.080193	CC9do324Cz9pjRtO62	192.168.98.10	1047	91.217.153.37	80	1	GET	1540987173	/dsfsdrr.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3747	200	OK	-	-	-	(empty)	-	-	-	-	-	FwSOLl4hRBB4PC0vrj	application/x-java-applet
+1321433952.083509	CaBdwC1KM5sBKhGn89	192.168.98.10	1046	91.217.153.36	80	1	GET	cloud-ventures.com	//images/938a99f1be85e19406438f9a572fdf71.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5550	200	OK	-	-	-	(empty)	-	-	-	-	-	FNjJLX3bKMIqFsWKyd	application/jar
+1321433952.08143	CZtTHVpsWSr7HrVJ5	192.168.98.10	1049	91.217.153.37	80	1	GET	1540987173	/dsfsdrr.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3747	200	OK	-	-	-	(empty)	-	-	-	-	-	F1hU9H1lgIqwqv4IT8	application/x-java-applet
+1321433952.082507	Canu939j3Vn4v0n84	192.168.98.10	1048	91.217.153.37	80	1	GET	1540987173	/dsfsdrr.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3747	200	OK	-	-	-	(empty)	-	-	-	-	-	FbwF9F12dhScWSkGCl	application/x-java-applet
+1321433952.087713	CdyCG52NkDbWZ8a9z5	192.168.98.10	1051	91.217.153.37	80	1	GET	1540987173	/dsfsdrr.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3747	200	OK	-	-	-	(empty)	-	-	-	-	-	F0Kwfupu96ih8TxBk	application/x-java-applet
+1321433953.07319	CrD6UyeibSnraSX8	192.168.98.10	1053	91.217.153.36	80	1	GET	cloud-ventures.com	//images/938a99f1be85e19406438f9a572fdf71.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5550	200	OK	-	-	-	(empty)	-	-	-	-	-	FxgA8qU92xldxphC9	application/jar
+1321433951.896649	C3YtMU1svBh055Xf1	192.168.98.10	1045	91.217.153.36	80	1	GET	cloud-ventures.com	/server_privileges.php?70b4f010f4d47dc8bd5d5d51afa1a6df=1	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	146708	200	OK	-	-	-	(empty)	-	-	-	-	-	FvrkWnNgvQGgEmGBj	application/x-dosexec
+1321433953.956281	CPnpWJWzpewRmLAh2	192.168.98.10	1054	91.217.153.36	80	1	GET	cloud-ventures.com	//images/938a99f1be85e19406438f9a572fdf71.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5550	200	OK	-	-	-	(empty)	-	-	-	-	-	FMtUmo206Sk9rzRoT5	application/jar
+1321433954.570942	CpkBLE1DFalOjCDtE3	192.168.98.10	1055	91.217.153.36	80	1	GET	cloud-ventures.com	/server_privileges.php?70b4f010f4d47dc8bd5d5d51afa1a6df=3	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	146708	200	OK	-	-	-	(empty)	-	-	-	-	-	FHeUgn4NhIVKZs38sf	application/x-dosexec
+1321433961.674244	Cc7w1X1V5lfqSZpVA7	192.168.98.10	1056	91.217.153.36	80	1	OPTIONS	91.217.153.36	/	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1321433961.942594	CWGLGro4IInmaZdG9	192.168.98.10	1057	91.217.153.36	80	1	PROPFIND	91.217.153.36	/smb	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	308	405	Method Not Allowed	-	-	-	(empty)	-	-	-	-	-	FCXdbX2DwpO7GKM7ih	text/html
+#close	2014-04-03-10-26-32

@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-22-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1366761188.110537	C7Vpoi3f3M4B3CJoD6	192.168.110.10	1076	74.125.137.100	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1365702639.000000	1388527130.000000	-	-	-	5b7cb8d98aeeeeeeeeeeeeeeeeeeeeee	ok
+1366761188.248644	CZMw4h4CEnTg6LykEd	192.168.110.10	1077	74.125.137.100	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	b137895f754f50fec622aa46179bdb29c63305c6479e34f3b87611d1e93b7d80	-	-	-	-	-	-	-	-	-
+1366761196.07062	CEcbul1BW1HHIVXLRk	192.168.110.10	1122	208.71.123.129	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=networkadmin.realmedia.com,OU=TechOps,O=24/7 RealMedia\, Inc.,L=New York,ST=New York,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1357797600.000000	1390975199.000000	-	-	-	3b269db21c28744a74acaf0abdff0c05	ok
+1366761196.288721	Cefgtq20ekfuE7YANa	192.168.110.10	1124	208.71.124.121	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=t.mookie1.com,OU=Technical Operations,O=Media Innovation Group\, LLC.,L=New York,ST=New York,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1334120400.000000	1367038799.000000	-	-	-	77ee1588ed90ec75b1e3c4f5dc24ddcd	ok
+1366761196.362995	Ce9StZ3p548y0zwMYe	192.168.110.10	1125	107.6.91.102	443	SSLv3	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=load.exelator.com,OU=Domain Control Validated	serialNumber=07969287,CN=Go Daddy Secure Certification Authority,OU=http://certificates.godaddy.com/repository,O=GoDaddy.com\, Inc.,L=Scottsdale,ST=Arizona,C=US	1361829005.000000	1367789132.000000	-	-	-	90bf063dc98324007bc1bfb6c391b00e	ok
+1366761196.666286	CfuiOa2fqRMAkr9l6	192.168.110.10	1131	208.71.124.121	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	7a7a6bec86f07c6287433411789bb650b37c79307a70592dbc9b5cc9f71a580f	-	-	-	-	-	-	-	-	-
+1366761198.91169	Cu0fVfseVnHnTL0ra	192.168.110.10	1137	208.71.123.129	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	a6a31a8b1638961053b9be2ad0ceaa88554557162e6dbf8f35a18c9c39f80216	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-22-45

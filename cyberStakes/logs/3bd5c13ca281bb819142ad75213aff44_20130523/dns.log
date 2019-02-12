@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-13-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1369284577.241662	CSzn2d2kf9z7ir0yX	192.168.7.10	1029	4.2.2.3	53	udp	16011	www.letordu.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	letordu.com,69.89.31.104	14374.000000,14400.000000	F
+1369284580.136086	CSzn2d2kf9z7ir0yX	192.168.7.10	1029	4.2.2.3	53	udp	20363	ow.ly	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	204.15.172.246,204.15.172.228,204.15.172.215	300.000000,300.000000,300.000000	F
+1369284580.332163	CSzn2d2kf9z7ir0yX	192.168.7.10	1029	4.2.2.3	53	udp	4490	gabinety-lucka.pl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.229.151.194	900.000000	F
+1369284581.212298	CSzn2d2kf9z7ir0yX	192.168.7.10	1029	4.2.2.3	53	udp	38282	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.134.95	1249.000000,222.000000	F
+1369284597.472367	CSzn2d2kf9z7ir0yX	192.168.7.10	1029	4.2.2.3	53	udp	33417	ideasolutions.com.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	187.1.133.71	3600.000000	F
+#close	2014-04-03-11-13-37

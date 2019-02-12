@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-31-47
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1324931458.702085	CiaIEz42mIjljdoUfl	192.168.61.10	1028	4.2.2.3	53	udp	2443	iconspedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.65.60.193	14382.000000	F
+1324931458.770144	CiaIEz42mIjljdoUfl	192.168.61.10	1028	4.2.2.3	53	udp	13963	www.iconspedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	iconspedia.com,69.65.60.193	14382.000000,14382.000000	F
+1324931460.81741	CiaIEz42mIjljdoUfl	192.168.61.10	1028	4.2.2.3	53	udp	14731	mcdn.iconspedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	iconspedia.adtradeconsultin.netdna-cdn.com,67.201.31.184	14400.000000,300.000000	F
+1324931460.883074	CiaIEz42mIjljdoUfl	192.168.61.10	1028	4.2.2.3	53	udp	27787	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.157.95	1807.000000,189.000000	F
+1324931461.078047	CiaIEz42mIjljdoUfl	192.168.61.10	1028	4.2.2.3	53	udp	27528	host112.myvnc.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.169.37.65	60.000000	F
+1324931469.921162	CiaIEz42mIjljdoUfl	192.168.61.10	1028	4.2.2.3	53	udp	3721	wizmoney.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.61.247.201	600.000000	F
+#close	2014-04-03-10-31-48

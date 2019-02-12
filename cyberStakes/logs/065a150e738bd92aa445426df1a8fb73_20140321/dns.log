@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-05-03
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1395445081.985069	CIetez1QdClOPEyvOe	192.168.76.10	1035	4.2.2.3	53	udp	1948	go.8qb.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.254.225.150	14400.000000	F
+1395445082.504265	CIetez1QdClOPEyvOe	192.168.76.10	1035	4.2.2.3	53	udp	1437	www.shar-m.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	8.webfilesdownloader.com,195.66.79.27	600.000000,600.000000	F
+1395445084.518923	CIetez1QdClOPEyvOe	192.168.76.10	1035	4.2.2.3	53	udp	52383	translate.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www3.l.google.com,74.125.128.113,74.125.128.101,74.125.128.138,74.125.128.102,74.125.128.139,74.125.128.100	555561.000000,95.000000,95.000000,95.000000,95.000000,95.000000,95.000000	F
+1395445086.190339	CIetez1QdClOPEyvOe	192.168.76.10	1035	4.2.2.3	53	udp	33695	translate.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.128.95	1276.000000,104.000000	F
+1395445086.525737	CIetez1QdClOPEyvOe	192.168.76.10	1035	4.2.2.3	53	udp	7320	freemediastats.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	176.121.11.24	600.000000	F
+1395445086.529353	CPKWQF4QZETL5febph	192.168.76.10	1044	4.2.2.3	53	udp	47002	stat.freemediastats.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	176.121.11.24	600.000000	F
+#close	2014-04-03-10-05-03

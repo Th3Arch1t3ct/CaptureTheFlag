@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-16-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1318562732.220593	CfeUFf1mqmX6RPeLwe	192.168.78.10	1030	4.2.2.3	53	udp	56205	guenstig-licht.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	80.150.6.143	43177.000000	F
+1318562732.641904	CfeUFf1mqmX6RPeLwe	192.168.78.10	1030	4.2.2.3	53	udp	46477	m-e.crossfitharlem.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.211.160.73	3600.000000	F
+1318562736.425357	CfeUFf1mqmX6RPeLwe	192.168.78.10	1030	4.2.2.3	53	udp	22927	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.29.42,69.31.29.8	672.000000,138.000000,19531.000000,20.000000,20.000000	F
+1318562764.947969	CcsdOZ1OVN9fmONd1b	192.168.78.10	1030	4.2.2.3	53	udp	54926	swupmf.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	swupmf.wip4.adobe.com,swupmf.adobe.com.edgesuite.net,a1137.g.akamai.net,69.31.29.10,69.31.29.48	10790.000000,590.000000,9327.000000,10.000000,10.000000	F
+1318562778.872588	CwK7kC39JrYai0rYu3	192.168.78.10	1030	4.2.2.3	53	udp	7561	crl.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.wip4.adobe.com,crl.adobe.com.edgesuite.net,a1180.g.akamai.net,69.31.29.18,69.31.28.235	7791.000000,300.000000,7232.000000,18.000000,18.000000	F
+#close	2014-04-03-11-16-07

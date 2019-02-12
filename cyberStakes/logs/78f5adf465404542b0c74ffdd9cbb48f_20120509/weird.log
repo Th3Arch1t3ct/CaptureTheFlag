@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-11-14-27
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1336607422.417214	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1336607434.227386	CyXQSD1orwtCD5T0Zb	192.168.66.10	1075	46.166.154.121	5205	irc_line_too_short	-	F	bro
+1336607434.227386	CyXQSD1orwtCD5T0Zb	192.168.66.10	1075	46.166.154.121	5205	irc_invalid_line	-	F	bro
+#close	2014-04-03-11-14-27

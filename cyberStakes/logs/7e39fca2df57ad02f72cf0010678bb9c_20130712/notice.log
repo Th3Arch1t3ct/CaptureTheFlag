@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-58-41
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1373626592.60737	CmO6yC4vgEs7j5F0u7	192.168.27.10	1143	178.33.144.36	80	Fjthvm3Kbubhyee3S	application/jar	http://fedswenopo.biz/040713/grandparkercasino/rhino.php?hash=I3QxdHJZclMxMQ==	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 25%  Last seen: 2013-07-07 00:14:41	https://www.virustotal.com/en/search/?query=a38e1131f6f1481a247eef2a4f817cc951de4d1f	192.168.27.10	178.33.144.36	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1373626592.794529	CmO6yC4vgEs7j5F0u7	192.168.27.10	1143	178.33.144.36	80	FOv2Ju3dg6POLDWbwf	application/jar	http://fedswenopo.biz/040713/grandparkercasino/rhino.php?hash=I3QxdHJZclMxMQ==	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 25%  Last seen: 2013-07-07 00:14:41	https://www.virustotal.com/en/search/?query=a38e1131f6f1481a247eef2a4f817cc951de4d1f	192.168.27.10	178.33.144.36	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1373626593.546488	CmO6yC4vgEs7j5F0u7	192.168.27.10	1143	178.33.144.36	80	FsrnjhHnQjzQP1wX5	application/jar	http://fedswenopo.biz/040713/grandparkercasino/rhino.php?hash=I3QxdHJZclMxMQ==	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 25%  Last seen: 2013-07-07 00:14:41	https://www.virustotal.com/en/search/?query=a38e1131f6f1481a247eef2a4f817cc951de4d1f	192.168.27.10	178.33.144.36	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-58-42

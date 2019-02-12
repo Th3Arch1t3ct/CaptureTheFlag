@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-11-14-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1369780808.806834	CJGcHG3dWSvkYtP8Lh	192.168.72.10	1032	184.75.250.132	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=settleware.com,OU=PositiveSSL,OU=Domain Control Validated	CN=PositiveSSL CA 2,O=COMODO CA Limited,L=Salford,ST=Greater Manchester,C=GB	1339304400.000000	1499144399.000000	-	-	-	54aa74fd9596fd6408ede053cd0e2b0d	ok
+1369780808.807269	CcxwKB4r8W3TMZ0Dn7	192.168.72.10	1033	184.75.250.132	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=settleware.com,OU=PositiveSSL,OU=Domain Control Validated	CN=PositiveSSL CA 2,O=COMODO CA Limited,L=Salford,ST=Greater Manchester,C=GB	1339304400.000000	1499144399.000000	-	-	-	54aa74fd9596fd6408ede053cd0e2b0d	ok
+#close	2014-04-03-11-14-31

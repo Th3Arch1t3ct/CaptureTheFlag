@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-42-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1388523555.654201	ClT8ZF3bpKAhVbL7Kd	192.168.32.10	1035	4.2.2.3	53	udp	63131	imagefly.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	72.8.190.39,93.170.52.34	249.000000,249.000000	F
+1388523556.051207	ClT8ZF3bpKAhVbL7Kd	192.168.32.10	1035	4.2.2.3	53	udp	44442	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.224.66,74.125.224.73,74.125.224.65,74.125.224.67,74.125.224.78,74.125.224.64,74.125.224.68,74.125.224.72,74.125.224.70,74.125.224.71,74.125.224.69	66508.000000,214.000000,214.000000,214.000000,214.000000,214.000000,214.000000,214.000000,214.000000,214.000000,214.000000,214.000000	F
+1388523556.234158	ClT8ZF3bpKAhVbL7Kd	192.168.32.10	1035	4.2.2.3	53	udp	63385	ge.tt	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.125.123.149	300.000000	F
+1388523556.728088	ClT8ZF3bpKAhVbL7Kd	192.168.32.10	1035	4.2.2.3	53	udp	21407	w264898.open.ge.tt	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	open.ge.tt,54.247.122.87	300.000000,300.000000	F
+1388523557.129598	ClT8ZF3bpKAhVbL7Kd	192.168.32.10	1035	4.2.2.3	53	udp	32670	s3.kkloud.com.s3.amazonaws.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	s3-3-w.amazonaws.com,176.32.109.97	2400.000000,60.000000	F
+#close	2014-04-03-10-42-50

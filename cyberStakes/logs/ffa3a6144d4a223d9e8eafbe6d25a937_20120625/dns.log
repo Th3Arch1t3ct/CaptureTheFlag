@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-59-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1340629597.499368	CJK20Y2RCuwAQ7z5H9	192.168.114.10	1029	4.2.2.3	53	udp	8843	jamiesonaccounting.com.au	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.43.192.123	43174.000000	F
+1340629597.886369	CJK20Y2RCuwAQ7z5H9	192.168.114.10	1029	4.2.2.3	53	udp	52362	www.couchtarts.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	couchtarts.com,50.28.53.157	300.000000,300.000000	F
+1340629598.254256	CJK20Y2RCuwAQ7z5H9	192.168.114.10	1029	4.2.2.3	53	udp	1928	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,24.143.201.35,24.143.201.56	14399.000000,196.000000,7047.000000,1.000000,1.000000	F
+1340629647.199476	C3zQxi2uKtObJetp1b	192.168.114.10	1029	4.2.2.3	53	udp	51599	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.130.147,74.125.130.99,74.125.130.103,74.125.130.104,74.125.130.105,74.125.130.106	9475.000000,116.000000,116.000000,116.000000,116.000000,116.000000,116.000000	F
+1340629648.018137	C3zQxi2uKtObJetp1b	192.168.114.10	1029	4.2.2.3	53	udp	64142	clients1.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	clients.l.google.com,74.125.45.102,74.125.45.113,74.125.45.138,74.125.45.139,74.125.45.100,74.125.45.101	200.000000,108.000000,108.000000,108.000000,108.000000,108.000000,108.000000	F
+1340629661.771567	C3CpgI3tOkuFGPRJ42	192.168.114.10	1046	8.8.8.8	53	udp	13107	promos.fling.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.91.207.10	109.000000	F
+1340629662.004273	C0dlO21ioBi4R9czUg	192.168.114.10	1049	83.133.123.20	53	udp	4554	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340629662.020016	C4Tg7pyr1c1x0DAVb	192.168.114.10	1051	83.133.123.20	53	udp	4554	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340629662.146275	C8G80C10Z5YJUW2wfe	192.168.114.10	1053	83.133.123.20	53	udp	4554	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340629662.154229	COP1eb2MiAtoKmqO8h	192.168.114.10	1055	83.133.123.20	53	udp	4554	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340629662.156921	Ctpbaoc114zBRwgYj	192.168.114.10	1057	83.133.123.20	53	udp	4554	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+#close	2014-04-03-09-59-56

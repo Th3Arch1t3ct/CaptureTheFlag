@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-32-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1382218336.056494	Cu3HJZ1gcLQSIiTbJ8	192.168.86.10	1036	192.133.137.241	80	1	GET	allaboutprojects.net	/	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1382218336.462965	C7gkcd2D8vkvwBUI34	192.168.86.10	1037	144.76.192.100	80	1	GET	bfcqlfcoxgyu.2tatrinov.info	/?c466199a047a3ea9a11c4f31bdb509a2=p2&3d48b0f8f46851f64ca31feca74805da=allaboutprojects.net	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	1833	200	OK	-	-	-	(empty)	-	-	-	-	-	F3206y36kJInp1AQbi	text/html
+1382218338.428272	Ckr91VbhNSdiAlLpg	192.168.86.10	1038	144.76.192.100	80	1	GET	bfcqlfcoxgyu.2tatrinov.info	/49c8a91b0021fa9beb145f5fe9958e6b/ba113755384a962c8299f1539b4d98fe.swf	http://bfcqlfcoxgyu.2tatrinov.info/?c466199a047a3ea9a11c4f31bdb509a2=p2&3d48b0f8f46851f64ca31feca74805da=allaboutprojects.net	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Ffc2Gm3T6ewno2IdMl	text/html
+1382218338.443207	Cy9yhY22oqIKJQ7v6l	192.168.86.10	1039	144.76.192.100	80	1	GET	bfcqlfcoxgyu.2tatrinov.info	/49c8a91b0021fa9beb145f5fe9958e6b/30f664646d029f03f76b9e09d8fdba19	http://bfcqlfcoxgyu.2tatrinov.info/?c466199a047a3ea9a11c4f31bdb509a2=p2&3d48b0f8f46851f64ca31feca74805da=allaboutprojects.net	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	11959	200	OK	-	-	-	(empty)	-	-	-	-	-	FuRfLk1rqNgVRY73u	text/html
+1382218343.227189	ChE7cg4pJAJy1C6DOg	192.168.86.10	1040	144.76.192.100	80	1	GET	144.76.192.100	/?c6b41168b73a4a564cb167d8349e7718	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	850944	200	OK	-	-	-	(empty)	-	-	-	-	-	FrKliX2hU85qqYWrv9	application/x-dosexec
+1382218348.900814	CxEdlI2A3Ot0jT0za2	192.168.86.10	1044	144.76.192.100	80	1	GET	144.76.192.100	/?7e93e8a06c249a0c0343b8348db75b20	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1382218349.278097	CXoxN412Hg4xQsgb7	192.168.86.10	1045	144.76.192.100	80	1	GET	144.76.192.100	/?5a4c031fb5a14c6d24044c7930b39c2f	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1382218349.451061	Cv9zhF1LUMPP47Lq91	192.168.86.10	1046	74.86.20.50	80	1	GET	twinkcam.net	/images/s.php?id=95.1	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2	200	OK	-	-	-	(empty)	-	-	-	-	-	FLl5c43BiiLT0yuMwb	text/plain
+1382218349.651979	CsMAgiZYVSilbN5ud	192.168.86.10	1047	144.76.192.100	80	1	GET	144.76.192.100	/?ee5cc8f225fe89c34f2c322f4ed160fb	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	65536	200	OK	-	-	-	(empty)	-	-	-	-	-	Fki1vj16dx18qSfxve	application/x-dosexec
+1382218350.567075	C0VcPl20Dr6EgF4vxi	192.168.86.10	1048	216.17.105.36	80	1	GET	cinnamyn.com	/images/s.php?id=95.1	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2	200	OK	-	-	-	(empty)	-	-	-	-	-	FNz6ku3eJ2v7v5BIK6	text/plain
+1382218413.258924	CaqT8oD0q9XoE7YJ5	192.168.86.10	1049	74.86.20.50	80	1	GET	saggerboy.com	/twg/b.php?id=95.1	-	Mozilla	0	2	200	OK	-	-	-	(empty)	-	-	-	-	-	FeyWxN3AcTuvFgSf2l	text/plain
+#close	2014-04-03-10-32-49

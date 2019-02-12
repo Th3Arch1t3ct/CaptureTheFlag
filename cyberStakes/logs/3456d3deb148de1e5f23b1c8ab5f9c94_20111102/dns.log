@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-51-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1320263046.991735	CAXbw31wnV3jj2mLhh	192.168.121.10	1029	4.2.2.3	53	udp	57229	allsaintsepiscopalbayside.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.102.46.132	14378.000000	F
+1320263047.135926	CAXbw31wnV3jj2mLhh	192.168.121.10	1029	4.2.2.3	53	udp	64140	www.allsaintsepiscopalbayside.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	allsaintsepiscopalbayside.org,199.102.46.132	14400.000000,14377.000000	F
+1320263047.45004	CAXbw31wnV3jj2mLhh	192.168.121.10	1029	4.2.2.3	53	udp	18319	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.159.95	215.000000,20.000000	F
+1320263050.40573	CAXbw31wnV3jj2mLhh	192.168.121.10	1029	4.2.2.3	53	udp	52622	api.twitter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.59.149.200,199.59.149.232,199.59.148.20,199.59.148.87	12.000000,12.000000,12.000000,12.000000	F
+1320263052.845995	CAXbw31wnV3jj2mLhh	192.168.121.10	1029	4.2.2.3	53	udp	28296	cjikacccmcp.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.227.204.203	3600.000000	F
+1320263094.669674	CM6N2g4fVPlfpsYlG7	192.168.121.10	1029	4.2.2.3	53	udp	42123	erwtyuikbfkdldfd.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	76.76.15.155	3600.000000	F
+#close	2014-04-03-09-51-02

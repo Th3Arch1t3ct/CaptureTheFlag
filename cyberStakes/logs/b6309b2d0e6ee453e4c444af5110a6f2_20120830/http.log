@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-12-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1346285128.360296	CHju5m3uHno2Plcsj5	192.168.94.10	1030	212.58.116.71	80	1	GET	windf.ge	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	10806	200	OK	-	-	-	(empty)	-	-	-	-	-	FKicnc2pu5WD5BuQsh	text/html
+1346285128.595798	CHju5m3uHno2Plcsj5	192.168.94.10	1030	212.58.116.71	80	2	GET	windf.ge	/logo_p.gif	http://windf.ge/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2933	200	OK	-	-	-	(empty)	-	-	-	-	-	FIAwFy4fFi4XOOgV1e	image/gif
+1346285128.842933	CZTdwZ2UMH20NSJ9t5	192.168.94.10	1031	188.40.204.64	80	1	GET	wggpoefchpfdijfw.info	/in.cgi?14	http://windf.ge/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	254	302	Found	-	-	-	(empty)	-	-	-	-	-	F1s3Qr4500uVwDiz99	text/html
+1346285129.241253	CPHT2X2CRWfBqRvWrl	192.168.94.10	1032	188.40.204.87	80	1	GET	qccbsifhi.almostmy.com	/main.php?page=9dd146e88937797b	http://windf.ge/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	89015	200	OK	-	-	-	(empty)	-	-	-	-	-	FCLlRDSq1RUfDpAF1	text/html
+1346285139.388783	CAL7s12NUHKEqVqMPk	192.168.94.10	1037	65.55.13.243	80	1	POST	activex.microsoft.com	/objects/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	Fisx5x4j34fPanfsMh	text/plain	Fy4xXO202qF2NL4GEb	text/plain
+1346285139.545261	CajrPY1PXKo4LlyNw4	192.168.94.10	1038	65.55.13.243	80	1	POST	codecs.microsoft.com	/isapi/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	FB6Zhq40P8TJBezZ37	text/plain	F20hPg4E4SxigcKHi8	text/plain
+1346285139.130013	CPHT2X2CRWfBqRvWrl	192.168.94.10	1032	188.40.204.87	80	2	GET	qccbsifhi.almostmy.com	/w.php?f=97d19&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	58880	200	OK	-	-	-	(empty)	-	-	-	-	-	FNTyP7mjjiwGLqhOh	application/x-dosexec
+1346285139.800054	CPHT2X2CRWfBqRvWrl	192.168.94.10	1032	188.40.204.87	80	3	GET	qccbsifhi.almostmy.com	/data/ap2.php	http://qccbsifhi.almostmy.com/main.php?page=9dd146e88937797b	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	19597	200	OK	-	-	-	(empty)	-	-	-	-	-	FxqpLX3yaCcvON5Bz9	application/pdf
+1346285141.300894	CPHT2X2CRWfBqRvWrl	192.168.94.10	1032	188.40.204.87	80	4	GET	qccbsifhi.almostmy.com	/data/ap2.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	19597	200	OK	-	-	-	(empty)	-	-	-	-	-	FIPnzW1RjqM3o1ANSi	application/pdf
+1346285141.570228	Cmn6j73792VB197vG4	192.168.94.10	1039	188.40.204.87	80	1	GET	qccbsifhi.almostmy.com	/data/field.swf	http://windf.ge/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1024	200	OK	-	-	-	(empty)	-	-	-	-	-	FuuCRw4STaljm5Vluk	application/x-shockwave-flash
+1346285141.587477	CqQKP43DAKvR0oFGY2	192.168.94.10	1040	188.40.204.64	80	1	POST	xxx-xxx.pro	/14yttg78g.php	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	267	16	200	OK	-	-	-	(empty)	-	-	-	Fi9X6C2gWHEPkB4FN2	binary	FgbfEJC6drVMpSSB4	text/plain
+1346285143.101568	CsA8Gr3bG68Ljq02P2	192.168.94.10	1041	188.40.204.64	80	1	GET	www-www.pro	/setup.exe	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	0	417792	200	OK	-	-	-	(empty)	-	-	-	-	-	FrJ7Ux2DRlh6aKzum8	application/x-dosexec
+1346285146.470684	CgXX9u3HwBp0MNpgNj	192.168.94.10	1042	188.40.204.87	80	1	GET	qccbsifhi.almostmy.com	/Leh.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	40831	200	OK	-	-	-	(empty)	-	-	-	-	-	F9eQQm3GFfylCKLefh	application/zip
+1346285148.783734	CPHT2X2CRWfBqRvWrl	192.168.94.10	1032	188.40.204.87	80	5	GET	qccbsifhi.almostmy.com	/w.php?f=97d19&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	58880	200	OK	-	-	-	(empty)	-	-	-	-	-	FmrGku45Qq1ji3OFjj	application/x-dosexec
+1346285149.146867	CkZDjc2jSePQo8ueEj	192.168.94.10	1043	175.41.28.156	80	1	GET	175.41.28.156	/api/urls/?ts=335cf010&affid=61701	-	(empty)	0	0	404	NOT FOUND	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-10-12-25

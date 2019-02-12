@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-09-59-22
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1386095557.049213	FQsg1P1wDkzqQpJid	216.172.56.31	192.168.66.10	Ce9Gaz3WUrUz0z7JSd	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	57	-	0	0	F	-	c94874e0b38b47d6e4efd522ea65018d	e9691b34aa087d8c20cb85cc9f101a1a0047d104	-	-
+1386095557.41791	FubKul3Zq1hAb1NsT7	216.172.56.31	192.168.66.10	CRgdei1m5RAChz8iIa	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	548	-	0	0	F	-	cec2505efcb6c20cad52e609609dce68	6f1cc9d2a1040d161c95a933923be7b97cce819b	-	-
+1386095557.587106	FLwgxP1ZfXfMznTqH3	216.172.56.31	192.168.66.10	CRgdei1m5RAChz8iIa	HTTP	0	MD5,SHA1	image/gif	-	0.000000	-	F	49	49	0	0	F	-	4408efc0174f07ad685c456f1de521ca	e3bc3250f8f32bd98dc7b05fd8940b74617eb8d1	-	-
+1386095558.213739	FhaOvPQYzP9O8470g	91.239.238.222	192.168.66.10	CWEgWQ2xa22OGRslr3	HTTP	0	MD5,SHA1	text/html	-	0.001108	-	F	36037	-	0	0	F	-	855e1326ed841c7213d9602598ccaa00	ee2afcc801c981066eee3ed9bb3614b39613955d	-	-
+1386095559.090639	FVXPBprfs0oX7Zql1	91.239.238.222	192.168.66.10	CWEgWQ2xa22OGRslr3	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	4105	-	0	0	F	-	cdb9ba0f2a353a18e4ec8b1effe49644	3dfe482e100588524b5e69f033675a438bda1b50	-	-
+1386095560.281953	FBZS1M3j501EIE8sf1	91.239.238.222	192.168.66.10	CWEgWQ2xa22OGRslr3	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	2664	-	0	0	F	-	85c0018914e3e40cef725dae4079de62	209d1ca7b7ac521c6c980f57181c71289eec7726	-	-
+1386095560.927863	FwZHxd1p8n2jHTr1Oj	216.172.56.31	192.168.66.10	CRgdei1m5RAChz8iIa	HTTP	0	MD5,SHA1	image/x-icon	-	0.000000	-	F	318	318	0	0	F	-	7c2cc6620ebfafdba11510c2af70387a	4cfb2437ae6992568f39d5e7c4b1468f71035038	-	-
+1386095563.681513	F9Pztu3sWCLLwiKCbi	91.239.238.222	192.168.66.10	ChkY5N3vwVMmHWZm4l	HTTP	0	MD5,SHA1	application/zip	-	0.196708	-	F	17160	-	0	0	F	-	73d73098146ba159362826aadb525b57	0f5586fc81385157704afb44e1333d8a6aafda29	-	-
+1386095564.293219	FttocMrcL5h9v07u9	91.239.238.222	192.168.66.10	ChkY5N3vwVMmHWZm4l	HTTP	0	MD5,SHA1	application/zip	-	0.000885	-	F	17160	-	0	0	F	-	5986e8e1c666f240ce56e3739df9a9d5	167934cffea3781c255423bd5b4ef50557610ef4	-	-
+1386095564.858891	F6CagX1h6s16JkTvMb	91.239.238.222	192.168.66.10	ChkY5N3vwVMmHWZm4l	HTTP	0	MD5,SHA1	application/zip	-	0.196545	-	F	17160	-	0	0	F	-	8430ab6ac847b29d6cd2405ddf754ce3	1404e79a17527efb67db873d1af253b3b58eeb0e	-	-
+1386095565.924596	FSLeNaxcImVI0Iy45	91.239.238.222	192.168.66.10	ChkY5N3vwVMmHWZm4l	HTTP	0	MD5,SHA1	application/x-dosexec	kLX2MzArL6.exe	0.928686	-	F	195443	195443	0	0	F	-	4a66b4308ae5fe3bf03d7aea9b60a9d6	ff2be6ebf47cfc7ccc7104f1a5494cddf0c16a87	-	-
+#close	2014-04-03-09-59-22

@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-14-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1328221623.538778	Cu8yGZ2AVBQBkVIRQ4	192.168.27.10	1080	31.184.237.57	80	FuQGXQ2PHoa7jwAPcc	application/jar	http://getmemore.in/z/agreaimo/lazylapp.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 16%  Last seen: 2012-02-05 09:35:00	https://www.virustotal.com/en/search/?query=179d9ab7fe5fd88a87c7a848dce3175cd44293e7	192.168.27.10	31.184.237.57	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328221624.297056	CvLxJUTeGYYZxP7f8	192.168.27.10	1084	31.184.237.57	80	Fy8IaR1zPZNhT2w8D	application/x-dosexec	http://getmemore.in/z/leftvity.php?exp=jobe&key=reedcent&u=telydemy	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-02-10 22:55:58	https://www.virustotal.com/en/search/?query=bd4a05b8cea7485f76dbb6e8d1ddb029e058243f	192.168.27.10	31.184.237.57	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328221624.297056	CaaiBy1BouWMLe7ld1	192.168.27.10	1083	31.184.237.57	80	FHaXWK1P4OnfTxO674	application/x-dosexec	http://getmemore.in/z/leftvity.php?exp=newjava&key=reedcent&u=telydemy	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-02-10 22:55:58	https://www.virustotal.com/en/search/?query=bd4a05b8cea7485f76dbb6e8d1ddb029e058243f	192.168.27.10	31.184.237.57	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328221635.276504	C3xPse4OgGfph4Mg9g	192.168.27.10	1100	31.184.237.57	80	FIBPal462MknaJHRD5	application/x-dosexec	http://getmemore.in/z/leftvity.php?exp=jobe&key=reedcent&u=telydemy	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-02-10 22:55:58	https://www.virustotal.com/en/search/?query=bd4a05b8cea7485f76dbb6e8d1ddb029e058243f	192.168.27.10	31.184.237.57	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-14-00

@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-58-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1325233706.634769	CcCu3YQC3vaDzUvU3	192.168.44.10	1029	4.2.2.3	53	udp	25229	1z562.paddockbarratt.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	180.242.2.39,188.19.252.196,188.168.213.14,201.172.177.226,201.235.104.35,219.98.15.95,220.136.30.202,222.254.125.138,24.162.194.23,79.116.102.86,113.169.98.165,117.195.74.223,121.200.166.153,123.18.149.62,178.88.239.177,178.90.48.85,178.91.197.105,178.184.3.229,178.206.151.132,178.213.212.211	1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000	F
+1325233709.924906	CcCu3YQC3vaDzUvU3	192.168.44.10	1029	4.2.2.3	53	udp	47503	aboutweapons.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.89.226	3579.000000	F
+1325233741.165108	CVZxpN2MUhOVN2009b	192.168.44.10	1029	4.2.2.3	53	udp	143	onlinesecurytytests.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.137.226.91	18439.000000	F
+1325233745.855171	CVZxpN2MUhOVN2009b	192.168.44.10	1029	4.2.2.3	53	udp	19336	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.75.218,69.31.75.203	2781.000000,154.000000,9642.000000,10.000000,10.000000	F
+#close	2014-04-03-09-58-31

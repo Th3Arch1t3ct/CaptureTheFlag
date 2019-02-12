@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-28-57
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1383075136.257627	CAkNwT24n1RB2Hgmol	192.168.28.10	1035	4.2.2.3	53	udp	24226	yoursbee.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.170.135.92	3600.000000	F
+1383075136.553487	CAkNwT24n1RB2Hgmol	192.168.28.10	1035	4.2.2.3	53	udp	30625	as.casalemedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	as.casalemedia.com.edgesuite.net,a1853.g.akamai.net,67.131.44.9,67.131.44.81	60.000000,177.000000,5.000000,5.000000	F
+1383075136.748266	CAkNwT24n1RB2Hgmol	192.168.28.10	1035	4.2.2.3	53	udp	27815	digent.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	54.208.99.166	765.000000	F
+1383075136.976447	CAkNwT24n1RB2Hgmol	192.168.28.10	1035	4.2.2.3	53	udp	18086	click.jve.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cash4creatives-3.wip.directresponsetech.com,174.47.188.3	93.000000,558.000000	F
+1383075138.002918	CAkNwT24n1RB2Hgmol	192.168.28.10	1035	4.2.2.3	53	udp	32933	crl.geotrust.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.ws.symantec.com.edgekey.net,e6845.ce.akamaiedge.net,23.5.5.163	474.000000,7080.000000,2.000000	F
+1383075138.061684	CAkNwT24n1RB2Hgmol	192.168.28.10	1035	4.2.2.3	53	udp	64165	gtssldv-crl.geotrust.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.ws.symantec.com.edgekey.net,e6845.ce.akamaiedge.net,23.5.5.163	900.000000,7080.000000,2.000000	F
+1383075141.40366	CAkNwT24n1RB2Hgmol	192.168.28.10	1035	4.2.2.3	53	udp	1189	tracktrk.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	72.32.219.0	30.000000	F
+1383075141.749683	CAkNwT24n1RB2Hgmol	192.168.28.10	1035	4.2.2.3	53	udp	30372	worldtrack.co	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	54.200.47.49	600.000000	F
+1383075142.014778	CAkNwT24n1RB2Hgmol	192.168.28.10	1035	4.2.2.3	53	udp	7339	urgentpcdownloads.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	54.200.40.74	600.000000	F
+1383075142.240002	CAkNwT24n1RB2Hgmol	192.168.28.10	1035	4.2.2.3	53	udp	40361	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.20.95	529.000000,218.000000	F
+1383075142.243881	CoQudk2cNjzvH2pU42	192.168.28.10	1047	4.2.2.3	53	udp	17064	wtta4363587.s3.amazonaws.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	s3-1-w.amazonaws.com,205.251.243.65	2400.000000,36.000000	F
+1383075143.554158	CAkNwT24n1RB2Hgmol	192.168.28.10	1035	4.2.2.3	53	udp	63407	js-agent.newrelic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	newrelic-003.inscname.net,ins-011.inscname.net,192.33.31.101	71905.000000,183.000000,3378.000000	F
+1383075143.740285	CAkNwT24n1RB2Hgmol	192.168.28.10	1035	4.2.2.3	53	udp	30894	beacon-2.newrelic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.31.164.172	30011.000000	F
+1383075147.461052	CAkNwT24n1RB2Hgmol	192.168.28.10	1035	4.2.2.3	53	udp	64173	secure.oi-installer7.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	54.235.251.129	30.000000	F
+#close	2014-04-03-10-28-57

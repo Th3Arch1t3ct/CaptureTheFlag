@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-42-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1331012823.301609	CLrepe2xZs3aBCtaIi	192.168.1.10	1030	95.57.120.238	80	1	GET	920video.c01.at	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3620	200	OK	-	-	-	(empty)	-	-	-	-	-	FB7NtoiA1Avy1iYXl	text/html
+1331012823.696825	CLrepe2xZs3aBCtaIi	192.168.1.10	1030	95.57.120.238	80	2	GET	920video.c01.at	/css/rotator.js	http://920video.c01.at/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	893	200	OK	-	-	-	(empty)	-	-	-	-	-	FqR9fc4pHpOqOvLoC8	text/plain
+1331012823.916641	CLrepe2xZs3aBCtaIi	192.168.1.10	1030	95.57.120.238	80	3	GET	920video.c01.at	/css/header3.gif	http://920video.c01.at/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	10655	200	OK	-	-	-	(empty)	-	-	-	-	-	FNywvx4KZCSXpn7jf9	image/gif
+1331012824.129238	CjkIga3XZCVuDyiuZg	192.168.1.10	1031	95.57.120.238	80	1	GET	920video.c01.at	/css/css.css	http://920video.c01.at/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	854	200	OK	-	-	-	(empty)	-	-	-	-	-	FthEDj2YaJSO9WlzC6	text/plain
+1331012824.306853	CLrepe2xZs3aBCtaIi	192.168.1.10	1030	95.57.120.238	80	4	GET	920video.c01.at	/images/movie.gif	http://920video.c01.at/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7901	200	OK	-	-	-	(empty)	-	-	-	-	-	F7gXuN25XjVPxNZcpg	image/gif
+1331012824.535564	CLrepe2xZs3aBCtaIi	192.168.1.10	1030	95.57.120.238	80	5	GET	920video.c01.at	/css/reset.css	http://920video.c01.at/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1331012824.338846	CjkIga3XZCVuDyiuZg	192.168.1.10	1031	95.57.120.238	80	2	GET	920video.c01.at	/css/1.js	http://920video.c01.at/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2691	200	OK	-	-	-	(empty)	-	-	-	-	-	FmSXVF3m2Qe5gCgtLf	text/plain
+1331012824.834211	CjkIga3XZCVuDyiuZg	192.168.1.10	1031	95.57.120.238	80	3	GET	920video.c01.at	/css/2.js	http://920video.c01.at/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1253	200	OK	-	-	-	(empty)	-	-	-	-	-	Fvo72S3BQaYIPGyzLe	text/plain
+1331012824.818657	CLrepe2xZs3aBCtaIi	192.168.1.10	1030	95.57.120.238	80	6	GET	920video.c01.at	/images/x.jpg	http://920video.c01.at/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	15748	200	OK	-	-	-	(empty)	-	-	-	-	-	FOfByv1ZVRiNWduvP3	image/jpeg
+1331012830.097842	CjkIga3XZCVuDyiuZg	192.168.1.10	1031	95.57.120.238	80	4	GET	920video.c01.at	/flash_player.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4148	200	OK	-	-	-	(empty)	-	-	-	-	-	F87FG53ha9E6a1OyS9	application/x-dosexec
+#close	2014-04-03-10-42-08

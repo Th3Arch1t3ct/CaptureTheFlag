@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-01-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1337833145.731009	C0T0Rb3dea1mXHB5td	192.168.87.10	1042	158.255.215.154	80	F8nhxK3frEMXBdRR5f	application/x-dosexec	http://tttraf.in/www/a.php?f=65&e=0&q=1233199483	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2012-05-26 04:59:12	https://www.virustotal.com/en/search/?query=94b58fbb011505d47e0a2d9ea740f716fbc46d72	192.168.87.10	158.255.215.154	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-01-25

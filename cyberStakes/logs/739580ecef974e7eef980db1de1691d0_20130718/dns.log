@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-35-21
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1374177017.289994	C6iS5j1OTssvDX9xed	192.168.40.10	1029	4.2.2.3	53	udp	65421	www.playgameshow.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	playgameshow.com,66.147.250.208	14373.000000,14373.000000	F
+1374177017.57124	C6iS5j1OTssvDX9xed	192.168.40.10	1029	4.2.2.3	53	udp	9871	ad.globe7.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ad.yieldmanager.com,fd-world.ngd.gysm.yahoodns.net,ds-world.ngdg.gysm.yahoodns.net,ds-any-world.ngd.ysm.yahoodns.net,216.39.55.13,98.138.49.43,98.138.49.42,216.39.55.12	3600.000000,2053.000000,42.000000,28.000000,44.000000,44.000000,44.000000,44.000000	F
+1374177017.801407	C6iS5j1OTssvDX9xed	192.168.40.10	1029	4.2.2.3	53	udp	37519	ad.tagjunction.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ad.yieldmanager.com,fd-world.ngd.gysm.yahoodns.net,ds-world.ngdg.gysm.yahoodns.net,ds-any-world.ngd.ysm.yahoodns.net,216.39.55.13,98.138.49.43,98.138.49.42,216.39.55.12	3600.000000,2053.000000,42.000000,28.000000,44.000000,44.000000,44.000000,44.000000	F
+1374177018.05533	C6iS5j1OTssvDX9xed	192.168.40.10	1029	4.2.2.3	53	udp	62857	ad.yieldmanager.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fd-world.ngd.gysm.yahoodns.net,ds-world.ngdg.gysm.yahoodns.net,ds-any-world.ngd.ysm.yahoodns.net,216.39.55.13,98.138.49.43,98.138.49.42,216.39.55.12	2052.000000,41.000000,27.000000,43.000000,43.000000,43.000000,43.000000	F
+1374177018.130239	C6iS5j1OTssvDX9xed	192.168.40.10	1029	4.2.2.3	53	udp	50313	cookex.amp.yahoo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cookex.amp.gapx.yahoodns.net,any-cookex.amp.apx.yahoodns.net,98.136.10.33	48.000000,221.000000,221.000000	F
+1374177018.353148	C6iS5j1OTssvDX9xed	192.168.40.10	1029	4.2.2.3	53	udp	62088	mm.chitika.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	63.146.126.10	14.000000	F
+1374177018.514413	C6iS5j1OTssvDX9xed	192.168.40.10	1029	4.2.2.3	53	udp	31370	images.chitika.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	images.chitika.netdna-cdn.com,108.161.189.192	6877.000000,220.000000	F
+1374177018.553662	C6iS5j1OTssvDX9xed	192.168.40.10	1029	4.2.2.3	53	udp	45701	djwe8e.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	198.15.98.158	600.000000	F
+1374177018.555811	C8hZhC1lJ47Po6iAqb	192.168.40.10	1043	4.2.2.3	53	udp	27012	du7383.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	198.15.96.138	600.000000	F
+1374177021.059301	C6iS5j1OTssvDX9xed	192.168.40.10	1029	4.2.2.3	53	udp	60036	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.d.akamai.net,184.28.16.56,184.28.16.49	18271.000000,292.000000,12600.000000,12.000000,12.000000	F
+1374177022.412387	C6iS5j1OTssvDX9xed	192.168.40.10	1029	4.2.2.3	53	udp	62084	www.articlesor.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	articlesor.com,69.41.162.9	14400.000000,14400.000000	F
+1374177022.853285	C6iS5j1OTssvDX9xed	192.168.40.10	1029	4.2.2.3	53	udp	11654	www.k8ads.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.41.182.198,69.41.182.199,69.41.182.196,69.41.182.197	14400.000000,14400.000000,14400.000000,14400.000000	F
+1374177024.618734	C6iS5j1OTssvDX9xed	192.168.40.10	1029	4.2.2.3	53	udp	14977	reemigrant.cutestar.eu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.120.225.16	1800.000000	F
+1374177026.766543	C6iS5j1OTssvDX9xed	192.168.40.10	1029	4.2.2.3	53	udp	16771	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,64.4.52.169	1329.000000,300.000000	F
+1374177029.433179	C6iS5j1OTssvDX9xed	192.168.40.10	1029	4.2.2.3	53	udp	38787	16.225.120.188.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	hapuloh.com	3600.000000	F
+1374177029.71355	C6iS5j1OTssvDX9xed	192.168.40.10	1029	4.2.2.3	53	udp	39043	hapuloh.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1374177128.832361	CLZ6IctQYIOVDnBL1	192.168.40.10	1029	4.2.2.3	53	udp	46978	whatwillber.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-35-21

@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-50-42
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1387392693.701303	CsGu2f1djusWmLDpi5	192.168.66.10	1061	74.125.239.49	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=www.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1386784978.000000	1397106000.000000	-	-	-	e81da1dd1093f0a9991bb00053ea6cb0	ok
+1387392693.77831	CNnRqd17G7WZP4Sbui	192.168.66.10	1060	107.22.238.236	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	emailAddress=root@ip-10-3-26-34,CN=ip-10-3-26-34,OU=SomeOrganizationalUnit,O=SomeOrganization,L=SomeCity,ST=SomeState,C=--	emailAddress=root@ip-10-3-26-34,CN=ip-10-3-26-34,OU=SomeOrganizationalUnit,O=SomeOrganization,L=SomeCity,ST=SomeState,C=--	1380633186.000000	1412169186.000000	-	-	-	0017b0d3e34b4582a3bc964b017476bc	self signed certificate
+1387392694.761362	CkMunO27ACwYyWMv51	192.168.66.10	1075	74.125.239.49	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	e5fe504e7f8d84c806e2bdab03f174636ff047cd2ed3071f95c58a709e649bd2	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-50-42

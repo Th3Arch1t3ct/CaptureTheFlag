@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-55-43
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1395196744.801231	CXGNTa2In3PipkTYI7	192.168.28.10	1035	4.2.2.3	53	udp	18582	iptvsc.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	124.248.251.146	550.000000	F
+1395196746.157777	CXGNTa2In3PipkTYI7	192.168.28.10	1035	4.2.2.3	53	udp	48279	count45.51yes.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	61.147.124.247	60.000000	F
+1395196750.014708	CXGNTa2In3PipkTYI7	192.168.28.10	1035	4.2.2.3	53	udp	15765	iptvsc.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	124.248.251.146	544.000000	F
+1395196752.874731	CXGNTa2In3PipkTYI7	192.168.28.10	1035	4.2.2.3	53	udp	61586	zhaoyaiz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	124.248.251.147	600.000000	F
+1395196756.248754	CXGNTa2In3PipkTYI7	192.168.28.10	1035	4.2.2.3	53	udp	54931	224e.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	103.27.127.230	3600.000000	F
+#close	2014-04-03-09-55-43

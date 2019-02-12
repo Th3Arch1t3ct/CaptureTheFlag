@@ -1,0 +1,28 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-11-03
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1344607612.957623	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1344607647.333363	CRu7F23xTWhw29RCvi	192.168.108.10	1076	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344607647.369062	C1q1aZ1JpYFRnTPVe1	192.168.108.10	1076	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344607647.486479	CFOQ3l2uiOcX86v7S4	192.168.108.10	1078	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344607647.486651	C7KgTo2eyxW52yTcPk	192.168.108.10	1078	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344607648.099075	CJNMs24AzIHghOEGRe	192.168.108.10	1080	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344607648.099216	CRnyRpFJnCH1oSh17	192.168.108.10	1080	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344607648.175669	CTHfRAgOTtX2V6HHb	192.168.108.10	1082	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344607648.175873	Co81IWupcwRTEXqF5	192.168.108.10	1082	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344607648.238755	CgZgH53pvUGdeed1a	192.168.108.10	1084	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344607648.238988	Cwb0pN3ZuKuGb4qmlj	192.168.108.10	1084	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344607649.318024	CqZVCY16bFwqLGT1y2	192.168.108.10	1089	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344607649.318159	CmnKP23Bail4WLoTOb	192.168.108.10	1089	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344607649.329835	C4rMIx44SYzI8tckpg	192.168.108.10	1091	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344607649.32996	CYMDF5I4O2JchGp4a	192.168.108.10	1091	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344607649.34528	C6lHEF1MOGE4o5yNG3	192.168.108.10	1094	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1344607649.345399	CEm0LE2NkISQhcTFni	192.168.108.10	1094	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1344607650.69732	C9Uxp34LICPo9ZE9Qe	192.168.108.10	1101	92.114.80.80	80	bad_HTTP_request	-	F	bro
+1344607650.69732	C9Uxp34LICPo9ZE9Qe	192.168.108.10	1101	92.114.80.80	80	line_terminated_with_single_CR	-	F	bro
+#close	2014-04-03-10-11-03

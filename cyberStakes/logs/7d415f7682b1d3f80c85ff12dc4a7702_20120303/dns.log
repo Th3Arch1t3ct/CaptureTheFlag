@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-43-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1330765320.986582	CvhSST3rbPY2BqD4n6	192.168.52.10	1029	4.2.2.3	53	udp	18317	magictripod.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.7.202.240	14377.000000	F
+1330765321.132016	CvhSST3rbPY2BqD4n6	192.168.52.10	1029	4.2.2.3	53	udp	48783	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	2963.000000,234.000000	F
+1330765321.304298	CvhSST3rbPY2BqD4n6	192.168.52.10	1029	4.2.2.3	53	udp	54159	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	2963.000000,72.000000	F
+1330765321.508578	CvhSST3rbPY2BqD4n6	192.168.52.10	1029	4.2.2.3	53	udp	55438	webordermanager.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.124.199.1	3600.000000	F
+1330765322.06121	CvhSST3rbPY2BqD4n6	192.168.52.10	1029	4.2.2.3	53	udp	62089	ww.turningsbyterry.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.37.188.14	3600.000000	F
+1330765322.377998	CvhSST3rbPY2BqD4n6	192.168.52.10	1029	4.2.2.3	53	udp	35464	uipo.org.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.171.105.43	300.000000	F
+1330765328.64397	CvhSST3rbPY2BqD4n6	192.168.52.10	1029	4.2.2.3	53	udp	33672	bober.net.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.171.105.43	300.000000	F
+#close	2014-04-03-10-43-30

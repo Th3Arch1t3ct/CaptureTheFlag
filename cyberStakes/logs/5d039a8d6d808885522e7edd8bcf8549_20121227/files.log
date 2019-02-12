@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-16-38
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1356647416.736337	FuSkSR1UHtvrAm3h3g	93.170.52.31	192.168.47.10	CBRcXn2VqC3iGZULo1	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	1109	-	0	0	F	-	6c37db00fb30e6988a59faa9150ba9ce	e0057e633a700a545185cd5a2de0ba97cafd902e	-	-
+1356647417.162487	FelcFF3fINBmnXirNf	74.125.226.231	192.168.47.10	C2X9dT3p3TlSvW2Hg7	HTTP	0	MD5,SHA1	text/plain	-	0.030360	-	F	37362	-	0	0	F	-	f5592eabae33f8499d067344f1f42183	142a9875c4bd7e15ce6ac8b5bb181fb29ed08ba5	-	-
+1356647417.491523	F0B1jl35tGA797CJCd	74.125.226.231	192.168.47.10	C2X9dT3p3TlSvW2Hg7	HTTP	0	MD5,SHA1	image/gif	-	0.000000	-	F	35	35	0	0	F	-	28d6814f309ea289f847c69cf91194c6	0f4e929dd5bb2564f7ab9c76338e04e292a42ace	-	-
+1356647417.962466	FESXG22lrEWcdarPha	195.64.155.34	192.168.47.10	CFOFaE2BxQhl0h9Ld	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	160	160	0	0	F	-	15681a6e59658d5cd3a40d9c18874b6b	d0dc44975b7abf4c2b092b3dba45c25f102b89f4	-	-
+1356647418.829401	F9FLse3w8mGvY8bA97	195.3.143.42	192.168.47.10	Cad1Ua5DlQRwtTdmd	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	161	-	0	0	F	-	82d7993071d80f9d273a9923a12a281f	a23eb4c5b4948136f5bb1e3d992d3ebd2403d77e	-	-
+1356647419.252631	FNCBHoTMDRsCidyZ3	195.3.143.42	192.168.47.10	Cj0TAK1NO7wZRofEbj	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	161	-	0	0	F	-	82d7993071d80f9d273a9923a12a281f	a23eb4c5b4948136f5bb1e3d992d3ebd2403d77e	-	-
+1356647419.438496	F4kRGO1KvKWmiUby92	195.3.143.42	192.168.47.10	Cad1Ua5DlQRwtTdmd	HTTP	0	MD5,SHA1	text/html	-	0.000015	-	F	3737	-	0	0	F	-	9657851630b657142f3f9375f5ee61b2	af6eda8514709e62fa005389111fdbac1e90c259	-	-
+1356647419.46403	FJxVrnPBacMbBEZN7	107.14.43.208	192.168.47.10	CDrBYp1HLjrZ5x5y0e	HTTP	0	MD5,SHA1	image/png	-	0.000000	-	F	2349	2349	0	0	F	-	ce404e2f475dbf547ee8195dac0eff0a	3eb3390ad49e78b3e872aaf154256496e132e9f3	-	-
+1356647419.681037	FjwjdI3S2Fp5xVHXK8	208.131.138.217	192.168.47.10	Ck5ZWuz7Ywiwa0BMb	HTTP	0	MD5,SHA1	application/x-dosexec	MeNakedBMP.exe	0.015689	-	F	13140	93555	0	0	F	-	51e7eabf90b298e1d068f2f7579177e1	f56220bdd6807f570ad59fd8a8a8559bfd2f0065	-	-
+#close	2014-04-03-10-16-38

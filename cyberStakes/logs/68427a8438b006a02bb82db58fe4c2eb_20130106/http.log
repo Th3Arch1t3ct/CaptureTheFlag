@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-10-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1357512536.742522	CoS1H43n624yoaQ5Re	192.168.87.10	1030	195.66.79.29	80	1	GET	www.downloadfileshere.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2891	200	OK	-	-	-	(empty)	-	-	-	-	-	FZASkkdnUDa4S9T53	text/html
+1357512536.997633	CoS1H43n624yoaQ5Re	192.168.87.10	1030	195.66.79.29	80	2	GET	www.downloadfileshere.com	/css/layout1/style.css	http://www.downloadfileshere.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1502	200	OK	-	-	-	(empty)	-	-	-	-	-	FGTtNA4GJ2xxTx8I4f	text/plain
+1357512537.139676	Ckolt32QaEO4vHHPX2	192.168.87.10	1031	195.66.79.29	80	1	GET	www.downloadfileshere.com	/js/jquery-1.8.2.min.js	http://www.downloadfileshere.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	93434	200	OK	-	-	-	(empty)	-	-	-	-	-	FPXVj23TS81raEtQTb	text/plain
+1357512538.034847	CoS1H43n624yoaQ5Re	192.168.87.10	1030	195.66.79.29	80	3	GET	www.downloadfileshere.com	/js/jquery.cookie.js	http://www.downloadfileshere.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1941	200	OK	-	-	-	(empty)	-	-	-	-	-	FhODur4hbE05AW0v1	text/plain
+1357512538.313485	Ckolt32QaEO4vHHPX2	192.168.87.10	1031	195.66.79.29	80	2	GET	www.downloadfileshere.com	/js/common.js	http://www.downloadfileshere.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1194	200	OK	-	-	-	(empty)	-	-	-	-	-	FTbiCc4ndBCcklxGZ	text/plain
+1357512538.65058	CoS1H43n624yoaQ5Re	192.168.87.10	1030	195.66.79.29	80	4	GET	www.downloadfileshere.com	/js/jquery.fileDownload.js	http://www.downloadfileshere.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	16372	200	OK	-	-	-	(empty)	-	-	-	-	-	FuxEGt1ZSbrq8k1Wk	text/plain
+1357512539.318676	C8RRUo48mm6v6pJ4ok	192.168.87.10	1037	72.8.141.92	80	1	GET	freemediastats.com	/getcounter/2000001/counter.gif	http://www.downloadfileshere.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	43	200	OK	-	-	-	(empty)	-	-	-	-	-	FuKBA14jpqf4Fkvx02	image/gif
+1357512539.260533	Ckolt32QaEO4vHHPX2	192.168.87.10	1031	195.66.79.29	80	3	GET	www.downloadfileshere.com	/images/count.gif	http://www.downloadfileshere.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	8392	200	OK	-	-	-	(empty)	-	-	-	-	-	Fgeqj23if7lIi9bCvf	image/gif
+1357512539.402982	CPoXJSXOabpEwHQu8	192.168.87.10	1038	72.8.141.92	80	1	GET	stat.freemediastats.com	/piwik.js	http://www.downloadfileshere.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	21548	200	OK	-	-	-	(empty)	-	-	-	-	-	F1cpma1mOqfEoXvICb	text/plain
+1357512539.643247	CPoXJSXOabpEwHQu8	192.168.87.10	1038	72.8.141.92	80	2	GET	stat.freemediastats.com	/piwik.php?action_name=Fast File Downloader&idsite=1&rec=1&r=110125&h=21&m=47&s=0&url=http://www.downloadfileshere.com/&_id=46fa0ecfebd84f9d&_idts=1357526820&_idvc=1&_idn=1&_refts=0&_viewts=1357526820&cvar={"1":["user_sub_id","20000"]}&res=800x600	http://www.downloadfileshere.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	43	200	OK	-	-	-	(empty)	-	-	-	-	-	FRGspe2LqYRhc242U1	image/gif
+1357512549.058463	CoS1H43n624yoaQ5Re	192.168.87.10	1030	195.66.79.29	80	5	GET	www.downloadfileshere.com	/get/Downloader__2000001.exe?st=8c0SxBrzZOy_p10QCbxECA&e=1357598819	http://www.downloadfileshere.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4013	200	OK	-	-	-	(empty)	-	-	-	-	-	FqTQ4t4fEUyEmA0ESf	application/x-dosexec
+#close	2014-04-03-10-10-49

@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-09-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1355997653.885392	CdTe4Q36EZCNNzMlmi	192.168.85.10	1030	93.170.52.31	80	1	GET	l6cj9.tk	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	842	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FoIWHJ1MmTUfBFme4k	text/plain
+1355997654.15748	CEsiT13fGRh4xVUYu6	192.168.85.10	1031	72.8.167.249	80	1	GET	ltkp.khjvgsg.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	624	200	OK	-	-	-	(empty)	-	-	-	-	-	Ff5nH02h4OBa7Wsi18	text/html
+1355997654.681022	CjJS451wOMS52fbHV1	192.168.85.10	1032	195.64.155.34	80	1	GET	fb.pl.ua	/	http://ltkp.khjvgsg.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	155	200	OK	-	-	-	(empty)	-	-	-	-	-	FkhyNQ3vgeeO5Lihz6	text/html
+1355997655.633027	CgcYMS1TdtWlASskGb	192.168.85.10	1033	195.3.143.42	80	1	GET	reaves.makewap.kz	/	http://fb.pl.ua/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	161	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	FAR4B31fRzT6vT03hf	text/html
+1355997657.602396	CyzD5f4iTnsdj1jrO	192.168.85.10	1038	195.3.143.42	80	1	GET	reaves.makewap.ru	/index.html?rdr=makewap.kz	http://fb.pl.ua/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	161	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	Fy7uYn1DlSlnwxxsFa	text/html
+1355997657.741355	CgcYMS1TdtWlASskGb	192.168.85.10	1033	195.3.143.42	80	2	GET	reaves.makewap.kz	/index.html?sid=9c90a922da	http://fb.pl.ua/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3671	200	OK	-	-	-	(empty)	-	-	-	-	-	FtTqA743wXh04yoY3	text/html
+1355997658.148228	CAHKDM36YM66sbYtM2	192.168.85.10	1042	208.46.17.11	80	1	GET	fbstatic-a.akamaihd.net	/rsrc.php/v2/yX/x/Qq6L1haQrYr.png	http://reaves.makewap.kz/index.html?sid=9c90a922da	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2349	200	OK	-	-	-	(empty)	-	-	-	-	-	FMCpfz4i0GgffFH8bf	image/png
+1355997658.148696	CLjAle2ZjT9C93WOg7	192.168.85.10	1039	185.4.227.75	80	1	GET	185.4.227.75	/imagedl.php	http://reaves.makewap.kz/index.html?sid=9c90a922da	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7300	200	OK	-	-	-	(empty)	-	-	-	-	-	FYvjoI3d1BHb4NFc1	application/x-dosexec
+1355997658.303572	CzYxIt1RAmOTDsP0Na	192.168.85.10	1043	178.218.209.2	80	1	GET	c.waplog.net	/438257.cnt	http://reaves.makewap.kz/index.html?sid=9c90a922da	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-10-09-07

@@ -1,0 +1,32 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-23-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1331057927.199992	C4Ihf62NlGBTu1zvH2	192.168.89.10	1030	176.65.162.217	80	1	GET	21centurytube.net	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1331057927.430038	CGqnQ74sjSge1kf52a	192.168.89.10	1031	204.27.57.101	80	1	GET	eeeblue.info	/?6e0ac7429639ab3b8cd2ce1b3b0db585	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	330	200	OK	-	-	-	(empty)	-	-	-	-	-	FalPF02O6aeABP75uc	text/html
+1331057928.921739	Clww7Q290drmRpMEf1	192.168.89.10	1033	204.27.57.101	80	1	GET	eeeblue.info	/?69b67a98f05a7fcc4d559142c28eea25	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11812	200	OK	-	-	-	(empty)	-	-	-	-	-	FXlsrs47Ef098uczza	application/jar
+1331057928.926267	CtSrLx2wSOuJcPyDG8	192.168.89.10	1032	204.27.57.101	80	1	GET	eeeblue.info	/?1e30e8d07f883afb25c660291c160cb0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12712	200	OK	-	-	-	(empty)	-	-	-	-	-	FzLU1V3E17nQxzBPab	application/jar
+1331057929.279034	CIfzkp4KVxJ1Ehrsdh	192.168.89.10	1034	204.27.57.101	80	1	GET	eeeblue.info	/?69b67a98f05a7fcc4d559142c28eea25	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11812	200	OK	-	-	-	(empty)	-	-	-	-	-	FJ1sPY3jIA4yXJzwL3	application/jar
+1331057929.282913	Cw2E201FKnFH4ahD0e	192.168.89.10	1035	204.27.57.101	80	1	GET	eeeblue.info	/?1e30e8d07f883afb25c660291c160cb0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12712	200	OK	-	-	-	(empty)	-	-	-	-	-	FipkIp348OIrEd2bE2	application/jar
+1331057929.545454	CtX1lp1wf2sLtqGeFi	192.168.89.10	1040	204.27.57.101	80	1	GET	eeeblue.info	/?1e30e8d07f883afb25c660291c160cb0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12712	200	OK	-	-	-	(empty)	-	-	-	-	-	FGG8DPTkyUN4Ut0w9	application/jar
+1331057929.726198	C6HTBIw48RZVAbFo6	192.168.89.10	1041	204.27.57.101	80	1	GET	eeeblue.info	/?69b67a98f05a7fcc4d559142c28eea25	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	11812	200	OK	-	-	-	(empty)	-	-	-	-	-	FcXQNf1lBUqFaLqbW6	application/jar
+1331057929.890476	CmoU7j3B0DnjwMHnQ2	192.168.89.10	1042	204.27.57.101	80	1	GET	eeeblue.info	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F9kiQT38UN0IFWKQX7	text/html
+1331057930.013723	CJYxg547Su9YJKgKb4	192.168.89.10	1043	204.27.57.101	80	1	GET	eeeblue.info	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Fau0Wn1KmrWeeaxuo2	text/html
+1331057930.139736	CSuPE13qQuCuHM8a61	192.168.89.10	1045	204.27.57.101	80	1	GET	eeeblue.info	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FVJHzSXb3LvsSLvfj	text/html
+1331057930.244849	CmibMr4Law53PtEqS8	192.168.89.10	1046	204.27.57.101	80	1	GET	eeeblue.info	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F9ENJs4oovjRACLaV	text/html
+1331057930.024983	CjpmTM3MreKFaJ5BQ7	192.168.89.10	1044	204.27.57.101	80	1	GET	eeeblue.info	/?507fcd75aab10081b74a66fde45a14d9	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	176696	200	OK	-	-	-	(empty)	-	-	-	-	-	F98qAoFotQCileYli	application/x-dosexec
+1331057930.456012	CJOu1O29aBFNA4GUaa	192.168.89.10	1047	204.27.57.101	80	1	GET	eeeblue.info	/?f4950dc2a9253d25143954fa01a961ba	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	176696	200	OK	-	-	-	(empty)	-	-	-	-	-	FTieSi3KiqZ5nPf6i2	application/x-dosexec
+1331057931.772574	CDF1bv2WFu7iRRa3v2	192.168.89.10	1048	204.27.57.101	80	1	GET	eeeblue.info	/?6b2b597430f9939661d91c523dcbec70	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	67128	200	OK	-	-	-	(empty)	-	-	-	-	-	F7sUVl1vO3eBtDBU1k	application/x-dosexec
+1331057931.733866	CqaCN94s1wNup1qVfc	192.168.89.10	1049	190.9.35.198	80	1	GET	190.9.35.198	/post.php?rnd=787752	-	-	0	32	200	OK	-	-	-	(empty)	-	-	-	-	-	FXUc1n3Iv0CZEmRb41	text/html
+1331057932.364794	CIYQd42hfaqE7ye4Hj	192.168.89.10	1051	204.27.57.101	80	1	GET	eeeblue.info	/?ffaf3896dc9c4131a0af28c1a5a5a0c6	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	430592	200	OK	-	-	-	(empty)	-	-	-	-	-	FmvdU12v0MUINWj073	application/x-dosexec
+1331057933.342459	CNpzYuR0Vo0JnWHZk	192.168.89.10	1053	204.27.57.101	80	1	GET	eeeblue.info	/?8b719a3a927943ca9415ba7afe71a152	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	67128	200	OK	-	-	-	(empty)	-	-	-	-	-	FzlckDXLkbREPz8z	application/x-dosexec
+1331057933.342134	C5VK5cirFE0S7MiFd	192.168.89.10	1052	204.27.57.101	80	1	GET	eeeblue.info	/?f4950dc2a9253d25143954fa01a961ba	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	176696	200	OK	-	-	-	(empty)	-	-	-	-	-	FugbgD3xa3fl87IWv7	application/x-dosexec
+1331057933.434621	Ci3y8M1xSyiE35GNE7	192.168.89.10	1054	190.9.35.198	80	1	GET	190.9.35.198	/post.php?rnd=787752	-	-	0	32	200	OK	-	-	-	(empty)	-	-	-	-	-	FssMaM22fel9cusqfk	text/html
+1331057933.870011	C6WMK33UaKrpnnefl4	192.168.89.10	1055	204.27.57.101	80	1	GET	eeeblue.info	/?6b2b597430f9939661d91c523dcbec70	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	67128	200	OK	-	-	-	(empty)	-	-	-	-	-	FcwWVQyU4waScyN68	application/x-dosexec
+1331057933.978689	C3DOrK3qGgkuDVpQ23	192.168.89.10	1056	190.9.35.198	80	1	GET	190.9.35.198	/post.php?rnd=787752	-	-	0	32	200	OK	-	-	-	(empty)	-	-	-	-	-	FGMUcG4OEsq1VfzyKk	text/html
+1331057934.105665	Cnvnj34NPlAIRQqPf6	192.168.89.10	1057	204.27.57.101	80	1	GET	eeeblue.info	/?ffaf3896dc9c4131a0af28c1a5a5a0c6	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	81415	200	OK	-	-	-	(empty)	-	-	-	-	-	FKqD01BdAtevMKS3	application/x-dosexec
+#close	2014-04-03-10-23-12

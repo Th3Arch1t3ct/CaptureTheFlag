@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-49-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1331669867.197544	CcWeZ9NqabCUMwhn2	192.168.1.10	1029	4.2.2.3	53	udp	30097	a15wzd.lanarkpopham.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	114.163.159.142,115.117.3.70,115.241.236.131,178.91.34.49,31.6.118.13,31.45.132.214,41.232.22.87,46.103.183.193,46.147.161.225,46.200.199.46,46.201.45.252,46.237.62.226,77.36.82.146,84.236.110.184,85.98.70.34,92.47.69.81,93.180.202.162,95.58.101.66,95.58.230.106,111.119.181.93	20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000,20.000000	F
+1331669889.605846	CmfOta1ByhGVLLx921	192.168.1.10	1029	4.2.2.3	53	udp	60819	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.132.73,69.31.132.27	6011.000000,77.000000,6305.000000,2.000000,2.000000	F
+#close	2014-04-03-09-49-56

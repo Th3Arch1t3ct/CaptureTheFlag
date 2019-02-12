@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-18-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1339025361.857941	CNkWmP2iCb9NRGSHig	192.168.88.10	1029	4.2.2.3	53	udp	48271	8one8.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.13.232.185	43173.000000	F
+1339025362.499895	CNkWmP2iCb9NRGSHig	192.168.88.10	1029	4.2.2.3	53	udp	22925	www.8one8.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.13.232.185	43174.000000	F
+1339025363.719932	CNkWmP2iCb9NRGSHig	192.168.88.10	1029	4.2.2.3	53	udp	56205	fonts.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.31.95	3417.000000,137.000000	F
+1339025363.725995	CDo8W92KHy0ZuTsw47	192.168.88.10	1033	4.2.2.3	53	udp	18828	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.31.95	2719.000000,137.000000	F
+1339025364.098976	CNkWmP2iCb9NRGSHig	192.168.88.10	1029	4.2.2.3	53	udp	11916	themes.googleusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlehosted.l.googleusercontent.com,72.14.203.132	30014.000000,66.000000	F
+1339025364.37341	CNkWmP2iCb9NRGSHig	192.168.88.10	1029	4.2.2.3	53	udp	61835	www.shrinktheweb.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	shrinktheweb.com,72.32.9.30	38098.000000,38098.000000	F
+1339025364.6821	CNkWmP2iCb9NRGSHig	192.168.88.10	1029	4.2.2.3	53	udp	34187	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.31.101,74.125.31.102,74.125.31.113,74.125.31.138,74.125.31.139,74.125.31.100	27137.000000,45.000000,45.000000,45.000000,45.000000,45.000000,45.000000	F
+1339025364.68311	CDo8W92KHy0ZuTsw47	192.168.88.10	1033	4.2.2.3	53	udp	10122	aliasbloger.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.75.239.97	43200.000000	F
+1339025365.367481	CNkWmP2iCb9NRGSHig	192.168.88.10	1029	4.2.2.3	53	udp	2953	qaws.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.37.185.230	38400.000000	F
+#close	2014-04-03-10-18-18

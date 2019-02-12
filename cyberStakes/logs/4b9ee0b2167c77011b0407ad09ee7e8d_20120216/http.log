@@ -1,0 +1,32 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-48-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1329426200.202367	CXWuOr47qT5wqhqti3	192.168.54.10	1031	50.116.64.120	80	1	GET	plataformarse.cl	/Scripts/AC_RunActiveContent.js	http://plataformarse.cl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3233	200	OK	-	-	-	(empty)	-	-	-	-	-	FCWeNI3BhU7NQ3qdb5	text/plain
+1329426202.457128	CXWuOr47qT5wqhqti3	192.168.54.10	1031	50.116.64.120	80	2	GET	plataformarse.cl	/images/header.jpg	http://plataformarse.cl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	19574	200	OK	-	-	-	(empty)	-	-	-	-	-	F4AM2y2THiAzO0rxv	image/jpeg
+1329426202.617198	ChP1bm2UZmJFTUAoe7	192.168.54.10	1037	204.2.254.185	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1568	200	OK	-	-	-	(empty)	-	-	-	-	-	FS4zeL111yHtis4SE4	text/html
+1329426202.564204	CXWuOr47qT5wqhqti3	192.168.54.10	1031	50.116.64.120	80	3	GET	plataformarse.cl	/images/marcas.swf	http://plataformarse.cl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	51734	200	OK	-	-	-	(empty)	-	-	-	-	-	FHnXKLlfnPrT7wIh7	application/x-shockwave-flash
+1329426202.671658	CXWuOr47qT5wqhqti3	192.168.54.10	1031	50.116.64.120	80	4	GET	plataformarse.cl	/images/bg_body.gif	http://plataformarse.cl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	857	200	OK	-	-	-	(empty)	-	-	-	-	-	Flz9jH14VS7SnLDagk	image/gif
+1329426202.726082	CXWuOr47qT5wqhqti3	192.168.54.10	1031	50.116.64.120	80	5	GET	plataformarse.cl	/images/index_final.jpg	http://plataformarse.cl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	134023	200	OK	-	-	-	(empty)	-	-	-	-	-	FIkLG92JQ6BOf53Mdk	image/jpeg
+1329426202.610714	Csj45QTSyq6Lmx9Bd	192.168.54.10	1036	188.190.98.79	80	1	GET	storylootybuz.com	/main.php?page=6eb5b7677d651df4	http://plataformarse.cl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	81604	200	OK	-	-	-	(empty)	-	-	-	-	-	Fgv0jH2TSf1via1H89	text/html
+1329426208.039119	CfY32n17YBs3LdR5Wb	192.168.54.10	1038	188.190.98.79	80	1	GET	storylootybuz.com	/w.php?f=47&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	193024	200	OK	-	-	-	(empty)	-	-	-	-	-	F6W3TA3xd3YSO0t6x6	application/x-dosexec
+1329426209.408119	C6Yp6K2mCPPJwM8JB5	192.168.54.10	1039	188.190.98.79	80	1	GET	storylootybuz.com	/content/adp2.php?f=47	http://storylootybuz.com/main.php?page=6eb5b7677d651df4	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13094	200	OK	-	-	-	(empty)	-	-	-	-	-	Fs8LBB3uPJ7gVQASmc	application/pdf
+1329426202.457452	ClfijU1yY4aXI4Lhhk	192.168.54.10	1030	50.116.64.120	80	3	GET	plataformarse.cl	/images/cajas.jpg	http://plataformarse.cl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+1329426203.000553	ClfijU1yY4aXI4Lhhk	192.168.54.10	1030	50.116.64.120	80	4	GET	plataformarse.cl	/images/footer.gif	http://plataformarse.cl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+1329426200.175585	ClfijU1yY4aXI4Lhhk	192.168.54.10	1030	50.116.64.120	80	2	GET	plataformarse.cl	/css/plataforma.css	http://plataformarse.cl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+1329426199.871571	ClfijU1yY4aXI4Lhhk	192.168.54.10	1030	50.116.64.120	80	1	GET	plataformarse.cl	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+1329426218.536606	CSaq4hLeSVSDrdiLh	192.168.54.10	1042	188.190.98.79	80	1	GET	storylootybuz.com	/content/field.swf	http://plataformarse.cl/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1553	200	OK	-	-	-	(empty)	-	-	-	-	-	FpntrZ30rjuzpAiPrj	application/x-shockwave-flash
+1329426219.181861	C29sodR5iRIzoDEaj	192.168.54.10	1044	188.190.98.79	80	1	GET	storylootybuz.com	/content/rin.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4148	200	OK	-	-	-	(empty)	-	-	-	-	-	F9qFakOHXNxFKhtV1	application/zip
+1329426218.363457	COKW2C32QJUAZiMQw1	192.168.54.10	1041	188.190.98.79	80	1	GET	storylootybuz.com	/w.php?f=47&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	193024	200	OK	-	-	-	(empty)	-	-	-	-	-	FoupiM2ELyI29qhtj7	application/x-dosexec
+1329426219.878251	CIqNNx32e4KwPoPy2	192.168.54.10	1045	188.190.98.79	80	1	GET	storylootybuz.com	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	290	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F4Mrx61pfqoK1XAtmk	text/html
+1329426220.809572	ClePMyTeilydWMWlh	192.168.54.10	1046	188.190.98.79	80	1	GET	storylootybuz.com	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	290	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FlcGSJ1tU1sbJYu0Pf	text/html
+1329426221.109585	C5qoOT3GYR4olQ52X6	192.168.54.10	1047	188.190.98.79	80	1	GET	storylootybuz.com	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	290	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F7RnCvW4EIAN560Yc	text/html
+1329426221.414	CTT0Iq1jy5Nudf88hd	192.168.54.10	1048	188.190.98.79	80	1	GET	storylootybuz.com	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	290	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F71P7EKtrITP70Pg	text/html
+1329426221.843254	Crfcqq2kbK44epApY5	192.168.54.10	1049	188.190.98.79	80	1	GET	storylootybuz.com	/w.php?f=47&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	193024	200	OK	-	-	-	(empty)	-	-	-	-	-	FvK58DpuojQsfzOe7	application/x-dosexec
+1329426219.22392	CDKtYtm6llcOxcdO1	192.168.54.10	1043	217.24.246.7	80	1	POST	tripslokabucks.su	/drh/knmbf.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	75	6700	200	OK	-	-	-	(empty)	-	-	-	FgIvHr4l0SlNjhCG4l	binary	FbxTLa2EXPq2EOLp0l	binary
+1329426248.627581	CW5SIE2fIiYYOHKzY2	192.168.54.10	1050	220.195.24.9	80	1	POST	wertubublersco.su	/wef/ghnfgh.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	297	64	200	OK	-	-	-	(empty)	-	-	-	FptkucPRaR6s8k6Rk	binary	FBql1cZwxdB0b8rRh	binary
+#close	2014-04-03-10-48-03

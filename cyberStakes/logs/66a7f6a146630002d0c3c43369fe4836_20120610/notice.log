@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-03-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1339312252.546862	CDF4BM24qYRABRvD99	192.168.36.10	1084	65.60.2.154	80	Fm5yqI2f7SxTp76rk9	application/x-shockwave-flash	http://kelcoyle.net/sys/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 75%  Last seen: 2012-09-14 14:05:04	https://www.virustotal.com/en/search/?query=27474f210893b69a5204dcafb6d9fc12b743dc1f	192.168.36.10	65.60.2.154	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1339312257.566225	C8LlQo1nUp0Q5ULy6l	192.168.36.10	1042	65.60.2.154	80	Fb68cE1ykIUL5Z4ztl	application/x-dosexec	http://kelcoyle.net/sys/w.php?f=f424f&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2012-06-13 10:15:38	https://www.virustotal.com/en/search/?query=0899548b87b66512e931439800690dadc55f0add	192.168.36.10	65.60.2.154	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-03-11

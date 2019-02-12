@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-37-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1339855475.31778	CHnNdE4J5L39YQXnnh	192.168.42.10	1030	88.214.198.108	80	1	GET	autovip7.ru	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	36	302	Found	-	-	-	(empty)	-	-	-	-	-	FvDQki4B8zoICb6fkl	text/html
+1339855476.05984	CBwWOaNUfYYiU4UDf	192.168.42.10	1031	91.235.128.68	80	1	GET	acecasviphexpress.com	/bBjPHj?DkyBo=66	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4526	200	OK	-	-	-	(empty)	-	-	-	-	-	F6glUD4pIOUGp2IPOl	text/html
+1339855476.867236	CBwWOaNUfYYiU4UDf	192.168.42.10	1031	91.235.128.68	80	2	GET	acecasviphexpress.com	/TCdIktv?iFUaou=1256081237&vzoOoP=&xMOSta=WFA=&bglfYt=aWU=&quZJi=Ni4w	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	10722	200	OK	-	-	-	(empty)	-	-	-	-	-	FcuuJA2gvYapv6isgc	text/html
+1339855479.179243	CdGdRl35hKVpnk4ZJ	192.168.42.10	1036	91.235.128.68	80	1	GET	acecasviphexpress.com	/888	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	9986	200	OK	-	-	-	(empty)	-	-	-	-	-	FFRk6mmwRO2n81Yhg	application/jar
+1339855479.952288	CdGdRl35hKVpnk4ZJ	192.168.42.10	1036	91.235.128.68	80	2	GET	acecasviphexpress.com	/888	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	9986	200	OK	-	-	-	(empty)	-	-	-	-	-	FCfvtl2RVqHdca4cI	application/jar
+1339855480.878856	CdGdRl35hKVpnk4ZJ	192.168.42.10	1036	91.235.128.68	80	3	GET	acecasviphexpress.com	/888	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	9986	200	OK	-	-	-	(empty)	-	-	-	-	-	FcsBLo43F60OhOPYXf	application/jar
+1339855487.572277	C8piu34W9Uu5NnzUt8	192.168.42.10	1037	91.235.128.68	80	1	GET	acecasviphexpress.com	/888	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	9986	200	OK	-	-	-	(empty)	-	-	-	-	-	FIWn8F15fcFTZzikGd	application/jar
+1339855488.363543	C8piu34W9Uu5NnzUt8	192.168.42.10	1037	91.235.128.68	80	2	GET	acecasviphexpress.com	/888	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	9986	200	OK	-	-	-	(empty)	-	-	-	-	-	FAVcUp4EPiokjcDNjj	application/jar
+1339855489.104546	C8piu34W9Uu5NnzUt8	192.168.42.10	1037	91.235.128.68	80	3	GET	acecasviphexpress.com	/defnMh?expid=7&fid=12	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	8704	200	OK	-	-	-	(empty)	-	-	-	-	-	FrPazj2GgeL9MpDmE	application/x-dosexec
+#close	2014-04-03-10-37-35

@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-11-15-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1362224518.724876	C7vd4vQvSJTiKPxk7	192.168.85.10	1040	72.246.45.10	80	tcp	-	2.994116	0	0	S0	-	0	S	2	96	0	0	(empty)
+1362224512.578074	CZiCObnnaL3gFpDR5	192.168.85.10	1031	217.160.67.97	80	tcp	http	10.767244	3318	285861	RSTO	-	0	ShADadfR	145	9126	205	294065	(empty)
+1362224512.170229	CSK5Qa4ZLm93kQCl9b	192.168.85.10	1030	217.160.67.97	80	tcp	http	11.175363	285	6725	RSTO	-	0	ShADadfR	9	653	10	7129	(empty)
+1362224527.798127	CImc7543Z5ZfIwlOdg	192.168.85.10	1040	72.246.45.10	80	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+1362224512.168496	CT0btHi9XmrukfWX8	192.168.85.10	1029	4.2.2.3	53	udp	dns	6.555149	223	559	SF	-	0	Dd	6	391	6	727	(empty)
+1362224495.796726	CAMgua4WK7GDg5ATTe	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.218667	626	0	S0	-	0	D	2	682	0	0	(empty)
+1362224518.592845	CXyoIuarH0IwPRWqc	192.168.85.10	1039	173.245.60.83	80	tcp	http	46.093174	555	18762	S3	-	0	ShADadf	14	1123	17	19450	(empty)
+1362224514.13618	CoLnDN3zInjBpTgk8b	192.168.85.10	1033	92.51.180.142	80	tcp	http	0.595720	994	7400	S1	-	0	ShADd	8	1322	8	7728	(empty)
+1362224514.922753	C9XIBbQTC7ByEnzj7	192.168.85.10	1034	92.51.180.142	80	tcp	http	3.400780	342	1623849	S1	-	0	ShADd	734	29710	1183	1671177	(empty)
+1362224513.641021	C61yZN3VQmqnTe6ZP5	192.168.85.10	1032	92.51.180.142	80	tcp	http	0.392811	346	445	S1	-	0	ShADd	4	514	2	533	(empty)
+1362224495.797025	CZkFfHwV3w6X02SUe	192.168.85.10	68	192.168.85.1	67	udp	dhcp	13.051620	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1362224514.963659	COEGT44eJdrx0wWgpc	192.168.85.10	1037	239.255.255.250	1900	udp	-	6.131604	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-11-15-39

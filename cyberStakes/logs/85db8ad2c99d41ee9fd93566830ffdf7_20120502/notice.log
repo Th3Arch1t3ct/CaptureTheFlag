@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-53-51
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1335932287.221956	CCPXHW2TC7y4iCioX3	192.168.96.10	1097	37.59.198.59	80	Fsn9JCwxMBOf7vew1	application/x-dosexec	http://jklkitchen.org/?f557fc995a052398da9b7c200e324c30	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2012-05-05 19:55:47	https://www.virustotal.com/en/search/?query=292300c10e6656d306cd8d6155217b2e4219a182	192.168.96.10	37.59.198.59	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1335932287.221956	Cv98W41osRyFdrghsf	192.168.96.10	1101	37.59.198.59	80	Fy5dSA4S1yMH4z80H6	application/x-dosexec	http://jklkitchen.org/?e719dd8c3da229eff32cda4f3173a257	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2012-05-05 19:55:47	https://www.virustotal.com/en/search/?query=292300c10e6656d306cd8d6155217b2e4219a182	192.168.96.10	37.59.198.59	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1335932287.692069	CuqhUNTsyCQBJcik8	192.168.96.10	1104	37.59.198.59	80	FkD8lS2EwCARkI1IOe	application/x-dosexec	http://jklkitchen.org/?c71065ad13535baf041743f1a4aae64b	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2012-05-05 19:55:47	https://www.virustotal.com/en/search/?query=292300c10e6656d306cd8d6155217b2e4219a182	192.168.96.10	37.59.198.59	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-53-51

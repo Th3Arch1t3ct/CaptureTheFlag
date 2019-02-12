@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-04-43
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1342077078.544615	CfiEuA4QJfP5F2lqU6	192.168.103.10	1029	4.2.2.3	53	udp	8843	browser-update-meldung.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.162.100.42	43174.000000	F
+1342077078.867432	CfiEuA4QJfP5F2lqU6	192.168.103.10	1029	4.2.2.3	53	udp	33162	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,173.194.37.72,173.194.37.73,173.194.37.78,173.194.37.64,173.194.37.65,173.194.37.66,173.194.37.67,173.194.37.68,173.194.37.69,173.194.37.70,173.194.37.71	18350.000000,126.000000,126.000000,126.000000,126.000000,126.000000,126.000000,126.000000,126.000000,126.000000,126.000000,126.000000	F
+#close	2014-04-03-11-04-43

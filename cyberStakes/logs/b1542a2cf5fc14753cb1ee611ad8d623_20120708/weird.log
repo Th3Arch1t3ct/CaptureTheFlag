@@ -1,0 +1,30 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-35-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1341708913.304503	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1341708949.420548	C1wRdr1GFnNogZpvV1	192.168.41.10	1048	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341708949.420706	CIVeOMEFVESRwrGkj	192.168.41.10	1048	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341708949.426918	CYKDxH1IIrGxtHJXYc	192.168.41.10	1050	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341708949.427074	CqwZX830BxNwhYD0Mj	192.168.41.10	1050	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341708949.44338	ChDwNPO1gxaQTjpoc	192.168.41.10	1052	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341708949.443537	CBnCea3q8fDNGKFMQ8	192.168.41.10	1052	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341708949.444977	C2eXEa1sIhrxeY7SXk	192.168.41.10	1054	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341708949.445121	CuH4VF3K5AbDQskj5a	192.168.41.10	1054	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341708949.447274	CCAOwu3Uiqq5Z5s4Jl	192.168.41.10	1056	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341708949.447428	CUU3Qx3cv7wm2mbXS	192.168.41.10	1056	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341708950.002149	CSMNrm3U692nNELWFa	192.168.41.10	1059	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341708950.0023	C2tUBb1ES5DAykFO42	192.168.41.10	1059	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341708950.021387	CXvuHS3q0snXsfCKs9	192.168.41.10	1062	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341708950.021538	ClG6Uv14yJ2DMp9Wad	192.168.41.10	1062	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341708950.039093	CQ6ToT3gMuv8ivKHG2	192.168.41.10	1065	194.50.116.54	53	DNS_Conn_count_too_large	-	F	bro
+1341708950.039231	CY3eJEY4Ss3jvaBzd	192.168.41.10	1065	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1341708958.567355	CKBbgiWmkEkmA8jg6	192.168.41.10	1075	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1341708958.579065	ChW61p2oOG99nuJep5	192.168.41.10	1077	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1341708958.613607	Cxn6qu4nffbvAUKwj8	192.168.41.10	1079	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1341708962.033692	CpfPNq1ht9VGGi7wWk	192.168.41.10	1081	31.193.12.27	80	bad_HTTP_request	-	F	bro
+#close	2014-04-03-10-35-21

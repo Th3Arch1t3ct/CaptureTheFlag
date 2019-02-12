@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-55-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1342951371.276645	CKBtKH1siIoYolbB3k	192.168.117.10	1039	81.169.145.163	80	F7MxxQ3gCvBElYnX8f	application/x-dosexec	http://up-photodesign.de/3.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 14%  Last seen: 2012-07-23 22:46:09	https://www.virustotal.com/en/search/?query=2aade8a99dcf17f39ad5ed06e9767f03427b3c60	192.168.117.10	81.169.145.163	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1342951371.276645	C7pHzykDLImVDVnc	192.168.117.10	1040	81.169.145.163	80	F1OHCy2fpaNKwNEo0d	application/x-dosexec	http://up-photodesign.de/2.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 14%  Last seen: 2012-07-23 22:46:09	https://www.virustotal.com/en/search/?query=2aade8a99dcf17f39ad5ed06e9767f03427b3c60	192.168.117.10	81.169.145.163	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-55-26

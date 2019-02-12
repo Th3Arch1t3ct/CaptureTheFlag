@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-17-03
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1354945613.452094	Cjp3MC406X4IwQCs64	192.168.56.10	1030	93.170.52.21	80	1	GET	xc2jq.tk	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	842	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FXVPwc2XWoUetuYkLa	text/plain
+1354945614.108314	C6cT3f2wgXgXf8dva4	192.168.56.10	1031	195.64.155.34	80	1	GET	isityou.poltava.ua	/?ijejo	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	146	200	OK	-	-	-	(empty)	-	-	-	-	-	Fk8iCA2ncjkpQJC6i5	text/html
+1354945614.473413	CJNVQQ1H1dkRR0ahP6	192.168.56.10	1032	93.170.52.21	80	1	GET	q522z.tk	/	http://isityou.poltava.ua/?ijejo	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	842	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FLaRLg1rcFCyctSKHi	text/plain
+1354945615.26871	CP5qKtxYi6xeKhmW6	192.168.56.10	1033	195.3.143.42	80	1	GET	itislol.makewap.kz	/?wkxh	http://isityou.poltava.ua/?ijejo	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	161	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	FnKoCL1Mj7VlLBx3dk	text/html
+1354945615.892404	CISeLR1toPHPD0EO24	192.168.56.10	1038	195.3.143.42	80	1	GET	itislol.makewap.ru	/index.html?rdr=makewap.kz&wkxh	http://isityou.poltava.ua/?ijejo	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	161	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	FeyKQc3x3vqswoEky7	text/html
+1354945616.027665	CP5qKtxYi6xeKhmW6	192.168.56.10	1033	195.3.143.42	80	2	GET	itislol.makewap.kz	/index.html?sid=b7e519868d&wkxh	http://isityou.poltava.ua/?ijejo	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1196	200	OK	-	-	-	(empty)	-	-	-	-	-	FWhiotG6CD7AYY4yh	text/html
+1354945617.473204	Cbb3aR2fa6PWZYhPri	192.168.56.10	1040	178.218.209.2	80	1	GET	c.waplog.net	/438257.cnt	http://itislol.makewap.kz/index.html?sid=b7e519868d&wkxh	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	207	200	OK	-	-	-	(empty)	-	-	-	-	-	FemeOF2qLwFNtPg3l	image/gif
+1354945617.606291	CoKe7p2IX7zHURoHAe	192.168.56.10	1041	195.3.143.42	80	1	GET	makewap.kz	/img/home.gif	http://itislol.makewap.kz/index.html?sid=b7e519868d&wkxh	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	120	200	OK	-	-	-	(empty)	-	-	-	-	-	FWx1IH1oHnYPCHIxS8	image/gif
+1354945617.617408	CINIpC4ghMvct5PlGf	192.168.56.10	1042	185.4.227.74	80	1	GET	185.4.227.74	/YouNaked.JPG.exe	http://itislol.makewap.kz/index.html?sid=b7e519868d&wkxh	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	14326	200	OK	-	-	-	(empty)	-	-	-	-	-	FOxeBu2SOlvu1RN2Sb	application/x-dosexec
+1354945617.758387	C1xuR94U2ZorbmEGx3	192.168.56.10	1043	92.243.66.77	80	1	GET	wapstatistic.net	/img.php?id=2468	http://itislol.makewap.kz/index.html?sid=b7e519868d&wkxh	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	74	200	OK	-	-	-	(empty)	-	-	-	-	-	FuhxeY2ec1inWnK5R8	image/gif
+#close	2014-04-03-10-17-04

@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-49-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1343186539.50953	CzQ25K3McWyA7P9G9c	192.168.53.10	1029	4.2.2.3	53	udp	25229	zonkmanufacturing.co.za	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	196.201.6.11	43174.000000	F
+1343186541.560075	CzQ25K3McWyA7P9G9c	192.168.53.10	1029	4.2.2.3	53	udp	9103	mvuvchtcxxibeubd.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	88.198.228.114,78.46.11.101	3600.000000,3600.000000	F
+1343186542.647432	CzQ25K3McWyA7P9G9c	192.168.53.10	1029	4.2.2.3	53	udp	21391	dynapass.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.63.123.224	43200.000000	F
+1343186542.865966	CzQ25K3McWyA7P9G9c	192.168.53.10	1029	4.2.2.3	53	udp	44936	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,63.217.115.112,63.217.115.106	13932.000000,157.000000,14951.000000,1.000000,1.000000	F
+1343186546.491687	CzQ25K3McWyA7P9G9c	192.168.53.10	1029	4.2.2.3	53	udp	17802	a20.topsitesadvisor.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.215.60.144	3600.000000	F
+1343186581.263894	CGMcrx5vXMXM1urW7	192.168.53.10	1029	4.2.2.3	53	udp	26507	swupmf.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	swupmf.wip4.adobe.com,swupmf.adobe.com.edgesuite.net,a1137.g.akamai.net,63.217.115.107,63.217.115.112	8492.000000,238.000000,21594.000000,14.000000,14.000000	F
+1343186581.450605	CGMcrx5vXMXM1urW7	192.168.53.10	1029	4.2.2.3	53	udp	50564	crl.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.wip4.adobe.com,crl.adobe.com.edgesuite.net,a1180.g.akamai.net,69.31.74.51,69.31.74.65	10800.000000,300.000000,21600.000000,20.000000,20.000000	F
+1343186598.133383	CUhgjusdx7xOKyLP7	192.168.53.10	1029	4.2.2.3	53	udp	26758	opposingentitle.cu.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.38.62.18	7200.000000	F
+1343186598.234934	CUhgjusdx7xOKyLP7	192.168.53.10	1029	4.2.2.3	53	udp	15488	cu.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.38.62.18	7200.000000	F
+1343186598.318089	CUhgjusdx7xOKyLP7	192.168.53.10	1029	4.2.2.3	53	udp	2176	www.registry.cu.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.38.62.18	7200.000000	F
+1343186598.404437	CUhgjusdx7xOKyLP7	192.168.53.10	1029	4.2.2.3	53	udp	38272	15647.bodisparking.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.59.241.197	10800.000000	F
+#close	2014-04-03-09-49-59

@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-53-43
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1315699301.397527	Cnm4aU3Uinpnp679c2	192.168.105.10	1029	4.2.2.3	53	udp	59284	gamesforfriends.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	201.173.121.59,62.83.95.209,82.213.189.169,83.97.180.62,84.123.147.185	874.000000,874.000000,874.000000,874.000000,874.000000	F
+#close	2014-04-03-09-53-43

@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-09-51-28
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1356668668.138691	CVUAnX1weNvmjFTRaj	192.168.51.10	1030	93.170.52.21	80	tcp	http	0.291347	284	1402	SF	-	0	ShADadfF	5	492	5	1606	(empty)
+1356668670.072318	CX2SBe1WA0497Qplvb	192.168.51.10	1035	208.131.138.217	80	tcp	http	0.436841	364	66103	RSTO	-	0	ShADadR	39	1932	48	68031	(empty)
+1356668670.344949	CDWMW53MO0XJnMrij9	192.168.51.10	1037	178.218.209.2	80	tcp	-	0.163260	0	0	RSTO	-	0	ShR	2	88	1	44	(empty)
+1356668670.351039	CDhMhZ32fDob9TXIs2	192.168.51.10	1039	195.3.143.42	80	tcp	-	0.157293	0	0	RSTO	-	0	ShR	2	88	1	48	(empty)
+1356668670.686798	CGkGiw2IGlIasK52je	192.168.51.10	1042	92.243.66.77	80	tcp	-	0.135127	0	0	RSTO	-	0	ShR	2	88	1	48	(empty)
+1356668668.026439	CygLr4181CKxAYFFYl	192.168.51.10	1029	4.2.2.3	53	udp	dns	2.324117	251	736	SF	-	0	Dd	7	447	7	932	(empty)
+1356668670.095883	Cw40HlkFZ9RuMgQ95	192.168.51.10	1036	4.2.2.3	53	udp	dns	0.589863	64	96	SF	-	0	Dd	2	120	2	152	(empty)
+1356668668.906192	CJTOFtYJzbGGhS6z4	192.168.51.10	1032	195.64.155.34	80	tcp	http	32.005211	319	369	RSTO	-	0	ShADadfR	6	567	4	537	(empty)
+1356668652.050638	CCI3fP3G7nYqPcwCQ1	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000699	626	0	S0	-	0	D	2	682	0	0	(empty)
+1356668652.05098	CdanYl2QafXa25QN4f	192.168.51.10	68	192.168.51.1	67	udp	dhcp	12.609312	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1356668668.45217	Cmd5jm1oNZcYEo7pic	192.168.51.10	1031	173.194.37.66	80	tcp	http	62.627317	878	15700	RSTO	-	0	ShADadR	15	1486	14	16268	(empty)
+1356668670.345586	CWLecz4IFe7NlGtWA6	192.168.51.10	1038	198.144.127.9	80	tcp	http	60.733103	309	2726	RSTO	-	0	ShADadR	5	517	4	2894	(empty)
+1356668669.538215	CbGtSo4AeQI6Q0K8pi	192.168.51.10	1034	195.3.143.42	80	tcp	http	61.540934	354	504	RSTO	-	0	ShADadR	5	562	3	632	(empty)
+1356668669.227568	CqrCUV2mTnNTUmAeH8	192.168.51.10	1033	195.3.143.42	80	tcp	http	61.851751	683	2515	RSTO	-	0	ShADadR	7	971	6	2763	(empty)
+1356668670.810011	C7f0KWQvuLuXMnzbl	192.168.51.10	1043	239.255.255.250	1900	udp	-	6.049711	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-09-51-28

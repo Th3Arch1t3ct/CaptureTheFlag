@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-11-14-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1315317155.037997	CAuD1hCB7xq93sV7h	192.168.76.10	1031	188.229.88.82	80	tcp	http	0.561857	185	2477	SF	-	0	ShADadFf	6	433	6	2725	(empty)
+1315317155.053839	CZkD2YGd2Xe9g5kz3	192.168.76.10	1032	188.229.88.82	80	tcp	http	0.549139	185	2477	SF	-	0	ShADadFf	6	433	6	2725	(empty)
+1315317155.530828	CWx0zZ3S70L6k1d2G1	192.168.76.10	1033	188.229.88.82	80	tcp	http	0.934961	183	32474	SF	-	0	ShADadFf	19	951	27	33562	(empty)
+1315317156.983523	CLQ8kC20efhvcIqo86	192.168.76.10	1038	195.184.86.54	80	tcp	-	2.940011	0	0	S0	-	0	S	2	96	0	0	(empty)
+1315317154.123163	CMClP04cl5pHyPLgB1	192.168.76.10	1029	4.2.2.3	53	udp	dns	1.452279	82	158	SF	-	0	Dd	2	138	2	214	(empty)
+1315317154.137849	Cj7uI74CFPCHGQbJKl	192.168.76.10	1030	209.217.227.45	80	tcp	http	5.065790	292	1375	RSTO	-	0	ShADadfR	6	540	5	1583	(empty)
+1315317160.152183	Cqo6pj3082uNnAKRye	192.168.76.10	1040	188.229.88.82	80	tcp	http	5.429762	193	324	SF	-	0	ShADadFf	6	441	4	492	(empty)
+1315317165.953548	Cl1GcE1s6QL6js8cFc	192.168.76.10	1038	195.184.86.54	80	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+1315317178.112837	ColQ7L1UjDV3OTKsFa	192.168.76.10	1041	195.184.86.54	80	tcp	-	2.952755	0	0	S0	-	0	S	2	96	0	0	(empty)
+1315317187.126309	CbywkD2uoKSFkSuv26	192.168.76.10	1041	195.184.86.54	80	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+1315317137.976317	CyZ9YhMn3q8S5hF1h	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000769	626	0	S0	-	0	D	2	682	0	0	(empty)
+1315317199.314696	CEhPnk3CKdBUxYZVte	192.168.76.10	1042	195.184.86.54	80	tcp	-	2.998504	0	0	S0	-	0	S	2	96	0	0	(empty)
+1315317137.976656	CFqd5ZWqmuOILzLu3	192.168.76.10	68	192.168.76.1	67	udp	dhcp	13.090171	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1315317208.376532	CDiSwF1CyXPb4oWNAc	192.168.76.10	1042	195.184.86.54	80	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+1315317220.534875	CY1ZlM15PBNt7RjGDd	192.168.76.10	1043	195.184.86.54	80	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+1315317156.271301	Cheuq64QeCVB1rCyLa	192.168.76.10	1036	239.255.255.250	1900	udp	-	6.057262	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-11-14-56

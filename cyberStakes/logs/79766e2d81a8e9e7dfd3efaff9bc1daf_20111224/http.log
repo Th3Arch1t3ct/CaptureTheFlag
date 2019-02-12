@@ -1,0 +1,30 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-01-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1324714417.555021	Ch6lhm2lktnGDSj6U8	192.168.79.10	1030	31.170.161.14	80	1	GET	cride.de	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3826	200	OK	-	-	-	(empty)	-	-	-	-	-	FdUx552ZLqE0Dbkxmf	text/html
+1324714418.048489	Cv4RCn3FALMIsX7mQl	192.168.79.10	1031	82.135.230.125	80	1	GET	trioks.ipy.lt	/jstools.js	http://cride.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2997	200	OK	-	-	-	(empty)	-	-	-	-	-	FmHJbW1AhszcttzrFe	text/plain
+1324714420.824436	CBt0CB2hhi0b4lKMdh	192.168.79.10	1039	31.170.160.65	80	1	GET	analytics.hosting24.com	/count.php	http://cride.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1324714420.875425	CJTOZ32fkHeDIskNY6	192.168.79.10	1038	208.43.173.207	80	1	GET	www.000webhost.com	/images/index/styles.css	http://cride.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2818	200	OK	-	-	-	(empty)	-	-	-	-	-	FFbrynOkFIBb028ja	text/plain
+1324714420.87888	CwOZ1h4utUNnrLMU4f	192.168.79.10	1037	208.43.173.207	80	1	GET	www.000webhost.com	/images/index/php.gif	http://cride.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1058	200	OK	-	-	-	(empty)	-	-	-	-	-	FglNTC1238Tdy4fBZi	image/gif
+1324714421.059261	CuFEGqfVZ2LhXZqGk	192.168.79.10	1040	208.43.173.207	80	1	GET	www.000webhost.com	/images/index/unknown.png	http://cride.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	266	200	OK	-	-	-	(empty)	-	-	-	-	-	FYOv5W1x7lnB19dcx6	image/png
+1324714421.072169	CWAPrSjP2eCmEZ829	192.168.79.10	1041	208.43.173.207	80	1	GET	www.000webhost.com	/images/index/bg.gif	http://cride.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	54	200	OK	-	-	-	(empty)	-	-	-	-	-	FyW1coUHlHKPLdDP5	image/gif
+1324714420.751092	C4gYZBM3kNP7bWH2	192.168.79.10	1032	91.217.153.188	80	1	GET	juncgasiridi.hopto.org	//index.php?ae209016004b743610c941801dcfb26a	http://cride.de/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	44034	200	OK	-	-	-	(empty)	-	-	-	-	-	FGTGwd4QgQoidLPRmi	text/html
+1324714422.153073	ClQHNk3M9hJaryne2d	192.168.79.10	1042	91.217.153.188	80	1	GET	juncgasiridi.hopto.org	/server_privileges.php?cb23a2949e85bf0684144951398c9640=1	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	16384	200	OK	-	-	-	(empty)	-	-	-	-	-	F7WRjl2erwWuXEn08b	application/x-dosexec
+1324714423.843915	Cj3kFk1OcVmQ0weyc1	192.168.79.10	1043	91.217.153.188	80	1	GET	juncgasiridi.hopto.org	//images/r/938a99f1be85e19406438f9a572fdf71.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	2578	200	OK	-	-	-	(empty)	-	-	-	-	-	FfIydu4e4hOY7bvU4i	application/jar
+1324714423.845871	CemCpP3idC17PsG7k3	192.168.79.10	1044	91.217.153.188	80	1	GET	juncgasiridi.hopto.org	//images/938a99f1be85e19406438f9a572fdf71.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5468	200	OK	-	-	-	(empty)	-	-	-	-	-	Fig5UW3ToVo7SA0SLa	application/jar
+1324714424.108238	CemCpP3idC17PsG7k3	192.168.79.10	1044	91.217.153.188	80	2	GET	juncgasiridi.hopto.org	//images/938a99f1be85e19406438f9a572fdf71.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5468	200	OK	-	-	-	(empty)	-	-	-	-	-	FIJlla4XtrTe6LI0Fe	application/jar
+1324714424.517254	CemCpP3idC17PsG7k3	192.168.79.10	1044	91.217.153.188	80	3	GET	juncgasiridi.hopto.org	//images/938a99f1be85e19406438f9a572fdf71.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5468	200	OK	-	-	-	(empty)	-	-	-	-	-	FZxlf42zrgBCJULNyd	application/jar
+1324714424.009867	Cj3kFk1OcVmQ0weyc1	192.168.79.10	1043	91.217.153.188	80	2	GET	juncgasiridi.hopto.org	//images/r/938a99f1be85e19406438f9a572fdf71.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	2578	200	OK	-	-	-	(empty)	-	-	-	-	-	FWpyzi2Ts4Je2BB4Rk	application/jar
+1324714424.849333	Cj3kFk1OcVmQ0weyc1	192.168.79.10	1043	91.217.153.188	80	3	GET	juncgasiridi.hopto.org	//images/r/938a99f1be85e19406438f9a572fdf71.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	2578	200	OK	-	-	-	(empty)	-	-	-	-	-	FSR0TU26e2iPRDhT2l	application/jar
+1324714424.684857	CemCpP3idC17PsG7k3	192.168.79.10	1044	91.217.153.188	80	4	GET	juncgasiridi.hopto.org	/server_privileges.php?cb23a2949e85bf0684144951398c9640=2	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	16384	200	OK	-	-	-	(empty)	-	-	-	-	-	FdsDHN3fKSwBU0Q0U	application/x-dosexec
+1324714425.045394	Cj3kFk1OcVmQ0weyc1	192.168.79.10	1043	91.217.153.188	80	4	GET	juncgasiridi.hopto.org	//com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	400	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FhCWcP1D20gduFpGw3	text/html
+1324714425.185101	Cj3kFk1OcVmQ0weyc1	192.168.79.10	1043	91.217.153.188	80	5	GET	juncgasiridi.hopto.org	//edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	400	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FV8lgTNBiHKKtSf6e	text/html
+1324714425.32462	Cj3kFk1OcVmQ0weyc1	192.168.79.10	1043	91.217.153.188	80	6	GET	juncgasiridi.hopto.org	//net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	400	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FlX2O62kbqUcFEWaJ5	text/html
+1324714425.461218	Cj3kFk1OcVmQ0weyc1	192.168.79.10	1043	91.217.153.188	80	7	GET	juncgasiridi.hopto.org	//org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	400	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FpQVtkUYvZHl9WBnc	text/html
+1324714425.668886	Cj3kFk1OcVmQ0weyc1	192.168.79.10	1043	91.217.153.188	80	8	GET	juncgasiridi.hopto.org	/server_privileges.php?cb23a2949e85bf0684144951398c9640=3	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	16384	200	OK	-	-	-	(empty)	-	-	-	-	-	Fxa3GP1rCQrsKDiDjd	application/x-dosexec
+#close	2014-04-03-10-01-30

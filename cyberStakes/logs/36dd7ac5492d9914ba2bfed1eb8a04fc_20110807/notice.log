@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-52-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1312737053.644402	CyqKPy2IEZK6YcL7ra	192.168.7.10	1070	91.193.72.64	80	FmcBo345HljkVGjQFk	application/x-dosexec	http://marko3.ru/d.php?f=164&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 39%  Last seen: 2011-08-25 06:25:27	https://www.virustotal.com/en/search/?query=354087202d64b272e621df305b4207d5b85380db	192.168.7.10	91.193.72.64	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1312737062.719579	C4GQce3DHIbiTA2iYd	192.168.7.10	1097	91.193.72.64	80	FAFVFS3AGqw8sFbLd8	application/x-dosexec	http://marko3.ru/d.php?f=164&e=1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 39%  Last seen: 2011-08-25 06:25:27	https://www.virustotal.com/en/search/?query=354087202d64b272e621df305b4207d5b85380db	192.168.7.10	91.193.72.64	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1312737066.070474	CUcPUqRuCaiRXWzs	192.168.7.10	1101	91.193.72.64	80	FVuAB5KlqDAFjMcH7	application/x-dosexec	http://marko3.ru/d.php?f=164&e=0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 39%  Last seen: 2011-08-25 06:25:27	https://www.virustotal.com/en/search/?query=354087202d64b272e621df305b4207d5b85380db	192.168.7.10	91.193.72.64	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-52-12

@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-09-50-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1382916213.838654	CDYfMs1f06w31r1wl9	192.168.73.10	1042	54.236.77.169	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.dntrck.com,OU=DNTX,O=Team Internet AG,L=Muenchen,ST=Bayern,C=DE	CN=Thawte SSL CA,O=Thawte\, Inc.,C=US	1376283600.000000	1407905999.000000	-	-	-	6acd813aa6dec0e4e2c0a75140cccccc	ok
+#close	2014-04-03-09-50-56

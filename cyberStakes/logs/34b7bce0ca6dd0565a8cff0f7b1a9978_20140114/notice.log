@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-57-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1389738846.202857	CRS0TSJTymr4r9JD2	192.168.58.10	1068	209.203.50.200	443	-	-	-	tcp	SSL::Invalid_Server_Cert	SSL certificate validation failed with (self signed certificate)	CN=localhost,OU=IT,O=MyCompany Ltd.,L=York,ST=Yorks,C=GB	192.168.58.10	209.203.50.200	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1389738853.051593	C0ZfKVzA1TZRCfRZ9	192.168.58.10	1076	64.85.161.53	443	-	-	-	tcp	SSL::Invalid_Server_Cert	SSL certificate validation failed with (self signed certificate)	CN=localhost,OU=IT,O=MyCompany Ltd.,L=York,ST=Yorks,C=GB	192.168.58.10	64.85.161.53	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1389738861.778463	CZKqA73uL62J47M4lb	192.168.58.10	1075	177.55.106.46	443	-	-	-	tcp	SSL::Invalid_Server_Cert	SSL certificate validation failed with (self signed certificate)	CN=localhost,OU=IT,O=MyCompany Ltd.,L=York,ST=Yorks,C=GB	192.168.58.10	177.55.106.46	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1389738878.292903	Ce3tCo2MEfB6O3UUQg	192.168.58.10	1096	195.81.241.8	443	-	-	-	tcp	SSL::Invalid_Server_Cert	SSL certificate validation failed with (self signed certificate)	CN=localhost,OU=IT,O=MyCompany Ltd.,L=York,ST=Yorks,C=GB	192.168.58.10	195.81.241.8	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-57-49

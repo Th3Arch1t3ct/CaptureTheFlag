@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-16-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1329977880.435915	Cjx12j46bOa4Al59kd	192.168.47.10	1030	77.79.7.156	80	1	GET	1q6q9k.tube8.e8e.at	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3518	200	OK	-	-	-	(empty)	-	-	-	-	-	FiBTaO3k0djxxwUZnh	text/html
+1329977884.396635	C3Ce5s1khr7B7N8mbl	192.168.47.10	1035	77.79.7.156	80	1	GET	1q6q9k.tube8.e8e.at	/mytube_files/rotator.js	http://1q6q9k.tube8.e8e.at/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	893	200	OK	-	-	-	(empty)	-	-	-	-	-	F7e9lh1Z13qBiCvczd	text/plain
+1329977894.298822	CCi3zDiS3ClBlN6p8	192.168.47.10	1037	77.79.7.156	80	1	GET	1q6q9k.tube8.e8e.at	/css/css.css	http://1q6q9k.tube8.e8e.at/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	854	200	OK	-	-	-	(empty)	-	-	-	-	-	FzOF7IqMwBCQLFwM7	text/plain
+1329977895.177271	CJeq653EraC4PETYEa	192.168.47.10	1038	77.79.7.156	80	1	GET	1q6q9k.tube8.e8e.at	/images/movie.gif	http://1q6q9k.tube8.e8e.at/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7901	200	OK	-	-	-	(empty)	-	-	-	-	-	Fcrt9O2KF7HS5GWpIa	image/gif
+1329977894.297724	C0nOB91qgDfvtOHhdk	192.168.47.10	1036	77.79.7.156	80	1	GET	1q6q9k.tube8.e8e.at	/mytube_files/header3.gif	http://1q6q9k.tube8.e8e.at/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	10655	200	OK	-	-	-	(empty)	-	-	-	-	-	FEgKCAQXJ8RMm3U4j	image/gif
+1329977900.925127	CYSVhX3ngtRqGUgEqe	192.168.47.10	1040	77.79.7.156	80	1	GET	1q6q9k.tube8.e8e.at	/css/reset.css	http://1q6q9k.tube8.e8e.at/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3518	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F8mQ2q2Ut4ul9b4Pz2	text/html
+1329977898.838233	ChQF6k3K9Kt4rb2541	192.168.47.10	1039	77.79.7.156	80	1	GET	1q6q9k.tube8.e8e.at	/css/1.js	http://1q6q9k.tube8.e8e.at/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2691	200	OK	-	-	-	(empty)	-	-	-	-	-	FqkVIo3dI8sx2GNBqf	text/plain
+1329977901.830889	CCQ9XM1Ztaq86IG1Cf	192.168.47.10	1041	77.79.7.156	80	1	GET	1q6q9k.tube8.e8e.at	/images/x.jpg	http://1q6q9k.tube8.e8e.at/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	15748	200	OK	-	-	-	(empty)	-	-	-	-	-	F0kxPWIgV9O2dD9yf	image/jpeg
+1329977903.176345	CG4jih2nLHtCqNATXg	192.168.47.10	1042	77.79.7.156	80	1	GET	1q6q9k.tube8.e8e.at	/css/2.js	http://1q6q9k.tube8.e8e.at/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1253	200	OK	-	-	-	(empty)	-	-	-	-	-	FjBsyH2MOX51ugp8V7	text/plain
+1329977914.528177	CzAWRdB2H5Y00Yvzi	192.168.47.10	1043	77.79.7.156	80	1	GET	1q6q9k.tube8.e8e.at	/flash_player.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1185	200	OK	-	-	-	(empty)	-	-	-	-	-	FNgSAZ2yTS8CP84nSf	application/x-dosexec
+#close	2014-04-03-10-16-48

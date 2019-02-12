@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-10-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1315698650.811833	CuFHjz1DoZaMOPslod	192.168.124.10	1030	174.129.236.83	80	1	GET	bjattachments.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	20005	200	OK	-	-	-	(empty)	-	-	-	-	-	FpC5Kl8w7qakMkv55	text/html
+1315698652.957727	C4RaMGzKF2hK3EI5c	192.168.124.10	1031	95.163.66.196	80	1	GET	mad.unistone-bike.com	/main.php?page=fc3e77a595495932	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	179308	200	OK	-	-	-	(empty)	-	-	-	-	-	Fycin94ppPsvVsHWx2	text/html
+1315698655.028114	C3DRzd1PjPPJjCsE69	192.168.124.10	1036	95.163.66.196	80	1	GET	mad.unistone-bike.com	/content/worms.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4962	200	OK	-	-	-	(empty)	-	-	-	-	-	FdKDmQ1aCGJWORCSqc	application/zip
+1315698655.193279	C4RaMGzKF2hK3EI5c	192.168.124.10	1031	95.163.66.196	80	2	GET	mad.unistone-bike.com	/content/2fdp.php?f=60	http://mad.unistone-bike.com/main.php?page=fc3e77a595495932	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	96617	200	OK	-	-	-	(empty)	-	-	-	-	-	FivShP3ZLe4BluqiQe	application/pdf
+1315698656.189657	CxDxMh3HNcn4yQpqKa	192.168.124.10	1044	95.163.66.188	80	1	GET	1604534972	/RAW.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6063	200	OK	-	-	-	(empty)	-	-	-	-	-	FVwC4S3mvg2hJT9uJ2	application/x-java-applet
+1315698658.317495	C4RaMGzKF2hK3EI5c	192.168.124.10	1031	95.163.66.196	80	3	GET	mad.unistone-bike.com	/content/field.swf	http://mad.unistone-bike.com/main.php?page=fc3e77a595495932	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1297	200	OK	-	-	-	(empty)	-	-	-	-	-	FdHGDg2ayG272Ucyr9	application/x-shockwave-flash
+1315698658.163059	C3zEPz3X9sklro9t87	192.168.124.10	1045	95.163.66.188	80	1	GET	1604534972	/RAW.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6063	200	OK	-	-	-	(empty)	-	-	-	-	-	FnWAQd4yAnWyODmFBg	application/x-java-applet
+1315698658.211661	C0Ci1T3SB5wzBBIHe2	192.168.124.10	1042	95.163.66.188	80	1	GET	1604534972	/RAW.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6063	200	OK	-	-	-	(empty)	-	-	-	-	-	FBLILw13yDHEByYIq6	application/x-java-applet
+1315698658.217801	C64aC03MMunpOMs281	192.168.124.10	1043	95.163.66.188	80	1	GET	1604534972	/RAW.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6063	200	OK	-	-	-	(empty)	-	-	-	-	-	F8Le8o3OAe5j9lZjK1	application/x-java-applet
+1315698658.220073	CDrgES2W3Tv4XAaxt4	192.168.124.10	1047	95.163.66.188	80	1	GET	1604534972	/RAW.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6063	200	OK	-	-	-	(empty)	-	-	-	-	-	Fh9y5XeLDli75viPc	application/x-java-applet
+1315698658.335448	CdVWql4YeuwJVSup03	192.168.124.10	1046	95.163.66.188	80	1	GET	1604534972	/RAW.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6063	200	OK	-	-	-	(empty)	-	-	-	-	-	FrLRlY19q8NNCn6cCe	application/x-java-applet
+1315698663.490676	C4RaMGzKF2hK3EI5c	192.168.124.10	1031	95.163.66.196	80	4	GET	mad.unistone-bike.com	/w.php?f=60&e=6	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	385024	200	OK	-	-	-	(empty)	-	-	-	-	-	FsNoI32OWh1ByHztRc	application/x-dosexec
+1315698666.058268	CueskA4i4SXsOjyWbk	192.168.124.10	1049	95.163.66.196	80	1	GET	mad.unistone-bike.com	/w.php?f=60&e=1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	385024	200	OK	-	-	-	(empty)	-	-	-	-	-	Fu8r7P29vkcT8CWjLg	application/x-dosexec
+1315698666.05745	Cu7Kbx2Ljg49BYB9R5	192.168.124.10	1048	95.163.66.196	80	1	GET	mad.unistone-bike.com	/w.php?f=60&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	385024	200	OK	-	-	-	(empty)	-	-	-	-	-	FSnnFU3WQ1oM8P5h8e	application/x-dosexec
+1315698677.355567	CuuaWy1bmD0foV1Ujd	192.168.124.10	1050	95.163.66.196	80	1	OPTIONS	95.163.66.196	/	-	Microsoft-WebDAV-MiniRedir/5.1.2600	0	166	405	Not Allowed	-	-	-	(empty)	-	-	-	-	-	Fwlsce4t1jFLJhbMe3	text/html
+#close	2014-04-03-10-10-54

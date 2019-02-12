@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-54-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1316320758.126924	CuTdmxlQ9WZOgkYX8	192.168.37.10	1032	188.229.88.82	80	tcp	http	1.371986	185	2477	SF	-	0	ShADadFf	8	513	7	3550	(empty)
+1316320758.126652	CgQG7WMZi5rX2Z9r9	192.168.37.10	1033	188.229.88.82	80	tcp	http	1.378035	185	2477	SF	-	0	ShADadFf	8	513	7	3550	(empty)
+1316320759.445484	CdZvg33br5IXme9pkl	192.168.37.10	1039	188.229.88.82	80	tcp	http	1.144379	183	74970	SF	-	0	ShADadFf	32	1471	56	77218	(empty)
+1316320759.435479	CpCXgZ2jIdaFsJYpoi	192.168.37.10	1038	188.229.88.82	80	tcp	http	1.185777	183	74970	SF	-	0	ShADadFf	32	1471	56	77218	(empty)
+1316320756.851845	Cf79wW3ZYVJZkXJPVd	192.168.37.10	1029	4.2.2.3	53	udp	dns	2.791047	75	151	SF	-	0	Dd	2	131	2	207	(empty)
+1316320772.089873	C5W9EA2SpxElCpUec2	192.168.37.10	1041	195.184.86.54	80	tcp	-	2.910778	0	0	S0	-	0	S	2	96	0	0	(empty)
+1316320764.900384	ChTSpv2mSPLFSgtKNl	192.168.37.10	1040	188.229.88.82	80	tcp	http	10.462206	193	324	SF	-	0	ShADadFf	6	441	4	492	(empty)
+1316320757.230911	Cuab501Y266LNhCAO5	192.168.37.10	1031	174.132.225.237	80	tcp	http	20.364721	239	4655	RSTO	-	0	ShADadfR	8	567	7	4943	(empty)
+1316320781.03174	C4MXjV1NDv4hl1w8p2	192.168.37.10	1041	195.184.86.54	80	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+1316320756.869539	CT2WjR3t7Kc8Njyk16	192.168.37.10	1030	174.132.225.237	80	tcp	http	25.758893	524	19663	RSTO	-	0	ShADadfR	14	1092	18	20391	(empty)
+1316320793.095786	C6e7fZ1N8euZmEEUj4	192.168.37.10	1043	195.184.86.54	80	tcp	-	2.952167	0	0	S0	-	0	S	2	96	0	0	(empty)
+1316320740.452772	ChzrNC4aHlNpxdGZNb	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.001124	626	0	S0	-	0	D	2	682	0	0	(empty)
+1316320802.109652	CQPxUd1U7XDjctmVM4	192.168.37.10	1043	195.184.86.54	80	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+1316320740.453152	ChkyLy4mSnaB9X0mpe	192.168.37.10	68	192.168.37.1	67	udp	dhcp	12.741621	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1316320814.283419	CQoCVi1GH3ik4CZbM2	192.168.37.10	1044	195.184.86.54	80	tcp	-	2.951974	0	0	S0	-	0	S	2	96	0	0	(empty)
+1316320823.282107	CeBBMt1JpVLOJQE3f3	192.168.37.10	1044	195.184.86.54	80	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+1316320759.309654	CWidnsgYkWkgdvwai	192.168.37.10	1036	239.255.255.250	1900	udp	-	6.130844	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-10-54-02

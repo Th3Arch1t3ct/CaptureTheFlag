@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-19-56
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1338020362.873847	Fg8PR32OqcLjK5nFE1	98.139.134.174	192.168.22.10	CghAvD2r4ggxbmGPY5	HTTP	0	MD5,SHA1	text/html	-	0.001121	-	F	12028	12028	0	0	F	-	1f029399a8b992389da2b72d0292c307	b3f7b7160ccfa6c593356732a3e77f8995b37309	-	-
+1338020365.975541	F9PeMJ37S6EmIZ9NR7	89.149.244.140	192.168.22.10	CXNbAC4lvcxgQNcbKh	HTTP	0	MD5,SHA1	text/html	-	0.112818	-	F	12120	-	0	0	F	-	6d1390f1f0a01a4164d8caae1ed1e4f7	5ce3e6a4ca6b3f0faad6dbcbabb46e04d38b7cce	-	-
+1338020366.704464	F0nVBu3hnq435lqu96	89.149.244.140	192.168.22.10	CXNbAC4lvcxgQNcbKh	HTTP	0	MD5,SHA1	application/pdf	6e63c61d.pdf	0.448124	-	F	41329	41329	0	0	F	-	9477f71399cbf3a7c57c02738f4429ac	2425916d4ed39e4f4c452546f52efa738d543b7e	-	-
+1338020373.255938	Fq7Uma40qE83fd99K7	89.149.244.140	192.168.22.10	Cj0XrP1ysjXhS3ITX6	HTTP	0	MD5,SHA1	application/zip	aa922c73.jar	0.549744	-	F	58622	58622	0	0	F	-	0653c04e8ef207ef335ad3c2df839d14	4db36dbdc3982942d43278261b66592bc31842b1	-	-
+1338020373.977857	F4Lqmg4cVFqjcLCyHd	89.149.244.140	192.168.22.10	Cj0XrP1ysjXhS3ITX6	HTTP	0	MD5,SHA1	application/zip	ebb54db3.jar	0.236889	-	F	58622	58622	0	0	F	-	0653c04e8ef207ef335ad3c2df839d14	4db36dbdc3982942d43278261b66592bc31842b1	-	-
+1338020374.443053	F4fDp4fPH6h1pura1	89.149.244.140	192.168.22.10	Cj0XrP1ysjXhS3ITX6	HTTP	0	MD5,SHA1	application/zip	45ed14cf.jar	0.146930	-	F	58622	58622	0	0	F	-	0653c04e8ef207ef335ad3c2df839d14	4db36dbdc3982942d43278261b66592bc31842b1	-	-
+1338020375.039571	FUi2br3pZ2kkL33tzd	89.149.244.140	192.168.22.10	Cj0XrP1ysjXhS3ITX6	HTTP	0	MD5,SHA1	application/x-dosexec	setup.exe	0.127344	-	F	31067	31067	0	0	F	-	096442673e3de5c3cff855933b1696fd	d034cac7e815b69342c83e1027cd4d427ce4e8d4	-	-
+1338020379.372358	FKzpnq1ea7lNpJ6fNa	89.149.244.140	192.168.22.10	CXNbAC4lvcxgQNcbKh	HTTP	0	MD5,SHA1	application/x-dosexec	setup.exe	0.325616	-	F	31067	31067	0	0	F	-	096442673e3de5c3cff855933b1696fd	d034cac7e815b69342c83e1027cd4d427ce4e8d4	-	-
+#close	2014-04-03-10-19-57

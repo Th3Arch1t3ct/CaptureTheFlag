@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-08-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1338065019.171241	CJ4bEO1LOrGqNWBcTj	192.168.122.10	1029	4.2.2.3	53	udp	17805	charmony-date.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.28.133.55	43178.000000	F
+1338065019.459415	CJ4bEO1LOrGqNWBcTj	192.168.122.10	1029	4.2.2.3	53	udp	34956	cderisa.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.162.170.180	10.000000	F
+1338065020.191019	CJ4bEO1LOrGqNWBcTj	192.168.122.10	1029	4.2.2.3	53	udp	53903	www3.safemasterpv.dnset.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.238.108	9.000000	F
+1338065020.468337	CJ4bEO1LOrGqNWBcTj	192.168.122.10	1029	4.2.2.3	53	udp	2191	www1.personalhwsecurity.dnset.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.114	10.000000	F
+1338065035.69069	Cin2445qBDeXLlUAb	192.168.122.10	1029	4.2.2.3	53	udp	25486	www1.personalhwsecurity.dnset.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.114	31.000000	F
+1338065036.853589	Cin2445qBDeXLlUAb	192.168.122.10	1029	4.2.2.3	53	udp	9864	www2.thebest-armypa.it.cx	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.23.11.219	3600.000000	F
+1338065077.885	ClqX6417natrczYGmg	192.168.122.10	1029	208.115.221.125	53	udp	37002	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	95.211.77.236	7200.000000	F
+#close	2014-04-03-10-08-18

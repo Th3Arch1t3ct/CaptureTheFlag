@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-00-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1313214489.992086	Cx6gjd4qaX6NoXwnnk	192.168.29.10	1029	4.2.2.3	53	udp	56717	global.kanvus-global.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	61.219.192.68	14373.000000	F
+1313214493.674786	Cx6gjd4qaX6NoXwnnk	192.168.29.10	1029	4.2.2.3	53	udp	4495	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.229.37,74.125.229.38,74.125.229.39,74.125.229.40,74.125.229.41,74.125.229.42,74.125.229.43,74.125.229.44,74.125.229.45,74.125.229.46,74.125.229.47,74.125.229.32,74.125.229.33,74.125.229.34,74.125.229.35,74.125.229.36	1569.000000,245.000000,245.000000,245.000000,245.000000,245.000000,245.000000,245.000000,245.000000,245.000000,245.000000,245.000000,245.000000,245.000000,245.000000,245.000000,245.000000	F
+1313214504.536264	Cx6gjd4qaX6NoXwnnk	192.168.29.10	1029	4.2.2.3	53	udp	57487	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,24.27.250.42,24.27.250.74	5794.000000,61.000000,6130.000000,17.000000,17.000000	F
+1313214507.584298	Cx6gjd4qaX6NoXwnnk	192.168.29.10	1029	4.2.2.3	53	udp	20878	zoetqcvp.cz.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	112.140.159.5	0.000000	F
+1313214508.581284	CnIFu54xXY59gwILdi	192.168.29.10	1029	4.2.2.5	53	udp	20878	zoetqcvp.cz.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	14.32.28.219	0.000000	F
+1313214510.020984	Cx6gjd4qaX6NoXwnnk	192.168.29.10	1029	4.2.2.3	53	udp	49806	oxzxrgub.cz.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.217.153.107	3600.000000	F
+1313214557.92469	CEcDI92qGCRb01txSa	192.168.29.10	1074	8.8.8.8	53	udp	60358	97.36.217.74.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-00-09

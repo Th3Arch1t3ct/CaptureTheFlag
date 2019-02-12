@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-08-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1379381873.465993	ChQNrb2z4ZERVYh4y6	192.168.23.10	1030	4.2.2.3	53	udp	7326	narutoshippudenenglishdub.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.185.5.140	600.000000	F
+1379381875.751426	ChQNrb2z4ZERVYh4y6	192.168.23.10	1030	4.2.2.3	53	udp	63647	track.cmllk1.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cashmylinks.go2cloud.org,107.23.222.212	3600.000000,60.000000	F
+1379381876.327227	ChQNrb2z4ZERVYh4y6	192.168.23.10	1030	4.2.2.3	53	udp	37277	www.cml1234.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.129.229.201	3600.000000	F
+1379381876.63685	ChQNrb2z4ZERVYh4y6	192.168.23.10	1030	4.2.2.3	53	udp	64666	dl.installiq.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.77.96.140	300.000000	F
+1379381876.995481	ChQNrb2z4ZERVYh4y6	192.168.23.10	1030	4.2.2.3	53	udp	28315	dl7.iq8download.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wthreei.vo.llnwd.net,208.111.148.7,208.111.148.6	300.000000,350.000000,350.000000	F
+#close	2014-04-03-10-08-25

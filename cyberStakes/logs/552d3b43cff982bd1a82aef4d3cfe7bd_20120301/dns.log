@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-21-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1330578205.37976	CEFwCj2b4bDRKIoA8i	192.168.10.10	1028	4.2.2.3	53	udp	17029	jsemler.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.207.230.84	43179.000000	F
+1330578206.678441	CEFwCj2b4bDRKIoA8i	192.168.10.10	1028	4.2.2.3	53	udp	36742	java.sun.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.9.162.55	369.000000	F
+1330578212.379139	CEFwCj2b4bDRKIoA8i	192.168.10.10	1028	4.2.2.3	53	udp	23687	jsemler.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.207.230.84	43172.000000	F
+#close	2014-04-03-10-21-36

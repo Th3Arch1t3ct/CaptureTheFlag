@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-09-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1326615230.411597	CFVhGO3SVN40x1EHr7	192.168.39.10	1029	4.2.2.3	53	udp	65162	getmypccleaned.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.208.198.172	3582.000000	F
+1326615230.551404	CFVhGO3SVN40x1EHr7	192.168.39.10	1029	4.2.2.3	53	udp	16522	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.229.37,74.125.229.38,74.125.229.39,74.125.229.40,74.125.229.41,74.125.229.42,74.125.229.43,74.125.229.44,74.125.229.45,74.125.229.46,74.125.229.47,74.125.229.32,74.125.229.33,74.125.229.34,74.125.229.35,74.125.229.36	33329.000000,113.000000,113.000000,113.000000,113.000000,113.000000,113.000000,113.000000,113.000000,113.000000,113.000000,113.000000,113.000000,113.000000,113.000000,113.000000,113.000000	F
+1326615231.059264	CFVhGO3SVN40x1EHr7	192.168.39.10	1029	4.2.2.3	53	udp	57995	store.uniblue.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	uniblue-s.cleverbridge.com,89.1.11.49	3600.000000,5146.000000	F
+1326615231.569993	CFVhGO3SVN40x1EHr7	192.168.39.10	1029	4.2.2.3	53	udp	26251	download.uniblue.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	dualstack.splitter-load-balancer-1436536024.us-east-1.elb.amazonaws.com,107.22.255.247,107.20.252.110	300.000000,60.000000,60.000000	F
+1326615231.652195	CFVhGO3SVN40x1EHr7	192.168.39.10	1029	4.2.2.3	53	udp	48008	files.uniblue.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	download.uniblue.com.s3.amazonaws.com,s3-directional-w.amazonaws.com,s3-directional-w.geo.amazonaws.com,s3-1-w.amazonaws.com,207.171.163.226	3600.000000,60.000000,4630.000000,4975.000000,60.000000	F
+#close	2014-04-03-11-09-29

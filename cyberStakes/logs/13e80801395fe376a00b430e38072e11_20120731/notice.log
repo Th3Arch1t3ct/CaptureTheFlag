@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-13-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1343734244.721636	CPiJrM3MJn5grCYExa	192.168.30.10	1045	31.210.72.5	80	FI3HQC41B2ooJoIIC1	application/x-dosexec	http://stopgrey.net/3.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 28%  Last seen: 2012-08-01 12:10:11	https://www.virustotal.com/en/search/?query=e663ab2b3c11a1af9ed785378f9945af6d6a4147	192.168.30.10	31.210.72.5	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1343734244.721636	CecPyU2eIQXyvckNV2	192.168.30.10	1046	31.210.72.5	80	FDoICRE8mbleEJAfe	application/x-dosexec	http://stopgrey.net/2.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 28%  Last seen: 2012-08-01 12:10:11	https://www.virustotal.com/en/search/?query=e663ab2b3c11a1af9ed785378f9945af6d6a4147	192.168.30.10	31.210.72.5	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-13-34

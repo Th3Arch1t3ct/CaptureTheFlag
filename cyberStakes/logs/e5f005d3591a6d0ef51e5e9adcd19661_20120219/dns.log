@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-09-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1329640149.728953	Cuxeix5iQElk7hJJb	192.168.27.10	1029	4.2.2.3	53	udp	56717	puttensmodeshop.nl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.211.72.36	480.000000	F
+1329640150.279356	Cuxeix5iQElk7hJJb	192.168.27.10	1029	4.2.2.3	53	udp	58508	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.45.95	2495.000000,300.000000	F
+1329640151.5359	Cuxeix5iQElk7hJJb	192.168.27.10	1029	4.2.2.3	53	udp	52620	api.twitter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.59.148.87,199.59.149.200,199.59.149.232,199.59.148.20	26.000000,26.000000,26.000000,26.000000	F
+1329640152.969348	Cuxeix5iQElk7hJJb	192.168.27.10	1029	4.2.2.3	53	udp	1166	olevlpmwosi.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	80.73.191.95,188.173.168.68	1.000000,1.000000	F
+1329640174.501231	Ce91Cj1Zx3jB2HQ0Zk	192.168.27.10	1029	4.2.2.3	53	udp	16521	olevlpmwosi.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.92.244.126,186.182.104.248	1.000000,1.000000	F
+1329640196.359956	CJQb8B2BHzs4GmB442	192.168.27.10	1029	4.2.2.3	53	udp	9865	retasterdabop.eu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	77.95.231.87	3600.000000	F
+#close	2014-04-03-10-09-36

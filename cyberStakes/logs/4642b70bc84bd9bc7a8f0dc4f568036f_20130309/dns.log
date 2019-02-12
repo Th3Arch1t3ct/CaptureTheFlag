@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-05-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1362854723.159527	C4rzjl1MQ5uGiBJb5a	192.168.56.10	1028	4.2.2.3	53	udp	46225	hotnakedman.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.214.241.46	30.000000	F
+1362854723.527935	C4rzjl1MQ5uGiBJb5a	192.168.56.10	1028	4.2.2.3	53	udp	49042	tech.net.microsoft.windows.update.system.release.kf.2unlivansitus.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.135.204.181	30.000000	F
+#close	2014-04-03-10-05-59

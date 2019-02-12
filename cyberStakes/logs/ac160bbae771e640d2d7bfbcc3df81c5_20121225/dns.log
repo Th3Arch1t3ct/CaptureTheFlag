@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-56-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1356466166.96517	CouX5i9GP9QhQeHVj	192.168.3.10	1030	4.2.2.3	53	udp	23437	claudiathotelc.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.170.52.21,93.170.52.31	281.000000,281.000000	F
+1356466167.262357	CouX5i9GP9QhQeHVj	192.168.3.10	1030	4.2.2.3	53	udp	8591	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.228.1,74.125.228.4,74.125.228.7,74.125.228.2,74.125.228.3,74.125.228.14,74.125.228.9,74.125.228.8,74.125.228.0,74.125.228.6,74.125.228.5	77686.000000,7.000000,7.000000,7.000000,7.000000,7.000000,7.000000,7.000000,7.000000,7.000000,7.000000,7.000000	F
+1356466167.290037	CouX5i9GP9QhQeHVj	192.168.3.10	1030	4.2.2.3	53	udp	16527	ifacebook.com.ua	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fw.ukrnames.com,195.64.155.34	10.000000,1.000000	F
+1356466168.217201	CouX5i9GP9QhQeHVj	192.168.3.10	1030	4.2.2.3	53	udp	13193	facebookimg.makewap.kz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	makewap.kz,195.3.143.42	21600.000000,21600.000000	F
+1356466168.931717	CouX5i9GP9QhQeHVj	192.168.3.10	1030	4.2.2.3	53	udp	47496	facebookimg.makewap.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	makewap.ru,195.3.143.42	21600.000000,21600.000000	F
+1356466169.840906	CouX5i9GP9QhQeHVj	192.168.3.10	1030	4.2.2.3	53	udp	26251	fbstatic-a.akamaihd.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fbstatic-a.akamaihd.net.edgesuite.net,a1168.dsw4.akamai.net,65.112.54.57,65.112.54.51	85.000000,204.000000,20.000000,20.000000	F
+1356466169.848331	CouX5i9GP9QhQeHVj	192.168.3.10	1030	4.2.2.3	53	udp	19589	makewap.kz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.3.143.42	21599.000000	F
+1356466169.850657	CouX5i9GP9QhQeHVj	192.168.3.10	1030	4.2.2.3	53	udp	11399	wapstatistic.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.243.66.77	3600.000000	F
+1356466169.845957	CI9RyC9d91L6KdF0h	192.168.3.10	1041	4.2.2.3	53	udp	28043	c.waplog.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.218.209.2	1800.000000	F
+#close	2014-04-03-10-56-20

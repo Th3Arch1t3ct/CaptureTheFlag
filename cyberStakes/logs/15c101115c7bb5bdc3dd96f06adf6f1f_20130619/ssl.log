@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-46-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1371666629.909722	CHtFMB1KN7YweguDhe	192.168.93.10	1052	173.194.37.72	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1370477383.000000	1383281999.000000	-	-	-	41046bb636c1c368bb96d0fc7e11581b	ok
+1371666630.121033	CbxCBRDgOfsXCbuNf	192.168.93.10	1058	173.194.37.72	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	c2a4dc120e754411bf81f256354e3cb690d6282dd4ac9d0654fafd9590acb797	-	-	-	-	-	-	-	-	-
+1371666630.91479	Cq4RgR18KeWWoSKUz7	192.168.93.10	1071	184.86.63.139	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=connect.facebook.net,OU=connect.facebook.net,O=Facebook,L=Palo Alto,ST=CALIFORNIA,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1364843571.000000	1396379571.000000	-	-	-	2942cdfaaaabb681d2cdf960b3fcaaaa	ok
+1371666635.726366	CtMgyL2wO1dXvSlmFe	192.168.93.10	1074	184.86.50.110	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=s-static.ak.facebook.com,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,ST=California,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1363150837.000000	1394686837.000000	-	-	-	8072f767b362050ff6b5555555555554	ok
+#close	2014-04-03-10-46-37

@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-12-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1350581277.284003	CC8n6s4bYyFTAtkEpk	192.168.98.10	1032	94.102.49.205	80	FQLGUu17WusBnCp9L7	application/x-dosexec	http://sadasfr234eqwrr.sytes.net/aims/missing_without_data-identical.php?ozebb=02360a0837&mgxm=3302380a350706350937&hogjyey=04&kpuant=akwpy&gxgkg=jsrfdahs	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2012-12-11 03:53:38	https://www.virustotal.com/en/search/?query=511561ed707aa7c716deeb8990550ce4d8ede681	192.168.98.10	94.102.49.205	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1350581286.821325	CC8n6s4bYyFTAtkEpk	192.168.98.10	1032	94.102.49.205	80	FUXZKK3z5ncoKxlCse	application/x-dosexec	http://sadasfr234eqwrr.sytes.net/aims/missing_without_data-identical.php?rzlxgw=02360a0837&kyh=3302380a350706350937&kki=03&sdmmxvpt=gmplbzy&nwptuw=pjqto	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2012-12-11 03:53:38	https://www.virustotal.com/en/search/?query=511561ed707aa7c716deeb8990550ce4d8ede681	192.168.98.10	94.102.49.205	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1350581288.786117	CkCdut4LTkwWPQOv8k	192.168.98.10	1042	94.102.49.205	80	FWQT3B4et0KdAubZS6	application/x-dosexec	http://sadasfr234eqwrr.sytes.net/aims/missing_without_data-identical.php?gf=02360a0837&se=3302380a350706350937&s=02&mx=w&as=k	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2012-12-11 03:53:38	https://www.virustotal.com/en/search/?query=511561ed707aa7c716deeb8990550ce4d8ede681	192.168.98.10	94.102.49.205	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-12-30

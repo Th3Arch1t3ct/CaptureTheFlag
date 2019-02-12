@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-53-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1323110901.782881	CsAFJP20OQaTKw8qFb	192.168.83.10	1042	109.236.82.79	80	F8dtLs2npqGXzDCiJd	application/jar	http://avtobol1.info/?047a265bf36e837e082d24b218de3753	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2011-12-17 16:31:05	https://www.virustotal.com/en/search/?query=6316cf6dcdef2df9b26c1881777e16172f984ef8	192.168.83.10	109.236.82.79	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1323110901.782881	CfD9nfHpPUFGy0Htj	192.168.83.10	1043	109.236.82.79	80	FbRlky2WGIT8Enafd	application/jar	http://avtobol1.info/?047a265bf36e837e082d24b218de3753	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2011-12-17 16:31:05	https://www.virustotal.com/en/search/?query=6316cf6dcdef2df9b26c1881777e16172f984ef8	192.168.83.10	109.236.82.79	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1323110901.782881	CHxHIU1FuEWJSjuq6a	192.168.83.10	1044	109.236.82.79	80	FiO6Up2U51LSWXpne5	application/jar	http://avtobol1.info/?047a265bf36e837e082d24b218de3753	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2011-12-17 16:31:05	https://www.virustotal.com/en/search/?query=6316cf6dcdef2df9b26c1881777e16172f984ef8	192.168.83.10	109.236.82.79	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-53-37

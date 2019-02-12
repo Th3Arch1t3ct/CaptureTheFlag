@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-07-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1329429820.530119	CIyiCu2Tjj0PUvKOvg	192.168.72.10	1029	4.2.2.3	53	udp	52623	dashteksolution.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	72.5.54.36	3580.000000	F
+1329429820.951874	CIyiCu2Tjj0PUvKOvg	192.168.72.10	1029	4.2.2.3	53	udp	26509	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.45.95	425.000000,260.000000	F
+1329429822.237805	CIyiCu2Tjj0PUvKOvg	192.168.72.10	1029	4.2.2.3	53	udp	54413	api.twitter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.59.148.20,199.59.148.87,199.59.149.232,199.59.150.9	16.000000,16.000000,16.000000,16.000000	F
+1329429823.634051	CIyiCu2Tjj0PUvKOvg	192.168.72.10	1029	4.2.2.3	53	udp	43917	epcoejsedr.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.151.130.162,93.146.119.225	1.000000,1.000000	F
+1329429855.071383	CdcKSI2DR9Qlhw1Qne	192.168.72.10	1029	4.2.2.3	53	udp	17802	epcoejsedr.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.86.57.115,82.176.165.187	1.000000,1.000000	F
+1329429866.87558	CqBMqo4aSRfXfvmYdc	192.168.72.10	1029	4.2.2.3	53	udp	45195	gretabraters.eu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	77.95.231.87	3600.000000	F
+1329429876.483628	CqBMqo4aSRfXfvmYdc	192.168.72.10	1029	4.2.2.3	53	udp	1928	epcoejsedr.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	99.160.221.55,83.221.77.19	1.000000,1.000000	F
+#close	2014-04-03-10-07-13

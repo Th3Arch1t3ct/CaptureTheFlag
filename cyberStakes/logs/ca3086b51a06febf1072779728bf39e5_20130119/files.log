@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-02-18
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1358570440.873665	FysLEu3dhq4yRj7tsa	93.170.52.31	192.168.3.10	CVLNFf3mEDcmF5IVEf	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	1114	-	0	0	F	-	bc6f74f88c53590292c0f64bd381a3ce	ed7062a91cf07a0353e765545fd0cb4e8f239e94	-	-
+1358570441.199319	FbY3fv1Mh3LdTX8O92	74.125.139.102	192.168.3.10	CRnLFG2KJ29bKJC8md	HTTP	0	SHA1,MD5	text/plain	-	0.004090	-	F	37362	-	0	0	F	-	f5592eabae33f8499d067344f1f42183	142a9875c4bd7e15ce6ac8b5bb181fb29ed08ba5	-	-
+1358570441.292822	FllZZ84yhd6UwQreUk	74.125.139.102	192.168.3.10	CRnLFG2KJ29bKJC8md	HTTP	0	SHA1,MD5	image/gif	-	0.000000	-	F	35	35	0	0	F	-	28d6814f309ea289f847c69cf91194c6	0f4e929dd5bb2564f7ab9c76338e04e292a42ace	-	-
+1358570441.314363	FTTqd23d4Cai28dwtj	72.8.167.249	192.168.3.10	CIib7v3Cng5j798AK8	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	586	586	0	0	F	-	34238fbbb32691161540a4c1dce11ccc	0d1c84794f7317c220ab50d06774017a2c44caec	-	-
+1358570441.62988	FIbTKB1T6lALKyjOW2	72.8.167.249	192.168.3.10	CPGV5c1odOCxAMpSb6	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	588	588	0	0	F	-	459889ae387adab4ce667666d52a425f	96baf06ca3c860788763e0189745827d9b0ac63d	-	-
+1358570441.735059	FyLWRX1b0Qw5kpcDj8	208.131.138.218	192.168.3.10	CEAppZ10uHqeIPqfhf	HTTP	0	SHA1,MD5	text/html	-	0.000013	-	F	3239	3239	0	0	F	-	9d7bfaa15fde84c92293297f6887feeb	be62ec9f5915900c5c21abb4b518a9eb01a0cd4c	-	-
+1358570441.753383	Ft6uzX10mIbRRgw6E2	72.246.45.48	192.168.3.10	CTn1Gn3sZYayswjgs8	HTTP	0	SHA1,MD5	image/png	-	0.000000	-	F	2349	2349	0	0	F	-	ce404e2f475dbf547ee8195dac0eff0a	3eb3390ad49e78b3e872aaf154256496e132e9f3	-	-
+1358570441.847583	FMaW502XnGzhbjnHY9	208.131.138.217	192.168.3.10	CoXgzJ2q4NiEaT7xod	HTTP	0	SHA1,MD5	application/x-dosexec	YouLolJPG.exe	0.066842	-	F	36500	147456	0	0	F	-	190c20d4146c52b9c40396723d868256	24c82be36b2be6fcf691830c1177b7f01c87b8bf	-	-
+#close	2014-04-03-10-02-18

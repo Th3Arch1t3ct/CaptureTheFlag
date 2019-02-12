@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-19-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1374654015.305441	CFqpjz1IwlweS2Uba1	192.168.66.10	1035	4.2.2.3	53	udp	45971	adobe.flash-player-12.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.174.253.81	3571.000000	F
+1374654015.667446	CFqpjz1IwlweS2Uba1	192.168.66.10	1035	4.2.2.3	53	udp	33168	static.wix.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.wix.com.akadns.net,www.wix.com.edgesuite.net,a1778.g.akamai.net,165.254.157.154,165.254.157.195	600.000000,300.000000,18401.000000,20.000000,20.000000	F
+1374654016.120202	CFqpjz1IwlweS2Uba1	192.168.66.10	1035	4.2.2.3	53	udp	45201	static.parastorage.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.wix.com.edgesuite.net,a1778.g.akamai.net,165.254.157.154,165.254.157.195	1800.000000,18400.000000,19.000000,19.000000	F
+1374654016.239102	CFqpjz1IwlweS2Uba1	192.168.66.10	1035	4.2.2.3	53	udp	8599	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.224.161,74.125.224.164,74.125.224.174,74.125.224.167,74.125.224.168,74.125.224.163,74.125.224.165,74.125.224.166,74.125.224.169,74.125.224.160,74.125.224.162	29006.000000,64.000000,64.000000,64.000000,64.000000,64.000000,64.000000,64.000000,64.000000,64.000000,64.000000,64.000000	F
+1374654016.310377	CFqpjz1IwlweS2Uba1	192.168.66.10	1035	4.2.2.3	53	udp	37780	www.wix.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wwworigin.wix.com,wwworigin.wix.com.akadns.net,www.aus.wix.com,216.139.213.108	405.000000,405.000000,106.000000,7286.000000	F
+#close	2014-04-03-10-19-05

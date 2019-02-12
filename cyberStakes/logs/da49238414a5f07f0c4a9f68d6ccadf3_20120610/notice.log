@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-35-41
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1339286953.72405	ChVO7vs9BajZwlUB9	192.168.99.10	1042	31.171.133.163	80	F78SXV2ckXKeA6fYK4	application/x-dosexec	http://destinationscapabilities.co.in/w.php?f=97d19&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2012-06-12 06:04:09	https://www.virustotal.com/en/search/?query=e89c53cc967ad7f7f8238d5215fe919244a51d11	192.168.99.10	31.171.133.163	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1339286954.095063	CHtzFy4SdVj1Ogzx3c	192.168.99.10	1045	31.171.133.163	80	FJow8N2wNqpAV77ORd	application/x-shockwave-flash	http://destinationscapabilities.co.in/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 75%  Last seen: 2012-09-14 14:05:04	https://www.virustotal.com/en/search/?query=27474f210893b69a5204dcafb6d9fc12b743dc1f	192.168.99.10	31.171.133.163	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1339286957.493355	ChVO7vs9BajZwlUB9	192.168.99.10	1042	31.171.133.163	80	FSjBGy43oyIiHBjNz4	application/pdf	http://destinationscapabilities.co.in/data/ap2.php	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-06-10 12:28:43	https://www.virustotal.com/en/search/?query=1a953f52aa8a216743dea2e44aa7138223e06397	192.168.99.10	31.171.133.163	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1339286967.868653	CHtzFy4SdVj1Ogzx3c	192.168.99.10	1045	31.171.133.163	80	F93bF53W7mHZlklDmk	application/x-shockwave-flash	http://destinationscapabilities.co.in/data/score.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 50%  Last seen: 2012-09-14 14:05:04	https://www.virustotal.com/en/search/?query=6c81c4f1d16468b4169256972e30622e6956f7cc	192.168.99.10	31.171.133.163	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-35-42

@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-42-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1326914037.574337	CQhEJx4y1rTJy5qZ6f	192.168.67.10	1029	4.2.2.3	53	udp	28561	detallito.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.170.160.155	43182.000000	F
+1326914037.872667	CQhEJx4y1rTJy5qZ6f	192.168.67.10	1029	4.2.2.3	53	udp	1939	wojtek.xon.pl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.40.74.125	14400.000000	F
+1326914039.469918	CRcCWyja6LZggYkUi	192.168.67.10	1029	4.2.2.5	53	udp	12947	intenduegcm.aelita.fr	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.217.153.188	60.000000	F
+1326914039.68739	CRcCWyja6LZggYkUi	192.168.67.10	1029	4.2.2.5	53	udp	18322	justgaytube.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.229.70.37	14400.000000	F
+1326914044.511789	CRcCWyja6LZggYkUi	192.168.67.10	1029	4.2.2.5	53	udp	10389	analytics.hosting24.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.170.160.65	11617.000000	F
+1326914038.484375	CQhEJx4y1rTJy5qZ6f	192.168.67.10	1029	4.2.2.3	53	udp	12947	intenduegcm.aelita.fr	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1326914040.432053	CQhEJx4y1rTJy5qZ6f	192.168.67.10	1029	4.2.2.3	53	udp	56210	xn--schyek-6db.ustka.pl	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1326914040.033884	CRcCWyja6LZggYkUi	192.168.67.10	1029	4.2.2.5	53	udp	56210	xn--schyek-6db.ustka.pl	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1326914040.033884	CRcCWyja6LZggYkUi	192.168.67.10	1029	4.2.2.5	53	udp	56210	xn--schyek-6db.ustka.pl	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+#close	2014-04-03-10-42-48

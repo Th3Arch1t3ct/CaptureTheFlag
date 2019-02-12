@@ -1,0 +1,32 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-06-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1334195372.603211	Cx2aQo4XRTX4OyBpJj	192.168.118.10	1030	174.120.5.190	80	1	GET	smdchr.com.sg	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4096	200	OK	-	-	-	(empty)	-	-	-	-	-	F86igK6wlKNGXOTc	text/html
+1334195372.71351	Cx2aQo4XRTX4OyBpJj	192.168.118.10	1030	174.120.5.190	80	2	GET	smdchr.com.sg	/css/reset.css	http://smdchr.com.sg/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1015	200	OK	-	-	-	(empty)	-	-	-	-	-	FEv4bw15sxSKyztxA3	text/plain
+1334195372.808741	C1hlhq4Nvh0PCe2ZB4	192.168.118.10	1031	174.120.5.190	80	1	GET	smdchr.com.sg	/css/main.css	http://smdchr.com.sg/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2910	200	OK	-	-	-	(empty)	-	-	-	-	-	FCs2S134TXOY68aeAj	text/plain
+1334195374.984768	C1hlhq4Nvh0PCe2ZB4	192.168.118.10	1031	174.120.5.190	80	2	GET	smdchr.com.sg	/images/bg.gif	http://smdchr.com.sg/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3017	200	OK	-	-	-	(empty)	-	-	-	-	-	FoLjwN1AAh4u2Vklll	image/gif
+1334195374.984497	Cx2aQo4XRTX4OyBpJj	192.168.118.10	1030	174.120.5.190	80	3	GET	smdchr.com.sg	/images/banner10.jpg	http://smdchr.com.sg/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	97740	200	OK	-	-	-	(empty)	-	-	-	-	-	FqygbF33lCD5yMK0h6	image/jpeg
+1334195375.102411	C1hlhq4Nvh0PCe2ZB4	192.168.118.10	1031	174.120.5.190	80	3	GET	smdchr.com.sg	/images/services.jpg	http://smdchr.com.sg/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	188833	200	OK	-	-	-	(empty)	-	-	-	-	-	FNoiTShCXBKeKzHna	image/jpeg
+1334195375.216914	CC9rpI1wwDqK5T4O1j	192.168.118.10	1036	14.33.184.69	80	1	GET	exmotof.ru	/count7.php	http://smdchr.com.sg/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	(empty)	-	-	-	(empty)	-	-	-	-	-	-	-
+1334195380.594755	CPm2eH32MddpZ08qb1	192.168.118.10	1037	89.208.48.70	80	1	GET	x2.tetuku.com	/images.php?t=28560006	http://smdchr.com.sg/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	302	200	OK	-	-	-	(empty)	-	-	-	-	-	Fh4P3Y1bhnjxPoU0O4	text/html
+1334195382.616523	Cazx0tGdjsOLTfITd	192.168.118.10	1038	89.208.48.70	80	1	GET	ro.tetuku.com	/images.php?t=83475	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6383	200	OK	-	-	-	(empty)	-	-	-	-	-	Fzey6t1oUUdTKi8nN1	application/jar
+1334195383.087439	Cazx0tGdjsOLTfITd	192.168.118.10	1038	89.208.48.70	80	2	GET	ro.tetuku.com	/images.php?t=83475	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6383	200	OK	-	-	-	(empty)	-	-	-	-	-	FLiuHL2qt2N5e70Fbb	application/jar
+1334195383.614719	Cazx0tGdjsOLTfITd	192.168.118.10	1038	89.208.48.70	80	3	GET	ro.tetuku.com	/images.php?t=83475	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6383	200	OK	-	-	-	(empty)	-	-	-	-	-	Fvazt04YAnr7SV603f	application/jar
+1334195388.805022	Cazx0tGdjsOLTfITd	192.168.118.10	1038	89.208.48.70	80	4	GET	ro.tetuku.com	/images.php?t=83475	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	6383	200	OK	-	-	-	(empty)	-	-	-	-	-	FGCDZg2cEdxZ9bzg2a	application/jar
+1334195389.275231	Cazx0tGdjsOLTfITd	192.168.118.10	1038	89.208.48.70	80	5	GET	ro.tetuku.com	/images.php?t=1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	28704	200	OK	-	-	-	(empty)	-	-	-	-	-	Fitr9zlgXGU4amOvc	application/x-dosexec
+1334195394.843568	CJ71fk3gxuXmOu1rK9	192.168.118.10	1039	89.208.48.70	80	1	GET	x2.tetuku.com	/images.php?t=422814	-	User-Agent: Opera/10.60 Presto/2.2.30	0	57344	200	OK	-	-	-	(empty)	-	-	-	-	-	F00BH84pUfqCg8AvM9	binary
+1334195396.333098	CJ71fk3gxuXmOu1rK9	192.168.118.10	1039	89.208.48.70	80	2	GET	x2.tetuku.com	/images.php?t=422814	-	User-Agent: Opera/10.60 Presto/2.2.30	0	194560	200	OK	-	-	-	(empty)	-	-	-	-	-	FwnZ9RF0ZjAo9rMUd	binary
+1334195397.547972	CJ71fk3gxuXmOu1rK9	192.168.118.10	1039	89.208.48.70	80	3	GET	x2.tetuku.com	/images.php?t=422814	-	User-Agent: Opera/10.60 Presto/2.2.30	0	454656	200	OK	-	-	-	(empty)	-	-	-	-	-	FnKixi3FH0mCxHkfR1	binary
+1334195399.478026	CJ71fk3gxuXmOu1rK9	192.168.118.10	1039	89.208.48.70	80	4	GET	x2.tetuku.com	/images.php?t=422814	-	User-Agent: Opera/10.60 Presto/2.2.30	0	116736	200	OK	-	-	-	(empty)	-	-	-	-	-	F4Oll527OFS4ovsVO6	binary
+1334195400.015741	CJ71fk3gxuXmOu1rK9	192.168.118.10	1039	89.208.48.70	80	5	GET	x2.tetuku.com	/images.php?t=422814	-	User-Agent: Opera/10.60 Presto/2.2.30	0	900096	200	OK	-	-	-	(empty)	-	-	-	-	-	FeP1V2Wviavq20A4k	binary
+1334195403.588245	CJ71fk3gxuXmOu1rK9	192.168.118.10	1039	89.208.48.70	80	6	GET	x2.tetuku.com	/images.php?t=422814	-	User-Agent: Opera/10.60 Presto/2.2.30	0	666	200	OK	-	-	-	(empty)	-	-	-	-	-	FLoG9s1Nejrr43pA62	binary
+1334195412.647547	C0JyBrGZp1fMRhyVi	192.168.118.10	1042	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	28	200	OK	-	-	-	(empty)	-	-	-	-	-	F9S6K02JhJO2WRrmr8	text/plain
+1334195413.653868	Cs69lc4iWYAycM2IR2	192.168.118.10	1056	122.224.18.199	80	1	GET	122.224.18.199	/api/urls/?&affid=10500	122.224.18.199	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	45	200	OK	-	-	-	(empty)	-	-	-	-	-	FlfSzh1yHigSkmHVE7	text/plain
+1334195415.260211	CbNxe53aVUEroBKji9	192.168.118.10	1066	178.162.132.116	80	1	GET	178.162.132.116	/api/stats/install/?&affid=10500&ver=3040003&group=sf	178.162.132.116	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1334195404.23874	C4LBDP1yrgUQIWoYKd	192.168.118.10	1040	68.36.184.125	80	1	GET	seenruz.eu	/newm001.exe	-	-	0	834048	200	Ok	-	-	-	(empty)	-	-	-	-	-	FTgsoiFtPvqQmojSc	application/x-dosexec
+#close	2014-04-03-11-06-59

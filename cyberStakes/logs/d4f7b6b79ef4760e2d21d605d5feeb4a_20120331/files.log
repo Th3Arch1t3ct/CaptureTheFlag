@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-05-08
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1333179530.594374	FBzw6i1A1BH0lr1j8f	74.54.242.221	192.168.118.10	CB7EJZ3IHWd9AMXaqb	HTTP	0	MD5,SHA1	text/html	-	0.079467	-	F	15393	15393	0	0	F	-	f26db8a161f1aba282e5f76eacbc51a0	d28687f560fe2a56f27e8d2b7bcaf9b1f63178ee	-	-
+1333179530.708621	Fip3Dh2r77aVIbTtNg	74.54.242.221	192.168.118.10	CB7EJZ3IHWd9AMXaqb	HTTP	0	MD5,SHA1	text/plain	-	0.000013	-	F	3895	3895	0	0	F	-	c76fefcec6bf026454cdf902e60e767d	9c365f1f76e65dce78806878b0fd9346da457c15	-	-
+1333179530.692286	FfTXzw1pUHhtBiYQli	74.54.242.221	192.168.118.10	CiXKiy4SHvsj7wYKUb	HTTP	0	MD5,SHA1	text/plain	-	0.020124	-	F	5974	5974	0	0	F	-	7b279c93439edb9817d060c9e98c3d26	3d57e1d760e7425253bea519bc0f85f489de5a2a	-	-
+1333179530.863738	FiiiLg3t0hZztPHI86	74.54.242.221	192.168.118.10	CB7EJZ3IHWd9AMXaqb	HTTP	0	MD5,SHA1	application/x-shockwave-flash	-	0.052807	-	F	49522	49522	0	0	F	-	cb45d4027ae9683831a11c3a83d41146	3578c7cf95373c67b2b22f5ce8d4040b29d0d26b	-	-
+1333179533.759649	Ffwo4s26AGXEkWjQRi	74.54.242.221	192.168.118.10	CiXKiy4SHvsj7wYKUb	HTTP	0	MD5,SHA1	application/x-dosexec	-	0.083846	-	F	72192	72192	0	0	F	-	bc9fe9457030d81eb55322c89d65c3ff	ab570c602fcd6149976f52ebc35e69324ea9512c	-	-
+1333179534.142524	F5gdgo2vqzup7IM2K6	64.72.65.214	192.168.118.10	CdR7zb1uj3nNDk6Ugb	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	1759	1759	0	0	F	-	56a02eaa02e69cee3672dcd32f29ee84	22df34a75367b72136ae5281f7adbbcf58aa9e72	-	-
+1333179536.240542	FnZI7x2bcd1j5fuI8	208.109.53.70	192.168.118.10	C1xgpF4qIVO2jj9c4c	HTTP	0	MD5,SHA1	text/html	-	0.234064	-	F	40518	40518	0	0	F	-	f2223bb91e4388a299bdf368c1868fec	1d8559d5f7dec0c9f71c6489fa2853fc6ccca99f	-	-
+#close	2014-04-03-10-05-08

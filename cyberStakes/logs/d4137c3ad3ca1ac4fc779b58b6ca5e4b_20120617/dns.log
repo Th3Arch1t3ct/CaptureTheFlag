@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-00-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1339941748.806398	COc8yl3bVS72pk6E6c	192.168.91.10	1029	4.2.2.3	53	udp	34450	bagsofluv4kids.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.7.221.122	14372.000000	F
+1339941749.554908	COc8yl3bVS72pk6E6c	192.168.91.10	1029	4.2.2.3	53	udp	50578	charityairsupport.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.124.199.1	1800.000000	F
+1339941749.578787	COc8yl3bVS72pk6E6c	192.168.91.10	1029	4.2.2.3	53	udp	13458	trd.modulvec.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.239.62.11	3600.000000	F
+1339941750.298791	COc8yl3bVS72pk6E6c	192.168.91.10	1029	4.2.2.3	53	udp	27793	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,96.17.109.114,96.17.109.88	15516.000000,75.000000,16960.000000,7.000000,7.000000	F
+1339941755.084477	COc8yl3bVS72pk6E6c	192.168.91.10	1029	4.2.2.3	53	udp	11664	wwww.acebpsk9.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.190.126.75	3600.000000	F
+1339941757.451863	COc8yl3bVS72pk6E6c	192.168.91.10	1029	4.2.2.3	53	udp	45975	tisdale.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	72.249.47.165	9589.000000	F
+1339941761.032723	CXmQk73JlZwZb3XMuc	192.168.91.10	1042	8.8.8.8	53	udp	13107	promos.fling.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.91.207.10	265.000000	F
+1339941761.954221	C1EZIA3Fj92NG2sby9	192.168.91.10	1045	66.85.130.234	53	udp	54833	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1339941761.962256	CAEXYx1mk5c0ja4ij6	192.168.91.10	1047	66.85.130.234	53	udp	54833	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1339941761.982906	CBQRL52EYgTAXQ5Wif	192.168.91.10	1049	66.85.130.234	53	udp	54833	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1339941762.024643	CLkPaw2TVmSp6eVBKc	192.168.91.10	1051	66.85.130.234	53	udp	54833	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1339941762.02964	CW6H2d3T6QTm4bfbGb	192.168.91.10	1053	66.85.130.234	53	udp	54833	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1339941763.483738	Cfo27i34pvvNLZ6v0f	192.168.91.10	1057	66.85.130.234	53	udp	54833	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+#close	2014-04-03-10-00-29

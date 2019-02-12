@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-56-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1327439684.918498	C77Ek82upSqIFGugGj	192.168.94.10	1039	95.57.120.104	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	emailAddress=root@ip104.gohost.kz,CN=ip104.gohost.kz,OU=SomeOrganizationalUnit,O=SomeOrganization,L=SomeCity,ST=SomeState,C=--	emailAddress=root@ip104.gohost.kz,CN=ip104.gohost.kz,OU=SomeOrganizationalUnit,O=SomeOrganization,L=SomeCity,ST=SomeState,C=--	1173330229.000000	1204866229.000000	-	-	-	483672e5ac2a2c3f1681262e7c2a42a9	self signed certificate
+1327439725.026329	CV2iHX3irA2HJM33l6	192.168.94.10	1044	95.57.120.104	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	86b783e7e014bec66b7f5de3ad929c6b64523c6e91f13e9d18853f9325d95c04	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-56-35

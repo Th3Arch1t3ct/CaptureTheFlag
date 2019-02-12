@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-28-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1340731656.094319	CrMg6A3LVMDjz8jgza	192.168.36.10	1029	4.2.2.3	53	udp	64654	1web1design.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.53.228.194	14374.000000	F
+1340731656.392209	CrMg6A3LVMDjz8jgza	192.168.36.10	1029	4.2.2.3	53	udp	22671	www.javahd.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	hostmysite.javahd.com,65.36.202.127	3600.000000,3510.000000	F
+1340731656.515613	CrMg6A3LVMDjz8jgza	192.168.36.10	1029	4.2.2.3	53	udp	46733	code.javahd.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	hostmysite.javahd.com,65.36.202.127	3510.000000,3510.000000	F
+1340731657.160146	CrMg6A3LVMDjz8jgza	192.168.36.10	1029	4.2.2.3	53	udp	44429	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,81.52.130.137,81.52.130.138	27547.000000,218.000000,13018.000000,4.000000,4.000000	F
+1340731662.608769	CrMg6A3LVMDjz8jgza	192.168.36.10	1029	4.2.2.3	53	udp	45962	vspcust.s3-website-us-east-1.amazonaws.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	s3-website-us-east-1.amazonaws.com,72.21.211.137	60.000000,60.000000	F
+#close	2014-04-03-10-28-44

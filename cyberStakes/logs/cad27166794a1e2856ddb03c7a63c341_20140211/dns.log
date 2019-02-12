@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-20-40
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1392162166.136053	CwrfzL1S8sAwRy49Lg	192.168.87.10	1032	4.2.2.3	53	udp	4292	chiropractorinelpasotx.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	97.79.237.44	300.000000	F
+1392162167.92125	CwrfzL1S8sAwRy49Lg	192.168.87.10	1032	4.2.2.3	53	udp	21957	massageacupuncturedubai.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.185.108.1	14400.000000	F
+1392162168.465008	CwrfzL1S8sAwRy49Lg	192.168.87.10	1032	4.2.2.3	53	udp	53958	faq-seo.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.236.87.219	3600.000000	F
+1392162169.337898	CwrfzL1S8sAwRy49Lg	192.168.87.10	1032	4.2.2.3	53	udp	61895	wpx.s3.amazonaws.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	s3-1-w.amazonaws.com,176.32.100.201	2400.000000,36.000000	F
+1392162169.832073	CwrfzL1S8sAwRy49Lg	192.168.87.10	1032	4.2.2.3	53	udp	6849	huatongchuye.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	128.134.244.74	600.000000	F
+1392162170.499228	CwrfzL1S8sAwRy49Lg	192.168.87.10	1032	4.2.2.3	53	udp	46018	3544.79.e00eddb.0dd9daf.74.b09588.62.4a.sqypclqzhu.boxsforgotten.pw	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.55.157.198	30.000000	F
+1392162215.51511	Cfp3KgTWcDPGYM0Re	192.168.87.10	1032	4.2.2.3	53	udp	52675	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.125.239.113,74.125.239.112,74.125.239.115,74.125.239.116,74.125.239.114	207.000000,207.000000,207.000000,207.000000,207.000000	F
+1392162215.747948	Cfp3KgTWcDPGYM0Re	192.168.87.10	1032	4.2.2.3	53	udp	60355	aaukqiooaseseuke.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.18.26.111	10.000000	F
+1392162215.775973	Cfp3KgTWcDPGYM0Re	192.168.87.10	1032	4.2.2.3	53	udp	10444	111.26.18.178.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1392162215.775973	Cfp3KgTWcDPGYM0Re	192.168.87.10	1032	4.2.2.3	53	udp	10444	111.26.18.178.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-20-41

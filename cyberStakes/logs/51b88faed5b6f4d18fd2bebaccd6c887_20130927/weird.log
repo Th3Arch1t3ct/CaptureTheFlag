@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-25-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1380324084.14983	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1380324088.133972	CYPf4q4sfq0nf7VdEf	192.168.89.10	1051	69.64.52.200	80	above_hole_data_without_any_acks	-	F	bro
+1380324102.436121	CvpHmFgbzunebwKI	192.168.89.10	1036	108.162.196.48	80	unescaped_special_URI_char	-	F	bro
+1380324102.566108	CvpHmFgbzunebwKI	192.168.89.10	1036	108.162.196.48	80	HTTP_chunked_transfer_for_multipart_message	-	F	bro
+1380324102.566108	CvpHmFgbzunebwKI	192.168.89.10	1036	108.162.196.48	80	inflate_failed	-	F	bro
+1380324102.566108	CvpHmFgbzunebwKI	192.168.89.10	1036	108.162.196.48	80	line_terminated_with_single_CR	-	F	bro
+1380324113.663427	CFT9Pj2XYqG4ZCofW4	192.168.89.10	1079	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1380324114.185029	CgBCqa3uzKETpIYAE8	192.168.89.10	1080	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1380324116.27318	C1hjOo46lFP1akZ8Kf	192.168.89.10	1081	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1380324116.36731	CageMErbzv8zyrqyg	192.168.89.10	1082	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1380324116.368444	CAwDMx1Nez4iiCoEF1	192.168.89.10	1083	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1380324116.456278	C3zBlu2QdAER4WSuI6	192.168.89.10	1084	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1380324116.688912	CyPwk04y2RMxfXCKwd	192.168.89.10	1085	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1380324117.456514	CRGNkayGTgjhiOxb3	192.168.89.10	1086	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1380324118.704129	CXuRCf3S26NOmeW6bl	192.168.89.10	1087	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1380324122.112074	CExdwN1pOla6ZzClLe	192.168.89.10	1088	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1380324122.113336	C97z5a1pYI0DJOKDka	192.168.89.10	1089	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+#close	2014-04-03-10-25-39

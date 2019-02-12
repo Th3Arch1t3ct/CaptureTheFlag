@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-11-02-17
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1364960598.39949	CPSsl52PgGOsaKLipi	192.168.76.10	1044	199.187.120.54	443	SSLv3	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=dope.imshz.com,OU=PositiveSSL,OU=Domain Control Validated	CN=PositiveSSL CA 2,O=COMODO CA Limited,L=Salford,ST=Greater Manchester,C=GB	1363237200.000000	1394859599.000000	-	-	-	799d3a0415e537dacddca6a26f2981ce	ok
+#close	2014-04-03-11-02-19

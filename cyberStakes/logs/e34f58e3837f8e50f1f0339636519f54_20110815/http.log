@@ -1,0 +1,29 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-55-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1313380733.030591	Ck1KnV1tgjeGM9bwr4	192.168.67.10	1030	204.93.174.144	80	1	GET	debiodesigns.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	22020	200	OK	-	-	-	(empty)	-	-	-	-	-	Fv5ODa1bZFhuukmJxa	text/html
+1313380733.119113	CDTbUo3ri0RwNbuBbk	192.168.67.10	1031	204.93.174.144	80	1	GET	debiodesigns.com	/index_files/image001.gif	http://debiodesigns.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2155	200	OK	-	-	-	(empty)	-	-	-	-	-	FbkhP237ebtBROY5jj	image/gif
+1313380733.152276	CDTbUo3ri0RwNbuBbk	192.168.67.10	1031	204.93.174.144	80	2	GET	debiodesigns.com	/index_files/image002.gif	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	8285	200	OK	-	-	-	(empty)	-	-	-	-	-	Faq3c32jzqZoj1x8a	image/gif
+1313380733.171865	Ck1KnV1tgjeGM9bwr4	192.168.67.10	1030	204.93.174.144	80	2	GET	debiodesigns.com	/index_files/image003.gif	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3108	200	OK	-	-	-	(empty)	-	-	-	-	-	FvJ1cz4x9HfHhuSGy7	image/gif
+1313380733.368263	Ck1KnV1tgjeGM9bwr4	192.168.67.10	1030	204.93.174.144	80	3	GET	debiodesigns.com	/index_files/image004.png	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2203	200	OK	-	-	-	(empty)	-	-	-	-	-	FHjObW23FN5ay4f88	image/png
+1313380733.455325	Ck1KnV1tgjeGM9bwr4	192.168.67.10	1030	204.93.174.144	80	4	GET	debiodesigns.com	/index_files/image009.wmz	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	24074	200	OK	-	-	-	(empty)	-	-	-	-	-	FoqdPr2bRwvHNPeZL6	application/x-gzip
+1313380733.371703	CDTbUo3ri0RwNbuBbk	192.168.67.10	1031	204.93.174.144	80	3	GET	debiodesigns.com	/index_files/image007.png	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	121608	200	OK	-	-	-	(empty)	-	-	-	-	-	F1qrJo1lrtyh2GJtQ3	image/png
+1313380733.690063	CDTbUo3ri0RwNbuBbk	192.168.67.10	1031	204.93.174.144	80	4	GET	debiodesigns.com	/index_files/image013.png	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4514	200	OK	-	-	-	(empty)	-	-	-	-	-	FLp7KP351AFl35bBM2	image/png
+1313380733.654744	Ck1KnV1tgjeGM9bwr4	192.168.67.10	1030	204.93.174.144	80	5	GET	debiodesigns.com	/index_files/image011.png	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	17999	200	OK	-	-	-	(empty)	-	-	-	-	-	F0Q2Gw2SKGBJbQa6gg	image/png
+1313380734.266515	C3u9iM1xq69mWp6Rf3	192.168.67.10	1034	46.16.240.22	80	1	GET	772861974	/options.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	8885	200	OK	-	-	-	(empty)	-	-	-	-	-	FYhPLs3JZXuTopsdK6	application/x-java-applet
+1313380734.341138	CYlqJd3xrmLS7DsTIl	192.168.67.10	1033	220.112.36.49	80	1	GET	3698336817	/a.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	2245	200	OK	-	-	-	(empty)	-	-	-	-	-	F9il572AI5dKGC0nei	application/x-java-applet
+1313380736.565706	CN8LD74hfCSxDaJVqf	192.168.67.10	1040	220.112.36.49	80	1	GET	3698336817	/crossdomain.xml	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	213	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FN6tyV2lGMZVxzmhQ4	text/html
+1313380776.521127	CIupHE2j8G8G9EJpvh	192.168.67.10	1043	220.112.36.49	80	1	GET	3698336817	/g.gif	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	52224	200	OK	-	-	-	(empty)	-	-	-	-	-	FfXOvg2yq34NcYv1Ol	application/x-dosexec
+1313380779.168666	Cz4oQc1F6uri1EolD1	192.168.67.10	1045	211.154.153.49	80	1	GET	net.com	/3/1.php?q=1	-	Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.10) Gecko/20100914 Firefox/3.6.10	0	372736	200	OK	-	-	-	(empty)	-	-	-	-	-	Fz0qpik5JPl7xoDvd	binary
+1313380783.702158	CTLPKN2fCLiem94n2j	192.168.67.10	1046	211.154.153.49	80	1	GET	net.com	/3/1.php?q=1&ok=1	-	Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.10) Gecko/20100914 Firefox/3.6.10	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1313380785.154284	CT5DMY1Z4LfP2FI7o5	192.168.67.10	1091	211.154.153.49	80	1	GET	net.com	/3/1.php?q=2	-	Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.10) Gecko/20100914 Firefox/3.6.10	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1313380785.624118	CjC0gj3qvxWdOhdyrk	192.168.67.10	1092	211.154.153.49	80	1	GET	net.com	/3/1.php?q=3	-	Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.10) Gecko/20100914 Firefox/3.6.10	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1313380786.087963	Cwe5HP1qwT4OGYrvH4	192.168.67.10	1093	211.154.153.49	80	1	GET	net.com	/3/1.php?q=4	-	Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.10) Gecko/20100914 Firefox/3.6.10	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1313380786.550682	CCiFjs3qrAYxLWoiil	192.168.67.10	1094	211.154.153.49	80	1	GET	net.com	/3/1.php?q=5	-	Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.10) Gecko/20100914 Firefox/3.6.10	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1313380809.297215	C94wGo3ylvXAudLbdk	192.168.67.10	1125	93.115.240.4	80	1	GET	febysaholubaro.com	/1028000212	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)	0	2	200	OK	-	-	-	(empty)	-	-	-	-	-	FEQRSa4THKPmJqBRKf	text/plain
+#close	2014-04-03-10-55-12

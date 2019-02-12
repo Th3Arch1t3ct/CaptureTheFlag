@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-10-38
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1361827229.351364	CB2kQi4W9yESCtDKzi	192.168.62.10	1150	194.44.49.40	80	FQEjOm4sx9PNubZHf2	application/jar	http://upd.pes2022.com.ar/up/addajapa/jurylamp.jar width=	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 17%  Last seen: 2013-03-01 05:24:50	https://www.virustotal.com/en/search/?query=4b8c670e2fd73db6fef6c43808075783efa5e862	192.168.62.10	194.44.49.40	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1361827229.407345	CJOJa82nEHuUZbkPpa	192.168.62.10	1148	194.44.49.40	80	FPlvZaG0AzxPYYRS4	application/jar	http://upd.pes2022.com.ar/up/addajapa/apsefair.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 10%  Last seen: 2013-03-01 06:30:14	https://www.virustotal.com/en/search/?query=74cff4e32423e740356e85c099f5f6f1912df6de	192.168.62.10	194.44.49.40	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-10-38

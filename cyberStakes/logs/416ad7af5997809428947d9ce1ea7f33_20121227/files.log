@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-09-57-01
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1356650844.159551	FjuNPr3fett1AZz6x5	93.170.52.21	192.168.71.10	CKWCXdfoQfC67JhH1	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	1127	-	0	0	F	-	ce89b178aed6f203ed2a0b2175df4907	7a6999eaa4e73a9e1eafe6f949c701ec5355454f	-	-
+1356650844.825955	F3iycR2iACzbXPFnUl	74.125.134.113	192.168.71.10	CUUbqV7wyimMJPsOe	HTTP	0	SHA1,MD5	text/plain	-	0.002515	-	F	37362	-	0	0	F	-	f5592eabae33f8499d067344f1f42183	142a9875c4bd7e15ce6ac8b5bb181fb29ed08ba5	-	-
+1356650844.910887	FlkWig18A3l5oyPUrj	74.125.134.113	192.168.71.10	CUUbqV7wyimMJPsOe	HTTP	0	SHA1,MD5	image/gif	-	0.000000	-	F	35	35	0	0	F	-	28d6814f309ea289f847c69cf91194c6	0f4e929dd5bb2564f7ab9c76338e04e292a42ace	-	-
+1356650845.126318	FIIVfUGvMzgq5NCef	195.64.155.34	192.168.71.10	C0ey3B2KZgMoAFdrI9	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	160	160	0	0	F	-	15681a6e59658d5cd3a40d9c18874b6b	d0dc44975b7abf4c2b092b3dba45c25f102b89f4	-	-
+1356650845.561571	FI9LcP1MHnjyrya3oj	195.3.143.42	192.168.71.10	CxQFmt1giCDXmowFIh	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	161	-	0	0	F	-	82d7993071d80f9d273a9923a12a281f	a23eb4c5b4948136f5bb1e3d992d3ebd2403d77e	-	-
+1356650846.033865	FgDIif2S9ZgmVcCnMc	195.3.143.42	192.168.71.10	CLPJAn43NEpnjEPtce	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	161	-	0	0	F	-	82d7993071d80f9d273a9923a12a281f	a23eb4c5b4948136f5bb1e3d992d3ebd2403d77e	-	-
+1356650846.213273	F38zcc3y4wpkBWHnAi	195.3.143.42	192.168.71.10	CxQFmt1giCDXmowFIh	HTTP	0	SHA1,MD5	text/html	-	0.000019	-	F	3737	-	0	0	F	-	d51d753f38a1bb3e798668f1f7b3685f	5b77961fa8176fbe12aec63ca67b2a2ce93cde3f	-	-
+1356650846.258637	FcdtIO21zNCPesDUq3	72.246.45.18	192.168.71.10	Cn456e4M3ysB4WUUma	HTTP	0	SHA1,MD5	image/png	-	0.000000	-	F	2349	2349	0	0	F	-	ce404e2f475dbf547ee8195dac0eff0a	3eb3390ad49e78b3e872aaf154256496e132e9f3	-	-
+1356650846.324434	FpDIt9t1ehjNLSO7j	208.131.138.217	192.168.71.10	CGmfw51YByGUkTs08h	HTTP	0	SHA1,MD5	application/x-dosexec	MeWhoreJPG.exe	0.018007	-	F	13140	93555	0	0	F	-	51e7eabf90b298e1d068f2f7579177e1	f56220bdd6807f570ad59fd8a8a8559bfd2f0065	-	-
+#close	2014-04-03-09-57-01

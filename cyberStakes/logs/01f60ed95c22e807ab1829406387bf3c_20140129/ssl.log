@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-25-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1391021695.036277	C7ggtI3U1AaiRAkB55	192.168.6.10	1062	74.125.25.191	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.blogger.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1389820321.000000	1400130000.000000	-	-	-	25c81b8215c402e143c68a6cdea54062	ok
+1391021695.036728	C8Y3U31NZz3kKoUCA1	192.168.6.10	1061	74.125.25.191	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.blogger.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1389820321.000000	1400130000.000000	-	-	-	25c81b8215c402e143c68a6cdea54062	ok
+1391021695.450667	CvN5JJ36Aqfb0jSRCj	192.168.6.10	1069	74.125.25.191	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	d765f6f65bd9b22446530fd72ea5675cd01be5fafc5e983c7def4103b1c55fe9	-	-	-	-	-	-	-	-	-
+1391021695.663729	CsRo771jE27zces0Dh	192.168.6.10	1070	74.125.224.99	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1389818060.000000	1400130000.000000	-	-	-	5d923476ac8fe485f17eeeeeeeeee509	ok
+1391021695.855927	C1XaUe4rGAXGXbCkU1	192.168.6.10	1072	74.125.224.99	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	0e1c806faa3b1f1c7709bf8819ac965daa524e6843ecfabe1103925696d86deb	-	-	-	-	-	-	-	-	-
+1391021696.529778	CB6sXg4LNPyuHUtC82	192.168.6.10	1076	74.125.25.191	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.blogger.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1389820321.000000	1400130000.000000	-	-	-	25c81b8215c402e143c68a6cdea54062	ok
+1391021696.553301	CJdRDw38IinGmHmxVj	192.168.6.10	1077	74.125.25.191	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.blogger.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1389820321.000000	1400130000.000000	-	-	-	25c81b8215c402e143c68a6cdea54062	ok
+1391021697.73266	CauV8txKSBVnhoSJg	192.168.6.10	1079	74.125.20.84	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=accounts.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1389821375.000000	1400130000.000000	-	-	-	22032f1597c29abd14ab037591110c01	ok
+1391021698.054629	Cwc2X711rxjLuia7O1	192.168.6.10	1085	74.125.239.12	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1389819678.000000	1400130000.000000	-	-	-	1a1e36f73a8095230d49ac5c8326ed90	ok
+1391021698.086535	C3JRBb4B9wnS9tJ8Jh	192.168.6.10	1087	74.125.239.15	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1389819815.000000	1400130000.000000	-	-	-	3aed9d8cf34f3f94a79a78ae2bef109c	ok
+1391021698.123034	Ce5Oqa1xDn6FHYsUZ1	192.168.6.10	1089	74.125.239.15	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1389819815.000000	1400130000.000000	-	-	-	3aed9d8cf34f3f94a79a78ae2bef109c	ok
+#close	2014-04-03-10-25-13

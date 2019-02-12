@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-36-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1321727138.269212	COFCku2POivgBrNHag	192.168.63.10	1029	4.2.2.3	53	udp	23695	newtechnosite.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	183.81.161.42	14378.000000	F
+1321727139.100773	COFCku2POivgBrNHag	192.168.63.10	1029	4.2.2.3	53	udp	2701	www.newtechnosite.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	183.81.161.42	14381.000000	F
+1321727146.537842	COFCku2POivgBrNHag	192.168.63.10	1029	4.2.2.3	53	udp	40844	cpa.info.ms	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.201.34	3600.000000	F
+1321727146.974443	COFCku2POivgBrNHag	192.168.63.10	1029	4.2.2.3	53	udp	62603	pagead2.googlesyndication.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pagead.l.google.com,74.125.229.124	1349.000000,75.000000	F
+1321727147.015438	COFCku2POivgBrNHag	192.168.63.10	1029	4.2.2.3	53	udp	27017	t28.ru.tf	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.230.111.10	3600.000000	F
+#close	2014-04-03-10-36-32

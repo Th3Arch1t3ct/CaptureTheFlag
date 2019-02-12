@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-45-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1320970905.429534	CZUrnu3XLMwGNyFgQc	192.168.114.10	1059	91.194.214.66	80	FUfiwQ5BYXyDpy1ag	application/x-dosexec	http://91.194.214.66/dng311011/d0601214fbc5516ac7e2a2b558e9d699/d6.php?f=tr	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2011-12-14 10:20:49	https://www.virustotal.com/en/search/?query=bd997e7ed02db052de9519b228f5a63be0da12fe	192.168.114.10	91.194.214.66	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1320970905.429534	CI3Loc2KSbGXpTraB9	192.168.114.10	1060	91.194.214.66	80	FwiU954yfuxvM99Ctk	application/x-dosexec	http://91.194.214.66/dng311011/d0601214fbc5516ac7e2a2b558e9d699/d9.php?f=jb	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2011-12-14 10:20:49	https://www.virustotal.com/en/search/?query=bd997e7ed02db052de9519b228f5a63be0da12fe	192.168.114.10	91.194.214.66	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1320970905.429534	CEwz6g1Op0G0GJMsd5	192.168.114.10	1062	91.194.214.66	80	FVRyFV1gFFOtbVPIwh	application/x-dosexec	http://91.194.214.66/dng311011/d0601214fbc5516ac7e2a2b558e9d699/d6.php?f=tr	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2011-12-14 10:20:49	https://www.virustotal.com/en/search/?query=bd997e7ed02db052de9519b228f5a63be0da12fe	192.168.114.10	91.194.214.66	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1320970905.429534	CdvK8o2TFF6u0Rbbye	192.168.114.10	1061	91.194.214.66	80	FDTSIJ09o3MeYTNG5	application/x-dosexec	http://91.194.214.66/dng311011/d0601214fbc5516ac7e2a2b558e9d699/d6.php?f=tr	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2011-12-14 10:20:49	https://www.virustotal.com/en/search/?query=bd997e7ed02db052de9519b228f5a63be0da12fe	192.168.114.10	91.194.214.66	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-45-59

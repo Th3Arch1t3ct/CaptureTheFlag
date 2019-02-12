@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-47-40
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1353535797.629712	Ft8fka39KnNve1T6G5	46.252.196.1	192.168.109.10	CmWOc5F9w40yLvTQ5	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	3451	-	0	0	F	-	bb0fffd8849d68fc80ed8900055d5bf7	9241e07c895ad7cff754a7749641ebf191b27267	-	-
+1353535798.99875	F2UjnX3RzOUpRA9X56	46.235.8.175	192.168.109.10	CysYnziY6Th8n3qid	HTTP	0	SHA1,MD5	text/html	-	0.291130	-	F	36344	-	0	0	F	-	766b5d40641af15f15b42b9ae3674524	7201bdb70f06a7ec8d7f0b17de03aea502ae46c7	-	-
+1353535799.408007	F14FxT3lUZp6sgmNEa	192.168.109.10	65.55.13.243	CQ8FaV2UHcqXU1orSg	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	T	44	44	0	0	F	-	cde5bdd41fae8122ee6f419d237143e3	90cf92217ee0d1af9dea3d662930950d89292bf8	-	-
+1353535799.482135	FACRce4WVe68wRywO3	65.55.13.243	192.168.109.10	CQ8FaV2UHcqXU1orSg	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	13	13	0	0	F	-	1e6cd917ed71a1241e4bedc29264bd98	5b65037351caeb0e5a48d963d7ffa88d0271d546	-	-
+1353535799.81353	FBsGI431d7bMAL8B0g	192.168.109.10	65.55.13.243	CY3Y9y3CWpnemG6O0b	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	T	44	44	0	0	F	-	cde5bdd41fae8122ee6f419d237143e3	90cf92217ee0d1af9dea3d662930950d89292bf8	-	-
+1353535799.887651	FlvOYv4xlvf7K7xBqg	65.55.13.243	192.168.109.10	CY3Y9y3CWpnemG6O0b	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	13	13	0	0	F	-	1e6cd917ed71a1241e4bedc29264bd98	5b65037351caeb0e5a48d963d7ffa88d0271d546	-	-
+1353535805.603709	FFQauC2hbxpYHvwpG9	46.235.8.175	192.168.109.10	CysYnziY6Th8n3qid	HTTP	0	SHA1,MD5	application/pdf	f3e97.pdf	0.291113	-	F	14761	14761	0	0	F	-	15ad559e06dd7fa69095007cc465a290	63b252546c6eec4f6c7ba14f89562d5eedd82589	-	-
+1353535805.80085	FmkxPpml78yqVWZb8	46.235.8.175	192.168.109.10	CnEqW04hD2zRKI7g78	HTTP	0	SHA1,MD5	application/x-shockwave-flash	-	0.145552	-	F	3043	-	0	0	F	-	aab57a979a6411578ae66ed676394d12	73d118bed01f76d0c241d5036f39e3de1d8f9456	-	-
+1353535813.282662	FXbWeI3Hui0GdYpqmd	46.235.8.175	192.168.109.10	CysYnziY6Th8n3qid	HTTP	0	SHA1,MD5	application/x-dosexec	readme.exe	3.215296	-	F	436224	436224	0	0	F	-	544bf18448acc2df4a98345882320a42	63b53f98ba4d14faf9ff6d7ddfbbd8fad461634f	-	-
+#close	2014-04-03-10-47-40

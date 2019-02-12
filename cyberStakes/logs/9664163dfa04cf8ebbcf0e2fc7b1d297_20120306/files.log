@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-38-57
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1331020885.908864	FYxjJ94KpmZ19J9oE4	95.57.120.238	192.168.56.10	Ccanvh1gkuS5Xg9MZd	HTTP	0	MD5,SHA1	text/html	-	0.193484	-	F	3621	-	0	0	F	-	1b74906a76fa44fca174caaf0588023c	af9ae84cb77585c0bbe80ed7a36301655ed5c74c	-	-
+1331020886.303717	FW4oAB6nLxvz2LbE6	95.57.120.238	192.168.56.10	Ccanvh1gkuS5Xg9MZd	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	893	893	0	0	F	-	4709f5f03895c93f17988dee72fc68f2	af0563d1018d2d3759bb5d8b3c09b4bcf13f5146	-	-
+1331020886.512093	FPeHAU1gUpSaaAgxoe	95.57.120.238	192.168.56.10	Ccanvh1gkuS5Xg9MZd	HTTP	0	MD5,SHA1	image/gif	-	0.195525	-	F	10655	10655	0	0	F	-	4ec55c200c05dccb0ada0183e365d202	5088acb7a0085ddbe3120005dadc6d7c7b645d9a	-	-
+1331020886.731216	FYfJHIqgWdKJN2e57	95.57.120.238	192.168.56.10	CyB31kBdKmwPxFyq2	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	854	854	0	0	F	-	fdbfa1d0e9b99bc085da7fc2985255ae	5c125183e3cc4a0e7e7d31c47ba323eaac0e5ea8	-	-
+1331020886.905684	FlaO6OodFINLfQKa3	95.57.120.238	192.168.56.10	Ccanvh1gkuS5Xg9MZd	HTTP	0	MD5,SHA1	image/gif	-	0.000359	-	F	7901	7901	0	0	F	-	d24f4599e76a228ef70e62df88706a43	cbe8c1bd6a6689d0b8dd5954646670b13c62d828	-	-
+1331020886.938017	F7z1uA3NrTSXPEx2Y6	95.57.120.238	192.168.56.10	CyB31kBdKmwPxFyq2	HTTP	0	MD5,SHA1	text/plain	-	0.203593	-	F	2691	2691	0	0	F	-	3436855cf171b2fb51a4991a9520d67f	85d88d87f144a89dc9bd5d56364394411a52cc54	-	-
+1331020887.487963	FRls8SU2aHadkqFs	95.57.120.238	192.168.56.10	CyB31kBdKmwPxFyq2	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	1253	1253	0	0	F	-	a3f22328260170bc446a89cc12e79a9f	12b8975358ef86f669b57eb10de007220f2475ca	-	-
+1331020887.392702	F3yhLD2hwMcusMkBh	95.57.120.238	192.168.56.10	Ccanvh1gkuS5Xg9MZd	HTTP	0	MD5,SHA1	image/jpeg	-	0.192297	-	F	15748	15748	0	0	F	-	889edeac55cedf4dca3b53cffb76b094	97d50e4a76c59027375160eebe66af624bff2077	-	-
+1331020892.739846	F2xad64h2WlyBjhwBc	95.57.120.238	192.168.56.10	CyB31kBdKmwPxFyq2	HTTP	0	MD5,SHA1	application/x-dosexec	-	0.028492	-	F	4148	45056	0	0	F	-	1ad0836cdba6c2817ca7bbc5c75912f5	7401daefa57f2884268d16e353e18037315dee37	-	-
+#close	2014-04-03-10-38-58

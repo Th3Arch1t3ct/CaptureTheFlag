@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-27-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1348650899.916033	CYvtV7Ew2Extysv2	192.168.9.10	1065	178.63.158.220	80	FSDxBMCJi59eb0L7g	application/x-dosexec	http://extras.myghazal.us/links/tdstesting.php?ninmhwi=02360a0837&hzsr=0933030b370709030233&ugxaiza=04&masjnam=smwdfqw&lrcan=nzsxhgpz	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2013-01-12 12:01:55	https://www.virustotal.com/en/search/?query=782ee9a35be637169b15415ca35aa42d00c41bff	192.168.9.10	178.63.158.220	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1348650899.916033	CYvtV7Ew2Extysv2	192.168.9.10	1065	178.63.158.220	80	FQC2Uw2naVHPC7bTGd	application/x-dosexec	http://extras.myghazal.us/links/tdstesting.php?nwzzq=02360a0837&cwdziqdv=0933030b370709030233&ipwrrmz=03&altinrna=ukcyaugs&bhuorvuy=ril	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2013-01-12 12:01:55	https://www.virustotal.com/en/search/?query=782ee9a35be637169b15415ca35aa42d00c41bff	192.168.9.10	178.63.158.220	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-27-05

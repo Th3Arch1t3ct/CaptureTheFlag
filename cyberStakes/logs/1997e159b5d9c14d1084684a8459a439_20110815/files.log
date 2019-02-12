@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-38-45
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1313369740.541859	Fz8JMy2uyKYua7yGee	174.122.176.154	192.168.15.10	CpAWc31MpQdlOVZz22	HTTP	0	MD5,SHA1	text/html	-	0.073808	-	F	3199	-	0	0	F	-	9ab9fd8a1131845e75daa0f823f164f5	63958567df113ea2408e5285c20b2772542679c7	-	-
+1313369741.61624	FFA4Li4DLu4tYCsS3d	69.50.202.74	192.168.15.10	Cej4iBvTgF52zTCZ7	HTTP	0	MD5,SHA1	text/html	-	0.292554	-	F	46320	-	0	0	F	-	77c8d2c5d2694e430f1192f6fb5f265e	6d0a20f7d186388dda377f8662554949cbe7f891	-	-
+1313369743.701752	FICmkt1oA4ZLopVQkk	69.50.202.74	192.168.15.10	Cej4iBvTgF52zTCZ7	HTTP	0	MD5,SHA1	text/html	-	0.057988	-	F	3408	-	0	0	F	-	876bcb3e36c71579ad25e408bb359893	c4ec3cf77332fffa6018e10babab33e76429fc88	-	-
+1313369744.763537	FAonB92Cxo7kUD56Z1	69.50.202.74	192.168.15.10	C5VVwnLE7fKquYw39	HTTP	0	MD5,SHA1	application/zip	-	0.000308	-	F	4935	4935	0	0	F	-	1d045c84e88e25b05d6a12be5baabdb5	f0943aa1f4fd9be4a51a46037dfb1deaa8b1c9b0	-	-
+1313369745.0172	FmrFxN2Ml2hot5dUb9	91.193.72.70	192.168.15.10	CD8fVZ2Bll5hIqR07c	HTTP	0	MD5,SHA1	application/x-java-applet	-	0.421170	-	F	13172	13172	0	0	F	-	340eccd48494e55f6e71cf2ce5c45196	296ba8a895bb7c3662bc745400d120c8043669c4	-	-
+1313369745.520235	FL102GjPMjdI8Ioy4	69.50.202.74	192.168.15.10	CwrRqp45iusSATn76k	HTTP	0	MD5,SHA1	application/x-dosexec	about.exe	0.656898	-	F	359936	359936	0	0	F	-	cba3c3d5db4bcb211ad70ed6c5f5b8db	85a90ee0142bde8fe7925b586b1e5c0341b733de	-	-
+1313369747.762566	FOhDE11ijPXjm6fjP	192.168.15.10	91.220.0.31	CrBln72LTL8HvwfSe1	HTTP	0	MD5,SHA1	binary	-	0.000000	-	T	192	192	0	0	F	-	a1f07acb31797bcea5af64e6185fa81e	6e4a80d9349d8a5aa1571db454da014937ae2b72	-	-
+1313369748.04378	FX4ASTUDrYForDAgg	91.220.0.31	192.168.15.10	CrBln72LTL8HvwfSe1	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	16	-	0	0	F	-	577bc6b390440098715f9f474696778f	283475975cd97123b770b4a470e2d2408b95b88d	-	-
+1313369754.085008	F5mHwZPVFpTOjbyD8	46.165.192.176	192.168.15.10	CBRZge3WBK5BL2vHEh	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	2	2	0	0	F	-	e0aa021e21dddbd6d8cecec71e9cf564	9ce3bd4224c8c1780db56b4125ecf3f24bf748b7	-	-
+#close	2014-04-03-10-38-45

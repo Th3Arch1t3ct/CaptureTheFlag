@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-49-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1325712097.28837	CHJnsp1Cwr3MDxAodd	192.168.59.10	1029	77.126.234.63	80	1	GET	xct47vtl.inghamroyale.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1325712098.255759	C3vOjx4MVSOuRPvz0c	192.168.59.10	1036	95.163.89.228	80	1	GET	leworknews.com	/main.php?id=937c853a11d42875	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	97845	200	OK	-	-	-	(empty)	-	-	-	-	-	FQroca0ZJVyG12WOg	text/html
+1325712109.701001	C3vOjx4MVSOuRPvz0c	192.168.59.10	1036	95.163.89.228	80	2	GET	leworknews.com	/w.php?f=18&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	93184	200	OK	-	-	-	(empty)	-	-	-	-	-	FlGRGXvskJFmASJbb	application/x-dosexec
+1325712112.732837	CXN6On427tvi373zc7	192.168.59.10	1040	95.163.89.228	80	1	GET	leworknews.com	/content/field.swf	http://leworknews.com/main.php?id=937c853a11d42875	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1416	200	OK	-	-	-	(empty)	-	-	-	-	-	FbCk2445q98y82sqC9	application/x-shockwave-flash
+1325712111.146008	C3vOjx4MVSOuRPvz0c	192.168.59.10	1036	95.163.89.228	80	3	GET	leworknews.com	/content/fdp2.php?f=18	http://leworknews.com/main.php?id=937c853a11d42875	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	114021	200	OK	-	-	-	(empty)	-	-	-	-	-	F7jKt14kx75Ev8bFqg	application/pdf
+1325712113.071674	Cmrbb81eH5wMheFRE5	192.168.59.10	1041	79.137.226.91	80	1	POST	onlinesecurytytests.ru	/mev/in/	-	Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)	109	342752	200	OK	-	-	-	(empty)	-	-	-	Fgi3ph1Ptzv1LZAke	binary	FQwR3z4gb6S9JcQYs4	binary
+1325712120.295979	CjmFdSqs1mRGBGiF7	192.168.59.10	1042	79.137.226.91	80	1	POST	onlinesecurytytests.ru	/mev/in/	-	Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)	111	4	200	OK	-	-	-	(empty)	-	-	-	FZZayq3pLpUswYZJzk	binary	Fdndq42IAJhdQFzQQ8	binary
+1325712120.788799	CRJzS0166iTR2bYDs6	192.168.59.10	1043	79.137.226.91	80	1	POST	onlinesecurytytests.ru	/mev/in/	-	Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)	118	24	200	OK	-	-	-	(empty)	-	-	-	FcnEoC4fH35Kn4Ox5e	binary	FLJgIE44QFC1K1Lk4a	binary
+1325712125.368568	CivpiV2Gwywtn0eaxj	192.168.59.10	1044	69.31.75.27	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1568	200	OK	-	-	-	(empty)	-	-	-	-	-	Fp7h8MQ6UdHCTD1v8	text/html
+1325712125.343154	CXN6On427tvi373zc7	192.168.59.10	1040	95.163.89.228	80	2	GET	leworknews.com	/content/score.swf	http://leworknews.com/content/field.swf	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6804	200	OK	-	-	-	(empty)	-	-	-	-	-	FPYU4X3aljS4PMXqxe	application/x-shockwave-flash
+#close	2014-04-03-10-49-27

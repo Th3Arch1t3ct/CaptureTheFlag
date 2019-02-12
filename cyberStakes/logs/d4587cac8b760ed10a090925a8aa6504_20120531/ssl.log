@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-09-50-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1338501973.381853	C5mYwS1dTQDKAMPMw7	192.168.43.10	1069	195.72.135.25	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.itsfogo.com,OU=IT,O=bwin.party digital entertainment plc,L=Gibraltar,ST=Gibraltar,C=GI	CN=Thawte SSL CA,O=Thawte\, Inc.,C=US	1323237600.000000	1386395999.000000	-	-	-	54b9d8bad3eeadb28c9d858a5de7ce1d	ok
+#close	2014-04-03-09-50-06

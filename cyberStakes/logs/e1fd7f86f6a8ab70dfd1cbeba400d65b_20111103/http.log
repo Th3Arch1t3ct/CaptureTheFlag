@@ -1,0 +1,39 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-31-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1320343019.637871	CYJQWz3BDP53o2p0t7	192.168.94.10	1030	176.65.160.43	80	1	GET	thebbb.in	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	234	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	Fc3oyn2seBxBJ6PMma	text/html
+1320343019.885363	CKBRPI2avNRfiE58bi	192.168.94.10	1031	176.65.161.38	80	1	GET	eeestyle.in	/?site=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	51662	200	OK	-	-	-	(empty)	-	-	-	-	-	Fuflbp1QnfP6ILlINe	text/html
+1320343021.367517	C2aLokop4SfGR0Ioc	192.168.94.10	1032	176.65.161.38	80	1	GET	eeestyle.in	/dl/pdf_libtiff9.php	http://eeestyle.in/?site=2	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2638	200	OK	-	-	-	(empty)	-	-	-	-	-	FDDEiX3bSqjbPahKSe	application/pdf
+1320343025.119242	Cb30p72n6desGu3vLj	192.168.94.10	1042	176.65.161.38	80	1	GET	eeestyle.in	/dl/jsm.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5930	200	OK	-	-	-	(empty)	-	-	-	-	-	Fy0Nwc1tR2VyDFKUT3	application/jar
+1320343025.114117	CWl3GT17fcbwTfzIK2	192.168.94.10	1045	176.65.161.38	80	1	GET	2957091110	/alpha.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14289	200	OK	-	-	-	(empty)	-	-	-	-	-	Fu9uOj2dMmOPx3JuSb	application/x-java-applet
+1320343025.119976	CzXG2X2ScF262iBPN2	192.168.94.10	1040	176.65.161.38	80	1	GET	2957091110	/alpha.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14289	200	OK	-	-	-	(empty)	-	-	-	-	-	FEt9NG3ggMWV1TUaa7	application/x-java-applet
+1320343025.11841	C5bKnFoM5Cq4bsBx8	192.168.94.10	1041	176.65.161.38	80	1	GET	2957091110	/alpha.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14289	200	OK	-	-	-	(empty)	-	-	-	-	-	Fllf9l25SqnFvoOVgh	application/x-java-applet
+1320343025.121026	CwURGj3DHVVje68Cw4	192.168.94.10	1044	176.65.161.38	80	1	GET	2957091110	/alpha.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14289	200	OK	-	-	-	(empty)	-	-	-	-	-	FIxa2e1ZmU2H5Vpe4i	application/x-java-applet
+1320343025.133579	CPSurw48fbzdZNuehf	192.168.94.10	1043	176.65.161.38	80	1	GET	2957091110	/alpha.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14289	200	OK	-	-	-	(empty)	-	-	-	-	-	FsETmu4K7UByQBCAHa	application/x-java-applet
+1320343025.126903	CioXYS1h3LQ266tfa	192.168.94.10	1038	176.65.161.38	80	1	GET	2957091110	/alpha.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14289	200	OK	-	-	-	(empty)	-	-	-	-	-	FlfwQk4BS1Wk75iXsc	application/x-java-applet
+1320343025.117594	CcBbB94PfTSqyKtcfe	192.168.94.10	1039	176.65.161.38	80	1	GET	eeestyle.in	/dl/apache.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	19279	200	OK	-	-	-	(empty)	-	-	-	-	-	FQ4iyL2NcBFjIRlxi8	application/jar
+1320343025.473065	CKei094MtZV5dxw5ce	192.168.94.10	1046	176.65.161.38	80	1	GET	eeestyle.in	/dl/jsm.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5930	200	OK	-	-	-	(empty)	-	-	-	-	-	FVC9Ti2sGRZaG6F1Vg	application/jar
+1320343025.741322	CLchCv4hMNvwnmEHdf	192.168.94.10	1050	176.65.161.38	80	1	GET	2957091110	/alpha.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	8529	200	OK	-	-	-	(empty)	-	-	-	-	-	FEhjkx4nrEiLyHLGN	application/x-java-applet
+1320343025.740145	CPWrLFHCi1j4ej3z8	192.168.94.10	1048	176.65.161.38	80	1	GET	2957091110	/alpha.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	8529	200	OK	-	-	-	(empty)	-	-	-	-	-	FF2wojfOuVmQRpX42	application/x-java-applet
+1320343025.751483	CRkLz62Fz2HWI5QtPk	192.168.94.10	1051	176.65.161.38	80	1	GET	2957091110	/alpha.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	8529	200	OK	-	-	-	(empty)	-	-	-	-	-	FsZvoS2NUKvwEhYoP6	application/x-java-applet
+1320343025.750644	C4FcsTGTFIKLxc0ia	192.168.94.10	1052	176.65.161.38	80	1	GET	2957091110	/alpha.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	8529	200	OK	-	-	-	(empty)	-	-	-	-	-	F7Rvjf13CQ0A4R70ai	application/x-java-applet
+1320343025.748623	CrDnqX2Go9uitwc5t4	192.168.94.10	1049	176.65.161.38	80	1	GET	2957091110	/alpha.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	8529	200	OK	-	-	-	(empty)	-	-	-	-	-	FljYri1JLu9DE3LW5f	application/x-java-applet
+1320343025.795094	Cy96ak3RiZQKASbUqc	192.168.94.10	1053	176.65.161.38	80	1	GET	2957091110	/alpha.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	8529	200	OK	-	-	-	(empty)	-	-	-	-	-	FyyruI2qQvqoBjEry5	application/x-java-applet
+1320343025.706853	C6T85T1iPKTpoGPWMj	192.168.94.10	1047	176.65.161.38	80	1	GET	eeestyle.in	/dl/apache.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	19279	200	OK	-	-	-	(empty)	-	-	-	-	-	Fv9Kkgvp4xKB01cSi	application/jar
+1320343025.960299	CPnaNv12S21SMeSVQ1	192.168.94.10	1054	176.65.161.38	80	1	GET	eeestyle.in	/dl/jsm.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5930	200	OK	-	-	-	(empty)	-	-	-	-	-	F5Os1G2nczQlh2UMyc	application/jar
+1320343026.415575	Cyn45I2ruHwWoVIg7i	192.168.94.10	1056	176.65.161.38	80	1	GET	eeestyle.in	/dl/apache.php	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	19279	200	OK	-	-	-	(empty)	-	-	-	-	-	F8zmnt4qPSjypb9quc	application/jar
+1320343024.927094	CBPRyW3IS42cEOOWMk	192.168.94.10	1037	176.65.161.38	80	1	GET	eeestyle.in	/dl/dl.php?6	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	400368	200	OK	-	-	-	(empty)	-	-	-	-	-	FF1fWD2MAVuDftNm18	application/x-dosexec
+1320343026.119231	Cfgs6X3EOBmplbX8p7	192.168.94.10	1055	176.65.161.38	80	1	GET	176.65.161.38	/dl/dl.php?4	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	400368	200	OK	-	-	-	(empty)	-	-	-	-	-	F0TZaIloMjbopMTs7	application/x-dosexec
+1320343027.011146	CATWDj8pjpl1RkSob	192.168.94.10	1057	176.65.161.38	80	1	GET	eeestyle.in	/dl/dl.php?1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	113534	200	OK	-	-	-	(empty)	-	-	-	-	-	F3A9V52DMjqnV8Abwj	application/x-dosexec
+1320343049.23181	CQtiNu1o0FSnqBSTW1	192.168.94.10	1062	31.44.184.55	80	1	GET	dincputilub.com	/up.php?0Q9oBPXEN0uECUgzEJ95RQsagj3vq1aG3F/2q5oNqwOd0A==	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1320343049.232023	C0Eak7FDHZHmygwHc	192.168.94.10	1061	31.44.184.55	80	1	GET	dincputilub.com	/up.php?0Q9oBPXEN0uECUgzEJ95RQsagj3vq1aG3F/2q5oNqwOd0A==	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1320343049.90243	CnyMCL25oLOWMdDWRh	192.168.94.10	1064	193.105.154.34	80	1	GET	start-258527.com	/uuica1/587-direct	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7067	200	OK	-	-	-	(empty)	-	-	-	-	-	F7bdFx2Wn5cbU9aSya	binary
+1320343050.23683	CBiSUksiveauvcHJ4	192.168.94.10	1065	193.105.154.34	80	1	GET	start-258527.com	/uuica1/587-direct	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7067	200	OK	-	-	-	(empty)	-	-	-	-	-	FXqlwM29xYZxSHOMb	binary
+1320343049.902614	CWzNPT3Yzra0gKVsk7	192.168.94.10	1063	193.105.154.34	80	1	GET	start-258527.com	/uuica1/587-direct	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	344064	200	OK	-	-	-	(empty)	-	-	-	-	-	FiNttLEPfkXTQzol3	binary
+1320343071.967554	C5P0rl3TIzIctdcn13	192.168.94.10	1067	31.44.184.58	80	1	GET	satoricalories.com	/uuica1/587-direct	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	344064	200	OK	-	-	-	(empty)	-	-	-	-	-	F8xq5vvi5xunVsxOg	binary
+#close	2014-04-03-10-31-14

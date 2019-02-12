@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-49-43
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1356811134.566231	Cic6vy3glj7C1xine	192.168.89.10	1028	4.2.2.3	53	udp	2443	comfortline.com.au	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.120.169.250	14380.000000	F
+1356811137.735512	Cic6vy3glj7C1xine	192.168.89.10	1028	4.2.2.3	53	udp	25227	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.228.4,74.125.228.0,74.125.228.3,74.125.228.7,74.125.228.5,74.125.228.14,74.125.228.2,74.125.228.1,74.125.228.9,74.125.228.6,74.125.228.8	78149.000000,222.000000,222.000000,222.000000,222.000000,222.000000,222.000000,222.000000,222.000000,222.000000,222.000000,222.000000	F
+1356811145.197176	Cic6vy3glj7C1xine	192.168.89.10	1028	4.2.2.3	53	udp	21643	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	1903.000000,300.000000	F
+1356811145.439797	Cic6vy3glj7C1xine	192.168.89.10	1028	4.2.2.3	53	udp	28040	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	2601.000000,600.000000	F
+1356811188.073181	CA1KRu3wukI4qHVPWa	192.168.89.10	1028	4.2.2.3	53	udp	44424	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.d.akamai.net,23.15.5.198,23.15.5.199	27469.000000,196.000000,7904.000000,20.000000,20.000000	F
+#close	2014-04-03-10-49-43

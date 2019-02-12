@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-08-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1358922555.679046	CU1WoBvGGRMxUA6x6	192.168.33.10	1029	4.2.2.3	53	udp	47762	wsupplementaryzym.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.170.52.31,93.170.52.21	277.000000,277.000000	F
+1358922556.10883	CU1WoBvGGRMxUA6x6	192.168.33.10	1029	4.2.2.3	53	udp	23955	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,173.194.75.102,173.194.75.101,173.194.75.138,173.194.75.100,173.194.75.139,173.194.75.113	83043.000000,224.000000,224.000000,224.000000,224.000000,224.000000,224.000000	F
+1358922556.1419	CU1WoBvGGRMxUA6x6	192.168.33.10	1029	4.2.2.3	53	udp	4241	xaic.sulfuret.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.131.138.218	10.000000	F
+1358922556.414879	CU1WoBvGGRMxUA6x6	192.168.33.10	1029	4.2.2.3	53	udp	8086	fbstatic-a.akamaihd.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fbstatic-a.akamaihd.net.edgesuite.net,a1168.dsw4.akamai.net,204.93.38.136,204.93.38.128	130.000000,190.000000,20.000000,20.000000	F
+#close	2014-04-03-11-08-10

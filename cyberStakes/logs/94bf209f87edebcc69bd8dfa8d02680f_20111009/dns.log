@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-49-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1318132394.758872	CEV1dv44NizZwuH882	192.168.56.10	1029	4.2.2.3	53	udp	8845	endearingchaos.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	70.40.203.184	14381.000000	F
+1318132397.079503	CEV1dv44NizZwuH882	192.168.56.10	1029	4.2.2.3	53	udp	17806	www.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.171.224.14	11.000000	F
+1318132397.419411	CEV1dv44NizZwuH882	192.168.56.10	1029	4.2.2.3	53	udp	23182	static.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.g.akamai.net,204.245.190.11,204.245.190.34	6623.000000,13740.000000,13.000000,13.000000	F
+1318132397.602989	CEV1dv44NizZwuH882	192.168.56.10	1029	4.2.2.3	53	udp	39822	fdafd.dns-dns.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.66.209	31.000000	F
+1318132413.319689	CEV1dv44NizZwuH882	192.168.56.10	1029	4.2.2.3	53	udp	19855	adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.150.16.117	10800.000000	F
+#close	2014-04-03-09-49-49

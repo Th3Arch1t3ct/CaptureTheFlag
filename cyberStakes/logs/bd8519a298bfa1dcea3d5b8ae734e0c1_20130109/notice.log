@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-31-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1357764644.372408	Cw0Nxi1dHONmBPnvH1	192.168.71.10	1054	178.208.79.224	80	FWgCQm2Kna1GQutuuk	application/x-shockwave-flash	http://yqwoxnacn.ddns.name/iprofy/covered/deemed-hill-believe-trucks.php?jfusdbt=1f:31:1n:1l:32&oscb=3n:2w:3l:3k&kloo=33:2v:31:1i:30:1j:1i:1k:1l:2w&lbabqf=bzcbhp	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2013-02-08 21:16:03	https://www.virustotal.com/en/search/?query=411194ca0084376e1293b3b4fbcaa027e38e78c8	192.168.71.10	178.208.79.224	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-31-53

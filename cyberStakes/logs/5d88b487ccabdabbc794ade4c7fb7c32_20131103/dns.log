@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-30-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1383437840.215472	CqqOQv2LkoKAdHDBye	192.168.10.10	1035	4.2.2.3	53	udp	19360	funny-halloween-movie.trafoboom.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.211.22.216	14400.000000	F
+1383437840.804778	CqqOQv2LkoKAdHDBye	192.168.10.10	1035	4.2.2.3	53	udp	24225	daymoney.co.uk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.211.162.138	1800.000000	F
+1383437841.827337	CqqOQv2LkoKAdHDBye	192.168.10.10	1035	4.2.2.3	53	udp	34466	www3.5h6h56yh5.4pu.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.141.42.88	30.000000	F
+1383437842.406834	CqqOQv2LkoKAdHDBye	192.168.10.10	1035	4.2.2.3	53	udp	4772	www1.789568gh48fjh34.4pu.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.143.193.76	30.000000	F
+1383437843.561222	CqqOQv2LkoKAdHDBye	192.168.10.10	1035	4.2.2.3	53	udp	36516	l.yimg.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fd-geoycs-l.gy1.b.yahoodns.net,ds-fo-anyycs-l.ay1.b.yahoodns.net,216.115.97.236	5032.000000,257.000000,241.000000	F
+1383437854.360792	CqqOQv2LkoKAdHDBye	192.168.10.10	1035	4.2.2.3	53	udp	27045	www2.rxr5uop3wp5cety8.wpbh.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.143.193.76	86400.000000	F
+1383437856.359914	CqqOQv2LkoKAdHDBye	192.168.10.10	1035	4.2.2.3	53	udp	27045	www2.rxr5uop3wp5cety8.wpbh.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.143.193.76	86399.000000	F
+1383437858.36017	CqqOQv2LkoKAdHDBye	192.168.10.10	1035	4.2.2.3	53	udp	27045	www2.rxr5uop3wp5cety8.wpbh.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.143.193.76	86399.000000	F
+1383437862.375791	CqqOQv2LkoKAdHDBye	192.168.10.10	1035	4.2.2.3	53	udp	27045	www2.rxr5uop3wp5cety8.wpbh.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.143.193.76	86399.000000	F
+1383437855.364301	CZteo53dfDkebs1g8c	192.168.10.10	1035	4.2.2.5	53	udp	27045	www2.rxr5uop3wp5cety8.wpbh.org	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1383437858.36045	CZteo53dfDkebs1g8c	192.168.10.10	1035	4.2.2.5	53	udp	27045	www2.rxr5uop3wp5cety8.wpbh.org	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1383437862.376087	CZteo53dfDkebs1g8c	192.168.10.10	1035	4.2.2.5	53	udp	27045	www2.rxr5uop3wp5cety8.wpbh.org	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1383437848.371669	CqqOQv2LkoKAdHDBye	192.168.10.10	1035	4.2.2.3	53	udp	41636	76.193.143.95.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1383437909.853979	CP8hIS3no9VcxVgdqk	192.168.10.10	1035	208.115.221.125	53	udp	64165	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	50.31.74.56	7200.000000	F
+#close	2014-04-03-10-30-11

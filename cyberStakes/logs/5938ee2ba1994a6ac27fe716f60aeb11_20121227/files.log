@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-17-04
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1356652126.59315	F0zRE74lkGHfvNwQHe	93.170.52.31	192.168.116.10	CrARxv3PK8tPmKjQgc	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	1125	-	0	0	F	-	74bd154f9cff29606f9b43db51979285	6b4d6c5f0afbd6a96f7e5715e26e515e2a434af1	-	-
+1356652127.009451	FcKb0C1SO2iBGV8wra	173.194.43.5	192.168.116.10	CNryWCBtpsxp215Ik	HTTP	0	MD5,SHA1	text/plain	-	0.021137	-	F	37362	-	0	0	F	-	f5592eabae33f8499d067344f1f42183	142a9875c4bd7e15ce6ac8b5bb181fb29ed08ba5	-	-
+1356652127.126424	FQIx6i1TZsHGhom5v3	173.194.43.5	192.168.116.10	CNryWCBtpsxp215Ik	HTTP	0	MD5,SHA1	image/gif	-	0.000000	-	F	35	35	0	0	F	-	28d6814f309ea289f847c69cf91194c6	0f4e929dd5bb2564f7ab9c76338e04e292a42ace	-	-
+1356652127.29175	FCGesvZbVeXSEubS4	195.64.155.34	192.168.116.10	CEwIgI1276INwSuny8	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	160	160	0	0	F	-	ba15642bf39aaf293060036a89576904	da19c88713d84ae98eb1150372e218f76da447a6	-	-
+1356652127.963124	FvlVemqD5dBj1qbU9	195.3.143.42	192.168.116.10	C0482N3kKdWoSHlxr2	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	161	-	0	0	F	-	82d7993071d80f9d273a9923a12a281f	a23eb4c5b4948136f5bb1e3d992d3ebd2403d77e	-	-
+1356652128.572501	FhVw9F3ep6qAZf8nLf	195.3.143.42	192.168.116.10	CUYcou3giDamDVtUq9	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	161	-	0	0	F	-	82d7993071d80f9d273a9923a12a281f	a23eb4c5b4948136f5bb1e3d992d3ebd2403d77e	-	-
+1356652128.807306	FKnfon2DA9dFYb7nL7	195.3.143.42	192.168.116.10	C0482N3kKdWoSHlxr2	HTTP	0	MD5,SHA1	text/html	-	0.000019	-	F	3774	-	0	0	F	-	421d364c409dd375953c1506b00329bd	fb27c70814f7ba002af6e01a22ae2cd7fc078ee4	-	-
+1356652128.843407	Fmy9kSVMrA6ymXOYh	107.14.43.208	192.168.116.10	CKH01OUMSgXAgCVw2	HTTP	0	MD5,SHA1	image/png	-	0.000000	-	F	2349	2349	0	0	F	-	ce404e2f475dbf547ee8195dac0eff0a	3eb3390ad49e78b3e872aaf154256496e132e9f3	-	-
+1356652128.937318	FgpGeN3wORAaa1Uo35	208.131.138.217	192.168.116.10	Ch7eqx3DcDGUkzLTVl	HTTP	0	MD5,SHA1	application/x-dosexec	MeLolPIC.exe	0.025957	-	F	13140	93555	0	0	F	-	51e7eabf90b298e1d068f2f7579177e1	f56220bdd6807f570ad59fd8a8a8559bfd2f0065	-	-
+#close	2014-04-03-10-17-04

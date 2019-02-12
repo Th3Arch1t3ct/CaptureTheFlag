@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-56-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1313196297.748642	CyEjbA38A9RrkJaAN5	192.168.120.10	1029	4.2.2.3	53	udp	10631	soople.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.168.165.221	5.000000	F
+1313196297.994887	CyEjbA38A9RrkJaAN5	192.168.120.10	1029	4.2.2.3	53	udp	19844	a.metin2yardim.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.212.204.53	3575.000000	F
+1313196298.800097	CyEjbA38A9RrkJaAN5	192.168.120.10	1029	4.2.2.3	53	udp	3716	a.laserpimpletreatment.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.212.204.53	3600.000000	F
+1313196299.169201	CyEjbA38A9RrkJaAN5	192.168.120.10	1029	4.2.2.3	53	udp	23170	53.204.212.173.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	server50.myviphosting.com	43200.000000	F
+1313196299.199907	CyEjbA38A9RrkJaAN5	192.168.120.10	1029	4.2.2.3	53	udp	38528	server50.myviphosting.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.93.193.84	300.000000	F
+#close	2014-04-03-09-56-15

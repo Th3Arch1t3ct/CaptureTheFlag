@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-52-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1322986799.089602	CVtTpr3adJNbNr8uRj	192.168.21.10	1029	4.2.2.3	53	udp	18317	downloadlivemail.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.123.210.242	14374.000000	F
+1322986799.181467	CVtTpr3adJNbNr8uRj	192.168.21.10	1029	4.2.2.3	53	udp	36751	virou.gr	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	205.186.183.147	43200.000000	F
+1322986799.499937	CVtTpr3adJNbNr8uRj	192.168.21.10	1029	4.2.2.3	53	udp	1423	bit.ly	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.58.188.39,69.58.188.40	2472.000000,2472.000000	F
+1322986799.589435	CVtTpr3adJNbNr8uRj	192.168.21.10	1029	4.2.2.3	53	udp	6798	vipboysonlaine.web161.f1.k8.com.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	187.73.33.25	3600.000000	F
+1322986800.069772	CVtTpr3adJNbNr8uRj	192.168.21.10	1029	4.2.2.3	53	udp	62857	dl.dropbox.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	dl-balancer3-985632286.us-east-1.elb.amazonaws.com,50.19.217.32,107.20.134.222,107.20.138.162,107.20.151.179,107.20.170.126,107.22.189.127,107.22.243.22,184.73.219.26	24166.000000,60.000000,60.000000,60.000000,60.000000,60.000000,60.000000,60.000000,60.000000	F
+#close	2014-04-03-10-52-05

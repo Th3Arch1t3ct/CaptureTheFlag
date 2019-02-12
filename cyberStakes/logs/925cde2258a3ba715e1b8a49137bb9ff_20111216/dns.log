@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-01-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1324066412.804673	CshhAP1hdVg6r6AgGb	192.168.11.10	1029	4.2.2.3	53	udp	52623	www.exchangead.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	exchangead.com,66.23.226.207	3578.000000,3578.000000	F
+1324066412.913431	CshhAP1hdVg6r6AgGb	192.168.11.10	1029	4.2.2.3	53	udp	47503	pagead2.googlesyndication.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pagead.l.doubleclick.net,74.125.159.155,74.125.159.156,74.125.159.157,74.125.159.154	137.000000,155.000000,155.000000,155.000000,155.000000	F
+1324066413.093082	CshhAP1hdVg6r6AgGb	192.168.11.10	1029	4.2.2.3	53	udp	49548	googleads.g.doubleclick.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pagead.l.doubleclick.net,74.125.159.157,74.125.159.154,74.125.159.155,74.125.159.156	38759.000000,154.000000,154.000000,154.000000,154.000000	F
+1324066413.099329	CshhAP1hdVg6r6AgGb	192.168.11.10	1029	4.2.2.3	53	udp	63629	www.txtswap.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	txtswap.com,66.23.226.207	3600.000000,3600.000000	F
+1324066413.350317	CshhAP1hdVg6r6AgGb	192.168.11.10	1029	4.2.2.3	53	udp	7307	www.plemx.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	plemx.com,66.23.226.207	3600.000000,3600.000000	F
+1324066413.579679	CshhAP1hdVg6r6AgGb	192.168.11.10	1029	4.2.2.3	53	udp	13448	google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.125.45.106,74.125.45.147,74.125.45.99,74.125.45.103,74.125.45.104,74.125.45.105	128.000000,128.000000,128.000000,128.000000,128.000000,128.000000	F
+#close	2014-04-03-11-01-04

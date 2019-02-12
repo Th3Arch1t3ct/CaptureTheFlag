@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-52-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1354822748.989525	CUtVny40N3OQDieEAl	192.168.76.10	1029	4.2.2.3	53	udp	29080	envistha.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.0.137.253	86400.000000	F
+1354822753.172987	CUtVny40N3OQDieEAl	192.168.76.10	1029	4.2.2.3	53	udp	41368	www.youtube.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	youtube-ui.l.google.com,74.125.139.136,74.125.139.93,74.125.139.190,74.125.139.91	79324.000000,76.000000,76.000000,76.000000,76.000000	F
+1354822753.300844	CUtVny40N3OQDieEAl	192.168.76.10	1029	4.2.2.3	53	udp	6042	s.ytimg.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ytstatic.l.google.com,74.125.140.139,74.125.140.102,74.125.140.101,74.125.140.100,74.125.140.113,74.125.140.138	2053.000000,171.000000,171.000000,171.000000,171.000000,171.000000,171.000000	F
+1354822756.175452	CUtVny40N3OQDieEAl	192.168.76.10	1029	4.2.2.3	53	udp	46747	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,24.143.197.8,24.143.197.18	25162.000000,98.000000,18764.000000,17.000000,17.000000	F
+1354822756.178992	CUtVny40N3OQDieEAl	192.168.76.10	1029	4.2.2.3	53	udp	50845	i3.ytimg.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ytimg.l.google.com,173.194.37.32,173.194.37.41,173.194.37.36,173.194.37.34,173.194.37.46,173.194.37.39,173.194.37.37,173.194.37.35,173.194.37.40,173.194.37.38,173.194.37.33	2934.000000,44.000000,44.000000,44.000000,44.000000,44.000000,44.000000,44.000000,44.000000,44.000000,44.000000,44.000000	F
+#close	2014-04-03-10-52-08

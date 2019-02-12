@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-16-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1373876390.841869	CDdIvP3oh5ChBfWEvi	192.168.46.10	1039	74.125.224.164	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1372793967.000000	1383281999.000000	-	-	-	b77c4181a1f4a7d72b0ff54ccbb767cb	ok
+1373876398.218172	Cgbs6f4Q8sOHr7nsKk	192.168.46.10	1071	31.13.75.17	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.facebook.com,O=Facebook\, Inc.,L=Palo Alto,ST=California,C=US	OU=www.verisign.com/CPS Incorp.by Ref. LIABILITY LTD.(c)97 VeriSign,OU=VeriSign International Server CA - Class 3,OU=VeriSign\, Inc.,O=VeriSign Trust Network	1340254800.000000	1388555999.000000	-	-	-	f10b4102a78b5894231109d6d3fbeeb5	ok
+1373876398.214426	C3ez1u2GL1lqYlY25b	192.168.46.10	1070	23.79.175.139	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=connect.facebook.net,OU=connect.facebook.net,O=Facebook,L=Palo Alto,ST=CALIFORNIA,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1364843571.000000	1396379571.000000	-	-	-	2942cdfaaaabb681d2cdf960b3fcaaaa	ok
+1373876398.413521	C2Nfzw4YrX4hMoy0kk	192.168.46.10	1073	23.79.162.110	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=s-static.ak.facebook.com,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,ST=California,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1363150837.000000	1394686837.000000	-	-	-	8072f767b362050ff6b5555555555554	ok
+#close	2014-04-03-10-16-30

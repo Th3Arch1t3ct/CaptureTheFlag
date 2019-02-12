@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-33-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1366600580.367185	CnXHgc13pSymtYf5bc	192.168.67.10	1032	74.125.137.95	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleapis.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1365702708.000000	1388527130.000000	-	-	-	a30cbfdf0dc59555555555555b404e52	ok
+1366600580.680059	CqU1Wt3hL3R5n2mf4j	192.168.67.10	1033	74.125.140.138	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1365702639.000000	1388527130.000000	-	-	-	5b7cb8d98aeeeeeeeeeeeeeeeeeeeeee	ok
+1366600583.254837	Ce21Uq31F3T7W7byRi	192.168.67.10	1070	66.220.152.19	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.facebook.com,O=Facebook\, Inc.,L=Palo Alto,ST=California,C=US	OU=www.verisign.com/CPS Incorp.by Ref. LIABILITY LTD.(c)97 VeriSign,OU=VeriSign International Server CA - Class 3,OU=VeriSign\, Inc.,O=VeriSign Trust Network	1340254800.000000	1388555999.000000	-	-	-	f10b4102a78b5894231109d6d3fbeeb5	ok
+1366600585.024356	C5loZAYFqjPfp53hk	192.168.67.10	1119	23.64.27.32	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.voicefive.com,OU=OSE,O=TMRG,L=Reston,ST=VIRGINIA,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1365023158.000000	1396559158.000000	-	-	-	60cbe8633940eb222c54631705b6cca1	ok
+1366600585.084075	Ca48cV3qWnVBwKWSl	192.168.67.10	1123	23.64.27.32	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.voicefive.com,OU=OSE,O=TMRG,L=Reston,ST=VIRGINIA,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1365023158.000000	1396559158.000000	-	-	-	60cbe8633940eb222c54631705b6cca1	ok
+1366600620.931855	CLSzHj4zWoCwxl35C4	192.168.67.10	1260	66.220.152.19	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	a63aebbcf1fe7be0a8da9e46437b69de7255a3720ed224922f436051afaf3c07	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-33-12

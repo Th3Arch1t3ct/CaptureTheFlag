@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-25-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1321445063.971841	CZ0cOo4JbLTEUlQe68	192.168.9.10	1029	4.2.2.3	53	udp	35474	spannfamily.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.130.131.134	3577.000000	F
+1321445065.822584	CZ0cOo4JbLTEUlQe68	192.168.9.10	1029	4.2.2.3	53	udp	63890	centerekyd.monbe.be	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.211.160.73	60.000000	F
+1321445070.072867	C22n5d3zRqTXX10PI6	192.168.9.10	1189	4.2.2.5	53	udp	13107	a-softwareupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.220.35.32	14400.000000	F
+1321445070.072698	Cl7IzY2Uz50LtXcN41	192.168.9.10	1189	4.2.2.3	53	udp	13107	a-softwareupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.220.35.32	14400.000000	F
+1321445098.136901	CAR9tGHzAd1WQWsYb	192.168.9.10	1029	4.2.2.3	53	udp	56976	swupmf.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	swupmf.wip4.adobe.com,swupmf.adobe.com.edgesuite.net,a1137.g.akamai.net,24.143.193.35,24.143.193.16	7078.000000,398.000000,17878.000000,20.000000,20.000000	F
+1321445098.343551	CAR9tGHzAd1WQWsYb	192.168.9.10	1029	4.2.2.3	53	udp	33175	crl.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.wip4.adobe.com,crl.adobe.com.edgesuite.net,a1180.g.akamai.net,24.143.193.42,24.143.193.25	7385.000000,300.000000,11953.000000,20.000000,20.000000	F
+#close	2014-04-03-10-25-56

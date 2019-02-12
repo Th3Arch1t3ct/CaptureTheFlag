@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-40-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1318118695.547235	CYiaCQ1pAkpgTh9l35	192.168.7.10	1029	4.2.2.3	53	udp	46480	pamperedplants.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	70.87.90.194	14378.000000	F
+1318118696.03579	CYiaCQ1pAkpgTh9l35	192.168.7.10	1029	4.2.2.3	53	udp	33939	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.157.95	1216.000000,157.000000	F
+1318118696.263356	CYiaCQ1pAkpgTh9l35	192.168.7.10	1029	4.2.2.3	53	udp	32915	api.twitter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.59.148.87,199.59.149.200,199.59.149.232,199.59.148.20	2.000000,2.000000,2.000000,2.000000	F
+1318118696.446784	CYiaCQ1pAkpgTh9l35	192.168.7.10	1029	4.2.2.3	53	udp	16531	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,204.0.1.42,204.0.1.83	16287.000000,278.000000,2328.000000,4.000000,4.000000	F
+1318118698.710994	CYiaCQ1pAkpgTh9l35	192.168.7.10	1029	4.2.2.3	53	udp	8597	gdefaowgmcp.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.199.229.50	3600.000000	F
+1318118720.010709	Cp0iCv3lGXlqbCyy4	192.168.7.10	1029	4.2.2.3	53	udp	20373	skuj4ugfddsj.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.212.74.67	3600.000000	F
+#close	2014-04-03-10-40-31

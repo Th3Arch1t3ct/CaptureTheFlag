@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-31-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1327653102.446593	Cxe9gG4wzxyRgaTb9k	192.168.122.10	1029	4.2.2.3	53	udp	29587	kancingkecil.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.231.38.133	14380.000000	F
+1327653102.6161	Cxe9gG4wzxyRgaTb9k	192.168.122.10	1029	4.2.2.3	53	udp	44435	www.kancingkecil.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	kancingkecil.com,173.231.38.133	14400.000000,14379.000000	F
+1327653103.611323	CeMRwj2NPbdLVHCzd9	192.168.122.10	1029	4.2.2.5	53	udp	44435	www.kancingkecil.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	kancingkecil.com,173.231.38.133	14400.000000,14400.000000	F
+1327653105.616488	Cxe9gG4wzxyRgaTb9k	192.168.122.10	1029	4.2.2.3	53	udp	30097	opi.yahoo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	opium.fy7.b.yahoo.com,98.138.26.40	446.000000,108.000000	F
+1327653105.629731	Cxe9gG4wzxyRgaTb9k	192.168.122.10	1029	4.2.2.3	53	udp	29841	wgweb.msg.yahoo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wgweb1.msg.vip.sp1.yahoo.com,68.180.221.140	1800.000000,1800.000000	F
+1327653106.174887	Cxe9gG4wzxyRgaTb9k	192.168.122.10	1029	4.2.2.3	53	udp	34193	l.yimg.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	geoycs-l.gy1.b.yahoodns.net,fo-anyycs-l.ay1.b.yahoodns.net,98.137.80.34,98.137.80.49,98.137.80.50,98.137.80.31,98.137.80.32,98.137.80.33	4225.000000,800.000000,238.000000,238.000000,238.000000,238.000000,238.000000,238.000000	F
+1327653106.200206	Cxe9gG4wzxyRgaTb9k	192.168.122.10	1029	4.2.2.3	53	udp	42385	crossingwords.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	80.172.241.23	600.000000	F
+1327653106.659903	Cxe9gG4wzxyRgaTb9k	192.168.122.10	1029	4.2.2.3	53	udp	46737	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.132.27,69.31.132.73	19191.000000,41.000000,13012.000000,10.000000,10.000000	F
+1327653106.811844	Cxe9gG4wzxyRgaTb9k	192.168.122.10	1029	4.2.2.3	53	udp	21142	ttghdrgfggg.nl.ai	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	203.170.193.102	3600.000000	F
+1327653107.350424	Cxe9gG4wzxyRgaTb9k	192.168.122.10	1029	4.2.2.3	53	udp	10391	opi.wgweb.msg.yahoo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wgweb1.msg.vip.sp1.yahoo.com,68.180.221.140	1800.000000,1798.000000	F
+1327653107.352503	CuA01j27LFqc3sxQ09	192.168.122.10	1047	4.2.2.3	53	udp	12436	img.msg.yahoo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	img.msg.a1.b.yahoo.com,98.136.112.115	1800.000000,300.000000	F
+#close	2014-04-03-10-31-05

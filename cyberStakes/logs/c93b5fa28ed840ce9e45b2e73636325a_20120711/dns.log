@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-16-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1342037186.509682	CquXo412q5HFPttJ89	192.168.27.10	1029	4.2.2.3	53	udp	56204	artcreo.pl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	176.31.227.143	14380.000000	F
+1342037186.995517	CquXo412q5HFPttJ89	192.168.27.10	1029	4.2.2.3	53	udp	47500	baffalo.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.149.15.143	11032.000000	F
+1342037187.347468	CquXo412q5HFPttJ89	192.168.27.10	1029	4.2.2.3	53	udp	10125	jkeyboard.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.201.16	30.000000	F
+1342037188.694231	CquXo412q5HFPttJ89	192.168.27.10	1029	4.2.2.3	53	udp	35982	nopearth.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.59.198.62	30.000000	F
+1342037193.338123	CquXo412q5HFPttJ89	192.168.27.10	1029	4.2.2.3	53	udp	42376	62.198.59.37.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1342037193.338123	CquXo412q5HFPttJ89	192.168.27.10	1029	4.2.2.3	53	udp	42376	62.198.59.37.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-11-16-11

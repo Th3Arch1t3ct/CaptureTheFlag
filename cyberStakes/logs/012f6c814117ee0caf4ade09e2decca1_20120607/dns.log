@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-17-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1339030797.664955	CFVkYr3sGxdLZ0TM5j	192.168.77.10	1029	4.2.2.3	53	udp	63376	1-hour-cash-now.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.201.210.46	3572.000000	F
+1339030801.170133	CFVkYr3sGxdLZ0TM5j	192.168.77.10	1029	4.2.2.3	53	udp	17555	forms.leadprefer.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.133.196.20	3600.000000	F
+1339030801.178951	Ck81H53aDIPuu3blph	192.168.77.10	1036	4.2.2.3	53	udp	14227	aliasbloger.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.75.239.97	43200.000000	F
+1339030801.907178	CFVkYr3sGxdLZ0TM5j	192.168.77.10	1029	4.2.2.3	53	udp	40597	qaws.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.37.185.230	38400.000000	F
+#close	2014-04-03-10-17-47

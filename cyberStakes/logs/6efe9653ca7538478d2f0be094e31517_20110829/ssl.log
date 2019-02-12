@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-11-07-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1314576493.118307	CqWycS2tVzELE8YXW7	192.168.120.10	1062	199.59.148.20	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=api.twitter.com,OU=Twitter Platform,O=Twitter\, Inc.,L=San Francisco,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G2,OU=Terms of use at https://www.verisign.com/rpa (c)09,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1274158800.000000	1337317199.000000	-	-	-	345f951d303da2d8d0b13fd0cdb8ec32	ok
+1314576493.539105	CY81ew2uljEbqMOIl6	192.168.120.10	1064	72.21.194.16	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.s3.amazonaws.com,O=Amazon.com Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1292392800.000000	1387432799.000000	-	-	-	e3cc103aacd8beea27f01fd08da597bd	ok
+1314576493.68231	CL73Yi3FRebXS7Dj2a	192.168.120.10	1066	74.125.47.95	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleapis.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1313138953.000000	1344761953.000000	-	-	-	af9d1313158662446780f33e710d6a2a	ok
+1314576493.912551	CMB0FB4Ev0jVr5gzR7	192.168.120.10	1067	199.59.148.82	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=twitter.com,OU=Twitter Operations,O=Twitter\, Inc.,street=795 Folsom St\, Suite 600,L=San Francisco,ST=California,postalCode=94107,C=US,serialNumber=4337446,businessCategory=Private Organization,1.3.6.1.4.1.311.60.2.1.2=#130844656C6177617265,1.3.6.1.4.	1.311.60.2.1.3=#13025553CN=VeriSign Class 3 Extended Validation SSL CA,OU=Terms of use at https://www.verisign.com/rpa (c)06,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1310014800.000000	1343451599.000000	-	-	-	34a7926a7882d53f11c466cc202f19cc	ok
+#close	2014-04-03-11-07-30

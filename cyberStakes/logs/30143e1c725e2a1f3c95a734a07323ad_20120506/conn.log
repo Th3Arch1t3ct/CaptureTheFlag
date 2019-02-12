@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-53-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1336317935.175757	Cn6rCr16ORYkA4nAZe	192.168.84.10	1034	128.30.52.37	80	tcp	http	0.165114	266	2322	SF	-	0	ShADdfFa	5	474	4	2486	(empty)
+1336317935.539478	CaWUHK3ee87EYUCsrl	192.168.84.10	1037	63.217.184.65	80	tcp	http	0.072455	347	13140	RSTO	-	0	ShADadR	11	795	11	13588	(empty)
+1336317934.18249	CDHhMv2q8DvokyQP8g	192.168.84.10	1029	4.2.2.3	53	udp	dns	1.356295	275	837	SF	-	0	Dd	7	471	7	1033	(empty)
+1336317935.210805	CLTHrS30TnYKpHzlPj	192.168.84.10	1035	199.7.48.231	443	tcp	ssl	29.841132	658	4184	RSTR	-	0	ShADadr	9	1026	10	4588	(empty)
+1336317918.269084	CiC2kK2iw07ALJpJ0e	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000823	626	0	S0	-	0	D	2	682	0	0	(empty)
+1336317918.269427	CTxRq44uSHJqhNpzYk	192.168.84.10	68	192.168.84.1	67	udp	dhcp	12.928673	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1336317935.283161	Cu43EQ2ghVQ3tp5eff	192.168.84.10	1036	65.55.12.249	80	tcp	http	60.404632	311	584	RSTO	-	0	ShADdR	5	519	2	668	(empty)
+1336317935.130844	Ck2aF7aLJ1QIj6kq4	192.168.84.10	1033	64.4.11.25	80	tcp	http	60.557386	562	1184	RSTO	-	0	ShADdR	7	850	3	1312	(empty)
+1336317935.024362	C8wrXu14iEa1UvTdDa	192.168.84.10	1032	173.194.37.70	80	tcp	http	60.664179	1007	15397	RSTO	-	0	ShADadR	14	1575	15	16005	(empty)
+1336317934.448218	CR7Z0ti3UKpyIx3Q3	192.168.84.10	1031	50.46.230.196	80	tcp	http	66.255975	2301	31702	RSTO	-	0	ShADdR	24	3269	26	32750	(empty)
+1336317934.197883	CWUkzx3Kl04zKEu9F8	192.168.84.10	1030	50.46.230.196	80	tcp	http	66.506741	2319	31973	RSTO	-	0	ShADdR	23	3247	26	33021	(empty)
+1336317936.579013	C7jQBq20gskbgquCQ2	192.168.84.10	1040	239.255.255.250	1900	udp	-	6.046581	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-10-53-06

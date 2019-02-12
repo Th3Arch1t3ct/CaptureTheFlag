@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-57-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1339153663.487621	Csndfg47ABWXXhD37h	192.168.99.10	1032	77.72.133.184	80	Fy9IgV7W0I15mYwd5	application/pdf	http://xmpoccupy.in/svs/kufzcpfngsxndq.pdf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 59%  Last seen: 2012-06-12 21:31:02	https://www.virustotal.com/en/search/?query=205c52e0675699d3ddc1f3f3ea21a2195f83059d	192.168.99.10	77.72.133.184	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1339153666.858855	CmkVt5nJdiT8ypsY4	192.168.99.10	1041	37.157.255.149	80	FL9g8W2rDWsNYPmeSa	application/x-dosexec	http://potusaer.tk/1.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 45%  Last seen: 2012-07-03 18:42:23	https://www.virustotal.com/en/search/?query=f25d5898ea2d4e8a52bb6d584cf65fb21725e1a6	192.168.99.10	37.157.255.149	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-57-11

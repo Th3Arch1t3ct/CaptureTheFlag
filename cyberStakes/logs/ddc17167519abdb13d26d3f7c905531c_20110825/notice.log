@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-35-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1314298177.889481	CRvryI36nLTGKUGRE4	192.168.118.10	1051	89.208.141.137	80	FybKhm4PNZprJyNPAb	application/jar	http://sentave.cu.cc/showthread.php?t=872128980	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 55%  Last seen: 2012-12-01 06:01:05	https://www.virustotal.com/en/search/?query=a897e1a7645e3ab0c247614e8d94f0bf98beefc8	192.168.118.10	89.208.141.137	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1314298178.466277	CRvryI36nLTGKUGRE4	192.168.118.10	1051	89.208.141.137	80	FVU1K545obh3mJBiMf	application/jar	http://sentave.cu.cc/showthread.php?t=872128980	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 55%  Last seen: 2012-12-01 06:01:05	https://www.virustotal.com/en/search/?query=a897e1a7645e3ab0c247614e8d94f0bf98beefc8	192.168.118.10	89.208.141.137	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1314298179.165303	CRvryI36nLTGKUGRE4	192.168.118.10	1051	89.208.141.137	80	F9cP8G4dz0fuFhLzY4	application/jar	http://sentave.cu.cc/showthread.php?t=872128980	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 55%  Last seen: 2012-12-01 06:01:05	https://www.virustotal.com/en/search/?query=a897e1a7645e3ab0c247614e8d94f0bf98beefc8	192.168.118.10	89.208.141.137	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-35-55

@@ -1,0 +1,28 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-10-40
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1327717665.924166	Cx3dFq44Xl5badC9X	192.168.120.10	1030	208.64.123.45	80	1	GET	0gryvzw44fz6aj.l83.me	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	178	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FUVcXa1xCi8at0Iz6e	text/html
+1327717666.130878	ChqzyR1pzfZT2k4q1h	192.168.120.10	1031	64.34.154.74	80	1	GET	fasttrackonlinesurveys.com	/d/traf2.com	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1727	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FKZc6S3cweN5ynhWc4	text/html
+1327717666.258321	CwEur53SQO1nmEWLuh	192.168.120.10	1032	209.17.74.150	80	1	GET	i35.tinypic.com	/n4ts0p.png	http://fasttrackonlinesurveys.com/d/traf2.com	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	97370	200	OK	-	-	-	(empty)	-	-	-	-	-	FVOyPt3JV6UAJmfML2	image/png
+1327717666.834306	CxKIp13hjgdivrdWy	192.168.120.10	1033	64.34.154.74	80	1	GET	i.d2f3.com	/oops/index.php?e9cb9458b4b97866bf6dfbbc558dfc77	http://fasttrackonlinesurveys.com/d/traf2.com	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	43982	200	OK	-	-	-	(empty)	-	-	-	-	-	Fo0whh2xVK6F9jUxBe	text/html
+1327717668.515611	CM6upU1HH53Mw3KYq9	192.168.120.10	1034	64.34.154.74	80	1	GET	i.d2f3.com	/oops/server_privileges.php?dd6fbea61d7367a4b2ce79086ce1519e=1	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	305152	200	OK	-	-	-	(empty)	-	-	-	-	-	FALnYg4sSuhA7V9H3d	application/x-dosexec
+1327717670.583422	CHIQGg0PMvpFdKiYk	192.168.120.10	1041	64.34.154.74	80	1	GET	i.d2f3.com	/oops/images/r/a03cb4b8e5bb148134a57a2c87ddacd9.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	2909	200	OK	-	-	-	(empty)	-	-	-	-	-	Fr7sut4DkHdoPlBKK6	application/jar
+1327717670.585054	CnWrlM3VKgn60EiWRe	192.168.120.10	1039	64.34.154.74	80	1	GET	fasttrackonlinesurveys.com	/Java.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	2755	200	OK	-	-	-	(empty)	-	-	-	-	-	FXWusv3Ft2NVJAjNyc	application/zip
+1327717670.581359	CQ7jrA3GrJsf2dKbh8	192.168.120.10	1040	64.34.154.74	80	1	GET	i.d2f3.com	/oops/images/a03cb4b8e5bb148134a57a2c87ddacd9.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5380	200	OK	-	-	-	(empty)	-	-	-	-	-	FtwJ9J1YPMCXCX7FDe	application/jar
+1327717670.629752	CTHfyP2b0Z2MujO1U4	192.168.120.10	1042	65.39.172.126	80	1	GET	network.stripthere.com	/mars/iLog.php?dl=5.9&log=Loader: 506^BB	-	IE7.0	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1327717670.6967	CiniFB1QJb2teCIOv4	192.168.120.10	1043	64.34.154.74	80	1	GET	i.d2f3.com	/oops/images/a03cb4b8e5bb148134a57a2c87ddacd9.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5380	200	OK	-	-	-	(empty)	-	-	-	-	-	FTlpSD29kVkYEudrcj	application/jar
+1327717670.702414	Cj7hwE1vIhOYkHhErl	192.168.120.10	1044	64.34.154.74	80	1	GET	i.d2f3.com	/oops/images/r/a03cb4b8e5bb148134a57a2c87ddacd9.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	2909	200	OK	-	-	-	(empty)	-	-	-	-	-	Fy0qsF22W3ISEMnmX8	application/jar
+1327717670.957018	CkkpwL2KCd85ALhIB3	192.168.120.10	1045	64.34.154.74	80	1	GET	i.d2f3.com	/oops/images/r/a03cb4b8e5bb148134a57a2c87ddacd9.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	2909	200	OK	-	-	-	(empty)	-	-	-	-	-	FSW6YhbreirVYK3T6	application/jar
+1327717671.159827	C0zNbg1lt2RIDyFxRj	192.168.120.10	1046	64.34.154.74	80	1	GET	i.d2f3.com	/oops/images/a03cb4b8e5bb148134a57a2c87ddacd9.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5380	200	OK	-	-	-	(empty)	-	-	-	-	-	FsQ0fp4V4wa37AI20c	application/jar
+1327717671.288083	Crwn9w2KKqrLjw6W9k	192.168.120.10	1047	64.34.154.74	80	1	GET	i.d2f3.com	/oops/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	1695	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FSFOqn2c9EHsaVFfqe	text/html
+1327717671.39949	ChPmfl1nVIMDrxHfqf	192.168.120.10	1049	64.34.154.74	80	1	GET	i.d2f3.com	/oops/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	1697	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F2i9UG3HHQMyaTXx6h	text/html
+1327717671.514222	CrLmu34GvTs7EVd0Ua	192.168.120.10	1050	64.34.154.74	80	1	GET	i.d2f3.com	/oops/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	1697	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FzJYhr4Ew4yhrlb5Cf	text/html
+1327717671.624971	CgcxkiTfy6YmJdyU9	192.168.120.10	1051	64.34.154.74	80	1	GET	i.d2f3.com	/oops/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	1695	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FyrjkX3scXYCjHyf2d	text/html
+1327717671.372661	CEFtVp219MuZImNuo3	192.168.120.10	1048	64.34.154.74	80	1	GET	i.d2f3.com	/oops/server_privileges.php?dd6fbea61d7367a4b2ce79086ce1519e=2	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	305152	200	OK	-	-	-	(empty)	-	-	-	-	-	Fh6n9n1lLvMGzZ7yj	application/x-dosexec
+1327717671.852144	C5i8GxmRGPdgACekg	192.168.120.10	1052	64.34.154.74	80	1	GET	i.d2f3.com	/oops/server_privileges.php?dd6fbea61d7367a4b2ce79086ce1519e=3	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	305152	200	OK	-	-	-	(empty)	-	-	-	-	-	FYVGvh3tS2wOyyspRc	application/x-dosexec
+#close	2014-04-03-10-10-40

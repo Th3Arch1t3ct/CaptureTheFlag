@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-00-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1339869941.049737	CHq0oEDCB9LpvZp9e	192.168.44.10	1067	46.182.109.32	80	FPUe4y4m69uVz66vv7	application/x-dosexec	http://1k6.info/w.php?f=c5826&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 12%  Last seen: 2012-06-18 14:18:46	https://www.virustotal.com/en/search/?query=a4ba5d866f03b722390d16ae6117bd4b37cdf1a4	192.168.44.10	46.182.109.32	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1339869941.051901	CoYael474vg9AhgM5g	192.168.44.10	1069	46.182.109.32	80	FtoG6H31iDdxe1iey3	application/x-shockwave-flash	http://1k6.info/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 75%  Last seen: 2012-09-14 14:05:04	https://www.virustotal.com/en/search/?query=27474f210893b69a5204dcafb6d9fc12b743dc1f	192.168.44.10	46.182.109.32	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1339869948.717022	CBQTAr4HmIwwxP2LEc	192.168.44.10	1072	46.182.109.32	80	F6X17i4124fn8r8FX1	application/x-dosexec	http://1k6.info/w.php?f=c5826&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 12%  Last seen: 2012-06-18 14:18:46	https://www.virustotal.com/en/search/?query=a4ba5d866f03b722390d16ae6117bd4b37cdf1a4	192.168.44.10	46.182.109.32	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1339869954.072974	C8BBf04HiHwyRYLo5c	192.168.44.10	1074	46.182.109.32	80	FCtOX69mEunpGmCF7	application/x-dosexec	http://1k6.info/w.php?f=c5826&e=0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 12%  Last seen: 2012-06-18 14:18:46	https://www.virustotal.com/en/search/?query=a4ba5d866f03b722390d16ae6117bd4b37cdf1a4	192.168.44.10	46.182.109.32	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-00-24

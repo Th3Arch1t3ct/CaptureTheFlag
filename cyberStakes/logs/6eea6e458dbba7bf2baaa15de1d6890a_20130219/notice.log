@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-19-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1361318497.280447	ChgWaR1wmcAVHWX0w6	192.168.115.10	1044	129.121.219.142	80	Frf0Wl1ihWcl0VWpmc	application/x-dosexec	http://129.121.219.142/ae93963f73ff682727c8663026548583/ae93963f73ff682727c8663026548583/q.php?af=1h:1k:1i:1f:31&je=1g:1n:32:33:1n:1n:1n:2v:31:1o&h=1f&oo=f&me=c	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2013-04-19 08:54:07	https://www.virustotal.com/en/search/?query=2df044c27e375beecc9e2f5f8853e32831d8c7df	192.168.115.10	129.121.219.142	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1361318516.767616	CYt5uu22xQvC6YVQYk	192.168.115.10	1075	129.121.219.142	80	F8cGVr18P38KlgHz6c	application/x-dosexec	http://129.121.219.142/ae93963f73ff682727c8663026548583/ae93963f73ff682727c8663026548583/q.php?afmgd=1h:1k:1i:1f:31&lulsxgqb=1g:1n:32:33:1n:1n:1n:2v:31:1o&xcunnz=1i&ffvzidlp=lzwc&qiueb=tnxp	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2013-04-19 08:54:07	https://www.virustotal.com/en/search/?query=2df044c27e375beecc9e2f5f8853e32831d8c7df	192.168.115.10	129.121.219.142	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-19-15

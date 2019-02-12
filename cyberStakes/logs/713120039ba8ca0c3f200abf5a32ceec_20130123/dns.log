@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-57-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1358927705.070791	CnJomD1ijsz9zAJhHl	192.168.111.10	1029	4.2.2.3	53	udp	53135	anthropophagousrjpussyow.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.170.52.31,93.170.52.21	283.000000,283.000000	F
+1358927705.390106	CnJomD1ijsz9zAJhHl	192.168.111.10	1029	4.2.2.3	53	udp	9868	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.228.0,74.125.228.5,74.125.228.2,74.125.228.9,74.125.228.8,74.125.228.14,74.125.228.1,74.125.228.3,74.125.228.7,74.125.228.4,74.125.228.6	32676.000000,206.000000,206.000000,206.000000,206.000000,206.000000,206.000000,206.000000,206.000000,206.000000,206.000000,206.000000	F
+1358927705.396027	CnJomD1ijsz9zAJhHl	192.168.111.10	1029	4.2.2.3	53	udp	11917	speakru.gormless.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.131.138.218	10.000000	F
+1358927705.704411	CnJomD1ijsz9zAJhHl	192.168.111.10	1029	4.2.2.3	53	udp	58509	fbstatic-a.akamaihd.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fbstatic-a.akamaihd.net.edgesuite.net,a1168.dsw4.akamai.net,24.143.197.9,24.143.197.59	39.000000,229.000000,18.000000,18.000000	F
+#close	2014-04-03-10-57-15

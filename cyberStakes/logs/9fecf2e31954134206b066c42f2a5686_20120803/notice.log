@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-53-41
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1343954158.983988	CNdmLv1zagAeysv1Vd	192.168.8.10	1032	208.76.52.102	80	FQak9r3XSYFkjlFcu3	application/x-dosexec	http://attentiongettingdokogeo.info/w.php?f=5a20e&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 31%  Last seen: 2012-08-05 23:45:03	https://www.virustotal.com/en/search/?query=3dfd854373fcecd1559f2613415bc3968db5602a	192.168.8.10	208.76.52.102	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1343954159.347565	CNdmLv1zagAeysv1Vd	192.168.8.10	1032	208.76.52.102	80	FUJT5h4L5h7vXKDU8	application/x-dosexec	http://attentiongettingdokogeo.info/w.php?f=5a20e&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 31%  Last seen: 2012-08-05 23:45:03	https://www.virustotal.com/en/search/?query=3dfd854373fcecd1559f2613415bc3968db5602a	192.168.8.10	208.76.52.102	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1343954160.784045	CNdmLv1zagAeysv1Vd	192.168.8.10	1032	208.76.52.102	80	Fpl0KXPoYuYlgpVdc	application/x-shockwave-flash	http://attentiongettingdokogeo.info/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 60%  Last seen: 2012-09-06 19:30:37	https://www.virustotal.com/en/search/?query=d55886f888b40f7c4069473c59408afb6ed8a2df	192.168.8.10	208.76.52.102	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1343954162.848076	CjiqXt3WHRfHZAuya9	192.168.8.10	1043	208.76.52.102	80	F67lco1hzp6ecTbnZe	application/x-dosexec	http://attentiongettingdokogeo.info/w.php?f=5a20e&e=0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 31%  Last seen: 2012-08-05 23:45:03	https://www.virustotal.com/en/search/?query=3dfd854373fcecd1559f2613415bc3968db5602a	192.168.8.10	208.76.52.102	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-53-42

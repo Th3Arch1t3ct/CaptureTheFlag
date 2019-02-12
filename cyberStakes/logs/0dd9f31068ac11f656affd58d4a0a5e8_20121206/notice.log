@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-12-16
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1354783429.166197	C9yIJd18zZJ3Nudqmk	192.168.2.10	1095	188.190.125.79	80	F1hQSq4HFmq0hNIRY3	application/x-dosexec	http://adnew.net/asd/index.php	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2012-12-07 23:42:14	https://www.virustotal.com/en/search/?query=ecbe6ef1f3e1d458b04ee93201f3c4b71ccbe705	192.168.2.10	188.190.125.79	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-12-16

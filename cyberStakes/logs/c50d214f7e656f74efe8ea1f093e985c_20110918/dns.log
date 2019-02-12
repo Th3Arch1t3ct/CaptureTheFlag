@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-48-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1316331643.04681	Cjp5Er4TwhrfVYVqR1	192.168.17.10	1029	4.2.2.3	53	udp	52623	hollowbonesshaolin.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	72.249.174.2	14375.000000	F
+1316331643.433912	Cjp5Er4TwhrfVYVqR1	192.168.17.10	1029	4.2.2.3	53	udp	32908	ie7-js.googlecode.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlecode.l.google.com,74.125.47.82	39494.000000,220.000000	F
+1316331644.346642	Cjp5Er4TwhrfVYVqR1	192.168.17.10	1029	4.2.2.3	53	udp	42381	www.powerupproductions.tv	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.163.242.205	14400.000000	F
+1316331645.216249	Cjp5Er4TwhrfVYVqR1	192.168.17.10	1029	4.2.2.3	53	udp	21642	mcapenang.cu.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.201.174.28	3600.000000	F
+1316331650.021277	Cjp5Er4TwhrfVYVqR1	192.168.17.10	1029	4.2.2.3	53	udp	38539	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	2044.000000,69.000000	F
+1316331650.194104	Cjp5Er4TwhrfVYVqR1	192.168.17.10	1029	4.2.2.3	53	udp	61064	adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.150.16.117	5442.000000	F
+1316331650.215295	Cjp5Er4TwhrfVYVqR1	192.168.17.10	1029	4.2.2.3	53	udp	30345	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,64.4.52.169	1498.000000,600.000000	F
+1316331655.653114	CaJPUA3rVb1EpFFB13	192.168.17.10	1065	4.2.2.5	53	udp	13107	a-softwareupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.212.192.228	3600.000000	F
+1316331655.652944	CfcobW1gagsYoPyOO4	192.168.17.10	1065	4.2.2.3	53	udp	13107	a-softwareupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.212.192.228	3600.000000	F
+1316331678.521044	CtNU0Y3x4n5A9yh2Nb	192.168.17.10	1029	4.2.2.3	53	udp	13193	cedept.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.210.98.165	14400.000000	F
+1316331687.450131	CtNU0Y3x4n5A9yh2Nb	192.168.17.10	1029	4.2.2.3	53	udp	3721	www.tidomuca.co.tv	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.228.133.56	8478.000000	F
+1316331711.867344	CPKpk84Yun2Es3Xqz	192.168.17.10	1029	4.2.2.3	53	udp	13702	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.157.104,74.125.157.147,74.125.157.99	39741.000000,240.000000,240.000000,240.000000	F
+#close	2014-04-03-10-48-30

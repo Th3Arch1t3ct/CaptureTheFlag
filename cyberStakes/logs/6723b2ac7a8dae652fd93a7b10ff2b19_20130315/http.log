@@ -1,0 +1,31 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-01-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1363329425.220865	CKFK9d3RkG9SPTJOC8	192.168.124.10	1030	199.85.212.80	80	1	GET	mergl.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1611	200	OK	-	-	-	(empty)	-	-	-	-	-	Fu8pap3FiUKsCEH2Ah	text/html
+1363329425.961749	CPbMwX1HYsEY4dVvy2	192.168.124.10	1031	199.85.212.80	80	1	GET	mergl.com	/images/opening_image.png	http://mergl.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4260	200	OK	-	-	-	(empty)	-	-	-	-	-	FAgDP94VfVwEW4zlX1	image/png
+1363329426.008631	CGqfflTY1zzUa3g1l	192.168.124.10	1032	97.74.141.1	80	1	GET	iaws.org	/aeoi.html?i=1282843	http://mergl.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	-	-
+1363329426.19813	CMxrJB4hELLVGDjI8c	192.168.124.10	1033	72.167.232.213	80	1	GET	sticcc.com	/aeoi.htm?i=1282843	http://mergl.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	12777	200	OK	-	-	-	(empty)	-	-	-	-	-	FEoavD1E7H9BNU2yqd	text/html
+1363329428.366189	CMxrJB4hELLVGDjI8c	192.168.124.10	1033	72.167.232.213	80	2	GET	sticcc.com	/987.pdf	http://sticcc.com/aeoi.htm?i=1282843	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5508	200	OK	-	-	-	(empty)	-	-	-	-	-	FR2FPD1JZWLEfAYGNj	binary
+1363329429.198319	CZOyqp43fhDfalJNW1	192.168.124.10	1039	72.167.232.213	80	1	GET	sticcc.com	/887.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1363329429.219725	CYJJ2w2XBIXhA03HWl	192.168.124.10	1038	72.167.232.213	80	1	GET	sticcc.com	/332.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	23362	200	OK	-	-	-	(empty)	-	-	-	-	-	FYM1Cq2BF1OceHfuk1	application/jar
+1363329430.474874	CZOyqp43fhDfalJNW1	192.168.124.10	1039	72.167.232.213	80	2	GET	sticcc.com	/887.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1363329431.641747	CZOyqp43fhDfalJNW1	192.168.124.10	1039	72.167.232.213	80	3	GET	sticcc.com	/Vlast.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	388	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FKgkWT05SRtHYmuK9	text/html
+1363329431.789004	CZOyqp43fhDfalJNW1	192.168.124.10	1039	72.167.232.213	80	4	GET	sticcc.com	/Vlast/class.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	394	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FGAgBz3HY7yMtBr7Db	text/html
+1363329431.031658	CYJJ2w2XBIXhA03HWl	192.168.124.10	1038	72.167.232.213	80	2	GET	sticcc.com	/332.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	23362	200	OK	-	-	-	(empty)	-	-	-	-	-	FHFQPVdAOIaS0l9ui	application/jar
+1363329434.442975	CYJJ2w2XBIXhA03HWl	192.168.124.10	1038	72.167.232.213	80	3	GET	sticcc.com	/332.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	23362	200	OK	-	-	-	(empty)	-	-	-	-	-	FCQoZb3GjHOTXZ75gl	application/jar
+1363329435.90512	CYJJ2w2XBIXhA03HWl	192.168.124.10	1038	72.167.232.213	80	4	GET	sticcc.com	/332.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	23362	200	OK	-	-	-	(empty)	-	-	-	-	-	Fm9W0G3zOJIj33HTwc	application/jar
+1363329438.42322	CYJJ2w2XBIXhA03HWl	192.168.124.10	1038	72.167.232.213	80	5	GET	sticcc.com	/33.html	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	85376	200	OK	-	-	-	(empty)	-	-	-	-	-	FWR60C2Nr6lD1gKY6k	binary
+1363329441.459535	CMxrJB4hELLVGDjI8c	192.168.124.10	1033	72.167.232.213	80	3	GET	sticcc.com	/62.html	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	85369	200	OK	-	-	-	(empty)	-	-	-	-	-	Fsb1cz2bXCRUmbBWUg	application/x-dosexec
+1363329442.124188	CZOyqp43fhDfalJNW1	192.168.124.10	1039	72.167.232.213	80	5	GET	sticcc.com	/332.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	23362	200	OK	-	-	-	(empty)	-	-	-	-	-	Fw5qaD4SdQ2eRa9OVi	application/jar
+1363329449.193059	CTcGh03dm2fXsTys6i	192.168.124.10	1040	174.132.159.186	80	1	GET	seomavericks.com	/b.htm?q4dOmsmgekOi1rxy85b4A3cUQkB8ogGuZ1	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	113017	200	OK	-	-	-	(empty)	-	-	-	-	-	FdUwQA2Q8gB325IeCj	binary
+1363329451.054953	CQiAH34T3Ks3nnIm85	192.168.124.10	1041	96.125.174.10	80	1	GET	michaeloliver.com	/i.htm?pi3M3RPUhiqiYLCWoHaTbYEwdGAvz9rKH	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	164864	200	OK	-	-	-	(empty)	-	-	-	-	-	FLDtTy3a8CWPoePTV	binary
+1363329452.462338	C2xYSXVRSmAZHuGH5	192.168.124.10	1042	72.167.232.152	80	1	POST	chadnelson.net	/default.php?Vk9hFRvS1NAW3ifPtHvNRqYxYIxd8vxIkgW2p	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	269	16	200	OK	-	-	-	(empty)	-	-	-	FUfHkS3ri7jKHvQyK	binary	FZJATA4G4cWgxVNej3	text/plain
+1363329452.876939	CjGuqp19uhFXxAUVUc	192.168.124.10	1043	74.220.207.189	80	1	GET	badspade.com	/m.htm?o1chv9jVvUfsJ8lugu5dZ8M5YdCNDIpPxjyq9B	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	41984	200	OK	-	-	-	(empty)	-	-	-	-	-	FrclrW38foe3uAHx9l	binary
+1363329454.458346	CQiAH34T3Ks3nnIm85	192.168.124.10	1041	96.125.174.10	80	2	GET	michaeloliver.com	/i.htm?pi3M3RPUhiqiYLCWoHaTbYEwdGAvz9rKH	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	123	200	OK	-	-	-	(empty)	-	-	-	-	-	FGZUOF3nAhKIJKJVNh	binary
+1363329470.982572	CNLp974nYYynchyrA	192.168.124.10	1046	78.140.131.158	80	1	GET	megaupload.com	/upload/fid=BwCbAAEAAhEBAAEFCAAAAAAAAAAAAAAAAAAAAACQDQMNCwAAAF6TJl_iETqNrLhzgiZvmW_twEJRAABVVVVVVVVVVVVVVVVVVVVVaCHOAfpOqNwCEQEAVXd1bXNtfWNvZXMzMmhnOGc4OAJGkzUK3f4TbwAAAAAAAQcAAAAHAAAANFYA	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)	0	562	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FMXY7Y1ShgQeXBGnQa	text/html
+#close	2014-04-03-11-01-57

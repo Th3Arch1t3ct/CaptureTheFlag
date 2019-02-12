@@ -1,0 +1,28 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-36-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1345237731.293709	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1345237790.923815	CRvxQZTfVkMFmjcG3	192.168.122.10	1099	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1345237790.924066	C8ZB7k1AZdQBHtPvQl	192.168.122.10	1099	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1345237791.050652	CrlFyZHYGzE7qNLZa	192.168.122.10	1101	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1345237791.050906	CxJUi94AmjFfNKBcPl	192.168.122.10	1101	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1345237791.491818	C0eWRj1BoTlmCWTVn8	192.168.122.10	1103	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1345237791.492455	C435A3awezZzzoyxf	192.168.122.10	1103	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1345237791.502401	CXvDB63ic1tnTpfIH2	192.168.122.10	1105	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1345237791.502601	CJ9uYh2AKK1mrAV1zf	192.168.122.10	1105	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1345237791.509542	CpU9ei2Xg3kxgRSHsh	192.168.122.10	1108	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1345237791.509703	CVdgW632Pqh16lJV64	192.168.122.10	1108	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1345237792.619783	CRSmBO2s2MrfOWxZrb	192.168.122.10	1112	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1345237792.619928	CijZjf4pptRNlURj17	192.168.122.10	1112	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1345237792.634955	C5P2kO2clLQDi9fK54	192.168.122.10	1114	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1345237792.635091	CjXEzp17zK7K9n4YZ6	192.168.122.10	1114	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1345237792.654184	CeQs0f43O0tLDslLoj	192.168.122.10	1116	91.193.74.13	53	DNS_Conn_count_too_large	-	F	bro
+1345237792.654371	CnPsip2SjHtoo8e3A4	192.168.122.10	1116	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1345237810.068378	CgD7cs2nQ6rofgQ2	192.168.122.10	1129	92.53.8.3	80	bad_HTTP_request	-	F	bro
+1345237810.068378	CgD7cs2nQ6rofgQ2	192.168.122.10	1129	92.53.8.3	80	line_terminated_with_single_CR	-	F	bro
+#close	2014-04-03-10-36-14

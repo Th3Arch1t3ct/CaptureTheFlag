@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-14-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1315306400.182432	CriI5JIphB2HYefec	192.168.58.10	1029	4.2.2.3	53	udp	57994	besthumidifierforbaby.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.120.243.130	14373.000000	F
+1315306401.129788	CriI5JIphB2HYefec	192.168.58.10	1029	4.2.2.3	53	udp	14986	migliato.com.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	187.45.193.157	3600.000000	F
+1315306401.706363	CriI5JIphB2HYefec	192.168.58.10	1029	4.2.2.3	53	udp	12681	mardonio.cu.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.66.184	3600.000000	F
+1315306401.780866	CriI5JIphB2HYefec	192.168.58.10	1029	4.2.2.3	53	udp	62863	ecx.images-amazon.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ecx.images-amazon.com.edgesuite.net,a1509.g.akamai.net,24.143.201.34,24.143.201.33	47.000000,9689.000000,7.000000,7.000000	F
+1315306412.457579	CriI5JIphB2HYefec	192.168.58.10	1029	4.2.2.3	53	udp	7310	adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.150.16.117	28800.000000	F
+1315306412.785973	CriI5JIphB2HYefec	192.168.58.10	1029	4.2.2.3	53	udp	55692	theriba.cu.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.66.184	3600.000000	F
+1315306437.854042	CJXxpq2DrUoXccHV9	192.168.58.10	1029	4.2.2.3	53	udp	45955	rebeccajessop.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.249.137.9	14400.000000	F
+1315306438.577697	CJXxpq2DrUoXccHV9	192.168.58.10	1029	4.2.2.3	53	udp	51073	mistykatz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	205.134.252.251	14400.000000	F
+#close	2014-04-03-11-14-06

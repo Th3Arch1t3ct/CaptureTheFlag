@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-11-12-40
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1313242582.655118	CpYx4OEFccTo7v8Gk	192.168.96.10	1029	4.2.2.3	53	udp	dns	0.364291	66	98	SF	-	0	Dd	2	122	2	154	(empty)
+1313242597.51742	C4iCqX3SOugEQAEQhf	192.168.96.10	1042	193.105.154.135	80	tcp	http	0.942635	279	5204	SF	-	0	ShADadFf	8	607	8	5532	(empty)
+1313242597.518697	CRGH2c4KcgPCFWrpX4	192.168.96.10	1043	91.193.72.70	80	tcp	http	1.103820	191	13836	SF	-	0	ShADadFf	11	639	14	14404	(empty)
+1313242598.727158	CTmpoz3wmzuvNkvUA2	192.168.96.10	1045	193.105.154.135	80	tcp	http	1.444226	199	263580	SF	-	0	ShADadFf	115	4807	187	271068	(empty)
+1313242598.552867	CA3BQ12C3jJjVOL1Sc	192.168.96.10	1044	193.105.154.135	80	tcp	http	9.459795	199	263580	SF	-	0	ShADadFf	114	4767	187	271068	(empty)
+1313242566.573596	CtlRudOh89wJEXcti	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.001939	626	0	S0	-	0	D	2	682	0	0	(empty)
+1313242566.575167	CiFuyl2Cs1KykOV2za	192.168.96.10	68	192.168.96.1	67	udp	dhcp	12.874076	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1313242582.674312	C4rhv43ruDK6MKPK03	192.168.96.10	1030	193.105.154.222	80	tcp	http	65.383509	532	46463	RSTO	-	0	ShADadRf	27	1620	37	47951	(empty)
+1313242585.729749	C9dslx1lWICQ3XJtic	192.168.96.10	1040	239.255.255.250	1900	udp	-	7.510593	399	0	S0	-	0	D	3	483	0	0	(empty)
+1313242583.021194	CnvLI72tXcv8GIxlue	192.168.96.10	1031	193.105.154.135	80	tcp	http	69.995670	1102	77501	RSTO	-	0	ShADadfR	39	2670	59	79869	(empty)
+1313242607.026775	Ce135l1jz4ECtYUdGh	192.168.96.10	1046	193.105.154.135	80	tcp	http	0.411009	151	316	S1	-	0	ShADad	4	319	3	444	(empty)
+1313242585.723311	CcRCsG4LnlCtYLlgq	192.168.96.10	1037	193.105.154.135	80	tcp	http	76.263136	1064	527164	S3	-	0	ShADadf	242	10752	370	541972	(empty)
+#close	2014-04-03-11-12-40

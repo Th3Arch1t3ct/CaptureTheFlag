@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-34-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1333749810.4893	CQEqXRispIqtqWhui	192.168.111.10	1029	4.2.2.3	53	udp	54417	russee-hammer.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.237.140.12	10775.000000	F
+1333749811.980067	CQEqXRispIqtqWhui	192.168.111.10	1029	4.2.2.3	53	udp	29075	ads4ususausa.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.98.42.71	43200.000000	F
+1333749824.526998	Czpedh2XRwIX7Ns012	192.168.111.10	1041	8.8.4.4	53	udp	4660	aaa1adasadasda444.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.106.31.45	33936.000000	F
+1333749825.009508	Cgh4As2seL0ibLWFSa	192.168.111.10	1044	8.8.4.4	53	udp	4660	themcc.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.208.249.235	10800.000000	F
+1333749825.704001	CyzklcU73v6iqCB8k	192.168.111.10	1047	8.8.4.4	53	udp	4660	aaa1adasadasda444.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.106.31.45	33935.000000	F
+1333749832.7999	Cvz25r3iLTpZuRZxJk	192.168.111.10	1029	4.2.2.3	53	udp	20373	www.schulferien-aktuell.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.165.213.19	10800.000000	F
+1333749832.923502	Cvz25r3iLTpZuRZxJk	192.168.111.10	1029	4.2.2.3	53	udp	50325	www.andyhoppe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	87.106.243.222	43200.000000	F
+1333749864.897496	CdmRYa21x7RYQ8Fny2	192.168.111.10	1029	4.2.2.3	53	udp	45974	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.47.147,74.125.47.99,74.125.47.103,74.125.47.104,74.125.47.105,74.125.47.106	23701.000000,70.000000,70.000000,70.000000,70.000000,70.000000,70.000000	F
+#close	2014-04-03-10-34-25

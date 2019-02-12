@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-30-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1316240504.265797	CN2bcf2PuTG30iCHX8	192.168.63.10	1062	188.40.52.9	80	F1gvea4fXvOCZzzSE1	application/x-dosexec	http://188.40.52.9/webroot/cnh.php?i=15	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 73%  Last seen: 2013-11-20 03:26:22	https://www.virustotal.com/en/search/?query=fff55f3fcd248b8a4f050455ea37009ada722a9e	192.168.63.10	188.40.52.9	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1316240504.415972	C9wwc51ePy9whtmgc	192.168.63.10	1067	188.40.52.9	80	FzD0Kk3KknWKnyl108	application/jar	http://selenszx18.co.cc/webroot/drkscmkzkrxnj.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 100%  Last seen: 2011-12-02 09:52:22	https://www.virustotal.com/en/search/?query=a88104455ca83fb99cfdfc0dd89ac9fa2cb6e2af	192.168.63.10	188.40.52.9	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1316240506.309341	CPXKqV1doPjBNEWxT6	192.168.63.10	1082	188.40.52.9	80	FjPEXK2kDIzagOt4Xg	application/x-dosexec	http://188.40.52.9/webroot/cnh.php?i=1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 73%  Last seen: 2013-11-20 03:26:22	https://www.virustotal.com/en/search/?query=fff55f3fcd248b8a4f050455ea37009ada722a9e	192.168.63.10	188.40.52.9	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1316240506.639955	Cf9tId1Dv1ZaMsk0Da	192.168.63.10	1076	188.40.52.9	80	FiMqNk2OKYw2XCTzNc	application/x-dosexec	http://selens.net/exe/test.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 21%  Last seen: 2011-09-15 02:40:00	https://www.virustotal.com/en/search/?query=7827a55d8d964b9b77a38b6eb876b737efe5a0c1	192.168.63.10	188.40.52.9	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1316240532.852183	CyRXxl2I2Fu9GS7tUf	192.168.63.10	1084	188.40.52.9	80	FUdiyl1yfgFFKQqKj4	application/x-dosexec	http://villabalis.com/dl.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 73%  Last seen: 2013-11-20 03:26:22	https://www.virustotal.com/en/search/?query=fff55f3fcd248b8a4f050455ea37009ada722a9e	192.168.63.10	188.40.52.9	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1316240532.855715	CsMVuQ2SMIxnrgGAr6	192.168.63.10	1083	188.40.52.9	80	FTeuYc2sIW8baZUET7	application/x-dosexec	http://epfm.net/mx.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 15%  Last seen: 2011-09-13 05:43:53	https://www.virustotal.com/en/search/?query=d021896ecbeed7ca2ce51063b1c3d02dc2400daa	192.168.63.10	188.40.52.9	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-30-13

@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-17-37
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1394926273.250161	FVkPA3PxOyUsQQng1	50.7.28.2	192.168.85.10	CLdF5x2XYnkjj5Adri	HTTP	0	MD5,SHA1	text/html	-	0.000077	-	F	4070	-	0	0	F	-	e43411193ec9c09142431a7a78722dfd	5c05a3fa63fbae47699072d20ae43432d5066904	-	-
+1394926273.408612	F3XaJCfBHmwrTi9Pc	50.7.28.2	192.168.85.10	C1gROj1rg6El4pKC38	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	3658	3658	0	0	F	-	7cdc058afa1248654cf70d19bf33cc3f	074d4ac46c038b4cd0492fd3165cec6f6099795b	-	-
+1394926273.592347	Fu35022pEz2TuWcMy2	50.7.28.2	192.168.85.10	CvGbvz3UkjJtCSIbHd	HTTP	0	MD5,SHA1	image/png	-	0.000000	-	F	1228	1228	0	0	F	-	8d499cb0e4e89f1f31392efd3d5e7488	0f93d41bf590678ee28c622abb704da472053805	-	-
+1394926273.608087	FuWxuBelbcDlrAUn5	50.7.28.2	192.168.85.10	COwZwQ19IFTMVSarP4	HTTP	0	MD5,SHA1	image/png	-	0.000000	-	F	2760	2760	0	0	F	-	801523b37c1577417ea501be8751080f	c47191cfc671e6e941b0daed433ec0cb11024949	-	-
+1394926273.607319	F8jZoy3wXKfWmhGa5g	50.7.28.2	192.168.85.10	CboMq12EyI4Qwectl	HTTP	0	MD5,SHA1	image/png	-	0.055678	-	F	6122	6122	0	0	F	-	0b716932f22e2f578e2d8d2d268d3967	bb31760cbe6e66afd84d19d5635f4998f6ce1301	-	-
+1394926273.708572	FPEiOP2wWkIfkr86Vh	50.7.28.2	192.168.85.10	Cqs4633623Ra6mVqb4	HTTP	0	MD5,SHA1	image/png	-	0.000000	-	F	2200	2200	0	0	F	-	e328ca740f68064a804250b95d47446d	a2e5940ed0acc63f6ded733c7df6980614f646f8	-	-
+1394926273.965644	FpMwaRKWsGScpG9Pi	50.7.28.2	192.168.85.10	CmII5c3TvIB0Zmp1Rk	HTTP	0	MD5,SHA1	image/x-icon	-	0.000000	-	F	1150	1150	0	0	F	-	f0015beb65b830b554c6a6777ac75173	9094ed0968d5feac7ecd4e3425c7f8b7d47538ce	-	-
+1394926274.042457	F6h9n8AXdg4uPlea7	50.7.28.2	192.168.85.10	CcjrMY1LOnxmKuOb0d	HTTP	0	MD5,SHA1	application/x-dosexec	download_downloader.exe	0.055510	-	F	3804	7172792	0	0	F	-	9d09f2814918908fc4ad05b1f813f0d2	439d9df425eeb8656ac186b0c8062642b39abbea	-	-
+#close	2014-04-03-10-17-37

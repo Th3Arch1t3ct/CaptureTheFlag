@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-36-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1338017312.877942	C3cl7d1PkbWdnWjOP3	192.168.35.10	1029	4.2.2.3	53	udp	64654	conquersales.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.236.84.194	573.000000	F
+1338017313.211126	C3cl7d1PkbWdnWjOP3	192.168.35.10	1029	4.2.2.3	53	udp	31119	commandsales.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.236.84.194	572.000000	F
+1338017313.560862	C3cl7d1PkbWdnWjOP3	192.168.35.10	1029	4.2.2.3	53	udp	29836	zzzzz.lpnow.hop.clickbank.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	96.47.69.61,96.47.69.60	900.000000,900.000000	F
+1338017313.639596	C3cl7d1PkbWdnWjOP3	192.168.35.10	1029	4.2.2.3	53	udp	12429	xaadfarw.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.149.244.140	10.000000	F
+1338017314.313073	C3cl7d1PkbWdnWjOP3	192.168.35.10	1029	4.2.2.3	53	udp	55690	www.learnphotoshopnow.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	learnphotoshopnow.com,83.223.124.24	14400.000000,14400.000000	F
+1338017315.265601	C3cl7d1PkbWdnWjOP3	192.168.35.10	1029	4.2.2.3	53	udp	50826	banners564.s3.amazonaws.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	s3-1-w.amazonaws.com,205.251.242.197	2400.000000,60.000000	F
+1338017315.267614	CIMiMSmJTg3d346Jl	192.168.35.10	1039	4.2.2.3	53	udp	61322	app.getresponse.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	207.8.198.26	60.000000	F
+1338017321.326934	C3cl7d1PkbWdnWjOP3	192.168.35.10	1029	4.2.2.3	53	udp	64651	photoshopfasttrack.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.23.44.130	14400.000000	F
+1338017322.287299	C3cl7d1PkbWdnWjOP3	192.168.35.10	1029	4.2.2.3	53	udp	52872	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.71.95	2169.000000,214.000000	F
+#close	2014-04-03-10-36-56

@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-24-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1321170488.955782	CfrRDi3hVAWSmwL2l8	192.168.72.10	1029	4.2.2.3	53	udp	46480	jannettyracing.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.63.3.130	577.000000	F
+1321170490.030215	CfrRDi3hVAWSmwL2l8	192.168.72.10	1029	4.2.2.3	53	udp	8083	essentialdayspa.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.194.214.82	41604.000000	F
+1321170512.180668	CGbVnX1oXU3Q53IVf3	192.168.72.10	1029	4.2.2.3	53	udp	12690	crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.51.190	397.000000,1.000000	F
+1321170512.261484	CGbVnX1oXU3Q53IVf3	192.168.72.10	1029	4.2.2.3	53	udp	6805	csc3-2004-crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.51.190	878.000000,1.000000	F
+1321170513.661898	CGbVnX1oXU3Q53IVf3	192.168.72.10	1029	4.2.2.3	53	udp	10132	mektek.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.162.123.226	5239.000000	F
+1321170513.667706	CuLZY43d2HiTCFnfKa	192.168.72.10	1044	4.2.2.3	53	udp	21655	worldorderlive.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.199.251.242	3315.000000	F
+1321170523.932366	C0dwUN1iCvxMb3LV4e	192.168.72.10	1029	4.2.2.3	53	udp	32662	transaerosystems.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.230.234	42450.000000	F
+1321170534.80701	COpquA4teSwZKd5K85	192.168.72.10	1029	4.2.2.3	53	udp	59544	tri-countymech.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	68.178.232.99	3600.000000	F
+1321170544.894004	Cf0smn4r1UW1c923jg	192.168.72.10	1029	4.2.2.3	53	udp	11672	rumperstumprs.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.230.234	359.000000	F
+#close	2014-04-03-10-24-57

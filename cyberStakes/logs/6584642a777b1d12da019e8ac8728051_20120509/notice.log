@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-30-16
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1336554393.847229	Cx1Rlc2fIWICKIALOh	192.168.46.10	1057	50.30.47.81	80	F90Dsl37RoStURqif8	application/x-dosexec	http://www.nscnvcb.in/1.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2012-05-14 01:23:10	https://www.virustotal.com/en/search/?query=2f14bf2484e58ee10cc3854b8fc795965f17165e	192.168.46.10	50.30.47.81	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336554395.358738	C4kGka3fgEmSX7xOA8	192.168.46.10	1068	37.59.198.60	80	FzIVFM1Il7v2Yrj0e6	application/x-dosexec	http://mnoredbull.org/?63f8dcb713d624631422984efe7b27d8	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-06-08 06:18:25	https://www.virustotal.com/en/search/?query=c94621f75829c8dcea1859237670d59a9226d329	192.168.46.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336554395.851844	CRgLHk3yRKC66O76o4	192.168.46.10	1069	37.59.198.60	80	FwFas52pO3wgW2UO6f	application/x-dosexec	http://mnoredbull.org/?d6e8a9c3a8db43ceb39197d1e1b6773c	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-05-27 09:07:04	https://www.virustotal.com/en/search/?query=ce11858095385750400033f5baeb8a5282fbf5be	192.168.46.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336554420.568674	CdFSsq2y9DwRHiZ8qi	192.168.46.10	1075	37.59.198.60	80	FMc7o349XFE8nbIb0b	application/x-dosexec	http://mnoredbull.org/?afa819bc8aff6a2afdc08d57bdc7dc56	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-06-08 06:18:25	https://www.virustotal.com/en/search/?query=c94621f75829c8dcea1859237670d59a9226d329	192.168.46.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-30-16

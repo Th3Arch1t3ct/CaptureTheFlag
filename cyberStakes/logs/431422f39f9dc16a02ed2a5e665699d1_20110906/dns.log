@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-03-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1315301283.741078	CH9MGx1XskYEnUFTbb	192.168.106.10	1029	4.2.2.3	53	udp	20367	pitahouserestaurant.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	206.188.192.252	7174.000000	F
+1315301283.873101	CH9MGx1XskYEnUFTbb	192.168.106.10	1029	4.2.2.3	53	udp	43916	rebotstat.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.212.192.228	3600.000000	F
+1315301284.109009	CH9MGx1XskYEnUFTbb	192.168.106.10	1029	4.2.2.3	53	udp	58253	chookegg.cu.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.66.184	3600.000000	F
+1315301291.624235	CH9MGx1XskYEnUFTbb	192.168.106.10	1029	4.2.2.3	53	udp	13194	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	417.000000,170.000000	F
+1315301291.734961	CH9MGx1XskYEnUFTbb	192.168.106.10	1029	4.2.2.3	53	udp	62088	adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.150.16.117	4941.000000	F
+1315301291.793291	CH9MGx1XskYEnUFTbb	192.168.106.10	1029	4.2.2.3	53	udp	1416	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,64.4.52.169	418.000000,470.000000	F
+1315301316.704955	CvciTh1U010V7zgW3g	192.168.106.10	1029	4.2.2.3	53	udp	16008	rebeccajessop.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.249.137.9	2889.000000	F
+1315301317.382479	CvciTh1U010V7zgW3g	192.168.106.10	1029	4.2.2.3	53	udp	63881	mistykatz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	205.134.252.251	14400.000000	F
+1315301345.605234	CeodP15WRV2bDtYHl	192.168.106.10	1029	4.2.2.3	53	udp	52871	130607db091b.edataupdate.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	202.150.208.68	3600.000000	F
+#close	2014-04-03-10-03-05

@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-15-49
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1379457769.699075	FLzVCdIPzsr0o8i3	192.185.5.140	192.168.89.10	Cu1Ssm3SXoWAUGwt03	HTTP	0	MD5,SHA1	text/html	-	0.000045	-	F	25302	-	0	0	F	-	48b15d6d8bde39734d115438bd02c1d6	d26e8a73c433b34aa8293a08e9345b000cb73353	-	-
+1379457770.186864	FIepsf1yj7BQR1y7Wb	192.185.5.140	192.168.89.10	Cu1Ssm3SXoWAUGwt03	HTTP	0	MD5,SHA1	text/plain	-	0.000072	-	F	14296	14296	0	0	F	-	429fcc77a219be73a9e515bfad3a65d3	277f04946b02ec71b6d7f8c0657fa26a383b6a66	-	-
+1379457770.175751	Fi4P832dcjN9dbXUz2	192.185.5.140	192.168.89.10	Cn5ROq49K0DHX5ZcK6	HTTP	0	MD5,SHA1	text/plain	-	0.095030	-	F	14888	14888	0	0	F	-	229c1491ac1a6dc984c6b07a442ae952	243dc87436bfdd53348ecf93f6987d7ba6e92a36	-	-
+1379457770.628573	Fl6RYx4vGAWtv9CJBh	192.185.5.140	192.168.89.10	Cu1Ssm3SXoWAUGwt03	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	1718	1718	0	0	F	-	e5af05ce7035c3b83a2b42c3e1abed7d	4809340c43a82e38dbfdd3467bbe551e16fb8347	-	-
+1379457770.737024	F0yTLXXPTTCLevE74	192.185.5.140	192.168.89.10	Cn5ROq49K0DHX5ZcK6	HTTP	0	MD5,SHA1	image/png	-	0.000026	-	F	5507	5507	0	0	F	-	b2fe303386784f84d070b045019d2371	414a8e357fe67964f3cc04a2ad8bbc3e9c77af2e	-	-
+1379457770.803256	Fh9sMw4kLmCq5DTDf2	54.241.149.139	192.168.89.10	CcEP7u2I1YSGDBXO45	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	270	270	0	0	F	-	6107a242d55ff4c25a0c2b3751f5ff8b	7d730080fc8b89fbe91710a7dd7870ecba48a198	-	-
+1379457771.076014	F4NCYA3hbcLZCcM7Rk	98.129.229.201	192.168.89.10	CkDwRh4em6OqyOJxx9	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	2	2	0	0	F	-	d784fa8b6d98d27699781bd9a7cf19f0	dd122581c8cd44d0227f9c305581ffcb4b6f1b46	-	-
+1379457771.216766	FIzqi5XDpCtqjPSP1	66.77.96.140	192.168.89.10	COvBSt3p5albpdite	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	247	247	0	0	F	-	c94770d77df2b7d36bbcf304504d0b6d	1a3febd8191a9d2fa459a8b8f54a13c58dac18a7	-	-
+1379457771.280544	F2MRou4VKpGGoL8aj	66.77.96.140	192.168.89.10	COvBSt3p5albpdite	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	200	200	0	0	F	-	9ac54336289507208c0ac5f43fd74f77	dce6d55c3c47c7a447ac31c667fb486732c3fab3	-	-
+1379457771.429716	FuRezT3dOhOmEnxslb	72.21.81.128	192.168.89.10	CqkVoS3jXIPRR7duh2	HTTP	0	MD5,SHA1	application/x-dosexec	vioplayer2_d3993199.exe	0.057267	-	F	101650	1907792	0	0	F	-	8d56bb279520d90c4ca81050939b4fea	65c4959aceccc306e1f6d357d3312c60146540ce	-	-
+#close	2014-04-03-10-15-49

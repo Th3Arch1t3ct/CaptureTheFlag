@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-26-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1328813661.342105	CkbIRhdoiqQnT0Mdh	192.168.57.10	1029	4.2.2.3	53	udp	dns	0.001183	26	42	SF	-	0	Dd	1	54	1	70	(empty)
+1328813661.345614	Cljpkg1OtHH5g7TRB5	192.168.57.10	1030	208.109.78.128	80	tcp	http	14.636624	280	518	SF	-	0	ShAaDdfF	5	488	6	758	(empty)
+1328813675.983293	CTuj8zxHNPd2Fixl2	192.168.57.10	1029	4.2.2.3	53	udp	dns	0.891207	118	166	SF	-	0	Dd	3	202	3	250	(empty)
+1328813694.189451	Cq9BqA2wQ9JEaUsdo6	192.168.57.10	1029	4.2.2.3	53	udp	dns	0.021515	49	65	SF	-	0	Dd	1	77	1	93	(empty)
+1328813696.422717	CVQFAs1nMaaQ3xLcp1	192.168.57.10	1040	174.127.81.214	80	tcp	http	10.531780	1583	9478	SF	-	0	ShADdFaf	16	2231	16	10126	(empty)
+1328813697.4806	C9yo9R2UVaVi0v6Lbd	192.168.57.10	1041	46.249.35.84	80	tcp	http	9.570194	328	195000	SF	-	0	ShADdFaf	88	3856	145	200808	(empty)
+1328813658.163493	CEnOHs2Zwvq2T8bOjb	192.168.57.10	68	192.168.57.1	67	udp	dhcp	0.000339	314	300	SF	-	0	Dd	1	342	1	328	(empty)
+1328813663.431327	Chz92L32SUvvGlogAc	192.168.57.10	1033	239.255.255.250	1900	udp	-	6.069611	399	0	S0	-	0	D	3	483	0	0	(empty)
+1328813694.21188	Cr7pRC3FoF8uhtLANg	192.168.57.10	1039	46.249.35.84	80	tcp	http	32.737954	313	195020	RSTO	-	0	ShADdR	84	3681	143	200748	(empty)
+1328813675.984758	C7YRFL2hNvm4rqJkS6	192.168.57.10	1035	95.163.67.193	80	tcp	http	60.452774	305	918	S3	-	0	ShADadf	5	513	4	1082	(empty)
+1328813676.942547	CYch95KV1h7gVNj6	192.168.57.10	1038	174.127.81.214	80	tcp	http	17.425268	1998	73598	S1	-	0	ShADd	43	3726	65	76206	(empty)
+1328813676.637146	CCyTi244dkLlFlZvHi	192.168.57.10	1036	67.213.222.18	80	tcp	http	0.269574	366	951	S1	-	0	ShADd	4	534	2	1039	(empty)
+1328813676.875298	Cuukiz1V2p3kyDaRKb	192.168.57.10	1037	174.127.81.214	80	tcp	http	17.472288	2851	62534	S1	-	0	ShADd	38	4379	49	64502	(empty)
+#close	2014-04-03-10-26-12

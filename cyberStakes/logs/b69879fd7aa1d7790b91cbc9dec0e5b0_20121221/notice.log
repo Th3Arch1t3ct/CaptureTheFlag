@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-31-47
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1356067169.635779	Cr6JNB4Nnhw8obqNxf	192.168.66.10	1042	82.165.124.13	80	FA2ce42qD4zZU5xsWh	application/x-dosexec	http://blackspin.com/33.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 48%  Last seen: 2013-01-16 00:19:51	https://www.virustotal.com/en/search/?query=2b8b5090f49794afe8e1a0c82a8f15f2e1d3f36a	192.168.66.10	82.165.124.13	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-31-47

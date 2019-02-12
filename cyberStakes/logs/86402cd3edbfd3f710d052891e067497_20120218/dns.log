@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-59-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1329588994.59792	Ce94Ur24kMsBfFZq66	192.168.117.10	1029	4.2.2.3	53	udp	57994	amherstoffleash.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	75.119.220.58	14385.000000	F
+1329588995.483113	Ce94Ur24kMsBfFZq66	192.168.117.10	1029	4.2.2.3	53	udp	10890	www.amherstoffleash.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	75.119.220.58	14385.000000	F
+1329588996.642077	Ce94Ur24kMsBfFZq66	192.168.117.10	1029	4.2.2.3	53	udp	51848	tin04gobs.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.116.198.33	21600.000000	F
+1329588997.534756	Ce94Ur24kMsBfFZq66	192.168.117.10	1029	4.2.2.3	53	udp	55439	edu11tch.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.116.198.33	21600.000000	F
+1329588998.536333	Ce94Ur24kMsBfFZq66	192.168.117.10	1029	4.2.2.3	53	udp	62094	www3.personalaggdefense.net.tc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.238.105	3600.000000	F
+1329588999.058369	Ce94Ur24kMsBfFZq66	192.168.117.10	1029	4.2.2.3	53	udp	55693	www1.smart-checkerfl.net.tf	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.102	3600.000000	F
+1329589010.298296	Ce94Ur24kMsBfFZq66	192.168.117.10	1029	4.2.2.3	53	udp	62604	www1.strongdlkchecker.uni.me	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.142.217	43200.000000	F
+1329589047.06135	CXHkWc4Gq2Gp1EBFl3	192.168.117.10	1029	80.90.43.19	53	udp	51084	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	69.65.40.176	86400.000000	F
+#close	2014-04-03-09-59-59

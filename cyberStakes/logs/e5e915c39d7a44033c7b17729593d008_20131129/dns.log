@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-41-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1385751282.38328	Cgmjq24lHst1RjgUDh	192.168.34.10	1028	4.2.2.3	53	udp	8896	hdcorona.ca	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.90.163.230	14400.000000	F
+1385751282.665607	Cgmjq24lHst1RjgUDh	192.168.34.10	1028	4.2.2.3	53	udp	11712	espaceformation.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.28.98.70	820.000000	F
+1385751284.580136	Cgmjq24lHst1RjgUDh	192.168.34.10	1028	4.2.2.3	53	udp	30402	fonts.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.28.95	2150.000000,292.000000	F
+1385751284.690826	Cgmjq24lHst1RjgUDh	192.168.34.10	1028	4.2.2.3	53	udp	15298	themes.googleusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlehosted.l.googleusercontent.com,74.125.224.106,74.125.224.107,74.125.224.108	74051.000000,71.000000,71.000000,71.000000	F
+1385751286.214553	Cgmjq24lHst1RjgUDh	192.168.34.10	1028	4.2.2.3	53	udp	62915	404.imingo.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.28.98.75	900.000000	F
+1385751286.325082	CIwH1q9z4gsKRxoC7	192.168.34.10	1041	4.2.2.3	53	udp	27844	www3.faxdoej4.kjyg.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.116.34.246	86400.000000	F
+1385751286.997283	Cgmjq24lHst1RjgUDh	192.168.34.10	1028	4.2.2.3	53	udp	12996	www1.bnyrb9e7lknt18.4pu.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.199.250.148	30.000000	F
+1385751287.444502	Cgmjq24lHst1RjgUDh	192.168.34.10	1028	4.2.2.3	53	udp	7108	l.yimg.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fd-geoycs-l.gy1.b.yahoodns.net,ds-fo-anyycs-l.ay1.b.yahoodns.net,216.115.97.236	3650.000000,275.000000,68.000000	F
+1385751292.037687	Cgmjq24lHst1RjgUDh	192.168.34.10	1028	4.2.2.3	53	udp	23237	148.250.199.66.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	66-199-250-148.reverse.ezzi.net	3600.000000	F
+1385751292.637892	Cgmjq24lHst1RjgUDh	192.168.34.10	1028	4.2.2.3	53	udp	62152	www2.qdhcvng5z2om0.apfi.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	65.98.83.119	86400.000000	F
+1385751292.183892	Cgmjq24lHst1RjgUDh	192.168.34.10	1028	4.2.2.3	53	udp	61127	66-199-250-148.reverse.ezzi.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1385751330.853165	CuQ9a84YOlqMaluO5f	192.168.34.10	1028	208.115.221.125	53	udp	9160	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	50.31.74.56	7200.000000	F
+#close	2014-04-03-10-41-20

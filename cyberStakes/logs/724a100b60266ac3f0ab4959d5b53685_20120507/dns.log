@@ -1,0 +1,29 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-00-17
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1336394962.621221	Ctoti74RmmZz6JG6m1	192.168.108.10	1029	4.2.2.3	53	udp	65163	giftsforrunners.com.au	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	116.0.23.243	10774.000000	F
+1336394963.074468	Ctoti74RmmZz6JG6m1	192.168.108.10	1029	4.2.2.3	53	udp	37259	www.estore.giftsforrunners.com.au	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	116.0.23.243	10775.000000	F
+1336394964.651955	Ctoti74RmmZz6JG6m1	192.168.108.10	1029	4.2.2.3	53	udp	47754	estore.giftsforrunners.com.au	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	116.0.23.243	10779.000000	F
+1336394984.102105	C3fxYQ3nGufsxb9jl2	192.168.108.10	1029	4.2.2.3	53	udp	3721	bbigtree.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	212.95.58.73	30.000000	F
+1336394984.790553	C3fxYQ3nGufsxb9jl2	192.168.108.10	1029	4.2.2.3	53	udp	55432	deftower.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.59.198.60	30.000000	F
+1336395004.094429	CpapHw3luModtFQK0j	192.168.108.10	1074	8.8.8.8	53	udp	13107	promos.fling.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.91.207.10	54.000000	F
+1336395004.206256	CZmJWt333NbcMXvWX6	192.168.108.10	1077	94.242.250.64	53	udp	46405	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336395004.215216	CsZuQS3tqpfVdsxi45	192.168.108.10	1079	94.242.250.64	53	udp	46405	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336395004.2617	CKgEyt4zX47TmzBIl2	192.168.108.10	1081	94.242.250.64	53	udp	46405	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336395004.27697	CnjzOQ3QnDRtsQF3g5	192.168.108.10	1083	94.242.250.64	53	udp	46405	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336395004.280656	CFoM2r4W4eSsGHXfv2	192.168.108.10	1085	94.242.250.64	53	udp	46405	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336395004.285061	CyewEM2OukiQLs6xda	192.168.108.10	1087	94.242.250.64	53	udp	46405	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336395004.288385	C4JKsn3uwO6dH0Hpv7	192.168.108.10	1089	94.242.250.64	53	udp	46405	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336395004.290414	C2HZaW2u7SJ1XzuFO6	192.168.108.10	1091	94.242.250.64	53	udp	46405	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336395004.299835	C42rrl2aJwsvSWe6x9	192.168.108.10	1093	94.242.250.64	53	udp	46405	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336395004.302052	CRJCVh4A6Ji7uZ4kr	192.168.108.10	1095	94.242.250.64	53	udp	46405	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336395004.303515	C3oxLH3eTRnaaUHtc3	192.168.108.10	1097	94.242.250.64	53	udp	46405	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336395004.311272	Cixtvk4LgtmfpVi9i	192.168.108.10	1099	94.242.250.64	53	udp	46405	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336395005.09781	CwwcJJ3fgrdmm2kn03	192.168.108.10	1101	94.242.250.64	53	udp	46405	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1336395005.11523	CvmvJ23vChz8CJjwh6	192.168.108.10	1103	94.242.250.64	53	udp	46405	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+#close	2014-04-03-10-00-18

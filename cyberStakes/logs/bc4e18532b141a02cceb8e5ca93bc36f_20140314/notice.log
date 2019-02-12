@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-07-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1394838537.309755	C98ORw2oSXYKR31tc8	192.168.36.10	1664	5.39.69.232	80	FQYUj53jTUdjESMcPc	application/x-dosexec	http://download.descargar.es/installers/out/003130031400315/piid-01234567899874563210012345678912/ax/descargares/english/us-1phads/msie/utorrent/i/782198027fc5094c479d3ef9a43b22b5/ici/installer_utorrent_English.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2014-03-21 04:05:34	https://www.virustotal.com/en/search/?query=fce1281b2f0d2cba92946fe7d9c449f58a3bdadb	192.168.36.10	5.39.69.232	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-07-37

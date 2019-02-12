@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-59-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1321784470.459322	CodaFQ1kBoDb8vN8h8	192.168.97.10	1031	184.22.115.56	80	Fy0krC2hNCDlvEsx71	application/x-dosexec	http://re7mhz41oybx3pqnaujlkt-sf92w806v5gdic.n-4-8v5-e6w-o3.is-very-evil.org/load.php?spl=mdac&b=ie&o=xp&i=mdac	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2011-12-08 05:39:52	https://www.virustotal.com/en/search/?query=d6ba16dd737d81b3ceb493c8ce227021ef7054e5	192.168.97.10	184.22.115.56	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1321784509.297741	CmSOkQ2gGmqCCSyNId	192.168.97.10	1044	184.22.115.56	80	FSQAkx31Wq6hRCsamh	application/jar	http://re7mhz41oybx3pqnaujlkt-sf92w806v5gdic.n-4-8v5-e6w-o3.is-very-evil.org/serial.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 80%  Last seen: 2013-09-13 11:06:11	https://www.virustotal.com/en/search/?query=c27c755d3c0811ada0e7954469e98579149bb008	192.168.97.10	184.22.115.56	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1321784509.297741	CmSOkQ2gGmqCCSyNId	192.168.97.10	1044	184.22.115.56	80	FBXNzs3J2tJJzNvSye	application/jar	http://re7mhz41oybx3pqnaujlkt-sf92w806v5gdic.n-4-8v5-e6w-o3.is-very-evil.org/serial.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 80%  Last seen: 2013-09-13 11:06:11	https://www.virustotal.com/en/search/?query=c27c755d3c0811ada0e7954469e98579149bb008	192.168.97.10	184.22.115.56	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-59-11

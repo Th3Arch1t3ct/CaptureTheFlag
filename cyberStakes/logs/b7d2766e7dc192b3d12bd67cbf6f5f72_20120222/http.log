@@ -1,0 +1,35 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-07-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1329934483.398442	CSNd5k4GdmNsHrJNdg	192.168.44.10	1030	146.185.18.51	80	1	GET	opaltube.info	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1329934483.735756	CNmTW13QafK9A9v894	192.168.44.10	1031	95.168.178.70	80	1	GET	ayellow.info	/?4473b92f795b19d2f7212f6b3952acb1	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	310	200	OK	-	-	-	(empty)	-	-	-	-	-	FInrnO3TaH6ijNgoH6	text/html
+1329934485.784959	CbGsHz1O5bZtJCnUb	192.168.44.10	1036	95.168.178.70	80	1	GET	ayellow.info	/?0bdf8eb1229080a90f93092adb2c1779	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4802	200	OK	-	-	-	(empty)	-	-	-	-	-	FJJ0rI3OXJJ0lfQio9	application/jar
+1329934485.788983	CuX6OH2IhdljSAEDh3	192.168.44.10	1037	95.168.178.70	80	1	GET	ayellow.info	/?35a5f02cd13cc6fa748155c023c722d4	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4185	200	OK	-	-	-	(empty)	-	-	-	-	-	FXGP7ucjrZcBDaQI2	application/jar
+1329934486.042565	C6lHN912QEkiuh98Ge	192.168.44.10	1038	95.168.178.70	80	1	GET	ayellow.info	/?0bdf8eb1229080a90f93092adb2c1779	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4802	200	OK	-	-	-	(empty)	-	-	-	-	-	F0jpbP2JfdvvEHeWc4	application/jar
+1329934486.046568	ChLbQh3TCmyUCRbdsd	192.168.44.10	1039	95.168.178.70	80	1	GET	ayellow.info	/?35a5f02cd13cc6fa748155c023c722d4	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4185	200	OK	-	-	-	(empty)	-	-	-	-	-	FWiH2RUqSwRmCl8A9	application/jar
+1329934486.409595	CwtGSr21taoILG8en1	192.168.44.10	1040	95.168.178.70	80	1	GET	ayellow.info	/?35a5f02cd13cc6fa748155c023c722d4	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4185	200	OK	-	-	-	(empty)	-	-	-	-	-	F39PvLxqWRPj9w52g	application/jar
+1329934486.592276	C5KiMaLNa731ykSG7	192.168.44.10	1041	95.168.178.70	80	1	GET	ayellow.info	/?0bdf8eb1229080a90f93092adb2c1779	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4802	200	OK	-	-	-	(empty)	-	-	-	-	-	Fl7Hmk1Mxt3up4EWJ8	application/jar
+1329934486.717709	C8uHHb1Hrlv2KuvIii	192.168.44.10	1042	95.168.178.70	80	1	GET	ayellow.info	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FcxlqG4CtIkZpNFIFg	text/html
+1329934486.953994	CGsfWz4kSBbIvvkiB9	192.168.44.10	1044	95.168.178.70	80	1	GET	ayellow.info	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FGv0IH14dCU5iVm0X	text/html
+1329934487.186239	CNIgJa27QhFm6bVzR4	192.168.44.10	1045	95.168.178.70	80	1	GET	ayellow.info	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FskRlZ29sqoEcuzIA2	text/html
+1329934487.422504	CDLlrCjk74odrSJsf	192.168.44.10	1046	95.168.178.70	80	1	GET	ayellow.info	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FbjQcw18drFI3Sjw97	text/html
+1329934486.87824	CDQUYJ3mH6EO21ZCwj	192.168.44.10	1043	95.168.178.70	80	1	GET	ayellow.info	/?aafb010bbcbbad4a83b6294eb30e0612	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	316416	200	OK	-	-	-	(empty)	-	-	-	-	-	FRgKkG1E7214U0l8o7	application/x-dosexec
+1329934487.705459	CgriRa3gHPHqSFQWbb	192.168.44.10	1047	95.168.178.70	80	1	GET	ayellow.info	/?c8ac0ba99ee77da14974f30f49a32c44	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	316416	200	OK	-	-	-	(empty)	-	-	-	-	-	FZHkCy5oJ6LnxExt5	application/x-dosexec
+1329934489.29183	ChbU8Q2QNs8Z7V7hh1	192.168.44.10	1048	95.168.178.70	80	1	GET	ayellow.info	/?573fc1753b4eceb5c4a5b3f97145fe36	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	854016	200	OK	-	-	-	(empty)	-	-	-	-	-	FyeDia4pOGWqoDPIY1	application/x-dosexec
+1329934490.083053	Ca5VMqAuSSY1wdh86	192.168.44.10	1049	95.168.178.70	80	1	GET	ayellow.info	/?7cc35393e03c5d955a0bada0b7c0d8a4	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	854016	200	OK	-	-	-	(empty)	-	-	-	-	-	FWE7dO2WrnIOqTToPg	application/x-dosexec
+1329934491.877506	CLtAMI1QODEOc6DLuh	192.168.44.10	1050	95.168.178.70	80	1	GET	ayellow.info	/?0c8eea6888f3a9b27cf1fc5f3cbd0f13	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	195624	200	OK	-	-	-	(empty)	-	-	-	-	-	Fl5wal4L60TyKEfzoi	application/x-dosexec
+1329934493.164927	CZrLXb4lqSq7zTczI9	192.168.44.10	1052	190.9.35.199	80	1	GET	190.9.35.199	/view.php?rnd=787721	-	-	0	32	200	OK	-	-	-	(empty)	-	-	-	-	-	FbaQBC1jvYRcH4wT19	text/html
+1329934492.702431	CCOgfR3NQBttOTszLl	192.168.44.10	1051	95.168.178.70	80	1	GET	ayellow.info	/?f0269f57c9562bb6a33af1fb342b38f0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	195624	200	OK	-	-	-	(empty)	-	-	-	-	-	Fo0pi61aSmBWee5zb5	application/x-dosexec
+1329934493.853222	CMKUqU1ai0ovtZst2j	192.168.44.10	1053	190.9.35.199	80	1	GET	190.9.35.199	/view.php?rnd=787721	-	-	0	32	200	OK	-	-	-	(empty)	-	-	-	-	-	FGH30q1jOHoLyRADdk	text/html
+1329934493.972075	CwKAmB3YpQwBlKXOZ6	192.168.44.10	1054	95.168.178.70	80	1	GET	ayellow.info	/?c8ac0ba99ee77da14974f30f49a32c44	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	316416	200	OK	-	-	-	(empty)	-	-	-	-	-	FrfgfWRuA35ZUsXT8	application/x-dosexec
+1329934495.73097	Cmislj2JLOXUCMZGdk	192.168.44.10	1056	95.168.178.70	80	1	GET	ayellow.info	/?f0269f57c9562bb6a33af1fb342b38f0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	195624	200	OK	-	-	-	(empty)	-	-	-	-	-	FJwL8w1c7U45KLPJLb	application/x-dosexec
+1329934496.946128	Cd4ISr4xOIWsbEpHUd	192.168.44.10	1057	190.9.35.199	80	1	GET	190.9.35.199	/view.php?rnd=787721	-	-	0	32	200	OK	-	-	-	(empty)	-	-	-	-	-	FXyu4r33hSC2wtaWn8	text/html
+1329934523.835894	CP0ao1142SkT9meE82	192.168.44.10	1058	75.125.251.122	80	1	GET	pipeboys.com	/css/css.php?id=95	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2	200	OK	-	-	-	(empty)	-	-	-	-	-	Fkgmqf4w36LIf4pfn	text/plain
+1329934495.373791	C9pnLj1xzIRAR2JwR8	192.168.44.10	1055	95.168.178.70	80	1	GET	ayellow.info	/?7cc35393e03c5d955a0bada0b7c0d8a4	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	81398	200	OK	-	-	-	(empty)	-	-	-	-	-	FsK1uW2i38edWToSg	application/x-dosexec
+1329934524.635012	CeKYN18CCKFCJGuJc	192.168.44.10	1059	72.167.207.74	80	1	GET	oneathleticmom.com	/images/b.php?id=95	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-11-07-25

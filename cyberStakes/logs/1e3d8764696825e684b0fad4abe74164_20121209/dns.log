@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-01-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1355083450.309471	C8L7gh4rPBzQoPjNwb	192.168.67.10	1029	4.2.2.3	53	udp	51084	download-manage.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	149.13.65.188,149.13.65.189	600.000000,600.000000	F
+1355083450.788511	C8L7gh4rPBzQoPjNwb	192.168.67.10	1029	4.2.2.3	53	udp	52367	code.jquery.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wac.1257.edgecastcdn.net,neb1.wac.v2cdn.net,93.184.216.119	598697.000000,408.000000,3569.000000	F
+1355083451.383581	C8L7gh4rPBzQoPjNwb	192.168.67.10	1029	4.2.2.3	53	udp	35214	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.137.139,74.125.137.100,74.125.137.113,74.125.137.138,74.125.137.102,74.125.137.101	78319.000000,176.000000,176.000000,176.000000,176.000000,176.000000,176.000000	F
+1355083451.388485	C8L7gh4rPBzQoPjNwb	192.168.67.10	1029	4.2.2.3	53	udp	17289	adf.ly	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.39.236.36	300.000000	F
+1355083458.75581	C8L7gh4rPBzQoPjNwb	192.168.67.10	1029	4.2.2.3	53	udp	16520	dn.download-manage.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.9.104.22,5.9.104.21,5.9.121.45,176.9.92.131,5.9.104.23,5.9.104.18,5.9.121.44,5.9.121.47,5.9.55.137,5.9.104.20,5.9.88.142,5.9.105.2,5.9.95.204,5.9.9.44	600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000	F
+#close	2014-04-03-10-01-54

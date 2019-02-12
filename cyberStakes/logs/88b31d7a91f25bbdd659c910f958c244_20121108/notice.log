@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-36-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1352406852.613039	CnIubm4XDrX86BpfEf	192.168.37.10	1040	46.235.8.175	80	FeVfzl2qqE8HtOUfrg	application/x-dosexec	http://lwjttqlniekv.lookin.at/k/causes/layout_detailed_this_reveal.php?tva=1f:31:1n:1l:32&wtapup=1g:2v:2v:1j:30:1h:1l:2w:33:1o&kodkmprw=1h&asegierx=ssds&jjbrj=wrkdzjwp	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 38%  Last seen: 2012-11-11 01:41:24	https://www.virustotal.com/en/search/?query=4c1a0639d860c7e739680f69656d4af24e6961b5	192.168.37.10	46.235.8.175	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1352406852.845559	CpczmaoAUsFhVtLni	192.168.37.10	1045	46.235.8.175	80	FyLxg7nr6FGiVukS1	application/x-dosexec	http://lwjttqlniekv.lookin.at/k/causes/layout_detailed_this_reveal.php?wjix=1f:31:1n:1l:32&igoi=1g:2v:2v:1j:30:1h:1l:2w:33:1o&ylqgnmju=1g&wvqxqi=jyl&enb=ixygf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 38%  Last seen: 2012-11-11 01:41:24	https://www.virustotal.com/en/search/?query=4c1a0639d860c7e739680f69656d4af24e6961b5	192.168.37.10	46.235.8.175	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1352406873.858885	CGYFyP2jAKGaNGq8g3	192.168.37.10	1053	46.235.8.175	80	Fjx0OU3LmOGMssoLk4	application/x-dosexec	http://lwjttqlniekv.lookin.at/k/causes/layout_detailed_this_reveal.php?uf=1f:31:1n:1l:32&se=1g:2v:2v:1j:30:1h:1l:2w:33:1o&t=1f&vc=w&nf=p	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 38%  Last seen: 2012-11-11 01:41:24	https://www.virustotal.com/en/search/?query=4c1a0639d860c7e739680f69656d4af24e6961b5	192.168.37.10	46.235.8.175	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-36-37

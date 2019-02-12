@@ -1,0 +1,31 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-14-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1327053899.530683	CjuiaK2ngwWzTlpUT1	192.168.85.10	1029	66.7.193.11	80	1	GET	iconsday.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4668	200	OK	-	-	-	(empty)	-	-	-	-	-	F9EOR538deWMp4ecA3	text/html
+1327053899.693757	CIY6z2FSz3HE0fWF2	192.168.85.10	1032	66.7.193.11	80	1	GET	iconsday.com	/slides/css_js/AC_RunActiveContent.js	http://iconsday.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	8029	200	OK	-	-	-	(empty)	-	-	-	-	-	Fl8B1yghORBzh6t4g	text/plain
+1327053900.077036	CxpjOci5JNRLCyrZj	192.168.85.10	1037	69.31.75.203	80	1	GET	tcr.tynt.com	/javascripts/Tracer.js?user=astoL4mvOr36UvadbiUt4I&s=151&lang=el	http://iconsday.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	15759	200	OK	-	-	-	(empty)	-	-	-	-	-	FUwF5U1zexOpHGkJK9	text/plain
+1327053900.183109	CE1FXC46GyxMeXL3oj	192.168.85.10	1038	98.124.198.1	80	1	GET	webordermanager.com	/	http://iconsday.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	173	302	Object moved	-	-	-	(empty)	-	-	-	-	-	F3GvTj4KHLLT1iL3If	text/html
+1327053900.616613	CejOEg1DcI7CmfO5ke	192.168.85.10	1041	69.31.75.203	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1568	200	OK	-	-	-	(empty)	-	-	-	-	-	FWVpdvCcDe5uayK7h	text/html
+1327053900.342195	CxxaDo1ektLOF62TX6	192.168.85.10	1040	66.7.193.11	80	1	GET	iconsday.com	/17917.swf4.swf	http://iconsday.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1542561	200	OK	-	-	-	(empty)	-	-	-	-	-	F3686s48n0SWNGDYo6	application/x-shockwave-flash
+1327053900.908316	C9EfZu42pnDwiTJgz7	192.168.85.10	1039	203.170.193.102	80	1	GET	bluebuyers.com	/main.php?page=fee07fdf22edc585	http://iconsday.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	79746	200	OK	-	-	-	(empty)	-	-	-	-	-	FgxZhw1nC88HEhsmMi	text/html
+1327053916.088611	C9EfZu42pnDwiTJgz7	192.168.85.10	1039	203.170.193.102	80	2	GET	bluebuyers.com	/w.php?f=16&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	191488	200	OK	-	-	-	(empty)	-	-	-	-	-	F7s3QD4JOC9eCqrIK	application/x-dosexec
+1327053920.799597	C9EfZu42pnDwiTJgz7	192.168.85.10	1039	203.170.193.102	80	3	GET	bluebuyers.com	/content/fdp2.php?f=16	http://bluebuyers.com/main.php?page=fee07fdf22edc585	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	94506	200	OK	-	-	-	(empty)	-	-	-	-	-	FawMv03TzcRrFD0Uh6	application/pdf
+1327053937.680067	CKIxdGOysikygIV3h	192.168.85.10	1047	67.202.66.202	80	1	GET	ic.tynt.com	/b/p?id=astoL4mvOr36UvadbiUt4I&ts=1327068182328&t=Manthos H. - Photography	http://iconsday.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	35	200	OK	-	-	-	(empty)	-	-	-	-	-	F7Am6g25WCZvJXEsid	image/gif
+1327053937.724473	CFzopR3aRMHXpjLCPh	192.168.85.10	1048	67.202.66.171	80	1	GET	de.tynt.com	/deb/?id=astoL4mvOr36UvadbiUt4I	http://iconsday.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	35	200	OK	-	-	-	(empty)	-	-	-	-	-	FcXfuz4z4rNaQXX4H	image/gif
+1327053938.207086	Cxew7OVP2sHhqSne4	192.168.85.10	1046	203.170.193.102	80	1	GET	bluebuyers.com	/content/field.swf	http://iconsday.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1464	200	OK	-	-	-	(empty)	-	-	-	-	-	FAAydn27xwpBPmyLfj	application/x-shockwave-flash
+1327053934.094447	C9EfZu42pnDwiTJgz7	192.168.85.10	1039	203.170.193.102	80	4	GET	bluebuyers.com	/w.php?f=16&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	191488	200	OK	-	-	-	(empty)	-	-	-	-	-	FJSduD1zmj3l9SIUL4	application/x-dosexec
+1327053941.75973	Ca7aA14GXuBtzTWBjb	192.168.85.10	1049	217.24.246.7	80	1	POST	potvamp.ru	/fukterama.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	77	11555	200	OK	-	-	-	(empty)	-	-	-	FatGjP1rL63hMy1ZG7	text/plain	Fb20CO2eLdu4p6fuI7	binary
+1327053950.606517	CTrIcM2YPFXwkFbFUb	192.168.85.10	1050	203.170.193.102	80	1	GET	bluebuyers.com	/content/v1.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4270	200	OK	-	-	-	(empty)	-	-	-	-	-	F90mwJ3dTd382TrOs1	application/zip
+1327053953.252758	CIZH6U2l7C3iI5IoKa	192.168.85.10	1051	203.170.193.102	80	1	GET	bluebuyers.com	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	162	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FJOjDDN1AVGFbscnh	text/html
+1327053953.845146	CIZH6U2l7C3iI5IoKa	192.168.85.10	1051	203.170.193.102	80	2	GET	bluebuyers.com	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	162	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FCTNBm2AqRh5agCyC9	text/html
+1327053954.458673	CIZH6U2l7C3iI5IoKa	192.168.85.10	1051	203.170.193.102	80	3	GET	bluebuyers.com	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	162	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FsPSiV1ywueA80xmCh	text/html
+1327053955.581349	CIZH6U2l7C3iI5IoKa	192.168.85.10	1051	203.170.193.102	80	4	GET	bluebuyers.com	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	162	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FglsjO1isqNCiPMmd	text/html
+1327053956.417943	CIZH6U2l7C3iI5IoKa	192.168.85.10	1051	203.170.193.102	80	5	GET	bluebuyers.com	/w.php?f=16&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	191488	200	OK	-	-	-	(empty)	-	-	-	-	-	FP8p1E3YxP7Y2jpYRj	application/x-dosexec
+1327053971.452462	CTghjx419p3nHAxa9k	192.168.85.10	1052	60.19.30.135	80	1	POST	snotarms.ru	/blacksabbat.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	434	0	-	-	-	-	-	(empty)	-	-	-	FCRHwF2kItYjn0Q3Ff	binary	-	-
+1327053971.449758	CWxcqL1PHOFGVXKMxj	192.168.85.10	1053	60.19.30.135	80	1	POST	snotarms.ru	/blacksabbat.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	297	0	-	-	-	-	-	(empty)	-	-	-	FXeKQs1YCbNM1TaaI5	binary	-	-
+#close	2014-04-03-10-14-22

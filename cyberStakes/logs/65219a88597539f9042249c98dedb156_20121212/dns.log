@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-18-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1355342586.898781	CZqZM4PucDaifkgE3	192.168.121.10	1028	4.2.2.3	53	udp	50820	speaklifedesigns.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.100.49.73	300.000000	F
+1355342588.294197	CZqZM4PucDaifkgE3	192.168.121.10	1028	4.2.2.3	53	udp	41605	nfiwano.freewww.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.63.158.214	31.000000	F
+1355342588.647453	CZqZM4PucDaifkgE3	192.168.121.10	1028	4.2.2.3	53	udp	39045	ofjufjztt.freewww.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.63.158.214	31.000000	F
+1355342591.83911	CZqZM4PucDaifkgE3	192.168.121.10	1028	4.2.2.3	53	udp	30855	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	2270.000000,231.000000	F
+1355342592.134037	CZqZM4PucDaifkgE3	192.168.121.10	1028	4.2.2.3	53	udp	7040	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,64.4.52.169	524.000000,286.000000	F
+1355342592.758898	CZqZM4PucDaifkgE3	192.168.121.10	1028	4.2.2.3	53	udp	5249	ofjufjztt.freewww.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.63.158.214	27.000000	F
+1355342622.439354	CghglA2cxpcRemVOHf	192.168.121.10	1028	4.2.2.3	53	udp	6274	str321.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.206.174.62	2500.000000	F
+1355342622.921733	CghglA2cxpcRemVOHf	192.168.121.10	1028	4.2.2.3	53	udp	48770	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,107.14.44.34,107.14.44.57	25036.000000,223.000000,19456.000000,20.000000,20.000000	F
+1355342623.491414	CghglA2cxpcRemVOHf	192.168.121.10	1028	4.2.2.3	53	udp	4227	avit2013.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.206.174.62	1249.000000	F
+1355342623.493854	CghglA2cxpcRemVOHf	192.168.121.10	1028	4.2.2.3	53	udp	29068	avit2013.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.206.174.62	1249.000000	F
+1355342633.424632	CUXhxI2M9uqVlTOkjl	192.168.121.10	1028	4.2.2.3	53	udp	1166	domainddincowsrows.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.249.58.122	3600.000000	F
+#close	2014-04-03-10-18-46

@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-04-52
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1395099042.646582	CD9FOG2529Flnw1qud	192.168.56.10	1065	64.71.187.120	443	TLSv10	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=*.relestar.com,OU=Domain Control Validated	serialNumber=07969287,CN=Go Daddy Secure Certification Authority,OU=http://certificates.godaddy.com/repository,O=GoDaddy.com\, Inc.,L=Scottsdale,ST=Arizona,C=US	1367658181.000000	1430730181.000000	-	-	-	0b47b913dc7ea09001591acaf40a3302	ok
+1395099060.251316	CcgYxx11MTJcWIKir4	192.168.56.10	1077	54.230.87.53	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.cloudfront.net,O=Amazon.com Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1366174800.000000	1461258000.000000	-	-	-	b416f6edd9ff31ac84fffffffff181af	ok
+1395099064.163165	C2NL551TuAtnFsXxW7	192.168.56.10	1081	54.230.85.202	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.cloudfront.net,O=Amazon.com Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1366174800.000000	1461258000.000000	-	-	-	b416f6edd9ff31ac84fffffffff181af	ok
+1395099064.790339	Cf6Ghv4hzltM7MUYli	192.168.56.10	1082	74.125.203.95	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleapis.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1393361678.000000	1401080400.000000	-	-	-	a0ad072f86f2ed9e48cffb44359d5697	ok
+1395099089.872009	CG9FiF4FDzKVoHXv9l	192.168.56.10	1109	192.150.19.49	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=www.macromedia.com,OU=IT,O=Adobe Systems Incorporated,L=San Jose,ST=California,C=US	CN=VeriSign Class 3 International Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1320818400.000000	1512885599.000000	-	-	-	c7acc12fd33217b3778baa6e0b267a6b	ok
+1395099104.885477	CNWewP35T3J1LL7pGf	192.168.56.10	1142	23.48.242.70	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=fpdownload.macromedia.com,OU=IT Operations,O=Macromedia,L=San Francisco,ST=California,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1390693216.000000	1422229216.000000	-	-	-	b9c6d267e2e873fb4f8dcaff3af1bc7e	ok
+1395099110.818678	CpyhXk2R5hQSoToNQj	192.168.56.10	1155	192.150.19.49	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	84a4f4c53a7b74893f07215370edb38936fdf1a783c7348cc172bfa60395bff4	-	-	-	-	-	-	-	-	-
+1395099120.504635	CjYiqF3GjVLRUrIyXj	192.168.56.10	1172	157.56.67.168	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.atdmt.com,OU=Atlas,O=Microsoft,L=Redmond,ST=WA,C=US	CN=MSIT Machine Auth CA 2,DC=redmond,DC=corp,DC=microsoft,DC=com	1382654286.000000	1445726286.000000	-	-	-	69b8da14ea5c5effdcb79927394bd6e0	ok
+1395099126.290129	CXyyLS1KzmLNIeIl56	192.168.56.10	1186	23.48.251.32	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.voicefive.com,OU=OSE,O=TMRG,L=Reston,ST=VIRGINIA,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1392581973.000000	1424117973.000000	-	-	-	1481f8adbf9f471b5364c5a2bb789e04	ok
+1395099126.91895	CokS1o4MZAYFO8ebgj	192.168.56.10	1187	165.254.146.43	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=a248.e.akamai.net,O=Akamai Technologies\, Inc.,L=Cambridge,ST=MA,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1374052540.000000	1405588540.000000	-	-	-	d1880a3900fe7baf2222276d095226e7	ok
+#close	2014-04-03-10-04-53

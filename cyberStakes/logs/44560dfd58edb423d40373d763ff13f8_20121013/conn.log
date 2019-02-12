@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-12-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1350120687.565696	C8SinB2O4JtUuaFIQj	192.168.10.10	1030	4.2.2.3	53	udp	dns	0.000912	35	51	SF	-	0	Dd	1	63	1	79	(empty)
+1350120687.567982	Coo00t3t6H9I5HgxMd	192.168.10.10	1031	118.139.170.1	80	tcp	http	15.809007	289	356	RSTO	-	0	ShADadfR	6	537	4	520	(empty)
+1350120694.034988	Cn4tJy1Uy419W23JA4	192.168.10.10	1038	103.4.225.41	80	tcp	http	1.184306	240	232	S1	-	0	ShADad	4	408	3	360	(empty)
+1350120689.614669	CkVKUG3MIL8lpdiba5	192.168.10.10	1033	188.165.95.15	80	tcp	http	16.388204	568	978784	S1	-	0	ShADad	523	23852	716	1007432	(empty)
+1350120704.959806	CGTrVG139Rr7kTcXze	192.168.10.10	1040	188.165.95.15	80	tcp	http	4.297881	229	489391	RSTO	-	0	ShADadR	228	10221	359	503759	(empty)
+1350120712.050427	CXBwSw3EE75pxKeOYi	192.168.10.10	1042	103.4.225.41	80	tcp	http	1.052416	276	161	RSTO	-	0	ShADadR	4	444	3	289	(empty)
+1350120700.689639	Cwma722K82vOgGm6w	192.168.10.10	1039	188.165.95.15	80	tcp	http	11.589147	1593	108145	SF	-	0	ShADadFf	55	3881	83	111473	(empty)
+1350120688.08804	CMdCSA4beOi7msVwHc	192.168.10.10	1032	188.165.95.15	80	tcp	http	2.084484	780	28868	S1	-	0	ShADad	19	1548	25	29876	(empty)
+1350120708.718001	CDzPJs4PWCtLeJrfhd	192.168.10.10	1041	103.4.225.41	80	tcp	http	1.086677	276	161	RSTO	-	0	ShADadR	4	444	3	289	(empty)
+1350120671.867428	Cf5i4lLQGHBwzrWBa	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000838	626	0	S0	-	0	D	2	682	0	0	(empty)
+1350120690.07445	C1jp8S1WgpvCz1iLj1	192.168.10.10	1036	239.255.255.250	1900	udp	-	7.321857	399	0	S0	-	0	D	3	483	0	0	(empty)
+1350120671.867808	CxYoyCGpf29clc7ei	192.168.10.10	68	192.168.10.1	67	udp	dhcp	12.572070	314	900	SF	-	0	dD	1	342	3	984	(empty)
+#close	2014-04-03-10-12-09

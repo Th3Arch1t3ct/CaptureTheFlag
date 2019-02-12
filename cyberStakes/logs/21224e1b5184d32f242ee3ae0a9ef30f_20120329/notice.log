@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-37-23
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1333011591.75972	Cm5sc93Maln6B4Ejdf	192.168.23.10	1056	50.22.8.116	80	FAbZwr1OYHDb1QV098	application/x-dosexec	http://mentinsacon.com/w.php?f=9235d&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 38%  Last seen: 2013-02-24 01:48:36	https://www.virustotal.com/en/search/?query=cb5955ace119dc57492b355b8c840a3f6fb224e6	192.168.23.10	50.22.8.116	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1333011594.345208	CXNtPY1vEkSrZOE9da	192.168.23.10	1063	50.22.8.116	80	FSXrRbZbwRZX1iYLj	application/x-shockwave-flash	http://mentinsacon.com/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 50%  Last seen: 2012-04-01 11:30:29	https://www.virustotal.com/en/search/?query=2fd2cffd811c6331a464b32945cd90e1059dfbf4	192.168.23.10	50.22.8.116	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-37-23

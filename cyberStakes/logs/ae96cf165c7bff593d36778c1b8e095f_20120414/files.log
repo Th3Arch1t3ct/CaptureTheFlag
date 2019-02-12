@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-18-40
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1334403422.060751	F7UF8V1n9iFtSCsb3k	72.167.131.94	192.168.8.10	CvepJv2awmL6gBFwHi	HTTP	0	SHA1,MD5	text/html	-	0.078415	-	F	9612	-	0	0	F	-	a8264410c6a182a78787ea8d9c97d9e9	3e53520f680b4090fb50f5daef2493e577400891	-	-
+1334403422.216592	F5pYNt48U7WxKkhUXd	74.125.47.95	192.168.8.10	CmtLP136zIoveX8ZOd	HTTP	0	SHA1,MD5	text/plain	-	0.003650	-	F	57254	-	0	0	F	-	bb381e2d19d8eace86b34d20759491a5	3dc9f7c2642efff4482e68c9d9df874bf98f5bcb	-	-
+1334403422.286914	FprvNy2F6qDPyeLvub	72.167.131.94	192.168.8.10	Cz8cEu4R26qHwSXBPb	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	385	385	0	0	F	-	e6518164f3b86990bbed3468f291d364	0a3a7de7653c3d21a532a917fa4f9d8c87ac6db2	-	-
+1334403422.552195	Fzg79V1qmFNaS3lvw7	94.23.243.212	192.168.8.10	CWw2fz2LM1WmVNDJGk	HTTP	0	SHA1,MD5	text/plain	-	0.197893	-	F	67910	-	0	0	F	-	dda3392fef934863f8c6a445aa24c6a3	70d3a9b49f3ed5d4941379e804c11c315dffa27a	-	-
+1334403422.989517	FHSjwzwDtYLicdnw6	87.98.254.183	192.168.8.10	C5EL524k4lDo8Cexq6	HTTP	0	SHA1,MD5	image/gif	-	0.000013	-	F	3271	3271	0	0	F	-	cc532a8019650a69564264fdc806bff1	23a56861e44c90c67150562f2734ac946903b869	-	-
+1334403422.939837	FA7BNs4yLu2j2KRpFa	216.18.213.226	192.168.8.10	CKhgfS11RjBbNboWi2	HTTP	0	SHA1,MD5	image/jpeg	-	0.263423	-	F	55527	55527	0	0	F	-	2b139aa667998ea4464a22396b5bfa8a	d4165908cfaca1dbf3901675fc7535067c3084c4	-	-
+1334403423.446463	FhuruH1oi77UoTzexa	173.192.209.32	192.168.8.10	CD0iLZQp2rJWY5ys4	HTTP	0	SHA1,MD5	application/x-dosexec	-	0.174335	-	F	155250	155250	0	0	F	-	78575549e763d5f34d9641123fe5bcd8	c6a9d8e9ddea7a03ad4115a044f9ca197cd5e748	-	-
+1334403425.115453	FCcgkU2j0tIW4Tm0s9	173.192.209.32	192.168.8.10	C35VwzrjXggUzaYz8	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	613	613	0	0	F	-	c4c4776ea44cd890c671c96b3734f769	c900af7fe4c683cf57c0f6cd5c675eacca132f14	-	-
+#close	2014-04-03-10-18-40

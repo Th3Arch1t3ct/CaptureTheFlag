@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-58-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1357270561.367124	C3epIorxl9w8hqjq4	192.168.99.10	1029	4.2.2.3	53	udp	23695	sloanprmeet.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.170.52.31,93.170.52.21	281.000000,281.000000	F
+1357270561.697269	C3epIorxl9w8hqjq4	192.168.99.10	1029	4.2.2.3	53	udp	7821	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.140.113,74.125.140.139,74.125.140.138,74.125.140.100,74.125.140.102,74.125.140.101	50897.000000,60.000000,60.000000,60.000000,60.000000,60.000000,60.000000	F
+1357270561.706186	C3epIorxl9w8hqjq4	192.168.99.10	1029	4.2.2.3	53	udp	10379	dwhx.ozyxe.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	urlforward.topdns.com,72.8.167.249,199.59.160.184	3600.000000,349.000000,349.000000	F
+1357270562.158266	C3epIorxl9w8hqjq4	192.168.99.10	1029	4.2.2.3	53	udp	29834	fbstatic-a.akamaihd.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fbstatic-a.akamaihd.net.edgesuite.net,a1168.dsw4.akamai.net,69.31.75.18,69.31.74.194	125.000000,140.000000,17.000000,17.000000	F
+#close	2014-04-03-10-58-08

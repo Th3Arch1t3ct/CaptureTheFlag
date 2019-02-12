@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-27-19
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1356479447.36476	CKM0qV1umv2Ud2eZ8	192.168.5.10	1029	4.2.2.3	53	udp	36501	jenniferhseeu.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.170.52.21,93.170.52.31	279.000000,279.000000	F
+1356479447.698644	CKM0qV1umv2Ud2eZ8	192.168.5.10	1029	4.2.2.3	53	udp	62102	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.228.37,74.125.228.32,74.125.228.41,74.125.228.35,74.125.228.34,74.125.228.38,74.125.228.36,74.125.228.39,74.125.228.33,74.125.228.40,74.125.228.46	64396.000000,101.000000,101.000000,101.000000,101.000000,101.000000,101.000000,101.000000,101.000000,101.000000,101.000000,101.000000	F
+1356479447.726081	CKM0qV1umv2Ud2eZ8	192.168.5.10	1029	4.2.2.3	53	udp	51095	funpics.cv.ua	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fw.ukrnames.com,195.64.155.34	10.000000,1.000000	F
+1356479448.652493	CKM0qV1umv2Ud2eZ8	192.168.5.10	1029	4.2.2.3	53	udp	59792	facebookpic.makewap.kz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	makewap.kz,195.3.143.42	21408.000000,21408.000000	F
+1356479448.997055	CKM0qV1umv2Ud2eZ8	192.168.5.10	1029	4.2.2.3	53	udp	3473	facebookpic.makewap.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	makewap.ru,195.3.143.42	21408.000000,21408.000000	F
+1356479449.573546	CKM0qV1umv2Ud2eZ8	192.168.5.10	1029	4.2.2.3	53	udp	54673	fbstatic-a.akamaihd.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fbstatic-a.akamaihd.net.edgesuite.net,a1168.dsw4.akamai.net,65.112.54.51,65.112.54.57	217.000000,289.000000,8.000000,8.000000	F
+1356479449.610822	CKM0qV1umv2Ud2eZ8	192.168.5.10	1029	4.2.2.3	53	udp	46995	makewap.kz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.3.143.42	21407.000000	F
+1356479449.628345	CKM0qV1umv2Ud2eZ8	192.168.5.10	1029	4.2.2.3	53	udp	22940	wapstatistic.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.243.66.77	3409.000000	F
+1356479449.577961	CESpjI1P0Z4rtZ3zE	192.168.5.10	1040	4.2.2.3	53	udp	40594	c.waplog.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.218.209.2	1800.000000	F
+#close	2014-04-03-10-27-19

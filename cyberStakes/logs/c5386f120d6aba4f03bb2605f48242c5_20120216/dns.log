@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-06-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1329434382.495265	CDv1WQeN3k1Rm9MDf	192.168.110.10	1028	4.2.2.3	53	udp	49796	daysroofing.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.63.6.4	14384.000000	F
+1329434383.455764	CDv1WQeN3k1Rm9MDf	192.168.110.10	1028	4.2.2.3	53	udp	29574	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.45.95	3062.000000,206.000000	F
+1329434383.720981	CDv1WQeN3k1Rm9MDf	192.168.110.10	1028	4.2.2.3	53	udp	3201	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,192.204.3.10,192.204.3.42	196.000000,107.000000,7472.000000,14.000000,14.000000	F
+1329434384.836511	CDv1WQeN3k1Rm9MDf	192.168.110.10	1028	4.2.2.3	53	udp	56705	api.twitter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.59.149.200,199.59.149.232,199.59.148.20,199.59.148.87	26.000000,26.000000,26.000000,26.000000	F
+1329434386.435791	CDv1WQeN3k1Rm9MDf	192.168.110.10	1028	4.2.2.3	53	udp	37504	epcoejsedr.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.190.197.188,75.45.7.77	1.000000,1.000000	F
+1329434410.845527	C3u4JX2arW13NRapV4	192.168.110.10	1028	4.2.2.3	53	udp	52355	epcoejsedr.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	77.64.156.24,100.42.243.47	1.000000,1.000000	F
+1329434417.859304	C3u4JX2arW13NRapV4	192.168.110.10	1028	4.2.2.3	53	udp	1165	epcoejsedr.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	86.56.5.5,84.113.76.204	1.000000,1.000000	F
+1329434418.130874	C6xZP42SjWDZB71bT9	192.168.110.10	1049	4.2.2.3	53	udp	37773	gretabraters.eu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	77.95.231.87	3600.000000	F
+#close	2014-04-03-11-06-14

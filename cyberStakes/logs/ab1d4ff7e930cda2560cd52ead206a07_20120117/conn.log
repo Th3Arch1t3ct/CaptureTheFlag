@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-10-18-40
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1326826774.524652	CMZC7n3OXlUsoIK5P7	192.168.104.10	1030	98.124.198.1	80	tcp	http	0.036663	288	482	SF	-	0	ShADdfFa	5	496	4	650	(empty)
+1326826774.522697	CAnmM43iCiKFmat457	192.168.104.10	1029	4.2.2.3	53	udp	dns	0.040562	63	95	SF	-	0	Dd	2	119	2	151	(empty)
+1326826774.565194	C3DKtf3jgsjl9UHqr6	192.168.104.10	1031	203.170.193.102	80	tcp	http	13.798139	866	212926	SF	-	0	ShADadfF	126	6810	162	219414	(empty)
+1326826788.363833	Ca5GFO1mtm79YpKS9d	192.168.104.10	1029	4.2.2.3	53	udp	dns	0.182231	29	45	SF	-	0	Dd	1	57	1	73	(empty)
+1326826799.668846	CIcogh3FOTjP2dU3kd	192.168.104.10	1029	4.2.2.3	53	udp	dns	3.478957	103	383	SF	-	0	Dd	3	187	3	467	(empty)
+1326826800.661268	CrLNJ42o1td70psoWb	192.168.104.10	1029	4.2.2.5	53	udp	dns	1.648428	28	92	SF	-	0	Dd	1	56	1	120	(empty)
+1326826759.017877	CnUtQe2btWS92c1p0b	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000802	626	0	S0	-	0	D	2	682	0	0	(empty)
+1326826802.806937	CwxPwc2RFq0V2CT3S6	192.168.104.10	1041	203.170.193.102	80	tcp	-	0.569330	0	0	S1	-	0	ShA	2	88	1	48	(empty)
+1326826788.55194	Ci31F62m2jCeMDQdj6	192.168.104.10	1036	62.212.128.31	80	tcp	http	13.637171	2203	32776	S1	-	0	ShADad	25	3223	32	34064	(empty)
+1326826791.626585	C2r6hZ2le3K7bFXyF7	192.168.104.10	1037	203.170.193.102	80	tcp	http	38.609396	597	8844	RSTO	-	0	ShADadfR	11	1045	11	9292	(empty)
+1326826801.072265	CzRSsM1e1MQ2lZWqbb	192.168.104.10	1039	220.195.24.9	80	tcp	http	0.584065	322	0	S1	-	0	ShADa	3	450	2	88	(empty)
+1326826802.134394	CKAtbU1Vnrs74hSqzc	192.168.104.10	1040	69.31.132.27	80	tcp	-	2.930859	41950833	1807	RSTO	-	0	SaRhADd	6	555	5	2027	(empty)
+1326826776.809209	CfxMcX25VHhPWl2yNb	192.168.104.10	1034	239.255.255.250	1900	udp	-	6.332110	399	0	S0	-	0	D	3	483	0	0	(empty)
+1326826759.018139	C7qMMW1RmlRnHUi4H5	192.168.104.10	68	192.168.104.1	67	udp	dhcp	12.196404	314	900	SF	-	0	dD	1	342	3	984	(empty)
+#close	2014-04-03-10-18-40

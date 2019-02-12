@@ -1,0 +1,28 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-57-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1340475581.754299	CWfSxj2rHEmRlAigU6	192.168.91.10	1029	4.2.2.3	53	udp	61577	smokeyswholesaledaylilies.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.201.20.51	14375.000000	F
+1340475582.451383	CWfSxj2rHEmRlAigU6	192.168.91.10	1029	4.2.2.3	53	udp	17033	ceointerns.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.124.199.1	1800.000000	F
+1340475582.479477	CWfSxj2rHEmRlAigU6	192.168.91.10	1029	4.2.2.3	53	udp	46218	qqq.confeccioneschurata.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.235.50.216	3600.000000	F
+1340475583.061867	CWfSxj2rHEmRlAigU6	192.168.91.10	1029	4.2.2.3	53	udp	33419	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,204.2.133.59,204.2.133.27	857.000000,6.000000,2460.000000,20.000000,20.000000	F
+1340475587.233118	CWfSxj2rHEmRlAigU6	192.168.91.10	1029	4.2.2.3	53	udp	25996	qqq.bbnt.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.190.126.75	3600.000000	F
+1340475588.553792	CWfSxj2rHEmRlAigU6	192.168.91.10	1029	4.2.2.3	53	udp	50318	arc1.co.kr	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	210.116.112.75	600.000000	F
+1340475590.513213	CI6cnN1KCAyPxp2r98	192.168.91.10	1043	8.8.8.8	53	udp	13107	promos.fling.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.91.207.10	163.000000	F
+1340475594.121706	CWfSxj2rHEmRlAigU6	192.168.91.10	1029	4.2.2.3	53	udp	2958	improvementsfolds.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.50.116.29	1800.000000	F
+1340475594.579319	C2Svwr1WO5FKonm1j8	192.168.91.10	1068	8.8.8.8	53	udp	13107	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.224.81,74.125.224.80,74.125.224.83,74.125.224.84,74.125.224.82	86399.000000,299.000000,299.000000,299.000000,299.000000,299.000000	F
+1340475594.897816	CWfSxj2rHEmRlAigU6	192.168.91.10	1029	4.2.2.3	53	udp	31119	www.download.windowsupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.download.windowsupdate.nsatc.net,download.windowsupdate.com.fp.nsatc.net,download.windowsupdate.com.c.footprint.net,8.26.196.251,8.27.253.125,8.26.194.252	3027.000000,224.000000,3297.000000,18.000000,18.000000,18.000000	F
+1340475597.938155	CWfSxj2rHEmRlAigU6	192.168.91.10	1029	4.2.2.3	53	udp	21889	edupaths.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.7.221.34	14400.000000	F
+1340475590.860755	C9P9yswzXlhydn1K4	192.168.91.10	1046	66.85.130.234	53	udp	21339	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340475591.235062	CWdTtddU0FKy2f4f3	192.168.91.10	1048	66.85.130.234	53	udp	21339	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340475591.815195	CuTTgR32FEl5Z1jPGl	192.168.91.10	1050	66.85.130.234	53	udp	21339	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340475591.910275	C7adjw37e83vLDjRsk	192.168.91.10	1052	66.85.130.234	53	udp	21339	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340475592.002368	CEE7jx2mXZYmk5k58e	192.168.91.10	1054	66.85.130.234	53	udp	21339	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340475593.752207	CbkL6N2hZyegh756Ff	192.168.91.10	1058	66.85.130.234	53	udp	21339	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340475593.780679	CpxKTb1870P6z6o6x9	192.168.91.10	1060	66.85.130.234	53	udp	21339	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1340475593.786147	CY6Fix1JO8grnA5vOa	192.168.91.10	1062	66.85.130.234	53	udp	21339	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+#close	2014-04-03-10-57-03

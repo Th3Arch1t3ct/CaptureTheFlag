@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-26-27
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1312022742.218685	ChIw0n2xNytrXETcWf	192.168.10.10	1029	4.2.2.3	53	udp	64655	landcruiserexpedition.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.191.24.152	14376.000000	F
+1312022746.785698	ChIw0n2xNytrXETcWf	192.168.10.10	1029	4.2.2.3	53	udp	36750	pagead2.googlesyndication.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pagead.l.google.com,72.14.204.167,72.14.204.164,72.14.204.165,72.14.204.166	16410.000000,37.000000,37.000000,37.000000,37.000000	F
+1312022747.189321	ChIw0n2xNytrXETcWf	192.168.10.10	1029	4.2.2.3	53	udp	53133	googleads.g.doubleclick.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pagead.l.doubleclick.net,72.14.204.154,72.14.204.155,72.14.204.156,72.14.204.157	16403.000000,127.000000,127.000000,127.000000,127.000000	F
+1312022751.249361	ChIw0n2xNytrXETcWf	192.168.10.10	1029	4.2.2.3	53	udp	46988	www.23systems.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	23systems.net,173.192.98.195	14400.000000,14400.000000	F
+1312022751.687158	ChIw0n2xNytrXETcWf	192.168.10.10	1029	4.2.2.3	53	udp	49035	thefactory21.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.191.24.152	14400.000000	F
+#close	2014-04-03-10-26-28

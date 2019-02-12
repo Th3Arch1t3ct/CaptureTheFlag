@@ -1,0 +1,28 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-19-42
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1327131674.00614	CQOLk916HhpMXhkHnj	192.168.105.10	1030	74.208.143.126	80	1	GET	murrietapc.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	11661	200	OK	-	-	-	(empty)	-	-	-	-	-	FyKtV94h6hqyHXZsdf	text/html
+1327131674.224633	C5a5mx4J33q40ifhEk	192.168.105.10	1031	74.208.143.126	80	1	GET	murrietapc.com	/newmurrieta.png	http://murrietapc.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	241	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FGY67w1CT2XFUuOEw3	text/html
+1327131674.304573	CnVpKd4IsfsP9Av6Gf	192.168.105.10	1032	74.125.47.95	80	1	GET	ajax.googleapis.com	/ajax/libs/jquery/1.6.2/jquery.min.js	http://murrietapc.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	91556	200	OK	-	-	-	(empty)	-	-	-	-	-	FKTsUy0J4VAcWsjF6	text/html
+1327131674.283035	CQOLk916HhpMXhkHnj	192.168.105.10	1030	74.208.143.126	80	2	GET	murrietapc.com	/newmurrieta.PNG	http://murrietapc.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	22623	200	OK	-	-	-	(empty)	-	-	-	-	-	FYMODHqLps1SHHJBl	image/png
+1327131675.633428	CInIjW27YyPLLFpupe	192.168.105.10	1033	199.59.149.232	80	1	GET	api.twitter.com	/1/trends/daily.json?callback=jQuery16203923594267674368_1327145956187&_=1327145957328	http://murrietapc.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	44807	200	OK	-	-	-	(empty)	-	-	-	-	-	FvMxlt3TB8yGLFtLSb	text/plain
+1327131676.878744	CInIjW27YyPLLFpupe	192.168.105.10	1033	199.59.149.232	80	2	GET	api.twitter.com	/1/trends/daily.json?callback=jQuery16203923594267674368_1327145956188&date=2012-01-19&_=1327145958484	http://murrietapc.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	45047	200	OK	-	-	-	(empty)	-	-	-	-	-	FCVGKA4TPHiuBUUpGk	text/plain
+1327131677.219959	CIza5u3raBmYwsWhTf	192.168.105.10	1038	76.100.113.131	80	1	GET	cseommiocsca.com	/index.php?tp=001e4bb7b4d7333d	http://murrietapc.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	79931	200	OK	-	-	-	(empty)	-	-	-	-	-	F7chPO2dREA14Xl8j6	text/html
+1327131700.995698	CoD2Nc3QwHfkW8TpTl	192.168.105.10	1039	76.100.113.131	80	1	GET	cseommiocsca.com	/w.php?f=26&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	98304	200	OK	-	-	-	(empty)	-	-	-	-	-	FlXhPv1WwI7fPNDde4	application/x-dosexec
+1327131702.427728	C9O0Cg4dbY2hVyEmsk	192.168.105.10	1040	76.100.113.131	80	1	GET	cseommiocsca.com	/content/2ddfp.php?f=26	http://cseommiocsca.com/index.php?tp=001e4bb7b4d7333d	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	25	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FtG4fGeZrzT6GO1rh	text/plain
+1327131705.289491	CR2KUx47PpcYBSWrn3	192.168.105.10	1041	76.100.113.131	80	1	GET	cseommiocsca.com	/content/field.swf	http://murrietapc.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	529	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Fy6KHN2YVKGdPCZ7qa	text/html
+1327131708.007263	CQggpABkB1UVzXjC9	192.168.105.10	1042	85.122.110.243	80	1	GET	cseommiocsca.com	/content/v1.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4408	200	OK	-	-	-	(empty)	-	-	-	-	-	F7jiWK1cpoKWBEWHP6	application/zip
+1327131708.601299	C5bDRR1MrFTU9iwHl8	192.168.105.10	1044	128.204.199.37	80	1	POST	igraqwertytrio.com	/search?fr=altavista&itag=ody&q=0iU6dFL9jK9,d5fa8ff57ad763fe&kgs=1&kls=0	-	-	444	732160	200	OK	-	-	-	(empty)	-	-	-	FtXWZo4osW14sdMbC9	text/plain	FhsB8EvCFrhFMJLud	binary
+1327131709.899299	Cp1Ksb2WRbyGyoyDIi	192.168.105.10	1045	85.122.110.243	80	1	GET	cseommiocsca.com	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	169	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FU7bt74Urng92YmETk	text/html
+1327131711.020148	CVVPEJ3DYlSrxFKbsh	192.168.105.10	1046	85.122.110.243	80	1	GET	cseommiocsca.com	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	169	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F78WVd3mAPJ3k21CN	text/html
+1327131711.921754	CjGOd34UWnUiTi8j8c	192.168.105.10	1047	85.122.110.243	80	1	GET	cseommiocsca.com	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	169	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F0wxFp1AYbNlltdIrd	text/html
+1327131712.95572	CSNZnQ2B5bj8L8LIod	192.168.105.10	1048	85.122.110.243	80	1	GET	cseommiocsca.com	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	169	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F2tO1bCmGrgtbFhhk	text/html
+1327131714.167664	C0awOw2xy4Y6XElLi7	192.168.105.10	1049	85.122.110.243	80	1	GET	cseommiocsca.com	/w.php?f=26&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1327131722.766713	C5bDRR1MrFTU9iwHl8	192.168.105.10	1044	128.204.199.37	80	2	POST	igraqwertytrio.com	/search?fr=altavista&itag=ody&q=0iU6dFL9jK9,d5fa8ff57ad763fe,gCCcI5a06NNf0SUa3-d=&kgs=1&kls=0&p=1000	-	-	33	0	200	OK	-	-	-	(empty)	-	-	-	FRwFJ1lD1h5wCJ8m4	text/plain	-	-
+1327131738.158092	C5bDRR1MrFTU9iwHl8	192.168.105.10	1044	128.204.199.37	80	3	POST	igraqwertytrio.com	/search?fr=altavista&itag=ody&q=0iU6dFL9jK9,d5fa8ff57ad763fe,gCCcI5a06NNf0SUa3-d=&kgs=1&kls=0&p=1000	-	-	94	0	200	OK	-	-	-	(empty)	-	-	-	Fi2S8v1yKf7Oe99fN8	text/plain	-	-
+#close	2014-04-03-10-19-42

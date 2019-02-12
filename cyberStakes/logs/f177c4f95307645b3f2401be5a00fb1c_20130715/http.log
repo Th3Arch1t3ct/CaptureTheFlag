@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-32-28
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1373868169.210595	CGrbtkSXmAFSQaGne	192.168.5.10	1030	66.147.244.173	80	1	GET	www.geldguru.info	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	678	200	OK	-	-	-	(empty)	-	-	-	-	-	Fq3Rp83eOiv1x7LQLc	text/html
+1373868169.243787	CGrbtkSXmAFSQaGne	192.168.5.10	1030	66.147.244.173	80	2	GET	www.geldguru.info	/bookofra.jpg	http://www.geldguru.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	289942	200	OK	-	-	-	(empty)	-	-	-	-	-	F7qUV14iqXAUWyaiZb	image/jpeg
+1373868169.533988	CdvQ6sW2Nw8KJ83w1	192.168.5.10	1031	188.190.126.165	80	1	GET	berlin90.servehttp.com	/blog/vlqsryyacr.php?vaowv=YUM7GuYv2&hrytewsfd=9368451&yjresfd=736	http://www.geldguru.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	81470	200	OK	-	-	-	(empty)	-	-	-	-	-	FbobL44ydIwSugtdsa	text/html
+1373868170.49224	CZIoBc3yxMDKMB6Np1	192.168.5.10	1032	188.190.126.165	80	1	GET	berlin90.servehttp.com	/blog/js/PluginDetect.js	http://berlin90.servehttp.com/blog/vlqsryyacr.php?vaowv=YUM7GuYv2&hrytewsfd=9368451&yjresfd=736	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	42311	200	OK	-	-	-	(empty)	-	-	-	-	-	FD1kkxdEVcRMrSB8g	text/plain
+1373868173.778342	CdvQ6sW2Nw8KJ83w1	192.168.5.10	1031	188.190.126.165	80	2	GET	berlin90.servehttp.com	/blog/hsfdwegsni.php?rbsdv=3142790&hrytewsfd=9368451	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	120320	200	OK	-	-	-	(empty)	-	-	-	-	-	Fa8xdj1dCPjl39nJUj	application/x-dosexec
+1373868176.311162	CKCdusPZTANeICUl3	192.168.5.10	1037	188.190.126.165	80	1	GET	berlin90.servehttp.com	/blog/eokmfzsxpl.php?rbsdv=6511297&hrytewsfd=9368451	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1373868176.530277	CKCdusPZTANeICUl3	192.168.5.10	1037	188.190.126.165	80	2	GET	berlin90.servehttp.com	/blog/eokmfzsxpl.php?rbsdv=6511297&hrytewsfd=9368451	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1373868176.740947	CKCdusPZTANeICUl3	192.168.5.10	1037	188.190.126.165	80	3	GET	berlin90.servehttp.com	/blog/DgViHMViPkFmH.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	186	500	Internal Server Error	-	-	-	(empty)	-	-	-	-	-	FQLzwrGkHu1zK6Jc1	text/html
+1373868177.159891	CiiKVM2hRgm8UwCEsc	192.168.5.10	1038	188.190.126.165	80	1	GET	berlin90.servehttp.com	/blog/DgViHMViPkFmH/class.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	186	500	Internal Server Error	-	-	-	(empty)	-	-	-	-	-	FwfqnO18NONaHyLlH5	text/html
+#close	2014-04-03-10-32-28

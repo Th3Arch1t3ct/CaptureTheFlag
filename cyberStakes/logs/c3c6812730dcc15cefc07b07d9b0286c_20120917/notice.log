@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-52-41
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1347863707.838527	CnifDj1YHidHUtylUl	192.168.50.10	1051	207.210.66.194	80	FxA2Iw1tEjVFJk4On	application/x-dosexec	http://medinsco.com/2.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 34%  Last seen: 2012-09-21 00:00:47	https://www.virustotal.com/en/search/?query=99f498e4379e220cf1f6e3a800e1718c27799ced	192.168.50.10	207.210.66.194	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1347863711.159234	C57IAbySHCoSpQNmf	192.168.50.10	1081	207.210.66.194	80	FeI4ch4ZSziqOsv81h	application/x-dosexec	http://medinsco.com/3.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 34%  Last seen: 2012-09-21 00:00:47	https://www.virustotal.com/en/search/?query=99f498e4379e220cf1f6e3a800e1718c27799ced	192.168.50.10	207.210.66.194	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-52-41

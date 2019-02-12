@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-28-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1336490582.432231	CbIJfm4hvVmSrtN4Ae	192.168.52.10	1104	37.59.198.60	80	FPLDYr4KDBmYmZTntk	application/x-dosexec	http://ghjmalta.info/?4f85fc310260aab85eea6e60558b65da	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-05-10 11:05:27	https://www.virustotal.com/en/search/?query=70f5695728f79f7b82fcaa4afef4185d4905a434	192.168.52.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336490584.687953	CLdob92iVN4h0X2wE5	192.168.52.10	1105	37.59.198.60	80	FH21Hm1pknsECnovXi	application/x-dosexec	http://ghjmalta.info/?919d9e75e669cc066b7f15dcd991b90c	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-05-14 23:12:53	https://www.virustotal.com/en/search/?query=b174d7174df143d4961a225d25d6431955e03deb	192.168.52.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336490584.79352	CA9Oq94JzArIq3pal4	192.168.52.10	1103	37.59.198.60	80	F01pBg3lem7ZR3afE1	application/x-dosexec	http://ghjmalta.info/?fd3f650f24d2cb2b9b978b37745bde58	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-05-10 11:05:27	https://www.virustotal.com/en/search/?query=70f5695728f79f7b82fcaa4afef4185d4905a434	192.168.52.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336490586.265205	CaPE4t4GgEOLR8Dlrf	192.168.52.10	1110	37.59.198.60	80	FQ633430m0OPdLPVub	application/x-dosexec	http://ghjmalta.info/?37b78550cc09e130adbb05b1d37f8cf0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-05-14 23:12:53	https://www.virustotal.com/en/search/?query=b174d7174df143d4961a225d25d6431955e03deb	192.168.52.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-28-50

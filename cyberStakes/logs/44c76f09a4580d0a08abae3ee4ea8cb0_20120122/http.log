@@ -1,0 +1,29 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-01-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1327199308.416021	CPI8Fa1PtC4kiZgWV7	192.168.11.10	1030	92.241.191.182	80	1	GET	higolea.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3271	200	OK	-	-	-	(empty)	-	-	-	-	-	Fw9EC627105nLOWwW3	text/html
+1327199308.574018	CPI8Fa1PtC4kiZgWV7	192.168.11.10	1030	92.241.191.182	80	2	GET	higolea.com	/style.css	http://higolea.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2535	200	OK	-	-	-	(empty)	-	-	-	-	-	FVW61a36WMSMVE5Qkh	text/plain
+1327199308.726549	CFdwUz3jYkjDF1CWy8	192.168.11.10	1031	92.241.191.182	80	1	GET	higolea.com	/changeip/eos.php	http://higolea.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	20602	200	OK	-	-	-	(empty)	-	-	-	-	-	FoS01z1UShKDTN4j93	text/plain
+1327199309.244555	CPI8Fa1PtC4kiZgWV7	192.168.11.10	1030	92.241.191.182	80	3	GET	higolea.com	/images/header_bckg.gif	http://higolea.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	474	200	OK	-	-	-	(empty)	-	-	-	-	-	FQPvcFmkuIDjAMBJa	image/gif
+1327199309.244839	CFdwUz3jYkjDF1CWy8	192.168.11.10	1031	92.241.191.182	80	2	GET	higolea.com	/images/menu_enactive.gif	http://higolea.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1127	200	OK	-	-	-	(empty)	-	-	-	-	-	Fy070j21jM6wrsX9Uc	image/gif
+1327199309.392701	CMxORC4tUMOKAQXC7k	192.168.11.10	1032	92.241.191.175	80	1	GET	thaztipadza.ddns.name	/index.php?showtopic=669036	http://higolea.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	307	200	OK	-	-	-	(empty)	-	-	-	-	-	FWcA1k1Vf5Po8nrKja	text/html
+1327199309.398376	CFdwUz3jYkjDF1CWy8	192.168.11.10	1031	92.241.191.182	80	3	GET	higolea.com	/images/footer_bckg.gif	http://higolea.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	478	200	OK	-	-	-	(empty)	-	-	-	-	-	Fvw6BcSF1zAsddQcb	image/gif
+1327199309.395345	CPI8Fa1PtC4kiZgWV7	192.168.11.10	1030	92.241.191.182	80	4	GET	higolea.com	/images/head_bckg.jpg	http://higolea.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	23890	200	OK	-	-	-	(empty)	-	-	-	-	-	FGwrPj3z3bp1vWHTf	image/jpeg
+1327199310.081838	CMxORC4tUMOKAQXC7k	192.168.11.10	1032	92.241.191.175	80	2	GET	thaztipadza.ddns.name	/8779.pdf	http://thaztipadza.ddns.name/index.php?showtopic=669036	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4585	200	OK	-	-	-	(empty)	-	-	-	-	-	FKDgzKFJK2vlq20Sf	application/pdf
+1327199330.063408	CEkpCS5ffkGNzNZqc	192.168.11.10	1038	92.241.191.175	80	1	GET	thaztipadza.ddns.name	/csas.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	7034	200	OK	-	-	-	(empty)	-	-	-	-	-	FIafkx1V6b1dUkgvR6	application/jar
+1327199329.577867	CFUeNm1BGelhLg2z1f	192.168.11.10	1037	92.241.191.175	80	1	GET	92.241.191.175	/load.php?showforum=lib	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	452488	200	OK	-	-	-	(empty)	-	-	-	-	-	FotPUV2kriRJ7IBYO5	application/x-dosexec
+1327199332.588428	ChuQWhFIdFW8urj92	192.168.11.10	1039	92.241.191.175	80	1	GET	thaztipadza.ddns.name	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	294	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FLw6fa3oYKnrGc8BUl	text/html
+1327199332.746996	ChuQWhFIdFW8urj92	192.168.11.10	1039	92.241.191.175	80	2	GET	thaztipadza.ddns.name	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	294	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F3OLqYvdecE2ovOec	text/html
+1327199332.905186	ChuQWhFIdFW8urj92	192.168.11.10	1039	92.241.191.175	80	3	GET	thaztipadza.ddns.name	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	294	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F8fAOs3yPwl05hZhw8	text/html
+1327199333.062313	ChuQWhFIdFW8urj92	192.168.11.10	1039	92.241.191.175	80	4	GET	thaztipadza.ddns.name	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	294	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FBGQTZ2mnL3oHE6LMi	text/html
+1327199333.581281	C7g7es211A2xKDJTk3	192.168.11.10	1040	92.241.191.175	80	1	GET	92.241.191.175	/load.php?showforum=rhino	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	452488	200	OK	-	-	-	(empty)	-	-	-	-	-	FhRmzi41e5Eg9sbote	application/x-dosexec
+1327199367.800023	Cqs1Vt4ACMknTtGld7	192.168.11.10	1042	46.246.89.181	80	1	GET	wimalyfunan.com	/up.php?0Q9oBPXEN0uECUgzEJ95RQsaiD3vq1aG3F/2q5sb+kXU2mKa1w==	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1327199368.255781	CpnHzI32AFZEfmjQ2j	192.168.11.10	1043	81.17.24.85	80	1	GET	besrom.com	/?ylOdR9GQqXquMlTvsmXlkaz1x3Ed+A==	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1327199368.593611	CpYgRd1sWT6jIgF3pj	192.168.11.10	1044	31.44.184.41	80	1	GET	craftineer.com	/?ylOdR9GQqXquMlTvsmXlkaz1x3Ed+A==	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1327199368.717129	CpnHzI32AFZEfmjQ2j	192.168.11.10	1043	81.17.24.85	80	2	GET	besrom.com	/?ylOdR9GQqXquMlTvsmXlkaz1x3Ed+A==	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-10-01-05

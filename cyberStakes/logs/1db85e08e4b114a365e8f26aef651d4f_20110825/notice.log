@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-37-42
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1314306946.583687	CIeIwX1ebXIL1C74K9	192.168.77.10	1043	146.185.242.9	80	FRPapl4PJcuGsBuU9k	application/x-dosexec	http://s120.ru.tf/d.php?f=16&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2011-08-28 06:34:42	https://www.virustotal.com/en/search/?query=fca727e02f802c9cf0b205e4242840ccdb218114	192.168.77.10	146.185.242.9	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1314306954.070365	CIeIwX1ebXIL1C74K9	192.168.77.10	1043	146.185.242.9	80	FfiqBj9uu0MLmAuXb	application/x-dosexec	http://s120.ru.tf/d.php?f=16&e=6	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2011-08-28 06:34:42	https://www.virustotal.com/en/search/?query=fca727e02f802c9cf0b205e4242840ccdb218114	192.168.77.10	146.185.242.9	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1314306957.380673	CjwLMEwRGSAVuEIW4	192.168.77.10	1065	146.185.242.9	80	FRXl3X3XCDS8Wq68P1	application/x-dosexec	http://s120.ru.tf/d.php?f=16&e=1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2011-08-28 06:34:42	https://www.virustotal.com/en/search/?query=fca727e02f802c9cf0b205e4242840ccdb218114	192.168.77.10	146.185.242.9	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1314306960.404566	CMinAP1HwW2WSaukZ	192.168.77.10	1066	146.185.242.9	80	FPV0Nv2atcafR9VFV9	application/x-dosexec	http://s120.ru.tf/d.php?f=16&e=0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2011-08-28 06:34:42	https://www.virustotal.com/en/search/?query=fca727e02f802c9cf0b205e4242840ccdb218114	192.168.77.10	146.185.242.9	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-37-43

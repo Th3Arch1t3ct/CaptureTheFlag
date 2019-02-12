@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-17-28
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1317679281.47791	C7qSw04zi9biHZVRoe	192.168.65.10	1029	4.2.2.3	53	udp	57994	lost-frame.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.13.140.40	7174.000000	F
+1317679281.929385	C7qSw04zi9biHZVRoe	192.168.65.10	1029	4.2.2.3	53	udp	11659	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.159.95	148.000000,27.000000	F
+1317679282.200063	C7qSw04zi9biHZVRoe	192.168.65.10	1029	4.2.2.3	53	udp	22664	api.twitter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.59.148.87,199.59.149.200,199.59.149.232,199.59.148.20	19.000000,19.000000,19.000000,19.000000	F
+1317679284.596735	C7qSw04zi9biHZVRoe	192.168.65.10	1029	4.2.2.3	53	udp	35465	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,69.31.21.50,69.31.21.9	19696.000000,21.000000,15302.000000,13.000000,13.000000	F
+1317679285.35023	C7qSw04zi9biHZVRoe	192.168.65.10	1029	4.2.2.3	53	udp	50319	acdopzgamcp.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.17.139.145	3600.000000	F
+1317679304.25161	C7qSw04zi9biHZVRoe	192.168.65.10	1029	4.2.2.3	53	udp	14223	wopeytjbsbvmve.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1317679302.270185	C7qSw04zi9biHZVRoe	192.168.65.10	1029	4.2.2.3	53	udp	35471	ajhr4tgysdihfvnfgasd.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-17-31

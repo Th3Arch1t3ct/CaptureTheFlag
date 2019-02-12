@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-06-16
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1337819365.188779	CrrSpasuzHS8oGDgk	192.168.29.10	1029	4.2.2.3	53	udp	8843	devosdevine.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.168.188.1	3573.000000	F
+1337819366.407249	CrrSpasuzHS8oGDgk	192.168.29.10	1029	4.2.2.3	53	udp	52618	fonts.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.71.95	2869.000000,170.000000	F
+1337819367.033704	CrrSpasuzHS8oGDgk	192.168.29.10	1029	4.2.2.3	53	udp	45962	themes.googleusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlehosted.l.googleusercontent.com,74.125.71.132	25941.000000,291.000000	F
+1337819369.994751	CrrSpasuzHS8oGDgk	192.168.29.10	1029	4.2.2.3	53	udp	2186	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.71.95	2033.000000,167.000000	F
+1337819373.891642	CRFkar3AWWgF67tSe	192.168.29.10	1041	4.2.2.3	53	udp	31112	tttraf.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	158.255.215.154	38400.000000	F
+1337819373.791309	CrrSpasuzHS8oGDgk	192.168.29.10	1029	4.2.2.3	53	udp	17544	beriolsoas.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.248.209	10.000000	F
+1337819384.924194	CRKL2RM1cOmHXZnv2	192.168.29.10	1046	8.8.8.8	53	udp	13107	promos.fling.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.91.207.10	187.000000	F
+1337819385.315172	CJhOf43VGFBfrsugIc	192.168.29.10	1050	66.85.130.234	53	udp	20325	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1337819385.400365	CYwxv427i8tN7mKE03	192.168.29.10	1052	66.85.130.234	53	udp	20325	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1337819385.414568	CvllZC323B19BtqL5l	192.168.29.10	1054	66.85.130.234	53	udp	20325	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1337819385.416604	CGSzPi2z2WO9BN3Ce	192.168.29.10	1056	66.85.130.234	53	udp	20325	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1337819385.425863	ChBsLr1BhXRC3xxUGa	192.168.29.10	1058	66.85.130.234	53	udp	20325	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1337819385.454906	Cq9jvO2PP6vDwHlU8e	192.168.29.10	1060	66.85.130.234	53	udp	20325	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1337819385.629899	CXvnoc1gPTfqEQuTM9	192.168.29.10	1064	66.85.130.234	53	udp	20325	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1337819385.643519	C2I4IL2gZFdj7AQKU3	192.168.29.10	1066	66.85.130.234	53	udp	20325	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1337819385.697455	CBLGNF3xAAraxlCPyl	192.168.29.10	1069	66.85.130.234	53	udp	20325	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1337819404.547955	C4hUAIq3zomJDbsM1	192.168.29.10	1073	8.8.8.8	53	udp	13107	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.224.146,74.125.224.148,74.125.224.147,74.125.224.144,74.125.224.145	86396.000000,296.000000,296.000000,296.000000,296.000000,296.000000	F
+#close	2014-04-03-10-06-16

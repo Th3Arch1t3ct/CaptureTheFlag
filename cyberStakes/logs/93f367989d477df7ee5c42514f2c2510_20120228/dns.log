@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-37-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1330473317.3304	CRTc3D4cueE6QJs6sf	192.168.63.10	1029	4.2.2.3	53	udp	35474	mv-bowling.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	84.32.116.230	577.000000	F
+1330473318.057031	CRTc3D4cueE6QJs6sf	192.168.63.10	1029	4.2.2.3	53	udp	13971	free-contract-mobile-phones.co.uk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.229.86.30	14400.000000	F
+1330473318.408608	CRTc3D4cueE6QJs6sf	192.168.63.10	1029	4.2.2.3	53	udp	16528	computetxpsm.monbe.be	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.217.153.153	60.000000	F
+#close	2014-04-03-10-37-49

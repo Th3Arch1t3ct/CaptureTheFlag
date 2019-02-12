@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-55-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1338403890.301049	CGGT6g2XoBroxAIzF4	192.168.110.10	1029	4.2.2.3	53	udp	34453	www.monvotesecurise.votezaletranger.gouv.fr	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	monvotesecurise.votezaletranger.gouv.fr,217.111.179.113	584.000000,584.000000	F
+1338403890.675162	CGGT6g2XoBroxAIzF4	192.168.110.10	1029	4.2.2.3	53	udp	50582	monvotesecurise.votezaletranger.gouv.fr	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.111.179.113	584.000000	F
+1338403895.650217	CGGT6g2XoBroxAIzF4	192.168.110.10	1029	4.2.2.3	53	udp	18832	java.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	137.254.16.66	300.000000	F
+1338403895.836005	CGGT6g2XoBroxAIzF4	192.168.110.10	1029	4.2.2.3	53	udp	33424	java.sun.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.9.162.55	8445.000000	F
+1338403895.846155	CGGT6g2XoBroxAIzF4	192.168.110.10	1029	4.2.2.3	53	udp	11409	javadl.sun.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	137.254.16.64	1469.000000	F
+1338403895.951436	CGGT6g2XoBroxAIzF4	192.168.110.10	1029	4.2.2.3	53	udp	38289	sdlc-esd.sun.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	sdlc-esd-sino.sun.com.edgesuite.net,a952.g.akamai.net,198.87.51.18,198.87.51.49	1469.000000,4516.000000,20.000000,20.000000	F
+1338403896.149172	CGGT6g2XoBroxAIzF4	192.168.110.10	1029	4.2.2.3	53	udp	27283	crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.59.190	563.000000,1.000000	F
+1338403896.362701	CGGT6g2XoBroxAIzF4	192.168.110.10	1029	4.2.2.3	53	udp	38035	csc3-2009-2-crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.59.190	744.000000,1.000000	F
+#close	2014-04-03-09-55-34

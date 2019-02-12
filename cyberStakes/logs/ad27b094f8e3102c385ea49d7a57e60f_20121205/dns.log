@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-57-42
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1354738500.443983	CLPWMZ3vJKteHR8UIg	192.168.83.10	1029	4.2.2.3	53	udp	34450	4s.downtango.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	149.13.65.189,149.13.65.188	577.000000,577.000000	F
+1354738500.695133	CLPWMZ3vJKteHR8UIg	192.168.83.10	1029	4.2.2.3	53	udp	56210	code.jquery.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wac.1257.edgecastcdn.net,neb1.wac.v2cdn.net,93.184.216.119	598150.000000,1541.000000,2300.000000	F
+1354738501.213506	CLPWMZ3vJKteHR8UIg	192.168.83.10	1029	4.2.2.3	53	udp	31378	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.140.139,74.125.140.101,74.125.140.100,74.125.140.113,74.125.140.138,74.125.140.102	77310.000000,279.000000,279.000000,279.000000,279.000000,279.000000,279.000000	F
+1354738508.449317	CLPWMZ3vJKteHR8UIg	192.168.83.10	1029	4.2.2.3	53	udp	37008	dn.download-files.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.9.121.45,5.9.88.142,5.9.121.44,5.9.121.47,5.9.55.137,5.9.95.204,5.9.104.22,176.9.92.131,5.9.104.23,5.9.104.20,5.9.104.21,5.9.9.44,5.9.104.18,5.9.105.2	600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000,600.000000	F
+#close	2014-04-03-10-57-42

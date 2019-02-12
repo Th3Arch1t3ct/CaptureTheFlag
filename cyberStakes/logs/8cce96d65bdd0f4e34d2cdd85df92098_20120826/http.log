@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-14-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1345990533.624514	Co2XbMRUb8g0Ufvh4	192.168.73.10	1030	199.188.205.28	80	1	GET	sewonpatches.net	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	375	200	OK	-	-	-	(empty)	-	-	-	-	-	Fu6tHl4uvzCWh5f9ne	text/html
+1345990534.731039	COSuabW1SlJfieQea	192.168.73.10	1031	212.2.227.27	8338	1	GET	na-gora.com	/rpZHlE?KABHH=14	http://sewonpatches.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	11091	200	OK	-	-	-	(empty)	-	-	-	-	-	F3euy31fM0RtTTyfFa	text/html
+1345990536.97739	CIsm4z4YkCt6BwX8Fb	192.168.73.10	1036	212.2.227.27	8338	1	GET	na-gora.com	/888	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14396	200	OK	-	-	-	(empty)	-	-	-	-	-	FegTlWnMQwqNbk9v6	application/zip
+1345990537.418739	CIsm4z4YkCt6BwX8Fb	192.168.73.10	1036	212.2.227.27	8338	2	GET	na-gora.com	/888	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14396	200	OK	-	-	-	(empty)	-	-	-	-	-	Fa8yaR3XooTXAOKLNe	application/zip
+1345990538.867853	CIsm4z4YkCt6BwX8Fb	192.168.73.10	1036	212.2.227.27	8338	3	GET	na-gora.com	/888	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14396	200	OK	-	-	-	(empty)	-	-	-	-	-	FkC77y38D538mXLwDj	application/zip
+1345990540.709506	CIsm4z4YkCt6BwX8Fb	192.168.73.10	1036	212.2.227.27	8338	4	GET	na-gora.com	/888	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	14396	200	OK	-	-	-	(empty)	-	-	-	-	-	FoZfdT1Jhry9lkpZ97	application/zip
+1345990542.462801	CmSEUv3VcNVnQ6WGoi	192.168.73.10	1037	212.2.227.27	8338	1	GET	selltraff.net	/pXlQPa?expid=7&fid=12	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	267264	200	OK	-	-	-	(empty)	-	-	-	-	-	FULgxQDfYdVZjmYR5	application/x-dosexec
+#close	2014-04-03-10-14-29

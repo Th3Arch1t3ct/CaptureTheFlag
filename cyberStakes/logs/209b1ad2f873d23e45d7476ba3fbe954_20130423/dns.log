@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-41-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1366745248.477323	CmV6414cBWUSxZ4pn3	192.168.82.10	1029	4.2.2.3	53	udp	19855	larscameras.wirepathdns.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	68.15.0.244	0.000000	F
+1366745265.915431	Cyg12n2E45ZjV8dmf8	192.168.82.10	1029	4.2.2.3	53	udp	39055	crl.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.www.ms.akadns.net,a1363.g.akamai.net,23.67.61.65,23.67.61.10	2406.000000,56.000000,7.000000,7.000000	F
+1366745282.145814	C6z2fR2gWKLjotEDHi	192.168.82.10	1029	4.2.2.3	53	udp	24972	crl.globalsign.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	108.162.232.4,108.162.232.9,108.162.232.8,108.162.232.6,108.162.232.5,108.162.232.7	60.000000,60.000000,60.000000,60.000000,60.000000,60.000000	F
+1366745282.175403	C6z2fR2gWKLjotEDHi	192.168.82.10	1029	4.2.2.3	53	udp	35469	crl.globalsign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	108.162.232.9,108.162.232.7,108.162.232.5,108.162.232.4,108.162.232.6,108.162.232.8	103.000000,103.000000,103.000000,103.000000,103.000000,103.000000	F
+#close	2014-04-03-10-41-31

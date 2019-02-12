@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-50-27
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1323935909.82158	Ciy6FdSZVbOP55Uz4	192.168.120.10	1039	79.186.12.115	80	FXSnEZ2rnzxAbexxt6	application/x-dosexec	http://naseleicphcrs.com/w.php?f=26&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-01-02 07:36:32	https://www.virustotal.com/en/search/?query=bc7a1903cafa1392e07e044dc520c0a581f8ea19	192.168.120.10	79.186.12.115	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1323935931.573202	CORtocn3RV7WTMkyi	192.168.120.10	1040	79.186.12.115	80	Fj1qPvhiHoXx478t3	application/pdf	http://naseleicphcrs.com/content/2ddfp.php?f=26	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 67%  Last seen: 2011-12-15 09:30:23	https://www.virustotal.com/en/search/?query=7702f08c0f0481de5916aff0b44cd845bc29608e	192.168.120.10	79.186.12.115	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-50-28

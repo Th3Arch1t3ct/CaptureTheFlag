@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-33-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1348571402.597876	CKrBuG2keZXQnul45l	192.168.16.10	1077	176.31.16.237	80	FeWLzFrw9dFMPCG16	application/x-dosexec	http://ikbo.klmtank.info/?7e19bc18d916671921667375c26f3a71	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2012-09-29 06:57:57	https://www.virustotal.com/en/search/?query=0b39f013b22ec8867f87faaf3a35135b428f0952	192.168.16.10	176.31.16.237	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1348571402.597876	CTV8SUM78w4SUN1Uj	192.168.16.10	1078	176.31.16.237	80	FcG15DB0ZZeOHZALf	application/x-dosexec	http://ikbo.klmtank.info/?9a6914c23fcb25cda8794914818dd860	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2012-09-29 06:57:57	https://www.virustotal.com/en/search/?query=0b39f013b22ec8867f87faaf3a35135b428f0952	192.168.16.10	176.31.16.237	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1348571404.890753	C3ElGAVhcGBcv8zDg	192.168.16.10	1079	176.31.16.237	80	FO4tyn3FvnQw8NocBj	application/x-dosexec	http://ikbo.klmtank.info/?037e227129750bdca3b93a32e3e9f4af	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2012-09-29 06:57:57	https://www.virustotal.com/en/search/?query=0b39f013b22ec8867f87faaf3a35135b428f0952	192.168.16.10	176.31.16.237	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1348571405.528026	CHh7KmHALSXNkMLs4	192.168.16.10	1082	176.31.16.237	80	FoFnD23bWna8N8HMxc	application/x-dosexec	http://ikbo.klmtank.info/?509a84e33bf372a168b80993bc88638e	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2012-09-29 06:57:57	https://www.virustotal.com/en/search/?query=0b39f013b22ec8867f87faaf3a35135b428f0952	192.168.16.10	176.31.16.237	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1348571408.860933	CNszQ62tfrNevT5Tke	192.168.16.10	1100	176.31.16.237	80	FRqc9G1MtcclLX2i58	application/x-dosexec	http://ikbo.klmtank.info/?55aecb8d790051ffd2f131a7adb99081	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2012-09-29 06:57:57	https://www.virustotal.com/en/search/?query=0b39f013b22ec8867f87faaf3a35135b428f0952	192.168.16.10	176.31.16.237	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-33-26

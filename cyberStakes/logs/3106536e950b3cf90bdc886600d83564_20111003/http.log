@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-38-43
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1317661934.488856	C1YFaZ3xiynSCu0Xd5	192.168.72.10	1031	209.200.244.57	80	1	GET	cheap2surely.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3587	200	OK	-	-	-	(empty)	-	-	-	-	-	FGq6gy2fQbbE7Mz5oc	text/html
+1317661934.66815	CZ2vMS1WmYdymR8eSj	192.168.72.10	1032	64.50.163.59	80	1	GET	www.lunarpages.com	/banners/images/image_rotate/rotate.php	http://cheap2surely.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	274	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FRwlKH28klhq0BSr25	text/html
+1317661934.668358	C0MI9t3PSI1YjLZh8d	192.168.72.10	1033	64.50.163.59	80	1	GET	www.lunarpages.com	/images/logo_gold.jpg	http://cheap2surely.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	218	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F7GFSU1xeQK6vPAqH2	text/html
+1317661934.695908	CaI8nz3m1alufgjyM5	192.168.72.10	1034	208.109.53.70	80	1	GET	aachristmas.com	/images/led/mn.php	http://cheap2surely.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	912	200	OK	-	-	-	(empty)	-	-	-	-	-	FmiiBJ5BCuiqWeGf3	text/html
+1317661934.737604	CJvwNszWjzQVV0XU	192.168.72.10	1035	209.200.244.57	80	1	GET	cheap2surely.com	/vxap.htm	http://cheap2surely.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	14520	200	OK	-	-	-	(empty)	-	-	-	-	-	FDkAHYm69oNWVZ053	text/html
+1317661934.737387	CZ2vMS1WmYdymR8eSj	192.168.72.10	1032	64.50.163.59	80	2	GET	www.lunarpages.com	/affiliatebanners/image_rotate/rotate.php	http://cheap2surely.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	24022	200	OK	-	-	-	(empty)	-	-	-	-	-	FTHOxe1TBLmzLRjUXd	image/gif
+1317661943.256227	CjsnBRJYx2hwaaenh	192.168.72.10	1042	209.200.244.57	80	1	GET	cheap2surely.com	/zcv.gif	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	78336	200	OK	-	-	-	(empty)	-	-	-	-	-	F4yIEAEkY4dhu2Zdd	application/x-dosexec
+1317661948.320071	CdzYUD2ofkbHqzdHx1	192.168.72.10	1044	208.109.53.70	80	1	GET	aachristmas.com	/images/led/tr.php	-	-	0	912	200	OK	-	-	-	(empty)	-	-	-	-	-	FYhTQekfgURu2QKZ3	text/html
+#close	2014-04-03-10-38-43

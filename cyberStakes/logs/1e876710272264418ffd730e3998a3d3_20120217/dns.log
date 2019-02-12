@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-50-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1329462216.584119	Czemzj15JvAEHBztQg	192.168.61.10	1029	4.2.2.3	53	udp	23695	apartchile.cl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	190.96.85.12	38380.000000	F
+1329462217.380803	Czemzj15JvAEHBztQg	192.168.61.10	1029	4.2.2.3	53	udp	60558	storylootybuz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.190.98.79	3600.000000	F
+1329462217.413325	Czemzj15JvAEHBztQg	192.168.61.10	1029	4.2.2.3	53	udp	40844	ohioswingersbus.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	141.136.22.56	43200.000000	F
+1329462227.805342	CJunLj2D0zvYGQuqAj	192.168.61.10	1029	4.2.2.3	53	udp	19595	tripslokabucks.su	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	220.195.24.9,60.19.30.135,217.162.224.66,218.12.4.254	300.000000,300.000000,300.000000,300.000000	F
+1329462258.41635	CsrEmZjnGmfIoVHa4	192.168.61.10	1029	4.2.2.3	53	udp	45706	wertubublersco.su	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	220.195.24.9,60.19.30.135,217.24.246.7,218.12.4.254	300.000000,300.000000,300.000000,300.000000	F
+1329462259.415788	C1bR4pbVbm8QSijSc	192.168.61.10	1029	4.2.2.5	53	udp	45706	wertubublersco.su	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	60.19.30.135,217.24.246.7,218.12.4.254,220.195.24.9	300.000000,300.000000,300.000000,300.000000	F
+#close	2014-04-03-10-50-11

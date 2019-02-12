@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-14-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1337429586.835112	CBz4Lj43wsvUzmpZMc	192.168.53.10	1030	216.51.232.102	80	1	GET	mightywarriorministries.org	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6483	200	OK	-	-	-	(empty)	-	-	-	-	-	F0Thin2Jlyuxnvxj6l	text/html
+1337429586.951508	CBz4Lj43wsvUzmpZMc	192.168.53.10	1030	216.51.232.102	80	2	GET	mightywarriorministries.org	/images/ban_mwm.gif	http://mightywarriorministries.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2619	200	OK	-	-	-	(empty)	-	-	-	-	-	F1cNYX5lk7p3AT9q1	image/gif
+1337429587.049611	CBz4Lj43wsvUzmpZMc	192.168.53.10	1030	216.51.232.102	80	3	GET	mightywarriorministries.org	/images/mwmshldmd.gif	http://mightywarriorministries.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6080	200	OK	-	-	-	(empty)	-	-	-	-	-	FmDrM41lubhqGOUJZ4	image/gif
+1337429586.939931	Ck8HD62APzvN9B0t3a	192.168.53.10	1031	216.51.232.102	80	1	GET	mightywarriorministries.org	/images/crossbackground.gif	http://mightywarriorministries.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	31263	200	OK	-	-	-	(empty)	-	-	-	-	-	F539AV34m8lCpuw0ca	image/gif
+1337429587.219529	CBz4Lj43wsvUzmpZMc	192.168.53.10	1030	216.51.232.102	80	4	GET	mightywarriorministries.org	/cgi-bin/counter.exe?link=index.html&style=led	http://mightywarriorministries.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4112	200	OK	-	-	-	(empty)	-	-	-	-	-	FY6ObQ3zKP3MOFokCc	application/x-dosexec
+#close	2014-04-03-11-14-25

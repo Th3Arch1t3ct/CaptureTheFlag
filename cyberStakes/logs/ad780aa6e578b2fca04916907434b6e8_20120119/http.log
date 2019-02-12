@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-54-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1326949695.19642	C04Yhp1zstQ6EqO6X7	192.168.23.10	1030	213.171.219.2	80	1	GET	b9organicenergy.co.uk	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2918	200	OK	-	-	-	(empty)	-	-	-	-	-	FOkoJd4KUCpU9MNGc5	text/html
+1326949695.405671	CYI2jY28dE9rxRTORg	192.168.23.10	1031	98.124.198.1	80	1	GET	thefamily4life.org	/	http://b9organicenergy.co.uk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	174	302	Object moved	-	-	-	(empty)	-	-	-	-	-	Flz79n3an2zyBRhz0a	text/html
+1326949695.471816	C04Yhp1zstQ6EqO6X7	192.168.23.10	1030	213.171.219.2	80	2	GET	b9organicenergy.co.uk	/index.swf	http://b9organicenergy.co.uk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	163824	200	OK	-	-	-	(empty)	-	-	-	-	-	FKyezn4wEvYhztR7Bj	application/x-shockwave-flash
+1326949696.272795	Cfnp7V2kBi2NIzO2rl	192.168.23.10	1033	69.31.132.73	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1568	200	OK	-	-	-	(empty)	-	-	-	-	-	F0yE3K1YTPoyayu4t6	text/html
+1326949725.855944	CpzCUX2lTs45V9dB9h	192.168.23.10	1038	203.170.193.102	80	1	GET	boeingmiles.com	/content/v1.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4118	200	OK	-	-	-	(empty)	-	-	-	-	-	FBR5zI2JDlRkqTkFgk	application/zip
+1326949734.587992	CyCjkR2j6Vfby8NTsl	192.168.23.10	1040	203.170.193.102	80	1	GET	boeingmiles.com	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	162	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Fs2huf6Oj2G3Z8Zu8	text/html
+1326949735.177593	CyCjkR2j6Vfby8NTsl	192.168.23.10	1040	203.170.193.102	80	2	GET	boeingmiles.com	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	162	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FWgfvg2t4p8uSHjl22	text/html
+1326949735.7678	CyCjkR2j6Vfby8NTsl	192.168.23.10	1040	203.170.193.102	80	3	GET	boeingmiles.com	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	162	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FhYQwbgff65FU9Wra	text/html
+1326949736.846507	CyCjkR2j6Vfby8NTsl	192.168.23.10	1040	203.170.193.102	80	4	GET	boeingmiles.com	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	162	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FC5oBe2uWwyTiA48lc	text/html
+1326949735.698238	CYTwZh4IpbMZGYgx3c	192.168.23.10	1041	217.24.246.7	80	1	POST	potvamp.ru	/fukterama.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	77	19486	200	OK	-	-	-	(empty)	-	-	-	FSb6vrggYvzuvhTdj	text/plain	FFPX3N2miWT4PnRPci	binary
+1326949737.6911	CyCjkR2j6Vfby8NTsl	192.168.23.10	1040	203.170.193.102	80	5	GET	boeingmiles.com	/w.php?f=16&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	191488	200	OK	-	-	-	(empty)	-	-	-	-	-	FqTA9T25RQHZvCoqj2	application/x-dosexec
+1326949716.327297	CsqPs41tbJGLApYJm8	192.168.23.10	1032	203.170.193.102	80	3	GET	boeingmiles.com	/content/fdp2.php?f=16	http://boeingmiles.com/main.php?page=f01569c984bcc11c	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+1326949709.531646	CsqPs41tbJGLApYJm8	192.168.23.10	1032	203.170.193.102	80	2	GET	boeingmiles.com	/w.php?f=16&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+1326949696.030315	CsqPs41tbJGLApYJm8	192.168.23.10	1032	203.170.193.102	80	1	GET	boeingmiles.com	/main.php?page=f01569c984bcc11c	http://b9organicenergy.co.uk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+1326949721.83811	CsqPs41tbJGLApYJm8	192.168.23.10	1032	203.170.193.102	80	4	GET	boeingmiles.com	/content/field.swf	http://b9organicenergy.co.uk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+1326949763.358247	CPugLW3GKfjkMqz0gf	192.168.23.10	1042	217.24.246.7	80	1	POST	snotarms.ru	/blacksabbat.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	297	64	200	OK	-	-	-	(empty)	-	-	-	F6xKoP2gEndfILA0q	binary	FjVlsy2sLjIAG49pNa	binary
+#close	2014-04-03-10-54-31

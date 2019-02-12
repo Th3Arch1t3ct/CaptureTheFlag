@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-35-42
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1325012240.723835	C7OkqI3iZlMVvSvPFj	192.168.36.10	1029	4.2.2.3	53	udp	44177	www.energyandcommerce.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.218.121.63	8.000000	F
+1325012240.770927	C7OkqI3iZlMVvSvPFj	192.168.36.10	1029	4.2.2.3	53	udp	38289	roommagazines.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.218.121.58	30.000000	F
+1325012240.927424	C7OkqI3iZlMVvSvPFj	192.168.36.10	1029	4.2.2.3	53	udp	56466	commerce-tips.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.218.121.63	30.000000	F
+1325012240.992798	C7OkqI3iZlMVvSvPFj	192.168.36.10	1029	4.2.2.3	53	udp	60051	www4.simplemweguard.kwik.to	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.238.105	21600.000000	F
+1325012241.216507	C7OkqI3iZlMVvSvPFj	192.168.36.10	1029	4.2.2.3	53	udp	5269	www1.smartscanerupn.kwik.to	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.110	13269.000000	F
+1325012248.317958	C7OkqI3iZlMVvSvPFj	192.168.36.10	1029	4.2.2.3	53	udp	58774	www2.safesuiteayr.kwik.to	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.142.217	13300.000000	F
+1325012288.08486	Cvp7Z83oGgUJJ9cMaj	192.168.36.10	1029	80.90.43.19	53	udp	5528	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	69.72.227.42	86400.000000	F
+#close	2014-04-03-10-35-42

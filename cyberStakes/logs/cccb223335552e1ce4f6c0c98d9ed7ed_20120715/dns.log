@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-50-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1342392082.635819	CWkLHJ29RTWzpaQgX3	192.168.72.10	1028	4.2.2.3	53	udp	10631	thegildedivy.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.45.230.117	7178.000000	F
+1342392082.8124	CWkLHJ29RTWzpaQgX3	192.168.72.10	1028	4.2.2.3	53	udp	55172	gildedivy.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.45.230.117	7200.000000	F
+1342392083.057142	CWkLHJ29RTWzpaQgX3	192.168.72.10	1028	4.2.2.3	53	udp	61829	monmonmedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.59.135.228	60.000000	F
+1342392083.630375	CWkLHJ29RTWzpaQgX3	192.168.72.10	1028	4.2.2.3	53	udp	31362	supp35.sne.jp	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.76.52.108	3600.000000	F
+1342392083.882906	CWkLHJ29RTWzpaQgX3	192.168.72.10	1028	4.2.2.3	53	udp	34947	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,96.17.162.81,96.17.162.57	16575.000000,234.000000,9740.000000,14.000000,14.000000	F
+1342392093.064616	CKw1t03nD1KZ0cbMj4	192.168.72.10	1028	4.2.2.3	53	udp	52867	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	2854.000000,243.000000	F
+1342392093.23495	CKw1t03nD1KZ0cbMj4	192.168.72.10	1028	4.2.2.3	53	udp	34432	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,64.4.52.169	576.000000,152.000000	F
+1342392095.662005	CKw1t03nD1KZ0cbMj4	192.168.72.10	1028	4.2.2.3	53	udp	47745	supp35.sne.jp	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.76.52.108	3588.000000	F
+1342392100.57207	CKw1t03nD1KZ0cbMj4	192.168.72.10	1028	4.2.2.3	53	udp	54913	kaufenbuysport.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.163.233.50	900.000000	F
+1342392131.280215	C9RIXZdlxyC3b1Fbc	192.168.72.10	1028	4.2.2.3	53	udp	53121	bestzkaufenboxing.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.163.233.50	900.000000	F
+1342392131.818095	C9RIXZdlxyC3b1Fbc	192.168.72.10	1028	4.2.2.3	53	udp	2958	insurance-loans-mortgages.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.158.190.132	43200.000000	F
+1342392140.335537	C9RIXZdlxyC3b1Fbc	192.168.72.10	1028	4.2.2.3	53	udp	17550	lewinckybest10.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.62.146.81	43200.000000	F
+#close	2014-04-03-09-50-48

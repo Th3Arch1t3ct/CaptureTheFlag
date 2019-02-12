@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-13-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1390774103.053658	CoZ6D63v1E0obFIQR	192.168.50.10	1035	4.2.2.3	53	udp	47254	sexxxadventures.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	75.126.86.170	30.000000	F
+1390774103.378252	CoZ6D63v1E0obFIQR	192.168.50.10	1035	4.2.2.3	53	udp	37012	8d.5f5bd96.3369c.2e116.43062.75.e621.37.mrxfxgxkkw.firmwest.pw	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.79.78	30.000000	F
+1390774110.38256	CoZ6D63v1E0obFIQR	192.168.50.10	1035	4.2.2.3	53	udp	14484	8d.5f5bd96.3369c.2e116.43062.75.e621.37.mrxfxgxkkw.firmwest.pw	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.79.78	23.000000	F
+#close	2014-04-03-10-13-37

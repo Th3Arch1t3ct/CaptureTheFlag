@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-14-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1344958300.796851	CbwcaYxNMuzlJtQL9	192.168.124.10	1029	4.2.2.3	53	udp	14217	shalajaswimwear.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	176.9.175.133	14375.000000	F
+1344958301.051983	CbwcaYxNMuzlJtQL9	192.168.124.10	1029	4.2.2.3	53	udp	13193	www.shalajaswimwear.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	shalajaswimwear.com,176.9.175.133	14374.000000,14374.000000	F
+1344958304.086696	CbwcaYxNMuzlJtQL9	192.168.124.10	1029	4.2.2.3	53	udp	33160	gandhi51motive.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.143.198.84	21600.000000	F
+1344958304.534607	CbwcaYxNMuzlJtQL9	192.168.124.10	1029	4.2.2.3	53	udp	28808	eason68allype.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.143.198.84	21600.000000	F
+1344958304.981187	CbwcaYxNMuzlJtQL9	192.168.124.10	1029	4.2.2.3	53	udp	8072	www3.h1ixtt0w1v9z1.kein.hk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.230.160.107	3600.000000	F
+1344958305.247853	CbwcaYxNMuzlJtQL9	192.168.124.10	1029	4.2.2.3	53	udp	9355	www1.ivifspsgabpcc2.kein.hk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.84	3600.000000	F
+1344958311.28507	CbwcaYxNMuzlJtQL9	192.168.124.10	1029	4.2.2.3	53	udp	9099	www2.m-jt8u5z106.dnsrd.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.137.131	31.000000	F
+1344958312.768349	CbwcaYxNMuzlJtQL9	192.168.124.10	1029	4.2.2.3	53	udp	55946	84.196.133.79.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	mail.netcustomercare.net	43200.000000	F
+1344958312.916282	CbwcaYxNMuzlJtQL9	192.168.124.10	1029	4.2.2.3	53	udp	25482	mail.netcustomercare.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1344958350.883271	CLNdU52dSvFq5IzdK4	192.168.124.10	1029	208.115.221.125	53	udp	6797	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	50.31.74.56	7200.000000	F
+#close	2014-04-03-11-14-15

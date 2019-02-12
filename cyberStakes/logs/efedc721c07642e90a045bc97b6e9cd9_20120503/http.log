@@ -1,0 +1,28 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-49-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1336044109.2668	ClB6Wn1uEWsLLA54ci	192.168.58.10	1030	89.31.143.101	80	1	GET	k2womensmovement.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2761	200	OK	-	-	-	(empty)	-	-	-	-	-	FDSQcv3hMnQpMeHXI9	text/html
+1336044109.56367	Cqw47l1JQt1c5LmyZj	192.168.58.10	1031	89.31.143.101	80	1	GET	k2womensmovement.com	/AC_RunActiveContent.js	http://k2womensmovement.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	8029	200	OK	-	-	-	(empty)	-	-	-	-	-	FM0w1F37bDyJjpTT9l	text/plain
+1336044109.930957	ChSur52qnq4zkvKi73	192.168.58.10	1032	89.31.143.101	80	1	GET	k2womensmovement.com	/html/bg_womens.jpg	http://k2womensmovement.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	17312	200	OK	-	-	-	(empty)	-	-	-	-	-	FfA3Gj43XQT2qujKXh	image/jpeg
+1336044109.874483	CTEEmu3jE8M7QFt3H2	192.168.58.10	1033	66.223.51.238	80	1	GET	rec-creations.com	/player.js	http://k2womensmovement.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3251	200	OK	-	-	-	(empty)	-	-	-	-	-	F7mGe23k6pr76rk254	text/plain
+1336044110.876992	C32d2f2ZrDxHVkAVQi	192.168.58.10	1035	89.31.143.101	80	1	GET	k2womensmovement.com	/index.swf	http://k2womensmovement.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	110	200	OK	-	-	-	(empty)	-	-	-	-	-	FNWXl71vWKz3samx74	application/x-shockwave-flash
+1336044110.758969	CMAGQr2GtF5xlS4Uhj	192.168.58.10	1034	94.75.213.211	80	1	GET	www.sessioweb.in	/images.php?t=42442948	http://k2womensmovement.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	11747	200	OK	-	-	-	(empty)	-	-	-	-	-	FZhkBB41zannluQet6	text/html
+1336044111.128705	CTdZKl3mCGa12cBj04	192.168.58.10	1038	96.17.162.49	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1759	200	OK	-	-	-	(empty)	-	-	-	-	-	Fayumq4YdO7OJvwud8	text/html
+1336044111.193997	CugOYA2zb175qxQZM3	192.168.58.10	1037	89.31.143.101	80	1	GET	k2womensmovement.com	/00.0_buttons.swf	http://k2womensmovement.com/index.swf	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	17690	200	OK	-	-	-	(empty)	-	-	-	-	-	FQyTc11bA81hOG38Ah	application/x-shockwave-flash
+1336044111.676889	CMAGQr2GtF5xlS4Uhj	192.168.58.10	1034	94.75.213.211	80	2	GET	www.sessioweb.in	/images.php?t=87654	http://www.sessioweb.in/images.php?t=42442948	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5337	200	OK	-	-	-	(empty)	-	-	-	-	-	F1BlGw1EdqEYschkNk	application/pdf
+1336044111.708048	COVAUi3nvl9iIvZRQ1	192.168.58.10	1039	89.31.143.101	80	1	GET	k2womensmovement.com	/00_rahmen.swf	http://k2womensmovement.com/index.swf	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	32466	200	OK	-	-	-	(empty)	-	-	-	-	-	FmTeHY1lw2XmqlUCq5	application/x-shockwave-flash
+1336044111.200997	Cybc7c1a6mxBEIhUY1	192.168.58.10	1036	89.31.143.101	80	1	GET	k2womensmovement.com	/01.0_home.swf	http://k2womensmovement.com/index.swf	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	245731	200	OK	-	-	-	(empty)	-	-	-	-	-	FXg5agIFfk2nGYbN1	application/x-shockwave-flash
+1336044121.789897	Ckrzld2OCeZax9Id13	192.168.58.10	1045	89.31.143.101	80	1	GET	k2womensmovement.com	/ClearExternalPlaySeekMute.swf	http://k2womensmovement.com/01.0_home.swf	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3618	200	OK	-	-	-	(empty)	-	-	-	-	-	FWYFVb1L5W94nSFcJk	application/x-shockwave-flash
+1336044122.520859	CMAGQr2GtF5xlS4Uhj	192.168.58.10	1034	94.75.213.211	80	3	GET	www.sessioweb.in	/images.php?t=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	28160	200	OK	-	-	-	(empty)	-	-	-	-	-	FYgfZj3U0PaqFTVpT4	application/x-dosexec
+1336044122.802176	CNuMWe1349XskeRPpj	192.168.58.10	1044	94.75.213.211	80	1	GET	www.sessioweb.in	/images.php?t=81234	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	7478	200	OK	-	-	-	(empty)	-	-	-	-	-	FolbNJ1LcdySflGCHk	application/zip
+1336044128.216144	CNuMWe1349XskeRPpj	192.168.58.10	1044	94.75.213.211	80	2	GET	www.sessioweb.in	/images.php?t=81234	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	7478	200	OK	-	-	-	(empty)	-	-	-	-	-	FT2tInjEYr6E8R58g	application/zip
+1336044128.597937	CNuMWe1349XskeRPpj	192.168.58.10	1044	94.75.213.211	80	3	GET	www.sessioweb.in	/images.php?t=81234	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	7478	200	OK	-	-	-	(empty)	-	-	-	-	-	FaQaVD2Xq0lapRJC83	application/zip
+1336044129.010569	CNuMWe1349XskeRPpj	192.168.58.10	1044	94.75.213.211	80	4	GET	www.sessioweb.in	/images.php?t=81234	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	7478	200	OK	-	-	-	(empty)	-	-	-	-	-	FyGuZk0uPii52ElAa	application/zip
+1336044129.183379	CNuMWe1349XskeRPpj	192.168.58.10	1044	94.75.213.211	80	5	GET	www.sessioweb.in	/images.php?t=1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	28160	200	OK	-	-	-	(empty)	-	-	-	-	-	FpaDpGghoLmMHGRwc	application/x-dosexec
+1336044122.766304	COW28p3D7eWqVvfo42	192.168.58.10	1046	89.31.143.101	80	1	GET	k2womensmovement.com	/Womensmovement-VIDEO - 2011-12.flv	http://k2womensmovement.com/01.0_home.swf	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2212757	200	OK	-	-	-	(empty)	-	-	-	-	-	FPBJlE1s9UrNDrvXKd	video/x-flv
+#close	2014-04-03-09-49-35

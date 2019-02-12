@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-08-43
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1389831246.653958	CUmEqI2wRYLEUBBTqa	192.168.75.10	1066	74.125.239.48	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=www.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1386784978.000000	1397106000.000000	-	-	-	e81da1dd1093f0a9991bb00053ea6cb0	ok
+1389831246.654821	CeGeHl18yQ6Cs4J5n6	192.168.75.10	1067	74.125.239.48	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=www.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1386784978.000000	1397106000.000000	-	-	-	e81da1dd1093f0a9991bb00053ea6cb0	ok
+1389831246.827938	Cu0j07URJjCUFX2u	192.168.75.10	1073	74.125.239.48	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=www.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1386784978.000000	1397106000.000000	-	-	-	e81da1dd1093f0a9991bb00053ea6cb0	ok
+1389831246.82739	CC0pbk28I0aWHQq0E4	192.168.75.10	1072	74.125.239.48	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=www.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1386784978.000000	1397106000.000000	-	-	-	e81da1dd1093f0a9991bb00053ea6cb0	ok
+1389831246.857645	Cw2aWf42avV8SHb8gk	192.168.75.10	1075	74.125.239.48	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=www.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1386784978.000000	1397106000.000000	-	-	-	e81da1dd1093f0a9991bb00053ea6cb0	ok
+1389831247.826159	C8LLH72tU6CHtRwiid	192.168.75.10	1092	74.125.239.48	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	fa52a513f22fe7360ffa6e6231a9fdf145ca046af19614b9b97b469489e88874	-	-	-	-	-	-	-	-	-
+1389831247.826582	CECR383nGPAOWRWGxe	192.168.75.10	1093	74.125.239.48	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	fa52a513f22fe7360ffa6e6231a9fdf145ca046af19614b9b97b469489e88874	-	-	-	-	-	-	-	-	-
+1389831248.912054	CsjcSq3SMCxBLSbmr7	192.168.75.10	1098	74.125.239.48	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	fa52a513f22fe7360ffa6e6231a9fdf145ca046af19614b9b97b469489e88874	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-08-44

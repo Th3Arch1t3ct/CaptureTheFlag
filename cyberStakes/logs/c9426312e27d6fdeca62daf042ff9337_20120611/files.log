@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-50-00
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1339416955.796803	F7FBvq3dxSTajPpeVb	173.201.233.128	192.168.54.10	Cqa6XZ2MjgSy71Ugh8	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	1856	-	0	0	F	-	ab539a3cc69e817608088e1bf797941e	b5c21d2e00d8916ee65f8f1b389af24788536e28	-	-
+1339416955.854817	FDkBX74bAf9jpcr5Si	173.201.233.128	192.168.54.10	Cqa6XZ2MjgSy71Ugh8	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	1357	-	0	0	F	-	fe1a5196503bb4d69d03f59ca745d513	5786431bcb891cd07a47028635bc6f6e9e3f471a	-	-
+1339416955.879693	FFg3pl1QvAFUurGpRe	141.101.124.232	192.168.54.10	CtEmyL3Y2YUeOCPogc	HTTP	0	SHA1,MD5	text/plain	-	0.029287	-	F	10295	-	0	0	F	-	ba1a4672d58aa266eb4a40a23e9a04fe	e4bdf57b0657ea060c4ebb06015fa56aeee5ae2e	-	-
+1339416955.991468	FmXpTj1aJHJO0Flvsi	173.201.233.128	192.168.54.10	Cqa6XZ2MjgSy71Ugh8	HTTP	0	SHA1,MD5	application/vnd.ms-fontobject	-	0.086534	-	F	21559	21559	0	0	F	-	1ccc4890d664bc4936dae4968bd540fc	680065cf45d7391b396efe3d84c3ffebfd6c9053	-	-
+1339416956.116999	F7XMFJ1UkkYBzfMY4c	204.13.8.64	192.168.54.10	CTUWKDy5wHxY3dKxc	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	7	27	0	0	F	-	3d19e432ccaadada507c07d92894fba1	2c36ee40252ccd6b4793b135875e2df1b82f1250	-	-
+1339416956.014561	F7i3a71iCoHTd804kc	173.201.233.128	192.168.54.10	CdRiJ62AsnML8tgY8j	HTTP	0	SHA1,MD5	image/jpeg	-	0.156167	-	F	56417	56417	0	0	F	-	66699b6b08711294ce93de0d733cc838	1711316c371bd4aecbc305957661e17ba020a673	-	-
+1339416956.171041	FOyJGb4naHlrIFuTS7	173.201.233.128	192.168.54.10	Cqa6XZ2MjgSy71Ugh8	HTTP	0	SHA1,MD5	image/png	-	0.000000	-	F	1031	1031	0	0	F	-	98c9a93220d13e2ff85e78daca0396d7	60e114a20598bea7d5fdd490c543b1e600855132	-	-
+1339416961.354706	FIadhM1RKijJ0hAPYj	173.201.233.128	192.168.54.10	CdRiJ62AsnML8tgY8j	HTTP	0	SHA1,MD5	application/x-dosexec	-	0.013317	-	F	55214	3025240	0	0	F	-	ef0a528087172f877b3078015deb697b	b2d54240d78dead66b89722f3be64186fb179b5a	-	-
+#close	2014-04-03-10-50-00

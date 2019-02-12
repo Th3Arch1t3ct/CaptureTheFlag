@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-36-37
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1311766399.672468	FK91eqobo007H3Wvb	216.239.138.160	192.168.16.10	CwNuFA1FsLWd0nKJ2j	HTTP	0	MD5,SHA1	text/html	-	0.396372	-	F	35981	35981	0	0	F	-	789d325d1d6cd09e4433588bc479d230	a39f9c1c203b10fcc4ad6c184d1fd53b807630b5	-	-
+1311766400.952392	FVFnGt4gauLy36rSE2	180.149.253.36	192.168.16.10	CDGwVn4TAUycQdDvHh	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	1904	1904	0	0	F	-	dcb993f694423e8d29eaccc8503d0919	015668dcdd171fefc6d3c391eb6d77504efaf6e1	-	-
+1311766402.301382	F8DdwppfIUo0YaYVd	180.149.253.36	192.168.16.10	CDGwVn4TAUycQdDvHh	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	2197	2197	0	0	F	-	c0ba9258bdac3d1f6281cd39c3c0d0e6	dfe7e1da40ee6d9eb98330f91adf64a3e0f903bb	-	-
+1311766425.27211	FALt1B4kBXFYUMIum5	112.121.172.106	192.168.16.10	CJXPDN2pssNgBq9iV1	HTTP	0	MD5,SHA1	application/xml	-	0.000000	-	F	761	-	0	0	F	-	b474896accfe390ed769fb8b82e45bd2	8260d2478a35f8261c391efb7c80c1a9885a190f	-	-
+1311766425.552234	Fdpzyz3cwgjHGWuSWf	112.121.172.106	192.168.16.10	CJXPDN2pssNgBq9iV1	HTTP	0	MD5,SHA1	application/xml	-	0.000000	-	F	866	-	0	0	F	-	4ca677ccccf48717e5b75964e564e639	7184f2aafaee633ce901409f141337b50d45dbf3	-	-
+1311766425.790536	F1b0D34WeOGkpedDf7	112.121.172.106	192.168.16.10	CJXPDN2pssNgBq9iV1	HTTP	0	MD5,SHA1	application/jar	-	0.000000	-	F	2066	2066	0	0	F	-	7190d4e7e6b5fad960e7b22e521e0cc8	72d890330fea0724ae9747767975581667cb7303	-	-
+1311766426.075405	FkYn7w393LgBMTSvzh	112.121.172.106	192.168.16.10	CJXPDN2pssNgBq9iV1	HTTP	0	MD5,SHA1	application/xml	-	0.000000	-	F	761	-	0	0	F	-	b474896accfe390ed769fb8b82e45bd2	8260d2478a35f8261c391efb7c80c1a9885a190f	-	-
+1311766426.313312	FXJq5D14EHvFUyddSe	112.121.172.106	192.168.16.10	CJXPDN2pssNgBq9iV1	HTTP	0	MD5,SHA1	application/xml	-	0.000000	-	F	766	-	0	0	F	-	f12a06016cc17db3cdc6864a2fcbdabe	c5fa0f4bc4f189540447e6489b96094fd8fcbfcf	-	-
+1311766426.898959	FW53Sk4cwPsMfDB1fj	112.121.172.106	192.168.16.10	CJabLF3Aokunw7Kt	HTTP	0	MD5,SHA1	application/x-dosexec	-	1.413424	-	F	72008	72008	0	0	F	-	9f1c3008b23e766ee35f004e9117dde9	8a0c0f08c9e8a6f2b66d6863f855b4fbbf2ae321	-	-
+#close	2014-04-03-10-36-37

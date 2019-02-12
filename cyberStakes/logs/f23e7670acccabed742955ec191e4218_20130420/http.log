@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-41-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1366484777.2498	CQKBM62iPCnONn64N9	192.168.113.10	1030	68.15.0.244	80	1	GET	larscameras.wirepathdns.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	812	200	OK	-	-	-	(empty)	-	-	-	-	-	FS4vby1h3OLHzfpSLi	text/html
+1366484777.420219	CQKBM62iPCnONn64N9	192.168.113.10	1030	68.15.0.244	80	2	GET	larscameras.wirepathdns.com	/ie.htm	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1174	200	OK	-	-	-	(empty)	-	-	-	-	-	Fep55H1zoFbEtPBufk	text/html
+1366484777.545839	CQKBM62iPCnONn64N9	192.168.113.10	1030	68.15.0.244	80	3	GET	larscameras.wirepathdns.com	/vcredist_x86.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2723264	200	OK	-	-	-	(empty)	-	-	-	-	-	FcVj2k3oLqmvpgg9O9	application/x-dosexec
+1366484784.202174	CwYCBa1P2HX1E5ywb7	192.168.113.10	1035	23.62.111.187	80	1	GET	crl.microsoft.com	/pki/crl/products/CodeSignPCA2.crl	-	Microsoft-CryptoAPI/5.131.2600.2180	0	558	200	OK	-	-	-	(empty)	-	-	-	-	-	FJcEYP2kPv9wLXmeea	binary
+1366484784.317387	CQKBM62iPCnONn64N9	192.168.113.10	1030	68.15.0.244	80	4	GET	larscameras.wirepathdns.com	/IEPlugin.cab	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2656969	200	OK	-	-	-	(empty)	-	-	-	-	-	Fp2T7u2mYsb9lrqJc8	application/vnd.ms-cab-compressed
+1366484790.591559	CPEkHB43kt5r1XODEf	192.168.113.10	1036	108.162.232.5	80	1	GET	crl.globalsign.net	/root.crl	-	Microsoft-CryptoAPI/5.131.2600.2180	0	469	200	OK	-	-	-	(empty)	-	-	-	-	-	F0gjax8sGdJukllFe	binary
+1366484790.634841	CVzDoyJHHfVQUAK4f	192.168.113.10	1037	108.162.232.6	80	1	GET	crl.globalsign.com	/gs/gscodesigng2.crl	-	Microsoft-CryptoAPI/5.131.2600.2180	0	2838	200	OK	-	-	-	(empty)	-	-	-	-	-	FOLipk2BriuysaG71j	binary
+#close	2014-04-03-10-41-30

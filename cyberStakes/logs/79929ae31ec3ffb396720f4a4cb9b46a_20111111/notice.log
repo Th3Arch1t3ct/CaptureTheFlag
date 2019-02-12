@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-15-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1321013785.542379	CeMkhX34M4eoOE6253	192.168.106.10	1037	69.6.252.129	80	FIDKRs46XtIluSGPDg	application/x-dosexec	http://fotonic.ro/zcv.gif	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 93%  Last seen: 2013-12-11 20:34:26	https://www.virustotal.com/en/search/?query=ab570c602fcd6149976f52ebc35e69324ea9512c	192.168.106.10	69.6.252.129	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1321013814.003733	CeN5NsAeabSLdjBda	192.168.106.10	1046	67.227.204.203	80	Ft1tDD4SDwABUOrpod	application/x-dosexec	http://pdeqfrhpncz.com/w.php?f=26&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2011-12-02 22:12:27	https://www.virustotal.com/en/search/?query=514269227b783b351480de0b3815a2a6d6bf7c99	192.168.106.10	67.227.204.203	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1321013819.078811	CKPszs2TfwCQrwHIhg	192.168.106.10	1049	67.227.204.203	80	FWOAI31dMwLQmfSBG9	application/pdf	http://pdeqfrhpncz.com/content/2ddfp.php?f=26	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2011-12-02 19:09:13	https://www.virustotal.com/en/search/?query=0040d5c169c0a0cdfebaff608160dfc7375971b4	192.168.106.10	67.227.204.203	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-15-46

@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-02-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1331586831.903194	CsRTq73L3mpJ2YK376	192.168.124.10	1063	192.162.101.191	80	Fl3Bo72qGYJr7b37Bh	application/x-dosexec	http://img303.momokoko.ru/img303/301/includes/exec.php	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 52%  Last seen: 2012-05-15 18:20:19	https://www.virustotal.com/en/search/?query=eab8dafa3c9b8923b7fa7c550da519d6a78ef58d	192.168.124.10	192.162.101.191	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-02-49

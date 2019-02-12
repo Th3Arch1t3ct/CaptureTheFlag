@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-58-28
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1335857500.101825	CH90rt3TXz5Y4MB8Wj	192.168.96.10	1030	70.32.68.249	80	1	GET	2expertsdesign.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1204	200	OK	-	-	-	(empty)	-	-	-	-	-	FeGNzm4oR70AhsOD5l	text/html
+1335857501.064458	CnlAE23ecbvB9fxeB2	192.168.96.10	1031	193.169.188.143	80	1	GET	elektrooborudovanie.co.ua	/mltools.js	http://2expertsdesign.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3031	200	OK	-	-	-	(empty)	-	-	-	-	-	FeCFfH11uMryEyI8B2	text/plain
+1335857502.6022	CeZmrL3cVS4Vgvy0Vc	192.168.96.10	1036	91.208.16.243	80	1	GET	ruminatqat.aelita.fr	/index.php?85a5839041b1ee9ec8503327e6b86858	http://2expertsdesign.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	90322	200	OK	-	-	-	(empty)	-	-	-	-	-	FEtbFd2UwjCDHDPfNk	text/plain
+1335857504.933388	CSEIHX3nPlDDPL5ff8	192.168.96.10	1037	91.208.16.243	80	1	GET	ruminatqat.aelita.fr	//images/00b2c13059d196982a8f5a19a73694bc.pdf	http://ruminatqat.aelita.fr/index.php?85a5839041b1ee9ec8503327e6b86858	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	17253	200	OK	-	-	-	(empty)	-	-	-	-	-	FEL9epozjsHRvY7Gg	application/pdf
+1335857507.111347	CqbrkQfzEhGlq7k01	192.168.96.10	1038	91.208.16.243	80	1	GET	ruminatqat.aelita.fr	//images/00b2c13059d196982a8f5a19a73694bc.pdf	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	17253	200	OK	-	-	-	(empty)	-	-	-	-	-	FtBPdlYNQFsmpJII	application/pdf
+1335857514.996629	CLHG5h1a2kxjHWrOMl	192.168.96.10	1039	91.208.16.243	80	1	GET	ruminatqat.aelita.fr	//images/a03cb4b8e5bb148134a57a2c87ddacd9.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	10545	200	OK	-	-	-	(empty)	-	-	-	-	-	F5BBcvKxUvLwdUtee	application/jar
+1335857515.434467	CLHG5h1a2kxjHWrOMl	192.168.96.10	1039	91.208.16.243	80	2	GET	ruminatqat.aelita.fr	//images/a03cb4b8e5bb148134a57a2c87ddacd9.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	10545	200	OK	-	-	-	(empty)	-	-	-	-	-	Frx9Nu9ZBKwjhM2G	application/jar
+1335857517.229813	Chzrci3uQekpkUtdMj	192.168.96.10	1040	91.208.16.243	80	1	GET	ruminatqat.aelita.fr	//images/a03cb4b8e5bb148134a57a2c87ddacd9.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	10545	200	OK	-	-	-	(empty)	-	-	-	-	-	F5ng654cOuvcAzTl64	application/jar
+1335857518.415567	ChKMWI11Q3J4hR6MBa	192.168.96.10	1041	91.208.16.243	80	1	GET	ruminatqat.aelita.fr	/server_privileges.php?00b2c13059d196982a8f5a19a73694bc=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	17880	200	OK	-	-	-	(empty)	-	-	-	-	-	FDsiqq2LejyJ67Hy9g	application/x-dosexec
+1335857523.099953	CQmpOYoFRtt1S5gbc	192.168.96.10	1042	91.208.16.243	80	1	GET	ruminatqat.aelita.fr	//images/a03cb4b8e5bb148134a57a2c87ddacd9.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	10545	200	OK	-	-	-	(empty)	-	-	-	-	-	FlNP9a2v0xrtW7oLxj	application/jar
+1335857523.600581	CQmpOYoFRtt1S5gbc	192.168.96.10	1042	91.208.16.243	80	2	GET	ruminatqat.aelita.fr	/server_privileges.php?00b2c13059d196982a8f5a19a73694bc=2	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	17880	200	OK	-	-	-	(empty)	-	-	-	-	-	F2dSzB3LtAUF14OxA1	application/x-dosexec
+1335857504.772832	CeZmrL3cVS4Vgvy0Vc	192.168.96.10	1036	91.208.16.243	80	2	GET	ruminatqat.aelita.fr	//images/00b2c13059d196982a8f5a19a73694bc.pdf	http://ruminatqat.aelita.fr/index.php?85a5839041b1ee9ec8503327e6b86858	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-09-58-28

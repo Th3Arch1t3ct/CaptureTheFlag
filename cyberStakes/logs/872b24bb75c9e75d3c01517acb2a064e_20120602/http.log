@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-10-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1338614480.550026	CYmPPoRxiZFUyYE9h	192.168.127.10	1030	174.120.42.94	80	1	GET	testccna.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	-	-
+1338614480.952067	CulNvSZZlkZaZ9KWb	192.168.127.10	1031	174.120.42.94	80	1	GET	www.testccna.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	59123	200	OK	-	-	-	(empty)	-	-	-	-	-	Fl9Vet9ICCKJj65C9	text/html
+1338614481.142988	CulNvSZZlkZaZ9KWb	192.168.127.10	1031	174.120.42.94	80	2	GET	www.testccna.com	/wp-content/themes/zbench/pagenavi-css.css?ver=2.70	http://www.testccna.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	598	200	OK	-	-	-	(empty)	-	-	-	-	-	Fs19sN1wwSpVZVUyvl	text/plain
+1338614481.115936	CDQwTh2Yzcj0M6mL5d	192.168.127.10	1032	174.120.42.94	80	1	GET	www.testccna.com	/wp-content/themes/zbench/style.css	http://www.testccna.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	16823	200	OK	-	-	-	(empty)	-	-	-	-	-	FUysJj4cJDcg96QBic	text/plain
+1338614481.199819	CulNvSZZlkZaZ9KWb	192.168.127.10	1031	174.120.42.94	80	3	GET	www.testccna.com	/wp-includes/js/l10n.js?ver=20101110	http://www.testccna.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	308	200	OK	-	-	-	(empty)	-	-	-	-	-	FzvCav19Zu4XjoCUfd	text/plain
+1338614481.26424	CDQwTh2Yzcj0M6mL5d	192.168.127.10	1032	174.120.42.94	80	2	GET	www.testccna.com	/wp-includes/js/jquery/jquery.js?ver=1.4.4	http://www.testccna.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	78620	200	OK	-	-	-	(empty)	-	-	-	-	-	F3qkqZ2EW90Yl0Megk	text/plain
+1338614481.545719	CulNvSZZlkZaZ9KWb	192.168.127.10	1031	174.120.42.94	80	4	GET	www.testccna.com	/wp-content/themes/zbench/images/search-input-bg.gif	http://www.testccna.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	166	200	OK	-	-	-	(empty)	-	-	-	-	-	Fw6jY22FG6qHcVcIUf	image/gif
+1338614481.81907	CMojo22G86L7gJy2fi	192.168.127.10	1033	82.192.87.6	80	1	GET	a1.topsitestats.info	/404notfound	http://www.testccna.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3930	200	OK	-	-	-	(empty)	-	-	-	-	-	Fxgiro4DzvNTV2brb3	text/html
+1338614482.928169	ChpHuEtqeNh71VCz1	192.168.127.10	1034	82.192.87.6	80	1	GET	a1.topsitestats.info	/xJWBV82olK/utZEjTwnq?s=SYhsSYCnhqSdSDSnnY	http://a1.topsitestats.info/404notfound	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3448	200	OK	-	-	-	(empty)	-	-	-	-	-	FkqCG42j5hBqsCSNq6	text/plain
+1338614483.319068	C4gfr63sqVTnPVpXB6	192.168.127.10	1039	82.192.87.6	80	1	GET	a1.topsitestats.info	/e1JWBV82olK/utZEjTwnq	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	31744	200	OK	-	-	-	(empty)	-	-	-	-	-	FaZAdP2GQmMCZ7BCxg	application/x-dosexec
+1338614485.270585	Ci32wv4bQ8ERRMRl63	192.168.127.10	1041	82.192.87.6	80	1	GET	a1.topsitestats.info	/aJWBV82olK/utZEjTwnq	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	218	404	NOT FOUND	-	-	-	(empty)	-	-	-	-	-	FbF2SW2Nc6wvNviMC1	text/html
+1338614485.615779	CQKiES33YbeFqcj609	192.168.127.10	1042	82.192.87.6	80	1	GET	a1.topsitestats.info	/aJWBV82olK/utZEjTwnq	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	218	404	NOT FOUND	-	-	-	(empty)	-	-	-	-	-	FXV2QX3M0NXmGxIEqh	text/html
+1338614485.917358	CXMlzU2I1FSkERq5Ba	192.168.127.10	1043	82.192.87.6	80	1	GET	a1.topsitestats.info	/a/Test.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	210	404	NOT FOUND	-	-	-	(empty)	-	-	-	-	-	Fahcol43No1SfPuRTi	text/html
+1338614486.167453	CAGtFz2ErgnCFaRDL4	192.168.127.10	1044	82.192.87.6	80	1	GET	a1.topsitestats.info	/a/Test.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	210	404	NOT FOUND	-	-	-	(empty)	-	-	-	-	-	FZO3zK1xWccrc8W2hg	text/html
+1338614514.177214	Cxf2Wt1WFhmTUxMPuf	192.168.127.10	1046	96.17.162.43	80	1	GET	crl.adobe.com	/aum.crl	-	Adobe Update Manager 6	0	2819	200	OK	-	-	-	(empty)	-	-	-	-	-	FSSWbp1KKTqaCiR97f	binary
+1338614514.069805	CY00OvpmsFDJbhNle	192.168.127.10	1045	96.17.162.25	80	1	GET	swupmf.adobe.com	/manifest/60/win/reader9rdr-en_US.upd	-	Adobe Update Manager 6	0	192693	200	OK	-	-	-	(empty)	-	-	-	-	-	FUMYF11Hn1rqOJNPl	binary
+1338614514.355301	CY00OvpmsFDJbhNle	192.168.127.10	1045	96.17.162.25	80	2	GET	swupmf.adobe.com	/manifest/60/win/AdobeUpdater.upd	-	Adobe Update Manager 6	0	3524	200	OK	-	-	-	(empty)	-	-	-	-	-	FYDWVJz4sqWZQogJf	binary
+#close	2014-04-03-11-10-29

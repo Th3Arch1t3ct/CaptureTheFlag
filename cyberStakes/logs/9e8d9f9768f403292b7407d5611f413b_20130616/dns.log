@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-28-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1371367084.447723	Ct6FQQ9GSahEpeyy1	192.168.93.10	1029	4.2.2.3	53	udp	2955	www.sixcon.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.98.160.16	300.000000	F
+1371367085.075006	Ct6FQQ9GSahEpeyy1	192.168.93.10	1029	4.2.2.3	53	udp	18827	sixcon.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.98.160.16	300.000000	F
+1371367086.832431	Ct6FQQ9GSahEpeyy1	192.168.93.10	1029	4.2.2.3	53	udp	54921	sexshopsexy.es	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.23.193.225	14400.000000	F
+1371367087.312975	Ct6FQQ9GSahEpeyy1	192.168.93.10	1029	4.2.2.3	53	udp	9358	mymxzj.jobsandhops.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	198.50.211.65	3600.000000	F
+1371367096.309108	Ct6FQQ9GSahEpeyy1	192.168.93.10	1029	4.2.2.3	53	udp	27022	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	326.000000,300.000000	F
+1371367096.590398	Ct6FQQ9GSahEpeyy1	192.168.93.10	1029	4.2.2.3	53	udp	50316	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	3600.000000,600.000000	F
+1371367098.738471	Ct6FQQ9GSahEpeyy1	192.168.93.10	1029	4.2.2.3	53	udp	3468	65.211.50.198.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1371367098.738471	Ct6FQQ9GSahEpeyy1	192.168.93.10	1029	4.2.2.3	53	udp	3468	65.211.50.198.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-28-45

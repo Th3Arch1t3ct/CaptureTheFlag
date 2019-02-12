@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-40-27
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1328158946.53693	CGYqUM1BXpphOkajnk	192.168.57.10	1058	81.19.88.106	443	SSLv3	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=*.rambler.ru,OU=IT Department,O=Rambler Internet Holdings\, LLC,L=Moscow,ST=Moscow,C=RU	CN=Thawte SSL CA,O=Thawte\, Inc.,C=US	1315198800.000000	1378357199.000000	-	-	-	aef80bb3dcaa62b2e5c7a326f97dea43	ok
+#close	2014-04-03-10-40-27

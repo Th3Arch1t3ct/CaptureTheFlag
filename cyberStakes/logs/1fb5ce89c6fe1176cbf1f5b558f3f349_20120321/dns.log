@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-06-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1332356940.258949	COXLKmlNOCPhSNOEb	192.168.7.10	1029	4.2.2.3	53	udp	18317	tvfreemovie.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.170.163.61	43178.000000	F
+1332356940.417764	COXLKmlNOCPhSNOEb	192.168.7.10	1029	4.2.2.3	53	udp	49551	www.graboid.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	graboid.com,98.129.132.148	43200.000000,43200.000000	F
+1332356940.464335	COXLKmlNOCPhSNOEb	192.168.7.10	1029	4.2.2.3	53	udp	35721	www.tvfreemovie.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	tvfreemovie.com,31.170.163.61	43200.000000,43178.000000	F
+1332356940.527197	COXLKmlNOCPhSNOEb	192.168.7.10	1029	4.2.2.3	53	udp	40329	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.159.100,74.125.159.101,74.125.159.102,74.125.159.113,74.125.159.138,74.125.159.139	37297.000000,60.000000,60.000000,60.000000,60.000000,60.000000,60.000000	F
+1332356941.132511	COXLKmlNOCPhSNOEb	192.168.7.10	1029	4.2.2.3	53	udp	5001	analytics.hosting24.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.170.160.65	14400.000000	F
+1332356941.295566	COXLKmlNOCPhSNOEb	192.168.7.10	1029	4.2.2.3	53	udp	19080	error404.000webhost.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	83.170.96.219	14400.000000	F
+1332356941.330781	COXLKmlNOCPhSNOEb	192.168.7.10	1029	4.2.2.3	53	udp	38282	downloads.mytvandmovies.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.129.132.152	43200.000000	F
+1332356941.761982	COXLKmlNOCPhSNOEb	192.168.7.10	1029	4.2.2.3	53	udp	64645	cds.mytvandmovies.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	hwcdn.net,69.16.175.42,69.16.175.10	43200.000000,1989.000000,1989.000000	F
+#close	2014-04-03-11-06-12

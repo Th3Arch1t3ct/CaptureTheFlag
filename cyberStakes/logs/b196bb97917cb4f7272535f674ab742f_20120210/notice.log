@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-25-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1328862823.464208	Cf14KkyyncZfOfkEc	192.168.12.10	1032	78.47.198.36	80	FxnyPB1n8U0iGDNNWe	application/x-dosexec	http://hefflypaddy.info/jkasdh98768sa9hdjkashdi6iyhikusadhi68/w.php?f=77&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2012-02-13 17:48:10	https://www.virustotal.com/en/search/?query=79e92955f11bbc1b0f01d185a48a7bae071b2a96	192.168.12.10	78.47.198.36	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328862824.8444	Cf14KkyyncZfOfkEc	192.168.12.10	1032	78.47.198.36	80	F7nJQn3F7wPbpq07M2	application/x-shockwave-flash	http://hefflypaddy.info/jkasdh98768sa9hdjkashdi6iyhikusadhi68/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 50%  Last seen: 2012-02-09 09:22:17	https://www.virustotal.com/en/search/?query=599e5ea3d889a28313d3b842fe1100eb26695e57	192.168.12.10	78.47.198.36	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-25-54

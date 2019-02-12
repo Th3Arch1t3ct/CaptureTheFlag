@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-33-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1367030043.123515	CMMkls37oEALQkIX3i	192.168.9.10	1032	74.125.140.95	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleapis.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1365702708.000000	1388527130.000000	-	-	-	a30cbfdf0dc59555555555555b404e52	ok
+1367030043.45538	C9tFxk4hUC1vTG8Cdk	192.168.9.10	1033	173.194.37.0	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1365702639.000000	1388527130.000000	-	-	-	5b7cb8d98aeeeeeeeeeeeeeeeeeeeeee	ok
+1367030050.910592	CW7L3pjZHDfRC3uma	192.168.9.10	1166	184.31.11.32	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.voicefive.com,OU=OSE,O=TMRG,L=Reston,ST=VIRGINIA,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1365023158.000000	1396559158.000000	-	-	-	60cbe8633940eb222c54631705b6cca1	ok
+1367030051.9825	C2r0WG3W4dPqwm4Xke	192.168.9.10	1182	54.243.183.50	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.truste.com,O=True Ultimate Standards Everywhere\, Inc.,L=San Francisco,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1327298400.000000	1422079199.000000	-	-	-	75c6308ffb77ea6550ef41d826eeeeee	ok
+1367030053.734882	Cu22qh33fVRuCWa6tf	192.168.9.10	1220	173.252.101.26	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.facebook.com,O=Facebook\, Inc.,L=Palo Alto,ST=California,C=US	OU=www.verisign.com/CPS Incorp.by Ref. LIABILITY LTD.(c)97 VeriSign,OU=VeriSign International Server CA - Class 3,OU=VeriSign\, Inc.,O=VeriSign Trust Network	1340254800.000000	1388555999.000000	-	-	-	f10b4102a78b5894231109d6d3fbeeb5	ok
+1367030053.874798	C5VepUJxpYDNlPWG4	192.168.9.10	1225	54.243.183.50	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	b803c9ffaf1625f4ada68cc601c89027e6edba47279ecd5444c13984509c9c11	-	-	-	-	-	-	-	-	-
+1367030053.970578	CCW7XH27jDMM2e5kKl	192.168.9.10	1229	54.243.183.50	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	b803c9ffaf1625f4ada68cc601c89027e6edba47279ecd5444c13984509c9c11	-	-	-	-	-	-	-	-	-
+1367030080.87915	Chmozg3h0Y8PW3EdXi	192.168.9.10	1303	205.251.72.170	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.ib-ibi.com,OU=IT,O=i-behavior Inc.,L=Louisville,ST=Colorado,C=US	CN=Thawte SSL CA,O=Thawte\, Inc.,C=US	1345438800.000000	1382245199.000000	-	-	-	2e70fc68a76303cc53991e9f88be694c	ok
+1367030081.547576	Cttvz14xcLaSJek314	192.168.9.10	1305	70.33.182.202	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=ib.mookie1.com,OU=IT,O=I-Behavior\, Inc,L=Louisville,ST=Colorado,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1334034000.000000	1373648400.000000	-	-	-	3567a18a090d67b8f2cb9ac062b99fdc	ok
+#close	2014-04-03-10-33-18

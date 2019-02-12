@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-11-07-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1346497092.856509	CmeWu51Fopd178TCgc	192.168.62.10	1029	4.2.2.3	53	udp	dns	0.497757	60	92	SF	-	0	Dd	2	116	2	148	(empty)
+1346497092.858424	CCyw5I23T9BV8ndzUa	192.168.62.10	1030	37.221.168.40	80	tcp	http	6.173309	536	15666	RSTO	-	0	ShADadfR	13	1064	14	16234	(empty)
+1346497118.590817	COUAGn1QRXTlN25HSl	192.168.62.10	1029	4.2.2.3	53	udp	dns	0.176573	77	206	SF	-	0	Dd	2	133	2	262	(empty)
+1346497093.101091	CqwvLR1AmtPZa05eTh	192.168.62.10	1031	37.221.168.40	80	tcp	http	33.136386	328	578	RSTO	-	0	ShADadfR	6	576	4	746	(empty)
+1346497125.283859	CW2kDsFVe0GaBZcPe	192.168.62.10	1039	176.9.233.151	44278	tcp	-	4.839069	5	25	SF	-	0	ShADdfFa	5	213	4	193	(empty)
+1346497077.784764	CMjtUojSw3gdH8PLd	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.002502	626	0	S0	-	0	D	2	682	0	0	(empty)
+1346497077.785096	CSa7Np30q7LZnypVS2	192.168.62.10	68	192.168.62.1	67	udp	dhcp	12.203938	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1346497145.098276	CsXCVk3vsf9z26nI08	192.168.62.10	1040	176.9.233.151	44278	tcp	-	1.106225	10	0	SF	-	0	ShADaFf	6	258	4	168	(empty)
+1346497118.614656	CwNvWa4iTRd5R8rjT3	192.168.62.10	1034	65.55.13.243	80	tcp	http	0.260501	479	239	S1	-	0	ShADd	4	647	2	327	(empty)
+1346497118.767944	CWUyrN2CQhrCcMosk	192.168.62.10	1038	65.55.13.243	80	tcp	http	0.326194	476	239	S1	-	0	ShADd	4	644	2	327	(empty)
+1346497093.354888	CYlRYH3jCD5HMlXj07	192.168.62.10	1032	184.82.160.118	80	tcp	http	62.100156	1072	963653	RSTO	-	0	ShADadfR	477	20924	695	991461	(empty)
+1346497118.648645	CaeZg11NiUr1VbYVab	192.168.62.10	1036	239.255.255.250	1900	udp	-	6.320541	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-04-03-11-07-08

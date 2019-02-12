@@ -1,0 +1,28 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-07-21
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1336655417.191905	CNYcaV1hJwY1Sxgn6a	192.168.64.10	1029	96.9.162.3	80	1	GET	at-ebook.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	9307	200	OK	-	-	-	(empty)	-	-	-	-	-	FRvamo31o1Q87MaQId	text/html
+1336655417.289286	CNYcaV1hJwY1Sxgn6a	192.168.64.10	1029	96.9.162.3	80	2	GET	at-ebook.com	/images/t_spacer.gif	http://at-ebook.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	140	200	OK	-	-	-	(empty)	-	-	-	-	-	F8WJA21KnLSgUvFFW6	image/gif
+1336655417.301535	CQ4DHyBnBggkdaNwh	192.168.64.10	1030	96.9.162.3	80	1	GET	at-ebook.com	/styles.css	http://at-ebook.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2312	200	OK	-	-	-	(empty)	-	-	-	-	-	Fmgtz83lAAbqf92hF3	text/plain
+1336655417.428367	CNYcaV1hJwY1Sxgn6a	192.168.64.10	1029	96.9.162.3	80	3	GET	at-ebook.com	/images/n1.gif	http://at-ebook.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1985	200	OK	-	-	-	(empty)	-	-	-	-	-	FbvaQc2mMi6KUMNVQb	image/gif
+1336655417.430926	CQ4DHyBnBggkdaNwh	192.168.64.10	1030	96.9.162.3	80	2	GET	at-ebook.com	/images/home.gif	http://at-ebook.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1857	200	OK	-	-	-	(empty)	-	-	-	-	-	FjxkIo3nAmB9tk2NA4	image/gif
+1336655417.718605	CNYcaV1hJwY1Sxgn6a	192.168.64.10	1029	96.9.162.3	80	4	GET	at-ebook.com	/images/viewcart.gif	http://at-ebook.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2391	200	OK	-	-	-	(empty)	-	-	-	-	-	FVEb7B2pG0nDWrIoJ1	image/gif
+1336655417.719841	CQ4DHyBnBggkdaNwh	192.168.64.10	1030	96.9.162.3	80	3	GET	at-ebook.com	/images/search.gif	http://at-ebook.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2144	200	OK	-	-	-	(empty)	-	-	-	-	-	FYu5Do1Vnj7AIU3KRa	image/gif
+1336655417.746064	CQ4DHyBnBggkdaNwh	192.168.64.10	1030	96.9.162.3	80	4	GET	at-ebook.com	/images/contact.gif	http://at-ebook.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2268	200	OK	-	-	-	(empty)	-	-	-	-	-	FzMWrt13kWKgNlcIVc	image/gif
+1336655417.770709	CQ4DHyBnBggkdaNwh	192.168.64.10	1030	96.9.162.3	80	5	GET	at-ebook.com	/images/n2.gif	http://at-ebook.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	941	200	OK	-	-	-	(empty)	-	-	-	-	-	FRM0H030z7K6RXwKjh	image/gif
+1336655417.745764	CNYcaV1hJwY1Sxgn6a	192.168.64.10	1029	96.9.162.3	80	5	GET	at-ebook.com	/images/help.gif	http://at-ebook.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2102	200	OK	-	-	-	(empty)	-	-	-	-	-	Fmhx7nMtUx6c1Fgk	image/gif
+1336655417.795362	CQ4DHyBnBggkdaNwh	192.168.64.10	1030	96.9.162.3	80	6	GET	at-ebook.com	/images/browse.gif	http://at-ebook.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	897	200	OK	-	-	-	(empty)	-	-	-	-	-	Fi1I974opv5iIfNgGb	image/gif
+1336655417.800694	CNYcaV1hJwY1Sxgn6a	192.168.64.10	1029	96.9.162.3	80	6	GET	at-ebook.com	/images/newsl.gif	http://at-ebook.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	872	200	OK	-	-	-	(empty)	-	-	-	-	-	FC0u8iOFnwQ1lfwVh	image/gif
+1336655417.819926	CQ4DHyBnBggkdaNwh	192.168.64.10	1030	96.9.162.3	80	7	GET	at-ebook.com	/images/BuyWithSP1.gif	http://at-ebook.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	338	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FQXvDXaB2lICgZeS6	text/html
+1336655417.824002	CNYcaV1hJwY1Sxgn6a	192.168.64.10	1029	96.9.162.3	80	7	GET	at-ebook.com	/images/paypal_logo.gif	http://at-ebook.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	902	200	OK	-	-	-	(empty)	-	-	-	-	-	FY99MK3iV6i43494m7	image/gif
+1336655417.84208	CQ4DHyBnBggkdaNwh	192.168.64.10	1030	96.9.162.3	80	8	GET	at-ebook.com	/images/links.gif	http://at-ebook.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	806	200	OK	-	-	-	(empty)	-	-	-	-	-	FssdUj1n16xklGiFpl	image/gif
+1336655417.874545	CNYcaV1hJwY1Sxgn6a	192.168.64.10	1029	96.9.162.3	80	8	GET	at-ebook.com	/images/bottom.gif	http://at-ebook.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	705	200	OK	-	-	-	(empty)	-	-	-	-	-	F1QQK46UNxFpKTVi	image/gif
+1336655417.899342	CNYcaV1hJwY1Sxgn6a	192.168.64.10	1029	96.9.162.3	80	9	GET	at-ebook.com	/images/bg.gif	http://at-ebook.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	83	200	OK	-	-	-	(empty)	-	-	-	-	-	FRENkB9gXj6bJYkkg	image/gif
+1336655417.878013	CQ4DHyBnBggkdaNwh	192.168.64.10	1030	96.9.162.3	80	9	GET	at-ebook.com	/images/t_bg.gif	http://at-ebook.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	17177	200	OK	-	-	-	(empty)	-	-	-	-	-	FpXNs33bLXXAU3Ncef	image/gif
+1336655417.82949	CbCwI33XVWrx2x7PTi	192.168.64.10	1037	195.22.25.155	80	1	GET	acadcisco.unisla.pt	/downloads/uploads/software/ActiveX.exe	http://at-ebook.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4064	200	OK	-	-	-	(empty)	-	-	-	-	-	Fl0rD34Umvhnf7Sgx5	application/x-dosexec
+#close	2014-04-03-11-07-21

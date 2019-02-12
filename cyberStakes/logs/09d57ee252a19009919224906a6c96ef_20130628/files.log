@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-29-01
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1372420041.833487	Fd8ED2RK1q4R2gwac	85.233.160.22	192.168.67.10	CYVAHM2WFN8O4i5WPe	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	574	574	0	0	F	-	f9e54f4c243bbcbe36352c25351148e1	412a60f3a081b9f2227168423d26c50737a3a0cc	-	-
+1372420042.203068	FmpjtV2XuNIyUfcMzb	195.224.16.9	192.168.67.10	CuoKo41ecPSInocH97	HTTP	0	MD5,SHA1	text/html	-	0.000010	-	F	3085	3085	0	0	F	-	ebcf1f9e9be93cf647193e2ddfdeff6a	6c5ac688b6b8f28739a579ae10a9c98b389d4890	-	-
+1372420042.331686	Fa6acW28jAD7dT4sq9	195.224.16.9	192.168.67.10	CuoKo41ecPSInocH97	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	32	32	0	0	F	-	5db071c49f12bae12982ee8c9eac075e	73264c7df95dead242dbfab83719221fa8285462	-	-
+1372420042.426458	FdpjZo24BDuVy4dQX7	195.224.16.9	192.168.67.10	C4CIKC3Ma7KO5R39V6	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	2137	2137	0	0	F	-	788182d00cf936763924734bdcf2773c	32d60c60b224c79cdfc3ac7d24779484c1d6b1f6	-	-
+1372420042.437031	FihUy134Dd1cICylde	195.224.16.9	192.168.67.10	CuoKo41ecPSInocH97	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	32	32	0	0	F	-	5db071c49f12bae12982ee8c9eac075e	73264c7df95dead242dbfab83719221fa8285462	-	-
+1372420042.535499	FAYHxA1xwEoygDCuQ7	195.224.16.9	192.168.67.10	C4CIKC3Ma7KO5R39V6	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	304	304	0	0	F	-	6fa1f7d66dfd6fe54f31cab467edc8cd	f10f2293e18536f23792b5be72d8d4ae20c08e0d	-	-
+1372420042.581583	FF09ZkmdI4JDLoYsh	195.224.16.9	192.168.67.10	CuoKo41ecPSInocH97	HTTP	0	MD5,SHA1	application/x-dosexec	-	0.309773	-	F	40960	40960	0	0	F	-	09b0e5491bd6c6123b23800e2d5b249f	fedd732d3fa926b16d66fcec0275defb1a2af6ae	-	-
+#close	2014-04-03-10-29-01

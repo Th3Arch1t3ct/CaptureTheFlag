@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-19-59
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1329350579.772565	F2gsUR1mdlhTDc3H9g	113.130.65.142	192.168.34.10	Cu6s8c1rRkzVR4Iw3g	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	237	237	0	0	F	-	b88fdd622ccb441c2b3be3d92c4a0e23	de915627b0197bbc19a834dddbce1fad6a608349	-	-
+1329350581.547122	F8nXm54t9ycnVx8bF8	113.130.65.142	192.168.34.10	CRVIPh7NmAWwWiTD7	HTTP	0	MD5,SHA1	application/jar	-	0.000010	-	F	2092	2092	0	0	F	-	98ba9f01f584dcf1ecbe3fe6f5101145	83629e072e4dcc0b70659ead44d04a2701e3ddf3	-	-
+1329350582.232661	FlR0A71npIyL20mdHb	113.130.65.142	192.168.34.10	CPdjTl4VIEdLh5r9md	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	1654	1654	0	0	F	-	47db58e36c83064114edf4c13e2d9133	d1e0adb9eb3ba17b392ff9613e80e939a52fc371	-	-
+1329350582.447198	F83MBu4OPgZXUNk3fe	113.130.65.142	192.168.34.10	CPdjTl4VIEdLh5r9md	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	1654	1654	0	0	F	-	47db58e36c83064114edf4c13e2d9133	d1e0adb9eb3ba17b392ff9613e80e939a52fc371	-	-
+1329350582.657333	FxHuE02oiQM3ZoWHwj	113.130.65.142	192.168.34.10	CPdjTl4VIEdLh5r9md	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	1654	1654	0	0	F	-	47db58e36c83064114edf4c13e2d9133	d1e0adb9eb3ba17b392ff9613e80e939a52fc371	-	-
+1329350582.867049	FzWNNqKwKcEourEh4	113.130.65.142	192.168.34.10	CPdjTl4VIEdLh5r9md	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	1654	1654	0	0	F	-	47db58e36c83064114edf4c13e2d9133	d1e0adb9eb3ba17b392ff9613e80e939a52fc371	-	-
+1329350584.890516	Fe7bsj461LX8ZX0qs	113.130.65.142	192.168.34.10	CpZzxRnBg2Bskjcra	HTTP	0	MD5,SHA1	application/x-dosexec	-	0.818094	-	F	36864	36864	0	0	F	-	3dbf29c8cdd6b4adc9e2af0ef0061b9a	3661a6aa993166e29568043b18a174ee11042cae	-	-
+1329350647.041759	FvqTGdSXDV5IxO8ig	113.130.65.142	192.168.34.10	CGF76x1zptQreHfDf3	HTTP	0	MD5,SHA1	text/plain	-	0.808117	-	F	25944	25944	0	0	F	-	a604825d929e54d8d14a6f9359781687	602af21e280b8747e59f18e8d2041e960a65a374	-	-
+#close	2014-04-03-10-19-59

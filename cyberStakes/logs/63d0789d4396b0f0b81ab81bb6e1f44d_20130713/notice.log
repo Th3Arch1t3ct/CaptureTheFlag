@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-52-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1373706795.861643	CXJoj12DXrnAkR5s69	192.168.40.10	1043	188.190.126.165	80	FXFP4Y13a4teqt4shf	application/x-dosexec	http://private3.zapto.org/blog/ltanjpihlv.php?thjerys=8715637&hrytewsfd=9889439	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 31%  Last seen: 2013-07-22 14:40:55	https://www.virustotal.com/en/search/?query=bc0f970cb3770aa53e1be171e5c6760e6fcb46f0	192.168.40.10	188.190.126.165	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-52-45

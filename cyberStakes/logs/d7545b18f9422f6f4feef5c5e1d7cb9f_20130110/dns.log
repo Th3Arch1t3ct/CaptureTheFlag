@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-38-01
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1357849473.289875	C87inp2M1ioGjRZB41	192.168.89.10	1029	4.2.2.3	53	udp	23437	coast-to-coast.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.139.135.22,98.139.135.21	1200.000000,1200.000000	F
+1357849473.630788	C87inp2M1ioGjRZB41	192.168.89.10	1029	4.2.2.3	53	udp	63372	customburton.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.139.135.22,98.139.135.21	1200.000000,1200.000000	F
+1357849473.787861	C87inp2M1ioGjRZB41	192.168.89.10	1029	4.2.2.3	53	udp	61839	l.yimg.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fd-geoycs-l.gy1.b.yahoodns.net,ds-geoycs-l.gy1.b.yahoodns.net,ds-fo-anyycs-l.ay1.b.yahoodns.net,98.137.80.33,98.137.80.49,98.137.80.32,98.137.80.31,98.137.80.34,206.190.56.190,206.190.56.191,98.137.80.50	661.000000,92.000000,3347.000000,92.000000,92.000000,92.000000,92.000000,92.000000,92.000000,92.000000,92.000000	F
+1357849473.854861	C87inp2M1ioGjRZB41	192.168.89.10	1029	4.2.2.3	53	udp	51854	visit.webhosting.yahoo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pvisit1.geo.vip.bf1.yahoo.com,98.139.206.151	300.000000,1472.000000	F
+1357849476.702215	C87inp2M1ioGjRZB41	192.168.89.10	1029	4.2.2.3	53	udp	63369	22.135.139.98.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	sbsfe-b.geo.vip.bf1.yahoo.com	1800.000000	F
+1357849476.935377	C87inp2M1ioGjRZB41	192.168.89.10	1029	4.2.2.3	53	udp	29064	sbsfe-b.geo.vip.bf1.yahoo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.139.135.22	1800.000000	F
+#close	2014-04-03-10-38-01

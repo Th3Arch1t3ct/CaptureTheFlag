@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-09-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1342142146.297616	CfqEL5k66O68porka	192.168.112.10	1043	79.96.124.186	80	FzIGGvW9PDnJrLSJ3	application/x-dosexec	http://ewcwefcwce.org/2.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 45%  Last seen: 2012-07-15 14:16:11	https://www.virustotal.com/en/search/?query=74d629a64eba817626705606823a6154146a3ccd	192.168.112.10	79.96.124.186	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1342142150.931077	CZsS2p9B6SFXHuVKi	192.168.112.10	1045	79.96.124.186	80	Fvbvz529mnm4wiZH72	application/x-dosexec	http://ewcwefcwce.org/3.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 45%  Last seen: 2012-07-15 14:16:11	https://www.virustotal.com/en/search/?query=74d629a64eba817626705606823a6154146a3ccd	192.168.112.10	79.96.124.186	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-09-12

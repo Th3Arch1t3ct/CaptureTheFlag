@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-48-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1393992688.654907	CIGBGg1RcTeZkyW8C9	192.168.5.10	1137	148.251.24.25	80	FYBhqG2DNQTStLsPM4	application/x-dosexec	http://rigganw1.info/onoffday/loadmsie.php?id=8311	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 32%  Last seen: 2014-03-21 05:26:54	https://www.virustotal.com/en/search/?query=702b02ea612b391b840ac5902cfbe3586afa6f83	192.168.5.10	148.251.24.25	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1393992700.710317	CYTzem4kKkTNek0opg	192.168.5.10	1140	148.251.24.25	80	FojlpS3vbQZPuIP7Ai	application/x-dosexec	http://rigganw1.info/onoffday/loadrh.php	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 32%  Last seen: 2014-03-21 05:26:54	https://www.virustotal.com/en/search/?query=702b02ea612b391b840ac5902cfbe3586afa6f83	192.168.5.10	148.251.24.25	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-48-05

@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-13-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1365729227.33443	CVa4IP2fqoekmthZ7k	192.168.30.10	1041	74.125.137.139	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1364408581.000000	1388527130.000000	-	-	-	3fee9dfeed65f18815f140d1c521e88f	ok
+1365729228.097588	C9COTs3RoaOSShst61	192.168.30.10	1048	23.64.31.139	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=connect.facebook.net,OU=connect.facebook.net,O=Facebook,L=Palo Alto,ST=CALIFORNIA,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1364843571.000000	1396379571.000000	-	-	-	2942cdfaaaabb681d2cdf960b3fcaaaa	ok
+1365729234.618142	ChrKbI3d4qY8J1SmYf	192.168.30.10	1089	23.64.18.110	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=s-static.ak.facebook.com,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,ST=California,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1363150837.000000	1394686837.000000	-	-	-	8072f767b362050ff6b5555555555554	ok
+1365729235.609315	CPT3DN3fBPJGAgdOpg	192.168.30.10	1097	199.59.150.43	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=r.twimg.com,OU=Twitter Security,O=Twitter\, Inc.,L=San Francisco,ST=CA,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1328076000.000000	1423159200.000000	-	-	-	2a206be52330bed2ccc2ddb61038d78c	ok
+#close	2014-04-03-10-13-29

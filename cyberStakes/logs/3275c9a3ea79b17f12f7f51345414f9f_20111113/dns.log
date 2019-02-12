@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-51-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1321161370.728862	Cqs58EZ7SUC5csssc	192.168.51.10	1029	4.2.2.3	53	udp	51084	caninefitnesscenter.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.63.3.130	573.000000	F
+1321161371.427275	Cqs58EZ7SUC5csssc	192.168.51.10	1029	4.2.2.3	53	udp	56204	essentialdayspa.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.194.214.82	43200.000000	F
+1321161405.061903	C46aUB40DWE0hiBJ9h	192.168.51.10	1029	4.2.2.3	53	udp	33167	crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.48.190	367.000000,1.000000	F
+1321161405.164553	C46aUB40DWE0hiBJ9h	192.168.51.10	1029	4.2.2.3	53	udp	63881	csc3-2004-crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.48.190	768.000000,1.000000	F
+1321161406.602023	C46aUB40DWE0hiBJ9h	192.168.51.10	1029	4.2.2.3	53	udp	3979	electronicstheory.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	206.188.192.55	2601.000000	F
+1321161406.611607	C46aUB40DWE0hiBJ9h	192.168.51.10	1029	4.2.2.3	53	udp	33928	transaerosystems.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.230.234	863.000000	F
+1321161416.880088	C46aUB40DWE0hiBJ9h	192.168.51.10	1029	4.2.2.3	53	udp	27786	worldorderlive.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.199.251.242	13616.000000	F
+#close	2014-04-03-10-51-37

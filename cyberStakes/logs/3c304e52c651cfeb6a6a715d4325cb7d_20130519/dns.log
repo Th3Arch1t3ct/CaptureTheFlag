@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-11-01
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1368939179.167601	C1RC1x4BrleeZWXmYa	192.168.98.10	1029	4.2.2.3	53	udp	52623	305heartbreak.homeip.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.28.134.54	60.000000	F
+1368939194.677893	C5wYpN1lb5cd8idX7k	192.168.98.10	1029	4.2.2.3	53	udp	34191	crl.globalsign.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	108.162.232.8,108.162.232.9,108.162.232.7,108.162.232.4,108.162.232.5,108.162.232.6	251.000000,251.000000,251.000000,251.000000,251.000000,251.000000	F
+1368939194.72656	C5wYpN1lb5cd8idX7k	192.168.98.10	1029	4.2.2.3	53	udp	2700	crl.globalsign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	108.162.232.8,108.162.232.7,108.162.232.4,108.162.232.5,108.162.232.6,108.162.232.9	225.000000,225.000000,225.000000,225.000000,225.000000,225.000000	F
+#close	2014-04-03-11-11-01

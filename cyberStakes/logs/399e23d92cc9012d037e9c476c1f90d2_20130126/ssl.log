@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-09-53-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1359227639.512341	CXCo5F3zRTXO7ZNsz3	192.168.120.10	1042	199.83.134.91	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=incapsula.com,O=Incapsula Inc,L=Dover,ST=Delaware,C=US	CN=GlobalSign Organization Validation CA - G2,O=GlobalSign nv-sa,C=BE	1358976512.000000	1382213354.000000	-	-	-	723ff45073455c36b87cccccccc5a46c	ok
+1359227640.363251	CsHwIx2RQZoVjoMXHk	192.168.120.10	1047	72.246.45.35	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=a248.e.akamai.net,O=Akamai Technologies\, Inc.,C=US	CN=GTE CyberTrust Global Root,OU=GTE CyberTrust Solutions\, Inc.,O=GTE Corporation,C=US	1346111654.000000	1377647602.000000	-	-	-	0195040f2287236cf5ad9ef729821cb9	ok
+1359227641.899584	CNDtMd3M6L50Savldi	192.168.120.10	1062	75.126.26.19	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=wmtracker.webtraffic.com.br,OU=Marketing,O=WebTraffic,L=Sao Paulo,ST=Sao Paulo,C=BR,serialNumber=LUzz-OfjIG/I4nrwtL1nAMR2Hb8k9QTL	CN=GeoTrust SSL CA,O=GeoTrust\, Inc.,C=US	1353588482.000000	1385424177.000000	-	-	-	4c2365fa6cda5766833a23ec24581664	ok
+1359227643.317353	CnFvg91C8LRe77oQV5	192.168.120.10	1064	74.125.229.250	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.g.doubleclick.net,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1357236824.000000	1370652207.000000	-	-	-	1e42b31b66feeec0f7e5ac3afa77a020	ok
+#close	2014-04-03-09-53-12

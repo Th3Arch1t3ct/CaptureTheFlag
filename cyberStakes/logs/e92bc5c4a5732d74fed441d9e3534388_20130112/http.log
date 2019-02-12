@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-53-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1357974263.337728	C9dTMB195hNRNp316b	192.168.49.10	1030	93.170.52.21	80	1	GET	dtasteimposturer.tk	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1123	200	OK	-	-	-	(empty)	-	-	-	-	-	FESwYO31Z7cqbpjwR3	text/html
+1357974265.44244	CgI68g1oWRgJUyGyMl	192.168.49.10	1036	74.125.139.101	80	1	GET	www.google-analytics.com	/ga.js	http://dtasteimposturer.tk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	37362	200	OK	-	-	-	(empty)	-	-	-	-	-	FjXDmV1KZdz4UKNlVi	text/plain
+1357974265.527859	CgI68g1oWRgJUyGyMl	192.168.49.10	1036	74.125.139.101	80	2	GET	www.google-analytics.com	/__utm.gif?utmwv=5.3.8&utms=1&utmn=1546407223&utmhn=dtasteimposturer.tk&utmcs=utf-8&utmsr=800x600&utmvp=796x475&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=10.0 r32&utmdt=dtasteimposturer.tk&utmhid=2097740107&utmr=-&utmp=/&utmac=UA-23441223-3&utmcc=__utma=1.1553333365.1357988546.1357988546.1357988546.1;+__utmz=1.1357988546.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);&utmu=qh~	http://dtasteimposturer.tk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	35	200	OK	-	-	-	(empty)	-	-	-	-	-	Fjxy7s13P9Genq6uRd	image/gif
+1357974265.709659	C46Qrz7SwpDSSpyGk	192.168.49.10	1037	72.8.167.249	80	1	GET	whp.kldkc.com	/	http://dtasteimposturer.tk/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	568	200	OK	-	-	-	(empty)	-	-	-	-	-	FcLXX533LFdZjixykk	text/html
+1357974265.822671	C2MwWkAddO54JMMGe	192.168.49.10	1038	208.131.138.217	80	1	GET	208.131.138.217	/132.html	http://whp.kldkc.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3194	200	OK	-	-	-	(empty)	-	-	-	-	-	FgoCZy4KBwkx4jHeSi	text/html
+1357974265.919415	CMMiCYo8oBw5mhs1c	192.168.49.10	1040	204.93.38.136	80	1	GET	fbstatic-a.akamaihd.net	/rsrc.php/v2/yX/x/Qq6L1haQrYr.png	http://208.131.138.217/132.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2349	200	OK	-	-	-	(empty)	-	-	-	-	-	Fuk2cUsuyNBqJx688	image/png
+1357974265.931177	Co3mzl1TJYE1a3daxi	192.168.49.10	1039	208.131.138.217	80	1	GET	208.131.138.217	/imagedl.php	http://208.131.138.217/132.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13140	200	OK	-	-	-	(empty)	-	-	-	-	-	FVl3bsEjcklMhxcmd	application/x-dosexec
+#close	2014-04-03-10-53-36

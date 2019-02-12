@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-35-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1361010879.814255	Ca7ZyU2BBELs3CL67b	192.168.106.10	1029	4.2.2.3	53	udp	15245	hulshofvof.nl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.20.9.28	3600.000000	F
+1361010880.191191	Ca7ZyU2BBELs3CL67b	192.168.106.10	1029	4.2.2.3	53	udp	55181	www.hulshofvof.nl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.20.9.28	3600.000000	F
+1361010884.784611	Ca7ZyU2BBELs3CL67b	192.168.106.10	1029	4.2.2.3	53	udp	47757	funktion-von-enjambements.nl.mn	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.199.242.44	3600.000000	F
+1361010885.468128	Ca7ZyU2BBELs3CL67b	192.168.106.10	1029	4.2.2.3	53	udp	39052	unadvertisingkhongme.amiaccessible.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	88.198.219.86	1800.000000	F
+1361010897.935143	Ca7ZyU2BBELs3CL67b	192.168.106.10	1029	4.2.2.3	53	udp	18575	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,64.4.52.169	777.000000,300.000000	F
+1361010898.157835	Ca7ZyU2BBELs3CL67b	192.168.106.10	1029	4.2.2.3	53	udp	25742	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	169.000000,112.000000	F
+#close	2014-04-03-10-35-02

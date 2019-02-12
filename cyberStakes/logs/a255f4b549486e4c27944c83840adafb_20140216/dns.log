@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-13-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1392576000.279393	C2bc4D3l6tUS8VR8Cd	192.168.15.10	1028	4.2.2.3	53	udp	49617	gzzhjhb.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	113.10.188.115	1200.000000	F
+1392576001.345313	C2bc4D3l6tUS8VR8Cd	192.168.15.10	1028	4.2.2.3	53	udp	52688	www.gzzhjhb.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	113.10.188.115	1115.000000	F
+1392576004.240038	C2bc4D3l6tUS8VR8Cd	192.168.15.10	1028	4.2.2.3	53	udp	43731	xlolx.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.236.87.219	3600.000000	F
+1392576005.242253	C2bc4D3l6tUS8VR8Cd	192.168.15.10	1028	4.2.2.3	53	udp	25811	huatongchuye.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	128.134.244.74	600.000000	F
+1392576005.901113	C2bc4D3l6tUS8VR8Cd	192.168.15.10	1028	4.2.2.3	53	udp	39125	3685.c886.ea4b.dad.b2c8.a8fb5.3d98.0d68.jhijdgibmu.dryfunction.pw	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.55.157.202	30.000000	F
+#close	2014-04-03-10-13-37

@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-36-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1327212750.606612	Caxb3s3aUN1x9hIbmh	192.168.89.10	1036	95.57.120.104	443	-	-	-	tcp	SSL::Invalid_Server_Cert	SSL certificate validation failed with (self signed certificate)	emailAddress=root@ip104.gohost.kz,CN=ip104.gohost.kz,OU=SomeOrganizationalUnit,O=SomeOrganization,L=SomeCity,ST=SomeState,C=--	192.168.89.10	95.57.120.104	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1327212753.784579	CPM1Ue25HPaPOtZasd	192.168.89.10	1031	50.18.158.185	80	FOYwYa2PdsBIUI3eD	application/x-dosexec	http://8queen.net/w.php?f=23&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2012-02-08 23:11:51	https://www.virustotal.com/en/search/?query=559998327077bcda1dae54e1696121305a114bf2	192.168.89.10	50.18.158.185	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1327212761.478615	CetUROQLx9dHpOrt	192.168.89.10	1038	50.18.158.185	80	FIFTWB1w1ja4KjxwNj	application/x-shockwave-flash	http://8queen.net/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 39%  Last seen: 2012-05-08 01:15:21	https://www.virustotal.com/en/search/?query=6b882671281f472684777fec6903363f50a7d6c2	192.168.89.10	50.18.158.185	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1327212768.55724	CPM1Ue25HPaPOtZasd	192.168.89.10	1031	50.18.158.185	80	FrkuFV5AwCVBJDhuj	application/x-dosexec	http://8queen.net/w.php?f=23&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2012-02-08 23:11:51	https://www.virustotal.com/en/search/?query=559998327077bcda1dae54e1696121305a114bf2	192.168.89.10	50.18.158.185	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-36-57

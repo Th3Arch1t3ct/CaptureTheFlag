@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-05-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1333179530.568143	CB7EJZ3IHWd9AMXaqb	192.168.118.10	1030	74.54.242.221	80	1	GET	souvenirpublishers.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	15393	200	OK	-	-	-	(empty)	-	-	-	-	-	FBzw6i1A1BH0lr1j8f	text/html
+1333179530.678043	CB7EJZ3IHWd9AMXaqb	192.168.118.10	1030	74.54.242.221	80	2	GET	souvenirpublishers.com	/scripts/default.css	http://souvenirpublishers.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3895	200	OK	-	-	-	(empty)	-	-	-	-	-	Fip3Dh2r77aVIbTtNg	text/plain
+1333179530.652467	CiXKiy4SHvsj7wYKUb	192.168.118.10	1031	74.54.242.221	80	1	GET	souvenirpublishers.com	/scripts/index.css	http://souvenirpublishers.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5974	200	OK	-	-	-	(empty)	-	-	-	-	-	FfTXzw1pUHhtBiYQli	text/plain
+1333179530.81026	CB7EJZ3IHWd9AMXaqb	192.168.118.10	1030	74.54.242.221	80	3	GET	souvenirpublishers.com	/images/intro.swf	http://souvenirpublishers.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	49522	200	OK	-	-	-	(empty)	-	-	-	-	-	FiiiLg3t0hZztPHI86	application/x-shockwave-flash
+1333179533.723772	CiXKiy4SHvsj7wYKUb	192.168.118.10	1031	74.54.242.221	80	2	GET	souvenirpublishers.com	/zcv.gif	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	72192	200	OK	-	-	-	(empty)	-	-	-	-	-	Ffwo4s26AGXEkWjQRi	application/x-dosexec
+1333179534.11778	CdR7zb1uj3nNDk6Ugb	192.168.118.10	1037	64.72.65.214	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1759	200	OK	-	-	-	(empty)	-	-	-	-	-	F5gdgo2vqzup7IM2K6	text/html
+1333179536.196074	C1xgpF4qIVO2jj9c4c	192.168.118.10	1040	208.109.53.70	80	1	GET	aachristmas.com	/images/led/hg.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	40518	200	OK	-	-	-	(empty)	-	-	-	-	-	FnZI7x2bcd1j5fuI8	text/html
+#close	2014-04-03-10-05-08

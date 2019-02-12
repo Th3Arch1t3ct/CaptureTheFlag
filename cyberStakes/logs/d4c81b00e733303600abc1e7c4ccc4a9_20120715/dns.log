@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-50-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1342372065.994363	CLDXdX39L093JfOJB9	192.168.18.10	1030	4.2.2.3	53	udp	9867	agence-flex.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.23.136.15	43175.000000	F
+1342372066.535729	CLDXdX39L093JfOJB9	192.168.18.10	1030	4.2.2.3	53	udp	7306	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.134.101,74.125.134.102,74.125.134.113,74.125.134.138,74.125.134.139,74.125.134.100	36319.000000,124.000000,124.000000,124.000000,124.000000,124.000000,124.000000	F
+1342372066.551361	CLDXdX39L093JfOJB9	192.168.18.10	1030	4.2.2.3	53	udp	6793	microsoft-rcp.co.uk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.142.162.152	10800.000000	F
+1342372068.694784	CBPcxxGzLVayCHsde	192.168.18.10	1039	4.2.2.3	53	udp	61326	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	349.000000,235.000000	F
+1342372068.504807	CLDXdX39L093JfOJB9	192.168.18.10	1030	4.2.2.3	53	udp	6792	traff-hits4322.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.243.4.31	28800.000000	F
+1342372069.471719	CBPcxxGzLVayCHsde	192.168.18.10	1039	4.2.2.3	53	udp	60045	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,64.4.52.169	348.000000,389.000000	F
+1342372077.68203	CBPcxxGzLVayCHsde	192.168.18.10	1039	4.2.2.3	53	udp	20109	626f6f686f6f.ws	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.159.112.131	43200.000000	F
+#close	2014-04-03-10-50-05

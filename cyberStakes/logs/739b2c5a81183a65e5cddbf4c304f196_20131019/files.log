@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-32-49
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1382218336.646254	F3206y36kJInp1AQbi	144.76.192.100	192.168.86.10	C7gkcd2D8vkvwBUI34	HTTP	0	MD5,SHA1	text/html	-	0.000032	-	F	1833	-	0	0	F	-	0149200eee8ec293ab1d40a7252d51eb	5fd8c2213df243901270f7ad9d700a70960b1886	-	-
+1382218338.596521	Ffc2Gm3T6ewno2IdMl	144.76.192.100	192.168.86.10	Ckr91VbhNSdiAlLpg	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	261	-	0	0	F	-	8943d7a67139892a929e65c0f69a5ced	71da940f22e289b729cbca313439a61e2215f536	-	-
+1382218338.614092	FuRfLk1rqNgVRY73u	144.76.192.100	192.168.86.10	Cy9yhY22oqIKJQ7v6l	HTTP	0	MD5,SHA1	text/html	-	0.164327	-	F	11959	11959	0	0	F	-	d094c4a37c122326877197c29dd1b61d	9bc151969302e4fe1cd5ad83d109efeedd4baaaf	-	-
+1382218343.434778	FrKliX2hU85qqYWrv9	144.76.192.100	192.168.86.10	ChE7cg4pJAJy1C6DOg	HTTP	0	MD5,SHA1	application/x-dosexec	-	3.287240	-	F	850944	-	0	0	F	-	75d7fdfc45d4e59fc5429bec819f01bd	47a5423772d34d0f2897800a34dcc160be67512b	-	-
+1382218349.890972	FLl5c43BiiLT0yuMwb	74.86.20.50	192.168.86.10	Cv9zhF1LUMPP47Lq91	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	2	-	0	0	F	-	c2f3f489a00553e7a01d369c103c7251	a0509b7780628bd9d9abc7eb8a2163477341053a	-	-
+1382218349.835423	Fki1vj16dx18qSfxve	144.76.192.100	192.168.86.10	CsMAgiZYVSilbN5ud	HTTP	0	MD5,SHA1	application/x-dosexec	-	0.497992	-	F	65536	-	0	0	F	-	1afc4ad01108237c7a8924461d23862f	7b514417a328d68bb3f9b2a057ad8fee2728ccd0	-	-
+1382218351.131585	FNz6ku3eJ2v7v5BIK6	216.17.105.36	192.168.86.10	C0VcPl20Dr6EgF4vxi	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	2	-	0	0	F	-	c2f3f489a00553e7a01d369c103c7251	a0509b7780628bd9d9abc7eb8a2163477341053a	-	-
+1382218413.701012	FeyWxN3AcTuvFgSf2l	74.86.20.50	192.168.86.10	CaqT8oD0q9XoE7YJ5	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	2	-	0	0	F	-	c2f3f489a00553e7a01d369c103c7251	a0509b7780628bd9d9abc7eb8a2163477341053a	-	-
+#close	2014-04-03-10-32-49

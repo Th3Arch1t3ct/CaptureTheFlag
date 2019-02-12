@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-05-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1329034216.135124	C0BGDp1kVGdOXJkiOi	192.168.63.10	1030	125.137.52.17	80	1	GET	24bn3.joviallennon.in	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1329034216.852687	CZca4x1YzXXOXOJS85	192.168.63.10	1031	199.30.91.102	80	1	GET	jumptoinformer.com	/stats/counter.php?id=3eb83ef603bca04a	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	110246	200	OK	-	-	-	(empty)	-	-	-	-	-	FQadTQ1hPBo8NzJtw3	text/html
+1329034229.21627	CZca4x1YzXXOXOJS85	192.168.63.10	1031	199.30.91.102	80	2	GET	jumptoinformer.com	/stats/loading_animation.gif	http://jumptoinformer.com/stats/counter.php?id=3eb83ef603bca04a	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5895	200	OK	-	-	-	(empty)	-	-	-	-	-	FfNYdy4w5KwqJ20Gig	image/gif
+1329034229.54368	C87cdM2VfvXVHF0EYl	192.168.63.10	1036	95.215.0.153	8000	1	GET	95.215.0.153	/stats/w.php?f=19&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	42496	200	OK	-	-	-	(empty)	-	-	-	-	-	FMjesZ2LKak4puM0f5	application/x-dosexec
+1329034231.416779	CYflxb2eHGjx1r9Jme	192.168.63.10	1037	199.30.91.102	80	1	GET	jumptoinformer.com	/stats/content/field.swf	http://jumptoinformer.com/stats/counter.php?id=3eb83ef603bca04a	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1552	200	OK	-	-	-	(empty)	-	-	-	-	-	FXkC9B1vhX0SowtxC4	application/x-shockwave-flash
+1329034230.338999	CZca4x1YzXXOXOJS85	192.168.63.10	1031	199.30.91.102	80	3	GET	jumptoinformer.com	/stats/content/fdp2.php?f=19	http://jumptoinformer.com/stats/counter.php?id=3eb83ef603bca04a	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	96776	200	OK	-	-	-	(empty)	-	-	-	-	-	Flq8fE2mAf2HZ4Rgnk	application/pdf
+1329034235.002826	CdMYOj4fbHCGdp02jb	192.168.63.10	1040	176.31.157.88	80	1	POST	downtraff.ru	/and/image.php	-	Mozilla/4.0	66	9	200	OK	-	-	-	(empty)	-	-	-	F8Xafw2LGur1I5oAF9	text/plain	FfCauxvNTjR2dj5Si	binary
+1329034238.404714	Cm8awoFbjpImCiANa	192.168.63.10	1041	69.31.75.161	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1568	200	OK	-	-	-	(empty)	-	-	-	-	-	FUEsj64Ct3ioT7Seud	text/html
+1329034238.318777	CYflxb2eHGjx1r9Jme	192.168.63.10	1037	199.30.91.102	80	2	GET	jumptoinformer.com	/stats/content/score.swf	http://jumptoinformer.com/stats/content/field.swf	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6904	200	OK	-	-	-	(empty)	-	-	-	-	-	F1L2SA99TvRti0lV	application/x-shockwave-flash
+1329034238.713982	CoFkEu4Wa5E2UyqJE7	192.168.63.10	1042	199.30.91.102	80	1	GET	jumptoinformer.com	/stats/content/rin.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3880	200	OK	-	-	-	(empty)	-	-	-	-	-	Fcdynx2nyTTLKLRMY1	application/zip
+#close	2014-04-03-11-05-16

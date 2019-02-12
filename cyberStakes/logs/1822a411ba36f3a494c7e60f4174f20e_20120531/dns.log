@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-01-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1338434423.776103	CcuZYS19CC1u6G5cN6	192.168.41.10	1029	4.2.2.3	53	udp	19343	facademy.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.53.72.87	14373.000000	F
+1338434423.860763	CcuZYS19CC1u6G5cN6	192.168.41.10	1029	4.2.2.3	53	udp	38284	www.facademy.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	facademy.org,74.53.72.87	14373.000000,14373.000000	F
+1338434431.079492	CcuZYS19CC1u6G5cN6	192.168.41.10	1029	4.2.2.3	53	udp	25485	cgibin.erols.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	207.172.16.151	10800.000000	F
+1338434431.319194	CcuZYS19CC1u6G5cN6	192.168.41.10	1029	4.2.2.3	53	udp	63114	webstats.web.rcn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	webstats.mrf.va.web.rcn.net,207.172.16.155	20139.000000,3600.000000	F
+1338434434.337885	CcuZYS19CC1u6G5cN6	192.168.41.10	1029	4.2.2.3	53	udp	23178	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,63.151.118.137,63.151.118.120	23596.000000,88.000000,10126.000000,11.000000,11.000000	F
+#close	2014-04-03-11-01-54

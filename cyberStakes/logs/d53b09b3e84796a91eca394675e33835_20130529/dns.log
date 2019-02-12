@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-32-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1369796945.907896	CTFjQE1FxdOMhgjUdl	192.168.31.10	1029	4.2.2.3	53	udp	25227	marco718.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.201.0.128	3600.000000	F
+1369796947.070171	CTFjQE1FxdOMhgjUdl	192.168.31.10	1029	4.2.2.3	53	udp	47242	www.marco718.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	marco718.us,173.201.0.128	3600.000000,3598.000000	F
+1369796956.300236	CTFjQE1FxdOMhgjUdl	192.168.31.10	1029	4.2.2.3	53	udp	22409	128.0.201.173.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	p3nlhg40c074.shr.prod.phx3.secureserver.net	3600.000000	F
+1369796956.427248	CTFjQE1FxdOMhgjUdl	192.168.31.10	1029	4.2.2.3	53	udp	61576	p3nlhg40c074.shr.prod.phx3.secureserver.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.201.0.128	3600.000000	F
+1369796966.885999	CQ20P34CM4zELqm96	192.168.31.10	1029	4.2.2.3	53	udp	4495	podems8.dyndns.tv	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	198.96.88.22	60.000000	F
+1369797045.220815	CXARHi1TXskAdNco9k	192.168.31.10	1029	4.2.2.3	53	udp	51343	podems8.dyndns.tv	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	198.96.88.22	60.000000	F
+#close	2014-04-03-10-32-44

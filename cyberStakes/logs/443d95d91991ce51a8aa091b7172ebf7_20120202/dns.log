@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-02-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1328151955.249701	CwgfzD3SwYfcVlugQi	192.168.15.10	1029	4.2.2.3	53	udp	52623	hijustupdwinp.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.217.153.79	43179.000000	F
+1328151957.613847	CwgfzD3SwYfcVlugQi	192.168.15.10	1029	4.2.2.3	53	udp	46988	hijustupdawin.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.217.153.80	43200.000000	F
+1328151957.701739	CwgfzD3SwYfcVlugQi	192.168.15.10	1029	4.2.2.3	53	udp	3722	americancensorship.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	107.21.205.86	12809.000000	F
+1328151971.370833	CwgfzD3SwYfcVlugQi	192.168.15.10	1029	4.2.2.3	53	udp	34955	crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.52.190	647.000000,1.000000	F
+1328151971.572477	CwgfzD3SwYfcVlugQi	192.168.15.10	1029	4.2.2.3	53	udp	17288	csc3-2004-crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.52.190	429.000000,1.000000	F
+1328151972.431892	CVp5bNWLuHME2K7Ja	192.168.15.10	1045	4.2.2.3	53	udp	53895	patentgenius.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	76.76.15.190	8274.000000	F
+1328151972.423876	CwgfzD3SwYfcVlugQi	192.168.15.10	1029	4.2.2.3	53	udp	45193	fct0k.cloudstorepro.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.162.174.162	14400.000000	F
+1328151982.507696	CbPC3WRnj0alg6vG7	192.168.15.10	1045	4.2.2.3	53	udp	57476	k8g219prbe.cloudstorepro.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.162.174.162	14400.000000	F
+1328151965.880872	CwgfzD3SwYfcVlugQi	192.168.15.10	1029	4.2.2.3	53	udp	5258	search.http	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1328151965.880872	CwgfzD3SwYfcVlugQi	192.168.15.10	1029	4.2.2.3	53	udp	5258	search.http	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1328151965.880872	CwgfzD3SwYfcVlugQi	192.168.15.10	1029	4.2.2.3	53	udp	5258	search.http	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1328152013.941748	CT1gji3CoU58lecVWe	192.168.15.10	1045	4.2.2.3	53	udp	20866	eyetcuh5y.yordatazone.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.162.174.162	43200.000000	F
+1328152005.485758	CT1gji3CoU58lecVWe	192.168.15.10	1045	4.2.2.3	53	udp	22917	transersdataforme.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-11-02-37

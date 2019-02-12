@@ -1,0 +1,13 @@
+"Test" Environment
+
+port     : 8080 (container internal port, see container interface for public mapping)
+username : test-admin@acme.com
+password : NBU2GF4JUOYHGNGW5
+role     : admin
+
+"Prod" Environment:
+
+port     : 80 (container internal port, see container interface for public mapping)
+username : alex@acme.com
+password : PDGO0J1V39F5AS3SV
+role     : user

@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-42-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1327540797.741369	CnZS7t4XbTfRSm98Ce	192.168.123.10	1030	173.236.25.122	80	1	GET	pacethatthrills.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1464	200	OK	-	-	-	(empty)	-	-	-	-	-	FHl6ti18irMcPNLPCk	text/html
+1327540798.199028	CpOQDc1rKIbA7aYlt6	192.168.123.10	1033	173.236.25.122	80	1	GET	pacethatthrills.com	/plug.exe	http://pacethatthrills.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3942	200	OK	-	-	-	(empty)	-	-	-	-	-	FOjKGzUCrmmjxtHI4	application/x-dosexec
+1327540798.19866	C802bdenhQdnAHF6	192.168.123.10	1031	207.44.210.91	80	1	GET	www.mikesparr.com	/wp-content/uploads/2007/11/picture-6.png	http://pacethatthrills.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7330	200	OK	-	-	-	(empty)	-	-	-	-	-	FcZkN33aCwCkQYwLk	image/png
+1327540798.198847	CKvcFW2GgWT0tKcWej	192.168.123.10	1032	216.137.33.246	80	1	GET	tutorials.pixelmator.com	/old/sparkling-girl/2.jpg	http://pacethatthrills.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	44100	200	OK	-	-	-	(empty)	-	-	-	-	-	FoiMd82Rg7f2gLWwd	image/jpeg
+1327540798.306639	CHxrzi4rKwUNQ2oWub	192.168.123.10	1034	82.165.25.137	80	1	GET	wallpaper.metalship.org	/images/hot-girl_-guitar-ad.jpg	http://pacethatthrills.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	48186	200	OK	-	-	-	(empty)	-	-	-	-	-	FGo1WJ8CAoQBy0e89	image/jpeg
+#close	2014-04-03-10-42-11

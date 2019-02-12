@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-09-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1355997653.768633	C8hQys1zcdS9pKThPd	192.168.85.10	1029	4.2.2.3	53	udp	50572	l6cj9.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.170.52.31,93.170.52.21	277.000000,277.000000	F
+1355997654.09669	C8hQys1zcdS9pKThPd	192.168.85.10	1029	4.2.2.3	53	udp	20364	ltkp.khjvgsg.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	urlforward.topdns.com,72.8.167.249,199.59.160.184	3576.000000,3576.000000,3576.000000	F
+1355997654.229116	C8hQys1zcdS9pKThPd	192.168.85.10	1029	4.2.2.3	53	udp	46991	fb.pl.ua	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fw.ukrnames.com,195.64.155.34	10.000000,1.000000	F
+1355997654.82892	C8hQys1zcdS9pKThPd	192.168.85.10	1029	4.2.2.3	53	udp	4238	reaves.makewap.kz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	makewap.kz,195.3.143.42	21600.000000,21600.000000	F
+1355997657.035567	C8hQys1zcdS9pKThPd	192.168.85.10	1029	4.2.2.3	53	udp	34697	reaves.makewap.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	makewap.ru,195.3.143.42	21600.000000,21600.000000	F
+1355997657.937635	C8hQys1zcdS9pKThPd	192.168.85.10	1029	4.2.2.3	53	udp	39049	fbstatic-a.akamaihd.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fbstatic-a.akamaihd.net.edgesuite.net,a1168.dsw4.akamai.net,208.46.17.11,208.46.17.169,208.46.17.48	42.000000,102.000000,20.000000,20.000000,20.000000	F
+1355997657.942232	CZ6mKp31vK12tTQxjg	192.168.85.10	1041	4.2.2.3	53	udp	45193	c.waplog.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.218.209.2	1800.000000	F
+1355997658.035962	C8hQys1zcdS9pKThPd	192.168.85.10	1029	4.2.2.3	53	udp	64136	wapstatistic.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.243.66.77	3600.000000	F
+1355997657.941495	CEu1XEQ3olilYFRph	192.168.85.10	1040	4.2.2.3	53	udp	29065	makewap.kz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.3.143.42	21600.000000	F
+#close	2014-04-03-10-09-07

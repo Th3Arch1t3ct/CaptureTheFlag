@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-08-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1321035884.325806	CToYeg4fTJEtECTXtl	192.168.106.10	1029	4.2.2.3	53	udp	34450	findpharmacy.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.236.69.45	14376.000000	F
+1321035884.542537	CToYeg4fTJEtECTXtl	192.168.106.10	1029	4.2.2.3	53	udp	53906	adstraffics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.236.69.45	14400.000000	F
+1321035884.668206	CToYeg4fTJEtECTXtl	192.168.106.10	1029	4.2.2.3	53	udp	48273	redirportal11.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.236.82.74	3600.000000	F
+1321035884.947205	CToYeg4fTJEtECTXtl	192.168.106.10	1029	4.2.2.3	53	udp	912	lllstyle.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.236.82.76	30.000000	F
+1321035890.634003	CToYeg4fTJEtECTXtl	192.168.106.10	1029	4.2.2.3	53	udp	35478	www.premiumsoft.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	premiumsoft.info,199.27.134.146,141.101.126.146	300.000000,300.000000,300.000000	F
+1321035894.334176	CToYeg4fTJEtECTXtl	192.168.106.10	1029	4.2.2.3	53	udp	59798	cdn.premiumsafe.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cdn.premiumsafe.netdna-cdn.com,67.201.31.170	30.000000,300.000000	F
+1321035894.896869	CToYeg4fTJEtECTXtl	192.168.106.10	1029	4.2.2.3	53	udp	29590	installer.zugo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.159.151.3	1200.000000	F
+1321035896.335265	CToYeg4fTJEtECTXtl	192.168.106.10	1029	4.2.2.3	53	udp	42133	tbtrack.zugo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.159.151.3	145.000000	F
+#close	2014-04-03-10-08-13

@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-11-47
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1368245145.40476	CkHsCj4abKEYSt0bDh	192.168.64.10	1029	4.2.2.3	53	udp	23437	3i-merchandising.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.252.18.142	3600.000000	F
+1368245145.785572	CkHsCj4abKEYSt0bDh	192.168.64.10	1029	4.2.2.3	53	udp	46988	www.3i-merchandising.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.252.18.142	3581.000000	F
+1368245156.271436	Coc0uF1gt6g0HYAH8g	192.168.64.10	1029	4.2.2.3	53	udp	27020	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,173.194.37.3,173.194.37.7,173.194.37.6,173.194.37.0,173.194.37.14,173.194.37.1,173.194.37.2,173.194.37.5,173.194.37.8,173.194.37.9,173.194.37.4	43996.000000,121.000000,121.000000,121.000000,121.000000,121.000000,121.000000,121.000000,121.000000,121.000000,121.000000,121.000000	F
+#close	2014-04-03-11-11-47

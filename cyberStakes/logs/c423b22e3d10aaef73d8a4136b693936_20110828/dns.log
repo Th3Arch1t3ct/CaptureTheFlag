@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-03-40
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1314547884.416383	CjDY5z1UzwJTpUdlh5	192.168.22.10	1029	4.2.2.3	53	udp	38288	searchhero.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.168.165.223	3573.000000	F
+1314547884.645523	CjDY5z1UzwJTpUdlh5	192.168.22.10	1029	4.2.2.3	53	udp	40849	a.daddies-dirty-daughter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.236.82.46	43174.000000	F
+1314547886.430407	CjDY5z1UzwJTpUdlh5	192.168.22.10	1029	4.2.2.3	53	udp	40337	a.bouquet-tube.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.236.82.46	23340.000000	F
+1314547887.817164	CjDY5z1UzwJTpUdlh5	192.168.22.10	1029	4.2.2.3	53	udp	14738	46.82.236.109.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	customer.worldstream.nl	1000.000000	F
+1314547888.343614	CjDY5z1UzwJTpUdlh5	192.168.22.10	1029	4.2.2.3	53	udp	63124	customer.worldstream.nl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.190.136.5	1000.000000	F
+1314547894.83371	CjDY5z1UzwJTpUdlh5	192.168.22.10	1029	4.2.2.3	53	udp	12436	yazminx.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	205.234.129.135	14400.000000	F
+1314547895.470406	CjDY5z1UzwJTpUdlh5	192.168.22.10	1029	4.2.2.3	53	udp	56981	sophiassecrets.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.175.213.140	3600.000000	F
+#close	2014-04-03-11-03-41

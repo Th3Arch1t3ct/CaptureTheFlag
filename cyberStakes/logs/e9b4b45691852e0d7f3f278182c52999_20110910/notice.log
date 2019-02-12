@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-04-17
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1315655592.795783	C6KfUx4PCD7kx1Vkl4	192.168.25.10	1058	95.163.66.188	80	FyUwTZ1HKNqK0Ozzbc	application/x-java-applet	http://1604534972/GWeather.class	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 14%  Last seen: 2011-10-05 19:31:02	https://www.virustotal.com/en/search/?query=50199104d513ac2502512e05698fb2247c2ab4a3	192.168.25.10	95.163.66.188	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1315655592.795783	C1RNew2Cveqr2lpyKh	192.168.25.10	1059	95.163.66.188	80	FXQj2N32eSXY7n73T5	application/x-java-applet	http://1604534972/GWeather.class	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 14%  Last seen: 2011-10-05 19:31:02	https://www.virustotal.com/en/search/?query=50199104d513ac2502512e05698fb2247c2ab4a3	192.168.25.10	95.163.66.188	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1315655593.343475	Csed4J1rrKiOIKicM5	192.168.25.10	1057	95.163.66.188	80	FqAEbm2TjSuuhOM2uf	application/x-java-applet	http://1604534972/GWeather.class	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 14%  Last seen: 2011-10-05 19:31:02	https://www.virustotal.com/en/search/?query=50199104d513ac2502512e05698fb2247c2ab4a3	192.168.25.10	95.163.66.188	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1315655593.343475	CFPPH928leCsxhW4pg	192.168.25.10	1060	95.163.66.188	80	F6a7rt3JEEz16Fb0h2	application/x-java-applet	http://1604534972/GWeather.class	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 14%  Last seen: 2011-10-05 19:31:02	https://www.virustotal.com/en/search/?query=50199104d513ac2502512e05698fb2247c2ab4a3	192.168.25.10	95.163.66.188	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1315655593.343475	C7xl4SeF3PxN1FBGj	192.168.25.10	1055	95.163.66.188	80	Flnf6L1vcmr5fXLeqa	application/x-java-applet	http://1604534972/GWeather.class	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 14%  Last seen: 2011-10-05 19:31:02	https://www.virustotal.com/en/search/?query=50199104d513ac2502512e05698fb2247c2ab4a3	192.168.25.10	95.163.66.188	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1315655593.343475	CXFC2o4ao1v0atp3Lc	192.168.25.10	1054	95.163.66.188	80	F4Tqel4zGpKpFENGId	application/x-java-applet	http://1604534972/GWeather.class	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 14%  Last seen: 2011-10-05 19:31:02	https://www.virustotal.com/en/search/?query=50199104d513ac2502512e05698fb2247c2ab4a3	192.168.25.10	95.163.66.188	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-04-18

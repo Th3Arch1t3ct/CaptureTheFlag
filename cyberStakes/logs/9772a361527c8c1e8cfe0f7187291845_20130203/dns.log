@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-15-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1359929773.60816	CFWAEKU1QMJObRZYb	192.168.125.10	1029	4.2.2.3	53	udp	64146	buildingmaterialsghana.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.208.9.38	86377.000000	F
+1359929776.240119	CFWAEKU1QMJObRZYb	192.168.125.10	1029	4.2.2.3	53	udp	46483	d1.openx.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	community.d.xx.openx.com.akadns.net,173.241.250.2	77.000000,230.000000	F
+1359929776.431511	CFWAEKU1QMJObRZYb	192.168.125.10	1029	4.2.2.3	53	udp	13200	www.catholiccompany.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.203.41.120	3600.000000	F
+1359929802.427507	CwWPyQh3ntijPzZd	192.168.125.10	1029	4.2.2.3	53	udp	64150	shopforza.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.122.33.17	300.000000	F
+1359929802.697382	CwWPyQh3ntijPzZd	192.168.125.10	1029	4.2.2.3	53	udp	40599	rosaviajera.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.126.254.215	3600.000000	F
+1359929804.081963	CwWPyQh3ntijPzZd	192.168.125.10	1029	4.2.2.3	53	udp	6039	34659dbf.linkbucks.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	lex-in.linkbucks.com,199.59.167.109	150.000000,300.000000	F
+1359929804.325944	CwWPyQh3ntijPzZd	192.168.125.10	1029	4.2.2.3	53	udp	42133	static.linkbucks.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wac.45ee.edgecastcdn.net,gs1.wac.v4cdn.net,93.184.216.169	60.000000,3248.000000,2583.000000	F
+1359929804.395127	CwWPyQh3ntijPzZd	192.168.125.10	1029	4.2.2.3	53	udp	25242	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.137.101,74.125.137.100,74.125.137.113,74.125.137.139,74.125.137.102,74.125.137.138	9463.000000,231.000000,231.000000,231.000000,231.000000,231.000000,231.000000	F
+1359929804.424869	CwWPyQh3ntijPzZd	192.168.125.10	1029	4.2.2.3	53	udp	3992	www.linkbucksmedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.59.167.109	300.000000	F
+1359929804.640398	CwWPyQh3ntijPzZd	192.168.125.10	1029	4.2.2.3	53	udp	51353	network.adsmarket.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.169.104.1	33910.000000	F
+1359929804.867171	CwWPyQh3ntijPzZd	192.168.125.10	1029	4.2.2.3	53	udp	38303	amazecell.go2jump.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.18.156.27	60.000000	F
+1359929805.015744	CwWPyQh3ntijPzZd	192.168.125.10	1029	4.2.2.3	53	udp	15519	www.wizzertrivia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.56.28.56	3600.000000	F
+1359929805.147691	CwWPyQh3ntijPzZd	192.168.125.10	1029	4.2.2.3	53	udp	54684	media.go2speed.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	go2speed.wac.2f52.edgecastcdn.net,s3.gs1.wac.edgecastcdn.net,72.21.91.43	600.000000,688.000000,688.000000	F
+1359929812.388897	CwWPyQh3ntijPzZd	192.168.125.10	1029	4.2.2.3	53	udp	21404	wrapapp.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.135.141.120	3600.000000	F
+#close	2014-04-03-11-15-02

@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-39-28
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1349914842.553985	FJrObZ1YRgx2VmdhYi	84.51.36.27	192.168.38.10	CxJn924NyvZ2XIqg4l	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	124	-	0	0	F	-	e1aa56f60cb473678214fb2af47930ae	4cc5a8cb4f6c1aa736dc7e8145b9361917e645da	-	-
+1349914843.021068	FRTIeKGWSXlv06ZI3	188.165.95.15	192.168.38.10	C1rPpO2FcU63yExV7j	HTTP	0	SHA1,MD5	text/html	-	0.242662	-	F	29851	-	0	0	F	-	f141b90aa72b006da420272e9572cc4c	20376e17096758523eb06a891ccd6dea8cb31302	-	-
+1349914843.626144	FDfJLsClpB44TcDS7	188.165.95.15	192.168.38.10	C1rPpO2FcU63yExV7j	HTTP	0	SHA1,MD5	application/pdf	47bcc.pdf	0.240586	-	F	13318	13318	0	0	F	-	2d2a67c205f84e770e3f2fe5a9ce50f5	eb7348578dca7f5cc5b89757d4fb16c773d9388d	-	-
+1349914843.740588	FlbnrLmeGYemmmSKl	188.165.95.15	192.168.38.10	CCrIjg3xLaI4c4CMx7	HTTP	0	SHA1,MD5	application/x-dosexec	info.exe	4.172957	-	F	549376	549376	0	0	F	-	a79ce05d025768e826bd33e1ea463ab7	ff4e24443a624510423809d318cff11673ab599d	-	-
+1349914850.89713	Fa4xke3ADgfpMGUsxg	103.4.225.41	192.168.38.10	CBfOYiGYzZt9fVBLb	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	61	-	0	0	F	-	fedb84e98de0c4bfe991954dace2be2c	a851c3cf78f019f837ba60fe75fabca1a8bcf430	-	-
+1349914852.602218	F2Nljs4m7ggxXKzAU5	85.17.58.87	192.168.38.10	CKf73d4s74dOBLWeYd	HTTP	0	SHA1,MD5	application/x-dosexec	-	0.925455	-	F	204800	204800	0	0	F	-	533d0d8370536523b6f499cf82145dc5	c0b7cfe675ed27d08e86599d7e178401a1611fda	-	-
+1349914855.53358	FuNF26CXplCglzBbd	188.165.95.15	192.168.38.10	CCrIjg3xLaI4c4CMx7	HTTP	0	SHA1,MD5	application/x-dosexec	about.exe	2.775811	-	F	549376	549376	0	0	F	-	a79ce05d025768e826bd33e1ea463ab7	ff4e24443a624510423809d318cff11673ab599d	-	-
+#close	2014-04-03-10-39-29

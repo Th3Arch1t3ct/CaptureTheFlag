@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-32-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1330673583.827308	CeEDnv3XHmVscyAtRe	192.168.81.10	1029	4.2.2.3	53	udp	15757	barbaragarriel.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.96.160.137	3578.000000	F
+1330673585.002995	CeEDnv3XHmVscyAtRe	192.168.81.10	1029	4.2.2.3	53	udp	53135	www.barbaragarriel.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.96.160.137	3581.000000	F
+1330673588.398518	CeEDnv3XHmVscyAtRe	192.168.81.10	1029	4.2.2.3	53	udp	4494	pokosa.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.111.9.98	60.000000	F
+1330673589.991755	CeEDnv3XHmVscyAtRe	192.168.81.10	1029	4.2.2.3	53	udp	43144	www3.personalxaholder.net.tc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.238.105	3600.000000	F
+1330673590.733786	CeEDnv3XHmVscyAtRe	192.168.81.10	1029	4.2.2.3	53	udp	21896	www1.safeholderrc.net.tf	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.104	3600.000000	F
+1330673598.451368	CeEDnv3XHmVscyAtRe	192.168.81.10	1029	4.2.2.3	53	udp	14219	www2.savescannersf.de.lv	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.142.217	3600.000000	F
+1330673634.594006	CjHmYI1fykRgEfiYYc	192.168.81.10	1029	80.90.43.19	53	udp	19338	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	69.65.40.176	86400.000000	F
+1330673634.698024	CzldxYYgjBlxFYLm3	192.168.81.10	1029	204.45.75.109	53	udp	52612	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	69.65.40.176	86400.000000	F
+#close	2014-04-03-10-32-07

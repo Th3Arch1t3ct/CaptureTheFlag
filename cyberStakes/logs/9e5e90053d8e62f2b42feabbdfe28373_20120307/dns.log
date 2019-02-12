@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-54-27
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1331098026.093798	CvQXJd1H2AcJ4OfNi1	192.168.64.10	1029	4.2.2.3	53	udp	51084	sex96.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	141.101.239.73	1775.000000	F
+1331098045.870346	Cw15La34qO0KuyIG3i	192.168.64.10	1029	4.2.2.3	53	udp	1164	www.flora2012.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.226.97.153	28800.000000	F
+1331098046.487367	Cw15La34qO0KuyIG3i	192.168.64.10	1029	4.2.2.3	53	udp	55438	www.flora2012.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.25.187.99	1800.000000	F
+1331098067.705486	CUJriq5GjFtBY6kYk	192.168.64.10	1029	4.2.2.3	53	udp	63625	www.lastporn.info	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-54-27

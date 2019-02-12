@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-11-14-21
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1328383877.183909	CcLYvj4Mxhju3Kc66	192.168.82.10	1030	204.209.196.141	80	1	GET	communityconflictresolution.org	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	10253	200	OK	-	-	-	(empty)	-	-	-	-	-	F0WjT51QxpauBjunTd	text/html
+1328383877.404846	CcLYvj4Mxhju3Kc66	192.168.82.10	1030	204.209.196.141	80	2	GET	communityconflictresolution.org	/Homemenu_var.js	http://communityconflictresolution.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5330	200	OK	-	-	-	(empty)	-	-	-	-	-	FQCgbc4VLxZsvfmE3j	text/plain
+1328383877.423117	CCQhVl4YdzGfVHpL2	192.168.82.10	1031	204.209.196.141	80	1	GET	communityconflictresolution.org	/images/CCRS_web.gif	http://communityconflictresolution.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7009	200	OK	-	-	-	(empty)	-	-	-	-	-	FynvaL13Gv3VUCa0Q5	image/gif
+1328383877.521311	CcLYvj4Mxhju3Kc66	192.168.82.10	1030	204.209.196.141	80	3	GET	communityconflictresolution.org	/menu_com.js	http://communityconflictresolution.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	23524	200	OK	-	-	-	(empty)	-	-	-	-	-	Fr5fch2QAqjRptl4lj	text/plain
+1328383877.71459	CCQhVl4YdzGfVHpL2	192.168.82.10	1031	204.209.196.141	80	2	GET	communityconflictresolution.org	/images_buttons/button1.jpg	http://communityconflictresolution.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6765	200	OK	-	-	-	(empty)	-	-	-	-	-	F4RY7ZXqDBjfKgg1	image/jpeg
+1328383877.715343	CcLYvj4Mxhju3Kc66	192.168.82.10	1030	204.209.196.141	80	4	GET	communityconflictresolution.org	/images/if.gif	http://communityconflictresolution.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	16922	200	OK	-	-	-	(empty)	-	-	-	-	-	Fea7sqJ7cB8Dz7x56	image/gif
+1328383877.81034	CCQhVl4YdzGfVHpL2	192.168.82.10	1031	204.209.196.141	80	3	GET	communityconflictresolution.org	/images/CCRS_web.jpg	http://communityconflictresolution.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	27232	200	OK	-	-	-	(empty)	-	-	-	-	-	FMAQm61wkJIBHvBHL4	image/jpeg
+1328383877.855521	CYncd82M4IwEma2TIe	192.168.82.10	1032	204.209.196.141	80	1	GET	odin.theboss.net	/cgi-bin/counter.exe?link=resolution&style=tiny&width=5	http://communityconflictresolution.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	8496	200	OK	-	-	-	(empty)	-	-	-	-	-	FiqGDW2wNBPQ5t5Rea	application/x-dosexec
+1328383878.044735	CcLYvj4Mxhju3Kc66	192.168.82.10	1030	204.209.196.141	80	5	GET	communityconflictresolution.org	/images_buttons/button2.jpg	http://communityconflictresolution.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5687	200	OK	-	-	-	(empty)	-	-	-	-	-	FqQu6O3ttecNp1oCWg	image/jpeg
+1328383878.045526	CCQhVl4YdzGfVHpL2	192.168.82.10	1031	204.209.196.141	80	4	GET	communityconflictresolution.org	/images_buttons/button3.jpg	http://communityconflictresolution.org/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	5515	200	OK	-	-	-	(empty)	-	-	-	-	-	FO86kV2TTDw2Ie7j8j	image/jpeg
+#close	2014-04-03-11-14-21

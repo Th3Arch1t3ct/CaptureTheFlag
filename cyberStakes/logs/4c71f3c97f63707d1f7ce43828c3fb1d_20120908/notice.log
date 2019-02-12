@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-14-40
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1347121393.554707	Cifgtk3qwqvsOMzlD3	192.168.2.10	1039	64.235.106.229	80	FclQ2812AJw4eZTHja	application/x-dosexec	http://biosafe.ca/3.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 48%  Last seen: 2012-09-29 02:43:27	https://www.virustotal.com/en/search/?query=2226a546f6dd2c30b3306c7ad83c70aec884eeb8	192.168.2.10	64.235.106.229	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1347121397.046792	CbvhyC4ey0x0pZi1Rg	192.168.2.10	1040	64.235.106.229	80	FTl8sr1B7eIyQ38evh	application/x-dosexec	http://biosafe.ca/2.html	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 48%  Last seen: 2012-09-29 02:43:27	https://www.virustotal.com/en/search/?query=2226a546f6dd2c30b3306c7ad83c70aec884eeb8	192.168.2.10	64.235.106.229	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-14-40

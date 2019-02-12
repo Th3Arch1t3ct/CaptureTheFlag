@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-56-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1383432109.691244	Cm0NbXedgaPOLmXpf	192.168.95.10	1036	4.2.2.3	53	udp	24980	www.hdmediahub.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	hdmediahub.com,50.112.112.223	300.000000,60.000000	F
+1383432110.081296	Cm0NbXedgaPOLmXpf	192.168.95.10	1036	4.2.2.3	53	udp	31892	www.downloadthesefiles.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	downloadthesefiles.com,50.112.112.223	300.000000,60.000000	F
+1383432110.134502	Cm0NbXedgaPOLmXpf	192.168.95.10	1036	4.2.2.3	53	udp	15252	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.224.169,74.125.224.162,74.125.224.167,74.125.224.166,74.125.224.174,74.125.224.160,74.125.224.161,74.125.224.164,74.125.224.163,74.125.224.168,74.125.224.165	60289.000000,4.000000,4.000000,4.000000,4.000000,4.000000,4.000000,4.000000,4.000000,4.000000,4.000000,4.000000	F
+1383432118.504228	Cm0NbXedgaPOLmXpf	192.168.95.10	1036	4.2.2.3	53	udp	24981	www.askdownload.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ils-front-balancer2-400693425.us-east-1.elb.amazonaws.com,23.21.70.162,54.243.61.26	1800.000000,60.000000,60.000000	F
+#close	2014-04-03-09-56-48

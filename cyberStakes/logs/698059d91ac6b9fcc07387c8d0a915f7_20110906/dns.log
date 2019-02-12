@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-00-38
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1315352473.077845	CHTadeFUnwR9mfjsh	192.168.86.10	1029	4.2.2.3	53	udp	31629	condadovillademiranda.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.132.243.202	43177.000000	F
+1315352473.161503	CHTadeFUnwR9mfjsh	192.168.86.10	1029	4.2.2.3	53	udp	46479	www.condadovillademiranda.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	condadovillademiranda.com,174.132.243.202	43200.000000,43177.000000	F
+1315352473.314623	CHTadeFUnwR9mfjsh	192.168.86.10	1029	4.2.2.3	53	udp	7566	wmumyyis.cz.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	201.242.240.231	0.000000	F
+1315352473.631009	CHTadeFUnwR9mfjsh	192.168.86.10	1029	4.2.2.3	53	udp	6281	xixlghsu.cz.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.254.73.232	0.000000	F
+1315352474.046306	CHTadeFUnwR9mfjsh	192.168.86.10	1029	4.2.2.3	53	udp	50056	vvbmaqnq.cz.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	119.149.52.151	0.000000	F
+1315352474.199529	CqdHihnPolxqFsufh	192.168.86.10	1035	4.2.2.3	53	udp	7307	rrfamlkg.cz.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	112.167.208.164	0.000000	F
+1315352474.999731	CHTadeFUnwR9mfjsh	192.168.86.10	1029	4.2.2.3	53	udp	59018	bestholycow.cu.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.208.141.137	3600.000000	F
+1315352484.636636	CHTadeFUnwR9mfjsh	192.168.86.10	1029	4.2.2.3	53	udp	16266	adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.150.16.117	28800.000000	F
+1315352512.048503	CyU1FM3enMo7bqntO	192.168.86.10	1029	4.2.2.3	53	udp	6021	rebeccajessop.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.249.137.9	14400.000000	F
+1315352512.923151	CyU1FM3enMo7bqntO	192.168.86.10	1029	4.2.2.3	53	udp	15236	mistykatz.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	205.134.252.251	14400.000000	F
+#close	2014-04-03-11-00-38

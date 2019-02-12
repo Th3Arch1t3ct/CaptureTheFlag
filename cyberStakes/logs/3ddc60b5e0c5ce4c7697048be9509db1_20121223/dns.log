@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-45-16
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1356232720.578033	CcqRcb3TQuJr88942j	192.168.87.10	1029	4.2.2.3	53	udp	20367	carlosln.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.98.148.146	300.000000	F
+1356232720.999894	CcqRcb3TQuJr88942j	192.168.87.10	1029	4.2.2.3	53	udp	38541	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.140.102,74.125.140.113,74.125.140.100,74.125.140.139,74.125.140.101,74.125.140.138	52266.000000,81.000000,81.000000,81.000000,81.000000,81.000000,81.000000	F
+1356232722.074176	CcqRcb3TQuJr88942j	192.168.87.10	1029	4.2.2.3	53	udp	59274	www.carlosln.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.98.148.146	300.000000	F
+1356232743.151751	CFBxjzxCf0UpiPpx9	192.168.87.10	1029	4.2.2.3	53	udp	62859	player.vimeo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.113.233.133	30.000000	F
+1356232743.418291	CFBxjzxCf0UpiPpx9	192.168.87.10	1029	4.2.2.3	53	udp	6792	a.vimeocdn.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	a.vimeocdn.com.edgesuite.net,a1982.g.akamai.net,63.148.207.156,63.148.207.135	1274.000000,14219.000000,20.000000,20.000000	F
+1356232743.153075	CtPTNP3LAwHepEcAQa	192.168.87.10	1038	4.2.2.3	53	udp	58248	a-cleanuptoanime.br.ms	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.138.88.212	3600.000000	F
+1356232744.415998	CFBxjzxCf0UpiPpx9	192.168.87.10	1029	4.2.2.3	53	udp	15497	50d66b8d90b59.biopharmgen.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.82.218.76	1800.000000	F
+1356232747.72325	CFBxjzxCf0UpiPpx9	192.168.87.10	1029	4.2.2.3	53	udp	4743	b.vimeocdn.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	b.vimeocdn.com.edgesuite.net,a1638.g.akamai.net,63.148.207.133,63.148.207.140	589.000000,6794.000000,20.000000,20.000000	F
+1356232747.753773	CFBxjzxCf0UpiPpx9	192.168.87.10	1029	4.2.2.3	53	udp	16007	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	132.000000,300.000000	F
+1356232747.948441	CFBxjzxCf0UpiPpx9	192.168.87.10	1029	4.2.2.3	53	udp	59012	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	3599.000000,600.000000	F
+1356232749.489995	CFBxjzxCf0UpiPpx9	192.168.87.10	1029	4.2.2.3	53	udp	11140	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.d.akamai.net,192.204.82.50,192.204.82.40	4938.000000,21.000000,1844.000000,20.000000,20.000000	F
+1356232756.631756	CFBxjzxCf0UpiPpx9	192.168.87.10	1029	4.2.2.3	53	udp	8836	76.218.82.184.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	184-82-218-76.static.hostnoc.net	86400.000000	F
+1356232756.661602	CFBxjzxCf0UpiPpx9	192.168.87.10	1029	4.2.2.3	53	udp	31364	184-82-218-76.static.hostnoc.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1356232756.661602	CFBxjzxCf0UpiPpx9	192.168.87.10	1029	4.2.2.3	53	udp	31364	184-82-218-76.static.hostnoc.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-45-16

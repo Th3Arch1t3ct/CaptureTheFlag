@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-25-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1326997083.163981	Cxecxg1ICVLkC7yV1b	192.168.86.10	1034	4.2.2.3	53	udp	10629	gw4wph.co.uk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.171.218.124	3587.000000	F
+1326997083.686839	Cxecxg1ICVLkC7yV1b	192.168.86.10	1034	4.2.2.3	53	udp	41860	thefamily4life.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.124.198.1	1800.000000	F
+1326997083.738874	Cxecxg1ICVLkC7yV1b	192.168.86.10	1034	4.2.2.3	53	udp	64903	www.statcounter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	g1.panthercdn.com,66.114.53.34,66.114.53.22	19984.000000,19.000000,19.000000	F
+1326997083.775344	Cxecxg1ICVLkC7yV1b	192.168.86.10	1034	4.2.2.3	53	udp	6023	boeingmiles.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	203.170.193.102	3601.000000	F
+1326997083.896895	Cxecxg1ICVLkC7yV1b	192.168.86.10	1034	4.2.2.3	53	udp	45953	c.statcounter.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.215.253.140,67.215.253.139	159.000000,159.000000	F
+1326997116.362396	C4jWexM1vHaYL6Is6	192.168.86.10	1034	4.2.2.3	53	udp	9344	potvamp.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	118.212.168.131,217.24.246.7,220.195.24.9,60.19.30.135	100.000000,100.000000,100.000000,100.000000	F
+1326997147.218578	CUEq702vUbIZarz4u5	192.168.86.10	1034	4.2.2.3	53	udp	4992	snotarms.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.214.238.241,217.24.246.7,220.195.24.9,118.212.168.131	300.000000,300.000000,300.000000,300.000000	F
+#close	2014-04-03-10-25-27

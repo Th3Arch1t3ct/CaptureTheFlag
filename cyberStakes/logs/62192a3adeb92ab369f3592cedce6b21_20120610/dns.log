@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-24-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1339335874.309465	CmBrKAruN2uf7WOgg	192.168.11.10	1029	4.2.2.3	53	udp	11917	arizonaprintgroup.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.163.241.55	14373.000000	F
+1339335874.784467	CmBrKAruN2uf7WOgg	192.168.11.10	1029	4.2.2.3	53	udp	47246	www.arizonaprintgroup.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.163.241.55	14375.000000	F
+1339335876.9844	CmBrKAruN2uf7WOgg	192.168.11.10	1029	4.2.2.3	53	udp	14479	pokosa.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.111.9.98	60.000000	F
+1339335878.565246	CmBrKAruN2uf7WOgg	192.168.11.10	1029	4.2.2.3	53	udp	12936	www3.savele-defense.dnset.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.238.110	31.000000	F
+1339335878.890137	CmBrKAruN2uf7WOgg	192.168.11.10	1029	4.2.2.3	53	udp	64136	www1.savejbmaster.dnset.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.121	31.000000	F
+1339335883.643705	CmBrKAruN2uf7WOgg	192.168.11.10	1029	4.2.2.3	53	udp	8842	www2.strongraarmy.zonet.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.23.11.163	3600.000000	F
+1339335929.885596	C5jZg51AJYHGObJa42	192.168.11.10	1029	208.115.221.125	53	udp	4740	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	87.236.195.139	7200.000000	F
+#close	2014-04-03-10-24-12

@@ -1,0 +1,29 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-54-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1343431089.565673	CVhOsi18jT2bShxxo6	192.168.5.10	1030	211.236.180.119	80	1	GET	hesuda.co.kr	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1860	200	OK	-	-	-	(empty)	-	-	-	-	-	FyRdc54TWvQYcdmC34	binary
+1343431090.64427	Co0NjX2ALtLbjqmXAa	192.168.5.10	1031	1.234.4.42	80	1	GET	www.buyjumpo.com	/minihome/img/bin1mg.js	http://hesuda.co.kr/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	369	200	OK	-	-	-	(empty)	-	-	-	-	-	F8eoHF1bvi0BN0WYE8	text/plain
+1343431090.946105	C8SKVD2NxmXOoPZuud	192.168.5.10	1032	69.46.86.212	80	1	GET	69.46.86.212	/pic/img.js	http://hesuda.co.kr/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	445	200	OK	-	-	-	(empty)	-	-	-	-	-	F2GCMI253darL0z2m1	text/plain
+1343431091.128631	CH1VRi1JaCRddK6eU9	192.168.5.10	1034	69.46.86.213	80	1	GET	69.46.86.213	/pic/gis.html	http://hesuda.co.kr/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	99	200	OK	-	-	-	(empty)	-	-	-	-	-	FcaIZNlzgqqyNF2K3	text/html
+1343431091.128865	C1mOaa2tpUzxSwQCMe	192.168.5.10	1033	69.46.86.213	80	1	GET	69.46.86.213	/pic/img.html	http://hesuda.co.kr/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6410	200	OK	-	-	-	(empty)	-	-	-	-	-	FECLJj3xxz0qDqEKph	text/html
+1343431091.368562	CH1VRi1JaCRddK6eU9	192.168.5.10	1034	69.46.86.213	80	2	GET	69.46.86.213	/pic/swfobject.js	http://69.46.86.213/pic/img.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	9439	200	OK	-	-	-	(empty)	-	-	-	-	-	Fo1ibH16MfsjZPMIPd	text/plain
+1343431091.503547	C1mOaa2tpUzxSwQCMe	192.168.5.10	1033	69.46.86.213	80	2	GET	69.46.86.213	/pic/jpg.js	http://69.46.86.213/pic/img.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	19883	200	OK	-	-	-	(empty)	-	-	-	-	-	FLrTht2K6ANT7p9zK8	text/plain
+1343431091.786446	C8Ou4N2Vauf3D2yGH5	192.168.5.10	1035	42.120.59.21	80	1	GET	s6.cnzz.com	/stat.php?id=4360791&web_id=4360791	http://69.46.86.213/pic/gis.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6252	200	OK	-	-	-	(empty)	-	-	-	-	-	FRIMK61ggV01tomfne	text/x-c
+1343431092.283621	CyOmkO2wMFMyMNdLN5	192.168.5.10	1042	42.120.59.21	80	1	GET	c.cnzz.com	/cnzz_core.php?web_id=4360791&l=none	http://69.46.86.213/pic/gis.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	460	200	OK	-	-	-	(empty)	-	-	-	-	-	FIGAyo3lX7XV6prqN8	text/html
+1343431092.021742	CcESq63yD5mhBJde6e	192.168.5.10	1036	209.73.158.89	80	1	GET	209.73.158.89	/css/img.css	http://69.46.86.213/pic/img.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	162304	200	OK	-	-	-	(empty)	-	-	-	-	-	FqDvbU3DAEGeebG8ge	application/x-dosexec
+1343431092.552017	CwVmr53ZCeamheZQee	192.168.5.10	1043	110.75.187.60	80	1	GET	hzs9.cnzz.com	/stat.htm?id=4360791&r=http://hesuda.co.kr/&lg=en-us&ntime=none&repeatip=0&rtime=0&cnzz_eid=none&showp=800x600&st=0&sin=http://hesuda.co.kr/&res=0&rnd=1125993448	http://69.46.86.213/pic/gis.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	43	200	OK	-	-	-	(empty)	-	-	-	-	-	Fghutw3SBY6IlwF8M5	image/gif
+1343431092.690248	C5Xour1HzgMj28d6Mc	192.168.5.10	1044	42.121.149.38	80	1	GET	cnzz.mmstat.com	/9.gif?abc=1&rnd=1478963469	http://69.46.86.213/pic/gis.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	43	302	Found	-	-	-	(empty)	-	-	-	-	-	F8sgsZ1VuN7cpt1Zdj	image/gif
+1343431093.116545	CXyo4l297PEJVV5V7k	192.168.5.10	1045	42.121.149.38	80	1	GET	pcookie.cnzz.com	/app.gif?&cna=Pw+aCPMfPgMCAWEk2UpzkhwG	http://69.46.86.213/pic/gis.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	43	200	OK	-	-	-	(empty)	-	-	-	-	-	FiO7Gf2pvoojT6rzQ7	image/gif
+1343431093.596735	CGK5G1TcZJ5EMEPPi	192.168.5.10	1046	69.46.86.213	80	1	GET	69.46.86.213	/pic/ktn0fRwp.jpg	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	2286	200	OK	-	-	-	(empty)	-	-	-	-	-	FPSQSP551STy9IMg2	application/jar
+1343431093.969955	CknzZSkVx2vBqxxf5	192.168.5.10	1047	69.46.86.213	80	1	GET	69.46.86.213	/pic/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	1635	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FF5RtJ2lgNQUZuAIQg	text/html
+1343431094.032911	CknzZSkVx2vBqxxf5	192.168.5.10	1047	69.46.86.213	80	2	GET	69.46.86.213	/pic/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	1635	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FOoNG52zWtYkBtWB6f	text/html
+1343431094.095692	CknzZSkVx2vBqxxf5	192.168.5.10	1047	69.46.86.213	80	3	GET	69.46.86.213	/pic/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	1635	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FDFEz33ByfREDacpph	text/html
+1343431094.157367	CknzZSkVx2vBqxxf5	192.168.5.10	1047	69.46.86.213	80	4	GET	69.46.86.213	/pic/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	1635	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Fdogic2u9YQjA0xXdl	text/html
+1343431095.596911	C1768V3iIYCVbt8a31	192.168.5.10	1049	209.73.158.89	80	1	GET	209.73.158.89	/css/img.css	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	304	Not Modified	-	-	-	(empty)	-	-	-	-	-	-	-
+1343431097.907419	ClpIwe4YpRB7TcZ2ek	192.168.5.10	1050	205.164.5.94	80	1	GET	205.164.5.94	/xx/get.asp?mac=1E7421FAF147B83746581F9FA6C940A1&ver=winxp Professional&avs=unknow&os=NO.	-	Google page	0	5	200	OK	-	-	-	(empty)	-	-	-	-	-	FQWZYRf6lO5lLlt3k	text/plain
+#close	2014-04-03-10-54-04

@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-49-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1329440475.541996	CNZ6824U76rPCSs229	192.168.94.10	1029	63.134.225.222	80	1	GET	sitiosenprueba.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3416	200	OK	-	-	-	(empty)	-	-	-	-	-	FjJB6jBlLTI8FnFLh	text/html
+1329440476.847169	CtcgyG2USVUaKmb3Ga	192.168.94.10	1037	63.134.225.222	80	1	GET	sitiosenprueba.com	/images/back.png	http://sitiosenprueba.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	197	200	OK	-	-	-	(empty)	-	-	-	-	-	FZUF5m257tDjQkBe1i	image/png
+1329440476.788736	CNZ6824U76rPCSs229	192.168.94.10	1029	63.134.225.222	80	2	GET	sitiosenprueba.com	/images/muestra.png	http://sitiosenprueba.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	205451	200	OK	-	-	-	(empty)	-	-	-	-	-	FSgRq42Gw65dKNPSf6	image/png
+1329440476.946355	CZvEiu2YiTPkdyeSS5	192.168.94.10	1036	188.190.98.79	80	1	GET	storylootybuz.com	/main.php?page=6eb5b7677d651df4	http://sitiosenprueba.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	81606	200	OK	-	-	-	(empty)	-	-	-	-	-	Fein1a4JshcmuL6Gu1	text/html
+1329440482.856422	CzIzq73n1NPPoLSRxl	192.168.94.10	1038	188.190.98.79	80	1	GET	storylootybuz.com	/w.php?f=47&e=2	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	193024	200	OK	-	-	-	(empty)	-	-	-	-	-	Fg92eQ2BYas8LJKsW7	application/x-dosexec
+1329440484.352814	C6DYQOnJWXt0gscFg	192.168.94.10	1039	188.190.98.79	80	1	GET	storylootybuz.com	/content/adp2.php?f=47	http://storylootybuz.com/main.php?page=6eb5b7677d651df4	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	13094	200	OK	-	-	-	(empty)	-	-	-	-	-	FGm1Ec3XK5Wb8ltzX4	application/pdf
+1329440487.965061	Cc5yp312nYf3brF06c	192.168.94.10	1044	188.190.98.79	80	1	GET	storylootybuz.com	/content/field.swf	http://sitiosenprueba.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1553	200	OK	-	-	-	(empty)	-	-	-	-	-	FqHqwG0524o8bZzR3	application/x-shockwave-flash
+1329440494.436525	CUMGxb2IXa3fPpQ5cd	192.168.94.10	1046	188.190.98.79	80	1	GET	storylootybuz.com	/content/rin.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	4148	200	OK	-	-	-	(empty)	-	-	-	-	-	FDl0PN3JmnAiOIMzm8	application/zip
+1329440494.055452	C8TMvN1ayTb93utVQd	192.168.94.10	1045	217.162.224.66	80	1	POST	tripslokabucks.su	/drh/knmbf.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	75	6700	200	OK	-	-	-	(empty)	-	-	-	FmSAjl3fS9FKLUTy3f	binary	FVfusE3TobsX7Hhff5	binary
+1329440495.447852	C8xTjs1F1o4aN2O2m6	192.168.94.10	1047	188.190.98.79	80	1	GET	storylootybuz.com	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	290	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FxZJwZ3pEOID2zEXSh	text/html
+1329440495.747468	CJlOnR2HSzgyzihHR9	192.168.94.10	1048	188.190.98.79	80	1	GET	storylootybuz.com	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	290	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FZu10Q145ZqDCMPom2	text/html
+1329440496.088361	CzBU913nJT3KtZ0cU8	192.168.94.10	1049	188.190.98.79	80	1	GET	storylootybuz.com	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	290	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FxvbxAUlnMqhYW2a	text/html
+1329440496.395452	CHYoxf3dcoVKAc8mb8	192.168.94.10	1050	188.190.98.79	80	1	GET	storylootybuz.com	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	290	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FcqDC93IEa75QtbSij	text/html
+1329440496.881732	CZU72w2G63IcaUUP95	192.168.94.10	1051	188.190.98.79	80	1	GET	storylootybuz.com	/w.php?f=47&e=0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	193024	200	OK	-	-	-	(empty)	-	-	-	-	-	FAGF7jP2A9lxdNhY1	application/x-dosexec
+1329440498.825492	CXqdSh4eaFrEnELuq	192.168.94.10	1052	188.190.98.79	80	1	GET	storylootybuz.com	/w.php?f=47&e=4	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	193024	200	OK	-	-	-	(empty)	-	-	-	-	-	FdQPE83k5QS0QmRik4	application/x-dosexec
+1329440522.126866	C8tgqe2rF3Ju2TuYYc	192.168.94.10	1053	217.162.224.66	80	1	POST	wertubublersco.su	/wef/ghnfgh.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	402	64	200	OK	-	-	-	(empty)	-	-	-	FGSHaRYuxrlgInLu6	binary	FgU4n63D3SLOrnM1G9	binary
+1329440522.127056	CjLX4G4Bsxq2JyEY5f	192.168.94.10	1054	217.162.224.66	80	1	POST	wertubublersco.su	/wef/ghnfgh.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	297	64	200	OK	-	-	-	(empty)	-	-	-	FVitd72pl5gtIXwZNe	binary	FEGQrF4Zm2hIxqEK0g	binary
+#close	2014-04-03-10-49-29

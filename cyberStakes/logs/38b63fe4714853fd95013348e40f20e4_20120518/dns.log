@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-04-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1337344261.952425	CMohXu3UAAghdU5Wcb	192.168.127.10	1029	4.2.2.3	53	udp	56971	asokachinten.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.224.219.197	14380.000000	F
+1337344262.301237	CMohXu3UAAghdU5Wcb	192.168.127.10	1029	4.2.2.3	53	udp	6025	www.asokachinten.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	asokachinten.com,173.224.219.197	14390.000000,14379.000000	F
+1337344263.895627	CMohXu3UAAghdU5Wcb	192.168.127.10	1029	4.2.2.3	53	udp	65417	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.225.3,74.125.225.4,74.125.225.5,74.125.225.6,74.125.225.7,74.125.225.8,74.125.225.9,74.125.225.14,74.125.225.0,74.125.225.1,74.125.225.2	11913.000000,220.000000,220.000000,220.000000,220.000000,220.000000,220.000000,220.000000,220.000000,220.000000,220.000000,220.000000	F
+1337344264.132947	CMohXu3UAAghdU5Wcb	192.168.127.10	1029	4.2.2.3	53	udp	48008	pokosa.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.111.9.98	60.000000	F
+1337344265.538282	CMohXu3UAAghdU5Wcb	192.168.127.10	1029	4.2.2.3	53	udp	48527	www3.personalksecurity.dnset.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.238.106	31.000000	F
+1337344265.969629	CMohXu3UAAghdU5Wcb	192.168.127.10	1029	4.2.2.3	53	udp	65422	www1.strongfparmy.dnset.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.108	31.000000	F
+1337344270.724562	CMohXu3UAAghdU5Wcb	192.168.127.10	1029	4.2.2.3	53	udp	42638	www2.hardguardsar.it.cx	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.142.166	3600.000000	F
+1337344308.22303	CthZho4m7MNnvswJp1	192.168.127.10	1029	208.115.221.125	53	udp	11404	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	95.211.77.236	7200.000000	F
+#close	2014-04-03-11-04-37

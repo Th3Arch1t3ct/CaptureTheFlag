@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-07-51
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1376697822.142714	CVnLcf2JaPt1bqg96	192.168.122.10	1042	108.161.188.124	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=cdn.jsdelivr.net,OU=PositiveSSL,OU=Domain Control Validated	CN=PositiveSSL CA 2,O=COMODO CA Limited,L=Salford,ST=Greater Manchester,C=GB	1370322000.000000	1402376399.000000	-	-	-	10197d5ddcb55d0c96364241cb68e442	ok
+1376697823.920784	CDbJz91UoaNGZ7n1y8	192.168.122.10	1052	74.125.239.12	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1375288803.000000	1383281999.000000	-	-	-	02caaafbd8fa6ee08744a77f90eb1fd0	ok
+1376697826.855691	C8S05d4al2zo0FYB1g	192.168.122.10	1075	74.125.224.102	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1375288834.000000	1383281999.000000	-	-	-	d74e5a5b79fb5fb85553dd342ef5bb7e	ok
+1376697827.349648	CjxynR1Cy8k4mN7444	192.168.122.10	1086	74.125.239.15	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1375288823.000000	1383281999.000000	-	-	-	787467026b3de3b943e2207bffeeeeee	ok
+#close	2014-04-03-10-07-52

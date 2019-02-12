@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-51-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1341078225.480869	ClJ2su10vyR7iLru72	192.168.28.10	1028	4.2.2.3	53	udp	11143	gcb.adv.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	201.70.96.212	277.000000	F
+1341078227.572029	ClJ2su10vyR7iLru72	192.168.28.10	1028	4.2.2.3	53	udp	54660	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,74.125.127.95	301.000000,189.000000	F
+1341078229.762801	ClJ2su10vyR7iLru72	192.168.28.10	1028	4.2.2.3	53	udp	34693	cabaniaseleden.com.ar	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	200.58.122.104	14400.000000	F
+1341078257.748392	CpirWi49qlCpYbOwol	192.168.28.10	1063	8.8.8.8	53	udp	13107	promos.fling.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.91.207.10	8.000000	F
+1341078266.237335	CjfbqO28UTdCCFqzZb	192.168.28.10	1084	4.2.2.3	53	udp	41245	11tg6xd.cdn107.hostingbestupload.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.131.140.158	3600.000000	F
+1341078258.012461	CeMuJy4PMdZU8xCrbf	192.168.28.10	1066	66.85.130.234	53	udp	7500	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1341078258.019676	CYxX0Z2LMy5mNtIQbk	192.168.28.10	1068	66.85.130.234	53	udp	7500	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1341078258.033956	CLQtctuChWST2m1U6	192.168.28.10	1070	66.85.130.234	53	udp	7500	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1341078258.036259	CzqDfd1IJ56cKxJKZ	192.168.28.10	1072	66.85.130.234	53	udp	7500	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1341078258.038872	CB58mc2fkEKfo0oXg4	192.168.28.10	1074	66.85.130.234	53	udp	7500	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1341078258.513518	CLMPLEh3fYTT9Bm79	192.168.28.10	1078	66.85.130.234	53	udp	7500	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1341078258.530908	CghqlN2QhP6FzMiTYh	192.168.28.10	1080	66.85.130.234	53	udp	7500	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1341078258.548072	CAXGOz3qk3Wcab0hTb	192.168.28.10	1083	66.85.130.234	53	udp	7500	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1341078269.270554	C4A6Qr0uSNo7STMU	192.168.28.10	1028	4.2.2.3	53	udp	4482	secondfatman.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.193.12.27	90.000000	F
+1341078275.376811	CfXyLr4C7U0APhzG4g	192.168.28.10	1092	8.8.8.8	53	udp	13107	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.224.146,74.125.224.145,74.125.224.144,74.125.224.148,74.125.224.147	86399.000000,299.000000,299.000000,299.000000,299.000000,299.000000	F
+#close	2014-04-03-09-51-31

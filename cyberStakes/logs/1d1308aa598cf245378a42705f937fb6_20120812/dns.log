@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-15-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1344791161.16643	CIhiqf4Ok2wWv9EVN3	192.168.17.10	1029	4.2.2.3	53	udp	12425	usedtrumpets.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.109.184.138	43174.000000	F
+1344791161.451525	CIhiqf4Ok2wWv9EVN3	192.168.17.10	1029	4.2.2.3	53	udp	49290	www.usedtrumpets.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	usedtrumpets.net,208.109.184.138	43200.000000,43174.000000	F
+1344791195.184454	CptqZ3l3wlJtyNB9h	192.168.17.10	1029	4.2.2.3	53	udp	27275	pagead2.googlesyndication.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pagead46.l.doubleclick.net,173.194.37.89,173.194.37.90,173.194.37.77	249.000000,157.000000,157.000000,157.000000	F
+1344791195.346902	CptqZ3l3wlJtyNB9h	192.168.17.10	1029	4.2.2.3	53	udp	19083	qsxzxe.fyzrhhudqrduzykr.waw.pl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.40.204.73	60.000000	F
+1344791196.454658	CptqZ3l3wlJtyNB9h	192.168.17.10	1029	4.2.2.3	53	udp	8844	king-profit.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.168.7.68	43200.000000	F
+1344791197.110763	CptqZ3l3wlJtyNB9h	192.168.17.10	1029	4.2.2.3	53	udp	28045	cwtaa.toythieves.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.168.7.67	31.000000	F
+1344791207.740585	C7AbKG3nCHzpj7WY71	192.168.17.10	1029	4.2.2.3	53	udp	142	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	2583.000000,287.000000	F
+1344791207.896497	C7AbKG3nCHzpj7WY71	192.168.17.10	1029	4.2.2.3	53	udp	39040	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,64.4.52.169	3409.000000,41.000000	F
+1344791219.262013	CUweQ5PRcY7bO0NBg	192.168.17.10	1029	4.2.2.3	53	udp	39552	deks.oplipsies.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	112.121.178.189	38400.000000	F
+1344791220.452101	CUweQ5PRcY7bO0NBg	192.168.17.10	1029	4.2.2.3	53	udp	41601	erse.oplipsies.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.210.47.239	38400.000000	F
+#close	2014-04-03-10-15-07

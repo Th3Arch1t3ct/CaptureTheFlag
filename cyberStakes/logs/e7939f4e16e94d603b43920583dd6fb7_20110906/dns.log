@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-57-41
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1315310664.82102	CJmYYv4WnuvlBA4JP2	192.168.35.10	1029	4.2.2.3	53	udp	24980	twoguysbiking.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.208.19.119	10777.000000	F
+1315310665.218705	CJmYYv4WnuvlBA4JP2	192.168.35.10	1029	4.2.2.3	53	udp	21911	www.twoguysbiking.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.208.19.119	10777.000000	F
+1315310666.062139	CJmYYv4WnuvlBA4JP2	192.168.35.10	1029	4.2.2.3	53	udp	36502	udaitoday.cu.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.66.184	3073.000000	F
+1315310684.572197	CJmYYv4WnuvlBA4JP2	192.168.35.10	1029	4.2.2.3	53	udp	46993	adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.150.16.117	24528.000000	F
+1315310701.145396	C6D82s1XZ7s9NOF3z4	192.168.35.10	1029	4.2.2.3	53	udp	1168	cedept.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.210.98.165	14400.000000	F
+1315310701.596045	C6D82s1XZ7s9NOF3z4	192.168.35.10	1029	4.2.2.3	53	udp	47762	ww1.gawozuxu.co.tv	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.228.133.56	39928.000000	F
+1315310703.572131	C6D82s1XZ7s9NOF3z4	192.168.35.10	1029	4.2.2.3	53	udp	29085	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.113.103,74.125.113.104,74.125.113.105,74.125.113.106,74.125.113.147,74.125.113.99	24558.000000,283.000000,283.000000,283.000000,283.000000,283.000000,283.000000	F
+#close	2014-04-03-10-57-41

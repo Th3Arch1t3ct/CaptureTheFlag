@@ -1,0 +1,49 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-55-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1340387578.379749	CR3Tmm2L5HFZyjmeAh	192.168.22.10	1030	173.247.250.112	80	1	GET	mobiletoysinc.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7006	200	OK	-	-	-	(empty)	-	-	-	-	-	Fy4VMv3I7IzTz8qLhd	text/html
+1340387578.512713	CR3Tmm2L5HFZyjmeAh	192.168.22.10	1030	173.247.250.112	80	2	GET	mobiletoysinc.com	/style.css	http://mobiletoysinc.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	22435	200	OK	-	-	-	(empty)	-	-	-	-	-	FkPRtM3YueGJLgrCma	text/plain
+1340387578.586744	Ca5phv2zXEI5v1Zy4g	192.168.22.10	1031	173.247.250.112	80	1	GET	mobiletoysinc.com	/style.ie6.css	http://mobiletoysinc.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	7633	200	OK	-	-	-	(empty)	-	-	-	-	-	FuHtKq1klbepWlHu3k	text/plain
+1340387578.70116	CR3Tmm2L5HFZyjmeAh	192.168.22.10	1030	173.247.250.112	80	3	GET	mobiletoysinc.com	/jquery.js	http://mobiletoysinc.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	85558	200	OK	-	-	-	(empty)	-	-	-	-	-	FJQbvL2oFX63umgwEi	text/plain
+1340387578.988817	Ca5phv2zXEI5v1Zy4g	192.168.22.10	1031	173.247.250.112	80	2	GET	mobiletoysinc.com	/script.js	http://mobiletoysinc.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6825	200	OK	-	-	-	(empty)	-	-	-	-	-	Ffpnj82cHnlMu1nC1k	text/plain
+1340387579.241338	CcFsIF4lp2VWbr3bf4	192.168.22.10	1032	82.165.113.142	80	1	GET	onmouseup.info	/stats.php	http://mobiletoysinc.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1340387579.130384	CR3Tmm2L5HFZyjmeAh	192.168.22.10	1030	173.247.250.112	80	4	GET	mobiletoysinc.com	/images/Bottom_texture.jpg	http://mobiletoysinc.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	3490	200	OK	-	-	-	(empty)	-	-	-	-	-	FazlV11UewAOqO3Hy7	image/jpeg
+1340387579.130687	Ca5phv2zXEI5v1Zy4g	192.168.22.10	1031	173.247.250.112	80	3	GET	mobiletoysinc.com	/images/page_gl.jpg	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	49406	200	OK	-	-	-	(empty)	-	-	-	-	-	FH7mzj4W6Stel4zQZc	image/jpeg
+1340387579.749709	CR3Tmm2L5HFZyjmeAh	192.168.22.10	1030	173.247.250.112	80	5	GET	mobiletoysinc.com	/images/menuitem.png	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	908	200	OK	-	-	-	(empty)	-	-	-	-	-	FfFnBvaquVuZ2QBw4	image/png
+1340387579.926897	CNVxh92ruMBpFP6O36	192.168.22.10	1033	37.157.255.35	80	1	GET	piusnes.tk	/23323516.html	http://mobiletoysinc.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	12174	200	OK	-	-	-	(empty)	-	-	-	-	-	FofYUwZLSq3rCiuQi	text/html
+1340387580.130142	Ca5phv2zXEI5v1Zy4g	192.168.22.10	1031	173.247.250.112	80	4	GET	mobiletoysinc.com	/images/header-object.png	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	382170	200	OK	-	-	-	(empty)	-	-	-	-	-	Flu2r72z9k6EjI7tQ3	image/png
+1340387581.233902	CR3Tmm2L5HFZyjmeAh	192.168.22.10	1030	173.247.250.112	80	6	GET	mobiletoysinc.com	/images/menuseparator.png	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	101	200	OK	-	-	-	(empty)	-	-	-	-	-	FvfWx82lXcBpZWAlfk	image/png
+1340387581.178689	CNVxh92ruMBpFP6O36	192.168.22.10	1033	37.157.255.35	80	2	GET	piusnes.tk	/98765.pdf	http://piusnes.tk/23323516.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	41367	200	OK	-	-	-	(empty)	-	-	-	-	-	FJQEff2TK2tJTHx2Tf	application/pdf
+1340387603.769026	CNVxh92ruMBpFP6O36	192.168.22.10	1033	37.157.255.35	80	3	GET	piusnes.tk	/2.html	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	33792	200	OK	-	-	-	(empty)	-	-	-	-	-	Fr2vNh4ohaEuXbFDHi	application/x-dosexec
+1340387610.127096	CPquab3OqjwFs9fYAd	192.168.22.10	1038	37.157.255.35	80	1	GET	piusnes.tk	/55993.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	76321	200	OK	-	-	-	(empty)	-	-	-	-	-	FzJNL3CEdDD4aLkMg	application/zip
+1340387610.606497	CPquab3OqjwFs9fYAd	192.168.22.10	1038	37.157.255.35	80	2	GET	piusnes.tk	/55993.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	76321	200	OK	-	-	-	(empty)	-	-	-	-	-	FirMMl93HiuLDJIX	application/zip
+1340387611.033685	CPquab3OqjwFs9fYAd	192.168.22.10	1038	37.157.255.35	80	3	GET	piusnes.tk	/55993.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	76321	200	OK	-	-	-	(empty)	-	-	-	-	-	FJbB9m1PyR5kegEI7	application/zip
+1340387611.404502	CPquab3OqjwFs9fYAd	192.168.22.10	1038	37.157.255.35	80	4	GET	piusnes.tk	/1.html	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	33792	200	OK	-	-	-	(empty)	-	-	-	-	-	FSG73z47iUT2PI1RX3	application/x-dosexec
+1340387616.121799	Chq1SZ3qlvnHYEHSI1	192.168.22.10	1039	37.157.255.35	80	1	GET	37.157.255.35	/512545.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	190464	200	OK	-	-	-	(empty)	-	-	-	-	-	Fupxrj4waHLAjLcqld	binary
+1340387616.860682	Chq1SZ3qlvnHYEHSI1	192.168.22.10	1039	37.157.255.35	80	2	GET	37.157.255.35	/512545.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	405504	200	OK	-	-	-	(empty)	-	-	-	-	-	FoqvF11LQbNy5S2V53	binary
+1340387617.656374	Chq1SZ3qlvnHYEHSI1	192.168.22.10	1039	37.157.255.35	80	3	GET	37.157.255.35	/512545.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	128512	200	OK	-	-	-	(empty)	-	-	-	-	-	FJq9CA1eC1uBU0Nu4l	binary
+1340387617.999497	Chq1SZ3qlvnHYEHSI1	192.168.22.10	1039	37.157.255.35	80	4	GET	37.157.255.35	/512545.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	168960	200	OK	-	-	-	(empty)	-	-	-	-	-	Ft3pdQ31894re2fjo6	binary
+1340387618.374804	Chq1SZ3qlvnHYEHSI1	192.168.22.10	1039	37.157.255.35	80	5	GET	37.157.255.35	/512545.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	365568	200	OK	-	-	-	(empty)	-	-	-	-	-	Fmyhbv3MsFoZyWodWc	binary
+1340387619.488472	Chq1SZ3qlvnHYEHSI1	192.168.22.10	1039	37.157.255.35	80	6	GET	37.157.255.35	/512545.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	79328	200	OK	-	-	-	(empty)	-	-	-	-	-	FVBIr32qPYsMvnaSEd	binary
+1340387619.745768	Chq1SZ3qlvnHYEHSI1	192.168.22.10	1039	37.157.255.35	80	7	GET	37.157.255.35	/512545.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	666	200	OK	-	-	-	(empty)	-	-	-	-	-	FEkPER2KtcgeCRhEOk	binary
+1340387620.128913	C4z0lJXaA3AsMT2g9	192.168.22.10	1041	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	28	200	OK	-	-	-	(empty)	-	-	-	-	-	FoNEtB2wwPjygTkm7l	text/plain
+1340387620.209542	CBqYeSHSfsgOZ2mq2	192.168.22.10	1042	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340387620.215013	CotySQ3v5DyipYfYmj	192.168.22.10	1044	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=2&d=7&s=121	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340387620.230734	CwIuRk1E7FMjsKeJya	192.168.22.10	1048	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=4&d=7&s=1	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340387620.232515	C5YxH01fZwiNaDjmp	192.168.22.10	1050	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=5&d=7&s=20	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340387620.230859	Cf2FUj30o3hKzI0Eyb	192.168.22.10	1046	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=3&d=7&s=131	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340387620.668002	CU7T1I3pF47ztTYspl	192.168.22.10	1053	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=6&d=7&s=21	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340387620.726933	C8nqQkC8bU9yfS7T2	192.168.22.10	1056	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=7&d=7&s=30	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340387620.741843	CDfjuo4ODHPrKfAcTi	192.168.22.10	1058	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=8&d=7&s=31	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340387630.193002	CxdQeg3UoiPqY3SuFa	192.168.22.10	1062	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	28	200	OK	-	-	-	(empty)	-	-	-	-	-	FGCMdq2FrtMkWHAc26	text/plain
+1340387630.266666	C0ZgY11os7UsJiP901	192.168.22.10	1063	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=31212032&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340387630.277502	Ccf1Z64bB0y5vwBl9i	192.168.22.10	1065	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=31212032&c=2&d=7&s=110	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340387630.343198	C14r9xJjnfLgw7114	192.168.22.10	1067	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=31212032&c=3&d=7&s=10	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340387632.157512	CxN1TU2M7K6hlBQ5Pe	192.168.22.10	1069	116.255.235.9	80	1	GET	116.255.235.9	/api/urls/?ts=777599ca&affid=56300	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	62	200	OK	-	-	-	(empty)	-	-	-	-	-	FFn9Cv1o9HiZTuW5r7	text/plain
+1340387634.843107	ClkKA6f1snDJicxE4	192.168.22.10	1070	195.210.47.239	80	1	GET	kifggapoes.ipq.co	/f/notepad.exe?ts=777599ca&affid=5630	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	211456	200	OK	-	-	-	(empty)	-	-	-	-	-	FHJp5e2bDyqYjQe5d9	application/x-dosexec
+#close	2014-04-03-09-55-04

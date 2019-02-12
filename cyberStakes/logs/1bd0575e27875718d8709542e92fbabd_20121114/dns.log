@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-06-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1352865196.30181	CzywFL10vRtKzz9T1	192.168.37.10	1029	4.2.2.3	53	udp	2953	rbtgb.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	209.62.160.91	86400.000000	F
+1352865197.006229	CzywFL10vRtKzz9T1	192.168.37.10	1029	4.2.2.3	53	udp	8331	donatingtapestor.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	198.23.128.72	43200.000000	F
+1352865197.954799	CzywFL10vRtKzz9T1	192.168.37.10	1029	4.2.2.3	53	udp	28045	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.125.130.104,74.125.130.106,74.125.130.99,74.125.130.103,74.125.130.105,74.125.130.147	224.000000,224.000000,224.000000,224.000000,224.000000,224.000000	F
+1352865197.95681	CbW80w2Zivhgjdx1Gf	192.168.37.10	1035	4.2.2.3	53	udp	39564	zzqbug.mynumber.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.229.210.170	31.000000	F
+1352865199.493962	CzywFL10vRtKzz9T1	192.168.37.10	1029	4.2.2.3	53	udp	30863	ssl.gstatic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.125.137.120	101.000000	F
+1352865218.522198	CNZVKJ1cFl7ANRiRk8	192.168.37.10	1029	4.2.2.3	53	udp	13966	vbncg.newhgqrr.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.104.106.56	60.000000	F
+1352865241.342784	CQfPcQ2ywh6CjI47cb	192.168.37.10	1029	4.2.2.3	53	udp	39552	statesourcalled.co.cc	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1352865251.362328	C8XCjG2DIPCjdtfETe	192.168.37.10	1029	4.2.2.3	53	udp	44419	whestabformerour.co.cc	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-06-34

@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-24-42
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1320860943.43534	C54Grv6mdJ5QOzCCj	192.168.113.10	1029	4.2.2.3	53	udp	19855	tjslubestop.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.81.140.227	14379.000000	F
+1320860943.81228	C54Grv6mdJ5QOzCCj	192.168.113.10	1029	4.2.2.3	53	udp	26252	www.magnetmail.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.27.100.172	8073.000000	F
+1320860943.996276	C54Grv6mdJ5QOzCCj	192.168.113.10	1029	4.2.2.3	53	udp	55949	www.facebook.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.171.224.13	18.000000	F
+1320860944.012691	C54Grv6mdJ5QOzCCj	192.168.113.10	1029	4.2.2.3	53	udp	36491	8s2xdatr50c0.federalres.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.208.33.18	3600.000000	F
+1320860944.509586	C241fe2rlDgniPhwAb	192.168.113.10	1035	4.2.2.3	53	udp	51337	static.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.g.akamai.net,69.31.132.99,69.31.132.90	4180.000000,3980.000000,16.000000,16.000000	F
+1320860944.446693	C54Grv6mdJ5QOzCCj	192.168.113.10	1029	4.2.2.3	53	udp	12937	p2tfmvoaa7.adeptosdatecnologia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.217.153.119	3600.000000	F
+1320860944.820484	C241fe2rlDgniPhwAb	192.168.113.10	1035	4.2.2.3	53	udp	37254	b.static.ak.fbcdn.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	static.ak.facebook.com.edgesuite.net,a749.g.akamai.net,69.31.132.90,69.31.132.99	3462.000000,3980.000000,16.000000,16.000000	F
+1320860961.647707	CDNnfl2ZqIGqcV0sP4	192.168.113.10	1035	4.2.2.3	53	udp	8583	newlifen.com.tw	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.215.218.79	600.000000	F
+1320860984.475587	C6nY8cyAcfinrr65l	192.168.113.10	1035	4.2.2.3	53	udp	32388	wehavechanse.com.tw	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.215.218.79	600.000000	F
+#close	2014-04-03-10-24-43

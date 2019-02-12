@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-17-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1394926271.988594	Cazrxe4GYSEqIJeP6g	192.168.85.10	1035	4.2.2.3	53	udp	49796	therequest.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.211.207.211	3600.000000	F
+1394926272.433822	Cazrxe4GYSEqIJeP6g	192.168.85.10	1035	4.2.2.3	53	udp	35461	pushtraffic.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.205.156.86,91.205.156.85	3572.000000,3572.000000	F
+1394926272.85118	Cazrxe4GYSEqIJeP6g	192.168.85.10	1035	4.2.2.3	53	udp	12934	j.theadsnet.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	206.190.150.100	300.000000	F
+1394926273.12146	Cazrxe4GYSEqIJeP6g	192.168.85.10	1035	4.2.2.3	53	udp	45191	smart.yourfiledownloader.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.7.28.2	300.000000	F
+1394926273.754967	Cazrxe4GYSEqIJeP6g	192.168.85.10	1035	4.2.2.3	53	udp	64135	i.yourfiledownloader.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.7.28.2	300.000000	F
+#close	2014-04-03-10-17-37

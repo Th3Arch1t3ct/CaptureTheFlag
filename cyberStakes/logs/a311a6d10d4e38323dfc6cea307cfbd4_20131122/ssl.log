@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-13-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1385088398.351615	C0FLdM20jpGpR4fnSk	192.168.28.10	1040	74.125.239.5	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1383768723.000000	1394085600.000000	-	-	-	7c3bfc196fd195cb1af5555555555ffc	ok
+1385088399.639283	CPR1db4XPQe9FSsvp3	192.168.28.10	1047	74.125.239.5	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	c1f89a4f93a5cb482727e41d24adb15f82136ac8a8caae018ec0619de11253a3	-	-	-	-	-	-	-	-	-
+1385088400.049014	CLDNqF1XCentMUzGWd	192.168.28.10	1048	74.125.28.84	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=accounts.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1383769765.000000	1394085600.000000	-	-	-	7b2103cd51b1e5d712817019ebfd295d	ok
+1385088400.343403	CKbHXy1hnlVl0ZHtVc	192.168.28.10	1051	199.59.150.7	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=twitter.com,OU=Twitter Security,O=Twitter\, Inc.,street=795 Folsom St\, Suite 600,L=San Francisco,ST=California,postalCode=94107,C=US,serialNumber=4337446,businessCategory=Private Organization,1.3.6.1.4.1.311.60.2.1.2=#130844656C6177617265,1.3.6.1.4.1.	311.60.2.1.3=#13025553CN=VeriSign Class 3 Extended Validation SSL CA,OU=Terms of use at https://www.verisign.com/rpa (c)06,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1334034000.000000	1399784399.000000	-	-	-	27741b9b80ad6aeccdc45e181a48a140	ok
+1385088400.365546	Cmv7Vh4ypjx18TPsF5	192.168.28.10	1052	74.125.224.143	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1383767882.000000	1394085600.000000	-	-	-	d5ddef34131db2a576ebbbbbb1e51ebe	ok
+1385088400.663397	CJPmSkKFo8nJb3BZh	192.168.28.10	1057	74.125.224.171	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1383768177.000000	1394085600.000000	-	-	-	7e8f120cde8efb7f55e7f8f6e30552d8	ok
+1385088401.201492	C0AWZc4SZnST4PI7h3	192.168.28.10	1068	23.7.2.110	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=s-static.ak.facebook.com,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,ST=California,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1363150837.000000	1394686837.000000	-	-	-	8072f767b362050ff6b5555555555554	ok
+1385088401.245269	CduxlB2EhE0cPjvNG6	192.168.28.10	1069	31.13.77.65	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.facebook.com,O=Facebook\, Inc.,L=Palo Alto,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1382936400.000000	1438837199.000000	-	-	-	8a2cdf3b44eeeeeeeeeeeeeeeeeeeeee	ok
+1385088401.356117	C7e4UY2xzwW6OpDhl8	192.168.28.10	1073	31.13.77.65	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	03f976108e93791bc63ea2d7bfce06b8d45e02195151cc2264ec8274524d8ec3	-	-	-	-	-	-	-	-	-
+1385088404.257385	CbYnnE3U4rtEppXzy9	192.168.28.10	1086	93.184.216.139	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=si0.twimg.com,O=Twitter\, Inc.,L=San Francisco,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1367384400.000000	1402462799.000000	-	-	-	c913837c64ad7bbc9cbd40896c4c2e37	ok
+#close	2014-04-03-10-13-35

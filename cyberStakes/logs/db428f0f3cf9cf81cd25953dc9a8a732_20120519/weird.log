@@ -1,0 +1,29 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-05-28
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1337467223.414188	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1337467240.034689	C7q3qn3MFRnZ9rhogk	192.168.123.10	1061	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337467240.043088	CrFIrBQsaCkEwOtc9	192.168.123.10	1063	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337467240.072896	CXCsB43GkaT7Ksy8qc	192.168.123.10	1065	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337467240.081422	CWq6SG1ut0PD6EGj12	192.168.123.10	1067	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337467240.088707	CMu9c14EhCD9LmOWm8	192.168.123.10	1069	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337467240.095805	CieJ3b3gCtoVqU19Mj	192.168.123.10	1071	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337467241.987183	CVEvsA16g8kNDakafd	192.168.123.10	1075	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337467242.328594	CRrjXP32JYOaxJwnw2	192.168.123.10	1078	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337467244.239119	Cpte0a4KzaYJ1Q2m64	192.168.123.10	1080	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337467253.241818	C0OBr823MPm3BAycPf	192.168.123.10	1088	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337467253.242758	CdKAwC2N4ssWcQv7P5	192.168.123.10	1090	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337467253.243632	CZ5r59jcBbBGqjnUg	192.168.123.10	1092	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337467261.547512	CRfpB41FRoOQbRAm9l	192.168.123.10	1101	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337467261.801231	CBWndt3VQ0AuVob9K9	192.168.123.10	1103	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337467262.362357	CYECxh1RnkyAnoZPVb	192.168.123.10	1105	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1337467267.523503	CkJiE44nR4mwI2LiA1	192.168.123.10	1111	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337467267.582302	C1Xo2GzubtjSn4m5k	192.168.123.10	1113	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337467267.610219	CD7r5Y2N0pCk7AgSv9	192.168.123.10	1115	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1337467271.662891	CAlJKRbb3pIyNZJxj	192.168.123.10	1122	31.193.12.27	80	bad_HTTP_request	-	F	bro
+#close	2014-04-03-10-05-29

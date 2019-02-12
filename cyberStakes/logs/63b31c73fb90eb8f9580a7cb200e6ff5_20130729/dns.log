@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-11-52
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1375124881.377502	CL6CQj3rdjPWQWPunk	192.168.12.10	1030	4.2.2.3	53	udp	64669	www.winmediashare.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	winmediashare.com,54.214.15.30	267.000000,60.000000	F
+1375124881.476022	CL6CQj3rdjPWQWPunk	192.168.12.10	1030	4.2.2.3	53	udp	28573	www.webpagescripts.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	webpagescripts.net,54.245.121.59	1800.000000,60.000000	F
+1375124881.60919	CL6CQj3rdjPWQWPunk	192.168.12.10	1030	4.2.2.3	53	udp	21660	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.224.200,74.125.224.196,74.125.224.197,74.125.224.198,74.125.224.193,74.125.224.206,74.125.224.201,74.125.224.195,74.125.224.192,74.125.224.194,74.125.224.199	76586.000000,285.000000,285.000000,285.000000,285.000000,285.000000,285.000000,285.000000,285.000000,285.000000,285.000000,285.000000	F
+1375124881.846968	CL6CQj3rdjPWQWPunk	192.168.12.10	1030	4.2.2.3	53	udp	13724	reports.amonetize.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	76.9.4.18	1800.000000	F
+1375124888.090224	CL6CQj3rdjPWQWPunk	192.168.12.10	1030	4.2.2.3	53	udp	44702	www.amoninst.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ils-front-balancer-1422728235.us-east-1.elb.amazonaws.com,23.21.40.49	1800.000000,60.000000	F
+#close	2014-04-03-11-11-52

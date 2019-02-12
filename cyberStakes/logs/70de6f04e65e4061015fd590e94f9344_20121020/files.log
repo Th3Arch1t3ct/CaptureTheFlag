@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-41-15
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1350754147.479084	F5CkUO3uhKWP0c4Vvl	213.186.33.4	192.168.81.10	ChLusD3zy0tDq7fzCb	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	130	131	0	0	F	-	d6bb9846443921d8be61ff4fb725088d	d376318d8895ee4d495edd8743c74eebcd002aea	-	-
+1350754148.068473	FO7eds4eqg7QnwCn8a	78.47.192.46	192.168.81.10	Cof7vg3UXTFRxDHXm5	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	1308	-	0	0	F	-	f9e4f45cad2caa4b6f0a2de2e3afa759	40126f2d10d828c739829b0d457ff245d31f21b6	-	-
+1350754148.388344	Fed4Cw4Poqe1iS7prk	78.47.192.46	192.168.81.10	Cof7vg3UXTFRxDHXm5	HTTP	0	SHA1,MD5	image/png	-	0.000000	-	F	126	126	0	0	F	-	ecbc55cd131d6776f4e25102fc2a7246	2ee2ac3dce0147d5b801cecc351f4c2824f723bf	-	-
+1350754150.09066	FyxVnq4ql4I2jwOO01	64.120.193.144	192.168.81.10	C3MwqU2J6L8QdlURj3	HTTP	0	SHA1,MD5	application/zip	-	0.845175	-	F	21022	21022	0	0	F	-	66c55d2cebc9d2d7b09a6e12b94fc1c9	452e04195c10924b3bbdb94e444883c9c683f583	-	-
+1350754151.296994	F58rj52o8m7T76aial	64.120.193.144	192.168.81.10	C3MwqU2J6L8QdlURj3	HTTP	0	SHA1,MD5	application/zip	-	1.512738	-	F	21022	21022	0	0	F	-	66c55d2cebc9d2d7b09a6e12b94fc1c9	452e04195c10924b3bbdb94e444883c9c683f583	-	-
+1350754153.232012	FariKZ3KCDieZKAHGa	64.120.193.144	192.168.81.10	C3MwqU2J6L8QdlURj3	HTTP	0	SHA1,MD5	application/zip	-	1.024817	-	F	21022	21022	0	0	F	-	66c55d2cebc9d2d7b09a6e12b94fc1c9	452e04195c10924b3bbdb94e444883c9c683f583	-	-
+1350754149.062827	FnruvB3OIH36VRUlz5	64.120.193.144	192.168.81.10	CCqGxI0BG66px3dLe	HTTP	0	SHA1,MD5	text/html	-	14.376619	-	F	31162	-	0	0	F	-	af741e9cd6f66e8c932812b2be4daa25	f32d7a0ef7cb6295fbd65e15488e37de9d34f31e	-	-
+1350754163.901888	FGQmwe1X7ivFajQsv6	64.120.193.144	192.168.81.10	CCqGxI0BG66px3dLe	HTTP	0	SHA1,MD5	application/pdf	e2768.pdf	0.796376	-	F	13370	13370	0	0	F	-	1f4a5359e211ca8e67cded4e1ea2bca3	2d77c335af9950781426cd2f8cc903d2720d26e7	-	-
+#close	2014-04-03-10-41-16

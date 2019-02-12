@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-43-54
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1363204524.771781	F0IYDh4fonolqGMXo2	184.107.185.122	192.168.104.10	COtDuq84sfroAhXY8	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	254	254	0	0	F	-	6bb3fd2badadd5767d4f1930211ec7c3	b1a28dfea8d0762086b9c4fab3dea9c69641a23c	-	-
+1363204527.395088	FcOlWi3Gu5tcK0vBn9	216.246.54.223	192.168.104.10	Cvp1Xq39z27rLk20Lk	HTTP	0	SHA1,MD5	text/html	-	0.508465	-	F	142462	-	0	0	F	-	778ddfbf241d58e20fa5233be3ad979f	a63060e7a9237379b35e76a23e0eeea76531385e	-	-
+1363204535.170374	FuDuSk1x2JpaV60Ob7	192.168.104.10	64.4.52.169	C0TaDDOfNzbQpjnfi	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	T	44	44	0	0	F	-	cde5bdd41fae8122ee6f419d237143e3	90cf92217ee0d1af9dea3d662930950d89292bf8	-	-
+1363204535.242619	FLlgtP1J7W3QTVuC9g	64.4.52.169	192.168.104.10	C0TaDDOfNzbQpjnfi	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	13	13	0	0	F	-	1e6cd917ed71a1241e4bedc29264bd98	5b65037351caeb0e5a48d963d7ffa88d0271d546	-	-
+1363204535.517221	FMJTUB48rAV9u32ogg	192.168.104.10	65.55.13.243	CYISMd1ptYghb3fPuc	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	T	44	44	0	0	F	-	cde5bdd41fae8122ee6f419d237143e3	90cf92217ee0d1af9dea3d662930950d89292bf8	-	-
+1363204535.592451	FTWScM4hotlFOfLF3	65.55.13.243	192.168.104.10	CYISMd1ptYghb3fPuc	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	13	13	0	0	F	-	1e6cd917ed71a1241e4bedc29264bd98	5b65037351caeb0e5a48d963d7ffa88d0271d546	-	-
+1363204536.11709	FDJGECZClHgIxAZ09	216.246.54.223	192.168.104.10	CLAuB14uFioAjShML	HTTP	0	SHA1,MD5	application/zip	-	0.016753	-	F	9016	9016	0	0	F	-	dca15a93a98a6c182271427bd694ed07	f966968128ea338aa995895e1c1babe0dcbec8a4	-	-
+1363204537.234853	FTeRGv1WfRPhH69c5d	216.246.54.223	192.168.104.10	CwL1jU2Ktf3Er2cSkj	HTTP	0	SHA1,MD5	binary	calc.dll	0.351500	-	F	135168	135168	0	0	F	-	1f333575b44d00764cdfbb8a4dccc59e	75fc2b2f35de5bacd4a85cd64502964b479051ed	-	-
+1363204551.346956	FE0Foa44hnXlipHIe	216.246.54.223	192.168.104.10	Cvp1Xq39z27rLk20Lk	HTTP	0	SHA1,MD5	application/pdf	-	0.033839	-	F	9153	9153	0	0	F	-	67fa12093ccdf98e88ff7b23c3a32620	4c503ed7a9b81593606e80a157c8bced38a963ce	-	-
+1363204558.483551	FtY5OChX0qLmqMb2g	216.246.54.223	192.168.104.10	Cvp1Xq39z27rLk20Lk	HTTP	0	SHA1,MD5	application/x-dosexec	calc.dll	0.525218	-	F	139264	139264	0	0	F	-	eab2559f251e3344a19ca469438e5461	9381174c0782914c7b0d3938232f64c459d26af3	-	-
+#close	2014-04-03-10-43-54

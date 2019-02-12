@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-09-51-09
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1341111975.393228	FdjQWY2JfVrCAsZIV	192.162.100.42	192.168.86.10	CNL6mV141CziHXExQ2	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	2267	2267	0	0	F	-	c742396230d887884de4c9616bd1f71d	d1eba6337188859324a41c053c08319fd174babe	-	-
+1341111975.57661	F2EfUz38pS2XAsCPs3	192.162.100.42	192.168.86.10	CNL6mV141CziHXExQ2	HTTP	0	MD5,SHA1	image/png	-	0.000014	-	F	3516	3516	0	0	F	-	0f827585b6e3a713bd50a80cec94f4fc	35f097302af1bdbf914ed65bc22d62444c0f55db	-	-
+1341111975.702422	Fgh5H83hZrFIei3wF6	192.162.100.42	192.168.86.10	CEUgEB4dtbFiwd1Pw3	HTTP	0	MD5,SHA1	image/png	-	0.000000	-	F	2641	2641	0	0	F	-	24027d77a963f1a0afd1bc5113e55c1e	22a9df03a11587a31003267988f2519f33f14209	-	-
+1341111975.854347	FtaGKIXGkBIRTeYe3	192.162.100.42	192.168.86.10	CEUgEB4dtbFiwd1Pw3	HTTP	0	MD5,SHA1	image/png	-	0.000000	-	F	243	243	0	0	F	-	31286a8ea52c5045b41ce87cb67858b2	b4374cb0693f9617b084c2c954772ac68acd9908	-	-
+1341111975.741916	F4erOO2pb1sSOLD0dj	192.162.100.42	192.168.86.10	CNL6mV141CziHXExQ2	HTTP	0	MD5,SHA1	application/x-shockwave-flash	-	0.323857	-	F	46783	46783	0	0	F	-	adf2238018de3d0e0bd459a0b601568e	44c9b97e6588d6efabe6611165fd2984f608bf05	-	-
+1341111976.181881	F4wUKU1up4dzD1WOLc	157.238.91.58	192.168.86.10	CfPkDs4TAN9RPwB585	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	1111	1111	0	0	F	-	6d7ff6610b57ee56510415e1c19eec06	8d90b14d4ae46314077e934c4afe3a9f4de600f9	-	-
+1341111978.391311	FwhneM1ssY55iYTucf	192.162.100.42	192.168.86.10	CNL6mV141CziHXExQ2	HTTP	0	MD5,SHA1	application/x-dosexec	-	0.010925	-	F	57367	6819840	0	0	F	-	c8b5c76741356f29212d2094dd203f44	9c867a2086bc9f767bf1bee771a26deec943582f	-	-
+#close	2014-04-03-09-51-09

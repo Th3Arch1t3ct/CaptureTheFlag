@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-38-27
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1329852585.94679	CbP0T6cgOz3ikObb7	192.168.72.10	1029	4.2.2.3	53	udp	31629	www.hippotank.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.163.131.24	14378.000000	F
+1329852586.307938	CbP0T6cgOz3ikObb7	192.168.72.10	1029	4.2.2.3	53	udp	38796	ttr92acte.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.28.114.103	21600.000000	F
+1329852586.80279	CbP0T6cgOz3ikObb7	192.168.72.10	1029	4.2.2.3	53	udp	396	rie21rcom.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.28.114.103	21600.000000	F
+1329852587.251826	CbP0T6cgOz3ikObb7	192.168.72.10	1029	4.2.2.3	53	udp	3212	www4.hard-efguard.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.157.82.19	600.000000	F
+1329852587.826805	CbP0T6cgOz3ikObb7	192.168.72.10	1029	4.2.2.3	53	udp	45967	www1.hardpnchecker.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.23.8.121	600.000000	F
+1329852604.588934	CUrxWa12nwoO2dhIQ1	192.168.72.10	1029	4.2.2.3	53	udp	28046	www1.strong-antivir.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.142.34	600.000000	F
+1329852640.243207	CaBwFD40iks7IhWdve	192.168.72.10	1029	80.90.43.19	53	udp	45961	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	69.65.40.176	86400.000000	F
+#close	2014-04-03-10-38-27

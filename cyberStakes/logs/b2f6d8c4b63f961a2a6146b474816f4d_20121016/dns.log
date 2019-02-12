@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-01-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1350378374.003952	C7ZVA91ivd451HVGoa	192.168.20.10	1029	4.2.2.3	53	udp	9869	download-manage.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	149.13.65.154	576.000000	F
+1350378374.274465	C7ZVA91ivd451HVGoa	192.168.20.10	1029	4.2.2.3	53	udp	29069	code.jquery.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wac.1257.edgecastcdn.net,ne.wac.edgecastcdn.net,72.21.91.19	587428.000000,141.000000,1674.000000	F
+1350378374.689931	C7ZVA91ivd451HVGoa	192.168.20.10	1029	4.2.2.3	53	udp	22671	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.134.102,74.125.134.139,74.125.134.113,74.125.134.100,74.125.134.138,74.125.134.101	66268.000000,239.000000,239.000000,239.000000,239.000000,239.000000,239.000000	F
+1350378381.913131	C7ZVA91ivd451HVGoa	192.168.20.10	1029	4.2.2.3	53	udp	12936	dn.download-manage.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.9.104.22,5.9.105.2,5.9.104.23,5.9.104.18,5.9.9.44,5.9.104.20,5.9.55.137	600.000000,600.000000,600.000000,60.000000,600.000000,60.000000,600.000000	F
+#close	2014-04-03-10-01-54

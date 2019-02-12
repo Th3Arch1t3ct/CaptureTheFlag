@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-59-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1366152974.736748	CHJx4vPrP9ygi3pf8	192.168.61.10	1029	4.2.2.3	53	udp	63376	atozdesign.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.139.135.21,98.139.135.22	1200.000000,1200.000000	F
+1366152976.476653	CHJx4vPrP9ygi3pf8	192.168.61.10	1029	4.2.2.3	53	udp	47760	petsmostwanted.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.135.67.223	300.000000	F
+1366152976.609263	CHJx4vPrP9ygi3pf8	192.168.61.10	1029	4.2.2.3	53	udp	36755	vimeo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	23.23.84.136,23.21.158.252,23.23.252.223,184.73.186.224	30.000000,30.000000,30.000000,30.000000	F
+1366152989.312871	CHJx4vPrP9ygi3pf8	192.168.61.10	1029	4.2.2.3	53	udp	1429	voip-sales.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	72.8.188.210	43200.000000	F
+1366152981.552268	CHJx4vPrP9ygi3pf8	192.168.61.10	1029	4.2.2.3	53	udp	6291	223.67.135.5.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1366153019.635821	CK450U1Dp1e6kGJns2	192.168.61.10	1029	4.2.2.3	53	udp	41111	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.125.140.104,74.125.140.106,74.125.140.147,74.125.140.99,74.125.140.103,74.125.140.105	134.000000,134.000000,134.000000,134.000000,134.000000,134.000000	F
+#close	2014-04-03-10-59-14

@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-55-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1338064393.366245	CACd7s49mM7MF66za7	192.168.100.10	1029	4.2.2.3	53	udp	34453	banuanlae.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.235.45.16	3574.000000	F
+1338064394.479337	CcB1dL25zBdN737tF4	192.168.100.10	1033	4.2.2.3	53	udp	37526	s7.addthis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wildcard.addthis.com.edgekey.net,e2943.c.akamaiedge.net,184.30.252.20	39.000000,17186.000000,4.000000	F
+1338064394.447232	CACd7s49mM7MF66za7	192.168.100.10	1029	4.2.2.3	53	udp	39317	bizzqw.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.75.239.97	43200.000000	F
+1338064395.194485	CcB1dL25zBdN737tF4	192.168.100.10	1033	4.2.2.3	53	udp	44183	juialser.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.162.170.180	10.000000	F
+1338064439.64509	C11KDu47Ga2cKSEwm7	192.168.100.10	1033	4.2.2.3	53	udp	41623	navozmi.ipq.co	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.210.47.109	3600.000000	F
+1338064448.48903	C3A2jD32b0zJi5b2P8	192.168.100.10	1051	8.8.8.8	53	udp	13107	promos.fling.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.91.207.10	161.000000	F
+1338064449.533949	CLgCyT3K2lAtIUdl66	192.168.100.10	1054	66.85.130.234	53	udp	41064	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1338064449.82674	Clta6f4t1Bq2rO7wx1	192.168.100.10	1056	66.85.130.234	53	udp	41064	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1338064450.518691	CxUXmf32dagKwp8703	192.168.100.10	1058	66.85.130.234	53	udp	41064	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1338064450.646721	Cpoe1o2ClT3KsuxUN	192.168.100.10	1060	66.85.130.234	53	udp	41064	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1338064450.706991	Cx5MM63XaqUcysxS05	192.168.100.10	1062	66.85.130.234	53	udp	41064	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1338064450.848594	CBt4LP2GCAKgULuEj9	192.168.100.10	1064	66.85.130.234	53	udp	41064	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1338064454.958248	CzFpPJ3NEMqgyIpoc8	192.168.100.10	1066	66.85.130.234	53	udp	41064	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1338064456.832097	CteeIF4s0x8Q4pZ7T8	192.168.100.10	1069	66.85.130.234	53	udp	41064	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1338064456.955268	ClEe6E3DcunsCeN5g7	192.168.100.10	1071	66.85.130.234	53	udp	41064	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+#close	2014-04-03-10-55-58

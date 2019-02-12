@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-22-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1349632527.062689	CWrsEn4mNQNaKSE8al	192.168.105.10	1029	4.2.2.3	53	udp	57994	ddbeauty.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.208.198.50	14373.000000	F
+1349632527.467977	CWrsEn4mNQNaKSE8al	192.168.105.10	1029	4.2.2.3	53	udp	7306	denseapply.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	93.170.128.188	600.000000	F
+1349632543.167642	CyRmBa2D8tSmSfQyW3	192.168.105.10	1029	4.2.2.3	53	udp	54665	api.wipmania.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.15.234.7	976.000000	F
+1349632543.229196	C1HggXeUCSUCoamG2	192.168.105.10	1042	4.2.2.3	53	udp	7144	ps3.kwtcod.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.23.64.10	14400.000000	F
+1349632544.211335	CyRmBa2D8tSmSfQyW3	192.168.105.10	1029	4.2.2.3	53	udp	18313	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.134.139,74.125.134.138,74.125.134.101,74.125.134.102,74.125.134.113,74.125.134.100	34555.000000,147.000000,147.000000,147.000000,147.000000,147.000000,147.000000	F
+1349632546.759488	CyRmBa2D8tSmSfQyW3	192.168.105.10	1029	4.2.2.3	53	udp	14984	188.128.170.93.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-22-26

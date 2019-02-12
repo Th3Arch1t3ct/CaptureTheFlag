@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-04-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1341742580.261639	C8SmBJ1LC02P52pgCj	192.168.6.10	1029	4.2.2.3	53	udp	18317	salessmartdeals.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.236.84.194	573.000000	F
+1341742580.595153	C8SmBJ1LC02P52pgCj	192.168.6.10	1029	4.2.2.3	53	udp	60812	terravigasales.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.236.84.194	573.000000	F
+1341742580.937956	C8SmBJ1LC02P52pgCj	192.168.6.10	1029	4.2.2.3	53	udp	22671	www.resellcells.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	resellcells.com,184.168.52.1	3600.000000,3600.000000	F
+1341742581.195182	C8SmBJ1LC02P52pgCj	192.168.6.10	1029	4.2.2.3	53	udp	5006	lcioryfmot.information-information-wfm-oyfvmkvh.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.220.84.9	600.000000	F
+1341742584.317879	C8SmBJ1LC02P52pgCj	192.168.6.10	1029	4.2.2.3	53	udp	40840	ajax.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,173.194.79.95	3502.000000,231.000000	F
+1341742597.743199	CNH57Q6uRPQdqbIZc	192.168.6.10	1044	8.8.8.8	53	udp	13107	promos.fling.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.91.207.10	287.000000	F
+1341742599.220118	CVtPKM30dolhsCgZZ9	192.168.6.10	1070	8.8.8.8	53	udp	13107	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.224.146,74.125.224.147,74.125.224.148,74.125.224.145,74.125.224.144	86399.000000,299.000000,299.000000,299.000000,299.000000,299.000000	F
+1341742599.610021	CthLYw4sDUTLpVMS3b	192.168.6.10	1072	8.8.8.8	53	udp	13107	fpdownload.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload.wip4.adobe.com,fpdownload.macromedia.com.edgekey.net,e526.d.akamaiedge.net,23.49.18.70	19555.000000,28.000000,28.000000,10.000000	F
+1341742599.693446	CJ5Eh41kDOCH1oXFPa	192.168.6.10	1074	8.8.8.8	53	udp	13107	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,63.80.138.17,63.80.138.40	5278.000000,162.000000,11712.000000,9.000000,9.000000	F
+1341742599.879525	C8SmBJ1LC02P52pgCj	192.168.6.10	1029	4.2.2.3	53	udp	36235	fpdownload.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload.wip4.adobe.com,fpdownload.macromedia.com.edgekey.net,e526.d.akamaiedge.net,184.30.178.70	7096.000000,167.000000,168.000000,20.000000	F
+1341742598.029227	CZPj7nWcHEuD2kgA8	192.168.6.10	1047	83.133.123.20	53	udp	30166	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1341742598.06094	CJlNGY3GoDiuqj9Wtd	192.168.6.10	1049	83.133.123.20	53	udp	30166	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1341742598.089029	Cc9U3J5liAtsmEWXg	192.168.6.10	1051	83.133.123.20	53	udp	30166	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1341742598.097192	CpQomk2Zzlmew1hh65	192.168.6.10	1053	83.133.123.20	53	udp	30166	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1341742598.099304	Co6Gon2YpPk7KaWQ9l	192.168.6.10	1055	83.133.123.20	53	udp	30166	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1341742598.539015	CMOhbp12IB6etmZnJ	192.168.6.10	1058	83.133.123.20	53	udp	30166	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1341742598.549847	C1Ckng3TOUL2syGak3	192.168.6.10	1061	83.133.123.20	53	udp	30166	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1341742598.569321	CJ0W7R2Z1YJ3aPRozi	192.168.6.10	1063	83.133.123.20	53	udp	30166	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+#close	2014-04-03-10-04-54

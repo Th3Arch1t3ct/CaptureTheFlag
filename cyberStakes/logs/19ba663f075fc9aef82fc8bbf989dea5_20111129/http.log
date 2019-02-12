@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-14-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1322594121.545904	CF8sWa4yeZSPos1Qqi	192.168.81.10	1030	95.168.165.224	80	1	GET	soople.org	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	235	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FdhJD7TPL8fK1Zvgj	text/html
+1322594121.694512	C4jm99q4n4egWyyIc	192.168.81.10	1031	149.255.33.229	80	1	GET	funvids3.in	/?site=11	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1322594122.039635	Cdx6Hm1iQiKvZxy45f	192.168.81.10	1032	109.123.116.51	80	1	GET	googleads4.in	/redir.html	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	349	200	OK	-	-	-	(empty)	-	-	-	-	-	FxGZSl15vfVvm0Bg02	text/html
+1322594122.263771	CFRxMF3dbkHsF978V3	192.168.81.10	1036	109.123.116.51	80	1	GET	googleads4.in	/in.cgi?default	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	186	302	Found	-	-	-	(empty)	-	-	-	-	-	FlWuLw4clU77mGBcE6	text/html
+1322594122.520534	CfOHYr4hT4NRTey5y9	192.168.81.10	1037	149.255.33.229	80	1	GET	portal4for8.in	/?site=8	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	154	200	OK	-	-	-	(empty)	-	-	-	-	-	FUS98z2hbfIlxJrfWf	text/html
+1322594124.05917	ClAUbI1TVjAq3zHUCg	192.168.81.10	1042	149.255.33.229	80	1	GET	portal4for8.in	/?a177402e4641548342b3aa902ed29485	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3980	200	OK	-	-	-	(empty)	-	-	-	-	-	FnypMP2xEJ5z2DiDE	application/jar
+1322594124.1683	CGdMgzjRluKRsHstl	192.168.81.10	1043	149.255.33.229	80	1	GET	portal4for8.in	/?a177402e4641548342b3aa902ed29485	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3980	200	OK	-	-	-	(empty)	-	-	-	-	-	FCIvI4ZarlzoxOuDl	application/jar
+1322594124.306223	CMqUzFHheDNmj5dRf	192.168.81.10	1044	149.255.33.229	80	1	GET	portal4for8.in	/?a177402e4641548342b3aa902ed29485	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3980	200	OK	-	-	-	(empty)	-	-	-	-	-	FKTiy71h5m7DnTanJc	application/jar
+1322594124.452703	Cty0RR1hBfVzYztRZa	192.168.81.10	1045	149.255.33.229	80	1	GET	portal4for8.in	/com.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FBDVOL2vfGK4BB2LRd	text/html
+1322594124.52839	CeFDsJ1XQXez60oCHg	192.168.81.10	1046	149.255.33.229	80	1	GET	portal4for8.in	/edu.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FZhWpOsc79POKvfmk	text/html
+1322594124.609876	CxeS0wHUgVjhH8rnl	192.168.81.10	1047	149.255.33.229	80	1	GET	portal4for8.in	/net.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Fn23Il2flLLxayGAU8	text/html
+1322594124.702979	CnPg7JxTRyycs6y6g	192.168.81.10	1048	149.255.33.229	80	1	GET	portal4for8.in	/org.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	208	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FXSBaL38IQD6KV1N3h	text/html
+1322594124.897988	Cwc1SQ1rRece4zpfw7	192.168.81.10	1049	149.255.33.229	80	1	GET	funvids3.in	/?7ebafd98c437a3d5e2a5cd4bcfc82126	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	462848	200	OK	-	-	-	(empty)	-	-	-	-	-	FQVt4N1Z657fACuHc4	application/x-dosexec
+#close	2014-04-03-10-14-13

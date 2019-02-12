@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-20-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1325217303.243789	C4hM542aa9q3xYlIk6	192.168.19.10	1039	173.237.198.42	80	FbhqSW2MA0PnTeNpl8	application/x-dosexec	http://winnershop.couponcluster.com/w.php?f=16&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 39%  Last seen: 2012-01-15 21:06:47	https://www.virustotal.com/en/search/?query=6f37b08d86c416e60b8bc26079c6dd8a50c2830c	192.168.19.10	173.237.198.42	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1325217303.36666	C4hM542aa9q3xYlIk6	192.168.19.10	1039	173.237.198.42	80	FNAjqm11q3jlrfiEgg	application/x-shockwave-flash	http://winnershop.couponcluster.com/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 71%  Last seen: 2014-03-08 00:33:38	https://www.virustotal.com/en/search/?query=405b0348b4bf4d873434ed20c5045b5f09de8936	192.168.19.10	173.237.198.42	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1325217317.57855	C4hM542aa9q3xYlIk6	192.168.19.10	1039	173.237.198.42	80	FEkVZq46nTXTt72Pe	application/x-shockwave-flash	http://winnershop.couponcluster.com/content/score.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-02-10 16:15:06	https://www.virustotal.com/en/search/?query=71e3363f331ebcaebb636c09c9def9de9ff29850	192.168.19.10	173.237.198.42	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-20-56

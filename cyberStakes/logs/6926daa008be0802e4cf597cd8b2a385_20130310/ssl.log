@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-09-58-01
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1362954282.039169	CAB5Vw4h1YRGS8IWga	192.168.64.10	1084	74.125.140.95	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleapis.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1361389033.000000	1370652207.000000	-	-	-	376e123f0bb8e73ad076b2a9ee6237d8	ok
+1362954284.718253	CwukWJbP740da1Ybe	192.168.64.10	1093	50.116.194.24	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.p-td.com,OU=PlatinumSSL Wildcard,OU=Hosted by OMD USA INC,OU=IT,O=OMD USA LLC,street=195 Broadway,L=New York,ST=NY,postalCode=10007,C=US	CN=COMODO High-Assurance Secure Server CA,O=COMODO CA Limited,L=Salford,ST=Greater Manchester,C=GB	1342587600.000000	1405745999.000000	-	-	-	c411b2abc0fda3c049f63333379e6d23	ok
+1362954285.09851	CYA2fn4dCmDNakKks9	192.168.64.10	1088	121.127.6.214	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=www.prevencao.net,OU=Domain Control Validated - RapidSSL(R),OU=See www.rapidssl.com/resources/cps (c)13,OU=GT16838475,serialNumber=7aaFedsOvgCcDtfqol2/WfztF7OU8FAn	CN=RapidSSL CA,O=GeoTrust\, Inc.,C=US	1360645698.000000	1392411381.000000	-	-	-	1832f28eb37ffd059b20039ccceb6cf4	ok
+1362954291.276458	CzAOyoy8DbP00LAH8	192.168.64.10	1115	121.127.6.214	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	4c0b87e17049fc89f158a962b1bf46d42960d9a6754b8bcc19f4ba4c7ae6d850	-	-	-	-	-	-	-	-	-
+1362954293.137233	CGjIcL3EfMYWnnGkF6	192.168.64.10	1116	121.127.6.214	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	4c0b87e17049fc89f158a962b1bf46d42960d9a6754b8bcc19f4ba4c7ae6d850	-	-	-	-	-	-	-	-	-
+1362954294.897306	CdQFHc44M5VkwH6a6c	192.168.64.10	1117	121.127.6.214	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	4c0b87e17049fc89f158a962b1bf46d42960d9a6754b8bcc19f4ba4c7ae6d850	-	-	-	-	-	-	-	-	-
+1362954296.67934	CGHyPFsEeD3HDVp5e	192.168.64.10	1118	121.127.6.214	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	4c0b87e17049fc89f158a962b1bf46d42960d9a6754b8bcc19f4ba4c7ae6d850	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-09-58-02

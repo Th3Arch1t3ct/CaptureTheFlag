@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-16-27
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1336525687.545879	CoIUrS3UBrytIBLnBc	192.168.15.10	1054	37.59.198.60	80	FdXSvQ3AHQnpfcl4Mb	application/x-dosexec	http://ghiredbull.org/?75f254af72619899a4a168db2e05a8a0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 39%  Last seen: 2012-05-30 06:45:22	https://www.virustotal.com/en/search/?query=26f3c9f9cd7034db11bd330e6bb6c4949e52ad11	192.168.15.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336525688.932391	CEkwGA4qc1DPcQ1c7g	192.168.15.10	1058	37.59.198.60	80	FiTJrE3GfggY9HlMuk	application/x-dosexec	http://ghiredbull.org/?d49dd02a7c5f2d505637bba79c8dadf7	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 39%  Last seen: 2012-05-30 06:45:22	https://www.virustotal.com/en/search/?query=26f3c9f9cd7034db11bd330e6bb6c4949e52ad11	192.168.15.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-16-27

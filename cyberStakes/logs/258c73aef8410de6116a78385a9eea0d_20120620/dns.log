@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-36-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1340212963.044949	C7p1RF2BcZq6UsSS5g	192.168.82.10	1029	4.2.2.3	53	udp	51084	quotepro.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.124.198.1	3576.000000	F
+1340212964.159217	CaMkEF2jHzKTUjw7Qf	192.168.82.10	1029	4.2.2.5	53	udp	20367	onlinequotepro.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	38.99.229.235	3600.000000	F
+1340212963.160284	C7p1RF2BcZq6UsSS5g	192.168.82.10	1029	4.2.2.3	53	udp	20367	onlinequotepro.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1340212963.160284	C7p1RF2BcZq6UsSS5g	192.168.82.10	1029	4.2.2.3	53	udp	20367	onlinequotepro.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1340212981.437083	CnzI1W2ENVnBc1HlMb	192.168.82.10	1029	4.2.2.3	53	udp	13710	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	3393.000000,99.000000	F
+1340212981.642212	CnzI1W2ENVnBc1HlMb	192.168.82.10	1029	4.2.2.3	53	udp	48009	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	3210.000000,441.000000	F
+1340212980.867889	C2g1Ld2hVnMzSdY3Hj	192.168.82.10	1029	4.2.2.5	53	udp	13710	activex.microsoft.com	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+#close	2014-04-03-10-36-21

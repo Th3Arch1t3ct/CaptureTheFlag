@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-12-40
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1355282909.51229	C4wotB9ADT3nkSgLh	192.168.116.10	1030	4.2.2.3	53	udp	50572	siiplconsulting.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.84.138.118	14378.000000	F
+1355282910.679492	C4wotB9ADT3nkSgLh	192.168.116.10	1030	4.2.2.3	53	udp	23948	www.siiplconsulting.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	siiplconsulting.com,74.84.138.118	14377.000000,14377.000000	F
+1355282912.969092	C2yFKx2akRcciJBLZ4	192.168.116.10	1030	4.2.2.5	53	udp	24718	ie7-js.googlecode.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlecode.l.googleusercontent.com,173.194.76.82	76627.000000,26.000000	F
+1355282911.979547	C4wotB9ADT3nkSgLh	192.168.116.10	1030	4.2.2.3	53	udp	24718	ie7-js.googlecode.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1355282911.979547	C4wotB9ADT3nkSgLh	192.168.116.10	1030	4.2.2.3	53	udp	24718	ie7-js.googlecode.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1355282923.563845	CdEok11xdrJ0np2Aof	192.168.116.10	1030	4.2.2.5	53	udp	16014	counter.goingup.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	38.107.174.31	3880.000000	F
+1355282924.487884	CdEok11xdrJ0np2Aof	192.168.116.10	1030	4.2.2.5	53	udp	60303	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,173.194.37.135,173.194.37.128,173.194.37.137,173.194.37.134,173.194.37.136,173.194.37.132,173.194.37.131,173.194.37.129,173.194.37.133,173.194.37.142,173.194.37.130	51132.000000,268.000000,268.000000,268.000000,268.000000,268.000000,268.000000,268.000000,268.000000,268.000000,268.000000,268.000000	F
+#close	2014-04-03-10-12-40

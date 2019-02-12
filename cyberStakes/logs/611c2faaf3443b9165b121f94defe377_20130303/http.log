@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-39-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1362278834.394843	CCQcPh2fkBW8Au6nm9	192.168.44.10	1030	75.126.101.247	80	1	GET	illyitaly.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	417	200	OK	-	-	-	(empty)	-	-	-	-	-	FlyUwW2hfKlCl4a5W4	text/html
+1362278834.615015	CqtBeU12RnPUaDj4ia	192.168.44.10	1031	192.210.142.142	80	1	GET	tunadeletrasporto.com	/ensuring/treats_starting_accidental.php	http://illyitaly.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	124340	200	OK	-	-	-	(empty)	-	-	-	-	-	F20QGs2HNRGFYw9Bk7	text/html
+1362278845.696827	CNoM9m2J1eTkzlUOFd	192.168.44.10	1032	65.55.13.243	80	1	POST	activex.microsoft.com	/objects/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	FslTAv3tjBjvtOuPee	text/plain	Ft8yLjDZjFKbObjU4	text/plain
+1362278845.924556	CEBRkP2N751r4EHRpj	192.168.44.10	1033	64.4.52.169	80	1	POST	codecs.microsoft.com	/isapi/ocget.dll	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	44	13	404	Not Found	-	-	-	(empty)	-	-	-	FwjCx54kgtKmp4rEyi	text/plain	F5cOV72zprRGMY6m45	text/plain
+1362278846.414655	C1H4dE4IiOLzMSkWU	192.168.44.10	1038	192.210.142.142	80	1	GET	tunadeletrasporto.com	/ensuring/treats_starting_accidental.php?izlu=ren&atmgp=vmjcjnn	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	22386	200	OK	-	-	-	(empty)	-	-	-	-	-	F2rTNm2jd0iXgZZQPk	application/jar
+1362278847.567901	CJmLHhNrrnDpSXfp1	192.168.44.10	1039	192.210.142.142	80	1	GET	tunadeletrasporto.com	/ensuring/treats_starting_accidental.php?sf=1f:31:1n:1l:32&me=1g:1f:1n:1n:30:1o:2v:32:1o:32&e=1f&cu=y&oj=b&jopa=1714825	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	333841	200	OK	-	-	-	(empty)	-	-	-	-	-	FOub2cGCE7TjOuW71	binary
+1362278851.52461	CqtBeU12RnPUaDj4ia	192.168.44.10	1031	192.210.142.142	80	2	GET	tunadeletrasporto.com	/ensuring/treats_starting_accidental.php?bdiq=1f:31:1n:1l:32&jvr=3l&jfykuc=1g:1f:1n:1n:30:1o:2v:32:1o:32&eweiqbs=1o:1d:1g:1d:1f:1d:1f	http://tunadeletrasporto.com/ensuring/treats_starting_accidental.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	10930	200	OK	-	-	-	(empty)	-	-	-	-	-	FutSShBXmUtqxhuQb	application/pdf
+1362278851.678137	Cm40cosClNozUxWo	192.168.44.10	1040	192.210.142.142	80	1	GET	tunadeletrasporto.com	/ensuring/treats_starting_accidental.php?lmyd=1f:31:1n:1l:32&dolpvzez=39:38:3f:33&ticmliaw=1g:1f:1n:1n:30:1o:2v:32:1o:32&zdfiz=wiegedz	http://illyitaly.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1030	200	OK	-	-	-	(empty)	-	-	-	-	-	Fzq5ht1YeQPFx1xwe2	application/x-shockwave-flash
+1362278852.912924	CEEbJ1PCLzynt8dC2	192.168.44.10	1041	72.246.45.64	80	1	GET	fpdownload2.macromedia.com	/get/flashplayer/update/current/xml/version_en_win_ax.xml	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1206	200	OK	-	-	-	(empty)	-	-	-	-	-	FhgJJs1qcdcSNsgxul	text/plain
+1362278858.758623	CLJjGg44OdjYdTi8cl	192.168.44.10	1042	37.239.194.241	80	1	POST	whatisgoodlife.com	/dust/get.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	118	4944	200	OK	-	-	-	(empty)	-	-	-	Fhh8BlFsrZyjj0Nv3	binary	FeSfb72wQxRG6q7jta	binary
+1362278862.980896	CqtBeU12RnPUaDj4ia	192.168.44.10	1031	192.210.142.142	80	3	GET	tunadeletrasporto.com	/ensuring/treats_starting_accidental.php?losqdj=1f:31:1n:1l:32&pzqxweo=1g:1f:1n:1n:30:1o:2v:32:1o:32&uusqrnb=1i&ebqkao=wpr&aqdf=zzj	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	333841	200	OK	-	-	-	(empty)	-	-	-	-	-	Fksg5k1FCzkaGOLE82	application/x-dosexec
+#close	2014-04-03-10-39-08

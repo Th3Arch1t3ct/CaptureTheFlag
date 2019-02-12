@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-09-53-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1358509012.759252	CQZFNX3qVuwARwZE4	192.168.86.10	1030	188.72.201.13	80	1	GET	feettube.net	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+1358509013.103024	Csr5By4sRMR4ZC2Ioa	192.168.86.10	1031	91.121.234.33	80	1	GET	czb.4dagenballios.info	/?0c1e10486b025bc705d98f90c03e814b=27&82e4136a09f887d8de3b4b2ec4a8c400=	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	519	200	OK	-	-	-	(empty)	-	-	-	-	-	FOnXQ53bBpKARgoFHk	text/html
+1358509013.351283	CCIgzm3wrKGAWQBeUf	192.168.86.10	1032	91.121.234.33	80	1	GET	czb.4dagenballios.info	/5336b85cb064206a08c6ca5d711222df.eot	http://czb.4dagenballios.info/?0c1e10486b025bc705d98f90c03e814b=27&82e4136a09f887d8de3b4b2ec4a8c400=	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4189	200	OK	-	-	-	(empty)	-	-	-	-	-	FSW4M94eO4DXzdj1Lk	application/vnd.ms-fontobject
+1358509014.723867	CFQ69c2zIqdHCMcR7l	192.168.86.10	1034	91.121.234.33	80	1	GET	91.121.234.33	/?29211be2426a5c5c457040c080ed521b	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	106496	200	OK	-	-	-	(empty)	-	-	-	-	-	FJ0W8nxHgCgjok4k	application/x-dosexec
+1358509017.339098	CB2KIR2MRnBY6aWYw2	192.168.86.10	1039	91.121.234.33	80	1	GET	czb.4dagenballios.info	/d933d9c6bc98f4f41cc1fdd3978dab28/a7ac57e7639cd5845bcdbece9ddf5ec2.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	8955	200	OK	-	-	-	(empty)	-	-	-	-	-	Fh9fak4ku635L6ufq4	application/jar
+1358509017.655395	CLThvS3QfLYVcD39Zi	192.168.86.10	1040	91.121.234.33	80	1	GET	czb.4dagenballios.info	/d933d9c6bc98f4f41cc1fdd3978dab28/a7ac57e7639cd5845bcdbece9ddf5ec2.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	8955	200	OK	-	-	-	(empty)	-	-	-	-	-	FEYg0w46gk1Tx8jNS8	application/jar
+1358509017.962728	CMhRbmJh2tEuq7uzc	192.168.86.10	1041	91.121.234.33	80	1	GET	czb.4dagenballios.info	/d933d9c6bc98f4f41cc1fdd3978dab28/a7ac57e7639cd5845bcdbece9ddf5ec2.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	8955	200	OK	-	-	-	(empty)	-	-	-	-	-	FlYAeH1neSksVTLbc	application/jar
+1358509018.271429	CUdSrH1loLllQfNE58	192.168.86.10	1042	91.121.234.33	80	1	GET	czb.4dagenballios.info	/d933d9c6bc98f4f41cc1fdd3978dab28/0	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	106496	200	OK	-	-	-	(empty)	-	-	-	-	-	FhjcnF2e0UWlX84C18	binary
+1358509018.912679	CYR49E2088QZtKIHu1	192.168.86.10	1043	91.121.234.33	80	1	GET	czb.4dagenballios.info	/d933d9c6bc98f4f41cc1fdd3978dab28/1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	37376	200	OK	-	-	-	(empty)	-	-	-	-	-	Fhrk111Jf9NOdMY304	binary
+1358509021.232444	CJecTz9iTmotp2bBd	192.168.86.10	1046	37.59.40.158	80	1	GET	ighklplong.cellphoto.info	/get.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FNx9Zy1iJ7TtoThDIj	text/html
+1358509021.870982	CnZQIt1Vaul2Q4PPR4	192.168.86.10	1047	91.121.234.33	80	1	GET	czb.4dagenballios.info	/d933d9c6bc98f4f41cc1fdd3978dab28/2	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	131584	200	OK	-	-	-	(empty)	-	-	-	-	-	FaNzoZ1O44wzSPzUPb	binary
+1358509022.618368	Cp4Wqv42BPnJhiv6ia	192.168.86.10	1048	91.121.234.33	80	1	GET	czb.4dagenballios.info	/d933d9c6bc98f4f41cc1fdd3978dab28/3	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FbFS2H2njOZXfutYx8	text/html
+1358509022.898396	CVgVoo3U6mIchzEXLf	192.168.86.10	1049	91.121.234.33	80	1	GET	czb.4dagenballios.info	/d933d9c6bc98f4f41cc1fdd3978dab28/4	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F7ZM2XPxHDIOvdNs9	text/html
+1358509024.107633	Cq0LBZh9SX9s1xbw4	192.168.86.10	1052	37.59.40.158	80	1	GET	ighklplong.cellphoto.info	/get.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	261	404	Not Found	-	-	-	(empty)	-	-	-	-	-	Fq15vE3n1VdaGz2W2l	text/html
+#close	2014-04-03-09-53-44

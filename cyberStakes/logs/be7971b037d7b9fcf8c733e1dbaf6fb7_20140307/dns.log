@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-13-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1394219673.412987	C5Wpkz2C6KaRkVQexl	192.168.37.10	1029	4.2.2.3	53	udp	23456	freelivehd.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	23.29.126.254	234.000000	F
+1394219673.802079	C5Wpkz2C6KaRkVQexl	192.168.37.10	1029	4.2.2.3	53	udp	48802	sofcotrk.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	54.218.93.69	60.000000	F
+1394219674.695213	C5Wpkz2C6KaRkVQexl	192.168.37.10	1029	4.2.2.3	53	udp	42149	www.dllultimatesoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ttemplate.tguhost.com,tuguu-template-1451603779.us-west-2.elb.amazonaws.com,54.200.4.93,54.201.9.67,54.201.47.113	600.000000,41.000000,41.000000,41.000000,41.000000	F
+1394219675.884201	C5Wpkz2C6KaRkVQexl	192.168.37.10	1029	4.2.2.3	53	udp	37799	www.lpcloudbox30.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ttemplate.tguhost.com,tuguu-template-1451603779.us-west-2.elb.amazonaws.com,54.200.4.93,54.201.9.67,54.201.47.113	370.000000,40.000000,40.000000,40.000000,40.000000	F
+1394219677.111024	C5Wpkz2C6KaRkVQexl	192.168.37.10	1029	4.2.2.3	53	udp	8871	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.224.161,74.125.224.164,74.125.224.160,74.125.224.174,74.125.224.166,74.125.224.167,74.125.224.163,74.125.224.168,74.125.224.162,74.125.224.169,74.125.224.165	52002.000000,196.000000,196.000000,196.000000,196.000000,196.000000,196.000000,196.000000,196.000000,196.000000,196.000000,196.000000	F
+1394219677.630841	C5Wpkz2C6KaRkVQexl	192.168.37.10	1029	4.2.2.3	53	udp	5030	ttb.lpcloudbox30.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ttb.tuguu.com,ttbbalancer-990915133.us-west-2.elb.amazonaws.com,50.112.129.82	599.000000,59.000000,60.000000	F
+1394219678.095896	C5Wpkz2C6KaRkVQexl	192.168.37.10	1029	4.2.2.3	53	udp	54697	dlp.cloudsvr307.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	dlpr3.tgusrv.com,178.32.158.130	600.000000,60.000000	F
+#close	2014-04-03-10-13-24

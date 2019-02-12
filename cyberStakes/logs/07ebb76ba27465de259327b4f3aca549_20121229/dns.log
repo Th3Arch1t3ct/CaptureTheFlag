@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-03-21
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1356745192.005325	CPBWvL3b6TKUkmjCaj	192.168.103.10	1029	4.2.2.3	53	udp	46225	creative-vitae.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.53.96.66	14400.000000	F
+1356745192.476	CPBWvL3b6TKUkmjCaj	192.168.103.10	1029	4.2.2.3	53	udp	51090	fonts.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googleapis.l.google.com,173.194.73.95	3457.000000,189.000000	F
+1356745192.521453	CPBWvL3b6TKUkmjCaj	192.168.103.10	1029	4.2.2.3	53	udp	43668	themes.googleusercontent.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	googlehosted.l.googleusercontent.com,74.125.226.202,74.125.226.204,74.125.226.203	58318.000000,73.000000,73.000000,73.000000	F
+1356745193.105923	CPBWvL3b6TKUkmjCaj	192.168.103.10	1029	4.2.2.3	53	udp	33428	s0.wp.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	cs82.wac.edgecastcdn.net,72.21.91.111	7781.000000,1261.000000	F
+#close	2014-04-03-10-03-22

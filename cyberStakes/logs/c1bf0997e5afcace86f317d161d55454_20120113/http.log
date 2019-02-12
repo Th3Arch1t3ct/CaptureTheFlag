@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-53-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1326485915.231554	C5BXhn4hqFQM5dgT03	192.168.16.10	1030	206.123.105.117	80	1	GET	satellitedirect.com-seeking.info	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	617	200	OK	-	-	-	(empty)	-	-	-	-	-	FjtlWF2AgTb2aSJgRk	text/html
+1326485915.4913	CoSimoB4qzP5bmGJh	192.168.16.10	1031	69.46.36.6	80	1	GET	log.feedjit.com	/pg/fj/1805d64b40e4d8ae/	http://satellitedirect.com-seeking.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	10251	200	OK	-	-	-	(empty)	-	-	-	-	-	FLaBV220VmlZyuxwx7	text/plain
+1326485915.671494	CoSimoB4qzP5bmGJh	192.168.16.10	1031	69.46.36.6	80	2	GET	log.feedjit.com	/pg/l.gif?id=1805d64b40e4d8ae&vid=1326485798.529186&uu=fa85f926bd374af6&fve=1&lvt=0&sslpv=0&pv=1&nv=1&t=HOP&r=&u=http://satellitedirect.com-seeking.info/&aref=&purl=&fuv=1&cfst=1&sw=800&sh=600&l=en-us&in=&flc=0&pid=0&wid=0&fjv=1&rnd=1291600036	http://satellitedirect.com-seeking.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	43	200	OK	-	-	-	(empty)	-	-	-	-	-	F4kpE64VpQEDq5tKHf	image/gif
+1326485916.877605	C6oeIy4s12JkpUE9Jg	192.168.16.10	1032	206.123.105.117	80	1	GET	tv1.com-seeking.info	/chrome.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	884	200	OK	-	-	-	(empty)	-	-	-	-	-	FIwwuEEcecHGoNAJl	text/html
+1326485917.088611	CoSimoB4qzP5bmGJh	192.168.16.10	1031	69.46.36.6	80	3	GET	log.feedjit.com	/pg/fj/1805d64b40e4d8ae/	http://tv1.com-seeking.info/chrome.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	10251	200	OK	-	-	-	(empty)	-	-	-	-	-	FcvhxmFawZxFVY11	text/plain
+1326485917.68743	C6oeIy4s12JkpUE9Jg	192.168.16.10	1032	206.123.105.117	80	2	GET	tv1.com-seeking.info	/download.png	http://tv1.com-seeking.info/chrome.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	58830	200	OK	-	-	-	(empty)	-	-	-	-	-	FN0ief2Ur8G07kbk3	image/png
+1326485917.687124	CoSimoB4qzP5bmGJh	192.168.16.10	1031	69.46.36.6	80	4	GET	log.feedjit.com	/pg/l.gif?id=1805d64b40e4d8ae&vid=1326485800.533765&uu=651be82d66e94c08&fve=1&lvt=0&sslpv=0&pv=1&nv=1&t=Chrome Installer&r=&u=http://tv1.com-seeking.info/chrome.php&aref=&purl=&fuv=1&cfst=1&sw=800&sh=600&l=en-us&in=&flc=0&pid=0&wid=0&fjv=1&rnd=1013508883	http://tv1.com-seeking.info/chrome.php	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	43	200	OK	-	-	-	(empty)	-	-	-	-	-	FxputD2eLwK3plWoj7	image/gif
+1326485918.997604	CbSeEsTJbip8OqVRb	192.168.16.10	1037	66.77.197.154	80	1	GET	watchon.ourtoolbar.com	/exe/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	228	302	Found	-	-	-	(empty)	-	-	-	-	-	F0lC8ibcD5UQcRf56	text/html
+1326485919.095975	CZlIDr3JMGChBfwtU8	192.168.16.10	1038	69.31.132.27	80	1	GET	ie.conduit-download.com	/99/256/CT2566899/Downloads/IE/Releases/6.8.5.1/12-01-12-20.33.01.814/WatchON.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	2582	200	OK	-	-	-	(empty)	-	-	-	-	-	F8WAE03QvvSVCEf6X9	application/x-dosexec
+#close	2014-04-03-10-53-08

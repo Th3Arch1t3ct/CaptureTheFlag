@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-14-06
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1389468923.839636	F0jkxJTi4U7n7Ma7k	144.76.168.46	192.168.94.10	Cg0v2okW8ObcBsOmi	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	207	207	0	0	F	-	83c981fb99b2b8cee579f14d57e2c928	2035b343fe14e69199c1d134c89da5f271faf3fa	-	-
+1389468924.66223	FtIdCjDnXcyDA0bA3	23.23.96.46	192.168.94.10	ClQsd94ZGLK5SqksB3	HTTP	0	SHA1,MD5	application/x-dosexec	hard.fuck.tales__2299_i254675304_il4464248.exe	0.052630	-	F	14191	337960	0	0	F	-	f2b07511dc179597822e5a9cef23ec8c	136f060d62c6599f4fcfb2026a8b625bf99d6dbb	-	-
+#close	2014-04-03-10-14-06

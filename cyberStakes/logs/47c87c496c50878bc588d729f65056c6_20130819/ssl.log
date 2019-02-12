@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-57-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1376930515.250189	CTGgH3563wTuQTqyj	192.168.96.10	1042	74.125.224.41	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1375288834.000000	1383281999.000000	-	-	-	d74e5a5b79fb5fb85553dd342ef5bb7e	ok
+1376930516.268996	CdvTo01joF1zkSB1k2	192.168.96.10	1049	74.125.224.207	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1375289706.000000	1406825706.000000	-	-	-	f73e344fb8ee2337e07bfa078acccadc	ok
+1376930523.581152	CQGCnF14X4Xmv2j7V8	192.168.96.10	1144	199.59.148.10	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=twitter.com,OU=Twitter Security,O=Twitter\, Inc.,street=795 Folsom St\, Suite 600,L=San Francisco,ST=California,postalCode=94107,C=US,serialNumber=4337446,businessCategory=Private Organization,1.3.6.1.4.1.311.60.2.1.2=#130844656C6177617265,1.3.6.1.4.1.	311.60.2.1.3=#13025553CN=VeriSign Class 3 Extended Validation SSL CA,OU=Terms of use at https://www.verisign.com/rpa (c)06,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1334034000.000000	1399784399.000000	-	-	-	27741b9b80ad6aeccdc45e181a48a140	ok
+1376930530.056907	CS75yslqpXoXflTfj	192.168.96.10	1206	74.125.224.41	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	ba54f59eaa7df1312e65fa19e849f1610fccef764ea3db55f179ac1e8dc7b84a	-	-	-	-	-	-	-	-	-
+1376930530.007963	CY1sIYPY76hvMkt62	192.168.96.10	1205	74.125.129.84	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=accounts.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1375288836.000000	1383281999.000000	-	-	-	b5e9cfed3792f96583dcd4445dd0f795	ok
+1376930530.584531	CEflw84p6Z9LER0mwh	192.168.96.10	1207	74.125.239.10	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1375288803.000000	1383281999.000000	-	-	-	02caaafbd8fa6ee08744a77f90eb1fd0	ok
+#close	2014-04-03-10-57-56

@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-41-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1393271911.668688	Crpg6H3X5DcrFAaZnk	192.168.52.10	1035	4.2.2.3	53	udp	27290	iphasetech.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	50.22.10.196	3600.000000	F
+1393271912.823559	Crpg6H3X5DcrFAaZnk	192.168.52.10	1035	4.2.2.3	53	udp	31899	qaqapark.saturn39.dk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.226.187.73	3600.000000	F
+1393271913.407223	Crpg6H3X5DcrFAaZnk	192.168.52.10	1035	4.2.2.3	53	udp	10904	q3k7kgm.hypothermiarelax.pw	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	198.50.143.73	3600.000000	F
+1393271922.713765	Crpg6H3X5DcrFAaZnk	192.168.52.10	1035	4.2.2.3	53	udp	46745	73.143.50.198.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1393271922.713765	Crpg6H3X5DcrFAaZnk	192.168.52.10	1035	4.2.2.3	53	udp	46745	73.143.50.198.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-41-51

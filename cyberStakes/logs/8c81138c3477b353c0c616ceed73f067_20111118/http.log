@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-00-47
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1321619880.763833	Cwz4Hv3FKqmjHiU1gj	192.168.1.10	1030	178.63.3.130	80	1	GET	plussizeclothing4me.info	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	34376	200	OK	-	-	-	(empty)	-	-	-	-	-	FntZup1C7fcJEt3933	text/html
+1321619881.292641	Ce73Z91JFxsCajOC1f	192.168.1.10	1032	178.63.3.130	80	1	GET	www.plussizeclothing4me.info	/wp-content/themes/mimbo2.2.new/nav.css	http://plussizeclothing4me.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1138	200	OK	-	-	-	(empty)	-	-	-	-	-	FUfAsC3cuAFSkXrrT1	text/plain
+1321619881.293908	CoMQif1ucHjrGBXMjd	192.168.1.10	1031	178.63.3.130	80	1	GET	www.plussizeclothing4me.info	/wp-content/themes/mimbo2.2.new/style.css	http://plussizeclothing4me.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6508	200	OK	-	-	-	(empty)	-	-	-	-	-	FOpzPz1uKKz2nt4Vfg	text/plain
+1321619881.408781	Ce73Z91JFxsCajOC1f	192.168.1.10	1032	178.63.3.130	80	2	GET	www.plussizeclothing4me.info	/wp-content/themes/mimbo2.2.new/print.css	http://plussizeclothing4me.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	732	200	OK	-	-	-	(empty)	-	-	-	-	-	F2CytN3Y2U9pxTtEz8	text/plain
+1321619881.414316	CoMQif1ucHjrGBXMjd	192.168.1.10	1031	178.63.3.130	80	2	GET	www.plussizeclothing4me.info	/wp-content/themes/mimbo2.2.new/js/dropdowns.js	http://plussizeclothing4me.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	422	200	OK	-	-	-	(empty)	-	-	-	-	-	FwGcaj13uJ6TVTJmSe	text/plain
+1321619881.562437	Cwz4Hv3FKqmjHiU1gj	192.168.1.10	1030	178.63.3.130	80	2	GET	plussizeclothing4me.info	/resources/validation.php?i=3799635733.1321642380.1321642420.26.3259311939&s=20aee3a5f4643755a79ee5f6a73050ac	http://plussizeclothing4me.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6149	200	OK	-	-	-	(empty)	-	-	-	-	-	Fh7gAe3rcMYFGMq5pi	text/plain
+1321619881.742793	Cwz4Hv3FKqmjHiU1gj	192.168.1.10	1030	178.63.3.130	80	3	GET	plussizeclothing4me.info	/resources/o.php?uid=3259311939&s=1&c=Redirected to podmenka bidsystem&t=1321642420&ht=1321642380	http://plussizeclothing4me.info/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1321619881.849236	C5T2McSTMLX8mzWei	192.168.1.10	1033	64.191.114.133	80	1	GET	searchgenericus.com	/main.php?page=b38da5f333bd22da	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	96503	200	OK	-	-	-	(empty)	-	-	-	-	-	FnCWY249VXKhFCWCql	text/html
+1321619883.592399	CgS7vi2JCSzUTqp8Yd	192.168.1.10	1038	64.191.114.133	80	1	GET	searchgenericus.com	/content/g43kb6j34kblq6jh34kb6j3kl4.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	5681	200	OK	-	-	-	(empty)	-	-	-	-	-	FgZeVi3KmPStG2JNj7	application/zip
+1321619884.267578	CAgYS74yFwhRx9tVc	192.168.1.10	1039	64.191.114.133	80	1	GET	searchgenericus.com	/w.php?f=157&e=1	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	1996800	200	OK	-	-	-	(empty)	-	-	-	-	-	FAqWlf1OCW0i1rBVo	application/x-dosexec
+1321619903.304342	CN30Dl1k5iD4uJWGU1	192.168.1.10	1040	199.7.52.190	80	1	GET	crl.verisign.com	/pca3.crl	-	Microsoft-CryptoAPI/5.131.2600.2180	0	898	200	OK	-	-	-	(empty)	-	-	-	-	-	FllNyUfCVUJl1u0B7	binary
+1321619903.702877	Cb5jLG3Mi7VfOrfhE7	192.168.1.10	1043	74.125.159.105	80	1	GET	google.com	/	-	chrome/9.0	0	219	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FvEGYi4MW5bH3Cd578	text/html
+1321619903.708954	CayVls2zW0s2xQIPw	192.168.1.10	1044	74.125.159.104	80	1	GET	google.com	/	-	chrome/9.0	0	219	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	FsHcsQ2lnb61Osr729	text/html
+1321619903.440504	CJeS8g3P7qVef2Mwn9	192.168.1.10	1041	199.7.52.190	80	1	GET	CSC3-2004-crl.verisign.com	/CSC3-2004.crl	-	Microsoft-CryptoAPI/5.131.2600.2180	0	96089	200	OK	-	-	-	(empty)	-	-	-	-	-	Fvdrji6e5zUWaCsGg	binary
+1321619906.528291	CLFoqY2OFWLG1XFdLa	192.168.1.10	1045	204.13.161.109	80	1	GET	012webpages.com	/christian12.jpg?pr=gJ4WK/SUh5zAhRMw9YLJkMSTUivqg4acxZJQK+/bxmq1SfkIYWhh	-	chrome/9.0	0	1170	200	(OK)	-	-	-	(empty)	-	-	-	-	-	FrFXLxzPjOrsZjAKg	text/html
+1321619907.68623	CaG9ml4graN2Qb6qi4	192.168.1.10	1047	62.212.66.148	80	1	GET	onlinereportsystem.com	/r.php?fax=d72&os=xp&vl=msd&id=9184&hwid=002018EBCA0178144B1E&ver=15&p=2&av=none&wd=0&ad=1	-	chrome/9.0	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-10-00-48

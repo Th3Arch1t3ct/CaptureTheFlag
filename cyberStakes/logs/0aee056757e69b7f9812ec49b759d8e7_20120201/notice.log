@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-27-38
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1328124806.727637	CZKO811hf1AYLG1Rm	192.168.101.10	1033	199.15.236.24	80	Faaajc2Erxir27QKfg	application/x-dosexec	http://partner.googleadservices.in/t.php?f=147&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-02-09 19:17:17	https://www.virustotal.com/en/search/?query=cbb21050829c85536ff7985ecc79093aa581bce5	192.168.101.10	199.15.236.24	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328124813.657602	CksaTd1VKIL4zfywH9	192.168.101.10	1046	199.15.236.24	80	F8ms3c2DoB3knPQaPc	application/x-shockwave-flash	http://partner.googleadservices.in/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 25%  Last seen: 2012-02-01 14:40:28	https://www.virustotal.com/en/search/?query=9cc741c372e8297f518f193a7dabf5ad013d2db6	192.168.101.10	199.15.236.24	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328124814.003378	CZKO811hf1AYLG1Rm	192.168.101.10	1033	199.15.236.24	80	FPSUkj3lljanHKWDo5	application/x-dosexec	http://partner.googleadservices.in/t.php?f=147&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-02-09 19:17:17	https://www.virustotal.com/en/search/?query=cbb21050829c85536ff7985ecc79093aa581bce5	192.168.101.10	199.15.236.24	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328124826.500841	C4SNaR3b68BkFae2mj	192.168.101.10	1048	199.15.236.24	80	F5TIsA2AMCCitDEXm4	application/x-dosexec	http://partner.googleadservices.in/t.php?f=147&e=0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-02-09 19:17:17	https://www.virustotal.com/en/search/?query=cbb21050829c85536ff7985ecc79093aa581bce5	192.168.101.10	199.15.236.24	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-27-38

@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-52-43
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1342480149.288876	CNT0zz4armEv2OhYSi	192.168.38.10	1039	91.218.36.246	80	FioKPt4j9YOluhJhj8	application/jar	http://asgdrfrth.wikaba.com/images/335620005/f151d4cff42286c912cc7120f42f703b.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-10-26 06:31:07	https://www.virustotal.com/en/search/?query=a7317e5fce6c923469941f0dc49cf5f55b1c5407	192.168.38.10	91.218.36.246	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1342480149.828066	CNT0zz4armEv2OhYSi	192.168.38.10	1039	91.218.36.246	80	FC4DRA1XFAz65Bv0Rc	application/jar	http://asgdrfrth.wikaba.com/images/335620005/f151d4cff42286c912cc7120f42f703b.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-10-26 06:31:07	https://www.virustotal.com/en/search/?query=a7317e5fce6c923469941f0dc49cf5f55b1c5407	192.168.38.10	91.218.36.246	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1342480153.078989	CNT0zz4armEv2OhYSi	192.168.38.10	1039	91.218.36.246	80	FNZ0Cz4C7037p5T6Tg	application/jar	http://asgdrfrth.wikaba.com/images/335620005/f151d4cff42286c912cc7120f42f703b.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-10-26 06:31:07	https://www.virustotal.com/en/search/?query=a7317e5fce6c923469941f0dc49cf5f55b1c5407	192.168.38.10	91.218.36.246	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1342480157.068859	CmMIMI7Zaeh4rQSRf	192.168.38.10	1040	91.218.36.246	80	FGKWnx3ryProYEZ0jl	application/jar	http://asgdrfrth.wikaba.com/images/335620005/f151d4cff42286c912cc7120f42f703b.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-10-26 06:31:07	https://www.virustotal.com/en/search/?query=a7317e5fce6c923469941f0dc49cf5f55b1c5407	192.168.38.10	91.218.36.246	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1342480179.446276	CmMIMI7Zaeh4rQSRf	192.168.38.10	1040	91.218.36.246	80	Fnl4w2192sqMSGpHI6	application/x-dosexec	http://asgdrfrth.wikaba.com/o/335620005/f151d4cff42286c912cc7120f42f703b/2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 28%  Last seen: 2012-07-13 11:51:14	https://www.virustotal.com/en/search/?query=f8c64a8722780e525a0d6d121b1efaddd3d61108	192.168.38.10	91.218.36.246	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-52-43

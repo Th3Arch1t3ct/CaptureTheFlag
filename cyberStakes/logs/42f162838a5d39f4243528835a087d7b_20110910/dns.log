@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-00-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1315646497.661206	CLXXTb4plh6wO3HgS9	192.168.124.10	1029	4.2.2.3	53	udp	52111	oflynngroup.ie	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.140.142.22	43177.000000	F
+1315646498.320557	CLXXTb4plh6wO3HgS9	192.168.124.10	1029	4.2.2.3	53	udp	23692	eaovfeki.cz.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	106.1.128.3	0.000000	F
+1315646500.058514	CLXXTb4plh6wO3HgS9	192.168.124.10	1029	4.2.2.3	53	udp	8333	mpwramerica.cx.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	89.208.141.137	3600.000000	F
+1315646504.477583	CLXXTb4plh6wO3HgS9	192.168.124.10	1029	4.2.2.3	53	udp	61066	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	3368.000000,68.000000	F
+1315646504.566438	CLXXTb4plh6wO3HgS9	192.168.124.10	1029	4.2.2.3	53	udp	7048	adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.150.16.117	7013.000000	F
+1315646504.699903	CLXXTb4plh6wO3HgS9	192.168.124.10	1029	4.2.2.3	53	udp	12168	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,64.4.52.169	1201.000000,600.000000	F
+1315646556.213422	CgHeUZ1CeYasHowB7a	192.168.124.10	1029	4.2.2.3	53	udp	5769	131007db0914.einfobulletin.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	F	0	-	-	T
+#close	2014-04-03-11-00-40

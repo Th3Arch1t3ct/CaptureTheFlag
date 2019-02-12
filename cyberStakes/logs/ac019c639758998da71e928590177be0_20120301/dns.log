@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-39-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1330643427.662291	CpJJvn2xa0qVCgON5a	192.168.34.10	1029	4.2.2.3	53	udp	17805	katemiffitt.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.147.240.180	14381.000000	F
+1330643428.641629	CpJJvn2xa0qVCgON5a	192.168.34.10	1029	4.2.2.3	53	udp	20364	www.katemiffitt.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	katemiffitt.com,66.147.240.180	14382.000000,14380.000000	F
+1330643430.025245	CpJJvn2xa0qVCgON5a	192.168.34.10	1029	4.2.2.3	53	udp	52623	farm3.static.flickr.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	farm3.static.flickr.g00.yahoodns.net,pxe-farm3.static.flickr.a00.yahoodns.net,76.13.18.78	208.000000,208.000000,208.000000	F
+1330643430.029987	CpJJvn2xa0qVCgON5a	192.168.34.10	1029	4.2.2.3	53	udp	19087	pokosa.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.111.9.98	60.000000	F
+1330643431.409474	CpJJvn2xa0qVCgON5a	192.168.34.10	1029	4.2.2.3	53	udp	40078	www4.simplemasteryv.net.tc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.238.105	445.000000	F
+1330643431.622433	CpJJvn2xa0qVCgON5a	192.168.34.10	1029	4.2.2.3	53	udp	41609	www2.bestr-suite.net.tf	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.104	3600.000000	F
+1330643439.394404	CpJJvn2xa0qVCgON5a	192.168.34.10	1029	4.2.2.3	53	udp	28297	www2.firstdefenserb.de.lv	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.142.217	3600.000000	F
+1330643475.824849	C7a2XGs11aY5ZLwBd	192.168.34.10	1029	80.90.43.19	53	udp	7051	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	208.117.45.135	86400.000000	F
+1330643475.914125	Ck7aQel5nJu1QjApl	192.168.34.10	1065	204.45.75.109	53	udp	39050	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	208.117.45.135	86400.000000	F
+1330643478.129091	CnYeQi4NT3OVTNzda8	192.168.34.10	1029	64.191.102.152	53	udp	9605	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	208.117.45.135	86400.000000	F
+#close	2014-04-03-10-39-09

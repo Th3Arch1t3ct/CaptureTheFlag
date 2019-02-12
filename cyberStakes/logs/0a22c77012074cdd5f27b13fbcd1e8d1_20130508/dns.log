@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-15-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1368057522.489463	CVSz7n1ZJT2Fu1ZJZ8	192.168.30.10	1029	4.2.2.3	53	udp	17807	diariodosertao.com.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	186.227.193.184	13752.000000	F
+1368057525.43919	CVSz7n1ZJT2Fu1ZJZ8	192.168.30.10	1029	4.2.2.3	53	udp	24204	ssforce.herobo.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.170.161.236	600.000000	F
+1368057525.580928	CVSz7n1ZJT2Fu1ZJZ8	192.168.30.10	1029	4.2.2.3	53	udp	59021	whos.amung.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.202.94.93,67.202.94.94,67.202.94.86	79.000000,79.000000,79.000000	F
+1368057527.478454	CVSz7n1ZJT2Fu1ZJZ8	192.168.30.10	1029	4.2.2.3	53	udp	13963	wwwimages.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	wwwimages.wip4.adobe.com,wwwimages.adobe.com.edgesuite.net,wwwimages.adobe.com.edgesuite.net.globalredir.akadns.net,a1953.x.akamai.net,23.67.61.130,23.67.61.136,23.67.61.104	54.000000,364.000000,17510.000000,364.000000,20.000000,20.000000,20.000000	F
+1368057527.594201	CVSz7n1ZJT2Fu1ZJZ8	192.168.30.10	1029	4.2.2.3	53	udp	1161	www.pm.pa.gov.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	200.164.100.224	3600.000000	F
+#close	2014-04-03-10-15-36

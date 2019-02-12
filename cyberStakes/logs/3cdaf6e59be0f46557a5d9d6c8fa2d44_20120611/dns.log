@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-28-16
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1339442998.126831	CILMjY20yQxpIikzu8	192.168.82.10	1029	4.2.2.3	53	udp	13978	isolationtransformer.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.7.215.221	14371.000000	F
+1339442998.758839	CILMjY20yQxpIikzu8	192.168.82.10	1029	4.2.2.3	53	udp	7579	webordermanager.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	98.124.199.1	3600.000000	F
+1339442998.949883	CILMjY20yQxpIikzu8	192.168.82.10	1029	4.2.2.3	53	udp	1177	jhwrotvjhwobtgsui.co.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.171.133.163	43200.000000	F
+1339443008.365882	CILMjY20yQxpIikzu8	192.168.82.10	1029	4.2.2.3	53	udp	42910	willowcreekcompany.mobi	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	194.50.116.224	3600.000000	F
+#close	2014-04-03-10-28-17

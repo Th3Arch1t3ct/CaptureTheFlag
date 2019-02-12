@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-45-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1363424999.641896	CazPR11U9T7XQHJKo7	192.168.97.10	1029	4.2.2.3	53	udp	65421	goldencarcleaning.nl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.93.150.32	578.000000	F
+1363425000.201213	CazPR11U9T7XQHJKo7	192.168.97.10	1029	4.2.2.3	53	udp	1420	www.hurdisplumbing.com.au	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	hurdisplumbing.com.au,184.154.136.42	14400.000000,14400.000000	F
+1363425000.75627	CazPR11U9T7XQHJKo7	192.168.97.10	1029	4.2.2.3	53	udp	3215	bestffriendquotes.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	24.111.157.113,58.26.233.175,155.239.247.247	300.000000,300.000000,300.000000	F
+1363425011.533645	ClrVG1qFtmbPi2fx9	192.168.97.10	1029	4.2.2.3	53	udp	48271	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,64.4.52.169	2007.000000,300.000000	F
+1363425011.690266	ClrVG1qFtmbPi2fx9	192.168.97.10	1029	4.2.2.3	53	udp	35214	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,64.4.52.169	2952.000000,600.000000	F
+1363425017.872041	ClrVG1qFtmbPi2fx9	192.168.97.10	1029	4.2.2.3	53	udp	28297	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.d.akamai.net,107.14.43.137,107.14.43.154	8389.000000,155.000000,5976.000000,14.000000,14.000000	F
+#close	2014-04-03-10-45-07

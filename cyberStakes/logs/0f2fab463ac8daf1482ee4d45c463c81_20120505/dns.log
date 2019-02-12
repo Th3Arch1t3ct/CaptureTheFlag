@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-12-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1336203130.96566	ClL8Ps4alXhOwdrkrg	192.168.89.10	1028	4.2.2.3	53	udp	23429	branka.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.168.191.1	3578.000000	F
+1336203132.192015	COk0DV3fSrlpq0tmGl	192.168.89.10	1036	4.2.2.3	53	udp	26758	rec-creations.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.223.51.238	3600.000000	F
+1336203132.188311	ClL8Ps4alXhOwdrkrg	192.168.89.10	1028	4.2.2.3	53	udp	7044	luterosuororikxus.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.162.132.223	3600.000000	F
+1336203146.37779	CjHtk83DSLaYZtFT5b	192.168.89.10	1036	4.2.2.3	53	udp	34689	luterosuororikxus.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.162.132.223	3586.000000	F
+1336203166.136676	CZws3P2cov8YwTCoqi	192.168.89.10	1036	4.2.2.3	53	udp	10880	223.132.162.178.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	hosted-by.leaseweb.com	43200.000000	F
+1336203166.263644	CZws3P2cov8YwTCoqi	192.168.89.10	1036	4.2.2.3	53	udp	57475	hosted-by.leaseweb.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	127.0.0.1	300.000000	F
+#close	2014-04-03-11-12-15

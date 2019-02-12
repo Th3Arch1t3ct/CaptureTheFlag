@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-49-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1329589768.41639	CTpfPH1cYAxgmactGh	192.168.103.10	1029	4.2.2.3	53	udp	62609	placestobee.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.33.196.178	14376.000000	F
+1329589768.52111	CTpfPH1cYAxgmactGh	192.168.103.10	1029	4.2.2.3	53	udp	40849	www.placestobee.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.33.196.178	14376.000000	F
+1329589769.948851	CTpfPH1cYAxgmactGh	192.168.103.10	1029	4.2.2.3	53	udp	33937	maps.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	maps.l.google.com,74.125.159.102,74.125.159.113,74.125.159.138,74.125.159.139,74.125.159.100,74.125.159.101	39989.000000,51.000000,51.000000,51.000000,51.000000,51.000000,51.000000	F
+1329589770.040724	CTpfPH1cYAxgmactGh	192.168.103.10	1029	4.2.2.3	53	udp	26770	maps.gstatic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.125.45.120	169.000000	F
+1329589772.429609	CN2og04eiJambUcco6	192.168.103.10	1040	4.2.2.3	53	udp	54674	ibl42efar.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.116.198.33	21600.000000	F
+1329589772.417598	CTpfPH1cYAxgmactGh	192.168.103.10	1029	4.2.2.3	53	udp	402	demo.directorypress.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.16.153.26	14400.000000	F
+1329589773.275239	CN2og04eiJambUcco6	192.168.103.10	1040	4.2.2.3	53	udp	21908	ncho61ragef.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	217.116.198.33	21600.000000	F
+1329589774.310065	CN2og04eiJambUcco6	192.168.103.10	1040	4.2.2.3	53	udp	61333	www3.personalaggdefense.net.tc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.32.238.105	3600.000000	F
+1329589774.842906	CN2og04eiJambUcco6	192.168.103.10	1040	4.2.2.3	53	udp	55191	www1.smart-checkerfl.net.tf	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.133.196.102	3600.000000	F
+1329589813.483904	CC1x4e3u5av1szAEP2	192.168.103.10	1040	4.2.2.3	53	udp	60311	www1.strongdlkchecker.uni.me	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.103.142.217	43200.000000	F
+#close	2014-04-03-09-49-33

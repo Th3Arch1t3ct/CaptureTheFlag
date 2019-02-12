@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-23-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1336515769.969086	CDrXO6FZOctGQq1Ua	192.168.57.10	1124	37.59.198.60	80	FT44iG4DOsvWJUni3b	application/x-dosexec	http://abcredbull.org/?251fb3c5ef1bfd160b4f3e9816da8029	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 39%  Last seen: 2012-05-30 06:45:22	https://www.virustotal.com/en/search/?query=26f3c9f9cd7034db11bd330e6bb6c4949e52ad11	192.168.57.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336515770.688951	CJ5m1J2vhjSzspTTG9	192.168.57.10	1129	37.59.198.60	80	FMrnJ22YeN4YAimNU6	application/x-dosexec	http://abcredbull.org/?569a47f2156d26a1bf35ffe664c9e46b	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 39%  Last seen: 2012-05-30 06:45:22	https://www.virustotal.com/en/search/?query=26f3c9f9cd7034db11bd330e6bb6c4949e52ad11	192.168.57.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336515771.848715	CNW6D44NFHZgXYgEne	192.168.57.10	1130	37.59.198.60	80	FFDY5x4g5W84YFWyV4	application/x-dosexec	http://abcredbull.org/?ac445932a4233aade88ab481e7b8c400	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-05-14 23:12:54	https://www.virustotal.com/en/search/?query=2224dbda229ce01cf185fd3a2e4a58a9a7748416	192.168.57.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336515771.848715	CoVydbkheTcxcfkBf	192.168.57.10	1131	37.59.198.60	80	FanLlKYIAxlot8pH1	application/x-dosexec	http://abcredbull.org/?d3572f61221f96c1b1d634477d11faf1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-05-14 23:12:54	https://www.virustotal.com/en/search/?query=2224dbda229ce01cf185fd3a2e4a58a9a7748416	192.168.57.10	37.59.198.60	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1336515828.439185	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.57.10 scanned at least 25 unique hosts on port 34354/tcp in 0m31s	remote	192.168.57.10	-	34354	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-23-33

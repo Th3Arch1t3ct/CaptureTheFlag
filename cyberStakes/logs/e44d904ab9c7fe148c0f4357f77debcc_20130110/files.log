@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-10-01
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1357826328.823477	Fs8pXGMCcJGLV0g9c	93.170.52.31	192.168.19.10	C1KJWE30iRFNxgjpO7	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	1126	-	0	0	F	-	82935691d484f25642023222d99e01eb	97c7ab6003443a19bebf93e48bf904c23d20d117	-	-
+1357826329.103069	FFyQvV3oOhRdywbxca	74.125.228.100	192.168.19.10	Cbpwl62JrG57TwmkVi	HTTP	0	MD5,SHA1	text/plain	-	0.016046	-	F	37362	-	0	0	F	-	f5592eabae33f8499d067344f1f42183	142a9875c4bd7e15ce6ac8b5bb181fb29ed08ba5	-	-
+1357826329.20887	FFTTKG3i96q3Xlsg9f	72.8.167.249	192.168.19.10	Cq35Tu4U8BZNarsZVj	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	568	568	0	0	F	-	e797d0d89e485222f201245cb503af71	d722caa9c7f8dbbac15058999ea3992ed0640449	-	-
+1357826329.255162	FQKFM31WfggghImRjh	74.125.228.100	192.168.19.10	Cbpwl62JrG57TwmkVi	HTTP	0	MD5,SHA1	image/gif	-	0.000000	-	F	35	35	0	0	F	-	28d6814f309ea289f847c69cf91194c6	0f4e929dd5bb2564f7ab9c76338e04e292a42ace	-	-
+1357826329.354847	FtsioK1JNLTWBp7IUe	208.131.138.217	192.168.19.10	CFwqgy3hvWG3DKCOy9	HTTP	0	MD5,SHA1	text/html	-	0.000012	-	F	3239	3239	0	0	F	-	9d7bfaa15fde84c92293297f6887feeb	be62ec9f5915900c5c21abb4b518a9eb01a0cd4c	-	-
+1357826329.426431	FIDU802gHLy7sqBGI3	192.204.4.82	192.168.19.10	CVkpFa2JwVTiSbqZyi	HTTP	0	MD5,SHA1	image/png	-	0.000000	-	F	2349	2349	0	0	F	-	ce404e2f475dbf547ee8195dac0eff0a	3eb3390ad49e78b3e872aaf154256496e132e9f3	-	-
+1357826332.509096	FnlxYX2BOs7DxNE2H3	208.131.138.217	192.168.19.10	Cepd8i1Mdqh9HlStb8	HTTP	0	MD5,SHA1	application/x-dosexec	IamNicePNG.exe	0.017378	-	F	13140	122880	0	0	F	-	12e8e97db6e5acde04397864f03c1b53	c36b9f22bfbfb74aa487f1da2de24f3d8c3608eb	-	-
+#close	2014-04-03-10-10-01

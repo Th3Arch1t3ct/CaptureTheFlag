@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-08-57
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1360845656.545994	CgSlEu4UK857tf2mmh	192.168.72.10	1029	4.2.2.3	53	udp	17805	yogathis.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.5.176.20	14377.000000	F
+1360845657.085176	CgSlEu4UK857tf2mmh	192.168.72.10	1029	4.2.2.3	53	udp	36495	www.aanoownsw.tld.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	142.0.45.27	60.000000	F
+1360845674.060213	CV4cfo3HPm6vfS7o25	192.168.72.10	1029	4.2.2.3	53	udp	24207	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,64.4.52.169	547.000000,7.000000	F
+1360845674.233775	CV4cfo3HPm6vfS7o25	192.168.72.10	1029	4.2.2.3	53	udp	33161	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	547.000000,481.000000	F
+1360845687.248525	CEYUuq177an9FvrEY	192.168.72.10	1029	4.2.2.3	53	udp	57736	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.d.akamai.net,107.14.43.137,107.14.43.154	23508.000000,268.000000,5355.000000,9.000000,9.000000	F
+#close	2014-04-03-10-08-58

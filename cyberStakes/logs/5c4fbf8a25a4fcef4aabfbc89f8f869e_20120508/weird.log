@@ -1,0 +1,28 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-27-17
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1336484045.111351	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1336484054.547987	CP9TRE4ixzNj6nOGTj	192.168.39.10	1041	63.217.184.81	80	SYN_after_reset	-	F	bro
+1336484054.550226	CP9TRE4ixzNj6nOGTj	192.168.39.10	1041	63.217.184.81	80	data_after_reset	-	F	bro
+1336484073.412052	Cdwcf83sDair0qcNTg	192.168.39.10	1066	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336484073.413564	CSJfKd249sWS5ZJ9W1	192.168.39.10	1068	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336484073.452061	CdjMrV1POJaQnp2WA	192.168.39.10	1070	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336484073.455155	CZjrCzetQAIyjwqF9	192.168.39.10	1072	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336484073.458861	C6HRih3lJPrtrYhk8	192.168.39.10	1074	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336484073.470034	CtxraKUqLSGpaG886	192.168.39.10	1076	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336484073.48577	Coe1u21R6qwAGIdht7	192.168.39.10	1078	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336484073.498353	COtZir1W66sILIkKR2	192.168.39.10	1080	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336484073.510299	CHYsBJ1XMVJNzZ1Yc4	192.168.39.10	1082	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336484073.512619	CioFwz2rEKCDmd7Jvj	192.168.39.10	1084	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336484073.514073	Clg78S2YtMKpRdSaSk	192.168.39.10	1086	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336484073.522711	C5ICji4X3oq3Hvnzrb	192.168.39.10	1088	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336484074.391539	C2oYTA40G6Yfqei6Oc	192.168.39.10	1090	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336484074.416126	CXRda2eQpVSY1Zqs9	192.168.39.10	1092	94.242.250.64	53	DNS_Conn_count_too_large	-	F	bro
+1336484107.705315	CHsEhG3K1lMlWWORje	192.168.39.10	1242	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1336484107.769857	CqVygE3DhBj2an7hSf	192.168.39.10	1244	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+#close	2014-04-03-10-27-18

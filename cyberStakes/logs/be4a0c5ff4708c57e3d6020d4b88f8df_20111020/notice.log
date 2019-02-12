@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-33-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1319137450.434039	CCQOSE3xwoOXlBof62	192.168.83.10	1069	95.143.198.5	80	FRwhwfA77xBpPSSf	application/x-dosexec	http://fireboardware.co.cc/jkasdh98768sa9hdjkashdi6iyhikusadhi68/w.php?f=31&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 64%  Last seen: 2014-03-24 20:31:14	https://www.virustotal.com/en/search/?query=f189c8f6c2773299937f959703c199963845228e	192.168.83.10	95.143.198.5	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-33-49

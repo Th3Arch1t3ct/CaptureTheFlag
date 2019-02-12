@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-56-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1326926215.489105	CIvtEFAnNIAos5e0i	192.168.15.10	1087	176.31.245.175	80	FztreN2GNXfNyInfcc	application/x-dosexec	http://sssssssss222222222.nl.ai/w.php?f=25&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-01-31 13:57:30	https://www.virustotal.com/en/search/?query=b68a5a8d97a28905e1a465b9aae9b677b3cbb77a	192.168.15.10	176.31.245.175	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1326926215.489105	CVfEEB4k0j1bIdwof1	192.168.15.10	1109	176.31.245.175	80	F4uatk1lgYjI7mszPa	application/x-dosexec	http://sssssssss222222222.nl.ai/w.php?f=25&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-01-31 13:57:30	https://www.virustotal.com/en/search/?query=b68a5a8d97a28905e1a465b9aae9b677b3cbb77a	192.168.15.10	176.31.245.175	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1326926216.50694	CE6O7L1wxYxyJuF8Nc	192.168.15.10	1112	176.31.245.175	80	FSqesnPzzBLVdRyVc	application/x-shockwave-flash	http://sssssssss222222222.nl.ai/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 39%  Last seen: 2012-05-08 01:15:21	https://www.virustotal.com/en/search/?query=6b882671281f472684777fec6903363f50a7d6c2	192.168.15.10	176.31.245.175	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1326926246.048383	CcqJv51UO9F18DfIn1	192.168.15.10	1152	176.31.245.175	80	F02UxE1eO2NvwmjQ6k	application/x-dosexec	http://sssssssss222222222.nl.ai/w.php?f=25&e=0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-01-31 13:57:30	https://www.virustotal.com/en/search/?query=b68a5a8d97a28905e1a465b9aae9b677b3cbb77a	192.168.15.10	176.31.245.175	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-56-34

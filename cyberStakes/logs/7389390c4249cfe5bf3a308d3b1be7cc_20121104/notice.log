@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-09-03
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1352070593.355087	CNlfM72mqs1Y7Tkkkc	192.168.107.10	1039	184.75.240.160	80	Farvv9kJwxU1gylq7	application/jar	http://urfinsuka.info/barracuda.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 25%  Last seen: 2012-10-31 23:28:20	https://www.virustotal.com/en/search/?query=d9a0f9c68cb4c969172b8185cb2b25ddc2ebb876	192.168.107.10	184.75.240.160	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1352070594.572757	CO33ElZmc9ZzPXLXj	192.168.107.10	1041	184.75.240.160	80	Ffc7Rh3OfnsGJBap3k	application/pdf	http://urfinsuka.info/7ed1ad.pdf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 67%  Last seen: 2012-11-03 12:58:03	https://www.virustotal.com/en/search/?query=12c6c14e7bbab9482f007c1f084442f994286bf3	192.168.107.10	184.75.240.160	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-09-03

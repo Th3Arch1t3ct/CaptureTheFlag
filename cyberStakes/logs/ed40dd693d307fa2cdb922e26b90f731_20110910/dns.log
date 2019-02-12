@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-59-38
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1315650843.757825	CaTE422MCscNEyahbd	192.168.113.10	1029	4.2.2.3	53	udp	54414	definedautoworks.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.228.200.116	43177.000000	F
+1315650843.984601	CaTE422MCscNEyahbd	192.168.113.10	1029	4.2.2.3	53	udp	58764	derryastros.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.55.96.106	14400.000000	F
+1315650844.40334	CaTE422MCscNEyahbd	192.168.113.10	1029	4.2.2.3	53	udp	38795	houseofcods.start.tl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.66.184	3600.000000	F
+1315650847.113093	CaTE422MCscNEyahbd	192.168.113.10	1029	4.2.2.3	53	udp	25483	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,24.143.193.16,24.143.193.33	1750.000000,256.000000,10006.000000,18.000000,18.000000	F
+1315650849.967814	CaTE422MCscNEyahbd	192.168.113.10	1029	4.2.2.3	53	udp	14986	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	2649.000000,118.000000	F
+1315650850.189628	CaTE422MCscNEyahbd	192.168.113.10	1029	4.2.2.3	53	udp	1930	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,64.4.52.169	545.000000,418.000000	F
+1315650850.2084	CAyXmuv6MlxzLHc2d	192.168.113.10	1056	4.2.2.3	53	udp	55945	adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	192.150.16.117	2667.000000	F
+1315650857.447006	CaTE422MCscNEyahbd	192.168.113.10	1029	4.2.2.3	53	udp	25480	cedept.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	67.210.98.165	14400.000000	F
+1315650857.692561	CaTE422MCscNEyahbd	192.168.113.10	1029	4.2.2.3	53	udp	136	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.91.105,74.125.91.106,74.125.91.147,74.125.91.99,74.125.91.103,74.125.91.104	29393.000000,59.000000,59.000000,59.000000,59.000000,59.000000,59.000000	F
+1315650874.335017	CFMMZc1puz2z0XG6vf	192.168.113.10	1029	4.2.2.3	53	udp	18055	cpanetworking.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.196.216.30	14400.000000	F
+1315650891.682154	CNOVQJ2hK7R41IFxv8	192.168.113.10	1029	4.2.2.3	53	udp	41606	odminco.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.220.0.23	600.000000	F
+1315650902.248425	CxZWth4uu9V13h0IG2	192.168.113.10	1029	4.2.2.3	53	udp	61572	141007db0921.e-info-update.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	F	0	-	-	T
+#close	2014-04-03-09-59-39

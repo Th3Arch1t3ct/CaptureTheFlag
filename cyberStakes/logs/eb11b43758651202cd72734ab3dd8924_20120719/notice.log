@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-35-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1342701458.436277	C1iVZn4yWQc8Ndtwvd	192.168.79.10	1039	85.17.94.165	80	FNX94m4RBhhD6qwwJ2	application/jar	http://elmundodecerca.in/images/335675160/6ecb4878e9b0f2c5cad05eaa21749abb.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-10-26 06:31:07	https://www.virustotal.com/en/search/?query=a7317e5fce6c923469941f0dc49cf5f55b1c5407	192.168.79.10	85.17.94.165	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1342701458.657417	C1iVZn4yWQc8Ndtwvd	192.168.79.10	1039	85.17.94.165	80	FawsfV3SkFqveVw9j2	application/jar	http://elmundodecerca.in/images/335675160/6ecb4878e9b0f2c5cad05eaa21749abb.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-10-26 06:31:07	https://www.virustotal.com/en/search/?query=a7317e5fce6c923469941f0dc49cf5f55b1c5407	192.168.79.10	85.17.94.165	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1342701458.977318	C1iVZn4yWQc8Ndtwvd	192.168.79.10	1039	85.17.94.165	80	FFCss93poEzn6A5RBg	application/jar	http://elmundodecerca.in/images/335675160/6ecb4878e9b0f2c5cad05eaa21749abb.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-10-26 06:31:07	https://www.virustotal.com/en/search/?query=a7317e5fce6c923469941f0dc49cf5f55b1c5407	192.168.79.10	85.17.94.165	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1342701464.422948	C3lP3F4lH2smn23EDd	192.168.79.10	1040	85.17.94.165	80	Fp6xrbPyfw7kiE17a	application/jar	http://elmundodecerca.in/images/335675160/6ecb4878e9b0f2c5cad05eaa21749abb.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 18%  Last seen: 2012-10-26 06:31:07	https://www.virustotal.com/en/search/?query=a7317e5fce6c923469941f0dc49cf5f55b1c5407	192.168.79.10	85.17.94.165	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-35-48

@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-25-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1355484661.293291	CigG7CRsb6Rn7PuMe	192.168.93.10	1029	4.2.2.3	53	udp	51084	interiorra.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	77.93.218.17	43200.000000	F
+1355484661.810039	CigG7CRsb6Rn7PuMe	192.168.93.10	1029	4.2.2.3	53	udp	40591	qeuhtpy.freewww.biz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	85.143.166.201	31.000000	F
+1355484663.019578	CigG7CRsb6Rn7PuMe	192.168.93.10	1029	4.2.2.3	53	udp	61321	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	2912.000000,300.000000	F
+1355484663.455539	CigG7CRsb6Rn7PuMe	192.168.93.10	1029	4.2.2.3	53	udp	36744	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,64.4.52.169	1264.000000,600.000000	F
+1355484668.364823	CigG7CRsb6Rn7PuMe	192.168.93.10	1029	4.2.2.3	53	udp	13192	allianceprint.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.208.0.126	600.000000	F
+1355484697.215072	C9SStC1Pp8CiEYuuW8	192.168.93.10	1029	4.2.2.3	53	udp	60811	thommies.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.169.145.165	7200.000000	F
+1355484724.779288	CBMB2l457nihx4SRl8	192.168.93.10	1029	4.2.2.3	53	udp	11915	centurionfinancialllc.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.208.156.103	10800.000000	F
+#close	2014-04-03-10-25-01

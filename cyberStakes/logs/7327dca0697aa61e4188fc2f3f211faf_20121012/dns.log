@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-02-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1350002941.746998	CWPyBCWNawwJdTcUg	192.168.51.10	1029	4.2.2.3	53	udp	2443	garfieldisland.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.43.161.173	3574.000000	F
+1350002941.957028	CWPyBCWNawwJdTcUg	192.168.51.10	1029	4.2.2.3	53	udp	55176	ww38.garfieldisland.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	107464.parkingcrew.net,62.116.181.25	3574.000000,3575.000000	F
+1350002943.349978	CWPyBCWNawwJdTcUg	192.168.51.10	1029	4.2.2.3	53	udp	32648	a2.cdnpark.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	dbc0m5mdihyre.cloudfront.net,204.246.175.179,204.246.175.86,204.246.175.219,204.246.175.128,204.246.175.154,204.246.175.190,204.246.175.231,204.246.175.3	330.000000,60.000000,60.000000,60.000000,60.000000,60.000000,60.000000,60.000000,60.000000	F
+1350002945.481947	CWPyBCWNawwJdTcUg	192.168.51.10	1029	4.2.2.3	53	udp	22921	www.dntx.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	46.51.207.181	60.000000	F
+1350002945.895323	CWPyBCWNawwJdTcUg	192.168.51.10	1029	4.2.2.3	53	udp	29582	www.downloadbooster.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	downloadbooster.us,193.169.104.240	86400.000000,86400.000000	F
+1350002947.770376	CWPyBCWNawwJdTcUg	192.168.51.10	1029	4.2.2.3	53	udp	58767	network.adsmarket.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.169.104.1	26635.000000	F
+1350002948.004635	CWPyBCWNawwJdTcUg	192.168.51.10	1029	4.2.2.3	53	udp	25484	www.ultimate-downloads.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	23.23.179.237	30.000000	F
+1350002948.093085	CWPyBCWNawwJdTcUg	192.168.51.10	1029	4.2.2.3	53	udp	4226	install.optimum-installer.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	23.21.149.72	30.000000	F
+#close	2014-04-03-11-02-20

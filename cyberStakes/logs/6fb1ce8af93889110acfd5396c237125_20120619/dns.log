@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-43-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1340149681.355705	C0rQo11gMS1vI4ub35	192.168.79.10	1029	4.2.2.3	53	udp	32395	glamorous-models-girls.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.233.79	28774.000000	F
+1340149681.602839	C0rQo11gMS1vI4ub35	192.168.79.10	1029	4.2.2.3	53	udp	45706	alertingtwentyfour.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.16.89.193	1775.000000	F
+1340149703.455307	CKguovE9WfRGa48Hh	192.168.79.10	1029	4.2.2.3	53	udp	5257	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,63.148.207.127,63.148.207.141	9250.000000,57.000000,5505.000000,5.000000,5.000000	F
+#close	2014-04-03-10-43-08

@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-03-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1384306144.894433	CiyFxiiv7zZLktvz	192.168.35.10	1034	4.2.2.3	53	udp	64654	sahl-tec.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.220.203.57	14400.000000	F
+1384306145.821794	CiyFxiiv7zZLktvz	192.168.35.10	1034	4.2.2.3	53	udp	63629	opesf47urnitu.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.157.192.102	21600.000000	F
+1384306146.498485	CiyFxiiv7zZLktvz	192.168.35.10	1034	4.2.2.3	53	udp	16012	iminal62invest.rr.nu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.157.192.102	21600.000000	F
+1384306146.983424	CiyFxiiv7zZLktvz	192.168.35.10	1034	4.2.2.3	53	udp	29322	www3.jmw7gii3.4pu.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.141.42.88	30.000000	F
+1384306147.458792	CiyFxiiv7zZLktvz	192.168.35.10	1034	4.2.2.3	53	udp	46472	www1.r12wed85.4pu.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	66.199.250.147	30.000000	F
+1384306152.18169	CiyFxiiv7zZLktvz	192.168.35.10	1034	4.2.2.3	53	udp	20871	l.yimg.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fd-geoycs-l.gy1.b.yahoodns.net,ds-fo-anyycs-l.ay1.b.yahoodns.net,206.190.60.138,206.190.60.139	1535.000000,77.000000,289.000000,289.000000	F
+1384306156.63375	CiyFxiiv7zZLktvz	192.168.35.10	1034	4.2.2.3	53	udp	13702	147.250.199.66.in-addr.arpa	1	C_INTERNET	12	PTR	0	NOERROR	F	F	T	T	0	66-199-250-147.reverse.ezzi.net	3600.000000	F
+1384306157.028245	CiyFxiiv7zZLktvz	192.168.35.10	1034	4.2.2.3	53	udp	9605	www2.a9w0lr92.wpbh.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.143.193.76	86400.000000	F
+1384306156.786831	CiyFxiiv7zZLktvz	192.168.35.10	1034	4.2.2.3	53	udp	10118	66-199-250-147.reverse.ezzi.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1384306196.039192	CcWTUPcYZ8ZoXvnr5	192.168.35.10	1034	208.115.221.125	53	udp	9861	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	50.31.74.56	7200.000000	F
+#close	2014-04-03-11-03-08

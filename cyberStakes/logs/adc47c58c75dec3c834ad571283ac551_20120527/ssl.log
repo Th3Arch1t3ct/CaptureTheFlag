@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-34-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1338143861.447218	CXsrgCDse2CuRaf99	192.168.25.10	1038	205.251.215.134	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.cloudfront.net,O=Amazon.com\, Inc.,L=Seattle,ST=Washington,C=US	CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US	1289368800.000000	1384408799.000000	-	-	-	5976df54f8265193d61c127af8b6f710	ok
+1338143861.722546	ChtnyXc66ckh15AGd	192.168.25.10	1043	205.251.215.134	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	7c16134d9178e96ab14e31b68f52798835df18ca98fb591880e7a07f19300817	-	-	-	-	-	-	-	-	-
+1338143861.91596	C4twLy3ISchShNr539	192.168.25.10	1045	50.16.196.178	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.urtak.com,OU=Domain Control Validated,O=*.urtak.com	serialNumber=07969287,CN=Go Daddy Secure Certification Authority,OU=http://certificates.godaddy.com/repository,O=GoDaddy.com\, Inc.,L=Scottsdale,ST=Arizona,C=US	1305158750.000000	1399853150.000000	-	-	-	2e164508c323c57affc305959bcccccc	ok
+1338143865.120822	CSL5Xp43QFcpBEua0g	192.168.25.10	1081	63.215.202.6	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=secure.fastclick.net,OU=Corp,O=ValueClick,L=Westlake Village,ST=California,C=US	CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign\, Inc.,C=US	1301547600.000000	1370926799.000000	-	-	-	1c5d9bbfb9f384397a3458315dd8736c	ok
+1338143865.324462	CKQf722Nohx8cX8yPg	192.168.25.10	1084	74.125.71.156	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.g.doubleclick.net,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1337173618.000000	1368710218.000000	-	-	-	d30c40a85df62d463728b3dc0906953d	ok
+1338143866.001384	CLXjpD14HZYxm9WFNk	192.168.25.10	1086	74.125.71.157	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.g.doubleclick.net,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1337173618.000000	1368710218.000000	-	-	-	d30c40a85df62d463728b3dc0906953d	ok
+#close	2014-04-03-10-35-00

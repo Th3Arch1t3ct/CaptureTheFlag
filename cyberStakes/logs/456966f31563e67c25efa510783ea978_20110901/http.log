@@ -1,0 +1,33 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-13-47
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1314907784.052464	CB7mPX2m0J0K016TQd	192.168.125.10	1030	66.185.20.100	80	1	GET	www.tnttint.net	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	4312	200	OK	-	-	-	(empty)	-	-	-	-	-	FycNa74mAqBjuB2T1e	text/html
+1314907784.169706	CB7mPX2m0J0K016TQd	192.168.125.10	1030	66.185.20.100	80	2	GET	www.tnttint.net	/home_white.gif	http://www.tnttint.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1023	200	OK	-	-	-	(empty)	-	-	-	-	-	FNK6Yw4vCJ2SNv4pp8	image/gif
+1314907784.310049	CaOfRT3Obg7bbdFEF2	192.168.125.10	1031	66.185.20.100	80	1	GET	www.tnttint.net	/gallery1_black.gif	http://www.tnttint.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1169	200	OK	-	-	-	(empty)	-	-	-	-	-	Fn1pUP3MjP1cWCPtJ7	image/gif
+1314907784.31047	CB7mPX2m0J0K016TQd	192.168.125.10	1030	66.185.20.100	80	3	GET	www.tnttint.net	/gallery2_black.gif	http://www.tnttint.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1179	200	OK	-	-	-	(empty)	-	-	-	-	-	FCA7gU2okOgx90CAL6	image/gif
+1314907784.357615	CaOfRT3Obg7bbdFEF2	192.168.125.10	1031	66.185.20.100	80	2	GET	www.tnttint.net	/pricing_black.gif	http://www.tnttint.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1109	200	OK	-	-	-	(empty)	-	-	-	-	-	FHvywZ3apXcvRFEOl5	image/gif
+1314907784.357887	CB7mPX2m0J0K016TQd	192.168.125.10	1030	66.185.20.100	80	4	GET	www.tnttint.net	/film_care_black.gif	http://www.tnttint.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1176	200	OK	-	-	-	(empty)	-	-	-	-	-	FO5Tri1tOvEkeaWHEi	image/gif
+1314907784.415247	CaOfRT3Obg7bbdFEF2	192.168.125.10	1031	66.185.20.100	80	3	GET	www.tnttint.net	/contact_black.gif	http://www.tnttint.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1135	200	OK	-	-	-	(empty)	-	-	-	-	-	FK0GpU2ZsaufHwkZod	image/gif
+1314907784.419376	CB7mPX2m0J0K016TQd	192.168.125.10	1030	66.185.20.100	80	5	GET	www.tnttint.net	/TNTTint_logo.gif	http://www.tnttint.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	6921	200	OK	-	-	-	(empty)	-	-	-	-	-	FcZ0Bp1fYaf375R02i	image/gif
+1314907784.46778	CaOfRT3Obg7bbdFEF2	192.168.125.10	1031	66.185.20.100	80	4	GET	www.tnttint.net	/Black_Ferrari.jpg	http://www.tnttint.net/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	27543	200	OK	-	-	-	(empty)	-	-	-	-	-	FRSlMJ5hSbNpCaF92	image/jpeg
+1314907785.447568	CFZmFI2M6B8oWjym78	192.168.125.10	1033	188.229.88.82	80	1	GET	3169146962	/a.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	2245	200	OK	-	-	-	(empty)	-	-	-	-	-	F9zEjE3CuBQRCWB9pd	application/x-java-applet
+1314907785.44942	C3u0OX1YJbLTredLij	192.168.125.10	1032	188.229.88.82	80	1	GET	3169146962	/a.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	2245	200	OK	-	-	-	(empty)	-	-	-	-	-	FBIt024wYq0qy8mqD3	application/x-java-applet
+1314907786.38455	CFZmFI2M6B8oWjym78	192.168.125.10	1033	188.229.88.82	80	2	GET	3169146962	/options.class	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	3394	200	OK	-	-	-	(empty)	-	-	-	-	-	FR7o0c2RJWCLSM9jo9	application/x-java-applet
+1314907786.757067	C2mTb31eh5MhszEYTk	192.168.125.10	1038	188.229.88.82	80	1	GET	3169146962	/g.gif	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	40960	200	OK	-	-	-	(empty)	-	-	-	-	-	FMNbbGITLsMXDmTO9	application/x-dosexec
+1314907786.764417	CHacut2WGJpdB6oO51	192.168.125.10	1039	188.229.88.82	80	1	GET	3169146962	/g.gif	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	40960	200	OK	-	-	-	(empty)	-	-	-	-	-	FMclcR2dcQJX2Dq8s4	application/x-dosexec
+1314907791.233748	CXgdgd2SlSjb3FWFmf	192.168.125.10	1040	188.229.88.82	80	1	GET	3169146962	/crossdomain.xml	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	169	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FBavzKF0hjqY1CAWc	text/html
+1314907793.592706	CoPkwD3GHjLPrxFy0h	192.168.125.10	1042	195.184.86.54	80	1	GET	net.com	/3/1.php?q=1	-	Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.10) Gecko/20100914 Firefox/3.6.10	0	100352	200	OK	-	-	-	(empty)	-	-	-	-	-	FvCUSfiouSYsEJpF3	binary
+1314907795.269615	CoPkwD3GHjLPrxFy0h	192.168.125.10	1042	195.184.86.54	80	2	GET	net.com	/3/1.php?q=1&ok=1	-	Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.10) Gecko/20100914 Firefox/3.6.10	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1314907797.861263	CoPkwD3GHjLPrxFy0h	192.168.125.10	1042	195.184.86.54	80	3	GET	net.com	/3/1.php?q=2	-	Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.10) Gecko/20100914 Firefox/3.6.10	0	70144	200	OK	-	-	-	(empty)	-	-	-	-	-	FtuT194pCs1z9yF0u1	binary
+1314907798.559463	CoPkwD3GHjLPrxFy0h	192.168.125.10	1042	195.184.86.54	80	4	GET	net.com	/3/1.php?q=2&ok=1	-	Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.10) Gecko/20100914 Firefox/3.6.10	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1314907799.891317	CoPkwD3GHjLPrxFy0h	192.168.125.10	1042	195.184.86.54	80	5	GET	net.com	/3/1.php?q=3	-	Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.10) Gecko/20100914 Firefox/3.6.10	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1314907800.201323	CoPkwD3GHjLPrxFy0h	192.168.125.10	1042	195.184.86.54	80	6	GET	net.com	/3/1.php?q=4	-	Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.10) Gecko/20100914 Firefox/3.6.10	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1314907800.509268	CoPkwD3GHjLPrxFy0h	192.168.125.10	1042	195.184.86.54	80	7	GET	net.com	/3/1.php?q=5	-	Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.10) Gecko/20100914 Firefox/3.6.10	0	0	404	Not Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1314907849.624746	Cou0DN3VRyQhLJ4Pt	192.168.125.10	1047	188.138.82.222	80	1	POST	87.75.44.12	/stat1.php	-	Mozilla/4.0 (compatible. MSIE 8.0. Windows NT 5.1)	129	0	200	OK	-	-	-	(empty)	-	-	-	FB54oW2ZMZtY3KBOkf	binary	-	-
+1314907802.464133	CfS9pg3URkZnOLjCka	192.168.125.10	1043	220.112.36.51	80	1	POST	soflx.ru	/u.php?&&&&&	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en)	125	0	-	-	-	-	-	(empty)	-	-	-	F4IGo44BjQQQegQx6f	text/plain	-	-
+#close	2014-04-03-10-13-47

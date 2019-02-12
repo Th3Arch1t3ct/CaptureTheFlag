@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-16-28
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1312643289.324054	CQWLnQ3CbK6iggbvTg	192.168.78.10	1044	91.226.212.105	80	FTJMl53h7Kx2L1gU69	application/x-dosexec	http://live.yotengounsueno.info/d.php?f=41&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 64%  Last seen: 2011-08-17 05:31:10	https://www.virustotal.com/en/search/?query=6b28012931f135e941fd3818d2ef528f5fc775a7	192.168.78.10	91.226.212.105	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1312643299.144176	CQWLnQ3CbK6iggbvTg	192.168.78.10	1044	91.226.212.105	80	FoFWvD2WAASQFljCX5	application/x-dosexec	http://live.yotengounsueno.info/d.php?f=41&e=6	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 64%  Last seen: 2011-08-17 05:31:10	https://www.virustotal.com/en/search/?query=6b28012931f135e941fd3818d2ef528f5fc775a7	192.168.78.10	91.226.212.105	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1312643299.437049	CXtzYhr7VLg4y0ste	192.168.78.10	1047	91.193.72.70	80	F9lwMu2oGuKrCx1Lee	application/x-java-applet	http://1539393606/GSearch.class	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 45%  Last seen: 2012-07-15 16:31:04	https://www.virustotal.com/en/search/?query=2eabf000aa6c55acd3e3950da4f6d5e0cb4cd242	192.168.78.10	91.193.72.70	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1312643300.091631	CP7fQ7wbdKg2YR7k2	192.168.78.10	1048	91.226.212.105	80	FsjhR02HiiWI6LCJR1	application/x-dosexec	http://live.yotengounsueno.info/d.php?f=41&e=0	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 64%  Last seen: 2011-08-17 05:31:10	https://www.virustotal.com/en/search/?query=6b28012931f135e941fd3818d2ef528f5fc775a7	192.168.78.10	91.226.212.105	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1312643303.035536	CicJWj3FPLV3GpZMy1	192.168.78.10	1049	91.226.212.105	80	FdqTgW3jLEXW7nBRPl	application/x-dosexec	http://live.yotengounsueno.info/d.php?f=41&e=1	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 64%  Last seen: 2011-08-17 05:31:10	https://www.virustotal.com/en/search/?query=6b28012931f135e941fd3818d2ef528f5fc775a7	192.168.78.10	91.226.212.105	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-16-28

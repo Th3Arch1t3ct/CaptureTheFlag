@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-39-43
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1313500165.228031	Cil1vmIfiqln256zi	192.168.15.10	1029	4.2.2.3	53	udp	28809	freshcoatnorthaustin.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	174.122.2.163	14374.000000	F
+1313500165.290612	Cil1vmIfiqln256zi	192.168.15.10	1029	4.2.2.3	53	udp	7305	www.freshcoatpainters.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	freshcoatpainters.com,174.120.201.2	3574.000000,3575.000000	F
+1313500165.508049	Cil1vmIfiqln256zi	192.168.15.10	1029	4.2.2.3	53	udp	3210	stormnouc.cx.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.211.37.163	43200.000000	F
+1313500173.95884	Cil1vmIfiqln256zi	192.168.15.10	1029	4.2.2.3	53	udp	64652	ultrainvisible.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	184.82.193.26	14400.000000	F
+1313500203.915869	Cq3wkh4PJXAwwC5c8k	192.168.15.10	1029	4.2.2.3	53	udp	48781	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.93.104,74.125.93.105,74.125.93.106,74.125.93.147,74.125.93.99,74.125.93.103	16760.000000,81.000000,81.000000,81.000000,81.000000,81.000000,81.000000	F
+#close	2014-04-03-10-39-43

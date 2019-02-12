@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-09-55-19
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1314387310.92882	CCGQTF3Z75lM6F96Cj	192.168.2.10	1109	212.118.48.212	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.webmoney.ru,OU=Secure Link SSL Wildcard,OU=WebMoney Transfer Technical Support,O=CJSC Computing Forces,street=71/11 Sadovnitcheskaya st.,L=Moscow,ST=RU,postalCode=115035,C=RU	CN=Network Solutions Certificate Authority,O=Network Solutions L.L.C.,C=US	1268974800.000000	1397969999.000000	-	-	-	0f2bc42b9f4fbbc004e29e237c639b83	ok
+#close	2014-04-03-09-55-19

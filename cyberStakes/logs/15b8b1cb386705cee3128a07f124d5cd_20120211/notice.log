@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-24-21
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1328999054.986828	CMAlDN1d8V69X8Sx8l	192.168.39.10	1042	78.159.105.121	80	FmLda747ddPb8v0QR6	application/x-dosexec	http://noptom.info/?3ffa1c3b6e88908b9fc7d7fa541c944e	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-02-14 13:50:11	https://www.virustotal.com/en/search/?query=c3aefc05153b651fa8ee5407a8af26ddf52dfcb8	192.168.39.10	78.159.105.121	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1328999054.986828	CRWlFc3NbtLvhiz8ng	192.168.39.10	1047	78.159.105.121	80	FP3dDC4ln6Gwn0kbja	application/x-dosexec	http://noptom.info/?99ec08c9fbbcfe423c49da4b00d1607c	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 33%  Last seen: 2012-02-14 13:50:11	https://www.virustotal.com/en/search/?query=c3aefc05153b651fa8ee5407a8af26ddf52dfcb8	192.168.39.10	78.159.105.121	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-24-21

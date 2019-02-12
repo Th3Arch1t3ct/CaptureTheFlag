@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-44-47
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1337798327.092848	C37UvX24g5KswfIzKl	192.168.62.10	1055	173.204.123.12	443	SSLv3	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=*.inad.co,OU=Domain Control Validated,O=*.inad.co	serialNumber=07969287,CN=Go Daddy Secure Certification Authority,OU=http://certificates.godaddy.com/repository,O=GoDaddy.com\, Inc.,L=Scottsdale,ST=Arizona,C=US	1302033241.000000	1365191641.000000	-	-	-	267a7015732f456af7a1ad8a97f27051	ok
+1337798327.740857	C8DPDsrXkUsGAaiZ5	192.168.62.10	1057	74.125.71.104	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=www.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Thawte SGC CA,O=Thawte Consulting (Pty) Ltd.,C=ZA	1319605200.000000	1380603599.000000	-	-	-	7d7c837f0a8d7508388b555552380c25	ok
+1337798328.380238	CjxNmg2Lit5vgeL7k2	192.168.62.10	1058	74.125.71.157	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.g.doubleclick.net,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1336635980.000000	1368172580.000000	-	-	-	a9fc6b0a7ea0c92f4bcef89f31cccccc	ok
+#close	2014-04-03-10-44-47

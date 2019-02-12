@@ -1,0 +1,41 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-47-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1328682581.714111	CTTPmC3WSshgYFsLhl	192.168.32.10	1029	4.2.2.3	53	udp	8845	servikey.cl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.170.163.165	43178.000000	F
+1328682581.955951	CTTPmC3WSshgYFsLhl	192.168.32.10	1029	4.2.2.3	53	udp	37261	sexfunxcash.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.190.98.79	3600.000000	F
+1328682582.054337	CTTPmC3WSshgYFsLhl	192.168.32.10	1029	4.2.2.3	53	udp	12174	www.google-analytics.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www-google-analytics.l.google.com,74.125.45.101,74.125.45.102,74.125.45.113,74.125.45.138,74.125.45.139,74.125.45.100	39624.000000,190.000000,190.000000,190.000000,190.000000,190.000000,190.000000	F
+1328682582.056341	CTTPmC3WSshgYFsLhl	192.168.32.10	1029	4.2.2.3	53	udp	32399	analytics.hosting24.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.170.160.65	2207.000000	F
+1328682613.101419	CFiIUO3QrgQe9ds5tj	192.168.32.10	1045	4.2.2.3	53	udp	8072	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,24.143.193.16,24.143.193.33	23680.000000,273.000000,1832.000000,7.000000,7.000000	F
+1328682601.91183	Cv21AR1GtyM7vjEAw7	192.168.32.10	1029	4.2.2.3	53	udp	20872	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328682604.015918	Cv21AR1GtyM7vjEAw7	192.168.32.10	1029	4.2.2.3	53	udp	20872	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328682606.047298	Cv21AR1GtyM7vjEAw7	192.168.32.10	1029	4.2.2.3	53	udp	20872	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328682610.14103	Cv21AR1GtyM7vjEAw7	192.168.32.10	1029	4.2.2.3	53	udp	20872	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328682603.023399	CvHK6By0XMqsyEUQb	192.168.32.10	1029	4.2.2.5	53	udp	20872	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328682606.047657	CvHK6By0XMqsyEUQb	192.168.32.10	1029	4.2.2.5	53	udp	20872	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328682610.141166	CvHK6By0XMqsyEUQb	192.168.32.10	1029	4.2.2.5	53	udp	20872	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328682631.913112	CtaVAb1qOYOJxZ07Fd	192.168.32.10	1029	4.2.2.3	53	udp	20872	-	-	-	-	-	2	SERVFAIL	F	F	F	F	0	-	-	T
+1328682633.025927	CiBhCf4jGBLftBQLJi	192.168.32.10	1029	4.2.2.5	53	udp	20872	-	-	-	-	-	2	SERVFAIL	F	F	F	F	0	-	-	T
+1328682638.926851	CFiIUO3QrgQe9ds5tj	192.168.32.10	1045	4.2.2.3	53	udp	7051	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328682641.923104	CFiIUO3QrgQe9ds5tj	192.168.32.10	1045	4.2.2.3	53	udp	7051	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328682645.937869	CFiIUO3QrgQe9ds5tj	192.168.32.10	1045	4.2.2.3	53	udp	7051	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328682638.926851	CFiIUO3QrgQe9ds5tj	192.168.32.10	1045	4.2.2.3	53	udp	7051	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328682641.923104	CFiIUO3QrgQe9ds5tj	192.168.32.10	1045	4.2.2.3	53	udp	7051	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328682645.937869	CFiIUO3QrgQe9ds5tj	192.168.32.10	1045	4.2.2.3	53	udp	7051	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328682617.376596	CFiIUO3QrgQe9ds5tj	192.168.32.10	1045	4.2.2.3	53	udp	58505	usagetorrenen.com	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1328682619.625324	CFiIUO3QrgQe9ds5tj	192.168.32.10	1045	4.2.2.3	53	udp	58505	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328682621.788697	CFiIUO3QrgQe9ds5tj	192.168.32.10	1045	4.2.2.3	53	udp	58505	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328682625.829562	CFiIUO3QrgQe9ds5tj	192.168.32.10	1045	4.2.2.3	53	udp	58505	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328682637.924231	CiqggX3GZ1YsBheLQ9	192.168.32.10	1045	4.2.2.5	53	udp	7051	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328682639.924275	CiqggX3GZ1YsBheLQ9	192.168.32.10	1045	4.2.2.5	53	udp	7051	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328682641.923285	CiqggX3GZ1YsBheLQ9	192.168.32.10	1045	4.2.2.5	53	udp	7051	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328682645.938049	CiqggX3GZ1YsBheLQ9	192.168.32.10	1045	4.2.2.5	53	udp	7051	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328682618.458019	CiqggX3GZ1YsBheLQ9	192.168.32.10	1045	4.2.2.5	53	udp	58505	usagetorrenen.com	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1328682621.788835	CiqggX3GZ1YsBheLQ9	192.168.32.10	1045	4.2.2.5	53	udp	58505	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328682625.829702	CiqggX3GZ1YsBheLQ9	192.168.32.10	1045	4.2.2.5	53	udp	58505	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1328682645.938049	CiqggX3GZ1YsBheLQ9	192.168.32.10	1045	4.2.2.5	53	udp	7051	usagetorrenen.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-47-06

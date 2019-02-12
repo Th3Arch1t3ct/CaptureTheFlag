@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-20-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1318453361.655675	C2ytEm2dnjFdY9xBJ6	192.168.100.10	1034	95.211.160.73	80	F9qoht2Ob2Vm9rn6hl	application/x-dosexec	http://m-e.crossfitharlem.net/b/1/8fa651f9e1731cefea16e21c60cbb539c09cb862e4dd143a1f582f134f9c8302	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 13%  Last seen: 2011-10-13 07:22:00	https://www.virustotal.com/en/search/?query=af126be45a53c08c2f256a016c073c90840d13e9	192.168.100.10	95.211.160.73	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1318453379.231442	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.100.10 scanned at least 25 unique hosts on port 21810/tcp in 1m6s	remote	192.168.100.10	-	21810	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-20-46

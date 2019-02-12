@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-55-19
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1368658681.867369	CoYUjDW8CiYMk1i0d	192.168.36.10	1029	4.2.2.3	53	udp	34450	mp3raidsearch.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	109.206.178.79	4.000000	F
+1368658682.651808	CoYUjDW8CiYMk1i0d	192.168.36.10	1029	4.2.2.3	53	udp	3986	fxnmt.2betaniko.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.212.202.188	30.000000	F
+1368658690.915608	CoYUjDW8CiYMk1i0d	192.168.36.10	1029	4.2.2.3	53	udp	52113	ighklplong.secinfobank.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	108.170.35.126	86400.000000	F
+#close	2014-04-03-10-55-19

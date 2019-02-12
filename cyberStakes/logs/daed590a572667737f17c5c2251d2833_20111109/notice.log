@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-09-56-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1320836123.505344	CPgfbxq4qo1T5KFY7	192.168.39.10	1046	89.208.34.116	80	Fa4uik4R3HSzgXeY6h	application/x-dosexec	http://connected-hed.com/u.php?f=29&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2011-12-01 17:31:12	https://www.virustotal.com/en/search/?query=b6c26833b9dafbe3173406d878ca436a29425be9	192.168.39.10	89.208.34.116	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1320836123.505344	CPgfbxq4qo1T5KFY7	192.168.39.10	1046	89.208.34.116	80	FSeSQQ2EcVEXpbvY4d	application/x-dosexec	http://connected-hed.com/u.php?f=29&e=6	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2011-12-01 17:31:12	https://www.virustotal.com/en/search/?query=b6c26833b9dafbe3173406d878ca436a29425be9	192.168.39.10	89.208.34.116	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1320836151.375527	CPgfbxq4qo1T5KFY7	192.168.39.10	1046	89.208.34.116	80	FjHl4b8DZh9ftMhRe	application/x-shockwave-flash	http://connected-hed.com/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 26%  Last seen: 2011-11-14 01:21:00	https://www.virustotal.com/en/search/?query=dc592aca72b525b0783064ff77317a0836f235f8	192.168.39.10	89.208.34.116	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-09-56-37

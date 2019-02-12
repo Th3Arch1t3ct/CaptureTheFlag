@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-58-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1330659014.061696	Cr59I44tpdJ4yzCEMf	192.168.107.10	1029	4.2.2.3	53	udp	53135	nandupress.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.209.212.5	14376.000000	F
+1330659014.198677	Cr59I44tpdJ4yzCEMf	192.168.107.10	1029	4.2.2.3	53	udp	35471	www.paypalobjects.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.paypalobjects.com.akadns.net,www.paypalobjects.com.edgekey.net,e4517.g.akamaiedge.net,173.222.214.85	89.000000,89.000000,89.000000,20.000000	F
+#close	2014-04-03-09-58-44

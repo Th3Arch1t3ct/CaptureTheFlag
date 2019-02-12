@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-11-15-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1357682638.284075	CB5mjo3lpVmA0fxIlk	192.168.105.10	1044	5.135.67.198	40621	FJ9Q0F3j74xW5MPYY7	application/jar	http://natural9.de:40621/tcp/images/f9b19ff7a2197fc3a569e443ea916eba/1357682540/939942263de035e14faca80d18519e87.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2013-02-28 07:46:03	https://www.virustotal.com/en/search/?query=20728db09392ca2681cc3faa3356e659e61df395	192.168.105.10	5.135.67.198	40621	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1357682638.284075	CB5mjo3lpVmA0fxIlk	192.168.105.10	1044	5.135.67.198	40621	FzlSoLCKg52f7bTie	application/jar	http://natural9.de:40621/tcp/images/f9b19ff7a2197fc3a569e443ea916eba/1357682540/939942263de035e14faca80d18519e87.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2013-02-28 07:46:03	https://www.virustotal.com/en/search/?query=20728db09392ca2681cc3faa3356e659e61df395	192.168.105.10	5.135.67.198	40621	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1357682638.284075	CB5mjo3lpVmA0fxIlk	192.168.105.10	1044	5.135.67.198	40621	F5Ieo8A5KFgmsmXbf	application/jar	http://natural9.de:40621/tcp/images/f9b19ff7a2197fc3a569e443ea916eba/1357682540/939942263de035e14faca80d18519e87.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2013-02-28 07:46:03	https://www.virustotal.com/en/search/?query=20728db09392ca2681cc3faa3356e659e61df395	192.168.105.10	5.135.67.198	40621	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1357682639.747092	CB5mjo3lpVmA0fxIlk	192.168.105.10	1044	5.135.67.198	40621	FdQ0XE1WHlipeHDG8f	application/jar	http://natural9.de:40621/tcp/images/f9b19ff7a2197fc3a569e443ea916eba/1357682540/939942263de035e14faca80d18519e87.jar	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2013-02-28 07:46:03	https://www.virustotal.com/en/search/?query=20728db09392ca2681cc3faa3356e659e61df395	192.168.105.10	5.135.67.198	40621	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-11-15-50

@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-57-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1338541538.808498	CH5O5DHiwrhWELXne	192.168.99.10	1034	91.229.91.148	80	FmRSfQ3Mq17GvZB882	application/x-dosexec	http://romeoalivemay.net/l/r.php?f=c5826&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-06-03 14:34:47	https://www.virustotal.com/en/search/?query=f6e5b308e95ed316bc73cb9f4ca2e6628c2ad8d6	192.168.99.10	91.229.91.148	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1338541541.341786	CH5O5DHiwrhWELXne	192.168.99.10	1034	91.229.91.148	80	FcTfbj2QixtlGXKSU8	application/x-dosexec	http://romeoalivemay.net/l/r.php?f=d4fc7&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2012-07-01 17:47:10	https://www.virustotal.com/en/search/?query=1f7d22399758d0cbf6903c485f585292f4088d6a	192.168.99.10	91.229.91.148	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1338541563.831747	CN5zjn3IuxrIHFapH6	192.168.99.10	1039	91.229.91.148	80	FbYFSk4scD21g9Qgi6	application/x-shockwave-flash	http://romeoalivemay.net/l/data/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 75%  Last seen: 2012-09-14 14:05:04	https://www.virustotal.com/en/search/?query=27474f210893b69a5204dcafb6d9fc12b743dc1f	192.168.99.10	91.229.91.148	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1338541593.513211	CH5O5DHiwrhWELXne	192.168.99.10	1034	91.229.91.148	80	F06Cfh4EOqQfi7kcHb	application/x-dosexec	http://romeoalivemay.net/l/r.php?f=c5826&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 30%  Last seen: 2012-06-03 14:34:47	https://www.virustotal.com/en/search/?query=f6e5b308e95ed316bc73cb9f4ca2e6628c2ad8d6	192.168.99.10	91.229.91.148	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1338541598.425716	CN5zjn3IuxrIHFapH6	192.168.99.10	1039	91.229.91.148	80	FSR0av2QHfq9RaeQk7	application/x-dosexec	http://romeoalivemay.net/l/r.php?f=d4fc7&e=4	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2012-07-01 17:47:10	https://www.virustotal.com/en/search/?query=1f7d22399758d0cbf6903c485f585292f4088d6a	192.168.99.10	91.229.91.148	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-57-51

@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-32-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1359929010.775082	CWZRU92P9wJJhLgRwk	192.168.128.10	1029	4.2.2.3	53	udp	18317	groendoen.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.211.72.41	500.000000	F
+1359929011.166474	CWZRU92P9wJJhLgRwk	192.168.128.10	1029	4.2.2.3	53	udp	60812	herofreemanja.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.108.229.188	3600.000000	F
+1359929011.556346	CWZRU92P9wJJhLgRwk	192.168.128.10	1029	4.2.2.3	53	udp	48014	conversation.shuttersrin.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.229.56.151	600.000000	F
+1359929025.215385	CLOoi04sg1X4PH2js2	192.168.128.10	1029	4.2.2.3	53	udp	3209	boxtralsurvisv.pl	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	161.246.60.27,115.153.226.65,63.247.78.62,99.169.151.134,64.135.53.136	300.000000,300.000000,300.000000,300.000000,300.000000	F
+1359929055.677072	C5tfrw3imfWNDs0LM7	192.168.128.10	1029	4.2.2.3	53	udp	32648	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.125.130.99,74.125.130.147,74.125.130.104,74.125.130.103,74.125.130.105,74.125.130.106	151.000000,151.000000,151.000000,151.000000,151.000000,151.000000	F
+1359929055.719386	C5tfrw3imfWNDs0LM7	192.168.128.10	1029	4.2.2.3	53	udp	36490	monitoreddream.su	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	63.247.78.62,115.153.226.65,161.246.60.27	300.000000,300.000000,300.000000	F
+#close	2014-04-03-10-32-49

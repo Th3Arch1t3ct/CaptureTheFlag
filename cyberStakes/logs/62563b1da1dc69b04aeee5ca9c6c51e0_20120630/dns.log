@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-55-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1341066171.774071	CkpAbtw1LbnQBhdJ	192.168.31.10	1029	4.2.2.3	53	udp	34450	pendoora.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.142.141.60	3573.000000	F
+1341066173.040163	CkpAbtw1LbnQBhdJ	192.168.31.10	1029	4.2.2.3	53	udp	14994	cabaniaseleden.com.ar	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	200.58.122.104	14400.000000	F
+1341066173.780644	CkpAbtw1LbnQBhdJ	192.168.31.10	1029	4.2.2.3	53	udp	42640	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,64.72.65.214	15857.000000,196.000000,15861.000000,17.000000	F
+1341066208.85836	CLW6ePTpqAcoBMMd5	192.168.31.10	1042	8.8.8.8	53	udp	13107	promos.fling.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.91.207.10	85.000000	F
+1341066209.381346	Cde6Y14iTcy5PFTcWi	192.168.31.10	1045	66.85.130.234	53	udp	41310	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1341066209.386363	CmpOaL3gO5ZrnGrYU1	192.168.31.10	1047	66.85.130.234	53	udp	41310	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1341066209.429295	CwYpB8LKWBu7COhja	192.168.31.10	1049	66.85.130.234	53	udp	41310	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1341066209.431465	CIrC9W1dNHnFf2NXlf	192.168.31.10	1051	66.85.130.234	53	udp	41310	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1341066209.433343	C8dscZ2KJdTimukTxb	192.168.31.10	1053	66.85.130.234	53	udp	41310	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1341066210.277553	Cb2cgM2ciHv14rUhA6	192.168.31.10	1057	66.85.130.234	53	udp	41310	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1341066210.486103	C9lg8I1FLLKAmSC203	192.168.31.10	1060	66.85.130.234	53	udp	41310	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1341066210.521363	ClWV9WFDsAsXuwcWj	192.168.31.10	1062	66.85.130.234	53	udp	41310	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1341066220.40065	C8PVFh1n8P0rTDyTx7	192.168.31.10	1067	4.2.2.3	53	udp	44175	11tg5h3.cdn107.advertisingnetetc.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.131.140.158	3600.000000	F
+1341066222.839528	CSeHMY38d1g2qjgBc	192.168.31.10	1029	4.2.2.3	53	udp	17047	secondfatman.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.193.12.27	600.000000	F
+1341066233.703844	Cov6EZbXIz1eCKAMj	192.168.31.10	1073	8.8.8.8	53	udp	13107	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.224.146,74.125.224.147,74.125.224.144,74.125.224.148,74.125.224.145	86399.000000,299.000000,299.000000,299.000000,299.000000,299.000000	F
+#close	2014-04-03-09-55-56

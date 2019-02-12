@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-35-17
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1374581352.309535	CGdo7k1wbOfKRTo9vd	192.168.62.10	1042	184.86.23.73	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=images.bizrate.com,OU=Netops,O=Shopzilla\, Inc,L=Los angeles,ST=CALIFORNIA,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1366309895.000000	1397845895.000000	-	-	-	3a630d6d8277e8b67ea1a71088c5f81c	ok
+1374581352.377286	ChblrW2AUnhIIWSKkl	192.168.62.10	1047	74.203.60.69	443	TLSv10	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=adserve.shopzilla.com,OU=Domain Control Validated,O=adserve.shopzilla.com	serialNumber=07969287,CN=Go Daddy Secure Certification Authority,OU=http://certificates.godaddy.com/repository,O=GoDaddy.com\, Inc.,L=Scottsdale,ST=Arizona,C=US	1296715500.000000	1454481900.000000	-	-	-	7d5d3c5f8b0d35555555b91035082e45	ok
+1374581352.393719	CircLntGYqWkoHyEg	192.168.62.10	1054	74.203.60.69	443	TLSv10	TLS_RSA_WITH_3DES_EDE_CBC_SHA	-	-	CN=adserve.shopzilla.com,OU=Domain Control Validated,O=adserve.shopzilla.com	serialNumber=07969287,CN=Go Daddy Secure Certification Authority,OU=http://certificates.godaddy.com/repository,O=GoDaddy.com\, Inc.,L=Scottsdale,ST=Arizona,C=US	1296715500.000000	1454481900.000000	-	-	-	7d5d3c5f8b0d35555555b91035082e45	ok
+1374581358.302217	CNwtQk2eIcqxGsaF8l	192.168.62.10	1146	74.125.224.193	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1373637630.000000	1383281999.000000	-	-	-	726e408b9b0855cc789ae3b5fb13859c	ok
+1374581369.339066	CE8MgG3oMxd9Pv8Fp2	192.168.62.10	1164	184.85.162.110	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=s-static.ak.facebook.com,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,ST=California,C=US	CN=Cybertrust Public SureServer SV CA,O=Cybertrust Inc	1363150837.000000	1394686837.000000	-	-	-	8072f767b362050ff6b5555555555554	ok
+1374581369.906702	CmvEOXULfYxx1rnz	192.168.62.10	1170	74.125.224.193	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	51cca220a0357e20c8bdf579e42bef8796f24cb63197d30a231b931fca5f2451	-	-	-	-	-	-	-	-	-
+1374581369.927671	Cqf0mn1G7zySN4UpI1	192.168.62.10	1171	74.125.224.193	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	51cca220a0357e20c8bdf579e42bef8796f24cb63197d30a231b931fca5f2451	-	-	-	-	-	-	-	-	-
+1374581369.965138	CzWbfJ1uQrhwYC8WXb	192.168.62.10	1172	74.125.224.193	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	51cca220a0357e20c8bdf579e42bef8796f24cb63197d30a231b931fca5f2451	-	-	-	-	-	-	-	-	-
+1374581370.04835	CHgaRD3iFvzetICfAd	192.168.62.10	1173	74.125.224.193	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	51cca220a0357e20c8bdf579e42bef8796f24cb63197d30a231b931fca5f2451	-	-	-	-	-	-	-	-	-
+1374581370.270876	C2XKmS3AzRhg9sUfca	192.168.62.10	1174	74.125.224.239	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1373637541.000000	1383281999.000000	-	-	-	48da016aaaa5087edde929222d7eaaaa	ok
+1374581370.666906	CFb0l51GXoSfBysiy8	192.168.62.10	1175	74.125.224.193	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	51cca220a0357e20c8bdf579e42bef8796f24cb63197d30a231b931fca5f2451	-	-	-	-	-	-	-	-	-
+#close	2014-04-03-10-35-17

@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-04-03-10-10-18
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1358056874.42639	FhK0SgDkYw0A6HUya	93.170.52.21	192.168.26.10	CAx0A61zsjFDeDcXIf	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	1126	-	0	0	F	-	ed5bc7c17307cf12ce42961bcbb68f9e	d05ce30655f422164b2f7e8798754191b795c8bf	-	-
+1358056874.714495	F4GNhe4y14EShYxdI	74.125.229.238	192.168.26.10	CJhcuLcx5OO7wy0Ki	HTTP	0	SHA1,MD5	text/plain	-	0.015484	-	F	37362	-	0	0	F	-	f5592eabae33f8499d067344f1f42183	142a9875c4bd7e15ce6ac8b5bb181fb29ed08ba5	-	-
+1358056874.818805	FUVaNS3KeYumVaNiK7	72.8.167.249	192.168.26.10	CKQ91g1X8iNICsPP32	HTTP	0	SHA1,MD5	text/html	-	0.000000	-	F	568	568	0	0	F	-	e797d0d89e485222f201245cb503af71	d722caa9c7f8dbbac15058999ea3992ed0640449	-	-
+1358056874.834032	FFIS9Z3iLwfpt45Tml	74.125.229.238	192.168.26.10	CJhcuLcx5OO7wy0Ki	HTTP	0	SHA1,MD5	image/gif	-	0.000000	-	F	35	35	0	0	F	-	28d6814f309ea289f847c69cf91194c6	0f4e929dd5bb2564f7ab9c76338e04e292a42ace	-	-
+1358056874.93245	FN7h4O2pm2tpnBkwbe	208.131.138.217	192.168.26.10	CYhTgt2wj2JAnjFM4a	HTTP	0	SHA1,MD5	text/html	-	0.000013	-	F	3239	3239	0	0	F	-	9d7bfaa15fde84c92293297f6887feeb	be62ec9f5915900c5c21abb4b518a9eb01a0cd4c	-	-
+1358056874.978676	FMrpiP3GotOZT16NBg	69.31.132.64	192.168.26.10	CJcz2e3l7JHpFISjO5	HTTP	0	SHA1,MD5	image/png	-	0.000000	-	F	2349	2349	0	0	F	-	ce404e2f475dbf547ee8195dac0eff0a	3eb3390ad49e78b3e872aaf154256496e132e9f3	-	-
+1358056875.055024	Fbxl4Z1DiCOH2IcW63	208.131.138.217	192.168.26.10	CXAlvj4APfPGGERh14	HTTP	0	SHA1,MD5	application/x-dosexec	YouNakedPNG.exe	0.111379	-	F	48180	176128	0	0	F	-	1f2a89549d8457856bdf7c346631f2b4	b5bf81c20f76c0e89bbfbacffe60145953a9152b	-	-
+#close	2014-04-03-10-10-18

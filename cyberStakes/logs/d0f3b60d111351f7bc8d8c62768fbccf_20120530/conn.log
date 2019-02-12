@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-04-03-09-57-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1338416651.181624	Cx0xbi40k2Oq3ACqu5	192.168.88.10	1037	158.255.215.154	80	tcp	http	1.148072	274	22392	SF	-	0	ShADadFf	15	882	20	23200	(empty)
+1338416652.550097	CDelfm2A4x4D8Lczpj	192.168.88.10	1039	93.170.52.50	80	tcp	http	0.262017	372	238	SF	-	0	ShADadfF	5	580	5	442	(empty)
+1338416648.438874	CTrNBu3SycMXba2Aa	192.168.88.10	1029	4.2.2.3	53	udp	dns	5.490444	145	417	SF	-	0	Dd	5	285	5	557	(empty)
+1338416652.813284	ChNNve2i0FSN6cS14h	192.168.88.10	1040	93.170.52.30	80	tcp	http	0.745464	292	13934	SF	-	0	ShADadfF	10	700	14	14498	(empty)
+1338416648.456282	ClfPXO2RHpfbedwmJb	192.168.88.10	1030	62.109.23.206	80	tcp	http	5.499550	282	710	RSTO	-	0	ShADdfR	6	530	3	838	(empty)
+1338416652.416628	CHNIh03It3xSpgOCk2	192.168.88.10	1038	158.255.215.154	80	tcp	http	2.913268	178	359773	RSTO	-	0	ShADadR	152	6266	265	370381	(empty)
+1338416632.527849	CdxrAO1INgVDtg7sTi	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000751	626	0	S0	-	0	D	2	682	0	0	(empty)
+1338416632.52818	CPdYHj1upGiByr4Gb3	192.168.88.10	68	192.168.88.1	67	udp	dhcp	12.634229	314	900	SF	-	0	dD	1	342	3	984	(empty)
+1338416651.101763	CrMGFM3JA4rs9dtBK9	192.168.88.10	1035	239.255.255.250	1900	udp	-	6.352101	399	0	S0	-	0	D	3	483	0	0	(empty)
+1338416653.93061	CnKTeT3fHwc8L9PVc9	192.168.88.10	1042	216.137.47.65	80	tcp	http	60.694829	1326	19914	RSTO	-	0	ShADadR	17	2014	18	20642	(empty)
+1338416648.977852	CfOB9113gE5Ykce0k7	192.168.88.10	1032	158.255.215.154	80	tcp	http	65.648027	334	557	RSTO	-	0	ShADadfR	6	582	4	725	(empty)
+1338416648.923462	CRSgRlzXeDrK8q6Oe	192.168.88.10	1031	93.170.52.30	80	tcp	http	3.364750	328	1830	S3	-	0	ShADadf	6	584	5	2034	(empty)
+1338416653.930101	C5c0KH1FfPvenQBNP6	192.168.88.10	1041	216.137.47.65	80	tcp	http	65.695899	1060	91948	RSTO	-	0	ShADadR	52	3148	67	94636	(empty)
+#close	2014-04-03-09-57-10

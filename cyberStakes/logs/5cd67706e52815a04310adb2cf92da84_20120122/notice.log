@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-04-03-10-01-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1327256431.712281	CtLkEEsW8Ec3u08Id	192.168.53.10	1039	95.57.120.104	443	-	-	-	tcp	SSL::Invalid_Server_Cert	SSL certificate validation failed with (self signed certificate)	emailAddress=root@ip104.gohost.kz,CN=ip104.gohost.kz,OU=SomeOrganizationalUnit,O=SomeOrganization,L=SomeCity,ST=SomeState,C=--	192.168.53.10	95.57.120.104	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1327256431.819925	Ce7uBP1mMPwj7JleAi	192.168.53.10	1031	176.34.179.106	80	FNIX4j1o729SRamep8	application/x-dosexec	http://new-themes.net/w.php?f=19&e=2	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 39%  Last seen: 2012-03-16 22:07:23	https://www.virustotal.com/en/search/?query=e8bf114536e378c595c23381a635f341b58dbe92	192.168.53.10	176.34.179.106	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1327256451.417656	CVzD7b3VKwOYEVBgx1	192.168.53.10	1037	176.34.179.106	80	FQwiW149lRlZezrxR	application/x-shockwave-flash	http://new-themes.net/content/field.swf	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 39%  Last seen: 2012-05-08 01:15:21	https://www.virustotal.com/en/search/?query=6b882671281f472684777fec6903363f50a7d6c2	192.168.53.10	176.34.179.106	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-04-03-10-01-07

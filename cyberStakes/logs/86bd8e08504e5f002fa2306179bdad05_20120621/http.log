@@ -1,0 +1,40 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-27-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1340253444.932341	Cmx8DJdBUiQKV2aG	192.168.29.10	1030	74.220.207.165	80	1	GET	bipolargentlemen.com	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	1536	200	OK	-	-	-	(empty)	-	-	-	-	-	FEE5PV1WlAvy3A7ln5	text/html
+1340253445.228149	CZmjC82qHCieuBBQSc	192.168.29.10	1031	82.165.113.142	80	1	GET	onmouseup.info	/stats.php	http://bipolargentlemen.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1340253445.116522	Cmx8DJdBUiQKV2aG	192.168.29.10	1030	74.220.207.165	80	2	GET	bipolargentlemen.com	/Images/Metals.jpg	http://bipolargentlemen.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	101865	200	OK	-	-	-	(empty)	-	-	-	-	-	FEK3ozoqwMtIegMk1	image/jpeg
+1340253445.837039	CCcnfc4nKGtlSbL3Gj	192.168.29.10	1032	37.157.255.171	80	1	GET	kipoelse.tk	/61853516.html	http://bipolargentlemen.com/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	12185	200	OK	-	-	-	(empty)	-	-	-	-	-	FPxMro30mBhKspOkff	text/html
+1340253446.559368	CCcnfc4nKGtlSbL3Gj	192.168.29.10	1032	37.157.255.171	80	2	GET	kipoelse.tk	/98765.pdf	http://kipoelse.tk/61853516.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	41351	200	OK	-	-	-	(empty)	-	-	-	-	-	FErp9wB1RQ3Aq0Csf	application/pdf
+1340253467.827054	CCcnfc4nKGtlSbL3Gj	192.168.29.10	1032	37.157.255.171	80	3	GET	kipoelse.tk	/2.html	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	36864	200	OK	-	-	-	(empty)	-	-	-	-	-	F4vo8k1lxp73Yp9wQl	application/x-dosexec
+1340253474.282687	CbajZ8TgZQgfbbR72	192.168.29.10	1037	37.157.255.171	80	1	GET	kipoelse.tk	/55993.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	76321	200	OK	-	-	-	(empty)	-	-	-	-	-	FV9Xcu4sJJCmX9ghdi	application/zip
+1340253474.759438	CbajZ8TgZQgfbbR72	192.168.29.10	1037	37.157.255.171	80	2	GET	kipoelse.tk	/55993.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	76321	200	OK	-	-	-	(empty)	-	-	-	-	-	FpPn4GkJq8q0v16jk	application/zip
+1340253475.13991	CbajZ8TgZQgfbbR72	192.168.29.10	1037	37.157.255.171	80	3	GET	kipoelse.tk	/55993.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	76321	200	OK	-	-	-	(empty)	-	-	-	-	-	FUCwYf3G6y6t11qC62	application/zip
+1340253475.507803	CbajZ8TgZQgfbbR72	192.168.29.10	1037	37.157.255.171	80	4	GET	kipoelse.tk	/1.html	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	36864	200	OK	-	-	-	(empty)	-	-	-	-	-	FCx1SqDDXVhtepOPg	application/x-dosexec
+1340253480.123717	CULZuY1yfUiwvwNwMb	192.168.29.10	1038	37.157.255.171	80	1	GET	37.157.255.171	/962579.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	187904	200	OK	-	-	-	(empty)	-	-	-	-	-	FE5NcB4Pdv176ZlIl3	binary
+1340253480.861335	CULZuY1yfUiwvwNwMb	192.168.29.10	1038	37.157.255.171	80	2	GET	37.157.255.171	/962579.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	401408	200	OK	-	-	-	(empty)	-	-	-	-	-	FZGt1H2HO1gxhGrgSg	binary
+1340253481.997216	CULZuY1yfUiwvwNwMb	192.168.29.10	1038	37.157.255.171	80	3	GET	37.157.255.171	/962579.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	118784	200	OK	-	-	-	(empty)	-	-	-	-	-	FjX4ZV3tD6SGSzCFIl	binary
+1340253482.523351	CULZuY1yfUiwvwNwMb	192.168.29.10	1038	37.157.255.171	80	4	GET	37.157.255.171	/962579.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	169984	200	OK	-	-	-	(empty)	-	-	-	-	-	Fd1kDG3tGUJNJ6Wefc	binary
+1340253483.068641	CULZuY1yfUiwvwNwMb	192.168.29.10	1038	37.157.255.171	80	5	GET	37.157.255.171	/962579.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	368128	200	OK	-	-	-	(empty)	-	-	-	-	-	FplkUH20M8VRG3fW3c	binary
+1340253483.775026	CULZuY1yfUiwvwNwMb	192.168.29.10	1038	37.157.255.171	80	6	GET	37.157.255.171	/962579.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	79328	200	OK	-	-	-	(empty)	-	-	-	-	-	FDxJ26JeCh5Wminu6	binary
+1340253484.156049	CULZuY1yfUiwvwNwMb	192.168.29.10	1038	37.157.255.171	80	7	GET	37.157.255.171	/962579.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	666	200	OK	-	-	-	(empty)	-	-	-	-	-	Fi0WHYapxZRu5DEb4	binary
+1340253484.638933	CPCQOv2OrkUuC8chg9	192.168.29.10	1040	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	28	200	OK	-	-	-	(empty)	-	-	-	-	-	FPCiAmtwU69GsoeSj	text/plain
+1340253484.733192	CYuw7sWMH8NIC9qJ4	192.168.29.10	1041	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340253484.741068	C2GwHU34lrhHBOLNli	192.168.29.10	1043	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=2&d=7&s=121	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340253484.757976	CNi94C3tKrqJMJLtWg	192.168.29.10	1047	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=4&d=7&s=1	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340253484.760282	CQOCSIyh6Yd1CwvI	192.168.29.10	1049	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=5&d=7&s=20	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340253484.758813	CX4bA01RSRx6qo5oo3	192.168.29.10	1045	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=3&d=7&s=131	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340253485.326826	Cs1zgi4kIzjWXkTj8k	192.168.29.10	1053	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=6&d=7&s=21	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340253485.351188	CHsTu9kes1XRoZN02	192.168.29.10	1055	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=7&d=7&s=30	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340253485.381279	C3tfWu44iQzlWMjJ5l	192.168.29.10	1058	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=526&c=8&d=7&s=31	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340253494.754953	CWje3c3y4yj3JdawYe	192.168.29.10	1069	208.91.207.10	80	1	GET	promos.fling.com	/geo/txt/city.php	-	-	0	28	200	OK	-	-	-	(empty)	-	-	-	-	-	FdYbwTtMPojLSSUdg	text/plain
+1340253494.922167	CmOuf34JmPvfVQPus5	192.168.29.10	1070	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=31212032&c=1&d=7&s=0	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340253494.955096	CcWRqR2u24rwzJzFh	192.168.29.10	1072	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=31212032&c=2&d=7&s=110	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340253495.047148	CtKxGL301MvwKAVt24	192.168.29.10	1074	184.172.204.122	80	1	GET	livecounter.co	/count.php?id=31212032&c=3&d=7&s=10	-	Opera/9 (Windows NT 5.1; US; x86)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1340253497.669305	CpWeE72SjjnQ6XCtl9	192.168.29.10	1077	116.255.235.9	80	1	GET	116.255.235.9	/api/urls/?ts=6ed910aa&affid=56300	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB0.0; .NET CLR 1.1.4322)	0	0	404	NOT FOUND	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-04-03-10-27-26

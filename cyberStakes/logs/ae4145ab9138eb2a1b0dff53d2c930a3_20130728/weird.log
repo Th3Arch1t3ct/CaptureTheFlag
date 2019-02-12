@@ -1,0 +1,29 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-54-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1375053626.728983	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1375053635.717802	ClCyw03N3HmfzyViLf	192.168.27.10	1116	208.71.121.47	80	unescaped_special_URI_char	-	F	bro
+1375053635.801278	CcARFseXf9klRZx51	192.168.27.10	1117	208.71.121.47	80	unescaped_special_URI_char	-	F	bro
+1375053635.944165	CIqcPD2gv50VRSCi9	192.168.27.10	1126	54.230.86.130	80	unescaped_special_URI_char	-	F	bro
+1375053636.064413	CiBinxk8ZubeSdGJ	192.168.27.10	1129	64.188.48.245	80	unescaped_special_URI_char	-	F	bro
+1375053636.629757	C9jIBM1e9fbzwM3AQ9	192.168.27.10	1159	74.125.224.251	80	unescaped_special_URI_char	-	F	bro
+1375053640.61027	CEaLfT1tlArR5tm2r3	192.168.27.10	1160	50.57.204.41	80	HTTP_version_mismatch	-	F	bro
+1375053641.468391	Crlph848e4WLDJnlOk	192.168.27.10	1174	50.57.204.41	80	HTTP_version_mismatch	-	F	bro
+1375053654.822566	CzorzQ1CnO1xlxE39l	192.168.27.10	1216	54.243.226.106	80	unescaped_special_URI_char	-	F	bro
+1375053656.5285	CrIQYl3VxEH9Wvn1ae	192.168.27.10	1233	54.213.60.134	80	unescaped_special_URI_char	-	F	bro
+1375053657.728113	C4zaP34L1CXU942Pbh	192.168.27.10	1167	74.125.224.251	80	unescaped_special_URI_char	-	F	bro
+1375053661.959989	C5zA6kbDOk25EcEfb	192.168.27.10	1309	50.57.204.41	80	HTTP_version_mismatch	-	F	bro
+1375053661.983988	CUG0ZPsVdMiMJUgP4	192.168.27.10	1310	50.57.204.41	80	HTTP_version_mismatch	-	F	bro
+1375053665.00153	CxvH213U2xc68fYLdf	192.168.27.10	1388	66.70.125.98	80	unescaped_special_URI_char	-	F	bro
+1375053665.373512	CYpQIk2t2OdwXr7399	192.168.27.10	1394	69.194.244.20	80	window_recision	-	F	bro
+1375053665.380205	C1TPK44Nf7tZzY8BCh	192.168.27.10	1409	8.21.24.35	80	unescaped_special_URI_char	-	F	bro
+1375053669.597563	CePjPv3C5QYCG9AKBe	192.168.27.10	1421	72.21.91.187	80	unescaped_special_URI_char	-	F	bro
+1375053680.152242	CyAtBf2HIOYD7d7Yw9	192.168.27.10	1445	69.194.244.11	80	window_recision	-	F	bro
+1375053695.471448	CdksS61V8r8qW3G4y3	192.168.27.10	1462	69.172.216.56	80	unescaped_special_URI_char	-	F	bro
+1375053695.505692	CrgLQt2ZA9KwRU0MJc	192.168.27.10	1463	69.172.216.56	80	unescaped_special_URI_char	-	F	bro
+#close	2014-04-03-10-54-58

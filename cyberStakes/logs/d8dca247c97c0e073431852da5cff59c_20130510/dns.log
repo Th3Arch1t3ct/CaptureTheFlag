@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-20-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1368221848.215192	CRpdw641bVcTE6Wuk3	192.168.114.10	1029	4.2.2.3	53	udp	8845	57catalog.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.143.13.157	38400.000000	F
+1368221849.991942	CRpdw641bVcTE6Wuk3	192.168.114.10	1029	4.2.2.3	53	udp	55437	jimmyd.wereherol.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	198.50.187.26	38400.000000	F
+1368221860.57897	CRpdw641bVcTE6Wuk3	192.168.114.10	1029	4.2.2.3	53	udp	30350	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,65.55.13.243	975.000000,82.000000	F
+1368221860.787507	CRpdw641bVcTE6Wuk3	192.168.114.10	1029	4.2.2.3	53	udp	61583	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	2612.000000,600.000000	F
+1368221863.128834	CRpdw641bVcTE6Wuk3	192.168.114.10	1029	4.2.2.3	53	udp	45704	26.187.50.198.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1368221863.128834	CRpdw641bVcTE6Wuk3	192.168.114.10	1029	4.2.2.3	53	udp	45704	26.187.50.198.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1368221863.128834	CRpdw641bVcTE6Wuk3	192.168.114.10	1029	4.2.2.3	53	udp	45704	26.187.50.198.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-20-38

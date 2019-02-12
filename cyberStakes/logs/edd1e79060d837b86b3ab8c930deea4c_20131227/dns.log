@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-44-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1388181424.566229	C2duEG4I7kxWPTK3rb	192.168.25.10	1035	4.2.2.3	53	udp	43428	letempsquipasse.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.186.33.19	86400.000000	F
+1388181427.274916	C2duEG4I7kxWPTK3rb	192.168.25.10	1035	4.2.2.3	53	udp	25767	www3.ds829cvqnayr33.4pu.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.116.34.246	30.000000	F
+1388181428.300286	C2duEG4I7kxWPTK3rb	192.168.25.10	1035	4.2.2.3	53	udp	7334	www1.u7hm8aex.4pu.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.116.34.246	30.000000	F
+1388181429.310714	C2duEG4I7kxWPTK3rb	192.168.25.10	1035	4.2.2.3	53	udp	29089	l.yimg.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fd-geoycs-l.gy1.b.yahoodns.net,ds-fo-anyycs-l.ay1.b.yahoodns.net,216.115.97.236	916.000000,41.000000,31.000000	F
+1388181444.947023	C2duEG4I7kxWPTK3rb	192.168.25.10	1035	4.2.2.3	53	udp	49571	www2.w6eg8aj3.jvvg.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.116.34.246	86400.000000	F
+1388181435.229905	C2duEG4I7kxWPTK3rb	192.168.25.10	1035	4.2.2.3	53	udp	33696	246.34.116.188.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1388181435.229905	C2duEG4I7kxWPTK3rb	192.168.25.10	1035	4.2.2.3	53	udp	33696	246.34.116.188.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1388181435.229905	C2duEG4I7kxWPTK3rb	192.168.25.10	1035	4.2.2.3	53	udp	33696	246.34.116.188.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1388181435.229905	C2duEG4I7kxWPTK3rb	192.168.25.10	1035	4.2.2.3	53	udp	33696	246.34.116.188.in-addr.arpa	1	C_INTERNET	12	PTR	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1388181491.513159	CL1q6o3XnjbbHQb3Og	192.168.25.10	1035	64.79.80.221	53	udp	42914	www.bing.com	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	209.190.46.201	86400.000000	F
+#close	2014-04-03-10-44-56

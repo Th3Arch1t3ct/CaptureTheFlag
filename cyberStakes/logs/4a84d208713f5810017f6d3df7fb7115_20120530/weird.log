@@ -1,0 +1,29 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-04-03-10-12-42
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1338422527.099454	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1338422544.688298	CvzFLd3h0RxG8mvVhd	192.168.27.10	1108	184.30.242.110	443	SYN_after_reset	-	F	bro
+1338422544.695442	CvzFLd3h0RxG8mvVhd	192.168.27.10	1108	184.30.242.110	443	data_after_reset	-	F	bro
+1338422553.566844	CDh3Tc1SaGYyca0I1a	192.168.27.10	1118	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338422553.568835	CMW9w7VndCOUYLXq4	192.168.27.10	1120	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338422553.570989	Cho8c02osxi9hQPiA7	192.168.27.10	1122	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338422553.583853	CsIfJL98KgfK3m2G2	192.168.27.10	1124	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338422553.601578	CL2qE1EWPOtcXcou4	192.168.27.10	1126	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338422553.691885	CSAnCh1xcPKShHCXS9	192.168.27.10	1129	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338422553.85873	CpHa6Q2KAxie3Mh82	192.168.27.10	1132	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338422553.905362	C6SAXW1R1IjI1kwnd8	192.168.27.10	1134	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338422554.119695	CHGBPg4U0Sy0C2ldTi	192.168.27.10	1136	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338422554.126995	CeQ5Wb37bDZ2X6wjld	192.168.27.10	1138	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338422554.163773	C3wCqC3wTlFXPvVwEk	192.168.27.10	1140	83.133.123.20	53	DNS_Conn_count_too_large	-	F	bro
+1338422560.613136	Ck4R7O2Olh1y0Zldbk	192.168.27.10	1150	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338422560.74083	CLNbj44vosAVqNsn4b	192.168.27.10	1152	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338422561.845764	C3J4ur46WhvuHL9Ysh	192.168.27.10	1155	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338422561.924664	CChdJE4fugfERcSI1c	192.168.27.10	1157	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338422561.95546	CJc9co3Otic1Pi0nUj	192.168.27.10	1159	66.85.130.234	53	DNS_Conn_count_too_large	-	F	bro
+1338422567.738414	CHeYRu2yfvDEv5K0gg	192.168.27.10	1165	31.193.12.27	80	bad_HTTP_request	-	F	bro
+#close	2014-04-03-10-12-43

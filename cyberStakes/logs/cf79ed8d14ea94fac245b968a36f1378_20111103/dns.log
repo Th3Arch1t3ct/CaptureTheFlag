@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-17-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1320341321.420826	CLVuseY97CkBXt211	192.168.113.10	1028	4.2.2.3	53	udp	4231	www.kuangzhanji.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	210.14.78.18	3583.000000	F
+1320341356.132698	CI59FG2iicdJ4iQJs4	192.168.113.10	1028	4.2.2.3	53	udp	19846	jsj.nshl.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	121.12.173.5	28800.000000	F
+1320341356.962699	CI59FG2iicdJ4iQJs4	192.168.113.10	1028	4.2.2.3	53	udp	6533	js.tongji.linezing.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	img.gslb.tbcache.com,119.84.77.250,119.84.122.240,119.84.122.250,117.27.140.240,117.27.140.250,118.123.202.240,118.123.202.250,119.84.77.240	1800.000000,300.000000,300.000000,300.000000,300.000000,300.000000,300.000000,300.000000,300.000000	F
+1320341358.913468	CI59FG2iicdJ4iQJs4	192.168.113.10	1028	4.2.2.3	53	udp	48261	dt.tongji.linezing.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ydt.lzs.vip.cnz.alimama.com,119.42.227.250	1800.000000,300.000000	F
+1320341376.344806	ClnKDG1XImR1ivxZre	192.168.113.10	1028	4.2.2.3	53	udp	16772	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,24.143.201.35,24.143.201.43	10632.000000,76.000000,16291.000000,10.000000,10.000000	F
+1320341391.667507	C95NWc3j5iRVsqtMc1	192.168.113.10	1028	4.2.2.3	53	udp	14211	sbrjg6.3322.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	121.12.173.5	60.000000	F
+#close	2014-04-03-10-17-34

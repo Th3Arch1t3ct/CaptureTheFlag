@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-11-09-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1341127746.439489	Czrfyd5FkA2PhzI92	192.168.44.10	1029	4.2.2.3	53	udp	50573	top-1o.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	88.198.120.228	3580.000000	F
+1341127746.740843	Czrfyd5FkA2PhzI92	192.168.44.10	1029	4.2.2.3	53	udp	47501	img3.depositfiles.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	88.85.74.67,88.85.74.101,88.85.74.108	300.000000,300.000000,300.000000	F
+1341127748.281096	Czrfyd5FkA2PhzI92	192.168.44.10	1029	4.2.2.3	53	udp	46221	26.ldgaga.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	195.210.47.239	3600.000000	F
+#close	2014-04-03-11-09-04

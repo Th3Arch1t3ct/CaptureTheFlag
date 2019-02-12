@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-16-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1338534990.672931	CDX0Of3bWZQb81BDy8	192.168.5.10	1029	4.2.2.5	53	udp	45968	beverageplace.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	76.163.34.123	21598.000000	F
+1338534991.579534	CDX0Of3bWZQb81BDy8	192.168.5.10	1029	4.2.2.5	53	udp	27537	www.ultralang.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	ultralang.com,65.60.4.74	14400.000000,14400.000000	F
+1338534991.938923	CDX0Of3bWZQb81BDy8	192.168.5.10	1029	4.2.2.5	53	udp	17042	reejiwnje.tk	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.72.248.168	10.000000	F
+1338534992.671517	CDX0Of3bWZQb81BDy8	192.168.5.10	1029	4.2.2.5	53	udp	49043	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.g.akamai.net,96.17.109.42,96.17.109.9	8957.000000,135.000000,6440.000000,20.000000,20.000000	F
+1338534989.660898	C2fDD34KWFScWVTQl9	192.168.5.10	1029	4.2.2.3	53	udp	45968	beverageplace.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	76.163.34.123	21600.000000	F
+1338535044.823271	Cg52sA3ntM34T80eQ9	192.168.5.10	1041	8.8.8.8	53	udp	13107	promos.fling.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.91.207.10	260.000000	F
+1338535053.781716	C1BDmr4CevfnTinxe	192.168.5.10	1029	4.2.2.3	53	udp	64660	11t7ckp.cdn107.downloadsconsulting.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.140.131.157	3600.000000	F
+1338535045.084593	CEqa7m4zzQrUFEbUbg	192.168.5.10	1044	66.85.130.234	53	udp	55423	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1338535045.089632	CA58IfDCOYw66rZQl	192.168.5.10	1046	66.85.130.234	53	udp	55423	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1338535045.100399	CJYxys1LapKXwZQXxd	192.168.5.10	1048	66.85.130.234	53	udp	55423	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1338535045.103172	C6erxOnJfMpU1yAdj	192.168.5.10	1050	66.85.130.234	53	udp	55423	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1338535045.105123	CdOhy12iGpcqdARtCg	192.168.5.10	1052	66.85.130.234	53	udp	55423	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1338535045.204235	C11R742cKdSSfIeYhb	192.168.5.10	1055	66.85.130.234	53	udp	55423	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1338535045.215907	CogUGVA6mpWWjFoij	192.168.5.10	1058	66.85.130.234	53	udp	55423	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1338535045.232287	Cx7PAu1mCL9EMWfLYd	192.168.5.10	1061	66.85.130.234	53	udp	55423	-	-	-	-	-	-	-	F	F	F	F	0	-	-	F
+1338535052.791818	CFx6QJLCr3O3kHwCb	192.168.5.10	1029	4.2.2.5	53	udp	64660	11t7ckp.cdn107.downloadsconsulting.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-16-21

@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-59-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1371013540.44839	CCUOYa2Yhc6fYNHdHa	192.168.26.10	1029	4.2.2.3	53	udp	8843	jlkm.88ka.cn	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	elingkacom.kalegou.com,115.238.237.213	599.000000,600.000000	F
+1371013541.453712	CpLhzv1iLYkeM0sth6	192.168.26.10	1029	4.2.2.5	53	udp	8843	jlkm.88ka.cn	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	elingkacom.kalegou.com,115.238.237.213	599.000000,600.000000	F
+1371013551.826124	CCUOYa2Yhc6fYNHdHa	192.168.26.10	1029	4.2.2.3	53	udp	40841	www.download.windowsupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.download.windowsupdate.nsatc.net,main.dl.wu.akadns.net,dom.dl.wu.akadns.net,dl.wu.ms.edgesuite.net,a26.d.akamai.net,23.62.111.163,23.62.111.120,23.62.111.160,23.62.111.154,23.62.111.193,23.62.111.161,23.62.111.178,23.62.111.153,23.62.111.185	2614.000000,571.000000,104.000000,58.000000,19708.000000,15.000000,15.000000,15.000000,15.000000,15.000000,15.000000,15.000000,15.000000,15.000000	F
+1371013552.010201	CCUOYa2Yhc6fYNHdHa	192.168.26.10	1029	4.2.2.3	53	udp	24201	crl.startssl.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.startssl.com.edgesuite.net,a1603.g1.akamai.net,107.14.43.162,107.14.43.146	51218.000000,8501.000000,20.000000,20.000000	F
+1371013552.08351	CCUOYa2Yhc6fYNHdHa	192.168.26.10	1029	4.2.2.3	53	udp	61064	crls.wosign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	122.152.175.8,123.125.161.216	300.000000,300.000000	F
+1371013542.453776	CCUOYa2Yhc6fYNHdHa	192.168.26.10	1029	4.2.2.3	53	udp	8843	jlkm.88ka.cn	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+#close	2014-04-03-10-59-31

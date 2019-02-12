@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-04-03-10-44-17
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1339535625.850698	CTIIqk3FBYNVBrOWZ6	192.168.44.10	1033	184.107.164.123	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=verticalartandfitness.com,OU=Domain Control Validated,O=verticalartandfitness.com	serialNumber=07969287,CN=Go Daddy Secure Certification Authority,OU=http://certificates.godaddy.com/repository,O=GoDaddy.com\, Inc.,L=Scottsdale,ST=Arizona,C=US	1308280856.000000	1339903256.000000	-	-	-	a0bd6c2c3c5375555555555555555553	ok
+1339535626.784012	CBCPmX2KKqvhGxb0D1	192.168.44.10	1034	184.107.164.123	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	d1ede09eb181311dae9085c701c3aba0ecdfa4da902a03fc006bd63322c23aeb	-	-	-	-	-	-	-	-	-
+1339535626.784357	CVmsB84sgi8f8nUsx	192.168.44.10	1035	184.107.164.123	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	d1ede09eb181311dae9085c701c3aba0ecdfa4da902a03fc006bd63322c23aeb	-	-	-	-	-	-	-	-	-
+1339535627.296182	CyhAAS1cdM9TSCOrxg	192.168.44.10	1040	184.107.164.123	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	d1ede09eb181311dae9085c701c3aba0ecdfa4da902a03fc006bd63322c23aeb	-	-	-	-	-	-	-	-	-
+1339535627.296568	C2gIz52VIov7j5ofUc	192.168.44.10	1039	184.107.164.123	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	d1ede09eb181311dae9085c701c3aba0ecdfa4da902a03fc006bd63322c23aeb	-	-	-	-	-	-	-	-	-
+1339535631.318207	C9zvbq2ELZ979FuLM4	192.168.44.10	1052	96.17.34.110	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=s-static.ak.facebook.com,ST=California,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1311993164.000000	1343615564.000000	-	-	-	26d4cf1984232a07a57908abdaf2c53d	ok
+1339535670.831367	CIugpD2axw41uABVA3	192.168.44.10	1102	96.17.45.177	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=s-static.ak.fbcdn.net,ST=CALIFORNIA,OU=s-static.ak.fbcdn.net,O=s-static.ak.fbcdn.net,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1312234016.000000	1343856416.000000	-	-	-	13ef8c4315fd282fdf7dbba3913e72c4	ok
+#close	2014-04-03-10-44-18

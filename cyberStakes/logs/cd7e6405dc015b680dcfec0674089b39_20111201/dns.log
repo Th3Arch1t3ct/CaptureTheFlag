@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-09-58-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1322743341.113138	CQz1psNKiSbYKj09j	192.168.65.10	1028	4.2.2.3	53	udp	29825	heart-station.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	72.29.76.67	14385.000000	F
+1322743341.60775	CQz1psNKiSbYKj09j	192.168.65.10	1028	4.2.2.3	53	udp	64899	www.cvtech.com.au	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	202.124.241.200	3600.000000	F
+1322743343.021351	CQz1psNKiSbYKj09j	192.168.65.10	1028	4.2.2.3	53	udp	44164	www.metabole.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	81.169.145.75	7200.000000	F
+1322743344.768276	CQz1psNKiSbYKj09j	192.168.65.10	1028	4.2.2.3	53	udp	21380	growersbay.8dz.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.127.228.44	600.000000	F
+1322743352.039567	CQz1psNKiSbYKj09j	192.168.65.10	1028	4.2.2.3	53	udp	37766	www.kwalai.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	87.106.62.204	43200.000000	F
+1322743378.279448	CZG4LDF0mNPjfGWEj	192.168.65.10	1028	4.2.2.3	53	udp	30087	swupmf.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	swupmf.wip4.adobe.com,swupmf.adobe.com.edgesuite.net,a1137.g.akamai.net,24.143.193.16,24.143.193.35	1585.000000,109.000000,9858.000000,20.000000,20.000000	F
+1322743378.327681	CZG4LDF0mNPjfGWEj	192.168.65.10	1028	4.2.2.3	53	udp	12168	crl.adobe.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.wip4.adobe.com,crl.adobe.com.edgesuite.net,a1180.g.akamai.net,24.143.193.25,24.143.193.42	4934.000000,300.000000,21600.000000,20.000000,20.000000	F
+1322743382.406167	CZG4LDF0mNPjfGWEj	192.168.65.10	1028	4.2.2.3	53	udp	47754	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.45.99,74.125.45.103,74.125.45.104,74.125.45.105,74.125.45.106,74.125.45.147	21687.000000,252.000000,252.000000,252.000000,252.000000,252.000000,252.000000	F
+1322743382.410894	CnCnG3131IxhFMSKOl	192.168.65.10	1052	4.2.2.3	53	udp	57995	dev.simulinux.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	79.137.226.89	3600.000000	F
+#close	2014-04-03-09-58-30

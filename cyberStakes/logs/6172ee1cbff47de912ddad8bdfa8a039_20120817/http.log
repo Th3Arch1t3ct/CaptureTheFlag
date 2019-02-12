@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-21-40
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1345184102.486955	CaJv454qs3gp7TBCFg	192.168.66.10	1030	95.211.81.213	80	1	GET	eduliga.asia	/	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	971	200	OK	-	-	-	(empty)	-	-	-	-	-	FtrkGN3w71fW4yXdod	text/html
+1345184102.603192	CaJv454qs3gp7TBCFg	192.168.66.10	1030	95.211.81.213	80	2	GET	eduliga.asia	/logo.jpg	http://eduliga.asia/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	389	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FJpKXZ3o0Nn6uS7QQ5	text/html
+1345184103.006845	CKpXPqCAp3od7p3C5	192.168.66.10	1031	221.143.43.236	80	1	GET	221.143.43.236	/kisa/news.php	http://eduliga.asia/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1345184104.485467	CPW56J225YywlZRiPi	192.168.66.10	1032	67.205.89.151	80	1	GET	clublionsst-jean.org	/64364535.html	http://eduliga.asia/	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	12419	200	OK	-	-	-	(empty)	-	-	-	-	-	FVSbpG27hePVZ3M4a	text/html
+1345184105.119847	CoW9IA23GZ47sNfr9i	192.168.66.10	1037	67.205.89.151	80	1	GET	clublionsst-jean.org	/98765.p?f	http://clublionsst-jean.org/64364535.html	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)	0	275	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FVT0jA4xeSLooY5iV7	text/html
+1345184105.724923	CEwVO73SEMptuIzS6	192.168.66.10	1038	67.205.89.151	80	1	GET	clublionsst-jean.org	/33256.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12388	200	OK	-	-	-	(empty)	-	-	-	-	-	FfC8dE34W6PV6WCRr8	application/jar
+1345184106.178056	CpbvMr2Vaoa4fnoulh	192.168.66.10	1039	67.205.89.151	80	1	GET	clublionsst-jean.org	/33256.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12388	200	OK	-	-	-	(empty)	-	-	-	-	-	FtCMKPpb9twDzWjq2	application/jar
+1345184106.67608	C1tiNz3zxanFtV2i6	192.168.66.10	1040	67.205.89.151	80	1	GET	clublionsst-jean.org	/33256.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12388	200	OK	-	-	-	(empty)	-	-	-	-	-	FpOPuu2KVOWk1c6MNf	application/jar
+1345184107.764624	CGDM1S2QiPLJ2a6nZa	192.168.66.10	1041	67.205.89.151	80	1	GET	clublionsst-jean.org	/33256.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	12388	200	OK	-	-	-	(empty)	-	-	-	-	-	Fex0Fj1gkRhSFc0iD1	application/jar
+1345184108.225958	CkKk8z1Mwss2CQ4zh	192.168.66.10	1042	67.205.89.151	80	1	GET	clublionsst-jean.org	/3.html	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_10	0	18432	200	OK	-	-	-	(empty)	-	-	-	-	-	FVhtji3jHwsCoASWr4	application/x-dosexec
+1345184116.575035	C9HQPV3qOrM1rn2vad	192.168.66.10	1043	188.40.40.189	80	1	GET	www.dalmo1950.it	/632458.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	86992	200	OK	-	-	-	(empty)	-	-	-	-	-	FimcTOHeYZAYKcNv4	binary
+1345184117.628498	C9HQPV3qOrM1rn2vad	192.168.66.10	1043	188.40.40.189	80	2	GET	www.dalmo1950.it	/632458.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	182272	200	OK	-	-	-	(empty)	-	-	-	-	-	F070k72T5BjDVGLTn7	binary
+1345184118.112158	C9HQPV3qOrM1rn2vad	192.168.66.10	1043	188.40.40.189	80	3	GET	www.dalmo1950.it	/632458.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	389120	200	OK	-	-	-	(empty)	-	-	-	-	-	FHGUn12aex1Oi8imke	binary
+1345184118.954514	C9HQPV3qOrM1rn2vad	192.168.66.10	1043	188.40.40.189	80	4	GET	www.dalmo1950.it	/632458.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	150016	200	OK	-	-	-	(empty)	-	-	-	-	-	F7OR6qfhiOikQWwBf	binary
+1345184119.322794	C9HQPV3qOrM1rn2vad	192.168.66.10	1043	188.40.40.189	80	5	GET	www.dalmo1950.it	/632458.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	599089	200	OK	-	-	-	(empty)	-	-	-	-	-	Fd2tLw4XcoawbJRLN1	binary
+1345184120.525675	C9HQPV3qOrM1rn2vad	192.168.66.10	1043	188.40.40.189	80	6	GET	www.dalmo1950.it	/632458.html	-	User-Agent: Opera/10.60 Presto/2.2.30	0	666	200	OK	-	-	-	(empty)	-	-	-	-	-	FeQnW9ZSB8QDXQUhc	binary
+#close	2014-04-03-10-21-41

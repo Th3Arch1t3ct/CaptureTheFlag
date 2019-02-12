@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-28-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1328651847.460528	CnxWy1hEWoaVyPtpj	192.168.115.10	1029	4.2.2.3	53	udp	30611	goksunfm.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.102.4.163	14384.000000	F
+1328651849.90962	CnxWy1hEWoaVyPtpj	192.168.115.10	1029	4.2.2.3	53	udp	56720	www.onlineipaddress.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	onlineipaddress.com,67.227.132.166	14400.000000,14400.000000	F
+1328651849.981265	CnxWy1hEWoaVyPtpj	192.168.115.10	1029	4.2.2.3	53	udp	65430	pagead2.googlesyndication.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pagead.l.doubleclick.net,74.125.159.157,74.125.159.154,74.125.159.155,74.125.159.156	67.000000,149.000000,149.000000,149.000000,149.000000	F
+1328651849.919919	CNhULj4NnTL6fzUHxl	192.168.115.10	1041	4.2.2.3	53	udp	20881	www.flatcast.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	flatcast.com,92.51.180.143	10800.000000,10800.000000	F
+1328651850.175876	CnxWy1hEWoaVyPtpj	192.168.115.10	1029	4.2.2.3	53	udp	34708	googleads.g.doubleclick.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	pagead.l.doubleclick.net,74.125.159.156,74.125.159.157,74.125.159.154,74.125.159.155	27205.000000,148.000000,148.000000,148.000000,148.000000	F
+1328651850.772562	CnxWy1hEWoaVyPtpj	192.168.115.10	1029	4.2.2.3	53	udp	21402	download.flatcast.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.51.137.94	43200.000000	F
+1328651858.198281	CnxWy1hEWoaVyPtpj	192.168.115.10	1029	4.2.2.3	53	udp	32666	crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.71.190	900.000000,1.000000	F
+1328651858.51393	CnxWy1hEWoaVyPtpj	192.168.115.10	1029	4.2.2.3	53	udp	56731	csc3-2004-crl.verisign.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	crl.verisign.net,199.7.71.190	461.000000,1.000000	F
+#close	2014-04-03-10-28-07

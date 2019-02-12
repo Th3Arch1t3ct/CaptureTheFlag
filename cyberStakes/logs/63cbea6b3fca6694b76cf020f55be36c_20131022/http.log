@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-04-03-10-17-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1382480245.555788	C787Co1AUGTtwPnpRk	192.168.41.10	1036	162.210.192.9	80	1	GET	hotfiles.info	/	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	4894	200	OK	-	-	-	(empty)	-	-	-	-	-	FUYsOoITc6yoyu724	text/html
+1382480245.654375	C787Co1AUGTtwPnpRk	192.168.41.10	1036	162.210.192.9	80	2	GET	hotfiles.info	/d0.png	http://hotfiles.info/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	6968	200	OK	-	-	-	(empty)	-	-	-	-	-	FfAYYi4rDQ0EOU0pDd	image/png
+1382480245.769629	C787Co1AUGTtwPnpRk	192.168.41.10	1036	162.210.192.9	80	3	GET	hotfiles.info	/bg.png	http://hotfiles.info/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	512	200	OK	-	-	-	(empty)	-	-	-	-	-	F97iFr1ldEYQws3Otd	image/png
+1382480245.88353	CGO7bY10mOykanXGP8	192.168.41.10	1037	74.125.28.95	80	1	GET	ajax.googleapis.com	/ajax/libs/jquery/1.10.2/jquery.min.js	http://hotfiles.info/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	93100	200	OK	-	-	-	(empty)	-	-	-	-	-	FmcsL33Yho1DwUDKcf	text/plain
+1382480245.888606	C787Co1AUGTtwPnpRk	192.168.41.10	1036	162.210.192.9	80	4	GET	hotfiles.info	/logo.png	http://hotfiles.info/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	27532	200	OK	-	-	-	(empty)	-	-	-	-	-	FlnD78I2EnEl7IVT8	image/png
+1382480246.122601	CqhBTl4E6PPUUAbbz2	192.168.41.10	1040	162.210.192.9	80	1	GET	hotfiles.info	/h.png	http://hotfiles.info/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	5604	200	OK	-	-	-	(empty)	-	-	-	-	-	FGhFwA3YNMukXlOYGb	image/png
+1382480246.123504	CbOu9e2DH1ON0EeQ1a	192.168.41.10	1039	46.165.228.247	80	1	GET	lp.ncdownloader.com	/afterclick/lpez/naftr.js	http://hotfiles.info/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	11189	200	OK	-	-	-	(empty)	-	-	-	-	-	FA7zLv4uETeFCuG9w3	text/plain
+1382480246.123905	CfSurq2WFEwUd4TyQb	192.168.41.10	1041	141.101.117.103	80	1	GET	filesareonlinek.asia	/v1247/?Iyk	http://hotfiles.info/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	14131	200	OK	-	-	-	(empty)	-	-	-	-	-	FqESvXCZUoeTncW7e	application/x-dosexec
+1382480247.469915	CbOu9e2DH1ON0EeQ1a	192.168.41.10	1039	46.165.228.247	80	2	GET	lp.ncdownloader.com	/afterclick/lpez/arr_l.png	http://hotfiles.info/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	12709	200	OK	-	-	-	(empty)	-	-	-	-	-	FwvPmA3eGshZSadImb	image/png
+1382480247.644004	CY1z7L2dgByKdzufnd	192.168.41.10	1043	46.165.228.247	80	1	GET	lp.ncdownloader.com	/afterclick/lpez/arr_r.png	http://hotfiles.info/	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)	0	12573	200	OK	-	-	-	(empty)	-	-	-	-	-	FZvdtl4j5kKxvLU8mf	image/png
+#close	2014-04-03-10-18-00

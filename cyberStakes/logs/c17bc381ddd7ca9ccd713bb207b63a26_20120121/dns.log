@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-04-03-10-39-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1327141896.212211	CBPYkKdRocRGw5Os8	192.168.120.10	1029	4.2.2.3	53	udp	50572	fishersbouncehouse.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	97.74.144.99	3578.000000	F
+1327141896.410478	CBPYkKdRocRGw5Os8	192.168.120.10	1029	4.2.2.3	53	udp	4495	bigdeal777.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.63.141.211	41844.000000	F
+1327141897.032269	CBPYkKdRocRGw5Os8	192.168.120.10	1029	4.2.2.3	53	udp	35214	mlxlce.1dumb.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.7.62.154	31.000000	F
+1327141907.870045	CDWORb3yHHxiOnXC2j	192.168.120.10	1029	4.2.2.3	53	udp	23945	germangmayner.1dumb.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.7.62.154	31.000000	F
+1327141907.901358	CKXHGP32NZsGKCDnjd	192.168.120.10	1046	4.2.2.3	53	udp	49291	germangmayner.1dumb.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.7.62.154	31.000000	F
+1327141925.218985	CLfbCo1d6OMJL4miw	192.168.120.10	1029	4.2.2.3	53	udp	52618	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.l.google.com,74.125.47.106,74.125.47.147,74.125.47.99,74.125.47.103,74.125.47.104,74.125.47.105	25032.000000,29.000000,29.000000,29.000000,29.000000,29.000000,29.000000	F
+1327141926.064624	CLfbCo1d6OMJL4miw	192.168.120.10	1029	4.2.2.3	53	udp	49034	wwidow.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	31.7.62.154	43200.000000	F
+#close	2014-04-03-10-39-32
